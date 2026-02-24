@@ -1,3 +1,14 @@
+const WPM = 230;
+
+/** Format word count as reading time, e.g. "4h 52min" or "3 min" */
+export function readingTime(wordCount: number): string {
+  const totalMin = Math.max(1, Math.round(wordCount / WPM));
+  if (totalMin < 60) return `${totalMin} min`;
+  const h = Math.floor(totalMin / 60);
+  const m = totalMin % 60;
+  return m > 0 ? `${h}h ${m}min` : `${h}h`;
+}
+
 export function slugify(text: string): string {
   return text
     .toLowerCase()

@@ -242,7 +242,9 @@ export default function ReaderView({
   const textColor = darkMode ? "#e5e5e5" : "#1a1a1a";
 
   const chapterLabel = chapter
-    ? `Ch. ${chapter.number}: ${chapter.title}`
+    ? chapter.partName
+      ? `Pt ${chapter.part}: ${chapter.partName} · Ch. ${chapter.number}: ${chapter.title}`
+      : `Ch. ${chapter.number}: ${chapter.title}`
     : "";
 
   // Determine which chapters show part dividers
@@ -262,6 +264,7 @@ export default function ReaderView({
 
       <ReaderHeader
         bookTitle={bookTitle}
+        chapterLabel={chapterLabel}
         visible={headerVisible}
         onTogglePicker={() => setShowPicker(!showPicker)}
         bookId={bookId}

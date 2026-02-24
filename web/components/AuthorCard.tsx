@@ -15,6 +15,7 @@ export default function AuthorCard({ author }: AuthorCardProps) {
         <img
           src={author.image}
           alt={author.name}
+          loading="lazy"
           className="w-full h-full object-cover"
         />
       </div>

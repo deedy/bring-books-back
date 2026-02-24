@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   description: "Reviving forgotten literary treasures from India with AI translation and illustration",
   icons: { icon: "/favicon.png" },
   metadataBase: new URL("https://grandoldbooks.com"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     siteName: "Grand Old Books",
@@ -47,6 +50,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="preconnect" href="https://storage.googleapis.com" />
         {GA_ID && (
           <>
             <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />

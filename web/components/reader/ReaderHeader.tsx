@@ -4,6 +4,7 @@ import Link from "next/link";
 
 interface ReaderHeaderProps {
   bookTitle: string;
+  chapterLabel: string;
   visible: boolean;
   onTogglePicker: () => void;
   bookId: string;
@@ -19,6 +20,7 @@ const fontSizes: Array<"small" | "medium" | "large"> = ["small", "medium", "larg
 
 export default function ReaderHeader({
   bookTitle,
+  chapterLabel,
   visible,
   onTogglePicker,
   bookId,
@@ -50,7 +52,7 @@ export default function ReaderHeader({
           darkMode ? "bg-black/70" : "bg-white/70"
         } backdrop-blur-md`}
       >
-        <div className="max-w-4xl mx-auto px-4 h-12 flex items-center justify-between">
+        <div className="max-w-4xl mx-auto px-4 h-12 flex items-center justify-between relative">
           <div className="flex items-center gap-3">
             <button
               onClick={onTogglePicker}
@@ -59,10 +61,11 @@ export default function ReaderHeader({
             >
               Chapters
             </button>
-            <span className="text-sm font-medium truncate max-w-[200px] sm:max-w-xs">
-              {bookTitle}
-            </span>
           </div>
+
+          <span className="absolute left-1/2 -translate-x-1/2 text-sm font-medium truncate max-w-[200px] sm:max-w-xs pointer-events-none">
+            {bookTitle}
+          </span>
 
           <div className="flex items-center gap-2">
             <button

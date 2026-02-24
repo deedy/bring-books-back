@@ -5,7 +5,7 @@
       "title": "The Twenty-Second Century",
       "subtitle": "A Vision of the Future",
       "authorId": "rahul-sankrityayan",
-      "coverImage": "/data/images/covers/baeesween-sadi.png",
+      "coverImage": "/data/images/covers/baeesween-sadi.webp",
       "accentColor": "#7B9EC4",
       "genre": [
         "Science Fiction",
@@ -24,7 +24,7 @@
       "title": "Mrinalini",
       "subtitle": "A Historical Romance of 13th Century Bengal",
       "authorId": "bankim-chandra-chattopadhyay",
-      "coverImage": "/data/images/covers/mrinalini.png",
+      "coverImage": "/data/images/covers/mrinalini.webp",
       "accentColor": "#C48B8B",
       "genre": [
         "Historical Fiction",
@@ -43,7 +43,7 @@
       "title": "The Spoilt Child",
       "subtitle": "A Satire of Colonial Calcutta",
       "authorId": "peary-chand-mitra",
-      "coverImage": "/data/images/covers/alaler-gharer-dulal.png",
+      "coverImage": "/data/images/covers/alaler-gharer-dulal.webp",
       "accentColor": "#8FAAB8",
       "genre": [
         "Social Satire",
@@ -62,7 +62,7 @@
       "title": "Ponniyin Selvan",
       "subtitle": "The Son of the Kaveri",
       "authorId": "kalki-krishnamurthy",
-      "coverImage": "/data/images/covers/ponniyin-selvan.png",
+      "coverImage": "/data/images/covers/ponniyin-selvan.webp",
       "accentColor": "#C9A96E",
       "genre": [
         "Historical Fiction",
@@ -82,7 +82,7 @@
     {
       "id": "rahul-sankrityayan",
       "name": "Rahul Sankrityayan",
-      "image": "/data/images/authors/rahul-sankrityayan.png",
+      "image": "/data/images/authors/rahul-sankrityayan.webp",
       "years": "1893–1963",
       "bio": "Rahul Sankrityayan (1893–1963) was an extraordinary figure in Indian literature and scholarship, celebrated as the 'Father of Hindi Travel Literature.' Born as Kedarnath Pandey in the village of Pandaha in Uttar Pradesh, Sankrityayan’s insatiable curiosity led him on intellectual and physical journeys across Asia—including arduous explorations through Tibet, Central Asia, Russia, and Sri Lanka. Fluent in several languages and well-versed in diverse subjects ranging from Buddhist philosophy to Marxist theory, he authored over 150 books, leaving an indelible imprint on Hindi prose.\n\nInitially ordained as a Buddhist monk, Sankrityayan combined spiritual pursuits with a rigorous dedication to social reform and history. His pioneering work 'Baeesween Sadi' (The Twenty-Second Century, 1924) stands among the earliest science fiction novels in Hindi, reflecting his forward-thinking imagination. Sankrityayan’s scholarship brought rare Buddhist manuscripts to India and redefined travel writing, while his vibrant accounts and progressive ideas continue to inspire generations of readers and thinkers.",
       "bookIds": [
@@ -92,7 +92,7 @@
     {
       "id": "bankim-chandra-chattopadhyay",
       "name": "Bankim Chandra Chattopadhyay",
-      "image": "/data/images/authors/bankim-chandra-chattopadhyay.png",
+      "image": "/data/images/authors/bankim-chandra-chattopadhyay.webp",
       "years": "1838–1894",
       "bio": "Bankim Chandra Chattopadhyay (1838–1894) was a pioneering Bengali writer, poet, and novelist whose work laid the foundation for modern Bengali literature. Educated at Presidency College in Kolkata, he was one of the first graduates of the University of Calcutta and served for many years as a government official. With his literary debut in the 1860s, Chattopadhyay quickly emerged as a formidable force in Indian letters, blending narrative artistry with a strong sense of cultural and national identity.\n\nHe achieved legendary status with his composition of \"Vande Mataram,\" a powerful hymn to the motherland that became a rallying cry for India’s independence movement and was later adopted as the national song. Among his many celebrated novels, 'Mrinalini' (1882) stands out as a historical romance vividly set in 13th-century Bengal during the invasion of Bakhtiyar Khilji. Chattopadhyay's novels artfully wove together strands of history, romance, and patriotism, inspiring generations of readers and writers. Often hailed as one of the greatest Bengali novelists, his influence reaches far beyond literature, leaving an indelible mark on India's cultural and political consciousness.",
       "bookIds": [
@@ -102,7 +102,7 @@
     {
       "id": "peary-chand-mitra",
       "name": "Peary Chand Mitra",
-      "image": "/data/images/authors/peary-chand-mitra.png",
+      "image": "/data/images/authors/peary-chand-mitra.webp",
       "years": "1814–1882",
       "bio": "Peary Chand Mitra (1814-1882), known to readers by his pen name Tekchand Thakur, was a pioneering Bengali writer and social reformer whose influence helped shape the literary culture of nineteenth-century Bengal. An alumnus of the progressive Hindu College, Mitra was closely associated with the Young Bengal movement, a group renowned for its radical ideas and advocacy for social change. Immersed in the intellectual ferment of colonial Calcutta, he became one of the earliest champions of writing prose in the colloquial Bengali language, making literature accessible to a broader audience.\n\nIn 1854, Mitra co-founded 'Masik Patrika' (Monthly Magazine), a publication dedicated to modernizing Bengali prose and stimulating public discourse. His most celebrated work, 'Alaler Gharer Dulal' (The Spoilt Child, 1858), is widely regarded as the first Bengali novel. Through sharp wit and vivid characterization, Mitra crafted a biting social satire about the moral decline within a wealthy urban family. His work not only marked the birth of the modern Bengali novel but also pioneered the use of everyday language in fiction, laying the groundwork for future generations of Bengali writers and intellectuals.",
       "bookIds": [
@@ -112,7 +112,7 @@
     {
       "id": "kalki-krishnamurthy",
       "name": "Kalki Krishnamurthy",
-      "image": "/data/images/authors/kalki-krishnamurthy.png",
+      "image": "/data/images/authors/kalki-krishnamurthy.webp",
       "years": "1899–1954",
       "bio": "Kalki Krishnamurthy (R. Krishnamurthy) was one of the most celebrated Tamil writers of the 20th century. A novelist, short story writer, journalist, poet, and critic, he is best known for his historical novels, especially Ponniyin Selvan, which is considered one of the greatest Tamil literary works. He was also a prominent figure in the Indian independence movement and served as editor of the influential Tamil magazine Kalki.",
       "bookIds": [

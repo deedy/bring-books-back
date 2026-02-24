@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getCatalog } from "@/lib/data";
 import ReadButton from "@/components/ReadButton";
 import BookCard from "@/components/BookCard";
+import { readingTime } from "@/lib/utils";
 
 export function generateStaticParams() {
   const catalog = getCatalog();
@@ -24,6 +25,9 @@ export async function generateMetadata({
   return {
     title,
     description,
+    alternates: {
+      canonical: `/books/${id}`,
+    },
     openGraph: {
       title,
       description,
@@ -51,8 +55,28 @@ export default async function BookPage({
     (b) => b.authorId === book.authorId && b.id !== book.id
   );
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    name: book.title,
+    alternateName: book.originalTitle,
+    author: { "@type": "Person", name: author.name },
+    inLanguage: "en",
+    genre: book.genre,
+    datePublished: String(book.originalYear),
+    image: `https://grandoldbooks.com${book.coverImage}`,
+    url: `https://grandoldbooks.com/books/${book.id}`,
+    description: book.summary,
+    numberOfPages: book.totalChapters,
+    publisher: { "@type": "Organization", name: "Grand Old Books" },
+  };
+
   return (
     <div className="max-w-6xl mx-auto px-6 py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Breadcrumb */}
       <div className="mb-8">
         <Link
@@ -73,6 +97,7 @@ export default async function BookPage({
             <img
               src={book.coverImage}
               alt={book.title}
+              loading="lazy"
               className="w-full h-full object-cover"
             />
           </div>
@@ -109,6 +134,7 @@ export default async function BookPage({
           <div className="flex gap-6 mt-2 text-xs text-white/40">
             <span>{book.totalChapters} chapters</span>
             <span>{Math.round(book.wordCount / 1000)}k words</span>
+            <span>{readingTime(book.wordCount)} read</span>
           </div>
 
           <div className="mt-6">
@@ -136,6 +162,7 @@ export default async function BookPage({
               <img
                 src={author.image}
                 alt={author.name}
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>

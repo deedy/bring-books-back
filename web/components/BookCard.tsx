@@ -16,6 +16,7 @@ export default function BookCard({ book, author }: BookCardProps) {
         <img
           src={book.coverImage}
           alt={book.title}
+          loading="lazy"
           className="w-full h-full object-cover"
         />
       </div>

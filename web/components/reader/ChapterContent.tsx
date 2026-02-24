@@ -1,6 +1,7 @@
 "use client";
 
 import { Chapter } from "@/lib/types";
+import { readingTime } from "@/lib/utils";
 import ChapterImage from "./ChapterImage";
 
 interface ChapterContentProps {
@@ -12,6 +13,24 @@ interface ChapterContentProps {
   darkMode: boolean;
   fontSize: "small" | "medium" | "large";
   isFirst: boolean;
+}
+
+/** Split text on quoted segments and style them differently. */
+function renderWithQuotes(text: string, darkMode: boolean) {
+  // Match straight "..." and curly \u201c...\u201d double quotes only
+  const parts = text.split(/(\u201c[^\u201d]*\u201d|"[^"]*")/g);
+  if (parts.length === 1) return text;
+  const quoteColor = darkMode ? "rgb(186, 180, 160)" : "rgb(120, 90, 50)";
+  return parts.map((part, i) => {
+    if (/^[\u201c"]/.test(part)) {
+      return (
+        <span key={i} style={{ color: quoteColor, fontStyle: "italic" }}>
+          {part}
+        </span>
+      );
+    }
+    return part;
+  });
 }
 
 const fontSizeMap = {
@@ -93,7 +112,7 @@ export default function ChapterContent({
           {chapter.wordCount >= 1000
             ? `${(chapter.wordCount / 1000).toFixed(1)}k`
             : chapter.wordCount}{" "}
-          words &middot; {Math.max(1, Math.round(chapter.wordCount / 230))} min read
+          words &middot; {readingTime(chapter.wordCount)} read
         </p>
       </div>
 
@@ -108,7 +127,7 @@ export default function ChapterContent({
             className={i > 0 ? "indent-[1.5em]" : ""}
             style={{ marginBottom: 0, marginTop: 0 }}
           >
-            {p}
+            {renderWithQuotes(p, darkMode)}
           </p>
         ))}
       </div>

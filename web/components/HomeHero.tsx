@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Book, Author } from "@/lib/types";
+import { readingTime } from "@/lib/utils";
 
 interface HomeHeroProps {
   books: Book[];
@@ -60,6 +61,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
                   : book.wordCount}{" "}
                 words
               </span>
+              <span>{readingTime(book.wordCount)} read</span>
             </div>
 
             {/* Genres */}
