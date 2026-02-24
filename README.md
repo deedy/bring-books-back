@@ -35,7 +35,10 @@ Scanned PDF
     |     5. Annotation Generation (GPT-4.1) -> annotations.json
     |         |
     |         v
-    |     6. WebP Conversion + Deploy        -> *.webp
+    |     6. Character Portraits (Gemini)    -> characters/{book-id}/*.png
+    |         |
+    |         v
+    |     7. WebP Conversion + Deploy        -> *.webp
     |
     v
   Done
@@ -193,6 +196,43 @@ config=types.GenerateContentConfig(
 **Checkpoint:** `data/{book}_images_checkpoint.json` — tracks `{key}_a5` and `{key}_web` entries.
 
 **Output:** `{book}_images/` with `{key}.png` (A5) and `{key}_web.png` (landscape) pairs.
+
+### Character Portraits
+
+**Script:** `generate_character_images.py`
+
+Generates square portrait images for the top 6 most-frequent characters per book (30 total across 5 books). Two-phase pipeline for maximum throughput:
+
+```bash
+uv run python generate_character_images.py
+```
+
+**Phase 1 — Prompt generation (15 parallel workers):** For each character, uses `gemini-2.0-flash` to build a portrait prompt from:
+- Character name + description from `annotations.json`
+- First 3 paragraphs from the first chapter where the character appears (from `chapters.json`)
+- System prompt constraining output to physical appearance only (no background/setting)
+
+**Phase 2 — Image generation (15 parallel workers):** Fires all 30 image requests concurrently using `gemini-3-pro-image-preview`. Each request wraps the portrait prompt with:
+- Portrait instruction: "head and upper body, facing slightly to the side, centered, square 1:1"
+- Book-specific style prefix (same as chapter images)
+
+**Character selection:** Top 6 characters per book by chapter appearance count (same ranking logic as the book detail page).
+
+**Slug generation:** `slugify()` — lowercase, spaces→hyphens, strip non-alphanumeric (e.g. "Baburam Babu" → "baburam-babu").
+
+**Post-processing:** Center-crop to exact 1:1 square via PIL.
+
+**Output:**
+- Raw PNGs: `character_images/{book-id}_{slug}.png`
+- Web copies: `web/public/data/images/characters/{book-id}/{slug}.png`
+- Updates each book's `annotations.json` to add `"image": "/data/images/characters/{book-id}/{slug}.png"` to character entries
+
+**Checkpoint:** `data/character_images_checkpoint.json` — tracks completed keys and cached prompts for resume.
+
+**Web integration:** Character portraits appear in:
+- Book detail page — 56px avatar in character cards
+- Reader hover cards — 48px avatar next to character name
+- Glossary page — 64px avatar next to character entries
 
 ---
 
@@ -408,6 +448,7 @@ sarvam/
 ├── generate_*_pdf.py             # Per-book PDF typesetting
 ├── generate_*_json.py            # Per-book web JSON generation
 ├── generate_annotations.py       # Glossary generation (async MapReduce)
+├── generate_character_images.py  # Character portrait generation (30 portraits)
 ├── regenerate_images.py          # Batch image regen (parallel, multi-book)
 └── .env                          # API keys (SARVAM_KEY, OPENAI_API_KEY, GEMINI_API_KEY)
 ```
