@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ChaptersData } from "@/lib/types";
+import { ChaptersData, AnnotationsData } from "@/lib/types";
 import ReaderView from "./ReaderView";
 
 interface ReaderLoaderProps {
@@ -16,14 +16,19 @@ export default function ReaderLoader({ bookId, initialChapter }: ReaderLoaderPro
     accentColor: string;
     totalChapters: number;
   } | null>(null);
+  const [annotations, setAnnotations] = useState<AnnotationsData | undefined>(undefined);
 
   useEffect(() => {
     Promise.all([
       fetch(`/data/books/${bookId}/chapters.json`).then((r) => r.json()),
       fetch(`/data/books/${bookId}/meta.json`).then((r) => r.json()),
-    ]).then(([chapters, meta]) => {
+      fetch(`/data/books/${bookId}/annotations.json`)
+        .then((r) => (r.ok ? r.json() : null))
+        .catch(() => null),
+    ]).then(([chapters, meta, annot]) => {
       setChaptersData(chapters);
       setBookMeta(meta);
+      if (annot) setAnnotations(annot);
     });
   }, [bookId]);
 
@@ -43,6 +48,7 @@ export default function ReaderLoader({ bookId, initialChapter }: ReaderLoaderPro
       chapters={chaptersData.chapters}
       totalChapters={bookMeta.totalChapters}
       initialChapter={initialChapter}
+      annotations={annotations}
     />
   );
 }

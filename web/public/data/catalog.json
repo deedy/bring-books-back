@@ -62,8 +62,8 @@
       "title": "Ponniyin Selvan",
       "subtitle": "The Son of the Kaveri",
       "authorId": "kalki-krishnamurthy",
-      "coverImage": "/data/images/covers/ponniyin-selvan.webp",
-      "accentColor": "#C9A96E",
+      "coverImage": "/data/images/covers/ponniyin-selvan.png",
+      "accentColor": "#C5961B",
       "genre": [
         "Historical Fiction",
         "Epic",
@@ -76,6 +76,26 @@
       "wordCount": 671986,
       "summary": "Set in the 10th century during the zenith of the Chola dynasty, Ponniyin Selvan follows the young warrior Vandiyathevan as he carries a secret message through a kingdom seething with conspiracy. From the grand courts of Thanjavur to the shores of Lanka, political intrigue, forbidden romance, and dynastic ambition collide in Kalki Krishnamurthy's greatest Tamil novel — a sweeping epic of loyalty, betrayal, and the destiny of an empire.",
       "previewText": "We invite our readers to embark with us, for a short while, upon a journey in the boat of imagination, drifting upon the endless flood of time. Let us swiftly traverse centuries at the rate of a hundred years per second, and travel back to an era one thousand and fifty-eight years before today (written in 1950). In the southern part of Thirumunaippadi, the land that lies between Thondai Nadu and Chola Nadu, two leagues west of the sacred Chidambaram temple, there stretches a vast lake, spreading out like a surging sea. This is the Veeranarayana Lake. It measures a league and a half from south to north, and half a league from east to west. Over the passage of time, its name has been shortened, and in these days it is known as the “Veeranarayanam Lake.” Whoever beholds the Veeranarayana Lake during the months of Aadi and Avani, when the fresh floods pour in and the waters brim and overflow, cannot help but feel a surge of pride and wonder at the marvelous deeds accomplished by our ancient Tamil forebears. Did our ancestors act only for their own welfare and that of their contemporaries? Did they not also perform great works that would benefit the countless generations yet to come, wh"
+    },
+    {
+      "id": "barrister-parvatishan",
+      "title": "Barrister Parvatishan",
+      "subtitle": "A Humorous Tale of East Meets West",
+      "authorId": "mokkapati-narasimha-shastri",
+      "coverImage": "/data/images/covers/barrister-parvatishan.png",
+      "accentColor": "#B8860B",
+      "genre": [
+        "Satirical Fiction",
+        "Comedy",
+        "Coming of Age"
+      ],
+      "originalLanguage": "Telugu",
+      "originalTitle": "బారిస్టర్ పార్వతీశం",
+      "originalYear": 1924,
+      "totalChapters": 50,
+      "wordCount": 188289,
+      "summary": "A naive young Brahmin from rural Andhra Pradesh sets out for England to become a barrister, armed with more enthusiasm than common sense. Through a series of hilarious misadventures — from baffling train journeys and seasick ocean crossings to bewildering English customs and ill-fitting suits — Parvatishan stumbles through the culture shock of early 20th century England and returns home a changed man. Mokkapati Narasimha Shastri's beloved 1924 Telugu classic is one of India's funniest novels, a warm-hearted satire on ambition, identity, and the comedy of crossing cultures.",
+      "previewText": "Many people who have read Parvatisham’s book often ask me, “Who is this fellow, anyway?” or, “On whom did you base this character?” or, “How did you ever come up with the idea to write like this?” I am constantly bombarded with such questions. Not only that, but recently the radio folks too said, “Please tell us a few words about this man—Parvatisham—his origins and background.” The answers I gave them, and the gist of what I usually tell all those who question me in this manner, are as follows. Our people say that everything is born with a destiny, or that a face is written by fate. Sometimes, just by looking at a face, you feel like planting a kiss on it. Of course, not everyone gets to do that, but at least you feel like seeing that face, or getting acquainted with the person who owns it. Some faces, on the other hand, make you want to shout; you wish you could go through your entire life without ever seeing them. In the same way, the moment you hear certain names, you are seized by an urge to know all about that person’s background and ancestry. Such a fortunate soul is our Parvatisham. His lotus-like face, its radiance, his birth star and fate—all these are his own. Otherwise,"
     }
   ],
   "authors": [
@@ -117,6 +137,16 @@
       "bio": "Kalki Krishnamurthy (R. Krishnamurthy) was one of the most celebrated Tamil writers of the 20th century. A novelist, short story writer, journalist, poet, and critic, he is best known for his historical novels, especially Ponniyin Selvan, which is considered one of the greatest Tamil literary works. He was also a prominent figure in the Indian independence movement and served as editor of the influential Tamil magazine Kalki.",
       "bookIds": [
         "ponniyin-selvan"
+      ]
+    },
+    {
+      "id": "mokkapati-narasimha-shastri",
+      "name": "Mokkapati Narasimha Shastri",
+      "image": "/data/images/authors/mokkapati-narasimha-shastri.png",
+      "years": "1892–1960",
+      "bio": "Mokkapati Narasimha Shastri (1892-1960) was a celebrated Telugu writer, humorist, and playwright whose works brought laughter and social commentary to Telugu literature. Born in Mogalturru, Andhra Pradesh, he is best known for 'Barrister Parvatishan' (1924), a satirical novel about a young Indian's misadventures in England that became one of the most beloved Telugu novels of the 20th century. Shastri's gift for observational humor and his ability to capture the absurdities of cross-cultural encounters made him a pioneer of humorous writing in Telugu. His works continue to be widely read and have been adapted for stage and screen.",
+      "bookIds": [
+        "barrister-parvatishan"
       ]
     }
   ]

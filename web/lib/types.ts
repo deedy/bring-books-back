@@ -66,3 +66,13 @@ export interface ReadingProgress {
   lastReadAt: string;
   finished: boolean;
 }
+
+export interface Annotation {
+  type: "character" | "proper_noun" | "vocabulary";
+  description: string;
+}
+
+export interface AnnotationsData {
+  glossary: Record<string, Annotation>;
+  chapters: Record<string, string[]>;
+}

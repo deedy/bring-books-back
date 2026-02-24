@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback } from "react";
-import { Chapter } from "@/lib/types";
+import { Chapter, AnnotationsData } from "@/lib/types";
 import { useReadingStore } from "@/lib/store";
 import ReaderHeader from "./ReaderHeader";
 import ProgressBar from "./ProgressBar";
@@ -16,6 +16,7 @@ interface ReaderViewProps {
   chapters: Chapter[];
   totalChapters: number;
   initialChapter?: number;
+  annotations?: AnnotationsData;
 }
 
 export default function ReaderView({
@@ -25,6 +26,7 @@ export default function ReaderView({
   chapters,
   totalChapters,
   initialChapter,
+  annotations,
 }: ReaderViewProps) {
   const updateProgress = useReadingStore((s) => s.updateProgress);
   const savedProgress = useReadingStore((s) => s.getProgress(bookId));
@@ -284,6 +286,7 @@ export default function ReaderView({
         onClose={() => setShowPicker(false)}
         onSelectChapter={goToChapter}
         readChapters={savedProgress ? savedProgress.currentChapter : 0}
+        glossaryUrl={annotations ? `/books/${bookId}/glossary` : undefined}
       />
 
       {/* Thin collapsed bar — visible when header is hidden */}
@@ -336,6 +339,8 @@ export default function ReaderView({
                 darkMode={darkMode}
                 fontSize={fontSize}
                 isFirst={idx === 0}
+                chapterTerms={annotations?.chapters[ch.id]}
+                glossary={annotations?.glossary}
               />
             </div>
           ))}
@@ -355,6 +360,8 @@ export default function ReaderView({
                 darkMode={darkMode}
                 fontSize={fontSize}
                 isFirst={true}
+                chapterTerms={annotations?.chapters[chapter.id]}
+                glossary={annotations?.glossary}
               />
             )}
           </div>

@@ -1,8 +1,9 @@
 "use client";
 
-import { Chapter } from "@/lib/types";
+import { Chapter, Annotation } from "@/lib/types";
 import { readingTime } from "@/lib/utils";
 import ChapterImage from "./ChapterImage";
+import AnnotatedTerm from "./AnnotatedTerm";
 
 interface ChapterContentProps {
   chapter: Chapter;
@@ -13,6 +14,8 @@ interface ChapterContentProps {
   darkMode: boolean;
   fontSize: "small" | "medium" | "large";
   isFirst: boolean;
+  chapterTerms?: string[];
+  glossary?: Record<string, Annotation>;
 }
 
 /** Split text on quoted segments and style them differently. */
@@ -33,6 +36,33 @@ function renderWithQuotes(text: string, darkMode: boolean) {
   });
 }
 
+/** Render text with annotation highlights, then apply quote styling to non-annotated segments. */
+function renderAnnotatedText(
+  text: string,
+  darkMode: boolean,
+  terms: string[],
+  glossary: Record<string, Annotation>,
+) {
+  if (terms.length === 0) return renderWithQuotes(text, darkMode);
+
+  // Sort terms longest-first to avoid partial matches
+  const sorted = [...terms].sort((a, b) => b.length - a.length);
+  // Build regex: match any term (case-sensitive)
+  const escaped = sorted.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const regex = new RegExp(`(${escaped.join("|")})`, "g");
+
+  const parts = text.split(regex);
+  if (parts.length === 1) return renderWithQuotes(text, darkMode);
+
+  return parts.map((part, i) => {
+    const annotation = glossary[part];
+    if (annotation) {
+      return <AnnotatedTerm key={i} term={part} annotation={annotation} darkMode={darkMode} />;
+    }
+    return <span key={i}>{renderWithQuotes(part, darkMode)}</span>;
+  });
+}
+
 const fontSizeMap = {
   small: "text-[16px] leading-[1.75]",
   medium: "text-[17px] leading-[1.75] sm:text-[18px]",
@@ -48,6 +78,8 @@ export default function ChapterContent({
   darkMode,
   fontSize,
   isFirst,
+  chapterTerms,
+  glossary,
 }: ChapterContentProps) {
   return (
     <article className={`mb-16 ${isFirst ? "pt-16" : ""}`}>
@@ -127,7 +159,9 @@ export default function ChapterContent({
             className={i > 0 ? "indent-[1.5em]" : ""}
             style={{ marginBottom: 0, marginTop: 0 }}
           >
-            {renderWithQuotes(p, darkMode)}
+            {chapterTerms && glossary
+              ? renderAnnotatedText(p, darkMode, chapterTerms, glossary)
+              : renderWithQuotes(p, darkMode)}
           </p>
         ))}
       </div>

@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getCatalog } from "@/lib/data";
+import { getCatalog, getAnnotations, getChapters } from "@/lib/data";
 import ReadButton from "@/components/ReadButton";
 import BookCard from "@/components/BookCard";
+import BookPreview from "@/components/BookPreview";
 import { readingTime } from "@/lib/utils";
 
 export function generateStaticParams() {
@@ -54,6 +55,38 @@ export default async function BookPage({
   const otherBooks = catalog.books.filter(
     (b) => b.authorId === book.authorId && b.id !== book.id
   );
+
+  const annotations = getAnnotations(id);
+
+  // Build glossary lists sorted by frequency (most appearances first)
+  type TermCard = { name: string; description: string };
+  let characters: TermCard[] = [];
+  let properNouns: TermCard[] = [];
+  let vocabulary: TermCard[] = [];
+  if (annotations) {
+    const chaptersData = getChapters(id);
+    const chapterIds = chaptersData.chapters.map((ch) => ch.id);
+
+    // Count chapter appearances for each term
+    function byFrequency(type: string): TermCard[] {
+      const entries = Object.entries(annotations!.glossary).filter(
+        ([, a]) => a.type === type
+      );
+      const withCount = entries.map(([name, a]) => {
+        let count = 0;
+        for (const chId of chapterIds) {
+          if (annotations!.chapters[chId]?.includes(name)) count++;
+        }
+        return { name, description: a.description, count };
+      });
+      withCount.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+      return withCount.slice(0, 6);
+    }
+
+    characters = byFrequency("character");
+    properNouns = byFrequency("proper_noun");
+    vocabulary = byFrequency("vocabulary");
+  }
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -151,6 +184,35 @@ export default async function BookPage({
         </p>
       </section>
 
+      {/* Characters */}
+      {characters.length > 0 && (
+        <section className="mt-16">
+          <h2 className="text-xl font-bold text-white mb-6">Characters</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-3xl">
+            {characters.map((ch) => (
+              <div
+                key={ch.name}
+                className="px-3.5 py-3 rounded-lg bg-white/[0.04] border border-white/[0.06]"
+              >
+                <p className="font-semibold text-white text-sm">{ch.name}</p>
+                <p className="text-white/50 text-xs mt-1 leading-relaxed line-clamp-2">
+                  {ch.description}
+                </p>
+              </div>
+            ))}
+          </div>
+          <Link
+            href={`/books/${id}/glossary?type=character`}
+            className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors mt-4"
+          >
+            View other characters
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          </Link>
+        </section>
+      )}
+
       {/* About the Author */}
       <section className="mt-16">
         <h2 className="text-xl font-bold text-white mb-4">
@@ -182,22 +244,56 @@ export default async function BookPage({
         </div>
       </section>
 
-      {/* Preview */}
-      <section className="mt-16">
-        <h2 className="text-xl font-bold text-white mb-4">Preview</h2>
-        <div className="relative max-w-3xl">
-          <p
-            className="text-white/50 leading-relaxed"
-            style={{ fontFamily: "var(--font-serif)" }}
+      {/* Preview / Continue Reading */}
+      <BookPreview bookId={book.id} accentColor={book.accentColor} previewText={book.previewText} />
+
+      {/* Places and terms in this book */}
+      {properNouns.length > 0 && (
+        <section className="mt-16">
+          <h2 className="text-xl font-bold text-white mb-4">Places and Terms in this Book</h2>
+          <div className="space-y-2 max-w-3xl">
+            {properNouns.map((t) => (
+              <p key={t.name} className="text-sm">
+                <span className="font-medium text-white">{t.name}</span>
+                <span className="text-white/40 ml-1.5">— {t.description}</span>
+              </p>
+            ))}
+          </div>
+          <Link
+            href={`/books/${id}/glossary?type=proper_noun`}
+            className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors mt-3"
           >
-            {book.previewText}
-          </p>
-          <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0a0a0a] to-transparent" />
-        </div>
-        <div className="mt-6">
-          <ReadButton bookId={book.id} accentColor={book.accentColor} />
-        </div>
-      </section>
+            View other places &amp; terms
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          </Link>
+        </section>
+      )}
+
+      {/* Vocabulary */}
+      {vocabulary.length > 0 && (
+        <section className="mt-16">
+          <h2 className="text-xl font-bold text-white mb-4">Vocabulary</h2>
+          <div className="space-y-2 max-w-3xl">
+            {vocabulary.map((t) => (
+              <p key={t.name} className="text-sm">
+                <span className="font-medium text-white">{t.name}</span>
+                <span className="text-white/40 ml-1.5">— {t.description}</span>
+              </p>
+            ))}
+          </div>
+          <Link
+            href={`/books/${id}/glossary?type=vocabulary`}
+            className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors mt-3"
+          >
+            View other vocabulary
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+          </Link>
+        </section>
+      )}
 
       {/* Other Books */}
       {otherBooks.length > 0 && (

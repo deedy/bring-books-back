@@ -16,7 +16,7 @@ export default function ReadButton({ bookId, accentColor }: ReadButtonProps) {
     if (progress.finished) {
       label = "Read Again";
     } else {
-      label = `Continue Reading (Ch. ${progress.currentChapter})`;
+      label = `Continue Reading (Ch. ${progress.currentChapter + 1})`;
     }
   }
 

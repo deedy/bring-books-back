@@ -11,6 +11,7 @@ interface ChapterPickerProps {
   onClose: () => void;
   onSelectChapter: (num: number) => void;
   readChapters: number;
+  glossaryUrl?: string;
 }
 
 export default function ChapterPicker({
@@ -21,6 +22,7 @@ export default function ChapterPicker({
   onClose,
   onSelectChapter,
   readChapters,
+  glossaryUrl,
 }: ChapterPickerProps) {
   const currentRef = useRef<HTMLButtonElement>(null);
 
@@ -67,11 +69,11 @@ export default function ChapterPicker({
 
       {/* Drawer */}
       <div
-        className={`fixed top-0 left-0 bottom-0 z-50 w-80 max-w-[85vw] bg-[#111] transform transition-transform duration-300 ease-out overflow-y-auto scrollbar-thin ${
+        className={`fixed top-0 left-0 bottom-0 z-50 w-80 max-w-[85vw] bg-[#111] transform transition-transform duration-300 ease-out flex flex-col ${
           open ? "translate-x-0" : "-translate-x-full"
         }`}
       >
-        <div className="flex items-center justify-between p-4 border-b border-white/10">
+        <div className="flex items-center justify-between p-4 border-b border-white/10 flex-shrink-0">
           <h3 className="text-sm font-semibold text-white/80">
             Table of Contents
           </h3>
@@ -95,7 +97,7 @@ export default function ChapterPicker({
           </button>
         </div>
 
-        <nav className="p-2">
+        <nav className="p-2 flex-1 overflow-y-auto scrollbar-thin">
           {[...parts.entries()].map(([partName, chaps]) => (
             <div key={partName}>
               {partName !== "__none__" && (
@@ -151,6 +153,21 @@ export default function ChapterPicker({
             </div>
           ))}
         </nav>
+
+        {glossaryUrl && (
+          <div className="flex-shrink-0 p-2 border-t border-white/[0.06]">
+            <a
+              href={glossaryUrl}
+              className="w-full text-left px-3 py-2.5 rounded-lg flex items-center gap-3 text-white/40 hover:text-white/70 hover:bg-white/5 transition-colors"
+            >
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="flex-shrink-0 ml-0.5">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+              </svg>
+              <span className="text-sm">Glossary</span>
+            </a>
+          </div>
+        )}
       </div>
     </>
   );
