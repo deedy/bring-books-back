@@ -70,6 +70,7 @@ export interface ReadingProgress {
 export interface Annotation {
   type: "character" | "proper_noun" | "vocabulary";
   description: string;
+  image?: string;
 }
 
 export interface AnnotationsData {

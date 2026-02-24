@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
 import { Book, Author } from "@/lib/types";
 import { readingTime } from "@/lib/utils";
@@ -11,7 +11,36 @@ interface HomeHeroProps {
 }
 
 export default function HomeHero({ books, authors }: HomeHeroProps) {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(() =>
+    Math.floor(Math.random() * books.length)
+  );
+  const [paused, setPaused] = useState(false);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const advance = useCallback(() => {
+    setActiveIndex((prev) => (prev + 1) % books.length);
+  }, [books.length]);
+
+  useEffect(() => {
+    if (paused) return;
+    timerRef.current = setInterval(advance, 5000);
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [paused, advance]);
+
+  const selectIndex = useCallback((idx: number) => {
+    setActiveIndex(idx);
+    setPaused(true);
+  }, []);
+
+  // Resume carousel 8s after last manual interaction
+  useEffect(() => {
+    if (!paused) return;
+    const t = setTimeout(() => setPaused(false), 8000);
+    return () => clearTimeout(t);
+  }, [paused, activeIndex]);
+
   const book = books[activeIndex];
   const author = authors.find((a) => a.id === book.authorId)!;
 
@@ -103,7 +132,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
                 key={b.id}
                 href={`/books/${b.id}`}
                 className="group block"
-                onMouseEnter={() => setActiveIndex(idx)}
+                onMouseEnter={() => selectIndex(idx)}
               >
                 <div
                   className={`relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg transition-all duration-200 group-hover:scale-[1.03] group-hover:shadow-2xl ${
@@ -124,11 +153,14 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
                   )}
                 </div>
                 <div className="mt-3">
-                  <h3 className="text-sm font-semibold text-white truncate">
+                  <h3 className="text-sm font-semibold text-white line-clamp-2 leading-snug">
                     {b.title}
                   </h3>
                   <p className="text-xs text-white/50 mt-0.5">
                     {bookAuthor.name}
+                  </p>
+                  <p className="text-[11px] text-white/30 mt-0.5">
+                    {b.originalLanguage} &middot; {b.originalYear} &middot; {readingTime(b.wordCount)}
                   </p>
                 </div>
               </Link>

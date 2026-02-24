@@ -1,0 +1,4145 @@
+{
+  "glossary": {
+    "Parvatisham": {
+      "type": "character",
+      "description": "The protagonist of the novel, a naive young Brahmin whose misadventures and blunders while traveling from his village to England form the core of the story."
+    },
+    "Mokkapati Narasimha Shastri": {
+      "type": "character",
+      "description": "The author and narrator of the novel, who provides commentary and context about Parvatisham and the writing of the book.",
+      "image": "/data/images/characters/barrister-parvatishan/mokkapati-narasimha-shastri.png"
+    },
+    "Subbarayudu": {
+      "type": "character",
+      "description": "Mentioned as the narrator's elder brother, used to illustrate how the narrator is often identified by his relations."
+    },
+    "Shivashankar Shastri": {
+      "type": "character",
+      "description": "Referred to as the narrator's son-in-law and later as the President who names the book 'Barrister Parvateesham'; a friend and supporter of the narrator."
+    },
+    "Teerthulu": {
+      "type": "character",
+      "description": "Mentioned as the narrator's daughter's father-in-law, another relative by whom the narrator is identified."
+    },
+    "Tallavajhula Shiva Shankara Shastri": {
+      "type": "character",
+      "description": "A friend of the narrator in Guntur, part of the group that encourages and listens to the story."
+    },
+    "Nori Narasimha Shastri": {
+      "type": "character",
+      "description": "A friend of the narrator who praises the story and predicts its popularity."
+    },
+    "Varmu Baburao": {
+      "type": "character",
+      "description": "A friend of the narrator in Guntur, part of the audience for the story."
+    },
+    "Srinivasa Shiromani": {
+      "type": "character",
+      "description": "A friend who offers to act as the scribe for the narrator and encourages him to complete the story."
+    },
+    "Mogalturru": {
+      "type": "proper_noun",
+      "description": "A historic town in Andhra Pradesh, India, known for its fort and royal lineage; the narrator's and Parvatisham's place of residence."
+    },
+    "Gummalooru": {
+      "type": "proper_noun",
+      "description": "A village mentioned as Parvatisham's birthplace and the narrator's mother-in-law's native place."
+    },
+    "Looru": {
+      "type": "proper_noun",
+      "description": "The actual village where Parvatisham was born, according to the narrator."
+    },
+    "Sarsapuram": {
+      "type": "proper_noun",
+      "description": "A place from which the young man in the story is taken to Nidadavolu and Madras."
+    },
+    "Nidadavolu": {
+      "type": "proper_noun",
+      "description": "A town in Andhra Pradesh, India, where the story's protagonist travels."
+    },
+    "Madras": {
+      "type": "proper_noun",
+      "description": "Now called Chennai, a major city in South India and a key location in the novel."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "The country to which Parvatisham travels to study law and become a barrister."
+    },
+    "Sahityalokam": {
+      "type": "proper_noun",
+      "description": "A literary magazine in which the narrator's earlier stories were published."
+    },
+    "Lakshmi": {
+      "type": "proper_noun",
+      "description": "A magazine that published the narrator's stories and also the title of one of his stories."
+    },
+    "Bharati": {
+      "type": "proper_noun",
+      "description": "Another magazine where the narrator's stories appeared."
+    },
+    "Brahma": {
+      "type": "proper_noun",
+      "description": "The Hindu god of creation; Parvatisham humorously claims to be one of Brahma's mind-born sons."
+    },
+    "Rama": {
+      "type": "proper_noun",
+      "description": "A major deity in Hinduism, invoked by the narrator before writing."
+    },
+    "Sharada Press": {
+      "type": "proper_noun",
+      "description": "The printing press in Bezwada where the first edition of the book was printed."
+    },
+    "Bezwada": {
+      "type": "proper_noun",
+      "description": "The colonial-era name for Vijayawada, a city in Andhra Pradesh, India."
+    },
+    "Telugu": {
+      "type": "proper_noun",
+      "description": "A Dravidian language spoken in Andhra Pradesh and Telangana, and the cultural context of the novel."
+    },
+    "Andhra": {
+      "type": "proper_noun",
+      "description": "Refers to the Andhra region and its people in South India."
+    },
+    "Andhraite": {
+      "type": "proper_noun",
+      "description": "A person from the Andhra region."
+    },
+    "Don Quixote": {
+      "type": "proper_noun",
+      "description": "A famous Spanish novel by Cervantes, referenced as a comparison for Parvatisham."
+    },
+    "Tagore": {
+      "type": "proper_noun",
+      "description": "Refers to Rabindranath Tagore, the renowned Bengali poet and Nobel laureate."
+    },
+    "Vemuri": {
+      "type": "proper_noun",
+      "description": "The narrator's family name, associated with the learned and respected families of Mogalturru."
+    },
+    "Narasapuram": {
+      "type": "proper_noun",
+      "description": "A town in Andhra Pradesh, mentioned as a place for further studies."
+    },
+    "Rajahmundry": {
+      "type": "proper_noun",
+      "description": "A major city in Andhra Pradesh, referenced as a destination for higher studies."
+    },
+    "Antarvedi": {
+      "type": "proper_noun",
+      "description": "A pilgrimage town in Andhra Pradesh, known for its chariot festival."
+    },
+    "Narasapuram taluk": {
+      "type": "proper_noun",
+      "description": "An administrative division in Andhra Pradesh, associated with Mogalturru."
+    },
+    "B.L.": {
+      "type": "proper_noun",
+      "description": "Bachelor of Law, an academic degree in law, referenced as a course of study."
+    },
+    "London": {
+      "type": "proper_noun",
+      "description": "The capital of England, where Parvatisham aspires to go for his barrister studies."
+    },
+    "ayonija": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning 'not born from a womb,' used here to humorously claim divine or miraculous birth."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "turban": {
+      "type": "vocabulary",
+      "description": "A long cloth wound around the head, worn as a traditional headgear in India."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A piece of cloth worn loosely over the shoulders, often as part of traditional Indian attire."
+    },
+    "barrister": {
+      "type": "vocabulary",
+      "description": "A lawyer entitled to practice as an advocate, particularly in the higher courts of England; in colonial India, becoming a barrister was a prestigious achievement."
+    },
+    "steamer": {
+      "type": "vocabulary",
+      "description": "A steam-powered ship, commonly used for long-distance travel during the colonial era."
+    },
+    "taluk": {
+      "type": "vocabulary",
+      "description": "An administrative division in India, typically comprising several villages or towns."
+    },
+    "silver screen": {
+      "type": "vocabulary",
+      "description": "A term referring to the cinema or film industry."
+    },
+    "superior edastation": {
+      "type": "vocabulary",
+      "description": "A malapropism or misrendering of 'superior satisfaction' or 'edification,' used humorously to describe a sense of prideful delusion."
+    },
+    "class": {
+      "type": "vocabulary",
+      "description": "Refers to a grade or year in school, as used in Indian English."
+    },
+    "canal": {
+      "type": "vocabulary",
+      "description": "An artificial waterway, often used for irrigation or transport, common in rural Andhra Pradesh."
+    },
+    "Amma": {
+      "type": "character",
+      "description": "The narrator's mother, a central figure in his childhood who cares for and guides him."
+    },
+    "Barrister Parvateesam": {
+      "type": "character",
+      "description": "The protagonist and narrator of the novel, recounting his childhood experiences and later adventures.",
+      "image": "/data/images/characters/barrister-parvatishan/barrister-parvateesam.png"
+    },
+    "Collector": {
+      "type": "character",
+      "description": "The British district administrator who presides over the prize distribution ceremony at the school."
+    },
+    "master": {
+      "type": "character",
+      "description": "The schoolteacher at Narsapur's Taylor High School, responsible for teaching and disciplining the students."
+    },
+    "school inspector": {
+      "type": "character",
+      "description": "A government official who visits the school to examine its functioning and question the students."
+    },
+    "Narsapur": {
+      "type": "proper_noun",
+      "description": "A town in Andhra Pradesh, India, where the narrator goes to attend school."
+    },
+    "Taylor High School": {
+      "type": "proper_noun",
+      "description": "The English-medium high school in Narsapur where the narrator is admitted."
+    },
+    "Godavari": {
+      "type": "proper_noun",
+      "description": "A major river in southern India, near Narsapur, mentioned as a local landmark."
+    },
+    "form": {
+      "type": "vocabulary",
+      "description": "A British colonial term for a grade or class level in school."
+    },
+    "verandah": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch or gallery attached to a building, common in Indian homes and schools."
+    },
+    "headscarf": {
+      "type": "vocabulary",
+      "description": "A scarf worn over the head, often as part of formal or traditional attire."
+    },
+    "Parvateesham": {
+      "type": "character",
+      "description": "The protagonist and narrator, a clever but mischievous young Brahmin boy whose school days and coming-of-age are central to the story.",
+      "image": "/data/images/characters/barrister-parvatishan/parvateesham.png"
+    },
+    "headmaster": {
+      "type": "character",
+      "description": "The principal authority at the school, whose presence causes the students to panic and disperse during their celebration."
+    },
+    "father": {
+      "type": "character",
+      "description": "Parvateesham's father, who is concerned about his son's academic performance and hears reports about his socializing."
+    },
+    "mother": {
+      "type": "character",
+      "description": "Parvateesham's mother, who is eager to see her son married and takes pride in hosting relatives and friends during family ceremonies."
+    },
+    "uncle": {
+      "type": "character",
+      "description": "Parvateesham's uncle, who arranges the upanayanam (sacred thread ceremony) as the first step towards Parvateesham's marriage."
+    },
+    "Narsapuram": {
+      "type": "proper_noun",
+      "description": "A town in Andhra Pradesh, India, which is Parvateesham's home or place of schooling."
+    },
+    "Harikathas": {
+      "type": "proper_noun",
+      "description": "A traditional South Indian form of storytelling that combines narration, music, and philosophy, often recounting stories from Hindu scriptures."
+    },
+    "bhajans": {
+      "type": "proper_noun",
+      "description": "Devotional songs sung in praise of Hindu deities, typically performed in groups during religious gatherings."
+    },
+    "upanayanam": {
+      "type": "proper_noun",
+      "description": "A Hindu sacred thread ceremony marking the initiation of a Brahmin boy into formal education and spiritual life."
+    },
+    "Ashtavadhanam": {
+      "type": "proper_noun",
+      "description": "A traditional Telugu literary performance where a person demonstrates the ability to attend to eight different tasks or questions simultaneously, showcasing memory and poetic skill."
+    },
+    "loincloth": {
+      "type": "vocabulary",
+      "description": "A strip of cloth worn around the hips, traditional attire for boys during certain Hindu rituals."
+    },
+    "sacred thread": {
+      "type": "vocabulary",
+      "description": "A thin cord worn over the shoulder by initiated Hindu males, symbolizing their entry into spiritual and educational life."
+    },
+    "begging bowl": {
+      "type": "vocabulary",
+      "description": "A bowl carried by Brahmin boys after their upanayanam ceremony, symbolizing humility and the seeking of alms as part of their initiation."
+    },
+    "staff": {
+      "type": "vocabulary",
+      "description": "A stick or rod carried as part of traditional attire during Hindu rituals, especially during the upanayanam ceremony."
+    },
+    "Parvateesam": {
+      "type": "character",
+      "description": "The protagonist and narrator, a naive young Brahmin whose misadventures and coming-of-age are the focus of the novel.",
+      "image": "/data/images/characters/barrister-parvatishan/parvateesam.png"
+    },
+    "my uncle": {
+      "type": "character",
+      "description": "Parvateesam's paternal uncle, who is involved in arranging his marriage and often accompanies him on family matters."
+    },
+    "my father": {
+      "type": "character",
+      "description": "Parvateesam's father, a traditional man who is concerned about his son's studies and future, and considers marrying him off to instill responsibility."
+    },
+    "my mother": {
+      "type": "character",
+      "description": "Parvateesam's supportive mother, who advocates for his education and gently persuades his father on his behalf."
+    },
+    "the girl's maternal uncle": {
+      "type": "character",
+      "description": "The bride's maternal uncle, who helps host Parvateesam's family during the bride-seeing visit and orchestrates the singing performance."
+    },
+    "the master of the house": {
+      "type": "character",
+      "description": "The head of the bride's household who serves food to Parvateesam's party during their visit."
+    },
+    "Matriculation": {
+      "type": "proper_noun",
+      "description": "A term from colonial India referring to the final school examination (equivalent to high school graduation), qualifying students for university entrance."
+    },
+    "Eluru": {
+      "type": "proper_noun",
+      "description": "A city in Andhra Pradesh, India, mentioned as a nearby town where the bride's father has gone on court business."
+    },
+    "Sanskrit": {
+      "type": "proper_noun",
+      "description": "An ancient classical language of India, traditionally studied by Brahmins and used in Hindu religious and scholarly contexts."
+    },
+    "javali": {
+      "type": "proper_noun",
+      "description": "A genre of light classical Telugu or Kannada song, often romantic in theme, performed in Carnatic music concerts."
+    },
+    "fifth form": {
+      "type": "vocabulary",
+      "description": "A British colonial term for a grade or class in secondary school, roughly equivalent to 10th grade."
+    },
+    "dowry": {
+      "type": "vocabulary",
+      "description": "Property or money brought by a bride to her husband on marriage, a common practice in traditional Indian weddings."
+    },
+    "harmonium": {
+      "type": "vocabulary",
+      "description": "A small, hand-pumped keyboard instrument, widely used in Indian music for accompaniment."
+    },
+    "ariselu": {
+      "type": "vocabulary",
+      "description": "A traditional South Indian sweet made from rice flour and jaggery, typically prepared during festivals and special occasions."
+    },
+    "garelu": {
+      "type": "vocabulary",
+      "description": "A deep-fried savory snack made from black gram (urad dal) batter, similar to a doughnut, popular in South India."
+    },
+    "leaf": {
+      "type": "vocabulary",
+      "description": "Refers to a banana leaf, traditionally used as a plate for serving meals in South India."
+    },
+    "bottle gourd curry": {
+      "type": "vocabulary",
+      "description": "A vegetable dish made from bottle gourd, a common ingredient in South Indian cuisine."
+    },
+    "raw banana curry": {
+      "type": "vocabulary",
+      "description": "A curry made from unripe bananas, used as a vegetable in South Indian cooking."
+    },
+    "ginger chutney": {
+      "type": "vocabulary",
+      "description": "A spicy condiment made from ginger, commonly served as an accompaniment in South Indian meals."
+    },
+    "Venkata": {
+      "type": "character",
+      "description": "A person in Parvatisham's household, likely a servant or farmhand, who is asked by Parvatisham's father to check on the calves."
+    },
+    "Ravana Rao": {
+      "type": "character",
+      "description": "A middle-aged pleader (lawyer) and local leader who motivates Parvatisham and other youths to join the swaraj movement and organizes public meetings."
+    },
+    "Narayanarao Pantulu": {
+      "type": "character",
+      "description": "A respected leader from Bandar, invited to give an important speech at the public meeting organized by Ravana Rao and others."
+    },
+    "Bode Narayana Rao": {
+      "type": "character",
+      "description": "A local leader involved in the swaraj movement and in organizing public events to welcome national leaders."
+    },
+    "Palakollu": {
+      "type": "proper_noun",
+      "description": "A town in Andhra Pradesh, India, mentioned as a place where meetings and lectures are held."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, referenced as the origin of the surging swaraj movement."
+    },
+    "Bipin Chandra Pal": {
+      "type": "proper_noun",
+      "description": "A prominent Indian nationalist leader and freedom fighter active in the swaraj movement."
+    },
+    "Brundar": {
+      "type": "proper_noun",
+      "description": "A place mentioned as the origin of Mr. Bode Narayana Rao's journey; likely a transliteration of 'Bandar' (Machilipatnam)."
+    },
+    "Mahwa": {
+      "type": "proper_noun",
+      "description": "Likely refers to a local area or community, possibly a neighborhood or region known to the characters."
+    },
+    "Pantulu": {
+      "type": "proper_noun",
+      "description": "A Telugu honorific meaning 'teacher' or 'scholar', used here as a respectful title for Narayanarao."
+    },
+    "Parameshwara": {
+      "type": "proper_noun",
+      "description": "A name for the Hindu god Shiva, invoked here as a blessing."
+    },
+    "pleader": {
+      "type": "vocabulary",
+      "description": "A term for a lawyer or legal advocate, especially in colonial India."
+    },
+    "swaraj": {
+      "type": "vocabulary",
+      "description": "A term meaning 'self-rule' or 'self-governance', central to the Indian independence movement."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian gesture of greeting or respect, performed by joining the palms together."
+    },
+    "dais": {
+      "type": "vocabulary",
+      "description": "A raised platform in a hall or meeting place, used for speakers or honored guests."
+    },
+    "Vedas": {
+      "type": "vocabulary",
+      "description": "Ancient sacred scriptures of Hinduism, often chanted at auspicious occasions."
+    },
+    "Mr. Ravana Rao": {
+      "type": "character",
+      "description": "A recurring character who appears to be a local leader or organizer, relying on the narrator to help arrange large public meetings."
+    },
+    "Chandrapal": {
+      "type": "character",
+      "description": "A great leader from Bengal mentioned as the chief guest for the upcoming meeting, whose visit prompts significant local preparations."
+    },
+    "Ravanarao": {
+      "type": "character",
+      "description": "An alternate spelling of Mr. Ravana Rao, referring to the same character who is instrumental in organizing the meetings."
+    },
+    "ablutions": {
+      "type": "vocabulary",
+      "description": "The act of washing oneself, often referring to ritual or morning cleansing in Indian culture."
+    },
+    "Mr. Ravanarao": {
+      "type": "character",
+      "description": "A prominent Telugu leader who organizes meetings in Narsapuram and serves as a mentor and advisor to the narrator."
+    },
+    "Mr. Paul": {
+      "type": "character",
+      "description": "A speaker at the meeting whose powerful speech leaves a lasting impression on the narrator; he speaks in a language unfamiliar to the crowd."
+    },
+    "Ravana Rao garu": {
+      "type": "character",
+      "description": "A respectful form of address for Mr. Ravanarao, indicating esteem; he provides guidance and advice to Parvateesham."
+    },
+    "curd rice": {
+      "type": "vocabulary",
+      "description": "A South Indian dish made from cooked rice mixed with yogurt, often eaten as a light meal."
+    },
+    "garu": {
+      "type": "vocabulary",
+      "description": "A Telugu honorific suffix used to show respect, similar to 'Mr.' or 'Sir.'"
+    },
+    "Gazavalli Narayana": {
+      "type": "character",
+      "description": "A friend of Parvateesam who acts as an intermediary in arranging a loan for his travel expenses; he is associated with the Narsapuram drama company."
+    },
+    "Thimmanna": {
+      "type": "character",
+      "description": "A character referenced in a short story told by a fellow traveler to illustrate Parvateesam's rustic naivety."
+    },
+    "Vemuri Ramachandraiah": {
+      "type": "character",
+      "description": "Parvateesam’s father, addressed in the letter home as a Veda scholar."
+    },
+    "Guntur": {
+      "type": "proper_noun",
+      "description": "A major city in Andhra Pradesh, referenced as the origin of four distinguished gentlemen who inspire Parvateesam to go abroad."
+    },
+    "Mogalithurru": {
+      "type": "proper_noun",
+      "description": "Parvateesam's native village near Narsapur."
+    },
+    "Vemuru": {
+      "type": "proper_noun",
+      "description": "Parvateesam's family name, indicating his lineage."
+    },
+    "Chennapatnam": {
+      "type": "proper_noun",
+      "description": "The historical Telugu name for the city of Madras (now Chennai), a major urban center in South India."
+    },
+    "Tirupati": {
+      "type": "proper_noun",
+      "description": "A famous pilgrimage city in Andhra Pradesh, referenced by a Brahmin widow."
+    },
+    "Ramasami Mudaliar Choultry": {
+      "type": "proper_noun",
+      "description": "A rest house or inn in Chennapatnam where Parvateesam stays."
+    },
+    "Arava": {
+      "type": "proper_noun",
+      "description": "A colloquial Telugu term for a Tamilian (person from Tamil Nadu), sometimes used pejoratively."
+    },
+    "Tiruchirapalli": {
+      "type": "proper_noun",
+      "description": "A city in Tamil Nadu, home of the Tamilian gentleman Parvateesam meets on the train."
+    },
+    "Dhavaleswaram": {
+      "type": "proper_noun",
+      "description": "A town in Andhra Pradesh, referenced as a place where the Tamilian gentleman worked."
+    },
+    "Settipeta": {
+      "type": "proper_noun",
+      "description": "A town in Andhra Pradesh, referenced in the Tamilian gentleman’s work history."
+    },
+    "Ceylon": {
+      "type": "proper_noun",
+      "description": "The colonial name for Sri Lanka."
+    },
+    "Lanka": {
+      "type": "proper_noun",
+      "description": "The mythological name for Ceylon (Sri Lanka), associated with Ravanasura in Hindu epics."
+    },
+    "Ravanasura": {
+      "type": "proper_noun",
+      "description": "The demon king from the Hindu epic Ramayana, associated with Lanka (Ceylon)."
+    },
+    "Brahmin": {
+      "type": "proper_noun",
+      "description": "A member of the priestly caste in Hindu society, to which Parvateesam belongs."
+    },
+    "Choultry": {
+      "type": "proper_noun",
+      "description": "A traditional South Indian rest house or travelers’ inn."
+    },
+    "Tamilians": {
+      "type": "proper_noun",
+      "description": "People from Tamil Nadu, referenced in contrast to Andhra customs."
+    },
+    "Royapuram": {
+      "type": "proper_noun",
+      "description": "A locality in Chennai, referenced as a tramcar destination."
+    },
+    "Mount Road": {
+      "type": "proper_noun",
+      "description": "A major commercial street in Chennai (Chennapatnam)."
+    },
+    "Parisian Hair Cutting Salon": {
+      "type": "proper_noun",
+      "description": "A Western-style barbershop in Chennapatnam where Parvateesam gets his hair cut."
+    },
+    "Whiteaway Laidlaw": {
+      "type": "proper_noun",
+      "description": "A famous British department store in colonial India, known for imported goods."
+    },
+    "Tempus": {
+      "type": "proper_noun",
+      "description": "A brand of watch Parvateesam purchases."
+    },
+    "Colombo": {
+      "type": "proper_noun",
+      "description": "The capital of Ceylon (Sri Lanka), a major port city on Parvateesam’s journey."
+    },
+    "Tuticorin": {
+      "type": "proper_noun",
+      "description": "A port city in Tamil Nadu, India, from where Parvateesam boards the steamer to Colombo."
+    },
+    "Lord Rama": {
+      "type": "proper_noun",
+      "description": "A major deity in Hinduism, referenced in a humorous context about the bridge to Ceylon."
+    },
+    "Lord Hanuman": {
+      "type": "proper_noun",
+      "description": "A Hindu deity, referenced in connection with the mythological bridge to Lanka."
+    },
+    "Andhras": {
+      "type": "proper_noun",
+      "description": "People from the Andhra region."
+    },
+    "Chilakaluripet": {
+      "type": "proper_noun",
+      "description": "A town in Andhra Pradesh, referenced as a railway destination."
+    },
+    "Basin Bridge": {
+      "type": "proper_noun",
+      "description": "A railway station in Chennai."
+    },
+    "Sahib": {
+      "type": "proper_noun",
+      "description": "A term of respect for men, especially Europeans or high-status individuals, used in colonial India."
+    },
+    "Thomas Cook & Son": {
+      "type": "proper_noun",
+      "description": "A famous British travel agency, instrumental in arranging Parvateesam’s travel."
+    },
+    "Marseilles": {
+      "type": "proper_noun",
+      "description": "A port city in France, where Parvateesam changes from steamer to train."
+    },
+    "Suez": {
+      "type": "proper_noun",
+      "description": "A city in Egypt and the location of the Suez Canal, a key route to Europe."
+    },
+    "Port Said": {
+      "type": "proper_noun",
+      "description": "A port city at the northern entrance of the Suez Canal in Egypt."
+    },
+    "Boulogne": {
+      "type": "proper_noun",
+      "description": "A port city in France, from which Parvateesam boards a steamer to England."
+    },
+    "Folkestone": {
+      "type": "proper_noun",
+      "description": "A port town in England, where Parvateesam first sets foot on English soil."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "One of the two major Sanskrit epics of ancient India, referenced for its length."
+    },
+    "Indra": {
+      "type": "proper_noun",
+      "description": "The king of the gods in Hindu mythology, referenced metaphorically."
+    },
+    "Brahmo Samajists": {
+      "type": "proper_noun",
+      "description": "Members of the Brahmo Samaj, a Hindu reform movement."
+    },
+    "Sri Veeresalingam": {
+      "type": "proper_noun",
+      "description": "Kandukuri Veeresalingam, a prominent Telugu social reformer and writer."
+    },
+    "Chilakamarti Lakshminarasimham": {
+      "type": "proper_noun",
+      "description": "A noted Telugu writer and humorist."
+    },
+    "Sripanuganti Lakshminarasimha Rao Pantulu": {
+      "type": "proper_noun",
+      "description": "A Telugu writer referenced for his humorous works."
+    },
+    "Sri Gurajada Apparao": {
+      "type": "proper_noun",
+      "description": "A renowned Telugu writer and social reformer."
+    },
+    "Sri Chinta Dikshitulu": {
+      "type": "proper_noun",
+      "description": "A Telugu humorist credited for popularizing humor in Telugu literature."
+    },
+    "Nigamasharma": {
+      "type": "proper_noun",
+      "description": "A literary character referenced as an example of a 'living character' in Telugu literature."
+    },
+    "Girisam": {
+      "type": "proper_noun",
+      "description": "A comic character from Telugu literature, compared to Parvateesam."
+    },
+    "Ganapathi": {
+      "type": "proper_noun",
+      "description": "A comic character from Telugu literature, contrasted with Parvateesam."
+    },
+    "Devulapalli Krishnasastri": {
+      "type": "proper_noun",
+      "description": "A famous Telugu poet, quoted in the final word."
+    },
+    "Oscar Wilde": {
+      "type": "proper_noun",
+      "description": "A renowned English writer, referenced for his novel 'The Picture of Dorian Gray.'"
+    },
+    "George Meredith": {
+      "type": "proper_noun",
+      "description": "An English novelist and poet, quoted on the nature of humor."
+    },
+    "Chesterton": {
+      "type": "proper_noun",
+      "description": "G.K. Chesterton, an English writer and philosopher, referenced on humor."
+    },
+    "Nietzsche": {
+      "type": "proper_noun",
+      "description": "Friedrich Nietzsche, a German philosopher, referenced on the origin of humor."
+    },
+    "Lokāḥ samastāḥ sukhino bhavantu": {
+      "type": "proper_noun",
+      "description": "A Sanskrit phrase meaning 'May all the worlds be happy,' used as a benediction."
+    },
+    "bindi": {
+      "type": "vocabulary",
+      "description": "A colored dot or mark worn on the forehead, traditionally by Hindu women but also by men in some contexts."
+    },
+    "choultry": {
+      "type": "vocabulary",
+      "description": "A public rest house or inn, especially in South India, for travelers or pilgrims."
+    },
+    "ghee": {
+      "type": "vocabulary",
+      "description": "Clarified butter commonly used in Indian cooking and rituals."
+    },
+    "rasam": {
+      "type": "vocabulary",
+      "description": "A South Indian soup or broth made with tamarind, spices, and sometimes lentils."
+    },
+    "sambar": {
+      "type": "vocabulary",
+      "description": "A South Indian lentil-based vegetable stew, flavored with tamarind and spices."
+    },
+    "pulusu": {
+      "type": "vocabulary",
+      "description": "A tangy South Indian stew made with tamarind and vegetables."
+    },
+    "charu": {
+      "type": "vocabulary",
+      "description": "A thin, spicy soup similar to rasam, common in Andhra cuisine."
+    },
+    "tumbler": {
+      "type": "vocabulary",
+      "description": "A drinking vessel, often made of brass in Indian contexts."
+    },
+    "idli": {
+      "type": "vocabulary",
+      "description": "A South Indian steamed rice cake, commonly eaten for breakfast."
+    },
+    "coir": {
+      "type": "vocabulary",
+      "description": "Fiber extracted from the outer husk of coconut, used for making ropes and mats."
+    },
+    "anna": {
+      "type": "vocabulary",
+      "description": "A former Indian currency unit, equal to 1/16 of a rupee."
+    },
+    "pice": {
+      "type": "vocabulary",
+      "description": "A small coin in colonial India, worth 1/64 of a rupee."
+    },
+    "quarter anna": {
+      "type": "vocabulary",
+      "description": "A coin worth 1/64 of a rupee, or a quarter of an anna."
+    },
+    "damidi": {
+      "type": "vocabulary",
+      "description": "A very small denomination coin, less than an anna, used in colonial India."
+    },
+    "lavatory": {
+      "type": "vocabulary",
+      "description": "A room equipped with washing and toilet facilities, especially on trains or steamers."
+    },
+    "porter": {
+      "type": "vocabulary",
+      "description": "A person employed to carry luggage at railway stations, hotels, or ports."
+    },
+    "coolie": {
+      "type": "vocabulary",
+      "description": "A manual laborer or porter, especially one who carries luggage."
+    },
+    "jhatka": {
+      "type": "vocabulary",
+      "description": "A type of horse-drawn carriage used for transport."
+    },
+    "sahib": {
+      "type": "vocabulary",
+      "description": "A term of respect or address for men, especially Europeans or high-status individuals, in colonial India."
+    },
+    "memsahib": {
+      "type": "vocabulary",
+      "description": "A term used in colonial India for a European woman or lady of high status."
+    },
+    "zamindar": {
+      "type": "vocabulary",
+      "description": "A landowner, often with hereditary rights, in colonial India."
+    },
+    "muffler": {
+      "type": "vocabulary",
+      "description": "A scarf or wrap worn around the neck for warmth."
+    },
+    "overcoat": {
+      "type": "vocabulary",
+      "description": "A long, warm coat worn over other clothes, especially in cold climates."
+    },
+    "bedding": {
+      "type": "vocabulary",
+      "description": "Blankets, sheets, and other coverings for a bed."
+    },
+    "spirit": {
+      "type": "vocabulary",
+      "description": "In this context, refers to a type of alcohol used as fuel for stoves."
+    },
+    "twill": {
+      "type": "vocabulary",
+      "description": "A type of fabric with a distinctive diagonal weave, used for shirts and suits."
+    },
+    "furlong": {
+      "type": "vocabulary",
+      "description": "A unit of distance equal to 1/8 of a mile, used in British imperial measurements."
+    },
+    "exercise book": {
+      "type": "vocabulary",
+      "description": "A notebook used by students for writing notes or keeping records."
+    },
+    "telegraphic money order": {
+      "type": "vocabulary",
+      "description": "A method of sending money quickly via telegraph, commonly used in colonial times."
+    },
+    "steward": {
+      "type": "vocabulary",
+      "description": "A ship’s officer responsible for provisions and the care of passengers."
+    },
+    "suit": {
+      "type": "vocabulary",
+      "description": "A set of outer clothes made of the same fabric, typically consisting of a jacket and trousers."
+    },
+    "fountain pen": {
+      "type": "vocabulary",
+      "description": "A pen with a reservoir of liquid ink, used for writing."
+    },
+    "sacred threads": {
+      "type": "vocabulary",
+      "description": "The 'yajnopavita' or 'janeyu,' a looped thread worn by Hindu Brahmin men signifying their initiation."
+    },
+    "waistbands": {
+      "type": "vocabulary",
+      "description": "In this context, refers to the 'kanduva' or 'uttariya,' a silk cloth tied around the waist, often for ritual purposes."
+    },
+    "Parvatesam": {
+      "type": "character",
+      "description": "The protagonist and narrator, a naive young Brahmin from India who has just arrived in England to study law and become a barrister."
+    },
+    "Menon": {
+      "type": "character",
+      "description": "An elderly Indian gentleman staying at India House who befriends Parvatesam, helps him settle in, and shows him around London."
+    },
+    "Cook-garu": {
+      "type": "character",
+      "description": "A representative or agent from the Cook Company (likely Thomas Cook & Son, a travel agency), who assists Parvatesam upon his arrival in England."
+    },
+    "Case": {
+      "type": "character",
+      "description": "A companion who tours London with Parvatesam; possibly another acquaintance at India House, though his exact identity is ambiguous in this chapter."
+    },
+    "Cook Company": {
+      "type": "proper_noun",
+      "description": "Refers to Thomas Cook & Son, a famous British travel agency that assisted travelers during the colonial period."
+    },
+    "India House": {
+      "type": "proper_noun",
+      "description": "A hostel or lodging in London established for Indian students and travelers, supported by the government."
+    },
+    "Tavistock Road": {
+      "type": "proper_noun",
+      "description": "A street in London, the location of India House."
+    },
+    "Godavari district": {
+      "type": "proper_noun",
+      "description": "A region in Andhra Pradesh, India, from which Parvatesam hails."
+    },
+    "Edinburgh": {
+      "type": "proper_noun",
+      "description": "The capital city of Scotland, mentioned as a possible place for Parvatesam to study law."
+    },
+    "France": {
+      "type": "proper_noun",
+      "description": "A country in Western Europe, mentioned as a place Parvatesam passed through on his journey."
+    },
+    "Thames": {
+      "type": "proper_noun",
+      "description": "A major river running through London."
+    },
+    "Waterloo Bridge": {
+      "type": "proper_noun",
+      "description": "A famous bridge in London crossing the Thames."
+    },
+    "Parliament House": {
+      "type": "proper_noun",
+      "description": "The seat of the UK Parliament, located in London."
+    },
+    "British Museum": {
+      "type": "proper_noun",
+      "description": "A renowned museum in London, referenced humorously regarding Parvatesam's shawl."
+    },
+    "Trafalgar Square": {
+      "type": "proper_noun",
+      "description": "A famous public square in central London, known for its statue of Nelson."
+    },
+    "Nelson": {
+      "type": "proper_noun",
+      "description": "Refers to Admiral Lord Nelson, whose statue stands in Trafalgar Square."
+    },
+    "Piccadilly Circus": {
+      "type": "proper_noun",
+      "description": "A famous road junction and public space in London."
+    },
+    "saman": {
+      "type": "vocabulary",
+      "description": "A vernacular term for luggage or belongings, derived from Hindi/Urdu."
+    },
+    "payasam": {
+      "type": "vocabulary",
+      "description": "A South Indian sweet pudding made from milk, sugar, and rice or sago."
+    },
+    "pakoras": {
+      "type": "vocabulary",
+      "description": "A popular Indian snack made by deep-frying vegetables or meat coated in chickpea flour batter."
+    },
+    "punukulu": {
+      "type": "vocabulary",
+      "description": "A South Indian snack, deep-fried dumplings made from fermented rice and urad dal batter."
+    },
+    "mirayi": {
+      "type": "vocabulary",
+      "description": "A Telugu snack, typically a fried savory item."
+    },
+    "vegetarian": {
+      "type": "vocabulary",
+      "description": "A person who does not eat meat, fish, or eggs; in the Indian context, often excludes eggs and fish as well."
+    },
+    "non-vegetarian": {
+      "type": "vocabulary",
+      "description": "A term used in India to describe foods or people who eat meat, fish, or eggs."
+    },
+    "servant": {
+      "type": "vocabulary",
+      "description": "A domestic worker; in colonial contexts, often used for staff in British or Indian households."
+    },
+    "manager madam": {
+      "type": "character",
+      "description": "The lady manager of the lodging or institution where Parvateesam is staying; she guides and organizes activities for the newcomers from India."
+    },
+    "attendant": {
+      "type": "character",
+      "description": "A staff member at the exhibition or zoological gardens who explains the animals to visitors and assists during the tour."
+    },
+    "Peerla festival": {
+      "type": "proper_noun",
+      "description": "A local festival celebrated in some parts of South India, often involving processions and people dressing up, sometimes as tigers."
+    },
+    "Africa": {
+      "type": "proper_noun",
+      "description": "A continent referenced here as the origin of several exotic animals seen in the zoo, such as zebras and giraffes."
+    },
+    "Bobbili bull": {
+      "type": "proper_noun",
+      "description": "A reference to a breed of bull from Bobbili, a town in Andhra Pradesh, known for its strength and ferocity."
+    },
+    "Japan": {
+      "type": "proper_noun",
+      "description": "An East Asian country mentioned as the possible origin of a large species of parrot in the aviary."
+    },
+    "Burma": {
+      "type": "proper_noun",
+      "description": "A Southeast Asian country (now Myanmar), referenced as the origin of some white parrots in the aviary."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "A vast mountain range in Asia, referenced here as the believed home of swans in Indian folklore."
+    },
+    "zoological gardens": {
+      "type": "vocabulary",
+      "description": "A formal term for a zoo, a place where animals are kept for public display and education."
+    },
+    "menagerie": {
+      "type": "vocabulary",
+      "description": "A collection of wild animals kept in captivity for exhibition."
+    },
+    "aviary": {
+      "type": "vocabulary",
+      "description": "A large enclosure for keeping birds, often found in zoos or gardens."
+    },
+    "Mevan": {
+      "type": "character",
+      "description": "A friend or acquaintance of Menon who assists Parvateesam with shopping for clothes and other necessities in the city."
+    },
+    "Hyde Park": {
+      "type": "proper_noun",
+      "description": "A famous and expansive public park in central London, known for its recreational spaces and gatherings of important people."
+    },
+    "Komati": {
+      "type": "proper_noun",
+      "description": "A traditional merchant and trading caste from South India, referenced here as a stereotype for shopkeepers."
+    },
+    "bazaar": {
+      "type": "vocabulary",
+      "description": "A market or marketplace, commonly used in South Asia for shopping."
+    },
+    "vest": {
+      "type": "vocabulary",
+      "description": "An undergarment worn on the upper body, similar to an undershirt."
+    },
+    "drawers": {
+      "type": "vocabulary",
+      "description": "Old-fashioned term for underpants or underwear, worn on the lower body."
+    },
+    "lift": {
+      "type": "vocabulary",
+      "description": "British English term for an elevator, a mechanical device for moving people between floors."
+    },
+    "Meenan": {
+      "type": "character",
+      "description": "A variant spelling of Menon used in the text, referring to the same helpful friend who assists the narrator during his travels."
+    },
+    "baniyan": {
+      "type": "vocabulary",
+      "description": "An Indian term for a sleeveless undershirt or vest, typically worn as an undergarment."
+    },
+    "trunk": {
+      "type": "vocabulary",
+      "description": "A large, sturdy suitcase or chest used for storing and transporting personal belongings, especially on long journeys."
+    },
+    "rugs": {
+      "type": "vocabulary",
+      "description": "In this context, thick blankets or coverings provided on trains for warmth during travel."
+    },
+    "Raju": {
+      "type": "character",
+      "description": "A Telugu-speaking man encountered at the Indian Association, who is asked to help Parvateesam find a room.",
+      "image": "/data/images/characters/barrister-parvatishan/raju.png"
+    },
+    "Indian Association": {
+      "type": "proper_noun",
+      "description": "A social or cultural organization for Indians living abroad, often serving as a community center and support network for Indian students and expatriates."
+    },
+    "Maharaja": {
+      "type": "proper_noun",
+      "description": "A hereditary royal title in India, meaning 'great king,' often associated with princely states and wealthy rulers during the colonial era."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "A country in South Asia, which was under British colonial rule at the time the novel is set."
+    },
+    "Bengali": {
+      "type": "proper_noun",
+      "description": "Refers to a person from Bengal, a region in eastern India (now divided between India and Bangladesh), known for its distinct language and culture."
+    },
+    "boarding house": {
+      "type": "vocabulary",
+      "description": "A lodging establishment where tenants rent rooms and may receive meals, common in early 20th century England."
+    },
+    "tram": {
+      "type": "vocabulary",
+      "description": "A streetcar or trolley running on tracks, used for public transport in cities."
+    },
+    "station master": {
+      "type": "vocabulary",
+      "description": "An official in charge of a railway station, often responsible for providing information and assistance to travelers."
+    },
+    "countryman": {
+      "type": "vocabulary",
+      "description": "A person from the same country or region, often used to refer to a fellow Indian abroad."
+    },
+    "signboard": {
+      "type": "vocabulary",
+      "description": "A board displaying information or advertisements, such as 'Rooms to Let,' indicating rooms available for rent."
+    },
+    "lady of the house": {
+      "type": "character",
+      "description": "The woman who manages the household where Raju and Parvateesham stay; she provides meals and attends to the needs of the boarders."
+    },
+    "Bhimavaram": {
+      "type": "proper_noun",
+      "description": "A town in the West Godavari district of Andhra Pradesh, India, known for its Telugu-speaking population."
+    },
+    "Kshatriya": {
+      "type": "proper_noun",
+      "description": "A member of the traditional warrior and ruler caste in the Hindu varna system."
+    },
+    "Poduru": {
+      "type": "proper_noun",
+      "description": "A village near Mogalturru in Andhra Pradesh, mentioned as Raju's ancestral home."
+    },
+    "Vedic": {
+      "type": "proper_noun",
+      "description": "Relating to the Vedas, the ancient sacred scriptures of Hinduism; here, it refers to someone who follows orthodox Brahminical rituals."
+    },
+    "Sandhya Vandanam": {
+      "type": "proper_noun",
+      "description": "A daily ritual of prayers and meditation performed by orthodox Brahmins, especially at sunrise and sunset."
+    },
+    "porters": {
+      "type": "vocabulary",
+      "description": "People employed to carry luggage, especially at railway stations."
+    },
+    "commode": {
+      "type": "vocabulary",
+      "description": "A flush toilet, often with a porcelain bowl, common in British homes."
+    },
+    "chewing sticks": {
+      "type": "vocabulary",
+      "description": "Twigs, often from the neem or babul tree, traditionally used in India for cleaning teeth."
+    },
+    "palm leaves": {
+      "type": "vocabulary",
+      "description": "Leaves from the palm tree, sometimes used for cleaning teeth or as plates in South India."
+    },
+    "dharma": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning duty, righteousness, or moral law; here, it refers to the narrator's sense of proper conduct."
+    },
+    "curry": {
+      "type": "vocabulary",
+      "description": "A dish of vegetables or meat cooked with spices, common in Indian cuisine."
+    },
+    "pyjamas": {
+      "type": "vocabulary",
+      "description": "Loose-fitting trousers and a shirt, worn as nightwear or loungewear; spelled 'pajamas' in American English."
+    },
+    "dressing gown": {
+      "type": "vocabulary",
+      "description": "A long, loose robe worn over nightwear, typically in the morning or evening at home."
+    },
+    "Japanese sandals": {
+      "type": "vocabulary",
+      "description": "Lightweight, flat sandals, possibly referring to zori or geta, worn indoors for comfort."
+    },
+    "leaf slippers": {
+      "type": "vocabulary",
+      "description": "Simple slippers made from plant leaves, traditionally used in rural India."
+    },
+    "Same": {
+      "type": "character",
+      "description": "A nickname given to Barrister Parvateesam by the English landlady who cannot pronounce his real name; used by the household to refer to him."
+    },
+    "Telugus": {
+      "type": "proper_noun",
+      "description": "People who speak Telugu, an Indian language predominantly spoken in Andhra Pradesh and Telangana."
+    },
+    "Tamils": {
+      "type": "proper_noun",
+      "description": "People from Tamil Nadu, India, who speak the Tamil language."
+    },
+    "Malayalis": {
+      "type": "proper_noun",
+      "description": "People from Kerala, India, who speak the Malayalam language."
+    },
+    "Kannadigas": {
+      "type": "proper_noun",
+      "description": "People from Karnataka, India, who speak the Kannada language."
+    },
+    "Bengalis": {
+      "type": "proper_noun",
+      "description": "People from Bengal (West Bengal in India and Bangladesh), who speak the Bengali language."
+    },
+    "Punjabis": {
+      "type": "proper_noun",
+      "description": "People from Punjab, a region in northern India and Pakistan, who speak the Punjabi language."
+    },
+    "dal": {
+      "type": "vocabulary",
+      "description": "A dish made from lentils, a staple in Indian cuisine, often cooked into a thick stew."
+    },
+    "mudda pappu": {
+      "type": "vocabulary",
+      "description": "Plain, boiled and mashed lentils (dal), a staple comfort food in Telugu cuisine."
+    },
+    "tokku chutney": {
+      "type": "vocabulary",
+      "description": "A type of spicy, concentrated pickle or chutney, often made from grated raw mango or other ingredients."
+    },
+    "mango pickle": {
+      "type": "vocabulary",
+      "description": "A spicy Indian condiment made from raw mangoes, oil, and spices, popular in South India."
+    },
+    "laundryman": {
+      "type": "vocabulary",
+      "description": "A person who washes and irons clothes for others; in colonial India, often referred to as 'dhobi'."
+    },
+    "Appagaru": {
+      "type": "character",
+      "description": "The elder daughter of Parvateesam's English landlady, who interacts with him and tries to befriend him."
+    },
+    "Josie": {
+      "type": "character",
+      "description": "A person mentioned in comparison to the landlady's daughters, suggesting Josie is less lively; likely another acquaintance or servant."
+    },
+    "Mrs. Thompson": {
+      "type": "character",
+      "description": "The lady of the house (landlady), who hosts Parvateesam and her daughters, and tries to smooth over his social mistakes."
+    },
+    "picture house": {
+      "type": "proper_noun",
+      "description": "An early 20th-century term for a cinema or movie theater, where films are shown."
+    },
+    "tea party": {
+      "type": "proper_noun",
+      "description": "A social gathering typical in British culture, often involving tea and light refreshments."
+    },
+    "landlady": {
+      "type": "vocabulary",
+      "description": "A woman who owns or manages the house where the protagonist lodges."
+    },
+    "butler": {
+      "type": "vocabulary",
+      "description": "A senior household servant, typically in charge of serving food and managing other servants in a large house."
+    },
+    "Mrs. Thomson": {
+      "type": "character",
+      "description": "The lady of the house where Parvateesam is staying in England; she shows him kindness and maternal affection, comforting him during his homesickness."
+    },
+    "Mr. Sam": {
+      "type": "character",
+      "description": "A nickname or affectionate form used by the English family for Parvateesam, reflecting their attempt to address him in a familiar way."
+    },
+    "Mr. Semgar": {
+      "type": "character",
+      "description": "A mispronunciation or alternate form of Parvateesam's name used by Mrs. Thomson when delivering his letter."
+    },
+    "Mr. Same": {
+      "type": "character",
+      "description": "Another variant or mispronunciation of Parvateesam's name used by Mrs. Thomson during their conversation."
+    },
+    "gramophone": {
+      "type": "vocabulary",
+      "description": "An early device for playing recorded music, popular in the early 20th century, referenced here to describe an abrupt stop in sound."
+    },
+    "telegram": {
+      "type": "vocabulary",
+      "description": "A message sent by telegraph, often used for urgent communication before the widespread use of telephones and email."
+    },
+    "money orders": {
+      "type": "vocabulary",
+      "description": "A financial instrument used to send money securely, commonly used in early 20th-century India for remittances."
+    },
+    "Ankammasivam": {
+      "type": "character",
+      "description": "A person referenced humorously by Parvatisham, likely from his home region, known for performing midnight rituals; used here to compare going to the cinema in daylight to unusual behavior."
+    },
+    "Sankranti": {
+      "type": "proper_noun",
+      "description": "A major Hindu harvest festival celebrated in South India, particularly Andhra Pradesh, marking the transition of the sun into the zodiac sign of Capricorn."
+    },
+    "Kunda Batti": {
+      "type": "proper_noun",
+      "description": "A traditional village game played during the Sankranti festival, mentioned as a childhood pastime of the narrator."
+    },
+    "Russia": {
+      "type": "proper_noun",
+      "description": "A country in northern Eurasia, referenced here for its extreme seasonal daylight variations."
+    },
+    "Siberia": {
+      "type": "proper_noun",
+      "description": "A vast region in Russia, also noted for its unique seasonal patterns of daylight and darkness."
+    },
+    "Braidhills": {
+      "type": "proper_noun",
+      "description": "A hill on the outskirts of town (likely a transliteration of 'Braid Hills' in Edinburgh), known for its golf courses and scenic views."
+    },
+    "chedugudi": {
+      "type": "vocabulary",
+      "description": "A traditional Telugu outdoor game, similar to tag or team chase, played by children."
+    },
+    "uppattiga": {
+      "type": "vocabulary",
+      "description": "Another traditional Telugu game, possibly a variation of hopscotch or a local playground game."
+    },
+    "Barrister Parvatishan": {
+      "type": "character",
+      "description": "The protagonist of the novel, a naive young Brahmin whose adventures and misadventures form the core of the story."
+    },
+    "Raja": {
+      "type": "character",
+      "description": "A friend or companion of the narrator, who congratulates him after his success in the game."
+    },
+    "Dhamsanamma garu": {
+      "type": "character",
+      "description": "The landlady where the narrator is staying; she is caring and attentive to his well-being."
+    },
+    "Chedugudu": {
+      "type": "proper_noun",
+      "description": "A traditional South Indian (Telugu) team sport, similar to kabaddi, involving tagging and chasing."
+    },
+    "Uppatti": {
+      "type": "proper_noun",
+      "description": "A traditional South Indian (Telugu) game, possibly a local or childhood game; the exact nature may vary regionally."
+    },
+    "exam": {
+      "type": "vocabulary",
+      "description": "Short for examination; a formal test of a person's knowledge or proficiency in a subject or skill."
+    },
+    "snacks": {
+      "type": "vocabulary",
+      "description": "Light food items eaten between meals, often served to guests or during gatherings in Indian households."
+    },
+    "Mrs. Sarojini Devi": {
+      "type": "character",
+      "description": "A renowned poetess from India who visits the Indian Association in Edinburgh and gives a captivating lecture."
+    },
+    "Dr. Ananda Coomaraswamy": {
+      "type": "character",
+      "description": "A distinguished scholar and art historian from Ceylon (Sri Lanka) who delivers a lecture on Indian art and culture at the Association."
+    },
+    "Gopalakrishnayya": {
+      "type": "character",
+      "description": "Referred to as Duggiirala Gopalakrishnayya, he is the secretary of the Indian Association and a prominent Telugu figure who encourages Parvateesam to recite poetry."
+    },
+    "Sumati Shatakam": {
+      "type": "proper_noun",
+      "description": "A famous collection of Telugu moral poems, often memorized and recited by Telugu speakers."
+    },
+    "Bhagavatam": {
+      "type": "proper_noun",
+      "description": "Refers to the Bhagavata Purana, a revered Hindu scripture focusing on the life and teachings of Lord Krishna."
+    },
+    "Krishna": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, central to many Indian religious texts and the subject of much devotional poetry."
+    },
+    "Tamil": {
+      "type": "proper_noun",
+      "description": "A Dravidian language spoken mainly in the Indian state of Tamil Nadu and by the Tamil diaspora."
+    },
+    "Malayalam": {
+      "type": "proper_noun",
+      "description": "A Dravidian language spoken in the Indian state of Kerala."
+    },
+    "Bar": {
+      "type": "proper_noun",
+      "description": "Refers to the legal profession or the process of qualifying as a barrister (lawyer) in the British system."
+    },
+    "M.A.": {
+      "type": "proper_noun",
+      "description": "Master of Arts, a postgraduate academic degree."
+    },
+    "B.A.": {
+      "type": "proper_noun",
+      "description": "Bachelor of Arts, an undergraduate academic degree."
+    },
+    "shloka": {
+      "type": "vocabulary",
+      "description": "A verse, phrase, proverb, or hymn typically composed in Sanskrit and used in Indian religious or literary texts."
+    },
+    "magic lantern": {
+      "type": "vocabulary",
+      "description": "An early type of image projector that used glass slides, often employed for educational or entertainment purposes before the advent of modern projectors."
+    },
+    "Entrance": {
+      "type": "vocabulary",
+      "description": "Refers to the school-leaving or university entrance examination in the Indian education system."
+    },
+    "Intermediate": {
+      "type": "vocabulary",
+      "description": "An academic stage in Indian education, typically referring to the two years of study between high school and university (equivalent to junior college)."
+    },
+    "Vemraju": {
+      "type": "character",
+      "description": "A friend of the narrator, known for his mischievous and clever ideas, such as the snake prank on the landlady."
+    },
+    "Sam": {
+      "type": "character",
+      "description": "A name used by the landlady for the narrator, likely as a term of endearment or familiarity."
+    },
+    "Madras Presidency": {
+      "type": "proper_noun",
+      "description": "A former administrative subdivision of British India, covering parts of present-day Tamil Nadu, Andhra Pradesh, and surrounding regions."
+    },
+    "Lord Ganesha": {
+      "type": "proper_noun",
+      "description": "A widely worshipped Hindu deity, revered as the remover of obstacles and the god of beginnings."
+    },
+    "Gananam Tva": {
+      "type": "proper_noun",
+      "description": "The opening verse of a Sanskrit hymn traditionally recited in praise of Lord Ganesha."
+    },
+    "tithi": {
+      "type": "proper_noun",
+      "description": "A term from the Hindu lunar calendar denoting the lunar day."
+    },
+    "nakshatra": {
+      "type": "proper_noun",
+      "description": "A term from Hindu astrology referring to the lunar mansion or constellation through which the moon passes."
+    },
+    "muhurtham": {
+      "type": "proper_noun",
+      "description": "An auspicious time or moment for undertaking important activities, according to Hindu tradition."
+    },
+    "university": {
+      "type": "proper_noun",
+      "description": "Refers to the University of Edinburgh, where the narrator is pursuing his studies."
+    },
+    "Vice-Chancellor": {
+      "type": "proper_noun",
+      "description": "The head or chief executive of a university, in this case, the University of Edinburgh."
+    },
+    "neem stick": {
+      "type": "vocabulary",
+      "description": "A twig from the neem tree, traditionally used in India as a natural toothbrush and tongue cleaner."
+    },
+    "tongue-scraper": {
+      "type": "vocabulary",
+      "description": "A tool used to clean the tongue, commonly used in Indian oral hygiene practices."
+    },
+    "minapappu laddu": {
+      "type": "vocabulary",
+      "description": "A traditional Indian sweet made from roasted and ground moong dal (split yellow lentils), sugar, and ghee."
+    },
+    "camphor": {
+      "type": "vocabulary",
+      "description": "A white, aromatic substance used in Indian households for religious rituals and as a metaphor for something that disappears quickly."
+    },
+    "Namaskaram": {
+      "type": "vocabulary",
+      "description": "A respectful greeting or salutation in Telugu and other Indian languages, similar to 'namaste.'"
+    },
+    "Jack": {
+      "type": "character",
+      "description": "A young Scottish man who befriends Parvateesam and introduces him to the game of golf."
+    },
+    "Mr. Mumeshtaru": {
+      "type": "character",
+      "description": "A character who discusses theater and cultural differences with Parvateesam, likely another Indian acquaintance or friend."
+    },
+    "Blackworth Hills": {
+      "type": "proper_noun",
+      "description": "A local hill or elevated area in the English town where Parvateesam and his friends gather for recreation."
+    },
+    "Desasthas": {
+      "type": "proper_noun",
+      "description": "A reference to the Deshastha Brahmins, a prominent Brahmin community from the Deccan region of India."
+    },
+    "North Berwick": {
+      "type": "proper_noun",
+      "description": "A coastal village near Edinburgh, famous for its golf courses."
+    },
+    "Lord Balfour": {
+      "type": "proper_noun",
+      "description": "Refers to Arthur Balfour, a prominent British statesman, here mentioned as a famous golfer associated with a particular golf course."
+    },
+    "Balfour's Wall": {
+      "type": "proper_noun",
+      "description": "A wall on a golf course in North Berwick, named after Lord Balfour due to his repeated failed attempts to hit the ball over it in a single stroke."
+    },
+    "Lyceum Theatre": {
+      "type": "proper_noun",
+      "description": "A well-known theater in Edinburgh where plays, including Shakespeare's works, are performed."
+    },
+    "Hamlet": {
+      "type": "proper_noun",
+      "description": "A famous tragedy by William Shakespeare, which Parvateesam attends at the Lyceum Theatre."
+    },
+    "Denmark": {
+      "type": "proper_noun",
+      "description": "The setting of Shakespeare's Hamlet, referenced as Parvateesam feels transported there during the play."
+    },
+    "lodging": {
+      "type": "vocabulary",
+      "description": "A rented room or accommodation, often used by students or travelers."
+    },
+    "captain": {
+      "type": "vocabulary",
+      "description": "The leader or head of a team, especially in games or sports."
+    },
+    "club": {
+      "type": "vocabulary",
+      "description": "A stick used in golf to strike the ball; also refers to a social or sports organization."
+    },
+    "bungalow": {
+      "type": "vocabulary",
+      "description": "A low, single-story house, often with a veranda, common in British colonial contexts."
+    },
+    "committee": {
+      "type": "vocabulary",
+      "description": "A group of people appointed for a specific function, such as managing a club."
+    },
+    "farce": {
+      "type": "vocabulary",
+      "description": "A type of comic dramatic work using buffoonery and horseplay, often with improbable situations."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed platform along the outside of a house, typically level with the ground floor."
+    },
+    "Bapu": {
+      "type": "character",
+      "description": "A newly arrived Telugu man in Edinburgh who becomes one of Parvateesam's close companions and is noted for his eccentricities and traditional habits."
+    },
+    "Charlie Chaplin": {
+      "type": "proper_noun",
+      "description": "A famous British silent film comedian and actor, whose films were popular worldwide in the early 20th century."
+    },
+    "Ugadi": {
+      "type": "proper_noun",
+      "description": "The Telugu New Year festival, celebrated with special foods and gatherings."
+    },
+    "Vijayadashami": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival also known as Dussehra, marking the end of Navaratri."
+    },
+    "Deepavali": {
+      "type": "proper_noun",
+      "description": "Also known as Diwali, the Hindu festival of lights celebrated across India."
+    },
+    "South Indian": {
+      "type": "proper_noun",
+      "description": "A term referring to people from the southern states of India, including Andhra Pradesh, Tamil Nadu, Karnataka, and Kerala."
+    },
+    "pulihora": {
+      "type": "vocabulary",
+      "description": "A South Indian dish of tamarind rice, often prepared for festivals and special occasions."
+    },
+    "anise": {
+      "type": "vocabulary",
+      "description": "A spice with a licorice-like flavor, used in Indian cuisine."
+    },
+    "snuff": {
+      "type": "vocabulary",
+      "description": "Powdered tobacco that is inhaled through the nose, a habit once common in India."
+    },
+    "seer": {
+      "type": "vocabulary",
+      "description": "A traditional Indian unit of weight, roughly equivalent to about 0.9 kilograms or 2 pounds."
+    },
+    "sambar powder": {
+      "type": "vocabulary",
+      "description": "A spice mix used to make sambar, a South Indian lentil and vegetable stew."
+    },
+    "rasam powder": {
+      "type": "vocabulary",
+      "description": "A spice mix used to make rasam, a South Indian spicy-sour soup."
+    },
+    "betel nut": {
+      "type": "vocabulary",
+      "description": "The seed of the areca palm, chewed with betel leaf as a stimulant in South Asia."
+    },
+    "the Father": {
+      "type": "character",
+      "description": "A priest encountered by Parvateesam and his friends, notable for his comic attempt to catch a moth at a lamppost."
+    },
+    "the hotel manager": {
+      "type": "character",
+      "description": "The person in charge of the hotel at the seaside town, who refuses Parvateesam a room due to pressure from a resident."
+    },
+    "the porter": {
+      "type": "character",
+      "description": "A hotel staff member who assists the manager and is involved in informing Parvateesam about the room situation."
+    },
+    "Arjuna": {
+      "type": "proper_noun",
+      "description": "A legendary warrior prince from the Indian epic Mahabharata, renowned for his skill in battle and chariot-driving."
+    },
+    "Lock Ramja": {
+      "type": "proper_noun",
+      "description": "A small village or town mentioned as the seaside destination Parvateesam visits; likely a transliteration of a local or British place name."
+    },
+    "constable": {
+      "type": "vocabulary",
+      "description": "A police officer, especially in British usage."
+    },
+    "public house": {
+      "type": "vocabulary",
+      "description": "A British term for a pub or bar where alcoholic drinks are served."
+    },
+    "stenographer": {
+      "type": "vocabulary",
+      "description": "A person whose job is to transcribe speech using shorthand, often employed in business or legal settings."
+    },
+    "Asquith": {
+      "type": "character",
+      "description": "Herbert Henry Asquith, the Prime Minister of England during the early years of World War I, referenced here as visiting Edinburgh and giving a speech."
+    },
+    "Lincoln’s Inn": {
+      "type": "proper_noun",
+      "description": "One of the four Inns of Court in London, England, where barristers are trained and called to the bar."
+    },
+    "Tsar": {
+      "type": "proper_noun",
+      "description": "The title used by the emperors of Russia before the Russian Revolution, here referring to the ruler whose empire was collapsing."
+    },
+    "Germany": {
+      "type": "proper_noun",
+      "description": "A European country, depicted as a major power and aggressor at the onset of World War I."
+    },
+    "Juggernaut’s rath yatra": {
+      "type": "proper_noun",
+      "description": "A reference to the massive chariot procession of Lord Jagannath in Puri, India, used metaphorically to describe Germany's unstoppable advance."
+    },
+    "Usher Hall": {
+      "type": "proper_noun",
+      "description": "A famous concert hall in Edinburgh, used here as the venue for the Prime Minister's speech."
+    },
+    "Red Cross": {
+      "type": "proper_noun",
+      "description": "An international humanitarian organization providing medical aid, referenced here as training women to tend to the wounded during the war."
+    },
+    "King": {
+      "type": "proper_noun",
+      "description": "Refers to the reigning monarch of the United Kingdom at the time, King George V."
+    },
+    "Britannia": {
+      "type": "proper_noun",
+      "description": "A national personification of Britain, often invoked in patriotic contexts."
+    },
+    "Indian": {
+      "type": "proper_noun",
+      "description": "Refers to people from India, particularly the expatriate community in England during the colonial period."
+    },
+    "landlord": {
+      "type": "vocabulary",
+      "description": "A person who owns and rents out property, in this context the owner of the house where Parvateesam lodges."
+    },
+    "Joint Secretary": {
+      "type": "vocabulary",
+      "description": "An official position in an association or organization, typically responsible for assisting the Secretary with administrative duties."
+    },
+    "anthem": {
+      "type": "vocabulary",
+      "description": "A formal song of praise or loyalty, in this context referring to the English national anthem."
+    },
+    "furlongs": {
+      "type": "vocabulary",
+      "description": "An old English unit of distance, equal to 1/8 of a mile or about 220 yards."
+    },
+    "bunkers": {
+      "type": "vocabulary",
+      "description": "Underground shelters built for protection, especially during air raids in wartime."
+    },
+    "post office": {
+      "type": "vocabulary",
+      "description": "A government or private facility where mail is sent, received, and sorted; in this context, also involved in censorship during wartime."
+    },
+    "professor": {
+      "type": "character",
+      "description": "The professor is the teacher of the narrator's class, depicted as calm, witty, and good-humored, even when students are mischievous or unexpected events occur."
+    },
+    "students": {
+      "type": "character",
+      "description": "The students are the classmates of the narrator, participating in classroom activities, pranks, and war fund collections, often interacting playfully with the professors."
+    },
+    "Firth of Forth": {
+      "type": "proper_noun",
+      "description": "A large estuary (inlet) near Edinburgh, Scotland, which serves as a port and naval base, especially significant during wartime."
+    },
+    "Germans": {
+      "type": "proper_noun",
+      "description": "Refers to the military forces of Germany, who were the enemy of Britain during World War I and II."
+    },
+    "Scottish": {
+      "type": "proper_noun",
+      "description": "Relating to Scotland, a country that is part of the United Kingdom."
+    },
+    "Hip hip hooray": {
+      "type": "proper_noun",
+      "description": "A cheer or shout of celebration and encouragement, commonly used in British and Western contexts."
+    },
+    "war fund": {
+      "type": "proper_noun",
+      "description": "A fund established to collect money from the public to support the country's war efforts, common during both World Wars."
+    },
+    "national flags": {
+      "type": "proper_noun",
+      "description": "Refers to the small flags representing the United Kingdom, sold to raise money for the war effort."
+    },
+    "torpedo": {
+      "type": "vocabulary",
+      "description": "A self-propelled underwater missile used to attack ships, commonly deployed from submarines."
+    },
+    "air-raid shelters": {
+      "type": "vocabulary",
+      "description": "Protective structures built to shield people from bombs dropped during aerial attacks."
+    },
+    "wardens": {
+      "type": "vocabulary",
+      "description": "Officials appointed to maintain order and assist the public during emergencies such as air raids."
+    },
+    "half-shillings": {
+      "type": "vocabulary",
+      "description": "A British coin worth half a shilling (sixpence), used as currency in early 20th century Britain."
+    },
+    "shillings": {
+      "type": "vocabulary",
+      "description": "A unit of British currency, equal to one twentieth of a pound, used until decimalization in 1971."
+    },
+    "gallery": {
+      "type": "vocabulary",
+      "description": "In this context, refers to the raised seating area or balcony in a classroom or lecture hall."
+    },
+    "Duggirala Gopalakrishnayya": {
+      "type": "character",
+      "description": "A lively, witty, and mischievous Andhra friend of Parvateesam, known for his pranks and sharp humor."
+    },
+    "Rao": {
+      "type": "character",
+      "description": "A robust fellow student and friend of Parvateesam, also studying to become a barrister, who is the subject of a practical joke in this chapter."
+    },
+    "Sri Ananda Coomaraswamy": {
+      "type": "character",
+      "description": "A distinguished visitor mentioned in the context of a gathering where Parvateesam recited verses, increasing Gopalakrishnayya's fondness for him."
+    },
+    "Ramana": {
+      "type": "character",
+      "description": "A younger friend of Parvateesam from the Godavari district, recently married, who becomes the focus of a prank involving a letter from home."
+    },
+    "Mrs. Satyavati": {
+      "type": "character",
+      "description": "Ramana's wife, whose first menstruation is the subject of a traditional family letter and subsequent celebration among friends."
+    },
+    "Ravana": {
+      "type": "character",
+      "description": "A nickname for one of Parvateesam's friends, likely referencing the mythological demon king, who arrives early to the tea party."
+    },
+    "Nagadi": {
+      "type": "proper_noun",
+      "description": "A location (possibly a restaurant or hall) where Parvateesam hosts his tea party; the name is left untranslated."
+    },
+    "Breadhills": {
+      "type": "proper_noun",
+      "description": "A place name, likely a local English location where Parvateesam plays golf."
+    },
+    "Derby races": {
+      "type": "proper_noun",
+      "description": "A reference to famous horse races in England, symbolizing prestige and excitement."
+    },
+    "Ganesh puja": {
+      "type": "proper_noun",
+      "description": "A Hindu religious ritual performed in honor of Lord Ganesha, often before starting new ventures to seek blessings."
+    },
+    "shanti": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual performed to bring peace, especially during inauspicious times or events."
+    },
+    "rajaswala": {
+      "type": "proper_noun",
+      "description": "A term referring to a woman who is menstruating, particularly during her first period, which is marked by special customs."
+    },
+    "bhai": {
+      "type": "vocabulary",
+      "description": "A Hindi/Urdu term meaning 'brother,' used here as a friendly form of address."
+    },
+    "auspicious": {
+      "type": "vocabulary",
+      "description": "Favorable or lucky, especially in the context of religious or cultural ceremonies."
+    },
+    "Havva": {
+      "type": "vocabulary",
+      "description": "A type of sweet or ingredient (possibly referring to 'halwa'), used in making traditional Indian desserts."
+    },
+    "practical joke": {
+      "type": "vocabulary",
+      "description": "A trick played on someone to cause embarrassment or amusement; the English term is explained for context."
+    },
+    "naming ceremony": {
+      "type": "vocabulary",
+      "description": "A traditional event in Indian culture where a child's name is formally given, often accompanied by rituals and celebrations."
+    },
+    "Guruji": {
+      "type": "character",
+      "description": "A respectful term for a teacher or mentor, used here by Ravana to address the narrator, indicating a relationship of guidance and respect."
+    },
+    "Winston Churchill": {
+      "type": "character",
+      "description": "A prominent British statesman who, during World War I, served as First Lord of the Admiralty; mentioned in the context of war events."
+    },
+    "Lloyd George": {
+      "type": "character",
+      "description": "David Lloyd George, a British politician who succeeded Asquith as Prime Minister during World War I."
+    },
+    "M.K. Gandhi": {
+      "type": "character",
+      "description": "Mohandas Karamchand Gandhi, the renowned Indian nationalist leader, referenced here for his arrival in London and involvement with the Indian Red Cross."
+    },
+    "Gopala Krishnayya": {
+      "type": "character",
+      "description": "Another form of Duggirala Gopalakrishnayya's name, used interchangeably; a leader among the Indian students."
+    },
+    "Glasgow": {
+      "type": "proper_noun",
+      "description": "A major city in Scotland, noted for its political gatherings and public meetings."
+    },
+    "Scotland": {
+      "type": "proper_noun",
+      "description": "A country that is part of the United Kingdom, referenced in the context of war events."
+    },
+    "Wales": {
+      "type": "proper_noun",
+      "description": "A country within the United Kingdom, mentioned in Lloyd George's speech advocating for Home Rule."
+    },
+    "Home Rule": {
+      "type": "proper_noun",
+      "description": "A political movement advocating for self-government for colonies or constituent countries, such as India and Wales."
+    },
+    "Indian Red Cross Society": {
+      "type": "proper_noun",
+      "description": "A branch of the international humanitarian organization, established to aid Indian soldiers during World War I."
+    },
+    "Arthur’s Seat": {
+      "type": "proper_noun",
+      "description": "A famous hill in Edinburgh, Scotland, known for its scenic views and as a local landmark."
+    },
+    "Mohammedan": {
+      "type": "proper_noun",
+      "description": "An archaic term for a Muslim, used here to describe the narrator's friend."
+    },
+    "namaste": {
+      "type": "vocabulary",
+      "description": "A traditional Indian gesture of greeting or respect, performed by pressing the palms together."
+    },
+    "lakhs": {
+      "type": "vocabulary",
+      "description": "A unit in the Indian numbering system equal to one hundred thousand (100,000)."
+    },
+    "honeymoon": {
+      "type": "vocabulary",
+      "description": "The holiday taken by a newly married couple immediately after their wedding."
+    },
+    "Harishchandra": {
+      "type": "proper_noun",
+      "description": "Refers to a famous Indian play or story about King Harishchandra, renowned for his truthfulness and virtue."
+    },
+    "Satyanarayana puja": {
+      "type": "proper_noun",
+      "description": "A popular Hindu religious ritual dedicated to Lord Satyanarayana, often involving communal prayers and food offerings."
+    },
+    "Hindustani": {
+      "type": "proper_noun",
+      "description": "A term referring to the North Indian cultural and linguistic tradition, often used to describe the Hindi-Urdu language or classical music."
+    },
+    "Holland lady": {
+      "type": "proper_noun",
+      "description": "Refers to Parvateesam's English landlady, possibly of Dutch descent, who provides him with lodging and maternal care."
+    },
+    "upma kesari": {
+      "type": "vocabulary",
+      "description": "A South Indian dish; 'upma' is a savory porridge made from semolina, and 'kesari' is a sweet semolina dessert, here humorously combined."
+    },
+    "tabla": {
+      "type": "vocabulary",
+      "description": "A pair of hand-played Indian drums used in classical and popular music."
+    },
+    "puja": {
+      "type": "vocabulary",
+      "description": "A Hindu religious ritual involving offerings and prayers to deities."
+    },
+    "Strait of Dover": {
+      "type": "proper_noun",
+      "description": "A narrow channel separating southern England from northern France, connecting the North Sea to the English Channel."
+    },
+    "English Channel": {
+      "type": "proper_noun",
+      "description": "The body of water that separates southern England from northern France, frequently traversed by ships traveling between Britain and continental Europe."
+    },
+    "Atlantic Ocean": {
+      "type": "proper_noun",
+      "description": "The vast ocean separating Europe and Africa from the Americas, which Parvateesam's ship must cross on the voyage home."
+    },
+    "French coast": {
+      "type": "proper_noun",
+      "description": "Refers to the northern coastline of France along the English Channel and Atlantic Ocean."
+    },
+    "Suez Canal": {
+      "type": "proper_noun",
+      "description": "A man-made waterway in Egypt connecting the Mediterranean Sea to the Red Sea, a crucial route for ships traveling between Europe and India."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "A major port city on the west coast of India (now called Mumbai), the destination where Parvateesam's ship arrives in India."
+    },
+    "Italy": {
+      "type": "proper_noun",
+      "description": "A country in southern Europe; the ship stops at an Italian port during the journey."
+    },
+    "Malta": {
+      "type": "proper_noun",
+      "description": "A small island nation in the Mediterranean Sea, which serves as a British naval base and a stopover point for ships during the era."
+    },
+    "Arabian Sea": {
+      "type": "proper_noun",
+      "description": "A region of the northern Indian Ocean, between the Arabian Peninsula and the Indian subcontinent, traversed by ships traveling to India."
+    },
+    "Christian priest": {
+      "type": "proper_noun",
+      "description": "A religious figure aboard the ship who leads prayers for the passengers' safety during the perilous voyage."
+    },
+    "mail steamer": {
+      "type": "vocabulary",
+      "description": "A ship designated to carry mail (postal cargo) as well as passengers, often given special protection during wartime."
+    },
+    "cabbage curry": {
+      "type": "vocabulary",
+      "description": "A vegetarian dish made with cabbage and spices, typical of Indian cuisine."
+    },
+    "sago pudding": {
+      "type": "vocabulary",
+      "description": "A sweet dessert made from sago pearls (tapioca), milk, and sugar, popular in Indian and British colonial diets."
+    },
+    "deck chair": {
+      "type": "vocabulary",
+      "description": "A folding chair designed for use on the deck of a ship, often rented to passengers for lounging."
+    },
+    "ping pong": {
+      "type": "vocabulary",
+      "description": "A table game also known as table tennis, played indoors for amusement on ships."
+    },
+    "badminton": {
+      "type": "vocabulary",
+      "description": "A racquet sport played on a court, sometimes set up on the deck of large ships for passenger entertainment."
+    },
+    "gangway": {
+      "type": "vocabulary",
+      "description": "A movable bridge or ramp used for boarding or leaving a ship."
+    },
+    "usher": {
+      "type": "vocabulary",
+      "description": "A person who shows people to their seats in a theater or cinema."
+    },
+    "life belt": {
+      "type": "vocabulary",
+      "description": "A flotation device made of cork or rubber, worn around the body to keep a person afloat in water in case of emergency."
+    },
+    "lifeboat": {
+      "type": "vocabulary",
+      "description": "A small boat carried on a ship, used for emergency evacuation if the ship is in danger."
+    },
+    "weighed anchor": {
+      "type": "vocabulary",
+      "description": "A nautical term meaning to raise the anchor in preparation for departure."
+    },
+    "Hindustan": {
+      "type": "proper_noun",
+      "description": "A historical term referring to the Indian subcontinent, commonly used during the colonial era."
+    },
+    "Bombay Harbor": {
+      "type": "proper_noun",
+      "description": "The harbor area of Bombay (Mumbai), a major entry point for ships and travelers arriving in India."
+    },
+    "European War": {
+      "type": "proper_noun",
+      "description": "A reference to World War I, which was often called the European War in early 20th-century India."
+    },
+    "Bhagavad Gita": {
+      "type": "proper_noun",
+      "description": "A sacred Hindu scripture, part of the Indian epic Mahabharata, consisting of a philosophical dialogue between Lord Krishna and Arjuna."
+    },
+    "Annie Besant": {
+      "type": "proper_noun",
+      "description": "A British social reformer, theosophist, and supporter of Indian self-rule, known for her writings and political activism in India."
+    },
+    "Sharab": {
+      "type": "vocabulary",
+      "description": "A money changer, typically someone who exchanges foreign currency for local currency at ports or railway stations."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "annas": {
+      "type": "vocabulary",
+      "description": "A former unit of Indian currency, equal to 1/16 of a rupee, used during the British colonial period."
+    },
+    "sahibs": {
+      "type": "vocabulary",
+      "description": "A term used in colonial India to refer respectfully to European men or, more generally, to men of authority."
+    },
+    "coolies": {
+      "type": "vocabulary",
+      "description": "Manual laborers or porters, especially those who carry luggage at railway stations and ports."
+    },
+    "salaams": {
+      "type": "vocabulary",
+      "description": "A gesture of respectful greeting or salutation, often involving a bow or placing the hand to the forehead."
+    },
+    "dhotis": {
+      "type": "vocabulary",
+      "description": "Traditional men's garments in India, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "Parsi brothers": {
+      "type": "character",
+      "description": "Two Parsi men traveling together in the same train compartment as Parvateesam, engaged in a business dispute."
+    },
+    "Maharashtrian husband and wife": {
+      "type": "character",
+      "description": "A couple from Maharashtra who board the train with Parvateesam and amuse him with their constant bickering."
+    },
+    "Telugu couple": {
+      "type": "character",
+      "description": "A husband and wife from the Telugu-speaking region, traveling with their young child; they befriend Parvateesam on the train."
+    },
+    "station porter": {
+      "type": "character",
+      "description": "A railway porter who assists Parvateesam with his luggage and errands at Hyderabad station."
+    },
+    "Victoria Terminus": {
+      "type": "proper_noun",
+      "description": "A major railway station in Bombay (now Mumbai), known today as Chhatrapati Shivaji Maharaj Terminus, built during the British colonial era."
+    },
+    "Madras State": {
+      "type": "proper_noun",
+      "description": "A former administrative region in British India, now largely corresponding to the state of Tamil Nadu."
+    },
+    "M.S.M. railway line": {
+      "type": "proper_noun",
+      "description": "Refers to the Madras and Southern Mahratta Railway, a major railway network in southern India during the colonial period."
+    },
+    "Mughalpura": {
+      "type": "proper_noun",
+      "description": "A locality and railway station in Hyderabad, historically significant as a railway hub."
+    },
+    "Hyderabad": {
+      "type": "proper_noun",
+      "description": "A major city in south-central India, historically ruled by the Nizams and known for its Muslim heritage."
+    },
+    "Nawab": {
+      "type": "proper_noun",
+      "description": "A hereditary Muslim ruler or nobleman in South Asia, especially during the Mughal and colonial periods."
+    },
+    "Bandar": {
+      "type": "proper_noun",
+      "description": "A colloquial name for Machilipatnam, a port town in Andhra Pradesh, India."
+    },
+    "Urdu": {
+      "type": "proper_noun",
+      "description": "A language widely spoken in Hyderabad and other parts of India, associated with Muslim culture."
+    },
+    "vegetarian hotel": {
+      "type": "vocabulary",
+      "description": "A restaurant or eatery that serves only vegetarian food, common in India due to religious and cultural preferences."
+    },
+    "second class": {
+      "type": "vocabulary",
+      "description": "A category of train travel in colonial India, offering moderate comfort at a lower fare than first class."
+    },
+    "waiting room": {
+      "type": "vocabulary",
+      "description": "A designated area at railway stations where passengers can rest while waiting for their train."
+    },
+    "refreshment stall": {
+      "type": "vocabulary",
+      "description": "A small shop or counter at railway stations selling snacks and drinks to travelers."
+    },
+    "curd": {
+      "type": "vocabulary",
+      "description": "A dairy product similar to yogurt, commonly eaten in India."
+    },
+    "ferry": {
+      "type": "vocabulary",
+      "description": "A boat or ship used to carry passengers and goods across a river or other body of water."
+    },
+    "Chattulugaru": {
+      "type": "character",
+      "description": "A respected elder in the village, referred to as 'Chattulugaru,' who is identified as the narrator's father by the villagers."
+    },
+    "Bapan": {
+      "type": "character",
+      "description": "A villager mentioned in passing, whose house is referenced during the villagers' gossip."
+    },
+    "Annapurna": {
+      "type": "character",
+      "description": "A Hindu goddess of nourishment, used here as a metaphor to describe the mother’s radiant and nurturing appearance."
+    },
+    "Mahalakshmi": {
+      "type": "character",
+      "description": "The Hindu goddess of wealth and prosperity, invoked to describe the mother’s joyful and auspicious demeanor."
+    },
+    "Mogaliturru": {
+      "type": "proper_noun",
+      "description": "The protagonist's home village in Andhra Pradesh, India."
+    },
+    "Tahsildar": {
+      "type": "proper_noun",
+      "description": "A revenue administrative officer in colonial India, responsible for tax collection and local administration."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in British India (now Kolkata), often associated with education, government, and colonial administration."
+    },
+    "Daftari": {
+      "type": "proper_noun",
+      "description": "A clerk or office assistant, especially in government offices during British rule."
+    },
+    "Seema": {
+      "type": "proper_noun",
+      "description": "A term referring to a distant region or area, often used for the Rayalaseema region of Andhra Pradesh, but here likely just meaning 'from afar.'"
+    },
+    "Lord Shiva": {
+      "type": "proper_noun",
+      "description": "A principal deity in Hinduism, regarded as the protector and destroyer, mentioned as watching over the family."
+    },
+    "Mantrapushpam": {
+      "type": "proper_noun",
+      "description": "A sacred Vedic hymn recited during Hindu rituals and worship."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional Indian women's garment, a long piece of cloth draped around the body."
+    },
+    "pancha": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn by South Indian men, similar to a dhoti."
+    },
+    "bottu": {
+      "type": "vocabulary",
+      "description": "A Telugu word for bindi, the decorative dot worn on the forehead."
+    },
+    "leaf plate": {
+      "type": "vocabulary",
+      "description": "A plate made from large leaves, commonly used in South India for serving food, especially during traditional meals."
+    },
+    "cow-dung water": {
+      "type": "vocabulary",
+      "description": "Water mixed with cow dung, traditionally used in Indian households for ritual purification and cleaning."
+    },
+    "pesaratlu": {
+      "type": "vocabulary",
+      "description": "A type of savory pancake from Andhra cuisine, made from green gram (moong dal) batter."
+    },
+    "tank": {
+      "type": "vocabulary",
+      "description": "A large, man-made pond or reservoir used for bathing, washing, or irrigation in Indian villages."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A term of respect used for educated or high-status men in India, often as a polite form of address."
+    },
+    "washerman": {
+      "type": "vocabulary",
+      "description": "A person whose occupation is washing clothes, especially in the traditional Indian caste-based system."
+    },
+    "Desamayyah": {
+      "type": "character",
+      "description": "A villager who expresses concern for Parvateesam's well-being after his journey abroad."
+    },
+    "Dayakeshara": {
+      "type": "character",
+      "description": "A friend of Parvateesam from Narsapur, who brings news of Parvateesam's return spreading through the town."
+    },
+    "president of the Narsapur Bar Association": {
+      "type": "character",
+      "description": "A local legal dignitary who may also honor Parvateesam."
+    },
+    "lady sahib": {
+      "type": "character",
+      "description": "A term used humorously by Parvateesam to refer to a woman who cooked for him in England, impressing the villagers."
+    },
+    "Rajus": {
+      "type": "proper_noun",
+      "description": "A reference to a caste or community group, often Kshatriyas, known for their social status in Andhra Pradesh."
+    },
+    "Vedic pundits": {
+      "type": "proper_noun",
+      "description": "Scholars or priests learned in the Vedas, the ancient Hindu scriptures."
+    },
+    "Kondaveedu": {
+      "type": "proper_noun",
+      "description": "A historical fort and region in Andhra Pradesh, known for its long chains; used metaphorically to mean something lengthy."
+    },
+    "Yanadi": {
+      "type": "proper_noun",
+      "description": "A tribal community in Andhra Pradesh, often referenced in contrast to caste Hindus."
+    },
+    "Brahmins": {
+      "type": "proper_noun",
+      "description": "A Hindu caste traditionally associated with priesthood, learning, and ritual purity."
+    },
+    "Bar Association": {
+      "type": "proper_noun",
+      "description": "A professional body of lawyers, here referring to the local association in Narsapur."
+    },
+    "Babayya": {
+      "type": "proper_noun",
+      "description": "A respectful or affectionate Telugu term for an elder or respected man."
+    },
+    "Jai Rama, Ramana Govindo Hari": {
+      "type": "proper_noun",
+      "description": "A devotional chant invoking Hindu deities, expressing religious fervor."
+    },
+    "Ayyababai Babu": {
+      "type": "vocabulary",
+      "description": "A respectful Telugu address combining 'ayyababai' (sir/elder) and 'babu' (gentleman/master)."
+    },
+    "atone": {
+      "type": "vocabulary",
+      "description": "To perform rituals or actions to seek forgiveness for a perceived sin, especially in a religious context."
+    },
+    "atonement": {
+      "type": "vocabulary",
+      "description": "A religious or ritual purification process to remove sin or impurity."
+    },
+    "scriptures": {
+      "type": "vocabulary",
+      "description": "Sacred Hindu texts, often referring to the Vedas or Dharma Shastras."
+    },
+    "purification ritual": {
+      "type": "vocabulary",
+      "description": "A ceremony performed to cleanse a person spiritually after a perceived impurity."
+    },
+    "Brahminhood": {
+      "type": "vocabulary",
+      "description": "The state or status of being a Brahmin, often requiring ritual maintenance."
+    },
+    "dakshina": {
+      "type": "vocabulary",
+      "description": "A traditional offering or fee given to priests after a religious ceremony."
+    },
+    "betel leaves": {
+      "type": "vocabulary",
+      "description": "Leaves of the betel plant, commonly chewed with areca nut and lime, and offered as a mark of respect or after meals."
+    },
+    "row": {
+      "type": "vocabulary",
+      "description": "A traditional seating arrangement for meals, especially in South Indian Brahmin households."
+    },
+    "mantras": {
+      "type": "vocabulary",
+      "description": "Sacred chants or incantations used in Hindu rituals."
+    },
+    "Bantrotu Veeraswamy": {
+      "type": "character",
+      "description": "A local figure mentioned as someone who could drive the donkeys out to the shed; likely a servant or worker associated with the school."
+    },
+    "Narsapur Bar Association": {
+      "type": "proper_noun",
+      "description": "A professional association of lawyers in Narsapur, representing the local legal community."
+    },
+    "Great Britain": {
+      "type": "proper_noun",
+      "description": "Refers to the United Kingdom, the colonial rulers of India at the time."
+    },
+    "University of Edinburgh": {
+      "type": "proper_noun",
+      "description": "A prestigious university in Scotland where Parvateesam completed his higher education."
+    },
+    "Boy Scouts": {
+      "type": "proper_noun",
+      "description": "A global youth organization focused on character development and outdoor skills, newly introduced at the school in the story."
+    },
+    "Ganapati": {
+      "type": "proper_noun",
+      "description": "Another name for Ganesha, the Hindu deity invoked at the start of auspicious events."
+    },
+    "Saraswati": {
+      "type": "proper_noun",
+      "description": "The Hindu goddess of learning and the arts, often invoked in prayers at educational institutions."
+    },
+    "Sakinettipalli": {
+      "type": "proper_noun",
+      "description": "A village or locality in Andhra Pradesh, mentioned as a nearby place."
+    },
+    "Bar-at-Law": {
+      "type": "proper_noun",
+      "description": "A professional legal qualification, typically referring to someone who has been called to the bar in England or Scotland."
+    },
+    "laalchi": {
+      "type": "vocabulary",
+      "description": "A type of loose, long-sleeved upper garment or tunic, commonly worn in South India."
+    },
+    "pleaders": {
+      "type": "vocabulary",
+      "description": "A term for lawyers or advocates, especially in colonial India."
+    },
+    "yajna": {
+      "type": "vocabulary",
+      "description": "A Vedic ritual or ceremonial offering, here used humorously to describe the ordeal of public reception."
+    },
+    "cart": {
+      "type": "vocabulary",
+      "description": "A horse-drawn vehicle used for transportation, common in early 20th century India."
+    },
+    "Panditji": {
+      "type": "vocabulary",
+      "description": "A respectful term for a learned man or scholar, often used for Brahmins or teachers."
+    },
+    "Maharaj": {
+      "type": "vocabulary",
+      "description": "A term meaning 'great king' or 'your majesty,' used here humorously."
+    },
+    "Field Marshal": {
+      "type": "vocabulary",
+      "description": "A high military rank, used metaphorically to describe Parvateesam's feeling of importance."
+    },
+    "vizier": {
+      "type": "vocabulary",
+      "description": "A high-ranking political advisor or minister, used here to describe the headmaster's dignified appearance."
+    },
+    "Timmarusu": {
+      "type": "vocabulary",
+      "description": "A famous historical prime minister in the Vijayanagara Empire, known for his wisdom and loyalty."
+    },
+    "Panchami": {
+      "type": "vocabulary",
+      "description": "The fifth day of the lunar fortnight in the Hindu calendar, considered auspicious for certain activities."
+    },
+    "tamarind switch": {
+      "type": "vocabulary",
+      "description": "A thin, flexible stick made from the tamarind tree, used as a tool for herding or light punishment."
+    },
+    "Munasabu garu": {
+      "type": "character",
+      "description": "The president of the meeting and a respected local dignitary, who presides over the felicitation ceremony for Parvatisham."
+    },
+    "Versapuram": {
+      "type": "proper_noun",
+      "description": "A town mentioned as the place from which two lawyers arrive to accompany Parvatisham."
+    },
+    "felicitation": {
+      "type": "vocabulary",
+      "description": "A formal expression of praise or congratulation, often in the form of a ceremony."
+    },
+    "bar room": {
+      "type": "vocabulary",
+      "description": "A room in a courthouse reserved for lawyers, sometimes used for meetings or gatherings."
+    },
+    "angavastram": {
+      "type": "vocabulary",
+      "description": "A traditional South Indian garment, a long cloth draped over the shoulders, often worn by men."
+    },
+    "Sri Parvateesham": {
+      "type": "character",
+      "description": "The protagonist and narrator, a naive young Brahmin who recounts his experiences traveling to England and his observations on Indian and Western society."
+    },
+    "Sri Ramanarao": {
+      "type": "character",
+      "description": "A prominent and influential figure who mentors Parvateesham, encouraging him to organize political meetings and eventually inspiring him to study law abroad."
+    },
+    "Melrose Abbey": {
+      "type": "proper_noun",
+      "description": "A historic ruined abbey located in Scotland, known for its intricate stonework and architecture."
+    },
+    "Sabhaayainamah": {
+      "type": "vocabulary",
+      "description": "A formal Sanskrit-derived salutation meaning 'Salutations to the assembly,' used to respectfully address a gathering."
+    },
+    "tramcar": {
+      "type": "vocabulary",
+      "description": "A streetcar or trolley, a rail vehicle that runs on tracks along public urban streets, used for mass transport."
+    },
+    "motor car": {
+      "type": "vocabulary",
+      "description": "An early term for an automobile or car, used especially in the context of the early 20th century."
+    },
+    "aristocrats": {
+      "type": "vocabulary",
+      "description": "Members of the highest social class, often with hereditary titles or privileges, especially in European societies."
+    },
+    "Satyam": {
+      "type": "character",
+      "description": "A young man from the village who has passed his B.A., is full of modern ideas, and becomes a close companion to Parvateesam during his stay."
+    },
+    "Achyutaramaiah": {
+      "type": "character",
+      "description": "A Brahmin lawyer from Mogalturru, introduced as a potential father-in-law, whose eldest daughter becomes a marriage prospect for Parvateesam.",
+      "image": "/data/images/characters/barrister-parvatishan/achyutaramaiah.png"
+    },
+    "Surya Narayana Shastri": {
+      "type": "character",
+      "description": "A respected and scholarly householder who visits Parvateesam's family to propose a marriage alliance for his daughter."
+    },
+    "Sita": {
+      "type": "character",
+      "description": "A sixteen-year-old village girl whom Parvateesam helps at the tank, leading to village gossip."
+    },
+    "Vande Mataram": {
+      "type": "proper_noun",
+      "description": "A patriotic slogan and song meaning 'I bow to thee, Mother,' widely used in India's independence movement."
+    },
+    "Lord Council": {
+      "type": "proper_noun",
+      "description": "Likely refers to a formal or honorary council, possibly a local governing or advisory body during colonial times."
+    },
+    "Rayalaseema": {
+      "type": "proper_noun",
+      "description": "A region in the southern part of Andhra Pradesh, known for its distinct culture."
+    },
+    "Governor": {
+      "type": "proper_noun",
+      "description": "The head of a province or presidency under British colonial administration."
+    },
+    "Erramunda": {
+      "type": "proper_noun",
+      "description": "A village referenced in the text, representing rural Andhra Pradesh."
+    },
+    "sarees": {
+      "type": "proper_noun",
+      "description": "Traditional Indian women's attire, consisting of a long draped cloth."
+    },
+    "Vedantic": {
+      "type": "proper_noun",
+      "description": "Relating to Vedanta, a school of Hindu philosophy based on the Vedas."
+    },
+    "Mogalthur": {
+      "type": "proper_noun",
+      "description": "A village in Andhra Pradesh, referenced as a destination in the marriage proposal journey."
+    },
+    "Upputeru": {
+      "type": "proper_noun",
+      "description": "A water channel or river near Bhimavaram, where Parvateesam and Raju reminisce."
+    },
+    "Waverley Station": {
+      "type": "proper_noun",
+      "description": "A major railway station in Edinburgh, Scotland, referenced as the place from which Parvateesam departed for India."
+    },
+    "Achyutaramaiah garu": {
+      "type": "proper_noun",
+      "description": "The honorific 'garu' is added to Achyutaramaiah's name, denoting respect in Telugu culture."
+    },
+    "Shastriji": {
+      "type": "proper_noun",
+      "description": "An honorific title for a learned Brahmin or scholar, used here to address Surya Narayana Shastri."
+    },
+    "Atmaram": {
+      "type": "character",
+      "description": "A character mentioned in passing, likely a friend or companion who joins Parvateesam and Raju for meals."
+    },
+    "Kashi": {
+      "type": "proper_noun",
+      "description": "Another name for Varanasi, a holy city in India, often referenced in Hindu tradition as a destination for pilgrimage or renunciation."
+    },
+    "three knots": {
+      "type": "proper_noun",
+      "description": "A reference to the ritual tying of the 'mangalasutra' during a Hindu wedding ceremony, symbolizing marriage."
+    },
+    "mangalsutra": {
+      "type": "proper_noun",
+      "description": "A sacred necklace tied by the groom around the bride's neck during a Hindu wedding, signifying marital status."
+    },
+    "zari": {
+      "type": "proper_noun",
+      "description": "A type of fine gold or silver thread used in traditional Indian garments, especially shawls and saris."
+    },
+    "sacred rice": {
+      "type": "proper_noun",
+      "description": "Rice grains used in Hindu rituals, often showered as a blessing during ceremonies."
+    },
+    "pandal": {
+      "type": "proper_noun",
+      "description": "A temporary decorative structure erected for ceremonies such as weddings."
+    },
+    "festoons": {
+      "type": "proper_noun",
+      "description": "Decorative garlands, often made of flowers or leaves, used to adorn venues during celebrations."
+    },
+    "Pellikoduku": {
+      "type": "proper_noun",
+      "description": "A Telugu term for the pre-wedding ceremony performed for the groom."
+    },
+    "Snathakam": {
+      "type": "proper_noun",
+      "description": "A traditional Hindu ceremony marking the completion of a boy's student life, often performed before marriage."
+    },
+    "aarti": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual of worship involving the waving of lighted lamps before deities or individuals to invoke blessings."
+    },
+    "panasa leaves": {
+      "type": "proper_noun",
+      "description": "Leaves from the jackfruit tree, used in South Indian rituals for blessings."
+    },
+    "jaggery": {
+      "type": "proper_noun",
+      "description": "Unrefined cane sugar, often used in Indian sweets and rituals."
+    },
+    "betrothal": {
+      "type": "vocabulary",
+      "description": "A formal engagement ceremony marking the agreement to marry."
+    },
+    "warded off the evil eye": {
+      "type": "vocabulary",
+      "description": "A traditional act to protect someone from jealousy or negative energy, often involving gestures or rituals."
+    },
+    "scatterbrain": {
+      "type": "vocabulary",
+      "description": "A colloquial term for someone who is forgetful or absent-minded."
+    },
+    "bundle": {
+      "type": "vocabulary",
+      "description": "A small package or cloth-wrapped parcel, often used to carry personal belongings."
+    },
+    "bullock carts": {
+      "type": "vocabulary",
+      "description": "Traditional carts pulled by oxen (bullocks), used for transportation in rural India."
+    },
+    "palanquin": {
+      "type": "vocabulary",
+      "description": "A covered litter carried on poles by bearers, used in India for transporting people, especially during ceremonial occasions."
+    },
+    "velvet cap": {
+      "type": "vocabulary",
+      "description": "A soft, round cap made of velvet fabric, often worn as part of festive or ceremonial dress."
+    },
+    "gig-carts": {
+      "type": "vocabulary",
+      "description": "A light, two-wheeled cart, typically drawn by a horse or bullock, used for personal transport."
+    },
+    "Mrs. Proud": {
+      "type": "character",
+      "description": "A woman mentioned by Parvateesam as someone who once attracted him, possibly a reference to a British or Anglo-Indian woman encountered earlier."
+    },
+    "Shakuntala": {
+      "type": "proper_noun",
+      "description": "A reference to a character from Hindu mythology and classical Sanskrit literature, symbolizing a large group of offspring."
+    },
+    "Ganesh Puja": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual worshipping Lord Ganesha, performed at the beginning of auspicious events like weddings."
+    },
+    "Gauri Puja": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual worshipping Goddess Gauri (Parvati), typically performed by brides for marital bliss."
+    },
+    "gotra": {
+      "type": "proper_noun",
+      "description": "A Hindu term denoting lineage or clan, important in arranging marriages to avoid close kinship."
+    },
+    "Hindu": {
+      "type": "proper_noun",
+      "description": "Refers to the religious and cultural tradition of Hinduism, which shapes the customs described in the wedding."
+    },
+    "aavakaya": {
+      "type": "vocabulary",
+      "description": "A spicy mango pickle, a staple condiment in Telugu cuisine."
+    },
+    "mat": {
+      "type": "vocabulary",
+      "description": "A woven floor covering used for sitting, especially during gatherings or meals."
+    },
+    "leaf plates": {
+      "type": "vocabulary",
+      "description": "Plates made from dried leaves, commonly used in South Indian traditional meals."
+    },
+    "maid": {
+      "type": "vocabulary",
+      "description": "A female domestic servant, here referring to a woman helping with household chores during the wedding."
+    },
+    "well": {
+      "type": "vocabulary",
+      "description": "A deep hole or shaft dug to access groundwater, commonly used for bathing and washing in Indian villages."
+    },
+    "father-in-law": {
+      "type": "character",
+      "description": "Saraswati's father and Parvateesam's father-in-law, a respected figure who is involved in legal work and manages family matters."
+    },
+    "aunt": {
+      "type": "character",
+      "description": "Saraswati's mother or aunt, who interacts with Parvateesam and encourages him to stay longer."
+    },
+    "mother-in-law": {
+      "type": "character",
+      "description": "Saraswati's mother, who prepares special meals for Parvateesam and participates in the household rituals."
+    },
+    "B.L. degree": {
+      "type": "proper_noun",
+      "description": "Bachelor of Law degree, a professional qualification for lawyers in colonial India and England."
+    },
+    "mantra": {
+      "type": "vocabulary",
+      "description": "A sacred utterance, word, or phrase in Hinduism believed to have spiritual power."
+    },
+    "coachman": {
+      "type": "vocabulary",
+      "description": "A driver of a horse-drawn carriage, a common mode of transport in early 20th century India."
+    },
+    "Nagamma": {
+      "type": "character",
+      "description": "Nagamma is the narrator's mother, a central figure in his household who manages domestic affairs and often provides advice and emotional support."
+    },
+    "Goddess Mahalakshmi": {
+      "type": "proper_noun",
+      "description": "Goddess Mahalakshmi is a Hindu deity associated with wealth, prosperity, and auspiciousness, often invoked as a symbol of beauty and good fortune."
+    },
+    "Goddess Parvati": {
+      "type": "proper_noun",
+      "description": "Goddess Parvati is a principal Hindu goddess, wife of Lord Shiva, and a symbol of love, fertility, and devotion."
+    },
+    "Gayatri mantra": {
+      "type": "proper_noun",
+      "description": "The Gayatri mantra is a highly revered Vedic chant in Hinduism, traditionally recited many times as a spiritual practice."
+    },
+    "rangoli": {
+      "type": "vocabulary",
+      "description": "A traditional Indian decorative art made with colored powders, drawn on the ground, especially at the entrance of homes during auspicious occasions."
+    },
+    "Manohari": {
+      "type": "character",
+      "description": "Parvateesam's wife, depicted as playful and youthful, who engages in lively banter with him."
+    },
+    "Ramachandra Rao": {
+      "type": "character",
+      "description": "A friend of Parvateesam in Bezwada (Vijayawada), portrayed as easy-going and entertaining, who hosts Parvateesam and his friends."
+    },
+    "Peri Narayanamurthy": {
+      "type": "character",
+      "description": "A renowned and elderly lawyer in Madras, respected for his warmth and hospitality, whom Parvateesam seeks out for advice."
+    },
+    "Tanguturi Prakasham": {
+      "type": "character",
+      "description": "A famous Telugu barrister in Madras, known for his stern demeanor and formidable reputation, whom Parvateesam visits for guidance."
+    },
+    "Kakinada": {
+      "type": "proper_noun",
+      "description": "A coastal city in Andhra Pradesh, India, also considered for Saraswati's education."
+    },
+    "Vijayawada": {
+      "type": "proper_noun",
+      "description": "A city in Andhra Pradesh, India, referred to by its modern name after Bezwada."
+    },
+    "George Town": {
+      "type": "proper_noun",
+      "description": "A historic neighborhood in Madras (Chennai), known for its commercial and residential significance."
+    },
+    "High Court": {
+      "type": "proper_noun",
+      "description": "Refers to the Madras High Court, a prominent judicial institution in colonial India."
+    },
+    "Baladur": {
+      "type": "proper_noun",
+      "description": "A place mentioned as Parvateesam's next destination after Madras, likely a fictional or less-known locality."
+    },
+    "Pegu": {
+      "type": "proper_noun",
+      "description": "A breed of small horse or pony, likely referencing ponies from the Pegu region (now in Myanmar), popular in colonial India."
+    },
+    "Garu": {
+      "type": "proper_noun",
+      "description": "A Telugu honorific suffix denoting respect, used after names."
+    },
+    "darbha grass": {
+      "type": "vocabulary",
+      "description": "A type of sacred grass (Desmostachya bipinnata) used in Hindu rituals for purification and religious ceremonies."
+    },
+    "honorarium": {
+      "type": "vocabulary",
+      "description": "A payment given for professional services that are rendered nominally without charge, often used in the context of religious or ceremonial services."
+    },
+    "vakil": {
+      "type": "vocabulary",
+      "description": "A term for a lawyer or legal advocate in colonial India."
+    },
+    "Prakashamgaru": {
+      "type": "character",
+      "description": "A prominent and respected lawyer in Madras, known for his grave and dignified demeanor; he becomes one of Parvateesam's mentors in criminal law."
+    },
+    "Narayana Murthy garu": {
+      "type": "character",
+      "description": "A renowned lawyer in Madras who kindly takes Parvateesam as an apprentice, teaching him civil court procedures and guiding his early legal career."
+    },
+    "Pantulu garu": {
+      "type": "character",
+      "description": "A senior and well-known figure in the legal community, friendly with Parvateesam and his mentors; he greets Parvateesam warmly and encourages his career."
+    },
+    "Surya": {
+      "type": "character",
+      "description": "A relative or family member who arrives at Bhimavaram with other relatives and bundles, likely to participate in the wedding arrangements."
+    },
+    "Home Rule movement": {
+      "type": "proper_noun",
+      "description": "A political movement in early 20th-century India, led by Annie Besant and others, advocating for Indian self-government within the British Empire."
+    },
+    "Gokhale": {
+      "type": "proper_noun",
+      "description": "Refers to Gopal Krishna Gokhale, a prominent Indian political leader and social reformer."
+    },
+    "Malaviya": {
+      "type": "proper_noun",
+      "description": "Refers to Madan Mohan Malaviya, an influential Indian educationist and freedom fighter."
+    },
+    "Lajpat Rai": {
+      "type": "proper_noun",
+      "description": "Refers to Lala Lajpat Rai, a noted Indian nationalist leader."
+    },
+    "Naoroji": {
+      "type": "proper_noun",
+      "description": "Refers to Dadabhai Naoroji, an important Indian political leader and early advocate for Indian rights under British rule."
+    },
+    "Mylapore": {
+      "type": "proper_noun",
+      "description": "A historic neighborhood in Madras, known for its temples and as a residential area."
+    },
+    "The Indian War of Independence": {
+      "type": "proper_noun",
+      "description": "A book by Savarkar detailing the 1857 revolt against British rule in India."
+    },
+    "Savarkar": {
+      "type": "proper_noun",
+      "description": "Refers to Vinayak Damodar Savarkar, an Indian independence activist and author."
+    },
+    "Bar Room": {
+      "type": "vocabulary",
+      "description": "A room in a court or legal institution where lawyers gather, socialize, or prepare for cases."
+    },
+    "Iyer": {
+      "type": "vocabulary",
+      "description": "A Tamil Brahmin caste, often associated with priesthood and vegetarian cuisine; here, likely refers to a person running a South Indian vegetarian eatery."
+    },
+    "cook-brahmins": {
+      "type": "vocabulary",
+      "description": "Brahmin men employed to cook food for religious or social occasions, ensuring ritual purity."
+    },
+    "Prakashampantulu garu": {
+      "type": "character",
+      "description": "A respected senior lawyer who entrusts the narrator with important criminal cases and offers guidance."
+    },
+    "grandmother": {
+      "type": "character",
+      "description": "The narrator's grandmother, who offers reassurance and advice in a familial context."
+    },
+    "teacher": {
+      "type": "character",
+      "description": "A mentor figure who expresses pride and joy at the narrator's courtroom success."
+    },
+    "Panuganti": {
+      "type": "proper_noun",
+      "description": "Refers to Panuganti Lakshmi Narasimha Rao, a well-known Telugu writer, often invoked in idioms or sayings."
+    },
+    "pleader’s bench": {
+      "type": "proper_noun",
+      "description": "The designated seating area in court for legal advocates or lawyers."
+    },
+    "Appellate Court": {
+      "type": "proper_noun",
+      "description": "A higher court that hears appeals against decisions from lower courts."
+    },
+    "Munsif Court": {
+      "type": "proper_noun",
+      "description": "A lower-level civil court in the Indian judicial system, typically presided over by a Munsif (junior judge)."
+    },
+    "Awachi": {
+      "type": "proper_noun",
+      "description": "A place name, likely referring to a locality or police station relevant to the story."
+    },
+    "adjournment": {
+      "type": "vocabulary",
+      "description": "A legal term meaning the postponement or suspension of court proceedings to a later time."
+    },
+    "junior": {
+      "type": "vocabulary",
+      "description": "In the legal context, a junior lawyer or assistant to a senior advocate."
+    },
+    "magistrate": {
+      "type": "vocabulary",
+      "description": "A judicial officer with authority over minor criminal and civil cases."
+    },
+    "compartment": {
+      "type": "vocabulary",
+      "description": "A section or division of a railway carriage, commonly used in Indian trains."
+    },
+    "dock": {
+      "type": "vocabulary",
+      "description": "The enclosure in a courtroom where the accused sits during trial."
+    },
+    "Gandhi": {
+      "type": "character",
+      "description": "Mohandas Karamchand Gandhi, also referred to as Gandhiji, is the renowned leader of the Indian independence movement, whose arrival and speech in Madras are central events in this chapter."
+    },
+    "Shaukat Ali": {
+      "type": "character",
+      "description": "Shaukat Ali is a prominent Muslim leader and one of Gandhi's foremost disciples, known for his role in the Indian independence movement."
+    },
+    "Mohammad Ali": {
+      "type": "character",
+      "description": "Mohammad Ali is Shaukat Ali's brother and a leading Muslim political figure, also closely associated with Gandhi and the national movement."
+    },
+    "Great War": {
+      "type": "proper_noun",
+      "description": "The Great War refers to World War I (1914-1918), a major global conflict in which Indian soldiers participated as part of the British Empire."
+    },
+    "Indian Red Cross": {
+      "type": "proper_noun",
+      "description": "The Indian Red Cross is a humanitarian organization established to provide medical aid, especially to Indian soldiers during wartime."
+    },
+    "Central Station": {
+      "type": "proper_noun",
+      "description": "Central Station refers to the main railway station in Madras, a significant transportation hub."
+    },
+    "Swaraj": {
+      "type": "proper_noun",
+      "description": "Swaraj is a term meaning 'self-rule' or 'self-governance,' central to the Indian independence movement."
+    },
+    "Congress": {
+      "type": "proper_noun",
+      "description": "Congress refers to the Indian National Congress, the principal political party leading the struggle for Indian independence."
+    },
+    "mail train": {
+      "type": "vocabulary",
+      "description": "A train primarily used for transporting mail, often also carrying passengers; in colonial India, these were important long-distance trains."
+    },
+    "Gandhiji": {
+      "type": "character",
+      "description": "A reference to Mahatma Gandhi, the leader of the Indian independence movement who advocated for non-violent resistance against British rule."
+    },
+    "Duvvuri Subbamma": {
+      "type": "character",
+      "description": "A real-life figure and prominent woman freedom fighter from Andhra Pradesh, depicted here as a courageous widow who stands up to British authorities."
+    },
+    "Jaddi": {
+      "type": "character",
+      "description": "A judge and I.C.S. officer who discusses the nature of justice and law with Parvateesam."
+    },
+    "Raja Garu": {
+      "type": "character",
+      "description": "A respected acquaintance of the narrator's father-in-law and an important client, addressed with an honorific."
+    },
+    "Women’s Association": {
+      "type": "proper_noun",
+      "description": "A local organization of women involved in political and social activism, encouraging women's participation in the independence movement."
+    },
+    "British Empire": {
+      "type": "proper_noun",
+      "description": "Refers to the colonial power ruling India at the time, often described as 'the empire upon which the sun never set.'"
+    },
+    "District Magistrate": {
+      "type": "proper_noun",
+      "description": "A senior judicial and administrative officer in the colonial government, responsible for law and order in a district."
+    },
+    "I.C.S.": {
+      "type": "proper_noun",
+      "description": "Indian Civil Service, the elite administrative service under British rule, staffed by both British and Indian officers."
+    },
+    "Bhadrakali": {
+      "type": "proper_noun",
+      "description": "A fierce form of the Hindu goddess Kali, symbolizing power and energy, used metaphorically to describe Saraswati's oratory."
+    },
+    "auspicious day": {
+      "type": "vocabulary",
+      "description": "A day considered favorable or lucky according to Hindu tradition, often chosen for important events."
+    },
+    "campaign": {
+      "type": "vocabulary",
+      "description": "Refers to organized political activism or public awareness activities, especially related to the independence movement."
+    },
+    "martial law": {
+      "type": "vocabulary",
+      "description": "A state of emergency where normal laws are suspended and the military or authorities have increased powers."
+    },
+    "satyagrahas": {
+      "type": "vocabulary",
+      "description": "A term coined by Gandhi for non-violent resistance or civil disobedience campaigns."
+    },
+    "propaganda": {
+      "type": "vocabulary",
+      "description": "In this context, refers to the dissemination of information and ideas to promote the independence movement."
+    },
+    "board": {
+      "type": "vocabulary",
+      "description": "Refers to a lawyer's nameplate or signboard indicating the location of their legal practice."
+    },
+    "practice": {
+      "type": "vocabulary",
+      "description": "The professional work of a lawyer or advocate, including representing clients in court."
+    },
+    "adjournments": {
+      "type": "vocabulary",
+      "description": "Postponements or delays of court cases to a later date."
+    },
+    "Prakasham garu": {
+      "type": "character",
+      "description": "A respected lawyer and teacher of Parvateesam, known for his courage and advocacy in court."
+    },
+    "Chiranjeevi Puranam Subrahmanya Sharma": {
+      "type": "character",
+      "description": "A friend of the author who suggested the continuation of the Parvateesam story."
+    },
+    "Sri Narla Venkateswara Rao": {
+      "type": "character",
+      "description": "A prominent literary figure who encouraged the author to continue writing."
+    },
+    "Kumari Kappagantu Rajarajeswari": {
+      "type": "character",
+      "description": "The author's daughter, who assisted him in his work."
+    },
+    "Indraganti Srikanta Sharma": {
+      "type": "character",
+      "description": "A young associate thanked by the author for his support."
+    },
+    "Salt Satyagraha": {
+      "type": "proper_noun",
+      "description": "A major nonviolent protest led by Gandhi in 1930 against the British salt tax in colonial India."
+    },
+    "Justicites": {
+      "type": "proper_noun",
+      "description": "Members or supporters of the Justice Party, a political party in the Madras Presidency during British rule."
+    },
+    "Pushkaram": {
+      "type": "proper_noun",
+      "description": "A festival that occurs once every twelve years, associated with rivers in India; here, it denotes a twelve-year period."
+    },
+    "Pulla": {
+      "type": "proper_noun",
+      "description": "A place in Andhra Pradesh, mentioned as the origin of some friends."
+    },
+    "khadi": {
+      "type": "proper_noun",
+      "description": "Hand-spun and hand-woven cloth promoted by Gandhi as a symbol of self-reliance."
+    },
+    "Satyagraha": {
+      "type": "proper_noun",
+      "description": "A philosophy and practice of nonviolent resistance developed by Gandhi."
+    },
+    "Muslims": {
+      "type": "proper_noun",
+      "description": "Refers to the Muslim community in India, often mentioned in the context of political divisions during the independence movement."
+    },
+    "Loyalists": {
+      "type": "proper_noun",
+      "description": "People or groups who supported continued British rule in India."
+    },
+    "plaintiff": {
+      "type": "vocabulary",
+      "description": "A person who brings a case against another in a court of law."
+    },
+    "defendant": {
+      "type": "vocabulary",
+      "description": "A person accused or sued in a court of law."
+    },
+    "pie": {
+      "type": "vocabulary",
+      "description": "A small unit of currency formerly used in India, equal to one-twelfth of an anna."
+    },
+    "lathi": {
+      "type": "vocabulary",
+      "description": "A heavy stick or baton, often used by police for crowd control in India."
+    },
+    "toddy-tapping": {
+      "type": "vocabulary",
+      "description": "The process of extracting sap from palm trees to make an alcoholic beverage called toddy."
+    },
+    "jalebis": {
+      "type": "vocabulary",
+      "description": "A popular Indian sweet made by deep-frying batter in circular shapes and soaking them in sugar syrup."
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Parvatisham",
+      "Mokkapati Narasimha Shastri",
+      "Subbarayudu",
+      "Shivashankar Shastri",
+      "Teerthulu",
+      "Tallavajhula Shiva Shankara Shastri",
+      "Nori Narasimha Shastri",
+      "Varmu Baburao",
+      "Srinivasa Shiromani",
+      "Mogalturru",
+      "Gummalooru",
+      "Looru",
+      "Sarsapuram",
+      "Nidadavolu",
+      "Madras",
+      "England",
+      "Sahityalokam",
+      "Lakshmi",
+      "Bharati",
+      "Brahma",
+      "Rama",
+      "Sharada Press",
+      "Bezwada",
+      "Telugu",
+      "Andhra",
+      "Andhraite",
+      "Don Quixote",
+      "Tagore",
+      "Vemuri",
+      "Narasapuram",
+      "Rajahmundry",
+      "Antarvedi",
+      "Narasapuram taluk",
+      "B.L.",
+      "London",
+      "ayonija",
+      "dhoti",
+      "turban",
+      "shawl",
+      "barrister",
+      "steamer",
+      "taluk",
+      "silver screen",
+      "superior edastation",
+      "class",
+      "canal"
+    ],
+    "ch-1-2": [
+      "Amma",
+      "Barrister Parvateesam",
+      "Collector",
+      "master",
+      "school inspector",
+      "Narsapur",
+      "Taylor High School",
+      "Godavari",
+      "Rajahmundry",
+      "Amma",
+      "form",
+      "verandah",
+      "Collector",
+      "headscarf",
+      "shawl"
+    ],
+    "ch-1-3": [
+      "Parvateesham",
+      "headmaster",
+      "father",
+      "mother",
+      "uncle",
+      "Narsapuram",
+      "Harikathas",
+      "bhajans",
+      "upanayanam",
+      "Ashtavadhanam",
+      "form",
+      "loincloth",
+      "sacred thread",
+      "begging bowl",
+      "staff"
+    ],
+    "ch-1-4": [
+      "Parvateesam",
+      "my uncle",
+      "my father",
+      "my mother",
+      "headmaster",
+      "the girl's maternal uncle",
+      "the master of the house",
+      "Narsapur",
+      "Ashtavadhanam",
+      "Matriculation",
+      "Eluru",
+      "Sanskrit",
+      "Harikathas",
+      "javali",
+      "fifth form",
+      "dowry",
+      "verandah",
+      "harmonium",
+      "ariselu",
+      "garelu",
+      "leaf",
+      "bottle gourd curry",
+      "raw banana curry",
+      "ginger chutney"
+    ],
+    "ch-1-5": [
+      "Parvatisham",
+      "Venkata",
+      "Ravana Rao",
+      "Narayanarao Pantulu",
+      "Bode Narayana Rao",
+      "Mogalturru",
+      "Narsapur",
+      "Godavari",
+      "Palakollu",
+      "Bengal",
+      "Bipin Chandra Pal",
+      "Brundar",
+      "Mahwa",
+      "Pantulu",
+      "Parameshwara",
+      "verandah",
+      "pleader",
+      "swaraj",
+      "namaskar",
+      "dais",
+      "Pantulu",
+      "Vedas"
+    ],
+    "ch-1-6": [
+      "Mr. Ravana Rao",
+      "Chandrapal",
+      "Ravanarao",
+      "Narsapur",
+      "Bengal",
+      "Narsapuram",
+      "ablutions"
+    ],
+    "ch-1-7": [
+      "Mr. Ravanarao",
+      "Mr. Paul",
+      "Parvateesham",
+      "Ravana Rao garu",
+      "Narsapuram",
+      "Telugu",
+      "Narsapur",
+      "curd rice",
+      "garu"
+    ],
+    "ch-1-8": [
+      "Parvateesam",
+      "Mr. Ravanarao",
+      "Gazavalli Narayana",
+      "Thimmanna",
+      "Bode Narayana Rao",
+      "Vemuri Ramachandraiah",
+      "Narsapur",
+      "Guntur",
+      "London",
+      "Mogalithurru",
+      "Vemuru",
+      "Taylor High School",
+      "Narsapuram",
+      "Chennapatnam",
+      "Rajahmundry",
+      "Tirupati",
+      "Ramasami Mudaliar Choultry",
+      "Andhra",
+      "Arava",
+      "Tiruchirapalli",
+      "Dhavaleswaram",
+      "Settipeta",
+      "Bezwada",
+      "Ceylon",
+      "Lanka",
+      "Ravanasura",
+      "Brahmin",
+      "Choultry",
+      "Tamilians",
+      "Royapuram",
+      "Mount Road",
+      "Parisian Hair Cutting Salon",
+      "Whiteaway Laidlaw",
+      "Tempus",
+      "Colombo",
+      "Tuticorin",
+      "Lord Rama",
+      "Lord Hanuman",
+      "Andhras",
+      "Chilakaluripet",
+      "Basin Bridge",
+      "Sahib",
+      "Thomas Cook & Son",
+      "Marseilles",
+      "Suez",
+      "Port Said",
+      "Boulogne",
+      "Folkestone",
+      "Mahabharata",
+      "Indra",
+      "Brahmo Samajists",
+      "Sri Veeresalingam",
+      "Chilakamarti Lakshminarasimham",
+      "Sripanuganti Lakshminarasimha Rao Pantulu",
+      "Sri Gurajada Apparao",
+      "Sri Chinta Dikshitulu",
+      "Nigamasharma",
+      "Girisam",
+      "Ganapathi",
+      "Devulapalli Krishnasastri",
+      "Oscar Wilde",
+      "George Meredith",
+      "Chesterton",
+      "Nietzsche",
+      "Lokāḥ samastāḥ sukhino bhavantu",
+      "bindi",
+      "dhoti",
+      "choultry",
+      "ghee",
+      "rasam",
+      "sambar",
+      "pulusu",
+      "charu",
+      "tumbler",
+      "idli",
+      "coir",
+      "anna",
+      "pice",
+      "quarter anna",
+      "damidi",
+      "lavatory",
+      "porter",
+      "coolie",
+      "jhatka",
+      "sahib",
+      "memsahib",
+      "zamindar",
+      "muffler",
+      "overcoat",
+      "shawl",
+      "bedding",
+      "turban",
+      "spirit",
+      "twill",
+      "furlong",
+      "exercise book",
+      "telegraphic money order",
+      "steward",
+      "suit",
+      "fountain pen",
+      "sacred threads",
+      "waistbands"
+    ],
+    "ch-2-1": [
+      "Parvatesam",
+      "Menon",
+      "Cook-garu",
+      "Case",
+      "England",
+      "London",
+      "Mogalturru",
+      "Cook Company",
+      "Nidadavolu",
+      "Madras",
+      "India House",
+      "Tavistock Road",
+      "Godavari district",
+      "Telugu",
+      "Edinburgh",
+      "France",
+      "Thames",
+      "Waterloo Bridge",
+      "Parliament House",
+      "British Museum",
+      "Trafalgar Square",
+      "Nelson",
+      "Piccadilly Circus",
+      "saman",
+      "shawl",
+      "bedding",
+      "payasam",
+      "dhoti",
+      "pakoras",
+      "punukulu",
+      "mirayi",
+      "vegetarian",
+      "non-vegetarian",
+      "servant",
+      "lavatory"
+    ],
+    "ch-2-5": [
+      "Barrister Parvateesam",
+      "manager madam",
+      "attendant",
+      "Telugu",
+      "Peerla festival",
+      "Africa",
+      "Madras",
+      "Bobbili bull",
+      "Japan",
+      "Burma",
+      "Himalayas",
+      "zoological gardens",
+      "menagerie",
+      "aviary"
+    ],
+    "ch-2-6": [
+      "Barrister Parvateesam",
+      "Menon",
+      "Mevan",
+      "Hyde Park",
+      "London",
+      "Marseilles",
+      "Komati",
+      "Edinburgh",
+      "zamindar",
+      "bazaar",
+      "vest",
+      "drawers",
+      "lift",
+      "sacred thread",
+      "furlong"
+    ],
+    "ch-2-7": [
+      "Menon",
+      "Barrister Parvateesam",
+      "Meenan",
+      "Edinburgh",
+      "baniyan",
+      "shawl",
+      "trunk",
+      "porter",
+      "rugs"
+    ],
+    "ch-2-8": [
+      "Barrister Parvateesam",
+      "Raju",
+      "Indian Association",
+      "Maharaja",
+      "India",
+      "Africa",
+      "Telugu",
+      "Bengali",
+      "boarding house",
+      "tram",
+      "station master",
+      "countryman",
+      "signboard"
+    ],
+    "ch-2-9": [
+      "Raju",
+      "Parvateesham",
+      "lady of the house",
+      "Bhimavaram",
+      "Telugu",
+      "Kshatriya",
+      "Mogalturru",
+      "Poduru",
+      "Brahmin",
+      "Vedic",
+      "Sandhya Vandanam",
+      "Edinburgh",
+      "porters",
+      "commode",
+      "chewing sticks",
+      "palm leaves",
+      "dharma",
+      "curry",
+      "pyjamas",
+      "dressing gown",
+      "Japanese sandals",
+      "leaf slippers"
+    ],
+    "ch-2-10": [
+      "Raju",
+      "Barrister Parvateesam",
+      "Same",
+      "Godavari district",
+      "Indian Association",
+      "Telugus",
+      "Tamils",
+      "Malayalis",
+      "Kannadigas",
+      "Bengalis",
+      "Punjabis",
+      "memsahib",
+      "dhoti",
+      "pulusu",
+      "dal",
+      "mudda pappu",
+      "ghee",
+      "tokku chutney",
+      "mango pickle",
+      "laundryman"
+    ],
+    "ch-2-11": [
+      "Barrister Parvateesam",
+      "Raju",
+      "Appagaru",
+      "Josie",
+      "Mrs. Thompson",
+      "picture house",
+      "tea party",
+      "landlady",
+      "furlong",
+      "ablutions",
+      "butler"
+    ],
+    "ch-2-12": [
+      "Barrister Parvateesam",
+      "Mrs. Thomson",
+      "Mr. Sam",
+      "Mr. Semgar",
+      "Mr. Same",
+      "Godavari",
+      "London",
+      "India",
+      "gramophone",
+      "telegram",
+      "money orders"
+    ],
+    "ch-2-13": [
+      "Raju",
+      "Parvatisham",
+      "Ankammasivam",
+      "Sankranti",
+      "Kunda Batti",
+      "Russia",
+      "Siberia",
+      "Braidhills",
+      "Telugu",
+      "picture house",
+      "tram",
+      "chedugudi",
+      "uppattiga"
+    ],
+    "ch-2-14": [
+      "Barrister Parvatishan",
+      "Raja",
+      "Raju",
+      "Dhamsanamma garu",
+      "Chedugudu",
+      "Uppatti",
+      "garu",
+      "landlady",
+      "exam",
+      "snacks"
+    ],
+    "ch-2-15": [
+      "Raju",
+      "Mrs. Sarojini Devi",
+      "Dr. Ananda Coomaraswamy",
+      "Gopalakrishnayya",
+      "Parvatisham",
+      "Edinburgh",
+      "Indian Association",
+      "Telugu",
+      "Ceylon",
+      "Sumati Shatakam",
+      "Bhagavatam",
+      "Krishna",
+      "Tamil",
+      "Malayalam",
+      "London",
+      "Bar",
+      "M.A.",
+      "B.A.",
+      "shloka",
+      "picture house",
+      "magic lantern",
+      "Entrance",
+      "Intermediate"
+    ],
+    "ch-2-16": [
+      "Raja",
+      "Raju",
+      "Vemraju",
+      "Parvateesham",
+      "Sam",
+      "Edinburgh",
+      "India",
+      "Madras Presidency",
+      "Godavari district",
+      "Lord Ganesha",
+      "Gananam Tva",
+      "tithi",
+      "nakshatra",
+      "muhurtham",
+      "university",
+      "Vice-Chancellor",
+      "neem stick",
+      "tongue-scraper",
+      "minapappu laddu",
+      "camphor",
+      "muhurtham",
+      "Namaskaram"
+    ],
+    "ch-2-17": [
+      "Barrister Parvateesam",
+      "Raju",
+      "Jack",
+      "Mr. Mumeshtaru",
+      "Blackworth Hills",
+      "Desasthas",
+      "Brahma",
+      "Edinburgh",
+      "North Berwick",
+      "Lord Balfour",
+      "Balfour's Wall",
+      "Lyceum Theatre",
+      "Hamlet",
+      "Denmark",
+      "lodging",
+      "captain",
+      "club",
+      "furlong",
+      "bungalow",
+      "committee",
+      "farce",
+      "veranda",
+      "landlady",
+      "tram"
+    ],
+    "ch-2-18": [
+      "Barrister Parvateesam",
+      "Raju",
+      "Bapu",
+      "Charlie Chaplin",
+      "Edinburgh",
+      "Telugu",
+      "Ugadi",
+      "Vijayadashami",
+      "Deepavali",
+      "Sankranti",
+      "Andhra",
+      "London",
+      "South Indian",
+      "bazaar",
+      "landlady",
+      "pulihora",
+      "ghee",
+      "anise",
+      "snuff",
+      "seer",
+      "sambar powder",
+      "rasam powder",
+      "betel nut"
+    ],
+    "ch-2-19": [
+      "Barrister Parvateesam",
+      "the Father",
+      "the hotel manager",
+      "the porter",
+      "Arjuna",
+      "chedugudi",
+      "Lock Ramja",
+      "constable",
+      "public house",
+      "stenographer"
+    ],
+    "ch-2-20": [
+      "Barrister Parvateesam",
+      "Asquith",
+      "Lincoln’s Inn",
+      "London",
+      "Indian Association",
+      "Russia",
+      "Tsar",
+      "Germany",
+      "France",
+      "Juggernaut’s rath yatra",
+      "Edinburgh",
+      "Usher Hall",
+      "England",
+      "Red Cross",
+      "King",
+      "Britannia",
+      "Indian",
+      "lavatory",
+      "landlord",
+      "landlady",
+      "Joint Secretary",
+      "anthem",
+      "furlongs",
+      "bunkers",
+      "servant",
+      "post office"
+    ],
+    "ch-2-21": [
+      "professor",
+      "students",
+      "Edinburgh",
+      "Firth of Forth",
+      "Germans",
+      "Scottish",
+      "dharma",
+      "Hip hip hooray",
+      "war fund",
+      "national flags",
+      "torpedo",
+      "air-raid shelters",
+      "wardens",
+      "half-shillings",
+      "shillings",
+      "gallery"
+    ],
+    "ch-2-22": [
+      "Barrister Parvateesam",
+      "Duggirala Gopalakrishnayya",
+      "Rao",
+      "Sri Ananda Coomaraswamy",
+      "Ramana",
+      "Mrs. Satyavati",
+      "Ravana",
+      "Andhras",
+      "Andhra",
+      "Bhagavatam",
+      "Godavari district",
+      "Indian Association",
+      "M.A.",
+      "Nagadi",
+      "Breadhills",
+      "Derby races",
+      "Ganesh puja",
+      "shanti",
+      "rajaswala",
+      "bhai",
+      "garu",
+      "auspicious",
+      "pulihora",
+      "Havva",
+      "practical joke",
+      "naming ceremony"
+    ],
+    "ch-2-23": [
+      "Ravana",
+      "Guruji",
+      "Winston Churchill",
+      "Asquith",
+      "Lloyd George",
+      "M.K. Gandhi",
+      "Duggirala Gopalakrishnayya",
+      "Barrister Parvateesam",
+      "Gopala Krishnayya",
+      "Edinburgh",
+      "Glasgow",
+      "Scotland",
+      "Wales",
+      "India",
+      "Home Rule",
+      "Indian Association",
+      "Indian Red Cross Society",
+      "Red Cross",
+      "Andhra",
+      "Arthur’s Seat",
+      "Mohammedan",
+      "namaste",
+      "landlady",
+      "lakhs",
+      "bazaar",
+      "honeymoon"
+    ],
+    "ch-2-24": [
+      "Barrister Parvateesam",
+      "Raju",
+      "Sam",
+      "Mokkapati Narasimha Shastri",
+      "Indian Association",
+      "Bhagavatam",
+      "Harishchandra",
+      "Satyanarayana puja",
+      "pulihora",
+      "Telugu",
+      "Hindustani",
+      "Parameshwara",
+      "London",
+      "India",
+      "Scotland",
+      "Holland lady",
+      "upma kesari",
+      "tabla",
+      "harmonium",
+      "puja"
+    ],
+    "ch-2-26": [
+      "Barrister Parvateesam",
+      "Strait of Dover",
+      "English Channel",
+      "Atlantic Ocean",
+      "French coast",
+      "Suez Canal",
+      "Bombay",
+      "Marseilles",
+      "Italy",
+      "Malta",
+      "Arabian Sea",
+      "Christian priest",
+      "steamer",
+      "mail steamer",
+      "cabbage curry",
+      "sago pudding",
+      "deck chair",
+      "ping pong",
+      "badminton",
+      "gangway",
+      "usher",
+      "life belt",
+      "lifeboat",
+      "weighed anchor"
+    ],
+    "ch-3-1": [
+      "Barrister Parvateesam",
+      "Hindustan",
+      "Bombay",
+      "Bombay Harbor",
+      "European War",
+      "Bhagavad Gita",
+      "Annie Besant",
+      "steamer",
+      "Sharab",
+      "rupees",
+      "annas",
+      "sahibs",
+      "coolies",
+      "salaams",
+      "dhotis"
+    ],
+    "ch-3-2": [
+      "Barrister Parvateesam",
+      "Parsi brothers",
+      "Maharashtrian husband and wife",
+      "Telugu couple",
+      "station porter",
+      "Victoria Terminus",
+      "Nidadavolu",
+      "Madras State",
+      "M.S.M. railway line",
+      "Madras",
+      "Bezwada",
+      "Bombay",
+      "Mughalpura",
+      "Hyderabad",
+      "Nawab",
+      "Bandar",
+      "Narsapur",
+      "England",
+      "Urdu",
+      "Telugu",
+      "vegetarian hotel",
+      "second class",
+      "porter",
+      "waiting room",
+      "coolie",
+      "refreshment stall",
+      "curd",
+      "ferry"
+    ],
+    "ch-3-3": [
+      "Chattulugaru",
+      "Barrister Parvateesam",
+      "Bapan",
+      "Annapurna",
+      "Mahalakshmi",
+      "Narsapur",
+      "Mogaliturru",
+      "Tahsildar",
+      "Calcutta",
+      "Daftari",
+      "Seema",
+      "sahib",
+      "memsahib",
+      "Annapurna",
+      "Mahalakshmi",
+      "Lord Shiva",
+      "Mantrapushpam",
+      "Bombay",
+      "sari",
+      "bindi",
+      "verandah",
+      "pancha",
+      "bottu",
+      "leaf plate",
+      "cow-dung water",
+      "pesaratlu",
+      "tank",
+      "washerman"
+    ],
+    "ch-3-4": [
+      "Parvateesam",
+      "Desamayyah",
+      "Raju",
+      "Barrister Parvateesam",
+      "Mokkapati Narasimha Shastri",
+      "Dayakeshara",
+      "headmaster",
+      "president of the Narsapur Bar Association",
+      "lady sahib",
+      "Rajus",
+      "Tamil",
+      "Vedic pundits",
+      "Kondaveedu",
+      "Yanadi",
+      "Brahmins",
+      "Kshatriya",
+      "Narsapur",
+      "Bar Association",
+      "Babayya",
+      "Jai Rama, Ramana Govindo Hari",
+      "Ayyababai Babu",
+      "atone",
+      "atonement",
+      "scriptures",
+      "purification ritual",
+      "Brahminhood",
+      "dakshina",
+      "betel leaves",
+      "row",
+      "dhoti",
+      "lady sahib",
+      "mantras",
+      "verandah",
+      "Namaskaram",
+      "garu"
+    ],
+    "ch-3-6": [
+      "Parvateesam",
+      "headmaster",
+      "Bantrotu Veeraswamy",
+      "Narsapur",
+      "Narsapur Bar Association",
+      "Edinburgh",
+      "Great Britain",
+      "University of Edinburgh",
+      "Boy Scouts",
+      "Ganapati",
+      "Saraswati",
+      "Mogalturru",
+      "Sakinettipalli",
+      "Antarvedi",
+      "Scotland",
+      "Bar-at-Law",
+      "dhoti",
+      "laalchi",
+      "shawl",
+      "pleaders",
+      "yajna",
+      "garu",
+      "cart",
+      "M.A.",
+      "Panditji",
+      "Maharaj",
+      "Maharaja",
+      "Field Marshal",
+      "vizier",
+      "Timmarusu",
+      "Panchami",
+      "tamarind switch",
+      "porter"
+    ],
+    "ch-3-7": [
+      "Parvatisham",
+      "Munasabu garu",
+      "Versapuram",
+      "Narsapuram",
+      "Bar Association",
+      "Bar",
+      "M.A.",
+      "Bar-at-Law",
+      "felicitation",
+      "turban",
+      "bar room",
+      "pleader",
+      "angavastram"
+    ],
+    "ch-3-8": [
+      "Sri Parvateesham",
+      "Sri Ramanarao",
+      "Barrister Parvateesam",
+      "dharma",
+      "Telugu",
+      "Sanskrit",
+      "Narsapuram",
+      "Nidadavolu",
+      "Madras",
+      "Taylor High School",
+      "Mogalturru",
+      "Melrose Abbey",
+      "Lord Shiva",
+      "Harishchandra",
+      "Sabhaayainamah",
+      "tramcar",
+      "motor car",
+      "aristocrats"
+    ],
+    "ch-3-9": [
+      "Barrister Parvateesam",
+      "Satyam",
+      "Raju",
+      "Achyutaramaiah",
+      "Surya Narayana Shastri",
+      "Sita",
+      "Mokkapati Narasimha Shastri",
+      "Vande Mataram",
+      "Lord Council",
+      "Narsapur",
+      "Rayalaseema",
+      "Madras",
+      "Collector",
+      "Governor",
+      "Erramunda",
+      "dhoti",
+      "sarees",
+      "Vedantic",
+      "B.A.",
+      "Mogalthur",
+      "Bhimavaram",
+      "Upputeru",
+      "Waverley Station",
+      "Achyutaramaiah garu",
+      "Mogalturru",
+      "Shastriji",
+      "sahib",
+      "veranda",
+      "betel leaves",
+      "dowry",
+      "bazaar",
+      "garu"
+    ],
+    "ch-3-11": [
+      "Barrister Parvateesam",
+      "Raju",
+      "Achyutaramaiah garu",
+      "Atmaram",
+      "Shastriji",
+      "Parameshwara",
+      "Edinburgh",
+      "Bhimavaram",
+      "Narsapuram",
+      "Kashi",
+      "three knots",
+      "mangalsutra",
+      "zari",
+      "betel leaves",
+      "sacred rice",
+      "pandal",
+      "festoons",
+      "Pellikoduku",
+      "Snathakam",
+      "aarti",
+      "panasa leaves",
+      "jaggery",
+      "garu",
+      "ablutions",
+      "betrothal",
+      "auspicious",
+      "warded off the evil eye",
+      "dais",
+      "scatterbrain",
+      "bundle"
+    ],
+    "ch-3-12": [
+      "Barrister Parvateesam",
+      "my mother",
+      "my father",
+      "Narsapuram",
+      "Bhimavaram",
+      "ghee",
+      "betel leaves",
+      "bullock carts",
+      "dhoti",
+      "zari",
+      "palanquin",
+      "shawl",
+      "velvet cap",
+      "gig-carts"
+    ],
+    "ch-3-13": [
+      "Barrister Parvateesam",
+      "Raju",
+      "Achyutaramaiah",
+      "Achyutaramaiah garu",
+      "Mrs. Proud",
+      "Bhimavaram",
+      "Shakuntala",
+      "Ganesh Puja",
+      "Gauri Puja",
+      "gotra",
+      "Hindu",
+      "Mogalthur",
+      "dharma",
+      "cart",
+      "aavakaya",
+      "garu",
+      "mat",
+      "leaf plates",
+      "gotra",
+      "maid",
+      "well"
+    ],
+    "ch-3-14": [
+      "Barrister Parvateesam",
+      "Saraswati",
+      "Raju",
+      "father-in-law",
+      "aunt",
+      "mother-in-law",
+      "uncle",
+      "father",
+      "mother",
+      "B.L. degree",
+      "Indra",
+      "Mogalthur",
+      "Bhimavaram",
+      "dhoti",
+      "mantra",
+      "auspicious",
+      "coachman",
+      "verandah",
+      "betel leaves"
+    ],
+    "ch-3-15": [
+      "Nagamma",
+      "Saraswati",
+      "Mokkapati Narasimha Shastri",
+      "Barrister Parvateesam",
+      "Narsapur",
+      "Bhimavaram",
+      "Goddess Mahalakshmi",
+      "Goddess Parvati",
+      "Gayatri mantra",
+      "rangoli",
+      "ablutions",
+      "tank",
+      "pleader",
+      "verandah"
+    ],
+    "ch-3-16": [
+      "Barrister Parvateesam",
+      "Raju",
+      "Manohari",
+      "Bhimavaram",
+      "pleader",
+      "ablutions",
+      "veranda"
+    ],
+    "ch-3-17": [
+      "Barrister Parvateesam",
+      "Saraswati",
+      "Raju",
+      "Ramachandra Rao",
+      "Peri Narayanamurthy",
+      "Tanguturi Prakasham",
+      "Bhimavaram",
+      "Mogalthur",
+      "Rajahmundry",
+      "Kakinada",
+      "Bezwada",
+      "Vijayawada",
+      "Madras",
+      "George Town",
+      "Bombay",
+      "High Court",
+      "Baladur",
+      "Pegu",
+      "Bar-at-Law",
+      "Narsapur",
+      "Garu",
+      "dhoti",
+      "mantras",
+      "darbha grass",
+      "honorarium",
+      "vakil",
+      "Namaskaram"
+    ],
+    "ch-3-18": [
+      "Prakashamgaru",
+      "Narayana Murthy garu",
+      "Pantulu garu",
+      "Saraswati",
+      "Surya",
+      "Achyutaramaiah",
+      "High Court",
+      "Madras",
+      "London",
+      "Home Rule movement",
+      "Gokhale",
+      "Malaviya",
+      "Lajpat Rai",
+      "Naoroji",
+      "Mylapore",
+      "Bhimavaram",
+      "Mogalthur",
+      "Narsapur",
+      "The Indian War of Independence",
+      "Annie Besant",
+      "Savarkar",
+      "garu",
+      "babu",
+      "pleader",
+      "ablutions",
+      "bazaar",
+      "sambar",
+      "rasam",
+      "Bar Room",
+      "servant",
+      "Iyer",
+      "cook-brahmins"
+    ],
+    "ch-3-19": [
+      "Saraswati",
+      "Narayana Murthy garu",
+      "father-in-law",
+      "mother-in-law",
+      "Prakashampantulu garu",
+      "Pantulu garu",
+      "Barrister Parvateesam",
+      "grandmother",
+      "teacher",
+      "Bhimavaram",
+      "Panuganti",
+      "Madras",
+      "High Court",
+      "pleader’s bench",
+      "Appellate Court",
+      "Munsif Court",
+      "Awachi",
+      "Parameshwara",
+      "garu",
+      "adjournment",
+      "junior",
+      "magistrate",
+      "compartment",
+      "dock"
+    ],
+    "ch-3-20": [
+      "Saraswati",
+      "Parvateesham",
+      "Gopalakrishnayya",
+      "Gandhi",
+      "Shaukat Ali",
+      "Mohammad Ali",
+      "Madras",
+      "Edinburgh",
+      "Great War",
+      "Indian Red Cross",
+      "Central Station",
+      "Andhras",
+      "Home Rule",
+      "Swaraj",
+      "Congress",
+      "pleaders",
+      "garu",
+      "dais",
+      "mail train"
+    ],
+    "ch-3-21": [
+      "Gandhiji",
+      "Saraswati",
+      "Duvvuri Subbamma",
+      "Achyutaramaiah",
+      "Barrister Parvateesam",
+      "Jaddi",
+      "Raja Garu",
+      "Women’s Association",
+      "Narsapur",
+      "Bhimavaram",
+      "Madras",
+      "India",
+      "British Empire",
+      "District Magistrate",
+      "Collector",
+      "High Court",
+      "I.C.S.",
+      "Swaraj",
+      "Parameshwara",
+      "Bhadrakali",
+      "auspicious day",
+      "campaign",
+      "martial law",
+      "satyagrahas",
+      "propaganda",
+      "board",
+      "practice",
+      "adjournments"
+    ],
+    "ch-3-22": [
+      "Parvateesam",
+      "Saraswati",
+      "Achyutaramaiah",
+      "Duvvuri Subbamma",
+      "Prakasham garu",
+      "Chiranjeevi Puranam Subrahmanya Sharma",
+      "Sri Narla Venkateswara Rao",
+      "Kumari Kappagantu Rajarajeswari",
+      "Indraganti Srikanta Sharma",
+      "Rajahmundry",
+      "Andhras",
+      "Gandhiji",
+      "Congress",
+      "Salt Satyagraha",
+      "Justicites",
+      "Mogalturru",
+      "Pushkaram",
+      "Narsapur",
+      "London",
+      "Bezwada",
+      "High Court",
+      "Pulla",
+      "khadi",
+      "Satyagraha",
+      "Muslims",
+      "Loyalists",
+      "British Empire",
+      "pleader",
+      "plaintiff",
+      "defendant",
+      "pie",
+      "lathi",
+      "khadi",
+      "Satyagraha",
+      "toddy-tapping",
+      "Pushkaram",
+      "garu",
+      "sahib",
+      "jalebis"
+    ]
+  }
+}

@@ -290,29 +290,33 @@ export default function ReaderView({
       />
 
       {/* Thin collapsed bar — visible when header is hidden */}
-      <div
-        className={`fixed top-[3px] left-0 right-0 z-30 transition-all duration-300 overflow-hidden cursor-pointer ${
-          headerVisible ? "max-h-0 opacity-0" : "max-h-7 opacity-100"
+      <button
+        type="button"
+        className={`fixed top-[3px] left-0 right-0 z-30 transition-all duration-300 overflow-hidden ${
+          headerVisible ? "max-h-0 opacity-0 pointer-events-none" : "max-h-9 opacity-100"
         }`}
         onClick={() => setShowPicker(true)}
       >
         <div
-          className={`h-7 flex items-center justify-center gap-2 px-4 ${
+          className={`h-9 flex items-center justify-center gap-2 px-4 ${
             darkMode ? "bg-black/60" : "bg-white/60"
           } backdrop-blur-sm`}
         >
           <span
-            className={`text-[10px] truncate text-center ${
+            className={`text-[11px] truncate text-center ${
               darkMode ? "text-white/50" : "text-black/50"
             }`}
           >
             {bookTitle} &middot; {chapterLabel}
           </span>
         </div>
-      </div>
+      </button>
 
-      {/* Chapter progress bar — bottom */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 h-[6px] bg-transparent">
+      {/* Chapter progress bar — bottom, using env() for mobile browser chrome */}
+      <div
+        className="fixed left-0 right-0 z-50 h-[6px] bg-transparent"
+        style={{ bottom: "env(safe-area-inset-bottom, 0px)" }}
+      >
         <div
           className="h-full transition-[width] duration-200 ease-out"
           style={{

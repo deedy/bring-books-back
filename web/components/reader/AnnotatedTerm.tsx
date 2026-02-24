@@ -167,6 +167,20 @@ export default function AnnotatedTerm({ term, annotation, darkMode }: AnnotatedT
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
+          {annotation.image && annotation.type === "character" && (
+            <img
+              src={annotation.image}
+              alt={term}
+              loading="lazy"
+              style={{
+                width: 48,
+                height: 48,
+                borderRadius: "50%",
+                objectFit: "cover",
+                flexShrink: 0,
+              }}
+            />
+          )}
           <span style={{ fontWeight: 600, fontSize: 15 }}>{term}</span>
           <span
             style={{

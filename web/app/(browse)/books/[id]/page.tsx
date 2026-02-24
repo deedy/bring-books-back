@@ -59,16 +59,19 @@ export default async function BookPage({
   const annotations = getAnnotations(id);
 
   // Build glossary lists sorted by frequency (most appearances first)
-  type TermCard = { name: string; description: string };
+  type TermCard = { name: string; description: string; image?: string };
   let characters: TermCard[] = [];
   let properNouns: TermCard[] = [];
   let vocabulary: TermCard[] = [];
+  let totalCharacters = 0;
+  let totalProperNouns = 0;
+  let totalVocabulary = 0;
   if (annotations) {
     const chaptersData = getChapters(id);
     const chapterIds = chaptersData.chapters.map((ch) => ch.id);
 
     // Count chapter appearances for each term
-    function byFrequency(type: string): TermCard[] {
+    function byFrequency(type: string): { items: TermCard[]; total: number } {
       const entries = Object.entries(annotations!.glossary).filter(
         ([, a]) => a.type === type
       );
@@ -77,15 +80,21 @@ export default async function BookPage({
         for (const chId of chapterIds) {
           if (annotations!.chapters[chId]?.includes(name)) count++;
         }
-        return { name, description: a.description, count };
+        return { name, description: a.description, image: a.image, count };
       });
       withCount.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
-      return withCount.slice(0, 6);
+      return { items: withCount.slice(0, 6), total: withCount.length };
     }
 
-    characters = byFrequency("character");
-    properNouns = byFrequency("proper_noun");
-    vocabulary = byFrequency("vocabulary");
+    const chars = byFrequency("character");
+    characters = chars.items;
+    totalCharacters = chars.total;
+    const nouns = byFrequency("proper_noun");
+    properNouns = nouns.items;
+    totalProperNouns = nouns.total;
+    const vocab = byFrequency("vocabulary");
+    vocabulary = vocab.items;
+    totalVocabulary = vocab.total;
   }
 
   const jsonLd = {
@@ -105,26 +114,26 @@ export default async function BookPage({
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-6 py-12">
+    <div className="max-w-6xl mx-auto px-6 pb-12">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      {/* Breadcrumb */}
-      <div className="mb-8">
+      {/* Back bar */}
+      <div className="sticky top-16 z-10 -mx-6 px-6 py-2 bg-[#0a0a0b]/80 backdrop-blur-md">
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors"
+          className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-xs font-medium tracking-wide border border-white/20 text-white/70 hover:bg-white/10 transition-colors"
         >
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <polyline points="15 18 9 12 15 6" />
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
+            <path d="M10 12L6 8l4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
           All Books
         </Link>
       </div>
 
       {/* Book Header */}
-      <div className="flex flex-col md:flex-row gap-10">
+      <div className="flex flex-col md:flex-row gap-10 mt-8">
         <div className="w-64 flex-shrink-0 mx-auto md:mx-0">
           <div className="aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
             <img
@@ -192,12 +201,22 @@ export default async function BookPage({
             {characters.map((ch) => (
               <div
                 key={ch.name}
-                className="px-3.5 py-3 rounded-lg bg-white/[0.04] border border-white/[0.06]"
+                className="px-3.5 py-3 rounded-lg bg-white/[0.04] border border-white/[0.06] flex items-start gap-3"
               >
-                <p className="font-semibold text-white text-sm">{ch.name}</p>
-                <p className="text-white/50 text-xs mt-1 leading-relaxed line-clamp-2">
-                  {ch.description}
-                </p>
+                {ch.image && (
+                  <img
+                    src={ch.image}
+                    alt={ch.name}
+                    loading="lazy"
+                    className="w-14 h-14 rounded-full object-cover flex-shrink-0"
+                  />
+                )}
+                <div className="min-w-0">
+                  <p className="font-semibold text-white text-sm">{ch.name}</p>
+                  <p className="text-white/50 text-xs mt-1 leading-relaxed">
+                    {ch.description}
+                  </p>
+                </div>
               </div>
             ))}
           </div>
@@ -205,7 +224,7 @@ export default async function BookPage({
             href={`/books/${id}/glossary?type=character`}
             className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors mt-4"
           >
-            View other characters
+            View all {totalCharacters} characters
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <polyline points="9 18 15 12 9 6" />
             </svg>
@@ -263,7 +282,7 @@ export default async function BookPage({
             href={`/books/${id}/glossary?type=proper_noun`}
             className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors mt-3"
           >
-            View other places &amp; terms
+            View all {totalProperNouns} places &amp; terms
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <polyline points="9 18 15 12 9 6" />
             </svg>
@@ -287,7 +306,7 @@ export default async function BookPage({
             href={`/books/${id}/glossary?type=vocabulary`}
             className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors mt-3"
           >
-            View other vocabulary
+            View all {totalVocabulary} vocabulary
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <polyline points="9 18 15 12 9 6" />
             </svg>

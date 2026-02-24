@@ -1,0 +1,1617 @@
+{
+  "glossary": {
+    "Hemchandra": {
+      "type": "character",
+      "description": "A young prince and warrior, son of a deposed king of Magadha, determined to reclaim his father's kingdom from the Yavana invaders.",
+      "image": "/data/images/characters/mrinalini/hemchandra.png"
+    },
+    "Madhavacharya": {
+      "type": "character",
+      "description": "A revered Brahmin and spiritual teacher (Acharya), mentor to Hemchandra, who guides him in both religious and political matters.",
+      "image": "/data/images/characters/mrinalini/madhavacharya.png"
+    },
+    "Mrinalini": {
+      "type": "character",
+      "description": "A woman deeply loved by Hemchandra, whose whereabouts are kept secret by Madhavacharya to prevent her from distracting Hemchandra from his duties.",
+      "image": "/data/images/characters/mrinalini/mrinalini.png"
+    },
+    "Digvijay": {
+      "type": "character",
+      "description": "Hemchandra's loyal companion and boatman, who assists him in his travels."
+    },
+    "Bakhtiyar Khilji": {
+      "type": "character",
+      "description": "A historical figure, the Yavana (Turkic Muslim) general who led the conquest of Bengal and Magadha in the late 12th and early 13th centuries."
+    },
+    "Mother": {
+      "type": "character",
+      "description": "Hemchandra's mother, who urges him to fulfill his duty as a prince and reclaim his kingdom."
+    },
+    "Prayaga": {
+      "type": "proper_noun",
+      "description": "An ancient and sacred city in India, now known as Prayagraj (Allahabad), famous for the confluence of the Ganga and Yamuna rivers."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "The Ganges River, one of the holiest rivers in Hinduism."
+    },
+    "Yamuna": {
+      "type": "proper_noun",
+      "description": "A major river in northern India, also considered sacred in Hindu tradition."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "A historic city in northern India, which was a political center during the time of the Yavana invasions."
+    },
+    "Yavan": {
+      "type": "proper_noun",
+      "description": "A term used in medieval India to refer to foreign invaders, particularly Muslims of Turkic or Persian origin."
+    },
+    "Magadha": {
+      "type": "proper_noun",
+      "description": "An ancient kingdom in eastern India, historically significant and the homeland of Hemchandra."
+    },
+    "Mathura": {
+      "type": "proper_noun",
+      "description": "A sacred city in northern India, associated with the Hindu god Krishna."
+    },
+    "Gauda": {
+      "type": "proper_noun",
+      "description": "A historical region and city in Bengal, which was a major political and cultural center."
+    },
+    "Navadwip": {
+      "type": "proper_noun",
+      "description": "A town in Bengal, known as a center of learning and religious activity."
+    },
+    "Yama": {
+      "type": "proper_noun",
+      "description": "The Hindu god of death, whose abode symbolizes the afterlife."
+    },
+    "ghat": {
+      "type": "vocabulary",
+      "description": "A series of steps leading down to a river, often used for bathing or religious rituals."
+    },
+    "Acharya": {
+      "type": "vocabulary",
+      "description": "A title for a learned teacher or spiritual preceptor, especially in Hindu tradition."
+    },
+    "hermitage": {
+      "type": "vocabulary",
+      "description": "A secluded dwelling where ascetics or holy persons live in contemplation."
+    },
+    "Brahmin": {
+      "type": "vocabulary",
+      "description": "A member of the priestly caste in Hindu society, traditionally responsible for religious rituals and teaching."
+    },
+    "holy ash": {
+      "type": "vocabulary",
+      "description": "Sacred ash (vibhuti) used in Hindu rituals, often applied to the forehead as a mark of devotion."
+    },
+    "quiver": {
+      "type": "vocabulary",
+      "description": "A container used to hold arrows."
+    },
+    "guru": {
+      "type": "vocabulary",
+      "description": "A spiritual teacher or guide in Indian tradition."
+    },
+    "Hrishikesh": {
+      "type": "character",
+      "description": "A Brahmin from Lakshmanavati, he is the head of the household where Mrinalini is staying."
+    },
+    "Manimalini": {
+      "type": "character",
+      "description": "A close friend and confidante of Mrinalini, she shares a sisterly bond with her."
+    },
+    "Lakshmanavati": {
+      "type": "proper_noun",
+      "description": "A historical city in Bengal, once a prominent capital during the medieval period."
+    },
+    "Yavanas": {
+      "type": "proper_noun",
+      "description": "A term historically used in India to refer to foreign invaders, often specifically Muslims or Greeks, but here likely refers to the Muslim forces under Bakhtiyar Khilji."
+    },
+    "signet ring": {
+      "type": "vocabulary",
+      "description": "A ring bearing an engraved seal, used historically to authenticate documents or as a mark of identity."
+    },
+    "Girijaya": {
+      "type": "character",
+      "description": "A sixteen-year-old beggar girl with a melodious voice who sings for alms and converses with Mrinalini.",
+      "image": "/data/images/characters/mrinalini/girijaya.png"
+    },
+    "Vrindavan": {
+      "type": "proper_noun",
+      "description": "A town in Uttar Pradesh, India, closely associated with the legends of Krishna and the gopis (milkmaids)."
+    },
+    "Shyamsundar": {
+      "type": "proper_noun",
+      "description": "An epithet of Lord Krishna, meaning 'the beautiful dark one.'"
+    },
+    "Teetala": {
+      "type": "proper_noun",
+      "description": "A rhythmic cycle (tala) used in Indian classical music."
+    },
+    "Jayjayanti": {
+      "type": "proper_noun",
+      "description": "A raga (melodic framework) in Indian classical music."
+    },
+    "gopis": {
+      "type": "vocabulary",
+      "description": "Milkmaids of Vrindavan, celebrated in Hindu mythology for their devotion to Krishna."
+    },
+    "shyam": {
+      "type": "vocabulary",
+      "description": "A term meaning 'dark' or 'dusky,' often used as an affectionate descriptor for Krishna or for a person's complexion."
+    },
+    "kunda": {
+      "type": "vocabulary",
+      "description": "A type of white flower (Jasminum pubescens) often used in poetic descriptions for its purity and beauty."
+    },
+    "sandalwood": {
+      "type": "vocabulary",
+      "description": "A fragrant wood used in religious rituals and as a cosmetic mark on the forehead in Hindu tradition."
+    },
+    "first watch": {
+      "type": "vocabulary",
+      "description": "An ancient timekeeping term referring to the first segment of the night, typically just after sunset."
+    },
+    "Sarvadhan": {
+      "type": "character",
+      "description": "A merchant in Lakshmanavati who provides Hemchandra with lodging during his stay in the city."
+    },
+    "Hrishikesh Sharma": {
+      "type": "character",
+      "description": "A Brahmin whose house is mentioned as the place where Mrinalini is staying."
+    },
+    "Janaki": {
+      "type": "character",
+      "description": "A reference to Sita, also called Janaki, from the Ramayana, invoked in a song by Girijaya."
+    },
+    "Raghubir": {
+      "type": "character",
+      "description": "A reference to Lord Rama, called Raghubir, from the Ramayana, mentioned in Girijaya's song."
+    },
+    "Ashoka": {
+      "type": "proper_noun",
+      "description": "A flowering tree native to the Indian subcontinent, often associated with love and longing in Indian literature."
+    },
+    "Hrishikesh Brahmin": {
+      "type": "proper_noun",
+      "description": "Refers to Hrishikesh Sharma, a Brahmin, indicating his caste and social status."
+    },
+    "first watch of the night": {
+      "type": "vocabulary",
+      "description": "An old way of dividing the night into segments; the first watch refers to the early part of the night, typically from 6 pm to 9 pm."
+    },
+    "Byomkesh": {
+      "type": "character",
+      "description": "Hrishikesh's son, depicted as ignorant and depraved, who attempts to force himself on Mrinalini."
+    },
+    "Radhika": {
+      "type": "character",
+      "description": "Mentioned by Byomkesh as his beloved, possibly a relative or another woman in the household."
+    },
+    "Draupadi": {
+      "type": "proper_noun",
+      "description": "A principal female character from the Indian epic Mahabharata, known for her virtue and suffering."
+    },
+    "Jayadratha": {
+      "type": "proper_noun",
+      "description": "A character from the Mahabharata who abducted Draupadi and was later defeated by Arjuna."
+    },
+    "Arjuna": {
+      "type": "proper_noun",
+      "description": "A heroic prince and warrior from the Mahabharata, renowned for his valor and archery skills."
+    },
+    "salvation": {
+      "type": "vocabulary",
+      "description": "In Hindu context, refers to moksha or liberation from the cycle of birth and death."
+    },
+    "Brahmani": {
+      "type": "vocabulary",
+      "description": "The wife of a Brahmin, or sometimes used to refer to a woman of the Brahmin caste."
+    },
+    "trysting": {
+      "type": "vocabulary",
+      "description": "A secret meeting, especially between lovers."
+    },
+    "Yama’s Abode": {
+      "type": "proper_noun",
+      "description": "A reference to the realm of Yama, the Hindu god of death, symbolizing the afterlife or death."
+    },
+    "Nabadwip": {
+      "type": "proper_noun",
+      "description": "A historic town in Bengal, renowned as a center of learning and religious activity, especially in medieval times."
+    },
+    "alms": {
+      "type": "vocabulary",
+      "description": "Charitable gifts, usually food or money, given to the poor or beggars."
+    },
+    "Lord of Gauda": {
+      "type": "character",
+      "description": "The reigning king of Gauda (Bengal), an aged monarch presiding over the royal court, responsible for defending his kingdom against external threats."
+    },
+    "Pashupati": {
+      "type": "character",
+      "description": "The chief minister of religion and religious authority in the court, often engaged in discussions about state and spiritual matters.",
+      "image": "/data/images/characters/mrinalini/pashupati.png"
+    },
+    "Damodar": {
+      "type": "character",
+      "description": "The chief scholar (presiding scholar) of the court, responsible for interpreting scriptures and leading scholarly debates."
+    },
+    "Halayudh": {
+      "type": "character",
+      "description": "A former occupant of a seat of honor in the assembly, possibly a respected scholar or courtier, now replaced by a less discerning sycophant."
+    },
+    "Brahmins": {
+      "type": "proper_noun",
+      "description": "A Hindu caste traditionally associated with priesthood, scholarship, and religious rituals."
+    },
+    "Aryavarta": {
+      "type": "proper_noun",
+      "description": "A term from ancient Indian texts referring to the land of the Aryans, broadly corresponding to northern India."
+    },
+    "Turks": {
+      "type": "proper_noun",
+      "description": "Refers to the Muslim invaders from Central Asia, particularly the forces of Bakhtiyar Khilji who invaded Bengal in the 13th century."
+    },
+    "Yavana": {
+      "type": "proper_noun",
+      "description": "A historical term used in India to refer to foreign invaders, especially Greeks and later Muslims such as the Turks."
+    },
+    "Vishnu Purana": {
+      "type": "proper_noun",
+      "description": "A major Hindu scripture, one of the eighteen Mahapuranas, containing cosmology, mythology, and legends."
+    },
+    "Manu": {
+      "type": "proper_noun",
+      "description": "Refers to the legendary progenitor of mankind in Hindu tradition and the attributed author of the Manusmriti."
+    },
+    "Manusmriti": {
+      "type": "proper_noun",
+      "description": "An ancient Hindu legal text, also known as the Laws of Manu, which outlines social and legal codes."
+    },
+    "Saraswati": {
+      "type": "proper_noun",
+      "description": "The Hindu goddess of knowledge, music, and the arts, often invoked as the patron of scholars."
+    },
+    "Jagadishwara": {
+      "type": "proper_noun",
+      "description": "A Sanskrit term meaning 'Lord of the Universe', often used as an epithet for God in Hinduism."
+    },
+    "dais": {
+      "type": "vocabulary",
+      "description": "A raised platform in a hall or large room, used for seats of honor or a throne."
+    },
+    "kusa grass": {
+      "type": "vocabulary",
+      "description": "A sacred grass in Hindu rituals, used for making seats or mats during religious ceremonies."
+    },
+    "Maharaj": {
+      "type": "vocabulary",
+      "description": "A respectful term for a king or great ruler in India."
+    },
+    "Maharajadhiraj": {
+      "type": "vocabulary",
+      "description": "A Sanskrit honorific meaning 'King of Kings', denoting a sovereign of high rank."
+    },
+    "satraps": {
+      "type": "vocabulary",
+      "description": "Provincial governors or local rulers, a term borrowed from ancient Persian administration but used in Indian historical contexts."
+    },
+    "Samanta": {
+      "type": "vocabulary",
+      "description": "A feudal lord or nobleman, often serving as a vassal to a king in medieval India."
+    },
+    "Anushtubh": {
+      "type": "vocabulary",
+      "description": "A common meter in Sanskrit poetry, consisting of four lines of eight syllables each."
+    },
+    "infantry": {
+      "type": "vocabulary",
+      "description": "Soldiers marching and fighting on foot; in this context, refers to the foot soldiers of the army."
+    },
+    "brigands": {
+      "type": "vocabulary",
+      "description": "Bandits or robbers, often used for groups engaged in plundering during times of war or unrest."
+    },
+    "Janardana": {
+      "type": "character",
+      "description": "An aged Brahmin living in Nabadwip, rendered nearly helpless by old age and deafness."
+    },
+    "Digvijaya": {
+      "type": "character",
+      "description": "A servant of Hemchandra, tasked with communicating Hemchandra's wishes to Janardana."
+    },
+    "Manoroma": {
+      "type": "character",
+      "description": "A young woman, described as beautiful and gentle, who is the granddaughter of Janardana and helps communicate with him.",
+      "image": "/data/images/characters/mrinalini/manoroma.png"
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "A sacred river in India, considered holy in Hinduism and significant in Bengali culture."
+    },
+    "veena": {
+      "type": "vocabulary",
+      "description": "A classical Indian stringed musical instrument, known for its melodious sound."
+    },
+    "Nadiya": {
+      "type": "proper_noun",
+      "description": "Another name for Nabadwip, often used interchangeably to refer to the region famous for its religious and cultural heritage."
+    },
+    "Shyam": {
+      "type": "proper_noun",
+      "description": "A poetic name for Lord Krishna, a major deity in Hinduism, often invoked in devotional songs and poetry."
+    },
+    "maidservant": {
+      "type": "vocabulary",
+      "description": "A female domestic worker or attendant, often serving in noble or wealthy households."
+    },
+    "garland": {
+      "type": "vocabulary",
+      "description": "A decorative wreath or string of flowers, often used in Indian culture for adornment or as offerings in religious ceremonies."
+    },
+    "Bhagirathi": {
+      "type": "proper_noun",
+      "description": "A major distributary of the Ganges River in Bengal, often referenced in Bengali literature."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A historical region in the eastern part of the Indian subcontinent, the primary setting of the novel."
+    },
+    "kash-grass": {
+      "type": "vocabulary",
+      "description": "A tall, white-flowered grass (Saccharum spontaneum) that blooms in Bengal during autumn, often associated with the season's beauty."
+    },
+    "Manorama": {
+      "type": "character",
+      "description": "A young woman who appears mysteriously by the tank at night; she is familiar with Hemchandra and displays both boldness and knowledge of the Turks."
+    },
+    "Turk": {
+      "type": "proper_noun",
+      "description": "Refers to the Turkish invaders, specifically the soldiers of Bakhtiyar Khilji who invaded Bengal in the early 13th century."
+    },
+    "Turkish army": {
+      "type": "proper_noun",
+      "description": "The invading military force of the Turks, representing the foreign threat to Bengal during this historical period."
+    },
+    "banyan": {
+      "type": "proper_noun",
+      "description": "A type of large fig tree (Ficus benghalensis) known for its aerial roots and cultural importance in India."
+    },
+    "tank": {
+      "type": "proper_noun",
+      "description": "A man-made pond or reservoir, often used for bathing, irrigation, or religious purposes in South Asia."
+    },
+    "royal road": {
+      "type": "vocabulary",
+      "description": "A main or principal road, often referring to a major highway used by royalty or armies."
+    },
+    "garden house": {
+      "type": "vocabulary",
+      "description": "A house situated within or near a garden, often used as a retreat or residence by nobility."
+    },
+    "riverbank": {
+      "type": "vocabulary",
+      "description": "The land alongside a river; in this context, it refers to the area beside the tank or water body."
+    },
+    "stairway": {
+      "type": "vocabulary",
+      "description": "A set of steps, often stone, leading down to the water's edge at a tank or river."
+    },
+    "turbaned": {
+      "type": "vocabulary",
+      "description": "Wearing a turban, a traditional head covering commonly worn by men in South Asia and the Middle East."
+    },
+    "Keshav": {
+      "type": "character",
+      "description": "A Bengali Brahmin who lived in Kashi and was the father of Haimavati; he mysteriously disappeared with his daughter after her marriage to Pashupati."
+    },
+    "Haimavati": {
+      "type": "character",
+      "description": "The eight-year-old daughter of Keshav who was married to Pashupati but vanished with her father on the wedding night."
+    },
+    "Muhammad Ali": {
+      "type": "character",
+      "description": "A Muslim envoy and confidant of the Turkic commander, Bakhtiyar Khilji, who negotiates with Pashupati regarding the fate of Gauda."
+    },
+    "Gaur": {
+      "type": "proper_noun",
+      "description": "Another name for Gauda, the capital city and kingdom in Bengal."
+    },
+    "Sena dynasty": {
+      "type": "proper_noun",
+      "description": "The ruling Hindu dynasty of Bengal during the late 12th and early 13th centuries, overthrown by Muslim invaders."
+    },
+    "Kashi": {
+      "type": "proper_noun",
+      "description": "The ancient city of Varanasi, a major center of Hindu learning and pilgrimage in northern India."
+    },
+    "Bihar": {
+      "type": "proper_noun",
+      "description": "A region and province in eastern India, neighboring Bengal, known for its historical significance."
+    },
+    "Khilji": {
+      "type": "proper_noun",
+      "description": "Refers to Bakhtiyar Khilji, the Turkic Muslim commander who invaded Bengal and conquered Gauda."
+    },
+    "Qutb-ud-din": {
+      "type": "proper_noun",
+      "description": "Qutb-ud-din Aibak, the first Sultan of Delhi and a prominent figure in the establishment of Muslim rule in India."
+    },
+    "Muhammad Ghori": {
+      "type": "proper_noun",
+      "description": "A prominent Muslim ruler and conqueror whose campaigns led to the establishment of the Delhi Sultanate."
+    },
+    "tributary": {
+      "type": "vocabulary",
+      "description": "A subordinate ruler or state that pays tribute to a more powerful sovereign or empire."
+    },
+    "Mohammad Ali": {
+      "type": "character",
+      "description": "A character associated with the Yavana (Muslim) forces, whose movements are being watched by Pashupati and his allies."
+    },
+    "Shantashil": {
+      "type": "character",
+      "description": "A loyal spy and agent of Pashupati, skilled in disguise and espionage, who brings intelligence about the Yavana camp."
+    },
+    "vina": {
+      "type": "vocabulary",
+      "description": "A traditional South Asian stringed musical instrument, known for its melodious sound."
+    },
+    "obeisance": {
+      "type": "vocabulary",
+      "description": "A gesture of deep respect or submission, such as bowing or prostrating oneself."
+    },
+    "champa": {
+      "type": "proper_noun",
+      "description": "A reference to the champa (or champak) flower, known for its golden color and fragrance, often used in poetic descriptions of beauty."
+    },
+    "tresses": {
+      "type": "vocabulary",
+      "description": "Long locks or strands of hair, often used in poetic descriptions."
+    },
+    "braid": {
+      "type": "vocabulary",
+      "description": "A hairstyle formed by interweaving three or more strands of hair."
+    },
+    "creeper": {
+      "type": "vocabulary",
+      "description": "A type of climbing plant, often used metaphorically in Indian literature to describe graceful movement."
+    },
+    "jackal": {
+      "type": "vocabulary",
+      "description": "A wild animal native to South Asia, often appearing in Indian folklore and metaphors."
+    },
+    "abode": {
+      "type": "vocabulary",
+      "description": "A dwelling place or home, here referring to the temple or residence of the goddess."
+    },
+    "Ballal Sen": {
+      "type": "character",
+      "description": "Referenced as a historical figure, Ballal Sen was a king of Bengal known for instituting the system of Kulinism."
+    },
+    "Kulinism": {
+      "type": "proper_noun",
+      "description": "A social system established by Ballal Sen in Bengal, which classified Brahmins and Kayasthas into hierarchical ranks, affecting marriage and social status."
+    },
+    "widow remarriage": {
+      "type": "vocabulary",
+      "description": "The practice of a widow marrying again, which was socially taboo in traditional Hindu society of the time."
+    },
+    "caste": {
+      "type": "vocabulary",
+      "description": "A hereditary social class in Hindu society, dictating social status and occupation."
+    },
+    "benefactor": {
+      "type": "vocabulary",
+      "description": "A person who provides help or support, especially in a position of authority or patronage."
+    },
+    "Bapiti": {
+      "type": "proper_noun",
+      "description": "A place name mentioned as the location from which Hemchandra is coming."
+    },
+    "mansion": {
+      "type": "vocabulary",
+      "description": "A large and impressive house, often used in Indian literature to refer to the residence of a wealthy or noble person."
+    },
+    "chamber": {
+      "type": "vocabulary",
+      "description": "A private room, often used in historical or aristocratic contexts to refer to a room within a large house or palace."
+    },
+    "great forest": {
+      "type": "proper_noun",
+      "description": "A significant location north of the city where the Yavana army has set up camp; likely a large, dense forest near the main setting."
+    },
+    "camp": {
+      "type": "proper_noun",
+      "description": "Refers to the military encampment of the Yavana forces near the city."
+    },
+    "thief-catcher": {
+      "type": "vocabulary",
+      "description": "A term for someone who apprehends thieves; similar to a constable or detective in historical Indian society."
+    },
+    "Hemachandra": {
+      "type": "character",
+      "description": "A skilled warrior and one of the main protagonists, Hemachandra is depicted here defending himself against attackers and struggling with his wounds."
+    },
+    "Mrinal": {
+      "type": "character",
+      "description": "Referenced in the song at the end, Mrinal is a central character in the novel, often associated with themes of fate and suffering."
+    },
+    "Ratnamoyee": {
+      "type": "character",
+      "description": "The young daughter of the boatman’s wife, Ratnamoyee shares a room with Mrinalini and Girijaya and is friendly and playful with them."
+    },
+    "Patni": {
+      "type": "proper_noun",
+      "description": "Refers to the boatman’s wife, whose house provides shelter to Mrinalini and her friends; 'Patni' is a Bengali term for a boatman's wife."
+    },
+    "banyan tree": {
+      "type": "vocabulary",
+      "description": "A large, sacred fig tree native to India, often associated with shelter and gathering places in Indian culture."
+    },
+    "spear": {
+      "type": "vocabulary",
+      "description": "A traditional pole weapon used in warfare, commonly carried by warriors in medieval India."
+    },
+    "durva": {
+      "type": "proper_noun",
+      "description": "A type of sacred grass (Cynodon dactylon) used in Hindu rituals and believed to have healing properties."
+    },
+    "sacred thread": {
+      "type": "vocabulary",
+      "description": "A reference to the 'yajnopavita', a ceremonial thread worn by upper-caste Hindus, here used metaphorically for a bandage."
+    },
+    "ghee": {
+      "type": "vocabulary",
+      "description": "Clarified butter commonly used in Indian cooking and rituals."
+    },
+    "Braja": {
+      "type": "proper_noun",
+      "description": "A sacred region in northern India associated with the childhood of Krishna, often referenced in devotional poetry."
+    },
+    "Madhava": {
+      "type": "proper_noun",
+      "description": "A name for the Hindu god Krishna, frequently invoked in songs and poetry."
+    },
+    "tamala": {
+      "type": "vocabulary",
+      "description": "A type of tree (Diospyros tomentosa) with dark leaves, often mentioned in Indian poetry for its beauty."
+    },
+    "bandages": {
+      "type": "vocabulary",
+      "description": "Strips of cloth used to bind wounds; here, referring to Hemchandra's injury."
+    },
+    "King Sena": {
+      "type": "proper_noun",
+      "description": "Refers to the reigning monarch of the Sena dynasty, the ruling Hindu dynasty of Bengal during the late 12th and early 13th centuries."
+    },
+    "Bhadra": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar, typically corresponding to August-September, associated with the monsoon season."
+    },
+    "Krishna": {
+      "type": "proper_noun",
+      "description": "A major deity in Hinduism, often invoked as a symbol of love and divine play."
+    },
+    "Puranas": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu texts containing mythological stories, religious teachings, and cultural lore."
+    },
+    "Bhagiratha": {
+      "type": "proper_noun",
+      "description": "A legendary king in Hindu mythology who is credited with bringing the river Ganges down to earth through his penance."
+    },
+    "usurper of religion": {
+      "type": "vocabulary",
+      "description": "A phrase referring to someone who illegitimately claims religious authority or manipulates religion for personal gain."
+    },
+    "champak": {
+      "type": "vocabulary",
+      "description": "A fragrant flowering tree (Michelia champaca) native to South Asia, whose blossoms are often used as a metaphor for beauty."
+    },
+    "lotus feet": {
+      "type": "vocabulary",
+      "description": "A devotional term in Hinduism referring to the feet of a deity, symbolizing purity and divinity."
+    },
+    "conqueror of death": {
+      "type": "vocabulary",
+      "description": "An epithet for the Hindu god Shiva, who is believed to have mastery over death."
+    },
+    "widow": {
+      "type": "vocabulary",
+      "description": "A woman whose husband has died; in traditional Hindu society, widows were subject to strict codes of conduct regarding chastity and remarriage."
+    },
+    "Patani": {
+      "type": "proper_noun",
+      "description": "Refers to a woman of Pathan (Afghan Muslim) descent or household, indicating the presence of diverse communities in the setting."
+    },
+    "Radhe": {
+      "type": "vocabulary",
+      "description": "A devotional exclamation referring to Radha, the beloved of Krishna, often repeated in songs and prayers."
+    },
+    "Vyomkesh": {
+      "type": "character",
+      "description": "A character described as the disgrace of the Brahmin line, suspected by Hemchandra of being involved with Mrinalini."
+    },
+    "prahar": {
+      "type": "vocabulary",
+      "description": "An ancient Indian unit of time, roughly equivalent to three hours."
+    },
+    "yojana": {
+      "type": "vocabulary",
+      "description": "An ancient Indian unit of distance, approximately 8-9 miles (13-15 kilometers)."
+    },
+    "Dronacharya": {
+      "type": "proper_noun",
+      "description": "A legendary teacher and warrior from the Indian epic Mahabharata, known for his martial prowess and tragic downfall."
+    },
+    "Ashwatthama": {
+      "type": "proper_noun",
+      "description": "The son of Dronacharya in the Mahabharata, whose supposed death led to Dronacharya's defeat."
+    },
+    "bakul": {
+      "type": "vocabulary",
+      "description": "A type of fragrant flowering tree (Mimusops elengi) commonly found in South Asia."
+    },
+    "Urnanabha": {
+      "type": "character",
+      "description": "A rare and reclusive figure, likened to a savior who could have rescued Gauda; the name is used metaphorically here."
+    },
+    "Shantashila": {
+      "type": "character",
+      "description": "Pashupati's right-hand man, responsible for carrying out secretive tasks and relaying information."
+    },
+    "Damodar Sharma": {
+      "type": "character",
+      "description": "A cunning agent involved in manipulating court affairs, particularly by altering manuscripts and advising the king."
+    },
+    "Madansen": {
+      "type": "character",
+      "description": "A courtier or informant who returns from Kashi and provides the king with information about the Yavana king's representative."
+    },
+    "envoys": {
+      "type": "vocabulary",
+      "description": "Messengers or representatives sent on a diplomatic mission."
+    },
+    "tribute": {
+      "type": "vocabulary",
+      "description": "A payment or gift made by one ruler or state to another, often as a sign of dependence or submission."
+    },
+    "manuscript": {
+      "type": "vocabulary",
+      "description": "A handwritten document, often of literary or historical significance."
+    },
+    "scriptures": {
+      "type": "vocabulary",
+      "description": "Sacred religious texts, especially those of Hinduism in this context."
+    },
+    "pilgrimage": {
+      "type": "vocabulary",
+      "description": "A religious journey to a sacred place, undertaken for spiritual reasons."
+    },
+    "Janardana Sharma": {
+      "type": "character",
+      "description": "Described as the foremost of the Kulinas, he is Manoroma's grandfather and a figure of authority in her family."
+    },
+    "Jagadamba": {
+      "type": "proper_noun",
+      "description": "A name for the Divine Mother or Goddess, often used in Hinduism to refer to the supreme goddess."
+    },
+    "Eight-Armed One": {
+      "type": "proper_noun",
+      "description": "A reference to a form of the Hindu goddess, likely Durga, who is depicted with eight arms."
+    },
+    "Jagadishwari": {
+      "type": "proper_noun",
+      "description": "Another epithet for the Goddess, meaning 'Mistress of the Universe' in Sanskrit."
+    },
+    "Kulina": {
+      "type": "proper_noun",
+      "description": "A high-status subgroup within the Brahmin caste, known for strict adherence to lineage and purity."
+    },
+    "Shrotriya": {
+      "type": "proper_noun",
+      "description": "A Brahmin who is learned in the Vedas and qualified to perform religious rituals."
+    },
+    "salutations": {
+      "type": "vocabulary",
+      "description": "Formal acts of respect or worship, often involving gestures or prayers."
+    },
+    "lineage": {
+      "type": "vocabulary",
+      "description": "A line of descent or ancestry, particularly important in caste and family status."
+    },
+    "scriptural": {
+      "type": "vocabulary",
+      "description": "Relating to religious scriptures or authoritative sacred texts."
+    },
+    "Keshab": {
+      "type": "character",
+      "description": "Manorama's father, who, fearing an ill omen predicted by astrologers, takes steps to protect his daughter after her marriage."
+    },
+    "Janardhan": {
+      "type": "character",
+      "description": "Referred to as the Acharya, Janardhan is the spiritual teacher entrusted with Manorama's care after her father's death."
+    },
+    "Prayag": {
+      "type": "proper_noun",
+      "description": "An ancient and sacred city in India, now known as Allahabad, famous for its religious significance and confluence of rivers."
+    },
+    "deity": {
+      "type": "vocabulary",
+      "description": "A god or goddess; a divine being worshipped in the temple."
+    },
+    "Minhaj-ud-din": {
+      "type": "character",
+      "description": "A historian of the Yavanas who, six years after the events, records the history of the conquest."
+    },
+    "King of Gauda": {
+      "type": "proper_noun",
+      "description": "The reigning monarch of the kingdom of Gauda, depicted here as elderly and powerless during the invasion."
+    },
+    "Vanga": {
+      "type": "proper_noun",
+      "description": "An ancient region of Bengal, often paired with Gauda to refer to the broader area of Bengal."
+    },
+    "Sonargaon": {
+      "type": "proper_noun",
+      "description": "A historic city in Bengal, often serving as a refuge or secondary capital during times of crisis."
+    },
+    "Suvarnagram": {
+      "type": "proper_noun",
+      "description": "A place referenced as a destination for the fleeing royal family, possibly another name for a city or region in Bengal."
+    },
+    "Morkataka": {
+      "type": "proper_noun",
+      "description": "The place associated with Bakhtiyar Khilji, possibly his place of origin or base."
+    },
+    "scimitar": {
+      "type": "vocabulary",
+      "description": "A curved, single-edged sword of Middle Eastern or Central Asian origin, commonly used by warriors such as the Yavanas."
+    },
+    "postern gate": {
+      "type": "vocabulary",
+      "description": "A small, secondary gate in a fortification or palace, often used for secret or emergency exits."
+    },
+    "Dharmadhikari": {
+      "type": "character",
+      "description": "A high-ranking Hindu religious and administrative leader in Bengal, central to the story's conflict with Bakhtiyar Khilji."
+    },
+    "Islam": {
+      "type": "proper_noun",
+      "description": "The monotheistic religion founded by the Prophet Muhammad, followed by Bakhtiyar Khilji and his forces."
+    },
+    "Sanatan Dharma": {
+      "type": "proper_noun",
+      "description": "A term for the eternal, traditional Hindu faith, contrasted here with Islam."
+    },
+    "Quran": {
+      "type": "proper_noun",
+      "description": "The holy scripture of Islam, referenced by Bakhtiyar Khilji as the source of true faith."
+    },
+    "Muhammad": {
+      "type": "proper_noun",
+      "description": "The Prophet of Islam, mentioned as the figure to be worshipped according to Bakhtiyar Khilji."
+    },
+    "Clive Sahib": {
+      "type": "proper_noun",
+      "description": "Refers to Robert Clive, a British colonial officer known for his role in the conquest of Bengal in the 18th century."
+    },
+    "envoy": {
+      "type": "vocabulary",
+      "description": "A diplomatic representative sent to negotiate or communicate between parties."
+    },
+    "treaty": {
+      "type": "vocabulary",
+      "description": "A formal agreement between two or more parties, especially between states or rulers."
+    },
+    "initiated": {
+      "type": "vocabulary",
+      "description": "Formally admitted or introduced into a group or religion, often through a ritual."
+    },
+    "Sultan": {
+      "type": "vocabulary",
+      "description": "A Muslim sovereign or ruler, especially in the context of medieval India."
+    },
+    "priest": {
+      "type": "vocabulary",
+      "description": "A religious leader authorized to perform sacred rituals, here referring to an Islamic cleric."
+    },
+    "guard": {
+      "type": "vocabulary",
+      "description": "A person assigned to protect or detain someone, often as a soldier or watchman."
+    },
+    "Banga Tiarak": {
+      "type": "proper_noun",
+      "description": "A figure mentioned as having usurped the royal palace, contributing to the king's flight and the city's chaos."
+    },
+    "Gauriya": {
+      "type": "proper_noun",
+      "description": "Refers to things or people of Gaud (Gaur), an ancient region and kingdom in Bengal; here, it means the local soldiers."
+    },
+    "Gaud": {
+      "type": "proper_noun",
+      "description": "An ancient kingdom and region in Bengal, referenced as Vyomkesh's home and Mrinalini's former residence."
+    },
+    "Shalagrama": {
+      "type": "proper_noun",
+      "description": "Sacred stones, typically fossilized ammonite, worshipped by Hindus and associated with Vishnu; here, they are described as being desecrated during the invasion."
+    },
+    "cavalrymen": {
+      "type": "vocabulary",
+      "description": "Soldiers who fight mounted on horseback."
+    },
+    "sacred threads": {
+      "type": "vocabulary",
+      "description": "The 'yajnopavita', a sacred cord worn by Brahmin males as a symbol of their caste and religious duties."
+    },
+    "leaf-cup": {
+      "type": "vocabulary",
+      "description": "A small cup made from leaves, traditionally used in India for serving water or offerings."
+    },
+    "Garjaya": {
+      "type": "character",
+      "description": "A secondary character who appears to be present with Mrinalini and Girijaya, possibly another attendant or companion."
+    },
+    "Kartik": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali (and Hindu) lunar calendar, typically falling in October-November, known for its cool weather and religious observances."
+    },
+    "heretic": {
+      "type": "vocabulary",
+      "description": "In this context, a term used to describe someone who is considered to have deviated from orthodox religious beliefs, often used pejoratively."
+    },
+    "beggar woman": {
+      "type": "vocabulary",
+      "description": "A term referring to a woman who is destitute and relies on alms for survival, often used to express humility or low status."
+    },
+    "Sindhu": {
+      "type": "proper_noun",
+      "description": "Refers to a breed of horse from the Sindh region, known for its strength and speed."
+    },
+    "Hrishikesha": {
+      "type": "character",
+      "description": "A character whose house Mrinalini left before coming to Navadwip; he is a figure from her past, possibly a guardian or protector."
+    },
+    "Piyari": {
+      "type": "character",
+      "description": "Mentioned as someone Digvijay hopes will come looking for him; possibly a nickname or alternate name for Girijaya."
+    },
+    "bower": {
+      "type": "vocabulary",
+      "description": "A pleasant, shaded retreat or shelter in a garden, often made with trees or climbing plants."
+    },
+    "moustache": {
+      "type": "vocabulary",
+      "description": "Facial hair grown on the upper lip; in this context, twisting the moustache is a gesture of pride or contemplation."
+    },
+    "retreat in battle": {
+      "type": "vocabulary",
+      "description": "A phrase meaning to withdraw or flee from a situation, often used metaphorically for escaping trouble."
+    },
+    "Arundhati": {
+      "type": "character",
+      "description": "Mrinalini’s elderly kinswoman and caretaker, who gives her away in marriage during the secret wedding."
+    },
+    "Buddhist": {
+      "type": "vocabulary",
+      "description": "A follower of Buddhism, a religious tradition originating in India; here, it denotes Mrinalini’s faith and social identity."
+    },
+    "family priest": {
+      "type": "vocabulary",
+      "description": "A religious officiant belonging to a family, responsible for conducting rituals such as marriage ceremonies."
+    },
+    "maiden": {
+      "type": "vocabulary",
+      "description": "An unmarried young woman, often used in historical or traditional contexts."
+    },
+    "anoint you with turmeric": {
+      "type": "vocabulary",
+      "description": "A reference to a traditional Indian pre-wedding ritual where turmeric paste is applied to the bride for auspiciousness and purification."
+    },
+    "Bharat": {
+      "type": "proper_noun",
+      "description": "The traditional Sanskrit name for India."
+    },
+    "Kamarupa": {
+      "type": "proper_noun",
+      "description": "An ancient kingdom located in present-day Assam and northeastern India, often depicted as a stronghold resisting invaders."
+    },
+    "Aryan": {
+      "type": "proper_noun",
+      "description": "Refers to the noble or warrior classes in ancient and medieval India, often used to denote the indigenous Hindu rulers."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country in South Asia, here referenced in its historical context."
+    },
+    "Kalika": {
+      "type": "proper_noun",
+      "description": "A reference to the Hindu goddess Kali, or possibly a person named after her, whose word influenced Hemchandra's actions."
+    },
+    "servitude": {
+      "type": "vocabulary",
+      "description": "The state of being subject to domination or forced labor, here referring to subjugation under foreign rule."
+    },
+    "vassal kings": {
+      "type": "vocabulary",
+      "description": "Subordinate rulers who owe allegiance to a higher sovereign or king."
+    },
+    "scripture": {
+      "type": "vocabulary",
+      "description": "Sacred religious texts regarded as authoritative in Hindu tradition."
+    },
+    "Gurudev": {
+      "type": "vocabulary",
+      "description": "A respectful term meaning 'revered teacher' or 'spiritual master.'"
+    },
+    "Lion Gate": {
+      "type": "proper_noun",
+      "description": "A specific gate of the city, likely a main entrance or exit, significant for its role in security and movement."
+    },
+    "mlechchha": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term used to denote foreigners or those considered outside the traditional Hindu social order, often with a derogatory connotation."
+    },
+    "Dharma Adhikari": {
+      "type": "vocabulary",
+      "description": "A title meaning 'upholder of dharma (righteousness or religious law),' typically referring to a religious or judicial authority."
+    },
+    "pyre": {
+      "type": "vocabulary",
+      "description": "A pile of combustible material, often used for burning a corpse as part of funeral rites in South Asian traditions."
+    },
+    "Durgadas": {
+      "type": "character",
+      "description": "A Brahmin appointed to perform daily rituals for the eight-armed goddess; he leads the effort to recover the idol and perform Pashupati's funeral rites."
+    },
+    "Ratnamayi": {
+      "type": "character",
+      "description": "A friend of Girijaya who marries a merchant and resides in the new kingdom."
+    },
+    "Ashtabhuja": {
+      "type": "proper_noun",
+      "description": "A form of the goddess Durga depicted with eight arms, worshipped in Bengal."
+    },
+    "widow-burning": {
+      "type": "vocabulary",
+      "description": "Also known as 'sati,' the now-outlawed Hindu practice where a widow immolated herself on her husband's funeral pyre."
+    },
+    "circumambulated": {
+      "type": "vocabulary",
+      "description": "Walked around something (often a sacred object or fire) as a ritual act of respect or devotion."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Hemchandra",
+      "Madhavacharya",
+      "Mrinalini",
+      "Digvijay",
+      "Bakhtiyar Khilji",
+      "Mother",
+      "Prayaga",
+      "Ganga",
+      "Yamuna",
+      "Delhi",
+      "Yavan",
+      "Magadha",
+      "Mathura",
+      "Gauda",
+      "Navadwip",
+      "Yama",
+      "ghat",
+      "Acharya",
+      "hermitage",
+      "Brahmin",
+      "holy ash",
+      "quiver",
+      "guru"
+    ],
+    "ch-2": [
+      "Hrishikesh",
+      "Mrinalini",
+      "Manimalini",
+      "Madhavacharya",
+      "Hemchandra",
+      "Lakshmanavati",
+      "Yamuna",
+      "Gauda",
+      "Yavanas",
+      "Brahmin",
+      "guru",
+      "signet ring"
+    ],
+    "ch-3": [
+      "Mrinalini",
+      "Manimalini",
+      "Girijaya",
+      "Mathura",
+      "Vrindavan",
+      "Yamuna",
+      "Shyamsundar",
+      "Teetala",
+      "Jayjayanti",
+      "gopis",
+      "shyam",
+      "kunda",
+      "sandalwood",
+      "first watch"
+    ],
+    "ch-4": [
+      "Hemchandra",
+      "Sarvadhan",
+      "Digvijay",
+      "Girijaya",
+      "Mrinalini",
+      "Hrishikesh Sharma",
+      "Madhavacharya",
+      "Janaki",
+      "Raghubir",
+      "Lakshmanavati",
+      "Ashoka",
+      "Yamuna",
+      "Mathura",
+      "Shyamsundar",
+      "Hrishikesh Brahmin",
+      "Navadwip",
+      "Acharya",
+      "first watch of the night"
+    ],
+    "ch-5": [
+      "Mrinalini",
+      "Girijaya",
+      "Hemchandra",
+      "Manimalini",
+      "Hrishikesh",
+      "Byomkesh",
+      "Madhavacharya",
+      "Radhika",
+      "Navadwip",
+      "Brahmin",
+      "Draupadi",
+      "Jayadratha",
+      "Arjuna",
+      "guru",
+      "salvation",
+      "Brahmani",
+      "trysting"
+    ],
+    "ch-6": [
+      "Hrishikesh",
+      "Mrinalini",
+      "Manimalini",
+      "Byomkesh",
+      "Girijaya",
+      "Madhavacharya",
+      "Mathura",
+      "Yama’s Abode",
+      "Nabadwip",
+      "guru",
+      "Brahmin",
+      "alms"
+    ],
+    "ch-7": [
+      "Lord of Gauda",
+      "Madhavacharya",
+      "Pashupati",
+      "Damodar",
+      "Halayudh",
+      "Hemchandra",
+      "Gauda",
+      "Nabadwip",
+      "Brahmins",
+      "Magadha",
+      "Aryavarta",
+      "Turks",
+      "Yavana",
+      "Vishnu Purana",
+      "Manu",
+      "Manusmriti",
+      "Saraswati",
+      "Jagadishwara",
+      "dais",
+      "kusa grass",
+      "Maharaj",
+      "Maharajadhiraj",
+      "Acharya",
+      "satraps",
+      "Samanta",
+      "Anushtubh",
+      "infantry",
+      "brigands"
+    ],
+    "ch-8": [
+      "Hemchandra",
+      "Madhavacharya",
+      "Janardana",
+      "Digvijaya",
+      "Manoroma",
+      "Brahmani",
+      "Ganges",
+      "Nabadwip",
+      "Brahmin",
+      "veena",
+      "Brahmani"
+    ],
+    "ch-9": [
+      "Hemchandra",
+      "Mrinalini",
+      "Girijaya",
+      "Hrishikesh",
+      "Ganges",
+      "Nabadwip",
+      "Mathura",
+      "Nadiya",
+      "Shyam",
+      "maidservant",
+      "garland"
+    ],
+    "ch-10": [
+      "Hemchandra",
+      "Janardana",
+      "Manoroma",
+      "Madhavacharya",
+      "Gauda",
+      "Navadwip",
+      "Bhagirathi",
+      "Ganga",
+      "Bengal",
+      "Brahmin",
+      "kash-grass",
+      "Turks"
+    ],
+    "ch-11": [
+      "Hemchandra",
+      "Mrinalini",
+      "Manorama",
+      "Turk",
+      "Turkish army",
+      "Yavanas",
+      "Ganges",
+      "banyan",
+      "tank",
+      "royal road",
+      "garden house",
+      "riverbank",
+      "stairway",
+      "turbaned"
+    ],
+    "ch-12": [
+      "Pashupati",
+      "Keshav",
+      "Haimavati",
+      "Muhammad Ali",
+      "Hemchandra",
+      "Gauda",
+      "Gaur",
+      "Sena dynasty",
+      "Kashi",
+      "Magadha",
+      "Bihar",
+      "Khilji",
+      "Yavanas",
+      "Delhi",
+      "Qutb-ud-din",
+      "Muhammad Ghori",
+      "Bakhtiyar Khilji",
+      "Brahmin",
+      "Yavana",
+      "tributary"
+    ],
+    "ch-13": [
+      "Mohammad Ali",
+      "Pashupati",
+      "Shantashil",
+      "Manoroma",
+      "Yavana",
+      "Magadha",
+      "vina",
+      "obeisance"
+    ],
+    "ch-14": [
+      "Manoroma",
+      "Pashupati",
+      "Hemchandra",
+      "Ganges",
+      "champa",
+      "tresses",
+      "braid",
+      "creeper",
+      "jackal",
+      "abode"
+    ],
+    "ch-15": [
+      "Pashupati",
+      "Manorama",
+      "Shantashil",
+      "Ballal Sen",
+      "Yavana",
+      "Kulinism",
+      "Saraswati",
+      "widow remarriage",
+      "caste",
+      "benefactor"
+    ],
+    "ch-16": [
+      "Hemchandra",
+      "Manorama",
+      "Shantashil",
+      "Yavana",
+      "Bapiti",
+      "Pashupati",
+      "mansion",
+      "chamber"
+    ],
+    "ch-17": [
+      "Manorama",
+      "Pashupati",
+      "Shantashil",
+      "Hemchandra",
+      "Yavana",
+      "great forest",
+      "camp",
+      "thief-catcher"
+    ],
+    "ch-18": [
+      "Hemachandra",
+      "Shantashil",
+      "Mrinal",
+      "Yavana",
+      "banyan"
+    ],
+    "ch-19": [
+      "Hemchandra",
+      "Ratnamoyee",
+      "Mrinalini",
+      "Girijaya",
+      "Navadwip",
+      "Patni",
+      "banyan tree",
+      "spear"
+    ],
+    "ch-20": [
+      "Hemchandra",
+      "Manoroma",
+      "Mrinalini",
+      "Girijaya",
+      "durva",
+      "sacred thread"
+    ],
+    "ch-21": [
+      "Manoroma",
+      "Hemchandra",
+      "Mrinalini",
+      "Girijaya",
+      "Digvijaya",
+      "Yavana",
+      "alms",
+      "ghee"
+    ],
+    "ch-22": [
+      "Girijaya",
+      "Hemchandra",
+      "Mrinalini",
+      "Braja",
+      "Madhava",
+      "Yamuna",
+      "Shyam",
+      "Gauda",
+      "Mathura",
+      "alms",
+      "tamala",
+      "bandages"
+    ],
+    "ch-23": [
+      "Madhavacharya",
+      "Hemchandra",
+      "Mrinalini",
+      "Hrishikesh",
+      "Navadwip",
+      "King Sena",
+      "Yavana",
+      "Gauda",
+      "Acharya"
+    ],
+    "ch-24": [
+      "Madhavacharya",
+      "Hemchandra",
+      "Manoroma",
+      "Yavana",
+      "Ganges",
+      "Bhadra",
+      "Krishna",
+      "Puranas",
+      "Bhagiratha",
+      "usurper of religion",
+      "champak",
+      "lotus feet",
+      "conqueror of death",
+      "widow"
+    ],
+    "ch-25": [
+      "Girijaya",
+      "Mrinalini",
+      "Hemchandra",
+      "Manoroma",
+      "Patni",
+      "royal road"
+    ],
+    "ch-26": [
+      "Mrinalini",
+      "Girijaya",
+      "Hemchandra",
+      "Manorama",
+      "Hrishikesh",
+      "Mathura",
+      "Yamuna",
+      "Navadwip",
+      "Ganges",
+      "Nadiya",
+      "Magadha",
+      "Patani",
+      "Shyam",
+      "Radhe"
+    ],
+    "ch-27": [
+      "Acharya",
+      "Hemchandra",
+      "Mrinalini",
+      "Madhavacharya",
+      "Vyomkesh",
+      "Hrishikesh",
+      "Girijaya",
+      "Manoroma",
+      "Mathura",
+      "Gauda",
+      "Navadwip",
+      "Brahmin",
+      "guru",
+      "prahar",
+      "yojana"
+    ],
+    "ch-28": [
+      "Hemchandra",
+      "Mrinalini",
+      "Hrishikesh",
+      "Girijaya",
+      "Yamuna",
+      "Dronacharya",
+      "Ashwatthama",
+      "Bapiti",
+      "bakul"
+    ],
+    "ch-29": [
+      "Mrinalini",
+      "Urnanabha",
+      "Pashupati",
+      "Shantashila",
+      "Damodar Sharma",
+      "Madhavacharya",
+      "Madansen",
+      "Bakhtiyar Khilji",
+      "Gauda",
+      "Yavana",
+      "Kashi",
+      "Magadha",
+      "Bakhtiyar Khilji",
+      "envoys",
+      "tribute",
+      "manuscript",
+      "scriptures",
+      "pilgrimage"
+    ],
+    "ch-30": [
+      "Pashupati",
+      "Manoroma",
+      "Shantashil",
+      "Janardana Sharma",
+      "Jagadamba",
+      "Eight-Armed One",
+      "Jagadishwari",
+      "Kulina",
+      "Shrotriya",
+      "salutations",
+      "widow",
+      "lineage",
+      "scriptural"
+    ],
+    "ch-31": [
+      "Pashupati",
+      "Manorama",
+      "Keshab",
+      "Janardhan",
+      "Acharya",
+      "Haimavati",
+      "Brahmani",
+      "Yavanas",
+      "Prayag",
+      "Kashi",
+      "deity",
+      "Acharya",
+      "Brahmani"
+    ],
+    "ch-32": [
+      "Pashupati",
+      "Bakhtiyar Khilji",
+      "Minhaj-ud-din",
+      "Navadwip",
+      "Gauda",
+      "Yavana",
+      "King of Gauda",
+      "Vanga",
+      "Sonargaon",
+      "Suvarnagram",
+      "Morkataka",
+      "scimitar",
+      "postern gate"
+    ],
+    "ch-33": [
+      "Bakhtiyar Khilji",
+      "Dharmadhikari",
+      "Pashupati",
+      "Manoroma",
+      "Gauda",
+      "Yavana",
+      "Qutb-ud-din",
+      "Bengal",
+      "Islam",
+      "Sanatan Dharma",
+      "Quran",
+      "Muhammad",
+      "Clive Sahib",
+      "Nabadwip",
+      "envoy",
+      "obeisance",
+      "treaty",
+      "initiated",
+      "Sultan",
+      "priest",
+      "guard"
+    ],
+    "ch-34": [
+      "Pashupati",
+      "Manoroma",
+      "Shantashil",
+      "Janardhan",
+      "Yavanas"
+    ],
+    "ch-35": [
+      "Hemchandra",
+      "Digvijay",
+      "Mrinalini",
+      "Vyomkesh",
+      "Madhavacharya",
+      "Navadwip",
+      "Yavana",
+      "Banga Tiarak",
+      "Gauriya",
+      "Gaud",
+      "Shalagrama",
+      "royal road",
+      "cavalrymen",
+      "infantry",
+      "Brahmin",
+      "sacred threads",
+      "leaf-cup"
+    ],
+    "ch-36": [
+      "Hemchandra",
+      "Mrinalini",
+      "Girijaya",
+      "Garjaya",
+      "Kartik",
+      "heretic",
+      "beggar woman"
+    ],
+    "ch-37": [
+      "Girijaya",
+      "Mrinalini",
+      "Hemchandra",
+      "Yavana",
+      "Sindhu"
+    ],
+    "ch-38": [
+      "Hemchandra",
+      "Mrinalini",
+      "Girijaya",
+      "Hrishikesha",
+      "Digvijay",
+      "Piyari",
+      "Navadwip",
+      "Yavana",
+      "Gauda",
+      "bower",
+      "moustache",
+      "retreat in battle"
+    ],
+    "ch-39": [
+      "Hemchandra",
+      "Madhavacharya",
+      "Girijaya",
+      "Mrinalini",
+      "Digvijay",
+      "Arundhati",
+      "Mathura",
+      "Yamuna",
+      "Magadha",
+      "Buddhist",
+      "family priest",
+      "maiden",
+      "anoint you with turmeric"
+    ],
+    "ch-40": [
+      "Hemchandra",
+      "Madhavacharya",
+      "Mrinalini",
+      "Byomkesh",
+      "Mother",
+      "Yavanas",
+      "Gauda",
+      "Bharat",
+      "Nabadwip",
+      "Kamarupa",
+      "Aryan",
+      "India",
+      "Kalika",
+      "Mathura",
+      "Acharya",
+      "servitude",
+      "vassal kings",
+      "scripture",
+      "Gurudev"
+    ],
+    "ch-41": [
+      "Pashupati",
+      "Muhammad Ali",
+      "Bakhtiyar Khilji",
+      "Yavana",
+      "Lion Gate",
+      "Ganges",
+      "mlechchha",
+      "Dharma Adhikari"
+    ],
+    "ch-42": [
+      "Muhammad Ali",
+      "Pashupati",
+      "Manoroma",
+      "Yavana",
+      "Ganges",
+      "Jagadamba",
+      "pyre"
+    ],
+    "ch-43": [
+      "Pashupati",
+      "Durgadas",
+      "Bakhtiyar Khilji",
+      "Hemchandra",
+      "Manoroma",
+      "Janardana Sharma",
+      "Madhavacharya",
+      "Mrinalini",
+      "Girijaya",
+      "Digvijay",
+      "Ratnamayi",
+      "Hrishikesh",
+      "Manimalini",
+      "Shantashil",
+      "Keshav",
+      "Yavanas",
+      "Ashtabhuja",
+      "Ganges",
+      "Kashi",
+      "Nabadwip",
+      "Kamarupa",
+      "Brahmin",
+      "Dharmadhikari",
+      "widow-burning",
+      "pyre",
+      "circumambulated"
+    ]
+  }
+}

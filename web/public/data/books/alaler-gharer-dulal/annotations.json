@@ -1,0 +1,3976 @@
+{
+  "glossary": {
+    "Baburam Babu": {
+      "type": "character",
+      "description": "A wealthy and ambitious patriarch of Baidyabati, known for his dealings in the courts and for amassing great fortune; he is the father of Motilal and two daughters.",
+      "image": "/data/images/characters/alaler-gharer-dulal/baburam-babu.png"
+    },
+    "Motilal": {
+      "type": "character",
+      "description": "Baburam Babu's only son, pampered and mischievous, who resists formal education and plays tricks on his tutors.",
+      "image": "/data/images/characters/alaler-gharer-dulal/motilal.png"
+    },
+    "the tutor": {
+      "type": "character",
+      "description": "The household steward initially entrusted with Motilal's education, who struggles to manage the unruly boy."
+    },
+    "the butter-worshipping Brahmin priest": {
+      "type": "character",
+      "description": "A simple-minded Brahmin priest who is later tasked with teaching Motilal grammar, motivated by hopes of personal gain."
+    },
+    "Baidyabati": {
+      "type": "proper_noun",
+      "description": "A town in Bengal, serving as the home and estate of Baburam Babu."
+    },
+    "Balaram Thakur": {
+      "type": "proper_noun",
+      "description": "Ancestral figure referenced as the forebear of Baburam Babu, indicating a respected lineage."
+    },
+    "Kulin Brahmins": {
+      "type": "proper_noun",
+      "description": "A high-status subgroup of Brahmins in Bengal, known for strict caste practices and often marrying multiple wives."
+    },
+    "Saraswati": {
+      "type": "proper_noun",
+      "description": "The Hindu goddess of learning and wisdom, invoked here to suggest Motilal's lack of scholarly inclination."
+    },
+    "tole": {
+      "type": "proper_noun",
+      "description": "A traditional Bengali village school, often run by a Brahmin teacher."
+    },
+    "Ishwarchandra Vedantabagish": {
+      "type": "proper_noun",
+      "description": "A renowned scholar and teacher, mentioned as the head of a tole in Queenmora."
+    },
+    "Queenmora": {
+      "type": "proper_noun",
+      "description": "A place name, likely referring to a locality where Ishwarchandra Vedantabagish's tole was situated."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful title for a gentleman or landowner in Bengal."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "paisa": {
+      "type": "vocabulary",
+      "description": "A small unit of currency in India, traditionally one-hundredth of a rupee."
+    },
+    "airbox friends": {
+      "type": "vocabulary",
+      "description": "A colloquial or playful term, possibly referring to idle or fun-loving companions."
+    },
+    "palm-leaf slate": {
+      "type": "vocabulary",
+      "description": "A writing surface made from palm leaves, traditionally used by students in India."
+    },
+    "pawnshop": {
+      "type": "vocabulary",
+      "description": "A shop where personal items are exchanged for loans; included here as a culturally familiar term in the context."
+    },
+    "Haribol": {
+      "type": "vocabulary",
+      "description": "A devotional chant in Bengali Hinduism, meaning 'say the name of Hari (God)'."
+    },
+    "Habibullah Hossain": {
+      "type": "character",
+      "description": "The elderly Persian tutor (munshi) hired to teach Motilal; also the grandfather of Aladi the tailor."
+    },
+    "Aladi": {
+      "type": "character",
+      "description": "A tailor mentioned as the grandson of Habibullah Hossain."
+    },
+    "Munshi Sahib": {
+      "type": "character",
+      "description": "A respectful term for Habibullah Hossain, the Persian teacher."
+    },
+    "Hari": {
+      "type": "character",
+      "description": "Baburam Babu's servant, who accompanies him on his journey and is involved in arranging transportation."
+    },
+    "Beni Babu": {
+      "type": "character",
+      "description": "The elder Babu of Bally, a relative or acquaintance whom Baburam Babu consults about Motilal's education."
+    },
+    "Ram": {
+      "type": "character",
+      "description": "A servant at Beni Babu's house who brings out the tobacco and tends to the hookah."
+    },
+    "Sajia": {
+      "type": "character",
+      "description": "A person at Beni Babu's house who brings the tobacco in."
+    },
+    "Masnavi": {
+      "type": "proper_noun",
+      "description": "A famous collection of Persian Sufi poetry, often used as a textbook for Persian learners in India."
+    },
+    "Bally": {
+      "type": "proper_noun",
+      "description": "A locality near Kolkata (Calcutta), referenced as the home of Beni Babu."
+    },
+    "Baidyabati ghat": {
+      "type": "proper_noun",
+      "description": "A riverside landing or ferry point at Baidyabati, a town near Kolkata."
+    },
+    "Asharh": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar, corresponding to June-July, part of the monsoon season."
+    },
+    "Shravan": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar, following Asharh, corresponding to July-August."
+    },
+    "hilsa": {
+      "type": "proper_noun",
+      "description": "A prized river fish, especially popular in Bengali cuisine, caught during the monsoon."
+    },
+    "tilak": {
+      "type": "proper_noun",
+      "description": "A mark, often made with sandalwood paste or vermilion, worn on the forehead for religious or cultural reasons."
+    },
+    "Ganesha": {
+      "type": "proper_noun",
+      "description": "A Hindu deity with an elephant head, associated with wisdom and prosperity."
+    },
+    "chadar": {
+      "type": "proper_noun",
+      "description": "A long scarf or shawl draped over the shoulders, commonly worn in Bengal."
+    },
+    "panshi": {
+      "type": "proper_noun",
+      "description": "A type of small river boat used in Bengal."
+    },
+    "pice": {
+      "type": "proper_noun",
+      "description": "A small denomination of currency in colonial India, equal to 1/64 of a rupee."
+    },
+    "sattu": {
+      "type": "proper_noun",
+      "description": "A flour made from roasted pulses or grains, commonly eaten in parts of India."
+    },
+    "Chittagong": {
+      "type": "proper_noun",
+      "description": "A region in present-day Bangladesh, referenced here for its distinct musical style."
+    },
+    "Vrindavan": {
+      "type": "proper_noun",
+      "description": "A holy town in northern India, associated with the Hindu god Krishna."
+    },
+    "Deonagazi ghat": {
+      "type": "proper_noun",
+      "description": "A riverside landing or ferry point, likely a local place name."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The colonial name for Kolkata, the capital of West Bengal and a major cultural center."
+    },
+    "munshi": {
+      "type": "vocabulary",
+      "description": "A teacher or tutor, especially of languages such as Persian or Urdu."
+    },
+    "sahib": {
+      "type": "vocabulary",
+      "description": "A respectful term of address for a man, often used for teachers or persons of authority."
+    },
+    "haram": {
+      "type": "vocabulary",
+      "description": "An Arabic term meaning 'forbidden' or 'impure', used here as an exclamation."
+    },
+    "chilum": {
+      "type": "vocabulary",
+      "description": "A conical clay pipe used for smoking tobacco or other substances."
+    },
+    "hookah": {
+      "type": "vocabulary",
+      "description": "A water pipe used for smoking flavored tobacco, traditional in India and the Middle East."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A title or term of respect for a gentleman, often used for educated or well-off men in Bengal."
+    },
+    "ghat": {
+      "type": "vocabulary",
+      "description": "A series of steps leading down to a river, often used for bathing or as a ferry landing."
+    },
+    "betel leaf": {
+      "type": "vocabulary",
+      "description": "A leaf from the betel plant, commonly chewed with areca nut and lime in South Asia."
+    },
+    "footman": {
+      "type": "vocabulary",
+      "description": "A servant, typically one who attends to passengers or assists with travel."
+    },
+    "flower pond": {
+      "type": "vocabulary",
+      "description": "A reference to a type of footwear, possibly slippers made from lotus fiber or referencing a local style."
+    },
+    "oars": {
+      "type": "vocabulary",
+      "description": "Paddles used to row a boat; included here as it may be unfamiliar in the context of traditional Bengali river travel."
+    },
+    "Benibabu": {
+      "type": "character",
+      "description": "A responsible and learned man from Bali, tasked with overseeing Motilal's education and behavior.",
+      "image": "/data/images/characters/alaler-gharer-dulal/benibabu.png"
+    },
+    "Pelaram": {
+      "type": "character",
+      "description": "The gardener from Kashijora, who works in Benibabu's household and is disturbed by Motilal's antics."
+    },
+    "Pranakrishna": {
+      "type": "character",
+      "description": "A villager, referred to as 'the cripple', who comes to Benibabu to complain about Motilal."
+    },
+    "Bhagabati Thakurdada": {
+      "type": "character",
+      "description": "An elderly villager who joins others in complaining about Motilal's mischief."
+    },
+    "Rajkrishna": {
+      "type": "character",
+      "description": "A sly villager who also complains to Benibabu about Motilal."
+    },
+    "Becharam Bandyopadhyay": {
+      "type": "character",
+      "description": "A relative of Baburam Babu in Bowbazar, who agrees to host Motilal for his studies in Calcutta."
+    },
+    "Kenaram Babu": {
+      "type": "character",
+      "description": "Becharam Babu's father, described as a man of old lineage."
+    },
+    "Mr. Sherborne": {
+      "type": "character",
+      "description": "The sahib (British headmaster) of the school where Motilal is enrolled, known for his strictness and fondness for betel and hookah."
+    },
+    "Bali": {
+      "type": "proper_noun",
+      "description": "A village where Benibabu lives and where Motilal causes mischief."
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "A sacred river in India, significant in Hindu rituals and daily life."
+    },
+    "Purana": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu religious texts, often recited as part of religious observance."
+    },
+    "Bowbazar": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta where Becharam Bandyopadhyay lives."
+    },
+    "Shambhu": {
+      "type": "proper_noun",
+      "description": "A villager mentioned in a local anecdote about eating jackfruits."
+    },
+    "Shaligram": {
+      "type": "proper_noun",
+      "description": "A sacred stone, often kept in Hindu households for worship."
+    },
+    "Vishnu": {
+      "type": "proper_noun",
+      "description": "A principal Hindu deity, referenced in the phrase 'lotus navel of Vishnu'."
+    },
+    "zamindar": {
+      "type": "proper_noun",
+      "description": "A landowning aristocrat, often responsible for collecting taxes in colonial India."
+    },
+    "Nara": {
+      "type": "proper_noun",
+      "description": "A person referenced in the villagers’ chant, 'Praise to Nara, son of Shambhu!'"
+    },
+    "Amburi": {
+      "type": "proper_noun",
+      "description": "A type of tobacco popular in Bengal."
+    },
+    "Velsa": {
+      "type": "proper_noun",
+      "description": "Another variety of tobacco."
+    },
+    "Chandimandap": {
+      "type": "proper_noun",
+      "description": "A pavilion or hall in a Bengali household, often used for worship or gatherings."
+    },
+    "Kashijora": {
+      "type": "proper_noun",
+      "description": "A place from which Pelaram the gardener hails."
+    },
+    "Bandyopadhyay": {
+      "type": "proper_noun",
+      "description": "A Bengali Brahmin surname, here referring to Becharam."
+    },
+    "Mahashay": {
+      "type": "proper_noun",
+      "description": "A respectful Bengali honorific, similar to 'gentleman' or 'sir'."
+    },
+    "Hindu college": {
+      "type": "proper_noun",
+      "description": "A reference to a type of educational institution for Hindus, possibly alluding to the Hindu College in Calcutta."
+    },
+    "sahibs": {
+      "type": "vocabulary",
+      "description": "Colonial-era term for European (usually British) men of authority."
+    },
+    "betel": {
+      "type": "vocabulary",
+      "description": "A leaf chewed with areca nut and lime, common in South Asia."
+    },
+    "gamcha": {
+      "type": "vocabulary",
+      "description": "A thin, traditional cotton towel used in Bengal, often worn around the waist or shoulders."
+    },
+    "ghee": {
+      "type": "vocabulary",
+      "description": "Clarified butter used in Indian cooking and rituals."
+    },
+    "bangles": {
+      "type": "vocabulary",
+      "description": "Rigid bracelets, usually made from metal, glass, or plastic, worn around the wrist."
+    },
+    "armlets": {
+      "type": "vocabulary",
+      "description": "Ornaments worn around the upper arm."
+    },
+    "verandah": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch attached to the outside of a house."
+    },
+    "curries": {
+      "type": "vocabulary",
+      "description": "Dishes of meat or vegetables cooked in a spiced sauce, common in Indian cuisine."
+    },
+    "Ramram Mishra": {
+      "type": "character",
+      "description": "An early Bengali who learned some English words; mentioned as a figure from the days when English was first being adopted in Calcutta."
+    },
+    "Anandirama Das": {
+      "type": "character",
+      "description": "A contemporary of Ramram Mishra, also among the first Bengalis to learn English words."
+    },
+    "Ramnarayan Mishra": {
+      "type": "character",
+      "description": "Disciple of Ramram Mishra; worked as a clerk for a lawyer, wrote petitions, and ran a school."
+    },
+    "Ramlochan": {
+      "type": "character",
+      "description": "A barber who later became a schoolmaster, following the trend of taking up teaching."
+    },
+    "Krishnamohan Basu": {
+      "type": "character",
+      "description": "Another individual who became a schoolmaster, mentioned alongside Ramlochan."
+    },
+    "Fenko": {
+      "type": "character",
+      "description": "One of the early school founders in Calcutta, whose example inspired others."
+    },
+    "Aratoon Petrus": {
+      "type": "character",
+      "description": "Another early school founder, likely of Armenian origin, whose example influenced others."
+    },
+    "Mr. Sharbhoron Sahib": {
+      "type": "character",
+      "description": "A school founder who started a school for sons of respectable families."
+    },
+    "Matilal": {
+      "type": "character",
+      "description": "A boy who attended Mr. Sharbhoron’s and later Mr. Kalus’s school; a central figure in the narrative."
+    },
+    "Mr. Kalus": {
+      "type": "character",
+      "description": "A schoolmaster who ran a school Matilal attended; his teaching methods are criticized."
+    },
+    "Babu Becharam": {
+      "type": "character",
+      "description": "Motilal’s relative, uncle to Holodhor and Godadhor, and a figure of authority in the household."
+    },
+    "Holodhor": {
+      "type": "character",
+      "description": "Nephew of Babu Becharam, a mischievous boy who befriends Motilal."
+    },
+    "Godadhor": {
+      "type": "character",
+      "description": "Another nephew of Babu Becharam, equally mischievous and close to Motilal."
+    },
+    "Bakreshwar Babu": {
+      "type": "character",
+      "description": "A teacher at Mr. Kalus’s school, responsible for the upper classes, known for his sycophantic and ineffective teaching."
+    },
+    "Mr. Bellacure": {
+      "type": "character",
+      "description": "The magistrate at the police station who is to conduct the inquiry into the boys’ arrest."
+    },
+    "Ramgobind": {
+      "type": "character",
+      "description": "A neighborhood boy brought to the police station with Motilal and others."
+    },
+    "Dolgobind": {
+      "type": "character",
+      "description": "Another neighborhood boy arrested along with Motilal."
+    },
+    "Mangobind": {
+      "type": "character",
+      "description": "Another neighborhood boy arrested with Motilal and his friends."
+    },
+    "Seths": {
+      "type": "proper_noun",
+      "description": "A wealthy merchant caste or community in Bengal, prominent in commerce."
+    },
+    "Basaks": {
+      "type": "proper_noun",
+      "description": "A Bengali caste traditionally involved in the textile trade."
+    },
+    "Babus": {
+      "type": "proper_noun",
+      "description": "A term for gentlemen or educated men in Bengal, often used for the urban elite."
+    },
+    "Supreme Court": {
+      "type": "proper_noun",
+      "description": "Refers to the Supreme Court of Judicature at Fort William, established by the British in Calcutta in 1774."
+    },
+    "Bohubazar": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Kolkata where Motilal currently lives."
+    },
+    "Battala": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, historically known for its printing presses and popular literature."
+    },
+    "Durga Puja": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival in Bengal celebrating the goddess Durga, marked by elaborate rituals and festivities."
+    },
+    "Sakhigopal": {
+      "type": "proper_noun",
+      "description": "A form of the Hindu deity Krishna, worshipped in Bengal; here, used metaphorically for a witness before a deity."
+    },
+    "hookahs": {
+      "type": "vocabulary",
+      "description": "Traditional water pipes used for smoking tobacco or other substances, common in India."
+    },
+    "charas": {
+      "type": "vocabulary",
+      "description": "A form of cannabis resin, smoked as an intoxicant in India."
+    },
+    "ganja": {
+      "type": "vocabulary",
+      "description": "A term for marijuana or cannabis, commonly used in South Asia."
+    },
+    "brinjal": {
+      "type": "vocabulary",
+      "description": "The South Asian term for eggplant or aubergine."
+    },
+    "lock-up": {
+      "type": "vocabulary",
+      "description": "A temporary holding cell or jail at a police station."
+    },
+    "Miyajan": {
+      "type": "character",
+      "description": "The coachman who sings and taunts his oxen while driving the cart; a minor but colorful character."
+    },
+    "Premnarayan Majumdar": {
+      "type": "character",
+      "description": "A government servant who is frustrated with his lot in life and feels tormented by others, especially Gada."
+    },
+    "Bhattacharyas": {
+      "type": "character",
+      "description": "A group of learned Brahmin scholars engaged in debates on religious and dietary matters in Baburam Babu's house."
+    },
+    "Dewanji": {
+      "type": "character",
+      "description": "The chief clerk or manager in Baburam Babu's household, responsible for dealing with creditors and tenants."
+    },
+    "Mokajan Miyan": {
+      "type": "character",
+      "description": "A cunning and influential fixer, skilled in legal and court matters, known for manipulating cases and witnesses; also called Thokchacha."
+    },
+    "Thokchacha": {
+      "type": "character",
+      "description": "Nickname for Mokajan Miyan, used affectionately by others; a master of legal trickery."
+    },
+    "Bansharam Babu": {
+      "type": "character",
+      "description": "A legal expert from Simla, known for his involvement in lawsuits and ceremonies."
+    },
+    "Becharam Babu": {
+      "type": "character",
+      "description": "A resident of Bahubazar, childless and bitter about the younger generation's misdeeds.",
+      "image": "/data/images/characters/alaler-gharer-dulal/becharam-babu.png"
+    },
+    "Hala": {
+      "type": "character",
+      "description": "One of the boys involved in the trouble with Matilal, mentioned by Becharam."
+    },
+    "Gada": {
+      "type": "character",
+      "description": "Another boy who torments Premnarayan and is involved in the mischief with Matilal."
+    },
+    "Kashi": {
+      "type": "proper_noun",
+      "description": "Another name for Varanasi, a holy city in Hinduism, often associated with retirement and spiritual pursuits."
+    },
+    "Ramzan": {
+      "type": "proper_noun",
+      "description": "The Islamic holy month of fasting, also known as Ramadan."
+    },
+    "Eid": {
+      "type": "proper_noun",
+      "description": "A major Islamic festival marking the end of Ramadan."
+    },
+    "Shab-e-Barat": {
+      "type": "proper_noun",
+      "description": "An Islamic festival night observed with prayers and rituals."
+    },
+    "Pir": {
+      "type": "proper_noun",
+      "description": "A Sufi spiritual guide or saint in Islam."
+    },
+    "Baghbazar ghat": {
+      "type": "proper_noun",
+      "description": "A riverside landing or bathing place in the Baghbazar area of Kolkata."
+    },
+    "Brahmin": {
+      "type": "proper_noun",
+      "description": "A member of the priestly caste in Hindu society, often associated with learning and ritual."
+    },
+    "Thakurji": {
+      "type": "proper_noun",
+      "description": "A respectful term for a household deity or lord, often used for Krishna or other Hindu gods."
+    },
+    "Simla": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, not to be confused with the hill station Shimla."
+    },
+    "Bahubazar": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Kolkata."
+    },
+    "Shalgram stone": {
+      "type": "proper_noun",
+      "description": "A sacred black stone, considered an incarnation of Vishnu and worshipped in Hindu households."
+    },
+    "Butler Sahib": {
+      "type": "proper_noun",
+      "description": "A British or Anglo-Indian lawyer, referred to with a mix of respect and irony."
+    },
+    "tok-tok": {
+      "type": "vocabulary",
+      "description": "Onomatopoeic sound representing the clatter or tapping, often used for animal-driven carts."
+    },
+    "patash-patash": {
+      "type": "vocabulary",
+      "description": "Onomatopoeic sound mimicking the slapping or flapping noise, likely of the coachman's actions."
+    },
+    "hackney carriage": {
+      "type": "vocabulary",
+      "description": "A horse-drawn vehicle for hire, similar to a taxi."
+    },
+    "tanpura": {
+      "type": "vocabulary",
+      "description": "A long-necked plucked string instrument used in Indian classical music for drone accompaniment."
+    },
+    "lota": {
+      "type": "vocabulary",
+      "description": "A small, round brass or metal pot used for carrying water, especially for ablutions."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by women, consisting of a long piece of cloth draped around the body."
+    },
+    "flattened rice": {
+      "type": "vocabulary",
+      "description": "Also known as 'poha' or 'chire', rice that has been parboiled, rolled, and flattened; eaten as a snack or meal."
+    },
+    "Banchharam": {
+      "type": "character",
+      "description": "A character who comments on the others' behavior and encourages action; likely an elder or advisor figure."
+    },
+    "Becharam": {
+      "type": "character",
+      "description": "A friend or acquaintance of Benibabu, known for his strong opinions and personal experiences with hardship and moral dilemmas."
+    },
+    "Motilal’s Mother": {
+      "type": "character",
+      "description": "The mistress of the Baidyabati house, deeply worried about her son Motilal's behavior and future."
+    },
+    "Sridhar Bhattacharya": {
+      "type": "character",
+      "description": "A member of the Baidyabati household, participates in morning prayers; likely a respected elder or priest."
+    },
+    "Ramgopal Churamani": {
+      "type": "character",
+      "description": "Another member of the Baidyabati household, involved in religious rituals."
+    },
+    "Mokshada": {
+      "type": "character",
+      "description": "One of the two sisters, a widow who counsels her younger sister Promoda on coping with sorrow and duty."
+    },
+    "Promoda": {
+      "type": "character",
+      "description": "The younger sister, married to a neglectful Kulin husband, expresses her emotional struggles and lack of happiness."
+    },
+    "Baburam": {
+      "type": "character",
+      "description": "A character discussed by Becharam and Benibabu, implied to be in trouble and associated with questionable company.",
+      "image": "/data/images/characters/alaler-gharer-dulal/baburam.png"
+    },
+    "Bakreshwar": {
+      "type": "character",
+      "description": "A schoolmaster mentioned as being hypocritical, teaching morals but practicing double-dealing."
+    },
+    "Bardababu": {
+      "type": "character",
+      "description": "A highly respected, humble, and charitable man from Badarganj, whose advice and example deeply influence Benibabu."
+    },
+    "Jagannath Tarkapanchanan": {
+      "type": "proper_noun",
+      "description": "A renowned scholar and philosopher, used here as a benchmark for Benibabu's steadiness and moral philosophy."
+    },
+    "tulsi leaves": {
+      "type": "proper_noun",
+      "description": "Leaves of the holy basil plant, sacred in Hinduism and commonly used in religious rituals."
+    },
+    "bilva leaves": {
+      "type": "proper_noun",
+      "description": "Leaves of the bael tree, considered sacred and used in Hindu worship, especially for Lord Shiva."
+    },
+    "sacred thread": {
+      "type": "proper_noun",
+      "description": "A symbolic thread worn by Brahmin men, signifying their initiation into spiritual and social responsibilities."
+    },
+    "Kulin": {
+      "type": "proper_noun",
+      "description": "A term referring to a high-status sub-caste among Bengali Brahmins, often associated with polygamy in the 19th century."
+    },
+    "Deonagazi’s ghat": {
+      "type": "proper_noun",
+      "description": "A riverside landing or steps (ghat) named after Deonagazi, where people gather, here used as a setting for conversation and music."
+    },
+    "Badarganj": {
+      "type": "proper_noun",
+      "description": "A town or locality in Bengal, the home of Bardababu."
+    },
+    "Etakagomari": {
+      "type": "proper_noun",
+      "description": "A village in Bengal, Bardababu's ancestral home."
+    },
+    "rupees": {
+      "type": "proper_noun",
+      "description": "The currency of India."
+    },
+    "Bhaiya": {
+      "type": "vocabulary",
+      "description": "A Hindi/Bengali term meaning 'brother', used as a form of address."
+    },
+    "Dada": {
+      "type": "vocabulary",
+      "description": "A Bengali term for 'elder brother' or respected elder."
+    },
+    "kheyal": {
+      "type": "vocabulary",
+      "description": "A genre of North Indian classical vocal music, characterized by improvisation."
+    },
+    "ragini": {
+      "type": "vocabulary",
+      "description": "A melodic mode or framework in Indian classical music, often associated with a particular mood or time."
+    },
+    "Master": {
+      "type": "vocabulary",
+      "description": "A term used for the male head of the household or a teacher."
+    },
+    "maid": {
+      "type": "vocabulary",
+      "description": "A female domestic servant."
+    },
+    "Job Charnock": {
+      "type": "character",
+      "description": "An Englishman credited with founding Calcutta; he established a trading post in the area and is a historical figure in the city's origins."
+    },
+    "Thakchacha": {
+      "type": "character",
+      "description": "Baburam Babu's cunning and resourceful uncle, known for his trickery and ability to manipulate situations in court.",
+      "image": "/data/images/characters/alaler-gharer-dulal/thakchacha.png"
+    },
+    "Mr. Blacquire": {
+      "type": "character",
+      "description": "A Police Magistrate in Calcutta, reputed for his strictness and knowledge of local customs; presides over the court case involving Baburam Babu and others."
+    },
+    "Kale Khan": {
+      "type": "character",
+      "description": "One of the complainants in the court case, alleging assault by the accused."
+    },
+    "Fate Khan": {
+      "type": "character",
+      "description": "Another complainant alongside Kale Khan in the court case."
+    },
+    "Bancharam Babu": {
+      "type": "character",
+      "description": "A character involved in the court case, possibly another associate or friend of Baburam Babu."
+    },
+    "Haldhar": {
+      "type": "character",
+      "description": "One of the accused alongside Motilal, sentenced to imprisonment and a fine."
+    },
+    "Gadadhar": {
+      "type": "character",
+      "description": "Another accused in the case, also sentenced to imprisonment and a fine."
+    },
+    "Dolbar": {
+      "type": "character",
+      "description": "A skilled legal wrangler, possibly a lawyer or adviser, known for his expertise in court cases."
+    },
+    "Batanagar": {
+      "type": "proper_noun",
+      "description": "A locality near Calcutta, historically significant as a trading area."
+    },
+    "Sutanuti": {
+      "type": "proper_noun",
+      "description": "One of the three villages purchased to form the city of Calcutta."
+    },
+    "Gobindapur": {
+      "type": "proper_noun",
+      "description": "Another of the original three villages that became part of Calcutta."
+    },
+    "Kalikata": {
+      "type": "proper_noun",
+      "description": "The third village that, along with Sutanuti and Gobindapur, formed Calcutta."
+    },
+    "Maidan": {
+      "type": "proper_noun",
+      "description": "A large open park area in central Calcutta, which was once jungle."
+    },
+    "Chaurangi": {
+      "type": "proper_noun",
+      "description": "An area in Calcutta, now known as Chowringhee, which was once jungle."
+    },
+    "Permit Office": {
+      "type": "proper_noun",
+      "description": "A government office in Calcutta, located where a fort once stood."
+    },
+    "Clive Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta historically associated with trade."
+    },
+    "Justices of the Peace": {
+      "type": "proper_noun",
+      "description": "Officials appointed to oversee law and order, with authority across the region."
+    },
+    "mofussil": {
+      "type": "proper_noun",
+      "description": "A term for the outlying districts or provinces outside the main city."
+    },
+    "Lakshmipati": {
+      "type": "proper_noun",
+      "description": "A person referenced in relation to a foul-smelling ditch near his house."
+    },
+    "Outer Simla": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta, associated with Bansharam Babu."
+    },
+    "Kalighat": {
+      "type": "proper_noun",
+      "description": "A famous temple and pilgrimage site in Calcutta, dedicated to the goddess Kali."
+    },
+    "Yama": {
+      "type": "proper_noun",
+      "description": "The Hindu god of death, invoked metaphorically to describe the police station."
+    },
+    "Yavana": {
+      "type": "proper_noun",
+      "description": "A term historically used in India to refer to foreigners, especially Greeks or Muslims; here, it means an outsider or non-Hindu."
+    },
+    "Bhishma": {
+      "type": "proper_noun",
+      "description": "A legendary figure from the Mahabharata, symbolizing wisdom and steadfastness."
+    },
+    "Bakule Jatra": {
+      "type": "proper_noun",
+      "description": "A traditional Bengali folk performance or festival."
+    },
+    "Puja": {
+      "type": "proper_noun",
+      "description": "A Hindu religious festival or ritual worship, often referring to Durga Puja in Bengal."
+    },
+    "Muhammad Ali": {
+      "type": "proper_noun",
+      "description": "A reference to a Muslim saint or figure, invoked in prayer."
+    },
+    "Satya Pir": {
+      "type": "proper_noun",
+      "description": "A syncretic folk deity worshipped in Bengal by both Hindus and Muslims."
+    },
+    "sepoys": {
+      "type": "vocabulary",
+      "description": "Indian soldiers serving under British or other colonial command."
+    },
+    "darogas": {
+      "type": "vocabulary",
+      "description": "Police inspectors or officers in colonial India."
+    },
+    "naibs": {
+      "type": "vocabulary",
+      "description": "Deputy officials or assistants, often in administrative or police roles."
+    },
+    "chowkidars": {
+      "type": "vocabulary",
+      "description": "Watchmen or guards, typically responsible for security in neighborhoods or buildings."
+    },
+    "betel quid": {
+      "type": "vocabulary",
+      "description": "A chewable mixture of betel leaf, areca nut, and sometimes tobacco, popular in South Asia."
+    },
+    "bailers": {
+      "type": "vocabulary",
+      "description": "Individuals who provide bail for accused persons in court, often as a profession."
+    },
+    "tout": {
+      "type": "vocabulary",
+      "description": "A person who solicits clients for lawyers or other professionals, often for a fee."
+    },
+    "mantras": {
+      "type": "vocabulary",
+      "description": "Sacred utterances, chants, or incantations, often whispered for spiritual or ritual effect."
+    },
+    "Khirkidar turban": {
+      "type": "vocabulary",
+      "description": "A specific style of turban, possibly distinctive to a region or community."
+    },
+    "Bookish Babu": {
+      "type": "vocabulary",
+      "description": "A term for a scholarly or overly academic gentleman."
+    },
+    "Paresh": {
+      "type": "vocabulary",
+      "description": "Likely a reference to a place or a person, used metaphorically to describe someone as tough or unyielding."
+    },
+    "shell bangle": {
+      "type": "vocabulary",
+      "description": "A traditional bracelet made from conch shell, worn by Bengali women as a symbol of marriage."
+    },
+    "Howard": {
+      "type": "character",
+      "description": "The lawyer’s clerk who delivers important legal papers to Butler Sahib."
+    },
+    "Banchharam Babu": {
+      "type": "character",
+      "description": "A clever and opportunistic manager or clerk, eager to profit from legal disputes and known for his scheming nature."
+    },
+    "Baburam Babu’s wife": {
+      "type": "character",
+      "description": "A virtuous and anxious woman, deeply devoted to her husband and family, who suffers greatly during his absence."
+    },
+    "Mushundadi": {
+      "type": "character",
+      "description": "A woman involved in the ceremonial singing during the bodhon at the house in Vaidyabati."
+    },
+    "Vaidyabati": {
+      "type": "proper_noun",
+      "description": "A town or locality where Baburam Babu’s house is located and where much of the family drama unfolds."
+    },
+    "Bashberia": {
+      "type": "proper_noun",
+      "description": "A place near a sandbank on the Ganges, where Baburam Babu’s boat nearly capsizes."
+    },
+    "Shiva": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, worshipped in the house with Ganges clay and rituals."
+    },
+    "Chandi": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess, whose scripture is recited as part of the household rituals."
+    },
+    "shalgram": {
+      "type": "proper_noun",
+      "description": "A sacred black stone, regarded as a symbol of Vishnu and worshipped in Hindu households."
+    },
+    "tulsi": {
+      "type": "proper_noun",
+      "description": "Holy basil leaves, considered sacred in Hinduism and used in worship."
+    },
+    "Swastyayani": {
+      "type": "proper_noun",
+      "description": "A clan or group of Brahmins associated with performing religious rituals in the household."
+    },
+    "Sahib": {
+      "type": "proper_noun",
+      "description": "A term of respect used in colonial India to address Europeans or persons of authority."
+    },
+    "bodhon": {
+      "type": "proper_noun",
+      "description": "A ceremonial invocation or beginning of a religious ritual, often involving music and recitation."
+    },
+    "svastyayana": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual for invoking auspiciousness, often performed for someone's well-being."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A piece of cloth worn over the shoulders, common in Indian attire."
+    },
+    "raga": {
+      "type": "vocabulary",
+      "description": "A melodic framework in Indian classical music, often associated with specific times of day or moods."
+    },
+    "band": {
+      "type": "vocabulary",
+      "description": "A group of musicians, often hired to play at ceremonies or processions."
+    },
+    "bel fruit": {
+      "type": "vocabulary",
+      "description": "A hard-shelled fruit native to India, often referenced in proverbs and religious contexts."
+    },
+    "Ramgovinda": {
+      "type": "character",
+      "description": "A member of Motilal's group of friends, participating in their escapades."
+    },
+    "Dolgovinda": {
+      "type": "character",
+      "description": "One of the boys in Motilal's circle, gathering at the Vaidya's house."
+    },
+    "Mangovinda": {
+      "type": "character",
+      "description": "Another companion of Motilal, part of the group frequenting the Vaidya's house."
+    },
+    "Kabelram": {
+      "type": "character",
+      "description": "A boy from the neighborhood who joins Motilal's group."
+    },
+    "Bhajakrishna": {
+      "type": "character",
+      "description": "A member of Motilal's group of young men."
+    },
+    "Harekrishna": {
+      "type": "character",
+      "description": "Another youth in Motilal's circle of friends."
+    },
+    "Sreedam": {
+      "type": "character",
+      "description": "One of the boys joining Motilal and his group."
+    },
+    "Subal": {
+      "type": "character",
+      "description": "Another member of Motilal's group of friends."
+    },
+    "Brahmins": {
+      "type": "proper_noun",
+      "description": "A priestly caste in Hindu society, traditionally responsible for religious rituals and ceremonies."
+    },
+    "svastyayani": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual or ceremony performed for auspiciousness and well-being."
+    },
+    "Krishna": {
+      "type": "proper_noun",
+      "description": "A major deity in Hinduism, often depicted as a charioteer and guide in the Mahabharata."
+    },
+    "Arjuna": {
+      "type": "proper_noun",
+      "description": "A heroic prince in the Mahabharata, guided by Krishna during the epic battle."
+    },
+    "avatar": {
+      "type": "proper_noun",
+      "description": "A divine incarnation or manifestation of a deity in Hindu belief."
+    },
+    "Vaidya": {
+      "type": "proper_noun",
+      "description": "A traditional Ayurvedic physician; here, the Vaidya's house is a gathering place for the boys."
+    },
+    "puja": {
+      "type": "proper_noun",
+      "description": "A Hindu act of worship or religious ceremony, often involving offerings and rituals."
+    },
+    "Shivaratri": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival dedicated to Lord Shiva, observed with fasting and night-long vigils."
+    },
+    "Lord Ram": {
+      "type": "proper_noun",
+      "description": "A revered deity in Hinduism, considered an avatar of Vishnu and the hero of the Ramayana."
+    },
+    "sergeant": {
+      "type": "vocabulary",
+      "description": "A police or military officer; here, likely refers to a colonial police official."
+    },
+    "palanquin": {
+      "type": "vocabulary",
+      "description": "A covered litter, carried on poles by bearers, used for transporting people, especially women of status."
+    },
+    "kachoris": {
+      "type": "vocabulary",
+      "description": "A deep-fried, stuffed pastry popular in Indian cuisine."
+    },
+    "barfi": {
+      "type": "vocabulary",
+      "description": "A dense, milk-based Indian sweet confection."
+    },
+    "nikhuti": {
+      "type": "vocabulary",
+      "description": "A type of Bengali sweet, typically small and syrupy."
+    },
+    "manohara": {
+      "type": "vocabulary",
+      "description": "A traditional Bengali sweet, often made with chhana (cottage cheese) and sugar."
+    },
+    "Siddi": {
+      "type": "vocabulary",
+      "description": "A term for an intoxicant, possibly referring to a type of cannabis preparation."
+    },
+    "guruk palai": {
+      "type": "vocabulary",
+      "description": "A Bengali phrase roughly meaning 'the teacher has fled' or 'the master has run away,' used here as a slang call among the boys."
+    },
+    "Dhakai dhotis": {
+      "type": "vocabulary",
+      "description": "Traditional men's garments made of fine cotton from Dhaka, often worn in Bengal."
+    },
+    "sepoy": {
+      "type": "vocabulary",
+      "description": "An Indian soldier serving under British or other colonial command; here, refers to a style of border on clothing."
+    },
+    "Madhab Babu": {
+      "type": "character",
+      "description": "A wealthy man from Monirampur, whose daughter is chosen as Motilal's bride."
+    },
+    "Ramhari Babu": {
+      "type": "character",
+      "description": "A man from Kancharapara, described as honest and hardworking, considered as a potential match for Motilal."
+    },
+    "Haridas Babu": {
+      "type": "character",
+      "description": "A man from Guptipara who had brought a marriage proposal for Motilal."
+    },
+    "Shyamacharan Babu": {
+      "type": "character",
+      "description": "A man from Nakashipara who had also brought a marriage proposal for Motilal."
+    },
+    "Dhekial Phukan Karta": {
+      "type": "character",
+      "description": "A man present in the assembly, sitting beside a man from Kamakhya, involved in conversation about family matters."
+    },
+    "Baburam Babu’s assembly": {
+      "type": "proper_noun",
+      "description": "The gathering of men at Baburam Babu's house to discuss the marriage."
+    },
+    "Monirampur": {
+      "type": "proper_noun",
+      "description": "A village or locality where Madhab Babu lives and where the marriage is to be arranged."
+    },
+    "Nistarini’s shrine": {
+      "type": "proper_noun",
+      "description": "A temple dedicated to the goddess Nistarini, located in Sheorapuli."
+    },
+    "Sheorapuli": {
+      "type": "proper_noun",
+      "description": "A locality or village where Nistarini’s shrine is situated."
+    },
+    "Bandipur": {
+      "type": "proper_noun",
+      "description": "A place known for its potatoes, mentioned as a source of goods in the market."
+    },
+    "Gopalpur": {
+      "type": "proper_noun",
+      "description": "Another place known for its potatoes, mentioned in the market scene."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic, being read aloud by an oil-presser in the market."
+    },
+    "Vyasa": {
+      "type": "proper_noun",
+      "description": "A revered sage and the traditional author of the Mahabharata; his funeral feast is being observed."
+    },
+    "Kamakhya": {
+      "type": "proper_noun",
+      "description": "A famous pilgrimage site in Assam, referenced as the origin of a man in the assembly."
+    },
+    "Phukans": {
+      "type": "proper_noun",
+      "description": "A title or clan name, possibly referencing Assamese nobility or officials."
+    },
+    "machangs": {
+      "type": "proper_noun",
+      "description": "Raised bamboo platforms or houses, common in Assam and Bengal."
+    },
+    "yajna": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual of fire sacrifice performed for auspiciousness or to fulfill desires."
+    },
+    "Guptipara": {
+      "type": "proper_noun",
+      "description": "A town from where Haridas Babu hails."
+    },
+    "Nakashipara": {
+      "type": "proper_noun",
+      "description": "A locality from where Shyamacharan Babu comes."
+    },
+    "Kanchrapara": {
+      "type": "proper_noun",
+      "description": "A locality associated with Ramhari Babu."
+    },
+    "Tithi-tattva": {
+      "type": "proper_noun",
+      "description": "A treatise or doctrine concerning auspicious dates and times in Hindu rituals."
+    },
+    "Malmas-tattva": {
+      "type": "proper_noun",
+      "description": "A doctrine or treatise concerning the extra lunar month (Malmas) in the Hindu calendar."
+    },
+    "Nyaya Shastra": {
+      "type": "proper_noun",
+      "description": "A classical Indian philosophical text on logic and reasoning."
+    },
+    "Tenth Canto": {
+      "type": "proper_noun",
+      "description": "Refers to the tenth section of the Bhagavata Purana, a key Hindu scripture."
+    },
+    "Bahuvrihi": {
+      "type": "proper_noun",
+      "description": "A type of compound word in Sanskrit grammar."
+    },
+    "Dvandva": {
+      "type": "proper_noun",
+      "description": "Another type of compound word in Sanskrit grammar."
+    },
+    "rosun chowki": {
+      "type": "proper_noun",
+      "description": "A ceremonial platform or arrangement, possibly involving garlic (rosun), used in Bengali wedding processions."
+    },
+    "English band": {
+      "type": "proper_noun",
+      "description": "A Western-style musical band, often hired for grand occasions like weddings."
+    },
+    "puffed rice": {
+      "type": "vocabulary",
+      "description": "A light, airy snack made by heating rice grains under high pressure; commonly eaten in Bengal."
+    },
+    "sweet balls": {
+      "type": "vocabulary",
+      "description": "Likely refers to traditional Bengali sweets such as 'laddu' or 'rasgulla', round in shape."
+    },
+    "oil-presser": {
+      "type": "vocabulary",
+      "description": "A person who extracts oil from seeds using a wooden or mechanical press, a common rural occupation."
+    },
+    "dowry": {
+      "type": "vocabulary",
+      "description": "Property or money brought by a bride to her husband's family upon marriage."
+    },
+    "auspicious hour": {
+      "type": "vocabulary",
+      "description": "A time considered favorable or lucky for performing important rituals, determined by Hindu astrology."
+    },
+    "firecrackers": {
+      "type": "vocabulary",
+      "description": "Explosive devices used for celebration, especially during weddings and festivals."
+    },
+    "squibs": {
+      "type": "vocabulary",
+      "description": "Small firework devices that make a hissing or popping sound."
+    },
+    "sparklers": {
+      "type": "vocabulary",
+      "description": "Handheld fireworks that emit sparks when lit, used in celebrations."
+    },
+    "Vidyabhushan": {
+      "type": "character",
+      "description": "One of the professors of Agarpara, who comments on Vidyaratna’s condition."
+    },
+    "Vidyaratna": {
+      "type": "character",
+      "description": "A Brahmin mentioned as having broken his leg at a feast in Monirampur."
+    },
+    "Kavikankan": {
+      "type": "character",
+      "description": "A poet from Agarpara, credited with composing a colorful poem for the wedding."
+    },
+    "Bokeshwar": {
+      "type": "character",
+      "description": "Another guest, also noted for his flattery."
+    },
+    "Bancharam": {
+      "type": "character",
+      "description": "A scheming character who is lost in thought and bewildered after tasting pickle."
+    },
+    "Reo Bhat": {
+      "type": "character",
+      "description": "A character who grabs and drags down a Muslim participant during the chaos."
+    },
+    "cheat": {
+      "type": "character",
+      "description": "An old, restless man found sleeping in a shop, later confronted by Baburam."
+    },
+    "Agarpara": {
+      "type": "proper_noun",
+      "description": "A locality or village, home to the professors and poets mentioned in the chapter."
+    },
+    "Muslim": {
+      "type": "proper_noun",
+      "description": "A follower of Islam; in this context, refers to a participant at the Hindu wedding who becomes a target during the commotion."
+    },
+    "Hindu": {
+      "type": "proper_noun",
+      "description": "A follower of Hinduism; the wedding ceremony described is a Hindu ritual."
+    },
+    "Madhab Bhavan": {
+      "type": "proper_noun",
+      "description": "A house or mansion, possibly the venue for the wedding festivities."
+    },
+    "Devendra Sadan": {
+      "type": "proper_noun",
+      "description": "Another house or mansion mentioned in the wedding poem."
+    },
+    "Rajputs": {
+      "type": "proper_noun",
+      "description": "A Hindu warrior caste, referenced here to describe the doorkeepers’ stature."
+    },
+    "doorman": {
+      "type": "vocabulary",
+      "description": "A gatekeeper or attendant at the entrance, common in Indian households during events."
+    },
+    "nahabat": {
+      "type": "vocabulary",
+      "description": "A traditional Bengali musical instrument ensemble, often played at weddings."
+    },
+    "lathiyals": {
+      "type": "vocabulary",
+      "description": "Stick-wielding guards or enforcers, often hired for security at large gatherings."
+    },
+    "alpana": {
+      "type": "vocabulary",
+      "description": "Traditional decorative patterns drawn on the floor with rice paste during auspicious occasions."
+    },
+    "babus": {
+      "type": "vocabulary",
+      "description": "A term of respect for gentlemen, often used for educated or upper-class men in Bengal."
+    },
+    "shawls": {
+      "type": "vocabulary",
+      "description": "Long pieces of cloth worn over the shoulders, commonly used in Indian attire."
+    },
+    "sashes": {
+      "type": "vocabulary",
+      "description": "Long strips of cloth worn around the waist or over the shoulder, part of traditional Indian dress."
+    },
+    "Tarkabagish Baburam Babu": {
+      "type": "character",
+      "description": "A stubborn old Brahmin scholar known for his quick temper and strong opinions, especially regarding poetry and intellectual matters."
+    },
+    "Beni": {
+      "type": "character",
+      "description": "Short for Benibabu, he narrates the story of Ramlal's improvement and praises Baradaprasad Biswas Babu."
+    },
+    "Ramalal": {
+      "type": "character",
+      "description": "Baburam Babu’s youngest son, noted for his virtuous character and improvement under the guidance of Biswas Babu."
+    },
+    "Baradaprasad Biswas Babu": {
+      "type": "character",
+      "description": "A virtuous and humble gentleman residing at Baidyabati, who serves as a mentor and father figure to Ramlal."
+    },
+    "Biswas Babu": {
+      "type": "character",
+      "description": "Another name for Baradaprasad Biswas Babu, praised for his exemplary character and influence."
+    },
+    "Borda Babu": {
+      "type": "character",
+      "description": "A respectful term for Baradaprasad Biswas Babu, highlighting his status as an elder brother and virtuous man."
+    },
+    "Sri Kavikankan": {
+      "type": "proper_noun",
+      "description": "A revered poet or title, possibly referring to a famous Bengali poet known for composing devotional verses."
+    },
+    "Kalidas": {
+      "type": "proper_noun",
+      "description": "A legendary classical Sanskrit poet and dramatist, regarded as one of the greatest writers in Indian literature."
+    },
+    "kirtan": {
+      "type": "proper_noun",
+      "description": "A form of devotional singing or chanting, especially in praise of Hindu deities."
+    },
+    "Ghoshti": {
+      "type": "proper_noun",
+      "description": "A type or section of kirtan, possibly referring to a group performance or a specific theme."
+    },
+    "Daan": {
+      "type": "proper_noun",
+      "description": "A theme in kirtan, meaning 'charity' or 'donation'."
+    },
+    "Maan": {
+      "type": "proper_noun",
+      "description": "A theme in kirtan, often referring to 'pride' or a particular mood in devotional music."
+    },
+    "Mathur": {
+      "type": "proper_noun",
+      "description": "A theme or character in kirtan, possibly referring to Krishna's foster father or a related episode."
+    },
+    "Khandita": {
+      "type": "proper_noun",
+      "description": "A theme in kirtan, referring to the 'forsaken' or 'offended' heroine in classical Indian poetry."
+    },
+    "Utkanthita": {
+      "type": "proper_noun",
+      "description": "A theme in kirtan, denoting the 'yearning' or 'anxious' heroine."
+    },
+    "Kalahantarita": {
+      "type": "proper_noun",
+      "description": "A theme in kirtan, describing the 'separated by quarrel' heroine in classical poetry."
+    },
+    "bhai": {
+      "type": "vocabulary",
+      "description": "Means 'brother' in Bengali, used as a term of affection or address."
+    },
+    "idol": {
+      "type": "vocabulary",
+      "description": "Here, refers to a religious statue or image, often used metaphorically for someone sitting motionless."
+    },
+    "house of sand": {
+      "type": "vocabulary",
+      "description": "A metaphor for something fragile or impermanent, often used to describe unstable situations."
+    },
+    "school": {
+      "type": "vocabulary",
+      "description": "Used metaphorically to mean a place or process of learning, especially about virtue or life."
+    },
+    "Babu Bardaprasad": {
+      "type": "character",
+      "description": "A wise and pious teacher, known for his discernment in education and as Ramlal’s mentor."
+    },
+    "Ramlal": {
+      "type": "character",
+      "description": "Baburam’s younger son, depicted as virtuous, honest, and devoted to self-improvement and family."
+    },
+    "Uncle Thakchacha": {
+      "type": "character",
+      "description": "Baburam’s brother or close relative, often scheming to gain from Baburam’s property and critical of Ramlal’s ways."
+    },
+    "Thak": {
+      "type": "character",
+      "description": "A shortened form of Thakchacha, referenced as an uncle scheming for Baburam’s property."
+    },
+    "Harinam": {
+      "type": "proper_noun",
+      "description": "A devotional chant or the holy name of God in Hinduism, often recited using prayer beads."
+    },
+    "Dol": {
+      "type": "proper_noun",
+      "description": "Short for Dol Jatra or Holi, a spring festival celebrated with colors in Bengal and other parts of India."
+    },
+    "Babu Sahib": {
+      "type": "proper_noun",
+      "description": "A respectful address for a gentleman or person of status, combining the honorifics 'Babu' and 'Sahib'."
+    },
+    "guru": {
+      "type": "proper_noun",
+      "description": "A spiritual teacher or guide, especially in Hindu tradition."
+    },
+    "Bengali": {
+      "type": "proper_noun",
+      "description": "Refers to a person from Bengal or the Bengali-speaking community, often used to denote cultural or linguistic identity."
+    },
+    "pickaxe": {
+      "type": "vocabulary",
+      "description": "A hand tool with a pointed end, used for breaking up hard ground or rock."
+    },
+    "jamun": {
+      "type": "vocabulary",
+      "description": "An Indian fruit tree (Syzygium cumini) known for its dark purple berries."
+    },
+    "garland": {
+      "type": "vocabulary",
+      "description": "A string of flowers or beads, often used in religious worship or ceremonies."
+    },
+    "estate": {
+      "type": "vocabulary",
+      "description": "A large property or landholding, often inherited and managed by a family."
+    },
+    "paragon": {
+      "type": "vocabulary",
+      "description": "A model of excellence or virtue."
+    },
+    "widow": {
+      "type": "vocabulary",
+      "description": "A woman whose husband has died; in Indian society, widows often faced social restrictions."
+    },
+    "mantra": {
+      "type": "vocabulary",
+      "description": "A sacred utterance, word, or phrase repeated in prayer or meditation, especially in Hinduism."
+    },
+    "disciple": {
+      "type": "vocabulary",
+      "description": "A follower or student of a teacher, leader, or philosopher, especially in a religious context."
+    },
+    "Brajanath the Kaviraj": {
+      "type": "character",
+      "description": "An elderly, somewhat bumbling traditional healer (Kaviraj) who becomes the target of the boys' prank."
+    },
+    "Ray Mahashay": {
+      "type": "character",
+      "description": "Another name for Brajanath the Kaviraj, used respectfully; he is the village healer."
+    },
+    "Kaviraj": {
+      "type": "proper_noun",
+      "description": "A traditional Ayurvedic physician or healer in Bengali society."
+    },
+    "Rasasindhu": {
+      "type": "proper_noun",
+      "description": "A classical Ayurvedic medicine, often a mineral preparation used in traditional Indian medicine."
+    },
+    "Madhyam Narayan oil": {
+      "type": "proper_noun",
+      "description": "A type of medicinal oil used in traditional Indian (Ayurvedic) healing practices."
+    },
+    "Pan Rasasindhu": {
+      "type": "proper_noun",
+      "description": "A specific medicinal preparation, likely a variant of Rasasindhu, used in traditional medicine."
+    },
+    "Phalgun": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali and Hindu lunar calendar, corresponding roughly to February-March, marking the arrival of spring."
+    },
+    "Hooghly": {
+      "type": "proper_noun",
+      "description": "A city and district in West Bengal, India, known for its historical and administrative significance."
+    },
+    "pyre": {
+      "type": "vocabulary",
+      "description": "A pile of wood used for burning a body as part of Hindu funeral rites."
+    },
+    "iron bangles": {
+      "type": "vocabulary",
+      "description": "Traditional bracelets made of iron, often worn by married women in Bengal as a symbol of marital status."
+    },
+    "The Acharya": {
+      "type": "character",
+      "description": "A learned Brahmin and astrologer, consulted by others to predict whether the Sahib will arrive; he is treated with a mix of respect and skepticism."
+    },
+    "The Sahib": {
+      "type": "character",
+      "description": "The British magistrate presiding over the court, whose arrival is eagerly awaited and whose decisions are final and authoritative."
+    },
+    "King Yudhishthira": {
+      "type": "proper_noun",
+      "description": "A legendary figure from the Indian epic Mahabharata, renowned for his truthfulness and righteousness; invoked here to mock Bardababu's honesty."
+    },
+    "Acharya": {
+      "type": "proper_noun",
+      "description": "A title for a learned teacher or religious scholar, often used for Brahmin scholars or astrologers."
+    },
+    "Surat": {
+      "type": "proper_noun",
+      "description": "A city in western India, mentioned here possibly as a metaphorical or literal destination."
+    },
+    "Khodayawand": {
+      "type": "proper_noun",
+      "description": "A Persian-derived honorific meaning 'lord' or 'master', used here as a formal address to the magistrate."
+    },
+    "cow slaughter": {
+      "type": "proper_noun",
+      "description": "Refers to the act of killing a cow, which is a highly sensitive and controversial issue in Indian society due to the cow's sacred status in Hinduism."
+    },
+    "goat sacrifice": {
+      "type": "proper_noun",
+      "description": "A ritual practice in some Indian traditions, used here metaphorically to describe the court proceedings as perfunctory and sacrificial."
+    },
+    "blanket": {
+      "type": "vocabulary",
+      "description": "A large piece of woven fabric used for sitting on the ground, common in Indian outdoor gatherings."
+    },
+    "shackles": {
+      "type": "vocabulary",
+      "description": "Metal restraints used to bind the ankles or wrists of prisoners."
+    },
+    "pilgrims": {
+      "type": "vocabulary",
+      "description": "People who travel to a holy place for religious reasons; used metaphorically here for those waiting in court."
+    },
+    "paper bundle": {
+      "type": "vocabulary",
+      "description": "A bundle of documents or papers, often tied together, commonly carried by litigants or clerks in Indian courts."
+    },
+    "cross-examination": {
+      "type": "vocabulary",
+      "description": "The questioning of a witness by the opposing side in a legal case."
+    },
+    "depositions": {
+      "type": "vocabulary",
+      "description": "Written or recorded statements of witnesses taken for use in court."
+    },
+    "head clerk": {
+      "type": "vocabulary",
+      "description": "The chief administrative clerk in the court, often wielding significant influence over proceedings."
+    },
+    "doorkeeper": {
+      "type": "vocabulary",
+      "description": "An attendant responsible for managing entry and order at the court."
+    },
+    "supplicants": {
+      "type": "vocabulary",
+      "description": "People who appeal or petition for something, especially in a formal or humble manner."
+    },
+    "serestadar": {
+      "type": "character",
+      "description": "A court official responsible for administrative and clerical duties in the court; here, he is wary of being asked for money."
+    },
+    "Bhojkat": {
+      "type": "character",
+      "description": "A person present in the court scene whose presence makes the serestadar nervous; likely a minor or background character."
+    },
+    "Thakchachi": {
+      "type": "character",
+      "description": "Thakchacha's wife, renowned among local women for her knowledge of occult arts and practical wisdom."
+    },
+    "pir": {
+      "type": "proper_noun",
+      "description": "A Sufi Muslim saint; a 'pir's shrine' refers to a tomb or memorial dedicated to such a figure."
+    },
+    "cho": {
+      "type": "vocabulary",
+      "description": "An exclamation expressing annoyance or dismissal in Bengali."
+    },
+    "bidri hookah": {
+      "type": "vocabulary",
+      "description": "A traditional Indian water pipe for smoking tobacco, often made with bidriware (a type of metalwork from Bidar)."
+    },
+    "bhoror": {
+      "type": "vocabulary",
+      "description": "Onomatopoeic term imitating the deep sound made when drawing on a hookah."
+    },
+    "rupee": {
+      "type": "vocabulary",
+      "description": "The basic unit of currency in India."
+    },
+    "Lerkabala": {
+      "type": "vocabulary",
+      "description": "A personal name, likely referring to Thakchacha and Thakchachi's daughter or a young female relative."
+    },
+    "courtesans": {
+      "type": "vocabulary",
+      "description": "Women who were professional entertainers and companions, often associated with music, dance, and sometimes romantic liaisons in Indian society."
+    },
+    "Beni brother": {
+      "type": "character",
+      "description": "A familiar or affectionate way of referring to Beni, used by Becharam and others."
+    },
+    "Baidyabati Bazaar": {
+      "type": "proper_noun",
+      "description": "A marketplace in Baidyabati, a town in Bengal, serving as a local commercial and social hub."
+    },
+    "Mathura": {
+      "type": "proper_noun",
+      "description": "A holy city in North India, significant in Hinduism as the birthplace of Lord Krishna; referenced in a folk song."
+    },
+    "kulin": {
+      "type": "proper_noun",
+      "description": "A term referring to a high-status or noble lineage within certain Bengali Hindu castes, especially among Brahmins and Kayasthas."
+    },
+    "co-wife": {
+      "type": "vocabulary",
+      "description": "A term for another wife of the same husband in a polygamous marriage."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch or gallery attached to a house, common in South Asian architecture."
+    },
+    "Haladhar": {
+      "type": "character",
+      "description": "One of the young babus causing mischief along the lane of Baidyabati."
+    },
+    "Mangobinda": {
+      "type": "character",
+      "description": "One of the young babus in the group."
+    },
+    "Majumdar": {
+      "type": "character",
+      "description": "An elderly villager, hard of hearing, who becomes the target of the young babus' pranks and later narrates the events."
+    },
+    "Jeni Babu": {
+      "type": "character",
+      "description": "A character who objects to Baburam's marriage plans but is ignored."
+    },
+    "Fomaram": {
+      "type": "character",
+      "description": "Mentioned in the poem as someone to take away the old groom."
+    },
+    "Rama": {
+      "type": "character",
+      "description": "A villager from Gandagram who, along with others, mocks and sets traps for Baburam."
+    },
+    "Nala": {
+      "type": "proper_noun",
+      "description": "A legendary king from the Mahabharata, referenced to compare the young babus' virtues."
+    },
+    "Yudhishthir": {
+      "type": "proper_noun",
+      "description": "The eldest of the Pandavas from the Mahabharata, also referenced for comparison."
+    },
+    "Bolagarh": {
+      "type": "proper_noun",
+      "description": "A locality or village where the wedding party arrives."
+    },
+    "champa": {
+      "type": "proper_noun",
+      "description": "A fragrant flower commonly used in hair adornment in Bengal."
+    },
+    "kulin Brahmin": {
+      "type": "proper_noun",
+      "description": "A high-status subgroup within the Brahmin caste in Bengal, known for strict marriage customs."
+    },
+    "Lord Shiva": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, referenced to describe Baburam's appearance."
+    },
+    "Nandi": {
+      "type": "proper_noun",
+      "description": "The bull mount of Lord Shiva in Hindu mythology."
+    },
+    "Bhringi": {
+      "type": "proper_noun",
+      "description": "A devotee of Lord Shiva, often depicted as an attendant."
+    },
+    "Mahashoy": {
+      "type": "proper_noun",
+      "description": "A respectful Bengali honorific, meaning 'great sir' or 'venerable one.'"
+    },
+    "Bhimarathi": {
+      "type": "proper_noun",
+      "description": "A term meaning 'one who has crossed the Bhima river,' sometimes used to refer to an old man."
+    },
+    "Gandagram": {
+      "type": "proper_noun",
+      "description": "A fictional or real village mentioned as the home of Rama and others."
+    },
+    "chilam": {
+      "type": "vocabulary",
+      "description": "A small clay pipe used for smoking, especially tobacco or other substances."
+    },
+    "gurak": {
+      "type": "vocabulary",
+      "description": "A type of tobacco or smoking mixture, often used in a chilam."
+    },
+    "Becharam da": {
+      "type": "character",
+      "description": "A familiar form of address for Becharam Babu, indicating his closeness to Beni Babu."
+    },
+    "Brajanath Ray": {
+      "type": "character",
+      "description": "The local kabiraj (herbalist), responsible for Baburam's traditional medical treatment."
+    },
+    "Hakim Ekramuddin": {
+      "type": "character",
+      "description": "A Unani physician called by Thakchacha to treat Baburam during his illness."
+    },
+    "Bardaprasad Babu": {
+      "type": "character",
+      "description": "Also called Bardababu, a respected figure who helps manage the crisis and volunteers to fetch a doctor from Calcutta."
+    },
+    "Bordaprasad Babu": {
+      "type": "character",
+      "description": "Another form of Bardaprasad Babu's name, who comforts Baburam in his final moments."
+    },
+    "Ramprasad": {
+      "type": "proper_noun",
+      "description": "A reference to Ramprasad Sen, a famous Bengali devotional poet and singer."
+    },
+    "vaidya": {
+      "type": "proper_noun",
+      "description": "A practitioner of Ayurveda, the traditional Hindu system of medicine."
+    },
+    "hakim": {
+      "type": "proper_noun",
+      "description": "A practitioner of Unani medicine, a traditional system of healing with roots in the Muslim world."
+    },
+    "kabiraj": {
+      "type": "proper_noun",
+      "description": "A Bengali term for a traditional herbalist or Ayurvedic physician."
+    },
+    "sannyipat": {
+      "type": "proper_noun",
+      "description": "A term for a severe or malignant fever in traditional Indian medicine."
+    },
+    "vishvapathra": {
+      "type": "proper_noun",
+      "description": "A medicinal herb used in traditional treatments."
+    },
+    "pundits": {
+      "type": "proper_noun",
+      "description": "Learned scholars, especially those versed in Sanskrit and Hindu scriptures."
+    },
+    "Shivasvastayana": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual or prayer for well-being, dedicated to Lord Shiva."
+    },
+    "arghya": {
+      "type": "proper_noun",
+      "description": "A ritual offering, usually of water, made to deities or the sun."
+    },
+    "khichuri": {
+      "type": "proper_noun",
+      "description": "A traditional Bengali dish made of rice and lentils, often considered comfort food."
+    },
+    "Swastyayani Brahmins": {
+      "type": "proper_noun",
+      "description": "Brahmin priests who perform the Swastyayana, a Vedic ritual for well-being."
+    },
+    "kusa grass": {
+      "type": "proper_noun",
+      "description": "A sacred grass used in Hindu rituals, believed to have purifying properties."
+    },
+    "pavilion": {
+      "type": "vocabulary",
+      "description": "A light, open structure in a garden, used for relaxation or gatherings."
+    },
+    "sweetmeats": {
+      "type": "vocabulary",
+      "description": "Traditional Indian sweets or confections."
+    },
+    "tuft": {
+      "type": "vocabulary",
+      "description": "A small bunch of hair, in this context referring to the traditional Hindu 'shikha' worn by some men."
+    },
+    "Big Babu": {
+      "type": "character",
+      "description": "A nickname used by Motilal's friends to refer to him as the new head of the household."
+    },
+    "Beshibaba": {
+      "type": "character",
+      "description": "One of the relatives or elders who arrives to advise and participate in the funeral rites."
+    },
+    "Ramchandra": {
+      "type": "proper_noun",
+      "description": "A reference to Lord Rama, a major deity in Hinduism, often cited as an example of piety and duty."
+    },
+    "shraddha": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual performed for deceased ancestors, involving offerings and feasts to honor their memory."
+    },
+    "Tarkabagish": {
+      "type": "proper_noun",
+      "description": "An honorific title for a learned scholar, especially in Sanskrit logic and philosophy."
+    },
+    "Nyayalankar": {
+      "type": "proper_noun",
+      "description": "A title meaning 'ornament of logic,' given to scholars of Nyaya (Indian logic)."
+    },
+    "Bachaspati": {
+      "type": "proper_noun",
+      "description": "A title for a learned scholar, often used for experts in Vedic or philosophical discourse."
+    },
+    "Vidyasagar": {
+      "type": "proper_noun",
+      "description": "A title meaning 'ocean of knowledge,' historically associated with renowned scholars."
+    },
+    "Orissa": {
+      "type": "proper_noun",
+      "description": "A region (now Odisha) in eastern India, referenced as the origin of one of the scholars."
+    },
+    "Kashi-Jora": {
+      "type": "proper_noun",
+      "description": "A place name, possibly referring to a locality or region known for its scholars."
+    },
+    "vyapti": {
+      "type": "proper_noun",
+      "description": "A technical term in Indian logic referring to the universal concomitance or invariable relation between two things."
+    },
+    "ghatatva": {
+      "type": "proper_noun",
+      "description": "A philosophical term meaning 'pot-ness,' used in Indian logic as an example of a property."
+    },
+    "Chattopote": {
+      "type": "proper_noun",
+      "description": "A place name, possibly a locality or region, referenced as the origin of a Brahmin professor."
+    },
+    "pinda": {
+      "type": "vocabulary",
+      "description": "Offerings of rice balls made during Hindu funeral rites to honor the deceased."
+    },
+    "dhotis": {
+      "type": "vocabulary",
+      "description": "Traditional Indian men's garments, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "clarified butter": {
+      "type": "vocabulary",
+      "description": "Also known as ghee, a type of purified butter used in Indian cooking and religious rituals."
+    },
+    "palanquins": {
+      "type": "vocabulary",
+      "description": "Covered litters carried by bearers, used for transporting people, especially in traditional Indian society."
+    },
+    "snuff": {
+      "type": "vocabulary",
+      "description": "Powdered tobacco inhaled through the nose, popular in India and among scholars in the past."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "One of the two major Sanskrit epics of ancient India, detailing the Kurukshetra War and the fates of the Kaurava and Pandava princes."
+    },
+    "Ramachandra": {
+      "type": "proper_noun",
+      "description": "Another name for Lord Rama, the hero of the Ramayana."
+    },
+    "Yudhishthira": {
+      "type": "proper_noun",
+      "description": "The eldest of the Pandava brothers in the Mahabharata, known for his righteousness."
+    },
+    "Jagat Seth": {
+      "type": "proper_noun",
+      "description": "A famous and wealthy banker family in Bengal during the Mughal era, symbolizing immense wealth."
+    },
+    "Debidas Balmukund": {
+      "type": "proper_noun",
+      "description": "Likely a reference to a notable or wealthy figure, used here to question the legitimacy of Motilal's new status."
+    },
+    "Raktabija": {
+      "type": "proper_noun",
+      "description": "A demon from Hindu mythology whose spilled blood would produce more demons, symbolizing multiplication or proliferation."
+    },
+    "shroud-cutter": {
+      "type": "vocabulary",
+      "description": "A person who prepares burial cloths, often used derogatorily for someone profiting from funerals."
+    },
+    "auspicious date": {
+      "type": "vocabulary",
+      "description": "A date considered favorable or lucky for conducting important events, determined by traditional Hindu astrology."
+    },
+    "town crier": {
+      "type": "vocabulary",
+      "description": "A person employed to make public announcements in the streets, often by beating a drum."
+    },
+    "Jan Sahib": {
+      "type": "character",
+      "description": "An Englishman’s friend recently returned from England, suggested as a manager for the trading scheme."
+    },
+    "Shena": {
+      "type": "character",
+      "description": "Thakchacha’s wife, referred to as Thakchachi, described as sharp-minded and understanding."
+    },
+    "Tarkasiddhanta": {
+      "type": "character",
+      "description": "A respected elderly scholar and astrologer, consulted for choosing an auspicious day for the trading expedition."
+    },
+    "Man Gobind": {
+      "type": "character",
+      "description": "A companion of Motilal who delivers messages and consults Tarkasiddhanta about the auspicious date."
+    },
+    "Brahmani": {
+      "type": "character",
+      "description": "Tarkasiddhanta’s wife, who complains about his neglect of household chores."
+    },
+    "Snan Yatra": {
+      "type": "proper_noun",
+      "description": "A significant Hindu festival involving ceremonial bathing, often celebrated with processions and festivities."
+    },
+    "Lakshmi": {
+      "type": "proper_noun",
+      "description": "The Hindu goddess of wealth and prosperity, often invoked in matters of trade and fortune."
+    },
+    "Chandi Charan": {
+      "type": "proper_noun",
+      "description": "A local figure referenced as an example of someone who gathers dung, possibly a proverbial or comic character."
+    },
+    "Kotolpur": {
+      "type": "proper_noun",
+      "description": "The name of an estate owned by Motilal's family, considered for mortgaging to raise funds."
+    },
+    "Tarkasiddhanta Dada": {
+      "type": "proper_noun",
+      "description": "A respectful way to refer to Tarkasiddhanta, with 'Dada' meaning elder brother or respected elder."
+    },
+    "Sonagazi": {
+      "type": "proper_noun",
+      "description": "A place, possibly a village or estate, where Bancharam invites Motilal to visit."
+    },
+    "Chand Sadagar": {
+      "type": "proper_noun",
+      "description": "A legendary wealthy merchant in Bengali folklore, symbolizing immense prosperity."
+    },
+    "babudom": {
+      "type": "vocabulary",
+      "description": "The lifestyle or status of a 'babu', referring to a gentleman of leisure or a member of the Bengali gentry."
+    },
+    "pawnshop-walas": {
+      "type": "vocabulary",
+      "description": "Moneylenders or pawnbrokers, with 'wala' meaning someone associated with a particular trade."
+    },
+    "barge": {
+      "type": "vocabulary",
+      "description": "A flat-bottomed boat used for transporting goods or people, especially on rivers."
+    },
+    "Bada Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term meaning 'elder gentleman' or 'senior master', often used for the eldest son or main male in a household."
+    },
+    "majorab": {
+      "type": "vocabulary",
+      "description": "The main bridge or resonating piece of a sitar, a classical Indian stringed instrument."
+    },
+    "baya": {
+      "type": "vocabulary",
+      "description": "The larger drum in a pair used in Indian classical music, typically part of the tabla set."
+    },
+    "tabla": {
+      "type": "vocabulary",
+      "description": "A pair of hand-played drums used in Indian music."
+    },
+    "dhol": {
+      "type": "vocabulary",
+      "description": "A double-sided barrel drum played with sticks, popular in Indian folk music."
+    },
+    "paiyis paiyis": {
+      "type": "vocabulary",
+      "description": "An onomatopoeic phrase imitating the heavy, rhythmic footsteps of a procession."
+    },
+    "almanacs": {
+      "type": "vocabulary",
+      "description": "Calendars or annual publications listing important dates, often used for choosing auspicious days."
+    },
+    "roasted taro": {
+      "type": "vocabulary",
+      "description": "A root vegetable commonly eaten in Bengal, here used as a dismissive phrase."
+    },
+    "Dhanamala": {
+      "type": "character",
+      "description": "A notorious chatterbox who mocks the babus for their reckless behavior and failed ambitions as merchants."
+    },
+    "Guru Mahashay": {
+      "type": "character",
+      "description": "A strict and authoritative teacher in Sonagazi, known for his harsh punishments and for running a fearsome school."
+    },
+    "Kuni": {
+      "type": "character",
+      "description": "One of the residents at the dargah in Sonagazi, mentioned as having made their home there."
+    },
+    "Buni": {
+      "type": "character",
+      "description": "Another resident at the dargah in Sonagazi, living alongside Kuni."
+    },
+    "Mr. John": {
+      "type": "character",
+      "description": "A European (sahib) who opens the John Company, becomes involved in dubious business ventures, and eventually flees to Chandannagar after his company's failure."
+    },
+    "Uncle Thak": {
+      "type": "character",
+      "description": "Also called Thakchacha, an official in the John Company who, along with Bancharam, profits from the company's mismanagement."
+    },
+    "Jan Saheb": {
+      "type": "character",
+      "description": "Another name for Mr. John, depicted as an incompetent and reckless businessman."
+    },
+    "Govinda": {
+      "type": "proper_noun",
+      "description": "A name for the Hindu god Krishna, often invoked in prayer or distress."
+    },
+    "Sakhi Sambad": {
+      "type": "proper_noun",
+      "description": "A traditional Bengali song or chorus, often sung in groups."
+    },
+    "dargah": {
+      "type": "proper_noun",
+      "description": "A shrine built over the grave of a revered religious figure, often visited for blessings."
+    },
+    "Ula": {
+      "type": "proper_noun",
+      "description": "A place referenced as the home of brash Brahmins."
+    },
+    "Krishnanagar": {
+      "type": "proper_noun",
+      "description": "A city in Bengal, referenced for its crafty inhabitants."
+    },
+    "Dwaipayana lake": {
+      "type": "proper_noun",
+      "description": "A mythical or symbolic lake, referencing the depths of hidden motives."
+    },
+    "John Company": {
+      "type": "proper_noun",
+      "description": "A colloquial term for the British East India Company, here used as the name of Mr. John's business."
+    },
+    "Chowringhee": {
+      "type": "proper_noun",
+      "description": "A prominent neighborhood in Calcutta, known for its European residents and elite status."
+    },
+    "Chandannagar": {
+      "type": "proper_noun",
+      "description": "A city near Calcutta, formerly a French colony and a place where fugitives could escape British law."
+    },
+    "retinue": {
+      "type": "vocabulary",
+      "description": "A group of attendants or followers accompanying an important person."
+    },
+    "anchor rope": {
+      "type": "vocabulary",
+      "description": "The rope used to secure a boat's anchor."
+    },
+    "oar": {
+      "type": "vocabulary",
+      "description": "A pole with a flat blade used to row or steer a boat."
+    },
+    "flint": {
+      "type": "vocabulary",
+      "description": "A hard stone used to produce sparks for lighting fires."
+    },
+    "noose of trade": {
+      "type": "vocabulary",
+      "description": "A metaphorical expression meaning the dangers or entrapment of business."
+    },
+    "slate": {
+      "type": "vocabulary",
+      "description": "A small, flat piece of stone used by students for writing before the widespread use of paper."
+    },
+    "mutsuddi": {
+      "type": "vocabulary",
+      "description": "A clerk or accountant, especially in a traditional Indian business context."
+    },
+    "pawn-brokers": {
+      "type": "vocabulary",
+      "description": "Moneylenders who provide loans in exchange for personal property as collateral."
+    },
+    "toddy leaves": {
+      "type": "vocabulary",
+      "description": "Leaves from the palm tree, often used for various purposes including as fans or playthings."
+    },
+    "attar": {
+      "type": "vocabulary",
+      "description": "A fragrant essential oil, often made from flowers, used as perfume."
+    },
+    "hashish": {
+      "type": "vocabulary",
+      "description": "A drug made from the resin of the cannabis plant, used for intoxication."
+    },
+    "agency fee": {
+      "type": "vocabulary",
+      "description": "A commission or percentage paid to an agent for facilitating a business transaction."
+    },
+    "cashbook": {
+      "type": "vocabulary",
+      "description": "A financial ledger used to record cash transactions."
+    },
+    "steamer": {
+      "type": "vocabulary",
+      "description": "A steam-powered boat, referenced here to describe billowing smoke."
+    },
+    "drawing room": {
+      "type": "vocabulary",
+      "description": "A formal room in a house where guests are received."
+    },
+    "company papers": {
+      "type": "vocabulary",
+      "description": "Documents representing shares or interests in a trading company."
+    },
+    "commission": {
+      "type": "vocabulary",
+      "description": "A fee paid to an agent or broker for facilitating a business deal."
+    },
+    "Moti Babu": {
+      "type": "character",
+      "description": "A young member of the Bitlal family, rumored to return with wealth but currently facing misfortune and fear."
+    },
+    "Premnarayan": {
+      "type": "character",
+      "description": "A character who brings news and reassures others about Moti Babu's situation."
+    },
+    "Kamala": {
+      "type": "character",
+      "description": "Mentioned as a source of trouble for Moti Babu, likely a family member or close associate."
+    },
+    "Kamini": {
+      "type": "character",
+      "description": "Mentioned alongside Kamala as a source of trouble for Moti Babu."
+    },
+    "Barda Babu": {
+      "type": "character",
+      "description": "A central character, known for his humility and pure-heartedness, respected by others for his virtue."
+    },
+    "Badebabu": {
+      "type": "character",
+      "description": "A respectful form of address for Motilal, used by Ramgovinda."
+    },
+    "Managobinda": {
+      "type": "character",
+      "description": "A member of Motilal's household, observes the peon's arrival."
+    },
+    "Tipu": {
+      "type": "character",
+      "description": "A young man who warns Motilal to hide, referencing a mythological escape."
+    },
+    "Bitlals": {
+      "type": "proper_noun",
+      "description": "A family central to the novel's plot, recently returned to the village after losing their fortune."
+    },
+    "Mother Ganga": {
+      "type": "proper_noun",
+      "description": "The Ganges River, revered as a goddess in Hinduism and considered sacred."
+    },
+    "Srikrishna": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, worshipped as an incarnation of Vishnu."
+    },
+    "daroga": {
+      "type": "proper_noun",
+      "description": "A police inspector or head constable during British India."
+    },
+    "Benigarden": {
+      "type": "proper_noun",
+      "description": "A location in Calcutta, here referring to the police lock-up or jail."
+    },
+    "Company": {
+      "type": "proper_noun",
+      "description": "Refers to the British East India Company, the colonial authority in Bengal at the time."
+    },
+    "Jessore": {
+      "type": "proper_noun",
+      "description": "A district in Bengal, now in Bangladesh, where Motilal plans to escape."
+    },
+    "De family": {
+      "type": "proper_noun",
+      "description": "A local family, likely of some standing, whose member helps read the English letter."
+    },
+    "Kayastha": {
+      "type": "proper_noun",
+      "description": "A Bengali Hindu caste traditionally associated with administration and clerical work."
+    },
+    "Duryodhan": {
+      "type": "proper_noun",
+      "description": "A character from the Mahabharata, referenced for his method of hiding underwater to escape detection."
+    },
+    "Gopis": {
+      "type": "proper_noun",
+      "description": "Female devotees of Krishna, often referenced in devotional and folk contexts."
+    },
+    "pestle": {
+      "type": "vocabulary",
+      "description": "A heavy tool used for grinding or pounding substances, here metaphorically referring to a source of trouble."
+    },
+    "promissory note": {
+      "type": "vocabulary",
+      "description": "A written promise to pay a specified sum of money to a designated person or bearer."
+    },
+    "peon": {
+      "type": "vocabulary",
+      "description": "A low-ranking office worker or messenger, often tasked with errands."
+    },
+    "prahars": {
+      "type": "vocabulary",
+      "description": "Traditional Indian units of time, each prahar is roughly three hours."
+    },
+    "buggy": {
+      "type": "vocabulary",
+      "description": "A light, horse-drawn carriage, typically with two wheels."
+    },
+    "Ravana": {
+      "type": "proper_noun",
+      "description": "A demon king from the Hindu epic Ramayana, known for having ten heads; used here as a metaphor for conspicuous fate."
+    },
+    "bigha": {
+      "type": "proper_noun",
+      "description": "A traditional unit of land measurement in Bengal and other parts of India."
+    },
+    "katha": {
+      "type": "proper_noun",
+      "description": "A smaller traditional unit of land measurement used in Bengal."
+    },
+    "goswara": {
+      "type": "proper_noun",
+      "description": "A term referring to estate or revenue accounts and records."
+    },
+    "jamawasil baki": {
+      "type": "proper_noun",
+      "description": "A term for the statement of revenue collected and outstanding dues on an estate."
+    },
+    "khodkasta": {
+      "type": "proper_noun",
+      "description": "Tenants who personally cultivate their own land, as opposed to subletting it."
+    },
+    "paikasta": {
+      "type": "proper_noun",
+      "description": "Tenants who do not cultivate the land themselves but have others do it, often subtenants."
+    },
+    "ek-kasta": {
+      "type": "proper_noun",
+      "description": "A play on words meaning 'all the same kind' of tenant, used humorously by Motilal."
+    },
+    "Robdhan": {
+      "type": "proper_noun",
+      "description": "A respectful greeting or salutation used by tenants when addressing landlords or officials."
+    },
+    "Salaam": {
+      "type": "proper_noun",
+      "description": "A traditional greeting or gesture of respect, derived from Arabic and commonly used in South Asia."
+    },
+    "babla": {
+      "type": "proper_noun",
+      "description": "A type of tree (Acacia) common in Bengal, often used for firewood or timber."
+    },
+    "indigo sahib": {
+      "type": "proper_noun",
+      "description": "A term for the British or European manager or owner of an indigo plantation."
+    },
+    "magistrate": {
+      "type": "proper_noun",
+      "description": "A colonial administrative and judicial officer responsible for law and order in a district."
+    },
+    "fallow": {
+      "type": "vocabulary",
+      "description": "Land left unplanted for a period to restore its fertility."
+    },
+    "landholders": {
+      "type": "vocabulary",
+      "description": "People who own or control land, often with hereditary or customary rights."
+    },
+    "remission": {
+      "type": "vocabulary",
+      "description": "A reduction or cancellation of rent, revenue, or dues owed by tenants."
+    },
+    "entourage": {
+      "type": "vocabulary",
+      "description": "A group of people attending or surrounding an important person."
+    },
+    "overseer": {
+      "type": "vocabulary",
+      "description": "A supervisor or manager, especially on a plantation or estate."
+    },
+    "bungalow": {
+      "type": "vocabulary",
+      "description": "A single-storied house, typically with a veranda, common in colonial India."
+    },
+    "pith helmet": {
+      "type": "vocabulary",
+      "description": "A lightweight helmet made of pith, worn for sun protection, especially by Europeans in colonial India."
+    },
+    "brandy": {
+      "type": "vocabulary",
+      "description": "A type of distilled alcoholic beverage, often imported and consumed by Europeans in colonial India."
+    },
+    "Taza Bataza": {
+      "type": "vocabulary",
+      "description": "A nonsensical or playful phrase sung by the indigo sahib, possibly imitating or mocking local or foreign songs."
+    },
+    "Bar": {
+      "type": "character",
+      "description": "A character who interacts with the sepoys while in the lock-up, possibly another name or nickname for Thakchacha."
+    },
+    "Khodabux": {
+      "type": "character",
+      "description": "Thakchacha’s old friend who advised him to live an honest life and is cited as a model of contentment."
+    },
+    "Mary Baiko": {
+      "type": "character",
+      "description": "A woman mentioned by Thakchacha, possibly a jail staff or another character involved in the prison, noted for her boldness."
+    },
+    "Roso Sahib": {
+      "type": "character",
+      "description": "A name used by Banchharam to address Butler Sahib, suggesting familiarity or a colloquial nickname."
+    },
+    "peskar": {
+      "type": "proper_noun",
+      "description": "A subordinate court official or clerk, often involved in paperwork and assisting higher officials."
+    },
+    "indigo planter": {
+      "type": "proper_noun",
+      "description": "A European or British individual who manages indigo cultivation, often notorious for exploiting Indian tenants."
+    },
+    "Bengalis": {
+      "type": "proper_noun",
+      "description": "The people of Bengal, an ethnic and linguistic group native to the Bengal region."
+    },
+    "naib": {
+      "type": "proper_noun",
+      "description": "An assistant or deputy, often to a zamindar or official."
+    },
+    "zamindari": {
+      "type": "proper_noun",
+      "description": "A system of landholding and revenue collection in colonial India, managed by zamindars (landlords)."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The historic city and capital of India, referenced as a distant place."
+    },
+    "Sealdah": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta, mentioned as the site of hidden evidence."
+    },
+    "Faridpur": {
+      "type": "proper_noun",
+      "description": "A town in Bengal, referenced as a destination in Thakchacha’s dream."
+    },
+    "Durga": {
+      "type": "proper_noun",
+      "description": "Refers to the Hindu goddess Durga, central to the Durga Puja festival."
+    },
+    "Munshi-ji": {
+      "type": "proper_noun",
+      "description": "A respectful address for a learned man or clerk, often one who can read and write Persian or Urdu."
+    },
+    "Sarfaraz": {
+      "type": "proper_noun",
+      "description": "A name, possibly referencing a well-known moneylender or a notorious figure."
+    },
+    "tiffin": {
+      "type": "vocabulary",
+      "description": "A light meal or snack, especially common in British India, usually eaten in the afternoon."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A type of cigar with both ends clipped, commonly smoked in colonial India."
+    },
+    "orderly": {
+      "type": "vocabulary",
+      "description": "A lower-ranking attendant or servant, often in a colonial or military context."
+    },
+    "mat": {
+      "type": "vocabulary",
+      "description": "A woven bedding or sleeping pad, commonly used in India."
+    },
+    "criminal ward": {
+      "type": "vocabulary",
+      "description": "A section of the jail designated for prisoners accused or convicted of criminal offenses."
+    },
+    "harem": {
+      "type": "vocabulary",
+      "description": "In this context, likely refers to a separate section of the jail, possibly for women or for special prisoners."
+    },
+    "dry cell": {
+      "type": "vocabulary",
+      "description": "A jail cell without water facilities, used for punishment or segregation."
+    },
+    "rosary": {
+      "type": "vocabulary",
+      "description": "A string of prayer beads used for counting prayers, common in Hindu and Muslim traditions."
+    },
+    "installment": {
+      "type": "vocabulary",
+      "description": "A partial payment, often used in the context of bribes or fees in the story."
+    },
+    "Bahulya": {
+      "type": "character",
+      "description": "Another main character, Bahulya is a local landholder or influential villager, also accused of forgery alongside Thakchacha."
+    },
+    "Maulvi Sahib": {
+      "type": "character",
+      "description": "A respected Muslim religious leader in the village, often sought for protection and advice by the tenants."
+    },
+    "Sarjan Bahulya": {
+      "type": "character",
+      "description": "Likely another name or title for Bahulya, possibly indicating his role or status; he interacts with the crowd during the incident with the injured man."
+    },
+    "Bardaprasad Biswas": {
+      "type": "character",
+      "description": "A gentleman who helps an injured man of low caste, demonstrating compassion and social conscience."
+    },
+    "Mr. Russell": {
+      "type": "character",
+      "description": "A British judge presiding over the trial, responsible for instructing the jury and delivering the verdict."
+    },
+    "Clark Ab di Crone": {
+      "type": "character",
+      "description": "The chief clerk of the criminal court, who formally asks the jury for their verdict."
+    },
+    "Badar": {
+      "type": "proper_noun",
+      "description": "A rural area or village where the paddy harvest is taking place."
+    },
+    "Bhabanipur": {
+      "type": "proper_noun",
+      "description": "A marshy locality or village, central to the events of the chapter."
+    },
+    "Kartik": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar (October-November), known for storms affecting the harvest."
+    },
+    "Maulvi Saheb": {
+      "type": "proper_noun",
+      "description": "An honorific for a learned Muslim religious leader or teacher."
+    },
+    "zamindars": {
+      "type": "proper_noun",
+      "description": "Landlords who collected taxes from peasants on behalf of the colonial government."
+    },
+    "indigo planters": {
+      "type": "proper_noun",
+      "description": "European or Indian entrepreneurs who managed indigo plantations, often exploiting local farmers."
+    },
+    "Gokul": {
+      "type": "proper_noun",
+      "description": "A reference to a village associated with Lord Krishna; here, 'Gokul’s bull' is a proverbial expression."
+    },
+    "padre": {
+      "type": "proper_noun",
+      "description": "A Christian priest or missionary, often European, active in rural Bengal during colonial times."
+    },
+    "padre sahib": {
+      "type": "proper_noun",
+      "description": "A respectful term for a Christian priest or missionary."
+    },
+    "Denga Bhabanipur": {
+      "type": "proper_noun",
+      "description": "A specific area or part of Bhabanipur, possibly a hamlet or neighborhood."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "The Ganges River, sacred in Hinduism; invoked here as a holy oath."
+    },
+    "Bansdroni ghat": {
+      "type": "proper_noun",
+      "description": "A riverside landing or steps (ghat) at Bansdroni, a locality in Bengal."
+    },
+    "Shaganj": {
+      "type": "proper_noun",
+      "description": "A place or market town where Bahulya passes through after his arrest."
+    },
+    "Hadi": {
+      "type": "proper_noun",
+      "description": "A Dalit (formerly 'untouchable') caste traditionally engaged in sanitation work."
+    },
+    "duli": {
+      "type": "proper_noun",
+      "description": "A type of litter or palanquin used for carrying people, especially the sick or injured."
+    },
+    "peons": {
+      "type": "vocabulary",
+      "description": "Low-ranking servants or messengers, often employed by landlords or in colonial offices."
+    },
+    "Sessions": {
+      "type": "vocabulary",
+      "description": "Refers to the criminal court sessions where cases are tried."
+    },
+    "Grand Jury": {
+      "type": "vocabulary",
+      "description": "A jury that determines whether there is enough evidence for a case to go to trial."
+    },
+    "Petit Jury": {
+      "type": "vocabulary",
+      "description": "A trial jury that decides the guilt or innocence of the accused."
+    },
+    "dock": {
+      "type": "vocabulary",
+      "description": "The enclosure in a courtroom where the accused sits during trial."
+    },
+    "butler sahib": {
+      "type": "vocabulary",
+      "description": "A European or Anglo-Indian butler, with 'sahib' denoting respect."
+    },
+    "Brahmin’s blessing": {
+      "type": "vocabulary",
+      "description": "A gesture or ritual blessing given by a Brahmin, considered auspicious."
+    },
+    "orderlies": {
+      "type": "vocabulary",
+      "description": "Assistants or attendants, often in a court or hospital setting."
+    },
+    "maces": {
+      "type": "vocabulary",
+      "description": "Ceremonial staffs or clubs carried as symbols of authority."
+    },
+    "sheriff": {
+      "type": "vocabulary",
+      "description": "An official responsible for enforcing the law and maintaining order in the court."
+    },
+    "deputy sheriff": {
+      "type": "vocabulary",
+      "description": "An assistant to the sheriff, helping with court duties."
+    },
+    "Chup": {
+      "type": "vocabulary",
+      "description": "A Hindi/Bengali word meaning 'be quiet' or 'silence'."
+    },
+    "Hish": {
+      "type": "vocabulary",
+      "description": "An onomatopoeic exclamation used to hush or shoo people."
+    },
+    "Oyez": {
+      "type": "vocabulary",
+      "description": "A traditional court crier’s call to attention, derived from French."
+    },
+    "penal settlement": {
+      "type": "vocabulary",
+      "description": "A remote colony or prison where convicts are sent for punishment, often for life."
+    },
+    "Uncle Thok": {
+      "type": "character",
+      "description": "Also referred to as Thakchacha, an elder whose misdeeds have led to his downfall and his family's hardship."
+    },
+    "Baradaprasad Babu": {
+      "type": "character",
+      "description": "Also called Borda Babu or Barada Babu, he is the same honest elder who offers help to the needy."
+    },
+    "Bawaji": {
+      "type": "proper_noun",
+      "description": "A term for a religious or holy man, possibly a guru or spiritual leader from whom Motilal hoped for rewards."
+    },
+    "Kobikankan": {
+      "type": "proper_noun",
+      "description": "A reference to Krittibas Ojha, a medieval Bengali poet known for his version of the Ramayana."
+    },
+    "Valmiki": {
+      "type": "proper_noun",
+      "description": "The legendary Sanskrit poet who authored the original Ramayana."
+    },
+    "Vedas": {
+      "type": "proper_noun",
+      "description": "Ancient sacred scriptures of Hinduism, regarded as the foundation of religious knowledge."
+    },
+    "Puranas": {
+      "type": "proper_noun",
+      "description": "A genre of ancient Indian texts containing mythological and historical narratives."
+    },
+    "Haridwar": {
+      "type": "proper_noun",
+      "description": "A holy city in northern India, significant as a pilgrimage site for Hindus."
+    },
+    "Nadir Shah": {
+      "type": "proper_noun",
+      "description": "An 18th-century Persian ruler who invaded and plundered Delhi."
+    },
+    "Muhammad Shah": {
+      "type": "proper_noun",
+      "description": "The Mughal emperor of India during Nadir Shah's invasion."
+    },
+    "Hamir raga": {
+      "type": "proper_noun",
+      "description": "A classical Indian musical mode or melody, often performed in vocal or instrumental music."
+    },
+    "Norchandri": {
+      "type": "proper_noun",
+      "description": "A traditional Bengali song or musical style, referenced as a type of song sung by Becharam Babu."
+    },
+    "Babla": {
+      "type": "proper_noun",
+      "description": "A type of flower, likely the babul or acacia, referenced in a song."
+    },
+    "laba-laba": {
+      "type": "vocabulary",
+      "description": "An onomatopoeic Bengali expression implying meaningless chatter or babbling."
+    },
+    "puffed rice cakes": {
+      "type": "vocabulary",
+      "description": "A traditional Bengali snack made from puffed rice, often sweetened or flavored."
+    },
+    "Heramba Babu": {
+      "type": "character",
+      "description": "A simple and straightforward man who holds the mortgage papers and is persuaded by Bancharam to initiate legal action."
+    },
+    "Motilal’s wife": {
+      "type": "character",
+      "description": "A young woman suffering due to her absent husband and the family's misfortunes, representing the plight of women in the story."
+    },
+    "Motilal’s stepmother": {
+      "type": "character",
+      "description": "An elderly woman enduring hardship with her daughter-in-law after the family's financial ruin."
+    },
+    "Alami": {
+      "type": "proper_noun",
+      "description": "Refers to an author whose book is mentioned in the opening conversation; likely a fictional or contemporary writer."
+    },
+    "China Bazaar": {
+      "type": "proper_noun",
+      "description": "A locality or market area, possibly in Kolkata, known for its commercial activity."
+    },
+    "Bhadrasan": {
+      "type": "proper_noun",
+      "description": "The name of a house or estate owned by Baburam, now mortgaged."
+    },
+    "Chowdhury Mahashay": {
+      "type": "proper_noun",
+      "description": "A respectful Bengali honorific, 'Chowdhury' being a title and 'Mahashay' meaning 'respected gentleman.'"
+    },
+    "vakalatnama": {
+      "type": "proper_noun",
+      "description": "A legal document in India authorizing a lawyer to represent someone in court."
+    },
+    "Hanuman": {
+      "type": "proper_noun",
+      "description": "A revered Hindu deity, known for his strength and devotion, central to the Ramayana."
+    },
+    "Lanka": {
+      "type": "proper_noun",
+      "description": "The kingdom ruled by Ravana in the Ramayana, often identified with present-day Sri Lanka."
+    },
+    "ferryman": {
+      "type": "vocabulary",
+      "description": "A person who operates a boat to transport people across a river."
+    },
+    "bolster": {
+      "type": "vocabulary",
+      "description": "A long, thick pillow used for support while reclining."
+    },
+    "Heramba Chandra Chowdhury Babu": {
+      "type": "character",
+      "description": "A local landowner who had taken possession of the family's ancestral house but later returns it out of remorse."
+    },
+    "Pramoda’s husband": {
+      "type": "character",
+      "description": "A man who, after marrying multiple times and losing his wealth, lives off his in-laws and sings tappas."
+    },
+    "Alya": {
+      "type": "character",
+      "description": "A character who weeps as the family departs Mathura, showing deep affection for them."
+    },
+    "Benares": {
+      "type": "proper_noun",
+      "description": "Another name for Varanasi/Kashi, a major pilgrimage city."
+    },
+    "Yamuna": {
+      "type": "proper_noun",
+      "description": "A sacred river in northern India, closely associated with Krishna and Vrindavan."
+    },
+    "Braj": {
+      "type": "proper_noun",
+      "description": "A cultural and religious region around Mathura and Vrindavan, associated with Krishna."
+    },
+    "veena": {
+      "type": "proper_noun",
+      "description": "A classical Indian stringed musical instrument."
+    },
+    "arati": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual of worship involving the waving of lighted lamps before deities."
+    },
+    "Keshi Ghat": {
+      "type": "proper_noun",
+      "description": "A famous bathing ghat in Vrindavan on the Yamuna river, associated with Krishna legends."
+    },
+    "Manikarnika Ghat": {
+      "type": "proper_noun",
+      "description": "A famous cremation and bathing ghat on the Ganges in Varanasi."
+    },
+    "Dvivedis": {
+      "type": "proper_noun",
+      "description": "A Brahmin sub-caste or title meaning 'knower of two Vedas'."
+    },
+    "Chaturvedis": {
+      "type": "proper_noun",
+      "description": "A Brahmin sub-caste or title meaning 'knower of four Vedas'."
+    },
+    "Ramats": {
+      "type": "proper_noun",
+      "description": "Likely a reference to a religious sect or group, possibly Ramats (followers of Rama)."
+    },
+    "Naimats": {
+      "type": "proper_noun",
+      "description": "Likely refers to a sect or group, possibly related to Naimisharanya, a sacred forest."
+    },
+    "Shaivas": {
+      "type": "proper_noun",
+      "description": "Followers of Shiva, one of the principal Hindu sects."
+    },
+    "Shaktas": {
+      "type": "proper_noun",
+      "description": "Followers of Shakti, the divine feminine, a major Hindu sect."
+    },
+    "Ganapatyas": {
+      "type": "proper_noun",
+      "description": "Devotees of Ganesha, a Hindu sect."
+    },
+    "Paramahansas": {
+      "type": "proper_noun",
+      "description": "A title for highly realized Hindu spiritual teachers or ascetics."
+    },
+    "Brahmacharis": {
+      "type": "proper_noun",
+      "description": "Celibate students or religious ascetics in Hindu tradition."
+    },
+    "Samavedis": {
+      "type": "proper_noun",
+      "description": "Those who specialize in the chanting of the Sama Veda, one of the four Vedas."
+    },
+    "Kauthumas": {
+      "type": "proper_noun",
+      "description": "A branch or school of the Sama Veda tradition."
+    },
+    "Agni": {
+      "type": "proper_noun",
+      "description": "The Vedic god of fire, central to Hindu rituals."
+    },
+    "Vayu": {
+      "type": "proper_noun",
+      "description": "The Vedic god of wind."
+    },
+    "Hara Vishweshwar": {
+      "type": "proper_noun",
+      "description": "An epithet for Shiva, the 'Lord of the Universe'."
+    },
+    "Bhairavis": {
+      "type": "proper_noun",
+      "description": "Female devotees or priestesses of Bhairava, a fierce form of Shiva."
+    },
+    "Bhairava": {
+      "type": "proper_noun",
+      "description": "A fierce manifestation of Shiva, worshipped in certain sects."
+    },
+    "Udasis": {
+      "type": "proper_noun",
+      "description": "A religious order of ascetics, often associated with Sikhism and Hinduism."
+    },
+    "rechaka": {
+      "type": "proper_noun",
+      "description": "A yogic breathing technique involving exhalation."
+    },
+    "puraka": {
+      "type": "proper_noun",
+      "description": "A yogic breathing technique involving inhalation."
+    },
+    "kumbhaka": {
+      "type": "proper_noun",
+      "description": "A yogic breathing technique involving breath retention."
+    },
+    "mridangam": {
+      "type": "proper_noun",
+      "description": "A classical Indian percussion instrument."
+    },
+    "rabab": {
+      "type": "proper_noun",
+      "description": "A stringed instrument used in Indian and Central Asian music."
+    },
+    "dhrupad": {
+      "type": "proper_noun",
+      "description": "A genre of Indian classical vocal music."
+    },
+    "dharu": {
+      "type": "proper_noun",
+      "description": "A type of musical composition or rhythm, likely regional."
+    },
+    "khayal": {
+      "type": "proper_noun",
+      "description": "A style of Indian classical singing."
+    },
+    "prabandha": {
+      "type": "proper_noun",
+      "description": "An ancient form of Indian musical composition."
+    },
+    "chhanda": {
+      "type": "proper_noun",
+      "description": "A metrical pattern or rhythm in poetry and music."
+    },
+    "sorabandha": {
+      "type": "proper_noun",
+      "description": "Likely a type of musical composition or form."
+    },
+    "tarana": {
+      "type": "proper_noun",
+      "description": "A type of fast-paced composition in Indian classical music."
+    },
+    "sargam": {
+      "type": "proper_noun",
+      "description": "Singing the notes of a scale in Indian music (sa, re, ga, ma, etc.)."
+    },
+    "chaturang": {
+      "type": "proper_noun",
+      "description": "A genre of Indian classical music combining four elements."
+    },
+    "naqsh": {
+      "type": "proper_noun",
+      "description": "A term possibly referring to a musical or poetic form."
+    },
+    "Bhagirathi": {
+      "type": "proper_noun",
+      "description": "Another name for the Ganges river, especially in its upper reaches."
+    },
+    "Shuka Upanishad": {
+      "type": "proper_noun",
+      "description": "A Hindu philosophical text, part of the Upanishads, attributed to Shuka."
+    },
+    "Monghyr": {
+      "type": "proper_noun",
+      "description": "A town in Bihar, India, known for its historical and religious significance."
+    },
+    "Navadwip": {
+      "type": "proper_noun",
+      "description": "A holy town in Bengal, famous as the birthplace of Chaitanya Mahaprabhu."
+    },
+    "Mahadev": {
+      "type": "proper_noun",
+      "description": "A name for Shiva, meaning 'Great God'."
+    },
+    "Churiyaler Churiya": {
+      "type": "proper_noun",
+      "description": "A song associated with bangle-sellers, referenced as Thakchachi's song."
+    },
+    "sadhu": {
+      "type": "vocabulary",
+      "description": "A holy man or ascetic in Hinduism."
+    },
+    "bangle-seller": {
+      "type": "vocabulary",
+      "description": "A person who sells bangles, often a woman who sings songs to attract customers."
+    },
+    "tappa": {
+      "type": "vocabulary",
+      "description": "A form of semi-classical Indian vocal music, known for its fast, intricate passages."
+    },
+    "jalgoja": {
+      "type": "vocabulary",
+      "description": "A type of Bengali sweet or fried snack."
+    },
+    "tajpheni": {
+      "type": "vocabulary",
+      "description": "A kind of sweet or fried snack, possibly a local or regional delicacy."
+    },
+    "ghyaaru": {
+      "type": "vocabulary",
+      "description": "A Bengali snack or sweet, typically fried."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Baburam Babu",
+      "Motilal",
+      "the tutor",
+      "the butter-worshipping Brahmin priest",
+      "Baidyabati",
+      "Balaram Thakur",
+      "Kulin Brahmins",
+      "Saraswati",
+      "tole",
+      "Ishwarchandra Vedantabagish",
+      "Queenmora",
+      "Babu",
+      "dhoti",
+      "paisa",
+      "airbox friends",
+      "palm-leaf slate",
+      "pawnshop",
+      "Haribol"
+    ],
+    "ch-2": [
+      "Motilal",
+      "Baburam Babu",
+      "Habibullah Hossain",
+      "Aladi",
+      "Munshi Sahib",
+      "Hari",
+      "Beni Babu",
+      "Ram",
+      "Sajia",
+      "Masnavi",
+      "Bally",
+      "Baidyabati ghat",
+      "Asharh",
+      "Shravan",
+      "hilsa",
+      "tilak",
+      "dhoti",
+      "Ganesha",
+      "chadar",
+      "panshi",
+      "pice",
+      "sattu",
+      "Chittagong",
+      "Vrindavan",
+      "Deonagazi ghat",
+      "Calcutta",
+      "munshi",
+      "sahib",
+      "haram",
+      "chilum",
+      "hookah",
+      "babu",
+      "ghat",
+      "betel leaf",
+      "footman",
+      "flower pond",
+      "oars"
+    ],
+    "ch-3": [
+      "Baburam Babu",
+      "Motilal",
+      "Benibabu",
+      "Ram",
+      "Pelaram",
+      "Pranakrishna",
+      "Bhagabati Thakurdada",
+      "Rajkrishna",
+      "Becharam Bandyopadhyay",
+      "Kenaram Babu",
+      "Mr. Sherborne",
+      "Bali",
+      "Ganges",
+      "Purana",
+      "Calcutta",
+      "Baidyabati",
+      "Bowbazar",
+      "Shambhu",
+      "Shaligram",
+      "Vishnu",
+      "zamindar",
+      "Nara",
+      "Amburi",
+      "Velsa",
+      "Chandimandap",
+      "Kashijora",
+      "Bandyopadhyay",
+      "Mahashay",
+      "Hindu college",
+      "sahibs",
+      "betel",
+      "babu",
+      "gamcha",
+      "hookah",
+      "ghee",
+      "bangles",
+      "armlets",
+      "verandah",
+      "curries"
+    ],
+    "ch-4": [
+      "Ramram Mishra",
+      "Anandirama Das",
+      "Ramnarayan Mishra",
+      "Ramlochan",
+      "Krishnamohan Basu",
+      "Fenko",
+      "Aratoon Petrus",
+      "Mr. Sharbhoron Sahib",
+      "Matilal",
+      "Mr. Kalus",
+      "Motilal",
+      "Babu Becharam",
+      "Holodhor",
+      "Godadhor",
+      "Bakreshwar Babu",
+      "Mr. Bellacure",
+      "Ramgobind",
+      "Dolgobind",
+      "Mangobind",
+      "Calcutta",
+      "Seths",
+      "Basaks",
+      "Babus",
+      "Supreme Court",
+      "Baidyabati",
+      "Bohubazar",
+      "Battala",
+      "Durga Puja",
+      "Haribol",
+      "Sakhigopal",
+      "Babu",
+      "hookahs",
+      "charas",
+      "ganja",
+      "brinjal",
+      "lock-up"
+    ],
+    "ch-5": [
+      "Miyajan",
+      "Premnarayan Majumdar",
+      "Baburam Babu",
+      "Bhattacharyas",
+      "Dewanji",
+      "Mokajan Miyan",
+      "Thokchacha",
+      "Matilal",
+      "Bansharam Babu",
+      "Beni Babu",
+      "Becharam Babu",
+      "Bakreshwar Babu",
+      "Hala",
+      "Gada",
+      "Baidyabati",
+      "Calcutta",
+      "Kashi",
+      "Ramzan",
+      "Eid",
+      "Shab-e-Barat",
+      "Pir",
+      "Baghbazar ghat",
+      "Brahmin",
+      "Thakurji",
+      "Simla",
+      "Bali",
+      "Bahubazar",
+      "Battala",
+      "Shalgram stone",
+      "Butler Sahib",
+      "tok-tok",
+      "patash-patash",
+      "hackney carriage",
+      "babu",
+      "tanpura",
+      "lota",
+      "ghat",
+      "paisa",
+      "charas",
+      "ganja",
+      "betel leaf",
+      "sari",
+      "flattened rice"
+    ],
+    "ch-6": [
+      "Banchharam",
+      "Benibabu",
+      "Becharam",
+      "Motilal’s Mother",
+      "Sridhar Bhattacharya",
+      "Ramgopal Churamani",
+      "Mokshada",
+      "Promoda",
+      "Baburam",
+      "Thokchacha",
+      "Bakreshwar",
+      "Bardababu",
+      "Jagannath Tarkapanchanan",
+      "Bali",
+      "Baidyabati",
+      "tulsi leaves",
+      "bilva leaves",
+      "Brahmin",
+      "sacred thread",
+      "Kulin",
+      "Ganges",
+      "Deonagazi’s ghat",
+      "Bowbazar",
+      "Badarganj",
+      "Etakagomari",
+      "Calcutta",
+      "rupees",
+      "Babu",
+      "Bhaiya",
+      "Dada",
+      "ghat",
+      "kheyal",
+      "ragini",
+      "hookah",
+      "bangles",
+      "Master",
+      "maid"
+    ],
+    "ch-7": [
+      "Job Charnock",
+      "Baburam Babu",
+      "Thakchacha",
+      "Mr. Blacquire",
+      "Butler Sahib",
+      "Motilal",
+      "Kale Khan",
+      "Fate Khan",
+      "Benibabu",
+      "Bakreshwar Babu",
+      "Becharam Babu",
+      "Bancharam Babu",
+      "Haldhar",
+      "Gadadhar",
+      "Premnarayan Majumdar",
+      "Dolbar",
+      "Batanagar",
+      "Sutanuti",
+      "Gobindapur",
+      "Kalikata",
+      "Calcutta",
+      "Maidan",
+      "Chaurangi",
+      "Permit Office",
+      "Clive Street",
+      "Supreme Court",
+      "Justices of the Peace",
+      "mofussil",
+      "Lakshmipati",
+      "Baidyabati",
+      "Bali",
+      "Battala",
+      "Bowbazar",
+      "Outer Simla",
+      "Kalighat",
+      "Yama",
+      "Yavana",
+      "Bhishma",
+      "Kashijora",
+      "Bakule Jatra",
+      "Puja",
+      "Muhammad Ali",
+      "Satya Pir",
+      "hookah",
+      "zamindar",
+      "sepoys",
+      "darogas",
+      "naibs",
+      "chowkidars",
+      "betel quid",
+      "bailers",
+      "tout",
+      "mantras",
+      "tilak",
+      "Khirkidar turban",
+      "sahib",
+      "rupees",
+      "Haribol",
+      "Bookish Babu",
+      "Paresh",
+      "shell bangle"
+    ],
+    "ch-8": [
+      "Butler Sahib",
+      "Howard",
+      "Banchharam Babu",
+      "Baburam Babu",
+      "Baburam Babu’s wife",
+      "Motilal",
+      "Mushundadi",
+      "Thakchacha",
+      "Vaidyabati",
+      "Ganges",
+      "Bashberia",
+      "Shiva",
+      "Chandi",
+      "shalgram",
+      "tulsi",
+      "Baidyabati",
+      "Swastyayani",
+      "Brahmin",
+      "Sahib",
+      "bodhon",
+      "svastyayana",
+      "paisa",
+      "shawl",
+      "hookah",
+      "raga",
+      "band",
+      "bel fruit"
+    ],
+    "ch-9": [
+      "Baburam Babu",
+      "Motilal",
+      "Thakchacha",
+      "Banchharam Babu",
+      "Haldhar",
+      "Gadadhar",
+      "Ramgovinda",
+      "Dolgovinda",
+      "Mangovinda",
+      "Kabelram",
+      "Bhajakrishna",
+      "Harekrishna",
+      "Sreedam",
+      "Subal",
+      "Brahmins",
+      "svastyayani",
+      "Krishna",
+      "Arjuna",
+      "avatar",
+      "Calcutta",
+      "Vaidya",
+      "puja",
+      "Shivaratri",
+      "Lord Ram",
+      "Baidyabati",
+      "babu",
+      "lock-up",
+      "sergeant",
+      "palanquin",
+      "kachoris",
+      "barfi",
+      "nikhuti",
+      "manohara",
+      "betel",
+      "Siddi",
+      "charas",
+      "ganja",
+      "guruk palai",
+      "Dhakai dhotis",
+      "sepoy"
+    ],
+    "ch-10": [
+      "Becharam Babu",
+      "Baburam Babu",
+      "Beni Babu",
+      "Bakreshwar Babu",
+      "Banchharam",
+      "Thakchacha",
+      "Motilal",
+      "Madhab Babu",
+      "Ramhari Babu",
+      "Haridas Babu",
+      "Shyamacharan Babu",
+      "Dhekial Phukan Karta",
+      "Baidyabati",
+      "Matilal",
+      "Baburam Babu’s assembly",
+      "Monirampur",
+      "Nistarini’s shrine",
+      "Sheorapuli",
+      "Bandipur",
+      "Gopalpur",
+      "Ramayana",
+      "Vyasa",
+      "Bali",
+      "Battala",
+      "Outer Simla",
+      "Kamakhya",
+      "Phukans",
+      "machangs",
+      "yajna",
+      "Guptipara",
+      "Nakashipara",
+      "Kanchrapara",
+      "Tithi-tattva",
+      "Malmas-tattva",
+      "Nyaya Shastra",
+      "Tenth Canto",
+      "Bahuvrihi",
+      "Dvandva",
+      "rosun chowki",
+      "English band",
+      "sari",
+      "puffed rice",
+      "sweet balls",
+      "oil-presser",
+      "hookah",
+      "dowry",
+      "auspicious hour",
+      "firecrackers",
+      "squibs",
+      "sparklers"
+    ],
+    "ch-11": [
+      "Madhab Babu",
+      "Beni Babu",
+      "Thakchacha",
+      "Haldhar",
+      "Gadadhar",
+      "Matilal",
+      "Vidyabhushan",
+      "Vidyaratna",
+      "Kavikankan",
+      "Bakreshwar",
+      "Bokeshwar",
+      "Bancharam",
+      "Becharam",
+      "Baburam",
+      "Reo Bhat",
+      "cheat",
+      "Bali",
+      "Agarpara",
+      "Monirampur",
+      "Brahmin",
+      "Muslim",
+      "Hindu",
+      "Kavikankan",
+      "Madhab Bhavan",
+      "Devendra Sadan",
+      "Rajputs",
+      "Ganges",
+      "doorman",
+      "nahabat",
+      "lathiyals",
+      "alpana",
+      "babus",
+      "shawls",
+      "sashes",
+      "puffed rice"
+    ],
+    "ch-12": [
+      "Tarkabagish Baburam Babu",
+      "Baburam Babu",
+      "Madhab Babu",
+      "Becharam Babu",
+      "Benibabu",
+      "Beni",
+      "Ramalal",
+      "Motilal",
+      "Baradaprasad Biswas Babu",
+      "Biswas Babu",
+      "Borda Babu",
+      "Sri Kavikankan",
+      "Saraswati",
+      "Kalidas",
+      "Bowbazar",
+      "Bali",
+      "Monirampur",
+      "Baidyabati",
+      "Calcutta",
+      "Brahmin",
+      "kirtan",
+      "Ghoshti",
+      "Daan",
+      "Maan",
+      "Mathur",
+      "Khandita",
+      "Utkanthita",
+      "Kalahantarita",
+      "Babu",
+      "bhai",
+      "idol",
+      "house of sand",
+      "school"
+    ],
+    "ch-13": [
+      "Becharam",
+      "Baburam",
+      "Baburam Babu",
+      "Babu Bardaprasad",
+      "Ramlal",
+      "Uncle Thakchacha",
+      "Motilal",
+      "Haldhar",
+      "Gadadhar",
+      "Mangobind",
+      "Ramgobind",
+      "Dolgobind",
+      "Thak",
+      "Hindu",
+      "tilak",
+      "Harinam",
+      "Dol",
+      "Durga Puja",
+      "Babu Sahib",
+      "Bardababu",
+      "guru",
+      "Bengali",
+      "pickaxe",
+      "jamun",
+      "tilak",
+      "garland",
+      "estate",
+      "paragon",
+      "widow",
+      "mantra",
+      "disciple"
+    ],
+    "ch-14": [
+      "Motilal",
+      "Haldhar",
+      "Dolgovinda",
+      "Brajanath the Kaviraj",
+      "Ray Mahashay",
+      "Borda Babu",
+      "Ramlal",
+      "Benibabu",
+      "Uncle Thakchacha",
+      "Kaviraj",
+      "Rasasindhu",
+      "Madhyam Narayan oil",
+      "Shiva",
+      "Ganges",
+      "Pan Rasasindhu",
+      "Phalgun",
+      "Bali",
+      "Hooghly",
+      "sahibs",
+      "Babu",
+      "Mahashay",
+      "hookah",
+      "pyre",
+      "iron bangles",
+      "verandah",
+      "zamindar"
+    ],
+    "ch-15": [
+      "Bardababu",
+      "Benibabu",
+      "Ramlal",
+      "Thakchacha",
+      "Borda Babu",
+      "The Acharya",
+      "The Sahib",
+      "King Yudhishthira",
+      "Brahmin",
+      "Acharya",
+      "Surat",
+      "Khodayawand",
+      "cow slaughter",
+      "goat sacrifice",
+      "blanket",
+      "shackles",
+      "pilgrims",
+      "paper bundle",
+      "cross-examination",
+      "hookah",
+      "depositions",
+      "head clerk",
+      "doorkeeper",
+      "supplicants"
+    ],
+    "ch-16": [
+      "serestadar",
+      "Bhojkat",
+      "sahib",
+      "Borda Babu",
+      "Beni Babu",
+      "Ramlal",
+      "Thakchacha",
+      "Thakchachi",
+      "Baburam Babu",
+      "Banchharam Babu",
+      "Benibabu",
+      "Becharam Babu",
+      "Simla",
+      "Bali",
+      "Bowbazar",
+      "pir",
+      "serestadar",
+      "Babu",
+      "cho",
+      "bidri hookah",
+      "bhoror",
+      "rupee",
+      "Lerkabala",
+      "courtesans"
+    ],
+    "ch-17": [
+      "Thakchacha",
+      "Becharam",
+      "Baburam",
+      "Beni",
+      "Beni brother",
+      "Borda Babu",
+      "Bakreshwar",
+      "Bancharam",
+      "Benibabu",
+      "Becharam Babu",
+      "Baidyabati Bazaar",
+      "Mathura",
+      "Baidyabati ghat",
+      "kulin",
+      "Babu",
+      "ghat",
+      "co-wife",
+      "veranda"
+    ],
+    "ch-18": [
+      "Motilal",
+      "Haladhar",
+      "Gadadhar",
+      "Ramgovinda",
+      "Dolgovinda",
+      "Mangobinda",
+      "Majumdar",
+      "Thakchacha",
+      "Bakreshwar",
+      "Bancharam Babu",
+      "Baburam",
+      "Jeni Babu",
+      "Becharam",
+      "Fomaram",
+      "Rama",
+      "Baidyabati",
+      "Nala",
+      "Yudhishthir",
+      "Ganges",
+      "Bolagarh",
+      "ghat",
+      "champa",
+      "kulin Brahmin",
+      "palanquin",
+      "Lord Shiva",
+      "Nandi",
+      "Bhringi",
+      "Mahashoy",
+      "Bhimarathi",
+      "Gandagram",
+      "babus",
+      "chilam",
+      "gurak",
+      "verandah"
+    ],
+    "ch-19": [
+      "Beni Babu",
+      "Becharam Babu",
+      "Baburam",
+      "Becharam da",
+      "Brajanath Ray",
+      "Thakchacha",
+      "Hakim Ekramuddin",
+      "Ramlal",
+      "Bardaprasad Babu",
+      "Premnarayan Majumdar",
+      "Matilal",
+      "Borda Babu",
+      "Bordaprasad Babu",
+      "Ramprasad",
+      "Bowbazar",
+      "vaidya",
+      "hakim",
+      "kabiraj",
+      "sannyipat",
+      "vishvapathra",
+      "Brahmin",
+      "pundits",
+      "Shivasvastayana",
+      "arghya",
+      "Kalighat",
+      "verandah",
+      "khichuri",
+      "Calcutta",
+      "Baidyabati",
+      "Ganges",
+      "Swastyayani Brahmins",
+      "kusa grass",
+      "pavilion",
+      "shawl",
+      "sweetmeats",
+      "ghat",
+      "tuft"
+    ],
+    "ch-20": [
+      "Motilal",
+      "Big Babu",
+      "Beshibaba",
+      "Becharam Babu",
+      "Banchharam Babu",
+      "Bakreshwar Babu",
+      "Benibabu",
+      "Thakchacha",
+      "Baburam Babu",
+      "Kamakhya",
+      "Ramchandra",
+      "Bali",
+      "shraddha",
+      "Baidyabati",
+      "Brahmin",
+      "Ganges",
+      "Tarkabagish",
+      "Vidyaratna",
+      "Nyayalankar",
+      "Bachaspati",
+      "Vidyasagar",
+      "Orissa",
+      "Kashi-Jora",
+      "Nyaya Shastra",
+      "vyapti",
+      "ghatatva",
+      "Chattopote",
+      "Yavana",
+      "pinda",
+      "dhotis",
+      "clarified butter",
+      "palanquins",
+      "snuff"
+    ],
+    "ch-21": [
+      "Reo Bhat",
+      "Motilal",
+      "Baburam Babu",
+      "Bancharam",
+      "Thakchacha",
+      "Bakreshwar",
+      "Ramlal",
+      "Brahmin",
+      "Ramayana",
+      "Mahabharata",
+      "Ramachandra",
+      "Yudhishthira",
+      "Jagat Seth",
+      "Debidas Balmukund",
+      "babus",
+      "Raktabija",
+      "ghat",
+      "shroud-cutter",
+      "pundits",
+      "auspicious date",
+      "town crier",
+      "sari"
+    ],
+    "ch-22": [
+      "Motilal",
+      "Bancharam",
+      "Thakchacha",
+      "Jan Sahib",
+      "Shena",
+      "Tarkasiddhanta",
+      "Man Gobind",
+      "Brahmani",
+      "Snan Yatra",
+      "Lakshmi",
+      "Chandi Charan",
+      "Rama",
+      "Kotolpur",
+      "Calcutta",
+      "Tarkasiddhanta Dada",
+      "Sonagazi",
+      "Baidyabati ghat",
+      "Chand Sadagar",
+      "Ganges",
+      "Brahmin",
+      "babudom",
+      "pawnshop-walas",
+      "charas",
+      "ganja",
+      "barge",
+      "Bada Babu",
+      "sahib",
+      "ghat",
+      "majorab",
+      "baya",
+      "tabla",
+      "dhol",
+      "paiyis paiyis",
+      "almanacs",
+      "roasted taro",
+      "babus"
+    ],
+    "ch-23": [
+      "Motilal",
+      "Dhanamala",
+      "Guru Mahashay",
+      "Kuni",
+      "Buni",
+      "Mr. John",
+      "Bancharam",
+      "Uncle Thak",
+      "Jan Saheb",
+      "Premnarayan Majumdar",
+      "Ganges",
+      "Brahmins",
+      "Govinda",
+      "Sakhi Sambad",
+      "Sonagazi",
+      "dargah",
+      "Yama",
+      "Calcutta",
+      "Ula",
+      "Krishnanagar",
+      "Dwaipayana lake",
+      "babu",
+      "John Company",
+      "Chowringhee",
+      "Chandannagar",
+      "sahib",
+      "Baidyabati",
+      "ghat",
+      "babus",
+      "retinue",
+      "anchor rope",
+      "oar",
+      "flint",
+      "noose of trade",
+      "puffed rice",
+      "slate",
+      "mutsuddi",
+      "pawn-brokers",
+      "paisa",
+      "toddy leaves",
+      "attar",
+      "ganja",
+      "hashish",
+      "agency fee",
+      "cashbook",
+      "steamer",
+      "drawing room",
+      "company papers",
+      "commission"
+    ],
+    "ch-24": [
+      "Tarkasiddhanta",
+      "Baburam",
+      "Moti Babu",
+      "Premnarayan",
+      "Kamala",
+      "Kamini",
+      "Benibabu",
+      "Barda Babu",
+      "Becharam Babu",
+      "Premnarayan Majumdar",
+      "Thakchacha",
+      "Motilal",
+      "Ramgovinda",
+      "Badebabu",
+      "Managobinda",
+      "Tipu",
+      "Dolgovinda",
+      "Haladhar",
+      "Gadadhar",
+      "Mangobinda",
+      "Banchharam",
+      "Bitlals",
+      "Mother Ganga",
+      "Brahmins",
+      "Srikrishna",
+      "ghat",
+      "Bahubazar",
+      "Calcutta",
+      "daroga",
+      "Baidyabati",
+      "Benigarden",
+      "Company",
+      "Jessore",
+      "Jan Sahib",
+      "De family",
+      "Bali",
+      "Kayastha",
+      "Duryodhan",
+      "Gopis",
+      "babu",
+      "puffed rice",
+      "pestle",
+      "promissory note",
+      "peon",
+      "prahars",
+      "lock-up",
+      "hackney carriage",
+      "buggy"
+    ],
+    "ch-25": [
+      "Uncle Thak",
+      "Bancharam",
+      "Baburam Babu",
+      "Motilal",
+      "Ravana",
+      "Jessore",
+      "bigha",
+      "katha",
+      "Calcutta",
+      "goswara",
+      "jamawasil baki",
+      "khodkasta",
+      "paikasta",
+      "ek-kasta",
+      "Robdhan",
+      "Salaam",
+      "babla",
+      "Supreme Court",
+      "indigo sahib",
+      "magistrate",
+      "retinue",
+      "fallow",
+      "landholders",
+      "remission",
+      "babu",
+      "entourage",
+      "overseer",
+      "bungalow",
+      "pith helmet",
+      "brandy",
+      "Taza Bataza"
+    ],
+    "ch-26": [
+      "Thakchacha",
+      "Banchharam",
+      "Butler Sahib",
+      "Bar",
+      "Khodabux",
+      "Thakchachi",
+      "Mary Baiko",
+      "Roso Sahib",
+      "serestadar",
+      "peskar",
+      "indigo planter",
+      "Bengalis",
+      "magistrate",
+      "sahib",
+      "naib",
+      "zamindari",
+      "zamindar",
+      "Benigarden",
+      "Baidyabati",
+      "Calcutta",
+      "Delhi",
+      "Sealdah",
+      "Faridpur",
+      "Durga",
+      "Dol",
+      "Brahmins",
+      "Munshi-ji",
+      "Sarfaraz",
+      "tiffin",
+      "cheroot",
+      "orderly",
+      "sepoys",
+      "mat",
+      "lock-up",
+      "criminal ward",
+      "harem",
+      "dry cell",
+      "rosary",
+      "installment"
+    ],
+    "ch-27": [
+      "Banchharam",
+      "Thakchacha",
+      "Bahulya",
+      "Maulvi Sahib",
+      "Sarjan Bahulya",
+      "Bardaprasad Biswas",
+      "Mr. Russell",
+      "Clark Ab di Crone",
+      "Badar",
+      "Bhabanipur",
+      "Kartik",
+      "Maulvi Saheb",
+      "mofussil",
+      "zamindars",
+      "indigo planters",
+      "Gokul",
+      "padre",
+      "padre sahib",
+      "Denga Bhabanipur",
+      "Ram",
+      "Ganga",
+      "Bansdroni ghat",
+      "Shaganj",
+      "Tipu",
+      "Hadi",
+      "duli",
+      "Bardababu",
+      "Calcutta",
+      "Sealdah",
+      "sahibs",
+      "babus",
+      "peons",
+      "veranda",
+      "hookah",
+      "ghat",
+      "palanquin",
+      "Sessions",
+      "Grand Jury",
+      "Petit Jury",
+      "dock",
+      "butler sahib",
+      "Brahmin’s blessing",
+      "orderlies",
+      "maces",
+      "sheriff",
+      "deputy sheriff",
+      "Chup",
+      "Hish",
+      "Oyez",
+      "company papers",
+      "penal settlement"
+    ],
+    "ch-28": [
+      "Borda Babu",
+      "Beni Babu",
+      "Becharam Babu",
+      "Uncle Thok",
+      "Motilal",
+      "Premnarayan Majumdar",
+      "Bakreshwar",
+      "Bancharam",
+      "Baradaprasad Babu",
+      "Hari",
+      "Ramlal",
+      "Bahulya",
+      "Baidyabati",
+      "Ramayana",
+      "Bawaji",
+      "Kobikankan",
+      "Valmiki",
+      "Vyasa",
+      "Vedas",
+      "Puranas",
+      "Haridwar",
+      "Delhi",
+      "Nadir Shah",
+      "Muhammad Shah",
+      "Hamir raga",
+      "Norchandri",
+      "Babla",
+      "champa",
+      "Babu",
+      "tanpura",
+      "veranda",
+      "retinue",
+      "hookah",
+      "rupees",
+      "laba-laba",
+      "puffed rice cakes"
+    ],
+    "ch-29": [
+      "Bancharam Babu",
+      "Baburam",
+      "Heramba Babu",
+      "Motilal’s wife",
+      "Motilal’s stepmother",
+      "Babu Bardaprasad",
+      "Beni Babu",
+      "Alami",
+      "Pir",
+      "China Bazaar",
+      "Bhadrasan",
+      "Ganges",
+      "Baidyabati",
+      "Chowdhury Mahashay",
+      "vakalatnama",
+      "Hanuman",
+      "Ravana",
+      "Lanka",
+      "ferryman",
+      "bolster",
+      "shawl",
+      "peon",
+      "palanquin"
+    ],
+    "ch-30": [
+      "Motilal",
+      "Ramlal",
+      "Borda Babu",
+      "Promoda",
+      "Heramba Chandra Chowdhury Babu",
+      "Bancharam",
+      "Bakreshwar",
+      "Thakchacha",
+      "Bahulya",
+      "Thakchachi",
+      "Becharam Babu",
+      "Benibabu",
+      "Premnarayan Majumdar",
+      "Jan Sahib",
+      "Pramoda’s husband",
+      "Alya",
+      "Jessore",
+      "Benares",
+      "Ganges",
+      "Vrindavan",
+      "Yamuna",
+      "Braj",
+      "veena",
+      "arati",
+      "Keshi Ghat",
+      "Mathura",
+      "sari",
+      "Bengali",
+      "Krishna",
+      "Arjuna",
+      "Bardaprasad Biswas",
+      "Lakshmipati",
+      "Manikarnika Ghat",
+      "Kashi",
+      "Dvivedis",
+      "Chaturvedis",
+      "Ramats",
+      "Naimats",
+      "Shaivas",
+      "Shaktas",
+      "Ganapatyas",
+      "Paramahansas",
+      "Brahmacharis",
+      "Samavedis",
+      "Kauthumas",
+      "Agni",
+      "Vayu",
+      "Hara Vishweshwar",
+      "Bhairavis",
+      "Bhairava",
+      "Udasis",
+      "rechaka",
+      "puraka",
+      "kumbhaka",
+      "mridangam",
+      "rabab",
+      "tanpura",
+      "dhrupad",
+      "dharu",
+      "khayal",
+      "prabandha",
+      "chhanda",
+      "sorabandha",
+      "tarana",
+      "sargam",
+      "chaturang",
+      "naqsh",
+      "Bhagirathi",
+      "Shuka Upanishad",
+      "Monghyr",
+      "Baidyabati",
+      "Badarganj",
+      "Navadwip",
+      "Mahadev",
+      "Churiyaler Churiya",
+      "ghat",
+      "guru",
+      "babu",
+      "sadhu",
+      "arati",
+      "sari",
+      "bangle-seller",
+      "tappa",
+      "jalgoja",
+      "tajpheni",
+      "ghyaaru"
+    ]
+  }
+}

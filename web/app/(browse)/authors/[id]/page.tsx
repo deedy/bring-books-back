@@ -1,5 +1,7 @@
+import Link from "next/link";
 import { getCatalog } from "@/lib/data";
 import BookCard from "@/components/BookCard";
+import BackButton from "@/components/BackButton";
 
 export function generateStaticParams() {
   const catalog = getCatalog();
@@ -18,9 +20,14 @@ export default async function AuthorPage({
   const bioParagraphs = author.bio.split("\n\n");
 
   return (
-    <div className="max-w-4xl mx-auto px-6 py-12">
+    <div className="max-w-4xl mx-auto px-6 pb-12">
+      {/* Back bar */}
+      <div className="sticky top-16 z-10 -mx-6 px-6 py-2 bg-[#0a0a0b]/80 backdrop-blur-md">
+        <BackButton />
+      </div>
+
       {/* Author Header */}
-      <div className="flex flex-col items-center text-center">
+      <div className="flex flex-col items-center text-center mt-8">
         <div className="w-32 h-32 rounded-full overflow-hidden shadow-xl">
           <img
             src={author.image}

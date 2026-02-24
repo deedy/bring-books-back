@@ -1,0 +1,2552 @@
+{
+  "glossary": {
+    "Nepal": {
+      "type": "proper_noun",
+      "description": "A country in South Asia, located in the Himalayas, referenced here as the origin of a royal family."
+    },
+    "kos": {
+      "type": "vocabulary",
+      "description": "An ancient Indian unit of distance, roughly equivalent to 2-3 kilometers."
+    },
+    "pajamas": {
+      "type": "vocabulary",
+      "description": "In this context, refers to traditional loose trousers worn in South Asia, distinct from Western sleepwear."
+    },
+    "Arjun": {
+      "type": "character",
+      "description": "A young man who assists Sumedh by fetching garments for the protagonist and serving breakfast; he appears to be a helpful member of the household."
+    },
+    "Vishwabandhu": {
+      "type": "character",
+      "description": "The protagonist and narrator, who claims to have emerged from a cave after two hundred years; he is the guest whose story is the focus of curiosity."
+    },
+    "Sumedh": {
+      "type": "character",
+      "description": "A gentleman who welcomes Vishwabandhu, facilitates his integration into the group, and leads the proceedings; he is a central figure in the community.",
+      "image": "/data/images/characters/baeesween-sadi/sumedh.png"
+    },
+    "Sumitra": {
+      "type": "character",
+      "description": "A lady who sits beside Sumedh during breakfast and is later identified as his companion."
+    },
+    "Vriddhapur": {
+      "type": "proper_noun",
+      "description": "A place mentioned as having several elderly men; the name suggests an ancient or elderly settlement (from 'vriddha' meaning old in Sanskrit/Hindi)."
+    },
+    "Sebgram": {
+      "type": "proper_noun",
+      "description": "The name of the location or settlement where the orchards are found; 'seb' means apple in Hindi, indicating a place known for its orchards."
+    },
+    "Universal": {
+      "type": "proper_noun",
+      "description": "Refers to the 'Universal year,' a futuristic calendar system used in the story's setting, distinct from the Christian era."
+    },
+    "Christian era": {
+      "type": "proper_noun",
+      "description": "A reference to the Gregorian calendar system (Anno Domini), used here to relate the story's timeline to the reader."
+    },
+    "Vishvabandhuji": {
+      "type": "proper_noun",
+      "description": "An honorific form of Vishwabandhu's name, with 'ji' added as a mark of respect."
+    },
+    "Sumedh ji": {
+      "type": "proper_noun",
+      "description": "An honorific form of Sumedh's name, with 'ji' used as a respectful suffix."
+    },
+    "dhotis": {
+      "type": "vocabulary",
+      "description": "Traditional Indian garments for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "Pratibha": {
+      "type": "character",
+      "description": "Arjun's partner, originally from Kashmir, also educated at Nalanda."
+    },
+    "Devmitra": {
+      "type": "character",
+      "description": "The village chief (head of the village council) who welcomes the narrator and communicates via advanced technology.",
+      "image": "/data/images/characters/baeesween-sadi/devmitra.png"
+    },
+    "Vishvabandhu": {
+      "type": "character",
+      "description": "The narrator, a teacher from twentieth-century Nalanda University who awakens in the future."
+    },
+    "Vishwamitra": {
+      "type": "character",
+      "description": "A professor of history at Nalanda University and author of 'The History of Universal National Organization,' who meets the narrator.",
+      "image": "/data/images/characters/baeesween-sadi/vishwamitra.png"
+    },
+    "Dev": {
+      "type": "character",
+      "description": "A village resident who assists with guest arrangements and amenities.",
+      "image": "/data/images/characters/baeesween-sadi/dev.png"
+    },
+    "Vashishtha": {
+      "type": "character",
+      "description": "The Acharya (head teacher) of Nalanda University, who has served the institution for seventy years."
+    },
+    "Banarasi": {
+      "type": "proper_noun",
+      "description": "Refers to something from Banaras (Kashi/Varanasi), a city in India, often used to describe a type of berry or fruit."
+    },
+    "Bihar": {
+      "type": "proper_noun",
+      "description": "A province in eastern India, historically significant and mentioned as a fruit distribution area."
+    },
+    "Orissa": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, now known as Odisha."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A historical region in South Asia, now divided between Bangladesh and the Indian state of West Bengal."
+    },
+    "Kashi": {
+      "type": "proper_noun",
+      "description": "Another name for Varanasi, a sacred city in India."
+    },
+    "Kosala": {
+      "type": "proper_noun",
+      "description": "An ancient kingdom in northern India, referenced here as a region."
+    },
+    "Nalanda": {
+      "type": "proper_noun",
+      "description": "A historical region and the site of the ancient Nalanda University in Bihar, India."
+    },
+    "Nalanda University": {
+      "type": "proper_noun",
+      "description": "A renowned ancient center of learning in Bihar, India, revived and thriving in the novel's future."
+    },
+    "Vasubandhu Hall": {
+      "type": "proper_noun",
+      "description": "A hall at Nalanda University, likely named after the Buddhist philosopher Vasubandhu."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital city of Nepal."
+    },
+    "Shak-gram": {
+      "type": "proper_noun",
+      "description": "A village in Gaya district, mentioned as a place of residence."
+    },
+    "Gaya": {
+      "type": "proper_noun",
+      "description": "A district in Bihar, India, significant in Buddhist history."
+    },
+    "Hazaribagh": {
+      "type": "proper_noun",
+      "description": "A district in Jharkhand, India, here featuring an 'Elderly Village.'"
+    },
+    "Anuradhapura": {
+      "type": "proper_noun",
+      "description": "A historic city in Sri Lanka (Lanka), mentioned as Arjun's birthplace."
+    },
+    "Lanka": {
+      "type": "proper_noun",
+      "description": "The ancient name for the island of Sri Lanka."
+    },
+    "Bodh Gaya": {
+      "type": "proper_noun",
+      "description": "A town in Bihar, India, where the Buddha attained enlightenment."
+    },
+    "Kashmir": {
+      "type": "proper_noun",
+      "description": "A region in northern India, known for its beauty and mentioned as Pratibha's origin."
+    },
+    "Sevagram": {
+      "type": "proper_noun",
+      "description": "A self-sufficient village community, literally 'village of service,' with a population of five thousand."
+    },
+    "Patna": {
+      "type": "proper_noun",
+      "description": "The capital city of Bihar, India, serving as a communication hub in the future."
+    },
+    "Takshashila": {
+      "type": "proper_noun",
+      "description": "An ancient university town in present-day Pakistan, referenced as the educational background of the world president."
+    },
+    "Chandragadhi": {
+      "type": "proper_noun",
+      "description": "A town in Nepal, here on the railway route."
+    },
+    "Phaping": {
+      "type": "proper_noun",
+      "description": "A location in Nepal, once the site of a power plant."
+    },
+    "Chandra Shamsher": {
+      "type": "proper_noun",
+      "description": "A historical king of Nepal known for infrastructure projects."
+    },
+    "Farpig": {
+      "type": "proper_noun",
+      "description": "A mountain area in Nepal, affected by environmental changes due to development."
+    },
+    "Videha": {
+      "type": "proper_noun",
+      "description": "An ancient kingdom, here used as a regional name supplied with electricity."
+    },
+    "Malla": {
+      "type": "proper_noun",
+      "description": "A historical region or dynasty in Nepal and northern India."
+    },
+    "Bagmati": {
+      "type": "proper_noun",
+      "description": "A river in Nepal, mentioned as a geographical landmark."
+    },
+    "Apple Village": {
+      "type": "proper_noun",
+      "description": "A village specializing in apple orchards, named for its main produce."
+    },
+    "Orange Village": {
+      "type": "proper_noun",
+      "description": "A village specializing in orange groves."
+    },
+    "Banana Village": {
+      "type": "proper_noun",
+      "description": "A village specializing in banana cultivation."
+    },
+    "Guest Rest House": {
+      "type": "proper_noun",
+      "description": "A designated house for guests in the village."
+    },
+    "Acharya": {
+      "type": "proper_noun",
+      "description": "The head teacher or principal of an educational institution, here at Nalanda University."
+    },
+    "Gramani Mahashay": {
+      "type": "proper_noun",
+      "description": "A respected village leader or elder who facilitated the narrator's introduction."
+    },
+    "Universal National Organization": {
+      "type": "proper_noun",
+      "description": "A global political entity established in the novel's future."
+    },
+    "United Asian Nation": {
+      "type": "proper_noun",
+      "description": "A political union of Asian countries in the future history of the novel."
+    },
+    "United Asia-Africa-Australia Nation": {
+      "type": "proper_noun",
+      "description": "A future union of Asia, Africa, and Australia."
+    },
+    "United Europe-America Nation": {
+      "type": "proper_noun",
+      "description": "A future union of Europe and America."
+    },
+    "Minister of War": {
+      "type": "proper_noun",
+      "description": "A government position responsible for military affairs, abolished in the future society."
+    },
+    "kurtas": {
+      "type": "vocabulary",
+      "description": "Traditional long shirts worn in South Asia."
+    },
+    "Gram": {
+      "type": "vocabulary",
+      "description": "Means 'village' in Hindi/Sanskrit, as in 'Sevagram.'"
+    },
+    "Gramani": {
+      "type": "vocabulary",
+      "description": "Village head or elder."
+    },
+    "Mahashay": {
+      "type": "vocabulary",
+      "description": "A respectful term for a gentleman or elder."
+    },
+    "Bose-Bon mourners": {
+      "type": "vocabulary",
+      "description": "A futuristic or possibly mis-transliterated term, likely referring to a type of vehicle seating or technology."
+    },
+    "word-broadcaster": {
+      "type": "vocabulary",
+      "description": "A device for transmitting speech to a large audience, likely a futuristic public address or radio system."
+    },
+    "Padmavati": {
+      "type": "character",
+      "description": "A gracious woman associated with the guest house, who interacts politely with the main characters and helps keep them informed about meal times."
+    },
+    "Sumedhji": {
+      "type": "character",
+      "description": "A respected individual, addressed with the honorific 'ji', who is seen with a watch and is later revealed to be the elected head of a row of houses."
+    },
+    "Bargaon": {
+      "type": "proper_noun",
+      "description": "A place marking the starting point of Nalanda University's expanded campus."
+    },
+    "Rajgriha": {
+      "type": "proper_noun",
+      "description": "An ancient city in India, now part of the extended Nalanda University campus."
+    },
+    "Universal Union": {
+      "type": "proper_noun",
+      "description": "A futuristic global governing or coordinating body that oversees educational and historical resource collection."
+    },
+    "Rome": {
+      "type": "proper_noun",
+      "description": "The ancient Roman civilization, referenced for its historical materials."
+    },
+    "Greece": {
+      "type": "proper_noun",
+      "description": "The ancient Greek civilization, referenced for its historical materials."
+    },
+    "Egypt": {
+      "type": "proper_noun",
+      "description": "The ancient Egyptian civilization, referenced for its historical materials."
+    },
+    "Assyria": {
+      "type": "proper_noun",
+      "description": "An ancient Mesopotamian civilization, referenced for its historical materials."
+    },
+    "Chaldea": {
+      "type": "proper_noun",
+      "description": "An ancient region in southern Babylonia, referenced for its historical materials."
+    },
+    "Mexico": {
+      "type": "proper_noun",
+      "description": "Referenced here for its ancient civilizations and historical materials."
+    },
+    "Sanskrit": {
+      "type": "proper_noun",
+      "description": "An ancient classical language of India, taught at Nalanda."
+    },
+    "Pali": {
+      "type": "proper_noun",
+      "description": "An ancient language of the Indian subcontinent, important in Buddhist scriptures."
+    },
+    "Zend": {
+      "type": "proper_noun",
+      "description": "A term referring to the language of Zoroastrian scriptures, also known as Avestan."
+    },
+    "Prakrit": {
+      "type": "proper_noun",
+      "description": "A group of Middle Indic languages historically spoken in India."
+    },
+    "Greek": {
+      "type": "proper_noun",
+      "description": "The language of ancient and modern Greece, taught at Nalanda."
+    },
+    "Latin (Roman)": {
+      "type": "proper_noun",
+      "description": "The classical language of ancient Rome, taught at Nalanda."
+    },
+    "Vaibhara Hill": {
+      "type": "proper_noun",
+      "description": "A hill near Rajgriha, where Nalanda's great observatory is located."
+    },
+    "Ayurveda": {
+      "type": "proper_noun",
+      "description": "A traditional Indian system of medicine, studied at Takshashila."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch or gallery attached to the outside of a building, common in Indian architecture."
+    },
+    "ji": {
+      "type": "vocabulary",
+      "description": "A Hindi honorific suffix used to show respect, often attached to names."
+    },
+    "Devamitra": {
+      "type": "character",
+      "description": "A companion of the narrator, seated to his right at the dining hall and later helps guide the narrator through the village."
+    },
+    "Ismail": {
+      "type": "character",
+      "description": "A respected elder, former head of the village and president of the Nepal Republic, who presides over the assembly and is noted for his wisdom and lineage.",
+      "image": "/data/images/characters/baeesween-sadi/ismail.png"
+    },
+    "Priyamvada": {
+      "type": "character",
+      "description": "Ismail’s wife, who assists the narrator in understanding village matters.",
+      "image": "/data/images/characters/baeesween-sadi/priyamvada.png"
+    },
+    "Arjan": {
+      "type": "character",
+      "description": "Referenced as someone whose parents were residents of Lanka, providing a clue to the diversity of the village."
+    },
+    "Shafi": {
+      "type": "character",
+      "description": "An illustrious ancestor of Ismail, described as a Vaishali-born sage and great man."
+    },
+    "Brahmins": {
+      "type": "proper_noun",
+      "description": "A traditional Hindu priestly caste, referenced in the context of questioning caste distinctions."
+    },
+    "Kshatriyas": {
+      "type": "proper_noun",
+      "description": "A traditional Hindu warrior caste, also referenced in the context of caste distinctions."
+    },
+    "Vaishali": {
+      "type": "proper_noun",
+      "description": "An ancient city in Bihar, India, known for its historical and religious significance; birthplace of Shafi."
+    },
+    "Nepal Republic": {
+      "type": "proper_noun",
+      "description": "A future political entity, indicating Nepal as a republic with which Ismail was associated."
+    },
+    "Acharya Vishwabandhu": {
+      "type": "proper_noun",
+      "description": "A revered teacher who served the school for thirty years before leaving for Uttarakhand."
+    },
+    "Uttarakhand": {
+      "type": "proper_noun",
+      "description": "A northern Indian region, referenced as the place where Acharya Vishwabandhu went."
+    },
+    "Budh-Pokhar": {
+      "type": "proper_noun",
+      "description": "A local place near Nalanda, mentioned as lacking its present beauty in the past."
+    },
+    "Badgaon": {
+      "type": "proper_noun",
+      "description": "A small village near Nalanda, known for its Sun temple and the Kartik’s Surya-Shashthi fair."
+    },
+    "Sun": {
+      "type": "proper_noun",
+      "description": "Referenced in the context of the temple at Badgaon, likely meaning the Hindu Sun God (Surya)."
+    },
+    "Kartik’s Surya-Shashthi": {
+      "type": "proper_noun",
+      "description": "A Hindu festival dedicated to the Sun God, celebrated in the month of Kartik."
+    },
+    "Chamars": {
+      "type": "proper_noun",
+      "description": "A Dalit caste traditionally associated with leatherwork, mentioned in the context of caste hierarchy."
+    },
+    "Ahirs": {
+      "type": "proper_noun",
+      "description": "A pastoral caste group, referenced in the context of caste distinctions."
+    },
+    "Rajputs": {
+      "type": "proper_noun",
+      "description": "A traditional warrior caste, referenced in the context of caste hierarchy."
+    },
+    "Pathans": {
+      "type": "proper_noun",
+      "description": "A Muslim ethnic group, referenced in the context of social hierarchy."
+    },
+    "Sayyids": {
+      "type": "proper_noun",
+      "description": "A Muslim group claiming descent from the Prophet Muhammad, referenced in the context of caste and social status."
+    },
+    "Momins": {
+      "type": "proper_noun",
+      "description": "A Muslim community, referenced in the context of social hierarchy."
+    },
+    "Mawn": {
+      "type": "proper_noun",
+      "description": "Likely a place or community, referenced in relation to the Momins and weavers."
+    },
+    "Bharati": {
+      "type": "proper_noun",
+      "description": "The future common language of India in the novel, described as a representative of Hindi-Urdu."
+    },
+    "Nagari": {
+      "type": "proper_noun",
+      "description": "The script used for Bharati, referring to Devanagari script."
+    },
+    "Seb-gram": {
+      "type": "proper_noun",
+      "description": "The Hindi term for 'Apple Village', the futuristic, ideal village where the story is set."
+    },
+    "Bundelkhand": {
+      "type": "proper_noun",
+      "description": "A region in central India, referenced in the context of rural poverty."
+    },
+    "Magh": {
+      "type": "proper_noun",
+      "description": "A winter month in the Hindu calendar, corresponding roughly to January-February."
+    },
+    "Paush": {
+      "type": "proper_noun",
+      "description": "A winter month in the Hindu calendar, preceding Magh."
+    },
+    "nawab": {
+      "type": "proper_noun",
+      "description": "A title for Muslim rulers or noblemen in South Asia."
+    },
+    "babu": {
+      "type": "proper_noun",
+      "description": "A term for a gentleman or official, often used for educated or wealthy men."
+    },
+    "taluqdar": {
+      "type": "proper_noun",
+      "description": "A landholder or landlord in colonial India."
+    },
+    "seth-sahukar": {
+      "type": "proper_noun",
+      "description": "A term for wealthy merchants or moneylenders."
+    },
+    "mahajan": {
+      "type": "proper_noun",
+      "description": "A term for a moneylender or financier."
+    },
+    "Maulvis": {
+      "type": "proper_noun",
+      "description": "Islamic religious scholars or clerics."
+    },
+    "Vedas": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu scriptures."
+    },
+    "Puranas": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu mythological texts."
+    },
+    "Prophets": {
+      "type": "proper_noun",
+      "description": "Refers to religious prophets, especially in the Islamic tradition."
+    },
+    "Sheikh Chilli": {
+      "type": "proper_noun",
+      "description": "A folkloric character known for his fanciful and unrealistic ideas."
+    },
+    "Raybahadur": {
+      "type": "proper_noun",
+      "description": "An honorific title awarded during British India for public service."
+    },
+    "Khanbahadur": {
+      "type": "proper_noun",
+      "description": "An honorific title awarded to Muslims during British India."
+    },
+    "Rajabahadur": {
+      "type": "proper_noun",
+      "description": "An honorific title, similar to Raybahadur, awarded during British India."
+    },
+    "Maharajabahadur": {
+      "type": "proper_noun",
+      "description": "A higher honorific title, combining 'Maharaja' and 'Bahadur', used during British India."
+    },
+    "Nawabbahadur": {
+      "type": "proper_noun",
+      "description": "A title combining 'Nawab' and 'Bahadur', used as a mark of distinction."
+    },
+    "Sovereign Union President": {
+      "type": "proper_noun",
+      "description": "A futuristic political title, here referring to Mr. Dutt."
+    },
+    "Mr. Dutt": {
+      "type": "proper_noun",
+      "description": "The Sovereign Union President, a political leader in the future society."
+    },
+    "halwa": {
+      "type": "vocabulary",
+      "description": "A sweet Indian dessert made from flour, sugar, and ghee."
+    },
+    "samadhi": {
+      "type": "vocabulary",
+      "description": "A state of deep meditation or spiritual absorption, sometimes used to mean death in a spiritual context."
+    },
+    "Surya-Shashthi": {
+      "type": "vocabulary",
+      "description": "A Hindu festival dedicated to the worship of the Sun God."
+    },
+    "ekkas": {
+      "type": "vocabulary",
+      "description": "Two-wheeled horse-drawn carts used for transportation in India."
+    },
+    "batashas": {
+      "type": "vocabulary",
+      "description": "Round, crisp sugar confections commonly sold by sweet vendors in India."
+    },
+    "laddus": {
+      "type": "vocabulary",
+      "description": "Sweet, round Indian confections made from flour, sugar, and ghee."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment, a long piece of cloth wrapped around the waist and legs."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by women, consisting of a long piece of cloth draped around the body."
+    },
+    "bhang": {
+      "type": "vocabulary",
+      "description": "An intoxicating drink made from cannabis leaves, traditionally consumed in parts of India."
+    },
+    "Maharaj": {
+      "type": "vocabulary",
+      "description": "A respectful title meaning 'great king' or 'lord', used for men of high status."
+    },
+    "weavers": {
+      "type": "vocabulary",
+      "description": "Refers to members of the weaving caste or community, often considered lower in the traditional hierarchy."
+    },
+    "burqas": {
+      "type": "vocabulary",
+      "description": "Full-body veils worn by some Muslim women for modesty."
+    },
+    "bathe": {
+      "type": "vocabulary",
+      "description": "In Indian English, often refers to taking a bath rather than swimming."
+    },
+    "latrine": {
+      "type": "vocabulary",
+      "description": "A toilet, especially one in a simple or rural setting."
+    },
+    "Guest Rest": {
+      "type": "vocabulary",
+      "description": "A term used for a guesthouse or lodging for visitors in the village."
+    },
+    "Fatima": {
+      "type": "character",
+      "description": "Fatima is the chief superintendent of the Children's Garden, an elderly but energetic widow who has dedicated her life to the care of children."
+    },
+    "Manorama": {
+      "type": "character",
+      "description": "Manorama is a physician at the hospital, responsible for the health of the village and for promoting healthful living."
+    },
+    "Rahimbakhsh": {
+      "type": "character",
+      "description": "Rahimbakhsh is Manorama's husband and the assistant physician at the hospital; both are highly educated and natives of Kashmir."
+    },
+    "Hrishikesh Dwivedi": {
+      "type": "character",
+      "description": "Hrishikesh Dwivedi was Fatima's late husband, also a graduate of Takshashila and a physician in the village."
+    },
+    "Sebagram": {
+      "type": "proper_noun",
+      "description": "The name of the village where the story is set, representing a model futuristic settlement."
+    },
+    "Children’s Garden": {
+      "type": "proper_noun",
+      "description": "A large educational and recreational facility for children, located at the edge of the village."
+    },
+    "Assembly Hall": {
+      "type": "proper_noun",
+      "description": "A central building in the village used for gatherings and meetings."
+    },
+    "Dining Hall": {
+      "type": "proper_noun",
+      "description": "The communal eating area where villagers share meals."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country referenced in the context of population and national policies."
+    },
+    "Europe": {
+      "type": "proper_noun",
+      "description": "A continent referenced in discussions about animal husbandry and dietary customs."
+    },
+    "America": {
+      "type": "proper_noun",
+      "description": "A continent referenced alongside Europe in the context of animal husbandry."
+    },
+    "Parsis": {
+      "type": "proper_noun",
+      "description": "A Zoroastrian community in India, mentioned in relation to dietary customs."
+    },
+    "Christians": {
+      "type": "proper_noun",
+      "description": "A religious community mentioned in the context of communal dining customs."
+    },
+    "Muslims": {
+      "type": "proper_noun",
+      "description": "A religious community mentioned in the context of communal dining customs."
+    },
+    "Shri": {
+      "type": "proper_noun",
+      "description": "An honorific title used before names in India, here preceding Hrishikesh Dwivedi."
+    },
+    "lungi": {
+      "type": "vocabulary",
+      "description": "A traditional garment, typically a long cloth wrapped around the waist, worn in South Asia."
+    },
+    "jalebi": {
+      "type": "vocabulary",
+      "description": "A popular Indian sweet made by deep-frying batter in circular shapes and soaking them in sugar syrup."
+    },
+    "gulab jamun": {
+      "type": "vocabulary",
+      "description": "A traditional Indian dessert consisting of deep-fried dough balls soaked in sweet syrup."
+    },
+    "beedi": {
+      "type": "vocabulary",
+      "description": "A thin, hand-rolled cigarette made from tobacco wrapped in a tendu or similar leaf, common in India."
+    },
+    "catechu": {
+      "type": "vocabulary",
+      "description": "A brownish substance obtained from the acacia tree, used in India as a component of betel quid (paan)."
+    },
+    "kurti": {
+      "type": "vocabulary",
+      "description": "A type of tunic worn by women in South Asia, typically paired with a sari or other lower garment."
+    },
+    "sattvic": {
+      "type": "vocabulary",
+      "description": "A term from Indian philosophy and Ayurveda referring to foods or qualities considered pure, wholesome, and beneficial for body and mind."
+    },
+    "Vijay": {
+      "type": "character",
+      "description": "A clever and strong child in the nursery, often eager to participate in singing and games; he is frequently mentioned in interactions with the mothers and other children."
+    },
+    "Dhruv": {
+      "type": "character",
+      "description": "A young boy in the nursery, known for his playful and innocent remarks, and for his interactions with Janaki and other caregivers."
+    },
+    "Janaki": {
+      "type": "character",
+      "description": "One of the mothers or caregivers in the nursery, often referred to as Janaki Amma; she sings hymns and cares for the children."
+    },
+    "Zainab": {
+      "type": "character",
+      "description": "Another mother or caregiver, called Zainab Amma; she sings, cares for the children, and is affectionate, especially towards Rohini."
+    },
+    "Rohini": {
+      "type": "character",
+      "description": "A two-and-a-half-year-old girl in the nursery, known for her spirited conversation about being both a daughter and a sister."
+    },
+    "Kamal": {
+      "type": "character",
+      "description": "Mentioned as Kamal Maiya, likely another caregiver or mother figure in the nursery, referenced by Rohini."
+    },
+    "Murtaza": {
+      "type": "character",
+      "description": "A young boy in the nursery, enthusiastic about playing the sitar and participating in performances; he interacts closely with Priyamvada."
+    },
+    "Prahlad": {
+      "type": "character",
+      "description": "Mentioned as Prahlad Maiya, likely another child in the nursery, referenced in discussions about sharing and order."
+    },
+    "Ibrahim": {
+      "type": "character",
+      "description": "Mentioned as Ibrahim Maiya, another child in the nursery, referenced in the context of sharing food."
+    },
+    "Jamshed": {
+      "type": "character",
+      "description": "Mentioned as Jamshed Maiya, another child in the nursery, referenced in the context of sharing food."
+    },
+    "Shyam": {
+      "type": "character",
+      "description": "Mentioned as Shyam Maiya, another child in the nursery, referenced in the context of sharing food."
+    },
+    "Maryam": {
+      "type": "character",
+      "description": "A child in the nursery who participates in the letter-guessing game."
+    },
+    "Rukmino": {
+      "type": "character",
+      "description": "A child in the nursery who participates in the letter-guessing game with Maryam."
+    },
+    "Rukmini": {
+      "type": "character",
+      "description": "Likely the same as Rukmino, a child in the nursery involved in the letter-guessing game."
+    },
+    "Priyavrat": {
+      "type": "character",
+      "description": "A child in the nursery who helps by bringing toys, such as the rabbit, during games."
+    },
+    "Acharya Vishwamitra": {
+      "type": "character",
+      "description": "A formal title for Vishwamitra, indicating his scholarly or teacher status."
+    },
+    "Bela": {
+      "type": "proper_noun",
+      "description": "A fragrant white flower (Jasmine sambac) commonly found in India."
+    },
+    "chameli": {
+      "type": "proper_noun",
+      "description": "A type of jasmine flower known for its fragrance."
+    },
+    "champa": {
+      "type": "proper_noun",
+      "description": "A fragrant flower, also known as plumeria or frangipani, common in India."
+    },
+    "juhi": {
+      "type": "proper_noun",
+      "description": "A variety of jasmine flower, known for its sweet fragrance."
+    },
+    "mogra": {
+      "type": "proper_noun",
+      "description": "Another type of jasmine flower, valued for its scent."
+    },
+    "kunda": {
+      "type": "proper_noun",
+      "description": "A white flower (Jasminum multiflorum), often used in garlands and religious offerings."
+    },
+    "pipal": {
+      "type": "proper_noun",
+      "description": "A sacred fig tree (Ficus religiosa) revered in Indian culture."
+    },
+    "jamun": {
+      "type": "proper_noun",
+      "description": "An Indian fruit, also known as black plum or java plum."
+    },
+    "lychee": {
+      "type": "proper_noun",
+      "description": "A tropical fruit, originally from China but widely grown in India."
+    },
+    "jackfruit": {
+      "type": "proper_noun",
+      "description": "A large tropical fruit native to South and Southeast Asia."
+    },
+    "jujube": {
+      "type": "proper_noun",
+      "description": "A small, sweet fruit, also known as ber in Hindi."
+    },
+    "guava": {
+      "type": "proper_noun",
+      "description": "A tropical fruit commonly grown in India."
+    },
+    "sitars": {
+      "type": "proper_noun",
+      "description": "A traditional Indian stringed musical instrument."
+    },
+    "mizrab": {
+      "type": "proper_noun",
+      "description": "A plectrum used to pluck the strings of the sitar."
+    },
+    "Maiya": {
+      "type": "proper_noun",
+      "description": "A Hindi term meaning 'mother,' used here as a suffix to indicate affection or familial relation."
+    },
+    "Amma": {
+      "type": "proper_noun",
+      "description": "A Hindi word for 'mother,' used as a respectful or affectionate term for female caregivers."
+    },
+    "veena": {
+      "type": "proper_noun",
+      "description": "A classical Indian stringed instrument, similar to a lute."
+    },
+    "Raxaul": {
+      "type": "proper_noun",
+      "description": "A town in Bihar, India, near the Nepal border."
+    },
+    "Sugauli": {
+      "type": "proper_noun",
+      "description": "A town in Bihar, India."
+    },
+    "Motihari": {
+      "type": "proper_noun",
+      "description": "A city in Bihar, India."
+    },
+    "Muzaffarpur": {
+      "type": "proper_noun",
+      "description": "A city in Bihar, India."
+    },
+    "Bakhtiyarpur": {
+      "type": "proper_noun",
+      "description": "A town in Bihar, India."
+    },
+    "E.I. Railway": {
+      "type": "proper_noun",
+      "description": "East Indian Railway, a major railway company during British India."
+    },
+    "B.N.W. Railway": {
+      "type": "proper_noun",
+      "description": "Bengal and North Western Railway, a historical railway company in India."
+    },
+    "Bakhtiyarpur-Bihar": {
+      "type": "proper_noun",
+      "description": "Refers to the 'baby railway' line connecting Bakhtiyarpur and Bihar."
+    },
+    "Mangama": {
+      "type": "proper_noun",
+      "description": "Refers to a bridge, likely a local landmark or infrastructure in Bihar."
+    },
+    "Mohanpur": {
+      "type": "proper_noun",
+      "description": "A place or station mentioned as a boarding point for the journey."
+    },
+    "Socrates": {
+      "type": "proper_noun",
+      "description": "The ancient Greek philosopher, depicted in the museum."
+    },
+    "Buddha": {
+      "type": "proper_noun",
+      "description": "Siddhartha Gautama, the founder of Buddhism, depicted in the museum."
+    },
+    "Angulimala": {
+      "type": "proper_noun",
+      "description": "A figure from Buddhist legend, known for his transformation from a bandit to a disciple of Buddha."
+    },
+    "Gandhi": {
+      "type": "proper_noun",
+      "description": "Refers to Mahatma Gandhi, leader of the Indian independence movement."
+    },
+    "Abraham Lincoln": {
+      "type": "proper_noun",
+      "description": "The 16th President of the United States, known for abolishing slavery."
+    },
+    "Joan": {
+      "type": "proper_noun",
+      "description": "Refers to Joan of Arc, a French heroine and martyr."
+    },
+    "Ashoka": {
+      "type": "proper_noun",
+      "description": "An ancient Indian emperor known for his conversion to Buddhism and promotion of non-violence."
+    },
+    "Dhruva": {
+      "type": "proper_noun",
+      "description": "A legendary figure in Hindu mythology, also the name of the pole star."
+    },
+    "Saptarishi": {
+      "type": "proper_noun",
+      "description": "The seven great sages in Hindu tradition, also referring to a prominent constellation (the Big Dipper)."
+    },
+    "Bhaiya": {
+      "type": "vocabulary",
+      "description": "A Hindi term meaning 'elder brother,' used as a respectful address for boys or young men."
+    },
+    "dim": {
+      "type": "vocabulary",
+      "description": "Onomatopoeic representation of the sound produced by plucking a stringed instrument, like a sitar."
+    },
+    "kabaddi": {
+      "type": "vocabulary",
+      "description": "A traditional Indian team sport involving tagging and wrestling."
+    },
+    "Devmitra ji": {
+      "type": "character",
+      "description": "A respected figure in the village, Devmitra ji expresses words of affection and goodwill on behalf of the villagers and accompanies the narrator on part of the journey."
+    },
+    "Gargi": {
+      "type": "character",
+      "description": "A middle-aged woman and professor at Andhra University, Gargi discusses language, social changes, and her travels with the narrator."
+    },
+    "Professor Haq": {
+      "type": "character",
+      "description": "A teacher from Vishwabharati, Professor Haq is traveling with Gargi and Professor Vishwanath and participates in the conversation about agriculture and science."
+    },
+    "Professor Vishwanath": {
+      "type": "character",
+      "description": "A teacher from Aligarh University, Professor Vishwanath is traveling with Gargi and Professor Haq and provides information about agricultural practices."
+    },
+    "Burma": {
+      "type": "proper_noun",
+      "description": "The former name for Myanmar, referenced as a destination for fruit exports."
+    },
+    "Colombo": {
+      "type": "proper_noun",
+      "description": "The capital city of Sri Lanka (Lanka), mentioned as a destination for apples."
+    },
+    "Andhra University": {
+      "type": "proper_noun",
+      "description": "A prominent university in the Andhra region, where Gargi is a professor."
+    },
+    "Madras": {
+      "type": "proper_noun",
+      "description": "The former name for Chennai, a major city in southern India, mentioned as a port of departure."
+    },
+    "Java": {
+      "type": "proper_noun",
+      "description": "An island in Indonesia, visited by Gargi during her travels."
+    },
+    "Bali": {
+      "type": "proper_noun",
+      "description": "An island in Indonesia, also visited by Gargi."
+    },
+    "Australia": {
+      "type": "proper_noun",
+      "description": "A country and continent in the southern hemisphere, discussed as a destination with a diverse population."
+    },
+    "Lhasa": {
+      "type": "proper_noun",
+      "description": "The capital of Tibet, referenced as a place where the narrator's portrait and account were published."
+    },
+    "Andhra": {
+      "type": "proper_noun",
+      "description": "A province in southern India, home to Andhra University and Gargi."
+    },
+    "Tamil": {
+      "type": "proper_noun",
+      "description": "A province and language in southern India, referenced in the discussion on languages."
+    },
+    "Kerala": {
+      "type": "proper_noun",
+      "description": "A province in southern India, referenced in the discussion on languages."
+    },
+    "Karnataka": {
+      "type": "proper_noun",
+      "description": "A province in southern India, referenced in the discussion on languages."
+    },
+    "Pariahs": {
+      "type": "proper_noun",
+      "description": "A historically marginalized caste in southern India, mentioned in the context of social change."
+    },
+    "Theeyas": {
+      "type": "proper_noun",
+      "description": "A caste group in Kerala, referenced as an example of past social divisions."
+    },
+    "Ayyars": {
+      "type": "proper_noun",
+      "description": "A Brahmin sub-caste in Tamil Nadu, mentioned in the context of caste prejudice."
+    },
+    "Namboodiripads": {
+      "type": "proper_noun",
+      "description": "A Brahmin community in Kerala, referenced in the discussion on caste."
+    },
+    "Bharti": {
+      "type": "proper_noun",
+      "description": "The national language of India in this future society, described as the mother tongue of all Indians."
+    },
+    "Sarvabhaumi": {
+      "type": "proper_noun",
+      "description": "The international language adopted by the people of Asia in the story's future world."
+    },
+    "Tamil Nadu": {
+      "type": "proper_noun",
+      "description": "A province in southern India, referenced in the context of language evolution."
+    },
+    "Shantami": {
+      "type": "proper_noun",
+      "description": "An ancient form of the Tamil language, mentioned as distinct from modern Tamil."
+    },
+    "Vishwabharati": {
+      "type": "proper_noun",
+      "description": "A university, possibly inspired by the real-life Visva-Bharati University, where Professor Haq teaches."
+    },
+    "Aligarh University": {
+      "type": "proper_noun",
+      "description": "A prominent university in India, where Professor Vishwanath teaches."
+    },
+    "Tibet": {
+      "type": "proper_noun",
+      "description": "A region in Asia, referenced as the origin of some train passengers and as a place visited by Gargi."
+    },
+    "Nippon": {
+      "type": "proper_noun",
+      "description": "The Japanese name for Japan, referenced as a destination in Gargi's travels."
+    },
+    "Fujiyama": {
+      "type": "proper_noun",
+      "description": "Mount Fuji, a famous mountain in Japan, referenced in the context of an earthquake."
+    },
+    "Nanking": {
+      "type": "proper_noun",
+      "description": "A city in China (now Nanjing), visited by Gargi."
+    },
+    "Manchuria": {
+      "type": "proper_noun",
+      "description": "A region in Northeast Asia, traversed by Gargi."
+    },
+    "Peking": {
+      "type": "proper_noun",
+      "description": "The former name for Beijing, the capital of China, visited by Gargi."
+    },
+    "Siberia": {
+      "type": "proper_noun",
+      "description": "A vast region in Russia, traversed by Gargi."
+    },
+    "North Pole": {
+      "type": "proper_noun",
+      "description": "The northernmost point on Earth, visited by Gargi."
+    },
+    "Mongolia": {
+      "type": "proper_noun",
+      "description": "A country in East Asia, traversed by Gargi."
+    },
+    "Paper Village": {
+      "type": "proper_noun",
+      "description": "A village dedicated to paper production, featuring a large paper factory."
+    },
+    "Terai": {
+      "type": "proper_noun",
+      "description": "A region of lowland plains at the base of the Himalayas, known here for timber and paper production."
+    },
+    "Go-gram": {
+      "type": "proper_noun",
+      "description": "A 'cow-village' specializing in dairy production and cattle management."
+    },
+    "Gopal-gram": {
+      "type": "proper_noun",
+      "description": "An alternative name for Go-gram, emphasizing its association with cows (Gopal meaning 'protector of cows')."
+    },
+    "Buffalo Village": {
+      "type": "proper_noun",
+      "description": "A village specializing in buffalo husbandry and dairy processing."
+    },
+    "Shaligram": {
+      "type": "proper_noun",
+      "description": "A village focused on rice and chickpea cultivation and rice processing."
+    },
+    "Basmati": {
+      "type": "proper_noun",
+      "description": "A premium variety of rice, referenced as one of the finest."
+    },
+    "Kisunbhog": {
+      "type": "proper_noun",
+      "description": "A variety of fine rice, mentioned alongside Basmati."
+    },
+    "Kanakjira": {
+      "type": "proper_noun",
+      "description": "Another variety of fine rice."
+    },
+    "Gandak": {
+      "type": "proper_noun",
+      "description": "A river in northern India, referenced in the context of irrigation."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "The Ganges, a major river in India, referenced in the context of irrigation and geography."
+    },
+    "Pusa No. 3": {
+      "type": "proper_noun",
+      "description": "A variety of wheat from the narrator's time, preserved in the school’s museum."
+    },
+    "Mall": {
+      "type": "proper_noun",
+      "description": "A province or district, containing Motihari and Saran."
+    },
+    "Saran": {
+      "type": "proper_noun",
+      "description": "An old district, now part of the Mall province."
+    },
+    "Kashi-Kosal": {
+      "type": "proper_noun",
+      "description": "A region west of Mall, extending beyond Lucknow."
+    },
+    "Kuru": {
+      "type": "proper_noun",
+      "description": "An ancient republic, preserved as a province name."
+    },
+    "Panchal": {
+      "type": "proper_noun",
+      "description": "An ancient republic, preserved as a province name."
+    },
+    "Matsya": {
+      "type": "proper_noun",
+      "description": "An ancient republic, preserved as a province name."
+    },
+    "Shurasena": {
+      "type": "proper_noun",
+      "description": "An ancient republic, preserved as a province name."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, retaining its status in the future."
+    },
+    "Ber-gram": {
+      "type": "proper_noun",
+      "description": "A village specializing in the cultivation of jujube (ber) fruits."
+    },
+    "Telgram": {
+      "type": "proper_noun",
+      "description": "An 'oil village' specializing in the production of edible oils."
+    },
+    "Ghazipur": {
+      "type": "proper_noun",
+      "description": "A city known for its fragrant oil factories."
+    },
+    "Kannauj": {
+      "type": "proper_noun",
+      "description": "A city famous for its perfume and fragrant oil industry."
+    },
+    "Pickle Village": {
+      "type": "proper_noun",
+      "description": "A village dedicated to the production of pickles and preserves."
+    },
+    "Tailor Village": {
+      "type": "proper_noun",
+      "description": "A village specializing in garment production."
+    },
+    "Pulse Village": {
+      "type": "proper_noun",
+      "description": "A village specializing in the cultivation and processing of pulses (legumes)."
+    },
+    "Anga": {
+      "type": "proper_noun",
+      "description": "A historical region in Bihar, now known for mango and lychee orchards."
+    },
+    "Magadha": {
+      "type": "proper_noun",
+      "description": "A historical region in Bihar, referenced as a major fruit-producing area."
+    },
+    "Dalgram": {
+      "type": "proper_noun",
+      "description": "A village mentioned as a point along the journey."
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "A major river in India, crossed by the train as it enters Magadha."
+    },
+    "Pataliputra": {
+      "type": "proper_noun",
+      "description": "The ancient name for Patna, the capital city of Magadha and seat of King Devanampiya Piyadasi."
+    },
+    "King Devanampiya Piyadasi": {
+      "type": "proper_noun",
+      "description": "An ancient Indian king, identified with Ashoka, referenced as the ruler of Pataliputra."
+    },
+    "assembly hall": {
+      "type": "vocabulary",
+      "description": "A communal building in the village used for gatherings, meetings, and ceremonies."
+    },
+    "eight metals": {
+      "type": "vocabulary",
+      "description": "A reference to 'ashtadhatu', a traditional alloy of eight metals used in Indian art and ritual objects."
+    },
+    "plate of eight metals": {
+      "type": "vocabulary",
+      "description": "A ceremonial plate made from ashtadhatu, used for special presentations."
+    },
+    "maund": {
+      "type": "vocabulary",
+      "description": "A traditional unit of mass used in South Asia, roughly equivalent to 37 kilograms."
+    },
+    "seer": {
+      "type": "vocabulary",
+      "description": "A traditional unit of mass in South Asia, approximately 0.93 kilograms."
+    },
+    "bidi": {
+      "type": "vocabulary",
+      "description": "A thin, hand-rolled cigarette made from tobacco wrapped in a tendu leaf, common in India."
+    },
+    "coolie": {
+      "type": "vocabulary",
+      "description": "A manual laborer or porter, especially one who carries luggage at railway stations."
+    },
+    "sevak": {
+      "type": "vocabulary",
+      "description": "A servant or attendant; in this context, a courteous official responsible for maintaining order."
+    },
+    "Devanagari": {
+      "type": "vocabulary",
+      "description": "A script used for several Indian languages, adopted here for provincial languages."
+    },
+    "ghee": {
+      "type": "vocabulary",
+      "description": "Clarified butter commonly used in Indian cooking."
+    },
+    "dal": {
+      "type": "vocabulary",
+      "description": "Lentils or pulses, often referring to a staple dish made from them."
+    },
+    "jaggery": {
+      "type": "vocabulary",
+      "description": "Unrefined cane sugar, commonly used in Indian sweets and cuisine."
+    },
+    "ber": {
+      "type": "vocabulary",
+      "description": "A type of jujube fruit, commonly grown in India."
+    },
+    "urad": {
+      "type": "vocabulary",
+      "description": "Black gram, a type of lentil widely used in Indian cuisine."
+    },
+    "mung": {
+      "type": "vocabulary",
+      "description": "Green gram, a type of lentil commonly used in Indian dishes."
+    },
+    "pigeon peas": {
+      "type": "vocabulary",
+      "description": "A type of legume (Cajanus cajan) used in Indian cooking."
+    },
+    "ghee-fried": {
+      "type": "vocabulary",
+      "description": "Cooked or fried in clarified butter (ghee)."
+    },
+    "Jeth": {
+      "type": "vocabulary",
+      "description": "A month in the traditional Hindu calendar, roughly corresponding to May-June."
+    },
+    "chickpea": {
+      "type": "vocabulary",
+      "description": "A legume (Cicer arietinum) widely cultivated and consumed in India."
+    },
+    "oil-cake": {
+      "type": "vocabulary",
+      "description": "The solid residue left after oil is extracted from seeds, used as cattle feed."
+    },
+    "bran": {
+      "type": "vocabulary",
+      "description": "The outer layer of cereal grains, used as animal feed."
+    },
+    "hookah": {
+      "type": "vocabulary",
+      "description": "A traditional water pipe used for smoking tobacco."
+    },
+    "matchbox": {
+      "type": "vocabulary",
+      "description": "A small box containing matches, referenced as a common travel item in earlier times."
+    },
+    "mummia": {
+      "type": "vocabulary",
+      "description": "A historical term for a medicinal substance, sometimes referring to bitumen or ground mummy, used in old advertisements."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The currency of India."
+    },
+    "Shuddh Bharti": {
+      "type": "vocabulary",
+      "description": "Pure or standard form of the Bharati language."
+    },
+    "Ikde-Tikde": {
+      "type": "vocabulary",
+      "description": "A dialect or colloquial form of language, referenced as unintelligible to outsiders."
+    },
+    "Vidyavrat": {
+      "type": "character",
+      "description": "Vidyavrat is an illustrious historical figure celebrated for his self-sacrifice and generosity during the revival of Nalanda, donating all his wealth to the school."
+    },
+    "Vidyavat": {
+      "type": "character",
+      "description": "Vidyavat is another benefactor who, inspired by the narrator's efforts, donates his entire fortune to support the school's revival."
+    },
+    "Principal Vasistha": {
+      "type": "character",
+      "description": "Principal Vasistha is one of the senior administrators or head teachers at the university, present during the narrator's visit."
+    },
+    "Vasubandhu": {
+      "type": "proper_noun",
+      "description": "The name of a prominent building or hall at the university, likely named after the Buddhist philosopher Vasubandhu."
+    },
+    "alms-bag": {
+      "type": "vocabulary",
+      "description": "A bag used by monks or ascetics to collect offerings or donations."
+    },
+    "Principal": {
+      "type": "vocabulary",
+      "description": "In this context, refers to the main or chief station or building, not just a school administrator."
+    },
+    "mistresses": {
+      "type": "vocabulary",
+      "description": "A term used in Indian English for female teachers."
+    },
+    "Acharya Vashistha": {
+      "type": "character",
+      "description": "A respected teacher or scholar, present with the narrator and others during the visit to the infant class."
+    },
+    "Veera": {
+      "type": "character",
+      "description": "The headmistress of the infant class and vice-principal of the school, regarded as an ideal and nurturing figure for both girls and boys."
+    },
+    "Krishna": {
+      "type": "character",
+      "description": "A first-year boy in the infant class who participates in a wrestling match, demonstrating skill and sportsmanship."
+    },
+    "Gyan": {
+      "type": "character",
+      "description": "A first-year boy who is able to identify the statue of Marx and recount his story, showing the effectiveness of the educational system."
+    },
+    "Chandragupta": {
+      "type": "proper_noun",
+      "description": "An ancient Indian ruler, mentioned as a historical figure in the children's stories."
+    },
+    "Vikramaditya": {
+      "type": "proper_noun",
+      "description": "A legendary Indian king, included among the great figures in the children's history lessons."
+    },
+    "Marx": {
+      "type": "proper_noun",
+      "description": "Refers to Karl Marx, the philosopher and revolutionary, whose statue is present in the children's garden and whose life is taught as an example of service to humanity."
+    },
+    "Darwin": {
+      "type": "proper_noun",
+      "description": "Refers to Charles Darwin, the scientist known for the theory of evolution, whose story is included in the curriculum."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional Indian long shirt worn by both boys and girls."
+    },
+    "untouchables": {
+      "type": "vocabulary",
+      "description": "A term historically used in India to refer to people considered outside the caste system and subjected to severe social discrimination."
+    },
+    "Esperanto": {
+      "type": "proper_noun",
+      "description": "An international auxiliary language created in the late 19th century, used here as the basis for the 'universal language' of the future."
+    },
+    "Latin": {
+      "type": "proper_noun",
+      "description": "The classical language of ancient Rome, another root source for the universal language."
+    },
+    "Teutonic": {
+      "type": "proper_noun",
+      "description": "A historical term for the Germanic languages of Europe."
+    },
+    "Roman": {
+      "type": "proper_noun",
+      "description": "Likely refers to the Romance languages derived from Latin."
+    },
+    "Slav": {
+      "type": "proper_noun",
+      "description": "Refers to the Slavic languages of Eastern Europe."
+    },
+    "Celtic": {
+      "type": "proper_noun",
+      "description": "A family of languages spoken in parts of Western Europe, such as Ireland and Wales."
+    },
+    "China": {
+      "type": "proper_noun",
+      "description": "A country in East Asia, mentioned as a place where the universal language is spoken."
+    },
+    "Japan": {
+      "type": "proper_noun",
+      "description": "An East Asian country, also adopting the universal language."
+    },
+    "Siam": {
+      "type": "proper_noun",
+      "description": "The former name of Thailand, included among countries where the universal language is used."
+    },
+    "Persian": {
+      "type": "proper_noun",
+      "description": "A language spoken from Peshawar to Baghdad, described as related to Bharati."
+    },
+    "Peshawar": {
+      "type": "proper_noun",
+      "description": "A city in present-day Pakistan, marking the western extent of Persian's range."
+    },
+    "Baghdad": {
+      "type": "proper_noun",
+      "description": "The capital of Iraq, marking the western boundary of the Persian-speaking region."
+    },
+    "Africa": {
+      "type": "proper_noun",
+      "description": "A continent mentioned as a place where European languages are spoken."
+    },
+    "bioscopes": {
+      "type": "vocabulary",
+      "description": "Early motion picture devices or projectors, used here for educational purposes."
+    },
+    "Universal Hostel": {
+      "type": "vocabulary",
+      "description": "A special residential facility where children live and speak only the universal language."
+    },
+    "quinine": {
+      "type": "vocabulary",
+      "description": "A bitter medicinal compound used to treat malaria, referenced metaphorically for unpleasantness."
+    },
+    "M.A.s": {
+      "type": "vocabulary",
+      "description": "Abbreviation for 'Master of Arts', a postgraduate academic degree."
+    },
+    "Acharya Vasistha": {
+      "type": "character",
+      "description": "A distinguished scholar and teacher at the School of Philosophy, renowned for his expertise in Indian and global philosophical thought."
+    },
+    "Upadhyaya Vishwa": {
+      "type": "character",
+      "description": "A figure mentioned at the end of the chapter, likely a teacher or administrator involved in the governance system at Nalanda."
+    },
+    "Language-Archaeology": {
+      "type": "proper_noun",
+      "description": "A specialized school at Nalanda University focusing on the study of languages and archaeology, including primary historical sources."
+    },
+    "Baibhara Giri": {
+      "type": "proper_noun",
+      "description": "A hill in Rajgriha, transformed in the future to house a major astronomical observatory."
+    },
+    "Iran": {
+      "type": "proper_noun",
+      "description": "A country in the Middle East, included among the ancient civilizations studied at Nalanda."
+    },
+    "Sumatra": {
+      "type": "proper_noun",
+      "description": "An island in Indonesia, included among the regions explored for ancient Indian civilization."
+    },
+    "Central Asia": {
+      "type": "proper_noun",
+      "description": "A region north of India, referenced as a site of historical research."
+    },
+    "Suryanarayan": {
+      "type": "proper_noun",
+      "description": "A village near Nalanda, mentioned as no longer existing in the future setting."
+    },
+    "Nalanda Press": {
+      "type": "proper_noun",
+      "description": "The printing press at Nalanda University, responsible for publishing books and scientific journals."
+    },
+    "Bhairavji": {
+      "type": "proper_noun",
+      "description": "A name by which the Buddha statue was known among rural people in the twentieth century."
+    },
+    "stupa": {
+      "type": "vocabulary",
+      "description": "A dome-shaped Buddhist monument, often containing relics and used as a place of meditation."
+    },
+    "canopy": {
+      "type": "vocabulary",
+      "description": "A decorative covering, often placed over statues or sacred objects."
+    },
+    "hostels": {
+      "type": "vocabulary",
+      "description": "In this context, residential facilities for students, each functioning like a small village."
+    },
+    "Brahmin-Rajput-Sheikh-Sayyid": {
+      "type": "proper_noun",
+      "description": "These are traditional Indian and Islamic caste and community groups historically associated with social hierarchy and privilege."
+    },
+    "Shimla": {
+      "type": "proper_noun",
+      "description": "A city in northern India, historically known as the summer capital during British rule, referenced here as a former privilege for government officials."
+    },
+    "Narang River": {
+      "type": "proper_noun",
+      "description": "A river in Brazil, South America, on whose banks the Universal City is located in the novel."
+    },
+    "Brazil": {
+      "type": "proper_noun",
+      "description": "A country in South America, chosen as the site for the Universal City and the Universal Assembly in the novel."
+    },
+    "South America": {
+      "type": "proper_noun",
+      "description": "A continent referenced as the location of the Universal City and the seat of the Universal Assembly."
+    },
+    "Universal City": {
+      "type": "proper_noun",
+      "description": "A futuristic city on the equator in Brazil, serving as the headquarters of the Universal Assembly and government."
+    },
+    "Universal Assembly": {
+      "type": "proper_noun",
+      "description": "The highest global governing body in the novel, composed of representatives from around the world."
+    },
+    "Universal Era": {
+      "type": "proper_noun",
+      "description": "A new calendar era inaugurated with the founding of the Universal Government, marking a new epoch in world history."
+    },
+    "panch": {
+      "type": "vocabulary",
+      "description": "An elected representative in the village assembly, with one panch chosen for every hundred people."
+    },
+    "tehsil": {
+      "type": "vocabulary",
+      "description": "A sub-district administrative division in India, historically grouping several villages together."
+    },
+    "crore": {
+      "type": "vocabulary",
+      "description": "A unit in the Indian numbering system equal to ten million (10,000,000)."
+    },
+    "Yusuf": {
+      "type": "character",
+      "description": "The president of the Magadh Administrative Assembly and a comrade of the narrator, Yusuf welcomes the travelers at Patna station."
+    },
+    "Malda": {
+      "type": "proper_noun",
+      "description": "A famous variety of mango from the region around Malda, a city in West Bengal, India."
+    },
+    "Langda": {
+      "type": "proper_noun",
+      "description": "A well-known variety of mango, originally from northern India, especially Uttar Pradesh and Bihar."
+    },
+    "Sumeru": {
+      "type": "proper_noun",
+      "description": "A term from Hindu and Buddhist cosmology referring to the mythic Mount Meru, here used to denote the North Pole."
+    },
+    "Kumeru": {
+      "type": "proper_noun",
+      "description": "In Hindu cosmology, the antipodal counterpart to Sumeru, here representing the South Pole."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, known for its tea and as a Himalayan gateway."
+    },
+    "Sadiya": {
+      "type": "proper_noun",
+      "description": "A town in Assam, India, serving as a route across the Himalayas."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "The mountain range separating the plains of the Indian subcontinent from the Tibetan Plateau."
+    },
+    "Altai Mountains": {
+      "type": "proper_noun",
+      "description": "A mountain range in Central and East Asia, crossed by the railway."
+    },
+    "Yunnan": {
+      "type": "proper_noun",
+      "description": "A province in southwest China, part of the railway network."
+    },
+    "Chittagong": {
+      "type": "proper_noun",
+      "description": "A port city in Bangladesh, linked by railway."
+    },
+    "Assam": {
+      "type": "proper_noun",
+      "description": "A state in northeastern India, part of the railway network."
+    },
+    "Malaya": {
+      "type": "proper_noun",
+      "description": "A historical region on the Malay Peninsula, now part of Malaysia."
+    },
+    "Singapore": {
+      "type": "proper_noun",
+      "description": "A major city-state in Southeast Asia, connected by tunnel to Sumatra."
+    },
+    "Yarkand": {
+      "type": "proper_noun",
+      "description": "A city in Xinjiang, China, on the railway route."
+    },
+    "Kashgar": {
+      "type": "proper_noun",
+      "description": "A city in Xinjiang, China, on the railway route."
+    },
+    "Turkestan": {
+      "type": "proper_noun",
+      "description": "A historical region in Central Asia, traversed by the railway."
+    },
+    "Tashkent": {
+      "type": "proper_noun",
+      "description": "The capital of Uzbekistan, on the railway route."
+    },
+    "Samarkand": {
+      "type": "proper_noun",
+      "description": "A historic city in Uzbekistan, on the railway route."
+    },
+    "Afghanistan": {
+      "type": "proper_noun",
+      "description": "A country in South-Central Asia, connected by railway."
+    },
+    "Turkey": {
+      "type": "proper_noun",
+      "description": "A country at the crossroads of Europe and Asia, on the railway route."
+    },
+    "Arabia": {
+      "type": "proper_noun",
+      "description": "The Arabian Peninsula, included in the railway network."
+    },
+    "Russia": {
+      "type": "proper_noun",
+      "description": "The largest country in the world, entered by the railway via the Ural Mountains."
+    },
+    "Ural Mountains": {
+      "type": "proper_noun",
+      "description": "A mountain range in Russia, marking the boundary between Europe and Asia."
+    },
+    "Constantinople": {
+      "type": "proper_noun",
+      "description": "The historical name for Istanbul, Turkey, where tunnels connect Asia and Europe."
+    },
+    "France": {
+      "type": "proper_noun",
+      "description": "A country in Western Europe, connected to England by tunnel."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "A country in the United Kingdom, connected to France by tunnel."
+    },
+    "Suez Canal": {
+      "type": "proper_noun",
+      "description": "A man-made waterway in Egypt, now with a tunnel-railway linking Asia and Africa."
+    },
+    "Sahara": {
+      "type": "proper_noun",
+      "description": "The vast desert in North Africa, transformed into a sea in the novel."
+    },
+    "Bering Strait": {
+      "type": "proper_noun",
+      "description": "The strait connecting Asia and North America, now with a railway tunnel."
+    },
+    "Alaska": {
+      "type": "proper_noun",
+      "description": "A U.S. state in northwest North America, reached by train from Siberia."
+    },
+    "Canada": {
+      "type": "proper_noun",
+      "description": "A country in North America, traversed by the railway."
+    },
+    "United States": {
+      "type": "proper_noun",
+      "description": "A country in North America, traversed by the railway."
+    },
+    "Panama Canal": {
+      "type": "proper_noun",
+      "description": "A waterway in Central America, now crossed by a railway tunnel."
+    },
+    "Colombia": {
+      "type": "proper_noun",
+      "description": "A country in South America, on the railway route."
+    },
+    "Peru": {
+      "type": "proper_noun",
+      "description": "A country in South America, on the railway route."
+    },
+    "Bolivia": {
+      "type": "proper_noun",
+      "description": "A country in South America, on the railway route."
+    },
+    "Chile": {
+      "type": "proper_noun",
+      "description": "A country in South America, on the railway route."
+    },
+    "Argentina": {
+      "type": "proper_noun",
+      "description": "A country in South America, on the railway route."
+    },
+    "Uruguay": {
+      "type": "proper_noun",
+      "description": "A country in South America, on the railway route."
+    },
+    "Patagonia": {
+      "type": "proper_noun",
+      "description": "A region in southern South America, included in the railway network."
+    },
+    "Scott": {
+      "type": "proper_noun",
+      "description": "A reference to Robert Falcon Scott, the British Antarctic explorer."
+    },
+    "Magadh": {
+      "type": "proper_noun",
+      "description": "A historic region in Bihar, India, now a republic and major fruit producer."
+    },
+    "Banaras": {
+      "type": "proper_noun",
+      "description": "Also known as Varanasi or Kashi, a historic city in Uttar Pradesh, India."
+    },
+    "Kashi Republic": {
+      "type": "proper_noun",
+      "description": "The future republic encompassing Banaras (Kashi)."
+    },
+    "Kashi Karwat": {
+      "type": "proper_noun",
+      "description": "A historic locality or feature of old Banaras, now vanished."
+    },
+    "Kachauri Gali": {
+      "type": "proper_noun",
+      "description": "A famous lane in Banaras, known for its kachauris (savory snacks)."
+    },
+    "Manikarnika": {
+      "type": "proper_noun",
+      "description": "A famous ghat (riverfront) in Banaras, known for cremations."
+    },
+    "Dashashwamedh": {
+      "type": "proper_noun",
+      "description": "A prominent ghat in Banaras, known for religious ceremonies."
+    },
+    "Satti of Dashashwamedh": {
+      "type": "proper_noun",
+      "description": "A reference to a site or practice at Dashashwamedh Ghat, possibly related to sati (widow immolation)."
+    },
+    "Visheshwarganj": {
+      "type": "proper_noun",
+      "description": "A market area in Banaras, historically known for granaries."
+    },
+    "Dalmandi": {
+      "type": "proper_noun",
+      "description": "A locality in Banaras, formerly known for its brothels."
+    },
+    "Barna": {
+      "type": "proper_noun",
+      "description": "A settlement near Banaras."
+    },
+    "Rishipatan Mrigadava": {
+      "type": "proper_noun",
+      "description": "The ancient name for Sarnath, near Banaras, where the Buddha gave his first sermon."
+    },
+    "Sarnath": {
+      "type": "proper_noun",
+      "description": "A historical site near Banaras, associated with Buddhism."
+    },
+    "Ashoka Bhavan": {
+      "type": "proper_noun",
+      "description": "A grand building in Patna, modeled after Vasubandhu Bhavan of Nalanda."
+    },
+    "Vasubandhu Bhavan": {
+      "type": "proper_noun",
+      "description": "A notable building in Nalanda, serving as an architectural model for Ashoka Bhavan."
+    },
+    "ghats": {
+      "type": "vocabulary",
+      "description": "Stepped embankments or riverfronts, especially along the Ganges in Banaras, used for bathing and religious rituals."
+    },
+    "kachauris": {
+      "type": "vocabulary",
+      "description": "A type of savory fried pastry popular in northern India, especially in Banaras."
+    },
+    "guru-guru": {
+      "type": "vocabulary",
+      "description": "A chant or repetitive phrase associated with religious rituals or priests at the ghats."
+    },
+    "Satti": {
+      "type": "vocabulary",
+      "description": "Likely a variant spelling of 'sati', the historical practice of widow immolation, here referencing a site or custom at Dashashwamedh Ghat."
+    },
+    "stupas": {
+      "type": "proper_noun",
+      "description": "Dome-shaped Buddhist structures that serve as places of meditation and house relics."
+    },
+    "Assi": {
+      "type": "proper_noun",
+      "description": "A locality in Varanasi, situated near the Kashi Vishwavidyalaya."
+    },
+    "Kashi Vishwavidyalaya": {
+      "type": "proper_noun",
+      "description": "Also known as Benares Hindu University, a prestigious university in Varanasi, India."
+    },
+    "Indraprastha": {
+      "type": "proper_noun",
+      "description": "An ancient city, now described as an independent republic in the novel's future India."
+    },
+    "Vatsa": {
+      "type": "proper_noun",
+      "description": "A region or republic, historically a Mahajanapada (ancient kingdom) in northern India."
+    },
+    "Panchala": {
+      "type": "proper_noun",
+      "description": "An ancient kingdom, here depicted as a modern independent republic."
+    },
+    "Surasena": {
+      "type": "proper_noun",
+      "description": "A historical region, now a republic, that has absorbed many former principalities."
+    },
+    "Punjab": {
+      "type": "proper_noun",
+      "description": "A northern region of India, here described as having many democracies."
+    },
+    "Lahore": {
+      "type": "proper_noun",
+      "description": "A major city, serving as the capital of a democracy in Punjab or Kashmir."
+    },
+    "Takshashila University": {
+      "type": "proper_noun",
+      "description": "An ancient center of learning, now restored to its former glory, famous for Ayurveda."
+    },
+    "Rajasthan": {
+      "type": "proper_noun",
+      "description": "A region in western India, historically home to Rajput principalities."
+    },
+    "Rajput": {
+      "type": "proper_noun",
+      "description": "A group of warrior clans from Rajasthan, whose former principalities are now unified."
+    },
+    "Sindh": {
+      "type": "proper_noun",
+      "description": "A region in present-day Pakistan, known for its agricultural abundance and the great canal."
+    },
+    "Bikaner": {
+      "type": "proper_noun",
+      "description": "A city in Rajasthan, historically arid but now fertile due to the Sindh canal."
+    },
+    "Ajmer": {
+      "type": "proper_noun",
+      "description": "A city in Rajasthan, serving as its capital in the novel's future."
+    },
+    "Karachi": {
+      "type": "proper_noun",
+      "description": "A major port city, now the capital of Sindh."
+    },
+    "Saurashtra": {
+      "type": "proper_noun",
+      "description": "A region in western India, visited by the narrator."
+    },
+    "Gujarat": {
+      "type": "proper_noun",
+      "description": "A state in western India, known for cotton cultivation."
+    },
+    "Malwa": {
+      "type": "proper_noun",
+      "description": "A region in central India, also noted for cotton production."
+    },
+    "Vidarbha": {
+      "type": "proper_noun",
+      "description": "A region in eastern Maharashtra, part of the cotton belt."
+    },
+    "Maharashtra": {
+      "type": "proper_noun",
+      "description": "A large state in western India, divided into North and South republics in the novel."
+    },
+    "Hyderabad": {
+      "type": "proper_noun",
+      "description": "A former princely state, now divided into four republics."
+    },
+    "Dravid": {
+      "type": "proper_noun",
+      "description": "Refers to the Dravidian region or people of southern India."
+    },
+    "Utkal": {
+      "type": "proper_noun",
+      "description": "An ancient name for the region of Odisha in eastern India."
+    },
+    "Himalayan states": {
+      "type": "proper_noun",
+      "description": "The states located in the Himalayan mountain region, part of the unified India."
+    },
+    "pandits": {
+      "type": "vocabulary",
+      "description": "Learned scholars or teachers, especially of Sanskrit and Hindu law or philosophy."
+    },
+    "Darbhanga": {
+      "type": "proper_noun",
+      "description": "A district in the Indian state of Bihar, historically known for agriculture and cultural significance."
+    },
+    "charas": {
+      "type": "proper_noun",
+      "description": "A form of hand-made cannabis resin originating from the Indian subcontinent."
+    },
+    "toddy": {
+      "type": "proper_noun",
+      "description": "An alcoholic beverage made from the sap of various species of palm trees, commonly consumed in South Asia."
+    },
+    "kahwa": {
+      "type": "proper_noun",
+      "description": "A traditional green tea preparation flavored with spices, popular in Kashmir and parts of Central Asia."
+    },
+    "sawan": {
+      "type": "proper_noun",
+      "description": "A type of small-grained millet (barnyard millet) cultivated in India, often considered an inferior grain."
+    },
+    "kodon": {
+      "type": "proper_noun",
+      "description": "A variety of millet (kodo millet) grown in India, known for its hardiness and use as a staple food among poorer communities."
+    },
+    "mandua": {
+      "type": "proper_noun",
+      "description": "Also known as ragi or finger millet, a nutritious grain widely grown in India, especially in hilly regions."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Nepal",
+      "kos",
+      "pajamas"
+    ],
+    "ch-2": [
+      "Arjun",
+      "Vishwabandhu",
+      "Sumedh",
+      "Sumitra",
+      "Vriddhapur",
+      "Universal",
+      "Christian era",
+      "Vishvabandhuji",
+      "Sumedh ji",
+      "dhotis",
+      "kos"
+    ],
+    "ch-3": [
+      "Sumedh",
+      "Sumitra",
+      "Arjun",
+      "Pratibha",
+      "Devmitra",
+      "Vishvabandhu",
+      "Vishwamitra",
+      "Dev",
+      "Vashishtha",
+      "Nepal",
+      "Banarasi",
+      "kos",
+      "Bihar",
+      "Orissa",
+      "Bengal",
+      "Kashi",
+      "Kosala",
+      "Nalanda",
+      "Nalanda University",
+      "Vasubandhu Hall",
+      "Kathmandu",
+      "Shak-gram",
+      "Gaya",
+      "Hazaribagh",
+      "Anuradhapura",
+      "Lanka",
+      "Bodh Gaya",
+      "Kashmir",
+      "Sevagram",
+      "Patna",
+      "Takshashila",
+      "Chandragadhi",
+      "Phaping",
+      "Chandra Shamsher",
+      "Farpig",
+      "Videha",
+      "Malla",
+      "Bagmati",
+      "Apple Village",
+      "Orange Village",
+      "Banana Village",
+      "Guest Rest House",
+      "Acharya",
+      "Gramani Mahashay",
+      "Universal National Organization",
+      "United Asian Nation",
+      "United Asia-Africa-Australia Nation",
+      "United Europe-America Nation",
+      "Minister of War",
+      "kurtas",
+      "kos",
+      "Acharya",
+      "Gram",
+      "Gramani",
+      "Mahashay",
+      "Sevagram",
+      "Bose-Bon mourners",
+      "word-broadcaster"
+    ],
+    "ch-4": [
+      "Padmavati",
+      "Vishwamitra",
+      "Sumedhji",
+      "Dev",
+      "Nalanda University",
+      "Bargaon",
+      "Rajgriha",
+      "Universal Union",
+      "Rome",
+      "Greece",
+      "Egypt",
+      "Assyria",
+      "Chaldea",
+      "Mexico",
+      "Sanskrit",
+      "Pali",
+      "Zend",
+      "Prakrit",
+      "Greek",
+      "Latin (Roman)",
+      "Vaibhara Hill",
+      "Takshashila",
+      "Ayurveda",
+      "Apple Village",
+      "veranda",
+      "ji"
+    ],
+    "ch-5": [
+      "Devamitra",
+      "Vishwamitra",
+      "Ismail",
+      "Priyamvada",
+      "Arjan",
+      "Shafi",
+      "Sumedh",
+      "Lanka",
+      "Brahmins",
+      "Kshatriyas",
+      "Vaishali",
+      "Nalanda",
+      "Apple Village",
+      "Nepal Republic",
+      "Acharya Vishwabandhu",
+      "Uttarakhand",
+      "Budh-Pokhar",
+      "Badgaon",
+      "Sun",
+      "Kartik’s Surya-Shashthi",
+      "Bihar",
+      "Chamars",
+      "Ahirs",
+      "Rajputs",
+      "Pathans",
+      "Sayyids",
+      "Momins",
+      "Mawn",
+      "Bharati",
+      "Nagari",
+      "Seb-gram",
+      "Bundelkhand",
+      "Magh",
+      "Paush",
+      "nawab",
+      "babu",
+      "taluqdar",
+      "seth-sahukar",
+      "mahajan",
+      "Maulvis",
+      "Vedas",
+      "Puranas",
+      "Prophets",
+      "Sheikh Chilli",
+      "Raybahadur",
+      "Khanbahadur",
+      "Rajabahadur",
+      "Maharajabahadur",
+      "Nawabbahadur",
+      "Sovereign Union President",
+      "Mr. Dutt",
+      "halwa",
+      "samadhi",
+      "Surya-Shashthi",
+      "ekkas",
+      "kos",
+      "batashas",
+      "laddus",
+      "dhoti",
+      "sari",
+      "bhang",
+      "Magh",
+      "Paush",
+      "Maharaj",
+      "weavers",
+      "burqas",
+      "bathe",
+      "latrine",
+      "Guest Rest"
+    ],
+    "ch-6": [
+      "Vishwamitra",
+      "Padmavati",
+      "Dev",
+      "Ismail",
+      "Priyamvada",
+      "Fatima",
+      "Devmitra",
+      "Manorama",
+      "Rahimbakhsh",
+      "Hrishikesh Dwivedi",
+      "Sebagram",
+      "Children’s Garden",
+      "Assembly Hall",
+      "Dining Hall",
+      "Takshashila",
+      "Kashmir",
+      "India",
+      "Europe",
+      "America",
+      "Parsis",
+      "Christians",
+      "Muslims",
+      "Shri",
+      "lungi",
+      "jalebi",
+      "gulab jamun",
+      "beedi",
+      "bhang",
+      "catechu",
+      "sari",
+      "kurti",
+      "sattvic"
+    ],
+    "ch-7": [
+      "Vijay",
+      "Dhruv",
+      "Janaki",
+      "Zainab",
+      "Rohini",
+      "Kamal",
+      "Shafi",
+      "Murtaza",
+      "Priyamvada",
+      "Fatima",
+      "Prahlad",
+      "Ibrahim",
+      "Jamshed",
+      "Shyam",
+      "Maryam",
+      "Rukmino",
+      "Rukmini",
+      "Priyavrat",
+      "Vishwamitra",
+      "Ismail",
+      "Devmitra",
+      "Acharya Vishwamitra",
+      "Bela",
+      "chameli",
+      "champa",
+      "juhi",
+      "mogra",
+      "kunda",
+      "pipal",
+      "jamun",
+      "lychee",
+      "jackfruit",
+      "jujube",
+      "guava",
+      "sitars",
+      "mizrab",
+      "sari",
+      "Maiya",
+      "Amma",
+      "veena",
+      "Nalanda",
+      "Raxaul",
+      "Sugauli",
+      "Motihari",
+      "Muzaffarpur",
+      "Patna",
+      "Bakhtiyarpur",
+      "E.I. Railway",
+      "B.N.W. Railway",
+      "Bakhtiyarpur-Bihar",
+      "Mangama",
+      "Mohanpur",
+      "Socrates",
+      "Buddha",
+      "Angulimala",
+      "Gandhi",
+      "Abraham Lincoln",
+      "Joan",
+      "Ashoka",
+      "Dhruva",
+      "Saptarishi",
+      "Amma",
+      "Maiya",
+      "Bhaiya",
+      "dim",
+      "veena",
+      "mizrab",
+      "kabaddi"
+    ],
+    "ch-8": [
+      "Devmitra ji",
+      "Priyamvada",
+      "Vishwamitra",
+      "Ismail",
+      "Gargi",
+      "Professor Haq",
+      "Professor Vishwanath",
+      "Sevagram",
+      "Mohanpur",
+      "Gramani",
+      "Lanka",
+      "Burma",
+      "Colombo",
+      "Andhra University",
+      "Madras",
+      "Java",
+      "Bali",
+      "Australia",
+      "Lhasa",
+      "Andhra",
+      "Tamil",
+      "Kerala",
+      "Karnataka",
+      "Pariahs",
+      "Theeyas",
+      "Ayyars",
+      "Namboodiripads",
+      "Bharti",
+      "Sarvabhaumi",
+      "Tamil Nadu",
+      "Shantami",
+      "Vishwabharati",
+      "Aligarh University",
+      "Tibet",
+      "Takshashila",
+      "Nepal Republic",
+      "Nippon",
+      "Fujiyama",
+      "Nanking",
+      "Manchuria",
+      "Peking",
+      "Siberia",
+      "North Pole",
+      "Mongolia",
+      "Paper Village",
+      "Terai",
+      "Go-gram",
+      "Gopal-gram",
+      "Buffalo Village",
+      "Shaligram",
+      "Basmati",
+      "Kisunbhog",
+      "Kanakjira",
+      "Gandak",
+      "Ganga",
+      "Pusa No. 3",
+      "Motihari",
+      "Mall",
+      "Saran",
+      "Kashi-Kosal",
+      "Kuru",
+      "Panchal",
+      "Matsya",
+      "Shurasena",
+      "Delhi",
+      "Ber-gram",
+      "jamun",
+      "Telgram",
+      "Ghazipur",
+      "Kannauj",
+      "Pickle Village",
+      "Tailor Village",
+      "Pulse Village",
+      "Muzaffarpur",
+      "Anga",
+      "Magadha",
+      "Videha",
+      "Dalgram",
+      "Ganges",
+      "Pataliputra",
+      "King Devanampiya Piyadasi",
+      "Nalanda",
+      "assembly hall",
+      "eight metals",
+      "plate of eight metals",
+      "Gramani",
+      "maund",
+      "seer",
+      "bidi",
+      "coolie",
+      "sevak",
+      "Bharati",
+      "Sarvabhaumi",
+      "Devanagari",
+      "Ayurveda",
+      "ghee",
+      "dal",
+      "kabaddi",
+      "jaggery",
+      "Basmati",
+      "Kisunbhog",
+      "Kanakjira",
+      "Pusa No. 3",
+      "ber",
+      "jamun",
+      "urad",
+      "mung",
+      "pigeon peas",
+      "ghee-fried",
+      "Jeth",
+      "chickpea",
+      "oil-cake",
+      "bran",
+      "hookah",
+      "matchbox",
+      "mummia",
+      "rupees",
+      "Shuddh Bharti",
+      "Ikde-Tikde",
+      "Shantami"
+    ],
+    "ch-9": [
+      "Vishwamitra",
+      "Acharya",
+      "Vidyavrat",
+      "Vidyavat",
+      "Principal Vasistha",
+      "Nalanda",
+      "Patna",
+      "Vasubandhu",
+      "Vasubandhu Hall",
+      "Sevagram",
+      "Acharya",
+      "alms-bag",
+      "Principal",
+      "mistresses"
+    ],
+    "ch-10": [
+      "Vishwamitra",
+      "Acharya Vashistha",
+      "Veera",
+      "Krishna",
+      "Ibrahim",
+      "Gyan",
+      "Sebgram",
+      "Ashoka",
+      "Buddha",
+      "Chandragupta",
+      "Vikramaditya",
+      "Marx",
+      "Darwin",
+      "Sanskrit",
+      "kos",
+      "kabaddi",
+      "kurta",
+      "untouchables"
+    ],
+    "ch-11": [
+      "Esperanto",
+      "Pali",
+      "Prakrit",
+      "Zend",
+      "Sanskrit",
+      "Greek",
+      "Latin",
+      "Teutonic",
+      "Roman",
+      "Slav",
+      "Celtic",
+      "China",
+      "Japan",
+      "Siam",
+      "Tibet",
+      "Burma",
+      "India",
+      "Bharati",
+      "Persian",
+      "Peshawar",
+      "Baghdad",
+      "Europe",
+      "Africa",
+      "America",
+      "Australia",
+      "bioscopes",
+      "Universal Hostel",
+      "quinine",
+      "M.A.s"
+    ],
+    "ch-12": [
+      "Acharya Vasistha",
+      "Upadhyaya Vishwa",
+      "Nalanda University",
+      "Language-Archaeology",
+      "Ayurveda",
+      "Rajgriha",
+      "Baibhara Giri",
+      "Assyria",
+      "Chaldea",
+      "Iran",
+      "Lanka",
+      "Siam",
+      "Sumatra",
+      "Bali",
+      "Java",
+      "Tibet",
+      "Central Asia",
+      "Suryanarayan",
+      "Nalanda Press",
+      "Buddha",
+      "Bhairavji",
+      "kos",
+      "stupa",
+      "canopy",
+      "hostels"
+    ],
+    "ch-13": [
+      "Vishwamitra",
+      "Brahmin-Rajput-Sheikh-Sayyid",
+      "Patna",
+      "Bihar",
+      "Delhi",
+      "Shimla",
+      "India",
+      "Narang River",
+      "Brazil",
+      "South America",
+      "Universal City",
+      "Universal Assembly",
+      "Universal Era",
+      "Nalanda",
+      "panch",
+      "tehsil",
+      "crore"
+    ],
+    "ch-14": [
+      "Vishwamitra",
+      "Yusuf",
+      "Malda",
+      "Langda",
+      "Patna",
+      "Sumeru",
+      "Kumeru",
+      "Videha",
+      "Magadha",
+      "Anga",
+      "Kathmandu",
+      "Darjeeling",
+      "Sadiya",
+      "Himalayas",
+      "Tibet",
+      "Mongolia",
+      "Altai Mountains",
+      "Siberia",
+      "Manchuria",
+      "China",
+      "Yunnan",
+      "Siam",
+      "Burma",
+      "Chittagong",
+      "Assam",
+      "Malaya",
+      "Singapore",
+      "Sumatra",
+      "Yarkand",
+      "Kashgar",
+      "Turkestan",
+      "Tashkent",
+      "Samarkand",
+      "Afghanistan",
+      "Iran",
+      "Turkey",
+      "Arabia",
+      "Russia",
+      "Ural Mountains",
+      "Constantinople",
+      "France",
+      "England",
+      "Suez Canal",
+      "Sahara",
+      "Africa",
+      "Bering Strait",
+      "Alaska",
+      "Canada",
+      "United States",
+      "Mexico",
+      "Panama Canal",
+      "South America",
+      "Colombia",
+      "Peru",
+      "Brazil",
+      "Bolivia",
+      "Chile",
+      "Argentina",
+      "Uruguay",
+      "Patagonia",
+      "Scott",
+      "Magadh",
+      "Banaras",
+      "Kashi Republic",
+      "Kashi Karwat",
+      "Kachauri Gali",
+      "Manikarnika",
+      "Dashashwamedh",
+      "Ganges",
+      "Satti of Dashashwamedh",
+      "Visheshwarganj",
+      "Dalmandi",
+      "Barna",
+      "Rishipatan Mrigadava",
+      "Sarnath",
+      "Ashoka Bhavan",
+      "Vasubandhu Bhavan",
+      "Nalanda",
+      "kos",
+      "ghats",
+      "kachauris",
+      "guru-guru",
+      "Satti"
+    ],
+    "ch-15": [
+      "Buddha",
+      "stupas",
+      "Assi",
+      "Kashi Vishwavidyalaya",
+      "Banaras",
+      "Indraprastha",
+      "Vatsa",
+      "Panchala",
+      "Surasena",
+      "Matsya",
+      "Kuru",
+      "Delhi",
+      "Terai",
+      "Punjab",
+      "Kashmir",
+      "Lahore",
+      "Takshashila University",
+      "Ayurveda",
+      "Rajasthan",
+      "Rajput",
+      "Sindh",
+      "Bikaner",
+      "Ajmer",
+      "Karachi",
+      "Saurashtra",
+      "Gujarat",
+      "Malwa",
+      "Vidarbha",
+      "Maharashtra",
+      "Hyderabad",
+      "Karnataka",
+      "Andhra",
+      "Dravid",
+      "Kerala",
+      "Lanka",
+      "Utkal",
+      "Bengal",
+      "Assam",
+      "Himalayan states",
+      "ghee",
+      "pandits"
+    ],
+    "ch-16": [
+      "Darbhanga",
+      "Muzaffarpur",
+      "bidi",
+      "bhang",
+      "charas",
+      "toddy",
+      "kahwa",
+      "sawan",
+      "kodon",
+      "mandua",
+      "bidi",
+      "bhang",
+      "charas",
+      "toddy",
+      "kahwa",
+      "sawan",
+      "kodon",
+      "mandua"
+    ]
+  }
+}
