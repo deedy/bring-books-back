@@ -6,7 +6,7 @@
       "subtitle": "A Vision of the Future",
       "authorId": "rahul-sankrityayan",
       "coverImage": "/data/images/covers/baeesween-sadi.png",
-      "accentColor": "#0066FF",
+      "accentColor": "#7B9EC4",
       "genre": [
         "Science Fiction",
         "Utopian Fiction"
@@ -25,7 +25,7 @@
       "subtitle": "A Historical Romance of 13th Century Bengal",
       "authorId": "bankim-chandra-chattopadhyay",
       "coverImage": "/data/images/covers/mrinalini.png",
-      "accentColor": "#8B0000",
+      "accentColor": "#C48B8B",
       "genre": [
         "Historical Fiction",
         "Romance"
@@ -44,7 +44,7 @@
       "subtitle": "A Satire of Colonial Calcutta",
       "authorId": "peary-chand-mitra",
       "coverImage": "/data/images/covers/alaler-gharer-dulal.png",
-      "accentColor": "#1B3A5C",
+      "accentColor": "#8FAAB8",
       "genre": [
         "Social Satire",
         "Domestic Fiction"
@@ -63,7 +63,7 @@
       "subtitle": "The Son of the Kaveri",
       "authorId": "kalki-krishnamurthy",
       "coverImage": "/data/images/covers/ponniyin-selvan.png",
-      "accentColor": "#C5961B",
+      "accentColor": "#C9A96E",
       "genre": [
         "Historical Fiction",
         "Epic",

@@ -58,7 +58,7 @@ export const useReadingStore = create<ReadingStore>()(
         }),
     }),
     {
-      name: "bring-books-back-reading",
+      name: "grand-old-books-reading",
     }
   )
 );

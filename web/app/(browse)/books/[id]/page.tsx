@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getCatalog } from "@/lib/data";
 import ReadButton from "@/components/ReadButton";
@@ -6,6 +7,35 @@ import BookCard from "@/components/BookCard";
 export function generateStaticParams() {
   const catalog = getCatalog();
   return catalog.books.map((book) => ({ id: book.id }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const catalog = getCatalog();
+  const book = catalog.books.find((b) => b.id === id);
+  if (!book) return {};
+  const author = catalog.authors.find((a) => a.id === book.authorId);
+  const title = `${book.title} by ${author?.name ?? "Unknown"}`;
+  const description = book.summary.slice(0, 160);
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: [{ url: book.coverImage }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [book.coverImage],
+    },
+  };
 }
 
 export default async function BookPage({
@@ -23,6 +53,19 @@ export default async function BookPage({
 
   return (
     <div className="max-w-6xl mx-auto px-6 py-12">
+      {/* Breadcrumb */}
+      <div className="mb-8">
+        <Link
+          href="/"
+          className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors"
+        >
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <polyline points="15 18 9 12 15 6" />
+          </svg>
+          All Books
+        </Link>
+      </div>
+
       {/* Book Header */}
       <div className="flex flex-col md:flex-row gap-10">
         <div className="w-64 flex-shrink-0 mx-auto md:mx-0">

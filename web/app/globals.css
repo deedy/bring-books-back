@@ -17,6 +17,11 @@ body {
   color: var(--foreground);
 }
 
+::selection {
+  background: rgba(180, 200, 220, 0.3);
+  color: inherit;
+}
+
 /* Subtle scrollbar for dark UI panels */
 .scrollbar-thin {
   scrollbar-width: thin;

@@ -15,9 +15,29 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bring Books Back",
-  description: "Reviving forgotten literary treasures with AI",
+  title: {
+    default: "Grand Old Books",
+    template: "%s | Grand Old Books",
+  },
+  description: "Reviving forgotten literary treasures from India with AI translation and illustration",
+  icons: { icon: "/favicon.png" },
+  metadataBase: new URL("https://grandoldbooks.com"),
+  openGraph: {
+    type: "website",
+    siteName: "Grand Old Books",
+    title: "Grand Old Books",
+    description: "Reviving forgotten literary treasures from India with AI translation and illustration",
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Grand Old Books",
+    description: "Reviving forgotten literary treasures from India with AI translation and illustration",
+    images: ["/og.png"],
+  },
 };
+
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID || "G-K47C7Q43HF";
 
 export default function RootLayout({
   children,
@@ -26,6 +46,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {GA_ID && (
+          <>
+            <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`,
+              }}
+            />
+          </>
+        )}
+      </head>
       <body
         className={`${inter.variable} ${sourceSerif.variable} font-sans antialiased`}
       >
