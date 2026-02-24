@@ -1,0 +1,19 @@
+{
+  "id": "ponniyin-selvan",
+  "title": "Ponniyin Selvan",
+  "subtitle": "The Son of the Kaveri",
+  "authorId": "kalki-krishnamurthy",
+  "coverImage": "/data/images/covers/ponniyin-selvan.png",
+  "accentColor": "#C5961B",
+  "genre": [
+    "Historical Fiction",
+    "Epic",
+    "Political Intrigue"
+  ],
+  "originalLanguage": "Tamil",
+  "originalTitle": "பொன்னியின் செல்வன்",
+  "originalYear": 1955,
+  "totalChapters": 293,
+  "wordCount": 671986,
+  "summary": "Set in the 10th century during the zenith of the Chola dynasty, Ponniyin Selvan follows the young warrior Vandiyathevan as he carries a secret message through a kingdom seething with conspiracy. From the grand courts of Thanjavur to the shores of Lanka, political intrigue, forbidden romance, and dynastic ambition collide in Kalki Krishnamurthy's greatest Tamil novel — a sweeping epic of loyalty, betrayal, and the destiny of an empire."
+}

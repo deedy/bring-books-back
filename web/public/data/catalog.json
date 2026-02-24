@@ -1,0 +1,123 @@
+{
+  "books": [
+    {
+      "id": "baeesween-sadi",
+      "title": "The Twenty-Second Century",
+      "subtitle": "A Vision of the Future",
+      "authorId": "rahul-sankrityayan",
+      "coverImage": "/data/images/covers/baeesween-sadi.png",
+      "accentColor": "#0066FF",
+      "genre": [
+        "Science Fiction",
+        "Utopian Fiction"
+      ],
+      "originalLanguage": "Hindi",
+      "originalTitle": "Baeesween Sadi",
+      "originalYear": 1924,
+      "totalChapters": 16,
+      "wordCount": 41181,
+      "summary": "Step into the astonishing future of the twenty-second century through the eyes of a traveler awakened from a long sleep. In this visionary 1924 Hindi classic, Rahul Sankrityayan guides readers across lush orchards, innovative schools, and bustling villages—all radically transformed by technology and new ways of living. As our narrator explores dazzling advancements in agriculture, education, and governance, each chapter unveils a world where imagination and progress shape society. “The Twenty-Second Century” is a trailblazing work of science fiction, offering a thoughtful glimpse into humanity’s potential and the wonders of tomorrow—both inspiring and thought-provoking for readers of any era.",
+      "previewText": "I found everything to be new to me. The apple trees were laden with enormous fruits, and the orchard stretched upwards along the mountain’s height, reaching all the way to the summit. Here and there, pipes and channels had been installed to carry away the rainwater. Thick pipes distributed water everywhere. In some places, taps for drinking water could also be seen. A little off the path, a few small tin houses seemed to stand, but I did not wish to leave the road to go there. I thought, let me keep going ahead; surely, somewhere along the way, I will meet someone. After walking a full four kos, at last I heard human voices. The closer I drew, the clearer the sounds became. When I reached them, I saw that both men and women were present. Their garments were exceedingly clean; their faces radiant. I wondered to myself, could these be members of the royal family of Nepal, perhaps come here for amusement? But it did not seem so. They were picking fruits, placing them in baskets, and setting them on the ground, while some others carried those very fruits away before them. It appeared they must be piling them up somewhere. Besides, the women did not wear the twenty-yard pajamas of the royal household; though their complexion, attire, physical build, cleanliness, and manners were of a far higher order, there was certainly a difference. All of them wore pants; their hands and feet were covered with gloves and socks. They wore shoes as well. There must be some mystery in this. Well, I shall find out by meeting them. And now, I was quite close. Because they were absorbed in their work, they did not notice me. But look, over there—one of them, having seen me, said something to his companions. Are they all staring at me, eyes wide open? Am I some kind of creature? Some are looking at my leafy clothes, others at my beard. Ah, one man is coming this way; from him, I shall learn everything. Although the man approaching was coming straight towards me, my curiosity made me impatient."
+    },
+    {
+      "id": "mrinalini",
+      "title": "Mrinalini",
+      "subtitle": "A Historical Romance of 13th Century Bengal",
+      "authorId": "bankim-chandra-chattopadhyay",
+      "coverImage": "/data/images/covers/mrinalini.png",
+      "accentColor": "#8B0000",
+      "genre": [
+        "Historical Fiction",
+        "Romance"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "Mrinalini",
+      "originalYear": 1882,
+      "totalChapters": 43,
+      "wordCount": 39002,
+      "summary": "Set against the vibrant backdrop of 13th-century Bengal, **Mrinalini** by Bankim Chandra Chattopadhyay is a sweeping historical romance where love, loyalty, and fate collide. Amidst political upheaval and cultural crossroads, the noble Mrinalini finds herself entangled in a web of intrigue—caught between her heart’s desires and the demands of honor. Unforgettable characters, secret alliances, and lush descriptions lead readers through palatial courts, shadowy conspiracies, and moments of breathtaking tenderness. As destinies entwine beneath monsoon skies, this classic Bengali novel explores the timeless struggle between personal longing and duty, illuminating the enduring spirit of love in turbulent times.",
+      "previewText": "One day at the holy confluence of Prayaga, where the Ganga and Yamuna meet, the unparalleled beauty of a monsoon evening was being revealed. It was the rainy season, yet there were no clouds; or if there were any, they lingered in the western sky like golden waves. The sun had already set. Swollen with the rains, both the Ganga and the Yamuna were in full spate, intoxicated in the fullness of their youth, as if two sisters were embracing each other in playful affection. Like the fluttering hem of a restless garment, the waves, driven by the wind, lashed against the shore. In a small boat were only two boatmen. With reckless courage, the boat braved the indomitable current of the Yamuna and, at last, reached the ghat of Prayaga. One remained in the boat, the other stepped ashore. The one who landed was in the bloom of youth, with a strong, well-built body, clad in the attire of a warrior. A turban adorned his head, armor covered his body, a bow and arrows were in his hand, a quiver slung across his back, and sandals on his feet. This heroic figure was exceedingly handsome. Above the ghat, there were several hermitages belonging to ascetics who had renounced the world in their quest for virtue. Among them, the young man entered a small hut. Inside the hut, a Brahmin was seated on a mat of sacred grass, engaged in prayer. The Brahmin was a man of great height; his body was lean; a white beard adorned his broad, oval face; on his forehead and sparse hair at the crown, a faint trace of holy ash was visible. The Brahmin’s countenance was grave, and his glance severe; at first sight, one might not have thought him cruel or unworthy of reverence, yet he inspired awe. The moment he saw the visitor, the sternness seemed to melt away, and a gentle grace suffused the gravity of his face. The visitor addressed the Brahmin— He bowed in salutation and stood before him. The Brahmin, blessing him, said, “Child Hemchandra, I have been awaiting you for many days.” Hemchandra replied humbly, “Pray do not take offense, my business in Delhi was not accomplished. Moreover, the Yavan was pursuing me; for this reason, I had to proceed with caution. Thus, I have been delayed.” The Brahmin said, “I have heard all the tidings from Delhi. Had you slain Bakhtiyar Khilji with the elephant, it would have been well—the enemy of the gods would have perished by the hand of a beast. Why did you go to save his life?” Hemchandra: To slay him in battle with my own hand. He is my father’s enemy, the usurper of my father’s kingdom. He is mine to kill. Brahmin: Then when the elephant, enraged, attacked him, why did you slay the elephant instead of Bakhtiyar? Hemchandra: Shall I kill my enemy like a thief, without battle? I shall defeat the conqueror of Magadha in war and reclaim"
+    },
+    {
+      "id": "alaler-gharer-dulal",
+      "title": "The Spoilt Child",
+      "subtitle": "A Satire of Colonial Calcutta",
+      "authorId": "peary-chand-mitra",
+      "coverImage": "/data/images/covers/alaler-gharer-dulal.png",
+      "accentColor": "#1B3A5C",
+      "genre": [
+        "Social Satire",
+        "Domestic Fiction"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "Alaler Gharer Dulal",
+      "originalYear": 1858,
+      "totalChapters": 30,
+      "wordCount": 54071,
+      "summary": "Considered the first Bengali novel, 'Alaler Gharer Dulal' is a sharp social satire set in colonial Calcutta. Through the fortunes of Baburam Babu—a cunning, wealthy patriarch—and his reckless heir, the story paints a vivid tableau of 19th-century Bengali society. With humor and a critical eye, Peary Chand Mitra explores themes of corruption, family intrigue, and the pitfalls of privilege. Colorful episodes—from courtrooms to river storms—capture both the follies of the upper class and the shifting moral tides of the era. A pioneering modern classic, it is essential reading for anyone interested in early Indian literature.",
+      "previewText": "His Education in Sanskrit and Persian Baburam Babu of Baidyabati was a man of great worldly ambition. He became famous through his many dealings in the civil and criminal courts. In those days, it was hardly an ancient custom to work diligently without taking bribes—Baburam followed that very custom. Skilled in his profession, he also managed to win over the English officials with flattery and obsequiousness. As a result, he amassed a great fortune in a short time. In this country, wealth or position brings respect; learning and character do not command the same honor. Baburam Babu’s circumstances had once been quite poor—at that time, only one or two people in the village cared about him. But later, when he acquired a handsome mansion, gardens, estates, and other riches, the number of his followers, servants, and friends became countless. Whenever he had leisure and came home, his drawing room would be crowded with people, just as a sweet shop, when filled with sweets, is swarmed by flies—so too, when wealth arrives, people flock in. Whenever you went to Baburam Babu’s house, you would find him surrounded by people—great and small, all sitting around, speaking pleasing words; the clever ones would flatter him with practiced gestures, while the more boorish ones would babble on without restraint. In this manner, after some years, Baburam Babu retired on a pension and began managing his estates and trading from his own house. No one is blessed with happiness in every way, nor is anyone wise in all matters. Baburam Babu devoted himself solely to amassing wealth. How might his property increase? How might ten people come to know his name? How might the villagers stand before him with folded hands? How might his ceremonies be the grandest?—these were his constant concerns. He had one son and two daughters. Being a descendant of Balaram Thakur, Baburam Babu, for the sake of preserving his caste, married off his two daughters as soon as they were born, spending lavishly on their weddings and ornaments. But the sons-in-law were Kulin Brahmins, who, having taken wives in many places, would not even glance at their father-in-law’s house in Baidyabati unless given a special reward. His son, Motilal, was pampered from childhood and always indulged... Sometimes he would say, “Father, catch the moon for me!”—sometimes, “Father, let’s fire the cannon!” When he began to wail and shriek, the people nearby would mutter, “Oh, that brat from the Bancks’ house is making it impossible to sleep!” The boy, pampered by his parents, would not even utter the name of the school. The household steward was entrusted with his education. When he was first taken to the tutor, Matilal would bawl and howl, scratching and biting the poor man. The tutor would go to the master and complain, “Sir, teaching your son is not my job.” The master would reply, “He is the apple of my eye, my precious Nilmoni—coax him, cajole him, stroke his back and teach him.” Eventually, after much"
+    },
+    {
+      "id": "ponniyin-selvan",
+      "title": "Ponniyin Selvan",
+      "subtitle": "The Son of the Kaveri",
+      "authorId": "kalki-krishnamurthy",
+      "coverImage": "/data/images/covers/ponniyin-selvan.png",
+      "accentColor": "#C5961B",
+      "genre": [
+        "Historical Fiction",
+        "Epic",
+        "Political Intrigue"
+      ],
+      "originalLanguage": "Tamil",
+      "originalTitle": "பொன்னியின் செல்வன்",
+      "originalYear": 1955,
+      "totalChapters": 293,
+      "wordCount": 671986,
+      "summary": "Set in the 10th century during the zenith of the Chola dynasty, Ponniyin Selvan follows the young warrior Vandiyathevan as he carries a secret message through a kingdom seething with conspiracy. From the grand courts of Thanjavur to the shores of Lanka, political intrigue, forbidden romance, and dynastic ambition collide in Kalki Krishnamurthy's greatest Tamil novel — a sweeping epic of loyalty, betrayal, and the destiny of an empire.",
+      "previewText": "We invite our readers to embark with us, for a short while, upon a journey in the boat of imagination, drifting upon the endless flood of time. Let us swiftly traverse centuries at the rate of a hundred years per second, and travel back to an era one thousand and fifty-eight years before today (written in 1950). In the southern part of Thirumunaippadi, the land that lies between Thondai Nadu and Chola Nadu, two leagues west of the sacred Chidambaram temple, there stretches a vast lake, spreading out like a surging sea. This is the Veeranarayana Lake. It measures a league and a half from south to north, and half a league from east to west. Over the passage of time, its name has been shortened, and in these days it is known as the “Veeranarayanam Lake.” Whoever beholds the Veeranarayana Lake during the months of Aadi and Avani, when the fresh floods pour in and the waters brim and overflow, cannot help but feel a surge of pride and wonder at the marvelous deeds accomplished by our ancient Tamil forebears. Did our ancestors act only for their own welfare and that of their contemporaries? Did they not also perform great works that would benefit the countless generations yet to come, wh"
+    }
+  ],
+  "authors": [
+    {
+      "id": "rahul-sankrityayan",
+      "name": "Rahul Sankrityayan",
+      "image": "/data/images/authors/rahul-sankrityayan.png",
+      "years": "1893–1963",
+      "bio": "Rahul Sankrityayan (1893–1963) was an extraordinary figure in Indian literature and scholarship, celebrated as the 'Father of Hindi Travel Literature.' Born as Kedarnath Pandey in the village of Pandaha in Uttar Pradesh, Sankrityayan’s insatiable curiosity led him on intellectual and physical journeys across Asia—including arduous explorations through Tibet, Central Asia, Russia, and Sri Lanka. Fluent in several languages and well-versed in diverse subjects ranging from Buddhist philosophy to Marxist theory, he authored over 150 books, leaving an indelible imprint on Hindi prose.\n\nInitially ordained as a Buddhist monk, Sankrityayan combined spiritual pursuits with a rigorous dedication to social reform and history. His pioneering work 'Baeesween Sadi' (The Twenty-Second Century, 1924) stands among the earliest science fiction novels in Hindi, reflecting his forward-thinking imagination. Sankrityayan’s scholarship brought rare Buddhist manuscripts to India and redefined travel writing, while his vibrant accounts and progressive ideas continue to inspire generations of readers and thinkers.",
+      "bookIds": [
+        "baeesween-sadi"
+      ]
+    },
+    {
+      "id": "bankim-chandra-chattopadhyay",
+      "name": "Bankim Chandra Chattopadhyay",
+      "image": "/data/images/authors/bankim-chandra-chattopadhyay.png",
+      "years": "1838–1894",
+      "bio": "Bankim Chandra Chattopadhyay (1838–1894) was a pioneering Bengali writer, poet, and novelist whose work laid the foundation for modern Bengali literature. Educated at Presidency College in Kolkata, he was one of the first graduates of the University of Calcutta and served for many years as a government official. With his literary debut in the 1860s, Chattopadhyay quickly emerged as a formidable force in Indian letters, blending narrative artistry with a strong sense of cultural and national identity.\n\nHe achieved legendary status with his composition of \"Vande Mataram,\" a powerful hymn to the motherland that became a rallying cry for India’s independence movement and was later adopted as the national song. Among his many celebrated novels, 'Mrinalini' (1882) stands out as a historical romance vividly set in 13th-century Bengal during the invasion of Bakhtiyar Khilji. Chattopadhyay's novels artfully wove together strands of history, romance, and patriotism, inspiring generations of readers and writers. Often hailed as one of the greatest Bengali novelists, his influence reaches far beyond literature, leaving an indelible mark on India's cultural and political consciousness.",
+      "bookIds": [
+        "mrinalini"
+      ]
+    },
+    {
+      "id": "peary-chand-mitra",
+      "name": "Peary Chand Mitra",
+      "image": "/data/images/authors/peary-chand-mitra.png",
+      "years": "1814–1882",
+      "bio": "Peary Chand Mitra (1814-1882), known to readers by his pen name Tekchand Thakur, was a pioneering Bengali writer and social reformer whose influence helped shape the literary culture of nineteenth-century Bengal. An alumnus of the progressive Hindu College, Mitra was closely associated with the Young Bengal movement, a group renowned for its radical ideas and advocacy for social change. Immersed in the intellectual ferment of colonial Calcutta, he became one of the earliest champions of writing prose in the colloquial Bengali language, making literature accessible to a broader audience.\n\nIn 1854, Mitra co-founded 'Masik Patrika' (Monthly Magazine), a publication dedicated to modernizing Bengali prose and stimulating public discourse. His most celebrated work, 'Alaler Gharer Dulal' (The Spoilt Child, 1858), is widely regarded as the first Bengali novel. Through sharp wit and vivid characterization, Mitra crafted a biting social satire about the moral decline within a wealthy urban family. His work not only marked the birth of the modern Bengali novel but also pioneered the use of everyday language in fiction, laying the groundwork for future generations of Bengali writers and intellectuals.",
+      "bookIds": [
+        "alaler-gharer-dulal"
+      ]
+    },
+    {
+      "id": "kalki-krishnamurthy",
+      "name": "Kalki Krishnamurthy",
+      "image": "/data/images/authors/kalki-krishnamurthy.png",
+      "years": "1899–1954",
+      "bio": "Kalki Krishnamurthy (R. Krishnamurthy) was one of the most celebrated Tamil writers of the 20th century. A novelist, short story writer, journalist, poet, and critic, he is best known for his historical novels, especially Ponniyin Selvan, which is considered one of the greatest Tamil literary works. He was also a prominent figure in the Indian independence movement and served as editor of the influential Tamil magazine Kalki.",
+      "bookIds": [
+        "ponniyin-selvan"
+      ]
+    }
+  ]
+}
