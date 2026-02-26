@@ -114,28 +114,39 @@ export default async function BookPage({
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-6 pb-12">
+    <div className="pb-12">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      {/* Back bar */}
-      <div className="sticky top-16 z-10 -mx-6 px-6 py-2 bg-[#0a0a0b]/80 backdrop-blur-md">
-        <Link
-          href="/"
-          className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-xs font-medium tracking-wide border border-white/20 text-white/70 hover:bg-white/10 transition-colors"
-        >
-          <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
-            <path d="M10 12L6 8l4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-          All Books
-        </Link>
+
+      {/* Hero Banner — fades into page background */}
+      <div className="relative w-full h-[350px] -mt-4">
+        <img
+          src={`/data/images/heroes/${book.id}.webp`}
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        {/* Bottom fade into page bg */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(to bottom, rgba(10,10,11,0) 0%, rgba(10,10,11,0.15) 40%, rgba(10,10,11,0.7) 70%, rgba(10,10,11,1) 100%)",
+          }}
+        />
       </div>
 
-      {/* Book Header */}
-      <div className="flex flex-col md:flex-row gap-10 mt-8">
+      {/* Book Header — overlaps banner */}
+      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-10 -mt-32 relative z-10">
         <div className="w-64 flex-shrink-0 mx-auto md:mx-0">
-          <div className="aspect-[2/3] rounded-lg overflow-hidden shadow-2xl">
+          <div
+            className="aspect-[2/3] rounded-lg overflow-hidden"
+            style={{
+              boxShadow:
+                "0 8px 30px rgba(0,0,0,0.5), 0 2px 8px rgba(0,0,0,0.3), 0 0 60px rgba(0,0,0,0.25)",
+            }}
+          >
             <img
               src={book.coverImage}
               alt={book.title}
@@ -144,8 +155,8 @@ export default async function BookPage({
             />
           </div>
         </div>
-        <div className="flex-1">
-          <h1 className="text-3xl md:text-4xl font-bold text-white">
+        <div className="flex-1 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
+          <h1 className="text-3xl md:text-4xl font-bold text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">
             {book.title}
           </h1>
           <p className="text-lg text-white/60 mt-1">{book.subtitle}</p>
@@ -167,9 +178,13 @@ export default async function BookPage({
             ))}
           </div>
 
-          <div className="flex gap-6 mt-4 text-xs text-white/40">
+          <p className="text-sm text-white/40 mt-3 italic">
+            {book.title !== book.transliteratedTitle
+              ? `${book.transliteratedTitle} (${book.originalTitle})`
+              : book.originalTitle}
+          </p>
+          <div className="flex gap-6 mt-2 text-xs text-white/40">
             <span>Originally in {book.originalLanguage}</span>
-            <span>{book.originalTitle}</span>
             <span>{book.originalYear}</span>
           </div>
 
@@ -186,7 +201,7 @@ export default async function BookPage({
       </div>
 
       {/* Summary */}
-      <section className="mt-16">
+      <section className="max-w-6xl mx-auto px-6 mt-16">
         <h2 className="text-xl font-bold text-white mb-4">About This Book</h2>
         <p className="text-white/60 leading-relaxed max-w-3xl">
           {book.summary}
@@ -195,7 +210,7 @@ export default async function BookPage({
 
       {/* Characters */}
       {characters.length > 0 && (
-        <section className="mt-16">
+        <section className="max-w-6xl mx-auto px-6 mt-16">
           <h2 className="text-xl font-bold text-white mb-6">Characters</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-3xl">
             {characters.map((ch) => (
@@ -233,7 +248,7 @@ export default async function BookPage({
       )}
 
       {/* About the Author */}
-      <section className="mt-16">
+      <section className="max-w-6xl mx-auto px-6 mt-16">
         <h2 className="text-xl font-bold text-white mb-4">
           About the Author
         </h2>
@@ -264,11 +279,13 @@ export default async function BookPage({
       </section>
 
       {/* Preview / Continue Reading */}
-      <BookPreview bookId={book.id} accentColor={book.accentColor} previewText={book.previewText} />
+      <div className="max-w-6xl mx-auto px-6">
+        <BookPreview bookId={book.id} accentColor={book.accentColor} previewText={book.previewText} />
+      </div>
 
       {/* Places and terms in this book */}
       {properNouns.length > 0 && (
-        <section className="mt-16">
+        <section className="max-w-6xl mx-auto px-6 mt-16">
           <h2 className="text-xl font-bold text-white mb-4">Places and Terms in this Book</h2>
           <div className="space-y-2 max-w-3xl">
             {properNouns.map((t) => (
@@ -292,7 +309,7 @@ export default async function BookPage({
 
       {/* Vocabulary */}
       {vocabulary.length > 0 && (
-        <section className="mt-16">
+        <section className="max-w-6xl mx-auto px-6 mt-16">
           <h2 className="text-xl font-bold text-white mb-4">Vocabulary</h2>
           <div className="space-y-2 max-w-3xl">
             {vocabulary.map((t) => (
@@ -316,7 +333,7 @@ export default async function BookPage({
 
       {/* Other Books */}
       {otherBooks.length > 0 && (
-        <section className="mt-16">
+        <section className="max-w-6xl mx-auto px-6 mt-16">
           <h2 className="text-xl font-bold text-white mb-6">
             More by {author.name}
           </h2>
