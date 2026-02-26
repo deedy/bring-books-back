@@ -130,7 +130,7 @@ export default function ChapterPicker({
                     <span className="text-xs w-6 text-right flex-shrink-0 opacity-50">
                       {ch.number}
                     </span>
-                    <span className="text-sm truncate flex-1">{ch.title}</span>
+                    <span className="text-sm flex-1 line-clamp-2">{ch.title}</span>
                     <span className="text-[10px] text-white/20 flex-shrink-0 tabular-nums">
                       {Math.max(1, Math.round(ch.wordCount / 230))}m
                     </span>

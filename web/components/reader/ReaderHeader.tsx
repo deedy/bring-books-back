@@ -62,14 +62,14 @@ export default function ReaderHeader({
 
   return (
     <header
-      className={`fixed top-[3px] left-0 right-0 z-40 transition-transform duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-40 transition-transform duration-300 ${
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
       <div
-        className={`${
-          darkMode ? "bg-black/70" : "bg-white/70"
-        } backdrop-blur-md`}
+        className={`backdrop-blur-xl border-b ${
+          darkMode ? "bg-[#0a0a0a]/40 border-white/[0.06]" : "bg-white/40 border-black/[0.06]"
+        }`}
       >
         <div className="max-w-4xl mx-auto px-4 h-12 flex items-center justify-between relative">
           <div className="flex items-center gap-3">
