@@ -2,38 +2,119 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://grandoldbooks.com/</loc>
+    <lastmod>2026-02-28</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://grandoldbooks.com/about</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://grandoldbooks.com/privacy</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <!-- Books -->
+  <url>
     <loc>https://grandoldbooks.com/books/baeesween-sadi</loc>
+    <lastmod>2026-02-28</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://grandoldbooks.com/books/mrinalini</loc>
+    <lastmod>2026-02-28</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://grandoldbooks.com/books/alaler-gharer-dulal</loc>
+    <lastmod>2026-02-28</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://grandoldbooks.com/books/ponniyin-selvan</loc>
+    <lastmod>2026-02-28</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://grandoldbooks.com/books/barrister-parvatishan</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grandoldbooks.com/books/matira-manisha</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grandoldbooks.com/books/shyamchi-aai</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grandoldbooks.com/books/kayar</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grandoldbooks.com/books/chandrakanta</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://grandoldbooks.com/books/ghare-baire</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <!-- Authors -->
+  <url>
     <loc>https://grandoldbooks.com/authors/rahul-sankrityayan</loc>
+    <lastmod>2026-02-28</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://grandoldbooks.com/authors/bankim-chandra-chattopadhyay</loc>
+    <lastmod>2026-02-28</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://grandoldbooks.com/authors/peary-chand-mitra</loc>
+    <lastmod>2026-02-28</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://grandoldbooks.com/authors/kalki-krishnamurthy</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grandoldbooks.com/authors/mokkapati-narasimha-shastri</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grandoldbooks.com/authors/devaki-nandan-khatri</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grandoldbooks.com/authors/kalindi-charan-panigrahi</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grandoldbooks.com/authors/sane-guruji</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grandoldbooks.com/authors/thakazhi-sivasankara-pillai</loc>
+    <lastmod>2026-02-28</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://grandoldbooks.com/authors/rabindranath-tagore</loc>
+    <lastmod>2026-02-28</lastmod>
     <priority>0.6</priority>
   </url>
 </urlset>

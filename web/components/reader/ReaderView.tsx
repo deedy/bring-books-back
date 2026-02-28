@@ -9,6 +9,7 @@ import ChapterContent from "./ChapterContent";
 import ChapterImage from "./ChapterImage";
 import ChapterPicker from "./ChapterPicker";
 import { chapterPath } from "@/lib/utils";
+import { trackEvent } from "@/lib/analytics";
 
 interface ReaderViewProps {
   bookId: string;
@@ -128,6 +129,17 @@ export default function ReaderView({
     updateProgress(bookId, { currentChapter: currentIndex });
     window.history.replaceState({}, "", chapterUrl(currentIndex));
   }, [bookId, currentIndex, updateProgress, chapterUrl]);
+
+  // Track chapter start for analytics
+  useEffect(() => {
+    if (chapter) {
+      trackEvent("chapter_start", {
+        book_id: bookId,
+        chapter_id: chapter.id,
+        chapter_number: chapter.number,
+      });
+    }
+  }, [bookId, chapter?.id, chapter?.number, chapter]);
 
   // IntersectionObserver for infinite scroll — detect which chapter is visible
   useEffect(() => {
@@ -362,90 +374,90 @@ export default function ReaderView({
                 <ChapterImage src={chapter.image} alt={chapter.title} />
               </div>
               {/* Prev / Next overlay on image, below the header */}
-              <div className="absolute inset-x-0 top-14 flex items-center justify-between px-5 sm:px-8 max-w-[720px] mx-auto">
-                <button
-                  onClick={() => goToChapter(currentIndex - 1)}
-                  disabled={currentIndex === 0}
-                  className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors max-w-[40%] backdrop-blur-md ${
-                    currentIndex === 0
-                      ? "opacity-20 cursor-not-allowed"
-                      : "text-white/80 hover:text-white hover:bg-white/15 bg-black/30"
-                  }`}
-                >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="flex-shrink-0">
-                    <polyline points="15 18 9 12 15 6" />
-                  </svg>
-                  <div className="text-left min-w-0">
-                    <span className="block truncate text-xs sm:text-sm">{prevChapter ? prevChapter.title : "Previous"}</span>
-                  </div>
-                </button>
+              <div className="absolute inset-x-0 top-14 grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 sm:px-8 max-w-[720px] mx-auto">
+                <div className="justify-self-start">
+                  <button
+                    onClick={() => goToChapter(currentIndex - 1)}
+                    disabled={currentIndex === 0}
+                    className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors max-w-full backdrop-blur-md ${
+                      currentIndex === 0
+                        ? "opacity-20 cursor-not-allowed"
+                        : "text-white/80 hover:text-white hover:bg-white/15 bg-black/30"
+                    }`}
+                  >
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="flex-shrink-0">
+                      <polyline points="15 18 9 12 15 6" />
+                    </svg>
+                    <span className="truncate text-xs sm:text-sm">{prevChapter ? prevChapter.title : "Previous"}</span>
+                  </button>
+                </div>
 
                 <span className="text-xs text-white/50 bg-black/30 backdrop-blur-md px-2.5 py-1 rounded-md">
                   {currentIndex + 1} / {totalChapters}
                 </span>
 
-                {nextChapter ? (
-                  <button
-                    onClick={() => goToChapter(currentIndex + 1)}
-                    className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors max-w-[40%] backdrop-blur-md text-white/80 hover:text-white hover:bg-white/15 bg-black/30"
-                  >
-                    <div className="text-right min-w-0">
-                      <span className="block truncate text-xs sm:text-sm">{nextChapter.title}</span>
-                    </div>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <polyline points="9 18 15 12 9 6" />
-                    </svg>
-                  </button>
-                ) : (
-                  <span className="max-w-[40%]" />
-                )}
+                <div className="justify-self-end">
+                  {nextChapter ? (
+                    <button
+                      onClick={() => goToChapter(currentIndex + 1)}
+                      className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors max-w-full backdrop-blur-md text-white/80 hover:text-white hover:bg-white/15 bg-black/30"
+                    >
+                      <span className="truncate text-xs sm:text-sm">{nextChapter.title}</span>
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <polyline points="9 18 15 12 9 6" />
+                      </svg>
+                    </button>
+                  ) : (
+                    <span />
+                  )}
+                </div>
               </div>
             </div>
           ) : (
             /* No image — simple top nav */
-            <div className="flex items-center justify-between px-5 sm:px-8 pt-16 pb-2 max-w-[720px] mx-auto">
-              <button
-                onClick={() => goToChapter(currentIndex - 1)}
-                disabled={currentIndex === 0}
-                className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm transition-colors max-w-[40%] ${
-                  currentIndex === 0
-                    ? "opacity-20 cursor-not-allowed"
-                    : darkMode
-                    ? "text-white/60 hover:text-white hover:bg-white/10"
-                    : "text-black/60 hover:text-black hover:bg-black/5"
-                }`}
-              >
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="flex-shrink-0">
-                  <polyline points="15 18 9 12 15 6" />
-                </svg>
-                <div className="text-left min-w-0">
-                  <span className="block truncate text-xs sm:text-sm">{prevChapter ? prevChapter.title : "Previous"}</span>
-                </div>
-              </button>
+            <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 sm:px-8 pt-16 pb-2 max-w-[720px] mx-auto">
+              <div className="justify-self-start">
+                <button
+                  onClick={() => goToChapter(currentIndex - 1)}
+                  disabled={currentIndex === 0}
+                  className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm transition-colors max-w-full ${
+                    currentIndex === 0
+                      ? "opacity-20 cursor-not-allowed"
+                      : darkMode
+                      ? "text-white/60 hover:text-white hover:bg-white/10"
+                      : "text-black/60 hover:text-black hover:bg-black/5"
+                  }`}
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="flex-shrink-0">
+                    <polyline points="15 18 9 12 15 6" />
+                  </svg>
+                  <span className="truncate text-xs sm:text-sm">{prevChapter ? prevChapter.title : "Previous"}</span>
+                </button>
+              </div>
 
               <span className={`text-xs ${darkMode ? "text-white/30" : "text-black/30"}`}>
                 {currentIndex + 1} / {totalChapters}
               </span>
 
-              {nextChapter ? (
-                <button
-                  onClick={() => goToChapter(currentIndex + 1)}
-                  className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm transition-colors max-w-[40%] ${
-                    darkMode
-                      ? "text-white/60 hover:text-white hover:bg-white/10"
-                      : "text-black/60 hover:text-black hover:bg-black/5"
-                  }`}
-                >
-                  <div className="text-right min-w-0">
-                    <span className="block truncate text-xs sm:text-sm">{nextChapter.title}</span>
-                  </div>
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <polyline points="9 18 15 12 9 6" />
-                  </svg>
-                </button>
-              ) : (
-                <span className="max-w-[40%]" />
-              )}
+              <div className="justify-self-end">
+                {nextChapter ? (
+                  <button
+                    onClick={() => goToChapter(currentIndex + 1)}
+                    className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm transition-colors max-w-full ${
+                      darkMode
+                        ? "text-white/60 hover:text-white hover:bg-white/10"
+                        : "text-black/60 hover:text-black hover:bg-black/5"
+                    }`}
+                  >
+                    <span className="truncate text-xs sm:text-sm">{nextChapter.title}</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <polyline points="9 18 15 12 9 6" />
+                    </svg>
+                  </button>
+                ) : (
+                  <span />
+                )}
+              </div>
             </div>
           )}
 
@@ -469,30 +481,32 @@ export default function ReaderView({
           </div>
 
           {/* Bottom nav */}
-          <div className="flex items-center justify-between px-5 sm:px-8 pb-16 max-w-[720px] mx-auto">
-            <button
-              onClick={() => goToChapter(currentIndex - 1)}
-              disabled={currentIndex === 0}
-              className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm transition-colors max-w-[40%] ${
-                currentIndex === 0
-                  ? "opacity-20 cursor-not-allowed"
-                  : darkMode
-                  ? "text-white/60 hover:text-white hover:bg-white/10"
-                  : "text-black/60 hover:text-black hover:bg-black/5"
-              }`}
-            >
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="flex-shrink-0">
-                <polyline points="15 18 9 12 15 6" />
-              </svg>
-              <div className="text-left min-w-0">
-                <span className="block truncate text-xs sm:text-sm">{prevChapter ? prevChapter.title : "Previous"}</span>
-                {prevChapter && (
-                  <span className={`block text-[10px] mt-0.5 ${darkMode ? "text-white/30" : "text-black/30"}`}>
-                    {Math.max(1, Math.round(prevChapter.wordCount / 230))} min
-                  </span>
-                )}
-              </div>
-            </button>
+          <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 sm:px-8 pb-16 max-w-[720px] mx-auto">
+            <div className="justify-self-start">
+              <button
+                onClick={() => goToChapter(currentIndex - 1)}
+                disabled={currentIndex === 0}
+                className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm transition-colors max-w-full ${
+                  currentIndex === 0
+                    ? "opacity-20 cursor-not-allowed"
+                    : darkMode
+                    ? "text-white/60 hover:text-white hover:bg-white/10"
+                    : "text-black/60 hover:text-black hover:bg-black/5"
+                }`}
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="flex-shrink-0">
+                  <polyline points="15 18 9 12 15 6" />
+                </svg>
+                <div className="text-left min-w-0">
+                  <span className="block truncate text-xs sm:text-sm">{prevChapter ? prevChapter.title : "Previous"}</span>
+                  {prevChapter && (
+                    <span className={`block text-[10px] mt-0.5 ${darkMode ? "text-white/30" : "text-black/30"}`}>
+                      {Math.max(1, Math.round(prevChapter.wordCount / 230))} min
+                    </span>
+                  )}
+                </div>
+              </button>
+            </div>
 
             <span
               className={`text-xs ${darkMode ? "text-white/30" : "text-black/30"}`}
@@ -500,33 +514,35 @@ export default function ReaderView({
               {currentIndex + 1} / {totalChapters}
             </span>
 
-            {currentIndex >= chapters.length - 1 ? (
-              <span
-                className={`text-sm italic ${darkMode ? "text-white/30" : "text-black/30"}`}
-                style={{ fontFamily: "var(--font-serif)" }}
-              >
-                The End
-              </span>
-            ) : (
-              <button
-                onClick={() => goToChapter(currentIndex + 1)}
-                className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm transition-colors max-w-[40%] ${
-                  darkMode
-                    ? "text-white/60 hover:text-white hover:bg-white/10"
-                    : "text-black/60 hover:text-black hover:bg-black/5"
-                }`}
-              >
-                <div className="text-right min-w-0">
-                  <span className="block truncate text-xs sm:text-sm">{chapters[currentIndex + 1].title}</span>
-                  <span className={`block text-[10px] mt-0.5 ${darkMode ? "text-white/30" : "text-black/30"}`}>
-                    {Math.max(1, Math.round(chapters[currentIndex + 1].wordCount / 230))} min
-                  </span>
-                </div>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <polyline points="9 18 15 12 9 6" />
-                </svg>
-              </button>
-            )}
+            <div className="justify-self-end">
+              {currentIndex >= chapters.length - 1 ? (
+                <span
+                  className={`text-sm italic ${darkMode ? "text-white/30" : "text-black/30"}`}
+                  style={{ fontFamily: "var(--font-serif)" }}
+                >
+                  The End
+                </span>
+              ) : (
+                <button
+                  onClick={() => goToChapter(currentIndex + 1)}
+                  className={`flex items-center gap-2 px-3 py-2.5 rounded-lg text-sm transition-colors max-w-full ${
+                    darkMode
+                      ? "text-white/60 hover:text-white hover:bg-white/10"
+                      : "text-black/60 hover:text-black hover:bg-black/5"
+                  }`}
+                >
+                  <div className="text-right min-w-0">
+                    <span className="block truncate text-xs sm:text-sm">{chapters[currentIndex + 1].title}</span>
+                    <span className={`block text-[10px] mt-0.5 ${darkMode ? "text-white/30" : "text-black/30"}`}>
+                      {Math.max(1, Math.round(chapters[currentIndex + 1].wordCount / 230))} min
+                    </span>
+                  </div>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </button>
+              )}
+            </div>
           </div>
         </>
       )}

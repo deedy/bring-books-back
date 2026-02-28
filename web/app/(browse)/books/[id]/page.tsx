@@ -4,6 +4,8 @@ import { getCatalog, getAnnotations, getChapters } from "@/lib/data";
 import ReadButton from "@/components/ReadButton";
 import BookCard from "@/components/BookCard";
 import BookPreview from "@/components/BookPreview";
+import ShareButtons from "@/components/ShareButtons";
+import BookOpenTracker from "@/components/BookOpenTracker";
 import { readingTime } from "@/lib/utils";
 
 export function generateStaticParams() {
@@ -197,6 +199,12 @@ export default async function BookPage({
           <div className="mt-6">
             <ReadButton bookId={book.id} accentColor={book.accentColor} />
           </div>
+
+          <div className="mt-4">
+            <ShareButtons url={`/books/${book.id}`} title={`${book.title} by ${author.name}`} />
+          </div>
+
+          <BookOpenTracker bookId={book.id} />
         </div>
       </div>
 
