@@ -366,12 +366,12 @@ _register(BookConfig(
 ))
 
 
-# ── Barrister Parvatishan ────────────────────────────────────────────────
+# ── Barrister Parvateesam ────────────────────────────────────────────────
 
 _register(BookConfig(
-    id="barrister-parvatishan",
-    title="Barrister Parvatishan",
-    transliterated_title="Barrister Parvatishan",
+    id="barrister-parvateesam",
+    title="Barrister Parvateesam",
+    transliterated_title="Barrister Parvateesam",
     original_title="బారిస్టర్ పార్వతీశం",
     author_id="mokkapati-narasimha-shastri",
     author_name="Mokkapati Narasimha Shastri",
@@ -382,7 +382,7 @@ _register(BookConfig(
     accent_color="#8B4513",
     style_context="Humorous Telugu novel about a naive Brahmin's misadventures traveling to England",
     annotation_prompt=(
-        'You are a literary analyst helping annotate an English translation of "Barrister Parvatishan" (1924), '
+        'You are a literary analyst helping annotate an English translation of "Barrister Parvateesam" (1924), '
         "a humorous Telugu novel by Mokkapati Narasimha Shastri about a naive young Brahmin's misadventures "
         "traveling to England. The translation preserves many Telugu proper nouns, cultural terms, and period vocabulary.\n\n"
         "For the given chapter text, extract three categories of terms that a modern English reader might want explained:\n\n"

@@ -1,13 +1,14 @@
 {
   "glossary": {
-    "Parvatisham": {
+    "Parvateesam": {
       "type": "character",
-      "description": "The protagonist of the novel, a naive young Brahmin whose misadventures and blunders while traveling from his village to England form the core of the story."
+      "description": "The protagonist and narrator, a naive and endearing young Brahmin from rural Andhra Pradesh who travels to England to become a barrister. His innocent misadventures and cultural misunderstandings form the comic heart of the novel.",
+      "image": "/data/images/characters/barrister-parvateesam/parvateesam.png"
     },
     "Mokkapati Narasimha Shastri": {
       "type": "character",
-      "description": "The author and narrator of the novel, who provides commentary and context about Parvatisham and the writing of the book.",
-      "image": "/data/images/characters/barrister-parvatishan/mokkapati-narasimha-shastri.png"
+      "description": "The author and narrator of the novel, who provides commentary and context about Parvateesam and the writing of the book.",
+      "image": "/data/images/characters/barrister-parvateesam/mokkapati-narasimha-shastri.png"
     },
     "Subbarayudu": {
       "type": "character",
@@ -15,7 +16,7 @@
     },
     "Shivashankar Shastri": {
       "type": "character",
-      "description": "Referred to as the narrator's son-in-law and later as the President who names the book 'Barrister Parvateesham'; a friend and supporter of the narrator."
+      "description": "Referred to as the narrator's son-in-law and later as the President who names the book 'Barrister Parvateesam'; a friend and supporter of the narrator."
     },
     "Teerthulu": {
       "type": "character",
@@ -39,15 +40,15 @@
     },
     "Mogalturru": {
       "type": "proper_noun",
-      "description": "A historic town in Andhra Pradesh, India, known for its fort and royal lineage; the narrator's and Parvatisham's place of residence."
+      "description": "A historic town in Andhra Pradesh, India, known for its fort and royal lineage; the narrator's and Parvateesam's place of residence."
     },
     "Gummalooru": {
       "type": "proper_noun",
-      "description": "A village mentioned as Parvatisham's birthplace and the narrator's mother-in-law's native place."
+      "description": "A village mentioned as Parvateesam's birthplace and the narrator's mother-in-law's native place."
     },
     "Looru": {
       "type": "proper_noun",
-      "description": "The actual village where Parvatisham was born, according to the narrator."
+      "description": "The actual village where Parvateesam was born, according to the narrator."
     },
     "Sarsapuram": {
       "type": "proper_noun",
@@ -63,7 +64,7 @@
     },
     "England": {
       "type": "proper_noun",
-      "description": "The country to which Parvatisham travels to study law and become a barrister."
+      "description": "The country to which Parvateesam travels to study law and become a barrister."
     },
     "Sahityalokam": {
       "type": "proper_noun",
@@ -79,7 +80,7 @@
     },
     "Brahma": {
       "type": "proper_noun",
-      "description": "The Hindu god of creation; Parvatisham humorously claims to be one of Brahma's mind-born sons."
+      "description": "The Hindu god of creation; Parvateesam humorously claims to be one of Brahma's mind-born sons."
     },
     "Rama": {
       "type": "proper_noun",
@@ -107,7 +108,7 @@
     },
     "Don Quixote": {
       "type": "proper_noun",
-      "description": "A famous Spanish novel by Cervantes, referenced as a comparison for Parvatisham."
+      "description": "A famous Spanish novel by Cervantes, referenced as a comparison for Parvateesam."
     },
     "Tagore": {
       "type": "proper_noun",
@@ -139,7 +140,7 @@
     },
     "London": {
       "type": "proper_noun",
-      "description": "The capital of England, where Parvatisham aspires to go for his barrister studies."
+      "description": "The capital of England, where Parvateesam aspires to go for his barrister studies."
     },
     "ayonija": {
       "type": "vocabulary",
@@ -185,27 +186,6 @@
       "type": "vocabulary",
       "description": "An artificial waterway, often used for irrigation or transport, common in rural Andhra Pradesh."
     },
-    "Amma": {
-      "type": "character",
-      "description": "The narrator's mother, a central figure in his childhood who cares for and guides him."
-    },
-    "Barrister Parvateesam": {
-      "type": "character",
-      "description": "The protagonist and narrator of the novel, recounting his childhood experiences and later adventures.",
-      "image": "/data/images/characters/barrister-parvatishan/barrister-parvateesam.png"
-    },
-    "Collector": {
-      "type": "character",
-      "description": "The British district administrator who presides over the prize distribution ceremony at the school."
-    },
-    "master": {
-      "type": "character",
-      "description": "The schoolteacher at Narsapur's Taylor High School, responsible for teaching and disciplining the students."
-    },
-    "school inspector": {
-      "type": "character",
-      "description": "A government official who visits the school to examine its functioning and question the students."
-    },
     "Narsapur": {
       "type": "proper_noun",
       "description": "A town in Andhra Pradesh, India, where the narrator goes to attend school."
@@ -230,30 +210,9 @@
       "type": "vocabulary",
       "description": "A scarf worn over the head, often as part of formal or traditional attire."
     },
-    "Parvateesham": {
-      "type": "character",
-      "description": "The protagonist and narrator, a clever but mischievous young Brahmin boy whose school days and coming-of-age are central to the story.",
-      "image": "/data/images/characters/barrister-parvatishan/parvateesham.png"
-    },
-    "headmaster": {
-      "type": "character",
-      "description": "The principal authority at the school, whose presence causes the students to panic and disperse during their celebration."
-    },
-    "father": {
-      "type": "character",
-      "description": "Parvateesham's father, who is concerned about his son's academic performance and hears reports about his socializing."
-    },
-    "mother": {
-      "type": "character",
-      "description": "Parvateesham's mother, who is eager to see her son married and takes pride in hosting relatives and friends during family ceremonies."
-    },
-    "uncle": {
-      "type": "character",
-      "description": "Parvateesham's uncle, who arranges the upanayanam (sacred thread ceremony) as the first step towards Parvateesham's marriage."
-    },
     "Narsapuram": {
       "type": "proper_noun",
-      "description": "A town in Andhra Pradesh, India, which is Parvateesham's home or place of schooling."
+      "description": "A town in Andhra Pradesh, India, which is Parvateesam's home or place of schooling."
     },
     "Harikathas": {
       "type": "proper_noun",
@@ -286,31 +245,6 @@
     "staff": {
       "type": "vocabulary",
       "description": "A stick or rod carried as part of traditional attire during Hindu rituals, especially during the upanayanam ceremony."
-    },
-    "Parvateesam": {
-      "type": "character",
-      "description": "The protagonist and narrator, a naive young Brahmin whose misadventures and coming-of-age are the focus of the novel.",
-      "image": "/data/images/characters/barrister-parvatishan/parvateesam.png"
-    },
-    "my uncle": {
-      "type": "character",
-      "description": "Parvateesam's paternal uncle, who is involved in arranging his marriage and often accompanies him on family matters."
-    },
-    "my father": {
-      "type": "character",
-      "description": "Parvateesam's father, a traditional man who is concerned about his son's studies and future, and considers marrying him off to instill responsibility."
-    },
-    "my mother": {
-      "type": "character",
-      "description": "Parvateesam's supportive mother, who advocates for his education and gently persuades his father on his behalf."
-    },
-    "the girl's maternal uncle": {
-      "type": "character",
-      "description": "The bride's maternal uncle, who helps host Parvateesam's family during the bride-seeing visit and orchestrates the singing performance."
-    },
-    "the master of the house": {
-      "type": "character",
-      "description": "The head of the bride's household who serves food to Parvateesam's party during their visit."
     },
     "Matriculation": {
       "type": "proper_noun",
@@ -366,11 +300,12 @@
     },
     "Venkata": {
       "type": "character",
-      "description": "A person in Parvatisham's household, likely a servant or farmhand, who is asked by Parvatisham's father to check on the calves."
+      "description": "A person in Parvateesam's household, likely a servant or farmhand, who is asked by Parvateesam's father to check on the calves."
     },
     "Ravana Rao": {
       "type": "character",
-      "description": "A middle-aged pleader (lawyer) and local leader who motivates Parvatisham and other youths to join the swaraj movement and organizes public meetings."
+      "description": "A middle-aged lawyer and local leader in Narsapuram who mentors Parvateesam, encouraging him to join political meetings and the independence movement. He arranges fundraising for Parvateesam's journey to England.",
+      "image": "/data/images/characters/barrister-parvateesam/ravana-rao.png"
     },
     "Narayanarao Pantulu": {
       "type": "character",
@@ -428,33 +363,17 @@
       "type": "vocabulary",
       "description": "Ancient sacred scriptures of Hinduism, often chanted at auspicious occasions."
     },
-    "Mr. Ravana Rao": {
-      "type": "character",
-      "description": "A recurring character who appears to be a local leader or organizer, relying on the narrator to help arrange large public meetings."
-    },
     "Chandrapal": {
       "type": "character",
       "description": "A great leader from Bengal mentioned as the chief guest for the upcoming meeting, whose visit prompts significant local preparations."
-    },
-    "Ravanarao": {
-      "type": "character",
-      "description": "An alternate spelling of Mr. Ravana Rao, referring to the same character who is instrumental in organizing the meetings."
     },
     "ablutions": {
       "type": "vocabulary",
       "description": "The act of washing oneself, often referring to ritual or morning cleansing in Indian culture."
     },
-    "Mr. Ravanarao": {
-      "type": "character",
-      "description": "A prominent Telugu leader who organizes meetings in Narsapuram and serves as a mentor and advisor to the narrator."
-    },
     "Mr. Paul": {
       "type": "character",
       "description": "A speaker at the meeting whose powerful speech leaves a lasting impression on the narrator; he speaks in a language unfamiliar to the crowd."
-    },
-    "Ravana Rao garu": {
-      "type": "character",
-      "description": "A respectful form of address for Mr. Ravanarao, indicating esteem; he provides guidance and advice to Parvateesham."
     },
     "curd rice": {
       "type": "vocabulary",
@@ -471,10 +390,6 @@
     "Thimmanna": {
       "type": "character",
       "description": "A character referenced in a short story told by a fellow traveler to illustrate Parvateesam's rustic naivety."
-    },
-    "Vemuri Ramachandraiah": {
-      "type": "character",
-      "description": "Parvateesam’s father, addressed in the letter home as a Veda scholar."
     },
     "Guntur": {
       "type": "proper_noun",
@@ -820,21 +735,17 @@
       "type": "vocabulary",
       "description": "In this context, refers to the 'kanduva' or 'uttariya,' a silk cloth tied around the waist, often for ritual purposes."
     },
-    "Parvatesam": {
-      "type": "character",
-      "description": "The protagonist and narrator, a naive young Brahmin from India who has just arrived in England to study law and become a barrister."
-    },
     "Menon": {
       "type": "character",
-      "description": "An elderly Indian gentleman staying at India House who befriends Parvatesam, helps him settle in, and shows him around London."
+      "description": "An elderly, generous Indian gentleman at India House in London who befriends Parvateesam on arrival, helps him settle in, and guides him through the bewildering customs of England."
     },
     "Cook-garu": {
       "type": "character",
-      "description": "A representative or agent from the Cook Company (likely Thomas Cook & Son, a travel agency), who assists Parvatesam upon his arrival in England."
+      "description": "A representative or agent from the Cook Company (likely Thomas Cook & Son, a travel agency), who assists Parvateesam upon his arrival in England."
     },
     "Case": {
       "type": "character",
-      "description": "A companion who tours London with Parvatesam; possibly another acquaintance at India House, though his exact identity is ambiguous in this chapter."
+      "description": "A companion who tours London with Parvateesam; possibly another acquaintance at India House, though his exact identity is ambiguous in this chapter."
     },
     "Cook Company": {
       "type": "proper_noun",
@@ -850,15 +761,15 @@
     },
     "Godavari district": {
       "type": "proper_noun",
-      "description": "A region in Andhra Pradesh, India, from which Parvatesam hails."
+      "description": "A region in Andhra Pradesh, India, from which Parvateesam hails."
     },
     "Edinburgh": {
       "type": "proper_noun",
-      "description": "The capital city of Scotland, mentioned as a possible place for Parvatesam to study law."
+      "description": "The capital city of Scotland, mentioned as a possible place for Parvateesam to study law."
     },
     "France": {
       "type": "proper_noun",
-      "description": "A country in Western Europe, mentioned as a place Parvatesam passed through on his journey."
+      "description": "A country in Western Europe, mentioned as a place Parvateesam passed through on his journey."
     },
     "Thames": {
       "type": "proper_noun",
@@ -874,7 +785,7 @@
     },
     "British Museum": {
       "type": "proper_noun",
-      "description": "A renowned museum in London, referenced humorously regarding Parvatesam's shawl."
+      "description": "A renowned museum in London, referenced humorously regarding Parvateesam's shawl."
     },
     "Trafalgar Square": {
       "type": "proper_noun",
@@ -920,14 +831,6 @@
       "type": "vocabulary",
       "description": "A domestic worker; in colonial contexts, often used for staff in British or Indian households."
     },
-    "manager madam": {
-      "type": "character",
-      "description": "The lady manager of the lodging or institution where Parvateesam is staying; she guides and organizes activities for the newcomers from India."
-    },
-    "attendant": {
-      "type": "character",
-      "description": "A staff member at the exhibition or zoological gardens who explains the animals to visitors and assists during the tour."
-    },
     "Peerla festival": {
       "type": "proper_noun",
       "description": "A local festival celebrated in some parts of South India, often involving processions and people dressing up, sometimes as tigers."
@@ -964,10 +867,6 @@
       "type": "vocabulary",
       "description": "A large enclosure for keeping birds, often found in zoos or gardens."
     },
-    "Mevan": {
-      "type": "character",
-      "description": "A friend or acquaintance of Menon who assists Parvateesam with shopping for clothes and other necessities in the city."
-    },
     "Hyde Park": {
       "type": "proper_noun",
       "description": "A famous and expansive public park in central London, known for its recreational spaces and gatherings of important people."
@@ -992,10 +891,6 @@
       "type": "vocabulary",
       "description": "British English term for an elevator, a mechanical device for moving people between floors."
     },
-    "Meenan": {
-      "type": "character",
-      "description": "A variant spelling of Menon used in the text, referring to the same helpful friend who assists the narrator during his travels."
-    },
     "baniyan": {
       "type": "vocabulary",
       "description": "An Indian term for a sleeveless undershirt or vest, typically worn as an undergarment."
@@ -1010,8 +905,8 @@
     },
     "Raju": {
       "type": "character",
-      "description": "A Telugu-speaking man encountered at the Indian Association, who is asked to help Parvateesam find a room.",
-      "image": "/data/images/characters/barrister-parvatishan/raju.png"
+      "description": "A Telugu-speaking man in Edinburgh who becomes Parvateesam's close companion and guide, teaching him local customs and helping him navigate boarding house life in Scotland.",
+      "image": "/data/images/characters/barrister-parvateesam/raju.png"
     },
     "Indian Association": {
       "type": "proper_noun",
@@ -1048,10 +943,6 @@
     "signboard": {
       "type": "vocabulary",
       "description": "A board displaying information or advertisements, such as 'Rooms to Let,' indicating rooms available for rent."
-    },
-    "lady of the house": {
-      "type": "character",
-      "description": "The woman who manages the household where Raju and Parvateesham stay; she provides meals and attends to the needs of the boarders."
     },
     "Bhimavaram": {
       "type": "proper_noun",
@@ -1113,10 +1004,6 @@
       "type": "vocabulary",
       "description": "Simple slippers made from plant leaves, traditionally used in rural India."
     },
-    "Same": {
-      "type": "character",
-      "description": "A nickname given to Barrister Parvateesam by the English landlady who cannot pronounce his real name; used by the household to refer to him."
-    },
     "Telugus": {
       "type": "proper_noun",
       "description": "People who speak Telugu, an Indian language predominantly spoken in Andhra Pradesh and Telangana."
@@ -1169,10 +1056,6 @@
       "type": "character",
       "description": "A person mentioned in comparison to the landlady's daughters, suggesting Josie is less lively; likely another acquaintance or servant."
     },
-    "Mrs. Thompson": {
-      "type": "character",
-      "description": "The lady of the house (landlady), who hosts Parvateesam and her daughters, and tries to smooth over his social mistakes."
-    },
     "picture house": {
       "type": "proper_noun",
       "description": "An early 20th-century term for a cinema or movie theater, where films are shown."
@@ -1191,19 +1074,7 @@
     },
     "Mrs. Thomson": {
       "type": "character",
-      "description": "The lady of the house where Parvateesam is staying in England; she shows him kindness and maternal affection, comforting him during his homesickness."
-    },
-    "Mr. Sam": {
-      "type": "character",
-      "description": "A nickname or affectionate form used by the English family for Parvateesam, reflecting their attempt to address him in a familiar way."
-    },
-    "Mr. Semgar": {
-      "type": "character",
-      "description": "A mispronunciation or alternate form of Parvateesam's name used by Mrs. Thomson when delivering his letter."
-    },
-    "Mr. Same": {
-      "type": "character",
-      "description": "Another variant or mispronunciation of Parvateesam's name used by Mrs. Thomson during their conversation."
+      "description": "The kindly English landlady in Edinburgh who hosts Parvateesam, shows him maternal affection, and tries to bridge the cultural gap despite their language barriers."
     },
     "gramophone": {
       "type": "vocabulary",
@@ -1219,7 +1090,7 @@
     },
     "Ankammasivam": {
       "type": "character",
-      "description": "A person referenced humorously by Parvatisham, likely from his home region, known for performing midnight rituals; used here to compare going to the cinema in daylight to unusual behavior."
+      "description": "A person referenced humorously by Parvateesam, likely from his home region, known for performing midnight rituals; used here to compare going to the cinema in daylight to unusual behavior."
     },
     "Sankranti": {
       "type": "proper_noun",
@@ -1249,18 +1120,6 @@
       "type": "vocabulary",
       "description": "Another traditional Telugu game, possibly a variation of hopscotch or a local playground game."
     },
-    "Barrister Parvatishan": {
-      "type": "character",
-      "description": "The protagonist of the novel, a naive young Brahmin whose adventures and misadventures form the core of the story."
-    },
-    "Raja": {
-      "type": "character",
-      "description": "A friend or companion of the narrator, who congratulates him after his success in the game."
-    },
-    "Dhamsanamma garu": {
-      "type": "character",
-      "description": "The landlady where the narrator is staying; she is caring and attentive to his well-being."
-    },
     "Chedugudu": {
       "type": "proper_noun",
       "description": "A traditional South Indian (Telugu) team sport, similar to kabaddi, involving tagging and chasing."
@@ -1287,7 +1146,7 @@
     },
     "Gopalakrishnayya": {
       "type": "character",
-      "description": "Referred to as Duggiirala Gopalakrishnayya, he is the secretary of the Indian Association and a prominent Telugu figure who encourages Parvateesam to recite poetry."
+      "description": "Full name Duggirala Gopalakrishnayya — a lively, witty Andhra friend of Parvateesam in Edinburgh, known for his pranks, sharp humor, and leadership among the Indian students."
     },
     "Sumati Shatakam": {
       "type": "proper_noun",
@@ -1340,10 +1199,6 @@
     "Vemraju": {
       "type": "character",
       "description": "A friend of the narrator, known for his mischievous and clever ideas, such as the snake prank on the landlady."
-    },
-    "Sam": {
-      "type": "character",
-      "description": "A name used by the landlady for the narrator, likely as a term of endearment or familiarity."
     },
     "Madras Presidency": {
       "type": "proper_noun",
@@ -1517,18 +1372,6 @@
       "type": "vocabulary",
       "description": "The seed of the areca palm, chewed with betel leaf as a stimulant in South Asia."
     },
-    "the Father": {
-      "type": "character",
-      "description": "A priest encountered by Parvateesam and his friends, notable for his comic attempt to catch a moth at a lamppost."
-    },
-    "the hotel manager": {
-      "type": "character",
-      "description": "The person in charge of the hotel at the seaside town, who refuses Parvateesam a room due to pressure from a resident."
-    },
-    "the porter": {
-      "type": "character",
-      "description": "A hotel staff member who assists the manager and is involved in informing Parvateesam about the room situation."
-    },
     "Arjuna": {
       "type": "proper_noun",
       "description": "A legendary warrior prince from the Indian epic Mahabharata, renowned for his skill in battle and chariot-driving."
@@ -1613,14 +1456,6 @@
       "type": "vocabulary",
       "description": "A government or private facility where mail is sent, received, and sorted; in this context, also involved in censorship during wartime."
     },
-    "professor": {
-      "type": "character",
-      "description": "The professor is the teacher of the narrator's class, depicted as calm, witty, and good-humored, even when students are mischievous or unexpected events occur."
-    },
-    "students": {
-      "type": "character",
-      "description": "The students are the classmates of the narrator, participating in classroom activities, pranks, and war fund collections, often interacting playfully with the professors."
-    },
     "Firth of Forth": {
       "type": "proper_noun",
       "description": "A large estuary (inlet) near Edinburgh, Scotland, which serves as a port and naval base, especially significant during wartime."
@@ -1669,10 +1504,6 @@
       "type": "vocabulary",
       "description": "In this context, refers to the raised seating area or balcony in a classroom or lecture hall."
     },
-    "Duggirala Gopalakrishnayya": {
-      "type": "character",
-      "description": "A lively, witty, and mischievous Andhra friend of Parvateesam, known for his pranks and sharp humor."
-    },
     "Rao": {
       "type": "character",
       "description": "A robust fellow student and friend of Parvateesam, also studying to become a barrister, who is the subject of a practical joke in this chapter."
@@ -1688,10 +1519,6 @@
     "Mrs. Satyavati": {
       "type": "character",
       "description": "Ramana's wife, whose first menstruation is the subject of a traditional family letter and subsequent celebration among friends."
-    },
-    "Ravana": {
-      "type": "character",
-      "description": "A nickname for one of Parvateesam's friends, likely referencing the mythological demon king, who arrives early to the tea party."
     },
     "Nagadi": {
       "type": "proper_noun",
@@ -1752,10 +1579,6 @@
     "M.K. Gandhi": {
       "type": "character",
       "description": "Mohandas Karamchand Gandhi, the renowned Indian nationalist leader, referenced here for his arrival in London and involvement with the Indian Red Cross."
-    },
-    "Gopala Krishnayya": {
-      "type": "character",
-      "description": "Another form of Duggirala Gopalakrishnayya's name, used interchangeably; a leader among the Indian students."
     },
     "Glasgow": {
       "type": "proper_noun",
@@ -1957,22 +1780,6 @@
       "type": "vocabulary",
       "description": "Traditional men's garments in India, consisting of a long piece of cloth wrapped around the waist and legs."
     },
-    "Parsi brothers": {
-      "type": "character",
-      "description": "Two Parsi men traveling together in the same train compartment as Parvateesam, engaged in a business dispute."
-    },
-    "Maharashtrian husband and wife": {
-      "type": "character",
-      "description": "A couple from Maharashtra who board the train with Parvateesam and amuse him with their constant bickering."
-    },
-    "Telugu couple": {
-      "type": "character",
-      "description": "A husband and wife from the Telugu-speaking region, traveling with their young child; they befriend Parvateesam on the train."
-    },
-    "station porter": {
-      "type": "character",
-      "description": "A railway porter who assists Parvateesam with his luggage and errands at Hyderabad station."
-    },
     "Victoria Terminus": {
       "type": "proper_noun",
       "description": "A major railway station in Bombay (now Mumbai), known today as Chhatrapati Shivaji Maharaj Terminus, built during the British colonial era."
@@ -2116,14 +1923,6 @@
     "Dayakeshara": {
       "type": "character",
       "description": "A friend of Parvateesam from Narsapur, who brings news of Parvateesam's return spreading through the town."
-    },
-    "president of the Narsapur Bar Association": {
-      "type": "character",
-      "description": "A local legal dignitary who may also honor Parvateesam."
-    },
-    "lady sahib": {
-      "type": "character",
-      "description": "A term used humorously by Parvateesam to refer to a woman who cooked for him in England, impressing the villagers."
     },
     "Rajus": {
       "type": "proper_noun",
@@ -2279,11 +2078,11 @@
     },
     "Munasabu garu": {
       "type": "character",
-      "description": "The president of the meeting and a respected local dignitary, who presides over the felicitation ceremony for Parvatisham."
+      "description": "The president of the meeting and a respected local dignitary, who presides over the felicitation ceremony for Parvateesam."
     },
     "Versapuram": {
       "type": "proper_noun",
-      "description": "A town mentioned as the place from which two lawyers arrive to accompany Parvatisham."
+      "description": "A town mentioned as the place from which two lawyers arrive to accompany Parvateesam."
     },
     "felicitation": {
       "type": "vocabulary",
@@ -2296,14 +2095,6 @@
     "angavastram": {
       "type": "vocabulary",
       "description": "A traditional South Indian garment, a long cloth draped over the shoulders, often worn by men."
-    },
-    "Sri Parvateesham": {
-      "type": "character",
-      "description": "The protagonist and narrator, a naive young Brahmin who recounts his experiences traveling to England and his observations on Indian and Western society."
-    },
-    "Sri Ramanarao": {
-      "type": "character",
-      "description": "A prominent and influential figure who mentors Parvateesham, encouraging him to organize political meetings and eventually inspiring him to study law abroad."
     },
     "Melrose Abbey": {
       "type": "proper_noun",
@@ -2332,7 +2123,7 @@
     "Achyutaramaiah": {
       "type": "character",
       "description": "A Brahmin lawyer from Mogalturru, introduced as a potential father-in-law, whose eldest daughter becomes a marriage prospect for Parvateesam.",
-      "image": "/data/images/characters/barrister-parvatishan/achyutaramaiah.png"
+      "image": "/data/images/characters/barrister-parvateesam/achyutaramaiah.png"
     },
     "Surya Narayana Shastri": {
       "type": "character",
@@ -2522,10 +2313,6 @@
       "type": "character",
       "description": "Saraswati's father and Parvateesam's father-in-law, a respected figure who is involved in legal work and manages family matters."
     },
-    "aunt": {
-      "type": "character",
-      "description": "Saraswati's mother or aunt, who interacts with Parvateesam and encourages him to stay longer."
-    },
     "mother-in-law": {
       "type": "character",
       "description": "Saraswati's mother, who prepares special meals for Parvateesam and participates in the household rituals."
@@ -2541,10 +2328,6 @@
     "coachman": {
       "type": "vocabulary",
       "description": "A driver of a horse-drawn carriage, a common mode of transport in early 20th century India."
-    },
-    "Nagamma": {
-      "type": "character",
-      "description": "Nagamma is the narrator's mother, a central figure in his household who manages domestic affairs and often provides advice and emotional support."
     },
     "Goddess Mahalakshmi": {
       "type": "proper_noun",
@@ -2569,14 +2352,6 @@
     "Ramachandra Rao": {
       "type": "character",
       "description": "A friend of Parvateesam in Bezwada (Vijayawada), portrayed as easy-going and entertaining, who hosts Parvateesam and his friends."
-    },
-    "Peri Narayanamurthy": {
-      "type": "character",
-      "description": "A renowned and elderly lawyer in Madras, respected for his warmth and hospitality, whom Parvateesam seeks out for advice."
-    },
-    "Tanguturi Prakasham": {
-      "type": "character",
-      "description": "A famous Telugu barrister in Madras, known for his stern demeanor and formidable reputation, whom Parvateesam visits for guidance."
     },
     "Kakinada": {
       "type": "proper_noun",
@@ -2617,18 +2392,6 @@
     "vakil": {
       "type": "vocabulary",
       "description": "A term for a lawyer or legal advocate in colonial India."
-    },
-    "Prakashamgaru": {
-      "type": "character",
-      "description": "A prominent and respected lawyer in Madras, known for his grave and dignified demeanor; he becomes one of Parvateesam's mentors in criminal law."
-    },
-    "Narayana Murthy garu": {
-      "type": "character",
-      "description": "A renowned lawyer in Madras who kindly takes Parvateesam as an apprentice, teaching him civil court procedures and guiding his early legal career."
-    },
-    "Pantulu garu": {
-      "type": "character",
-      "description": "A senior and well-known figure in the legal community, friendly with Parvateesam and his mentors; he greets Parvateesam warmly and encourages his career."
     },
     "Surya": {
       "type": "character",
@@ -2677,18 +2440,6 @@
     "cook-brahmins": {
       "type": "vocabulary",
       "description": "Brahmin men employed to cook food for religious or social occasions, ensuring ritual purity."
-    },
-    "Prakashampantulu garu": {
-      "type": "character",
-      "description": "A respected senior lawyer who entrusts the narrator with important criminal cases and offers guidance."
-    },
-    "grandmother": {
-      "type": "character",
-      "description": "The narrator's grandmother, who offers reassurance and advice in a familial context."
-    },
-    "teacher": {
-      "type": "character",
-      "description": "A mentor figure who expresses pride and joy at the narrator's courtroom success."
     },
     "Panuganti": {
       "type": "proper_noun",
@@ -2834,10 +2585,6 @@
       "type": "vocabulary",
       "description": "Postponements or delays of court cases to a later date."
     },
-    "Prakasham garu": {
-      "type": "character",
-      "description": "A respected lawyer and teacher of Parvateesam, known for his courage and advocacy in court."
-    },
     "Chiranjeevi Puranam Subrahmanya Sharma": {
       "type": "character",
       "description": "A friend of the author who suggested the continuation of the Parvateesam story."
@@ -2909,11 +2656,32 @@
     "jalebis": {
       "type": "vocabulary",
       "description": "A popular Indian sweet made by deep-frying batter in circular shapes and soaking them in sugar syrup."
+    },
+    "Prakasham": {
+      "type": "character",
+      "description": "Full name Tanguturi Prakasham — a famous and formidable Telugu barrister in Madras known for his grave demeanor; he becomes one of Parvateesam's mentors in his legal career."
+    },
+    "Narayana Murthy": {
+      "type": "character",
+      "description": "Full name Peri Narayanamurthy — a renowned and warm-hearted senior lawyer in Madras who takes Parvateesam under his wing as an apprentice, teaching him civil court procedures."
+    },
+    "Parvateesam's Father": {
+      "type": "character",
+      "description": "A traditional Veda scholar from the village, concerned about his son's future and initially opposed to Parvateesam's political activities and travel abroad."
+    },
+    "Parvateesam's Mother": {
+      "type": "character",
+      "description": "A loving, nurturing presence who advocates for Parvateesam's education, eagerly awaits his return from England, and plays a central role in arranging his marriage.",
+      "image": "/data/images/characters/barrister-parvateesam/parvateesams-mother.png"
+    },
+    "Uncle": {
+      "type": "character",
+      "description": "Parvateesam's paternal uncle, who arranges his upanayanam ceremony and later accompanies him on important family occasions including his marriage."
     }
   },
   "chapters": {
     "ch-1-1": [
-      "Parvatisham",
+      "Parvateesam",
       "Mokkapati Narasimha Shastri",
       "Subbarayudu",
       "Shivashankar Shastri",
@@ -2961,11 +2729,6 @@
       "canal"
     ],
     "ch-1-2": [
-      "Amma",
-      "Barrister Parvateesam",
-      "Collector",
-      "master",
-      "school inspector",
       "Narsapur",
       "Taylor High School",
       "Godavari",
@@ -2975,14 +2738,12 @@
       "verandah",
       "Collector",
       "headscarf",
-      "shawl"
+      "shawl",
+      "Parvateesam",
+      "Parvateesam's Mother"
     ],
     "ch-1-3": [
-      "Parvateesham",
-      "headmaster",
-      "father",
-      "mother",
-      "uncle",
+      "Parvateesam",
       "Narsapuram",
       "Harikathas",
       "bhajans",
@@ -2992,16 +2753,13 @@
       "loincloth",
       "sacred thread",
       "begging bowl",
-      "staff"
+      "staff",
+      "Parvateesam's Father",
+      "Parvateesam's Mother",
+      "Uncle"
     ],
     "ch-1-4": [
       "Parvateesam",
-      "my uncle",
-      "my father",
-      "my mother",
-      "headmaster",
-      "the girl's maternal uncle",
-      "the master of the house",
       "Narsapur",
       "Ashtavadhanam",
       "Matriculation",
@@ -3018,10 +2776,13 @@
       "leaf",
       "bottle gourd curry",
       "raw banana curry",
-      "ginger chutney"
+      "ginger chutney",
+      "Parvateesam's Father",
+      "Parvateesam's Mother",
+      "Uncle"
     ],
     "ch-1-5": [
-      "Parvatisham",
+      "Parvateesam",
       "Venkata",
       "Ravana Rao",
       "Narayanarao Pantulu",
@@ -3045,32 +2806,28 @@
       "Vedas"
     ],
     "ch-1-6": [
-      "Mr. Ravana Rao",
       "Chandrapal",
-      "Ravanarao",
       "Narsapur",
       "Bengal",
       "Narsapuram",
-      "ablutions"
+      "ablutions",
+      "Ravana Rao"
     ],
     "ch-1-7": [
-      "Mr. Ravanarao",
       "Mr. Paul",
-      "Parvateesham",
-      "Ravana Rao garu",
+      "Parvateesam",
       "Narsapuram",
       "Telugu",
       "Narsapur",
       "curd rice",
-      "garu"
+      "garu",
+      "Ravana Rao"
     ],
     "ch-1-8": [
       "Parvateesam",
-      "Mr. Ravanarao",
       "Gazavalli Narayana",
       "Thimmanna",
       "Bode Narayana Rao",
-      "Vemuri Ramachandraiah",
       "Narsapur",
       "Guntur",
       "London",
@@ -3166,10 +2923,12 @@
       "suit",
       "fountain pen",
       "sacred threads",
-      "waistbands"
+      "waistbands",
+      "Ravana Rao",
+      "Parvateesam's Father"
     ],
     "ch-2-1": [
-      "Parvatesam",
+      "Parvateesam",
       "Menon",
       "Cook-garu",
       "Case",
@@ -3206,9 +2965,6 @@
       "lavatory"
     ],
     "ch-2-5": [
-      "Barrister Parvateesam",
-      "manager madam",
-      "attendant",
       "Telugu",
       "Peerla festival",
       "Africa",
@@ -3219,12 +2975,11 @@
       "Himalayas",
       "zoological gardens",
       "menagerie",
-      "aviary"
+      "aviary",
+      "Parvateesam"
     ],
     "ch-2-6": [
-      "Barrister Parvateesam",
       "Menon",
-      "Mevan",
       "Hyde Park",
       "London",
       "Marseilles",
@@ -3236,21 +2991,20 @@
       "drawers",
       "lift",
       "sacred thread",
-      "furlong"
+      "furlong",
+      "Parvateesam"
     ],
     "ch-2-7": [
       "Menon",
-      "Barrister Parvateesam",
-      "Meenan",
       "Edinburgh",
       "baniyan",
       "shawl",
       "trunk",
       "porter",
-      "rugs"
+      "rugs",
+      "Parvateesam"
     ],
     "ch-2-8": [
-      "Barrister Parvateesam",
       "Raju",
       "Indian Association",
       "Maharaja",
@@ -3262,12 +3016,12 @@
       "tram",
       "station master",
       "countryman",
-      "signboard"
+      "signboard",
+      "Parvateesam"
     ],
     "ch-2-9": [
       "Raju",
-      "Parvateesham",
-      "lady of the house",
+      "Parvateesam",
       "Bhimavaram",
       "Telugu",
       "Kshatriya",
@@ -3290,8 +3044,6 @@
     ],
     "ch-2-10": [
       "Raju",
-      "Barrister Parvateesam",
-      "Same",
       "Godavari district",
       "Indian Association",
       "Telugus",
@@ -3308,37 +3060,35 @@
       "ghee",
       "tokku chutney",
       "mango pickle",
-      "laundryman"
+      "laundryman",
+      "Parvateesam"
     ],
     "ch-2-11": [
-      "Barrister Parvateesam",
       "Raju",
       "Appagaru",
       "Josie",
-      "Mrs. Thompson",
       "picture house",
       "tea party",
       "landlady",
       "furlong",
       "ablutions",
-      "butler"
+      "butler",
+      "Parvateesam",
+      "Mrs. Thomson"
     ],
     "ch-2-12": [
-      "Barrister Parvateesam",
       "Mrs. Thomson",
-      "Mr. Sam",
-      "Mr. Semgar",
-      "Mr. Same",
       "Godavari",
       "London",
       "India",
       "gramophone",
       "telegram",
-      "money orders"
+      "money orders",
+      "Parvateesam"
     ],
     "ch-2-13": [
       "Raju",
-      "Parvatisham",
+      "Parvateesam",
       "Ankammasivam",
       "Sankranti",
       "Kunda Batti",
@@ -3352,23 +3102,22 @@
       "uppattiga"
     ],
     "ch-2-14": [
-      "Barrister Parvatishan",
-      "Raja",
       "Raju",
-      "Dhamsanamma garu",
       "Chedugudu",
       "Uppatti",
       "garu",
       "landlady",
       "exam",
-      "snacks"
+      "snacks",
+      "Parvateesam",
+      "Mrs. Thomson"
     ],
     "ch-2-15": [
       "Raju",
       "Mrs. Sarojini Devi",
       "Dr. Ananda Coomaraswamy",
       "Gopalakrishnayya",
-      "Parvatisham",
+      "Parvateesam",
       "Edinburgh",
       "Indian Association",
       "Telugu",
@@ -3389,11 +3138,9 @@
       "Intermediate"
     ],
     "ch-2-16": [
-      "Raja",
       "Raju",
       "Vemraju",
-      "Parvateesham",
-      "Sam",
+      "Parvateesam",
       "Edinburgh",
       "India",
       "Madras Presidency",
@@ -3413,7 +3160,6 @@
       "Namaskaram"
     ],
     "ch-2-17": [
-      "Barrister Parvateesam",
       "Raju",
       "Jack",
       "Mr. Mumeshtaru",
@@ -3436,10 +3182,10 @@
       "farce",
       "veranda",
       "landlady",
-      "tram"
+      "tram",
+      "Parvateesam"
     ],
     "ch-2-18": [
-      "Barrister Parvateesam",
       "Raju",
       "Bapu",
       "Charlie Chaplin",
@@ -3461,22 +3207,19 @@
       "seer",
       "sambar powder",
       "rasam powder",
-      "betel nut"
+      "betel nut",
+      "Parvateesam"
     ],
     "ch-2-19": [
-      "Barrister Parvateesam",
-      "the Father",
-      "the hotel manager",
-      "the porter",
       "Arjuna",
       "chedugudi",
       "Lock Ramja",
       "constable",
       "public house",
-      "stenographer"
+      "stenographer",
+      "Parvateesam"
     ],
     "ch-2-20": [
-      "Barrister Parvateesam",
       "Asquith",
       "Lincoln’s Inn",
       "London",
@@ -3501,11 +3244,10 @@
       "furlongs",
       "bunkers",
       "servant",
-      "post office"
+      "post office",
+      "Parvateesam"
     ],
     "ch-2-21": [
-      "professor",
-      "students",
       "Edinburgh",
       "Firth of Forth",
       "Germans",
@@ -3522,13 +3264,10 @@
       "gallery"
     ],
     "ch-2-22": [
-      "Barrister Parvateesam",
-      "Duggirala Gopalakrishnayya",
       "Rao",
       "Sri Ananda Coomaraswamy",
       "Ramana",
       "Mrs. Satyavati",
-      "Ravana",
       "Andhras",
       "Andhra",
       "Bhagavatam",
@@ -3547,18 +3286,17 @@
       "pulihora",
       "Havva",
       "practical joke",
-      "naming ceremony"
+      "naming ceremony",
+      "Parvateesam",
+      "Ravana Rao",
+      "Gopalakrishnayya"
     ],
     "ch-2-23": [
-      "Ravana",
       "Guruji",
       "Winston Churchill",
       "Asquith",
       "Lloyd George",
       "M.K. Gandhi",
-      "Duggirala Gopalakrishnayya",
-      "Barrister Parvateesam",
-      "Gopala Krishnayya",
       "Edinburgh",
       "Glasgow",
       "Scotland",
@@ -3575,12 +3313,13 @@
       "landlady",
       "lakhs",
       "bazaar",
-      "honeymoon"
+      "honeymoon",
+      "Parvateesam",
+      "Ravana Rao",
+      "Gopalakrishnayya"
     ],
     "ch-2-24": [
-      "Barrister Parvateesam",
       "Raju",
-      "Sam",
       "Mokkapati Narasimha Shastri",
       "Indian Association",
       "Bhagavatam",
@@ -3597,10 +3336,10 @@
       "upma kesari",
       "tabla",
       "harmonium",
-      "puja"
+      "puja",
+      "Parvateesam"
     ],
     "ch-2-26": [
-      "Barrister Parvateesam",
       "Strait of Dover",
       "English Channel",
       "Atlantic Ocean",
@@ -3623,10 +3362,10 @@
       "usher",
       "life belt",
       "lifeboat",
-      "weighed anchor"
+      "weighed anchor",
+      "Parvateesam"
     ],
     "ch-3-1": [
-      "Barrister Parvateesam",
       "Hindustan",
       "Bombay",
       "Bombay Harbor",
@@ -3640,14 +3379,10 @@
       "sahibs",
       "coolies",
       "salaams",
-      "dhotis"
+      "dhotis",
+      "Parvateesam"
     ],
     "ch-3-2": [
-      "Barrister Parvateesam",
-      "Parsi brothers",
-      "Maharashtrian husband and wife",
-      "Telugu couple",
-      "station porter",
       "Victoria Terminus",
       "Nidadavolu",
       "Madras State",
@@ -3670,11 +3405,11 @@
       "coolie",
       "refreshment stall",
       "curd",
-      "ferry"
+      "ferry",
+      "Parvateesam"
     ],
     "ch-3-3": [
       "Chattulugaru",
-      "Barrister Parvateesam",
       "Bapan",
       "Annapurna",
       "Mahalakshmi",
@@ -3700,18 +3435,15 @@
       "cow-dung water",
       "pesaratlu",
       "tank",
-      "washerman"
+      "washerman",
+      "Parvateesam"
     ],
     "ch-3-4": [
       "Parvateesam",
       "Desamayyah",
       "Raju",
-      "Barrister Parvateesam",
       "Mokkapati Narasimha Shastri",
       "Dayakeshara",
-      "headmaster",
-      "president of the Narsapur Bar Association",
-      "lady sahib",
       "Rajus",
       "Tamil",
       "Vedic pundits",
@@ -3741,7 +3473,6 @@
     ],
     "ch-3-6": [
       "Parvateesam",
-      "headmaster",
       "Bantrotu Veeraswamy",
       "Narsapur",
       "Narsapur Bar Association",
@@ -3775,7 +3506,7 @@
       "porter"
     ],
     "ch-3-7": [
-      "Parvatisham",
+      "Parvateesam",
       "Munasabu garu",
       "Versapuram",
       "Narsapuram",
@@ -3790,9 +3521,6 @@
       "angavastram"
     ],
     "ch-3-8": [
-      "Sri Parvateesham",
-      "Sri Ramanarao",
-      "Barrister Parvateesam",
       "dharma",
       "Telugu",
       "Sanskrit",
@@ -3807,10 +3535,11 @@
       "Sabhaayainamah",
       "tramcar",
       "motor car",
-      "aristocrats"
+      "aristocrats",
+      "Parvateesam",
+      "Ravana Rao"
     ],
     "ch-3-9": [
-      "Barrister Parvateesam",
       "Satyam",
       "Raju",
       "Achyutaramaiah",
@@ -3822,7 +3551,6 @@
       "Narsapur",
       "Rayalaseema",
       "Madras",
-      "Collector",
       "Governor",
       "Erramunda",
       "dhoti",
@@ -3841,10 +3569,10 @@
       "betel leaves",
       "dowry",
       "bazaar",
-      "garu"
+      "garu",
+      "Parvateesam"
     ],
     "ch-3-11": [
-      "Barrister Parvateesam",
       "Raju",
       "Achyutaramaiah garu",
       "Atmaram",
@@ -3873,12 +3601,10 @@
       "warded off the evil eye",
       "dais",
       "scatterbrain",
-      "bundle"
+      "bundle",
+      "Parvateesam"
     ],
     "ch-3-12": [
-      "Barrister Parvateesam",
-      "my mother",
-      "my father",
       "Narsapuram",
       "Bhimavaram",
       "ghee",
@@ -3889,10 +3615,12 @@
       "palanquin",
       "shawl",
       "velvet cap",
-      "gig-carts"
+      "gig-carts",
+      "Parvateesam",
+      "Parvateesam's Father",
+      "Parvateesam's Mother"
     ],
     "ch-3-13": [
-      "Barrister Parvateesam",
       "Raju",
       "Achyutaramaiah",
       "Achyutaramaiah garu",
@@ -3912,18 +3640,14 @@
       "leaf plates",
       "gotra",
       "maid",
-      "well"
+      "well",
+      "Parvateesam"
     ],
     "ch-3-14": [
-      "Barrister Parvateesam",
       "Saraswati",
       "Raju",
       "father-in-law",
-      "aunt",
       "mother-in-law",
-      "uncle",
-      "father",
-      "mother",
       "B.L. degree",
       "Indra",
       "Mogalthur",
@@ -3933,13 +3657,15 @@
       "auspicious",
       "coachman",
       "verandah",
-      "betel leaves"
+      "betel leaves",
+      "Parvateesam",
+      "Parvateesam's Father",
+      "Parvateesam's Mother",
+      "Uncle"
     ],
     "ch-3-15": [
-      "Nagamma",
       "Saraswati",
       "Mokkapati Narasimha Shastri",
-      "Barrister Parvateesam",
       "Narsapur",
       "Bhimavaram",
       "Goddess Mahalakshmi",
@@ -3949,24 +3675,23 @@
       "ablutions",
       "tank",
       "pleader",
-      "verandah"
+      "verandah",
+      "Parvateesam",
+      "Parvateesam's Mother"
     ],
     "ch-3-16": [
-      "Barrister Parvateesam",
       "Raju",
       "Manohari",
       "Bhimavaram",
       "pleader",
       "ablutions",
-      "veranda"
+      "veranda",
+      "Parvateesam"
     ],
     "ch-3-17": [
-      "Barrister Parvateesam",
       "Saraswati",
       "Raju",
       "Ramachandra Rao",
-      "Peri Narayanamurthy",
-      "Tanguturi Prakasham",
       "Bhimavaram",
       "Mogalthur",
       "Rajahmundry",
@@ -3987,12 +3712,12 @@
       "darbha grass",
       "honorarium",
       "vakil",
-      "Namaskaram"
+      "Namaskaram",
+      "Parvateesam",
+      "Prakasham",
+      "Narayana Murthy"
     ],
     "ch-3-18": [
-      "Prakashamgaru",
-      "Narayana Murthy garu",
-      "Pantulu garu",
       "Saraswati",
       "Surya",
       "Achyutaramaiah",
@@ -4021,18 +3746,14 @@
       "Bar Room",
       "servant",
       "Iyer",
-      "cook-brahmins"
+      "cook-brahmins",
+      "Prakasham",
+      "Narayana Murthy"
     ],
     "ch-3-19": [
       "Saraswati",
-      "Narayana Murthy garu",
       "father-in-law",
       "mother-in-law",
-      "Prakashampantulu garu",
-      "Pantulu garu",
-      "Barrister Parvateesam",
-      "grandmother",
-      "teacher",
       "Bhimavaram",
       "Panuganti",
       "Madras",
@@ -4047,11 +3768,14 @@
       "junior",
       "magistrate",
       "compartment",
-      "dock"
+      "dock",
+      "Parvateesam",
+      "Prakasham",
+      "Narayana Murthy"
     ],
     "ch-3-20": [
       "Saraswati",
-      "Parvateesham",
+      "Parvateesam",
       "Gopalakrishnayya",
       "Gandhi",
       "Shaukat Ali",
@@ -4075,7 +3799,6 @@
       "Saraswati",
       "Duvvuri Subbamma",
       "Achyutaramaiah",
-      "Barrister Parvateesam",
       "Jaddi",
       "Raja Garu",
       "Women’s Association",
@@ -4085,7 +3808,6 @@
       "India",
       "British Empire",
       "District Magistrate",
-      "Collector",
       "High Court",
       "I.C.S.",
       "Swaraj",
@@ -4098,14 +3820,14 @@
       "propaganda",
       "board",
       "practice",
-      "adjournments"
+      "adjournments",
+      "Parvateesam"
     ],
     "ch-3-22": [
       "Parvateesam",
       "Saraswati",
       "Achyutaramaiah",
       "Duvvuri Subbamma",
-      "Prakasham garu",
       "Chiranjeevi Puranam Subrahmanya Sharma",
       "Sri Narla Venkateswara Rao",
       "Kumari Kappagantu Rajarajeswari",
@@ -4139,7 +3861,8 @@
       "Pushkaram",
       "garu",
       "sahib",
-      "jalebis"
+      "jalebis",
+      "Prakasham"
     ]
   }
 }
