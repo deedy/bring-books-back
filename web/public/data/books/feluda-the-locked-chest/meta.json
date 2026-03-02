@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-locked-chest",
+  "title": "The Locked Chest",
+  "transliteratedTitle": "Ghurghutiyar Ghatona",
+  "subtitle": "A Mysterious Invitation to Plassey Village",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-locked-chest.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "ঘুরঘুটিয়ার ঘটনা",
+  "originalYear": 1975,
+  "totalChapters": 1,
+  "wordCount": 7292,
+  "summary": "When Feluda receives a cryptic letter from an elderly stranger in the heart of rural Bengal, curiosity—and the promise of an unsolved secret—beckons him away from the city. As mist cloaks the ancient fields of Plassey, Feluda steps into a world where every shadow could hide a clue. What awaits in the old man's house, and what secrets does the locked chest hold?",
+  "anthologyId": "feluda",
+  "storyNumber": 11
+}

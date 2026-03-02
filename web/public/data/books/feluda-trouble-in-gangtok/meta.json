@@ -1,0 +1,21 @@
+{
+  "id": "feluda-trouble-in-gangtok",
+  "title": "Trouble in Gangtok",
+  "transliteratedTitle": "Gangtokey Gandogol",
+  "subtitle": "A Puzzling Mystery Amidst the Himalayan Clouds",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-trouble-in-gangtok.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "গ্যাংটকে গন্ডগোল",
+  "originalYear": 1970,
+  "totalChapters": 12,
+  "wordCount": 21765,
+  "summary": "When detective Feluda and his companions arrive in the misty hills of Gangtok, an ordinary journey quickly turns into a web of intrigue. With enigmatic strangers on their flight and secrets clouding the landscape, Feluda must rely on his sharp intellect and keen observation to unravel a mystery that promises danger at every turn.",
+  "anthologyId": "feluda",
+  "storyNumber": 5
+}

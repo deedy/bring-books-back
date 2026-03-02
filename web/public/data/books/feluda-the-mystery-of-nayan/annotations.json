@@ -1,0 +1,786 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "Prodosh C. Mitter, known as Feluda, is a private investigator and the central character of the stories, often addressed respectfully as Felu Babu.",
+      "image": "/data/images/characters/feluda-the-mystery-of-nayan/feluda.webp"
+    },
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "Lalmohan Ganguli, popularly known as Lalmohan Babu or by his pen name Jatayu, is a writer of thrillers and a close friend and companion of Feluda.",
+      "image": "/data/images/characters/feluda-the-mystery-of-nayan/lalmohan-babu.webp"
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's cousin and the narrator of the stories who accompanies him on his investigations.",
+      "image": "/data/images/characters/feluda-the-mystery-of-nayan/topshe.webp"
+    },
+    "Three Musketeers": {
+      "type": "proper_noun",
+      "description": "A reference to the famous trio from Alexandre Dumas's novel, used here to describe the team of Feluda, Topshe, and Jatayu."
+    },
+    "Jaisalmer": {
+      "type": "proper_noun",
+      "description": "A historic city in Rajasthan, India, known for its golden sandstone architecture; referenced as a place the characters visited."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A term of respect or endearment in Bengali and Hindi, often used after a person's name."
+    },
+    "yoga": {
+      "type": "vocabulary",
+      "description": "A physical, mental, and spiritual practice that originated in ancient India, commonly practiced for health and relaxation."
+    },
+    "Nayan": {
+      "type": "character",
+      "description": "A gifted boy with extraordinary numerical abilities whose real name is Nayan; he uses the stage name Jyotishka for Sunil Tarafdar's performances.",
+      "image": "/data/images/characters/feluda-the-mystery-of-nayan/nayan.webp"
+    },
+    "Chamakdar Tarafdar": {
+      "type": "proper_noun",
+      "description": "The name of Mr Sunil Tarafdar's magic show, suggesting something dazzling or sparkling."
+    },
+    "Mahajati Sadan": {
+      "type": "proper_noun",
+      "description": "A prominent auditorium in Kolkata, often used for cultural events and performances."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A classic Indian car model, widely used in India especially in the late 20th century."
+    },
+    "Nikunjabihari Lane": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata, indicating the local setting of the story."
+    },
+    "Kalighat": {
+      "type": "proper_noun",
+      "description": "A famous locality in Kolkata, known for the Kalighat Kali Temple and its cultural significance."
+    },
+    "Bengali": {
+      "type": "proper_noun",
+      "description": "Refers to the language and subject in which a character took an exam, also denoting the regional and cultural context."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "paise": {
+      "type": "vocabulary",
+      "description": "Paise is a subunit of the Indian rupee, where 100 paise equals 1 rupee; 'paisa' is the singular form."
+    },
+    "Class X": {
+      "type": "vocabulary",
+      "description": "Refers to the tenth grade in the Indian school system, an important academic year."
+    },
+    "Sunil Tarafdar": {
+      "type": "character",
+      "description": "A young, ambitious magician and showman whose performances are central to the story; he is the employer of Nayan.",
+      "image": "/data/images/characters/feluda-the-mystery-of-nayan/sunil-tarafdar.webp"
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "The cook in Feluda's household, who serves tea to the guests."
+    },
+    "Mr Reddy": {
+      "type": "character",
+      "description": "A theatre owner from Madras who invites Mr Tarafdar to perform there."
+    },
+    "Sam Kellerman": {
+      "type": "character",
+      "description": "An American impresario interested in showcasing Nayan's abilities in America."
+    },
+    "Ekdalia Road": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta (Kolkata), where Mr Tarafdar's house is located."
+    },
+    "Badshah": {
+      "type": "proper_noun",
+      "description": "The name of Mr Tarafdar's Alsatian dog, known for being a good watchdog."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular Indian cigarette brand."
+    },
+    "Madras": {
+      "type": "proper_noun",
+      "description": "The former name of Chennai, a major city in South India."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in eastern India."
+    },
+    "City Bank of New York": {
+      "type": "proper_noun",
+      "description": "A major American bank, referenced in relation to Mr Kellerman's account."
+    },
+    "Miracles Unlimited": {
+      "type": "proper_noun",
+      "description": "The name of the company to be formed by Mr Tarafdar's sponsor for his magic shows."
+    },
+    "samosa": {
+      "type": "vocabulary",
+      "description": "A popular Indian snack consisting of a fried or baked pastry with a savory filling, such as spiced potatoes, peas, or meat."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A servant or attendant, especially in Indian households, responsible for serving guests and carrying items."
+    },
+    "T H Syndicate": {
+      "type": "proper_noun",
+      "description": "A business entity involved in imports and exports, with an office on Pollock Street."
+    },
+    "Pollock Street": {
+      "type": "proper_noun",
+      "description": "A street, presumably in Calcutta, where T H Syndicate's office is located."
+    },
+    "metro rail": {
+      "type": "proper_noun",
+      "description": "A rapid transit system, likely referring to the urban railway in Calcutta."
+    },
+    "Tarak Nath Thakur": {
+      "type": "character",
+      "description": "A wealthy and eccentric collector of unusual people and animals, often referred to as Mr Thakur or by the initials TNT."
+    },
+    "Kichomo": {
+      "type": "character",
+      "description": "A Korean dwarf, described as the smallest adult in the world, and part of Mr Thakur's collection."
+    },
+    "Tokobahani": {
+      "type": "character",
+      "description": "A Maori secretary in Mr Thakur's collection, notable for being able to write with both hands simultaneously."
+    },
+    "Gawangi": {
+      "type": "character",
+      "description": "A man from Uganda, nearly eight feet tall and extremely strong, who is Mr Thakur's personal companion."
+    },
+    "Maori": {
+      "type": "proper_noun",
+      "description": "An indigenous Polynesian people of New Zealand, referenced here as the ethnicity of Mr Thakur's secretary."
+    },
+    "Laxmanjhoola": {
+      "type": "proper_noun",
+      "description": "A place in India, likely referring to Laxman Jhula, a famous suspension bridge and pilgrimage site in Rishikesh."
+    },
+    "Uganda": {
+      "type": "proper_noun",
+      "description": "A country in East Africa, the homeland of Gawangi."
+    },
+    "Kampala": {
+      "type": "proper_noun",
+      "description": "The capital city of Uganda, mentioned as Gawangi's hometown."
+    },
+    "Terai": {
+      "type": "proper_noun",
+      "description": "A region of lowland plains at the base of the Himalayas, known for its jungles and wildlife."
+    },
+    "Olympic": {
+      "type": "proper_noun",
+      "description": "Refers to the Olympic Games, an international sporting event, used here to compare Gawangi's strength."
+    },
+    "New York Times": {
+      "type": "proper_noun",
+      "description": "A prominent American newspaper, mentioned as having published an article about Mr Thakur."
+    },
+    "Vedas": {
+      "type": "proper_noun",
+      "description": "The four ancient sacred texts of Hinduism, referenced in a discussion about the number four."
+    },
+    "sadhu": {
+      "type": "vocabulary",
+      "description": "A Hindu holy man or ascetic, often known for spiritual practices and renunciation."
+    },
+    "Nayan’s father": {
+      "type": "character",
+      "description": "Ashim Sarkar, a poor man working in a post office, father of Nayan."
+    },
+    "Shankar Hublikar": {
+      "type": "character",
+      "description": "Tarafdar's efficient manager and friend, originally from Maharashtra but raised in Calcutta.",
+      "image": "/data/images/characters/feluda-the-mystery-of-nayan/shankar-hublikar.webp"
+    },
+    "Bhagirath": {
+      "type": "character",
+      "description": "The chowkidar (watchman) at Tarafdar's house, who encounters the 'giant' intruder."
+    },
+    "Maharashtra": {
+      "type": "proper_noun",
+      "description": "A state in western India, referenced as Shankar Hublikar's origin."
+    },
+    "Coromandel Express": {
+      "type": "proper_noun",
+      "description": "A well-known express train running along the eastern coast of India."
+    },
+    "Taj Coromandel": {
+      "type": "proper_noun",
+      "description": "A luxury hotel in Madras (now Chennai), where the characters plan to stay."
+    },
+    "shawl-walla": {
+      "type": "vocabulary",
+      "description": "A street vendor or seller of shawls, often from Kashmir."
+    },
+    "paanwalla": {
+      "type": "vocabulary",
+      "description": "A person who sells paan, a preparation of betel leaf chewed in South Asia."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting, similar to 'hello' or 'greetings'."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or security guard, especially for residential or business premises."
+    },
+    "goraila": {
+      "type": "vocabulary",
+      "description": "A Bengali/Hindi pronunciation of 'gorilla', used here to describe a large, ape-like creature."
+    },
+    "Alipore Park Road": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, India, known for its upscale residential area."
+    },
+    "Contessa": {
+      "type": "proper_noun",
+      "description": "An Indian-made car model, popular in the 1980s and 1990s."
+    },
+    "St Xavier’s College": {
+      "type": "proper_noun",
+      "description": "A prestigious educational institution in Kolkata, India."
+    },
+    "Belle Vue clinic": {
+      "type": "proper_noun",
+      "description": "A well-known private hospital in Kolkata."
+    },
+    "goondas": {
+      "type": "proper_noun",
+      "description": "A Hindi term for hired thugs or hooligans."
+    },
+    "South India": {
+      "type": "proper_noun",
+      "description": "A geographical region of India, indicating Feluda's travel destination."
+    },
+    "Hotel Coromandel": {
+      "type": "proper_noun",
+      "description": "A hotel in Madras (Chennai), where Feluda and others plan to stay."
+    },
+    "sahib": {
+      "type": "vocabulary",
+      "description": "An honorific term from Hindi/Urdu, used to address men respectfully, especially in formal or colonial contexts."
+    },
+    "Basak": {
+      "type": "character",
+      "description": "An antagonist implicated in threatening Nayan and suspected of involvement in criminal activities."
+    },
+    "New Market": {
+      "type": "proper_noun",
+      "description": "New Market is a famous shopping area in Kolkata, known for its variety of stores and eateries."
+    },
+    "Ideal Stores": {
+      "type": "proper_noun",
+      "description": "Ideal Stores is a shop located in New Market, mentioned as the source of a cash memo."
+    },
+    "Hullabaloo in Honolulu": {
+      "type": "proper_noun",
+      "description": "Hullabaloo in Honolulu is a book title written by Jatayu, used humorously in the conversation."
+    },
+    "Shabash": {
+      "type": "vocabulary",
+      "description": "A Hindi word meaning 'well done' or 'bravo,' used to praise someone."
+    },
+    "Henry Hodgson": {
+      "type": "character",
+      "description": "A Christian gentleman with a passion for horse racing who poses as a reporter to seek Nayan's help with winning bets."
+    },
+    "Whitaker": {
+      "type": "character",
+      "description": "An American who created the snake park in Madras, mentioned as a notable figure."
+    },
+    "Mr Hingorani": {
+      "type": "character",
+      "description": "A client of Feluda and partner in the T H Syndicate who acts as the secret sponsor of Tarafdar’s show."
+    },
+    "Mohan": {
+      "type": "character",
+      "description": "Mr Hingorani’s nephew, who informed him about Jyotishka."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, referenced as a major metropolis."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, a major city on the west coast of India."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, known for its vibrant culture and history."
+    },
+    "Elephanta": {
+      "type": "proper_noun",
+      "description": "Refers to the Elephanta Caves, a UNESCO World Heritage site near Mumbai."
+    },
+    "Ellora": {
+      "type": "proper_noun",
+      "description": "A site in Maharashtra, India, famous for its ancient rock-cut caves and temples."
+    },
+    "Orissa": {
+      "type": "proper_noun",
+      "description": "The former name of Odisha, a state in eastern India known for its temples."
+    },
+    "Mahabalipuram": {
+      "type": "proper_noun",
+      "description": "A historic town in Tamil Nadu, India, known for its ancient temples and rock-cut monuments."
+    },
+    "Rohini Theatre": {
+      "type": "proper_noun",
+      "description": "A theater in Madras where Mr Tarafdar is scheduled to perform his show."
+    },
+    "the Hindu": {
+      "type": "proper_noun",
+      "description": "A major English-language newspaper published in India."
+    },
+    "Faizabad": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, India, mentioned as the location of Mr Hingorani’s ancestral home."
+    },
+    "p.m.": {
+      "type": "vocabulary",
+      "description": "Post meridiem, Latin for 'after midday', commonly used in India to denote time after noon."
+    },
+    "The Crocodile’s Crunch": {
+      "type": "proper_noun",
+      "description": "A book written by Lalmohan Babu (Jatayu), mentioned as a gift for Nayan."
+    },
+    "The Astounding Atlantic": {
+      "type": "proper_noun",
+      "description": "Another adventure book authored by Jatayu, referenced in the chapter."
+    },
+    "shore temple": {
+      "type": "proper_noun",
+      "description": "A famous ancient temple in Mahabalipuram, known for its scenic seaside location and Pallava architecture."
+    },
+    "Gangavataran": {
+      "type": "proper_noun",
+      "description": "A monumental rock relief in Mahabalipuram depicting the descent of the Ganges river from the Himalayas."
+    },
+    "Mahishasurmardini Mandap": {
+      "type": "proper_noun",
+      "description": "A rock-cut cave temple in Mahabalipuram dedicated to the goddess Durga slaying the demon Mahishasura."
+    },
+    "Pancha Pandava caves": {
+      "type": "proper_noun",
+      "description": "A group of rock-cut caves in Mahabalipuram, named after the five Pandava brothers from the Mahabharata."
+    },
+    "Pallavas": {
+      "type": "proper_noun",
+      "description": "The Pallavas were an ancient South Indian dynasty responsible for building many monuments in Mahabalipuram; 'Ballabhas' is a mistaken reference to them."
+    },
+    "Pandava": {
+      "type": "proper_noun",
+      "description": "Refers to the five heroic brothers from the Indian epic Mahabharata, after whom several monuments in Mahabalipuram are named."
+    },
+    "Draupadi": {
+      "type": "proper_noun",
+      "description": "The wife of the five Pandava brothers in the Mahabharata, with a chariot-shaped monument named after her in Mahabalipuram."
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "A sacred river in India, whose mythological descent to earth is depicted in the Gangavataran relief."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "The mountain range in northern India, from which the Ganges is said to descend in Hindu mythology."
+    },
+    "Detecnique": {
+      "type": "character",
+      "description": "A rival detective agency and its associated enigmatic figure suspected of criminal involvement."
+    },
+    "Mysore": {
+      "type": "proper_noun",
+      "description": "The name of the hotel dining room, likely referencing the city of Mysore in Karnataka, India."
+    },
+    "Moghlai": {
+      "type": "proper_noun",
+      "description": "A style of cuisine originating from the Mughal Empire, known for its rich and aromatic dishes."
+    },
+    "Mahishasur": {
+      "type": "proper_noun",
+      "description": "A demon from Hindu mythology, often depicted in temple sculptures."
+    },
+    "Ghatotkach": {
+      "type": "proper_noun",
+      "description": "A character from the Mahabharata, the son of Bhima, known for his immense size and strength."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "The Mahabharata is an ancient Indian epic, referenced in the story as both a play and a movie, featuring many legendary characters and stories."
+    },
+    "ayurveda": {
+      "type": "proper_noun",
+      "description": "A traditional Indian system of medicine based on natural remedies and holistic practices."
+    },
+    "Sarpagandha": {
+      "type": "proper_noun",
+      "description": "A medicinal herb used in ayurveda, known for its use in treating high blood pressure."
+    },
+    "Indian Airlines": {
+      "type": "proper_noun",
+      "description": "A former major domestic airline in India, now merged with Air India."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital city of Nepal, known for its casinos and as a travel destination."
+    },
+    "mandaps": {
+      "type": "vocabulary",
+      "description": "Mandaps are pillared halls or pavilions in Indian temples, often used for religious rituals; 'mandap' is the singular form."
+    },
+    "bell-boy": {
+      "type": "vocabulary",
+      "description": "A hotel staff member responsible for carrying guests' luggage and assisting with other tasks."
+    },
+    "couped up": {
+      "type": "vocabulary",
+      "description": "A variant spelling of 'cooped up', meaning confined in a small space, often used in Indian English."
+    },
+    "Devkinandan Tiwari": {
+      "type": "character",
+      "description": "A man involved in a theft case and a client seeking help to remember the combination to his chest; he is part of the T H Syndicate."
+    },
+    "Jyotishkam": {
+      "type": "proper_noun",
+      "description": "A term possibly referring to someone involved in astrology or a specific person needed for the show."
+    },
+    "lakhs": {
+      "type": "vocabulary",
+      "description": "A unit in the Indian numbering system equal to one hundred thousand (100,000); 'lakh' is the singular and 'lakhs' is the plural form."
+    },
+    "instalment": {
+      "type": "vocabulary",
+      "description": "A partial payment of a sum of money due, commonly used in Indian financial transactions."
+    },
+    "auspicious": {
+      "type": "vocabulary",
+      "description": "Considered to bring good fortune or luck, often used in Indian cultural and religious contexts."
+    },
+    "Miss Swaminathan": {
+      "type": "character",
+      "description": "The lady in charge of the hotel bookshop, who provides key information about the book purchases."
+    },
+    "Inspector Ramachandran": {
+      "type": "character",
+      "description": "The police inspector who arrives to take charge of the suspects."
+    },
+    "The Manchurian Menace": {
+      "type": "proper_noun",
+      "description": "The title of Lalmohan Babu's next book, referencing Manchuria, a historical region in Northeast Asia."
+    },
+    "China": {
+      "type": "proper_noun",
+      "description": "A country in East Asia, referenced in relation to Lalmohan Babu's book research."
+    },
+    "Mandarins": {
+      "type": "proper_noun",
+      "description": "Refers to high-ranking officials in imperial China, mentioned as the setting for Lalmohan Babu's story."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Topshe",
+      "Three Musketeers",
+      "Jaisalmer",
+      "Babu",
+      "yoga"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Nayan",
+      "Chamakdar Tarafdar",
+      "Mahajati Sadan",
+      "Ambassador",
+      "Nikunjabihari Lane",
+      "Kalighat",
+      "Bengali",
+      "Babu",
+      "rupees",
+      "paise",
+      "Class X",
+      "Sunil Tarafdar"
+    ],
+    "ch-3": [
+      "Sunil Tarafdar",
+      "Feluda",
+      "Topshe",
+      "Lalmohan Babu",
+      "Srinath",
+      "Nayan",
+      "Mr Reddy",
+      "Sam Kellerman",
+      "Ekdalia Road",
+      "Badshah",
+      "Charminar",
+      "Madras",
+      "Calcutta",
+      "City Bank of New York",
+      "Miracles Unlimited",
+      "samosa",
+      "Babu",
+      "bearer",
+      "Shankar Hublikar",
+      "Basak",
+      "Mahabharata"
+    ],
+    "ch-4": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Nayan",
+      "Sunil Tarafdar",
+      "T H Syndicate",
+      "Pollock Street",
+      "Madras",
+      "Calcutta",
+      "metro rail",
+      "Babu",
+      "Shankar Hublikar",
+      "Devkinandan Tiwari",
+      "lakhs",
+      "Henry Hodgson"
+    ],
+    "ch-5": [
+      "Tarak Nath Thakur",
+      "Kichomo",
+      "Tokobahani",
+      "Gawangi",
+      "Sunil Tarafdar",
+      "Nayan",
+      "Kichomo",
+      "Maori",
+      "Tokobahani",
+      "Laxmanjhoola",
+      "Uganda",
+      "Kampala",
+      "Terai",
+      "Olympic",
+      "New York Times",
+      "Vedas",
+      "sadhu",
+      "Babu",
+      "Feluda",
+      "Lalmohan Babu",
+      "Topshe"
+    ],
+    "ch-6": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Topshe",
+      "Nayan",
+      "Nayan’s father",
+      "Shankar Hublikar",
+      "Bhagirath",
+      "Nikunjabihari Lane",
+      "Kalighat",
+      "Calcutta",
+      "Maharashtra",
+      "Coromandel Express",
+      "Taj Coromandel",
+      "Madras",
+      "shawl-walla",
+      "paanwalla",
+      "namaskar",
+      "chowkidar",
+      "goraila",
+      "Sunil Tarafdar",
+      "Devkinandan Tiwari",
+      "Mahabharata",
+      "Mr Hingorani"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Sunil Tarafdar",
+      "Nayan",
+      "Alipore Park Road",
+      "Contessa",
+      "T H Syndicate",
+      "St Xavier’s College",
+      "Belle Vue clinic",
+      "goondas",
+      "South India",
+      "Madras",
+      "Hotel Coromandel",
+      "Babu",
+      "sahib",
+      "goondas",
+      "Devkinandan Tiwari",
+      "Mr Hingorani"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Sunil Tarafdar",
+      "Nayan",
+      "Basak",
+      "Tarak Nath Thakur",
+      "Gawangi",
+      "Madras",
+      "New Market",
+      "Ideal Stores",
+      "Uganda",
+      "Hullabaloo in Honolulu",
+      "Babu",
+      "Shabash",
+      "Devkinandan Tiwari",
+      "Henry Hodgson"
+    ],
+    "ch-9": [
+      "Gawangi",
+      "Lalmohan Babu",
+      "Feluda",
+      "Topshe",
+      "Nayan",
+      "Shankar Hublikar",
+      "Mr Reddy",
+      "Henry Hodgson",
+      "Whitaker",
+      "Mr Hingorani",
+      "Mohan",
+      "Madras",
+      "Delhi",
+      "Bombay",
+      "Calcutta",
+      "Bengal",
+      "Elephanta",
+      "Ellora",
+      "Orissa",
+      "Mahabalipuram",
+      "Rohini Theatre",
+      "the Hindu",
+      "Contessa",
+      "Faizabad",
+      "Babu",
+      "p.m.",
+      "Sunil Tarafdar",
+      "Devkinandan Tiwari",
+      "Tarak Nath Thakur"
+    ],
+    "ch-10": [
+      "Lalmohan Babu",
+      "Nayan",
+      "Feluda",
+      "Basak",
+      "Shankar Hublikar",
+      "Gawangi",
+      "Topshe",
+      "Calcutta",
+      "Mahabalipuram",
+      "Madras",
+      "The Crocodile’s Crunch",
+      "The Astounding Atlantic",
+      "shore temple",
+      "Gangavataran",
+      "Mahishasurmardini Mandap",
+      "Pancha Pandava caves",
+      "Pallavas",
+      "Pandava",
+      "Draupadi",
+      "Ganges",
+      "Himalayas",
+      "Bengal",
+      "Badshah",
+      "chowkidar",
+      "chowkidar",
+      "Babu",
+      "Sunil Tarafdar",
+      "mandaps",
+      "Tarak Nath Thakur"
+    ],
+    "ch-11": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Gawangi",
+      "Nayan",
+      "Basak",
+      "Mr Reddy",
+      "Detecnique",
+      "Mysore",
+      "Moghlai",
+      "Mahishasur",
+      "Ghatotkach",
+      "Mahabharata",
+      "ayurveda",
+      "Sarpagandha",
+      "Mahabalipuram",
+      "Calcutta",
+      "Bombay",
+      "Indian Airlines",
+      "Madras",
+      "Kathmandu",
+      "mandaps",
+      "chowkidar",
+      "rupees",
+      "Sunil Tarafdar",
+      "Tarak Nath Thakur",
+      "Shankar Hublikar",
+      "Devkinandan Tiwari",
+      "Mr Hingorani"
+    ],
+    "ch-12": [
+      "Lalmohan Babu",
+      "Mr Hingorani",
+      "Nayan",
+      "Feluda",
+      "Mr Reddy",
+      "Charminar",
+      "Babu",
+      "bell-boy",
+      "couped up",
+      "Topshe",
+      "Sunil Tarafdar",
+      "Shankar Hublikar",
+      "Basak",
+      "Devkinandan Tiwari"
+    ],
+    "ch-13": [
+      "Mr Hingorani",
+      "Devkinandan Tiwari",
+      "Mr Reddy",
+      "Mohan",
+      "Feluda",
+      "Lalmohan Babu",
+      "Topshe",
+      "Nayan",
+      "Detecnique",
+      "T H Syndicate",
+      "Calcutta",
+      "Madras",
+      "Charminar",
+      "Jyotishkam",
+      "lakhs",
+      "rupees",
+      "instalment",
+      "auspicious",
+      "Sunil Tarafdar",
+      "Shankar Hublikar"
+    ],
+    "ch-14": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Topshe",
+      "Miss Swaminathan",
+      "Shankar Hublikar",
+      "Inspector Ramachandran",
+      "Nayan",
+      "The Manchurian Menace",
+      "China",
+      "Mandarins",
+      "Bengali",
+      "Detecnique",
+      "Babu",
+      "Sunil Tarafdar",
+      "paise",
+      "Mr Hingorani"
+    ]
+  }
+}

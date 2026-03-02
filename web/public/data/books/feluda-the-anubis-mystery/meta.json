@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-anubis-mystery",
+  "title": "The Anubis Mystery",
+  "transliteratedTitle": "Sheyal-Debota Rahasya",
+  "subtitle": "A Holiday Interrupted by a Nervous Stranger",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-anubis-mystery.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "শেয়াল-দেবতা রহস্য",
+  "originalYear": 1970,
+  "totalChapters": 1,
+  "wordCount": 8283,
+  "summary": "Feluda’s quiet holiday takes a sharp turn when a mysterious, anxious caller seeks his help, launching the famous sleuth and his cousin into another puzzle. With only a nervous voice and a cryptic request to go on, Feluda’s curiosity is piqued—setting the stage for a new case shrouded in secrets. Who is Nilmoni Sanyal, and what urgent mystery awaits on Roland Road?",
+  "anthologyId": "feluda",
+  "storyNumber": 4
+}

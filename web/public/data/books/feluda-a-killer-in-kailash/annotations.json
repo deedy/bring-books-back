@@ -1,0 +1,869 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "Prodosh C. Mitter, known as Feluda, is a private investigator and the protagonist who uses the alias Mr Sengupta to inquire about suspects.",
+      "image": "/data/images/characters/feluda-a-killer-in-kailash/feluda.webp"
+    },
+    "Uncle Sidhu": {
+      "type": "character",
+      "description": "A knowledgeable family friend and polymath with a deep interest in Indian art who provides Feluda with vital information."
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "A household helper who assists with chores such as making tea."
+    },
+    "Saul Silverstein": {
+      "type": "character",
+      "description": "Saul Silverstein is an American tourist and art collector who attempted to buy the stolen yakshi's head from the Raja-Rani temple."
+    },
+    "Tintin": {
+      "type": "proper_noun",
+      "description": "A famous European comic book series featuring the young reporter Tintin, popular among Indian readers."
+    },
+    "Tintin in Tibet": {
+      "type": "proper_noun",
+      "description": "A specific adventure from the Tintin comic series, set in the Himalayas."
+    },
+    "Chariots of the Gods": {
+      "type": "proper_noun",
+      "description": "A book by Erich von Däniken proposing that ancient civilizations were influenced by extraterrestrials."
+    },
+    "pyramid of Giza": {
+      "type": "proper_noun",
+      "description": "The Great Pyramid in Egypt, one of the Seven Wonders of the Ancient World."
+    },
+    "Nile": {
+      "type": "proper_noun",
+      "description": "A major river in Egypt, historically significant for ancient civilizations."
+    },
+    "Easter Island": {
+      "type": "proper_noun",
+      "description": "A remote island in the South Pacific Ocean, famous for its large stone statues called moai."
+    },
+    "Peru": {
+      "type": "proper_noun",
+      "description": "A country in South America, known for ancient civilizations and mysterious geoglyphs like the Nazca Lines."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic that describes the Kurukshetra War and contains mythological and historical narratives."
+    },
+    "Kurukshetra": {
+      "type": "proper_noun",
+      "description": "The battlefield described in the Mahabharata where a great war took place."
+    },
+    "Qutab Minar": {
+      "type": "proper_noun",
+      "description": "A historic minaret in Delhi, India, known for its iron pillar that has not rusted for centuries."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, rich in historical monuments."
+    },
+    "Bhubaneshwar": {
+      "type": "proper_noun",
+      "description": "A city in the Indian state of Odisha, known for its ancient temples."
+    },
+    "Raja-Rani temple": {
+      "type": "proper_noun",
+      "description": "A famous temple in Bhubaneshwar, renowned for its architectural beauty and sculptures."
+    },
+    "Grand Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel in Bhubaneshwar where the American tourist is staying."
+    },
+    "Rajput": {
+      "type": "proper_noun",
+      "description": "A member of a prominent warrior class in India, also known for their distinctive style of painting."
+    },
+    "Varanasi": {
+      "type": "proper_noun",
+      "description": "A holy city in India, known for its religious significance and art."
+    },
+    "Nagarmal": {
+      "type": "proper_noun",
+      "description": "A shop owner in the Grand Hotel arcade, known to Uncle Sidhu."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital city of Nepal, mentioned as Saul Silverstein's next destination."
+    },
+    "divan": {
+      "type": "vocabulary",
+      "description": "A long, low sofa without a back or arms, often found in South Asian homes."
+    },
+    "tonnes": {
+      "type": "vocabulary",
+      "description": "A metric unit of mass equal to 1,000 kilograms, commonly used in India and many other countries."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or guard, typically employed to look after property."
+    },
+    "yakshi": {
+      "type": "vocabulary",
+      "description": "A yakshi is a female nature spirit from Indian mythology, often depicted in temple sculptures."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A type of cigar with both ends cut flat, popular in South Asia."
+    },
+    "Tantric": {
+      "type": "vocabulary",
+      "description": "Relating to Tantra, a tradition of esoteric rituals and philosophies in Hinduism and Buddhism."
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Tapesh, known as Topshe, is Feluda's young cousin and the narrator of the stories who accompanies him on cases.",
+      "image": "/data/images/characters/feluda-a-killer-in-kailash/topshe.webp"
+    },
+    "Balaram Ghosh": {
+      "type": "character",
+      "description": "The taxi driver who drives Feluda and Topshe to Sidikpur and becomes curious about their mission."
+    },
+    "Ali": {
+      "type": "character",
+      "description": "A local boy from Sidikpur who helps Feluda by pointing out another boy who found the statue's head."
+    },
+    "Panu": {
+      "type": "character",
+      "description": "A boy from Sidikpur who found the head of the yakshi statue and sold it to a stranger from the city."
+    },
+    "Orissa": {
+      "type": "proper_noun",
+      "description": "A state in eastern India, now officially called Odisha."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in eastern India and Feluda's home."
+    },
+    "Sidikpur": {
+      "type": "proper_noun",
+      "description": "A village near Hasnabad, the site of the plane crash in the story."
+    },
+    "Hasnabad": {
+      "type": "proper_noun",
+      "description": "A town near Calcutta, referenced as being on the way to Sidikpur."
+    },
+    "Archaeological Survey of India": {
+      "type": "proper_noun",
+      "description": "A government agency responsible for archaeological research and the protection of cultural heritage in India."
+    },
+    "Jessore Road": {
+      "type": "proper_noun",
+      "description": "A major road in Kolkata, often used for travel towards the outskirts and neighboring regions."
+    },
+    "Barasat": {
+      "type": "proper_noun",
+      "description": "A town near Kolkata, mentioned as a landmark on the way to Sidikpur."
+    },
+    "VIP Road": {
+      "type": "proper_noun",
+      "description": "A prominent road in Kolkata, leading towards the airport and northern suburbs."
+    },
+    "Allah": {
+      "type": "proper_noun",
+      "description": "The Arabic word for God, used by Muslim villagers in the story."
+    },
+    "dhaba": {
+      "type": "vocabulary",
+      "description": "A roadside eatery in India, known for serving local food, especially to travelers and truck drivers."
+    },
+    "daal": {
+      "type": "vocabulary",
+      "description": "A dish made from lentils, commonly eaten in India."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful term of address or suffix for a man in India, especially in eastern regions."
+    },
+    "hookahs": {
+      "type": "vocabulary",
+      "description": "Traditional water pipes used for smoking, common in South Asia."
+    },
+    "Mr Mutsuddi": {
+      "type": "character",
+      "description": "The officer-in-charge at Park Street police station, known to Feluda from a previous case."
+    },
+    "Mr Adhikari": {
+      "type": "character",
+      "description": "The owner of the flat in Queen’s Mansion and the blue Ambassador, currently away in Darjeeling."
+    },
+    "Jayant Mallik": {
+      "type": "character",
+      "description": "Jayant Mallik is a mysterious man staying at the guest house, associated with the blue Ambassador and suspected of involvement in the theft.",
+      "image": "/data/images/characters/feluda-a-killer-in-kailash/jayant-mallik.webp"
+    },
+    "Padma Shree": {
+      "type": "proper_noun",
+      "description": "A prestigious civilian award in India, given for distinguished contributions in various fields."
+    },
+    "Taki": {
+      "type": "proper_noun",
+      "description": "A town near Hasnabad, mentioned as the origin of the mysterious man's journey."
+    },
+    "Dum Dum": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, known for its airport and as a major transit point."
+    },
+    "Park Street": {
+      "type": "proper_noun",
+      "description": "A prominent street in Kolkata, known for its restaurants and colonial-era buildings."
+    },
+    "Lowdon Street": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata, mentioned as part of the route followed."
+    },
+    "Camac Street": {
+      "type": "proper_noun",
+      "description": "Another well-known street in Kolkata, referenced in the chase."
+    },
+    "Queen’s Mansion": {
+      "type": "proper_noun",
+      "description": "A residential building in Kolkata where Mr Mallik is staying."
+    },
+    "Waldorf": {
+      "type": "proper_noun",
+      "description": "A Chinese restaurant in Kolkata where Feluda and his team have lunch."
+    },
+    "Dalhousie Square": {
+      "type": "proper_noun",
+      "description": "A historic business district in central Kolkata."
+    },
+    "Fairlie Place": {
+      "type": "proper_noun",
+      "description": "A location in Kolkata, home to the railway booking office."
+    },
+    "Aurangabad": {
+      "type": "proper_noun",
+      "description": "A city in Maharashtra, India, to which Mr Mallik books a train ticket."
+    },
+    "Sardar Shankar Road": {
+      "type": "proper_noun",
+      "description": "A road in Kolkata, where Uncle Sidhu lives and whom Feluda wishes to consult."
+    },
+    "Ambassador": {
+      "type": "vocabulary",
+      "description": "The Hindustan Ambassador is a classic Indian car model, widely used as taxis and private vehicles in India."
+    },
+    "Charminar": {
+      "type": "vocabulary",
+      "description": "A popular Indian brand of cigarettes."
+    },
+    "OC": {
+      "type": "vocabulary",
+      "description": "Abbreviation for Officer-in-Charge, the head of a police station in India."
+    },
+    "constable": {
+      "type": "vocabulary",
+      "description": "A rank in the Indian police force, typically referring to a lower-level police officer."
+    },
+    "Mr Bakshi": {
+      "type": "character",
+      "description": "Feluda's travel agent who assists with booking flights and hotels for the group."
+    },
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "A close friend of Feluda and writer of thriller novels under the pen name Jatayu, who provides comic relief.",
+      "image": "/data/images/characters/feluda-a-killer-in-kailash/lalmohan-babu.webp"
+    },
+    "Ellora": {
+      "type": "proper_noun",
+      "description": "A UNESCO World Heritage site near Aurangabad, famous for its rock-cut caves representing Hindu, Buddhist, and Jain art."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, a major city in western India."
+    },
+    "Baluchistan": {
+      "type": "proper_noun",
+      "description": "A region in South Asia, mostly in Pakistan, mentioned as a setting in Lalmohan Babu's story."
+    },
+    "Arjun Mehrotra": {
+      "type": "proper_noun",
+      "description": "A fictional actor referenced by Lalmohan Babu as a possible fit for his story's hero."
+    },
+    "Prakhar Rudra": {
+      "type": "proper_noun",
+      "description": "A fictional hero in Lalmohan Babu's new plot."
+    },
+    "Sanchi": {
+      "type": "proper_noun",
+      "description": "A historical site in Madhya Pradesh, India, known for its ancient Buddhist stupas."
+    },
+    "Elephanta": {
+      "type": "proper_noun",
+      "description": "Refers to Elephanta Caves, a UNESCO World Heritage site near Mumbai, famous for its rock-cut sculptures."
+    },
+    "Simla": {
+      "type": "proper_noun",
+      "description": "A hill station in northern India, previously visited by the group."
+    },
+    "Dhameeja": {
+      "type": "proper_noun",
+      "description": "Refers to a previous case handled by Feluda involving a character named Mr Dhameeja."
+    },
+    "Chitpur Road": {
+      "type": "proper_noun",
+      "description": "A well-known road in Kolkata, India, referenced for its bumpy rides."
+    },
+    "Santa Cruz": {
+      "type": "proper_noun",
+      "description": "An area in Mumbai, home to the city's main domestic airport."
+    },
+    "Hotel Aurangabad": {
+      "type": "proper_noun",
+      "description": "The hotel in Aurangabad where Feluda and his companions stay."
+    },
+    "Michigan": {
+      "type": "proper_noun",
+      "description": "A state in the USA, mentioned as the workplace of the art history professor."
+    },
+    "Vaishnavas": {
+      "type": "proper_noun",
+      "description": "Followers of Vaishnavism, a major tradition within Hinduism focusing on the worship of Vishnu."
+    },
+    "Hare Krishna": {
+      "type": "proper_noun",
+      "description": "A popular name for the International Society for Krishna Consciousness (ISKCON), known for its devotional practices."
+    },
+    "Baroda": {
+      "type": "proper_noun",
+      "description": "A city in Gujarat, India, known for its educational institutions, including art schools."
+    },
+    "Kandaria Mahadev": {
+      "type": "proper_noun",
+      "description": "A famous temple in Khajuraho, Madhya Pradesh, renowned for its intricate sculptures."
+    },
+    "Khajuraho": {
+      "type": "proper_noun",
+      "description": "A UNESCO World Heritage site in Madhya Pradesh, India, known for its group of Hindu and Jain temples."
+    },
+    "keertan": {
+      "type": "vocabulary",
+      "description": "A devotional singing or chanting, especially in the Hindu tradition."
+    },
+    "trunk call": {
+      "type": "vocabulary",
+      "description": "A long-distance telephone call, especially one made within India."
+    },
+    "air hostess": {
+      "type": "vocabulary",
+      "description": "An airline stewardess or flight attendant."
+    },
+    "rickety": {
+      "type": "vocabulary",
+      "description": "Describes something poorly made and likely to collapse, often used for old vehicles in India."
+    },
+    "Shubhankar Bose": {
+      "type": "character",
+      "description": "Shubhankar Bose is a knowledgeable gentleman interested in Indian art, whose disappearance and death are central to the plot.",
+      "image": "/data/images/characters/feluda-a-killer-in-kailash/shubhankar-bose.webp"
+    },
+    "Malik Ambar": {
+      "type": "proper_noun",
+      "description": "An Abyssinian slave who became Prime Minister of Ahmednagar and founded the city that became Aurangabad."
+    },
+    "Ahmednagar": {
+      "type": "proper_noun",
+      "description": "A historical city and former kingdom in India, associated with Malik Ambar."
+    },
+    "Khadke": {
+      "type": "proper_noun",
+      "description": "The original name of Aurangabad before it was renamed during Aurangzeb's rule."
+    },
+    "Aurangzeb": {
+      "type": "proper_noun",
+      "description": "A Mughal emperor of India, after whom Aurangabad was named."
+    },
+    "Buddhist caves": {
+      "type": "proper_noun",
+      "description": "Ancient rock-cut caves near Aurangabad, known for their statues and carvings."
+    },
+    "Bibi ka Makbara": {
+      "type": "proper_noun",
+      "description": "A mausoleum in Aurangabad, built in memory of Aurangzeb’s wife, often called the 'second Taj Mahal'."
+    },
+    "Ghanashyam Karkat": {
+      "type": "proper_noun",
+      "description": "A fictional villain created by Lalmohan Babu for his next book."
+    },
+    "Pentax": {
+      "type": "proper_noun",
+      "description": "A brand of camera used by Feluda in the story."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, commonly chewed in India."
+    },
+    "Marathi": {
+      "type": "vocabulary",
+      "description": "An Indian language spoken predominantly in the state of Maharashtra."
+    },
+    "sleuth": {
+      "type": "vocabulary",
+      "description": "A detective or investigator, often used in reference to amateur detectives in Indian English."
+    },
+    "Khuldabad": {
+      "type": "proper_noun",
+      "description": "A small town near Ellora, known for its historical significance and proximity to the caves."
+    },
+    "City College": {
+      "type": "proper_noun",
+      "description": "An educational institution in Calcutta (Kolkata), referenced as part of the characters’ cover story."
+    },
+    "City School": {
+      "type": "proper_noun",
+      "description": "A school in Calcutta (Kolkata), mentioned as part of the fabricated background for Topshe."
+    },
+    "Asia magazine": {
+      "type": "proper_noun",
+      "description": "A publication based in Hong Kong, referenced as Feluda’s cover for being a photographer."
+    },
+    "Hong Kong": {
+      "type": "proper_noun",
+      "description": "A city and special administrative region of China, mentioned as the base of Asia magazine."
+    },
+    "Adalat Road": {
+      "type": "proper_noun",
+      "description": "A road in Aurangabad, mentioned as a route towards Ellora."
+    },
+    "Tourist Guest House": {
+      "type": "proper_noun",
+      "description": "A hotel in Khuldabad, described as more expensive and posh compared to the dak bungalow."
+    },
+    "Kailash temple": {
+      "type": "proper_noun",
+      "description": "The Kailash temple at Ellora is a monumental rock-cut temple dedicated to Lord Shiva, built during the Rashtrakut dynasty in the eighth century."
+    },
+    "Raja Krishna": {
+      "type": "proper_noun",
+      "description": "A king of the Rashtrakut dynasty, credited with commissioning the Kailash temple."
+    },
+    "Rashtrakut dynasty": {
+      "type": "proper_noun",
+      "description": "The Rashtrakut dynasty was a powerful Indian dynasty that ruled during the eighth century and built the Kailash temple at Ellora."
+    },
+    "Maurya": {
+      "type": "proper_noun",
+      "description": "An ancient Indian dynasty, referenced as a historical period."
+    },
+    "Sunga": {
+      "type": "proper_noun",
+      "description": "An ancient Indian dynasty, referenced as a historical period."
+    },
+    "Gupta": {
+      "type": "proper_noun",
+      "description": "An ancient Indian dynasty, referenced as a historical period."
+    },
+    "Kushan": {
+      "type": "proper_noun",
+      "description": "An ancient Indian dynasty, referenced as a historical period."
+    },
+    "Chola": {
+      "type": "proper_noun",
+      "description": "A South Indian dynasty, referenced as a historical period."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic, referenced as a source of temple carvings."
+    },
+    "ganja": {
+      "type": "vocabulary",
+      "description": "A Hindi word for marijuana or cannabis, often used in India."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A term used in India for a hotel or household attendant who carries luggage or serves guests."
+    },
+    "dak bungalow": {
+      "type": "vocabulary",
+      "description": "A colonial-era rest house or guesthouse in India, originally built for government officials."
+    },
+    "Mr Raxit": {
+      "type": "character",
+      "description": "R.N. Raxit, whose real name is Chattoraj, is a guest at the bungalow and the main antagonist leading a criminal gang.",
+      "image": "/data/images/characters/feluda-a-killer-in-kailash/mr-raxit.webp"
+    },
+    "Sam Lewison": {
+      "type": "character",
+      "description": "Sam Lewison is an American guest, described as wealthy and the owner of an art gallery in New York."
+    },
+    "Rajasthan": {
+      "type": "proper_noun",
+      "description": "A state in northwestern India, known for its deserts, palaces, and historical significance."
+    },
+    "Stephens Company": {
+      "type": "proper_noun",
+      "description": "A company referenced as the maker of a spectacle-case, likely a brand or business based in Calcutta."
+    },
+    "New York": {
+      "type": "proper_noun",
+      "description": "A major city in the United States, referenced as the location of Sam Lewison's art gallery."
+    },
+    "hasnahana": {
+      "type": "vocabulary",
+      "description": "A fragrant night-blooming flower, also known as night jasmine or parijat, common in India."
+    },
+    "chapati": {
+      "type": "vocabulary",
+      "description": "A type of unleavened flatbread, staple in Indian cuisine."
+    },
+    "Appa Rao": {
+      "type": "character",
+      "description": "Appa Rao is the fight director of the film crew, who faints upon discovering the dead body."
+    },
+    "Rupa": {
+      "type": "character",
+      "description": "Rupa is one of the film's stars, playing the heroine in the movie being shot."
+    },
+    "Balwant Chopra": {
+      "type": "character",
+      "description": "Balwant Chopra is a leading actor, playing the villain in the film."
+    },
+    "Mohan Sharma": {
+      "type": "character",
+      "description": "Mohan Sharma is the director of the film unit shooting at the temple."
+    },
+    "Hindi": {
+      "type": "proper_noun",
+      "description": "An official language of India, widely spoken and the primary language of Bollywood films."
+    },
+    "bungalow": {
+      "type": "vocabulary",
+      "description": "A single-storied house, commonly used in India for residential purposes."
+    },
+    "avatar": {
+      "type": "vocabulary",
+      "description": "In Hinduism, an incarnation or manifestation of a deity, especially Vishnu."
+    },
+    "Mr Kulkarni": {
+      "type": "character",
+      "description": "The manager of the Tourist Guest House, he assists Feluda and provides local information."
+    },
+    "Mohanlal": {
+      "type": "character",
+      "description": "The chowkidar (caretaker) of the bungalow, described as trustworthy and long-serving."
+    },
+    "chappals": {
+      "type": "vocabulary",
+      "description": "Traditional Indian open-toed sandals, usually made of leather."
+    },
+    "Mr Ghote": {
+      "type": "character",
+      "description": "Mr Ghote is a police officer or constable in charge of the local police outpost, involved in the investigation and assisting Feluda."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "Bengal refers to a region in eastern India, known for its distinct culture and cuisine."
+    },
+    "Das Avatar cave": {
+      "type": "proper_noun",
+      "description": "The Das Avatar cave at Ellora is named for its carvings depicting the ten avatars of the Hindu god Vishnu."
+    },
+    "kedgeree": {
+      "type": "vocabulary",
+      "description": "Kedgeree is a dish of rice, lentils, and fish, popular in Bengal and Anglo-Indian cuisine."
+    },
+    "pakoras": {
+      "type": "vocabulary",
+      "description": "Pakoras are deep-fried fritters made from vegetables or meat coated in spiced gram flour batter."
+    },
+    "hilsa": {
+      "type": "vocabulary",
+      "description": "Hilsa is a type of fish highly prized in Bengali cuisine."
+    },
+    "Jai Guru": {
+      "type": "vocabulary",
+      "description": "Jai Guru is a phrase meaning 'Victory to the Guru' or 'Hail to the teacher', often used as an exclamation or prayer."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Uncle Sidhu",
+      "Srinath",
+      "Saul Silverstein",
+      "Tintin",
+      "Tintin in Tibet",
+      "Chariots of the Gods",
+      "pyramid of Giza",
+      "Nile",
+      "Easter Island",
+      "Peru",
+      "Mahabharata",
+      "Kurukshetra",
+      "Qutab Minar",
+      "Delhi",
+      "Bhubaneshwar",
+      "Raja-Rani temple",
+      "Grand Hotel",
+      "Rajput",
+      "Varanasi",
+      "Nagarmal",
+      "Kathmandu",
+      "divan",
+      "tonnes",
+      "chowkidar",
+      "yakshi",
+      "cheroot",
+      "Tantric"
+    ],
+    "ch-2": [
+      "Uncle Sidhu",
+      "Feluda",
+      "Topshe",
+      "Balaram Ghosh",
+      "Ali",
+      "Panu",
+      "Raja-Rani temple",
+      "Bhubaneshwar",
+      "Orissa",
+      "Kathmandu",
+      "Calcutta",
+      "Sidikpur",
+      "Hasnabad",
+      "Nagarmal",
+      "Archaeological Survey of India",
+      "Jessore Road",
+      "Barasat",
+      "VIP Road",
+      "Allah",
+      "chowkidar",
+      "dhaba",
+      "daal",
+      "babu",
+      "hookahs",
+      "Ambassador",
+      "yakshi"
+    ],
+    "ch-3": [
+      "Balaram Ghosh",
+      "Feluda",
+      "Panu",
+      "Mr Mutsuddi",
+      "Mr Adhikari",
+      "Jayant Mallik",
+      "Jessore Road",
+      "Sidikpur",
+      "Archaeological Survey of India",
+      "Padma Shree",
+      "Kathmandu",
+      "Taki",
+      "Hasnabad",
+      "Dum Dum",
+      "Calcutta",
+      "Bhubaneshwar",
+      "Park Street",
+      "Lowdon Street",
+      "Camac Street",
+      "Queen’s Mansion",
+      "Waldorf",
+      "Grand Hotel",
+      "Dalhousie Square",
+      "Fairlie Place",
+      "Aurangabad",
+      "Sardar Shankar Road",
+      "yakshi",
+      "Ambassador",
+      "Charminar",
+      "OC",
+      "constable"
+    ],
+    "ch-4": [
+      "Uncle Sidhu",
+      "Feluda",
+      "Mr Bakshi",
+      "Lalmohan Babu",
+      "Mr Mutsuddi",
+      "Srinath",
+      "Aurangabad",
+      "Ellora",
+      "Bombay",
+      "Baluchistan",
+      "Arjun Mehrotra",
+      "Prakhar Rudra",
+      "Sanchi",
+      "Elephanta",
+      "Simla",
+      "Dhameeja",
+      "Chitpur Road",
+      "Santa Cruz",
+      "Hotel Aurangabad",
+      "Michigan",
+      "Vaishnavas",
+      "Hare Krishna",
+      "Baroda",
+      "Kandaria Mahadev",
+      "Khajuraho",
+      "yakshi",
+      "keertan",
+      "trunk call",
+      "air hostess",
+      "rickety",
+      "Jayant Mallik",
+      "Kailash temple",
+      "babu"
+    ],
+    "ch-5": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Shubhankar Bose",
+      "Jayant Mallik",
+      "Aurangabad",
+      "Malik Ambar",
+      "Ahmednagar",
+      "Khadke",
+      "Aurangzeb",
+      "Buddhist caves",
+      "Ellora",
+      "Bibi ka Makbara",
+      "Bombay",
+      "Ghanashyam Karkat",
+      "Pentax",
+      "Charminar",
+      "Tintin in Tibet",
+      "Calcutta",
+      "paan",
+      "Marathi",
+      "sleuth",
+      "Topshe"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Jayant Mallik",
+      "Shubhankar Bose",
+      "Topshe",
+      "Ellora",
+      "Aurangabad",
+      "Barasat",
+      "Bombay",
+      "Khuldabad",
+      "City College",
+      "City School",
+      "Asia magazine",
+      "Hong Kong",
+      "Calcutta",
+      "Queen’s Mansion",
+      "Sidikpur",
+      "Adalat Road",
+      "Tourist Guest House",
+      "Kailash temple",
+      "Raja Krishna",
+      "Rashtrakut dynasty",
+      "Maurya",
+      "Sunga",
+      "Gupta",
+      "Kushan",
+      "Chola",
+      "Ramayana",
+      "Mahabharata",
+      "ganja",
+      "yakshi",
+      "bearer",
+      "Ambassador",
+      "dak bungalow"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Mr Raxit",
+      "Sam Lewison",
+      "Calcutta",
+      "Bombay",
+      "Ellora",
+      "Rajasthan",
+      "Simla",
+      "Stephens Company",
+      "New York",
+      "chowkidar",
+      "hasnahana",
+      "chapati",
+      "daal",
+      "dak bungalow",
+      "Das Avatar cave",
+      "Jayant Mallik",
+      "Kailash temple",
+      "Shubhankar Bose",
+      "Topshe"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Mr Raxit",
+      "Shubhankar Bose",
+      "Appa Rao",
+      "Jayant Mallik",
+      "Rupa",
+      "Arjun Mehrotra",
+      "Balwant Chopra",
+      "Mohan Sharma",
+      "Bombay",
+      "Hindi",
+      "bungalow",
+      "chowkidar",
+      "avatar",
+      "Das Avatar cave",
+      "Sam Lewison"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Mr Kulkarni",
+      "Mr Raxit",
+      "Sam Lewison",
+      "Mohanlal",
+      "Aurangabad",
+      "Delhi",
+      "Ellora",
+      "Bombay",
+      "Khuldabad",
+      "Baluchistan",
+      "Charminar",
+      "bearer",
+      "bungalow",
+      "chowkidar",
+      "chappals",
+      "yakshi",
+      "Jayant Mallik",
+      "Mr Ghote",
+      "Shubhankar Bose",
+      "Topshe"
+    ],
+    "ch-10": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Mr Raxit",
+      "Mr Kulkarni",
+      "Mr Ghote",
+      "Topshe",
+      "Shubhankar Bose",
+      "Panu",
+      "yakshi",
+      "Bengal",
+      "Das Avatar cave",
+      "Bhubaneshwar",
+      "Calcutta",
+      "Delhi",
+      "Bombay",
+      "Queen’s Mansion",
+      "Grand Hotel",
+      "Aurangabad",
+      "Sidikpur",
+      "Kailash temple",
+      "Ellora",
+      "chowkidar",
+      "kedgeree",
+      "pakoras",
+      "hilsa",
+      "daal",
+      "chapati",
+      "Jai Guru",
+      "Jayant Mallik",
+      "Sam Lewison",
+      "Saul Silverstein"
+    ]
+  }
+}

@@ -1,0 +1,711 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "Prodosh C. Mitter, known as Feluda, is a private detective and the protagonist of the series, renowned for his keen observation and deductive skills.",
+      "image": "/data/images/characters/feluda-murder-in-the-mountains/feluda.webp"
+    },
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "Lalmohan Ganguly, a thriller writer under the pen name Jatayu and Feluda's friend, who is asked to play the film role of the villain's right-hand man, Aghorchand Batlivala.",
+      "image": "/data/images/characters/feluda-murder-in-the-mountains/lalmohan-babu.webp"
+    },
+    "Pulak Ghoshal": {
+      "type": "character",
+      "description": "A film director who adapts Lalmohan Babu's stories into Hindi films and gives instructions regarding production and costumes.",
+      "image": "/data/images/characters/feluda-murder-in-the-mountains/pulak-ghoshal.webp"
+    },
+    "Rajen Raina": {
+      "type": "character",
+      "description": "A film actor playing the hero in Pulak Ghoshal's movie, recognized for his cheerful demeanor and seen signing autographs."
+    },
+    "Mahadev Verma": {
+      "type": "character",
+      "description": "A film actor cast as the villain in the movie, noted for his interesting appearance and mannerisms.",
+      "image": "/data/images/characters/feluda-murder-in-the-mountains/mahadev-verma.webp"
+    },
+    "Suchandra": {
+      "type": "character",
+      "description": "Suchandra is the heroine in Pulak Ghoshal's film, introduced in the film version though absent from the original story."
+    },
+    "Birupaksha Majumdar": {
+      "type": "character",
+      "description": "Birupaksha Majumdar is a retired managing director of Bengal Bank, a former sportsman and shikari, whose family owns a large villa in Darjeeling. He is often referred to as Mr Majumdar.",
+      "image": "/data/images/characters/feluda-murder-in-the-mountains/birupaksha-majumdar.webp"
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "Srinath is mentioned as the person who brings tea to the group."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, India, known for its tea plantations and scenic views of the Himalayas."
+    },
+    "Karakoram": {
+      "type": "proper_noun",
+      "description": "A mountain range spanning the borders of India, Pakistan, and China, famous for its rugged terrain and high peaks."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "Now called Mumbai, it is the capital city of Maharashtra and the center of India's film industry."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, historically significant and culturally rich, now divided into West Bengal (India) and Bangladesh."
+    },
+    "Sunderbans": {
+      "type": "proper_noun",
+      "description": "A vast mangrove forest in the delta region of Bengal, home to the Royal Bengal Tiger."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "The Ganges River, a major and sacred river in India."
+    },
+    "Padma": {
+      "type": "proper_noun",
+      "description": "A major river in Bangladesh, forming part of the Ganges delta."
+    },
+    "Meghna": {
+      "type": "proper_noun",
+      "description": "A river in Bangladesh, also part of the Ganges delta system."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "The world's highest mountain range, spanning northern India and other countries."
+    },
+    "Chandannagore": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, known for its French colonial history."
+    },
+    "Nayanpur": {
+      "type": "proper_noun",
+      "description": "A place in East Bengal, referenced as the ancestral home of Birupaksha Majumdar's family."
+    },
+    "Mount Everest Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel in Darjeeling where the film unit is staying."
+    },
+    "Hotel Kanchenjunga": {
+      "type": "proper_noun",
+      "description": "A hotel in Darjeeling, named after the third highest mountain in the world."
+    },
+    "Bagdogra": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, with an airport serving as the gateway to Darjeeling."
+    },
+    "Leh": {
+      "type": "proper_noun",
+      "description": "A town in Ladakh, northern India, known for its scenic beauty and Buddhist culture."
+    },
+    "Ladakh": {
+      "type": "proper_noun",
+      "description": "A region in northern India, famous for its mountains and unique culture."
+    },
+    "Kashmir": {
+      "type": "proper_noun",
+      "description": "A region in northern India, renowned for its natural beauty and historical significance."
+    },
+    "Srinagar": {
+      "type": "proper_noun",
+      "description": "The largest city in Kashmir, known for its lakes and gardens."
+    },
+    "Bengal Bank": {
+      "type": "proper_noun",
+      "description": "A bank referenced as Birupaksha Majumdar's former workplace."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional long shirt worn in India, often made of cotton or silk."
+    },
+    "Puja": {
+      "type": "vocabulary",
+      "description": "Refers to Hindu religious festivals or rituals, commonly celebrated in Bengal during autumn."
+    },
+    "shikari": {
+      "type": "vocabulary",
+      "description": "A hunter; someone who engages in hunting, often used in Indian contexts."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "Uncle Sidhu": {
+      "type": "character",
+      "description": "A relative of Feluda and Topshe, known for his habit of collecting interesting newspaper clippings, not limited to crime."
+    },
+    "Sonada": {
+      "type": "proper_noun",
+      "description": "A small town near Darjeeling, mentioned as a stop on the journey."
+    },
+    "Rajasthani": {
+      "type": "proper_noun",
+      "description": "Relating to Rajasthan, a state in western India, referenced here in the context of a traditional cap."
+    },
+    "Kerseong": {
+      "type": "proper_noun",
+      "description": "A town near Darjeeling, known for its picturesque landscape and tea gardens."
+    },
+    "Kanchenjunga": {
+      "type": "proper_noun",
+      "description": "The third highest mountain in the world, visible from Darjeeling and a major attraction for visitors."
+    },
+    "Ghoom": {
+      "type": "proper_noun",
+      "description": "A small town near Darjeeling, famous for its railway station and monastery."
+    },
+    "Bosepukur": {
+      "type": "proper_noun",
+      "description": "A locality mentioned as the site of a previous case solved by Feluda."
+    },
+    "Nayanpur Villa": {
+      "type": "proper_noun",
+      "description": "The bungalow in Darjeeling where Mr Majumdar lives."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, the capital city of West Bengal, India."
+    },
+    "Keventer’s": {
+      "type": "proper_noun",
+      "description": "A well-known open-air restaurant in Darjeeling, famous for its food and beverages."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular Indian cigarette brand, smoked by Feluda."
+    },
+    "mali": {
+      "type": "vocabulary",
+      "description": "A gardener."
+    },
+    "ABCD": {
+      "type": "vocabulary",
+      "description": "An acronym for 'Asia’s Best Crime Detector', a playful title given to Feluda by Lalmohan Babu."
+    },
+    "Rajat Bose": {
+      "type": "character",
+      "description": "The son of Sudheer Brahma working as Mr Majumdar's secretary under an alias to seek revenge for his father's death.",
+      "image": "/data/images/characters/feluda-murder-in-the-mountains/rajat-bose.webp"
+    },
+    "Observatory Hill": {
+      "type": "proper_noun",
+      "description": "A notable hill in Darjeeling, known for its scenic views."
+    },
+    "Das Studio": {
+      "type": "proper_noun",
+      "description": "A local photography studio in Darjeeling."
+    },
+    "London": {
+      "type": "proper_noun",
+      "description": "Capital city of the United Kingdom, referenced for newspaper cuttings."
+    },
+    "Statesman": {
+      "type": "proper_noun",
+      "description": "A well-known English-language newspaper in India."
+    },
+    "Sherlock Holmes": {
+      "type": "proper_noun",
+      "description": "Famous fictional detective created by Arthur Conan Doyle."
+    },
+    "Hercule Poirot": {
+      "type": "proper_noun",
+      "description": "Famous fictional detective created by Agatha Christie."
+    },
+    "zamindar": {
+      "type": "proper_noun",
+      "description": "A zamindar is a hereditary landowner, historically powerful in Bengal, who collected taxes and owned large estates. 'Zamindars' is the plural form."
+    },
+    "Gorpar Friends’ Club": {
+      "type": "proper_noun",
+      "description": "A local club referenced for a past play performance."
+    },
+    "Bengali Club": {
+      "type": "proper_noun",
+      "description": "A local club in Darjeeling, mentioned for providing actors."
+    },
+    "shikar": {
+      "type": "vocabulary",
+      "description": "Hunting, especially for sport, in the Indian context."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A servant or attendant, often responsible for serving food and drinks."
+    },
+    "Harinarayan Mukherjee": {
+      "type": "character",
+      "description": "Harinarayan Mukherjee is an elderly gentleman who lives next to Mr Majumdar's house and introduces himself to Feluda and his friends. He is also referred to as Mr Mukherjee."
+    },
+    "North Calcutta": {
+      "type": "proper_noun",
+      "description": "A region in Kolkata, referenced in relation to Lalmohan Babu's past achievements."
+    },
+    "Nehru Road": {
+      "type": "proper_noun",
+      "description": "A road named after Jawaharlal Nehru, leading towards the hotel."
+    },
+    "The Retreat": {
+      "type": "proper_noun",
+      "description": "The name of Harinarayan Mukherjee's house, located next to Mr Majumdar's."
+    },
+    "Carrom": {
+      "type": "vocabulary",
+      "description": "A popular tabletop game in South Asia, similar to billiards but played with disks."
+    },
+    "ashtadhatu": {
+      "type": "vocabulary",
+      "description": "A traditional alloy of eight metals, often used in making sacred statues in India."
+    },
+    "Namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting, similar to 'hello' or 'greetings'."
+    },
+    "Mr Nitish Som": {
+      "type": "character",
+      "description": "A member of the film unit who comes to collect Lalmohan Babu for the film shoot."
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's younger cousin and the narrator of the story, who assists in the investigations."
+    },
+    "Jalapahar Road": {
+      "type": "proper_noun",
+      "description": "A road in Darjeeling, known for its scenic views."
+    },
+    "The Mall": {
+      "type": "proper_noun",
+      "description": "The Mall is the main promenade or public square in Darjeeling, popular for walks and shopping. It is sometimes referred to simply as 'Mall.'"
+    },
+    "mahurat": {
+      "type": "vocabulary",
+      "description": "A traditional ceremony marking the auspicious beginning of a film shoot."
+    },
+    "gumpha": {
+      "type": "vocabulary",
+      "description": "A Buddhist monastery, often found in the Himalayan regions."
+    },
+    "Samiran Majumdar": {
+      "type": "character",
+      "description": "Samiran Majumdar is Mr Majumdar's son, a businessman involved with the share market, who is first to discover his father's body and assists in the investigation. He is also called Samiran or Samiran Babu."
+    },
+    "Jatish Saha": {
+      "type": "character",
+      "description": "Jatish Saha is the police inspector in charge of the investigation at Nayanpur Villa, known for his methodical and thorough questioning. He is also referred to as Inspector Saha."
+    },
+    "Lokenath": {
+      "type": "character",
+      "description": "The bearer at Nayanpur Villa, responsible for serving tea and other duties, now missing."
+    },
+    "Bahadur": {
+      "type": "character",
+      "description": "A servant living in Nayanpur Villa."
+    },
+    "Jagadish": {
+      "type": "character",
+      "description": "The cook at Nayanpur Villa."
+    },
+    "Sudev Ghosh": {
+      "type": "character",
+      "description": "The cameraman of the film unit."
+    },
+    "Birch Hill Road": {
+      "type": "proper_noun",
+      "description": "A road in the vicinity, mentioned as part of the day's activities."
+    },
+    "Trofnil": {
+      "type": "proper_noun",
+      "description": "An anti-depressant medication, relevant to the murder investigation."
+    },
+    "Krishna": {
+      "type": "proper_noun",
+      "description": "A Hindu deity, whose statue made of ashtadhatu is stolen in the story."
+    },
+    "Baba": {
+      "type": "vocabulary",
+      "description": "A term for father in Bengali and Hindi."
+    },
+    "vish": {
+      "type": "vocabulary",
+      "description": "Hindi for 'poison', used in the victim's dying message."
+    },
+    "Siliguri": {
+      "type": "proper_noun",
+      "description": "A city in West Bengal, India, mentioned as a location where police are searching for Lokenath."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "An open, roofed porch or gallery along the outside of a building, common in Indian architecture."
+    },
+    "Raja Prithvi Singh": {
+      "type": "character",
+      "description": "The Raja of Neelkanthapur, a royal figure who invited Birupaksha Majumdar for tiger hunting in Neelkanthapur."
+    },
+    "Sudheer Brahma": {
+      "type": "character",
+      "description": "A Bengali professor of history and ayurveda enthusiast who was accidentally killed during a tiger hunt."
+    },
+    "Neelkanthapur": {
+      "type": "proper_noun",
+      "description": "A place in Madhya Pradesh where the past tiger hunting incident occurred."
+    },
+    "Madhya Pradesh": {
+      "type": "proper_noun",
+      "description": "A large state in central India, the setting for part of the backstory."
+    },
+    "Chhota Nagpur": {
+      "type": "proper_noun",
+      "description": "A plateau region in eastern India, where Mukherjee lived for a few years."
+    },
+    "machaan": {
+      "type": "vocabulary",
+      "description": "A raised platform or watchtower used for hunting or observation, especially in forests."
+    },
+    "ayurveda": {
+      "type": "vocabulary",
+      "description": "An ancient Indian system of medicine focused on natural and holistic healing."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A term of respect or endearment in India, especially Bengal, often used to address men. 'Babu' is the capitalized form, while 'babu' is the lowercase variant."
+    },
+    "Kya hua": {
+      "type": "vocabulary",
+      "description": "Hindi for 'What happened?'."
+    },
+    "Ek minute thahariye, hum dekhte hain": {
+      "type": "vocabulary",
+      "description": "Hindi for 'Wait a minute, we will see/check.'"
+    },
+    "Bahut, bahut shukriya": {
+      "type": "vocabulary",
+      "description": "Hindi for 'Thank you very, very much.'"
+    },
+    "Dr Bardhan": {
+      "type": "character",
+      "description": "A doctor at the clinic who examines Feluda and provides insights into Mr Majumdar's health and family issues."
+    },
+    "Kanpur": {
+      "type": "proper_noun",
+      "description": "A city in northern India where Rajat Bose spent his childhood."
+    },
+    "Readers’ Digest": {
+      "type": "proper_noun",
+      "description": "An international magazine mentioned as reading material by Rajat Bose."
+    },
+    "Arjun Mehrotra": {
+      "type": "character",
+      "description": "A film actor suggested as a replacement for Rajen Raina in Pulak Ghoshal's film."
+    },
+    "Tung": {
+      "type": "proper_noun",
+      "description": "Another small location near Darjeeling, passed during the chase."
+    },
+    "Pankhabari": {
+      "type": "proper_noun",
+      "description": "A region or shortcut route in the hills near Darjeeling."
+    },
+    "Dum Dum airport": {
+      "type": "proper_noun",
+      "description": "The main airport in Kolkata, referenced in relation to a scent Feluda remembers."
+    },
+    "Simla": {
+      "type": "proper_noun",
+      "description": "A hill station in northern India, considered as an alternate shooting location."
+    },
+    "Asia": {
+      "type": "proper_noun",
+      "description": "The continent referenced in the playful title 'Asia’s Busiest Cinema Director.'"
+    },
+    "bed tea": {
+      "type": "vocabulary",
+      "description": "A cup of tea served in the morning, often in bed, a common practice in parts of India."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Pulak Ghoshal",
+      "Rajen Raina",
+      "Mahadev Verma",
+      "Suchandra",
+      "Birupaksha Majumdar",
+      "Srinath",
+      "Darjeeling",
+      "Karakoram",
+      "Bombay",
+      "Bengal",
+      "Sunderbans",
+      "Ganga",
+      "Padma",
+      "Meghna",
+      "Himalayas",
+      "Chandannagore",
+      "Nayanpur",
+      "Mount Everest Hotel",
+      "Hotel Kanchenjunga",
+      "Bagdogra",
+      "Leh",
+      "Ladakh",
+      "Kashmir",
+      "Srinagar",
+      "Bengal Bank",
+      "kurta",
+      "Puja",
+      "shikari",
+      "rupees",
+      "zamindar"
+    ],
+    "ch-2": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Uncle Sidhu",
+      "Hotel Kanchenjunga",
+      "Darjeeling",
+      "Sonada",
+      "Rajasthani",
+      "Kerseong",
+      "Kanchenjunga",
+      "Ghoom",
+      "Bosepukur",
+      "Mount Everest Hotel",
+      "Nayanpur Villa",
+      "Calcutta",
+      "Keventer’s",
+      "Charminar",
+      "mali",
+      "ABCD",
+      "Birupaksha Majumdar",
+      "Rajat Bose",
+      "Pulak Ghoshal",
+      "babu",
+      "The Mall"
+    ],
+    "ch-3": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Rajat Bose",
+      "Pulak Ghoshal",
+      "Rajen Raina",
+      "Mahadev Verma",
+      "Kanchenjunga",
+      "Observatory Hill",
+      "Das Studio",
+      "Keventer’s",
+      "Mount Everest Hotel",
+      "Nayanpur Villa",
+      "London",
+      "Statesman",
+      "Sherlock Holmes",
+      "Hercule Poirot",
+      "Charminar",
+      "zamindar",
+      "Calcutta",
+      "Gorpar Friends’ Club",
+      "Bengali Club",
+      "mali",
+      "shikar",
+      "bearer",
+      "Birupaksha Majumdar",
+      "Samiran Majumdar",
+      "The Mall"
+    ],
+    "ch-4": [
+      "Pulak Ghoshal",
+      "Feluda",
+      "Lalmohan Babu",
+      "Harinarayan Mukherjee",
+      "Nayanpur Villa",
+      "North Calcutta",
+      "Observatory Hill",
+      "Kanchenjunga",
+      "Nehru Road",
+      "Hotel Kanchenjunga",
+      "Keventer’s",
+      "The Retreat",
+      "Carrom",
+      "ashtadhatu",
+      "mali",
+      "Namaskar",
+      "Birupaksha Majumdar",
+      "Samiran Majumdar",
+      "Mahadev Verma",
+      "Topshe",
+      "babu",
+      "The Mall",
+      "Rajen Raina"
+    ],
+    "ch-5": [
+      "Mr Nitish Som",
+      "Lalmohan Babu",
+      "Feluda",
+      "Topshe",
+      "Birupaksha Majumdar",
+      "Rajat Bose",
+      "Mahadev Verma",
+      "Pulak Ghoshal",
+      "Jalapahar Road",
+      "Kanchenjunga",
+      "The Mall",
+      "Puja",
+      "Observatory Hill",
+      "Nayanpur Villa",
+      "Bombay",
+      "mahurat",
+      "gumpha",
+      "Samiran Majumdar",
+      "babu",
+      "Rajen Raina"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Pulak Ghoshal",
+      "Samiran Majumdar",
+      "Jatish Saha",
+      "Lokenath",
+      "Rajat Bose",
+      "Bahadur",
+      "Jagadish",
+      "Sudev Ghosh",
+      "Kanchenjunga",
+      "Nayanpur Villa",
+      "Birch Hill Road",
+      "Trofnil",
+      "ashtadhatu",
+      "Krishna",
+      "Baba",
+      "vish",
+      "bearer",
+      "ashtadhatu",
+      "Birupaksha Majumdar",
+      "Mahadev Verma",
+      "babu",
+      "Rajen Raina"
+    ],
+    "ch-7": [
+      "Pulak Ghoshal",
+      "Feluda",
+      "Lalmohan Babu",
+      "Lokenath",
+      "Rajat Bose",
+      "Samiran Majumdar",
+      "Bahadur",
+      "Jagadish",
+      "Siliguri",
+      "Calcutta",
+      "Krishna",
+      "Nayanpur Villa",
+      "Namaskar",
+      "veranda",
+      "Birupaksha Majumdar",
+      "Jatish Saha",
+      "Mahadev Verma",
+      "Topshe",
+      "babu",
+      "The Mall",
+      "Rajen Raina"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Harinarayan Mukherjee",
+      "Birupaksha Majumdar",
+      "Raja Prithvi Singh",
+      "Sudheer Brahma",
+      "Keventer’s",
+      "Nayanpur Villa",
+      "Neelkanthapur",
+      "Madhya Pradesh",
+      "Chhota Nagpur",
+      "Darjeeling",
+      "Calcutta",
+      "Observatory Hill",
+      "Kanchenjunga",
+      "Namaskar",
+      "machaan",
+      "ayurveda",
+      "babu",
+      "Kya hua",
+      "Ek minute thahariye, hum dekhte hain",
+      "Bahut, bahut shukriya",
+      "Rajat Bose",
+      "Topshe",
+      "The Mall"
+    ],
+    "ch-9": [
+      "Dr Bardhan",
+      "Feluda",
+      "Lalmohan Babu",
+      "Rajat Bose",
+      "Lokenath",
+      "Nayanpur Villa",
+      "Calcutta",
+      "Bengal Bank",
+      "Kanpur",
+      "Readers’ Digest",
+      "Namaskar",
+      "bearer",
+      "Baba",
+      "Birupaksha Majumdar",
+      "Samiran Majumdar",
+      "babu"
+    ],
+    "ch-10": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Lokenath",
+      "Pulak Ghoshal",
+      "Rajen Raina",
+      "Mahadev Verma",
+      "Sudev Ghosh",
+      "Nayanpur Villa",
+      "Kanchenjunga",
+      "bearer",
+      "Birupaksha Majumdar",
+      "Jatish Saha",
+      "Topshe",
+      "The Mall"
+    ],
+    "ch-11": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Samiran Majumdar",
+      "Bahadur",
+      "Pulak Ghoshal",
+      "Jagadish",
+      "Birupaksha Majumdar",
+      "Lokenath",
+      "Rajat Bose",
+      "Sudheer Brahma",
+      "Harinarayan Mukherjee",
+      "Rajen Raina",
+      "Arjun Mehrotra",
+      "Nayanpur Villa",
+      "Siliguri",
+      "Ghoom",
+      "Sonada",
+      "Tung",
+      "Kerseong",
+      "Pankhabari",
+      "Darjeeling",
+      "Mount Everest Hotel",
+      "Bengal Bank",
+      "Calcutta",
+      "Neelkanthapur",
+      "Madhya Pradesh",
+      "Krishna",
+      "ashtadhatu",
+      "Dum Dum airport",
+      "Simla",
+      "Asia",
+      "bed tea",
+      "shikar",
+      "ayurveda",
+      "rupees",
+      "vish",
+      "Jatish Saha",
+      "Mahadev Verma",
+      "Raja Prithvi Singh",
+      "babu"
+    ]
+  }
+}

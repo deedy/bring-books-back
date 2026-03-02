@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-curse-of-the-goddess",
+  "title": "The Curse of the Goddess",
+  "transliteratedTitle": "Chhinnamastar Abhishaap",
+  "subtitle": "A Mysterious Invitation, A Deadly Legend",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-curse-of-the-goddess.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "ছিন্নমস্তার অভিশাপ",
+  "originalYear": 1978,
+  "totalChapters": 12,
+  "wordCount": 26632,
+  "summary": "Feluda, Lalmohan Babu, and Topshe set out for a tranquil winter holiday in Hazaribagh, only to find themselves drawn into a web of intrigue connected to a legendary curse. As secrets unravel and danger looms, the trio must use all their wits to separate myth from reality. Will a simple vacation transform into their most confounding case yet?",
+  "anthologyId": "feluda",
+  "storyNumber": 16
+}

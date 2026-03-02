@@ -10,10 +10,15 @@ export interface Book {
   originalLanguage: string;
   originalTitle: string;
   originalYear: number;
+  yearEnd?: number;
   totalChapters: number;
   wordCount: number;
   summary: string;
   previewText: string;
+  type?: "book" | "anthology";
+  totalStories?: number;
+  anthologyId?: string;
+  storyNumber?: number;
 }
 
 export interface Author {
@@ -58,9 +63,14 @@ export interface BookMeta {
   originalLanguage: string;
   originalTitle: string;
   originalYear: number;
+  yearEnd?: number;
   totalChapters: number;
   wordCount: number;
   summary: string;
+  type?: "book" | "anthology";
+  totalStories?: number;
+  anthologyId?: string;
+  storyNumber?: number;
 }
 
 export interface ReadingProgress {
@@ -79,4 +89,8 @@ export interface Annotation {
 export interface AnnotationsData {
   glossary: Record<string, Annotation>;
   chapters: Record<string, string[]>;
+}
+
+export interface AnthologyData {
+  storyBookIds: string[];
 }

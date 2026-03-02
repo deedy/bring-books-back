@@ -1,0 +1,739 @@
+{
+  "glossary": {
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "A popular thriller writer and close friend of Feluda who often accompanies him on investigations.",
+      "image": "/data/images/characters/feluda-shakuntala-s-necklace/lalmohan-babu.webp"
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "A renowned private investigator from Calcutta and the protagonist of the series, also known as Feluda.",
+      "image": "/data/images/characters/feluda-shakuntala-s-necklace/feluda.webp"
+    },
+    "Jayant Biswas": {
+      "type": "character",
+      "description": "A fellow traveler on the train to Lucknow, a Christian whose family has lived in Lucknow for generations. He is married to Shakuntala Devi's daughter."
+    },
+    "Shakuntala Devi": {
+      "type": "character",
+      "description": "A famous silent film actress, originally named Virginia Reynolds, and the mother-in-law of Jayant Biswas."
+    },
+    "Jaisalmer": {
+      "type": "proper_noun",
+      "description": "A historic city in Rajasthan, India, known for its golden sandstone fort."
+    },
+    "Lucknow": {
+      "type": "proper_noun",
+      "description": "The capital city of Uttar Pradesh, India, famous for its history, culture, and Mughal heritage."
+    },
+    "Gangtok": {
+      "type": "proper_noun",
+      "description": "The capital of Sikkim, a state in northeastern India."
+    },
+    "Aurangzeb": {
+      "type": "proper_noun",
+      "description": "A Mughal emperor who ruled India in the 17th century."
+    },
+    "Mughal": {
+      "type": "proper_noun",
+      "description": "Refers to the Mughal dynasty, which ruled large parts of India from the 16th to 19th centuries."
+    },
+    "nawabs": {
+      "type": "proper_noun",
+      "description": "Nawab is a title for a Muslim nobleman or ruler in South Asia; nawabs is the plural form, referring to such rulers, especially in northern India during the Mughal era."
+    },
+    "mutiny of 1857": {
+      "type": "proper_noun",
+      "description": "A major uprising against British rule in India, also known as the First War of Independence."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "Now called Kolkata, a major city in eastern India and Feluda's home."
+    },
+    "Doon Express": {
+      "type": "proper_noun",
+      "description": "A long-distance train in India connecting Howrah (Kolkata) to Dehradun, passing through Lucknow."
+    },
+    "Howrah": {
+      "type": "proper_noun",
+      "description": "A major railway station and city adjacent to Kolkata."
+    },
+    "Clarks Avadh": {
+      "type": "proper_noun",
+      "description": "A well-known hotel in Lucknow."
+    },
+    "Avadh": {
+      "type": "proper_noun",
+      "description": "The Urdu name for the historical region of Oudh, of which Lucknow is the capital."
+    },
+    "Ayodhya": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, India, considered an ancient and holy city in Hindu tradition."
+    },
+    "Laxman": {
+      "type": "proper_noun",
+      "description": "A figure from the Hindu epic Ramayana, brother of Lord Rama; the name 'Lucknow' is said to derive from him."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic narrating the life of Lord Rama."
+    },
+    "Gomti": {
+      "type": "proper_noun",
+      "description": "A river that flows through Lucknow."
+    },
+    "Bengali Club": {
+      "type": "proper_noun",
+      "description": "A social club for Bengalis living in Lucknow."
+    },
+    "Shaken in Shanghai": {
+      "type": "proper_noun",
+      "description": "A book written by Lalmohan Babu (Jatayu)."
+    },
+    "Japan": {
+      "type": "proper_noun",
+      "description": "A country in East Asia, mentioned as the origin of Lalmohan Babu's suitcase."
+    },
+    "H J B": {
+      "type": "proper_noun",
+      "description": "The initials on Jayant Biswas's suitcase, standing for Hector Jayant Biswas."
+    },
+    "Bioscope": {
+      "type": "proper_noun",
+      "description": "A magazine about films, popular during the era of silent movies."
+    },
+    "Anglo-Indian": {
+      "type": "proper_noun",
+      "description": "A term for people of mixed Indian and British ancestry."
+    },
+    "Thomas Reynolds": {
+      "type": "proper_noun",
+      "description": "Father of Virginia Reynolds, served in the army and spoke Urdu."
+    },
+    "Urdu": {
+      "type": "proper_noun",
+      "description": "A language widely spoken in northern India and Pakistan."
+    },
+    "Maharaja of Mysore": {
+      "type": "proper_noun",
+      "description": "A royal title; the ruler of Mysore, a princely state in southern India."
+    },
+    "Mysore": {
+      "type": "proper_noun",
+      "description": "A city and former princely state in southern India."
+    },
+    "rupees": {
+      "type": "proper_noun",
+      "description": "The currency of India."
+    },
+    "Badshah Bagh": {
+      "type": "proper_noun",
+      "description": "A locality in Lucknow, where Jayant Biswas lives."
+    },
+    "Mughlai": {
+      "type": "proper_noun",
+      "description": "A style of cuisine developed in the kitchens of the Mughal Empire, known for its rich flavors."
+    },
+    "Puja": {
+      "type": "vocabulary",
+      "description": "Puja, short for Durga Puja, is a major Hindu festival celebrating the goddess Durga, especially important to Bengalis."
+    },
+    "berths": {
+      "type": "vocabulary",
+      "description": "Sleeping compartments or beds in a train coach."
+    },
+    "talkie": {
+      "type": "vocabulary",
+      "description": "A term for a film with sound, as opposed to a silent film."
+    },
+    "Goan": {
+      "type": "vocabulary",
+      "description": "Goan refers to a person from Goa, a state on the western coast of India, while Goans is the plural form, often associated with music and Western culture."
+    },
+    "waistcoat": {
+      "type": "vocabulary",
+      "description": "A sleeveless upper-body garment, often worn over a shirt and under a jacket."
+    },
+    "bachelor": {
+      "type": "vocabulary",
+      "description": "An unmarried man."
+    },
+    "film buff": {
+      "type": "vocabulary",
+      "description": "A person who is very interested in and knowledgeable about films."
+    },
+    "Mr Biswas": {
+      "type": "character",
+      "description": "A passenger on the Doon Express, he is married to Pamela Suneela and is involved in the business of imports and exports."
+    },
+    "Mr Sukius": {
+      "type": "character",
+      "description": "A well-known businessman from Lucknow and an art connoisseur who was murdered during the course of the investigation.",
+      "image": "/data/images/characters/feluda-shakuntala-s-necklace/mr-sukius.webp"
+    },
+    "Farida Begum": {
+      "type": "character",
+      "description": "A kathak dancer who married Thomas Reynolds and became Virginia's mother."
+    },
+    "Edward": {
+      "type": "character",
+      "description": "Son of Thomas Reynolds and Farida Begum, became a lawyer."
+    },
+    "Charles": {
+      "type": "character",
+      "description": "Son of Thomas Reynolds and Farida Begum, managed a tea estate in Assam."
+    },
+    "Percival Motilal Banerjee": {
+      "type": "character",
+      "description": "Virginia's husband, a Bengali Christian and film producer who encouraged her acting career."
+    },
+    "Margaret Susheela": {
+      "type": "character",
+      "description": "The elder sister of Suneela Biswas and daughter of Virginia and Percival; she is married to Samuel Saldanha."
+    },
+    "Victor Prasenjit": {
+      "type": "character",
+      "description": "The son of Mr and Mrs Biswas.",
+      "image": "/data/images/characters/feluda-shakuntala-s-necklace/victor-prasenjit.webp"
+    },
+    "Mary Sheela": {
+      "type": "character",
+      "description": "The daughter of Mr and Mrs Biswas who is an aspiring journalist and decorator.",
+      "image": "/data/images/characters/feluda-shakuntala-s-necklace/mary-sheela.webp"
+    },
+    "Buxar": {
+      "type": "proper_noun",
+      "description": "A town in Bihar, India, mentioned as a stop on the train journey."
+    },
+    "Mughalsarai": {
+      "type": "proper_noun",
+      "description": "A major railway junction in Uttar Pradesh, India."
+    },
+    "Pratapgarh": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, India, another stop on the train route."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital city of Nepal, from where Lalmohan Babu's razors were brought."
+    },
+    "Wilkinson": {
+      "type": "proper_noun",
+      "description": "A brand of razor blades, known for their quality."
+    },
+    "New Market": {
+      "type": "proper_noun",
+      "description": "A famous shopping area in Kolkata, India."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular Indian cigarette brand."
+    },
+    "Bengal regiment": {
+      "type": "proper_noun",
+      "description": "A historical British Indian Army regiment."
+    },
+    "Assam": {
+      "type": "proper_noun",
+      "description": "A state in northeastern India, known for its tea estates."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A servant or attendant, especially on trains in India."
+    },
+    "hookah": {
+      "type": "vocabulary",
+      "description": "A traditional Indian water pipe used for smoking tobacco."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects."
+    },
+    "attar": {
+      "type": "vocabulary",
+      "description": "A fragrant essential oil derived from botanical sources, used as perfume."
+    },
+    "nawab": {
+      "type": "vocabulary",
+      "description": "A title for a Muslim nobleman or ruler in South Asia."
+    },
+    "kathak": {
+      "type": "vocabulary",
+      "description": "A classical dance form from northern India."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term for a gentleman or educated man in India."
+    },
+    "Dr Srivastava": {
+      "type": "character",
+      "description": "A character mentioned in connection with a previous adventure in Lucknow."
+    },
+    "Bonobihari Babu": {
+      "type": "character",
+      "description": "Owner of an amazing zoo, referenced from a previous visit."
+    },
+    "Mr Saldanha": {
+      "type": "character",
+      "description": "A Goan owner of a musical instrument shop in Lucknow who is married to Margaret Susheela.",
+      "image": "/data/images/characters/feluda-shakuntala-s-necklace/mr-saldanha.webp"
+    },
+    "Albert Ratanlal Banerjee": {
+      "type": "character",
+      "description": "Albert Ratanlal Banerjee is Mrs Biswas's brother and Jayant Biswas's brother-in-law, described as having lighter skin and eyes. He is sometimes referred to as Mr Banerjee or simply Ratanlal."
+    },
+    "Suleman": {
+      "type": "character",
+      "description": "The long-serving bearer (servant) of the Biswas family, who has been with them for thirty years."
+    },
+    "Emperor Aurangzeb": {
+      "type": "proper_noun",
+      "description": "A Mughal emperor of India, referenced in connection with a diamond ring from a previous adventure."
+    },
+    "Haridwar": {
+      "type": "proper_noun",
+      "description": "A holy city in Uttarakhand, India, known for its religious significance."
+    },
+    "Laxmanjhoola": {
+      "type": "proper_noun",
+      "description": "A famous suspension bridge in Rishikesh, Uttarakhand, India."
+    },
+    "Bara Imambara": {
+      "type": "proper_noun",
+      "description": "A grand historical monument in Lucknow, famous for its large hall and architectural marvel."
+    },
+    "Bhulbhulaiya": {
+      "type": "proper_noun",
+      "description": "The labyrinth or maze within the Bara Imambara complex in Lucknow."
+    },
+    "begums": {
+      "type": "proper_noun",
+      "description": "A term for noblewomen or wives of nawabs in India."
+    },
+    "The Residency": {
+      "type": "proper_noun",
+      "description": "A historical site in Lucknow, significant for its role during the Indian Rebellion of 1857."
+    },
+    "sepoys": {
+      "type": "proper_noun",
+      "description": "Indian soldiers, especially those who served under British command during colonial times."
+    },
+    "bhoona peda": {
+      "type": "proper_noun",
+      "description": "A type of sweetmeat for which Lucknow is famous."
+    },
+    "Chhota Imambara": {
+      "type": "proper_noun",
+      "description": "Another important historical monument in Lucknow."
+    },
+    "Chattar Manzil": {
+      "type": "proper_noun",
+      "description": "A palace in Lucknow, also known as the 'Umbrella Palace.'"
+    },
+    "Hazratganj": {
+      "type": "proper_noun",
+      "description": "A prominent shopping area in Lucknow."
+    },
+    "sitars": {
+      "type": "proper_noun",
+      "description": "A traditional Indian stringed musical instrument."
+    },
+    "maharajas": {
+      "type": "proper_noun",
+      "description": "Indian kings or princes, especially those who ruled princely states."
+    },
+    "Imambara": {
+      "type": "vocabulary",
+      "description": "A congregation hall for Shia Muslim commemoration ceremonies, especially during Muharram."
+    },
+    "peda": {
+      "type": "vocabulary",
+      "description": "A type of Indian sweet, usually made from khoya (reduced milk) and sugar."
+    },
+    "bungalow": {
+      "type": "vocabulary",
+      "description": "A single-storied house, commonly found in India."
+    },
+    "ma": {
+      "type": "vocabulary",
+      "description": "A Hindi and Bengali word meaning 'mother.'"
+    },
+    "paanwala": {
+      "type": "vocabulary",
+      "description": "A paanwala is a person who sells paan, a popular Indian chew made of betel leaf and areca nut; paanwalas is the plural form."
+    },
+    "Inspector Pandey": {
+      "type": "character",
+      "description": "Inspector Pandey is the police officer in charge of investigating the theft of Shakuntala's necklace, assisting Feluda with the case."
+    },
+    "Mrs Biswas": {
+      "type": "character",
+      "description": "The wife of Mr Biswas and mother of the Biswas children; she is the owner of the stolen necklace and sister to Albert Ratanlal Banerjee."
+    },
+    "Mr Som": {
+      "type": "character",
+      "description": "A well-known portrait painter who lives with the Biswas family after his retirement."
+    },
+    "Clive Road": {
+      "type": "proper_noun",
+      "description": "A street or locality where Mr and Mrs Saldanha live."
+    },
+    "Kaizer Bagh": {
+      "type": "proper_noun",
+      "description": "A notable historical site or garden in Lucknow, mentioned as a sightseeing destination."
+    },
+    "Tribhuvan Nagar": {
+      "type": "character",
+      "description": "Mr Biswas's business partner in Modern Imports & Exports."
+    },
+    "Pioneer": {
+      "type": "proper_noun",
+      "description": "A publication that wrote a biography mentioning the necklace."
+    },
+    "Modern Imports & Exports": {
+      "type": "proper_noun",
+      "description": "The business firm run by Mr Biswas and his partner."
+    },
+    "Frazer Road": {
+      "type": "proper_noun",
+      "description": "A street where Ratanlal, Mr Biswas's brother-in-law, lives."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A type of cigar, often associated with South Asia."
+    },
+    "salwar-kameez": {
+      "type": "vocabulary",
+      "description": "A traditional outfit worn by women in South Asia, consisting of a tunic (kameez) and trousers (salwar)."
+    },
+    "Pamela": {
+      "type": "character",
+      "description": "Margaret's younger sister, recipient of the stolen necklace and considered more talented and favored by their mother."
+    },
+    "Saldanha & Co.": {
+      "type": "proper_noun",
+      "description": "An old music shop in Hazratganj, Lucknow, run by the Saldanha family."
+    },
+    "de Mello": {
+      "type": "proper_noun",
+      "description": "Owner of one of the other music shops in Lucknow, identified as Goan."
+    },
+    "Noronha": {
+      "type": "proper_noun",
+      "description": "Owner of another music shop in Lucknow, also identified as Goan."
+    },
+    "America": {
+      "type": "proper_noun",
+      "description": "Refers to the United States, where Mr Saldanha's son lives and works."
+    },
+    "Kulu": {
+      "type": "proper_noun",
+      "description": "A region in Himachal Pradesh, India, known for its apple orchards."
+    },
+    "ghazals": {
+      "type": "vocabulary",
+      "description": "A poetic form and genre of music originating in Arabic poetry, popular in India and often set to music."
+    },
+    "hi-fi": {
+      "type": "vocabulary",
+      "description": "Short for 'high fidelity', refers to high-quality sound reproduction equipment."
+    },
+    "objets d’art": {
+      "type": "vocabulary",
+      "description": "French term meaning 'art objects', used in India to refer to decorative or collectible art pieces."
+    },
+    "Dilkhusha": {
+      "type": "proper_noun",
+      "description": "Dilkhusha is a historical building, once a pleasure palace, now in ruins, located in Lucknow."
+    },
+    "Nawab Sadat Ali": {
+      "type": "proper_noun",
+      "description": "Nawab Sadat Ali was a ruler in Lucknow who commissioned the construction of Dilkhusha in the nineteenth century."
+    },
+    "La Martiniere School": {
+      "type": "proper_noun",
+      "description": "La Martiniere School is a famous educational institution in Lucknow, established in the eighteenth century."
+    },
+    "Claude Martin": {
+      "type": "proper_noun",
+      "description": "Claude Martin was a Major General who founded La Martiniere School in the eighteenth century."
+    },
+    "tonga": {
+      "type": "vocabulary",
+      "description": "A horse-drawn carriage commonly used for local transport in parts of India."
+    },
+    "chamchas": {
+      "type": "vocabulary",
+      "description": "A Hindi slang term meaning 'sycophants' or 'cronies', often used derogatorily."
+    },
+    "Biswas": {
+      "type": "proper_noun",
+      "description": "A surname referring to the 'Biswas boy,' a suspect in another case mentioned in the chapter."
+    },
+    "goonda": {
+      "type": "vocabulary",
+      "description": "A Hindi/Bengali term for a hired thug or criminal."
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's cousin, loyal assistant, and the narrator of the stories."
+    },
+    "Shambhu Singh": {
+      "type": "character",
+      "description": "A hired killer who confesses to the murder of Mr Sukius and identifies his employer."
+    },
+    "Kanpur": {
+      "type": "proper_noun",
+      "description": "A city in northern India, mentioned as Mr Sukius's intended destination."
+    },
+    "Saldanhas": {
+      "type": "proper_noun",
+      "description": "A family involved in the story, with members present during the investigation."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Jayant Biswas",
+      "Shakuntala Devi",
+      "Jaisalmer",
+      "Lucknow",
+      "Gangtok",
+      "Aurangzeb",
+      "Mughal",
+      "nawabs",
+      "mutiny of 1857",
+      "Calcutta",
+      "Doon Express",
+      "Howrah",
+      "Clarks Avadh",
+      "Avadh",
+      "Ayodhya",
+      "Laxman",
+      "Ramayana",
+      "Gomti",
+      "Bengali Club",
+      "Shaken in Shanghai",
+      "Japan",
+      "H J B",
+      "Bioscope",
+      "Anglo-Indian",
+      "Thomas Reynolds",
+      "Urdu",
+      "Maharaja of Mysore",
+      "Mysore",
+      "rupees",
+      "Badshah Bagh",
+      "Mughlai",
+      "Puja",
+      "berths",
+      "talkie",
+      "Goan",
+      "waistcoat",
+      "bachelor",
+      "film buff",
+      "Mrs Biswas",
+      "Topshe"
+    ],
+    "ch-2": [
+      "Mr Biswas",
+      "Lalmohan Babu",
+      "Feluda",
+      "Mr Sukius",
+      "Thomas Reynolds",
+      "Farida Begum",
+      "Edward",
+      "Charles",
+      "Percival Motilal Banerjee",
+      "Margaret Susheela",
+      "Victor Prasenjit",
+      "Mary Sheela",
+      "Buxar",
+      "Mughalsarai",
+      "Pratapgarh",
+      "Kathmandu",
+      "Wilkinson",
+      "New Market",
+      "Charminar",
+      "Lucknow",
+      "Anglo-Indian",
+      "Bengal regiment",
+      "Assam",
+      "Urdu",
+      "Goan",
+      "bearer",
+      "hookah",
+      "paan",
+      "attar",
+      "nawab",
+      "kathak",
+      "Babu",
+      "Shakuntala Devi",
+      "Mr Saldanha",
+      "Mrs Biswas"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Dr Srivastava",
+      "Bonobihari Babu",
+      "Jayant Biswas",
+      "Mary Sheela",
+      "Victor Prasenjit",
+      "Mr Saldanha",
+      "Albert Ratanlal Banerjee",
+      "Shakuntala Devi",
+      "Suleman",
+      "Mr Sukius",
+      "Lucknow",
+      "Emperor Aurangzeb",
+      "Haridwar",
+      "Laxmanjhoola",
+      "Clarks Avadh",
+      "Gomti",
+      "Bara Imambara",
+      "Bhulbhulaiya",
+      "nawabs",
+      "begums",
+      "The Residency",
+      "sepoys",
+      "bhoona peda",
+      "Chhota Imambara",
+      "Chattar Manzil",
+      "Calcutta",
+      "Hazratganj",
+      "sitars",
+      "maharajas",
+      "Babu",
+      "Imambara",
+      "begums",
+      "peda",
+      "bearer",
+      "bungalow",
+      "ma",
+      "paanwala",
+      "Mrs Biswas",
+      "Mr Som",
+      "Margaret Susheela"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Mr Biswas",
+      "Lalmohan Babu",
+      "Mr Sukius",
+      "Inspector Pandey",
+      "Mrs Biswas",
+      "Mary Sheela",
+      "Mr Som",
+      "Mr Saldanha",
+      "Margaret Susheela",
+      "Suleman",
+      "Clive Road",
+      "Kaizer Bagh",
+      "Lucknow",
+      "Babu",
+      "bearer",
+      "Albert Ratanlal Banerjee",
+      "Victor Prasenjit",
+      "Topshe"
+    ],
+    "ch-5": [
+      "Jayant Biswas",
+      "Feluda",
+      "Suleman",
+      "Mr Biswas",
+      "Mr Som",
+      "Mr Saldanha",
+      "Mr Sukius",
+      "Tribhuvan Nagar",
+      "Lalmohan Babu",
+      "Gomti",
+      "Pioneer",
+      "Modern Imports & Exports",
+      "Hazratganj",
+      "Shakuntala Devi",
+      "Frazer Road",
+      "Charminar",
+      "cheroot",
+      "salwar-kameez",
+      "Mrs Biswas",
+      "Victor Prasenjit",
+      "Margaret Susheela",
+      "Mary Sheela"
+    ],
+    "ch-6": [
+      "Mr Saldanha",
+      "Feluda",
+      "Margaret Susheela",
+      "Pamela",
+      "Mr Biswas",
+      "Saldanha & Co.",
+      "Hazratganj",
+      "Lucknow",
+      "de Mello",
+      "Noronha",
+      "America",
+      "Kulu",
+      "Maharaja of Mysore",
+      "bungalow",
+      "ghazals",
+      "hi-fi",
+      "attar",
+      "objets d’art",
+      "Albert Ratanlal Banerjee",
+      "Victor Prasenjit",
+      "Goan",
+      "Mr Sukius"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Inspector Pandey",
+      "Dilkhusha",
+      "Nawab Sadat Ali",
+      "La Martiniere School",
+      "Claude Martin",
+      "tonga",
+      "chamchas",
+      "bearer",
+      "Victor Prasenjit",
+      "Topshe",
+      "Mr Sukius",
+      "Mary Sheela"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Inspector Pandey",
+      "Lucknow",
+      "Biswas",
+      "goonda",
+      "rupees",
+      "Mr Sukius"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Topshe",
+      "Lalmohan Babu",
+      "Mr Sukius",
+      "Shambhu Singh",
+      "Jayant Biswas",
+      "Mr Biswas",
+      "Mrs Biswas",
+      "Mr Saldanha",
+      "Lucknow",
+      "Calcutta",
+      "Kanpur",
+      "Biswas",
+      "Saldanhas",
+      "attar",
+      "Albert Ratanlal Banerjee",
+      "Inspector Pandey",
+      "Shakuntala Devi",
+      "Mr Som",
+      "Victor Prasenjit",
+      "Mary Sheela"
+    ]
+  }
+}

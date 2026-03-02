@@ -1,0 +1,194 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "A private investigator renowned for his sharp observation and deductive skills, also known as Prodosh C. Mitter.",
+      "image": "/data/images/characters/feluda-kailash-chowdhury-s-jewel/feluda.webp"
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "Feluda's young cousin who often accompanies him on investigations and narrates the stories.",
+      "image": "/data/images/characters/feluda-kailash-chowdhury-s-jewel/tapesh.webp"
+    },
+    "Kailash Chowdhury": {
+      "type": "character",
+      "description": "A lawyer and former shikari from a zamindar family; his identical twin brother Kedar impersonates him to steal a valuable stone.",
+      "image": "/data/images/characters/feluda-kailash-chowdhury-s-jewel/kailash-chowdhury.webp"
+    },
+    "Abanish": {
+      "type": "character",
+      "description": "Kailash Chowdhury's nephew, a passionate philatelist (stamp collector) who lives with him and becomes involved in the mystery.",
+      "image": "/data/images/characters/feluda-kailash-chowdhury-s-jewel/abanish.webp"
+    },
+    "Ganapati Chatterjee": {
+      "type": "character",
+      "description": "Feluda's friend who lives near Kailash Chowdhury's house and helps Feluda by providing access to his rooftop for observation.",
+      "image": "/data/images/characters/feluda-kailash-chowdhury-s-jewel/ganapati-chatterjee.webp"
+    },
+    "Emperor Aurangzeb": {
+      "type": "proper_noun",
+      "description": "A Mughal emperor of India, referenced in relation to a missing diamond ring case solved by Feluda."
+    },
+    "Sherlock Holmes": {
+      "type": "proper_noun",
+      "description": "The famous fictional British detective created by Arthur Conan Doyle, often cited as Feluda's inspiration."
+    },
+    "Shyampukur": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta (now Kolkata), where Kailash Chowdhury's house is located."
+    },
+    "Rajshahi": {
+      "type": "proper_noun",
+      "description": "A region in present-day Bangladesh, formerly part of Bengal, where the Chowdhury family owned land."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in India and the primary setting for the story."
+    },
+    "Partition": {
+      "type": "proper_noun",
+      "description": "Refers to the 1947 division of British India into India and Pakistan, which led to mass migrations."
+    },
+    "Jaldapara Reserve Forest": {
+      "type": "proper_noun",
+      "description": "A wildlife sanctuary in West Bengal, India, known for its elephant population."
+    },
+    "Amrita Bazar Patrika": {
+      "type": "proper_noun",
+      "description": "A historic English-language newspaper published in India, where Kailash Chowdhury saw Feluda's advertisement."
+    },
+    "Victoria Memorial": {
+      "type": "proper_noun",
+      "description": "A large marble building and museum in Kolkata, serving as a key location in the story."
+    },
+    "Park Street Post Office": {
+      "type": "proper_noun",
+      "description": "A well-known post office in Kolkata, referenced as the origin of the threatening letter."
+    },
+    "Madhya Pradesh": {
+      "type": "proper_noun",
+      "description": "A central Indian state, where Kailash Chowdhury claims to have found the valuable stone."
+    },
+    "Switzerland": {
+      "type": "proper_noun",
+      "description": "A European country, mentioned as the place where Kedar went to work in watchmaking."
+    },
+    "Marwaris": {
+      "type": "proper_noun",
+      "description": "An Indian ethnic group from Rajasthan, referenced as a family visiting Victoria Memorial."
+    },
+    "Lower Circular Road": {
+      "type": "proper_noun",
+      "description": "A major road in Kolkata, near the Victoria Memorial."
+    },
+    "Chowringhee": {
+      "type": "proper_noun",
+      "description": "A prominent area in central Kolkata, known for its commercial and cultural significance."
+    },
+    "Calcutta Club": {
+      "type": "proper_noun",
+      "description": "A prestigious social club in Kolkata, mentioned as a landmark."
+    },
+    "Jabalpore": {
+      "type": "proper_noun",
+      "description": "Jabalpur (also spelled Jabalpore) is a city in Madhya Pradesh, India, where Kailash Chowdhury bought the stone."
+    },
+    "Indian Airlines": {
+      "type": "proper_noun",
+      "description": "A former major domestic airline in India, referenced regarding Kedar's attempted escape to Bombay."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, a major Indian city."
+    },
+    "supari": {
+      "type": "vocabulary",
+      "description": "Areca nut, often chewed in India as a mild stimulant, sometimes with betel leaf."
+    },
+    "zamindars": {
+      "type": "vocabulary",
+      "description": "Landowners, often hereditary, who collected taxes and held significant power in colonial and pre-colonial India."
+    },
+    "shikar": {
+      "type": "vocabulary",
+      "description": "The act of hunting, especially big game, in India."
+    },
+    "shikari": {
+      "type": "vocabulary",
+      "description": "A hunter, particularly one who hunts large or dangerous animals."
+    },
+    "Namaskar": {
+      "type": "vocabulary",
+      "description": "A respectful Indian greeting, similar to 'hello' or 'greetings'."
+    },
+    "rasgulla": {
+      "type": "vocabulary",
+      "description": "A popular Bengali sweet made from ball-shaped dumplings of chhena (cottage cheese) cooked in sugar syrup."
+    },
+    "pyjama-kurta": {
+      "type": "vocabulary",
+      "description": "Traditional Indian attire consisting of loose trousers (pyjama) and a long tunic (kurta)."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A term of respect or endearment in Bengali and Hindi, often used for educated or elderly men."
+    },
+    "philately": {
+      "type": "vocabulary",
+      "description": "The collection and study of postage stamps."
+    },
+    "ayahs": {
+      "type": "vocabulary",
+      "description": "Female domestic helpers or nannies, especially those who care for children."
+    },
+    "paisa": {
+      "type": "vocabulary",
+      "description": "A unit of currency in India, equal to one hundredth of a rupee."
+    },
+    "jalebi": {
+      "type": "vocabulary",
+      "description": "A sweet Indian dessert made by deep-frying batter in circular shapes and soaking them in sugar syrup."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Tapesh",
+      "Kailash Chowdhury",
+      "Abanish",
+      "Ganapati Chatterjee",
+      "Emperor Aurangzeb",
+      "Sherlock Holmes",
+      "Shyampukur",
+      "Rajshahi",
+      "Calcutta",
+      "Partition",
+      "Jaldapara Reserve Forest",
+      "Amrita Bazar Patrika",
+      "Victoria Memorial",
+      "Park Street Post Office",
+      "Madhya Pradesh",
+      "Switzerland",
+      "Marwaris",
+      "Lower Circular Road",
+      "Chowringhee",
+      "Calcutta Club",
+      "Jabalpore",
+      "Indian Airlines",
+      "Bombay",
+      "supari",
+      "zamindars",
+      "shikar",
+      "shikari",
+      "Namaskar",
+      "rasgulla",
+      "pyjama-kurta",
+      "Babu",
+      "philately",
+      "ayahs",
+      "Marwaris",
+      "paisa",
+      "jalebi"
+    ]
+  }
+}

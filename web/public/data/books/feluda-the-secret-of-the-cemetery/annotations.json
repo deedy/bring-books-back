@@ -1,0 +1,1261 @@
+{
+  "glossary": {
+    "Pulak Ghoshal": {
+      "type": "character",
+      "description": "A film director from Bombay whose film, based on a story by Lalmohan Babu, is showing at the Paradise cinema."
+    },
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "A thriller writer and eccentric friend of Feluda who provides comic relief throughout the mystery.",
+      "image": "/data/images/characters/feluda-the-secret-of-the-cemetery/lalmohan-babu.webp"
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "A private investigator with a keen interest in Calcutta's history and a friend of Lalmohan Babu and Uncle Sidhu.",
+      "image": "/data/images/characters/feluda-the-secret-of-the-cemetery/feluda.webp"
+    },
+    "Rajani Sen Road": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta where Feluda and Topshe live."
+    },
+    "Paradise": {
+      "type": "proper_noun",
+      "description": "A cinema in Calcutta where Pulak Ghoshal's film is showing."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in eastern India and the primary setting of the Feluda stories."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, a major city in western India and the center of the Indian film industry."
+    },
+    "Mark 2 Ambassador": {
+      "type": "proper_noun",
+      "description": "A model of the Ambassador car, once a popular vehicle in India."
+    },
+    "Fancy Lane": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, historically associated with the word 'phansi' (hanging)."
+    },
+    "Nanda Kumar": {
+      "type": "proper_noun",
+      "description": "A historical figure who was executed by hanging in Calcutta two hundred years ago."
+    },
+    "Victoria Memorial": {
+      "type": "proper_noun",
+      "description": "A grand marble building and museum in Calcutta, dedicated to Queen Victoria."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, referenced as an older city compared to Calcutta."
+    },
+    "Agra": {
+      "type": "proper_noun",
+      "description": "A historic city in India, home to the Taj Mahal."
+    },
+    "Taj Mahal": {
+      "type": "proper_noun",
+      "description": "A famous white marble mausoleum in Agra, India."
+    },
+    "Qutab Minar": {
+      "type": "proper_noun",
+      "description": "A historic minaret and UNESCO World Heritage Site in Delhi."
+    },
+    "Jodhpur": {
+      "type": "proper_noun",
+      "description": "A city in Rajasthan, India, known for its forts."
+    },
+    "Jaisalmer": {
+      "type": "proper_noun",
+      "description": "A city in Rajasthan, India, famous for its fort and desert architecture."
+    },
+    "Vishwanath ki gali": {
+      "type": "proper_noun",
+      "description": "A famous alley in Benaras (Varanasi), known for its proximity to the Kashi Vishwanath Temple."
+    },
+    "Benaras": {
+      "type": "proper_noun",
+      "description": "Benaras, also known as Varanasi, is a sacred and ancient city on the banks of the Ganges in northern India."
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "A major river in India, considered sacred in Hinduism."
+    },
+    "Dalhousie Square": {
+      "type": "proper_noun",
+      "description": "Dalhousie Square, now known as BBD Bagh, is a prominent area in central Calcutta with significant historical importance."
+    },
+    "Lord Dalhousie": {
+      "type": "proper_noun",
+      "description": "A British Governor-General of India known for annexing Indian states and introducing railways and telegraph."
+    },
+    "St John’s Church": {
+      "type": "proper_noun",
+      "description": "A historic church in BBD Bagh, Calcutta, where Job Charnock's tomb is located."
+    },
+    "Dominus Omnium Magister": {
+      "type": "proper_noun",
+      "description": "A Latin phrase meaning 'God is the master of all things,' found on Charnock's tomb."
+    },
+    "Esplanade": {
+      "type": "proper_noun",
+      "description": "A central area in Calcutta, often a hub for transport and activity."
+    },
+    "Shaheed Minar": {
+      "type": "proper_noun",
+      "description": "Shaheed Minar, originally built as the Ochterlony Monument, is a prominent monument in Calcutta dedicated to Sir David Ochterlony."
+    },
+    "maidan": {
+      "type": "proper_noun",
+      "description": "A large open park area in Calcutta, often used for recreation and events."
+    },
+    "Curzon Park": {
+      "type": "proper_noun",
+      "description": "A park in Calcutta, named after Lord Curzon."
+    },
+    "Park Street": {
+      "type": "proper_noun",
+      "description": "A well-known street in Calcutta, famous for its cemetery and nightlife."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "pavement": {
+      "type": "vocabulary",
+      "description": "In Indian English, refers to the sidewalk or footpath along a street."
+    },
+    "Hindi": {
+      "type": "vocabulary",
+      "description": "An official language of India, referenced in the context of films."
+    },
+    "zamindar": {
+      "type": "vocabulary",
+      "description": "A historical term for a landowner, especially one who collected taxes in colonial India."
+    },
+    "phansi": {
+      "type": "vocabulary",
+      "description": "A Hindi word meaning 'hanging' or 'execution by hanging.'"
+    },
+    "marmar": {
+      "type": "vocabulary",
+      "description": "A Bengali word meaning 'marble.'"
+    },
+    "marmarsaudh": {
+      "type": "vocabulary",
+      "description": "A Bengali term combining Persian and Sanskrit roots, meaning 'marble column.'"
+    },
+    "chanachur-walas": {
+      "type": "vocabulary",
+      "description": "Street vendors who sell chanachur, a spicy Indian snack mix."
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's cousin and the narrator of the stories, often accompanying him on investigations.",
+      "image": "/data/images/characters/feluda-the-secret-of-the-cemetery/topshe.webp"
+    },
+    "Baramdeo": {
+      "type": "character",
+      "description": "Baramdeo is the chowkidar (watchman) of the cemetery, responsible for its security.",
+      "image": "/data/images/characters/feluda-the-secret-of-the-cemetery/baramdeo.webp"
+    },
+    "Howrah": {
+      "type": "proper_noun",
+      "description": "A city adjacent to Kolkata, located on the western bank of the Hooghly River."
+    },
+    "Southern Avenue": {
+      "type": "proper_noun",
+      "description": "A well-known avenue in Kolkata, mentioned as a location with fallen trees."
+    },
+    "Camac Street": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata, near Park Street and the cemetery."
+    },
+    "Ranchi": {
+      "type": "proper_noun",
+      "description": "A city in the Indian state of Jharkhand, where Lalmohan Babu witnessed a burial."
+    },
+    "Bihar": {
+      "type": "proper_noun",
+      "description": "An Indian state, referenced as the origin of the chowkidar."
+    },
+    "William Jones": {
+      "type": "proper_noun",
+      "description": "A renowned British scholar and judge, whose tomb is noted as the tallest in Calcutta."
+    },
+    "Lower Circular Road": {
+      "type": "proper_noun",
+      "description": "A road in Kolkata near the cemetery."
+    },
+    "Blue Fox": {
+      "type": "proper_noun",
+      "description": "A famous restaurant in Kolkata."
+    },
+    "Oxford Book Company": {
+      "type": "proper_noun",
+      "description": "A bookstore on Park Street, Kolkata."
+    },
+    "Lekhani": {
+      "type": "proper_noun",
+      "description": "A journal or magazine mentioned as a possible source of an article."
+    },
+    "Vichitrapatra": {
+      "type": "proper_noun",
+      "description": "Another journal or magazine mentioned as a possible source of an article."
+    },
+    "St Xavier’s": {
+      "type": "proper_noun",
+      "description": "Refers to St. Xavier's, likely the college or church in Kolkata."
+    },
+    "khichuri": {
+      "type": "vocabulary",
+      "description": "A traditional Bengali dish made of rice and lentils, often eaten during rainy days."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects."
+    },
+    "Charminar": {
+      "type": "vocabulary",
+      "description": "A popular brand of Indian cigarette."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or guard, especially one who looks after a building or property."
+    },
+    "burkhas": {
+      "type": "vocabulary",
+      "description": "Loose outer garments covering the body from head to toe, worn by some Muslim women."
+    },
+    "sahib": {
+      "type": "vocabulary",
+      "description": "A term of respect or address for a man, especially of European descent, used in colonial India."
+    },
+    "obitus": {
+      "type": "vocabulary",
+      "description": "A Latin term meaning 'death', used on gravestones."
+    },
+    "aetatis": {
+      "type": "vocabulary",
+      "description": "A Latin term meaning 'age', used on gravestones."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "Uncle Sidhu": {
+      "type": "character",
+      "description": "A knowledgeable, elderly man with an encyclopedic memory, often consulted by Feluda for historical and factual information."
+    },
+    "Thomas Godwin": {
+      "type": "character",
+      "description": "A historical Englishman who came to India, worked as a chef for the Nawab of Lucknow, and later opened a restaurant in Calcutta."
+    },
+    "Charlotte Godwin": {
+      "type": "character",
+      "description": "Thomas Godwin's daughter, a writer who authored an article about her father."
+    },
+    "Janardan": {
+      "type": "character",
+      "description": "Uncle Sidhu's servant, who delivers messages on his behalf."
+    },
+    "Sadat Ali": {
+      "type": "character",
+      "description": "The Nawab of Lucknow during the British colonial period who was known for his affinity for European culture.",
+      "image": "/data/images/characters/feluda-the-secret-of-the-cemetery/sadat-ali.webp"
+    },
+    "Wazir Ali": {
+      "type": "character",
+      "description": "Successor to Asaf-ud-Daula as Nawab of Lucknow, later replaced by Sadat Ali."
+    },
+    "Asaf-ud-Daula": {
+      "type": "character",
+      "description": "A former Nawab of Lucknow whose death led to a succession crisis."
+    },
+    "Mr Cherry": {
+      "type": "character",
+      "description": "The British Resident in Lucknow who provided Thomas Godwin with a letter of introduction."
+    },
+    "Jane Maddock": {
+      "type": "character",
+      "description": "Thomas Godwin's wife, daughter of an army captain."
+    },
+    "David": {
+      "type": "character",
+      "description": "Charlotte Godwin's brother, head assistant in Kidd & Co."
+    },
+    "Lt. Col. Andrew Godwin": {
+      "type": "character",
+      "description": "Son of David, buried with his wife Emma."
+    },
+    "Emma": {
+      "type": "character",
+      "description": "Wife of Lt. Col. Andrew Godwin."
+    },
+    "Charles": {
+      "type": "character",
+      "description": "Son of Andrew and Emma, a doctor."
+    },
+    "Lake": {
+      "type": "proper_noun",
+      "description": "A local area where Uncle Sidhu goes for his morning walk, likely referring to Rabindra Sarobar in Kolkata."
+    },
+    "Lucknow": {
+      "type": "proper_noun",
+      "description": "A historic city in northern India, known for its Nawabi culture and colonial history."
+    },
+    "Emperor Aurangzeb": {
+      "type": "proper_noun",
+      "description": "A Mughal emperor of India, referenced in connection with a historic ring."
+    },
+    "Sultanate in Delhi": {
+      "type": "proper_noun",
+      "description": "Refers to the declining Mughal Empire based in Delhi."
+    },
+    "Awadh": {
+      "type": "proper_noun",
+      "description": "A historical region in northern India, of which Lucknow was the capital."
+    },
+    "East India Company": {
+      "type": "proper_noun",
+      "description": "A British trading company that exerted significant political and economic control over India."
+    },
+    "Sussex": {
+      "type": "proper_noun",
+      "description": "A county in England, mentioned as a possible origin of Thomas Godwin."
+    },
+    "Suffolk": {
+      "type": "proper_noun",
+      "description": "A county in England, mentioned as a possible origin of Thomas Godwin."
+    },
+    "Surrey": {
+      "type": "proper_noun",
+      "description": "A county in England, mentioned as a possible origin of Thomas Godwin."
+    },
+    "Calcutta Review": {
+      "type": "proper_noun",
+      "description": "A historical English-language periodical published in Calcutta."
+    },
+    "Chowringhee": {
+      "type": "proper_noun",
+      "description": "A prominent area in central Kolkata, known for its historical significance."
+    },
+    "Asiatic Society": {
+      "type": "proper_noun",
+      "description": "A scholarly institution in Kolkata with a historic library and archives."
+    },
+    "Barwells": {
+      "type": "proper_noun",
+      "description": "A British family whose descendants remained in India for generations."
+    },
+    "Tytlers": {
+      "type": "proper_noun",
+      "description": "Another British family with a long-standing presence in India."
+    },
+    "Clive": {
+      "type": "proper_noun",
+      "description": "Refers to Robert Clive, a key figure in establishing British rule in India."
+    },
+    "Kidd & Co.": {
+      "type": "proper_noun",
+      "description": "A company in Kidderpore, Kolkata, where David worked."
+    },
+    "Kidderpore": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Kolkata, known for its docks and colonial history."
+    },
+    "dhobi": {
+      "type": "vocabulary",
+      "description": "A washerman; a person whose profession is washing clothes."
+    },
+    "divan": {
+      "type": "vocabulary",
+      "description": "A long, low sofa without a back or arms, often used for reclining."
+    },
+    "mohurs": {
+      "type": "vocabulary",
+      "description": "Gold coins formerly used as currency in India, especially during the Mughal and British periods."
+    },
+    "Nawab": {
+      "type": "vocabulary",
+      "description": "A Muslim ruler or nobleman in South Asia, particularly during the Mughal and British eras."
+    },
+    "Naren Biswas": {
+      "type": "character",
+      "description": "A writer and historian injured in the cemetery whose papers are central to the investigation; he is the brother of Girin and father of Prashanta and Sushanta.",
+      "image": "/data/images/characters/feluda-the-secret-of-the-cemetery/naren-biswas.webp"
+    },
+    "Dr Shikdar": {
+      "type": "character",
+      "description": "A doctor at Park Hospital who knows Feluda and treated Naren Biswas."
+    },
+    "Baba": {
+      "type": "character",
+      "description": "A relative of the narrator who knows Dr Shikdar."
+    },
+    "Park Hospital": {
+      "type": "proper_noun",
+      "description": "A hospital in Calcutta where Naren Biswas was admitted after his accident."
+    },
+    "Monument": {
+      "type": "proper_noun",
+      "description": "Refers to a historical monument in Calcutta, featured in Naren Biswas's article."
+    },
+    "Bag Bazar": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta, mentioned as part of Naren Biswas's historical explorations."
+    },
+    "Dum Dum": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta, known for its historical significance."
+    },
+    "Clive’s house": {
+      "type": "proper_noun",
+      "description": "A historical building in Dum Dum associated with Robert Clive, a British officer of the East India Company."
+    },
+    "Presidency College": {
+      "type": "proper_noun",
+      "description": "A prestigious college in Calcutta attended by Naren Biswas and his family."
+    },
+    "Presidency College, Alumni Association, 1953": {
+      "type": "proper_noun",
+      "description": "Refers to the alumni group and the year of the group photo on Mr Biswas's wall."
+    },
+    "New Alipore": {
+      "type": "proper_noun",
+      "description": "A residential area in Calcutta where Naren Biswas lives."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A model of car commonly used in India, seen parked outside Mr Biswas's house."
+    },
+    "Dada": {
+      "type": "vocabulary",
+      "description": "A Bengali term meaning elder brother."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting involving a slight bow with hands pressed together."
+    },
+    "bush shirt": {
+      "type": "vocabulary",
+      "description": "A style of short-sleeved shirt popular in India, often worn untucked."
+    },
+    "pyjamas": {
+      "type": "vocabulary",
+      "description": "Loose-fitting trousers, commonly worn as loungewear or sleepwear in South Asia."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A piece of cloth worn over the shoulders, often for warmth or as a traditional accessory."
+    },
+    "Chris Godwin": {
+      "type": "character",
+      "description": "The son of Mr Godwin and a musician who leads the band at the Blue Fox restaurant."
+    },
+    "Mansukhani": {
+      "type": "character",
+      "description": "A person mentioned by Feluda as part of a fabricated story to obtain Chris Godwin's address."
+    },
+    "Birla Planetarium": {
+      "type": "proper_noun",
+      "description": "A famous planetarium and landmark in Kolkata, near Chowringhee."
+    },
+    "Red Road": {
+      "type": "proper_noun",
+      "description": "A major road in Kolkata, officially known as Indira Gandhi Sarani, used for parades and events."
+    },
+    "Governor-General": {
+      "type": "proper_noun",
+      "description": "The highest British colonial official in India during the British Raj."
+    },
+    "Park Street Cemetery": {
+      "type": "proper_noun",
+      "description": "Park Street Cemetery is a famous colonial-era cemetery in Kolkata, also referred to as Park Street cemetery, and is a key location in the story."
+    },
+    "Theatre Road": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata known for its theatres and cultural venues."
+    },
+    "White Town": {
+      "type": "proper_noun",
+      "description": "The colonial term for the area in Kolkata where the British resided, off-limits to native Indians."
+    },
+    "North Calcutta": {
+      "type": "proper_noun",
+      "description": "The northern part of Kolkata, historically referred to as Black Town during colonial times."
+    },
+    "Black Town": {
+      "type": "proper_noun",
+      "description": "Colonial term for the area in Kolkata where native Indians lived."
+    },
+    "College Street": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata renowned for its concentration of bookstores and educational institutions."
+    },
+    "Black Bookshop": {
+      "type": "proper_noun",
+      "description": "A specific bookstore in Ballygunj, Kolkata, mentioned by Lalmohan Babu."
+    },
+    "Ballygunj": {
+      "type": "proper_noun",
+      "description": "A neighborhood in South Kolkata."
+    },
+    "Macmillan": {
+      "type": "proper_noun",
+      "description": "A major British publishing company."
+    },
+    "Oxford University": {
+      "type": "proper_noun",
+      "description": "Refers to Oxford University Press, a prominent academic publisher."
+    },
+    "George Allen and Unwin": {
+      "type": "proper_noun",
+      "description": "A British publishing house."
+    },
+    "Sidgewick and Jackson": {
+      "type": "proper_noun",
+      "description": "A British publishing company."
+    },
+    "Weidenfeld and Nicholson": {
+      "type": "proper_noun",
+      "description": "A British publishing house."
+    },
+    "British Council": {
+      "type": "proper_noun",
+      "description": "An organization promoting British culture and education abroad, with an office in Kolkata."
+    },
+    "National Library": {
+      "type": "proper_noun",
+      "description": "India's largest library, located in Kolkata."
+    },
+    "Gorpar": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata where Lalmohan Babu resides."
+    },
+    "Ripon Lane": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata where Chris Godwin resides."
+    },
+    "paan-wala": {
+      "type": "proper_noun",
+      "description": "A vendor who sells paan, a popular Indian chew made from betel leaf."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "Babu (or babu) is a respectful term used in India, especially Bengal, to address a gentleman or educated man."
+    },
+    "Mr Godwin": {
+      "type": "character",
+      "description": "A pale, gout-stricken descendant of Thomas Godwin living at 14/1 Ripon Lane; the family name is linked to various phonetic variations like Markis or Arkis."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "A South Asian country, formerly under British rule, where the story is set."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "A country in the United Kingdom, referenced as the place Mr Godwin once visited."
+    },
+    "Midland Bank": {
+      "type": "proper_noun",
+      "description": "A historic British bank, mentioned as the workplace of Mr Godwin's uncle in London."
+    },
+    "London": {
+      "type": "proper_noun",
+      "description": "The capital city of England, referenced in Mr Godwin's family history."
+    },
+    "Society for Spook Studies": {
+      "type": "proper_noun",
+      "description": "A group involved in spiritualist activities, including seances, led by Arakis."
+    },
+    "Jews": {
+      "type": "proper_noun",
+      "description": "A reference to people of Jewish heritage, two of whom are members of the Society for Spook Studies."
+    },
+    "Parsee": {
+      "type": "proper_noun",
+      "description": "A member of the Zoroastrian community in India, one of the Society's members."
+    },
+    "Royd Street": {
+      "type": "proper_noun",
+      "description": "Another street in Calcutta, where the group's car is parked."
+    },
+    "coir": {
+      "type": "vocabulary",
+      "description": "A natural fiber extracted from the husk of coconuts, commonly used in India for stuffing furniture."
+    },
+    "ganja": {
+      "type": "vocabulary",
+      "description": "A colloquial term for marijuana or cannabis, widely used in India."
+    },
+    "John": {
+      "type": "character",
+      "description": "Another son of Thomas Godwin, who returned to England and died by suicide."
+    },
+    "Vikas Chakravarty": {
+      "type": "character",
+      "description": "An acquaintance of Feluda who works at Park Auction House and assists with information about clocks."
+    },
+    "Pyaricharan Gangopadhyay": {
+      "type": "character",
+      "description": "Lalmohan Babu's grandfather, from whom he inherited a watch, walking stick, and turban."
+    },
+    "Bhoolbhulaia": {
+      "type": "proper_noun",
+      "description": "A famous labyrinth located in Lucknow, India, known for its complex maze-like structure."
+    },
+    "Park Auction House": {
+      "type": "proper_noun",
+      "description": "An auction house located on Park Street, Calcutta, specializing in antiques."
+    },
+    "Alipore Park": {
+      "type": "proper_noun",
+      "description": "A residential area in Calcutta where Mahadev Choudhury owns a house."
+    },
+    "Nizam’s": {
+      "type": "proper_noun",
+      "description": "A famous eatery in Calcutta, known for its mutton rolls."
+    },
+    "casket": {
+      "type": "vocabulary",
+      "description": "A small ornamental box or chest, often used to store valuables or documents."
+    },
+    "snuff box": {
+      "type": "vocabulary",
+      "description": "A small container used to hold snuff, a form of powdered tobacco."
+    },
+    "mantra": {
+      "type": "vocabulary",
+      "description": "A sacred utterance or chant, often repeated for spiritual or psychological effect."
+    },
+    "Mr Arakis": {
+      "type": "character",
+      "description": "A suspicious character involved in spiritualist activities and the Society for Spook Studies."
+    },
+    "Mr Choudhury": {
+      "type": "character",
+      "description": "A wealthy Bengali antique collector with a passion for clocks who employs Pyarelal."
+    },
+    "Girin Biswas": {
+      "type": "character",
+      "description": "Naren Biswas's brother who helps care for him after his accident; he is later revealed to be the mysterious figure initially introduced as William in disguise."
+    },
+    "Society cinema": {
+      "type": "proper_noun",
+      "description": "A cinema hall in Kolkata, located opposite Nizam’s."
+    },
+    "Corporation Street": {
+      "type": "proper_noun",
+      "description": "The former name of Suren Banerjee Road in Kolkata."
+    },
+    "Suren Banerjee Road": {
+      "type": "proper_noun",
+      "description": "A major road in Kolkata, renamed after Surendra Nath Banerjee, a prominent Indian nationalist leader."
+    },
+    "Bourne & Shepherd": {
+      "type": "proper_noun",
+      "description": "One of the world's oldest photographic studios, located in Kolkata."
+    },
+    "Queen Victoria": {
+      "type": "proper_noun",
+      "description": "Queen Victoria, after whom the Victoria Memorial is named, was the former Empress of India and a significant figure in British colonial history."
+    },
+    "Edward VIII": {
+      "type": "proper_noun",
+      "description": "A British monarch who visited India as Prince of Wales."
+    },
+    "George V": {
+      "type": "proper_noun",
+      "description": "A British king who attended the Delhi Durbar in India."
+    },
+    "Delhi Durbar": {
+      "type": "proper_noun",
+      "description": "A mass assembly at Delhi to mark the coronation of British monarchs as Emperor or Empress of India."
+    },
+    "Frank Ross": {
+      "type": "proper_noun",
+      "description": "A well-known pharmacy in Kolkata."
+    },
+    "New Market": {
+      "type": "proper_noun",
+      "description": "A historic shopping market in Kolkata, famous for its variety of goods."
+    },
+    "Moti Sheel Street": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata mentioned as part of the characters' route."
+    },
+    "Job Charnock": {
+      "type": "proper_noun",
+      "description": "Job Charnock, sometimes referred to as Charnock or Jobus (the Latinized form), is regarded as the founder of the city of Calcutta (Kolkata), whose tomb is a historical site."
+    },
+    "Hong Kong Dry Cleaners": {
+      "type": "proper_noun",
+      "description": "Hong Kong Dry Cleaners, also referred to as Hong Kong Laundry, is a laundry and dry cleaning service in Kolkata mentioned in relation to cleaning a jacket."
+    },
+    "joint families": {
+      "type": "vocabulary",
+      "description": "A traditional Indian family structure where extended family members live together under one roof."
+    },
+    "mutton rolls": {
+      "type": "vocabulary",
+      "description": "A popular Kolkata street food consisting of spiced mutton wrapped in paratha bread."
+    },
+    "lassi": {
+      "type": "vocabulary",
+      "description": "A traditional Indian yogurt-based drink, often served sweet or salted."
+    },
+    "parapet": {
+      "type": "vocabulary",
+      "description": "A low protective wall along the edge of a roof, bridge, or balcony."
+    },
+    "compound walls": {
+      "type": "vocabulary",
+      "description": "Boundary walls enclosing a property, commonly found around houses in India."
+    },
+    "Forhans": {
+      "type": "vocabulary",
+      "description": "A brand of toothpaste or oral care product popular in India."
+    },
+    "Pyarelal": {
+      "type": "character",
+      "description": "An employee of Mahadev Choudhury who escorts the visitors and assists his employer."
+    },
+    "Judges Court Road": {
+      "type": "proper_noun",
+      "description": "A road in Kolkata, likely referencing the area near the Alipore Judges Court."
+    },
+    "Switzlerland": {
+      "type": "proper_noun",
+      "description": "Misspelling of Switzerland, known for its watchmaking industry."
+    },
+    "Francis Perigal": {
+      "type": "proper_noun",
+      "description": "A renowned English watchmaker from the late eighteenth century, associated with the Perigal repeater watch."
+    },
+    "repeater": {
+      "type": "vocabulary",
+      "description": "A type of clock or gun; in this context, it refers to a pocket watch that chimes the time on demand."
+    },
+    "Prashanta": {
+      "type": "character",
+      "description": "Prashanta is the elder son of Naren Biswas, suspected of criminal activities and possibly of attacking his own father."
+    },
+    "Sushanta": {
+      "type": "character",
+      "description": "Sushanta is the younger son of Naren Biswas, currently residing in England."
+    },
+    "Suhrid Sengupta": {
+      "type": "character",
+      "description": "Suhrid Sengupta is Feluda's old college friend who helps him obtain a special issue of the Presidency College magazine."
+    },
+    "Jimmy Norton": {
+      "type": "character",
+      "description": "Jimmy Norton is an Anglo-Indian former colleague of Naren Biswas, whose grandmother's letters are of historical interest."
+    },
+    "Beni Nandan Street": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata where Suhrid Sengupta lives."
+    },
+    "Mutiny": {
+      "type": "proper_noun",
+      "description": "Refers to the Indian Rebellion of 1857, a significant historical event against British rule."
+    },
+    "Behrampore": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, mentioned as the place where Jimmy Norton’s grandmother lived during the mutiny."
+    },
+    "Son of Tarzan": {
+      "type": "proper_noun",
+      "description": "A reference to the famous fictional character Tarzan’s son, used humorously by Lalmohan Babu."
+    },
+    "settee": {
+      "type": "vocabulary",
+      "description": "A type of upholstered seat with a back and arms, similar to a small sofa."
+    },
+    "Jai Santoshi Ma": {
+      "type": "vocabulary",
+      "description": "A devotional exclamation meaning 'Victory to Mother Santoshi,' expressing reverence to the goddess."
+    },
+    "ashtray": {
+      "type": "vocabulary",
+      "description": "A receptacle for ash from cigarettes or cigars, commonly used in Indian homes."
+    },
+    "tome": {
+      "type": "vocabulary",
+      "description": "A large, heavy book, often used to refer to important or scholarly volumes."
+    },
+    "Sikkim": {
+      "type": "proper_noun",
+      "description": "A state in northeastern India, known for its mountainous terrain and Buddhist monasteries."
+    },
+    "Rajasthan": {
+      "type": "proper_noun",
+      "description": "A large state in northwestern India, known for its deserts, palaces, and forts."
+    },
+    "Simla": {
+      "type": "proper_noun",
+      "description": "A hill station in northern India, now spelled 'Shimla', popular for its colonial architecture and cool climate."
+    },
+    "Rawdon Street": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata, referenced as a location near the cemetery in the story."
+    },
+    "Thornhill": {
+      "type": "proper_noun",
+      "description": "Refers to Samuel Cuthbert Thornhill, whose name appears on a tombstone in the cemetery."
+    },
+    "St Paul’s": {
+      "type": "proper_noun",
+      "description": "Likely refers to St. Paul's Cathedral in Kolkata, a famous Anglican cathedral."
+    },
+    "Alipore": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, known for the Alipore Zoo."
+    },
+    "carbolic acid": {
+      "type": "vocabulary",
+      "description": "A disinfectant chemical, also known as phenol, used here to repel snakes."
+    },
+    "Hari Datta": {
+      "type": "character",
+      "description": "Lalmohan Babu's loyal driver who plays a key role in alerting the police and rescuing the group."
+    },
+    "Parvati Charan": {
+      "type": "character",
+      "description": "The great-grandfather of Girin and Naren Biswas who married a woman named Victoria."
+    },
+    "Puri": {
+      "type": "proper_noun",
+      "description": "A coastal city in Odisha, India, famous for its beaches and the Jagannath Temple."
+    },
+    "Ma Santoshi": {
+      "type": "proper_noun",
+      "description": "Ma Santoshi, also called Santoshi Ma, is a Hindu goddess worshipped for contentment and satisfaction."
+    },
+    "Perigal repeater": {
+      "type": "proper_noun",
+      "description": "A rare and valuable repeater pocket watch made by Francis Perigal, central to the plot."
+    },
+    "Cooke-Kelvey": {
+      "type": "proper_noun",
+      "description": "Cooke-Kelvey is a renowned British watchmaking firm, historically prominent in India; the name appears on a watch involved in the story."
+    },
+    "ghat": {
+      "type": "proper_noun",
+      "description": "A series of steps leading down to a river, commonly used for bathing or ceremonies in India."
+    },
+    "South Park Street Cemetery": {
+      "type": "proper_noun",
+      "description": "South Park Street Cemetery, also called South Park Street cemetery, is a historic cemetery in Kolkata significant to the story as the burial place of Thomas Godwin."
+    },
+    "Dettol": {
+      "type": "vocabulary",
+      "description": "A popular antiseptic liquid widely used in India for cleaning wounds and objects."
+    },
+    "chai": {
+      "type": "vocabulary",
+      "description": "The Hindi word for tea, often served in earthen pots in India."
+    },
+    "Ma": {
+      "type": "vocabulary",
+      "description": "A Bengali and Hindi word for 'mother', often used in religious invocations."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Pulak Ghoshal",
+      "Lalmohan Babu",
+      "Feluda",
+      "Rajani Sen Road",
+      "Paradise",
+      "Calcutta",
+      "Bombay",
+      "Mark 2 Ambassador",
+      "Fancy Lane",
+      "Nanda Kumar",
+      "Victoria Memorial",
+      "Delhi",
+      "Agra",
+      "Taj Mahal",
+      "Qutab Minar",
+      "Jodhpur",
+      "Jaisalmer",
+      "Vishwanath ki gali",
+      "Benaras",
+      "Ganges",
+      "Dalhousie Square",
+      "Lord Dalhousie",
+      "St John’s Church",
+      "Dominus Omnium Magister",
+      "Esplanade",
+      "Shaheed Minar",
+      "maidan",
+      "Curzon Park",
+      "Park Street",
+      "dhoti",
+      "pavement",
+      "Hindi",
+      "zamindar",
+      "phansi",
+      "marmar",
+      "marmarsaudh",
+      "chanachur-walas",
+      "Topshe",
+      "Naren Biswas",
+      "Hari Datta",
+      "South Park Street Cemetery",
+      "Job Charnock"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Topshe",
+      "Baramdeo",
+      "Calcutta",
+      "Howrah",
+      "Rajani Sen Road",
+      "Park Street",
+      "Southern Avenue",
+      "Camac Street",
+      "Ranchi",
+      "Bihar",
+      "William Jones",
+      "Lower Circular Road",
+      "Blue Fox",
+      "Oxford Book Company",
+      "Shaheed Minar",
+      "Lekhani",
+      "Vichitrapatra",
+      "St Xavier’s",
+      "khichuri",
+      "paan",
+      "Charminar",
+      "chowkidar",
+      "burkhas",
+      "sahib",
+      "obitus",
+      "aetatis",
+      "rupees",
+      "Naren Biswas",
+      "Queen Victoria",
+      "babu"
+    ],
+    "ch-3": [
+      "Uncle Sidhu",
+      "Feluda",
+      "Thomas Godwin",
+      "Charlotte Godwin",
+      "Janardan",
+      "Sadat Ali",
+      "Wazir Ali",
+      "Asaf-ud-Daula",
+      "Mr Cherry",
+      "Jane Maddock",
+      "David",
+      "Lt. Col. Andrew Godwin",
+      "Emma",
+      "Charles",
+      "Calcutta",
+      "Lake",
+      "Lucknow",
+      "Emperor Aurangzeb",
+      "Sadat Ali",
+      "Sultanate in Delhi",
+      "Awadh",
+      "East India Company",
+      "Sussex",
+      "Suffolk",
+      "Surrey",
+      "Calcutta Review",
+      "Chowringhee",
+      "Asiatic Society",
+      "Barwells",
+      "Tytlers",
+      "Clive",
+      "Lower Circular Road",
+      "Park Street",
+      "Kidd & Co.",
+      "Kidderpore",
+      "dhobi",
+      "divan",
+      "mohurs",
+      "Nawab",
+      "Naren Biswas"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Naren Biswas",
+      "Lalmohan Babu",
+      "Dr Shikdar",
+      "Uncle Sidhu",
+      "Baba",
+      "Park Hospital",
+      "Vichitrapatra",
+      "Monument",
+      "Calcutta",
+      "Bag Bazar",
+      "Dum Dum",
+      "Clive’s house",
+      "East India Company",
+      "Presidency College",
+      "Presidency College, Alumni Association, 1953",
+      "New Alipore",
+      "Lower Circular Road",
+      "Thomas Godwin",
+      "Ambassador",
+      "Dada",
+      "namaskar",
+      "bush shirt",
+      "pyjamas",
+      "shawl",
+      "Girin Biswas",
+      "Mr Godwin",
+      "Park Street Cemetery"
+    ],
+    "ch-5": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Naren Biswas",
+      "Chris Godwin",
+      "Mansukhani",
+      "Chowringhee",
+      "Blue Fox",
+      "Birla Planetarium",
+      "Red Road",
+      "Ganges",
+      "Governor-General",
+      "St John’s Church",
+      "Park Street Cemetery",
+      "Theatre Road",
+      "White Town",
+      "North Calcutta",
+      "Black Town",
+      "Park Street",
+      "Oxford Book Company",
+      "College Street",
+      "Black Bookshop",
+      "Ballygunj",
+      "Macmillan",
+      "Oxford University",
+      "George Allen and Unwin",
+      "Sidgewick and Jackson",
+      "Weidenfeld and Nicholson",
+      "British Council",
+      "National Library",
+      "Charminar",
+      "Gorpar",
+      "Sadat Ali",
+      "Ripon Lane",
+      "paan-wala",
+      "babu",
+      "sahib",
+      "paan-wala",
+      "Queen Victoria",
+      "Pulak Ghoshal",
+      "Mr Godwin"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Mr Godwin",
+      "Topshe",
+      "Thomas Godwin",
+      "India",
+      "Calcutta",
+      "England",
+      "Midland Bank",
+      "London",
+      "Society for Spook Studies",
+      "Jews",
+      "Parsee",
+      "Ripon Lane",
+      "Royd Street",
+      "coir",
+      "ganja",
+      "rupees",
+      "Chris Godwin",
+      "Sadat Ali",
+      "Mr Arakis"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Thomas Godwin",
+      "Charlotte Godwin",
+      "David",
+      "John",
+      "Vikas Chakravarty",
+      "Baramdeo",
+      "Pyaricharan Gangopadhyay",
+      "Bhoolbhulaia",
+      "Lucknow",
+      "Ripon Lane",
+      "Nawab",
+      "Sadat Ali",
+      "Park Auction House",
+      "Park Street",
+      "Lower Circular Road",
+      "Bombay",
+      "Alipore Park",
+      "Calcutta",
+      "Ganges",
+      "National Library",
+      "Nizam’s",
+      "casket",
+      "snuff box",
+      "chowkidar",
+      "mantra",
+      "paan",
+      "Topshe",
+      "Mr Choudhury"
+    ],
+    "ch-8": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Topshe",
+      "Baramdeo",
+      "Chris Godwin",
+      "Mr Godwin",
+      "Mr Arakis",
+      "Charlotte Godwin",
+      "Naren Biswas",
+      "Mr Choudhury",
+      "Girin Biswas",
+      "Lower Circular Road",
+      "Park Street",
+      "Ripon Lane",
+      "Blue Fox",
+      "Nizam’s",
+      "Society cinema",
+      "National Library",
+      "Corporation Street",
+      "Suren Banerjee Road",
+      "Bourne & Shepherd",
+      "Victoria Memorial",
+      "Queen Victoria",
+      "Edward VIII",
+      "George V",
+      "Delhi Durbar",
+      "Dalhousie Square",
+      "Esplanade",
+      "Monument",
+      "Calcutta",
+      "Frank Ross",
+      "New Market",
+      "Moti Sheel Street",
+      "Job Charnock",
+      "St John’s Church",
+      "Hong Kong Dry Cleaners",
+      "paan",
+      "casket",
+      "snuff box",
+      "joint families",
+      "mutton rolls",
+      "lassi",
+      "parapet",
+      "compound walls",
+      "Forhans"
+    ],
+    "ch-9": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Mr Choudhury",
+      "Pyarelal",
+      "Calcutta",
+      "Alipore Park",
+      "Judges Court Road",
+      "England",
+      "Switzlerland",
+      "Francis Perigal",
+      "repeater",
+      "babu"
+    ],
+    "ch-10": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Girin Biswas",
+      "Prashanta",
+      "Naren Biswas",
+      "Sushanta",
+      "Suhrid Sengupta",
+      "Baramdeo",
+      "Jimmy Norton",
+      "Calcutta",
+      "England",
+      "Bourne & Shepherd",
+      "Park Street",
+      "Presidency College",
+      "Beni Nandan Street",
+      "Mutiny",
+      "Behrampore",
+      "Son of Tarzan",
+      "divan",
+      "settee",
+      "chowkidar",
+      "Jai Santoshi Ma",
+      "ashtray",
+      "tome",
+      "Cooke-Kelvey",
+      "Ma Santoshi",
+      "babu"
+    ],
+    "ch-11": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Baramdeo",
+      "Sikkim",
+      "Lucknow",
+      "Rajasthan",
+      "Simla",
+      "Calcutta",
+      "Bourne & Shepherd",
+      "Rawdon Street",
+      "St Xavier’s",
+      "Park Street",
+      "Thornhill",
+      "Charminar",
+      "St Paul’s",
+      "Ballygunj",
+      "Alipore",
+      "chowkidar",
+      "carbolic acid",
+      "Topshe",
+      "Hari Datta",
+      "Benaras"
+    ],
+    "ch-12": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Mr Choudhury",
+      "Pyarelal",
+      "Hari Datta",
+      "Girin Biswas",
+      "Naren Biswas",
+      "Thomas Godwin",
+      "Parvati Charan",
+      "Puri",
+      "Ma Santoshi",
+      "Alipore",
+      "Perigal repeater",
+      "Cooke-Kelvey",
+      "Bourne & Shepherd",
+      "Ripon Lane",
+      "New Alipore",
+      "Presidency College",
+      "Ganges",
+      "ghat",
+      "South Park Street Cemetery",
+      "settee",
+      "ghat",
+      "Dettol",
+      "chai",
+      "Ma",
+      "Sadat Ali",
+      "Queen Victoria",
+      "Hong Kong Dry Cleaners",
+      "babu"
+    ]
+  }
+}

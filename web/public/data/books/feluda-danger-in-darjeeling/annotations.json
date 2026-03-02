@@ -1,0 +1,194 @@
+{
+  "glossary": {
+    "Rajen Babu": {
+      "type": "character",
+      "description": "Rajen Babu is a kindly, elderly man living in Darjeeling, known for his amiable nature and interest in antiques; 'Babu' is a respectful suffix or title used for men in Bengal and is often attached to his name."
+    },
+    "Tapesh Ranjan": {
+      "type": "character",
+      "description": "The thirteen-year-old narrator and assistant to Feluda, also known by the nickname Topshe."
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "A sharp and observant private detective and cousin to Topshe, whose full name is Prodosh C. Mitter.",
+      "image": "/data/images/characters/feluda-danger-in-darjeeling/feluda.webp"
+    },
+    "Tinkori Babu": {
+      "type": "character",
+      "description": "A mystery writer and tenant in Rajen Babu’s house, revealed to be Tinkori Mukhopadhyay, who possesses a penchant for deduction."
+    },
+    "Dr Phoni Mitra": {
+      "type": "character",
+      "description": "A local doctor in Darjeeling, sometimes consulted by Rajen Babu, and a follower of the same guru.",
+      "image": "/data/images/characters/feluda-danger-in-darjeeling/dr-phoni-mitra.webp"
+    },
+    "Abanimohan Ghoshal": {
+      "type": "character",
+      "description": "A collector of antiques and curios, suspected of ulterior motives regarding Rajen Babu’s possessions.",
+      "image": "/data/images/characters/feluda-danger-in-darjeeling/abanimohan-ghoshal.webp"
+    },
+    "Prabeer Majumdar": {
+      "type": "character",
+      "description": "Rajen Babu’s estranged son, who left home years ago and has recently returned from abroad."
+    },
+    "Gyanesh": {
+      "type": "character",
+      "description": "A friend of Rajen Babu who recommended Tinkori Babu as a tenant.",
+      "image": "/data/images/characters/feluda-danger-in-darjeeling/gyanesh.webp"
+    },
+    "Mr Gilmour": {
+      "type": "character",
+      "description": "The manager of a tea estate and a regular customer at the curio shop.",
+      "image": "/data/images/characters/feluda-danger-in-darjeeling/mr-gilmour.webp"
+    },
+    "Mr Naulakha": {
+      "type": "character",
+      "description": "Another regular buyer at the curio shop, currently away in Sikkim.",
+      "image": "/data/images/characters/feluda-danger-in-darjeeling/mr-naulakha.webp"
+    },
+    "Mall": {
+      "type": "proper_noun",
+      "description": "The main promenade or public walkway in Darjeeling, a popular gathering spot."
+    },
+    "Nepali": {
+      "type": "proper_noun",
+      "description": "Refers to people from Nepal or of Nepali origin, many of whom live and work in Darjeeling."
+    },
+    "Tibetan": {
+      "type": "proper_noun",
+      "description": "Relating to Tibet or its culture; Tibetan antiques and art are common in Darjeeling."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in eastern India, now known as Kolkata."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, India, famous for its tea and scenic views."
+    },
+    "Radha restaurant": {
+      "type": "proper_noun",
+      "description": "A local restaurant in Darjeeling, used as a landmark."
+    },
+    "Ananda Bazar": {
+      "type": "proper_noun",
+      "description": "A well-known Bengali newspaper, referenced for its distinctive typeface."
+    },
+    "Bankura": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, where Rajen Babu attended missionary school."
+    },
+    "Rangeet valley": {
+      "type": "proper_noun",
+      "description": "A valley near Darjeeling, named after the Rangeet River."
+    },
+    "Kanchenjunga": {
+      "type": "proper_noun",
+      "description": "The third highest mountain in the world, visible from Darjeeling."
+    },
+    "Mount Everest Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel in Darjeeling where Prabeer Majumdar is staying."
+    },
+    "Central Hotel": {
+      "type": "proper_noun",
+      "description": "Another hotel in Darjeeling, mentioned as a possible place of stay."
+    },
+    "Observatory Hill": {
+      "type": "proper_noun",
+      "description": "A notable hill in Darjeeling, known for its scenic views."
+    },
+    "Nepal Curio Shop": {
+      "type": "proper_noun",
+      "description": "A shop in Darjeeling selling antiques and curios, frequented by several characters."
+    },
+    "Sikkim": {
+      "type": "proper_noun",
+      "description": "A neighboring Indian state to Darjeeling, mentioned as Mr Naulakha's current location."
+    },
+    "Planters’ Club": {
+      "type": "proper_noun",
+      "description": "A social club in Darjeeling, historically frequented by tea estate managers."
+    },
+    "Cart Road": {
+      "type": "proper_noun",
+      "description": "A road in Darjeeling, where a wealthy businessman lives."
+    },
+    "THE EMP ERO R’S RI NG": {
+      "type": "proper_noun",
+      "description": "The title of the next story or chapter, appearing at the end of the text."
+    },
+    "tankha": {
+      "type": "vocabulary",
+      "description": "A Tibetan religious painting on cloth, often depicting Buddhist deities or scenes."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting, similar to 'hello' or 'goodbye,' accompanied by folded hands."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A type of cigar with both ends clipped during manufacture, popular in South Asia."
+    },
+    "guru": {
+      "type": "vocabulary",
+      "description": "A spiritual teacher or guide in Indian religions."
+    },
+    "curio": {
+      "type": "vocabulary",
+      "description": "A rare or unusual object, often collected for its artistic or historical value."
+    },
+    "muffler": {
+      "type": "vocabulary",
+      "description": "A scarf worn around the neck for warmth, commonly used in India."
+    },
+    "lozenge": {
+      "type": "vocabulary",
+      "description": "A small, flavored medicinal tablet, often for soothing the throat."
+    },
+    "mask": {
+      "type": "vocabulary",
+      "description": "A face covering, often decorative or ceremonial, used here as a collectible item from the region."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Rajen Babu",
+      "Tapesh Ranjan",
+      "Feluda",
+      "Tinkori Babu",
+      "Dr Phoni Mitra",
+      "Abanimohan Ghoshal",
+      "Prabeer Majumdar",
+      "Gyanesh",
+      "Mr Gilmour",
+      "Mr Naulakha",
+      "Mall",
+      "Nepali",
+      "Tibetan",
+      "Calcutta",
+      "Darjeeling",
+      "Radha restaurant",
+      "Ananda Bazar",
+      "Bankura",
+      "Rangeet valley",
+      "Kanchenjunga",
+      "Mount Everest Hotel",
+      "Central Hotel",
+      "Observatory Hill",
+      "Nepal Curio Shop",
+      "Sikkim",
+      "Planters’ Club",
+      "Cart Road",
+      "THE EMP ERO R’S RI NG",
+      "tankha",
+      "namaskar",
+      "cheroot",
+      "guru",
+      "curio",
+      "muffler",
+      "lozenge",
+      "mask"
+    ]
+  }
+}

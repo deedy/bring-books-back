@@ -1,0 +1,21 @@
+{
+  "id": "feluda-murder-in-the-mountains",
+  "title": "Murder in the Mountains",
+  "transliteratedTitle": "Darjeeling Jamjamat",
+  "subtitle": "A Deadly Mystery Amid Darjeeling's Shadows",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-murder-in-the-mountains.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "দার্জিলিং জমজমাট",
+  "originalYear": 1986,
+  "totalChapters": 11,
+  "wordCount": 20780,
+  "summary": "When a film project draws Feluda and his friends to the misty hills of Darjeeling, the line between fiction and reality blurs—with murder lurking just around the corner. Can Feluda's keen eye and razor-sharp deduction unravel the secrets hidden in the mountains before danger strikes again? Join the adventure and experience suspense, wit, and unforgettable twists in this classic detective tale.",
+  "anthologyId": "feluda",
+  "storyNumber": 26
+}

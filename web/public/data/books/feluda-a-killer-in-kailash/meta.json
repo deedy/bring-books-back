@@ -1,0 +1,21 @@
+{
+  "id": "feluda-a-killer-in-kailash",
+  "title": "A Killer in Kailash",
+  "transliteratedTitle": "Kailashey Kelenkari",
+  "subtitle": "Ancient Mysteries and Modern Murder in the Hills",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-a-killer-in-kailash.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "কৈলাসে কেলেঙ্কারি",
+  "originalYear": 1973,
+  "totalChapters": 10,
+  "wordCount": 24845,
+  "summary": "When a peaceful summer break takes Feluda and his cousin to the sacred heights of Kailash, they find themselves drawn into a web of ancient puzzles and perilous secrets. As the line between history and danger blurs, a cunning killer lurks in the shadows. Can Feluda crack the code before time runs out?",
+  "anthologyId": "feluda",
+  "storyNumber": 8
+}

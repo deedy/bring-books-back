@@ -49,6 +49,9 @@ class BookConfig:
     # ── Hero banner ───────────────────────────────────────────────────────
     hero_prompt: str = ""
 
+    # ── Book type ────────────────────────────────────────────────────────
+    type: str = "book"  # "book" or "anthology"
+
     # ── Derived paths ─────────────────────────────────────────────────────
     @property
     def book_dir(self) -> Path:
@@ -1055,6 +1058,84 @@ _register(BookConfig(
         "oil lamp casting warm glow, through the arches a garden with flowering krishnachura trees, "
         "evening sky with first stars appearing over distant Calcutta rooftops. "
         "NO people, NO figures. Pure interior/landscape scenery. "
+        "Bright, vivid, saturated colors. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+))
+
+
+# ── Feluda ─────────────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="feluda",
+    title="The Complete Adventures of Feluda",
+    transliterated_title="Feluda Samagra",
+    original_title="ফেলুদা সমগ্র",
+    author_id="satyajit-ray",
+    author_name="Satyajit Ray",
+    author_years="1921–1992",
+    original_language="Bengali",
+    original_year=1965,
+    genre=["Detective Fiction", "Mystery"],
+    accent_color="#2E5A3C",
+    style_context=(
+        "Bengali detective fiction anthology — 31 stories featuring private investigator "
+        "Prodosh C. Mitter (Feluda), his cousin Tapesh (Topshe), and thriller writer "
+        "Lalmohan Ganguly (Jatayu). Stories span 1965–1992, set in Calcutta, Darjeeling, "
+        "Lucknow, Varanasi, Rajasthan, London, Kathmandu, and other locations. "
+        "Known for cerebral puzzles, witty banter, and vivid Indian settings."
+    ),
+    type="anthology",
+    annotation_prompt=(
+        'You are a literary analyst helping annotate an English translation of '
+        '"The Complete Adventures of Feluda", '
+        "a Bengali detective fiction anthology by Satyajit Ray featuring private investigator "
+        "Prodosh C. Mitter (Feluda), his cousin Tapesh (Topshe), and thriller writer "
+        "Lalmohan Ganguly (Jatayu).\n\n"
+        "For the given chapter text, extract three categories of terms:\n\n"
+        '1. **Characters** — Recurring named people. 1-2 sentence description.\n'
+        '2. **Proper nouns** — Place names, cultural terms, historical references. Brief explanation.\n'
+        '3. **Vocabulary** — Culturally-specific words/phrases. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Bengali, Hindi, or Indian-origin terms.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of Satyajit Ray's own illustrations — "
+        "clean line work with watercolor washes, warm earth tones, "
+        "amber, sepia, deep green, and dusty rose. "
+        "The composition should feel like a classic mystery book illustration — "
+        "atmospheric, cinematic, with dramatic lighting. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Indian settings from the 1960s-1990s.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Feluda (Prodosh C. Mitter): tall, lean Bengali detective in his 30s, sharp features, "
+        "intelligent eyes, typically wears kurta-pajama or safari suit\n"
+        "- Topshe (Tapesh Ranjan Mitter): teenage boy, Feluda's cousin and narrator, "
+        "earnest, curious expression\n"
+        "- Jatayu (Lalmohan Ganguly): middle-aged, portly Bengali man, friendly round face, "
+        "bespectacled, comic thriller writer\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of Satyajit Ray's own illustrations — "
+        "clean line work with watercolor washes, warm earth tones, "
+        "amber, sepia, deep green. "
+        "Atmospheric, cinematic character portrait. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Indian setting, 1960s-1990s.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in the style of Satyajit Ray's artwork — "
+        "clean line work with watercolor washes, warm amber, sepia, and deep green palette. "
+        "A moody Calcutta street scene at dusk — colonial-era buildings with ornate balconies, "
+        "a yellow Ambassador taxi, old bookshops, narrow lanes with long shadows, "
+        "a magnifying glass resting on a stack of old notebooks on a wooden desk in the foreground. "
+        "NO people, NO figures. Pure atmospheric scenery. "
         "Bright, vivid, saturated colors. 16:9 cinematic landscape ratio. "
         "NO text, NO border, NO frame."
     ),

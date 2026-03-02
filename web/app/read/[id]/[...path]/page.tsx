@@ -57,6 +57,7 @@ export async function generateStaticParams() {
   const params: { id: string; path: string[] }[] = [];
 
   for (const book of catalog.books) {
+    if (book.type === "anthology") continue;
     const { chapters } = getChapters(book.id);
     chapters.forEach((ch, idx) => {
       // Redirect shorthand: sequential index only

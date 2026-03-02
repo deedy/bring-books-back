@@ -1,0 +1,251 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "The main detective of the stories, known for his sharp intellect and investigative skills.",
+      "image": "/data/images/characters/feluda-the-disappearance-of-ambar-sen/feluda.webp"
+    },
+    "Mrityunjay Som": {
+      "type": "character",
+      "description": "A new neighbor described as a learned scholar from Behrampore, recently moved to Calcutta."
+    },
+    "Ambar Sen": {
+      "type": "character",
+      "description": "A businessman and Feluda's client who receives a threatening letter and later goes missing.",
+      "image": "/data/images/characters/feluda-the-disappearance-of-ambar-sen/ambar-sen.webp"
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "A servant who brings tea during the meeting with Mr Sen."
+    },
+    "Ambuj Sen": {
+      "type": "character",
+      "description": "Ambar Sen's younger brother, who contacts Feluda after Ambar goes missing.",
+      "image": "/data/images/characters/feluda-the-disappearance-of-ambar-sen/ambuj-sen.webp"
+    },
+    "Jatayu": {
+      "type": "character",
+      "description": "A popular thriller writer and close companion of Feluda who uses a famous pen name.",
+      "image": "/data/images/characters/feluda-the-disappearance-of-ambar-sen/jatayu.webp"
+    },
+    "Anath Sen": {
+      "type": "character",
+      "description": "Ambar and Ambuj's late father, described as a well-known heart specialist."
+    },
+    "Herbert University": {
+      "type": "proper_noun",
+      "description": "Herbert University is a mistaken reference by Lalmohan Babu, likely meant to be Harvard University, a prestigious American institution."
+    },
+    "Behrampore": {
+      "type": "proper_noun",
+      "description": "A city in West Bengal, India, noted as Mrityunjay Som's place of origin."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in eastern India where the story is set."
+    },
+    "The Fearsome Foe": {
+      "type": "proper_noun",
+      "description": "A book written by Lalmohan Babu (Jatayu), given to Mrityunjay Som."
+    },
+    "Palm Avenue": {
+      "type": "proper_noun",
+      "description": "A residential locality in Calcutta, where Ambar Sen and his family live."
+    },
+    "Durga Puja": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival celebrated in Bengal, often associated with community donations."
+    },
+    "5/1 Palm Avenue": {
+      "type": "proper_noun",
+      "description": "The specific address of the Sen family residence."
+    },
+    "jamavar": {
+      "type": "vocabulary",
+      "description": "A type of luxurious, intricately woven Kashmiri shawl."
+    },
+    "mali": {
+      "type": "vocabulary",
+      "description": "A gardener or someone who tends to plants and gardens."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or security guard, often employed to guard homes or compounds."
+    },
+    "Runa": {
+      "type": "character",
+      "description": "The clever young daughter of Ambuj Sen who is familiar with Feluda and Topshe.",
+      "image": "/data/images/characters/feluda-the-disappearance-of-ambar-sen/runa.webp"
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's cousin, assistant, and the narrator of the stories."
+    },
+    "Samaresh Mallik": {
+      "type": "character",
+      "description": "A cousin of the Sens who works for a film distributor and has lived in the house for twenty-five years.",
+      "image": "/data/images/characters/feluda-the-disappearance-of-ambar-sen/samaresh-mallik.webp"
+    },
+    "Mrs Sen": {
+      "type": "character",
+      "description": "Ambuj Sen's wife, intelligent and helpful during the investigation."
+    },
+    "Edin.": {
+      "type": "proper_noun",
+      "description": "Abbreviation for Edinburgh, indicating that Ambar Sen's father studied in Scotland."
+    },
+    "Himalaya Opticals": {
+      "type": "proper_noun",
+      "description": "A shop or business where glasses are made, mentioned in connection with Ambar Sen's new spectacles."
+    },
+    "Godrej": {
+      "type": "proper_noun",
+      "description": "A well-known Indian brand, here referring to a secure safe in Ambar Sen's study."
+    },
+    "Dharamtala": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, where Samaresh Mallik's office is located."
+    },
+    "Koh-i-noor Pictures": {
+      "type": "proper_noun",
+      "description": "The film distribution company where Samaresh Mallik is employed."
+    },
+    "Shyambazar": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Kolkata, where the accident involving Ambar Sen occurred."
+    },
+    "Austin": {
+      "type": "proper_noun",
+      "description": "A British car brand; Ambar Sen used to drive his father's Austin car."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A popular Indian car model, often used as a taxi or private vehicle."
+    },
+    "Hastings": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, India, referenced as a place where the search for Mr Sen was conducted."
+    },
+    "Howrah Bridge": {
+      "type": "proper_noun",
+      "description": "A famous cantilever bridge over the Hooghly River in Kolkata, India."
+    },
+    "Princep Ghat": {
+      "type": "proper_noun",
+      "description": "A historic riverside ghat in Kolkata, known for its colonial-era pavilion and as a popular meeting spot."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The currency of India."
+    },
+    "ghat": {
+      "type": "vocabulary",
+      "description": "A series of steps leading down to a river, commonly found in India."
+    },
+    "Bilash": {
+      "type": "character",
+      "description": "Bilash is the Sens' driver, involved in the events at Princep Ghat and provides information about Mr Sen's routine and disappearance."
+    },
+    "Happy Restaurant": {
+      "type": "proper_noun",
+      "description": "A restaurant mentioned as a landmark in the story."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular Indian cigarette brand smoked by Feluda."
+    },
+    "bhelpuriwallas": {
+      "type": "vocabulary",
+      "description": "Street vendors who sell bhelpuri, a popular Indian snack made of puffed rice, vegetables, and tangy sauces."
+    },
+    "lungi": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn around the waist, commonly used by men in South Asia."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "‘Babu’ is a respectful Bengali term used to address men, similar to 'Mr.'"
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Mrityunjay Som",
+      "Ambar Sen",
+      "Srinath",
+      "Ambuj Sen",
+      "Jatayu",
+      "Anath Sen",
+      "Herbert University",
+      "Behrampore",
+      "Calcutta",
+      "The Fearsome Foe",
+      "Palm Avenue",
+      "Durga Puja",
+      "5/1 Palm Avenue",
+      "jamavar",
+      "mali",
+      "chowkidar",
+      "Topshe"
+    ],
+    "ch-2": [
+      "Ambar Sen",
+      "Ambuj Sen",
+      "Runa",
+      "Feluda",
+      "Topshe",
+      "Jatayu",
+      "Samaresh Mallik",
+      "Mrs Sen",
+      "Edin.",
+      "Himalaya Opticals",
+      "Godrej",
+      "Dharamtala",
+      "Koh-i-noor Pictures",
+      "Durga Puja",
+      "Shyambazar",
+      "Austin",
+      "babu"
+    ],
+    "ch-3": [
+      "Ambar Sen",
+      "Jatayu",
+      "Mrityunjay Som",
+      "Ambuj Sen",
+      "Runa",
+      "Topshe",
+      "Ambassador",
+      "Hastings",
+      "Howrah Bridge",
+      "Princep Ghat",
+      "Palm Avenue",
+      "rupees",
+      "ghat",
+      "Bilash",
+      "Feluda",
+      "Samaresh Mallik",
+      "babu",
+      "Herbert University"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Ambar Sen",
+      "Bilash",
+      "Ambuj Sen",
+      "Runa",
+      "Samaresh Mallik",
+      "Mrs Sen",
+      "Princep Ghat",
+      "Happy Restaurant",
+      "Palm Avenue",
+      "Himalaya Opticals",
+      "Charminar",
+      "Koh-i-noor Pictures",
+      "bhelpuriwallas",
+      "lungi",
+      "babu",
+      "rupees",
+      "Jatayu"
+    ]
+  }
+}

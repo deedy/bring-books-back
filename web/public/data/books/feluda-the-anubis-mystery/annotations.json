@@ -1,0 +1,240 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "A sharp, physically fit amateur detective and the story's protagonist.",
+      "image": "/data/images/characters/feluda-the-anubis-mystery/feluda.webp"
+    },
+    "Nilmoni Sanyal": {
+      "type": "character",
+      "description": "A wealthy, eccentric collector of antiques who claims to be the victim of mysterious threats and a burglary."
+    },
+    "Pratul Datta": {
+      "type": "character",
+      "description": "A retired lawyer and rival collector who competes with Nilmoni Sanyal at auctions."
+    },
+    "Jhuntu": {
+      "type": "character",
+      "description": "Supposedly Nilmoni Sanyal's nephew, later revealed to be a beggar boy involved in the plot.",
+      "image": "/data/images/characters/feluda-the-anubis-mystery/jhuntu.webp"
+    },
+    "Govind": {
+      "type": "character",
+      "description": "Nilmoni Sanyal's driver.",
+      "image": "/data/images/characters/feluda-the-anubis-mystery/govind.webp"
+    },
+    "Nandalal": {
+      "type": "character",
+      "description": "One of Nilmoni Sanyal's old and trusted servants.",
+      "image": "/data/images/characters/feluda-the-anubis-mystery/nandalal.webp"
+    },
+    "Panchu": {
+      "type": "character",
+      "description": "Another of Nilmoni Sanyal's old and trusted servants."
+    },
+    "Natabar": {
+      "type": "character",
+      "description": "Nilmoni Sanyal's mali (gardener)."
+    },
+    "Bangshalochan": {
+      "type": "character",
+      "description": "Pratul Datta's servant who is attacked during the burglary.",
+      "image": "/data/images/characters/feluda-the-anubis-mystery/bangshalochan.webp"
+    },
+    "Dr Bose": {
+      "type": "character",
+      "description": "A doctor called to attend to Jhuntu when he is unwell.",
+      "image": "/data/images/characters/feluda-the-anubis-mystery/dr-bose.webp"
+    },
+    "sheershasan": {
+      "type": "proper_noun",
+      "description": "A yoga posture where one stands on the head, considered beneficial for health."
+    },
+    "Puja": {
+      "type": "proper_noun",
+      "description": "A Hindu religious festival or ritual, often involving holidays and family gatherings."
+    },
+    "Jamshedpur": {
+      "type": "proper_noun",
+      "description": "An industrial city in eastern India, mentioned as the place where Baba is on tour."
+    },
+    "All India Rifle Competition": {
+      "type": "proper_noun",
+      "description": "A national-level shooting competition in India."
+    },
+    "Roland Road": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta (Kolkata), where Nilmoni Sanyal lives."
+    },
+    "Rangers Lottery": {
+      "type": "proper_noun",
+      "description": "A lottery mentioned as the source of Nilmoni Sanyal's wealth."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in eastern India where the story is set."
+    },
+    "Aratoon Brothers": {
+      "type": "proper_noun",
+      "description": "An auction house in Calcutta where antiques are bought and sold."
+    },
+    "Elgin Road": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta, referenced as a postmark on the mysterious envelopes."
+    },
+    "Japan": {
+      "type": "proper_noun",
+      "description": "A country in East Asia, mentioned as the place where Jhuntu's parents are."
+    },
+    "Free School Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta known for shops and auction houses."
+    },
+    "Lovelock Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, address of Pratul Datta."
+    },
+    "Naktola": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta, used as a false address by Feluda during a phone call."
+    },
+    "Joynarayan Bagchi": {
+      "type": "proper_noun",
+      "description": "A pseudonym used by Feluda while investigating Pratul Datta."
+    },
+    "Subodh": {
+      "type": "proper_noun",
+      "description": "A pseudonym used by Topshe during the investigation."
+    },
+    "Ballygunje Circular Road": {
+      "type": "proper_noun",
+      "description": "A major road in Calcutta."
+    },
+    "Shyamasangeet": {
+      "type": "proper_noun",
+      "description": "Devotional songs dedicated to the Hindu goddess Kali, popular in Bengal."
+    },
+    "khanjani": {
+      "type": "proper_noun",
+      "description": "A small hand-held percussion instrument, similar to a tambourine, used in folk music."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A classic Indian car model, widely used as taxis and private vehicles."
+    },
+    "Ma": {
+      "type": "proper_noun",
+      "description": "Bengali/Hindi for 'mother', used both literally and as a respectful form of address."
+    },
+    "yoga": {
+      "type": "vocabulary",
+      "description": "A traditional Indian discipline involving physical postures, breathing, and meditation."
+    },
+    "chick-peas": {
+      "type": "vocabulary",
+      "description": "Also known as chana, a legume commonly eaten in India."
+    },
+    "Baba": {
+      "type": "vocabulary",
+      "description": "A respectful term for father in Bengali and other Indian languages."
+    },
+    "goonda": {
+      "type": "vocabulary",
+      "description": "A Hindi term for a thug or hired muscle."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation of betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional loose-fitting shirt worn in South Asia."
+    },
+    "pyjamas": {
+      "type": "vocabulary",
+      "description": "Loose trousers, often part of traditional Indian sleepwear."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful or polite form of address for a man in Bengali and Hindi."
+    },
+    "mali": {
+      "type": "vocabulary",
+      "description": "Gardener in Hindi and Bengali."
+    },
+    "dal": {
+      "type": "vocabulary",
+      "description": "A dish made from lentils, a staple in Indian cuisine."
+    },
+    "chutney": {
+      "type": "vocabulary",
+      "description": "A condiment in Indian cuisine made from fruits, vegetables, and spices."
+    },
+    "dahi": {
+      "type": "vocabulary",
+      "description": "Curd or yogurt in Hindi and Bengali."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting, similar to 'namaste', involving folded hands."
+    },
+    "siesta": {
+      "type": "vocabulary",
+      "description": "An afternoon nap, a word of Spanish origin but commonly used in India."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A type of cigar, often associated with South Asian and colonial contexts."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Nilmoni Sanyal",
+      "Pratul Datta",
+      "Jhuntu",
+      "Govind",
+      "Nandalal",
+      "Panchu",
+      "Natabar",
+      "Bangshalochan",
+      "Dr Bose",
+      "sheershasan",
+      "Puja",
+      "Jamshedpur",
+      "All India Rifle Competition",
+      "Roland Road",
+      "Rangers Lottery",
+      "Calcutta",
+      "Aratoon Brothers",
+      "Elgin Road",
+      "Japan",
+      "Free School Street",
+      "Lovelock Street",
+      "Naktola",
+      "Joynarayan Bagchi",
+      "Subodh",
+      "Ballygunje Circular Road",
+      "Shyamasangeet",
+      "khanjani",
+      "Ambassador",
+      "Ma",
+      "yoga",
+      "chick-peas",
+      "Baba",
+      "Ma",
+      "goonda",
+      "paan",
+      "kurta",
+      "pyjamas",
+      "Babu",
+      "mali",
+      "dal",
+      "chutney",
+      "dahi",
+      "namaskar",
+      "siesta",
+      "cheroot"
+    ]
+  }
+}

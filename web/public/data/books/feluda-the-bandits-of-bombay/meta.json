@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-bandits-of-bombay",
+  "title": "The Bandits of Bombay",
+  "transliteratedTitle": "Bombaiyer Bombetey",
+  "subtitle": "A Sweet Surprise Unravels a Bombay Mystery",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-bandits-of-bombay.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "বোম্বাইয়ের বোম্বেটে",
+  "originalYear": 1976,
+  "totalChapters": 11,
+  "wordCount": 20242,
+  "summary": "When Lalmohan Babu arrives with an unexpected box of sweets and even sweeter news, Feluda’s sharp mind quickly senses that something unusual is afoot. As a telegram from Bombay hints at bigger things behind the celebration, intrigue and adventure begin to swirl. What secrets lie within the offer, and how will it draw Feluda and his friends into a new web of mystery?",
+  "anthologyId": "feluda",
+  "storyNumber": 13
+}

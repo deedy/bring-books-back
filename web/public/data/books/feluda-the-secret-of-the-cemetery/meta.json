@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-secret-of-the-cemetery",
+  "title": "The Secret of the Cemetery",
+  "transliteratedTitle": "Gorosthaney Sabdhan",
+  "subtitle": "A Film Director, A Clue, and Grave Secrets",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-secret-of-the-cemetery.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "গোরস্থানে সাবধান",
+  "originalYear": 1977,
+  "totalChapters": 12,
+  "wordCount": 26638,
+  "summary": "When a flamboyant film director arrives with a mysterious car and an even more baffling story, Feluda is drawn into a labyrinth of intrigue surrounding an old cemetery. Witty banter and razor-sharp deduction propel this classic whodunit, where every clue leads deeper into a web of deception. Will Feluda unravel the cemetery’s secret before it’s too late?",
+  "anthologyId": "feluda",
+  "storyNumber": 15
+}

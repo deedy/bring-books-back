@@ -1,0 +1,740 @@
+{
+  "glossary": {
+    "Jatayu": {
+      "type": "character",
+      "description": "A humorous and somewhat naive writer of thrillers and friend of Feluda, whose real name is Lalmohan Ganguli.",
+      "image": "/data/images/characters/feluda-robertson-s-ruby/jatayu.webp"
+    },
+    "Peter Robertson": {
+      "type": "character",
+      "description": "A British visitor interested in Indian culture and a descendant of Patrick Robertson, who originally took the ruby.",
+      "image": "/data/images/characters/feluda-robertson-s-ruby/peter-robertson.webp"
+    },
+    "David McCutcheon": {
+      "type": "character",
+      "description": "A European professor who has conducted extensive research on the temples of Birbhum."
+    },
+    "Patrick Robertson": {
+      "type": "character",
+      "description": "An ancestor of Peter Robertson, who fought in the mutiny and took the ruby from India."
+    },
+    "Shatadal Sen": {
+      "type": "character",
+      "description": "A school friend of Lalmohan Babu and a professor of history at Vishwa Bharati in Santiniketan.",
+      "image": "/data/images/characters/feluda-robertson-s-ruby/shatadal-sen.webp"
+    },
+    "Birbhum": {
+      "type": "proper_noun",
+      "description": "A district in West Bengal, India, known for its unique rock formations and terracotta temples."
+    },
+    "Abhijaan": {
+      "type": "proper_noun",
+      "description": "A Bengali film referenced in the conversation, possibly evoking the 'Mama-Bhagney' rocks."
+    },
+    "Tagore": {
+      "type": "proper_noun",
+      "description": "Refers to Rabindranath Tagore, the Nobel laureate poet who spent many years in Santiniketan."
+    },
+    "The Sahara Shivers": {
+      "type": "proper_noun",
+      "description": "A fictional thriller written by Lalmohan Babu."
+    },
+    "Santiniketan": {
+      "type": "proper_noun",
+      "description": "Santiniketan, sometimes spelled Santikiniketan, is a town in Birbhum, famous for being the home of Tagore and the location of Vishwa Bharati University, known for its artistic heritage."
+    },
+    "Bakreshwar": {
+      "type": "proper_noun",
+      "description": "A place in Birbhum known for its hot springs."
+    },
+    "Kenduli": {
+      "type": "proper_noun",
+      "description": "A village in Birbhum, famous as the birthplace of the poet Jaydev and for its annual fair."
+    },
+    "Jaydev": {
+      "type": "proper_noun",
+      "description": "A celebrated medieval poet, believed to have been born in Kenduli."
+    },
+    "Tarapeeth": {
+      "type": "proper_noun",
+      "description": "A temple town in Birbhum, famous for the Tarapith temple and the tantrik Bama Khepa."
+    },
+    "Bama Khepa": {
+      "type": "proper_noun",
+      "description": "A famous tantrik saint who lived in Tarapeeth."
+    },
+    "Dubrajpur": {
+      "type": "proper_noun",
+      "description": "A town in Birbhum, known for its unusual rock formations."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, of which Birbhum is a part."
+    },
+    "Robertson’s Ruby": {
+      "type": "proper_noun",
+      "description": "A legendary ruby taken from India by Patrick Robertson, now being returned by his descendant."
+    },
+    "Lucknow": {
+      "type": "proper_noun",
+      "description": "A city in northern India, significant in the context of the mutiny."
+    },
+    "Bengal regiment": {
+      "type": "proper_noun",
+      "description": "A British Indian Army regiment mentioned in the context of the mutiny."
+    },
+    "nawab": {
+      "type": "proper_noun",
+      "description": "A title for a Muslim ruler or nobleman in South Asia."
+    },
+    "Bolpur": {
+      "type": "proper_noun",
+      "description": "A town near Santiniketan, serving as a gateway to the area."
+    },
+    "Santiniketan Express": {
+      "type": "proper_noun",
+      "description": "A train that runs to Bolpur, known for its special Lounge Car."
+    },
+    "Burdwan": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, where the Santiniketan Express stops."
+    },
+    "Vishwa Bharati": {
+      "type": "proper_noun",
+      "description": "A prestigious university in Santiniketan, founded by Tagore."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, the capital of West Bengal."
+    },
+    "Howrah": {
+      "type": "proper_noun",
+      "description": "A major railway station in Kolkata."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A classic Indian car model, often used as taxis or private vehicles."
+    },
+    "Mama-Bhagney": {
+      "type": "vocabulary",
+      "description": "A Bengali phrase meaning 'uncle and nephew', often used to describe a specific rock formation."
+    },
+    "mama": {
+      "type": "vocabulary",
+      "description": "Bengali word for maternal uncle."
+    },
+    "bhagney": {
+      "type": "vocabulary",
+      "description": "Bengali word for nephew."
+    },
+    "dhobi": {
+      "type": "vocabulary",
+      "description": "A traditional Indian washerman or laundryman."
+    },
+    "mela": {
+      "type": "vocabulary",
+      "description": "A fair or festival, typically large and held annually."
+    },
+    "hauls": {
+      "type": "vocabulary",
+      "description": "Likely a typographical error for 'bauls', referring to wandering minstrels of Bengal."
+    },
+    "woollens": {
+      "type": "vocabulary",
+      "description": "Warm clothing, especially sweaters and jackets, commonly used in Indian English."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular Indian brand of cigarettes."
+    },
+    "Calcutta Museum": {
+      "type": "proper_noun",
+      "description": "A major museum in Calcutta (now Kolkata), likely referring to the Indian Museum, one of the oldest and largest museums in India."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, often referenced as the seat of government and administrative decisions."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "A country in the United Kingdom, referenced as the place where the ruby was valued."
+    },
+    "The Statesman": {
+      "type": "proper_noun",
+      "description": "The Statesman is a prominent English-language newspaper published in India."
+    },
+    "Britain": {
+      "type": "proper_noun",
+      "description": "Refers to the United Kingdom, the home country of Tom Maxwell's ancestors."
+    },
+    "Webley Scott": {
+      "type": "proper_noun",
+      "description": "A British firearms manufacturer, known for producing revolvers."
+    },
+    "Africa": {
+      "type": "proper_noun",
+      "description": "A continent mentioned as a place where Tom Maxwell has traveled and used his revolver."
+    },
+    "maharajas": {
+      "type": "vocabulary",
+      "description": "Indian princes or kings, historically rulers of princely states."
+    },
+    "chaiwalla": {
+      "type": "vocabulary",
+      "description": "A vendor who sells tea, commonly found at railway stations and streets in India."
+    },
+    "rickshaws": {
+      "type": "vocabulary",
+      "description": "Three-wheeled passenger carts, either cycle or auto, commonly used for transportation in India."
+    },
+    "Kishorilal": {
+      "type": "character",
+      "description": "Kishorilal Dandania, also called Kishori, is the son of G.L. Dandania who greets the visitors at the house and wishes to start his own business rather than join his father's."
+    },
+    "Inspector Chaubey": {
+      "type": "character",
+      "description": "A police inspector and friend of Mr. Dandania, whose full name is Richard Shankar Prasad and whose father was Charles Premchand.",
+      "image": "/data/images/characters/feluda-robertson-s-ruby/inspector-chaubey.webp"
+    },
+    "Uttarayan": {
+      "type": "proper_noun",
+      "description": "A residential complex or area the group visits, noted for its unique architecture."
+    },
+    "Pearson Palli": {
+      "type": "proper_noun",
+      "description": "A locality mentioned as a way to find Mr Sen's house."
+    },
+    "Hetampur": {
+      "type": "proper_noun",
+      "description": "A nearby location known for its terracotta temples."
+    },
+    "Udichi": {
+      "type": "proper_noun",
+      "description": "A building or house in Uttarayan, admired for its beauty."
+    },
+    "Shyamali": {
+      "type": "proper_noun",
+      "description": "Another building in Uttarayan, also noted for its beauty."
+    },
+    "Santhal": {
+      "type": "proper_noun",
+      "description": "Santhals are an indigenous tribal community in India, known for their distinct culture and dances; the group visits a Santhal village."
+    },
+    "Benaras": {
+      "type": "proper_noun",
+      "description": "Also known as Varanasi, a historic city in India, referenced for its religious significance."
+    },
+    "Salar Jung": {
+      "type": "proper_noun",
+      "description": "Refers to the Salar Jung Museum in Hyderabad, known for its private collection."
+    },
+    "Hyderabad": {
+      "type": "proper_noun",
+      "description": "A major city in southern India, home to the Salar Jung Museum."
+    },
+    "Ganesh Dandania Museum": {
+      "type": "proper_noun",
+      "description": "A proposed private museum by Mr Dandania for the ruby."
+    },
+    "antakshari": {
+      "type": "vocabulary",
+      "description": "A popular Indian spoken parlor game involving singing songs in turns."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or gatekeeper."
+    },
+    "mithai": {
+      "type": "vocabulary",
+      "description": "Indian sweets or confectionery."
+    },
+    "sharbat": {
+      "type": "vocabulary",
+      "description": "A sweet, flavored drink popular in South Asia."
+    },
+    "inke liye mithai aur sharbat mangwao": {
+      "type": "vocabulary",
+      "description": "Hindi for 'send for sweets and sherbet for them'."
+    },
+    "Ganesh Dandania": {
+      "type": "character",
+      "description": "A wealthy and somewhat shady businessman from Dubrajpur who is suspected of being involved in the ruby mystery."
+    },
+    "Reginald Maxwell": {
+      "type": "character",
+      "description": "A professional photographer and friend of Peter Robertson with ancestral ties to India, specifically related to an ancestor who killed Hiralal.",
+      "image": "/data/images/characters/feluda-robertson-s-ruby/reginald-maxwell.webp"
+    },
+    "Jagannath Chatterjee": {
+      "type": "character",
+      "description": "A historian specializing in the temples of Birbhum, who offers his expertise to Peter.",
+      "image": "/data/images/characters/feluda-robertson-s-ruby/jagannath-chatterjee.webp"
+    },
+    "Hanuman": {
+      "type": "proper_noun",
+      "description": "A Hindu god, revered as a monkey deity and a central figure in the Ramayana."
+    },
+    "Mount Gandhamadan": {
+      "type": "proper_noun",
+      "description": "A mythical mountain in Hindu mythology, associated with Hanuman's legendary feats."
+    },
+    "Ram": {
+      "type": "proper_noun",
+      "description": "A major deity in Hinduism, protagonist of the Ramayana, known for building a bridge to Lanka."
+    },
+    "Kali": {
+      "type": "proper_noun",
+      "description": "A prominent Hindu goddess associated with power and destruction, often worshipped in temples."
+    },
+    "Bihar": {
+      "type": "proper_noun",
+      "description": "A state in eastern India, mentioned as Inspector Chaubey's place of origin."
+    },
+    "puja": {
+      "type": "vocabulary",
+      "description": "A Hindu ritual of worship, often performed in temples or homes."
+    },
+    "lakhs": {
+      "type": "vocabulary",
+      "description": "A unit in the Indian numbering system equal to one hundred thousand (100,000)."
+    },
+    "tubewell": {
+      "type": "vocabulary",
+      "description": "A type of well in which a long pipe is bored into the ground to access groundwater, commonly used in India."
+    },
+    "Chandu Mallik": {
+      "type": "character",
+      "description": "Chandu Mallik is a local goonda (thug) who threatens Tom after a confrontation at the cremation ground and is a suspect who was at a dance and later with friends at the time of the incident."
+    },
+    "Maharani of Burdwan": {
+      "type": "proper_noun",
+      "description": "A historical queen from the princely state of Burdwan in Bengal, credited with building the temple at Kenduli."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic that narrates the life of Prince Rama, with its stories often depicted in temple carvings."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "One of the two major Sanskrit epics of ancient India, detailing the Kurukshetra War and the fates of the Kaurava and Pandava princes."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country where the story is set, with references to its culture, independence, and social conditions."
+    },
+    "bauls": {
+      "type": "vocabulary",
+      "description": "Mystic minstrels from Bengal known for their distinctive music and spiritual songs."
+    },
+    "banyan": {
+      "type": "vocabulary",
+      "description": "A type of large fig tree native to India, often serving as a gathering place in villages."
+    },
+    "ektara": {
+      "type": "vocabulary",
+      "description": "A one-stringed musical instrument commonly used by folk musicians in Bengal."
+    },
+    "pyre": {
+      "type": "vocabulary",
+      "description": "A pile of wood on which a dead body is burned as part of Hindu funeral rites."
+    },
+    "goonda": {
+      "type": "vocabulary",
+      "description": "A Hindi term for a thug or criminal, often used to describe local troublemakers."
+    },
+    "sahib": {
+      "type": "vocabulary",
+      "description": "A term of respect or address for a man, especially used during the British colonial period in India."
+    },
+    "punkha-puller": {
+      "type": "vocabulary",
+      "description": "A servant employed to operate a punkha, a large manual fan used in colonial India."
+    },
+    "Rev. Pritchard": {
+      "type": "character",
+      "description": "A historical figure and author who adopted Anant Narayan and wrote about the Maxwell family history."
+    },
+    "Hiralal": {
+      "type": "character",
+      "description": "A punkha-puller who was killed by Maxwell in the story recounted from the past."
+    },
+    "Anant Narayan": {
+      "type": "character",
+      "description": "The orphaned son of Hiralal, later adopted by Rev. Pritchard and converted to Christianity."
+    },
+    "Mr Naskar": {
+      "type": "character",
+      "description": "A well-known businessman from Calcutta who serves as a local host for the group."
+    },
+    "Phulberey": {
+      "type": "proper_noun",
+      "description": "A village mentioned as the location for the Santhal dance."
+    },
+    "Soubhagya Kunda": {
+      "type": "proper_noun",
+      "description": "A pond near the temples, whose name means 'good fortune' in Bengali."
+    },
+    "Lancashire": {
+      "type": "proper_noun",
+      "description": "A county in North West England, cited as the origin of Peter and Tom."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A domestic servant, often in charge of serving food and drinks in Indian households."
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "Feluda's cousin, loyal assistant, and the narrator of the stories, affectionately known as Topshe."
+    },
+    "Dr Sinha": {
+      "type": "character",
+      "description": "A local doctor called to examine Tom after he was attacked."
+    },
+    "National Geographic": {
+      "type": "proper_noun",
+      "description": "A renowned international magazine known for its photography and exploration assignments."
+    },
+    "beedi": {
+      "type": "vocabulary",
+      "description": "A thin, hand-rolled cigarette made from tobacco wrapped in a leaf, commonly smoked in India."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term for a gentleman, often used in Bengali to address educated men."
+    },
+    "paisa": {
+      "type": "vocabulary",
+      "description": "A unit of currency in India, traditionally a fraction of a rupee."
+    },
+    "Baikuntha Mallik": {
+      "type": "character",
+      "description": "Lalmohan Babu's favorite poet, known for writing about Santiniketan."
+    },
+    "Kopai": {
+      "type": "proper_noun",
+      "description": "A river in West Bengal, admired by Tagore and featured in local poetry."
+    },
+    "Goalpara": {
+      "type": "proper_noun",
+      "description": "A village by the river Kopai, visited by the characters."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The currency of India."
+    },
+    "hypnotized": {
+      "type": "vocabulary",
+      "description": "A trance-like state induced by hypnosis, sometimes used in detective fiction to reveal hidden truths."
+    },
+    "Charles Premchand": {
+      "type": "character",
+      "description": "Inspector Chaubey's father."
+    },
+    "Sandesh": {
+      "type": "proper_noun",
+      "description": "A Bengali children's magazine revived by Satyajit Ray, where the first Feluda story was published."
+    },
+    "Felu": {
+      "type": "proper_noun",
+      "description": "Felu, whose real name is Prodosh C. Mitter and often respectfully called Felu Babu or Mr Mitter, is the sharp and inquisitive protagonist detective of the stories."
+    },
+    "Penguin Books": {
+      "type": "proper_noun",
+      "description": "The publishing house responsible for this edition of the book."
+    },
+    "Gurgaon": {
+      "type": "proper_noun",
+      "description": "A city in Haryana, India, mentioned as the location of Penguin Books India's office."
+    },
+    "Haryana": {
+      "type": "proper_noun",
+      "description": "An Indian state where Gurgaon is located."
+    },
+    "London": {
+      "type": "proper_noun",
+      "description": "The city where Penguin Books Ltd has its registered offices."
+    },
+    "Dublin": {
+      "type": "proper_noun",
+      "description": "The capital city of Ireland, mentioned as a location of Penguin Ireland."
+    },
+    "Melbourne": {
+      "type": "proper_noun",
+      "description": "A city in Australia, mentioned as a location of Penguin Group (Australia)."
+    },
+    "Auckland": {
+      "type": "proper_noun",
+      "description": "A city in New Zealand, mentioned as a location of Penguin Group (NZ)."
+    },
+    "Johannesburg": {
+      "type": "proper_noun",
+      "description": "A city in South Africa, mentioned as a location of Penguin Books (South Africa)."
+    },
+    "Satyajit Ray": {
+      "type": "proper_noun",
+      "description": "The author of the Feluda stories, a renowned Indian filmmaker and writer."
+    },
+    "da": {
+      "type": "vocabulary",
+      "description": "A Bengali suffix meaning 'elder brother', used as a term of respect and affection."
+    },
+    "dada": {
+      "type": "vocabulary",
+      "description": "A Bengali word meaning 'elder brother', from which the suffix 'da' is derived."
+    },
+    "punkha": {
+      "type": "vocabulary",
+      "description": "A manually operated fan, often used in colonial India to provide ventilation."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Jatayu",
+      "Peter Robertson",
+      "David McCutcheon",
+      "Patrick Robertson",
+      "Shatadal Sen",
+      "Birbhum",
+      "Abhijaan",
+      "Tagore",
+      "The Sahara Shivers",
+      "Santiniketan",
+      "Bakreshwar",
+      "Kenduli",
+      "Jaydev",
+      "Tarapeeth",
+      "Bama Khepa",
+      "Dubrajpur",
+      "Bengal",
+      "Robertson’s Ruby",
+      "Lucknow",
+      "Bengal regiment",
+      "nawab",
+      "Bolpur",
+      "Santiniketan Express",
+      "Burdwan",
+      "Vishwa Bharati",
+      "Calcutta",
+      "Howrah",
+      "Ambassador",
+      "Mama-Bhagney",
+      "mama",
+      "bhagney",
+      "dhobi",
+      "mela",
+      "hauls",
+      "woollens",
+      "Felu",
+      "The Statesman"
+    ],
+    "ch-2": [
+      "Peter Robertson",
+      "Santiniketan Express",
+      "Charminar",
+      "Bolpur",
+      "Calcutta Museum",
+      "Delhi",
+      "Birbhum",
+      "England",
+      "The Statesman",
+      "Britain",
+      "Webley Scott",
+      "Africa",
+      "Calcutta",
+      "Burdwan",
+      "maharajas",
+      "chaiwalla",
+      "rickshaws",
+      "Felu",
+      "Jatayu",
+      "Reginald Maxwell"
+    ],
+    "ch-3": [
+      "Shatadal Sen",
+      "Kishorilal",
+      "Inspector Chaubey",
+      "Uttarayan",
+      "Pearson Palli",
+      "Dubrajpur",
+      "Hetampur",
+      "Burdwan",
+      "Udichi",
+      "Shyamali",
+      "Calcutta",
+      "Santhal",
+      "Birbhum",
+      "Benaras",
+      "Salar Jung",
+      "Hyderabad",
+      "Ganesh Dandania Museum",
+      "antakshari",
+      "chowkidar",
+      "mithai",
+      "sharbat",
+      "inke liye mithai aur sharbat mangwao",
+      "Felu",
+      "Ganesh Dandania",
+      "Jatayu",
+      "Peter Robertson",
+      "Reginald Maxwell"
+    ],
+    "ch-4": [
+      "Ganesh Dandania",
+      "Inspector Chaubey",
+      "Reginald Maxwell",
+      "Jagannath Chatterjee",
+      "Dubrajpur",
+      "Mama-Bhagney",
+      "Hanuman",
+      "Mount Gandhamadan",
+      "Ram",
+      "Kali",
+      "Bihar",
+      "Birbhum",
+      "Hetampur",
+      "Calcutta",
+      "Santiniketan",
+      "Kenduli",
+      "puja",
+      "mela",
+      "lakhs",
+      "tubewell",
+      "Felu",
+      "Jatayu",
+      "Kishorilal",
+      "Mr Naskar",
+      "Peter Robertson",
+      "The Statesman"
+    ],
+    "ch-5": [
+      "Jagannath Chatterjee",
+      "Inspector Chaubey",
+      "Chandu Mallik",
+      "Kenduli",
+      "Maharani of Burdwan",
+      "Ramayana",
+      "Mahabharata",
+      "India",
+      "England",
+      "Calcutta",
+      "Reginald Maxwell",
+      "Burdwan",
+      "bauls",
+      "banyan",
+      "ektara",
+      "pyre",
+      "goonda",
+      "sahib",
+      "punkha-puller",
+      "Felu",
+      "Jatayu",
+      "Peter Robertson"
+    ],
+    "ch-6": [
+      "Rev. Pritchard",
+      "Hiralal",
+      "Anant Narayan",
+      "Mr Naskar",
+      "Jagannath Chatterjee",
+      "Inspector Chaubey",
+      "Birbhum",
+      "Bakreshwar",
+      "Santhal",
+      "Phulberey",
+      "Soubhagya Kunda",
+      "Lancashire",
+      "Robertson’s Ruby",
+      "punkha-puller",
+      "lakhs",
+      "bearer",
+      "Felu",
+      "Ganesh Dandania",
+      "Jatayu",
+      "Peter Robertson",
+      "Reginald Maxwell",
+      "Shatadal Sen"
+    ],
+    "ch-7": [
+      "Tapesh",
+      "Inspector Chaubey",
+      "Kishorilal",
+      "Chandu Mallik",
+      "Jagannath Chatterjee",
+      "Mr Naskar",
+      "Dr Sinha",
+      "Phulberey",
+      "Birbhum",
+      "India",
+      "National Geographic",
+      "Robertson’s Ruby",
+      "Calcutta",
+      "beedi",
+      "Babu",
+      "paisa",
+      "Felu",
+      "Jatayu",
+      "Peter Robertson",
+      "Reginald Maxwell",
+      "Santhal"
+    ],
+    "ch-8": [
+      "Inspector Chaubey",
+      "Kishorilal",
+      "Jagannath Chatterjee",
+      "Peter Robertson",
+      "Tapesh",
+      "Shatadal Sen",
+      "Baikuntha Mallik",
+      "Birbhum",
+      "Burdwan",
+      "Lancashire",
+      "Kopai",
+      "Goalpara",
+      "Tagore",
+      "rupees",
+      "hypnotized",
+      "Chandu Mallik",
+      "Felu",
+      "Ganesh Dandania",
+      "Jatayu",
+      "Mr Naskar",
+      "Reginald Maxwell",
+      "Rev. Pritchard",
+      "Santiniketan",
+      "The Statesman"
+    ],
+    "ch-9": [
+      "Inspector Chaubey",
+      "Jagannath Chatterjee",
+      "Tapesh",
+      "Shatadal Sen",
+      "Reginald Maxwell",
+      "Anant Narayan",
+      "Charles Premchand",
+      "Hiralal",
+      "Rev. Pritchard",
+      "Patrick Robertson",
+      "Dubrajpur",
+      "Calcutta Museum",
+      "National Geographic",
+      "Sandesh",
+      "Felu",
+      "Penguin Books",
+      "Gurgaon",
+      "Haryana",
+      "India",
+      "London",
+      "Dublin",
+      "Melbourne",
+      "Auckland",
+      "Johannesburg",
+      "Satyajit Ray",
+      "Babu",
+      "da",
+      "dada",
+      "punkha",
+      "Jatayu",
+      "Peter Robertson"
+    ]
+  }
+}

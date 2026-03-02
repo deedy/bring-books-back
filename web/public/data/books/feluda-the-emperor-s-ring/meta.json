@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-emperor-s-ring",
+  "title": "The Emperor's Ring",
+  "transliteratedTitle": "Badshahi Aangti",
+  "subtitle": "A Holiday in Lucknow Turns Perilous",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-emperor-s-ring.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "বাদশাহী আংটি",
+  "originalYear": 1966,
+  "totalChapters": 12,
+  "wordCount": 24244,
+  "summary": "When Feluda joins a family trip to the historic city of Lucknow, a seemingly ordinary holiday quickly takes a mysterious turn. As secrets from the city's royal past come to light, Feluda's sharp intellect is put to the ultimate test. Dive into a world where every corner hides a clue, and danger lurks just beneath the surface.",
+  "anthologyId": "feluda",
+  "storyNumber": 2
+}

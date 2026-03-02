@@ -1,0 +1,1095 @@
+{
+  "glossary": {
+    "Soumyasekhar Niyogi": {
+      "type": "character",
+      "description": "The present owner of the Niyogi house in Baikunthapur and owner of a valuable painting; he is nearly seventy years old and Rudrasekhar's first cousin.",
+      "image": "/data/images/characters/feluda-tintoretto-s-jesus/soumyasekhar-niyogi.webp"
+    },
+    "Rudrasekhar": {
+      "type": "character",
+      "description": "Soumyasekhar's first cousin who has returned from Rome after many years, likely to discuss family property matters.",
+      "image": "/data/images/characters/feluda-tintoretto-s-jesus/rudrasekhar.webp"
+    },
+    "Jagadish": {
+      "type": "character",
+      "description": "An old servant in the Niyogi household who brings news of Thumri's death."
+    },
+    "Bhikhu": {
+      "type": "character",
+      "description": "A person associated with the household, possibly a servant, who took Thumri for a walk and has now run away."
+    },
+    "Baikunthapur": {
+      "type": "proper_noun",
+      "description": "A place where the Niyogi family lives and the main setting for this chapter."
+    },
+    "Niyogi": {
+      "type": "proper_noun",
+      "description": "The family central to the story, formerly zamindars in Baikunthapur, owners of the valuable painting."
+    },
+    "Rome": {
+      "type": "proper_noun",
+      "description": "The capital city of Italy, where Rudrasekhar has been living."
+    },
+    "London": {
+      "type": "proper_noun",
+      "description": "The capital city of the United Kingdom, mentioned in conversation about Indian restaurants."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in India (now Kolkata), referenced as a place Rudrasekhar may need to visit."
+    },
+    "Thumri": {
+      "type": "proper_noun",
+      "description": "The name of one of Soumyasekhar's two fox terriers, also a term for a genre of semi-classical Indian music."
+    },
+    "Kajri": {
+      "type": "proper_noun",
+      "description": "The name of Soumyasekhar's other fox terrier, also a type of Indian folk song."
+    },
+    "zamindars": {
+      "type": "vocabulary",
+      "description": "Landowners or landlords in India, often with hereditary rights."
+    },
+    "durwan": {
+      "type": "vocabulary",
+      "description": "A gatekeeper or doorman, typically employed in Indian households."
+    },
+    "sahib": {
+      "type": "vocabulary",
+      "description": "A respectful term for a man, often used in India for someone of authority or status."
+    },
+    "huzoor": {
+      "type": "vocabulary",
+      "description": "A respectful form of address, similar to 'sir' in Hindi and Urdu."
+    },
+    "Lalmohan Ganguli": {
+      "type": "character",
+      "description": "A popular thriller writer and close friend of Feluda known for his enthusiasm and comic relief; he often seeks out experts like numerologists during their adventures.",
+      "image": "/data/images/characters/feluda-tintoretto-s-jesus/lalmohan-ganguli.webp"
+    },
+    "Bhabesh Chandra Bhattacharya": {
+      "type": "character",
+      "description": "A famous numerologist in Mecheda whom Lalmohan Babu wishes to consult; described as scholarly and known for performing calculations related to names and dates of birth."
+    },
+    "Haripada": {
+      "type": "character",
+      "description": "Jatayu's driver, who assists with car troubles during the journey."
+    },
+    "Nobo Kumar": {
+      "type": "character",
+      "description": "A member of the Niyogi family from Baikunthapur who invites Feluda and his friends to his ancestral home.",
+      "image": "/data/images/characters/feluda-tintoretto-s-jesus/nobo-kumar.webp"
+    },
+    "Pradosh Mitter": {
+      "type": "character",
+      "description": "The protagonist and private investigator who handles complex cases with the help of his cousin and friends."
+    },
+    "Shibpur": {
+      "type": "proper_noun",
+      "description": "A locality in West Bengal, India, through which the characters travel."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A classic Indian car model, once widely used across India."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, mentioned as one of the places Jatayu has visited."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, a major city in India."
+    },
+    "Jaisalmer": {
+      "type": "proper_noun",
+      "description": "A historic city in Rajasthan, India, known for its forts and desert."
+    },
+    "Benaras": {
+      "type": "proper_noun",
+      "description": "A sacred city on the banks of the Ganges in India, also known as Varanasi."
+    },
+    "Simla": {
+      "type": "proper_noun",
+      "description": "A hill station in Himachal Pradesh, India, now spelled Shimla."
+    },
+    "Nepal": {
+      "type": "proper_noun",
+      "description": "A neighboring country to India, mentioned as a travel destination."
+    },
+    "Mecheda": {
+      "type": "proper_noun",
+      "description": "A town near Calcutta, the destination for the group's visit to the numerologist."
+    },
+    "black hole": {
+      "type": "proper_noun",
+      "description": "A historical reference to the 'Black Hole of Calcutta,' a notorious prison cell incident."
+    },
+    "Kolaghat": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, passed by the group on their way to Mecheda."
+    },
+    "Armstrong Siddeley": {
+      "type": "proper_noun",
+      "description": "A British car brand, referenced as the model of the stranded gentleman's car."
+    },
+    "Bhudev Singh": {
+      "type": "proper_noun",
+      "description": "The author of an article about the Niyogi family published in a magazine."
+    },
+    "Illustrated Weekly": {
+      "type": "proper_noun",
+      "description": "A well-known English-language magazine in India."
+    },
+    "maharajahs": {
+      "type": "proper_noun",
+      "description": "Indian princes or rulers of princely states, who commissioned Chandrasekhar's portraits."
+    },
+    "princely states": {
+      "type": "proper_noun",
+      "description": "Semi-autonomous regions in pre-independence India ruled by local monarchs."
+    },
+    "sanyasi": {
+      "type": "proper_noun",
+      "description": "A Hindu ascetic or renunciant, which Chandrasekhar is said to have become."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term used in Bengali and other Indian languages to address men, often appended to a name."
+    },
+    "Felu": {
+      "type": "vocabulary",
+      "description": "The nickname and respectful form of address for Pradosh Mitter, a renowned private investigator and the protagonist of the stories."
+    },
+    "super-super-super": {
+      "type": "vocabulary",
+      "description": "An emphatic phrase used by Jatayu to exaggerate the extraordinary qualities of his fictional hero."
+    },
+    "tyre": {
+      "type": "vocabulary",
+      "description": "The British English spelling for 'tire,' commonly used in India."
+    },
+    "jack": {
+      "type": "vocabulary",
+      "description": "A mechanical device used to lift a car, commonly referred to in Indian English."
+    },
+    "petrol pump": {
+      "type": "vocabulary",
+      "description": "The Indian English term for a gas station or fuel station."
+    },
+    "Bankim Babu": {
+      "type": "character",
+      "description": "Former secretary and now manager for the Niyogi family, mentioned as someone who keeps details about visitors."
+    },
+    "Anant Nath Niyogi": {
+      "type": "character",
+      "description": "Nobo Kumar's great-grandfather whose portrait was painted by Chandrasekhar."
+    },
+    "Nondo Kumar": {
+      "type": "character",
+      "description": "Nobo Kumar's brother, who left for Bombay to pursue acting in Hindi films."
+    },
+    "Niyogi Palace": {
+      "type": "proper_noun",
+      "description": "The old, grand residence of the Niyogi family, central to the story's events."
+    },
+    "Napean Sea Road": {
+      "type": "proper_noun",
+      "description": "A prestigious residential area in Bombay where Nondo Kumar lives."
+    },
+    "Sea View": {
+      "type": "proper_noun",
+      "description": "The name of the building on Napean Sea Road where Nondo Kumar's flat is located."
+    },
+    "Italy": {
+      "type": "proper_noun",
+      "description": "The European country where Chandrasekhar spent time and developed his art."
+    },
+    "Jesus Christ": {
+      "type": "proper_noun",
+      "description": "The religious figure depicted in the valuable painting owned by the Niyogi family."
+    },
+    "Puja": {
+      "type": "proper_noun",
+      "description": "A Hindu religious festival, mentioned as a time when the family gathers."
+    },
+    "Hindi films": {
+      "type": "proper_noun",
+      "description": "Refers to the Indian film industry based in Bombay, in which Nondo Kumar tries to make a career."
+    },
+    "Arabian Nights": {
+      "type": "proper_noun",
+      "description": "A famous collection of Middle Eastern folk tales, referenced by Lalmohan Babu."
+    },
+    "chadar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian shawl or wrap, usually made of cotton or wool, draped over the shoulders."
+    },
+    "achkan": {
+      "type": "vocabulary",
+      "description": "A knee-length, traditional Indian coat worn by men, often for formal occasions."
+    },
+    "turban": {
+      "type": "vocabulary",
+      "description": "A traditional headwear made by winding cloth, worn by men in many parts of India."
+    },
+    "sherbet": {
+      "type": "vocabulary",
+      "description": "A sweet, flavored drink popular in India, often served cold."
+    },
+    "Baba": {
+      "type": "vocabulary",
+      "description": "A Bengali and Hindi term for father or a respectful elder."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A servant or attendant, especially one who serves food or drinks in Indian households."
+    },
+    "Mr Somani": {
+      "type": "character",
+      "description": "A man acting on behalf of a foreign buyer, interested in purchasing a valuable painting from the Niyogi family.",
+      "image": "/data/images/characters/feluda-tintoretto-s-jesus/mr-somani.webp"
+    },
+    "Hiralal Somani": {
+      "type": "proper_noun",
+      "description": "The full name of Mr Somani, whose business card is provided."
+    },
+    "Lotus Towers": {
+      "type": "proper_noun",
+      "description": "A building in Calcutta, given as part of Hiralal Somani's address."
+    },
+    "Amir Ali Avenue": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, part of Hiralal Somani's address."
+    },
+    "Bhagwangarh": {
+      "type": "proper_noun",
+      "description": "A place mentioned as the residence of Bhudev Singh, possibly in Madhya Pradesh."
+    },
+    "Madhya Pradesh": {
+      "type": "proper_noun",
+      "description": "A central Indian state, referred to as the possible location of Bhagwangarh."
+    },
+    "Pushpak Travels": {
+      "type": "proper_noun",
+      "description": "A travel agency or service mentioned by Feluda for checking travel details."
+    },
+    "MP": {
+      "type": "proper_noun",
+      "description": "Abbreviation for Madhya Pradesh, a state in India."
+    },
+    "self-portrait": {
+      "type": "vocabulary",
+      "description": "A painting or drawing an artist makes of themselves."
+    },
+    "lakhs": {
+      "type": "vocabulary",
+      "description": "A unit in the Indian numbering system equal to one hundred thousand (100,000)."
+    },
+    "fox terrier": {
+      "type": "vocabulary",
+      "description": "A breed of dog, mentioned as the Niyogi family's pet."
+    },
+    "Mr Chakravarty": {
+      "type": "character",
+      "description": "Mr Chakravarty is a travel agent at Pushpak Travels who assists Feluda with travel arrangements."
+    },
+    "Chandrasekhar Niyogi": {
+      "type": "character",
+      "description": "An artist member of the Niyogi family who studied in Rome, painted family portraits, and later became a sanyasi.",
+      "image": "/data/images/characters/feluda-tintoretto-s-jesus/chandrasekhar-niyogi.webp"
+    },
+    "Carla Cassini": {
+      "type": "character",
+      "description": "Carla Cassini is the wife of Chandrasekhar Niyogi, who died in 1937."
+    },
+    "Nagpur": {
+      "type": "proper_noun",
+      "description": "A major city in Maharashtra, India, serving as a travel hub in the story."
+    },
+    "Chhindwara": {
+      "type": "proper_noun",
+      "description": "A town in Madhya Pradesh, India, near Bhagwangarh."
+    },
+    "Presidency College": {
+      "type": "proper_noun",
+      "description": "A prestigious educational institution in Calcutta."
+    },
+    "Greece": {
+      "type": "proper_noun",
+      "description": "An ancient civilization referenced in the context of the Renaissance."
+    },
+    "Middle Ages": {
+      "type": "proper_noun",
+      "description": "A historical period in Europe preceding the Renaissance."
+    },
+    "Europe": {
+      "type": "proper_noun",
+      "description": "The continent where the Renaissance spread."
+    },
+    "Copernicus": {
+      "type": "proper_noun",
+      "description": "A Renaissance-era astronomer mentioned as a historical figure."
+    },
+    "Galileo": {
+      "type": "proper_noun",
+      "description": "A Renaissance scientist referenced in the discussion."
+    },
+    "Shakespeare": {
+      "type": "proper_noun",
+      "description": "A famous English playwright from the Renaissance period."
+    },
+    "Da Vinci": {
+      "type": "proper_noun",
+      "description": "Leonardo da Vinci, a renowned Renaissance artist and inventor."
+    },
+    "Raphael": {
+      "type": "proper_noun",
+      "description": "A celebrated Renaissance painter."
+    },
+    "Michelangelo": {
+      "type": "proper_noun",
+      "description": "A famous Renaissance sculptor and painter."
+    },
+    "Botticelli": {
+      "type": "proper_noun",
+      "description": "A notable Italian Renaissance painter."
+    },
+    "Giotto": {
+      "type": "proper_noun",
+      "description": "An influential Italian painter from the late Middle Ages and early Renaissance."
+    },
+    "Mantegna": {
+      "type": "proper_noun",
+      "description": "Andrea Mantegna, an Italian Renaissance painter."
+    },
+    "Rajah": {
+      "type": "vocabulary",
+      "description": "An Indian royal title, equivalent to king or prince."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional Indian long shirt worn by men."
+    },
+    "Kolhapuri chappals": {
+      "type": "vocabulary",
+      "description": "Handcrafted leather sandals originating from Kolhapur, Maharashtra."
+    },
+    "paisa": {
+      "type": "vocabulary",
+      "description": "A unit of currency in India, a subunit of the rupee."
+    },
+    "settee": {
+      "type": "vocabulary",
+      "description": "A long upholstered seat, similar to a sofa, commonly used in Indian homes."
+    },
+    "Mr Nagpal": {
+      "type": "character",
+      "description": "A local contact who greets Feluda and his companions at the station and assists them during their stay."
+    },
+    "Count Alberto Cassini": {
+      "type": "character",
+      "description": "Carla Cassini's father, an Italian aristocrat."
+    },
+    "Chevrolet": {
+      "type": "proper_noun",
+      "description": "A classic American car brand, indicating the vehicle used for transport."
+    },
+    "Hasnuhana": {
+      "type": "proper_noun",
+      "description": "A fragrant flower, also known as night-blooming jasmine, common in Indian gardens."
+    },
+    "Academy of Fine Arts in Rome": {
+      "type": "proper_noun",
+      "description": "A prestigious art institution in Rome, Italy, where Chandrasekhar Niyogi studied."
+    },
+    "Nawab of Bhopal": {
+      "type": "proper_noun",
+      "description": "A historical Muslim ruler from Bhopal, India, referenced as someone who knew Chandrasekhar."
+    },
+    "Bhopal": {
+      "type": "proper_noun",
+      "description": "A city in central India, formerly a princely state."
+    },
+    "Tintoretto": {
+      "type": "proper_noun",
+      "description": "A renowned Italian Renaissance painter, whose work is central to the plot; 'Tontiretto' is a misspelling."
+    },
+    "Hong Kong": {
+      "type": "proper_noun",
+      "description": "A major city and business hub in Asia, where Walter Krikorian has business interests."
+    },
+    "Rembrandt": {
+      "type": "proper_noun",
+      "description": "A famous Dutch painter, referenced as part of Krikorian's art collection."
+    },
+    "Turner": {
+      "type": "proper_noun",
+      "description": "Refers to J.M.W. Turner, a renowned British painter."
+    },
+    "Fragonard": {
+      "type": "proper_noun",
+      "description": "Refers to Jean-Honoré Fragonard, a famous French painter."
+    },
+    "Bosch": {
+      "type": "proper_noun",
+      "description": "Refers to Hieronymus Bosch, a celebrated Dutch painter, whose work Bhudev Singh owns."
+    },
+    "Mussolini": {
+      "type": "proper_noun",
+      "description": "Benito Mussolini, the Italian fascist leader, mentioned in relation to Chandrasekhar's son."
+    },
+    "Hrishikesh": {
+      "type": "proper_noun",
+      "description": "A town in northern India, where Chandrasekhar last wrote from."
+    },
+    "Bhawani temple": {
+      "type": "proper_noun",
+      "description": "A temple in Bhagwangarh shown to the visitors."
+    },
+    "Laxmi Narayan Gardens": {
+      "type": "proper_noun",
+      "description": "A garden in Bhagwangarh visited by the group."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air gallery or porch attached to a house, common in Indian architecture."
+    },
+    "ayurvedic": {
+      "type": "vocabulary",
+      "description": "Relating to Ayurveda, the traditional system of medicine native to India."
+    },
+    "Suryasekhar Niyogi": {
+      "type": "character",
+      "description": "Nobo Kumar's grandfather whose former room is now occupied by the returning Rudrasekhar."
+    },
+    "Inspector Mondol": {
+      "type": "character",
+      "description": "The police inspector investigating the murder at the Niyogi household."
+    },
+    "Remington": {
+      "type": "proper_noun",
+      "description": "A brand of typewriter, indicating the presence of Western technology in the household."
+    },
+    "The Sahara Shivers": {
+      "type": "proper_noun",
+      "description": "A fictional thriller written by Lalmohan Babu (Jatayu), referenced by the children."
+    },
+    "The Vampire of Vancouver": {
+      "type": "proper_noun",
+      "description": "Another fictional thriller by Lalmohan Babu (Jatayu), mentioned by the children."
+    },
+    "Venice": {
+      "type": "proper_noun",
+      "description": "An Italian city, referenced in relation to the Renaissance and the origins of the painting."
+    },
+    "chappals": {
+      "type": "vocabulary",
+      "description": "A type of open-toed sandal commonly worn in India."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or guard, typically employed to look after property."
+    },
+    "Mr Walter Krikorian": {
+      "type": "character",
+      "description": "A wealthy Armenian art collector with business in Hong Kong, interested in acquiring valuable paintings."
+    },
+    "Sadar Street": {
+      "type": "proper_noun",
+      "description": "A street location in the city, where Rudrasekhar's hotel is situated."
+    },
+    "Park Street": {
+      "type": "proper_noun",
+      "description": "A well-known street in the city, referenced here as the location of the post office."
+    },
+    "Krikorian Enterprises": {
+      "type": "proper_noun",
+      "description": "The business entity associated with Mr Walter Krikorian, located in Hong Kong."
+    },
+    "Hennessey Street": {
+      "type": "proper_noun",
+      "description": "A street in Hong Kong, the address for Krikorian Enterprises."
+    },
+    "cable": {
+      "type": "vocabulary",
+      "description": "A telegram or urgent message sent via telegraph, commonly used for international communication before email."
+    },
+    "Inspector Patwardhan": {
+      "type": "character",
+      "description": "A police inspector in Bombay who previously called Feluda for help."
+    },
+    "Kharagpur": {
+      "type": "proper_noun",
+      "description": "A city in West Bengal, India, where Feluda solved a notable double murder case."
+    },
+    "Interpol": {
+      "type": "proper_noun",
+      "description": "The International Criminal Police Organization, which would be involved if the case crossed international borders."
+    },
+    "Abu Dhabi": {
+      "type": "proper_noun",
+      "description": "The capital of the United Arab Emirates, mentioned as a possible destination in a past case."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital of Nepal, referenced as a place the characters have previously visited."
+    },
+    "Roma": {
+      "type": "proper_noun",
+      "description": "The Italian name for Rome, the capital of Italy, referenced in the newspaper cutting."
+    },
+    "Air-India": {
+      "type": "proper_noun",
+      "description": "India's national airline, offering flights to Hong Kong."
+    },
+    "Thai Airways": {
+      "type": "proper_noun",
+      "description": "An airline from Thailand, providing flights from Calcutta to Bangkok and onward to Hong Kong."
+    },
+    "Bangkok": {
+      "type": "proper_noun",
+      "description": "The capital of Thailand, a stopover city for flights to Hong Kong."
+    },
+    "goonda": {
+      "type": "vocabulary",
+      "description": "A Hindi word meaning a hired thug or criminal."
+    },
+    "Bhai": {
+      "type": "vocabulary",
+      "description": "A Hindi word meaning 'brother', used as a term of endearment or respect."
+    },
+    "catalogues": {
+      "type": "vocabulary",
+      "description": "Printed lists or booklets, often used in India to refer to collections of items for sale or exhibition."
+    },
+    "telegram": {
+      "type": "vocabulary",
+      "description": "A message sent by telegraph, once a common form of urgent communication in India."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's younger cousin and assistant who narrates the stories and accompanies him on all investigations."
+    },
+    "Mr Pal": {
+      "type": "character",
+      "description": "A Bengali businessman in Hong Kong, known to Inspector Mondol, who may assist Feluda."
+    },
+    "Boeing 707s": {
+      "type": "proper_noun",
+      "description": "A model of commercial jet airliner manufactured by Boeing."
+    },
+    "Netaji Indoor Stadium": {
+      "type": "proper_noun",
+      "description": "A large indoor stadium located in Kolkata, India."
+    },
+    "People’s Republic of China": {
+      "type": "proper_noun",
+      "description": "The official name for mainland China."
+    },
+    "Peking": {
+      "type": "proper_noun",
+      "description": "The former name of Beijing, the capital of China."
+    },
+    "Kowloon": {
+      "type": "proper_noun",
+      "description": "A region of Hong Kong located north of Hong Kong Island."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, home to the Bengali people."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "A country in the United Kingdom, referenced for comparison."
+    },
+    "Far East": {
+      "type": "proper_noun",
+      "description": "A term used to describe East Asian countries, including Hong Kong."
+    },
+    "London of the East": {
+      "type": "proper_noun",
+      "description": "A nickname for Hong Kong, highlighting its cosmopolitan nature."
+    },
+    "Patterson Street": {
+      "type": "proper_noun",
+      "description": "A street in Hong Kong where Mr Pal lives."
+    },
+    "Opel": {
+      "type": "proper_noun",
+      "description": "A German automobile manufacturer; Mr Pal drives an Opel car."
+    },
+    "Screen World": {
+      "type": "proper_noun",
+      "description": "A film magazine mentioned in the chapter."
+    },
+    "Pearl Hotel": {
+      "type": "proper_noun",
+      "description": "The hotel in Hong Kong where the characters are booked to stay."
+    },
+    "flat": {
+      "type": "vocabulary",
+      "description": "A British English term commonly used in India for an apartment."
+    },
+    "tea bags": {
+      "type": "vocabulary",
+      "description": "A modern way of making tea, popular in India and elsewhere."
+    },
+    "Hindi": {
+      "type": "vocabulary",
+      "description": "The most widely spoken language in India, also referring to films made in this language."
+    },
+    "Bengalis": {
+      "type": "vocabulary",
+      "description": "People from Bengal, an eastern region of India and Bangladesh."
+    },
+    "Kanhaiya": {
+      "type": "character",
+      "description": "An associate of Somani, involved in guarding and handling Feluda and his friends during their captivity."
+    },
+    "Radheshyam": {
+      "type": "character",
+      "description": "Another of Somani's henchmen, tasked with guarding Feluda and his group and armed with a revolver."
+    },
+    "Wong Soo": {
+      "type": "character",
+      "description": "An associate of Mr Pal in Hong Kong, described as capable and reliable, who helps with surveillance."
+    },
+    "Yung Ki": {
+      "type": "proper_noun",
+      "description": "A restaurant in Hong Kong where the characters have lunch."
+    },
+    "Lee Brothers": {
+      "type": "proper_noun",
+      "description": "A shop in Hong Kong recommended for quality goods at reasonable prices."
+    },
+    "Pentax": {
+      "type": "proper_noun",
+      "description": "A Japanese brand of cameras, used by Feluda for photography."
+    },
+    "Sony": {
+      "type": "proper_noun",
+      "description": "A Japanese electronics company; Feluda buys a Sony audio cassette recorder."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A brand of Indian cigarettes, smoked by Feluda in the story."
+    },
+    "Victoria Hill": {
+      "type": "proper_noun",
+      "description": "A posh residential area in Hong Kong where Mr Krikorian lives."
+    },
+    "Armenian": {
+      "type": "proper_noun",
+      "description": "Refers to Mr Krikorian's ethnicity, indicating he is from Armenia."
+    },
+    "Robin Chowdhury": {
+      "type": "character",
+      "description": "A member of the Niyogi family who initially poses as a journalist named Robin Chowdhury while researching a biography of Chandrasekhar Niyogi."
+    },
+    "Bata": {
+      "type": "proper_noun",
+      "description": "A popular footwear brand in India, used as a clue in the story."
+    },
+    "Mombasa": {
+      "type": "proper_noun",
+      "description": "A film referenced in the story, some of which was shot in Africa."
+    },
+    "Switzerland": {
+      "type": "proper_noun",
+      "description": "A European country where Robin Chowdhury learned painting."
+    },
+    "Zurich": {
+      "type": "proper_noun",
+      "description": "A city in Switzerland where Robin Chowdhury lived."
+    },
+    "Paris": {
+      "type": "proper_noun",
+      "description": "The capital of France, where Robin Chowdhury studied art."
+    },
+    "Cassini": {
+      "type": "proper_noun",
+      "description": "A family in Italy associated with the painting."
+    },
+    "shukto": {
+      "type": "vocabulary",
+      "description": "A traditional Bengali bitter vegetable dish, usually served at the beginning of a meal."
+    },
+    "daal": {
+      "type": "vocabulary",
+      "description": "A staple Indian dish made from lentils."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Soumyasekhar Niyogi",
+      "Rudrasekhar",
+      "Jagadish",
+      "Bhikhu",
+      "Baikunthapur",
+      "Niyogi",
+      "Rome",
+      "London",
+      "Calcutta",
+      "Thumri",
+      "Kajri",
+      "zamindars",
+      "durwan",
+      "sahib",
+      "huzoor"
+    ],
+    "ch-2": [
+      "Lalmohan Ganguli",
+      "Bhabesh Chandra Bhattacharya",
+      "Haripada",
+      "Nobo Kumar",
+      "Pradosh Mitter",
+      "Niyogi",
+      "Shibpur",
+      "Ambassador",
+      "Delhi",
+      "Bombay",
+      "Jaisalmer",
+      "Benaras",
+      "Simla",
+      "Nepal",
+      "Mecheda",
+      "Calcutta",
+      "black hole",
+      "Kolaghat",
+      "Armstrong Siddeley",
+      "Baikunthapur",
+      "Bhudev Singh",
+      "Illustrated Weekly",
+      "Rome",
+      "maharajahs",
+      "princely states",
+      "sanyasi",
+      "Babu",
+      "Felu",
+      "super-super-super",
+      "tyre",
+      "jack",
+      "petrol pump",
+      "Chandrasekhar Niyogi",
+      "Topshe"
+    ],
+    "ch-3": [
+      "Nobo Kumar",
+      "Bankim Babu",
+      "Anant Nath Niyogi",
+      "Rudrasekhar",
+      "Bhudev Singh",
+      "Nondo Kumar",
+      "Mecheda",
+      "Baikunthapur",
+      "Niyogi Palace",
+      "Rome",
+      "Calcutta",
+      "Bombay",
+      "Napean Sea Road",
+      "Sea View",
+      "Italy",
+      "Jesus Christ",
+      "Puja",
+      "Hindi films",
+      "Arabian Nights",
+      "chadar",
+      "Babu",
+      "achkan",
+      "turban",
+      "sherbet",
+      "Baba",
+      "Thumri",
+      "bearer",
+      "Bhabesh Chandra Bhattacharya",
+      "Chandrasekhar Niyogi",
+      "Lalmohan Ganguli",
+      "Mr Somani",
+      "Soumyasekhar Niyogi",
+      "Robin Chowdhury",
+      "lakhs"
+    ],
+    "ch-4": [
+      "Nobo Kumar",
+      "Rudrasekhar",
+      "Baba",
+      "Bhudev Singh",
+      "Bankim Babu",
+      "Mr Somani",
+      "Anant Nath Niyogi",
+      "Hiralal Somani",
+      "Lotus Towers",
+      "Amir Ali Avenue",
+      "Calcutta",
+      "Bhagwangarh",
+      "Madhya Pradesh",
+      "Pushpak Travels",
+      "MP",
+      "Baikunthapur",
+      "Babu",
+      "self-portrait",
+      "lakhs",
+      "fox terrier",
+      "Chandrasekhar Niyogi",
+      "Felu",
+      "Jesus Christ",
+      "Lalmohan Ganguli",
+      "Robin Chowdhury"
+    ],
+    "ch-5": [
+      "Mr Chakravarty",
+      "Mr Somani",
+      "Bhudev Singh",
+      "Nobo Kumar",
+      "Chandrasekhar Niyogi",
+      "Rudrasekhar",
+      "Carla Cassini",
+      "Bhagwangarh",
+      "Madhya Pradesh",
+      "Nagpur",
+      "Chhindwara",
+      "Pushpak Travels",
+      "Calcutta",
+      "Lotus Towers",
+      "Amir Ali Avenue",
+      "Baikunthapur",
+      "Niyogi",
+      "Presidency College",
+      "Rome",
+      "Italy",
+      "Greece",
+      "Middle Ages",
+      "Europe",
+      "Copernicus",
+      "Galileo",
+      "Shakespeare",
+      "Da Vinci",
+      "Raphael",
+      "Michelangelo",
+      "Botticelli",
+      "Giotto",
+      "Mantegna",
+      "Carla Cassini",
+      "Rajah",
+      "kurta",
+      "Kolhapuri chappals",
+      "paisa",
+      "lakhs",
+      "Babu",
+      "settee",
+      "Academy of Fine Arts in Rome",
+      "Felu",
+      "Lalmohan Ganguli"
+    ],
+    "ch-6": [
+      "Mr Nagpal",
+      "Bhudev Singh",
+      "Carla Cassini",
+      "Count Alberto Cassini",
+      "Hiralal Somani",
+      "Rudrasekhar",
+      "Nobo Kumar",
+      "Chhindwara",
+      "Chevrolet",
+      "Bhagwangarh",
+      "Hasnuhana",
+      "Baikunthapur",
+      "Academy of Fine Arts in Rome",
+      "Rome",
+      "Nawab of Bhopal",
+      "Bhopal",
+      "Tintoretto",
+      "Hong Kong",
+      "Rembrandt",
+      "Turner",
+      "Fragonard",
+      "Bosch",
+      "Mussolini",
+      "Hrishikesh",
+      "Bhawani temple",
+      "Laxmi Narayan Gardens",
+      "Nagpur",
+      "Rajah",
+      "veranda",
+      "lakhs",
+      "ayurvedic",
+      "Chandrasekhar Niyogi",
+      "Felu",
+      "Lalmohan Ganguli",
+      "Mr Walter Krikorian",
+      "Soumyasekhar Niyogi"
+    ],
+    "ch-7": [
+      "Nobo Kumar",
+      "Rudrasekhar",
+      "Bankim Babu",
+      "Bhudev Singh",
+      "Suryasekhar Niyogi",
+      "Inspector Mondol",
+      "Rajah",
+      "Baikunthapur",
+      "Niyogi",
+      "Calcutta",
+      "Remington",
+      "The Sahara Shivers",
+      "The Vampire of Vancouver",
+      "Venice",
+      "Italy",
+      "chappals",
+      "chowkidar",
+      "bearer",
+      "Chandrasekhar Niyogi",
+      "Felu",
+      "Lalmohan Ganguli",
+      "Robin Chowdhury",
+      "Tintoretto"
+    ],
+    "ch-8": [
+      "Rudrasekhar",
+      "Mr Somani",
+      "Hiralal Somani",
+      "Mr Walter Krikorian",
+      "Sadar Street",
+      "Park Street",
+      "Hong Kong",
+      "Krikorian Enterprises",
+      "Hennessey Street",
+      "cable",
+      "Soumyasekhar Niyogi"
+    ],
+    "ch-9": [
+      "Inspector Mondol",
+      "Bankim Babu",
+      "Rudrasekhar",
+      "Nobo Kumar",
+      "Inspector Patwardhan",
+      "Kharagpur",
+      "Sadar Street",
+      "Calcutta",
+      "Hong Kong",
+      "Interpol",
+      "Bombay",
+      "Abu Dhabi",
+      "Kathmandu",
+      "Nepal",
+      "Roma",
+      "Air-India",
+      "Thai Airways",
+      "Bangkok",
+      "Tintoretto",
+      "goonda",
+      "Babu",
+      "Bhai",
+      "catalogues",
+      "telegram",
+      "rupees",
+      "Felu",
+      "Lalmohan Ganguli",
+      "Mr Pal",
+      "Mr Somani",
+      "Robin Chowdhury",
+      "Topshe",
+      "Soumyasekhar Niyogi"
+    ],
+    "ch-10": [
+      "Nobo Kumar",
+      "Hiralal Somani",
+      "Topshe",
+      "Mr Pal",
+      "Hong Kong",
+      "Air-India",
+      "Boeing 707s",
+      "Netaji Indoor Stadium",
+      "People’s Republic of China",
+      "Peking",
+      "Bangkok",
+      "Kowloon",
+      "Bengal",
+      "Calcutta",
+      "England",
+      "Far East",
+      "London",
+      "London of the East",
+      "Patterson Street",
+      "Opel",
+      "Screen World",
+      "Pearl Hotel",
+      "Hennessey Street",
+      "Babu",
+      "rupees",
+      "flat",
+      "tea bags",
+      "Hindi",
+      "Bengalis",
+      "Felu",
+      "Lalmohan Ganguli",
+      "Mr Walter Krikorian"
+    ],
+    "ch-11": [
+      "Mr Pal",
+      "Kanhaiya",
+      "Radheshyam",
+      "Wong Soo",
+      "Yung Ki",
+      "Lee Brothers",
+      "Pentax",
+      "Sony",
+      "Pearl Hotel",
+      "Hong Kong",
+      "Calcutta",
+      "Charminar",
+      "Kowloon",
+      "Victoria Hill",
+      "Tintoretto",
+      "Armenian",
+      "huzoor",
+      "Felu",
+      "Lalmohan Ganguli",
+      "Mr Walter Krikorian",
+      "Mr Somani"
+    ],
+    "ch-12": [
+      "Topshe",
+      "Mr Pal",
+      "Nobo Kumar",
+      "Inspector Mondol",
+      "Thumri",
+      "Rudrasekhar",
+      "Nondo Kumar",
+      "Bankim Babu",
+      "Robin Chowdhury",
+      "Bhudev Singh",
+      "Hiralal Somani",
+      "Italy",
+      "Hong Kong",
+      "Kowloon",
+      "Calcutta",
+      "Park Street",
+      "Baikunthapur",
+      "Bata",
+      "Rome",
+      "Mombasa",
+      "Switzerland",
+      "Zurich",
+      "Paris",
+      "Venice",
+      "Cassini",
+      "Tintoretto",
+      "Bombay",
+      "Mecheda",
+      "shukto",
+      "daal",
+      "Babu",
+      "Bhabesh Chandra Bhattacharya",
+      "Chandrasekhar Niyogi",
+      "Felu",
+      "Lalmohan Ganguli",
+      "Mr Walter Krikorian",
+      "Soumyasekhar Niyogi"
+    ]
+  }
+}

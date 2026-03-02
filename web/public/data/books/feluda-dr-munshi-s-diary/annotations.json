@@ -1,0 +1,463 @@
+{
+  "glossary": {
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "A close friend of Feluda and a writer of popular thriller novels under the pen name Jatayu, formally known as Mr Ganguli.",
+      "image": "/data/images/characters/feluda-dr-munshi-s-diary/lalmohan-babu.webp"
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "A sharp and observant private detective whose full name is Prodosh C. Mitter; he serves as the model for Lalmohan Babu's fictional hero, Prakhar Rudra.",
+      "image": "/data/images/characters/feluda-dr-munshi-s-diary/feluda.webp"
+    },
+    "Shankar Munshi": {
+      "type": "character",
+      "description": "A young man who visits Feluda to seek his help regarding a threat to his father.",
+      "image": "/data/images/characters/feluda-dr-munshi-s-diary/shankar-munshi.webp"
+    },
+    "Dr Rajen Munshi": {
+      "type": "character",
+      "description": "A well-known psychiatrist and father of Shankar Munshi whose diary is central to the mystery; he is a benefactor to several characters in the story.",
+      "image": "/data/images/characters/feluda-dr-munshi-s-diary/dr-rajen-munshi.webp"
+    },
+    "Florence": {
+      "type": "proper_noun",
+      "description": "A city in Italy, referenced as the setting for Lalmohan Babu's new novel."
+    },
+    "Penguin": {
+      "type": "proper_noun",
+      "description": "A major international publishing company planning to publish Dr Rajen Munshi's diary."
+    },
+    "Swinhoe Street": {
+      "type": "proper_noun",
+      "description": "The address where Shankar Munshi and his family live."
+    },
+    "Munshi Palace": {
+      "type": "proper_noun",
+      "description": "The name of the Munshi family's house."
+    },
+    "samosas": {
+      "type": "vocabulary",
+      "description": "A popular Indian snack consisting of a fried or baked pastry filled with spiced potatoes, peas, or meat."
+    },
+    "daalmut": {
+      "type": "vocabulary",
+      "description": "A crunchy Indian snack made from fried lentils and spices."
+    },
+    "Charminar": {
+      "type": "vocabulary",
+      "description": "A brand of Indian cigarettes."
+    },
+    "Lux": {
+      "type": "vocabulary",
+      "description": "A well-known brand of soap in India."
+    },
+    "Cinthol": {
+      "type": "vocabulary",
+      "description": "An Indian brand of soap, popular for its strong fragrance."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional Indian long shirt worn by men."
+    },
+    "garlic": {
+      "type": "vocabulary",
+      "description": "A pungent bulb used in Indian cooking and traditional medicine."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A term used in India for a household servant or attendant."
+    },
+    "shikar": {
+      "type": "vocabulary",
+      "description": "The Hindi word for hunting, often referring to big game hunting in India."
+    },
+    "shikari": {
+      "type": "vocabulary",
+      "description": "A hunter, especially one who hunts big game in India."
+    },
+    "George Higgins": {
+      "type": "character",
+      "description": "An Anglo-Indian wild animal catcher and exporter referred to as 'G' in Dr Munshi's diary."
+    },
+    "Arun Sengupta": {
+      "type": "character",
+      "description": "Arun Sengupta is the general manager of McNeil Company and vice president of Rotary Club, involved in the current case Feluda is investigating. He is also referred to as Mr Sengupta and as 'A' in the diary.",
+      "image": "/data/images/characters/feluda-dr-munshi-s-diary/arun-sengupta.webp"
+    },
+    "Sukhamoy Chakravarty": {
+      "type": "character",
+      "description": "Dr Munshi's secretary responsible for typing manuscripts, who also received financial assistance from the doctor."
+    },
+    "Radhakanta Mallik": {
+      "type": "character",
+      "description": "A patient of Dr Munshi, currently under treatment and residing in the house."
+    },
+    "Royal Bengal": {
+      "type": "proper_noun",
+      "description": "Refers to the Royal Bengal tiger, a prominent tiger subspecies native to the Indian subcontinent."
+    },
+    "McNeil Company": {
+      "type": "proper_noun",
+      "description": "A company where Arun Sengupta works as general manager."
+    },
+    "Rotary Club": {
+      "type": "proper_noun",
+      "description": "An international service organization with local chapters, involved in community service."
+    },
+    "Roland Road": {
+      "type": "proper_noun",
+      "description": "A street address where Arun Sengupta lives."
+    },
+    "Ripon Street": {
+      "type": "proper_noun",
+      "description": "A street address where George Higgins resides."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A classic Indian car model, popular for decades as a family and official vehicle."
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's cousin and assistant, whose real name is Tapesh, who often helps in investigations."
+    },
+    "Kabul": {
+      "type": "proper_noun",
+      "description": "The capital of Afghanistan, referenced as the origin of kabuliwallas."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in India, now known as Kolkata, where much of the story is set."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country where the events take place."
+    },
+    "Swedish": {
+      "type": "proper_noun",
+      "description": "Refers to the nationality of the film director involved in Higgins's story."
+    },
+    "kabuliwallas": {
+      "type": "vocabulary",
+      "description": "Moneylenders from Kabul, Afghanistan, who used to lend money at high interest rates in India."
+    },
+    "zamindars": {
+      "type": "vocabulary",
+      "description": "Landowners, often wealthy, who historically held large estates in India and collected taxes from peasants."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "Eleven Roland Road": {
+      "type": "proper_noun",
+      "description": "The address of Mr Sengupta's house, where the meeting takes place."
+    },
+    "British": {
+      "type": "proper_noun",
+      "description": "Refers to the British colonial era in India, indicating the age and style of the house."
+    },
+    "Chawla": {
+      "type": "proper_noun",
+      "description": "Guru Prasad Chawla is a businessman whose grandson is missing. He is referred to as Chawla or G.P. Chawla."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A type of cigar, often associated with Indian and colonial settings."
+    },
+    "R": {
+      "type": "character",
+      "description": "A mysterious character whose identity is unknown and is a source of curiosity for Feluda."
+    },
+    "Inspector Shome": {
+      "type": "character",
+      "description": "The police inspector in charge of the murder investigation at Munshi Palace.",
+      "image": "/data/images/characters/feluda-dr-munshi-s-diary/inspector-shome.webp"
+    },
+    "Mrs Munshi": {
+      "type": "character",
+      "description": "Dr Munshi's wife, who is present during the investigation."
+    },
+    "Dr Pranav Kar": {
+      "type": "character",
+      "description": "A doctor mentioned as the family physician consulted by the Munshi family."
+    },
+    "Beltola Road": {
+      "type": "proper_noun",
+      "description": "A road in Kolkata where Sukhamoy Chakravarty's family lives."
+    },
+    "Chatterjee": {
+      "type": "proper_noun",
+      "description": "A person from Feluda's past, referenced in a nostalgic conversation."
+    },
+    "coffee house": {
+      "type": "proper_noun",
+      "description": "A cultural institution in Kolkata, popular for intellectual gatherings and discussions."
+    },
+    "football": {
+      "type": "proper_noun",
+      "description": "A popular sport in Kolkata, referenced as part of Feluda's memories."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term of address for men in Bengal, often used after a name."
+    },
+    "case-let": {
+      "type": "vocabulary",
+      "description": "A playful diminutive form of 'case,' indicating a minor or small case."
+    },
+    "Popular Insurance": {
+      "type": "proper_noun",
+      "description": "A company where Radhakanta Mallik is employed, mentioned during his interrogation."
+    },
+    "Namaskar": {
+      "type": "vocabulary",
+      "description": "A respectful greeting in Bengali and Hindi, similar to 'hello' or 'greetings.'"
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "A household staff member who announces that lunch has been served."
+    },
+    "London": {
+      "type": "proper_noun",
+      "description": "The capital city of the United Kingdom, referenced as the place where Dr Munshi and R studied medicine."
+    },
+    "Telegraph": {
+      "type": "proper_noun",
+      "description": "An English-language newspaper published in India, mentioned as a source of news about the diary's publication."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed as a mouth freshener and digestive aid in South Asia."
+    },
+    "Puri": {
+      "type": "proper_noun",
+      "description": "A coastal city in Odisha, India, known for its religious significance and beaches."
+    },
+    "National Geographic": {
+      "type": "proper_noun",
+      "description": "A famous magazine known for its articles and photographs on geography, history, and world culture."
+    },
+    "Antarctic": {
+      "type": "proper_noun",
+      "description": "The Earth's southernmost continent, referenced in an article being read."
+    },
+    "constable": {
+      "type": "vocabulary",
+      "description": "A police officer of lower rank in India."
+    },
+    "airmail envelopes": {
+      "type": "vocabulary",
+      "description": "Special envelopes used for sending letters internationally by air, common in India before widespread email use."
+    },
+    "Chandranath Basu": {
+      "type": "character",
+      "description": "Dr Munshi's unemployed brother-in-law who is financially dependent on the family."
+    },
+    "Giridhari": {
+      "type": "character",
+      "description": "Giridhari is the mali (gardener) at Dr Munshi's house."
+    },
+    "Raghunandan Tiwari": {
+      "type": "character",
+      "description": "Raghunandan Tiwari is the long-serving driver in Dr Munshi's household."
+    },
+    "Satish Mukherjee Road": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata, given as Radhakanta Mallik's address."
+    },
+    "X-E-R-O-X": {
+      "type": "proper_noun",
+      "description": "A reference to the Xerox brand, used here to mean photocopying a document."
+    },
+    "North Pole": {
+      "type": "proper_noun",
+      "description": "A geographical reference used humorously by Jatayu, though penguins live at the South Pole."
+    },
+    "South Pole": {
+      "type": "proper_noun",
+      "description": "The correct location for penguins, mentioned in contrast to Jatayu's mistake."
+    },
+    "bhai": {
+      "type": "vocabulary",
+      "description": "A Hindi/Bengali word meaning 'brother', used here as a friendly address."
+    },
+    "khichuri": {
+      "type": "vocabulary",
+      "description": "A traditional Bengali dish made of rice and lentils, often eaten during rainy days."
+    },
+    "mali": {
+      "type": "vocabulary",
+      "description": "A Hindi/Bengali word for 'gardener'."
+    },
+    "Ma": {
+      "type": "vocabulary",
+      "description": "A Bengali/Hindi word for 'mother'."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Shankar Munshi",
+      "Dr Rajen Munshi",
+      "Florence",
+      "Penguin",
+      "Swinhoe Street",
+      "Munshi Palace",
+      "samosas",
+      "daalmut",
+      "Charminar",
+      "Lux",
+      "Cinthol",
+      "kurta",
+      "garlic",
+      "bearer",
+      "shikar",
+      "shikari"
+    ],
+    "ch-2": [
+      "Shankar Munshi",
+      "Feluda",
+      "Lalmohan Babu",
+      "George Higgins",
+      "Arun Sengupta",
+      "Sukhamoy Chakravarty",
+      "Radhakanta Mallik",
+      "Swinhoe Street",
+      "Royal Bengal",
+      "McNeil Company",
+      "Rotary Club",
+      "Roland Road",
+      "Ripon Street",
+      "Ambassador",
+      "shikari",
+      "shikar",
+      "Dr Rajen Munshi",
+      "Chandranath Basu",
+      "Topshe"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Arun Sengupta",
+      "Topshe",
+      "George Higgins",
+      "Kabul",
+      "Calcutta",
+      "India",
+      "Roland Road",
+      "Swedish",
+      "kabuliwallas",
+      "zamindars",
+      "rupees",
+      "Dr Rajen Munshi"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Eleven Roland Road",
+      "British",
+      "Chawla",
+      "bearer",
+      "cheroot",
+      "Dr Rajen Munshi",
+      "Arun Sengupta"
+    ],
+    "ch-5": [
+      "Lalmohan Babu",
+      "Feluda",
+      "George Higgins",
+      "Arun Sengupta",
+      "R",
+      "Shankar Munshi",
+      "Inspector Shome",
+      "Mrs Munshi",
+      "Dr Pranav Kar",
+      "Sukhamoy Chakravarty",
+      "Ripon Street",
+      "Munshi Palace",
+      "Beltola Road",
+      "Chatterjee",
+      "coffee house",
+      "Swedish",
+      "football",
+      "shikari",
+      "bearer",
+      "Babu",
+      "case-let",
+      "Dr Rajen Munshi"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Radhakanta Mallik",
+      "Mrs Munshi",
+      "Inspector Shome",
+      "Popular Insurance",
+      "Namaskar",
+      "rupees",
+      "Dr Rajen Munshi",
+      "Chandranath Basu"
+    ],
+    "ch-7": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Mrs Munshi",
+      "Topshe",
+      "R",
+      "Srinath",
+      "Inspector Shome",
+      "Calcutta",
+      "London",
+      "Telegraph",
+      "Penguin",
+      "Munshi Palace",
+      "Charminar",
+      "paan",
+      "Dr Rajen Munshi"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Shankar Munshi",
+      "Sukhamoy Chakravarty",
+      "Lalmohan Babu",
+      "Srinath",
+      "Radhakanta Mallik",
+      "Penguin",
+      "Puri",
+      "National Geographic",
+      "Antarctic",
+      "Telegraph",
+      "constable",
+      "airmail envelopes",
+      "Dr Rajen Munshi"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Shankar Munshi",
+      "Inspector Shome",
+      "Sukhamoy Chakravarty",
+      "Radhakanta Mallik",
+      "Chandranath Basu",
+      "Srinath",
+      "Giridhari",
+      "Raghunandan Tiwari",
+      "Munshi Palace",
+      "Swinhoe Street",
+      "Beltola Road",
+      "Popular Insurance",
+      "Satish Mukherjee Road",
+      "Telegraph",
+      "X-E-R-O-X",
+      "North Pole",
+      "South Pole",
+      "Charminar",
+      "Lalmohan Babu",
+      "bhai",
+      "khichuri",
+      "mali",
+      "Ma",
+      "Dr Rajen Munshi",
+      "Topshe"
+    ]
+  }
+}

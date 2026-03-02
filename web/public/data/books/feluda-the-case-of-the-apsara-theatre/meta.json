@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-case-of-the-apsara-theatre",
+  "title": "The Case of the Apsara Theatre",
+  "transliteratedTitle": "Apsara Theatrer Mamla",
+  "subtitle": "Mystery Unfolds Behind the Curtains of Calcutta",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-case-of-the-apsara-theatre.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "অপ্সরা থিয়েটারের মামলা",
+  "originalYear": 1987,
+  "totalChapters": 7,
+  "wordCount": 7035,
+  "summary": "When a mysterious visitor interrupts a cozy evening, Feluda and his companions are drawn into the enigmatic world of the Apsara Theatre. Secrets, intrigue, and danger await as the famous detective unravels a puzzle hidden in the city’s shadows. Dive in and discover why Feluda is a legend among sleuths.",
+  "anthologyId": "feluda",
+  "storyNumber": 28
+}

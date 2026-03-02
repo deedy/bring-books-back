@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-mystery-of-the-walking-dead",
+  "title": "The Mystery of the Walking Dead",
+  "transliteratedTitle": "Gosaipur Sargaram",
+  "subtitle": "A Village Shrouded in Secrets and Suspicion",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-mystery-of-the-walking-dead.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "গোঁসাইপুর সরগরম",
+  "originalYear": 1976,
+  "totalChapters": 8,
+  "wordCount": 13349,
+  "summary": "When Feluda receives a desperate letter fearing murder in the quiet village of Gosaipur, curiosity gets the better of him and his companions. As they journey from the bustling city to the enigmatic countryside, they find themselves entangled in a web of old feuds and hidden motives. Will Feluda unravel the truth before danger strikes?",
+  "anthologyId": "feluda",
+  "storyNumber": 14
+}

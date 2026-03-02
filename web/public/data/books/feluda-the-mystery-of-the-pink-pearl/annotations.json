@@ -1,0 +1,579 @@
+{
+  "glossary": {
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "A writer of detective stories and a recurring companion of Feluda, also known by his pen name Jatayu and sometimes referred to as Mr Ganguli.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-pink-pearl/lalmohan-babu.webp"
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "The main detective of the story, renowned for his sharp intellect and investigative skills, whose real name is Prodosh C. Mitter.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-pink-pearl/feluda.webp"
+    },
+    "Navjeevan Haldar": {
+      "type": "character",
+      "description": "A renowned professor of history invited to Sonahati for a joint reception, commonly referred to as Prof Haldar."
+    },
+    "Panchanan Mallik": {
+      "type": "character",
+      "description": "The wealthiest man in Sonahati, president of the Recreation Club, and a collector of antiques."
+    },
+    "Someshwar Saha": {
+      "type": "character",
+      "description": "A lawyer and Feluda's old classmate living in Sonahati who hosts the group for dinner; he is sometimes referred to as Mr Saha."
+    },
+    "Naresh Sen": {
+      "type": "character",
+      "description": "The secretary of the Sonahati Recreation Club who invited Feluda and Prof Haldar."
+    },
+    "Sonahati": {
+      "type": "proper_noun",
+      "description": "A town in Bengal, formerly a village, now with modern amenities like a school, hospital, and hotel."
+    },
+    "Travelling in Bengal": {
+      "type": "proper_noun",
+      "description": "A book Feluda is reading, providing information about Sonahati."
+    },
+    "Shiv temple": {
+      "type": "proper_noun",
+      "description": "A Hindu temple dedicated to Lord Shiva, located in Sonahati."
+    },
+    "Mangal Deeghi": {
+      "type": "proper_noun",
+      "description": "A large lake in Sonahati, built by a local zamindar."
+    },
+    "zamindars": {
+      "type": "proper_noun",
+      "description": "Landowners in India, especially during the Mughal and British periods, often wealthy and influential."
+    },
+    "Recreation Club": {
+      "type": "proper_noun",
+      "description": "A local club in Sonahati that organized the reception for Feluda and Prof Haldar."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in India, now known as Kolkata, from where the protagonists travel."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A classic Indian car model, commonly used by affluent individuals and officials."
+    },
+    "Maharshi Debendranath": {
+      "type": "proper_noun",
+      "description": "Maharshi Debendranath, often referred to simply as Maharshi, was Rabindranath Tagore’s father and a respected figure in Bengal."
+    },
+    "maharaja": {
+      "type": "proper_noun",
+      "description": "A Sanskrit title for a great king or prince in India."
+    },
+    "jamavar": {
+      "type": "proper_noun",
+      "description": "A type of luxurious, intricately woven shawl from Kashmir."
+    },
+    "Mr Mallik": {
+      "type": "proper_noun",
+      "description": "Refers to Panchanan Mallik, the host and president of the Recreation Club."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional long shirt worn in South Asia, often by men."
+    },
+    "achkan": {
+      "type": "vocabulary",
+      "description": "A knee-length coat-like garment worn by men in India, usually for formal occasions."
+    },
+    "pyjamas": {
+      "type": "vocabulary",
+      "description": "Loose-fitting trousers, part of traditional South Asian attire."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or guard, commonly employed for security in India."
+    },
+    "sherbet": {
+      "type": "vocabulary",
+      "description": "A sweet, flavored drink popular in South Asia, usually served cold."
+    },
+    "Jaichand Boral": {
+      "type": "character",
+      "description": "A schoolteacher and descendant of jewellers who is the original owner of the rare pink pearl; sometimes referred to simply as Jaich.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-pink-pearl/jaichand-boral.webp"
+    },
+    "Mrs Saha": {
+      "type": "character",
+      "description": "Someshwar Saha’s wife, who welcomes the guests."
+    },
+    "Tipu Sultan": {
+      "type": "proper_noun",
+      "description": "A historical ruler of Mysore, known for his resistance against British colonialism."
+    },
+    "Robert Clive": {
+      "type": "proper_noun",
+      "description": "A British officer and colonial administrator in India during the 18th century."
+    },
+    "Siraj-ud-daula": {
+      "type": "proper_noun",
+      "description": "The last independent Nawab of Bengal, defeated at the Battle of Plassey."
+    },
+    "Rani Rashmoni": {
+      "type": "proper_noun",
+      "description": "A philanthropist and founder of the Dakshineswar Kali Temple in Bengal."
+    },
+    "Kashmiri": {
+      "type": "proper_noun",
+      "description": "Relating to Kashmir, a region in northern India, known for its fine shawls."
+    },
+    "Madras": {
+      "type": "proper_noun",
+      "description": "A city on the southeastern coast of India, now called Chennai."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, historically significant and culturally rich."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "A South Asian country, setting for the story."
+    },
+    "naagra": {
+      "type": "vocabulary",
+      "description": "Naagra (or naagras) refers to traditional Indian slip-on shoes, often made of leather and embroidered."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional men's garment in India, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A piece of fabric worn over the shoulders or head, often used for warmth or ceremonial purposes."
+    },
+    "Motilal Boral": {
+      "type": "character",
+      "description": "Motilal Boral is a key character involved in the custody of the pink pearl, cousin of Jaichand Boral, and claims a share in the family heirloom; he is sometimes referred to simply as Motilal or Mr Boral.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-pink-pearl/motilal-boral.webp"
+    },
+    "Suraj Singh": {
+      "type": "character",
+      "description": "A powerful man from Dharampur, Uttar Pradesh, who wishes to buy the pink pearl and is sometimes referred to simply as Singh.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-pink-pearl/suraj-singh.webp"
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "A servant or helper who brings tea and water to the guests."
+    },
+    "Maganlal Meghraj": {
+      "type": "character",
+      "description": "Maganlal Meghraj is the cunning antagonist and a recurring adversary of Feluda, known for his criminal dealings in antiques and art; he sometimes uses the alias Mr Meghraj.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-pink-pearl/maganlal-meghraj.webp"
+    },
+    "Benaras": {
+      "type": "proper_noun",
+      "description": "Also known as Varanasi, a holy city in Uttar Pradesh, India, where Motilal Boral lives."
+    },
+    "Dharampur": {
+      "type": "proper_noun",
+      "description": "A fictional or lesser-known town in Uttar Pradesh, described as a former princely state."
+    },
+    "Uttar Pradesh": {
+      "type": "proper_noun",
+      "description": "Uttar Pradesh, often abbreviated as UP, is a large state in northern India and a key setting for the story."
+    },
+    "Dharampur Palace": {
+      "type": "proper_noun",
+      "description": "The royal residence in Dharampur, associated with Suraj Singh."
+    },
+    "Chittaranjan Avenue": {
+      "type": "proper_noun",
+      "description": "A prominent street in Kolkata, where Maganlal Meghraj has a house."
+    },
+    "Godrej": {
+      "type": "proper_noun",
+      "description": "A well-known Indian brand of safes and security products, here referring to a safe used to store the pearl."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term used in India for men, often as a suffix to names."
+    },
+    "Marwari": {
+      "type": "vocabulary",
+      "description": "A term for a member of a business community from Rajasthan, often associated with wealth and trade."
+    },
+    "Ganga": {
+      "type": "character",
+      "description": "Maganlal's tall and hefty servant who is ordered to search Mr Boral."
+    },
+    "Howrah": {
+      "type": "proper_noun",
+      "description": "A major railway station in Kolkata, mentioned as the place where Mr Boral arrived by train."
+    },
+    "Jogamaya": {
+      "type": "proper_noun",
+      "description": "The name of the hotel where Mr Boral stayed after arriving in Howrah."
+    },
+    "huzoor": {
+      "type": "vocabulary",
+      "description": "A respectful Urdu term meaning 'sir' or 'master', used to address someone of higher status."
+    },
+    "paan-masala": {
+      "type": "vocabulary",
+      "description": "A flavored chewing mixture of areca nut and spices, popular in India."
+    },
+    "paisa": {
+      "type": "vocabulary",
+      "description": "A unit of currency in India, equal to one hundredth of a rupee."
+    },
+    "Uncle Sidhu": {
+      "type": "character",
+      "description": "A knowledgeable elder whom Feluda consults for information about Suraj Singh."
+    },
+    "Aligarh": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, used as a reference point for Dharampur."
+    },
+    "Sherlock Holmes": {
+      "type": "proper_noun",
+      "description": "A famous fictional detective created by Sir Arthur Conan Doyle."
+    },
+    "Mycroft": {
+      "type": "proper_noun",
+      "description": "Sherlock Holmes's elder brother, known for his intellect."
+    },
+    "sherwani": {
+      "type": "vocabulary",
+      "description": "A long, formal coat-like garment worn by men in South Asia."
+    },
+    "mynah": {
+      "type": "vocabulary",
+      "description": "A type of bird native to South Asia, known for its ability to mimic sounds."
+    },
+    "Dr Bhowmik": {
+      "type": "character",
+      "description": "The family physician who attends to Feluda after he is found unconscious."
+    },
+    "Aparesh": {
+      "type": "character",
+      "description": "A friend of Feluda who works at the railway reservations office and assists with travel information."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, a key location in the story's events."
+    },
+    "Amritsar Mail": {
+      "type": "proper_noun",
+      "description": "A named express train running between Kolkata and northern Indian cities."
+    },
+    "Doon Express": {
+      "type": "proper_noun",
+      "description": "Another named express train operating in northern India."
+    },
+    "American": {
+      "type": "proper_noun",
+      "description": "Refers to traders from the United States visiting India in the context of the story."
+    },
+    "Indian": {
+      "type": "proper_noun",
+      "description": "Refers to people from India, specifically Suraj Singh in this context."
+    },
+    "yoga": {
+      "type": "vocabulary",
+      "description": "A traditional Indian practice involving physical postures, breathing, and meditation."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "Bearer (or bearers) refers to domestic attendants or servants, especially in Indian households or hotels."
+    },
+    "Niranjan Chakravarty": {
+      "type": "character",
+      "description": "The manager of the Calcutta Lodge, familiar with Feluda and his companions from a previous stay."
+    },
+    "Sunderlal": {
+      "type": "character",
+      "description": "An elderly jeweller called upon by Maganlal to authenticate the pink pearl."
+    },
+    "Calcutta Lodge": {
+      "type": "proper_noun",
+      "description": "A lodging establishment in Benaras where Feluda and his companions stay."
+    },
+    "Vishwanath": {
+      "type": "proper_noun",
+      "description": "Refers to the Kashi Vishwanath Temple, a famous Hindu temple in Benaras dedicated to Lord Shiva."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital city of Nepal, referenced as a place where the characters previously encountered Maganlal."
+    },
+    "Tagore": {
+      "type": "proper_noun",
+      "description": "Rabindranath Tagore, often referred to simply as Tagore, was a Nobel laureate poet and polymath from Bengal, whose songs and literary works are iconic in Bengali culture."
+    },
+    "ghats": {
+      "type": "vocabulary",
+      "description": "Stepped embankments leading down to a river, especially on the Ganges in India, used for bathing and religious rituals."
+    },
+    "Uncle": {
+      "type": "vocabulary",
+      "description": "A common Indian term of address for an older man, used here by Maganlal for Lalmohan Babu."
+    },
+    "Manohar": {
+      "type": "character",
+      "description": "Formerly Maganlal's right-hand man, now working with Motilal; described as a wrestler and intelligent."
+    },
+    "Namaskar": {
+      "type": "vocabulary",
+      "description": "A respectful greeting in Hindi and Bengali, equivalent to 'hello' or 'greetings.'"
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "Feluda's cousin and the narrator of the story, affectionately known as Topshe, who serves as his loyal assistant and chronicler."
+    },
+    "Shankarprasad": {
+      "type": "character",
+      "description": "Shankarprasad is Suraj Singh’s secretary, tasked with examining the pearl."
+    },
+    "Gyan Bapi": {
+      "type": "proper_noun",
+      "description": "Gyan Bapi refers to a notable location in Benaras, specifically the area around the Gyanvapi Mosque (Gyan Bapi Masjid), which is a significant meeting place in the story."
+    },
+    "Delhi Express": {
+      "type": "proper_noun",
+      "description": "Delhi Express is a train service connecting cities, used by the characters to travel to Delhi."
+    },
+    "Janpath Hotel": {
+      "type": "proper_noun",
+      "description": "Janpath Hotel is a hotel in Delhi where the characters stay during their visit."
+    },
+    "Janpath": {
+      "type": "proper_noun",
+      "description": "Janpath is a famous road and shopping area in central Delhi."
+    },
+    "Taj Hotel": {
+      "type": "proper_noun",
+      "description": "Taj Hotel refers to a luxury hotel in Delhi where Suraj Singh is staying."
+    },
+    "Tuesday": {
+      "type": "proper_noun",
+      "description": "Tuesday is referenced as a day of the week when key events occur."
+    },
+    "Wednesday": {
+      "type": "proper_noun",
+      "description": "Wednesday is referenced as a day of the week when key events occur."
+    },
+    "Thursday": {
+      "type": "proper_noun",
+      "description": "Thursday is referenced as a day of the week when key events occur."
+    },
+    "American millionaire": {
+      "type": "proper_noun",
+      "description": "An American millionaire is mentioned as a potential buyer for the pearl."
+    },
+    "ghungrus": {
+      "type": "vocabulary",
+      "description": "Small metallic bells worn by classical Indian dancers around their ankles."
+    },
+    "harmonium": {
+      "type": "vocabulary",
+      "description": "A keyboard instrument popular in Indian music, producing sound by air forced through reeds."
+    },
+    "Shabaash": {
+      "type": "vocabulary",
+      "description": "A Hindi exclamation meaning 'well done' or 'bravo'."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Navjeevan Haldar",
+      "Panchanan Mallik",
+      "Someshwar Saha",
+      "Naresh Sen",
+      "Sonahati",
+      "Travelling in Bengal",
+      "Shiv temple",
+      "Mangal Deeghi",
+      "zamindars",
+      "Recreation Club",
+      "Calcutta",
+      "Ambassador",
+      "Maharshi Debendranath",
+      "maharaja",
+      "jamavar",
+      "Mr Mallik",
+      "kurta",
+      "achkan",
+      "pyjamas",
+      "chowkidar",
+      "sherbet",
+      "Tagore",
+      "naagra",
+      "bearer"
+    ],
+    "ch-2": [
+      "Mr Mallik",
+      "Feluda",
+      "Lalmohan Babu",
+      "Someshwar Saha",
+      "Jaichand Boral",
+      "Mrs Saha",
+      "Tipu Sultan",
+      "Robert Clive",
+      "Siraj-ud-daula",
+      "Rani Rashmoni",
+      "Kashmiri",
+      "Calcutta",
+      "Madras",
+      "Bengal",
+      "India",
+      "naagra",
+      "paan",
+      "dhoti",
+      "kurta",
+      "shawl",
+      "Navjeevan Haldar"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Jaichand Boral",
+      "Motilal Boral",
+      "Suraj Singh",
+      "Srinath",
+      "Maganlal Meghraj",
+      "Calcutta",
+      "Benaras",
+      "Dharampur",
+      "Uttar Pradesh",
+      "Dharampur Palace",
+      "Chittaranjan Avenue",
+      "Godrej",
+      "Babu",
+      "Marwari",
+      "Tapesh",
+      "Navjeevan Haldar"
+    ],
+    "ch-4": [
+      "Jaichand Boral",
+      "Maganlal Meghraj",
+      "Ganga",
+      "Sonahati",
+      "Howrah",
+      "Jogamaya",
+      "huzoor",
+      "paan-masala",
+      "paisa",
+      "Feluda"
+    ],
+    "ch-5": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Someshwar Saha",
+      "Uncle Sidhu",
+      "Suraj Singh",
+      "Calcutta",
+      "Sonahati",
+      "Dharampur",
+      "Uttar Pradesh",
+      "Aligarh",
+      "India",
+      "Sherlock Holmes",
+      "Mycroft",
+      "sherwani",
+      "dhoti",
+      "maharaja",
+      "mynah",
+      "Tapesh",
+      "Motilal Boral",
+      "Maganlal Meghraj"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Dr Bhowmik",
+      "Lalmohan Babu",
+      "Someshwar Saha",
+      "Suraj Singh",
+      "Aparesh",
+      "Godrej",
+      "Sonahati",
+      "Dharampur",
+      "Delhi",
+      "Chittaranjan Avenue",
+      "Howrah",
+      "Benaras",
+      "Amritsar Mail",
+      "Doon Express",
+      "American",
+      "Indian",
+      "yoga",
+      "Babu",
+      "bearer",
+      "Tapesh",
+      "Motilal Boral",
+      "Maganlal Meghraj"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Niranjan Chakravarty",
+      "Sunderlal",
+      "Suraj Singh",
+      "Benaras",
+      "Calcutta Lodge",
+      "Vishwanath",
+      "Kathmandu",
+      "Delhi",
+      "Tagore",
+      "ghats",
+      "Uncle",
+      "Maganlal Meghraj"
+    ],
+    "ch-8": [
+      "Niranjan Chakravarty",
+      "Motilal Boral",
+      "Maganlal Meghraj",
+      "Suraj Singh",
+      "Manohar",
+      "Lalmohan Babu",
+      "Benaras",
+      "Delhi",
+      "Dharampur",
+      "Sonahati",
+      "Namaskar",
+      "Babu",
+      "Feluda",
+      "Jaichand Boral",
+      "Gyan Bapi"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Manohar",
+      "Tapesh",
+      "Suraj Singh",
+      "Jaichand Boral",
+      "Shankarprasad",
+      "Sunderlal",
+      "Benaras",
+      "Gyan Bapi",
+      "Delhi Express",
+      "Delhi",
+      "Janpath Hotel",
+      "Janpath",
+      "Taj Hotel",
+      "Calcutta",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "American millionaire",
+      "ghungrus",
+      "harmonium",
+      "Shabaash",
+      "Motilal Boral",
+      "Maganlal Meghraj",
+      "Someshwar Saha"
+    ]
+  }
+}

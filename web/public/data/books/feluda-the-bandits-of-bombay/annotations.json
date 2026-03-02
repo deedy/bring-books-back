@@ -1,0 +1,1013 @@
+{
+  "glossary": {
+    "Jatayu": {
+      "type": "character",
+      "description": "A popular thriller writer and close friend of Feluda who provides comic relief; he is the author of the novel being adapted into a film.",
+      "image": "/data/images/characters/feluda-the-bandits-of-bombay/jatayu.webp"
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "A sharp and analytical private investigator who solves mysteries with the help of his cousin Topshe.",
+      "image": "/data/images/characters/feluda-the-bandits-of-bombay/feluda.webp"
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's cousin and the narrator of the stories, also known as Tapesh."
+    },
+    "Tribhuvan Gupte": {
+      "type": "character",
+      "description": "A dialogue writer in Hindi cinema known for his impactful and sharp writing."
+    },
+    "Mirzapur Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta where the new sweet shop Kallol is located."
+    },
+    "Kallol": {
+      "type": "proper_noun",
+      "description": "A new sweet shop in Mirzapur Street, known for its special sweets."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "A major city in India, now officially called Mumbai, and the center of the Hindi film industry."
+    },
+    "Gorpar": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta where Lalmohan babu and Pulak Ghoshal once lived as neighbors."
+    },
+    "Tollygunj": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta known as the hub of the Bengali film industry."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in eastern India, now officially called Kolkata, and the home of Feluda and his friends."
+    },
+    "Barrackpore": {
+      "type": "proper_noun",
+      "description": "A town near Calcutta where Feluda investigated the murder of Kedar Sarkar."
+    },
+    "The Bandits of Bombay": {
+      "type": "proper_noun",
+      "description": "The title of Lalmohan babu's novel that is being adapted into a film."
+    },
+    "Durga Puja": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival celebrated in Bengal, marking the victory of goddess Durga over evil."
+    },
+    "Shivaji Castle": {
+      "type": "proper_noun",
+      "description": "A fictional or possibly real high-rise building in Bombay named after the Maharashtrian hero Shivaji, featured in Lalmohan babu's story."
+    },
+    "Dhundiram Dhurandhar": {
+      "type": "proper_noun",
+      "description": "A fictional smuggler character in Lalmohan babu's story."
+    },
+    "Madras": {
+      "type": "proper_noun",
+      "description": "Now called Chennai, a city in southern India known for its own film industry."
+    },
+    "Hong Kong": {
+      "type": "proper_noun",
+      "description": "A city known for its martial arts cinema, referenced as the training place of the fight-master."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful term used in India for a gentleman or educated man."
+    },
+    "sandesh": {
+      "type": "vocabulary",
+      "description": "A Bengali sweet made from fresh paneer (chhena) and sugar, often flavored or shaped creatively."
+    },
+    "Rs": {
+      "type": "vocabulary",
+      "description": "Abbreviation for Indian Rupees, the currency of India."
+    },
+    "telegram": {
+      "type": "vocabulary",
+      "description": "A written message sent by telegraph, once a common way to communicate urgent news in India."
+    },
+    "double role": {
+      "type": "vocabulary",
+      "description": "A film term for an actor playing two distinct characters, often twins or lookalikes."
+    },
+    "ganja": {
+      "type": "vocabulary",
+      "description": "A Hindi word for marijuana or cannabis."
+    },
+    "charas": {
+      "type": "vocabulary",
+      "description": "A form of cannabis resin, commonly used as a narcotic in India."
+    },
+    "vamp": {
+      "type": "vocabulary",
+      "description": "A term used in Indian cinema for a female character who is the antagonist's girlfriend, often portrayed as seductive or morally ambiguous."
+    },
+    "heroine": {
+      "type": "vocabulary",
+      "description": "The female lead in a film, typically the love interest of the hero."
+    },
+    "pain killer": {
+      "type": "vocabulary",
+      "description": "A common term for medication used to relieve pain, often referenced in India after stressful or unpleasant experiences."
+    },
+    "Captain Datta": {
+      "type": "character",
+      "description": "The pilot of the plane that Feluda and his companions take from Calcutta to Bombay."
+    },
+    "Dharamtala": {
+      "type": "proper_noun",
+      "description": "A busy commercial area in central Calcutta, known for offices, shops, and cinemas."
+    },
+    "Murray’s Guide to India": {
+      "type": "proper_noun",
+      "description": "A historical travel guidebook used by travelers in India, referenced by Lalmohan babu for research."
+    },
+    "Jabalpur": {
+      "type": "proper_noun",
+      "description": "A city in the central Indian state of Madhya Pradesh, mentioned as Sanyal's place of upbringing."
+    },
+    "VIP Road": {
+      "type": "proper_noun",
+      "description": "A major road in Calcutta connecting the city to the airport."
+    },
+    "Nagpur": {
+      "type": "proper_noun",
+      "description": "A city in central India, over which the plane flies during the journey from Calcutta to Bombay."
+    },
+    "Santa Cruz": {
+      "type": "proper_noun",
+      "description": "A suburb in Mumbai (Bombay), known for its domestic airport."
+    },
+    "Shalimar Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel in Bombay where Feluda and his companions are booked to stay; also referred to simply as Shalimar."
+    },
+    "Kemp’s Corner": {
+      "type": "proper_noun",
+      "description": "A well-known locality in South Mumbai, close to where the Shalimar Hotel is located."
+    },
+    "Mahalakshmi": {
+      "type": "proper_noun",
+      "description": "A locality in Mumbai, known for its racecourse and temples."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, referenced as the origin of Feluda and Lalmohan babu."
+    },
+    "Hindi": {
+      "type": "proper_noun",
+      "description": "A major language of India, especially associated with Bollywood films."
+    },
+    "Fiat": {
+      "type": "proper_noun",
+      "description": "An Italian automobile brand, whose cars were popular in India."
+    },
+    "Lux": {
+      "type": "proper_noun",
+      "description": "A well-known soap brand in India, used metaphorically in the text."
+    },
+    "Bharat Chemical": {
+      "type": "proper_noun",
+      "description": "A fictional or generic Indian company, referenced as the maker of Gulbahar scent."
+    },
+    "aeroplane": {
+      "type": "vocabulary",
+      "description": "The British English term for 'airplane', commonly used in India."
+    },
+    "Gulbahar": {
+      "type": "vocabulary",
+      "description": "A type of strong, floral Indian perfume or scent."
+    },
+    "terylene": {
+      "type": "vocabulary",
+      "description": "A synthetic polyester fabric, popular in India for shirts and garments."
+    },
+    "hoardings": {
+      "type": "vocabulary",
+      "description": "Large outdoor advertising boards, commonly seen on Indian roads."
+    },
+    "Mr Gore": {
+      "type": "character",
+      "description": "A film producer who lives in Shivaji Castle and is referenced as being away on business; he gave Lalmohan babu money in the context of receiving fresh notes.",
+      "image": "/data/images/characters/feluda-the-bandits-of-bombay/mr-gore.webp"
+    },
+    "Tyagarajan": {
+      "type": "character",
+      "description": "A resident of Shivaji Castle who discovered the murder victim in the lift."
+    },
+    "Victor Perumal": {
+      "type": "character",
+      "description": "A stuntman and kung-fu expert from southern India, involved in the film's action scenes and recognized by Feluda and his companions.",
+      "image": "/data/images/characters/feluda-the-bandits-of-bombay/victor-perumal.webp"
+    },
+    "Arjun Mehrotra": {
+      "type": "character",
+      "description": "An actor considered for the hero's role in the film adaptation, but described as problematic."
+    },
+    "Gulmarg": {
+      "type": "proper_noun",
+      "description": "A restaurant in the hotel, also the name of a famous hill station in Kashmir."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, referenced as a place Mr Gore is visiting."
+    },
+    "Khandala": {
+      "type": "proper_noun",
+      "description": "A hill station near Mumbai, known for its scenic beauty."
+    },
+    "Lonavala": {
+      "type": "proper_noun",
+      "description": "Another hill station near Mumbai, popular for its natural attractions."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A classic Indian car model, commonly used as taxis and private vehicles, also known as the Hindustan Ambassador."
+    },
+    "Three Musketeers": {
+      "type": "proper_noun",
+      "description": "A reference to the famous trio from Alexandre Dumas' novel, used here to describe the camaraderie of Feluda, Topshe, and Lalmohan babu."
+    },
+    "Mughal": {
+      "type": "proper_noun",
+      "description": "Refers to the Mughal Empire, a historical dynasty that ruled large parts of India."
+    },
+    "kung-fu": {
+      "type": "vocabulary",
+      "description": "A Chinese martial art, referenced here as a skill of Victor Perumal."
+    },
+    "mokka-iri": {
+      "type": "vocabulary",
+      "description": "A form of combat involving walking on one's hands with legs raised, said to have originated in Japan and recently introduced in Hong Kong."
+    },
+    "smuggler": {
+      "type": "vocabulary",
+      "description": "A person who illegally transports goods, often referenced in Indian crime contexts."
+    },
+    "Mangalram Sethi": {
+      "type": "character",
+      "description": "A murder victim involved with the black market and smugglers, wanted by the police."
+    },
+    "Jodhpur": {
+      "type": "proper_noun",
+      "description": "A city in the Indian state of Rajasthan, known for its historic forts and palaces."
+    },
+    "Varanasi": {
+      "type": "proper_noun",
+      "description": "An ancient city on the banks of the Ganges in Uttar Pradesh, considered holy in Hinduism."
+    },
+    "Gangtok": {
+      "type": "proper_noun",
+      "description": "The capital city of the Indian state of Sikkim, located in the Himalayas."
+    },
+    "Gibbs Road": {
+      "type": "proper_noun",
+      "description": "A road in Mumbai, leading towards Malabar Hill."
+    },
+    "Hanging Gardens": {
+      "type": "proper_noun",
+      "description": "Terraced gardens located on Malabar Hill in Mumbai, popular for their views."
+    },
+    "Malabar Hill": {
+      "type": "proper_noun",
+      "description": "An upscale residential area in Mumbai, known for its gardens and sea views."
+    },
+    "Marine Drive": {
+      "type": "proper_noun",
+      "description": "A famous boulevard in Mumbai, known for its arc-shaped coastline and scenic views."
+    },
+    "Shaheed Minar": {
+      "type": "proper_noun",
+      "description": "A historic monument in Calcutta (Kolkata), often a landmark for gatherings."
+    },
+    "Chowpatty": {
+      "type": "proper_noun",
+      "description": "A popular beach and public gathering place in Mumbai, famous for street food."
+    },
+    "Metropolitan Development Authority": {
+      "type": "proper_noun",
+      "description": "A government body responsible for urban planning and development in Indian cities."
+    },
+    "Evening News": {
+      "type": "proper_noun",
+      "description": "A newspaper mentioned in the story, reporting on the murder."
+    },
+    "Evening Standard": {
+      "type": "proper_noun",
+      "description": "Another newspaper referenced, also covering the murder story."
+    },
+    "bhelpuri": {
+      "type": "vocabulary",
+      "description": "A popular Indian street snack made with puffed rice, vegetables, and tangy sauces."
+    },
+    "chaat": {
+      "type": "vocabulary",
+      "description": "A family of savory Indian snacks, typically featuring a mix of potato pieces, crispy fried bread, spices, and chutneys."
+    },
+    "mela": {
+      "type": "vocabulary",
+      "description": "A fair or festival, often featuring food stalls, entertainment, and crowds."
+    },
+    "shloka": {
+      "type": "vocabulary",
+      "description": "A verse, phrase, proverb, or hymn, typically in Sanskrit, often recited as part of Hindu prayers."
+    },
+    "Mr Ghoshal": {
+      "type": "character",
+      "description": "A film director in Bombay and former neighbor of Lalmohan Babu who is adapting the latter's novel into a film.",
+      "image": "/data/images/characters/feluda-the-bandits-of-bombay/mr-ghoshal.webp"
+    },
+    "Mr Sanyal": {
+      "type": "character",
+      "description": "A mysterious Bengali film producer who approaches Lalmohan babu with an offer to adapt his book into a film, later revealed to be involved in the smuggling plot and also known as Mr Red Shirt.",
+      "image": "/data/images/characters/feluda-the-bandits-of-bombay/mr-sanyal.webp"
+    },
+    "Nanasaheb": {
+      "type": "character",
+      "description": "A historical figure and leader of the 1857 sepoy mutiny connected to the legend of the naulakha necklace."
+    },
+    "N.C. Mehta": {
+      "type": "character",
+      "description": "A resident of the eighth floor in Shivaji Castle, mentioned by Mr Gore."
+    },
+    "Dr Vazifdar": {
+      "type": "character",
+      "description": "A resident of the second floor in Shivaji Castle, mentioned by Mr Gore."
+    },
+    "Peddar Road": {
+      "type": "proper_noun",
+      "description": "A well-known street in Mumbai (Bombay), India."
+    },
+    "CID": {
+      "type": "proper_noun",
+      "description": "The Criminal Investigation Department, a branch of the police specializing in investigations."
+    },
+    "Ellora": {
+      "type": "proper_noun",
+      "description": "A UNESCO World Heritage site in Maharashtra, India, famous for its ancient rock-cut caves."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital city of Nepal, referenced as the origin of smuggled jewels."
+    },
+    "naulakha necklace": {
+      "type": "proper_noun",
+      "description": "A famous and valuable necklace studded with diamonds and pearls, historically significant and referenced as stolen in the story."
+    },
+    "Canning Street": {
+      "type": "proper_noun",
+      "description": "A commercial street in Kolkata, known for its business establishments."
+    },
+    "Don Bosco": {
+      "type": "proper_noun",
+      "description": "A well-known school in India, mentioned as Mr Gore's alma mater."
+    },
+    "Matheran": {
+      "type": "proper_noun",
+      "description": "A hill station near Mumbai, referenced as the starting point for the hired train."
+    },
+    "Enter the Dragon": {
+      "type": "proper_noun",
+      "description": "A famous martial arts film starring Bruce Lee, referenced as Feluda's inspiration for practising kung-fu."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes sweet or savory fillings, commonly chewed in India."
+    },
+    "masala": {
+      "type": "vocabulary",
+      "description": "A mixture of ground spices used in Indian cuisine, here referring to the sweet filling in paan."
+    },
+    "non-veg": {
+      "type": "vocabulary",
+      "description": "Short for 'non-vegetarian,' referring to food that includes meat, fish, or eggs."
+    },
+    "Copper Chimney": {
+      "type": "proper_noun",
+      "description": "A well-known restaurant in Worli, Bombay, where the characters have lunch."
+    },
+    "Worli": {
+      "type": "proper_noun",
+      "description": "A locality in Bombay (now Mumbai), known for its commercial and residential areas."
+    },
+    "Jet Bahadur": {
+      "type": "proper_noun",
+      "description": "The title of the film being discussed and produced by Pulak Ghoshal."
+    },
+    "Teerandaj": {
+      "type": "proper_noun",
+      "description": "A film directed by Pulak Ghoshal, currently running at the Lotus cinema."
+    },
+    "Royal Circle": {
+      "type": "proper_noun",
+      "description": "A premium seating section in Indian cinema halls."
+    },
+    "Gateway to India": {
+      "type": "proper_noun",
+      "description": "A famous monument in Mumbai, also known as the Gateway of India."
+    },
+    "Taj Mahal Hotel": {
+      "type": "proper_noun",
+      "description": "A world-famous luxury hotel located near the Gateway of India in Mumbai."
+    },
+    "Victoria Terminus": {
+      "type": "proper_noun",
+      "description": "A historic railway station in Mumbai, now called Chhatrapati Shivaji Maharaj Terminus."
+    },
+    "Flora Fountain": {
+      "type": "proper_noun",
+      "description": "A well-known landmark and business district in Mumbai."
+    },
+    "Prince of Wales Museum": {
+      "type": "proper_noun",
+      "description": "A prominent museum in Mumbai, now known as Chhatrapati Shivaji Maharaj Vastu Sangrahalaya."
+    },
+    "Arabian Sea": {
+      "type": "proper_noun",
+      "description": "The body of water bordering Mumbai to the west."
+    },
+    "Shivaji": {
+      "type": "proper_noun",
+      "description": "A celebrated Maratha king, whose statue is mentioned near the Gateway of India."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A region in West Bengal, India, famous for its high-quality tea."
+    },
+    "Taraporewala Book Shop": {
+      "type": "proper_noun",
+      "description": "A well-known bookstore in Mumbai."
+    },
+    "Marathi": {
+      "type": "proper_noun",
+      "description": "The official language of Maharashtra, the state where Mumbai is located."
+    },
+    "Gujarati": {
+      "type": "proper_noun",
+      "description": "The official language of Gujarat, another Indian state."
+    },
+    "Bengali": {
+      "type": "proper_noun",
+      "description": "The language spoken in West Bengal and Bangladesh, and the original language of the Feluda stories."
+    },
+    "H. Hekroth": {
+      "type": "proper_noun",
+      "description": "A nameplate on a door, indicating a resident with a German name."
+    },
+    "N.C. Mansukhani": {
+      "type": "proper_noun",
+      "description": "A nameplate on a door, indicating a resident likely of Sindhi origin."
+    },
+    "pulao": {
+      "type": "vocabulary",
+      "description": "A rice dish cooked with spices, vegetables, or meat, popular in Indian cuisine."
+    },
+    "rumali roti": {
+      "type": "vocabulary",
+      "description": "A thin, soft Indian flatbread, literally meaning 'handkerchief bread.'"
+    },
+    "nargisi kofta": {
+      "type": "vocabulary",
+      "description": "A Mughlai dish consisting of spiced meatballs with a boiled egg at the center."
+    },
+    "kulfi": {
+      "type": "vocabulary",
+      "description": "A traditional Indian frozen dairy dessert, similar to ice cream but denser."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A term used in India for a uniformed domestic servant or waiter."
+    },
+    "settee": {
+      "type": "vocabulary",
+      "description": "A long upholstered seat for more than one person; commonly used term in India for a sofa."
+    },
+    "trunk calls": {
+      "type": "vocabulary",
+      "description": "Long-distance telephone calls, especially those made between cities in India."
+    },
+    "Mr Desai": {
+      "type": "character",
+      "description": "A person Feluda tries to contact by phone, but who is found not to be at the given number."
+    },
+    "Parekh": {
+      "type": "character",
+      "description": "The actual owner of the phone number Feluda calls, who has had the number for ten years."
+    },
+    "Inspector Patwardhan": {
+      "type": "character",
+      "description": "A CID police inspector investigating a murder and providing information about Nanasaheb and the stolen necklace."
+    },
+    "Jung Bahadur": {
+      "type": "character",
+      "description": "A historical figure from Nepal who received the famous necklace from Nanasaheb."
+    },
+    "Kashi Bai": {
+      "type": "character",
+      "description": "Nanasaheb’s wife, who received two villages from Jung Bahadur."
+    },
+    "B. Com.": {
+      "type": "proper_noun",
+      "description": "Bachelor of Commerce, an undergraduate degree in commerce and related subjects in India."
+    },
+    "Phool Khile hain Gulshan Gulshan": {
+      "type": "proper_noun",
+      "description": "A popular Hindi television programme featuring film celebrities, aired in India."
+    },
+    "Indian Airlines": {
+      "type": "proper_noun",
+      "description": "A former major domestic airline in India."
+    },
+    "Nepal": {
+      "type": "proper_noun",
+      "description": "A country neighboring India, where Jung Bahadur was a prominent figure."
+    },
+    "savouries": {
+      "type": "vocabulary",
+      "description": "Salty or spicy Indian snacks, commonly eaten between meals."
+    },
+    "lemon drops": {
+      "type": "vocabulary",
+      "description": "A type of sweet, tangy candy popular in India."
+    },
+    "auditorium": {
+      "type": "vocabulary",
+      "description": "The main seating area in a cinema or theatre, used here in the Indian context."
+    },
+    "intermission": {
+      "type": "vocabulary",
+      "description": "A break between parts of a film or play, commonly used in Indian cinemas."
+    },
+    "Lansdowne Road": {
+      "type": "proper_noun",
+      "description": "A street where the narrator saw a copy of the book Life Divine displayed in a shop window."
+    },
+    "Life Divine": {
+      "type": "proper_noun",
+      "description": "A famous philosophical book written by Sri Aurobindo."
+    },
+    "Sri Aurobindo": {
+      "type": "proper_noun",
+      "description": "A renowned Indian philosopher, yogi, and author of Life Divine."
+    },
+    "Pondicherry": {
+      "type": "proper_noun",
+      "description": "A city in India, mentioned as the place where the faulty book binding was done."
+    },
+    "bell boy": {
+      "type": "vocabulary",
+      "description": "A hotel staff member who assists guests with luggage and errands."
+    },
+    "Swaruplal": {
+      "type": "character",
+      "description": "The group's driver during their journey to the film shooting location."
+    },
+    "Dashu Ghosh": {
+      "type": "character",
+      "description": "Cameraman in the Bombay film industry who recognizes Feluda."
+    },
+    "Micky": {
+      "type": "character",
+      "description": "Actor playing the villain in the film, known for his roles as an up-and-coming villain."
+    },
+    "Sudarshan Das": {
+      "type": "character",
+      "description": "Production manager from Orissa, planning to return to Cuttack to direct Oriya films."
+    },
+    "Pune": {
+      "type": "proper_noun",
+      "description": "A major city in Maharashtra, India, and the destination for the film shoot."
+    },
+    "Thane": {
+      "type": "proper_noun",
+      "description": "A city near Mumbai, Maharashtra, and a stop on the group's journey."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "Referenced as a foreign destination, contrasted with Bombay."
+    },
+    "Western Ghats": {
+      "type": "proper_noun",
+      "description": "A mountain range running parallel to the western coast of India."
+    },
+    "Kalyan": {
+      "type": "proper_noun",
+      "description": "A city to the north of Mumbai, mentioned as a railway junction."
+    },
+    "Orissa": {
+      "type": "proper_noun",
+      "description": "Now known as Odisha, a state in eastern India."
+    },
+    "Cuttack": {
+      "type": "proper_noun",
+      "description": "A city in Odisha, mentioned as Sudarshan Das's hometown."
+    },
+    "Oriya": {
+      "type": "proper_noun",
+      "description": "Refers to the Odia language and culture, native to Odisha."
+    },
+    "masala tea": {
+      "type": "vocabulary",
+      "description": "Spiced Indian tea made with milk, sugar, and a blend of spices."
+    },
+    "durries": {
+      "type": "vocabulary",
+      "description": "Traditional Indian cotton rugs or mats, often used for seating."
+    },
+    "Nimmo": {
+      "type": "character",
+      "description": "A menacing accomplice of Sanyal, armed with a revolver and tasked with intimidating Feluda’s group."
+    },
+    "Air India": {
+      "type": "proper_noun",
+      "description": "The national airline of India, referenced as the brand of Feluda's bag."
+    },
+    "Safari Restaurant": {
+      "type": "proper_noun",
+      "description": "A restaurant whose name appears on the lunch boxes provided to the characters."
+    },
+    "ash-tray": {
+      "type": "vocabulary",
+      "description": "A tray for holding ashes and cigarette stubs, here used in a creative way to hide the real contents."
+    },
+    "make-up man": {
+      "type": "vocabulary",
+      "description": "A person responsible for applying makeup to actors on a film set."
+    },
+    "Paramesh Kapoor": {
+      "type": "character",
+      "description": "An actor in Mr Ghoshal's film, originally cast as the smuggler."
+    },
+    "Chuni Pancholi": {
+      "type": "proper_noun",
+      "description": "A film producer in Bombay, mentioned as an alternative to Gore."
+    },
+    "St. Xavier’s": {
+      "type": "proper_noun",
+      "description": "Another prestigious school in Calcutta attended by Gore."
+    },
+    "Lotus cinema": {
+      "type": "proper_noun",
+      "description": "A cinema hall in Bombay where the film Teerandaj is being shown and a key event involving the perfume takes place."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The currency of India."
+    },
+    "dak bungalow": {
+      "type": "vocabulary",
+      "description": "A colonial-era rest house for travelers, often used by government officials in India."
+    },
+    "naan": {
+      "type": "vocabulary",
+      "description": "A type of leavened, oven-baked flatbread popular in Indian cuisine."
+    },
+    "mutton do-pyaza": {
+      "type": "vocabulary",
+      "description": "An Indian dish made with mutton and a large quantity of onions, cooked in spices."
+    },
+    "pakoras": {
+      "type": "vocabulary",
+      "description": "A popular Indian snack consisting of vegetables or meat coated in chickpea flour and deep-fried."
+    },
+    "pseudonym": {
+      "type": "vocabulary",
+      "description": "A fictitious name used by an author; in this context, Lalmohan babu's pen name."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Jatayu",
+      "Feluda",
+      "Tribhuvan Gupte",
+      "Mirzapur Street",
+      "Kallol",
+      "Bombay",
+      "Gorpar",
+      "Tollygunj",
+      "Calcutta",
+      "Barrackpore",
+      "The Bandits of Bombay",
+      "Durga Puja",
+      "Shivaji Castle",
+      "Dhundiram Dhurandhar",
+      "Madras",
+      "Hong Kong",
+      "babu",
+      "sandesh",
+      "Rs",
+      "telegram",
+      "double role",
+      "ganja",
+      "charas",
+      "vamp",
+      "heroine",
+      "pain killer",
+      "Mr Ghoshal"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Captain Datta",
+      "Bombay",
+      "Calcutta",
+      "Dharamtala",
+      "Murray’s Guide to India",
+      "Jabalpur",
+      "VIP Road",
+      "Nagpur",
+      "Santa Cruz",
+      "Shalimar Hotel",
+      "Kemp’s Corner",
+      "Mahalakshmi",
+      "Shivaji Castle",
+      "Bengal",
+      "Hindi",
+      "Fiat",
+      "Lux",
+      "Bharat Chemical",
+      "babu",
+      "aeroplane",
+      "Gulbahar",
+      "terylene",
+      "hoardings",
+      "Ambassador",
+      "Jatayu",
+      "Mr Ghoshal",
+      "Mr Sanyal"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Topshe",
+      "Mr Gore",
+      "Tyagarajan",
+      "Victor Perumal",
+      "Arjun Mehrotra",
+      "Shalimar Hotel",
+      "Bombay",
+      "Gulmarg",
+      "Delhi",
+      "Calcutta",
+      "Madras",
+      "Khandala",
+      "Lonavala",
+      "Shivaji Castle",
+      "Ambassador",
+      "Three Musketeers",
+      "Mughal",
+      "babu",
+      "kung-fu",
+      "mokka-iri",
+      "smuggler",
+      "Jatayu",
+      "Mr Ghoshal"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Mangalram Sethi",
+      "Jodhpur",
+      "Varanasi",
+      "Delhi",
+      "Gangtok",
+      "Bombay",
+      "Kemp’s Corner",
+      "Gibbs Road",
+      "Hanging Gardens",
+      "Malabar Hill",
+      "Marine Drive",
+      "Shaheed Minar",
+      "Calcutta",
+      "Chowpatty",
+      "Metropolitan Development Authority",
+      "Evening News",
+      "Evening Standard",
+      "bhelpuri",
+      "chaat",
+      "mela",
+      "shloka",
+      "Jatayu"
+    ],
+    "ch-5": [
+      "Mr Ghoshal",
+      "Feluda",
+      "Mr Sanyal",
+      "Nanasaheb",
+      "Mr Gore",
+      "Victor Perumal",
+      "N.C. Mehta",
+      "Dr Vazifdar",
+      "Peddar Road",
+      "CID",
+      "Ellora",
+      "Kathmandu",
+      "naulakha necklace",
+      "Calcutta",
+      "Santa Cruz",
+      "Bombay",
+      "Mahalakshmi",
+      "Canning Street",
+      "Don Bosco",
+      "Shivaji Castle",
+      "Matheran",
+      "Khandala",
+      "Lonavala",
+      "Enter the Dragon",
+      "paan",
+      "masala",
+      "babu",
+      "non-veg",
+      "Jatayu",
+      "Shalimar Hotel",
+      "Topshe",
+      "Inspector Patwardhan"
+    ],
+    "ch-6": [
+      "Tribhuvan Gupte",
+      "Mr Ghoshal",
+      "Feluda",
+      "Mr Gore",
+      "Mr Sanyal",
+      "Copper Chimney",
+      "Worli",
+      "Bombay",
+      "The Bandits of Bombay",
+      "Jet Bahadur",
+      "Teerandaj",
+      "Royal Circle",
+      "Calcutta",
+      "Gateway to India",
+      "Taj Mahal Hotel",
+      "Victoria Terminus",
+      "Flora Fountain",
+      "Prince of Wales Museum",
+      "Arabian Sea",
+      "Shivaji",
+      "Shivaji Castle",
+      "Darjeeling",
+      "Taraporewala Book Shop",
+      "Hindi",
+      "Marathi",
+      "Gujarati",
+      "Bengali",
+      "Gulbahar",
+      "H. Hekroth",
+      "N.C. Mansukhani",
+      "babu",
+      "pulao",
+      "rumali roti",
+      "nargisi kofta",
+      "kulfi",
+      "paan",
+      "bearer",
+      "settee",
+      "trunk calls",
+      "Jatayu",
+      "Lotus cinema",
+      "Shalimar Hotel"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Topshe",
+      "Mr Desai",
+      "Parekh",
+      "Mr Ghoshal",
+      "Jet Bahadur",
+      "Inspector Patwardhan",
+      "Nanasaheb",
+      "Jung Bahadur",
+      "Kashi Bai",
+      "Shivaji Castle",
+      "Bombay",
+      "Worli",
+      "Royal Circle",
+      "Teerandaj",
+      "Durga Puja",
+      "B. Com.",
+      "Gulbahar",
+      "Phool Khile hain Gulshan Gulshan",
+      "Indian Airlines",
+      "Calcutta",
+      "Kathmandu",
+      "Nepal",
+      "babu",
+      "savouries",
+      "lemon drops",
+      "auditorium",
+      "intermission",
+      "Jatayu",
+      "Lotus cinema",
+      "Mr Gore",
+      "Mr Sanyal",
+      "naulakha necklace"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Jatayu",
+      "Copper Chimney",
+      "Shivaji Castle",
+      "Lansdowne Road",
+      "Life Divine",
+      "Sri Aurobindo",
+      "Pondicherry",
+      "Bombay",
+      "The Bandits of Bombay",
+      "Teerandaj",
+      "babu",
+      "paan",
+      "bell boy",
+      "Mr Ghoshal",
+      "Mr Sanyal"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Swaruplal",
+      "Dashu Ghosh",
+      "Arjun Mehrotra",
+      "Micky",
+      "Sudarshan Das",
+      "Victor Perumal",
+      "Pune",
+      "Khandala",
+      "Lonavala",
+      "Gorpar",
+      "Calcutta",
+      "Gulbahar",
+      "Thane",
+      "Bombay",
+      "England",
+      "Western Ghats",
+      "Kalyan",
+      "Matheran",
+      "Jet Bahadur",
+      "Ambassador",
+      "Ellora",
+      "Orissa",
+      "Cuttack",
+      "Oriya",
+      "Bengal",
+      "masala tea",
+      "durries",
+      "Jatayu",
+      "Mr Ghoshal",
+      "Topshe"
+    ],
+    "ch-10": [
+      "Mr Ghoshal",
+      "Arjun Mehrotra",
+      "Micky",
+      "Mr Gore",
+      "Sudarshan Das",
+      "Feluda",
+      "Nimmo",
+      "Matheran",
+      "Calcutta",
+      "Life Divine",
+      "Air India",
+      "Safari Restaurant",
+      "Jet Bahadur",
+      "Gulbahar",
+      "babu",
+      "ash-tray",
+      "make-up man",
+      "Jatayu",
+      "Mr Sanyal",
+      "Victor Perumal"
+    ],
+    "ch-11": [
+      "Victor Perumal",
+      "Mr Ghoshal",
+      "Feluda",
+      "Paramesh Kapoor",
+      "Inspector Patwardhan",
+      "Mr Gore",
+      "Nimmo",
+      "Nanasaheb",
+      "Arjun Mehrotra",
+      "Micky",
+      "Jet Bahadur",
+      "Bombay",
+      "Chuni Pancholi",
+      "Calcutta",
+      "Don Bosco",
+      "St. Xavier’s",
+      "Bengali",
+      "Hindi",
+      "Marathi",
+      "Khandala",
+      "Safari Restaurant",
+      "Shivaji Castle",
+      "Lotus cinema",
+      "rupees",
+      "dak bungalow",
+      "naan",
+      "mutton do-pyaza",
+      "pakoras",
+      "kung-fu",
+      "babu",
+      "Gulbahar",
+      "pseudonym",
+      "Jatayu",
+      "Mr Sanyal",
+      "naulakha necklace"
+    ]
+  }
+}

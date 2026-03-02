@@ -1,0 +1,21 @@
+{
+  "id": "feluda-napoleon-s-letter",
+  "title": "Napoleon's Letter",
+  "transliteratedTitle": "Napoleoner Chitthi",
+  "subtitle": "A Feather, A Thief, and a Hidden Puzzle",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-napoleon-s-letter.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "নেপোলিয়নের চিঠি",
+  "originalYear": 1981,
+  "totalChapters": 6,
+  "wordCount": 14425,
+  "summary": "When a young boy’s beloved bird vanishes from its cage, the famed detective Feluda is drawn into a deceptively simple case that soon reveals deeper mysteries. With only a single feather as a clue, Feluda must untangle a web of secrets that promises to challenge even his brilliant mind. Step into a world where nothing is quite as it seems, and every detail could be the key to the truth.",
+  "anthologyId": "feluda",
+  "storyNumber": 20
+}

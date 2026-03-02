@@ -305,6 +305,217 @@ def copy_cover(book_id, images_dir):
         print(f"  Copied cover -> {cover_dst}")
 
 
+def generate_story_summary(story_name, story_chapters, cfg):
+    """Generate a subtitle + summary for a single anthology story."""
+    sample = ""
+    for ch in story_chapters[:3]:
+        sample += f"\nChapter {ch['number']}: {ch['title']}\n"
+        sample += "\n".join(ch["paragraphs"][:5])
+
+    response = client.chat.completions.create(
+        model="openai/gpt-4.1",
+        messages=[
+            {
+                "role": "system",
+                "content": (
+                    "You are writing marketing copy for a detective story on a literature website. "
+                    "Given sample text from a story, write:\n"
+                    "1. A compelling subtitle (5-10 words, no quotes)\n"
+                    "2. A 2-3 sentence summary that would make a reader want to read it. "
+                    "Be intriguing without spoilers.\n\n"
+                    'Return JSON: {"subtitle": "...", "summary": "..."}'
+                ),
+            },
+            {
+                "role": "user",
+                "content": (
+                    f"Story: {story_name}\n"
+                    f"From: {cfg.title} by {cfg.author_name}\n"
+                    f"Genre: {', '.join(cfg.genre)}\n"
+                    f"Chapters: {len(story_chapters)}\n"
+                    f"\nSample text:{sample[:2000]}"
+                ),
+            },
+        ],
+        temperature=0.7,
+        response_format={"type": "json_object"},
+    )
+
+    return json.loads(response.choices[0].message.content)
+
+
+def run_anthology(book_id, chapters_data, cfg, force=False):
+    """Split an anthology into individual story-books, each with its own chapters.json + meta.json.
+
+    Also writes an anthology.json listing all story-book IDs for the parent landing page.
+    """
+    # Group chapters by part
+    stories = {}
+    for ch in chapters_data:
+        part = ch["part"]
+        if part not in stories:
+            stories[part] = {"partName": ch["partName"], "chapters": []}
+        stories[part]["chapters"].append(ch)
+
+    catalog_path = str(WEB_DATA_DIR / "catalog.json")
+    with open(catalog_path) as f:
+        catalog = json.load(f)
+
+    # Remove old story-book entries for this anthology
+    catalog["books"] = [
+        b for b in catalog["books"]
+        if b.get("anthologyId") != book_id and b["id"] != book_id
+    ]
+
+    story_book_ids = []
+
+    for part_num in sorted(stories.keys()):
+        story = stories[part_num]
+        story_chapters = story["chapters"]
+        story_name = story["partName"]
+        story_slug = re.sub(r"[^a-z0-9]+", "-", story_name.lower()).strip("-")
+        story_book_id = f"{book_id}-{story_slug}"
+        story_book_ids.append(story_book_id)
+
+        story_book_dir = str(WEB_DATA_DIR / "books" / story_book_id)
+        story_chapters_json = os.path.join(story_book_dir, "chapters.json")
+
+        if not force and os.path.exists(story_chapters_json):
+            print(f"  [{story_book_id}] already exists, skipping")
+            # Still add to catalog from existing meta
+            meta_path = os.path.join(story_book_dir, "meta.json")
+            if os.path.exists(meta_path):
+                with open(meta_path) as f:
+                    existing_meta = json.load(f)
+                # Reconstruct preview
+                with open(story_chapters_json) as f:
+                    existing_ch = json.load(f)
+                preview = ""
+                if existing_ch["chapters"] and existing_ch["chapters"][0]["paragraphs"]:
+                    preview = " ".join(existing_ch["chapters"][0]["paragraphs"][:3])[:1200]
+                catalog["books"].append({**existing_meta, "previewText": preview})
+            continue
+
+        # Flatten chapters: remove part, renumber from 1
+        flat_chapters = []
+        for i, ch in enumerate(story_chapters):
+            flat_chapters.append({
+                "id": f"ch-{i+1}",
+                "number": i + 1,
+                "title": ch["title"],
+                "part": None,
+                "partName": None,
+                "image": ch.get("image", ""),
+                "wordCount": ch["wordCount"],
+                "paragraphs": ch["paragraphs"],
+            })
+
+        word_count = sum(ch["wordCount"] for ch in flat_chapters)
+
+        # Write chapters.json
+        os.makedirs(story_book_dir, exist_ok=True)
+        with open(story_chapters_json, "w") as f:
+            json.dump({"chapters": flat_chapters}, f, ensure_ascii=False, indent=2)
+
+        # Generate summary
+        print(f"  [{story_book_id}] Generating summary ({len(flat_chapters)} ch, {word_count:,} words)...")
+        summary_data = generate_story_summary(story_name, flat_chapters, cfg)
+
+        # Build meta.json
+        story_meta = {
+            "id": story_book_id,
+            "title": story_name,
+            "transliteratedTitle": story_name,
+            "subtitle": summary_data["subtitle"],
+            "authorId": cfg.author_id,
+            "coverImage": f"/data/images/covers/{book_id}.webp",
+            "accentColor": cfg.accent_color,
+            "genre": cfg.genre,
+            "originalLanguage": cfg.original_language,
+            "originalTitle": cfg.original_title,
+            "originalYear": cfg.original_year,
+            "totalChapters": len(flat_chapters),
+            "wordCount": word_count,
+            "summary": summary_data["summary"],
+            "anthologyId": book_id,
+        }
+
+        meta_path = os.path.join(story_book_dir, "meta.json")
+        with open(meta_path, "w") as f:
+            json.dump(story_meta, f, ensure_ascii=False, indent=2)
+
+        # Add to catalog
+        preview = ""
+        if flat_chapters and flat_chapters[0]["paragraphs"]:
+            preview = " ".join(flat_chapters[0]["paragraphs"][:3])[:1200]
+        catalog["books"].append({**story_meta, "previewText": preview})
+
+        print(f"  [{story_book_id}] Done")
+
+    # Write the parent anthology entry to catalog (no chapters.json needed)
+    total_words = sum(ch["wordCount"] for ch in chapters_data)
+    print("Generating anthology-level summary...")
+    anthology_summary = generate_summary(book_id, chapters_data, cfg)
+    anthology_meta = {
+        "id": book_id,
+        "title": cfg.title,
+        "transliteratedTitle": cfg.transliterated_title,
+        "subtitle": anthology_summary["subtitle"],
+        "authorId": cfg.author_id,
+        "coverImage": f"/data/images/covers/{book_id}.webp",
+        "accentColor": cfg.accent_color,
+        "genre": cfg.genre,
+        "originalLanguage": cfg.original_language,
+        "originalTitle": cfg.original_title,
+        "originalYear": cfg.original_year,
+        "totalChapters": len(chapters_data),
+        "wordCount": total_words,
+        "summary": anthology_summary["summary"],
+        "type": "anthology",
+        "totalStories": len(story_book_ids),
+    }
+    catalog["books"].append({**anthology_meta, "previewText": ""})
+
+    # Write anthology meta.json (parent)
+    parent_book_dir = str(cfg.web_book_dir)
+    os.makedirs(parent_book_dir, exist_ok=True)
+    with open(os.path.join(parent_book_dir, "meta.json"), "w") as f:
+        json.dump(anthology_meta, f, ensure_ascii=False, indent=2)
+
+    # Write anthology.json (list of story-book IDs for the landing page)
+    anthology_listing = {
+        "storyBookIds": story_book_ids,
+    }
+    with open(os.path.join(parent_book_dir, "anthology.json"), "w") as f:
+        json.dump(anthology_listing, f, ensure_ascii=False, indent=2)
+
+    # Ensure author
+    author_id = cfg.author_id
+    author_entry = next((a for a in catalog["authors"] if a["id"] == author_id), None)
+    if not author_entry:
+        print("Generating author bio...")
+        bio = generate_author_bio(cfg)
+        catalog["authors"].append({
+            "id": author_id,
+            "name": cfg.author_name,
+            "image": f"/data/images/authors/{author_id}.webp",
+            "years": cfg.author_years,
+            "bio": bio,
+            "bookIds": [book_id],
+        })
+    else:
+        if not author_entry.get("bio"):
+            author_entry["bio"] = generate_author_bio(cfg)
+        if book_id not in author_entry["bookIds"]:
+            author_entry["bookIds"].append(book_id)
+
+    with open(catalog_path, "w") as f:
+        json.dump(catalog, f, ensure_ascii=False, indent=2)
+    print(f"Updated {catalog_path}")
+    print(f"\nDone! {len(story_book_ids)} story-books, {total_words:,} total words")
+    return True
+
+
 def run(book_id, force=False):
     """Run JSON generation for a book. Returns True if output exists after run."""
     cfg = get_book(book_id)
@@ -339,6 +550,11 @@ def run(book_id, force=False):
     chapters_data = extract_chapters(pages, chapters_def, running_headers)
     total_words = sum(ch["wordCount"] for ch in chapters_data)
     print(f"Extracted {len(chapters_data)} chapters, {total_words:,} words")
+
+    # Anthology: split into individual story-books
+    is_anthology = getattr(cfg, "type", "book") == "anthology"
+    if is_anthology:
+        return run_anthology(book_id, chapters_data, cfg, force=force)
 
     # Update images
     images_dir = str(cfg.images_dir)

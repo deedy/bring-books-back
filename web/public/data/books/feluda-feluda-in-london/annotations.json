@@ -1,0 +1,656 @@
+{
+  "glossary": {
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "Feluda's friend and a popular writer of thriller stories who uses the pen name Jatayu; his full name is Lalmohan Ganguli.",
+      "image": "/data/images/characters/feluda-feluda-in-london/lalmohan-babu.webp"
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "A private investigator and the protagonist of the series, also known as Pradosh Mitter and respectfully addressed as Felu Bab.",
+      "image": "/data/images/characters/feluda-feluda-in-london/feluda.webp"
+    },
+    "Sadhan Chakravarty": {
+      "type": "character",
+      "description": "A previous client of Feluda, mentioned as the person who referred Ranjan K. Majumdar."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic, often adapted for television and widely known in Indian culture."
+    },
+    "Doordarshan": {
+      "type": "proper_noun",
+      "description": "India's public service broadcaster, known for airing television serials and news."
+    },
+    "Prakhar Rudra": {
+      "type": "proper_noun",
+      "description": "A fictional hero created by Lalmohan Babu for his stories."
+    },
+    "America": {
+      "type": "proper_noun",
+      "description": "Referenced as a country, often contrasted with India in terms of media and entertainment."
+    },
+    "Superman": {
+      "type": "proper_noun",
+      "description": "A famous American comic book superhero, used here as a reference to casting authenticity."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, referenced in the context of finding a suitable actor."
+    },
+    "Durga Puja": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival celebrated in Bengal and other parts of India, honoring the goddess Durga."
+    },
+    "Hindi": {
+      "type": "proper_noun",
+      "description": "An Indian language, referenced here in the context of film songs."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "A country in the United Kingdom, where Ranjan K. Majumdar spent part of his youth."
+    },
+    "Cambridge": {
+      "type": "proper_noun",
+      "description": "A city in England known for its prestigious university, referenced as the location of a college attended by Ranjan."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country where the story is set and to which Ranjan returns after his time in England."
+    },
+    "St Xavier’s College": {
+      "type": "proper_noun",
+      "description": "St Xavier’s College, commonly called St Xavier’s, is a renowned educational institution in Calcutta attended by several characters in the story."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in eastern India."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, where Ranjan's daughter lives."
+    },
+    "Roland Road": {
+      "type": "proper_noun",
+      "description": "A street address in Calcutta, given as Ranjan K. Majumdar's residence."
+    },
+    "Lee & Watkins": {
+      "type": "proper_noun",
+      "description": "The name of the chartered accountancy firm where Ranjan K. Majumdar works."
+    },
+    "B. Com": {
+      "type": "proper_noun",
+      "description": "Bachelor of Commerce, an undergraduate degree in commerce."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in South Asia, often paired with a dhoti or pajamas."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A respectful greeting in India, similar to 'hello' or 'greetings'."
+    },
+    "ayurvedic": {
+      "type": "vocabulary",
+      "description": "Relating to Ayurveda, a traditional Indian system of medicine."
+    },
+    "Dharani Mukherjee": {
+      "type": "character",
+      "description": "A chartered accountant known to Feluda, who is familiar with Ranjan Majumdar through the Saturday Club."
+    },
+    "Ranjan Majumdar": {
+      "type": "character",
+      "description": "A quiet and reserved man central to the investigation who spent part of his life in England; he is the son of Rajani Majumdar.",
+      "image": "/data/images/characters/feluda-feluda-in-london/ranjan-majumdar.webp"
+    },
+    "Dr Hiren Basak": {
+      "type": "character",
+      "description": "A homeopath and former student at St Xavier’s, who is consulted by Feluda regarding the photograph."
+    },
+    "Raghunath Majumdar": {
+      "type": "character",
+      "description": "Ranjan Majumdar’s grandfather, described as a former terrorist who fought against the British."
+    },
+    "Saturday Club": {
+      "type": "proper_noun",
+      "description": "A prestigious social club in Calcutta, frequented by professionals and elites."
+    },
+    "Hastings": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta where Dr Jyotirmoy Sen resides."
+    },
+    "British": {
+      "type": "proper_noun",
+      "description": "Refers to people from Britain, historically significant in the context of Indian independence."
+    },
+    "homeopath": {
+      "type": "vocabulary",
+      "description": "A practitioner of homeopathy, an alternative system of medicine popular in India."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A domestic servant or attendant, often found in Indian households."
+    },
+    "orthodox medicine": {
+      "type": "vocabulary",
+      "description": "Conventional or allopathic medicine, as opposed to alternative systems like homeopathy."
+    },
+    "John Dexter": {
+      "type": "character",
+      "description": "A tourist from Australia who recognizes his cousin Peter Dexter in a photo and provides information to Feluda."
+    },
+    "Peter Dexter": {
+      "type": "character",
+      "description": "John Dexter's first cousin, whose whereabouts are being investigated; son of Michael Dexter.",
+      "image": "/data/images/characters/feluda-feluda-in-london/peter-dexter.webp"
+    },
+    "Michael Dexter": {
+      "type": "character",
+      "description": "Peter Dexter's father, who served in the Indian Army and later returned to England."
+    },
+    "George": {
+      "type": "character",
+      "description": "Michael Dexter's eldest son and Peter Dexter's brother, who was also in the army."
+    },
+    "Statesman": {
+      "type": "proper_noun",
+      "description": "An English-language newspaper published in India, with editions in Delhi and Calcutta."
+    },
+    "Grand Hotel": {
+      "type": "proper_noun",
+      "description": "A well-known hotel in Calcutta where John Dexter is staying."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital city of Nepal, mentioned as John Dexter's next destination."
+    },
+    "Australia": {
+      "type": "proper_noun",
+      "description": "A country and continent, where John Dexter has lived since leaving England."
+    },
+    "Indian Army": {
+      "type": "proper_noun",
+      "description": "The land-based branch of the Indian Armed Forces, where Michael Dexter served."
+    },
+    "Norfolk": {
+      "type": "proper_noun",
+      "description": "A county in England, where Michael Dexter lived after returning from India."
+    },
+    "London": {
+      "type": "proper_noun",
+      "description": "The capital city of England, where Feluda is advised to continue his investigation."
+    },
+    "settee": {
+      "type": "vocabulary",
+      "description": "A long upholstered seat for more than one person; a sofa."
+    },
+    "UK": {
+      "type": "proper_noun",
+      "description": "Short for United Kingdom, the country where the group is traveling for their investigation."
+    },
+    "Air-India": {
+      "type": "proper_noun",
+      "description": "The national airline of India, which the characters use to fly to London."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, a major Indian city where the group catches a connecting flight."
+    },
+    "Regent Palace": {
+      "type": "proper_noun",
+      "description": "The hotel in London where the group is booked to stay."
+    },
+    "Piccadilly Circus": {
+      "type": "proper_noun",
+      "description": "A famous road junction and public space in London, near their hotel."
+    },
+    "Mont Blanc": {
+      "type": "proper_noun",
+      "description": "A famous mountain in the Alps, mentioned as visible from the plane."
+    },
+    "Heathrow": {
+      "type": "proper_noun",
+      "description": "London's main international airport, where the group lands."
+    },
+    "almirah": {
+      "type": "vocabulary",
+      "description": "A freestanding cupboard or wardrobe, commonly used in Indian households."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "Feluda's younger cousin and the narrator of the stories, affectionately called Topshe, who assists with investigations and documentation.",
+      "image": "/data/images/characters/feluda-feluda-in-london/tapesh.webp"
+    },
+    "Bikash Datta": {
+      "type": "character",
+      "description": "Feluda's friend living in London who provides useful information for the investigation."
+    },
+    "Oxford Street": {
+      "type": "proper_noun",
+      "description": "A famous and busy shopping street in central London, known for its large stores and crowds."
+    },
+    "Marks & Spencer": {
+      "type": "proper_noun",
+      "description": "A well-known British multinational retailer with a store on Oxford Street."
+    },
+    "Boots": {
+      "type": "proper_noun",
+      "description": "A major British pharmacy and retailer chain."
+    },
+    "Debenhams": {
+      "type": "proper_noun",
+      "description": "A British multinational retailer operating department stores, with a location on Oxford Street."
+    },
+    "D. H. Evans": {
+      "type": "proper_noun",
+      "description": "A historic department store in London, now part of House of Fraser."
+    },
+    "John Lewis": {
+      "type": "proper_noun",
+      "description": "A major chain of high-end department stores in the UK."
+    },
+    "Selfridges": {
+      "type": "proper_noun",
+      "description": "A famous luxury department store located on Oxford Street in London."
+    },
+    "Richmond": {
+      "type": "proper_noun",
+      "description": "A suburban town in southwest London, where Dr Sen lives."
+    },
+    "Piccadilly": {
+      "type": "proper_noun",
+      "description": "A major road and area in central London, known for its tube station."
+    },
+    "South Kensington": {
+      "type": "proper_noun",
+      "description": "A district in West London with a major tube station where the characters change trains."
+    },
+    "District Line": {
+      "type": "proper_noun",
+      "description": "A line of the London Underground (tube) system."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful Bengali term for 'gentleman' or 'sir', often used as a suffix to names."
+    },
+    "GP": {
+      "type": "vocabulary",
+      "description": "Short for 'General Practitioner', a common term for a primary care doctor in India and the UK."
+    },
+    "Dr Sen": {
+      "type": "character",
+      "description": "An Indian doctor living in Richmond, England, who came as a medical student after World War II and was a former batchmate of Ranjan Majumdar at St Xavier’s.",
+      "image": "/data/images/characters/feluda-feluda-in-london/dr-sen.webp"
+    },
+    "Emily": {
+      "type": "character",
+      "description": "Dr Sen's English wife, who welcomes the guests and offers them coffee."
+    },
+    "Rajani Majumdar": {
+      "type": "character",
+      "description": "Ranjan's father, a doctor who once lived and worked in England before returning to India."
+    },
+    "Britain": {
+      "type": "proper_noun",
+      "description": "The country where Dr Sen and his family now reside."
+    },
+    "St Mary’s Hospital": {
+      "type": "proper_noun",
+      "description": "A renowned hospital in London where Rajani Majumdar worked."
+    },
+    "Major Barbara": {
+      "type": "proper_noun",
+      "description": "A play by George Bernard Shaw, referenced as the play Dr Sen and Rajani Majumdar attended together."
+    },
+    "Golders Green": {
+      "type": "proper_noun",
+      "description": "A residential area in northwest London where Rajani Majumdar lived."
+    },
+    "Hampstead": {
+      "type": "proper_noun",
+      "description": "A district of London where Dr Sen lived when he first came to England."
+    },
+    "Epping": {
+      "type": "proper_noun",
+      "description": "A town in Essex, England, where Warrendel school is located."
+    },
+    "Trinity": {
+      "type": "proper_noun",
+      "description": "Refers to Trinity College, one of the colleges at the University of Cambridge."
+    },
+    "macintoshes": {
+      "type": "vocabulary",
+      "description": "Waterproof raincoats, commonly used in British and Indian English."
+    },
+    "chartered accountant": {
+      "type": "vocabulary",
+      "description": "A professional accountant with certification, a term commonly used in India and the UK."
+    },
+    "terrorist": {
+      "type": "vocabulary",
+      "description": "In this context, refers to Indian revolutionaries who used violent means against British colonial rule."
+    },
+    "Mr Manning": {
+      "type": "character",
+      "description": "A staff member at Warrendel School who assists Feluda in searching the student records."
+    },
+    "Warrendel School": {
+      "type": "proper_noun",
+      "description": "Warrendel School, often referred to simply as Warrendel, is the fictional school in Epping attended by Ranjan Majumdar."
+    },
+    "Times": {
+      "type": "proper_noun",
+      "description": "Refers to The Times, a major British newspaper."
+    },
+    "Madame Tussaud’s": {
+      "type": "proper_noun",
+      "description": "A renowned wax museum in London featuring lifelike wax figures of famous personalities."
+    },
+    "Houses of Parliament": {
+      "type": "proper_noun",
+      "description": "The seat of the UK Parliament, located in London."
+    },
+    "Big Ben": {
+      "type": "proper_noun",
+      "description": "The nickname for the Great Bell of the clock at the north end of the Palace of Westminster in London."
+    },
+    "St Paul’s Cathedral": {
+      "type": "proper_noun",
+      "description": "A famous Anglican cathedral in London, known for its dome."
+    },
+    "Baker Street": {
+      "type": "proper_noun",
+      "description": "Baker Street is a well-known street in London, famously associated with the fictional address 221-B Baker Street, the residence of Sherlock Holmes."
+    },
+    "Sherlock Holmes": {
+      "type": "proper_noun",
+      "description": "The legendary fictional detective created by Sir Arthur Conan Doyle."
+    },
+    "Conan Doyle": {
+      "type": "proper_noun",
+      "description": "Sir Arthur Conan Doyle, the creator of Sherlock Holmes."
+    },
+    "Archibald Cripps": {
+      "type": "character",
+      "description": "A visitor who claims to have information about Peter Dexter and displays a brusque, prejudiced attitude."
+    },
+    "Reginald": {
+      "type": "character",
+      "description": "The youngest Dexter sibling, currently in India working at a tea estate and suffering from cancer."
+    },
+    "Mr Tailor": {
+      "type": "character",
+      "description": "A staff member at Trinity College who has access to old student records."
+    },
+    "Hookins": {
+      "type": "character",
+      "description": "The long-serving gardener at Trinity College who witnessed the aftermath of the boating accident."
+    },
+    "Sikhs": {
+      "type": "proper_noun",
+      "description": "A religious and ethnic group from the Punjab region, known for their martial tradition."
+    },
+    "Gurkhas": {
+      "type": "proper_noun",
+      "description": "Soldiers from Nepal renowned for their bravery, often serving in the British and Indian armies."
+    },
+    "Liverpool Street": {
+      "type": "proper_noun",
+      "description": "A major railway station in London."
+    },
+    "Chatworth Street": {
+      "type": "proper_noun",
+      "description": "A street in Cambridge where Hookins lives."
+    },
+    "Maggie": {
+      "type": "proper_noun",
+      "description": "Hookins's wife, whom he married on the day of the boating accident."
+    },
+    "Satyanathan": {
+      "type": "character",
+      "description": "A South Indian gentleman and teacher in London who provides information about Peter Dexter and Ranjan Majumdar."
+    },
+    "Inspector Mandal": {
+      "type": "character",
+      "description": "A police inspector in Calcutta who informs Feluda about Ranjan Majumdar's death."
+    },
+    "Kilburn": {
+      "type": "proper_noun",
+      "description": "A district in north London where Satyanathan lives."
+    },
+    "Whit Sunday": {
+      "type": "proper_noun",
+      "description": "A Christian holiday, also known as Pentecost, referenced as the day before Peter Dexter's death."
+    },
+    "Sadar Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta where the hotel is located in which Reginald Dexter commits suicide."
+    },
+    "Khoirabari": {
+      "type": "proper_noun",
+      "description": "A tea estate near Darjeeling, mentioned as Reginald Dexter's place of origin."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in India, famous for its tea estates."
+    },
+    "Ganesh": {
+      "type": "vocabulary",
+      "description": "A Hindu deity with an elephant head, worshipped as the remover of obstacles."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Sadhan Chakravarty",
+      "Mahabharata",
+      "Doordarshan",
+      "Prakhar Rudra",
+      "America",
+      "Superman",
+      "Bengal",
+      "Durga Puja",
+      "Hindi",
+      "England",
+      "Cambridge",
+      "India",
+      "St Xavier’s College",
+      "Calcutta",
+      "Delhi",
+      "Roland Road",
+      "Lee & Watkins",
+      "B. Com",
+      "dhoti",
+      "kurta",
+      "namaskar",
+      "ayurvedic",
+      "Ranjan Majumdar"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Dharani Mukherjee",
+      "Ranjan Majumdar",
+      "Dr Hiren Basak",
+      "Lalmohan Babu",
+      "Raghunath Majumdar",
+      "Saturday Club",
+      "England",
+      "Calcutta",
+      "Delhi",
+      "Hastings",
+      "British",
+      "homeopath",
+      "bearer",
+      "orthodox medicine",
+      "Dr Sen",
+      "Tapesh",
+      "St Xavier’s College"
+    ],
+    "ch-3": [
+      "Feluda",
+      "John Dexter",
+      "Peter Dexter",
+      "Michael Dexter",
+      "George",
+      "Ranjan Majumdar",
+      "Statesman",
+      "Delhi",
+      "Calcutta",
+      "Grand Hotel",
+      "Kathmandu",
+      "Australia",
+      "England",
+      "Indian Army",
+      "Norfolk",
+      "London",
+      "settee"
+    ],
+    "ch-4": [
+      "Lalmohan Babu",
+      "Feluda",
+      "UK",
+      "Air-India",
+      "Calcutta",
+      "Bombay",
+      "London",
+      "Regent Palace",
+      "Piccadilly Circus",
+      "Mont Blanc",
+      "Heathrow",
+      "almirah",
+      "rupees",
+      "Ranjan Majumdar",
+      "Tapesh"
+    ],
+    "ch-5": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Tapesh",
+      "Bikash Datta",
+      "Ranjan Majumdar",
+      "Oxford Street",
+      "London",
+      "Marks & Spencer",
+      "Boots",
+      "Debenhams",
+      "D. H. Evans",
+      "John Lewis",
+      "Selfridges",
+      "Calcutta",
+      "Richmond",
+      "Piccadilly",
+      "South Kensington",
+      "District Line",
+      "Babu",
+      "rupees",
+      "GP",
+      "Dr Sen"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Dr Sen",
+      "Emily",
+      "Ranjan Majumdar",
+      "Rajani Majumdar",
+      "Raghunath Majumdar",
+      "Calcutta",
+      "Oxford Street",
+      "Richmond",
+      "Piccadilly",
+      "Britain",
+      "London",
+      "St Mary’s Hospital",
+      "Major Barbara",
+      "Golders Green",
+      "Hampstead",
+      "Epping",
+      "Cambridge",
+      "Trinity",
+      "macintoshes",
+      "Babu",
+      "chartered accountant",
+      "terrorist",
+      "Warrendel School"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Ranjan Majumdar",
+      "Peter Dexter",
+      "Mr Manning",
+      "Lalmohan Babu",
+      "Epping",
+      "Warrendel School",
+      "Piccadilly",
+      "Cambridge",
+      "Norfolk",
+      "Times",
+      "London",
+      "Madame Tussaud’s",
+      "Houses of Parliament",
+      "Big Ben",
+      "St Paul’s Cathedral",
+      "Baker Street",
+      "Sherlock Holmes",
+      "Conan Doyle",
+      "Babu"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Archibald Cripps",
+      "Peter Dexter",
+      "George",
+      "Reginald",
+      "Dr Sen",
+      "Ranjan Majumdar",
+      "Mr Tailor",
+      "Hookins",
+      "Times",
+      "Cambridge",
+      "Indian Army",
+      "Sikhs",
+      "Gurkhas",
+      "India",
+      "London",
+      "Liverpool Street",
+      "Britain",
+      "Trinity",
+      "Chatworth Street",
+      "Maggie",
+      "Babu"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Satyanathan",
+      "Peter Dexter",
+      "Ranjan Majumdar",
+      "Hookins",
+      "Reginald",
+      "Lalmohan Babu",
+      "Inspector Mandal",
+      "London",
+      "Kilburn",
+      "Cambridge",
+      "Whit Sunday",
+      "Chatworth Street",
+      "Calcutta",
+      "Roland Road",
+      "Statesman",
+      "Sadar Street",
+      "Khoirabari",
+      "Darjeeling",
+      "Ganesh",
+      "Babu"
+    ]
+  }
+}

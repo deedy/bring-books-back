@@ -15,6 +15,7 @@ export default function BookPreview({ bookId, accentColor, previewText }: BookPr
   const savedProgress = useReadingStore((s) => s.getProgress(bookId));
   const [text, setText] = useState(previewText);
   const [label, setLabel] = useState("Preview");
+  const [totalChapters, setTotalChapters] = useState<number | undefined>(undefined);
 
   useEffect(() => {
     if (!savedProgress) return;
@@ -22,6 +23,7 @@ export default function BookPreview({ bookId, accentColor, previewText }: BookPr
     fetch(`/data/books/${bookId}/chapters.json`)
       .then((r) => r.json())
       .then((data: ChaptersData) => {
+        setTotalChapters(data.chapters.length);
         const ch = data.chapters[savedProgress.currentChapter];
         if (!ch) return;
         const full = ch.paragraphs.join("\n\n");
@@ -47,7 +49,7 @@ export default function BookPreview({ bookId, accentColor, previewText }: BookPr
         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0a0a0a] to-transparent" />
       </div>
       <div className="mt-6">
-        <ReadButton bookId={bookId} accentColor={accentColor} />
+        <ReadButton bookId={bookId} accentColor={accentColor} totalChapters={totalChapters} />
       </div>
     </section>
   );

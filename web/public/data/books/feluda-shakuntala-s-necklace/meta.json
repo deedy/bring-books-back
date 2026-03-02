@@ -1,0 +1,21 @@
+{
+  "id": "feluda-shakuntala-s-necklace",
+  "title": "Shakuntala's Necklace",
+  "transliteratedTitle": "Shakuntalar Kontthohar",
+  "subtitle": "A Priceless Heirloom and a City of Secrets",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-shakuntala-s-necklace.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "শকুন্তলার কণ্ঠহার",
+  "originalYear": 1988,
+  "totalChapters": 9,
+  "wordCount": 13134,
+  "summary": "When famed detective Feluda journeys to the historic city of Lucknow, a simple holiday quickly turns into a thrilling hunt for a legendary stolen necklace. Amidst the grandeur of nawabi palaces and echoes of the past, Feluda must unravel a web of intrigue and deception. Will the city’s secrets yield their truth before it’s too late?",
+  "anthologyId": "feluda",
+  "storyNumber": 30
+}

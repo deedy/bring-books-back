@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Book, Author } from "@/lib/types";
-import { readingTime } from "@/lib/utils";
+import { readingTime, displayYear } from "@/lib/utils";
 import OfflineBadge from "@/components/OfflineBadge";
 
 interface BookCardProps {
@@ -29,7 +29,10 @@ export default function BookCard({ book, author }: BookCardProps) {
         </h3>
         <p className="text-xs text-white/50 mt-0.5">{author.name}</p>
         <p className="text-[11px] text-white/30 mt-0.5">
-          {book.originalLanguage} &middot; {book.originalYear} &middot; {readingTime(book.wordCount)}
+          {book.originalLanguage} &middot; {displayYear(book.originalYear, book.yearEnd)} &middot;{" "}
+          {book.type === "anthology" && book.totalStories
+            ? `${book.totalStories} stories`
+            : readingTime(book.wordCount)}
         </p>
       </div>
     </Link>

@@ -1,0 +1,948 @@
+{
+  "glossary": {
+    "Jatayu": {
+      "type": "character",
+      "description": "A popular thriller writer who uses the pen name Jatayu and is a key member of Feluda's investigative team.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-elephant-god/jatayu.webp"
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "A sharp and analytical private detective who is the protagonist of the stories, also known by his nickname Feluda.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-elephant-god/feluda.webp"
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "The cook in Feluda's household, briefly mentioned as serving tea."
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's cousin and assistant who narrates the stories and accompanies him on investigations."
+    },
+    "Niranjan Chakravarty": {
+      "type": "character",
+      "description": "The manager of the Calcutta Lodge hotel in Varanasi and local acquaintance who guides Feluda's team around the city.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-elephant-god/niranjan-chakravarty.webp"
+    },
+    "Durga Puja": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival celebrating the goddess Durga, especially popular in Bengal, culminating in Bijaya Dashami (Vijaya Dashami) and including significant days like Mahashtami; the term 'puja' refers to the rituals and festivities."
+    },
+    "Dashashwamedh Ghat": {
+      "type": "proper_noun",
+      "description": "A prominent and ancient ghat on the Ganges in Varanasi, known for religious ceremonies and festivals."
+    },
+    "Banaras": {
+      "type": "proper_noun",
+      "description": "An ancient and sacred city in India, also known as Banaras and Kashi, renowned for its ghats, temples, and spiritual significance."
+    },
+    "Hindu University": {
+      "type": "proper_noun",
+      "description": "Refers to Banaras Hindu University, a prestigious educational institution in Varanasi."
+    },
+    "Tibet": {
+      "type": "proper_noun",
+      "description": "A region in Asia, referenced here as a possible source of the Ganges."
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "A sacred river in India, central to Hindu beliefs and rituals."
+    },
+    "Brahmaputra": {
+      "type": "proper_noun",
+      "description": "A major river in South Asia, mentioned in relation to the source of the Ganges."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "A vast mountain range in Asia, the source of several major rivers including the Ganges."
+    },
+    "Kachauri Gali": {
+      "type": "proper_noun",
+      "description": "A famous lane in Varanasi known for its food, especially sweets like rabri."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in eastern India and home to Feluda and his friends."
+    },
+    "Tintin": {
+      "type": "proper_noun",
+      "description": "A reference to the famous Belgian comic book character, used here to describe the similarity of a story."
+    },
+    "Calcutta Lodge": {
+      "type": "proper_noun",
+      "description": "A hotel in Varanasi run by Bengalis, where Feluda and his companions stay."
+    },
+    "Munger": {
+      "type": "proper_noun",
+      "description": "A city in the Indian state of Bihar, mentioned as a destination of Machchli Baba."
+    },
+    "Patna": {
+      "type": "proper_noun",
+      "description": "The capital city of Bihar, India, also mentioned as a destination."
+    },
+    "Haridwar": {
+      "type": "proper_noun",
+      "description": "A holy city in Uttarakhand, India, considered a starting point for Machchli Baba's journey."
+    },
+    "ashtray": {
+      "type": "vocabulary",
+      "description": "A receptacle for ash from cigarettes or cigars, commonly found in Indian households."
+    },
+    "sadhu": {
+      "type": "vocabulary",
+      "description": "A holy man or ascetic in Hinduism, often renouncing worldly life for spiritual pursuits."
+    },
+    "rabri": {
+      "type": "vocabulary",
+      "description": "A traditional North Indian sweet dish made from thickened, sweetened milk."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A hotel staff member who carries luggage and serves guests, common in Indian hospitality."
+    },
+    "Mag Phos": {
+      "type": "vocabulary",
+      "description": "Short for Magnesium Phosphoricum, a homeopathic remedy often used for pain relief."
+    },
+    "fish scale": {
+      "type": "vocabulary",
+      "description": "A scale from a fish, given as a blessed token by Machchli Baba to his devotees."
+    },
+    "Shaitan Singh": {
+      "type": "character",
+      "description": "A fictional villain, referenced as a character created by Akrur Nandi and enacted by a boy."
+    },
+    "Akrur Nandi": {
+      "type": "character",
+      "description": "A rival writer to Lalmohan Babu, known for creating the character Shaitan Singh."
+    },
+    "Captain Spark": {
+      "type": "character",
+      "description": "A fictional hero character enacted by a boy, supposedly seeking revenge for his father's death."
+    },
+    "Ambika Ghoshal": {
+      "type": "character",
+      "description": "The elder Ghoshal and retired solicitor living in Kashi who is the grandfather of the family and owner of the Ganesh idol."
+    },
+    "Srutidhar Mahesh Vachaspati": {
+      "type": "character",
+      "description": "A renowned Sanskrit scholar present at the gathering."
+    },
+    "Maganlal Meghraj": {
+      "type": "character",
+      "description": "A wealthy and influential man in Banaras whose house is a central location in the investigation.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-elephant-god/maganlal-meghraj.webp"
+    },
+    "Ram Nagar": {
+      "type": "proper_noun",
+      "description": "A locality across the river from Varanasi, known for the palace of the Maharajah."
+    },
+    "Man Mandir Ghat": {
+      "type": "proper_noun",
+      "description": "A historic palace and ghat in Varanasi, renowned for its architecture and observatory, also referred to as Man Mandir Ghat."
+    },
+    "Jantar Mantar": {
+      "type": "proper_noun",
+      "description": "A collection of astronomical instruments, with the original in Delhi and a smaller version at Man Mandir Ghat."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, referenced here for its famous Jantar Mantar."
+    },
+    "Ghoshal": {
+      "type": "proper_noun",
+      "description": "The Ghoshal family of Kashi (Varanasi), central to the chapter's events, with Umanath Ghoshal (also called Umanath Babu or Mr Ghoshal) as the current head and owner of the house where the Ganesh idol was kept."
+    },
+    "East Bengal": {
+      "type": "proper_noun",
+      "description": "A historical region, now part of Bangladesh, referenced as the Ghoshal family's ancestral home."
+    },
+    "Aligarh": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, India, known for its university."
+    },
+    "Vishwanath": {
+      "type": "proper_noun",
+      "description": "Refers to Lord Vishwanath (Shiva), the presiding deity of the famous Kashi Vishwanath Temple in Varanasi."
+    },
+    "ghat": {
+      "type": "vocabulary",
+      "description": "A series of steps leading down to a river, especially on the Ganges, used for bathing or religious rituals."
+    },
+    "lungi": {
+      "type": "vocabulary",
+      "description": "A traditional garment, a long piece of cloth wrapped around the waist, worn by men in India."
+    },
+    "zamindars": {
+      "type": "vocabulary",
+      "description": "Landowners, often hereditary, who historically collected taxes from peasants in India."
+    },
+    "bhajan": {
+      "type": "vocabulary",
+      "description": "A devotional song, typically sung in praise of Hindu deities."
+    },
+    "padmasan": {
+      "type": "vocabulary",
+      "description": "A cross-legged sitting posture used in yoga and meditation, also known as the lotus position."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting, similar to 'hello' or 'greetings', often accompanied by folded hands."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in South Asia, especially by men."
+    },
+    "zari": {
+      "type": "vocabulary",
+      "description": "A type of fine gold or silver thread used in traditional Indian garments for embroidery."
+    },
+    "Someshwar Ghoshal": {
+      "type": "character",
+      "description": "Umanath's great-grandfather, a legendary traveler whose actions brought the Ganesh idol into the family."
+    },
+    "Shashi Babu": {
+      "type": "character",
+      "description": "An artist working on the idol of Durga in the Ghoshal household.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-elephant-god/shashi-babu.webp"
+    },
+    "Trilochan": {
+      "type": "character",
+      "description": "The chowkidar (guard) at the Ghoshal family's gate, loyal for thirty-five years."
+    },
+    "Ganesh": {
+      "type": "proper_noun",
+      "description": "A Hindu deity with an elephant head, revered as the remover of obstacles; the stolen idol is of Ganesh, also known as Ganapati."
+    },
+    "Madurai": {
+      "type": "proper_noun",
+      "description": "A city in South India, mentioned as part of Someshwar Ghoshal's travels."
+    },
+    "Durga": {
+      "type": "proper_noun",
+      "description": "A major Hindu goddess, also reverentially called Durga Mai ('Mother Durga'), whose idol is being made for the upcoming festival."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed platform along the outside of a house, common in Indian architecture."
+    },
+    "mali": {
+      "type": "vocabulary",
+      "description": "A gardener."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or security guard."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The currency of India."
+    },
+    "Jeevan Babu": {
+      "type": "character",
+      "description": "A short, fat, bearded man who is Feluda and team's roommate at the lodge, known for his loud snoring."
+    },
+    "Kanai": {
+      "type": "character",
+      "description": "Shashi Babu's son, who assists him in making idols."
+    },
+    "Little Raxit": {
+      "type": "character",
+      "description": "Captain Spark's fictional assistant in the adventure stories."
+    },
+    "Daku Ganderia": {
+      "type": "character",
+      "description": "A fictional dacoit (bandit) from the adventure stories referenced by Ruku."
+    },
+    "Suraj": {
+      "type": "character",
+      "description": "A friend of Ruku, mentioned as his only companion in Banaras."
+    },
+    "Pulsetilla 30": {
+      "type": "proper_noun",
+      "description": "A homeopathic medicine used by Vikas Babu."
+    },
+    "Lucknow": {
+      "type": "proper_noun",
+      "description": "A city in northern India, referenced as a radio station location."
+    },
+    "Begum Akhtar": {
+      "type": "proper_noun",
+      "description": "A renowned Indian singer, whose music is played on the radio."
+    },
+    "Bengali Club": {
+      "type": "proper_noun",
+      "description": "A social club for Bengalis, mentioned as organizing a play."
+    },
+    "Kabuliwala": {
+      "type": "proper_noun",
+      "description": "A famous Bengali short story and play by Rabindranath Tagore."
+    },
+    "Vanaspati diamond": {
+      "type": "proper_noun",
+      "description": "A rare diamond with a greenish tinge, referenced as part of the Ganesh statue."
+    },
+    "Rukmini Kumar": {
+      "type": "proper_noun",
+      "description": "The child in the Ghoshal household, known for his imaginative nature, whose full name is Rukmini Kumar and is affectionately called Ruku."
+    },
+    "Colt": {
+      "type": "proper_noun",
+      "description": "A brand of revolver, referenced as Feluda's firearm."
+    },
+    "Gongorilla": {
+      "type": "proper_noun",
+      "description": "A fictional giant gorilla from Lalmohan Babu's book The Gorilla’s Grasp."
+    },
+    "The Gorilla’s Grasp": {
+      "type": "proper_noun",
+      "description": "A fictional adventure book written by Lalmohan Babu."
+    },
+    "King Kong": {
+      "type": "proper_noun",
+      "description": "A famous giant gorilla from Western cinema, referenced as inspiration for Gongorilla."
+    },
+    "Kartik": {
+      "type": "proper_noun",
+      "description": "A Hindu god, son of Shiva and Parvati, whose statue is being painted by Shashi Babu."
+    },
+    "Sinha Babu": {
+      "type": "proper_noun",
+      "description": "The secretary of Umanath Ghoshal, also known as Sinha Babu or Vikas Babu, who gives medicine to Shashi Babu and is helpful to Feluda."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful term used in India to address a man, often signifying 'mister' or 'sir.'"
+    },
+    "homoeopathy": {
+      "type": "vocabulary",
+      "description": "A system of alternative medicine popular in India, using highly diluted substances, with 'homoeopathic' referring to things relating to this system."
+    },
+    "chewing gum": {
+      "type": "vocabulary",
+      "description": "A sweetened, flavored gum for chewing, popular among children."
+    },
+    "Nitai": {
+      "type": "character",
+      "description": "Shashi Babu's younger son, described as a troublemaker possibly involved with Maganlal's gang."
+    },
+    "Rajasthan": {
+      "type": "proper_noun",
+      "description": "A state in northwestern India, known for its rich history and Rajput heritage."
+    },
+    "Rajput": {
+      "type": "proper_noun",
+      "description": "A member of a historical warrior caste from Rajasthan, famed for their valor."
+    },
+    "pugri": {
+      "type": "proper_noun",
+      "description": "A traditional turban worn by men, especially in Rajasthan."
+    },
+    "Allahabad": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, India, known for its religious significance and historical events."
+    },
+    "Aurangzeb": {
+      "type": "proper_noun",
+      "description": "A Mughal emperor who ruled much of India in the 17th century, known for building mosques."
+    },
+    "Hanuman Mandir": {
+      "type": "proper_noun",
+      "description": "A temple dedicated to Hanuman, the monkey god, commonly found throughout India."
+    },
+    "pyjamas": {
+      "type": "vocabulary",
+      "description": "Loose-fitting trousers, commonly worn in India as daily attire."
+    },
+    "darshan": {
+      "type": "vocabulary",
+      "description": "The act of seeing or being seen by a deity or holy person, considered auspicious."
+    },
+    "Sethji": {
+      "type": "vocabulary",
+      "description": "A term of respect for a wealthy merchant or businessman."
+    },
+    "kurta-pyjama": {
+      "type": "vocabulary",
+      "description": "A traditional Indian outfit consisting of a long tunic (kurta) and trousers (pyjama)."
+    },
+    "ghee": {
+      "type": "vocabulary",
+      "description": "Clarified butter used extensively in Indian cooking and rituals."
+    },
+    "Arjun": {
+      "type": "character",
+      "description": "A thin, strange-looking man who performs knife-throwing acts for Maganlal; formerly part of a private circus."
+    },
+    "Abhay Chakravarty": {
+      "type": "proper_noun",
+      "description": "A seventy-year-old resident of Varanasi, also known as Abhay Babu or Abhaycharan Chakravarty, whose house was previously visited by the protagonists and who discovers Machchli Baba and hosts him."
+    },
+    "Sarnath": {
+      "type": "proper_noun",
+      "description": "A historical site near Varanasi, significant in Buddhism as the place where Buddha gave his first sermon."
+    },
+    "Ramnagar": {
+      "type": "proper_noun",
+      "description": "A town near Varanasi, known for its fort and cultural heritage."
+    },
+    "Durga Bari": {
+      "type": "proper_noun",
+      "description": "A temple or religious site in Varanasi dedicated to the goddess Durga."
+    },
+    "Harbanspur": {
+      "type": "proper_noun",
+      "description": "A place mentioned as having a king who owned a private circus."
+    },
+    "Jai Baba Vishwanath": {
+      "type": "vocabulary",
+      "description": "A devotional exclamation meaning 'Hail Lord Vishwanath', invoking the deity Shiva."
+    },
+    "Jai Baba Felunath": {
+      "type": "vocabulary",
+      "description": "A playful adaptation of the devotional phrase, here used to humorously hail Feluda."
+    },
+    "sherbet": {
+      "type": "vocabulary",
+      "description": "A sweet, flavored drink popular in India, often served cold as a refreshment."
+    },
+    "almirahs": {
+      "type": "vocabulary",
+      "description": "Cupboards or wardrobes, commonly used in Indian households for storage."
+    },
+    "Mohanbhog": {
+      "type": "vocabulary",
+      "description": "A term of endearment or nickname, possibly referencing a type of Indian sweet or used humorously here."
+    },
+    "Bharadwaj": {
+      "type": "character",
+      "description": "The old bearer (servant) who serves tea."
+    },
+    "Tarzan, the Ape Man": {
+      "type": "proper_noun",
+      "description": "A popular adventure film, referenced as the movie Ruku goes to see."
+    },
+    "Lokenath": {
+      "type": "character",
+      "description": "A panda (religious guide) at the ghat who provides information about Machchli Baba."
+    },
+    "Sanjay Roy": {
+      "type": "character",
+      "description": "A Bengali gentleman from the Bengali Club who invites Feluda and his friends to a play."
+    },
+    "Gokul Chatterjee": {
+      "type": "character",
+      "description": "Another Bengali gentleman from the Bengali Club who accompanies Sanjay Roy."
+    },
+    "Prayag": {
+      "type": "proper_noun",
+      "description": "An ancient name for Allahabad, a city in Uttar Pradesh, India, considered a holy site at the confluence of three rivers."
+    },
+    "Rai Bareli": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, India, mentioned here as the location of a jail."
+    },
+    "Kedar Ghat": {
+      "type": "proper_noun",
+      "description": "A specific ghat in Varanasi, known for its religious importance, often referred to simply as Kedar."
+    },
+    "Godhulia": {
+      "type": "proper_noun",
+      "description": "A busy area or crossing in Varanasi, known for its markets and proximity to the ghats."
+    },
+    "Lata Mangeshkar": {
+      "type": "proper_noun",
+      "description": "A legendary Indian playback singer, whose songs are widely popular."
+    },
+    "panda": {
+      "type": "vocabulary",
+      "description": "A priest or religious guide, especially one who assists pilgrims at Hindu holy sites."
+    },
+    "bhakti": {
+      "type": "vocabulary",
+      "description": "Devotional worship directed to a personal god, prominent in Hinduism."
+    },
+    "rickshaw": {
+      "type": "vocabulary",
+      "description": "A small, two- or three-wheeled passenger vehicle, commonly used for transport in India."
+    },
+    "dhup": {
+      "type": "vocabulary",
+      "description": "Onomatopoeic word for a rhythmic sound, here possibly referring to the sound made by a hand grinder."
+    },
+    "gali": {
+      "type": "vocabulary",
+      "description": "A narrow lane or alley, commonly found in Indian cities."
+    },
+    "Mr Tiwari": {
+      "type": "character",
+      "description": "A police inspector and informant who assists Feluda, providing him with important information during investigations and is thanked during the resolution."
+    },
+    "Star of Africa": {
+      "type": "proper_noun",
+      "description": "A reference to the Cullinan Diamond, the largest gem-quality rough diamond ever found."
+    },
+    "Koh-i-noor": {
+      "type": "proper_noun",
+      "description": "A famous and historic diamond, now part of the British Crown Jewels."
+    },
+    "Munshi Ghat": {
+      "type": "proper_noun",
+      "description": "A ghat located next to Dashashwamedh Ghat in Varanasi."
+    },
+    "Raja Ghat": {
+      "type": "proper_noun",
+      "description": "Another ghat near Dashashwamedh Ghat in Varanasi."
+    },
+    "Metro-Goldwyn-Mayer": {
+      "type": "proper_noun",
+      "description": "A major American film studio, referenced here as the producer of the Tarzan film."
+    },
+    "sleuth": {
+      "type": "vocabulary",
+      "description": "A detective or investigator, often used to describe Feluda."
+    },
+    "Charminar": {
+      "type": "vocabulary",
+      "description": "A popular Indian brand of cigarettes."
+    },
+    "opium": {
+      "type": "vocabulary",
+      "description": "A narcotic drug obtained from poppy, historically used in India for medicinal and recreational purposes."
+    },
+    "Munshi": {
+      "type": "proper_noun",
+      "description": "Likely refers to Munshi Ghat, another prominent ghat in Varanasi."
+    },
+    "ayurvedic": {
+      "type": "vocabulary",
+      "description": "Relating to Ayurveda, a traditional Indian system of medicine using natural remedies."
+    },
+    "baba": {
+      "type": "vocabulary",
+      "description": "A respectful term for a holy man or spiritual leader in India, with 'Babaji' and 'sadhubaba' being affectionate or reverential forms."
+    },
+    "Afghani": {
+      "type": "vocabulary",
+      "description": "Relating to Afghanistan; here, refers to a style of shoes."
+    },
+    "jai": {
+      "type": "vocabulary",
+      "description": "A Hindi word meaning 'victory' or 'hail', often used in religious chants."
+    },
+    "devotees": {
+      "type": "vocabulary",
+      "description": "Followers or worshippers, especially in a religious context."
+    },
+    "Purinder Raut": {
+      "type": "character",
+      "description": "A mysterious holy man and fraudster, also known as Ebony Baba or Machchli Baba, who is actually an escapee from prison.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-elephant-god/purinder-raut.webp"
+    },
+    "Dr Ashok Datta": {
+      "type": "character",
+      "description": "A doctor mentioned as an acquaintance of Vikas Babu."
+    },
+    "Monument": {
+      "type": "proper_noun",
+      "description": "A landmark in Calcutta where Purinder Raut performed magic shows."
+    },
+    "Tarzan": {
+      "type": "proper_noun",
+      "description": "A popular fictional character and film series, referenced by Ruku."
+    },
+    "Harishchandra Ghat": {
+      "type": "proper_noun",
+      "description": "A well-known ghat in Varanasi, mentioned as a location in the story."
+    },
+    "Sreedhar Variety Stores": {
+      "type": "proper_noun",
+      "description": "A shop where a character buys a knife."
+    },
+    "Ranchi": {
+      "type": "proper_noun",
+      "description": "A city in India, referenced as a place for mental health treatment."
+    },
+    "The Bleeding Diamond": {
+      "type": "proper_noun",
+      "description": "A fictional mystery novel written by Jatayu."
+    },
+    "bhang": {
+      "type": "vocabulary",
+      "description": "An edible preparation of cannabis, traditionally consumed during Indian festivals."
+    },
+    "Chiclet": {
+      "type": "vocabulary",
+      "description": "A brand of chewing gum, here used generically to refer to gum used to hide the Ganesh idol."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Jatayu",
+      "Feluda",
+      "Srinath",
+      "Topshe",
+      "Niranjan Chakravarty",
+      "Durga Puja",
+      "Dashashwamedh Ghat",
+      "Banaras",
+      "Hindu University",
+      "Tibet",
+      "Ganges",
+      "Brahmaputra",
+      "Himalayas",
+      "Kachauri Gali",
+      "Calcutta",
+      "Tintin",
+      "Calcutta Lodge",
+      "Munger",
+      "Patna",
+      "Haridwar",
+      "ashtray",
+      "sadhu",
+      "rabri",
+      "paan",
+      "bearer",
+      "Mag Phos",
+      "fish scale",
+      "Abhay Chakravarty",
+      "Vishwanath",
+      "baba",
+      "Purinder Raut"
+    ],
+    "ch-2": [
+      "Jatayu",
+      "Feluda",
+      "Shaitan Singh",
+      "Akrur Nandi",
+      "Captain Spark",
+      "Ambika Ghoshal",
+      "Srutidhar Mahesh Vachaspati",
+      "Maganlal Meghraj",
+      "Dashashwamedh Ghat",
+      "Ram Nagar",
+      "Man Mandir Ghat",
+      "Jantar Mantar",
+      "Delhi",
+      "Ghoshal",
+      "Calcutta",
+      "Durga Puja",
+      "East Bengal",
+      "Aligarh",
+      "Banaras",
+      "Vishwanath",
+      "ghat",
+      "lungi",
+      "zamindars",
+      "bhajan",
+      "padmasan",
+      "namaskar",
+      "kurta",
+      "zari",
+      "Abhay Chakravarty",
+      "Sinha Babu",
+      "baba",
+      "Purinder Raut",
+      "Niranjan Chakravarty"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Jatayu",
+      "Captain Spark",
+      "Akrur Nandi",
+      "Someshwar Ghoshal",
+      "Shashi Babu",
+      "Trilochan",
+      "Maganlal Meghraj",
+      "Shaitan Singh",
+      "Ghoshal",
+      "Jatayu",
+      "Ganesh",
+      "Madurai",
+      "Calcutta",
+      "Banaras",
+      "Durga",
+      "Trilochan",
+      "veranda",
+      "bearer",
+      "mali",
+      "chowkidar",
+      "rupees",
+      "Durga Puja",
+      "Rukmini Kumar",
+      "Sinha Babu",
+      "Topshe",
+      "babu",
+      "Purinder Raut"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Jeevan Babu",
+      "Maganlal Meghraj",
+      "Trilochan",
+      "Ambika Ghoshal",
+      "Shashi Babu",
+      "Kanai",
+      "Akrur Nandi",
+      "Captain Spark",
+      "Little Raxit",
+      "Shaitan Singh",
+      "Daku Ganderia",
+      "Suraj",
+      "Calcutta Lodge",
+      "Banaras",
+      "Ghoshal",
+      "Ganesh",
+      "Pulsetilla 30",
+      "Lucknow",
+      "Begum Akhtar",
+      "Bengali Club",
+      "Kabuliwala",
+      "Vanaspati diamond",
+      "Rukmini Kumar",
+      "Colt",
+      "Gongorilla",
+      "The Gorilla’s Grasp",
+      "King Kong",
+      "Kartik",
+      "Durga",
+      "Sinha Babu",
+      "Calcutta",
+      "babu",
+      "mali",
+      "veranda",
+      "homoeopathy",
+      "chewing gum",
+      "bearer",
+      "Durga Puja",
+      "Jatayu",
+      "Vishwanath",
+      "Purinder Raut",
+      "Niranjan Chakravarty"
+    ],
+    "ch-5": [
+      "Feluda",
+      "Shashi Babu",
+      "Nitai",
+      "Rajasthan",
+      "Rajput",
+      "pugri",
+      "sadhu",
+      "ghat",
+      "Ganesh",
+      "Banaras",
+      "Allahabad",
+      "Durga Puja",
+      "Haridwar",
+      "Vishwanath",
+      "Aurangzeb",
+      "Hanuman Mandir",
+      "pyjamas",
+      "babu",
+      "rabri",
+      "darshan",
+      "Sethji",
+      "kurta-pyjama",
+      "ghee",
+      "Ghoshal",
+      "Jatayu",
+      "Maganlal Meghraj",
+      "Mr Tiwari",
+      "Rukmini Kumar",
+      "Purinder Raut",
+      "Niranjan Chakravarty"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Maganlal Meghraj",
+      "Arjun",
+      "Vishwanath",
+      "Abhay Chakravarty",
+      "Banaras",
+      "Sarnath",
+      "Ramnagar",
+      "Durga Bari",
+      "Hindu University",
+      "Harbanspur",
+      "Jai Baba Vishwanath",
+      "Jai Baba Felunath",
+      "kurta-pyjama",
+      "paan",
+      "sherbet",
+      "almirahs",
+      "Ganesh",
+      "Mohanbhog",
+      "Ghoshal",
+      "Jatayu",
+      "Man Mandir Ghat",
+      "Purinder Raut"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Shaitan Singh",
+      "Captain Spark",
+      "Suraj",
+      "Trilochan",
+      "Shashi Babu",
+      "Bharadwaj",
+      "Dashashwamedh Ghat",
+      "Ganesh",
+      "Calcutta",
+      "Sarnath",
+      "Tarzan, the Ape Man",
+      "ghat",
+      "veranda",
+      "bearer",
+      "Ambika Ghoshal",
+      "Banaras",
+      "Ghoshal",
+      "Jatayu",
+      "Maganlal Meghraj",
+      "Rukmini Kumar",
+      "Sinha Babu",
+      "babu",
+      "Purinder Raut"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Jatayu",
+      "Abhay Chakravarty",
+      "Lokenath",
+      "Sanjay Roy",
+      "Gokul Chatterjee",
+      "Shashi Babu",
+      "ghat",
+      "Prayag",
+      "Haridwar",
+      "Rai Bareli",
+      "Kedar Ghat",
+      "rabri",
+      "Kachauri Gali",
+      "Vishwanath",
+      "Godhulia",
+      "Bengali Club",
+      "Kabuliwala",
+      "Lata Mangeshkar",
+      "sadhu",
+      "panda",
+      "bhakti",
+      "rickshaw",
+      "dhup",
+      "gali",
+      "Banaras",
+      "Dashashwamedh Ghat",
+      "Ghoshal",
+      "Maganlal Meghraj",
+      "Mr Tiwari",
+      "Rukmini Kumar",
+      "Topshe",
+      "Purinder Raut",
+      "Niranjan Chakravarty"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Shashi Babu",
+      "Mr Tiwari",
+      "Nitai",
+      "Durga Puja",
+      "Durga Bari",
+      "Kabuliwala",
+      "Bengali Club",
+      "Ganesh",
+      "Star of Africa",
+      "Koh-i-noor",
+      "Dashashwamedh Ghat",
+      "Munshi Ghat",
+      "Raja Ghat",
+      "Metro-Goldwyn-Mayer",
+      "sleuth",
+      "Charminar",
+      "ashtray",
+      "opium",
+      "Ambika Ghoshal",
+      "Ghoshal",
+      "Jatayu",
+      "Maganlal Meghraj",
+      "Sinha Babu",
+      "Topshe",
+      "homoeopathy",
+      "Niranjan Chakravarty"
+    ],
+    "ch-10": [
+      "Feluda",
+      "Abhay Chakravarty",
+      "Suraj",
+      "Shashi Babu",
+      "Kedar Ghat",
+      "Raja Ghat",
+      "Munshi",
+      "Durga",
+      "Kabuliwala",
+      "Bengali Club",
+      "Patna",
+      "ayurvedic",
+      "ghat",
+      "baba",
+      "pyjamas",
+      "Afghani",
+      "jai",
+      "devotees",
+      "Banaras",
+      "Dashashwamedh Ghat",
+      "Durga Puja",
+      "Ghoshal",
+      "Jatayu",
+      "Maganlal Meghraj",
+      "Mr Tiwari",
+      "Topshe",
+      "Purinder Raut"
+    ],
+    "ch-11": [
+      "Ambika Ghoshal",
+      "Trilochan",
+      "Bharadwaj",
+      "Feluda",
+      "Abhay Chakravarty",
+      "Purinder Raut",
+      "Maganlal Meghraj",
+      "Lokenath",
+      "Captain Spark",
+      "Rukmini Kumar",
+      "Daku Ganderia",
+      "Suraj",
+      "Shaitan Singh",
+      "Shashi Babu",
+      "Little Raxit",
+      "Dr Ashok Datta",
+      "Jatayu",
+      "Ganesh",
+      "Monument",
+      "Calcutta",
+      "Durga",
+      "Munshi",
+      "Raja Ghat",
+      "Metro-Goldwyn-Mayer",
+      "Tarzan",
+      "Harishchandra Ghat",
+      "Sreedhar Variety Stores",
+      "Durga Puja",
+      "Vishwanath",
+      "Ranchi",
+      "The Bleeding Diamond",
+      "Jatayu",
+      "bhang",
+      "ghat",
+      "paan",
+      "Chiclet",
+      "Banaras",
+      "Dashashwamedh Ghat",
+      "Ghoshal",
+      "Mr Tiwari",
+      "Sinha Babu",
+      "babu"
+    ]
+  }
+}

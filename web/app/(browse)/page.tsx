@@ -4,10 +4,12 @@ import AuthorCard from "@/components/AuthorCard";
 
 export default function HomePage() {
   const catalog = getCatalog();
+  // Only show top-level books + anthologies on home (not anthology members)
+  const topLevelBooks = catalog.books.filter((b) => !b.anthologyId).reverse();
 
   return (
     <div>
-      <HomeHero books={catalog.books} authors={catalog.authors} />
+      <HomeHero books={topLevelBooks} authors={catalog.authors} />
 
       {/* The Authors */}
       <section className="max-w-6xl mx-auto px-6 py-16">

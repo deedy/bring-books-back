@@ -1,0 +1,803 @@
+{
+  "glossary": {
+    "Lalmohan Ganguli": {
+      "type": "character",
+      "description": "A bachelor and writer of thrillers who serves as Feluda's close friend and sidekick.",
+      "image": "/data/images/characters/feluda-crime-in-kedarnath/lalmohan-ganguli.webp"
+    },
+    "Mohinimohan Ganguli": {
+      "type": "character",
+      "description": "Lalmohan Babu's paternal uncle, a practitioner of homoeopathy."
+    },
+    "Lalit Mohan Ganguli": {
+      "type": "character",
+      "description": "Lalmohan Babu's great-grandfather, who was a paper merchant and owner of L.M. Ganguli & Sons."
+    },
+    "Durgamohan Ganguli": {
+      "type": "character",
+      "description": "Lalmohan Babu's uncle, a former freedom fighter who later became reclusive."
+    },
+    "Umashankar Puri": {
+      "type": "character",
+      "description": "The manager of the Rupnarayangarh estate who seeks Feluda's help regarding a potential incident.",
+      "image": "/data/images/characters/feluda-crime-in-kedarnath/umashankar-puri.webp"
+    },
+    "Maharaja of Bhagwangarh": {
+      "type": "character",
+      "description": "A royal figure who recommended Feluda to Mr Puri."
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "A servant who brings tea and biscuits during Mr Puri's visit."
+    },
+    "Raja Chandradeo Singh": {
+      "type": "character",
+      "description": "The former ruler of Rupnarayangarh known for his generosity, who was previously associated with a valuable pendant.",
+      "image": "/data/images/characters/feluda-crime-in-kedarnath/raja-chandradeo-singh.webp"
+    },
+    "Bhavani Upadhyaya": {
+      "type": "character",
+      "description": "An ayurvedic healer from Haridwar who cured Raja Chandradeo Singh's asthma.",
+      "image": "/data/images/characters/feluda-crime-in-kedarnath/bhavani-upadhyaya.webp"
+    },
+    "Maharani": {
+      "type": "character",
+      "description": "The wife of Raja Chandradeo Singh, who was aware of the pendant's gifting."
+    },
+    "Surajdeo": {
+      "type": "character",
+      "description": "The elder son of Raja Chandradeo Singh, described as kind and bookish, who succeeded his father."
+    },
+    "Gorpar": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, where Lalmohan Babu lives."
+    },
+    "Baisakh": {
+      "type": "proper_noun",
+      "description": "The first month of the Bengali calendar, marking the Bengali New Year."
+    },
+    "Khulna": {
+      "type": "proper_noun",
+      "description": "A city now in Bangladesh, mentioned as the location of a historical incident."
+    },
+    "Bangladesh": {
+      "type": "proper_noun",
+      "description": "A country in South Asia, formerly part of British India and later East Pakistan."
+    },
+    "Dhanbad": {
+      "type": "proper_noun",
+      "description": "A city in the Indian state of Jharkhand, where Lalmohan Babu's sister is posted."
+    },
+    "Durga Puja": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival celebrated in Bengal and other parts of India, honoring the goddess Durga."
+    },
+    "Rupnarayangarh": {
+      "type": "proper_noun",
+      "description": "A fictional or semi-fictional princely state in Uttar Pradesh, central to the story's events."
+    },
+    "Uttar Pradesh": {
+      "type": "proper_noun",
+      "description": "A large state in northern India, where Rupnarayangarh is located."
+    },
+    "Aligarh": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, referenced as being near Rupnarayangarh."
+    },
+    "Haridwar": {
+      "type": "proper_noun",
+      "description": "A holy city in Uttarakhand, India, known for its religious significance and as the residence of Bhavani Upadhyaya."
+    },
+    "L.M. Ganguli & Sons": {
+      "type": "proper_noun",
+      "description": "The family business of Lalmohan Babu's ancestors, a paper merchant shop."
+    },
+    "Park Hotel": {
+      "type": "proper_noun",
+      "description": "A well-known hotel, presumably in Kolkata, where Mr Puri is staying."
+    },
+    "Moradabad": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, mentioned as Mr Puri's place of origin."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, where Devishankar studied and started his business."
+    },
+    "homoeopathy": {
+      "type": "vocabulary",
+      "description": "A system of alternative medicine based on the use of highly diluted substances."
+    },
+    "arnica": {
+      "type": "vocabulary",
+      "description": "A medicinal herb commonly used in homoeopathy for treating bruises and pain."
+    },
+    "rhus tox": {
+      "type": "vocabulary",
+      "description": "Short for Rhus toxicodendron, a homeopathic remedy made from poison ivy."
+    },
+    "belladonna": {
+      "type": "vocabulary",
+      "description": "A plant used in homeopathy, known for its medicinal and toxic properties."
+    },
+    "freedom fighter": {
+      "type": "vocabulary",
+      "description": "A term used in India for those who participated in the struggle for independence from British rule."
+    },
+    "trunk call": {
+      "type": "vocabulary",
+      "description": "A long-distance telephone call, especially one made within India."
+    },
+    "shikar": {
+      "type": "vocabulary",
+      "description": "An Indian term for hunting, especially as a sport among royals."
+    },
+    "paisa": {
+      "type": "vocabulary",
+      "description": "A unit of currency in India, equal to one-hundredth of a rupee."
+    },
+    "Pavandeo Singh": {
+      "type": "character",
+      "description": "The younger son of Raja Chandradeo Singh, interested in photography and filmmaking.",
+      "image": "/data/images/characters/feluda-crime-in-kedarnath/pavandeo-singh.webp"
+    },
+    "Makhanlal Majumdar": {
+      "type": "character",
+      "description": "An elderly fellow passenger on the Doon Express knowledgeable about pilgrimage sites."
+    },
+    "Kantibhai Pandit": {
+      "type": "character",
+      "description": "Bhavani Upadhyaya’s former landlord in Haridwar who provides information about him."
+    },
+    "Joginder Ram": {
+      "type": "character",
+      "description": "A friendly Garhwali taxi driver who drives Feluda and his companions."
+    },
+    "Hong Kong": {
+      "type": "proper_noun",
+      "description": "A city and special administrative region in China, referenced as the place where Feluda bought his recorder."
+    },
+    "Hrishikesh": {
+      "type": "proper_noun",
+      "description": "A town in Uttarakhand, India, famous for its spiritual and yoga centers."
+    },
+    "Doon Express": {
+      "type": "proper_noun",
+      "description": "A train service in India connecting Kolkata with Dehradun, passing through several pilgrimage sites."
+    },
+    "Badrinath": {
+      "type": "proper_noun",
+      "description": "A major Hindu pilgrimage site in Uttarakhand, India, dedicated to Lord Vishnu."
+    },
+    "Thar desert": {
+      "type": "proper_noun",
+      "description": "A large arid region in northwestern India, known for its sand dunes and camels."
+    },
+    "Jamunotri": {
+      "type": "proper_noun",
+      "description": "A pilgrimage site in Uttarakhand, India, source of the Yamuna River."
+    },
+    "Gangotri": {
+      "type": "proper_noun",
+      "description": "A pilgrimage site in Uttarakhand, India, source of the Ganges River."
+    },
+    "Gomukh": {
+      "type": "proper_noun",
+      "description": "The glacier in Uttarakhand, India, considered the source of the Ganges River."
+    },
+    "Panchakedar": {
+      "type": "proper_noun",
+      "description": "Refers to the five temples dedicated to Lord Shiva in the Garhwal Himalayas."
+    },
+    "Vasukital": {
+      "type": "proper_noun",
+      "description": "A high-altitude lake near Kedarnath in Uttarakhand, India."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "The mountain range in northern India, home to many pilgrimage sites."
+    },
+    "Laxman Mohalla": {
+      "type": "proper_noun",
+      "description": "A locality in Haridwar where Kantibhai Pandit and Upadhyaya lived."
+    },
+    "Singhania": {
+      "type": "proper_noun",
+      "description": "A person mentioned as having tried to tempt Upadhyaya."
+    },
+    "Hindi": {
+      "type": "proper_noun",
+      "description": "The language in which Upadhyaya's postcard was written."
+    },
+    "Garhwali": {
+      "type": "proper_noun",
+      "description": "Refers to the people and language of the Garhwal region in Uttarakhand."
+    },
+    "Garhwal Mandal Vikas Nigam": {
+      "type": "proper_noun",
+      "description": "A government-run organization managing tourism and accommodations in Uttarakhand."
+    },
+    "Laxmanjhoola": {
+      "type": "proper_noun",
+      "description": "A famous suspension bridge and locality near Rishikesh, Uttarakhand."
+    },
+    "Jim Corbett": {
+      "type": "proper_noun",
+      "description": "A British-Indian hunter and conservationist famous for hunting man-eating tigers and leopards."
+    },
+    "The Man-eating Leopard of Rudraprayag": {
+      "type": "proper_noun",
+      "description": "A book by Jim Corbett about his hunt for a notorious leopard in Rudraprayag."
+    },
+    "Garhwalis": {
+      "type": "proper_noun",
+      "description": "The people native to the Garhwal region of Uttarakhand."
+    },
+    "Mandakini": {
+      "type": "proper_noun",
+      "description": "A river in Uttarakhand, one of the two rivers meeting at Rudraprayag."
+    },
+    "Alakananda": {
+      "type": "proper_noun",
+      "description": "A river in Uttarakhand, also meeting at Rudraprayag."
+    },
+    "Gaurikund": {
+      "type": "proper_noun",
+      "description": "A town in Uttarakhand, the base for the trek to Kedarnath temple."
+    },
+    "Devprayag": {
+      "type": "proper_noun",
+      "description": "A town in Uttarakhand where the Alakananda and Bhagirathi rivers meet to form the Ganges."
+    },
+    "Keertinagar": {
+      "type": "proper_noun",
+      "description": "A town in Uttarakhand, mentioned as a stop on the way to Rudraprayag."
+    },
+    "Srinagar": {
+      "type": "proper_noun",
+      "description": "A town in Uttarakhand, capital of the Garhwal district, distinct from Srinagar in Kashmir."
+    },
+    "Bartholomew Company": {
+      "type": "proper_noun",
+      "description": "A map publishing company, referenced for their map used by Feluda."
+    },
+    "Nepal": {
+      "type": "proper_noun",
+      "description": "A neighboring country to India, east of Uttarakhand."
+    },
+    "Kashmir": {
+      "type": "proper_noun",
+      "description": "A region in northern India, west of Uttarakhand."
+    },
+    "sanyasi": {
+      "type": "vocabulary",
+      "description": "A Hindu ascetic or renunciant who has given up worldly attachments."
+    },
+    "ayurveda": {
+      "type": "vocabulary",
+      "description": "Ayurveda is an ancient Indian system of medicine based on natural herbs and holistic practices; 'ayurvedic' refers to anything relating to Ayurveda."
+    },
+    "ghat": {
+      "type": "vocabulary",
+      "description": "A series of steps leading down to a river, often used for bathing or religious rituals."
+    },
+    "dharamshala": {
+      "type": "vocabulary",
+      "description": "A dharamshala is a rest house or inn, often for pilgrims and usually run by charitable trusts; 'dharamshalas' is the plural form."
+    },
+    "Kalikamli dharamshalas": {
+      "type": "vocabulary",
+      "description": "A network of well-known dharamshalas in Uttarakhand, run by the Kalikamli trust."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A respectful Indian greeting, similar to 'hello' or 'greetings'."
+    },
+    "Mr Giridhari": {
+      "type": "character",
+      "description": "The hospitable manager of the rest house in Rudraprayag, fond of Bengali literature."
+    },
+    "Krishnakant Bhargav": {
+      "type": "character",
+      "description": "A journalist in Rudraprayag who recognizes Feluda and is writing a story about Bhavani Upadhyaya."
+    },
+    "Rudraprayag": {
+      "type": "proper_noun",
+      "description": "A town in Uttarakhand, India, known for its religious significance and scenic beauty."
+    },
+    "Corbett": {
+      "type": "proper_noun",
+      "description": "Refers to Jim Corbett, the famous British-Indian hunter and conservationist known for killing man-eating leopards and tigers."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "Now called Kolkata, a major city in eastern India."
+    },
+    "Allahabad": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, India, now officially known as Prayagraj."
+    },
+    "Kedarnath": {
+      "type": "proper_noun",
+      "description": "Kedarnath is a prominent Hindu temple town in the Himalayas, dedicated to Lord Shiva and a major pilgrimage site in Uttarakhand. 'Kedar' is a common abbreviation for Kedarnath."
+    },
+    "Badri": {
+      "type": "proper_noun",
+      "description": "Short for Badrinath, another important Hindu pilgrimage site in Uttarakhand."
+    },
+    "Australian": {
+      "type": "proper_noun",
+      "description": "Refers to Australia, here indicating the nationality of the television company."
+    },
+    "Royal Bengal tiger": {
+      "type": "proper_noun",
+      "description": "A subspecies of tiger native to the Indian subcontinent, known for its beauty and power."
+    },
+    "chamchas": {
+      "type": "vocabulary",
+      "description": "A Hindi slang term meaning 'sycophants' or 'flatterers', often used for followers or hangers-on."
+    },
+    "Nepali mask": {
+      "type": "vocabulary",
+      "description": "A traditional decorative mask from Nepal, often used in cultural or religious contexts."
+    },
+    "Travancore": {
+      "type": "proper_noun",
+      "description": "A historical princely state in southern India, referenced as the original owner of the pendant."
+    },
+    "Agastyamuni": {
+      "type": "proper_noun",
+      "description": "A town in Uttarakhand, India, noted for its elevation and as a stop on the journey."
+    },
+    "Guptakashi": {
+      "type": "proper_noun",
+      "description": "A town in Uttarakhand, famous for its temples and as a stop en route to Kedarnath."
+    },
+    "Son Prayag": {
+      "type": "proper_noun",
+      "description": "A location where the Son Ganga river joins Mandakini, en route to Kedarnath."
+    },
+    "Son Ganga": {
+      "type": "proper_noun",
+      "description": "A river joining Mandakini at Son Prayag."
+    },
+    "Rajasthani": {
+      "type": "proper_noun",
+      "description": "Relating to Rajasthan, a state in India; here, refers to a traditional cap."
+    },
+    "Chandrasekhar Mahadev": {
+      "type": "proper_noun",
+      "description": "A temple in Guptakashi dedicated to Lord Shiva."
+    },
+    "Ardhanarishwar": {
+      "type": "proper_noun",
+      "description": "A temple in Guptakashi dedicated to the composite form of Shiva and Parvati."
+    },
+    "Ukhimath": {
+      "type": "proper_noun",
+      "description": "A town in Uttarakhand where the winter worship of Kedareshwar is held."
+    },
+    "Kedareshwar": {
+      "type": "proper_noun",
+      "description": "A form of Lord Shiva worshipped at Kedarnath and Ukhimath."
+    },
+    "Baikuntha Mallik": {
+      "type": "proper_noun",
+      "description": "A poet admired by Lalmohan Babu, who wrote about Kedarnath."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "Babu is a respectful term of address in India, often used for educated men or gentlemen, especially in Bengal."
+    },
+    "dandi": {
+      "type": "vocabulary",
+      "description": "A dandi is a type of palanquin or sedan chair used for carrying people, especially on mountain treks; 'dandis' is the plural form."
+    },
+    "kandi": {
+      "type": "vocabulary",
+      "description": "A basket-like carrier used to transport people, typically in hilly regions."
+    },
+    "panda": {
+      "type": "vocabulary",
+      "description": "A panda is a local priest or guide who provides lodging and assistance to pilgrims, especially in Haridwar; 'pandas' is the plural form."
+    },
+    "jalebis": {
+      "type": "vocabulary",
+      "description": "A sweet, deep-fried Indian dessert made from flour and soaked in syrup."
+    },
+    "kachauris": {
+      "type": "vocabulary",
+      "description": "A savory, deep-fried Indian snack stuffed with lentils or spices."
+    },
+    "puja": {
+      "type": "vocabulary",
+      "description": "A Hindu ritual of worship, often performed daily in temples."
+    },
+    "Ramwara": {
+      "type": "proper_noun",
+      "description": "A resting place on the way to Kedarnath, known for its dharamshalas and scenic beauty."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic that narrates the story of the Kurukshetra War and the fates of the Kaurava and Pandava princes."
+    },
+    "Yudhishthir": {
+      "type": "proper_noun",
+      "description": "A central character in the Mahabharata, known for his righteousness and leadership among the Pandavas."
+    },
+    "Bengalis": {
+      "type": "vocabulary",
+      "description": "People from Bengal, a region in eastern India and Bangladesh."
+    },
+    "darshan": {
+      "type": "vocabulary",
+      "description": "A spiritual viewing or auspicious sighting, especially of a deity or sacred place."
+    },
+    "deo-dekhni": {
+      "type": "vocabulary",
+      "description": "A brief, special glimpse of a deity or temple, considered auspicious."
+    },
+    "Hotel Himlok": {
+      "type": "proper_noun",
+      "description": "A local hotel in Kedarnath mentioned as being full upon the group's arrival."
+    },
+    "Birla guest house": {
+      "type": "proper_noun",
+      "description": "A guest house in Kedarnath, likely funded or managed by the Birla family, a prominent Indian industrialist family."
+    },
+    "Kali Kamliwali dharamshala": {
+      "type": "proper_noun",
+      "description": "A charitable rest house in Kedarnath, often run by religious trusts to provide affordable lodging for pilgrims."
+    },
+    "Benaras": {
+      "type": "proper_noun",
+      "description": "Also known as Varanasi, a holy city in India on the banks of the Ganges, famous for its temples and spiritual significance."
+    },
+    "Jai Kedar": {
+      "type": "proper_noun",
+      "description": "A religious exclamation meaning 'Victory to Kedar (Shiva)', commonly used by pilgrims at Kedarnath."
+    },
+    "Chorabalital": {
+      "type": "proper_noun",
+      "description": "Chorabalital, now known as Gandhi Sarovar, is a glacial lake near Kedarnath from which the Mandakini river originates."
+    },
+    "razais": {
+      "type": "vocabulary",
+      "description": "Thick, quilted blankets commonly used in North India for warmth."
+    },
+    "Sarovar": {
+      "type": "vocabulary",
+      "description": "A Hindi word meaning 'lake', often used for sacred or significant lakes in India."
+    },
+    "Baba": {
+      "type": "vocabulary",
+      "description": "A respectful term for an elderly man or ascetic, often used for holy men in India."
+    },
+    "Chaliye": {
+      "type": "vocabulary",
+      "description": "A Hindi word meaning 'let's go' or 'please proceed'."
+    },
+    "Vermillion": {
+      "type": "vocabulary",
+      "description": "A bright red powder (also called 'sindoor' or 'kumkum') used in Hindu rituals and as a mark on the forehead."
+    },
+    "Mr Singhania": {
+      "type": "character",
+      "description": "A wealthy and powerful businessman involved in the pursuit of a valuable pendant; he tries to persuade Feluda to help him acquire it."
+    },
+    "Mr Mitter": {
+      "type": "character",
+      "description": "A private detective and the protagonist of the stories, known for his intellect and investigative skills.",
+      "image": "/data/images/characters/feluda-crime-in-kedarnath/mr-mitter.webp"
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda’s younger cousin and the narrator of the stories, present during the events in Kedarnath."
+    },
+    "Maharaja of Travancore": {
+      "type": "proper_noun",
+      "description": "The former royal ruler of the princely state of Travancore in southern India, indicating the pendant's prestigious origin."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "goondas": {
+      "type": "vocabulary",
+      "description": "A Hindi term for thugs or criminals."
+    },
+    "Devishankar Puri": {
+      "type": "character",
+      "description": "The son of Umashankar Puri, who was a child during the events described."
+    },
+    "saffron": {
+      "type": "vocabulary",
+      "description": "A color often associated with Hindu monks and ascetics, symbolizing renunciation and spirituality."
+    },
+    "devnagari": {
+      "type": "proper_noun",
+      "description": "A script used for several Indian languages, including Hindi and Sanskrit."
+    },
+    "Bengali": {
+      "type": "proper_noun",
+      "description": "A language spoken in the Bengal region of South Asia, including Bangladesh and the Indian state of West Bengal."
+    },
+    "Durga": {
+      "type": "proper_noun",
+      "description": "A major Hindu goddess, symbolizing power and protection."
+    },
+    "Gangopadhyaya": {
+      "type": "proper_noun",
+      "description": "A Bengali surname, often anglicized as 'Ganguly'."
+    },
+    "pendant": {
+      "type": "vocabulary",
+      "description": "An ornamental piece of jewelry that hangs from a chain worn around the neck."
+    },
+    "Kaka": {
+      "type": "vocabulary",
+      "description": "A Hindi/Bengali term meaning 'uncle', used to address one's paternal uncle."
+    },
+    "bank locker": {
+      "type": "vocabulary",
+      "description": "A secure storage facility provided by banks for valuables."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Lalmohan Ganguli",
+      "Mohinimohan Ganguli",
+      "Lalit Mohan Ganguli",
+      "Durgamohan Ganguli",
+      "Umashankar Puri",
+      "Maharaja of Bhagwangarh",
+      "Srinath",
+      "Raja Chandradeo Singh",
+      "Bhavani Upadhyaya",
+      "Maharani",
+      "Surajdeo",
+      "Gorpar",
+      "Baisakh",
+      "Khulna",
+      "Bangladesh",
+      "Dhanbad",
+      "Durga Puja",
+      "Umashankar Puri",
+      "Maharaja of Bhagwangarh",
+      "Rupnarayangarh",
+      "Uttar Pradesh",
+      "Aligarh",
+      "Haridwar",
+      "L.M. Ganguli & Sons",
+      "Park Hotel",
+      "Moradabad",
+      "Delhi",
+      "homoeopathy",
+      "arnica",
+      "rhus tox",
+      "belladonna",
+      "freedom fighter",
+      "trunk call",
+      "shikar",
+      "paisa",
+      "Pavandeo Singh",
+      "Devishankar Puri",
+      "Topshe",
+      "Mr Mitter",
+      "ayurveda"
+    ],
+    "ch-2": [
+      "Bhavani Upadhyaya",
+      "Pavandeo Singh",
+      "Makhanlal Majumdar",
+      "Kantibhai Pandit",
+      "Joginder Ram",
+      "Hong Kong",
+      "Haridwar",
+      "Hrishikesh",
+      "Doon Express",
+      "Rupnarayangarh",
+      "Badrinath",
+      "Thar desert",
+      "Jamunotri",
+      "Gangotri",
+      "Gomukh",
+      "Panchakedar",
+      "Vasukital",
+      "Himalayas",
+      "Laxman Mohalla",
+      "Singhania",
+      "Hindi",
+      "Garhwali",
+      "Garhwal Mandal Vikas Nigam",
+      "Laxmanjhoola",
+      "Jim Corbett",
+      "The Man-eating Leopard of Rudraprayag",
+      "Garhwalis",
+      "Mandakini",
+      "Alakananda",
+      "Gaurikund",
+      "Devprayag",
+      "Keertinagar",
+      "Srinagar",
+      "Bartholomew Company",
+      "Nepal",
+      "Kashmir",
+      "sanyasi",
+      "ayurveda",
+      "ghat",
+      "dharamshala",
+      "Kalikamli dharamshalas",
+      "Garhwali",
+      "namaskar",
+      "Kedarnath",
+      "Lalmohan Ganguli",
+      "Umashankar Puri",
+      "Mr Mitter",
+      "dandi",
+      "panda"
+    ],
+    "ch-3": [
+      "Mr Giridhari",
+      "Krishnakant Bhargav",
+      "Bhavani Upadhyaya",
+      "Pavandeo Singh",
+      "Rudraprayag",
+      "Srinagar",
+      "Corbett",
+      "Calcutta",
+      "Allahabad",
+      "Haridwar",
+      "Kedarnath",
+      "Badri",
+      "Badrinath",
+      "Gaurikund",
+      "Rupnarayangarh",
+      "Australian",
+      "Royal Bengal tiger",
+      "sanyasi",
+      "chamchas",
+      "Nepali mask",
+      "Lalmohan Ganguli",
+      "Raja Chandradeo Singh",
+      "Umashankar Puri",
+      "Mr Mitter"
+    ],
+    "ch-4": [
+      "Mr Giridhari",
+      "Bhavani Upadhyaya",
+      "Surajdeo",
+      "Raja Chandradeo Singh",
+      "Kedarnath",
+      "Travancore",
+      "Calcutta",
+      "Gaurikund",
+      "Rudraprayag",
+      "Agastyamuni",
+      "Guptakashi",
+      "Son Prayag",
+      "Son Ganga",
+      "Mandakini",
+      "Alakananda",
+      "Rajasthani",
+      "Chandrasekhar Mahadev",
+      "Ardhanarishwar",
+      "Ukhimath",
+      "Kedareshwar",
+      "Badri",
+      "Rupnarayangarh",
+      "Baikuntha Mallik",
+      "sanyasi",
+      "babu",
+      "dandi",
+      "kandi",
+      "panda",
+      "jalebis",
+      "kachauris",
+      "puja",
+      "Lalmohan Ganguli",
+      "Pavandeo Singh",
+      "Umashankar Puri",
+      "Krishnakant Bhargav",
+      "Topshe",
+      "Mr Mitter",
+      "Joginder Ram"
+    ],
+    "ch-5": [
+      "Pavandeo Singh",
+      "Kedarnath",
+      "Son Prayag",
+      "Mandakini",
+      "Ramwara",
+      "Mahabharata",
+      "Yudhishthir",
+      "Bengalis",
+      "darshan",
+      "deo-dekhni",
+      "Lalmohan Ganguli",
+      "Mr Mitter",
+      "dharamshala",
+      "dandi"
+    ],
+    "ch-6": [
+      "Pavandeo Singh",
+      "Makhanlal Majumdar",
+      "Bhavani Upadhyaya",
+      "Singhania",
+      "Kedarnath",
+      "Hotel Himlok",
+      "Birla guest house",
+      "Kali Kamliwali dharamshala",
+      "Benaras",
+      "Jai Kedar",
+      "Haridwar",
+      "Rudraprayag",
+      "Chorabalital",
+      "Mandakini",
+      "dharamshala",
+      "razais",
+      "sanyasi",
+      "Sarovar",
+      "Baba",
+      "Chaliye",
+      "Vermillion",
+      "Lalmohan Ganguli",
+      "Topshe",
+      "Mr Mitter"
+    ],
+    "ch-7": [
+      "Mr Singhania",
+      "Mr Mitter",
+      "Umashankar Puri",
+      "Pavandeo Singh",
+      "Topshe",
+      "Haridwar",
+      "Maharaja of Travancore",
+      "Delhi",
+      "Kedarnath",
+      "rupees",
+      "sanyasi",
+      "panda",
+      "dharamshala",
+      "goondas",
+      "Lalmohan Ganguli",
+      "Chorabalital",
+      "Bhavani Upadhyaya",
+      "Devishankar Puri",
+      "Krishnakant Bhargav",
+      "Raja Chandradeo Singh"
+    ],
+    "ch-8": [
+      "Topshe",
+      "Pavandeo Singh",
+      "Krishnakant Bhargav",
+      "Devishankar Puri",
+      "Sarovar",
+      "Mandakini",
+      "sanyasi",
+      "saffron",
+      "Lalmohan Ganguli",
+      "Umashankar Puri",
+      "Mr Mitter"
+    ],
+    "ch-9": [
+      "sanyasi",
+      "Bhavani Upadhyaya",
+      "Raja Chandradeo Singh",
+      "Haridwar",
+      "Hindi",
+      "devnagari",
+      "Bengali",
+      "Durga",
+      "Gangopadhyaya",
+      "sanyasi",
+      "pendant",
+      "Kaka",
+      "bank locker",
+      "Lalmohan Ganguli",
+      "Durgamohan Ganguli",
+      "Mr Mitter",
+      "babu"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-key",
+  "title": "The Key",
+  "transliteratedTitle": "Samaddarer Chabi",
+  "subtitle": "A Suburban Journey Unveils Hidden Mysteries",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-key.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "সমাদ্দারের চাবি",
+  "originalYear": 1973,
+  "totalChapters": 5,
+  "wordCount": 9799,
+  "summary": "When famed detective Feluda and his companion embark on a quiet trip to the outskirts of Calcutta, their new acquaintance, Monimohan Samaddar, brings an unexpected twist to their journey. What begins as a leisurely escape quickly turns into a tangled web of secrets and intrigue, as Feluda’s sharp mind is drawn into a puzzle that only he can solve. Discover how ordinary moments can conceal extraordinary mysteries in this captivating detective adventure.",
+  "anthologyId": "feluda",
+  "storyNumber": 9
+}

@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-house-of-death",
+  "title": "The House of Death",
+  "transliteratedTitle": "Hatyapuri",
+  "subtitle": "A Sinister Fall in the Himalayan Shadows",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-house-of-death.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "হত্যাপুরী",
+  "originalYear": 1979,
+  "totalChapters": 13,
+  "wordCount": 22300,
+  "summary": "When a peaceful morning in the hills is shattered by a deadly accident—or is it murder?—Feluda is called to unravel a chilling mystery. With secrets buried beneath the misty peaks and danger lurking in the shadows, every clue brings him closer to a truth more terrifying than he imagined. Enter a world where every answer only deepens the suspense.",
+  "anthologyId": "feluda",
+  "storyNumber": 17
+}

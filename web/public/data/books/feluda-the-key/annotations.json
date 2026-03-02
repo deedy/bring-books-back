@@ -1,0 +1,417 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "A sharp-eyed private investigator and the protagonist of the story who leads the investigation into Radharaman Samaddar's death.",
+      "image": "/data/images/characters/feluda-the-key/feluda.webp"
+    },
+    "Monimohan Samaddar": {
+      "type": "character",
+      "description": "Radharaman Samaddar's nephew who seeks Feluda's professional help regarding his uncle's mysterious death.",
+      "image": "/data/images/characters/feluda-the-key/monimohan-samaddar.webp"
+    },
+    "Radharaman Samaddar": {
+      "type": "character",
+      "description": "A reclusive and tight-fisted former lawyer and musician who recently died under mysterious circumstances, leaving behind a complex legacy.",
+      "image": "/data/images/characters/feluda-the-key/radharaman-samaddar.webp"
+    },
+    "Muralidhar": {
+      "type": "character",
+      "description": "Radharaman Samaddar's only son, now deceased."
+    },
+    "Dharanidhar": {
+      "type": "character",
+      "description": "Radharaman's grandson and Muralidhar's son who left his studies to join the theatre; he is suspected to be the actor known as Sanjay Lahiri.",
+      "image": "/data/images/characters/feluda-the-key/dharanidhar.webp"
+    },
+    "Anukul": {
+      "type": "character",
+      "description": "Radharaman Samaddar's old servant who provided information about his daily habits.",
+      "image": "/data/images/characters/feluda-the-key/anukul.webp"
+    },
+    "Bamungachhi": {
+      "type": "proper_noun",
+      "description": "A suburb of Calcutta where Radharaman Samaddar built his house and lived as a recluse."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in India, now known as Kolkata."
+    },
+    "Lake Place": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta where Monimohan Samaddar lives."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "A major Indian city, now known as Mumbai."
+    },
+    "Bhawanipore": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta where Monimohan runs his printing press."
+    },
+    "Eureka Press": {
+      "type": "proper_noun",
+      "description": "The printing press owned and operated by Monimohan Samaddar."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular brand of Indian cigarettes."
+    },
+    "Austin": {
+      "type": "proper_noun",
+      "description": "A British car brand; Radharaman owned a second-hand Austin."
+    },
+    "jatra": {
+      "type": "proper_noun",
+      "description": "A traditional Bengali folk theatre form."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term used in India to address men, often appended to a name."
+    },
+    "almirah": {
+      "type": "vocabulary",
+      "description": "A freestanding cupboard or wardrobe, commonly used in Indian households."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "will": {
+      "type": "vocabulary",
+      "description": "A legal document stating a person's wishes regarding the disposal of their property after death."
+    },
+    "Abani Sen": {
+      "type": "character",
+      "description": "Radharaman Samaddar's neighbor and father of Sadhan; he is a florist with a shop in New Market who informed Monimohan about the heart attack.",
+      "image": "/data/images/characters/feluda-the-key/abani-sen.webp"
+    },
+    "Sadhan": {
+      "type": "character",
+      "description": "Abani Sen's ten-year-old son, who was close to Radharaman Samaddar and spends time around the house."
+    },
+    "Surajit Dasgupta": {
+      "type": "character",
+      "description": "A collector of musical instruments who wanted to purchase some from Radharaman Samaddar."
+    },
+    "Jessore Road": {
+      "type": "proper_noun",
+      "description": "A major road in West Bengal, India, connecting Kolkata to Jessore in Bangladesh."
+    },
+    "Barasat": {
+      "type": "proper_noun",
+      "description": "A city near Kolkata, West Bengal, India, mentioned as a landmark on the way to Bamungachhi."
+    },
+    "New Market": {
+      "type": "proper_noun",
+      "description": "A historic and popular shopping area in central Kolkata, known for its variety of shops."
+    },
+    "Minerva Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel located on Central Avenue in Calcutta, mentioned as the sender's address on a postcard."
+    },
+    "Central Avenue": {
+      "type": "proper_noun",
+      "description": "A prominent street in Kolkata, India."
+    },
+    "Dehra Dun": {
+      "type": "proper_noun",
+      "description": "A city in northern India, now called Dehradun, mentioned as the place where Surajit Dasgupta lives."
+    },
+    "Iran": {
+      "type": "proper_noun",
+      "description": "A country in the Middle East, referenced as the origin of the khamanche instrument."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "A country in the United Kingdom, referenced as the origin of the melochord instrument."
+    },
+    "Second World War": {
+      "type": "proper_noun",
+      "description": "A global conflict from 1939 to 1945, referenced in relation to the German lock."
+    },
+    "jalebis": {
+      "type": "vocabulary",
+      "description": "A popular Indian sweet made by deep-frying batter in circular shapes and soaking them in sugar syrup."
+    },
+    "mali": {
+      "type": "vocabulary",
+      "description": "A gardener or person who tends to plants and gardens."
+    },
+    "nursery": {
+      "type": "vocabulary",
+      "description": "A place where plants are grown for sale, especially flowers and saplings."
+    },
+    "chaddar": {
+      "type": "vocabulary",
+      "description": "A traditional cloth or shawl, often used as a wrap or cover."
+    },
+    "sitar": {
+      "type": "vocabulary",
+      "description": "A plucked stringed instrument used in Indian classical music."
+    },
+    "sarod": {
+      "type": "vocabulary",
+      "description": "A fretless stringed instrument prominent in Indian classical music."
+    },
+    "tanpura": {
+      "type": "vocabulary",
+      "description": "A long-necked plucked string instrument that provides a drone in Indian classical music."
+    },
+    "tabla": {
+      "type": "vocabulary",
+      "description": "A pair of hand-played drums used in Indian classical and popular music."
+    },
+    "Dadu": {
+      "type": "vocabulary",
+      "description": "A Bengali term for grandfather or an elderly male figure."
+    },
+    "melochord": {
+      "type": "vocabulary",
+      "description": "A rare keyboard instrument, referenced as being made in England."
+    },
+    "Mr Mondol": {
+      "type": "character",
+      "description": "Owner of Mondol & Co., a music shop in Lal Bazaar, who provides information about musical instruments."
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "The narrator and Feluda's cousin, who assists him in his investigations."
+    },
+    "Poltu": {
+      "type": "character",
+      "description": "Topshe's friend, from whom a harmonium is borrowed."
+    },
+    "Bihar": {
+      "type": "proper_noun",
+      "description": "An Indian state where Muralidhar worked before his death."
+    },
+    "Spiegler": {
+      "type": "proper_noun",
+      "description": "A German company that produced musical instruments, referenced in a catalogue."
+    },
+    "Manchalok": {
+      "type": "proper_noun",
+      "description": "A theatre journal Feluda contacts for information about Sanjay Lahiri."
+    },
+    "Modern Opera": {
+      "type": "proper_noun",
+      "description": "A theatre group where Sanjay Lahiri performed lead roles."
+    },
+    "Jalpaiguri": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, where the theatre group is currently located."
+    },
+    "National Museum": {
+      "type": "proper_noun",
+      "description": "A museum visited by Feluda and Topshe to research musical instruments."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic, referenced in the museum's musical instrument section."
+    },
+    "Free School Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta known for its shops, including music stores."
+    },
+    "Lal Bazaar": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta, home to Mondol & Co. music shop."
+    },
+    "Mondol & Co.": {
+      "type": "proper_noun",
+      "description": "A music shop in Lal Bazaar, frequented by Mr Samaddar."
+    },
+    "College Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta known for its bookstores, where Feluda buys books on music."
+    },
+    "harmonium": {
+      "type": "vocabulary",
+      "description": "A portable, hand-pumped keyboard instrument commonly used in Indian music."
+    },
+    "sa re ga ma pa dha ni sa": {
+      "type": "vocabulary",
+      "description": "Sa re ga ma pa dha ni sa, also known as sargam, are the seven basic notes of the Indian musical scale, equivalent to the Western do re mi."
+    },
+    "lassi": {
+      "type": "vocabulary",
+      "description": "A traditional Indian yogurt-based drink, served sweet or salty."
+    },
+    "load shedding": {
+      "type": "vocabulary",
+      "description": "A scheduled power outage, common in India, to reduce electricity consumption."
+    },
+    "Dr Chintamoni Bose": {
+      "type": "character",
+      "description": "Dr Chintamoni Bose is a heart specialist who accompanied Monimohan to Radharaman's house during his final moments and was present at the time of Radharaman’s death."
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "The cook in Feluda's household, who brings tea during the investigation."
+    },
+    "OC": {
+      "type": "proper_noun",
+      "description": "Abbreviation for Officer-in-Charge, referring to the local police authority."
+    },
+    "Inspector Dinesh Guin": {
+      "type": "character",
+      "description": "Inspector Dinesh Guin is a police officer from the Barasat police station who appears during the investigation."
+    },
+    "VIP Road": {
+      "type": "proper_noun",
+      "description": "A major road in Kolkata, India, known for its heavy traffic."
+    },
+    "Germany": {
+      "type": "proper_noun",
+      "description": "Germany, referenced as German, is a country in Europe and the origin of the melochord and the lock."
+    },
+    "airgun": {
+      "type": "vocabulary",
+      "description": "A low-powered gun that uses compressed air to shoot pellets, often used by children for target practice."
+    },
+    "Dettol": {
+      "type": "vocabulary",
+      "description": "A popular antiseptic liquid widely used in India for cleaning wounds."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Monimohan Samaddar",
+      "Radharaman Samaddar",
+      "Muralidhar",
+      "Dharanidhar",
+      "Anukul",
+      "Bamungachhi",
+      "Calcutta",
+      "Lake Place",
+      "Bombay",
+      "Bhawanipore",
+      "Eureka Press",
+      "Charminar",
+      "Austin",
+      "jatra",
+      "Babu",
+      "almirah",
+      "rupees",
+      "will",
+      "Dr Chintamoni Bose",
+      "Abani Sen"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Anukul",
+      "Abani Sen",
+      "Sadhan",
+      "Surajit Dasgupta",
+      "Radharaman Samaddar",
+      "Jessore Road",
+      "Barasat",
+      "Bamungachhi",
+      "Calcutta",
+      "New Market",
+      "Minerva Hotel",
+      "Central Avenue",
+      "Dehra Dun",
+      "Iran",
+      "England",
+      "Second World War",
+      "jalebis",
+      "mali",
+      "Babu",
+      "nursery",
+      "almirah",
+      "chaddar",
+      "sitar",
+      "sarod",
+      "tanpura",
+      "tabla",
+      "Dadu",
+      "melochord",
+      "Monimohan Samaddar",
+      "sa re ga ma pa dha ni sa"
+    ],
+    "ch-3": [
+      "Muralidhar",
+      "Surajit Dasgupta",
+      "Mr Mondol",
+      "Topshe",
+      "Poltu",
+      "Monimohan Samaddar",
+      "Bamungachhi",
+      "Calcutta",
+      "Bihar",
+      "Spiegler",
+      "Manchalok",
+      "Modern Opera",
+      "Jalpaiguri",
+      "National Museum",
+      "Mahabharata",
+      "Free School Street",
+      "Lal Bazaar",
+      "Mondol & Co.",
+      "New Market",
+      "College Street",
+      "melochord",
+      "harmonium",
+      "sa re ga ma pa dha ni sa",
+      "lassi",
+      "load shedding",
+      "Dharanidhar",
+      "Feluda",
+      "Radharaman Samaddar"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Abani Sen",
+      "Anukul",
+      "Surajit Dasgupta",
+      "Muralidhar",
+      "Sadhan",
+      "Dr Chintamoni Bose",
+      "Topshe",
+      "Srinath",
+      "Bamungachhi",
+      "Calcutta",
+      "Minerva Hotel",
+      "Modern Opera",
+      "OC",
+      "Spiegler",
+      "Eureka Press",
+      "Dehra Dun",
+      "Charminar",
+      "Babu",
+      "melochord",
+      "Dharanidhar",
+      "Monimohan Samaddar",
+      "Radharaman Samaddar",
+      "sa re ga ma pa dha ni sa",
+      "Germany"
+    ],
+    "ch-5": [
+      "Feluda",
+      "Sadhan",
+      "Anukul",
+      "Abani Sen",
+      "Inspector Dinesh Guin",
+      "Dr Chintamoni Bose",
+      "Surajit Dasgupta",
+      "VIP Road",
+      "Barasat",
+      "Eureka Press",
+      "Jalpaiguri",
+      "Manchalok",
+      "Spiegler",
+      "Germany",
+      "airgun",
+      "Babu",
+      "Dadu",
+      "Dettol",
+      "Dharanidhar",
+      "Monimohan Samaddar",
+      "Radharaman Samaddar",
+      "sa re ga ma pa dha ni sa"
+    ]
+  }
+}

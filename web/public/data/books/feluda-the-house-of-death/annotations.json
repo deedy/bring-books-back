@@ -1,0 +1,909 @@
+{
+  "glossary": {
+    "Dungru": {
+      "type": "character",
+      "description": "A local boy who enjoys singing and playing instruments; he witnesses a mysterious accident involving a stranger falling down a hill."
+    },
+    "Shyam Gurung": {
+      "type": "character",
+      "description": "The local greengrocer who owns an instrument that Dungru borrows."
+    },
+    "Joe": {
+      "type": "character",
+      "description": "One of the foreign men camping near the spring, who helps Dungru with the injured man."
+    },
+    "Mark": {
+      "type": "character",
+      "description": "A member of the group of foreign men; he has studied medicine in Minnesota and checks the injured man's pulse."
+    },
+    "Dennis": {
+      "type": "character",
+      "description": "Another member of the group of foreign men camping near the spring."
+    },
+    "Bruce": {
+      "type": "character",
+      "description": "Another member of the group of foreign men camping near the spring."
+    },
+    "Hanuman Phatak": {
+      "type": "proper_noun",
+      "description": "A location near where a beggar sings; 'Phatak' means gate or crossing in Hindi, and 'Hanuman' refers to the Hindu monkey god."
+    },
+    "Machhipuchh": {
+      "type": "proper_noun",
+      "description": "A mountain peak named for its resemblance to a fish tail; also known as Machapuchare in Nepal."
+    },
+    "Minnesota": {
+      "type": "proper_noun",
+      "description": "A state in the United States; mentioned as the place where Mark studied medicine."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital city of Nepal, referenced as the location of the nearest hospital."
+    },
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "Feluda's close friend and a writer of crime thrillers under the pen name Jatayu.",
+      "image": "/data/images/characters/feluda-the-house-of-death/lalmohan-babu.webp"
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "The narrator of the story and Feluda's younger cousin and assistant."
+    },
+    "Puri": {
+      "type": "proper_noun",
+      "description": "A coastal city in the Indian state of Orissa, famous for its beaches and temples."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "Now known as Kolkata, a major city in eastern India and the home of Feluda and his companions."
+    },
+    "Orissa": {
+      "type": "proper_noun",
+      "description": "A state on the eastern coast of India, now officially called Odisha."
+    },
+    "Neelachal": {
+      "type": "proper_noun",
+      "description": "A hotel in Puri mentioned as recently opened and owned by Lalmohan Babu’s landlord’s classmate."
+    },
+    "Puri Express": {
+      "type": "proper_noun",
+      "description": "A train that runs between Calcutta and Puri."
+    },
+    "Howrah": {
+      "type": "proper_noun",
+      "description": "A major railway station in Calcutta, serving as a departure point for many trains including the Puri Express."
+    },
+    "Frankenstein in Frankfurt": {
+      "type": "proper_noun",
+      "description": "The title of Lalmohan Babu’s latest crime thriller novel."
+    },
+    "City of Joy": {
+      "type": "proper_noun",
+      "description": "A popular nickname for Calcutta, highlighting its vibrant culture."
+    },
+    "skylab": {
+      "type": "proper_noun",
+      "description": "Refers to the American space station that fell to Earth in 1979, causing public anxiety worldwide."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "‘Babu’ is a respectful term used in India and South Asia to address men, often appended to a surname or first name, and can indicate someone educated or from a city."
+    },
+    "coolie": {
+      "type": "vocabulary",
+      "description": "A manual laborer or porter, especially one who carries luggage at railway stations in India."
+    },
+    "Shyamlal Barik": {
+      "type": "character",
+      "description": "The manager of the hotel Neelachal who warned the group about D.G. Sen's peculiar nature."
+    },
+    "Mr Srinivas Som": {
+      "type": "character",
+      "description": "Lalmohan Babu's cheerful roommate at the hotel, owner of a saree shop in Calcutta."
+    },
+    "D.G. Sen": {
+      "type": "character",
+      "description": "The reclusive owner of a house in Puri and son of S.N. Sen, known for his collection of antiquities and manuscripts.",
+      "image": "/data/images/characters/feluda-the-house-of-death/dg-sen.webp"
+    },
+    "S.N. Sen": {
+      "type": "character",
+      "description": "D.G. Sen's father, founder of Sen Perfumers and creator of Sensational Essences, whose business was once successful."
+    },
+    "Satish Kanungo": {
+      "type": "character",
+      "description": "A retired professor living near the hotel with vast knowledge on many subjects whom Feluda visits."
+    },
+    "Jain temple": {
+      "type": "proper_noun",
+      "description": "A famous religious site near Lalmohan Babu's house in Calcutta, associated with Jainism."
+    },
+    "Baikuntha Mallik": {
+      "type": "proper_noun",
+      "description": "Lalmohan Babu's favorite poet, whose poem is recited in the chapter."
+    },
+    "Nulia": {
+      "type": "proper_noun",
+      "description": "Nulia refers to a local community or group, often beach dwellers or fishermen, with 'Nulia colony' denoting their settlement and 'Nulias' as the plural form."
+    },
+    "Sagarika": {
+      "type": "proper_noun",
+      "description": "The name written on the gate of D.G. Sen's house in Puri."
+    },
+    "Bhutan": {
+      "type": "proper_noun",
+      "description": "A neighboring country to India, mentioned as a place D.G. Sen visited."
+    },
+    "Sikkim": {
+      "type": "proper_noun",
+      "description": "A state in northeastern India, mentioned as another possible place D.G. Sen visited."
+    },
+    "Sen Perfumers": {
+      "type": "proper_noun",
+      "description": "The family business founded by S.N. Sen, once known for producing Sensational Essences."
+    },
+    "Madhupur": {
+      "type": "proper_noun",
+      "description": "A town in India, referenced as one of the locations where the Sen family owned property."
+    },
+    "koftas": {
+      "type": "vocabulary",
+      "description": "A type of Indian dish consisting of spiced balls, often made from vegetables or meat."
+    },
+    "Jai Guru": {
+      "type": "vocabulary",
+      "description": "A phrase meaning 'Victory to the Guru', used as a greeting or expression of reverence."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A traditional Indian preparation made of betel leaf filled with various ingredients, often chewed for its flavor."
+    },
+    "paan-masala": {
+      "type": "vocabulary",
+      "description": "A mixture of spices, nuts, and sometimes sweeteners, used as a filling for paan."
+    },
+    "Charminar": {
+      "type": "vocabulary",
+      "description": "A popular brand of Indian cigarettes."
+    },
+    "puthi": {
+      "type": "vocabulary",
+      "description": "Ancient manuscripts or scrolls, traditionally written on palm leaves or paper before the printing press era."
+    },
+    "Nishith Bose": {
+      "type": "character",
+      "description": "The secretary of D.G. Sen and the murder victim whose death Feluda is investigating.",
+      "image": "/data/images/characters/feluda-the-house-of-death/nishith-bose.webp"
+    },
+    "Rupchand Singh": {
+      "type": "character",
+      "description": "The deceased man found on the beach, identified by his driving licence."
+    },
+    "Lokenath": {
+      "type": "character",
+      "description": "A servant at D.G. Sen's house, mentioned as being absent when called."
+    },
+    "Bay of Bengal": {
+      "type": "proper_noun",
+      "description": "A large bay in the northeastern part of the Indian Ocean, bordering India and Bangladesh."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, a major city on the west coast of India."
+    },
+    "Bundelkhand": {
+      "type": "proper_noun",
+      "description": "A region in central India, known for its distinct culture and geography."
+    },
+    "Rourkela": {
+      "type": "proper_noun",
+      "description": "A city in the Indian state of Odisha, mentioned as the site of a previous case."
+    },
+    "Nepal": {
+      "type": "proper_noun",
+      "description": "A country in South Asia, north of India, from where the deceased's driving licence was issued."
+    },
+    "Swargadwar Road": {
+      "type": "proper_noun",
+      "description": "A road in Puri, near the famous Swargadwar cremation ground and beach."
+    },
+    "Meher Ali Road": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, mentioned as an address on a card."
+    },
+    "Dharamshala": {
+      "type": "proper_noun",
+      "description": "A town in Himachal Pradesh, India, known for being the residence of the Dalai Lama and Tibetan refugees."
+    },
+    "Tibet": {
+      "type": "proper_noun",
+      "description": "A region in Asia, north of the Himalayas, associated with Buddhist culture and manuscripts."
+    },
+    "Dalai Lama": {
+      "type": "proper_noun",
+      "description": "The spiritual leader of Tibetan Buddhism, who fled to India in 1959."
+    },
+    "Kashmiri": {
+      "type": "proper_noun",
+      "description": "Relating to Kashmir, a region in northern India, referenced in the description of a table."
+    },
+    "Godrej": {
+      "type": "proper_noun",
+      "description": "A well-known Indian brand, here referring to the manufacturer of the safes in Mr Sen's room."
+    },
+    "Ashtadashasahasrika Pragya Paramita": {
+      "type": "proper_noun",
+      "description": "An ancient Buddhist manuscript, part of Mr Sen's collection."
+    },
+    "Kalpasutra": {
+      "type": "proper_noun",
+      "description": "Another ancient manuscript, significant in Jain and Buddhist traditions."
+    },
+    "Sanskrit": {
+      "type": "proper_noun",
+      "description": "An ancient classical language of India, in which some manuscripts are written."
+    },
+    "Bengali": {
+      "type": "proper_noun",
+      "description": "A language spoken in the Indian state of West Bengal and Bangladesh."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country in which the story is set."
+    },
+    "Namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting, similar to 'hello' or 'greetings'."
+    },
+    "ayurveda": {
+      "type": "vocabulary",
+      "description": "An ancient Indian system of medicine based on natural and holistic approaches."
+    },
+    "Mr Mitter": {
+      "type": "character",
+      "description": "The main detective protagonist, renowned for his intelligence and observation, also known as Feluda.",
+      "image": "/data/images/characters/feluda-the-house-of-death/mr-mitter.webp"
+    },
+    "Bilas Majumdar": {
+      "type": "character",
+      "description": "A wildlife photographer and mountaineer recently injured in Kathmandu, suffering from partial memory loss.",
+      "image": "/data/images/characters/feluda-the-house-of-death/bilas-majumdar.webp"
+    },
+    "Railway Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel near the beach in Puri, popular among visitors."
+    },
+    "Goa": {
+      "type": "proper_noun",
+      "description": "A state on the western coast of India, famous for its beaches."
+    },
+    "Miami": {
+      "type": "proper_noun",
+      "description": "A city in the United States, known for its beaches."
+    },
+    "Acapulco": {
+      "type": "proper_noun",
+      "description": "A resort city in Mexico, famous for its beaches."
+    },
+    "Nice": {
+      "type": "proper_noun",
+      "description": "A city in France, renowned for its Mediterranean coastline."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, India, known for its tea gardens and views of the Himalayas."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "A major mountain range in Asia, home to some of the world's highest peaks."
+    },
+    "Vikram Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel in Kathmandu where D.G. Sen and Bilas Majumdar stayed."
+    },
+    "bindi": {
+      "type": "vocabulary",
+      "description": "A decorative dot worn on the forehead, traditionally by Hindu women, but here used to describe a mole's appearance."
+    },
+    "paise": {
+      "type": "vocabulary",
+      "description": "A subunit of the Indian rupee, with 100 paise making one rupee."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "Mr Bhattacharya": {
+      "type": "character",
+      "description": "An astrologer and practitioner of ayurveda who rents rooms in D.G. Sen's house.",
+      "image": "/data/images/characters/feluda-the-house-of-death/mr-bhattacharya.webp"
+    },
+    "Mr Sarkar": {
+      "type": "character",
+      "description": "A resident of Meher Ali Road, whose whereabouts are being investigated."
+    },
+    "Jagannath": {
+      "type": "proper_noun",
+      "description": "A famous Hindu temple in Puri, Odisha, dedicated to Lord Jagannath."
+    },
+    "Konark": {
+      "type": "proper_noun",
+      "description": "A town in Odisha, India, known for the Sun Temple and its iconic stone carvings."
+    },
+    "New Guinea": {
+      "type": "proper_noun",
+      "description": "An island in the southwestern Pacific, mentioned in relation to the reptile Taratua."
+    },
+    "Libra": {
+      "type": "proper_noun",
+      "description": "An astrological sign, referenced during the astrologer's reading."
+    },
+    "Vande Mataram": {
+      "type": "proper_noun",
+      "description": "A patriotic Indian slogan and song, referenced during a vision of the past."
+    },
+    "lungi": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn around the waist, common in South Asia."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in South Asia."
+    },
+    "divan": {
+      "type": "vocabulary",
+      "description": "A long, low sofa or couch, often without a back or arms."
+    },
+    "Taratua": {
+      "type": "vocabulary",
+      "description": "A reptile from New Guinea, mentioned as having a 'third eye.'"
+    },
+    "Mr Hingorani": {
+      "type": "character",
+      "description": "A manuscript collector and dealer notable for his gold accessories and involvement in the trade of rare items."
+    },
+    "Uncle Sidhu": {
+      "type": "character",
+      "description": "Uncle Sidhu is a knowledgeable collector who refused to sell a manuscript to Mr Sen."
+    },
+    "Pokhra": {
+      "type": "proper_noun",
+      "description": "A city in Nepal, known for its natural beauty, mentioned as a travel destination."
+    },
+    "Bhatgaon": {
+      "type": "proper_noun",
+      "description": "Bhatgaon, also known as Bhaktapur, is a historic city near Kathmandu in Nepal, famous for its ancient sites."
+    },
+    "New Zealand": {
+      "type": "proper_noun",
+      "description": "The actual habitat of the Tuatara reptile, as corrected by Feluda."
+    },
+    "Time": {
+      "type": "proper_noun",
+      "description": "A well-known international magazine, referenced for medical information."
+    },
+    "souffle": {
+      "type": "vocabulary",
+      "description": "A light, fluffy baked dish, usually served as a dessert."
+    },
+    "Tuatara": {
+      "type": "vocabulary",
+      "description": "A rare reptile native to New Zealand, often confused with other species."
+    },
+    "gout": {
+      "type": "vocabulary",
+      "description": "A medical condition characterized by painful inflammation of the joints."
+    },
+    "Balasore": {
+      "type": "proper_noun",
+      "description": "A town in Odisha, India, mentioned as a stop on Lalmohan Babu's journey."
+    },
+    "New Hotel": {
+      "type": "proper_noun",
+      "description": "Another hotel in Puri, where Lalmohan Babu's driver is accommodated."
+    },
+    "Bhubaneshwar": {
+      "type": "proper_noun",
+      "description": "The capital city of Odisha, India, famous for its ancient temples."
+    },
+    "Statesman": {
+      "type": "proper_noun",
+      "description": "An English-language newspaper published in India."
+    },
+    "Jagannath Express": {
+      "type": "proper_noun",
+      "description": "A train running from Calcutta (Kolkata) to Puri."
+    },
+    "Mystery Magazine": {
+      "type": "proper_noun",
+      "description": "A fictional or real magazine featuring detective stories, referenced in the story."
+    },
+    "Raja Rani": {
+      "type": "proper_noun",
+      "description": "A famous temple in Bhubaneshwar known for its architecture."
+    },
+    "Lingaraj": {
+      "type": "proper_noun",
+      "description": "A renowned Hindu temple in Bhubaneshwar."
+    },
+    "Kedar Gauri": {
+      "type": "proper_noun",
+      "description": "A temple complex in Bhubaneshwar."
+    },
+    "Mukteshwar": {
+      "type": "proper_noun",
+      "description": "A historic temple in Bhubaneshwar, notable for its carvings."
+    },
+    "Brahmeshwar": {
+      "type": "proper_noun",
+      "description": "Another ancient temple in Bhubaneshwar."
+    },
+    "Bhaskareshwar": {
+      "type": "proper_noun",
+      "description": "A temple in Bhubaneshwar, part of the city's temple heritage."
+    },
+    "Michaelangelo": {
+      "type": "proper_noun",
+      "description": "Refers to Michelangelo, the famous Italian Renaissance artist."
+    },
+    "Da Vinci": {
+      "type": "proper_noun",
+      "description": "Refers to Leonardo da Vinci, the renowned Italian polymath."
+    },
+    "yakshi": {
+      "type": "vocabulary",
+      "description": "A female nature spirit in Hindu, Buddhist, and Jain mythology, often depicted as a motif in Indian temple art."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch or gallery attached to the outside of a building, common in South Asian architecture."
+    },
+    "chappals": {
+      "type": "vocabulary",
+      "description": "A type of open-toed sandal commonly worn in India."
+    },
+    "Mahapatra": {
+      "type": "character",
+      "description": "A police officer involved in the investigation of the death on the beach who assists Feluda."
+    },
+    "Mahim Sen": {
+      "type": "character",
+      "description": "Mahim Sen is the son of D.G. Sen, who comes to meet Feluda to discuss family matters."
+    },
+    "Dr Bhargav": {
+      "type": "character",
+      "description": "Dr Bhargav is a doctor at Veer Hospital in Kathmandu, who confirms details about Bilas Majumdar's injuries."
+    },
+    "Prakhar Rudra": {
+      "type": "character",
+      "description": "Prakhar Rudra is the fictional hero created by Lalmohan Babu in his detective novels."
+    },
+    "Veer Hospital": {
+      "type": "proper_noun",
+      "description": "Veer Hospital is a medical facility in Kathmandu, Nepal."
+    },
+    "manuscript": {
+      "type": "vocabulary",
+      "description": "A handwritten or typed document, often referring to rare or valuable literary or historical works."
+    },
+    "Dr Senapati": {
+      "type": "character",
+      "description": "A young and efficient doctor available at Utkal Chemist in Grand Road, recommended to Feluda."
+    },
+    "Ramai": {
+      "type": "character",
+      "description": "A Nulia boy with a red scarf, encountered by Feluda and his companions on the beach."
+    },
+    "Signal": {
+      "type": "proper_noun",
+      "description": "A popular Indian brand of toothpaste, recognized by its red-and-white packaging."
+    },
+    "Utkal Chemist": {
+      "type": "proper_noun",
+      "description": "A pharmacy located on Grand Road, where Dr Senapati is available for consultation."
+    },
+    "Grand Road": {
+      "type": "proper_noun",
+      "description": "A prominent street in the town where the story is set."
+    },
+    "Bhujanga Niwas": {
+      "type": "proper_noun",
+      "description": "The name of an old, sinking house near Sagarika, where a key discovery is made."
+    },
+    "Mangalghat Road": {
+      "type": "proper_noun",
+      "description": "A road in the town, location of a keertan group mentioned by Laxman Bhattacharya."
+    },
+    "neem": {
+      "type": "vocabulary",
+      "description": "A tree native to India, whose twigs are often used as natural toothbrushes."
+    },
+    "keertan": {
+      "type": "vocabulary",
+      "description": "A devotional singing session, often involving group chanting of religious songs."
+    },
+    "durrie": {
+      "type": "vocabulary",
+      "description": "A traditional Indian cotton rug or floor covering."
+    },
+    "Steadman": {
+      "type": "character",
+      "description": "Steadman is an American wildlife enthusiast mentioned as Bilas Majumdar's companion."
+    },
+    "Patan": {
+      "type": "proper_noun",
+      "description": "An ancient town near Kathmandu, Nepal, located across the Bagmati river."
+    },
+    "Bagmati": {
+      "type": "proper_noun",
+      "description": "A river in Nepal, separating Kathmandu and Patan."
+    },
+    "America": {
+      "type": "proper_noun",
+      "description": "Referenced as the country Dr Senapati visited to bring back medicine."
+    },
+    "Keonjhargarh": {
+      "type": "proper_noun",
+      "description": "A place the characters are invited to visit, possibly a wildlife area."
+    },
+    "Park Street": {
+      "type": "proper_noun",
+      "description": "A famous street in Kolkata, referenced in relation to a past graveyard experience."
+    },
+    "Hotchkick": {
+      "type": "proper_noun",
+      "description": "A fictional or possibly real suspense film or character, used for comparison."
+    },
+    "kurta-pajamas": {
+      "type": "vocabulary",
+      "description": "A traditional Indian outfit consisting of a long tunic (kurta) and loose trousers (pajamas)."
+    },
+    "Diapid": {
+      "type": "proper_noun",
+      "description": "A modern drug used to restore lost memory, given to Mr Sen."
+    },
+    "Pragya Paramita": {
+      "type": "proper_noun",
+      "description": "A twelfth-century manuscript, highly valuable and central to the plot."
+    },
+    "Shanta Bhavan": {
+      "type": "proper_noun",
+      "description": "A hospital in Patan, near Kathmandu, where Mr Sen was treated."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Dungru",
+      "Shyam Gurung",
+      "Joe",
+      "Mark",
+      "Dennis",
+      "Bruce",
+      "Hanuman Phatak",
+      "Machhipuchh",
+      "Minnesota",
+      "Kathmandu",
+      "Babu"
+    ],
+    "ch-2": [
+      "Lalmohan Babu",
+      "Tapesh",
+      "Puri",
+      "Calcutta",
+      "Orissa",
+      "Neelachal",
+      "Puri Express",
+      "Howrah",
+      "Frankenstein in Frankfurt",
+      "City of Joy",
+      "skylab",
+      "Babu",
+      "coolie",
+      "Mr Hingorani",
+      "Mr Mitter"
+    ],
+    "ch-3": [
+      "Lalmohan Babu",
+      "Tapesh",
+      "Shyamlal Barik",
+      "Mr Srinivas Som",
+      "D.G. Sen",
+      "S.N. Sen",
+      "Satish Kanungo",
+      "Neelachal",
+      "Calcutta",
+      "Jain temple",
+      "Baikuntha Mallik",
+      "Nulia",
+      "Sagarika",
+      "Bhutan",
+      "Sikkim",
+      "Sen Perfumers",
+      "Puri",
+      "Madhupur",
+      "koftas",
+      "Jai Guru",
+      "paan",
+      "paan-masala",
+      "Charminar",
+      "puthi",
+      "Mr Bhattacharya",
+      "Mr Mitter"
+    ],
+    "ch-4": [
+      "Lalmohan Babu",
+      "Tapesh",
+      "D.G. Sen",
+      "Nishith Bose",
+      "Rupchand Singh",
+      "Lokenath",
+      "Calcutta",
+      "Bay of Bengal",
+      "Puri",
+      "Bombay",
+      "Bundelkhand",
+      "Rourkela",
+      "Nepal",
+      "Swargadwar Road",
+      "Kathmandu",
+      "Meher Ali Road",
+      "Neelachal",
+      "Dharamshala",
+      "Tibet",
+      "Dalai Lama",
+      "Kashmiri",
+      "Godrej",
+      "Ashtadashasahasrika Pragya Paramita",
+      "Kalpasutra",
+      "Sanskrit",
+      "Bengali",
+      "India",
+      "Babu",
+      "Nulia",
+      "paan",
+      "Namaskar",
+      "ayurveda",
+      "Mahapatra",
+      "Mr Bhattacharya",
+      "Mr Mitter",
+      "Shyamlal Barik",
+      "Satish Kanungo"
+    ],
+    "ch-5": [
+      "Lalmohan Babu",
+      "Mr Mitter",
+      "Bilas Majumdar",
+      "D.G. Sen",
+      "Sagarika",
+      "Railway Hotel",
+      "Neelachal",
+      "Goa",
+      "Miami",
+      "Acapulco",
+      "Nice",
+      "Puri",
+      "Darjeeling",
+      "Himalayas",
+      "Nepal",
+      "Kathmandu",
+      "Vikram Hotel",
+      "Calcutta",
+      "Nulia",
+      "bindi",
+      "paise",
+      "rupees",
+      "Mr Hingorani",
+      "Mr Bhattacharya"
+    ],
+    "ch-6": [
+      "Mr Bhattacharya",
+      "Bilas Majumdar",
+      "Lalmohan Babu",
+      "Rupchand Singh",
+      "Mr Sarkar",
+      "Jagannath",
+      "Nepal",
+      "Kathmandu",
+      "D.G. Sen",
+      "Konark",
+      "Puri",
+      "Meher Ali Road",
+      "Railway Hotel",
+      "Sagarika",
+      "New Guinea",
+      "Libra",
+      "Himalayas",
+      "Vande Mataram",
+      "lungi",
+      "kurta",
+      "divan",
+      "paan",
+      "ayurveda",
+      "Taratua",
+      "Mahapatra",
+      "Mr Mitter"
+    ],
+    "ch-7": [
+      "Lalmohan Babu",
+      "Mr Hingorani",
+      "Nishith Bose",
+      "Uncle Sidhu",
+      "Railway Hotel",
+      "Sagarika",
+      "Pokhra",
+      "Kathmandu",
+      "Bhatgaon",
+      "Dharamshala",
+      "Dalai Lama",
+      "Puri",
+      "New Guinea",
+      "New Zealand",
+      "Time",
+      "souffle",
+      "rupees",
+      "Tuatara",
+      "gout",
+      "D.G. Sen",
+      "Bilas Majumdar",
+      "Mr Bhattacharya",
+      "Mr Mitter"
+    ],
+    "ch-8": [
+      "Lalmohan Babu",
+      "Nishith Bose",
+      "Shyamlal Barik",
+      "Balasore",
+      "Puri",
+      "Neelachal",
+      "New Hotel",
+      "Bhubaneshwar",
+      "Statesman",
+      "Jagannath Express",
+      "Calcutta",
+      "Puri Express",
+      "Mystery Magazine",
+      "Kathmandu",
+      "Orissa",
+      "Raja Rani",
+      "Lingaraj",
+      "Kedar Gauri",
+      "Mukteshwar",
+      "Brahmeshwar",
+      "Bhaskareshwar",
+      "Baikuntha Mallik",
+      "Michaelangelo",
+      "Da Vinci",
+      "yakshi",
+      "veranda",
+      "D.G. Sen",
+      "Bilas Majumdar",
+      "Mr Mitter"
+    ],
+    "ch-9": [
+      "Tapesh",
+      "Lalmohan Babu",
+      "Nishith Bose",
+      "Mr Hingorani",
+      "Bilas Majumdar",
+      "Puri",
+      "Bhubaneshwar",
+      "Sagarika",
+      "chappals",
+      "D.G. Sen",
+      "Nulia",
+      "Mr Bhattacharya",
+      "Mr Mitter",
+      "Shyamlal Barik"
+    ],
+    "ch-10": [
+      "Mahapatra",
+      "Mahim Sen",
+      "D.G. Sen",
+      "Nishith Bose",
+      "Lalmohan Babu",
+      "Dr Bhargav",
+      "Bilas Majumdar",
+      "Prakhar Rudra",
+      "Sagarika",
+      "Calcutta",
+      "Puri",
+      "Puri Express",
+      "Nepal",
+      "Kathmandu",
+      "Veer Hospital",
+      "Babu",
+      "manuscript",
+      "Nulia",
+      "Mr Mitter",
+      "Shyamlal Barik"
+    ],
+    "ch-11": [
+      "Lalmohan Babu",
+      "Mahapatra",
+      "Dr Senapati",
+      "Ramai",
+      "Bilas Majumdar",
+      "Nishith Bose",
+      "Mr Hingorani",
+      "Signal",
+      "Nepal",
+      "Utkal Chemist",
+      "Grand Road",
+      "Nulia",
+      "Calcutta",
+      "Sagarika",
+      "Bhujanga Niwas",
+      "Mangalghat Road",
+      "Railway Hotel",
+      "veranda",
+      "lungi",
+      "neem",
+      "keertan",
+      "paan",
+      "durrie",
+      "D.G. Sen",
+      "Mr Bhattacharya",
+      "Mr Mitter",
+      "Shyamlal Barik"
+    ],
+    "ch-12": [
+      "Lalmohan Babu",
+      "D.G. Sen",
+      "Mahim Sen",
+      "Dr Senapati",
+      "Bilas Majumdar",
+      "Steadman",
+      "Railway Hotel",
+      "Bhujanga Niwas",
+      "Sagarika",
+      "Nepal",
+      "Kathmandu",
+      "Patan",
+      "Bagmati",
+      "America",
+      "Keonjhargarh",
+      "Puri",
+      "Park Street",
+      "Hotchkick",
+      "kurta-pajamas",
+      "skylab",
+      "Babu",
+      "Nulia",
+      "Mahapatra",
+      "Mr Bhattacharya",
+      "Mr Mitter",
+      "Nishith Bose"
+    ],
+    "ch-13": [
+      "Mahim Sen",
+      "Bilas Majumdar",
+      "Dr Senapati",
+      "Mr Sarkar",
+      "Rupchand Singh",
+      "Nishith Bose",
+      "Lalmohan Babu",
+      "Mr Hingorani",
+      "Ramai",
+      "Shyamlal Barik",
+      "Kalpasutra",
+      "Diapid",
+      "Veer Hospital",
+      "Kathmandu",
+      "Bhatgaon",
+      "Puri",
+      "Bhujanga Niwas",
+      "Sagarika",
+      "Pragya Paramita",
+      "Ashtadashasahasrika Pragya Paramita",
+      "Shanta Bhavan",
+      "Patan",
+      "keertan",
+      "paan",
+      "D.G. Sen",
+      "Nulia",
+      "Mahapatra",
+      "Mr Bhattacharya",
+      "Mr Mitter"
+    ]
+  }
+}

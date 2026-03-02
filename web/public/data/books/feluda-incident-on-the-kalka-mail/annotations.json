@@ -1,0 +1,838 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "A private detective renowned for his sharp intellect and deductive skills, often addressed respectfully as Felu Babu.",
+      "image": "/data/images/characters/feluda-incident-on-the-kalka-mail/feluda.webp"
+    },
+    "Dinanath Lahiri": {
+      "type": "character",
+      "description": "A client with sharp observational skills who approaches Feluda regarding an exchanged attaché case containing a valuable manuscript.",
+      "image": "/data/images/characters/feluda-incident-on-the-kalka-mail/dinanath-lahiri.webp"
+    },
+    "Mr Pakrashi": {
+      "type": "character",
+      "description": "A Bengali businessman and fellow passenger on the Kalka Mail who was potentially involved in the attaché case mix-up."
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "The cook in Feluda's household, who serves tea during the meeting."
+    },
+    "Shambhucharan Bose": {
+      "type": "character",
+      "description": "Author of a 1917 travelogue about Tibet, whose manuscript was in the lost attaché case; mentioned as someone who was close to Dinanath Babu's uncle, possibly a fellow shikari.",
+      "image": "/data/images/characters/feluda-incident-on-the-kalka-mail/shambhucharan-bose.webp"
+    },
+    "Satinath Lahiri": {
+      "type": "character",
+      "description": "Dinanath Lahiri's uncle, a former tutor in Kathmandu, to whom the Tibet travelogue was dedicated."
+    },
+    "Captain Scott": {
+      "type": "proper_noun",
+      "description": "Reference to Robert Falcon Scott, the British explorer known for his expeditions to the Antarctic."
+    },
+    "Tara Road": {
+      "type": "proper_noun",
+      "description": "The street where Feluda's house is located."
+    },
+    "Rolls-Royce": {
+      "type": "proper_noun",
+      "description": "A luxury British car brand, used here to describe the impressive size of the visitor's car."
+    },
+    "Hispano Suiza": {
+      "type": "proper_noun",
+      "description": "A rare and prestigious European luxury car brand, owned by Dinanath Lahiri."
+    },
+    "Kalka Mail": {
+      "type": "proper_noun",
+      "description": "A famous Indian train running between Delhi and Howrah."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "India's capital city, from where the train journey began."
+    },
+    "Simla": {
+      "type": "proper_noun",
+      "description": "A hill station in northern India, now known as Shimla."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital city of Nepal, where Satinath Lahiri once lived."
+    },
+    "Ranas": {
+      "type": "proper_noun",
+      "description": "A prominent ruling family in Nepal, historically known for their political power; referenced as the hereditary prime ministers of Nepal and as the giver of the diamond."
+    },
+    "Nepali": {
+      "type": "proper_noun",
+      "description": "Relating to Nepal; here, it refers to a box from Nepal."
+    },
+    "Pest Control": {
+      "type": "proper_noun",
+      "description": "A service for removing pests, mentioned in the context of cleaning out the box room."
+    },
+    "Makaibari": {
+      "type": "proper_noun",
+      "description": "A renowned tea estate in Kurseong, known for its high-quality tea."
+    },
+    "Kurseong": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, famous for its tea plantations."
+    },
+    "Kodak": {
+      "type": "proper_noun",
+      "description": "A famous brand of photographic film and related products."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in eastern India."
+    },
+    "Howrah": {
+      "type": "proper_noun",
+      "description": "A city adjacent to Kolkata, known for its major railway station."
+    },
+    "Rashbehari Avenue": {
+      "type": "proper_noun",
+      "description": "A prominent road in Kolkata."
+    },
+    "Chowringhee": {
+      "type": "proper_noun",
+      "description": "A central area in Kolkata, known for its historical and commercial significance."
+    },
+    "Park Street": {
+      "type": "proper_noun",
+      "description": "A well-known street in Kolkata, famous for its restaurants and nightlife."
+    },
+    "Hindustan Times": {
+      "type": "proper_noun",
+      "description": "A major English-language daily newspaper in India."
+    },
+    "Binaca": {
+      "type": "proper_noun",
+      "description": "A popular brand of toothpaste and toothbrushes in India."
+    },
+    "Gillette": {
+      "type": "proper_noun",
+      "description": "A global brand known for razors and shaving products."
+    },
+    "Old Spice": {
+      "type": "proper_noun",
+      "description": "A well-known brand of men's grooming products."
+    },
+    "Aspro": {
+      "type": "proper_noun",
+      "description": "A brand of aspirin tablets."
+    },
+    "Venus": {
+      "type": "proper_noun",
+      "description": "A brand of pencils, here referring to a red-and-blue pencil."
+    },
+    "Moradabad": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, India, famous for its brassware and handicrafts."
+    },
+    "Ellery Queen": {
+      "type": "proper_noun",
+      "description": "A famous fictional detective and the pseudonym of the authors who created him."
+    },
+    "The Door Between": {
+      "type": "proper_noun",
+      "description": "A detective novel by Ellery Queen."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian men's garment, a long piece of cloth wrapped around the waist and legs."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in South Asia."
+    },
+    "nagra": {
+      "type": "vocabulary",
+      "description": "A type of traditional Indian footwear, often with an upturned toe."
+    },
+    "attaché case": {
+      "type": "vocabulary",
+      "description": "A small, flat, rectangular suitcase used for carrying documents."
+    },
+    "Baba": {
+      "type": "vocabulary",
+      "description": "A respectful term for father in many Indian languages."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A term of respect or endearment for men in India, often used after a name; in this context, used as an honorific for Feluda (Felu Babu), Lalmohan Ganguly (Lalmohan Babu), and Naresh Chandra Pakrashi (Naresh Babu)."
+    },
+    "betel-nut": {
+      "type": "vocabulary",
+      "description": "The seed(s) of the areca palm, commonly chewed in South and Southeast Asia for their stimulant effects."
+    },
+    "pukka sahib": {
+      "type": "vocabulary",
+      "description": "A term from colonial India meaning a true gentleman, often used to describe someone with British manners."
+    },
+    "thali": {
+      "type": "vocabulary",
+      "description": "A traditional Indian meal served on a round platter, consisting of various dishes."
+    },
+    "Uncle Sidhu": {
+      "type": "character",
+      "description": "A knowledgeable and respected family friend of Feluda and the narrator, known for his extraordinary memory."
+    },
+    "Brijmohan": {
+      "type": "character",
+      "description": "A moneylender who traveled in the same compartment as Mr Lahiri and Mr Pakrashi."
+    },
+    "Dasgupta": {
+      "type": "character",
+      "description": "A Bengali receptionist at the Grand Hotel who assists Feluda and the narrator."
+    },
+    "Terai": {
+      "type": "proper_noun",
+      "description": "A region at the base of the Himalayas, referenced as the subject of Shambhucharan Bose's travel book."
+    },
+    "Nepal": {
+      "type": "proper_noun",
+      "description": "A country in South Asia, ruled by the Ranas during the period described."
+    },
+    "Vijayendra Shamsher Jung Bahadur": {
+      "type": "proper_noun",
+      "description": "A member of the Rana family in Nepal, known for his hunting exploits."
+    },
+    "National Library": {
+      "type": "proper_noun",
+      "description": "A major library, likely referring to the National Library of India in Kolkata."
+    },
+    "Lansdowne Road": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata where Naresh Chandra Pakrashi lives."
+    },
+    "Lenin Sarani": {
+      "type": "proper_noun",
+      "description": "A major road in Kolkata, location of S. M. Kedia & Co."
+    },
+    "S. M. Kedia & Co.": {
+      "type": "proper_noun",
+      "description": "A company associated with Brijmohan, the moneylender, and visited by Feluda during his investigation."
+    },
+    "Lower Circular Road": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata, site of a recent robbery."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A classic Indian car, mentioned as the getaway vehicle in the robbery."
+    },
+    "Hindustan International Hotel": {
+      "type": "proper_noun",
+      "description": "A prominent hotel in Kolkata visited by Feluda during the investigation."
+    },
+    "Park Hotel": {
+      "type": "proper_noun",
+      "description": "A well-known hotel in Kolkata, checked by Feluda for the guest from Simla."
+    },
+    "Great Eastern": {
+      "type": "proper_noun",
+      "description": "Another historic hotel in Kolkata."
+    },
+    "Ritz Continental": {
+      "type": "proper_noun",
+      "description": "A hotel in Kolkata, one of the five mentioned by Feluda."
+    },
+    "Wild Flower Hall": {
+      "type": "proper_noun",
+      "description": "A famous hotel and historic building near Simla, formerly a residence during British times and part of G. C. Dhameeja's address."
+    },
+    "The Nook": {
+      "type": "proper_noun",
+      "description": "The name of the residence or suite at Wild Flower Hall, Simla."
+    },
+    "shikari": {
+      "type": "vocabulary",
+      "description": "A hunter, especially one who hunts big game in India."
+    },
+    "machan": {
+      "type": "vocabulary",
+      "description": "A platform built on a tree or raised structure, used for hunting or watching animals."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The currency of India."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or gatekeeper."
+    },
+    "almirahs": {
+      "type": "vocabulary",
+      "description": "Cupboards or wardrobes, commonly used in Indian households."
+    },
+    "rexine": {
+      "type": "vocabulary",
+      "description": "A type of artificial leather often used for covering furniture."
+    },
+    "guru": {
+      "type": "vocabulary",
+      "description": "A spiritual teacher or guide in Indian religions."
+    },
+    "applewalla": {
+      "type": "vocabulary",
+      "description": "A colloquial term for a person associated with apples; 'walla' is a suffix denoting someone involved with a particular thing."
+    },
+    "Charminar": {
+      "type": "vocabulary",
+      "description": "A popular Indian brand of cigarettes."
+    },
+    "Amar Kumar": {
+      "type": "character",
+      "description": "Dinanath Babu's nephew and an aspiring actor who used the screen name Amar Kumar; he was involved in the train attaché case exchange and turned to crime after his film career faltered.",
+      "image": "/data/images/characters/feluda-incident-on-the-kalka-mail/amar-kumar.webp"
+    },
+    "Jatayu": {
+      "type": "character",
+      "description": "A short, thin, and absent-minded thriller writer who uses the pen name Jatayu; he is a humorous friend and companion to Feluda.",
+      "image": "/data/images/characters/feluda-incident-on-the-kalka-mail/jatayu.webp"
+    },
+    "Grand Hotel": {
+      "type": "proper_noun",
+      "description": "A well-known hotel in Kolkata where Feluda and his companions are staying."
+    },
+    "New Empire": {
+      "type": "proper_noun",
+      "description": "A location near which the characters buy meetha paan; likely refers to a cinema or landmark."
+    },
+    "Lagonda": {
+      "type": "proper_noun",
+      "description": "An Italian car brand; here, refers to the old car in Mr Lahiri's garage."
+    },
+    "The Ghost": {
+      "type": "proper_noun",
+      "description": "A thriller film in which Prabeer Lahiri (Amar Kumar) plays the villain."
+    },
+    "meetha paan": {
+      "type": "vocabulary",
+      "description": "A sweetened betel leaf preparation, often chewed as a mouth freshener in India."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting involving folded hands."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A servant or attendant, often one who serves food or carries items."
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "Feluda's younger cousin and loyal assistant who serves as the narrator of the stories."
+    },
+    "Sardarji": {
+      "type": "character",
+      "description": "The taxi driver who assists Feluda and Tapesh during their late-night trip to Pretoria Street."
+    },
+    "Rajasthan": {
+      "type": "proper_noun",
+      "description": "A large state in northwestern India, known for its deserts and historic forts."
+    },
+    "Nilgiris": {
+      "type": "proper_noun",
+      "description": "A mountain range in southern India, famous for its scenic beauty and tea plantations."
+    },
+    "North Pole": {
+      "type": "proper_noun",
+      "description": "The northernmost point on Earth, characterized by extreme cold and snow."
+    },
+    "The Sahara Shivers": {
+      "type": "proper_noun",
+      "description": "A fictional book written by Lalmohan Babu, referencing the Sahara Desert."
+    },
+    "Britannica": {
+      "type": "proper_noun",
+      "description": "The correct name of the famous English-language encyclopedia, mistakenly referred to as 'Encyclopaedia Britannia' by Lalmohan Babu."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, India, famous for its tea and scenic views."
+    },
+    "Pretoria Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta where the case exchange is supposed to take place."
+    },
+    "Birla building": {
+      "type": "proper_noun",
+      "description": "A prominent skyscraper in Kolkata, associated with the Birla industrial family."
+    },
+    "St Paul’s Church": {
+      "type": "proper_noun",
+      "description": "A well-known church in Kolkata, referenced for its clock."
+    },
+    "Marwari": {
+      "type": "vocabulary",
+      "description": "A term referring to a member of a business community from the Marwar region of Rajasthan, often associated with trade and finance."
+    },
+    "Balaclava helmet": {
+      "type": "vocabulary",
+      "description": "A close-fitting woolen head covering that exposes only part of the face, commonly worn in cold climates."
+    },
+    "galoshes": {
+      "type": "vocabulary",
+      "description": "Waterproof overshoes worn to protect shoes from rain or snow, commonly used in India during monsoon or winter."
+    },
+    "Puri": {
+      "type": "character",
+      "description": "A man whose name and address are revealed to be fictitious in the course of the investigation; a friend of Dhameeja in Calcutta who was supposed to return the exchanged case."
+    },
+    "Mr Mallik": {
+      "type": "character",
+      "description": "A person at Sri Guru Pictures, who confirms Amar Kumar is no longer in the film."
+    },
+    "Sparkling Stars": {
+      "type": "proper_noun",
+      "description": "A film magazine featuring Amar Kumar's photograph."
+    },
+    "Sri Guru Pictures": {
+      "type": "proper_noun",
+      "description": "A film production company mentioned as making the film with Amar Kumar."
+    },
+    "Jewel Thief": {
+      "type": "proper_noun",
+      "description": "A famous Bollywood film starring Dev Anand, referenced for Amar Kumar's style."
+    },
+    "Dev Anand": {
+      "type": "proper_noun",
+      "description": "A legendary Indian film actor, known for his distinctive style."
+    },
+    "Bentinck Street": {
+      "type": "proper_noun",
+      "description": "A street address in Calcutta (Kolkata), where Sri Guru Pictures is located."
+    },
+    "Janpath Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel in Delhi where reservations are made for the characters; also refers to the famous road where it is located."
+    },
+    "Clarkes": {
+      "type": "proper_noun",
+      "description": "A hotel in Simla where the characters are booked for four days."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "Referenced as the country where the enterovioform tablets are made."
+    },
+    "Tibet": {
+      "type": "proper_noun",
+      "description": "A region in Asia, the subject of Shambhucharan Bose's travelogue."
+    },
+    "divan": {
+      "type": "vocabulary",
+      "description": "A long, low sofa without a back or arms, commonly found in Indian households."
+    },
+    "manuscript": {
+      "type": "vocabulary",
+      "description": "A handwritten or typed document, often referring to an unpublished literary work; 'manusprint' is a mistaken or humorous version of the word."
+    },
+    "enterovioform": {
+      "type": "vocabulary",
+      "description": "A medicinal tablet used for intestinal disorders, referenced as being more effective when made in England."
+    },
+    "regulator": {
+      "type": "vocabulary",
+      "description": "A device used to control the speed of a ceiling fan, commonly found in Indian homes."
+    },
+    "Sawai Jai Singh": {
+      "type": "character",
+      "description": "A historical figure, the founder of the Jantar Mantar observatory mentioned in the chapter."
+    },
+    "Indian Airlines": {
+      "type": "proper_noun",
+      "description": "A major Indian airline that operated domestic and international flights."
+    },
+    "Agra Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel in Delhi where the characters consider staying."
+    },
+    "Jantar Mantar": {
+      "type": "proper_noun",
+      "description": "A historic astronomical observatory in Delhi, built by Sawai Jai Singh."
+    },
+    "Prime Minister": {
+      "type": "proper_noun",
+      "description": "The head of government in India, referenced humorously by Jatayu."
+    },
+    "Kalka": {
+      "type": "proper_noun",
+      "description": "A town in Haryana, India, serving as a major railway junction for trains heading to the hill station of Simla."
+    },
+    "Frankfurt": {
+      "type": "proper_noun",
+      "description": "A major city in Germany, referenced here as an international flight destination."
+    },
+    "New Delhi": {
+      "type": "proper_noun",
+      "description": "A district within Delhi, and the location of the main railway station mentioned in the chapter."
+    },
+    "Parsee cap": {
+      "type": "vocabulary",
+      "description": "A traditional headgear worn by members of the Parsi (Zoroastrian) community in India."
+    },
+    "Araldite": {
+      "type": "vocabulary",
+      "description": "A brand of strong epoxy adhesive widely used in India for bonding materials."
+    },
+    "Kanchenjunga": {
+      "type": "proper_noun",
+      "description": "A famous snow-capped mountain in the Himalayas, visible from Darjeeling."
+    },
+    "Annapurna": {
+      "type": "proper_noun",
+      "description": "A massif in the Himalayas in Nepal, renowned for its high peaks."
+    },
+    "British": {
+      "type": "proper_noun",
+      "description": "Refers to the colonial rulers of India before independence in 1947."
+    },
+    "Kufri": {
+      "type": "proper_noun",
+      "description": "A small hill station near Simla, known for its snow and scenic views."
+    },
+    "sherpa": {
+      "type": "vocabulary",
+      "description": "A member of an ethnic group from the Himalayas, often serving as guides or porters in mountain expeditions."
+    },
+    "Harbilas": {
+      "type": "character",
+      "description": "The group's driver, who recognizes the unconscious taxi driver Arvind."
+    },
+    "Arvind": {
+      "type": "character",
+      "description": "A taxi driver found unconscious or possibly dead in his own car blocking the road."
+    },
+    "Australia": {
+      "type": "proper_noun",
+      "description": "A country mentioned in relation to the boomerang, which originates from there."
+    },
+    "Miller Gem Company": {
+      "type": "proper_noun",
+      "description": "A jewelry store in Simla where Feluda purchased a fake stone."
+    },
+    "Air India": {
+      "type": "proper_noun",
+      "description": "India's national airline, mentioned in connection with an attaché case used to hide the diamond and known for giving branded gifts to passengers."
+    },
+    "boomerang": {
+      "type": "vocabulary",
+      "description": "A curved, flat tool from Australia, traditionally used by Indigenous Australians for hunting, which returns to the thrower."
+    },
+    "nullah": {
+      "type": "vocabulary",
+      "description": "A term used in India for a ravine or watercourse, often dry except during the rainy season."
+    },
+    "Dhameeja": {
+      "type": "character",
+      "description": "An Indian guest at the Grand Hotel from Simla, identified as the owner of the blue attaché case that gets mixed up with Dinanath Babu's.",
+      "image": "/data/images/characters/feluda-incident-on-the-kalka-mail/dhameeja.webp"
+    },
+    "Himachal Pradesh": {
+      "type": "proper_noun",
+      "description": "An Indian state in the Himalayas, where Simla is located."
+    },
+    "A Bengalee in Lamaland": {
+      "type": "proper_noun",
+      "description": "The title of Shambhucharan's travelogue manuscript."
+    },
+    "Lamaland": {
+      "type": "proper_noun",
+      "description": "A term referring to Tibet or regions influenced by Tibetan Buddhism, the subject of the travelogue."
+    },
+    "sahib": {
+      "type": "vocabulary",
+      "description": "A term of respect or address for a man, commonly used in India."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Dinanath Lahiri",
+      "Mr Pakrashi",
+      "Srinath",
+      "Shambhucharan Bose",
+      "Satinath Lahiri",
+      "Captain Scott",
+      "Tara Road",
+      "Rolls-Royce",
+      "Hispano Suiza",
+      "Kalka Mail",
+      "Delhi",
+      "Simla",
+      "Kathmandu",
+      "Ranas",
+      "Nepali",
+      "Pest Control",
+      "Makaibari",
+      "Kurseong",
+      "Kodak",
+      "Calcutta",
+      "Howrah",
+      "Rashbehari Avenue",
+      "Chowringhee",
+      "Park Street",
+      "Hindustan Times",
+      "Binaca",
+      "Gillette",
+      "Old Spice",
+      "Aspro",
+      "Venus",
+      "Moradabad",
+      "Ellery Queen",
+      "The Door Between",
+      "dhoti",
+      "kurta",
+      "nagra",
+      "attaché case",
+      "Baba",
+      "Babu",
+      "betel-nut",
+      "pukka sahib",
+      "thali",
+      "Air India",
+      "Tapesh"
+    ],
+    "ch-2": [
+      "Uncle Sidhu",
+      "Feluda",
+      "Shambhucharan Bose",
+      "Baba",
+      "Brijmohan",
+      "Dasgupta",
+      "Terai",
+      "Kathmandu",
+      "Nepal",
+      "Ranas",
+      "Vijayendra Shamsher Jung Bahadur",
+      "National Library",
+      "Delhi",
+      "Lansdowne Road",
+      "Lenin Sarani",
+      "S. M. Kedia & Co.",
+      "Lower Circular Road",
+      "Ambassador",
+      "Hindustan International Hotel",
+      "Simla",
+      "Park Hotel",
+      "Great Eastern",
+      "Ritz Continental",
+      "Dasgupta",
+      "Wild Flower Hall",
+      "The Nook",
+      "shikari",
+      "machan",
+      "rupees",
+      "chowkidar",
+      "almirahs",
+      "rexine",
+      "guru",
+      "Babu",
+      "applewalla",
+      "Charminar",
+      "Dhameeja",
+      "Dinanath Lahiri",
+      "Grand Hotel",
+      "Mr Pakrashi",
+      "Amar Kumar"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Amar Kumar",
+      "Jatayu",
+      "Grand Hotel",
+      "New Empire",
+      "Lagonda",
+      "The Ghost",
+      "Simla",
+      "Delhi",
+      "Nepali",
+      "Kathmandu",
+      "meetha paan",
+      "chowkidar",
+      "shikari",
+      "namaskar",
+      "bearer",
+      "Air India",
+      "Dhameeja",
+      "Dinanath Lahiri",
+      "Shambhucharan Bose"
+    ],
+    "ch-4": [
+      "Jatayu",
+      "Feluda",
+      "Tapesh",
+      "Dinanath Lahiri",
+      "Sardarji",
+      "Rajasthan",
+      "Nilgiris",
+      "North Pole",
+      "The Sahara Shivers",
+      "Britannica",
+      "Simla",
+      "Darjeeling",
+      "Calcutta",
+      "Lenin Sarani",
+      "Pretoria Street",
+      "Birla building",
+      "St Paul’s Church",
+      "Babu",
+      "Marwari",
+      "attaché case",
+      "Sardarji",
+      "Balaclava helmet",
+      "galoshes",
+      "Amar Kumar",
+      "Dhameeja",
+      "Mr Pakrashi",
+      "Puri"
+    ],
+    "ch-5": [
+      "Puri",
+      "Feluda",
+      "Srinath",
+      "Baba",
+      "Amar Kumar",
+      "Mr Mallik",
+      "Jatayu",
+      "Mr Pakrashi",
+      "Brijmohan",
+      "Shambhucharan Bose",
+      "Uncle Sidhu",
+      "Simla",
+      "Sparkling Stars",
+      "Sri Guru Pictures",
+      "Jewel Thief",
+      "Dev Anand",
+      "Bentinck Street",
+      "Calcutta",
+      "Delhi",
+      "Janpath Hotel",
+      "Clarkes",
+      "England",
+      "Tibet",
+      "Rajasthan",
+      "Terai",
+      "Babu",
+      "attaché case",
+      "almirahs",
+      "divan",
+      "manuscript",
+      "enterovioform",
+      "regulator",
+      "Air India",
+      "Dhameeja",
+      "Dinanath Lahiri",
+      "Ranas",
+      "S. M. Kedia & Co."
+    ],
+    "ch-6": [
+      "Feluda",
+      "Jatayu",
+      "Sawai Jai Singh",
+      "Indian Airlines",
+      "Pretoria Street",
+      "Delhi",
+      "Simla",
+      "Agra Hotel",
+      "Jantar Mantar",
+      "Nepali",
+      "Prime Minister",
+      "betel-nut",
+      "attaché case",
+      "Babu",
+      "Dhameeja",
+      "Janpath Hotel",
+      "Tapesh"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Dinanath Lahiri",
+      "Kalka",
+      "Simla",
+      "Delhi",
+      "Frankfurt",
+      "Jantar Mantar",
+      "New Delhi",
+      "Parsee cap",
+      "attaché case",
+      "betel-nut",
+      "Araldite",
+      "Air India",
+      "Babu",
+      "Dhameeja",
+      "Tapesh"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Jatayu",
+      "Kanchenjunga",
+      "Darjeeling",
+      "Annapurna",
+      "Simla",
+      "British",
+      "Kalka",
+      "Clarkes",
+      "Kufri",
+      "Ambassador",
+      "The Nook",
+      "Grand Hotel",
+      "Tibet",
+      "attaché case",
+      "sherpa",
+      "pukka sahib",
+      "enterovioform",
+      "Babu",
+      "Dhameeja",
+      "Wild Flower Hall",
+      "betel-nut",
+      "Amar Kumar"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Harbilas",
+      "Arvind",
+      "Amar Kumar",
+      "Satinath Lahiri",
+      "Tibet",
+      "Australia",
+      "Simla",
+      "Kodak",
+      "Miller Gem Company",
+      "Nepal",
+      "Air India",
+      "Delhi",
+      "boomerang",
+      "nullah",
+      "attaché case",
+      "Babu",
+      "Dhameeja",
+      "Dinanath Lahiri",
+      "Ranas",
+      "Shambhucharan Bose",
+      "betel-nut"
+    ],
+    "ch-10": [
+      "Amar Kumar",
+      "Feluda",
+      "Arvind",
+      "Dinanath Lahiri",
+      "Dhameeja",
+      "Simla",
+      "Nepali",
+      "Himachal Pradesh",
+      "Delhi",
+      "Calcutta",
+      "Lansdowne Road",
+      "A Bengalee in Lamaland",
+      "Lamaland",
+      "Babu",
+      "sahib",
+      "Mr Pakrashi",
+      "Shambhucharan Bose",
+      "manuscript"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-mysterious-tenant",
+  "title": "The Mysterious Tenant",
+  "transliteratedTitle": "Golokdham Rahasya",
+  "subtitle": "A Curious Stranger, A Hidden Secret",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-mysterious-tenant.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "গোলকধাম রহস্য",
+  "originalYear": 1980,
+  "totalChapters": 4,
+  "wordCount": 13163,
+  "summary": "When a mysterious new tenant arrives, Feluda’s peaceful days of reading epics are interrupted by a puzzle that promises intrigue and danger. With his friends by his side, Feluda must unravel the secrets hidden behind a seemingly ordinary door. Dive into this classic detective adventure where every answer leads to another question.",
+  "anthologyId": "feluda",
+  "storyNumber": 18
+}

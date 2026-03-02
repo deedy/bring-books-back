@@ -1,0 +1,607 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "A private detective known for his sharp intellect and investigative skills, he is the protagonist of the series.",
+      "image": "/data/images/characters/feluda-peril-in-paradise/feluda.webp"
+    },
+    "Sushant Som": {
+      "type": "character",
+      "description": "A secretary and associate of Mr Mallik who acts as a liaison and helper to Feluda's group during their travels.",
+      "image": "/data/images/characters/feluda-peril-in-paradise/sushant-som.webp"
+    },
+    "Siddheshwar Mallik": {
+      "type": "character",
+      "description": "Siddheshwar Mallik is a retired judge troubled by his past judgments, staying on a houseboat with his family, doctor, and attendants.",
+      "image": "/data/images/characters/feluda-peril-in-paradise/siddheshwar-mallik.webp"
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in eastern India and the home of Feluda and his companions."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "A vast mountain range in Asia, home to some of the world's highest peaks, including the region of Kashmir."
+    },
+    "Vindhyachal": {
+      "type": "proper_noun",
+      "description": "A range of hills in central India, considered less impressive than the Himalayas by the characters."
+    },
+    "Western Ghats": {
+      "type": "proper_noun",
+      "description": "A mountain range running parallel to the western coast of India."
+    },
+    "Kashmir": {
+      "type": "proper_noun",
+      "description": "A region in the northern part of the Indian subcontinent, renowned for its natural beauty and referred to as 'paradise on earth.'"
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, serving as a transit point in the journey."
+    },
+    "Srinagar": {
+      "type": "proper_noun",
+      "description": "The largest city and summer capital of Jammu and Kashmir, famous for its houseboats and Dal Lake."
+    },
+    "Pahalgam": {
+      "type": "proper_noun",
+      "description": "A scenic town in Kashmir, known for its natural beauty and as a tourist destination."
+    },
+    "Gulmarg": {
+      "type": "proper_noun",
+      "description": "A hill station in Kashmir, popular for its meadows and as a ski resort."
+    },
+    "Khilanmarg": {
+      "type": "proper_noun",
+      "description": "A small valley near Gulmarg, known for its panoramic views."
+    },
+    "Nanga Parvat": {
+      "type": "proper_noun",
+      "description": "A prominent Himalayan peak, also known as Nanga Parbat, one of the highest mountains in the world."
+    },
+    "Dal Lake": {
+      "type": "proper_noun",
+      "description": "A famous lake in Srinagar, known for its houseboats and scenic beauty."
+    },
+    "Mughal gardens": {
+      "type": "proper_noun",
+      "description": "Historic gardens in Srinagar, built during the Mughal era, renowned for their design and beauty."
+    },
+    "Jhelum": {
+      "type": "proper_noun",
+      "description": "A river flowing through Srinagar and the Kashmir valley."
+    },
+    "Durga Puja": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival, especially celebrated in Bengal, marking the worship of the goddess Durga."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, home to the Bengali language and culture, and the origin of Feluda and his companions."
+    },
+    "chana": {
+      "type": "vocabulary",
+      "description": "Roasted or fried chickpeas, a popular Indian snack."
+    },
+    "houseboat": {
+      "type": "vocabulary",
+      "description": "A boat designed or modified to be used primarily as a home, especially common on Dal Lake in Srinagar."
+    },
+    "baujras": {
+      "type": "vocabulary",
+      "description": "Traditional pleasure boats once used by zamindars (landlords) in Bengal."
+    },
+    "zamindars": {
+      "type": "vocabulary",
+      "description": "Landowners, often hereditary, who historically held large estates and collected taxes in India."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A personal attendant or servant, commonly employed by affluent families in India."
+    },
+    "Mahmudia": {
+      "type": "character",
+      "description": "One of the bearers on the houseboat, responsible for looking after the guests."
+    },
+    "Abdullah": {
+      "type": "character",
+      "description": "Another bearer on the houseboat, assisting with guest needs."
+    },
+    "Harinath Majumdar": {
+      "type": "character",
+      "description": "Mr Mallik's doctor and a medium who conducts seances to communicate with spirits.",
+      "image": "/data/images/characters/feluda-peril-in-paradise/harinath-majumdar.webp"
+    },
+    "Prayag": {
+      "type": "character",
+      "description": "The bearer attending to Mr Mallik's group, later revealed to have a personal connection to a past case."
+    },
+    "Sarkar": {
+      "type": "character",
+      "description": "A businessman and gambler from Calcutta who assists in the search for Vijay Mallik.",
+      "image": "/data/images/characters/feluda-peril-in-paradise/sarkar.webp"
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, known for its tea gardens and scenic beauty."
+    },
+    "Simla": {
+      "type": "proper_noun",
+      "description": "A hill station in Himachal Pradesh, also known as Shimla, popular for its colonial architecture."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital city of Nepal, known for its temples and rich history."
+    },
+    "Boulevard": {
+      "type": "proper_noun",
+      "description": "A prominent road running along the southern edge of Dal Lake in Srinagar."
+    },
+    "Venice": {
+      "type": "proper_noun",
+      "description": "An Italian city known for its canals and gondolas, used here for comparison."
+    },
+    "Shankaracharya": {
+      "type": "proper_noun",
+      "description": "A temple atop a hill in Srinagar, dedicated to the philosopher Adi Shankaracharya."
+    },
+    "Emperor Ashok": {
+      "type": "proper_noun",
+      "description": "A Mauryan emperor of ancient India, referenced as the builder's father of the Shankaracharya temple."
+    },
+    "Nishad Bagh": {
+      "type": "proper_noun",
+      "description": "Nishat Bagh, sometimes spelled Nishad Bagh, is one of the Mughal gardens in Srinagar, renowned for its design and beauty."
+    },
+    "Shalimar": {
+      "type": "proper_noun",
+      "description": "Another famous Mughal garden in Srinagar, also called Shalimar Bagh."
+    },
+    "Chashma Shahi": {
+      "type": "proper_noun",
+      "description": "A Mughal garden in Srinagar, noted for its natural spring."
+    },
+    "Char Chinar": {
+      "type": "proper_noun",
+      "description": "An island in Dal Lake, named for the four chinar trees at its corners."
+    },
+    "shikara": {
+      "type": "vocabulary",
+      "description": "A small wooden boat found on Dal Lake, used for transport and sightseeing."
+    },
+    "bungalow": {
+      "type": "vocabulary",
+      "description": "A single-storied house, often with a veranda, typical in South Asia."
+    },
+    "ghazal": {
+      "type": "vocabulary",
+      "description": "A form of Urdu poetry, often set to music and expressing themes of love or loss."
+    },
+    "sahib": {
+      "type": "vocabulary",
+      "description": "A respectful term of address for a man, used in South Asia."
+    },
+    "seance": {
+      "type": "vocabulary",
+      "description": "A seance is a meeting at which people attempt to make contact with the spirits of the dead, often with the help of a medium; seances refers to such gatherings in general."
+    },
+    "Ramswarup Raaut": {
+      "type": "character",
+      "description": "A Bihari boy who was hanged for murder ten years ago and is contacted during the seance."
+    },
+    "Mahatta & Co.": {
+      "type": "proper_noun",
+      "description": "A well-known photography studio and photo processing company in Srinagar."
+    },
+    "spiritualism": {
+      "type": "vocabulary",
+      "description": "A belief system or practice centered on the idea that it is possible to communicate with spirits of the dead, especially through mediums."
+    },
+    "medium": {
+      "type": "vocabulary",
+      "description": "A person believed to have the ability to communicate with spirits of the dead."
+    },
+    "Tangmarg": {
+      "type": "proper_noun",
+      "description": "A town near Gulmarg, serving as a gateway to the hill station."
+    },
+    "Rajasthan": {
+      "type": "proper_noun",
+      "description": "A state in northwestern India, known for its deserts and camels."
+    },
+    "Bhopal": {
+      "type": "proper_noun",
+      "description": "A city in central India, mentioned as the residence of Vijay's sister."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country where the story is set."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term used in India to address men, often appended to names."
+    },
+    "Vijay Mallik": {
+      "type": "character",
+      "description": "Vijay Mallik is Mr Mallik’s son, sharing a houseboat with Mr Som, and is found unconscious on the mountain path after a mysterious incident."
+    },
+    "Scottish Church": {
+      "type": "proper_noun",
+      "description": "Refers to Scottish Church College, a prestigious educational institution in Kolkata."
+    },
+    "Uttar Pradesh": {
+      "type": "proper_noun",
+      "description": "A large state in northern India, where Vijay traveled after leaving home."
+    },
+    "Kanpur": {
+      "type": "proper_noun",
+      "description": "A major city in Uttar Pradesh, where Vijay met the sadhu Anandaswamy."
+    },
+    "Anandaswamy": {
+      "type": "proper_noun",
+      "description": "A sadhu (holy man) in Kanpur who helped Vijay overcome his drug addiction."
+    },
+    "Maqbool": {
+      "type": "proper_noun",
+      "description": "The previous bearer of Mr Mallik, who died suddenly and was replaced by Prayag."
+    },
+    "sadhu": {
+      "type": "vocabulary",
+      "description": "A Hindu holy man or ascetic, often regarded as spiritually advanced."
+    },
+    "Sapru": {
+      "type": "character",
+      "description": "A Kashmiri man who was sentenced to death by Mr Mallik and appears during a seance."
+    },
+    "Shasmal": {
+      "type": "character",
+      "description": "A spirit who appeared in an earlier seance and admitted to being a murderer."
+    },
+    "Haridas Bhagat": {
+      "type": "character",
+      "description": "The real murderer in Sapru's case, as revealed during the seance."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular Indian cigarette brand."
+    },
+    "Manasbal Lake": {
+      "type": "proper_noun",
+      "description": "A clear, scenic lake near Srinagar, famous for its underwater vegetation."
+    },
+    "Punjabis": {
+      "type": "proper_noun",
+      "description": "People from the Punjab region of India, often recognized by their distinct culture."
+    },
+    "Kashmiri": {
+      "type": "proper_noun",
+      "description": "Refers to people or things from Kashmir, a region in northern India."
+    },
+    "Lidar": {
+      "type": "proper_noun",
+      "description": "A river flowing through Pahalgam, popular for trout fishing."
+    },
+    "Hollywood": {
+      "type": "proper_noun",
+      "description": "The American film industry, referenced here for its depiction of Westerns."
+    },
+    "Chandanwadi": {
+      "type": "proper_noun",
+      "description": "A location near Pahalgam, known for its snow-covered bridge."
+    },
+    "1978": {
+      "type": "proper_noun",
+      "description": "A year referenced as the time since which Mr Mallik has felt remorse."
+    },
+    "Ji, huzoor": {
+      "type": "vocabulary",
+      "description": "A polite Hindi/Urdu phrase meaning 'Yes, sir' or 'At your service'."
+    },
+    "Inspector Singh": {
+      "type": "character",
+      "description": "The police officer in charge of the murder investigation."
+    },
+    "Inspector Vajpayee": {
+      "type": "character",
+      "description": "A police officer who previously worked with Feluda on a case in Rajgarh."
+    },
+    "Rajgarh": {
+      "type": "proper_noun",
+      "description": "A place referenced as the location of a previous murder case solved by Feluda."
+    },
+    "Gujarati": {
+      "type": "proper_noun",
+      "description": "Refers to someone or something from Gujarat, a state in western India."
+    },
+    "Lalmohan Ganguli": {
+      "type": "character",
+      "description": "A writer of thrillers and a close companion of Feluda, often providing comic relief and assistance during investigations.",
+      "image": "/data/images/characters/feluda-peril-in-paradise/lalmohan-ganguli.webp"
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "Feluda's cousin and assistant who narrates the stories and helps in investigations."
+    },
+    "Mr Jacob": {
+      "type": "character",
+      "description": "Prayag's previous employer who lived on Park Street and left for England."
+    },
+    "Park Street": {
+      "type": "proper_noun",
+      "description": "A well-known street in Kolkata (Calcutta), famous for its restaurants and colonial-era buildings."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "A country in the United Kingdom, referenced as the destination of Mr Jacob."
+    },
+    "Chatterjee & Co.": {
+      "type": "proper_noun",
+      "description": "A company involved in import and export, where Vijay Mallik works."
+    },
+    "Universal Insurance": {
+      "type": "proper_noun",
+      "description": "An insurance company in Calcutta where Mr Sarkar works."
+    },
+    "Pollock Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, location of the Universal Insurance office."
+    },
+    "The Calcutta Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel in Calcutta where Mr Sarkar's father worked."
+    },
+    "Shikargah Lake": {
+      "type": "proper_noun",
+      "description": "A specific lake mentioned as a local sightseeing spot, likely located near Srinagar."
+    },
+    "Shiv temple": {
+      "type": "proper_noun",
+      "description": "A Hindu temple dedicated to Lord Shiva, an important deity in Hinduism."
+    },
+    "jeep": {
+      "type": "vocabulary",
+      "description": "A type of vehicle commonly used by police and officials in India, known for its ruggedness and utility."
+    },
+    "Indian Airlines": {
+      "type": "proper_noun",
+      "description": "A major Indian airline that operated domestic and international flights, referenced for passenger verification."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Sushant Som",
+      "Siddheshwar Mallik",
+      "Calcutta",
+      "Himalayas",
+      "Vindhyachal",
+      "Western Ghats",
+      "Kashmir",
+      "Delhi",
+      "Srinagar",
+      "Pahalgam",
+      "Gulmarg",
+      "Khilanmarg",
+      "Nanga Parvat",
+      "Dal Lake",
+      "Mughal gardens",
+      "Jhelum",
+      "Durga Puja",
+      "Bengal",
+      "chana",
+      "houseboat",
+      "baujras",
+      "zamindars",
+      "bearer",
+      "Lalmohan Ganguli"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Mahmudia",
+      "Abdullah",
+      "Harinath Majumdar",
+      "Prayag",
+      "Sarkar",
+      "Srinagar",
+      "Darjeeling",
+      "Simla",
+      "Kathmandu",
+      "Jhelum",
+      "Boulevard",
+      "Dal Lake",
+      "Venice",
+      "Shankaracharya",
+      "Emperor Ashok",
+      "Mughal gardens",
+      "Nishad Bagh",
+      "Shalimar",
+      "Chashma Shahi",
+      "Char Chinar",
+      "Calcutta",
+      "Delhi",
+      "shikara",
+      "houseboat",
+      "bungalow",
+      "ghazal",
+      "sahib",
+      "seance",
+      "Lalmohan Ganguli",
+      "Sushant Som",
+      "Vijay Mallik",
+      "Siddheshwar Mallik"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Ramswarup Raaut",
+      "Srinagar",
+      "Mahatta & Co.",
+      "Nishad Bagh",
+      "Shalimar",
+      "Chashma Shahi",
+      "Calcutta",
+      "Gulmarg",
+      "Khilanmarg",
+      "spiritualism",
+      "medium",
+      "Lalmohan Ganguli",
+      "Sushant Som",
+      "Siddheshwar Mallik",
+      "Harinath Majumdar",
+      "seance"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Sushant Som",
+      "Gulmarg",
+      "Srinagar",
+      "Tangmarg",
+      "Calcutta",
+      "Rajasthan",
+      "Khilanmarg",
+      "Kashmir",
+      "Bhopal",
+      "India",
+      "Babu",
+      "ghazal",
+      "Lalmohan Ganguli",
+      "Vijay Mallik",
+      "Siddheshwar Mallik",
+      "Tapesh",
+      "Sarkar",
+      "seance"
+    ],
+    "ch-5": [
+      "Prayag",
+      "Feluda",
+      "Vijay Mallik",
+      "Sushant Som",
+      "Khilanmarg",
+      "Nanga Parvat",
+      "Kashmir",
+      "Gulmarg",
+      "Srinagar",
+      "Calcutta",
+      "Scottish Church",
+      "Uttar Pradesh",
+      "Kanpur",
+      "Anandaswamy",
+      "Maqbool",
+      "sadhu",
+      "bearer",
+      "Lalmohan Ganguli",
+      "Siddheshwar Mallik",
+      "Sarkar",
+      "Harinath Majumdar"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Vijay Mallik",
+      "Prayag",
+      "Sapru",
+      "Shasmal",
+      "Haridas Bhagat",
+      "Srinagar",
+      "Charminar",
+      "Manasbal Lake",
+      "Khilanmarg",
+      "Punjabis",
+      "Kashmiri",
+      "Pahalgam",
+      "Lidar",
+      "Hollywood",
+      "Chandanwadi",
+      "1978",
+      "houseboat",
+      "shikara",
+      "Boulevard",
+      "bearer",
+      "Ji, huzoor",
+      "seance",
+      "Lalmohan Ganguli",
+      "Siddheshwar Mallik",
+      "Tapesh",
+      "Sarkar",
+      "Harinath Majumdar",
+      "Sushant Som"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Vijay Mallik",
+      "Prayag",
+      "Inspector Singh",
+      "Inspector Vajpayee",
+      "Calcutta",
+      "Rajgarh",
+      "Pahalgam",
+      "Gujarati",
+      "seance",
+      "Lalmohan Ganguli",
+      "Siddheshwar Mallik",
+      "Sarkar",
+      "Harinath Majumdar"
+    ],
+    "ch-8": [
+      "Inspector Singh",
+      "Feluda",
+      "Lalmohan Ganguli",
+      "Tapesh",
+      "Vijay Mallik",
+      "Sushant Som",
+      "Prayag",
+      "Mr Jacob",
+      "Pahalgam",
+      "Srinagar",
+      "Park Street",
+      "England",
+      "Chatterjee & Co.",
+      "Calcutta",
+      "Delhi",
+      "Universal Insurance",
+      "Pollock Street",
+      "Kashmir",
+      "The Calcutta Hotel",
+      "Babu",
+      "sadhu",
+      "bearer",
+      "Siddheshwar Mallik",
+      "Sarkar",
+      "Harinath Majumdar"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Inspector Singh",
+      "Prayag",
+      "Vijay Mallik",
+      "Srinagar",
+      "Calcutta",
+      "Shikargah Lake",
+      "Shiv temple",
+      "bearer",
+      "Babu",
+      "jeep",
+      "Lalmohan Ganguli",
+      "Siddheshwar Mallik",
+      "Sarkar",
+      "Harinath Majumdar",
+      "Sushant Som"
+    ],
+    "ch-10": [
+      "Feluda",
+      "Vijay Mallik",
+      "Prayag",
+      "Sapru",
+      "Inspector Singh",
+      "Srinagar",
+      "Indian Airlines",
+      "Delhi",
+      "Kashmiri",
+      "Pahalgam",
+      "Calcutta",
+      "Lalmohan Ganguli",
+      "Siddheshwar Mallik",
+      "Sarkar",
+      "Harinath Majumdar",
+      "Sushant Som"
+    ]
+  }
+}

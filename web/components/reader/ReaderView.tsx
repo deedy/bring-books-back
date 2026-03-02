@@ -430,14 +430,17 @@ export default function ReaderView({
     : ((currentIndex + chapterProgress / 100) / totalChapters) * 100;
 
   const nextChapter = currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null;
+  const isSingleChapter = chapters.length === 1;
 
   const bgColor = darkMode ? "#1a1a1a" : "#fafafa";
   const textColor = darkMode ? "#e5e5e5" : "#1a1a1a";
 
   const chapterLabel = chapter
-    ? chapter.partName
-      ? `Pt ${chapter.part}: ${chapter.partName} · Ch. ${chapter.number}: ${chapter.title}`
-      : `Ch. ${chapter.number}: ${chapter.title}`
+    ? isSingleChapter
+      ? ""
+      : chapter.partName
+        ? `Pt ${chapter.part}: ${chapter.partName} · Ch. ${chapter.number}: ${chapter.title}`
+        : `Ch. ${chapter.number}: ${chapter.title}`
     : "";
 
   // Determine which chapters show part dividers
@@ -563,8 +566,13 @@ export default function ReaderView({
       ) : (
         /* Paginated: single chapter */
         <>
-          {/* Chapter image with nav overlaid */}
-          {chapter?.image ? (
+          {/* Banner image + nav */}
+          {isSingleChapter ? (
+            /* Single-chapter: show cover image as banner, no pagination */
+            <div className="pt-12">
+              <ChapterImage src={coverImage} alt={bookTitle} />
+            </div>
+          ) : chapter?.image ? (
             <div className="relative">
               <div className="pt-12">
                 <ChapterImage src={chapter.image} alt={chapter.title} />
@@ -670,6 +678,7 @@ export default function ReaderView({
                 fontSize={fontSize}
                 isFirst={false}
                 hideImage
+                hideChapterHeading={isSingleChapter}
                 chapterTerms={annotations?.chapters[chapter.id]}
                 glossary={annotations?.glossary}
                 quoteHighlight={quoteHighlight ?? undefined}
@@ -678,8 +687,8 @@ export default function ReaderView({
             )}
           </div>
 
-          {/* Bottom nav */}
-          <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 sm:px-8 pb-16 max-w-[720px] mx-auto">
+          {/* Bottom nav — hidden for single-chapter books */}
+          {!isSingleChapter && <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 sm:px-8 pb-16 max-w-[720px] mx-auto">
             <div className="min-w-0">
               <button
                 onClick={() => goToChapter(currentIndex - 1)}
@@ -741,7 +750,7 @@ export default function ReaderView({
                 </button>
               )}
             </div>
-          </div>
+          </div>}
         </>
       )}
     </div>

@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-acharya-murder-case",
+  "title": "The Acharya Murder Case",
+  "transliteratedTitle": "Bospukurey Khunkharapi",
+  "subtitle": "A Playwright’s Death Sparks a Tangled Mystery",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-acharya-murder-case.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "বসপুকুরে খুনখারাপি",
+  "originalYear": 1985,
+  "totalChapters": 9,
+  "wordCount": 15253,
+  "summary": "When the brilliant but enigmatic playwright Indranarayan Acharya turns up at Feluda’s door, a seemingly ordinary night at the theatre spirals into a complex murder investigation. With secrets lurking behind the curtains and every clue deepening the intrigue, Feluda must navigate the tangled threads of art, ambition, and betrayal to uncover the truth. Can he outsmart a killer hiding in plain sight?",
+  "anthologyId": "feluda",
+  "storyNumber": 25
+}

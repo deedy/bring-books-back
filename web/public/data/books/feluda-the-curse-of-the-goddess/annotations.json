@@ -1,0 +1,1055 @@
+{
+  "glossary": {
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "A comical thriller writer and recurring companion of Feluda who uses the pen name Jatayu.",
+      "image": "/data/images/characters/feluda-the-curse-of-the-goddess/lalmohan-babu.webp"
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "The main detective of the series, known for his sharp observation and intellect, whose real name is Pradosh C. Mitter.",
+      "image": "/data/images/characters/feluda-the-curse-of-the-goddess/feluda.webp"
+    },
+    "Sarveshwar Sahai": {
+      "type": "character",
+      "description": "A client of Feluda who hosts the group at his house in Hazaribagh."
+    },
+    "Bulakiprasad": {
+      "type": "character",
+      "description": "The chowkidar (caretaker) at Mr. Sahai's house in Hazaribagh, responsible for security and assisting the guests."
+    },
+    "Pritindra Chowdhury": {
+      "type": "character",
+      "description": "The youngest son of Mahesh Chowdhury, interested in electronics, bird calls, and recording nature.",
+      "image": "/data/images/characters/feluda-the-curse-of-the-goddess/pritindra-chowdhury.webp"
+    },
+    "Mahesh Chowdhury": {
+      "type": "character",
+      "description": "A retired advocate living in Hazaribagh and the patriarch of the Chowdhury family.",
+      "image": "/data/images/characters/feluda-the-curse-of-the-goddess/mahesh-chowdhury.webp"
+    },
+    "Prakhar Rudra": {
+      "type": "character",
+      "description": "The fictional hero in Lalmohan Babu's new book, who is depicted as learning circus tricks to solve a crime."
+    },
+    "Rammohan Roy": {
+      "type": "proper_noun",
+      "description": "A prominent social reformer of 19th-century India, often called the 'Father of the Indian Renaissance.'"
+    },
+    "Ranchi": {
+      "type": "proper_noun",
+      "description": "A city in the Indian state of Jharkhand, mentioned as a stop on the group's journey."
+    },
+    "The Great Majestic Circus": {
+      "type": "proper_noun",
+      "description": "A traveling circus troupe featured in the story, known for its star tiger attraction."
+    },
+    "Hazaribagh": {
+      "type": "proper_noun",
+      "description": "A town in Jharkhand, India, and the main setting for this chapter."
+    },
+    "Bihar": {
+      "type": "proper_noun",
+      "description": "An Indian state, referenced as the location of Feluda's previous case."
+    },
+    "Asansol": {
+      "type": "proper_noun",
+      "description": "A city in West Bengal, India, mentioned as a possible route."
+    },
+    "Dhanbad": {
+      "type": "proper_noun",
+      "description": "A city in Jharkhand, India, referenced as a travel route."
+    },
+    "Kharagpur": {
+      "type": "proper_noun",
+      "description": "A city in West Bengal, India, mentioned as a stop on the journey."
+    },
+    "Amber Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel in Ranchi where the group stays overnight."
+    },
+    "Vancouver": {
+      "type": "proper_noun",
+      "description": "A large city in Canada, referenced as the setting of Lalmohan Babu's latest book."
+    },
+    "Indovision": {
+      "type": "proper_noun",
+      "description": "An Indian electronics manufacturer, known for producing televisions."
+    },
+    "Eureka Automobiles": {
+      "type": "proper_noun",
+      "description": "A car dealership or service center in Hazaribagh."
+    },
+    "District Board rest house": {
+      "type": "proper_noun",
+      "description": "A government-run guest house in Hazaribagh."
+    },
+    "Kanari Hills": {
+      "type": "proper_noun",
+      "description": "A range of hills near Hazaribagh, visible from Mr. Sahai's house."
+    },
+    "Curzon Park": {
+      "type": "proper_noun",
+      "description": "A park in Hazaribagh, previously used as the circus venue."
+    },
+    "Tagore": {
+      "type": "proper_noun",
+      "description": "Refers to Rabindranath Tagore, a renowned Bengali poet and songwriter."
+    },
+    "Professor Priyanath Bose": {
+      "type": "proper_noun",
+      "description": "A historical figure known for founding The Great Bengal Circus."
+    },
+    "The Great Bengal Circus": {
+      "type": "proper_noun",
+      "description": "A famous circus established by Professor Priyanath Bose, notable in Bengal's history."
+    },
+    "Gus Burns": {
+      "type": "proper_noun",
+      "description": "An American circus performer known for working with tigers, mentioned in the context of Bengal circuses."
+    },
+    "Karandikar": {
+      "type": "proper_noun",
+      "description": "Karandikar, also referred to as Mr Karandikar, is the Marathi animal trainer and Sultan's original handler in the Great Majestic Circus, known for his skill in calming and caging the escaped tiger."
+    },
+    "Adivasi": {
+      "type": "proper_noun",
+      "description": "A term for the indigenous tribal communities of India."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or caretaker, especially for houses or compounds in India."
+    },
+    "bougainvillaea": {
+      "type": "vocabulary",
+      "description": "A tropical flowering plant often used for decorative purposes in Indian gardens."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed platform along the outside of a house, common in Indian architecture."
+    },
+    "incognito": {
+      "type": "vocabulary",
+      "description": "A term (used humorously as 'incongito') meaning to be in disguise or concealing one's identity."
+    },
+    "Inspector Raut": {
+      "type": "character",
+      "description": "A local police inspector who recognizes Feluda and assists him in gaining access to the circus."
+    },
+    "Chandran": {
+      "type": "character",
+      "description": "A new animal trainer from Kerala who acts as ringmaster when Karandikar is unwell."
+    },
+    "Murugesh": {
+      "type": "character",
+      "description": "Mr Kutti's bearer who guides Feluda and his companions to Karandikar's tent."
+    },
+    "Sultan": {
+      "type": "character",
+      "description": "The escaped circus tiger, deeply bonded with Karandikar and central to the chapter's events."
+    },
+    "Dahiri": {
+      "type": "proper_noun",
+      "description": "A village to the north of Hazaribagh, where the tiger was reportedly seen."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "Now called Kolkata, a major city in eastern India where Mr Kutti previously worked."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "Now known as Mumbai, a large city in western India, referenced in relation to a previous tiger escape."
+    },
+    "National Circus": {
+      "type": "proper_noun",
+      "description": "Another circus mentioned as having had a tiger escape incident in Bombay."
+    },
+    "Nepali": {
+      "type": "proper_noun",
+      "description": "Refers to a man from Nepal, highlighting the regional diversity among circus workers."
+    },
+    "Kerala": {
+      "type": "proper_noun",
+      "description": "A state in southern India, the home state of Chandran, the animal trainer."
+    },
+    "Marathi": {
+      "type": "proper_noun",
+      "description": "An Indian language spoken in Maharashtra, mentioned as one of the languages Karandikar speaks."
+    },
+    "Tamil": {
+      "type": "proper_noun",
+      "description": "A Dravidian language spoken in Tamil Nadu, mentioned as one of Karandikar's languages."
+    },
+    "Malayalam": {
+      "type": "proper_noun",
+      "description": "The language of Kerala, spoken by Chandran and Karandikar."
+    },
+    "The Golden Circus": {
+      "type": "proper_noun",
+      "description": "A different circus where Karandikar previously worked."
+    },
+    "Rajrappa": {
+      "type": "proper_noun",
+      "description": "A scenic location near Hazaribagh, known for its waterfall and temple, where the picnic is planned."
+    },
+    "Ramgarh": {
+      "type": "proper_noun",
+      "description": "A place near Rajrappa, providing geographical context."
+    },
+    "Kailash": {
+      "type": "proper_noun",
+      "description": "The name of Mahesh Chowdhury's house, referencing the sacred Himalayan mountain."
+    },
+    "Shiva": {
+      "type": "proper_noun",
+      "description": "Shiva, also referred to as Mahesh, Shambhu, or Bholanath, is a major Hindu deity whose names are used as pseudonyms by Mr Chowdhury in his diaries and referenced in the naming of the house."
+    },
+    "Mount Kailash": {
+      "type": "proper_noun",
+      "description": "A sacred mountain in the Himalayas, believed to be the abode of Shiva."
+    },
+    "Chhinnamasta": {
+      "type": "proper_noun",
+      "description": "A fierce aspect of the Hindu goddess Kali, whose temple is at Rajrappa."
+    },
+    "arahar daal": {
+      "type": "vocabulary",
+      "description": "A type of lentil (pigeon pea) commonly used in Indian cuisine."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term of address for men in Bengal, often used after a name."
+    },
+    "shikari": {
+      "type": "vocabulary",
+      "description": "A hunter, especially one experienced in tracking and hunting wild animals."
+    },
+    "Bibi": {
+      "type": "character",
+      "description": "Bibi is Mahesh Chowdhury's young granddaughter, around five years old."
+    },
+    "Shankarlal Misra": {
+      "type": "character",
+      "description": "A young man close to Mahesh Chowdhury who is treated as a replacement for a missing son."
+    },
+    "Neelima Devi": {
+      "type": "character",
+      "description": "The intelligent and collected wife of Pritin Chowdhury."
+    },
+    "Muktananda": {
+      "type": "character",
+      "description": "Muktananda is a famous Tantric sadhu whose photograph is kept by Mahesh Chowdhury."
+    },
+    "Mr Sahai": {
+      "type": "proper_noun",
+      "description": "A person referenced as having praised Feluda, presumably a character from earlier or related stories."
+    },
+    "Gibbons catalogue": {
+      "type": "proper_noun",
+      "description": "A famous stamp catalogue published by Stanley Gibbons, used by philatelists."
+    },
+    "Dorabjee": {
+      "type": "proper_noun",
+      "description": "A former client of Mahesh Chowdhury who gifted him a valuable stamp album."
+    },
+    "Asia": {
+      "type": "proper_noun",
+      "description": "One of the continents where Muktananda has followers."
+    },
+    "Europe": {
+      "type": "proper_noun",
+      "description": "One of the continents where Muktananda has followers."
+    },
+    "America": {
+      "type": "proper_noun",
+      "description": "One of the continents where Muktananda has followers."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in South Asia, typically reaching the knees."
+    },
+    "Kashmiri shawl": {
+      "type": "vocabulary",
+      "description": "A fine, often embroidered shawl originating from Kashmir, known for its craftsmanship."
+    },
+    "huzoor": {
+      "type": "vocabulary",
+      "description": "An honorific term in Urdu and Hindi meaning 'sir' or 'respected one.'"
+    },
+    "Namaskar": {
+      "type": "vocabulary",
+      "description": "A respectful greeting in Hindi and other Indian languages, similar to 'hello' or 'greetings.'"
+    },
+    "Tantric": {
+      "type": "vocabulary",
+      "description": "Related to Tantra, a set of esoteric traditions and practices in Hinduism and Buddhism."
+    },
+    "sadhu": {
+      "type": "vocabulary",
+      "description": "A holy man or ascetic in Hinduism, often renouncing worldly life."
+    },
+    "ayurveda": {
+      "type": "vocabulary",
+      "description": "An ancient Indian system of medicine focused on balance in bodily systems using diet, herbal treatment, and yogic breathing."
+    },
+    "guru": {
+      "type": "vocabulary",
+      "description": "A spiritual teacher or guide in Indian religions."
+    },
+    "Noor Muhammad": {
+      "type": "character",
+      "description": "An elderly bearer who has served Mr Chowdhury since he started working as a lawyer."
+    },
+    "Jagat Singh": {
+      "type": "character",
+      "description": "A tall and hefty bearer, responsible for carrying Arun Chowdhury’s rifle and cartridges."
+    },
+    "Deendayal Misra": {
+      "type": "character",
+      "description": "Shankarlal Misra's father who worked as a chowkidar for Mahesh Chowdhury and died mysteriously."
+    },
+    "Akhil Chakravarty": {
+      "type": "character",
+      "description": "A former neighbor and private tutor to the Chowdhury family known for his stories.",
+      "image": "/data/images/characters/feluda-the-curse-of-the-goddess/akhil-chakravarty.webp"
+    },
+    "Arun Chowdhury": {
+      "type": "character",
+      "description": "Mahesh Chowdhury's eldest son, a businessman and expert hunter nicknamed Ace.",
+      "image": "/data/images/characters/feluda-the-curse-of-the-goddess/arun-chowdhury.webp"
+    },
+    "Gola": {
+      "type": "proper_noun",
+      "description": "A place on the way to Rajrappa, after which the Bhera river is encountered."
+    },
+    "Bhera": {
+      "type": "proper_noun",
+      "description": "A river that must be crossed on foot to reach Rajrappa."
+    },
+    "Ranchi University": {
+      "type": "proper_noun",
+      "description": "A university in Ranchi, Jharkhand, where Shankarlal Misra completed his graduation."
+    },
+    "Shankar Book Store": {
+      "type": "proper_noun",
+      "description": "A bookshop owned by Shankarlal Misra in Ranchi, with a branch in Hazaribagh."
+    },
+    "Damodar": {
+      "type": "proper_noun",
+      "description": "A major river in eastern India, meeting the Bhera at Rajrappa."
+    },
+    "Zurich": {
+      "type": "proper_noun",
+      "description": "A city in Switzerland, featured on a postcard sent by Biren."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "A country in the United Kingdom, where Biren spent time."
+    },
+    "Holland": {
+      "type": "proper_noun",
+      "description": "Another name for the Netherlands, one of the European countries Biren traveled to."
+    },
+    "Sweden": {
+      "type": "proper_noun",
+      "description": "A European country mentioned as one of Biren's destinations."
+    },
+    "Germany": {
+      "type": "proper_noun",
+      "description": "A European country Biren visited."
+    },
+    "Austria": {
+      "type": "proper_noun",
+      "description": "A European country Biren traveled to."
+    },
+    "Brazil": {
+      "type": "proper_noun",
+      "description": "A South American country where Suresh Biswas died."
+    },
+    "Mexico": {
+      "type": "proper_noun",
+      "description": "A country in North America, possibly where Suresh Biswas served in the army."
+    },
+    "IIT Kharagpur": {
+      "type": "proper_noun",
+      "description": "A prestigious engineering institute in India, attended by Akhil Chakravarty’s son."
+    },
+    "Dusseldorf": {
+      "type": "proper_noun",
+      "description": "A city in Germany where Akhil Chakravarty’s son worked."
+    },
+    "Netarhat": {
+      "type": "proper_noun",
+      "description": "A location mentioned in a story about Mahesh Chowdhury’s temper."
+    },
+    "Kali Puja": {
+      "type": "proper_noun",
+      "description": "A Hindu festival dedicated to the goddess Kali, during which a buffalo sacrifice was recently performed at the temple."
+    },
+    "bearers": {
+      "type": "vocabulary",
+      "description": "Servants or porters who assist with carrying luggage and other tasks."
+    },
+    "durrie": {
+      "type": "vocabulary",
+      "description": "A traditional Indian cotton rug or floor covering, often used for picnics or sitting outdoors."
+    },
+    "sambar": {
+      "type": "vocabulary",
+      "description": "A type of large deer native to the Indian subcontinent, often hunted."
+    },
+    "antigrams": {
+      "type": "vocabulary",
+      "description": "Pairs of words or phrases that are anagrams of each other and have opposite meanings."
+    },
+    "bafrosh": {
+      "type": "vocabulary",
+      "description": "A nonsensical word invented by Lalmohan Babu during a game, not a real creature."
+    },
+    "parathas": {
+      "type": "vocabulary",
+      "description": "Indian flatbreads, often pan-fried and served as part of a meal."
+    },
+    "aloo-dum": {
+      "type": "vocabulary",
+      "description": "A spicy Indian dish made with potatoes, commonly served as a side."
+    },
+    "kababs": {
+      "type": "vocabulary",
+      "description": "Grilled or skewered meat or vegetable dishes popular in Indian cuisine."
+    },
+    "beedis": {
+      "type": "vocabulary",
+      "description": "Thin, hand-rolled cigarettes made from tobacco wrapped in a tendu leaf, common in India."
+    },
+    "Col. Suresh Biswas": {
+      "type": "proper_noun",
+      "description": "Col. Suresh Biswas, also known as Colonel Suresh Biswas or Suresh Biswas, was a historical Bengali adventurer who became a colonel in a foreign army, trained tigers in circuses, and inspired Birendra."
+    },
+    "Dadu": {
+      "type": "vocabulary",
+      "description": "Bengali term meaning grandfather."
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "Feluda's cousin and the narrator of the stories, who assists in investigations."
+    },
+    "Vishnugarh": {
+      "type": "proper_noun",
+      "description": "A town near Hazaribagh, mentioned as being close to the forest where Sultan was found."
+    },
+    "Forest Department": {
+      "type": "proper_noun",
+      "description": "The government department responsible for managing forests and wildlife."
+    },
+    "Great Majestic": {
+      "type": "proper_noun",
+      "description": "The name of the circus involved in the story."
+    },
+    "Jamshedpur": {
+      "type": "proper_noun",
+      "description": "A major industrial city in the Indian state of Jharkhand."
+    },
+    "The Royal Bengal Mystery": {
+      "type": "proper_noun",
+      "description": "A previous case/adventure involving Feluda and his companions."
+    },
+    "culvert": {
+      "type": "vocabulary",
+      "description": "A structure that allows water to flow under a road or railway, often used as a place to sit or rest in rural India."
+    },
+    "Mr Singh": {
+      "type": "character",
+      "description": "The Forest Officer whom Arun Babu is going to visit."
+    },
+    "Brig. Sudarshan": {
+      "type": "proper_noun",
+      "description": "A brigadier whose tea party is mentioned in the diary entries."
+    },
+    "Shakur": {
+      "type": "proper_noun",
+      "description": "A tailor or shop where a suit trial is mentioned."
+    },
+    "Fiat": {
+      "type": "proper_noun",
+      "description": "An Italian car brand; Arun Babu arrives in a Fiat."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular brand of Indian cigarettes smoked by Feluda."
+    },
+    "shikar": {
+      "type": "vocabulary",
+      "description": "The Hindi/Urdu word for hunting, especially big game hunting."
+    },
+    "ripus": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning 'enemies'; refers to the six deadly sins in Hindu philosophy."
+    },
+    "kaam": {
+      "type": "vocabulary",
+      "description": "Sanskrit/Hindi word for lust or desire, one of the six ripus."
+    },
+    "krodh": {
+      "type": "vocabulary",
+      "description": "Sanskrit/Hindi word for wrath or anger, one of the six ripus."
+    },
+    "lobh": {
+      "type": "vocabulary",
+      "description": "Sanskrit/Hindi word for greed, one of the six ripus."
+    },
+    "moha": {
+      "type": "vocabulary",
+      "description": "Sanskrit/Hindi word for attachment or delusion, one of the six ripus."
+    },
+    "maud": {
+      "type": "vocabulary",
+      "description": "Likely a transliteration of 'mada', meaning intoxication or pride, one of the six ripus."
+    },
+    "matsarya": {
+      "type": "vocabulary",
+      "description": "Sanskrit/Hindi word for envy or jealousy, one of the six ripus."
+    },
+    "ayurvedic": {
+      "type": "vocabulary",
+      "description": "Relating to Ayurveda, the traditional Indian system of medicine."
+    },
+    "horoscope": {
+      "type": "vocabulary",
+      "description": "An astrological chart or diagram representing the positions of the Sun, Moon, planets, and astrological aspects."
+    },
+    "Biren Chowdhury": {
+      "type": "character",
+      "description": "Mahesh Chowdhury's son who left for England and became a key figure in the investigation under the pseudonym Deuce; also referred to as the rebellious second son."
+    },
+    "Heronmoyee": {
+      "type": "character",
+      "description": "Mahesh Chowdhury's wife, whose death is mentioned in the diaries."
+    },
+    "Parsees": {
+      "type": "proper_noun",
+      "description": "A Zoroastrian community in India known for worshipping fire."
+    },
+    "Shylock": {
+      "type": "proper_noun",
+      "description": "A character from Shakespeare's 'The Merchant of Venice', referenced in a coded message."
+    },
+    "The Merchant of Venice": {
+      "type": "proper_noun",
+      "description": "A Shakespearean play, referenced for the character Shylock."
+    },
+    "Kali": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess, appears in Topshe's dream as a symbolic figure."
+    },
+    "Gibbons": {
+      "type": "proper_noun",
+      "description": "A species of monkey, referenced as a clue in Mahesh Chowdhury's riddles."
+    },
+    "equine communities": {
+      "type": "vocabulary",
+      "description": "A euphemism for horse racing circles or racetracks."
+    },
+    "torch": {
+      "type": "vocabulary",
+      "description": "In Indian English, refers to a flashlight."
+    },
+    "Chowdhury": {
+      "type": "proper_noun",
+      "description": "Chowdhury refers to the family central to the case, including Mahesh, Biren, Arun, and Pritin; 'Chowdhurys' is the plural form referencing the entire family."
+    },
+    "banyan": {
+      "type": "vocabulary",
+      "description": "A type of large fig tree native to India, known for its aerial roots and expansive canopy."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A household servant or attendant, especially in colonial or traditional Indian households."
+    },
+    "Shankar": {
+      "type": "character",
+      "description": "Shankar is a character who tries to bring Biren back to his family, believing reunion might change Biren's mind."
+    },
+    "Adheer": {
+      "type": "character",
+      "description": "Adheer is Akhil Chakravarty's son who helps Biren by posting letters from Europe to create a false trail."
+    },
+    "Kutti": {
+      "type": "character",
+      "description": "The owner and manager of The Great Majestic Circus."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country where the main events and characters are based."
+    },
+    "The Circus in Bengal": {
+      "type": "proper_noun",
+      "description": "A book mentioned as a source of information about Colonel Suresh Biswas."
+    },
+    "Sandesh": {
+      "type": "proper_noun",
+      "description": "A Bengali children's magazine revived by Satyajit Ray, where the Feluda stories were first published."
+    },
+    "Sherlock Holmes": {
+      "type": "proper_noun",
+      "description": "The famous fictional detective created by Arthur Conan Doyle, referenced as an influence."
+    },
+    "Bharat Ratna": {
+      "type": "proper_noun",
+      "description": "India's highest civilian award, which was awarded to Satyajit Ray."
+    },
+    "Santiniketan": {
+      "type": "proper_noun",
+      "description": "A university founded by Rabindranath Tagore, where Satyajit Ray studied art."
+    },
+    "Presidency College": {
+      "type": "proper_noun",
+      "description": "A prestigious college in Calcutta, attended by Satyajit Ray."
+    },
+    "Upendrakishore Ray": {
+      "type": "proper_noun",
+      "description": "Satyajit Ray's grandfather and the original founder of Sandesh magazine."
+    },
+    "Desh": {
+      "type": "proper_noun",
+      "description": "A Bengali magazine for adults where Feluda stories were also published."
+    },
+    "Anandamela": {
+      "type": "proper_noun",
+      "description": "A Bengali children's magazine where one Feluda story was published."
+    },
+    "The Golden Fortress": {
+      "type": "proper_noun",
+      "description": "A Feluda story and also a film adaptation by Satyajit Ray."
+    },
+    "The Elephant God": {
+      "type": "proper_noun",
+      "description": "Another Feluda story adapted into a film by Satyajit Ray."
+    },
+    "Kissa Kathmandu Ka": {
+      "type": "proper_noun",
+      "description": "A television film based on a Feluda story, made by Sandip Ray."
+    },
+    "Satyajit Ray": {
+      "type": "proper_noun",
+      "description": "The celebrated Bengali author and filmmaker who created Feluda."
+    },
+    "Gopa Majumdar": {
+      "type": "proper_noun",
+      "description": "The translator of the Feluda stories into English."
+    },
+    "Bijoya Ray": {
+      "type": "proper_noun",
+      "description": "Satyajit Ray's wife, who wrote the foreword."
+    },
+    "Penguin Books": {
+      "type": "proper_noun",
+      "description": "The publishing house responsible for this edition of Feluda stories."
+    },
+    "Baba": {
+      "type": "vocabulary",
+      "description": "A term meaning 'father' in several Indian languages, used here to refer to Biren's father."
+    },
+    "novelettes": {
+      "type": "vocabulary",
+      "description": "Short novels; in the Indian context, often refers to serialized or shorter-length fiction."
+    },
+    "dada": {
+      "type": "vocabulary",
+      "description": "A Bengali term meaning 'elder brother', used as a suffix to show respect or affection."
+    },
+    "Bengal": {
+      "type": "vocabulary",
+      "description": "A region in eastern India and Bangladesh, home to the Bengali language and culture."
+    },
+    "Bengali": {
+      "type": "vocabulary",
+      "description": "Relating to Bengal, its people, or the Bengali language."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Sarveshwar Sahai",
+      "Bulakiprasad",
+      "Pritindra Chowdhury",
+      "Mahesh Chowdhury",
+      "Prakhar Rudra",
+      "Rammohan Roy",
+      "Ranchi",
+      "The Great Majestic Circus",
+      "Hazaribagh",
+      "Bihar",
+      "Asansol",
+      "Dhanbad",
+      "Kharagpur",
+      "Amber Hotel",
+      "Vancouver",
+      "Indovision",
+      "Eureka Automobiles",
+      "District Board rest house",
+      "Kanari Hills",
+      "Curzon Park",
+      "Tagore",
+      "Professor Priyanath Bose",
+      "The Great Bengal Circus",
+      "Gus Burns",
+      "Karandikar",
+      "Adivasi",
+      "chowkidar",
+      "bougainvillaea",
+      "veranda",
+      "incognito"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Bulakiprasad",
+      "Sarveshwar Sahai",
+      "Inspector Raut",
+      "Karandikar",
+      "Chandran",
+      "Murugesh",
+      "Pritindra Chowdhury",
+      "Mahesh Chowdhury",
+      "Sultan",
+      "Bihar",
+      "Hazaribagh",
+      "Dahiri",
+      "The Great Majestic Circus",
+      "Calcutta",
+      "Bombay",
+      "National Circus",
+      "Nepali",
+      "Kerala",
+      "Marathi",
+      "Tamil",
+      "Malayalam",
+      "The Golden Circus",
+      "Rajrappa",
+      "Ramgarh",
+      "Kailash",
+      "Shiva",
+      "Mount Kailash",
+      "Chhinnamasta",
+      "arahar daal",
+      "Babu",
+      "shikari",
+      "Kutti"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Mahesh Chowdhury",
+      "Bibi",
+      "Shankarlal Misra",
+      "Neelima Devi",
+      "Muktananda",
+      "Rajrappa",
+      "Chhinnamasta",
+      "Kailash",
+      "Mr Sahai",
+      "Calcutta",
+      "Hazaribagh",
+      "Kanari Hills",
+      "Gibbons catalogue",
+      "Dorabjee",
+      "Asia",
+      "Europe",
+      "America",
+      "Sultan",
+      "dhoti",
+      "kurta",
+      "Kashmiri shawl",
+      "chowkidar",
+      "huzoor",
+      "Namaskar",
+      "Tantric",
+      "sadhu",
+      "ayurveda",
+      "guru",
+      "Akhil Chakravarty",
+      "Arun Chowdhury",
+      "Biren Chowdhury",
+      "Pritindra Chowdhury"
+    ],
+    "ch-4": [
+      "Shankarlal Misra",
+      "Noor Muhammad",
+      "Jagat Singh",
+      "Deendayal Misra",
+      "Mahesh Chowdhury",
+      "Lalmohan Babu",
+      "Feluda",
+      "Neelima Devi",
+      "Akhil Chakravarty",
+      "Arun Chowdhury",
+      "Bibi",
+      "Rajrappa",
+      "Hazaribagh",
+      "Ramgarh",
+      "Gola",
+      "Bhera",
+      "Ranchi University",
+      "Ranchi",
+      "Shankar Book Store",
+      "Calcutta",
+      "Chhinnamasta",
+      "Damodar",
+      "Zurich",
+      "England",
+      "Holland",
+      "Sweden",
+      "Germany",
+      "Austria",
+      "Brazil",
+      "Mexico",
+      "IIT Kharagpur",
+      "Dusseldorf",
+      "Netarhat",
+      "Kali Puja",
+      "bearers",
+      "chowkidar",
+      "sadhu",
+      "durrie",
+      "Babu",
+      "sambar",
+      "antigrams",
+      "bafrosh",
+      "Biren Chowdhury",
+      "Col. Suresh Biswas",
+      "Tapesh",
+      "Pritindra Chowdhury"
+    ],
+    "ch-5": [
+      "Mahesh Chowdhury",
+      "Feluda",
+      "Akhil Chakravarty",
+      "Neelima Devi",
+      "Bibi",
+      "Lalmohan Babu",
+      "Muktananda",
+      "Rajrappa",
+      "Kailash",
+      "parathas",
+      "aloo-dum",
+      "kababs",
+      "sadhu",
+      "beedis",
+      "Arun Chowdhury",
+      "Chowdhury",
+      "Pritindra Chowdhury",
+      "Shankarlal Misra"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Akhil Chakravarty",
+      "Shankarlal Misra",
+      "Noor Muhammad",
+      "Bibi",
+      "Muktananda",
+      "Kailash",
+      "Calcutta",
+      "Hazaribagh",
+      "Ranchi",
+      "Rajrappa",
+      "Col. Suresh Biswas",
+      "Babu",
+      "Dadu",
+      "chowkidar",
+      "sadhu",
+      "guru",
+      "ayurveda",
+      "Arun Chowdhury",
+      "Mahesh Chowdhury",
+      "Neelima Devi",
+      "Pritindra Chowdhury",
+      "Biren Chowdhury"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Tapesh",
+      "Mahesh Chowdhury",
+      "Sultan",
+      "Chandran",
+      "Karandikar",
+      "Hazaribagh",
+      "Vishnugarh",
+      "Forest Department",
+      "Great Majestic",
+      "Kanari Hills",
+      "Ramgarh",
+      "Jamshedpur",
+      "The Royal Bengal Mystery",
+      "shikari",
+      "culvert",
+      "Kutti"
+    ],
+    "ch-8": [
+      "Bulakiprasad",
+      "Feluda",
+      "Sultan",
+      "Chandran",
+      "Karandikar",
+      "Lalmohan Babu",
+      "Akhil Chakravarty",
+      "Shankarlal Misra",
+      "Mr Singh",
+      "Brig. Sudarshan",
+      "Shakur",
+      "Hazaribagh",
+      "Ramgarh",
+      "Fiat",
+      "Charminar",
+      "shikar",
+      "ripus",
+      "kaam",
+      "krodh",
+      "lobh",
+      "moha",
+      "maud",
+      "matsarya",
+      "ayurvedic",
+      "horoscope",
+      "Arun Chowdhury",
+      "Biren Chowdhury",
+      "Mahesh Chowdhury",
+      "Shiva",
+      "Tapesh"
+    ],
+    "ch-9": [
+      "Biren Chowdhury",
+      "Mahesh Chowdhury",
+      "Feluda",
+      "Lalmohan Babu",
+      "Bulakiprasad",
+      "Neelima Devi",
+      "Shankarlal Misra",
+      "Heronmoyee",
+      "Ranchi",
+      "Parsees",
+      "Shylock",
+      "The Merchant of Venice",
+      "Kailash",
+      "Indovision",
+      "Rajrappa",
+      "Bihar",
+      "Calcutta",
+      "Kali",
+      "Tagore",
+      "Gibbons",
+      "Namaskar",
+      "sadhu",
+      "Babu",
+      "equine communities",
+      "torch",
+      "Arun Chowdhury",
+      "Pritindra Chowdhury",
+      "Tapesh"
+    ],
+    "ch-10": [
+      "Lalmohan Babu",
+      "Bulakiprasad",
+      "Sultan",
+      "Karandikar",
+      "Akhil Chakravarty",
+      "Noor Muhammad",
+      "Neelima Devi",
+      "Chandran",
+      "Kailash",
+      "Rajrappa",
+      "Chowdhury",
+      "Forest Department",
+      "Fiat",
+      "Ramgarh",
+      "sadhu",
+      "shikari",
+      "banyan",
+      "Arun Chowdhury",
+      "Biren Chowdhury",
+      "Feluda",
+      "Mahesh Chowdhury",
+      "Pritindra Chowdhury"
+    ],
+    "ch-11": [
+      "Feluda",
+      "Neelima Devi",
+      "Bibi",
+      "Akhil Chakravarty",
+      "Lalmohan Babu",
+      "Jagat Singh",
+      "Mahesh Chowdhury",
+      "Dorabjee",
+      "Noor Muhammad",
+      "Kailash",
+      "Calcutta",
+      "Rajrappa",
+      "Hazaribagh",
+      "Babu",
+      "bearer",
+      "Arun Chowdhury",
+      "Biren Chowdhury",
+      "Pritindra Chowdhury",
+      "Shankarlal Misra",
+      "Deendayal Misra"
+    ],
+    "ch-12": [
+      "Akhil Chakravarty",
+      "Feluda",
+      "Shankarlal Misra",
+      "Shankar",
+      "Adheer",
+      "Lalmohan Babu",
+      "Tapesh",
+      "Muktananda",
+      "Kutti",
+      "Sultan",
+      "Rajrappa",
+      "Hazaribagh",
+      "Dusseldorf",
+      "Europe",
+      "India",
+      "England",
+      "Brazil",
+      "The Circus in Bengal",
+      "Calcutta",
+      "The Great Majestic Circus",
+      "Gibbons catalogue",
+      "Shylock",
+      "Sandesh",
+      "Sherlock Holmes",
+      "Bharat Ratna",
+      "Santiniketan",
+      "Presidency College",
+      "Upendrakishore Ray",
+      "Desh",
+      "Anandamela",
+      "The Golden Fortress",
+      "The Elephant God",
+      "Kissa Kathmandu Ka",
+      "Satyajit Ray",
+      "Gopa Majumdar",
+      "Bijoya Ray",
+      "Penguin Books",
+      "sadhu",
+      "Namaskar",
+      "Baba",
+      "novelettes",
+      "dada",
+      "Bengal",
+      "Bengali",
+      "Arun Chowdhury",
+      "Biren Chowdhury",
+      "Col. Suresh Biswas",
+      "Karandikar",
+      "Mahesh Chowdhury"
+    ]
+  }
+}

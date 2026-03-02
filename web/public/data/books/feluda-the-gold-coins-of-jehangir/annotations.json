@@ -1,0 +1,301 @@
+{
+  "glossary": {
+    "Shankarprasad Chowdhury": {
+      "type": "character",
+      "description": "A businessman from Panihati and owner of the house Amaravati, whose family history and great-grandfather's possessions are central to the mystery.",
+      "image": "/data/images/characters/feluda-the-gold-coins-of-jehangir/shankarprasad-chowdhury.webp"
+    },
+    "Banwarilal Chowdhury": {
+      "type": "character",
+      "description": "Banwarilal Chowdhury is Shankarprasad Chowdhury's great-grandfather, a barrister whose possessions are central to the mystery. He is sometimes referred to simply as Banwarilal."
+    },
+    "Jayanta": {
+      "type": "character",
+      "description": "Shankarprasad Chowdhury's cousin who is passionate about gardening and central to the events at Amaravati.",
+      "image": "/data/images/characters/feluda-the-gold-coins-of-jehangir/jayanta.webp"
+    },
+    "Ananta": {
+      "type": "character",
+      "description": "The old servant who looks after Shankarprasad Chowdhury's aunt."
+    },
+    "Naresh Kanjilal": {
+      "type": "character",
+      "description": "Shankarprasad Chowdhury's business partner and one of the three guests present during the incident.",
+      "image": "/data/images/characters/feluda-the-gold-coins-of-jehangir/naresh-kanjilal.webp"
+    },
+    "Dr Ardhendu Sarkar": {
+      "type": "character",
+      "description": "A doctor from Panihati who treats Chowdhury's aunt and was present during the incident.",
+      "image": "/data/images/characters/feluda-the-gold-coins-of-jehangir/dr-ardhendu-sarkar.webp"
+    },
+    "Kalinath Roy": {
+      "type": "character",
+      "description": "An old school friend of Shankarprasad Chowdhury known for his sleight of hand and mysterious profession.",
+      "image": "/data/images/characters/feluda-the-gold-coins-of-jehangir/kalinath-roy.webp"
+    },
+    "Panihati": {
+      "type": "proper_noun",
+      "description": "A town by the Ganges river, where Shankarprasad Chowdhury's house, Amaravati, is located."
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "A major river in India, considered sacred in Hinduism."
+    },
+    "Amaravati": {
+      "type": "proper_noun",
+      "description": "The name of Shankarprasad Chowdhury's ancestral house in Panihati."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in India, now known as Kolkata."
+    },
+    "Richard Leaky": {
+      "type": "proper_noun",
+      "description": "An American scientist mentioned in relation to human evolution."
+    },
+    "National Library": {
+      "type": "proper_noun",
+      "description": "A prominent library in Calcutta."
+    },
+    "Lalmohan Babu": {
+      "type": "proper_noun",
+      "description": "Lalmohan Babu, also known as Mr Ganguli and Jatayu, is Feluda's friend and a writer of thrillers who accompanies him on investigations."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A popular model of Indian car, used for the group's journey."
+    },
+    "Salim Ali": {
+      "type": "proper_noun",
+      "description": "A famous Indian ornithologist, author of 'Indian Birds'."
+    },
+    "Ajoy Hom": {
+      "type": "proper_noun",
+      "description": "Author of 'The Birds of Bengal', a book referenced for bird-watching."
+    },
+    "Bhabatosh Sinha": {
+      "type": "proper_noun",
+      "description": "The alias given to Mr Ganguli for their visit."
+    },
+    "Gurkha": {
+      "type": "proper_noun",
+      "description": "A member of a people from Nepal, often employed as guards in India."
+    },
+    "Titagarh": {
+      "type": "proper_noun",
+      "description": "A town near Panihati, where Shankarprasad Chowdhury works."
+    },
+    "Rampur": {
+      "type": "proper_noun",
+      "description": "A place where Banwarilal Chowdhury practiced as a barrister."
+    },
+    "Nawabs": {
+      "type": "proper_noun",
+      "description": "Muslim rulers or noblemen in India, historically significant."
+    },
+    "Jehangir": {
+      "type": "proper_noun",
+      "description": "A Mughal emperor of India, referenced in connection with the gold coins."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic, possibly the book seen with the aunt."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "Another ancient Indian epic, possibly the book seen with the aunt."
+    },
+    "Namaskar": {
+      "type": "vocabulary",
+      "description": "A respectful greeting in Bengali and Hindi, similar to 'hello'."
+    },
+    "pyjama-kurta": {
+      "type": "vocabulary",
+      "description": "A traditional Indian outfit consisting of loose trousers (pyjama) and a long shirt (kurta)."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A type of cigar with both ends clipped during manufacture, popular in India."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed platform along the outside of a house, common in Indian architecture."
+    },
+    "ghat": {
+      "type": "vocabulary",
+      "description": "A series of steps leading down to a river, used for bathing or religious purposes."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A household servant or attendant, especially one who serves food or drink."
+    },
+    "tika": {
+      "type": "vocabulary",
+      "description": "A mark, often made with colored powder, applied to the forehead during Hindu rituals or celebrations."
+    },
+    "prayer beads": {
+      "type": "vocabulary",
+      "description": "A string of beads used to count prayers or mantras, common in Hindu and Buddhist traditions."
+    },
+    "hand-grinder": {
+      "type": "vocabulary",
+      "description": "A small, hand-operated device used to grind spices or other substances, common in Indian households."
+    },
+    "rheumatism": {
+      "type": "vocabulary",
+      "description": "A medical condition causing pain and inflammation in the joints or muscles, often referenced in India."
+    },
+    "bridge": {
+      "type": "vocabulary",
+      "description": "A card game popular in India, especially among the older generation."
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "A famous private investigator known for his sharp observation and logical reasoning, who uses the alias Someshwar Roy and is also known as Mr Mitter.",
+      "image": "/data/images/characters/feluda-the-gold-coins-of-jehangir/feluda.webp"
+    },
+    "hilsa": {
+      "type": "vocabulary",
+      "description": "A popular and prized river fish in Bengali cuisine, often cooked with mustard."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful Bengali honorific used for men, similar to 'Mr.'"
+    },
+    "Charminar": {
+      "type": "vocabulary",
+      "description": "A brand of Indian cigarettes, popular and widely recognized."
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "Feluda's cousin and assistant who narrates the story, commonly known as Topshe and using the alias Prabeer."
+    },
+    "Athenium Institution": {
+      "type": "proper_noun",
+      "description": "An educational institution referenced as the workplace of Baikuntha Mallik, a poet."
+    },
+    "Baikuntha Mallik": {
+      "type": "proper_noun",
+      "description": "A poet and teacher at the Athenium Institution, admired by Lalmohan Babu."
+    },
+    "hasnuhana": {
+      "type": "vocabulary",
+      "description": "A fragrant night-blooming flower, also known as night jasmine or Cestrum nocturnum."
+    },
+    "bed tea": {
+      "type": "vocabulary",
+      "description": "Bed tea, also spelled bed-tea, refers to tea served in the morning, often brought to one's bedside as a customary practice in India."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by women, consisting of a long piece of cloth draped around the body."
+    },
+    "alta": {
+      "type": "vocabulary",
+      "description": "A red liquid dye traditionally applied to women's feet in India, especially during festivals or weddings."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Shankarprasad Chowdhury",
+      "Banwarilal Chowdhury",
+      "Jayanta",
+      "Ananta",
+      "Naresh Kanjilal",
+      "Dr Ardhendu Sarkar",
+      "Kalinath Roy",
+      "Panihati",
+      "Ganges",
+      "Amaravati",
+      "Calcutta",
+      "Richard Leaky",
+      "National Library",
+      "Lalmohan Babu",
+      "Ambassador",
+      "Salim Ali",
+      "Ajoy Hom",
+      "Bhabatosh Sinha",
+      "Gurkha",
+      "Titagarh",
+      "Rampur",
+      "Nawabs",
+      "Jehangir",
+      "Ramayana",
+      "Mahabharata",
+      "Namaskar",
+      "pyjama-kurta",
+      "cheroot",
+      "veranda",
+      "ghat",
+      "paan",
+      "bearer",
+      "tika",
+      "prayer beads",
+      "hand-grinder",
+      "rheumatism",
+      "bridge",
+      "Feluda",
+      "Tapesh"
+    ],
+    "ch-2": [
+      "Jayanta",
+      "Lalmohan Babu",
+      "Feluda",
+      "Naresh Kanjilal",
+      "Kalinath Roy",
+      "Ananta",
+      "Ganges",
+      "Calcutta",
+      "hilsa",
+      "Babu",
+      "Charminar",
+      "veranda",
+      "Shankarprasad Chowdhury",
+      "Banwarilal Chowdhury",
+      "Dr Ardhendu Sarkar"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Kalinath Roy",
+      "Lalmohan Babu",
+      "Tapesh",
+      "Amaravati",
+      "Athenium Institution",
+      "Baikuntha Mallik",
+      "ghat",
+      "paan",
+      "hasnuhana",
+      "bed tea",
+      "sari",
+      "Shankarprasad Chowdhury",
+      "Jayanta",
+      "Banwarilal Chowdhury",
+      "Dr Ardhendu Sarkar",
+      "Naresh Kanjilal"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Ananta",
+      "Baikuntha Mallik",
+      "Panihati",
+      "Calcutta",
+      "Ambassador",
+      "Jehangir",
+      "ghat",
+      "alta",
+      "paan",
+      "sari",
+      "Shankarprasad Chowdhury",
+      "Jayanta",
+      "Dr Ardhendu Sarkar",
+      "Kalinath Roy",
+      "Naresh Kanjilal",
+      "bed tea"
+    ]
+  }
+}

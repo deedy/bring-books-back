@@ -1,0 +1,1026 @@
+{
+  "glossary": {
+    "Uncle Sidhu": {
+      "type": "character",
+      "description": "A passionate book lover who owns many books and is reluctant to lend them, except to Feluda."
+    },
+    "Baba": {
+      "type": "character",
+      "description": "The narrator's father and childhood friend of Subimal, whom he visits every Sunday."
+    },
+    "Subimal": {
+      "type": "character",
+      "description": "Baba's childhood friend whom he visits regularly."
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's cousin and the narrator of the story, who often accompanies Feluda on his cases.",
+      "image": "/data/images/characters/feluda-the-golden-fortress/topshe.webp"
+    },
+    "Sudhir Dhar": {
+      "type": "character",
+      "description": "Sudhir Dhar is a mild-mannered bookshop owner from College Street who seeks Feluda's help regarding his son Mukul's mysterious memories of a past life."
+    },
+    "Kailash Chowdhury": {
+      "type": "character",
+      "description": "A customer of Sudhir Dhar who has spoken highly of Feluda."
+    },
+    "Dr Hemanga Hajra": {
+      "type": "character",
+      "description": "Dr Hemanga Hajra is a well-known parapsychologist and psychologist researching reincarnation, who accompanies Mukul to Rajasthan and is a key figure in the mystery Feluda investigates.",
+      "image": "/data/images/characters/feluda-the-golden-fortress/dr-hemanga-hajra.webp"
+    },
+    "Shivratan Mukherjee": {
+      "type": "character",
+      "description": "Shivratan Mukherjee is a solicitor and neighbor of Sudhir Dhar, whose grandson Neelu was mistakenly kidnapped during the events of the story."
+    },
+    "Neelu": {
+      "type": "character",
+      "description": "Shivratan Mukherjee's grandson, who was kidnapped by mistake."
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "The cook in Feluda's household."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular Indian brand of cigarettes smoked by Feluda."
+    },
+    "Durga Puja": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival celebrated in Bengal and other parts of India, honoring the goddess Durga."
+    },
+    "Nihar": {
+      "type": "proper_noun",
+      "description": "A person whose house is near the narrator's, where a Durga Puja is being held."
+    },
+    "Pintu": {
+      "type": "proper_noun",
+      "description": "Another person associated with the house where Durga Puja is being held."
+    },
+    "Yeh jo muhabbat hai": {
+      "type": "proper_noun",
+      "description": "A famous Hindi song from the film Kati Patang."
+    },
+    "Kati Patang": {
+      "type": "proper_noun",
+      "description": "A 1971 Hindi film known for its popular songs."
+    },
+    "Johnny Mera Naam": {
+      "type": "proper_noun",
+      "description": "A 1970 Hindi film, referenced for its music."
+    },
+    "Hindustan Standard": {
+      "type": "proper_noun",
+      "description": "An English-language newspaper published in India."
+    },
+    "Shyambazar": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, India, from where Sudhir Dhar travels."
+    },
+    "College Street": {
+      "type": "proper_noun",
+      "description": "A famous street in Kolkata known for its many bookstores."
+    },
+    "Dhar & Co.": {
+      "type": "proper_noun",
+      "description": "Sudhir Dhar's bookshop located on College Street."
+    },
+    "Mechhobazar": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata where Sudhir Dhar resides."
+    },
+    "Jodhpur": {
+      "type": "proper_noun",
+      "description": "A city in Rajasthan, India, known for its forts and palaces."
+    },
+    "Rajasthan": {
+      "type": "proper_noun",
+      "description": "A large state in northwest India, famous for its desert landscape and historic forts."
+    },
+    "Rajputana": {
+      "type": "proper_noun",
+      "description": "The historical region that largely corresponds to present-day Rajasthan."
+    },
+    "Dhalbhoomgarh": {
+      "type": "proper_noun",
+      "description": "A place where one of Feluda's cases occurred."
+    },
+    "Patna": {
+      "type": "proper_noun",
+      "description": "A city in eastern India, where another of Feluda's cases took place."
+    },
+    "Gangtok": {
+      "type": "proper_noun",
+      "description": "The capital city of Sikkim, mentioned as a previous location of a Feluda case."
+    },
+    "Raj Kahini": {
+      "type": "proper_noun",
+      "description": "A famous collection of historical tales by Abanindranath Tagore."
+    },
+    "Abanindranath Tagore": {
+      "type": "proper_noun",
+      "description": "A renowned Bengali writer and artist, author of Raj Kahini."
+    },
+    "Toofan Express": {
+      "type": "proper_noun",
+      "description": "A long-distance train in India, taken by Dr Hajra and Mukul to Rajasthan."
+    },
+    "Chittor": {
+      "type": "proper_noun",
+      "description": "Short for Chittorgarh, a historic city in Rajasthan."
+    },
+    "Udaipur": {
+      "type": "proper_noun",
+      "description": "A city in Rajasthan, known for its lakes and palaces."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, home to the narrator and Feluda."
+    },
+    "jatismar": {
+      "type": "vocabulary",
+      "description": "A jatismar (plural: jatismars) is a person believed to recall events from a previous life, a concept central to the story's theme of reincarnation."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional men's garment worn in India, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "parapsychologist": {
+      "type": "vocabulary",
+      "description": "A specialist who studies paranormal psychological phenomena such as telepathy, ESP, and reincarnation."
+    },
+    "harmonium": {
+      "type": "vocabulary",
+      "description": "A free-reed keyboard instrument, similar to a pump organ, commonly used in Indian music."
+    },
+    "Puja": {
+      "type": "vocabulary",
+      "description": "A religious festival or ritual worship in Hinduism, often referring to Durga Puja in Bengal."
+    },
+    "Manohar": {
+      "type": "character",
+      "description": "Mr Mukherjee's servant, who helps during the visit."
+    },
+    "Moti": {
+      "type": "character",
+      "description": "Neelu's classmate, whose house hosts a Durga Puja."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in eastern India."
+    },
+    "Jaipur": {
+      "type": "proper_noun",
+      "description": "The capital city of Rajasthan, known as the Pink City and famous for its forts and palaces."
+    },
+    "Bikaner": {
+      "type": "proper_noun",
+      "description": "A city in Rajasthan, also known for its historic fort."
+    },
+    "Bundi": {
+      "type": "proper_noun",
+      "description": "A town in Rajasthan, notable for its fort and palaces."
+    },
+    "Fairlie Place": {
+      "type": "proper_noun",
+      "description": "A location in Calcutta, possibly referring to an office or administrative area."
+    },
+    "Todd": {
+      "type": "proper_noun",
+      "description": "Refers to James Tod, a British officer and historian known for his writings on Rajasthan."
+    },
+    "A Guide to India, Pakistan, Burma and Ceylon": {
+      "type": "proper_noun",
+      "description": "A travel guidebook covering the Indian subcontinent and neighboring countries."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "A country in South Asia, the primary setting of the story."
+    },
+    "Pakistan": {
+      "type": "proper_noun",
+      "description": "A neighboring country to India, mentioned in the context of the guidebook."
+    },
+    "Burma": {
+      "type": "proper_noun",
+      "description": "The former name of Myanmar, a country bordering India, mentioned in the guidebook."
+    },
+    "Ceylon": {
+      "type": "proper_noun",
+      "description": "The former name of Sri Lanka, mentioned in the guidebook."
+    },
+    "Rajputs": {
+      "type": "proper_noun",
+      "description": "The Rajputs, including the Bhati Rajputs, are a prominent warrior group from Rajasthan historically associated with ruling Jaisalmer and other regions, known for their valor."
+    },
+    "Bandikui": {
+      "type": "proper_noun",
+      "description": "A railway junction in Rajasthan."
+    },
+    "Marwar": {
+      "type": "proper_noun",
+      "description": "A region in Rajasthan, also referring to the Marwar Junction railway station."
+    },
+    "Agra": {
+      "type": "proper_noun",
+      "description": "A city in northern India, famous for the Taj Mahal and a major railway hub."
+    },
+    "kurta pyjama": {
+      "type": "vocabulary",
+      "description": "A traditional Indian outfit consisting of a long tunic (kurta) and loose-fitting trousers (pyjama)."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term of address in India, often used for gentlemen or educated men."
+    },
+    "Lalmohan Ganguli": {
+      "type": "character",
+      "description": "A Bengali thriller writer and Feluda's friend who often provides comic relief and accompanies him on adventures.",
+      "image": "/data/images/characters/feluda-the-golden-fortress/lalmohan-ganguli.webp"
+    },
+    "Agra Fort": {
+      "type": "proper_noun",
+      "description": "A historic fort in Agra, India, and a major railway station in the city."
+    },
+    "Taj Mahal": {
+      "type": "proper_noun",
+      "description": "A world-famous white marble mausoleum in Agra, India, built by Mughal emperor Shah Jahan."
+    },
+    "Sardar Shankar Road": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta mentioned as the location of Uncle Sidhu's house."
+    },
+    "Tara Road": {
+      "type": "proper_noun",
+      "description": "A road in Calcutta near Sardar Shankar Road, where the narrator's family lives."
+    },
+    "Argentina": {
+      "type": "proper_noun",
+      "description": "A country in South America, mentioned as the home of Juan Vucatich."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "A country in the United Kingdom, referenced in the context of fingerprint classification."
+    },
+    "Chicago": {
+      "type": "proper_noun",
+      "description": "A major city in the United States, where Bhavananda set up his fraudulent center."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, mentioned as a stop in Jatayu's travels."
+    },
+    "Fatehpur Sikri": {
+      "type": "proper_noun",
+      "description": "A historic city near Agra, known for its Mughal architecture."
+    },
+    "Bhadreshwar": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, where Jatayu lives."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "A major mountain range in Asia, referenced as the only 'muscles' of Bengal."
+    },
+    "Ravan": {
+      "type": "proper_noun",
+      "description": "A demon king from the Indian epic Ramayana, fought by the mythical bird Jatayu."
+    },
+    "Urdu": {
+      "type": "proper_noun",
+      "description": "A language widely spoken in South Asia, mentioned in reference to a newspaper."
+    },
+    "Bedouins": {
+      "type": "proper_noun",
+      "description": "Nomadic Arab tribes, referenced in Jatayu's novels."
+    },
+    "Arabia": {
+      "type": "proper_noun",
+      "description": "A region in Western Asia, referenced in Jatayu's novel title 'Bloodbath in Arabia'."
+    },
+    "Prakhar Rudra": {
+      "type": "proper_noun",
+      "description": "The fictional hero of Jatayu's thriller novels."
+    },
+    "Charles Atlas": {
+      "type": "proper_noun",
+      "description": "A famous bodybuilder whose advertisements inspired Jatayu."
+    },
+    "yoghurt": {
+      "type": "vocabulary",
+      "description": "A fermented dairy product, commonly eaten in India."
+    },
+    "divan": {
+      "type": "vocabulary",
+      "description": "A long, low sofa without a back or arms, used for seating or sleeping."
+    },
+    "Namaskar": {
+      "type": "vocabulary",
+      "description": "A respectful Indian greeting, similar to 'hello' or 'greetings'."
+    },
+    "gulabi rewri": {
+      "type": "vocabulary",
+      "description": "A sweet, crunchy Indian confection made from sesame seeds and sugar, often flavored with rose (gulabi)."
+    },
+    "Mukul Dhar": {
+      "type": "character",
+      "description": "Mukul Dhar is Sudhir Dhar's eight-year-old son, believed to be a jatismar who recalls a previous life in a Rajasthani fort and becomes central to the case Feluda investigates.",
+      "image": "/data/images/characters/feluda-the-golden-fortress/mukul-dhar.webp"
+    },
+    "Mandar Bose": {
+      "type": "character",
+      "description": "A globetrotter and hunter recently returned to India after many years abroad, noted for his suspicious behavior and tall tales.",
+      "image": "/data/images/characters/feluda-the-golden-fortress/mandar-bose.webp"
+    },
+    "Bharatpur": {
+      "type": "proper_noun",
+      "description": "A city in Rajasthan, India, known for its bird sanctuary and historical significance."
+    },
+    "Rajasthanis": {
+      "type": "proper_noun",
+      "description": "Rajasthanis are people native to the state of Rajasthan in northwestern India, known for their distinctive dress, customs, and language (Rajasthani)."
+    },
+    "Aravalli Hills": {
+      "type": "proper_noun",
+      "description": "A mountain range in western India, running across Rajasthan and known for its rugged terrain."
+    },
+    "Kisangarh": {
+      "type": "proper_noun",
+      "description": "A city in Rajasthan, India, famous for its marble industry and historical forts."
+    },
+    "Circuit House": {
+      "type": "proper_noun",
+      "description": "A government guest house, often used for lodging by officials and travelers in India."
+    },
+    "New Bombay Lodge": {
+      "type": "proper_noun",
+      "description": "A lodging establishment in Jodhpur where Lalmohan Babu chooses to stay."
+    },
+    "Mughals": {
+      "type": "proper_noun",
+      "description": "The Mughals, also referred to as the Mughal dynasty, ruled large parts of India from the 16th to 19th centuries and are noted for their cultural and architectural legacy."
+    },
+    "Visitors’ Book": {
+      "type": "proper_noun",
+      "description": "A register in hotels or guest houses where guests sign their names and details."
+    },
+    "Kenya": {
+      "type": "proper_noun",
+      "description": "A country in East Africa, referenced as a place where Mandar Bose lived and worked."
+    },
+    "Albania": {
+      "type": "proper_noun",
+      "description": "A country in southeastern Europe, mentioned by Mandar Bose as a place where he had good tea."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A region in West Bengal, India, famous worldwide for its high-quality tea."
+    },
+    "naagras": {
+      "type": "vocabulary",
+      "description": "Traditional Rajasthani footwear, typically made of leather and often ornately decorated."
+    },
+    "roti": {
+      "type": "vocabulary",
+      "description": "A round, unleavened flatbread commonly eaten in India."
+    },
+    "tonga": {
+      "type": "vocabulary",
+      "description": "A horse-drawn carriage used for transport in many parts of India."
+    },
+    "Swami Bhavananda": {
+      "type": "character",
+      "description": "A Bengali man who started a fraudulent spiritual healing center in Chicago and was later exposed by Dr. Hajra."
+    },
+    "Barmer": {
+      "type": "proper_noun",
+      "description": "A town in Rajasthan, another location visited during the investigation."
+    },
+    "Marwari": {
+      "type": "proper_noun",
+      "description": "A term referring to people from the Marwar region of Rajasthan, often associated with business."
+    },
+    "chappal": {
+      "type": "vocabulary",
+      "description": "A type of open-toed Indian sandal, commonly worn indoors."
+    },
+    "Mr Mitter": {
+      "type": "character",
+      "description": "A sharp and analytical private investigator who is the protagonist of the stories and solves the cases.",
+      "image": "/data/images/characters/feluda-the-golden-fortress/mr-mitter.webp"
+    },
+    "Mr Maheshwari": {
+      "type": "character",
+      "description": "A character who accompanies Mandar Bose and the others to Bikaner, involved in the day's events."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital city of Nepal, referenced as the origin of Jatayu's Nepali dagger."
+    },
+    "Devikund": {
+      "type": "proper_noun",
+      "description": "A site near Bikaner known for its cenotaphs (chhatris) built in memory of Rajput warriors."
+    },
+    "Raja Rai Singh": {
+      "type": "proper_noun",
+      "description": "A historical Rajput ruler who began building the Bikaner fort, also served in Akbar's army."
+    },
+    "Akbar": {
+      "type": "proper_noun",
+      "description": "A famous Mughal emperor who ruled much of India in the 16th century."
+    },
+    "Alam Ambali": {
+      "type": "proper_noun",
+      "description": "The name of a beautiful silver throne in the Bikaner fort, said to be a gift from a Mughal badshah."
+    },
+    "Phool Mahal": {
+      "type": "proper_noun",
+      "description": "A palace or hall within the Bikaner fort, known for its ornate architecture."
+    },
+    "Gaj Mandir": {
+      "type": "proper_noun",
+      "description": "Another notable hall or palace within the Bikaner fort."
+    },
+    "Sheesh Mahal": {
+      "type": "proper_noun",
+      "description": "A 'mirror palace' or hall, often found in Rajasthani forts, decorated with intricate mirror work."
+    },
+    "Ganga Nivas": {
+      "type": "proper_noun",
+      "description": "A section or hall within the Bikaner fort."
+    },
+    "Chini Burj": {
+      "type": "proper_noun",
+      "description": "A tower or structure within the Bikaner fort, possibly decorated with Chinese-style tiles."
+    },
+    "Bagri": {
+      "type": "proper_noun",
+      "description": "The name of the person at the reception desk in the Circuit House who hands Feluda a letter."
+    },
+    "catapult": {
+      "type": "vocabulary",
+      "description": "A handheld slingshot used to launch small projectiles, often used by children in India."
+    },
+    "Nepali dagger": {
+      "type": "vocabulary",
+      "description": "A traditional curved knife from Nepal, also known as a khukuri, used as a weapon or tool."
+    },
+    "gypsies": {
+      "type": "vocabulary",
+      "description": "A term commonly used in India to refer to nomadic communities, often with distinct cultural practices."
+    },
+    "cenotaphs": {
+      "type": "vocabulary",
+      "description": "Monumental tombs or memorials built in honor of someone whose remains are elsewhere; in Rajasthan, often called 'chhatris'."
+    },
+    "chhatris": {
+      "type": "vocabulary",
+      "description": "Elevated, dome-shaped pavilions used as memorials for Rajput warriors, commonly seen in Rajasthan."
+    },
+    "badshah": {
+      "type": "vocabulary",
+      "description": "A Persian-derived word meaning 'emperor' or 'king', often used for Mughal rulers."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects and cultural significance."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A hotel attendant or servant, commonly used in South Asian English to refer to someone who serves food or assists guests."
+    },
+    "Tanganyika": {
+      "type": "proper_noun",
+      "description": "A historical region in East Africa, now part of Tanzania."
+    },
+    "Martin Johnson": {
+      "type": "proper_noun",
+      "description": "An American adventurer and author known for his travel books about Africa."
+    },
+    "Dussehra": {
+      "type": "proper_noun",
+      "description": "A significant Hindu festival celebrated across India, marking the victory of good over evil."
+    },
+    "Solanki Stores": {
+      "type": "proper_noun",
+      "description": "A shop in the story selling stoneware, presumably named after the Solanki dynasty or family."
+    },
+    "Jaisalmer": {
+      "type": "proper_noun",
+      "description": "A city in Rajasthan, India, famous for its yellow sandstone architecture and desert fort."
+    },
+    "Pokhran": {
+      "type": "proper_noun",
+      "description": "A town in Rajasthan, India, known for its proximity to the Thar Desert and historical significance."
+    },
+    "Rewari Passenger": {
+      "type": "proper_noun",
+      "description": "A passenger train running between Jodhpur and Rewari, a city in Haryana, India."
+    },
+    "Thar desert": {
+      "type": "proper_noun",
+      "description": "A vast arid region in northwestern India, also known as the Great Indian Desert."
+    },
+    "yoga": {
+      "type": "vocabulary",
+      "description": "A traditional Indian practice involving physical postures, breathing exercises, and meditation."
+    },
+    "bazaar": {
+      "type": "vocabulary",
+      "description": "A marketplace or shopping area, commonly found in South Asian cities."
+    },
+    "saab": {
+      "type": "vocabulary",
+      "description": "A respectful term for 'sir' or 'master' in Hindi and other Indian languages."
+    },
+    "Gurbachan Singh": {
+      "type": "character",
+      "description": "The Punjabi Sikh driver responsible for driving Feluda and his companions through the desert roads of Rajasthan."
+    },
+    "Sikh": {
+      "type": "proper_noun",
+      "description": "A follower of Sikhism, a monotheistic religion that originated in the Punjab region of India."
+    },
+    "Alauddin Khilji": {
+      "type": "proper_noun",
+      "description": "A Sultan of Delhi in the early 14th century, known for his military campaigns, including an attack on Jaisalmer."
+    },
+    "Ramdeora": {
+      "type": "proper_noun",
+      "description": "A small town and railway station in Rajasthan, located near Pokhran."
+    },
+    "Japan Airlines": {
+      "type": "proper_noun",
+      "description": "An international airline from Japan, referenced as the brand of Lalmohan Babu's bag."
+    },
+    "Bradshaw": {
+      "type": "proper_noun",
+      "description": "A well-known railway timetable guide used in India."
+    },
+    "Martin & Co.": {
+      "type": "proper_noun",
+      "description": "A historical reference to a company that once operated small trains in India."
+    },
+    "paunch": {
+      "type": "vocabulary",
+      "description": "A large or protruding belly, often used to describe someone's stomach."
+    },
+    "Sardarji": {
+      "type": "vocabulary",
+      "description": "A respectful term for a Sikh man, often used to address Sikh drivers or elders."
+    },
+    "cowrie": {
+      "type": "vocabulary",
+      "description": "A type of small, glossy shell often used for decoration or as currency in traditional Indian culture."
+    },
+    "holdall": {
+      "type": "vocabulary",
+      "description": "A holdall (plural: holdalls) is a large bag or case used for carrying personal belongings, especially while traveling."
+    },
+    "goja": {
+      "type": "vocabulary",
+      "description": "A Bengali deep-fried pastry dipped in syrup, often eaten as a sweet snack."
+    },
+    "flask": {
+      "type": "vocabulary",
+      "description": "A container used to carry liquids, commonly water, while traveling."
+    },
+    "turban": {
+      "type": "vocabulary",
+      "description": "A traditional headwear made of cloth wound around the head, commonly worn in Rajasthan and other parts of India."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A piece of fabric worn over the shoulders or head, often used for warmth or as a disguise."
+    },
+    "shuttlecock": {
+      "type": "vocabulary",
+      "description": "A conical object used in the game of badminton, here used metaphorically to describe being tossed about."
+    },
+    "moustaches": {
+      "type": "vocabulary",
+      "description": "Facial hair grown on the upper lip, often styled elaborately in Rajasthan."
+    },
+    "camel": {
+      "type": "vocabulary",
+      "description": "A large domesticated animal used for riding and transport, especially in desert regions like Rajasthan."
+    },
+    "Jetha-chandan": {
+      "type": "proper_noun",
+      "description": "A small railway station in Rajasthan, India, where the train stops."
+    },
+    "Thaiyat Hamira": {
+      "type": "proper_noun",
+      "description": "Another railway station in Rajasthan, India, on the route to Jaisalmer."
+    },
+    "durrie": {
+      "type": "vocabulary",
+      "description": "A traditional Indian cotton rug or floor covering."
+    },
+    "Inspector Rathor": {
+      "type": "character",
+      "description": "A police inspector introduced by Dr Hajra, involved in the resolution of the case."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A classic Indian car model, commonly used as taxis and government vehicles."
+    },
+    "dak bungalow": {
+      "type": "proper_noun",
+      "description": "A dak bungalow (plural: dak bungalows) is a colonial-era rest house for travelers, originally built for government officials and now used by travelers across India."
+    },
+    "Raja": {
+      "type": "proper_noun",
+      "description": "A traditional Indian title for a king or princely ruler."
+    },
+    "Mohangarh": {
+      "type": "proper_noun",
+      "description": "A place near Jaisalmer, known for its fort and desert landscape."
+    },
+    "ekka": {
+      "type": "vocabulary",
+      "description": "A one-horse carriage used for local travel in India."
+    },
+    "cycle-rickshaw": {
+      "type": "vocabulary",
+      "description": "A three-wheeled vehicle powered by a person pedaling, used for public transport."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or caretaker, especially of a building or compound."
+    },
+    "Professor Trivedi": {
+      "type": "character",
+      "description": "An acquaintance of Dr Hajra in Jodhpur who assists him during his travels."
+    },
+    "Raghunath Sarai": {
+      "type": "proper_noun",
+      "description": "A lodging place in Jodhpur where Dr Hajra stayed."
+    },
+    "Japan": {
+      "type": "proper_noun",
+      "description": "A country in East Asia, referenced as the origin of the fake revolver."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch attached to a house, common in Indian architecture."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Uncle Sidhu",
+      "Baba",
+      "Subimal",
+      "Topshe",
+      "Sudhir Dhar",
+      "Kailash Chowdhury",
+      "Dr Hemanga Hajra",
+      "Shivratan Mukherjee",
+      "Neelu",
+      "Srinath",
+      "Charminar",
+      "Durga Puja",
+      "Nihar",
+      "Pintu",
+      "Yeh jo muhabbat hai",
+      "Kati Patang",
+      "Johnny Mera Naam",
+      "Hindustan Standard",
+      "Shyambazar",
+      "College Street",
+      "Dhar & Co.",
+      "Mechhobazar",
+      "Jodhpur",
+      "Rajasthan",
+      "Rajputana",
+      "Dhalbhoomgarh",
+      "Patna",
+      "Gangtok",
+      "Raj Kahini",
+      "Abanindranath Tagore",
+      "Toofan Express",
+      "Chittor",
+      "Udaipur",
+      "Bengal",
+      "jatismar",
+      "dhoti",
+      "parapsychologist",
+      "harmonium",
+      "Puja",
+      "Mukul Dhar",
+      "Mr Mitter"
+    ],
+    "ch-2": [
+      "Baba",
+      "Shivratan Mukherjee",
+      "Manohar",
+      "Neelu",
+      "Moti",
+      "Rajasthan",
+      "Jodhpur",
+      "Jaipur",
+      "Chittor",
+      "Bikaner",
+      "Bundi",
+      "Fairlie Place",
+      "Todd",
+      "A Guide to India, Pakistan, Burma and Ceylon",
+      "India",
+      "Pakistan",
+      "Burma",
+      "Ceylon",
+      "Rajputs",
+      "Durga Puja",
+      "Bandikui",
+      "Marwar",
+      "Agra",
+      "kurta pyjama",
+      "Babu",
+      "Puja",
+      "Dr Hemanga Hajra",
+      "Mukul Dhar",
+      "Sudhir Dhar",
+      "Mr Mitter"
+    ],
+    "ch-3": [
+      "Uncle Sidhu",
+      "Lalmohan Ganguli",
+      "Dr Hemanga Hajra",
+      "Agra Fort",
+      "Bandikui",
+      "Taj Mahal",
+      "Calcutta",
+      "Toofan Express",
+      "Sardar Shankar Road",
+      "Tara Road",
+      "Argentina",
+      "England",
+      "Chicago",
+      "Bengal",
+      "Jodhpur",
+      "Delhi",
+      "Fatehpur Sikri",
+      "Bhadreshwar",
+      "Himalayas",
+      "Ravan",
+      "Urdu",
+      "Bedouins",
+      "Arabia",
+      "Rajasthan",
+      "Prakhar Rudra",
+      "Charles Atlas",
+      "yoghurt",
+      "divan",
+      "Namaskar",
+      "gulabi rewri",
+      "Mr Mitter",
+      "Swami Bhavananda"
+    ],
+    "ch-4": [
+      "Mukul Dhar",
+      "Mandar Bose",
+      "Bharatpur",
+      "Calcutta",
+      "Rajasthanis",
+      "Bandikui",
+      "Aravalli Hills",
+      "Marwar",
+      "Kisangarh",
+      "Bengal",
+      "Jodhpur",
+      "Circuit House",
+      "New Bombay Lodge",
+      "Mughals",
+      "Visitors’ Book",
+      "Kenya",
+      "Albania",
+      "Darjeeling",
+      "dhoti",
+      "naagras",
+      "roti",
+      "tonga",
+      "Dr Hemanga Hajra",
+      "Lalmohan Ganguli",
+      "Mr Mitter",
+      "dak bungalow"
+    ],
+    "ch-5": [
+      "Neelu",
+      "Sudhir Dhar",
+      "Manohar",
+      "Mandar Bose",
+      "Swami Bhavananda",
+      "Rajasthan",
+      "Kisangarh",
+      "Jodhpur",
+      "Barmer",
+      "Chittor",
+      "Udaipur",
+      "Bikaner",
+      "Calcutta",
+      "Circuit House",
+      "Chicago",
+      "Marwari",
+      "Namaskar",
+      "Charminar",
+      "chappal",
+      "Marwari",
+      "Dr Hemanga Hajra",
+      "Lalmohan Ganguli",
+      "Mukul Dhar",
+      "Shivratan Mukherjee",
+      "Mr Mitter",
+      "jatismar"
+    ],
+    "ch-6": [
+      "Mr Mitter",
+      "Mandar Bose",
+      "Mr Maheshwari",
+      "Kathmandu",
+      "Bikaner",
+      "Jodhpur",
+      "New Bombay Lodge",
+      "Devikund",
+      "Circuit House",
+      "Rajasthan",
+      "Rajputs",
+      "Raja Rai Singh",
+      "Akbar",
+      "Alam Ambali",
+      "Phool Mahal",
+      "Gaj Mandir",
+      "Sheesh Mahal",
+      "Ganga Nivas",
+      "Chini Burj",
+      "Bagri",
+      "Calcutta",
+      "catapult",
+      "Nepali dagger",
+      "gypsies",
+      "cenotaphs",
+      "chhatris",
+      "badshah",
+      "paan",
+      "bearer",
+      "Dr Hemanga Hajra",
+      "Lalmohan Ganguli",
+      "Mukul Dhar",
+      "Mughals",
+      "Gurbachan Singh"
+    ],
+    "ch-7": [
+      "Mandar Bose",
+      "Topshe",
+      "Jodhpur",
+      "Circuit House",
+      "Rajasthan",
+      "Bikaner",
+      "Tanganyika",
+      "Martin Johnson",
+      "Rajasthanis",
+      "Durga Puja",
+      "Calcutta",
+      "Dussehra",
+      "Solanki Stores",
+      "Jaisalmer",
+      "Pokhran",
+      "Barmer",
+      "Rewari Passenger",
+      "Thar desert",
+      "yoga",
+      "jatismar",
+      "bazaar",
+      "tonga",
+      "naagras",
+      "paan",
+      "saab",
+      "Dr Hemanga Hajra",
+      "Lalmohan Ganguli",
+      "Mukul Dhar",
+      "Mr Mitter"
+    ],
+    "ch-8": [
+      "Gurbachan Singh",
+      "Topshe",
+      "Pokhran",
+      "Jodhpur",
+      "Jaisalmer",
+      "Sikh",
+      "India",
+      "Pakistan",
+      "Alauddin Khilji",
+      "Ramdeora",
+      "Japan Airlines",
+      "Bradshaw",
+      "Martin & Co.",
+      "Rajasthan",
+      "paunch",
+      "Babu",
+      "Sardarji",
+      "cowrie",
+      "Lalmohan Ganguli",
+      "Mr Mitter",
+      "Rajputs",
+      "holdall",
+      "Rajasthanis"
+    ],
+    "ch-9": [
+      "Topshe",
+      "Gurbachan Singh",
+      "Jodhpur",
+      "Jaisalmer",
+      "Agra",
+      "Circuit House",
+      "Pokhran",
+      "holdall",
+      "goja",
+      "flask",
+      "turban",
+      "shawl",
+      "shuttlecock",
+      "moustaches",
+      "camel",
+      "Lalmohan Ganguli",
+      "Mr Mitter",
+      "Rajasthanis",
+      "Mandar Bose"
+    ],
+    "ch-10": [
+      "Mandar Bose",
+      "Neelu",
+      "Calcutta",
+      "Pokhran",
+      "Jaisalmer",
+      "Circuit House",
+      "Jodhpur",
+      "Jetha-chandan",
+      "Thaiyat Hamira",
+      "Japan Airlines",
+      "Rajasthan",
+      "durrie",
+      "holdall",
+      "goja",
+      "Dr Hemanga Hajra",
+      "Lalmohan Ganguli",
+      "Mukul Dhar",
+      "Mr Mitter",
+      "Topshe"
+    ],
+    "ch-11": [
+      "Gurbachan Singh",
+      "Inspector Rathor",
+      "Jaisalmer",
+      "Ambassador",
+      "dak bungalow",
+      "Raja",
+      "Jodhpur",
+      "Rajasthan",
+      "Devikund",
+      "Calcutta",
+      "Mohangarh",
+      "Japan Airlines",
+      "Bengal",
+      "tonga",
+      "ekka",
+      "cycle-rickshaw",
+      "chowkidar",
+      "dhoti",
+      "holdall",
+      "naagras",
+      "Dr Hemanga Hajra",
+      "Lalmohan Ganguli",
+      "Mukul Dhar",
+      "Mr Mitter",
+      "Swami Bhavananda"
+    ],
+    "ch-12": [
+      "Professor Trivedi",
+      "Mandar Bose",
+      "Calcutta",
+      "Rajasthan",
+      "Chicago",
+      "Kisangarh",
+      "Marwar",
+      "Jodhpur",
+      "Raghunath Sarai",
+      "Jaisalmer",
+      "Circuit House",
+      "Pokhran",
+      "Ramdeora",
+      "Bikaner",
+      "Devikund",
+      "Japan",
+      "dak bungalow",
+      "veranda",
+      "naagras",
+      "Babu",
+      "Dr Hemanga Hajra",
+      "Lalmohan Ganguli",
+      "Mukul Dhar",
+      "Sudhir Dhar",
+      "Mr Mitter",
+      "Swami Bhavananda"
+    ]
+  }
+}

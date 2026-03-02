@@ -1,0 +1,1109 @@
+{
+  "glossary": {
+    "Baba": {
+      "type": "character",
+      "description": "Topshe's father and friend of Dhiru Kaka who plans the family holiday.",
+      "image": "/data/images/characters/feluda-the-emperor-s-ring/baba.webp"
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "An intelligent and eccentric private detective and cousin to Topshe, known for his sharp deductive skills.",
+      "image": "/data/images/characters/feluda-the-emperor-s-ring/feluda.webp"
+    },
+    "Dhiru Kaka": {
+      "type": "character",
+      "description": "A lawyer living in Lucknow and childhood friend of Topshe's father who hosts the family; his bedroom was the site of the ring's disappearance.",
+      "image": "/data/images/characters/feluda-the-emperor-s-ring/dhiru-kaka.webp"
+    },
+    "Dr Srivastava": {
+      "type": "character",
+      "description": "Dr Srivastava is an osteopath in Lucknow, recipient of a valuable ring, described as nervous and a genuine Lucknowwalla. He is the owner of the stolen ring and tries to reassure Dhiru Kaka after its loss.",
+      "image": "/data/images/characters/feluda-the-emperor-s-ring/dr-srivastava.webp"
+    },
+    "Jagmohan": {
+      "type": "character",
+      "description": "Dhiru Kaka's bearer, helps around the house."
+    },
+    "Din Dayal Singh": {
+      "type": "character",
+      "description": "The driver who picks up the family from the station."
+    },
+    "Pyarelal Seth": {
+      "type": "character",
+      "description": "A wealthy Gujarati businessman from Lucknow who gifted a valuable ring to Dr Srivastava.",
+      "image": "/data/images/characters/feluda-the-emperor-s-ring/pyarelal-seth.webp"
+    },
+    "Mahabir": {
+      "type": "character",
+      "description": "Pyarelal Seth's son, cured by Dr Srivastava."
+    },
+    "Bonobihari Babu": {
+      "type": "character",
+      "description": "A retired businessman and descendant of Bengal zamindars who owns a private zoo.",
+      "image": "/data/images/characters/feluda-the-emperor-s-ring/bonobihari-babu.webp"
+    },
+    "Mr Jhunjhunwalla": {
+      "type": "character",
+      "description": "Dr Srivastava's next-door neighbour, described as very rich."
+    },
+    "Mr Billimoria": {
+      "type": "character",
+      "description": "Another neighbour of Dr Srivastava, also wealthy."
+    },
+    "Bhudeb Mitra": {
+      "type": "character",
+      "description": "A barrister whose house was recently burgled."
+    },
+    "Lucknow": {
+      "type": "proper_noun",
+      "description": "A historic city in northern India, known for its architecture and culture."
+    },
+    "Haridwar": {
+      "type": "proper_noun",
+      "description": "A holy city in Uttarakhand, India, famous for its temples and the Ganges river."
+    },
+    "Laxmanjhoola": {
+      "type": "proper_noun",
+      "description": "A suspension bridge and pilgrimage site near Rishikesh, Uttarakhand."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, India, known for tea and scenic views."
+    },
+    "Puri": {
+      "type": "proper_noun",
+      "description": "A coastal city in Odisha, India, famous for its beaches and the Jagannath Temple."
+    },
+    "Bhoolbhulaia": {
+      "type": "proper_noun",
+      "description": "A maze inside the Burra Imambara in Lucknow, built by the nawabs."
+    },
+    "Burra Imambara": {
+      "type": "proper_noun",
+      "description": "A grand historical monument in Lucknow, famous for its maze."
+    },
+    "Gomti": {
+      "type": "proper_noun",
+      "description": "A river flowing through Lucknow."
+    },
+    "Residency": {
+      "type": "proper_noun",
+      "description": "A historical site in Lucknow, central to the British forces during the Mutiny."
+    },
+    "Mutiny": {
+      "type": "proper_noun",
+      "description": "Refers to the Indian Rebellion of 1857 against British rule."
+    },
+    "Tagore": {
+      "type": "proper_noun",
+      "description": "Rabindranath Tagore, renowned Bengali poet and Nobel laureate."
+    },
+    "Secunder Bagh": {
+      "type": "proper_noun",
+      "description": "An area in Lucknow, site of Dhiru Kaka's house and historical significance."
+    },
+    "Fiat": {
+      "type": "proper_noun",
+      "description": "An Italian car brand, used here to describe Dr Srivastava's vehicle."
+    },
+    "Aurangzeb": {
+      "type": "proper_noun",
+      "description": "A Mughal emperor, son of Shah Jahan, referenced as the ring's original owner."
+    },
+    "Shah Jahan": {
+      "type": "proper_noun",
+      "description": "A Mughal emperor, father of Aurangzeb, famous for building the Taj Mahal."
+    },
+    "Samarkand": {
+      "type": "proper_noun",
+      "description": "A historic city in Uzbekistan, referenced in the story of Aurangzeb."
+    },
+    "Agra": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, India, famous for the Taj Mahal, where Pyarelal bought the ring."
+    },
+    "Jahannan Khan": {
+      "type": "proper_noun",
+      "description": "A historical figure mentioned as a possible owner of the ring."
+    },
+    "Madhya Pradesh": {
+      "type": "proper_noun",
+      "description": "A central Indian state, referenced as a place where dacoits are common."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, referenced as Bonobihari Babu's ancestral home."
+    },
+    "Europe": {
+      "type": "proper_noun",
+      "description": "A continent, referenced as a destination for exported animals."
+    },
+    "America": {
+      "type": "proper_noun",
+      "description": "Refers to the United States, mentioned as a destination for animals."
+    },
+    "Australia": {
+      "type": "proper_noun",
+      "description": "A country and continent, also mentioned as a destination for animals."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "Now Kolkata, a major city in eastern India, referenced as Pyarelal's former residence and compared to Lucknow."
+    },
+    "Kaka": {
+      "type": "vocabulary",
+      "description": "A term meaning uncle in Hindi and Bengali, used for older male relatives or friends."
+    },
+    "Imambara": {
+      "type": "vocabulary",
+      "description": "A Shia Muslim shrine or congregation hall, often architecturally significant."
+    },
+    "nawab": {
+      "type": "vocabulary",
+      "description": "Nawab is the title for Muslim rulers or noblemen in India, especially in Lucknow, and is used both as a vocabulary term and as a proper noun."
+    },
+    "tonga": {
+      "type": "vocabulary",
+      "description": "A horse-drawn carriage commonly used for transport in Indian cities."
+    },
+    "ekka": {
+      "type": "vocabulary",
+      "description": "A single-horse carriage, smaller than a tonga."
+    },
+    "namaskaar": {
+      "type": "vocabulary",
+      "description": "A respectful Indian greeting, involving folded hands."
+    },
+    "Lucknowwalla": {
+      "type": "vocabulary",
+      "description": "A colloquial term for someone native to Lucknow."
+    },
+    "daku": {
+      "type": "vocabulary",
+      "description": "Hindi word for bandit or robber."
+    },
+    "dacoit": {
+      "type": "vocabulary",
+      "description": "A term for a member of a band of armed robbers in India."
+    },
+    "Seth": {
+      "type": "vocabulary",
+      "description": "A title used for wealthy businessmen, especially in northern India."
+    },
+    "typhoid": {
+      "type": "vocabulary",
+      "description": "An infectious disease common in India, referenced as the cause of death for Pyarelal's son."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The currency of India."
+    },
+    "zamindar": {
+      "type": "vocabulary",
+      "description": "A landowner, historically a hereditary title in Bengal and other parts of India."
+    },
+    "maali": {
+      "type": "vocabulary",
+      "description": "A gardener."
+    },
+    "Charminar": {
+      "type": "vocabulary",
+      "description": "Charminar is a popular Indian cigarette brand, also referred to in the plural as Charminars."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A betel leaf preparation chewed for its stimulant effects, common in India."
+    },
+    "Kaiser Bagh": {
+      "type": "proper_noun",
+      "description": "A locality in Lucknow known for its Mughal-era architecture; the name humorously combines Urdu and German."
+    },
+    "Badshah Manzil": {
+      "type": "proper_noun",
+      "description": "A historical building in Lucknow, pointed out by the tongawalla during the ride."
+    },
+    "Chandiwali Barradari": {
+      "type": "proper_noun",
+      "description": "Another notable Mughal-era structure in Lucknow, mentioned during the sightseeing."
+    },
+    "Lakhu Phatak": {
+      "type": "proper_noun",
+      "description": "A place or landmark in Lucknow, referenced by the tongawalla."
+    },
+    "Rumi Darwaza": {
+      "type": "proper_noun",
+      "description": "A famous gateway in Lucknow, known for its impressive Mughal architecture."
+    },
+    "Machchli Bhawan": {
+      "type": "proper_noun",
+      "description": "A building in Lucknow, near which the Burra Imambara is located."
+    },
+    "Laxmanavati": {
+      "type": "proper_noun",
+      "description": "The ancient name for Lucknow, referencing its legendary founder Laxman."
+    },
+    "Chowk Bazar": {
+      "type": "proper_noun",
+      "description": "A well-known market area in Lucknow."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, known for its historical monuments and political significance."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, a major city in India and the center of the Bollywood film industry."
+    },
+    "Diwali": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival known as the Festival of Lights, celebrated across India."
+    },
+    "tongawalla": {
+      "type": "vocabulary",
+      "description": "The driver of a tonga."
+    },
+    "attar": {
+      "type": "vocabulary",
+      "description": "A fragrant essential oil, often used as perfume in South Asia."
+    },
+    "Ganesh Guha": {
+      "type": "character",
+      "description": "Caretaker of Bonobihari Babu's zoo, known for his strength and fearlessness."
+    },
+    "Badshah": {
+      "type": "character",
+      "description": "Bonobihari Babu’s massive black hound, serves as the real bodyguard of the house."
+    },
+    "Mughal": {
+      "type": "proper_noun",
+      "description": "Relating to the Mughal Empire, known for its distinctive art and architecture."
+    },
+    "Munger": {
+      "type": "proper_noun",
+      "description": "A city in Bihar, India, known for its historical significance."
+    },
+    "Africa": {
+      "type": "proper_noun",
+      "description": "The continent from which some of the exotic animals originate."
+    },
+    "Anglo-Indian": {
+      "type": "proper_noun",
+      "description": "A term referring to people of mixed Indian and British ancestry or relating to British India."
+    },
+    "Alipore": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, famous for the Alipore Zoo."
+    },
+    "Ram Lila": {
+      "type": "proper_noun",
+      "description": "A traditional dramatic folk re-enactment of the life of Lord Rama, performed during Dussehra."
+    },
+    "Dussehra": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival celebrating the victory of good over evil."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic narrating the life of Lord Rama."
+    },
+    "Ram": {
+      "type": "proper_noun",
+      "description": "The hero of the Ramayana, regarded as an incarnation of Vishnu."
+    },
+    "Lakshman": {
+      "type": "proper_noun",
+      "description": "Brother of Ram in the Ramayana, known for his loyalty."
+    },
+    "Ravan": {
+      "type": "proper_noun",
+      "description": "The antagonist in the Ramayana, a demon king defeated by Ram."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed platform along the outside of a house, typically level with the ground floor."
+    },
+    "laddoo": {
+      "type": "vocabulary",
+      "description": "A round Indian sweet made from flour, sugar, and ghee."
+    },
+    "Sandile ka laddoo": {
+      "type": "vocabulary",
+      "description": "A specific variety of laddoo, a sweet from Lucknow."
+    },
+    "gulabi reori": {
+      "type": "vocabulary",
+      "description": "A pink-colored Indian sweet, often made with sesame seeds and sugar, popular in northern India."
+    },
+    "bhoona pera": {
+      "type": "vocabulary",
+      "description": "A type of sweet from Lucknow, made by roasting and reducing milk."
+    },
+    "sadhubaba": {
+      "type": "vocabulary",
+      "description": "Sadhu is a Hindu holy man or ascetic, while sadhubaba is a term for a holy man or ascetic in India."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A domestic servant or attendant, especially in Indian English usage."
+    },
+    "Inspector Gargari": {
+      "type": "character",
+      "description": "A police inspector known to Dhiru Kaka."
+    },
+    "Frazer Road": {
+      "type": "proper_noun",
+      "description": "A street where Dhiru Kaka lives."
+    },
+    "Dupling Road": {
+      "type": "proper_noun",
+      "description": "A road connected to Frazer Road in Lucknow."
+    },
+    "Ramakrishna Mission": {
+      "type": "proper_noun",
+      "description": "A well-known spiritual and philanthropic organization in India."
+    },
+    "Doon Express": {
+      "type": "proper_noun",
+      "description": "A train that runs to and from Dehra Dun."
+    },
+    "Imperial Express": {
+      "type": "proper_noun",
+      "description": "A fictional or possibly real train mentioned humorously by Feluda."
+    },
+    "Dehra Dun": {
+      "type": "proper_noun",
+      "description": "A city in northern India, home to Doon School."
+    },
+    "Doon School": {
+      "type": "proper_noun",
+      "description": "A prestigious boarding school in Dehra Dun, India."
+    },
+    "Life": {
+      "type": "proper_noun",
+      "description": "A magazine that Feluda is seen reading."
+    },
+    "Mars": {
+      "type": "proper_noun",
+      "description": "The planet Mars, mentioned in conversation."
+    },
+    "moon": {
+      "type": "proper_noun",
+      "description": "Earth's natural satellite, mentioned in conversation."
+    },
+    "Park Road": {
+      "type": "proper_noun",
+      "description": "A road in Lucknow mentioned as a landmark."
+    },
+    "Istishan": {
+      "type": "proper_noun",
+      "description": "The Urdu word for 'station', referring to the railway station."
+    },
+    "Hindi": {
+      "type": "proper_noun",
+      "description": "The most widely spoken language in India, referenced in the context of a film."
+    },
+    "Daku Mansoor": {
+      "type": "proper_noun",
+      "description": "The title of a Hindi film being advertised in the story."
+    },
+    "muffler": {
+      "type": "vocabulary",
+      "description": "A scarf worn around the neck for warmth."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "Babu is a respectful term for a man, often used in northern India for gentlemen or educated men. It is also used as a term of respect in India."
+    },
+    "meetha": {
+      "type": "vocabulary",
+      "description": "Hindi word for 'sweet', used here to describe a type of paan."
+    },
+    "masala": {
+      "type": "vocabulary",
+      "description": "A mixture of spices used in Indian cuisine and also in paan."
+    },
+    "paanwalla": {
+      "type": "vocabulary",
+      "description": "A person who sells paan."
+    },
+    "paise": {
+      "type": "vocabulary",
+      "description": "A subunit of the Indian rupee."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or guard."
+    },
+    "Thakur": {
+      "type": "vocabulary",
+      "description": "A title used in northern India, often for a respected or noble person."
+    },
+    "handbills": {
+      "type": "vocabulary",
+      "description": "Small printed advertisements or notices."
+    },
+    "carrom": {
+      "type": "vocabulary",
+      "description": "A popular tabletop game in South Asia, similar to billiards but played with disks."
+    },
+    "Denticare": {
+      "type": "vocabulary",
+      "description": "A brand of toothpowder mentioned as a disguise for something else."
+    },
+    "Banaras": {
+      "type": "proper_noun",
+      "description": "Also known as Varanasi, a city in India famed for its paan and spiritual significance."
+    },
+    "Henry Lawrence": {
+      "type": "proper_noun",
+      "description": "The British Commander-in-Chief during the Siege of Lucknow in the Mutiny, killed during the conflict."
+    },
+    "Sir Colin Campbell": {
+      "type": "proper_noun",
+      "description": "A British general who led reinforcements to relieve the besieged Residency during the Mutiny."
+    },
+    "Allahabad": {
+      "type": "proper_noun",
+      "description": "A city in northern India, mentioned as the place where Dr Srivastava's father worked."
+    },
+    "Standard": {
+      "type": "proper_noun",
+      "description": "Refers to the Standard car, a brand of automobile popular in India during the mid-20th century."
+    },
+    "sannyasi": {
+      "type": "vocabulary",
+      "description": "A sannyasi is a Hindu ascetic or holy man who has renounced worldly possessions; the plural form is sannyasis."
+    },
+    "attaché case": {
+      "type": "vocabulary",
+      "description": "A small, flat suitcase used for carrying documents, often associated with professionals."
+    },
+    "Godrej almirah": {
+      "type": "vocabulary",
+      "description": "A Godrej almirah is a steel cupboard or wardrobe manufactured by the Indian company Godrej, commonly used for secure storage. The term 'almirah' refers more generally to a cupboard or wardrobe, while 'Godrej' is the brand."
+    },
+    "goonda": {
+      "type": "vocabulary",
+      "description": "A Hindi slang term for a thug or gangster."
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "Feluda’s younger cousin and the narrator of the story who assists in investigations."
+    },
+    "Mr Malkani": {
+      "type": "character",
+      "description": "Owner of Malkani & Co., an antique and curio shop in Hazratganj."
+    },
+    "Mr Pestonji": {
+      "type": "character",
+      "description": "A local customer of Malkani & Co., known for purchasing valuable items like Persian carpets."
+    },
+    "Pritam Singh": {
+      "type": "character",
+      "description": "Bearer in Mahabir's household, previously served Pyarelal Seth in Calcutta, and witnessed events surrounding Seth's death."
+    },
+    "Dr Graham": {
+      "type": "character",
+      "description": "Pyarelal Seth's regular doctor, absent during the critical events, attending a conference in Allahabad."
+    },
+    "Hazratganj": {
+      "type": "proper_noun",
+      "description": "A prominent shopping district in Lucknow, likened to Chowringhee in Calcutta."
+    },
+    "Chowringhee": {
+      "type": "proper_noun",
+      "description": "A famous commercial area in Calcutta, used as a reference point for Hazratganj."
+    },
+    "Malkani & Co.": {
+      "type": "proper_noun",
+      "description": "An antique and curio shop in Hazratganj, run by Mr Malkani."
+    },
+    "Murshidabad": {
+      "type": "proper_noun",
+      "description": "A city in West Bengal, famous for its ivory and antique crafts."
+    },
+    "Badshah Nagar": {
+      "type": "proper_noun",
+      "description": "A locality in Lucknow where Mr Sarkar resides."
+    },
+    "The Empire Book Stall": {
+      "type": "proper_noun",
+      "description": "A bookshop in Hazratganj, visited by Feluda and Topshe."
+    },
+    "Neville Cardus": {
+      "type": "proper_noun",
+      "description": "A renowned English cricket writer, whose books are sought after by Feluda."
+    },
+    "Bradman": {
+      "type": "proper_noun",
+      "description": "Refers to Sir Donald Bradman, legendary Australian cricketer, whose autobiography is mentioned."
+    },
+    "Ranji": {
+      "type": "proper_noun",
+      "description": "Refers to K.S. Ranjitsinhji, a famous Indian cricketer from the early 20th century."
+    },
+    "Kwality restaurant": {
+      "type": "proper_noun",
+      "description": "A well-known restaurant in Hazratganj, where the characters meet for tea."
+    },
+    "Howrah": {
+      "type": "proper_noun",
+      "description": "A city adjacent to Kolkata, known for its railway station, mentioned as Ganesh Guha's destination."
+    },
+    "Military Academy": {
+      "type": "proper_noun",
+      "description": "Refers to an institution for military training, attended by Mahabir."
+    },
+    "attardaan": {
+      "type": "vocabulary",
+      "description": "A container used for storing attar, a traditional Indian perfume."
+    },
+    "hubble-bubble": {
+      "type": "vocabulary",
+      "description": "A traditional Indian water pipe, also known as a hookah."
+    },
+    "Ambika": {
+      "type": "character",
+      "description": "An old classmate of Dhiru Kaka who became a sannyasi and is seen being revered by followers at the station."
+    },
+    "Hrishikesh": {
+      "type": "proper_noun",
+      "description": "Also spelled Rishikesh, a town in northern India known for its spiritual significance and as a gateway to the Himalayas."
+    },
+    "Bareilly": {
+      "type": "proper_noun",
+      "description": "A city in northern India, mentioned as a stop on the train journey."
+    },
+    "Hardoi": {
+      "type": "proper_noun",
+      "description": "A town in Uttar Pradesh, India, where the train halts during the journey."
+    },
+    "Swami": {
+      "type": "vocabulary",
+      "description": "A Hindu religious title for a monk or spiritual teacher."
+    },
+    "chaiwalla": {
+      "type": "vocabulary",
+      "description": "A vendor who sells tea, commonly found at Indian railway stations."
+    },
+    "Gitanjali": {
+      "type": "proper_noun",
+      "description": "A famous collection of poems by Rabindranath Tagore, originally written in Bengali."
+    },
+    "Urdu": {
+      "type": "proper_noun",
+      "description": "A language spoken in South Asia, especially in India and Pakistan, associated with poetry and music."
+    },
+    "Wajid Ali Shah": {
+      "type": "proper_noun",
+      "description": "The last Nawab of Awadh, known for his patronage of the arts and music."
+    },
+    "Matiaburuz": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata (Calcutta), historically home to Muslim tailors."
+    },
+    "Rajen Mullik": {
+      "type": "proper_noun",
+      "description": "A wealthy historical figure mentioned as a collaborator in founding Calcutta's first zoo."
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "A sacred river in India, central to Hindu religious practices."
+    },
+    "thumri": {
+      "type": "vocabulary",
+      "description": "A genre of semi-classical Indian music, known for its romantic or devotional themes."
+    },
+    "Bilash Babu": {
+      "type": "character",
+      "description": "A Bengali gentleman from Allahabad, introduced as a palmist who reads Bonobihari Babu’s hand."
+    },
+    "Sheetal Das": {
+      "type": "character",
+      "description": "The owner or manager of the dharamshala where the group stays."
+    },
+    "dharamshala": {
+      "type": "proper_noun",
+      "description": "A dharamshala is a rest house or inn, often for pilgrims, providing basic accommodation. In the story, Sheetal Das’s dharamshala is the specific rest house where the group stays in Haridwar."
+    },
+    "Baba Daksheshwar": {
+      "type": "proper_noun",
+      "description": "A temple in Haridwar, dedicated to a Hindu deity, visited by pilgrims."
+    },
+    "Vaishnav": {
+      "type": "proper_noun",
+      "description": "A devotee of Lord Vishnu, often associated with specific religious practices."
+    },
+    "panda": {
+      "type": "vocabulary",
+      "description": "A Hindu priest or guide in pilgrimage centers who assists visitors with rituals and records family histories."
+    },
+    "coolie": {
+      "type": "vocabulary",
+      "description": "A manual laborer or porter, especially at railway stations in India."
+    },
+    "angeethees": {
+      "type": "vocabulary",
+      "description": "Portable clay or metal stoves used for heating or cooking, especially in North India."
+    },
+    "bhajan": {
+      "type": "vocabulary",
+      "description": "A devotional song, typically sung in praise of Hindu deities."
+    },
+    "raga": {
+      "type": "vocabulary",
+      "description": "A melodic framework in Indian classical music, associated with specific moods and times of day."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment, a rectangular piece of cloth wrapped around the waist and legs."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in South Asia, often paired with a dhoti or pajama."
+    },
+    "shikari": {
+      "type": "vocabulary",
+      "description": "A hunter, especially one who hunts wild animals in India."
+    },
+    "hydrophobia": {
+      "type": "vocabulary",
+      "description": "Another term for rabies, a viral disease that can be transmitted by animal bites."
+    },
+    "Chevrolet": {
+      "type": "proper_noun",
+      "description": "An American automobile brand; here, it refers to an old-fashioned taxi."
+    },
+    "puri-subzi": {
+      "type": "vocabulary",
+      "description": "A popular Indian breakfast dish consisting of deep-fried bread (puri) served with a spiced vegetable curry (subzi)."
+    },
+    "woollens": {
+      "type": "vocabulary",
+      "description": "Warm clothing made of wool, commonly worn in colder regions of India."
+    },
+    "Pandeyji": {
+      "type": "character",
+      "description": "A sadhu (holy man) who is said to live alone in the jungle and keep a python."
+    },
+    "Jim Corbett": {
+      "type": "proper_noun",
+      "description": "A renowned British-Indian hunter, tracker, and conservationist famous for hunting man-eating tigers and leopards in India."
+    },
+    "Howrah Bridge": {
+      "type": "proper_noun",
+      "description": "An iconic cantilever bridge over the Hooghly River in West Bengal, connecting Kolkata and Howrah."
+    },
+    "Jab chhor chaley Lucknow nagari Kahen haal ke hum par kya guzri": {
+      "type": "vocabulary",
+      "description": "A line from an Urdu song, expressing the sorrow of leaving Lucknow."
+    },
+    "Naulakha Company": {
+      "type": "proper_noun",
+      "description": "A reputed jewelry company in Calcutta from which the ring was purchased."
+    },
+    "Black Widow": {
+      "type": "proper_noun",
+      "description": "The Black Widow is a highly venomous spider native to Africa, used by a character to intimidate another. It is also referred to as the African spider, a dangerous species used as a plot device."
+    },
+    "Emperor’s ring": {
+      "type": "proper_noun",
+      "description": "A valuable and central object in the story, believed to have imperial significance."
+    },
+    "durrie": {
+      "type": "vocabulary",
+      "description": "A traditional Indian cotton rug or mat, often used for sitting or sleeping."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Baba",
+      "Feluda",
+      "Dhiru Kaka",
+      "Dr Srivastava",
+      "Jagmohan",
+      "Din Dayal Singh",
+      "Pyarelal Seth",
+      "Mahabir",
+      "Bonobihari Babu",
+      "Mr Jhunjhunwalla",
+      "Mr Billimoria",
+      "Bhudeb Mitra",
+      "Lucknow",
+      "Haridwar",
+      "Laxmanjhoola",
+      "Darjeeling",
+      "Puri",
+      "Bhoolbhulaia",
+      "Burra Imambara",
+      "Gomti",
+      "Residency",
+      "Mutiny",
+      "Tagore",
+      "Secunder Bagh",
+      "Fiat",
+      "Aurangzeb",
+      "Shah Jahan",
+      "Samarkand",
+      "Agra",
+      "Jahannan Khan",
+      "Madhya Pradesh",
+      "Bengal",
+      "Europe",
+      "America",
+      "Australia",
+      "Calcutta",
+      "Kaka",
+      "Imambara",
+      "nawab",
+      "tonga",
+      "ekka",
+      "namaskaar",
+      "Lucknowwalla",
+      "daku",
+      "dacoit",
+      "Seth",
+      "typhoid",
+      "rupees",
+      "zamindar",
+      "maali",
+      "Charminar",
+      "paan",
+      "Tapesh",
+      "Godrej almirah"
+    ],
+    "ch-2": [
+      "Baba",
+      "Dhiru Kaka",
+      "Feluda",
+      "Bonobihari Babu",
+      "Mahabir",
+      "Imambara",
+      "Kaiser Bagh",
+      "Badshah Manzil",
+      "Chandiwali Barradari",
+      "Lakhu Phatak",
+      "Rumi Darwaza",
+      "Machchli Bhawan",
+      "Burra Imambara",
+      "Lucknow",
+      "Laxmanavati",
+      "Chowk Bazar",
+      "Agra",
+      "Delhi",
+      "Bhoolbhulaia",
+      "Bombay",
+      "Diwali",
+      "tonga",
+      "tongawalla",
+      "namaskaar",
+      "nawab",
+      "attar",
+      "Pyarelal Seth"
+    ],
+    "ch-3": [
+      "Bonobihari Babu",
+      "Feluda",
+      "Dr Srivastava",
+      "Dhiru Kaka",
+      "Baba",
+      "Ganesh Guha",
+      "Badshah",
+      "Mutiny",
+      "Mughal",
+      "Munger",
+      "Calcutta",
+      "Africa",
+      "Anglo-Indian",
+      "Alipore",
+      "America",
+      "Puri",
+      "Lucknow",
+      "Haridwar",
+      "Laxmanjhoola",
+      "Ram Lila",
+      "Dussehra",
+      "Ramayana",
+      "Ram",
+      "Lakshman",
+      "Ravan",
+      "veranda",
+      "laddoo",
+      "Sandile ka laddoo",
+      "gulabi reori",
+      "bhoona pera",
+      "sadhubaba",
+      "bearer",
+      "Godrej almirah"
+    ],
+    "ch-4": [
+      "Baba",
+      "Dhiru Kaka",
+      "Feluda",
+      "Inspector Gargari",
+      "Mahabir",
+      "Dr Srivastava",
+      "Frazer Road",
+      "Dupling Road",
+      "Calcutta",
+      "Lucknow",
+      "Ramakrishna Mission",
+      "Doon Express",
+      "Imperial Express",
+      "Dehra Dun",
+      "Doon School",
+      "Bombay",
+      "Life",
+      "Mars",
+      "moon",
+      "Park Road",
+      "Istishan",
+      "Hindi",
+      "Daku Mansoor",
+      "muffler",
+      "babu",
+      "paan",
+      "meetha",
+      "masala",
+      "paanwalla",
+      "sadhubaba",
+      "tonga",
+      "tongawalla",
+      "paise",
+      "chowkidar",
+      "Thakur",
+      "handbills",
+      "carrom",
+      "Denticare",
+      "Tapesh",
+      "Pyarelal Seth",
+      "sannyasi"
+    ],
+    "ch-5": [
+      "Feluda",
+      "Baba",
+      "Dhiru Kaka",
+      "Bonobihari Babu",
+      "Dr Srivastava",
+      "Inspector Gargari",
+      "Mahabir",
+      "Lucknow",
+      "Ram Lila",
+      "Charminar",
+      "Banaras",
+      "Imambara",
+      "Residency",
+      "Mutiny",
+      "Henry Lawrence",
+      "Sir Colin Campbell",
+      "Allahabad",
+      "Standard",
+      "sannyasi",
+      "chowkidar",
+      "attaché case",
+      "paan",
+      "Godrej almirah",
+      "tonga",
+      "bearer",
+      "goonda",
+      "Tapesh",
+      "Pyarelal Seth",
+      "nawab",
+      "sadhubaba"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Tapesh",
+      "Bonobihari Babu",
+      "Dhiru Kaka",
+      "Pyarelal Seth",
+      "Mahabir",
+      "Mr Malkani",
+      "Mr Pestonji",
+      "Ganesh Guha",
+      "Pritam Singh",
+      "Dr Srivastava",
+      "Dr Graham",
+      "Hazratganj",
+      "Chowringhee",
+      "Lucknow",
+      "Residency",
+      "Haridwar",
+      "Laxmanjhoola",
+      "Calcutta",
+      "Doon School",
+      "Malkani & Co.",
+      "Mughal",
+      "Murshidabad",
+      "Badshah Nagar",
+      "The Empire Book Stall",
+      "Neville Cardus",
+      "Bradman",
+      "Ranji",
+      "Kwality restaurant",
+      "Howrah",
+      "Military Academy",
+      "tonga",
+      "attardaan",
+      "hubble-bubble",
+      "Charminar"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Baba",
+      "Dhiru Kaka",
+      "Dr Srivastava",
+      "Bonobihari Babu",
+      "Ambika",
+      "Pritam Singh",
+      "Doon Express",
+      "Haridwar",
+      "Lucknow",
+      "Calcutta",
+      "Puri",
+      "Hrishikesh",
+      "Laxmanjhoola",
+      "Bareilly",
+      "Hardoi",
+      "Charminar",
+      "Mahabir",
+      "Ganesh Guha",
+      "Kaka",
+      "Swami",
+      "sannyasi",
+      "sadhubaba",
+      "chaiwalla",
+      "paan",
+      "bearer",
+      "Pyarelal Seth",
+      "babu"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Baba",
+      "Bonobihari Babu",
+      "sannyasi",
+      "Bareilly",
+      "Lucknow",
+      "Gitanjali",
+      "Hindi",
+      "Urdu",
+      "Wajid Ali Shah",
+      "Bengal",
+      "Matiaburuz",
+      "Calcutta",
+      "Rajen Mullik",
+      "Haridwar",
+      "Ganges",
+      "Bhoolbhulaia",
+      "sannyasi",
+      "thumri",
+      "Tapesh",
+      "Dr Srivastava",
+      "Pyarelal Seth",
+      "babu",
+      "nawab"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Baba",
+      "Bonobihari Babu",
+      "Dr Srivastava",
+      "Bilash Babu",
+      "Sheetal Das",
+      "Haridwar",
+      "dharamshala",
+      "Baba Daksheshwar",
+      "Hrishikesh",
+      "Laxmanjhoola",
+      "Bareilly",
+      "Lucknow",
+      "Vaishnav",
+      "Aurangzeb",
+      "Allahabad",
+      "Calcutta",
+      "panda",
+      "babu",
+      "sannyasi",
+      "coolie",
+      "tonga",
+      "angeethees",
+      "bhajan",
+      "raga",
+      "dhoti",
+      "kurta",
+      "shikari",
+      "hydrophobia",
+      "Pyarelal Seth",
+      "sadhubaba"
+    ],
+    "ch-10": [
+      "Feluda",
+      "Baba",
+      "Bilash Babu",
+      "Dhiru Kaka",
+      "Bonobihari Babu",
+      "Dr Srivastava",
+      "Tapesh",
+      "dharamshala",
+      "Bhoolbhulaia",
+      "Lucknow",
+      "Laxmanjhoola",
+      "Ganges",
+      "Chevrolet",
+      "Kaka",
+      "sannyasi",
+      "puri-subzi",
+      "woollens",
+      "attaché case",
+      "Ambika",
+      "babu"
+    ],
+    "ch-11": [
+      "Feluda",
+      "Bonobihari Babu",
+      "Ganesh Guha",
+      "Mahabir",
+      "Pandeyji",
+      "Laxmanjhoola",
+      "Hrishikesh",
+      "Lucknow",
+      "Jim Corbett",
+      "Calcutta",
+      "Howrah",
+      "Howrah Bridge",
+      "Ganges",
+      "Jab chhor chaley Lucknow nagari Kahen haal ke hum par kya guzri",
+      "Pandeyji",
+      "Tapesh",
+      "Pyarelal Seth",
+      "sannyasi",
+      "babu",
+      "sadhubaba"
+    ],
+    "ch-12": [
+      "Feluda",
+      "Bonobihari Babu",
+      "Ganesh Guha",
+      "Mahabir",
+      "Baba",
+      "Bilash Babu",
+      "Inspector Gargari",
+      "Naulakha Company",
+      "Calcutta",
+      "Lucknow",
+      "Residency",
+      "Black Widow",
+      "Bareilly",
+      "Bhoolbhulaia",
+      "Emperor’s ring",
+      "sannyasi",
+      "durrie",
+      "Tapesh",
+      "Dr Srivastava",
+      "Pyarelal Seth",
+      "babu",
+      "Dhiru Kaka"
+    ]
+  }
+}

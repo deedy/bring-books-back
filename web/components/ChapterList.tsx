@@ -17,6 +17,8 @@ interface ChapterListProps {
 /** Compute the initial visible range based on reading progress. */
 function initialRange(total: number, currentIdx: number | null): { start: number; end: number } | null {
   if (currentIdx === null || total <= 3) return null;
+  if (currentIdx <= 1) return { start: 0, end: Math.min(3, total) };
+  if (currentIdx >= total - 2) return { start: Math.max(0, total - 3), end: total };
   const start = Math.max(0, currentIdx - 1);
   const end = Math.min(total, currentIdx + 2); // exclusive
   return { start, end };

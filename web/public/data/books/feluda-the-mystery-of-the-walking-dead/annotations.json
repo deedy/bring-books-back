@@ -1,0 +1,489 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "A private investigator and the protagonist of the stories, known for his sharp intellect and often addressed respectfully as Felu Babu.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-walking-dead/feluda.webp"
+    },
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "A popular thriller writer and companion of Feluda, also known by his pen name Jatayu.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-walking-dead/lalmohan-babu.webp"
+    },
+    "Tulsi Babu": {
+      "type": "character",
+      "description": "A retired schoolteacher living in Gosaipur and an old acquaintance of Lalmohan Babu.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-walking-dead/tulsi-babu.webp"
+    },
+    "Jeevanlal Mallik": {
+      "type": "character",
+      "description": "The son of Shyamlal Mallik who invites Feluda to Gosaipur to investigate matters at the Mallik household.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-walking-dead/jeevanlal-mallik.webp"
+    },
+    "Shyamlal Mallik": {
+      "type": "character",
+      "description": "Jeevanlal's father and a former zamindar who has rejected modern life after an accident."
+    },
+    "Ganga": {
+      "type": "character",
+      "description": "Ganga is Tulsi Babu's servant who helps with household chores."
+    },
+    "Suresh Chakladar": {
+      "type": "character",
+      "description": "A barrister who presides over local functions in Gosaipur."
+    },
+    "Mriganka Bhattacharya": {
+      "type": "character",
+      "description": "A local figure reputed to communicate with spirits, also known as Atmaram or Atmaram Babu, who is eventually arrested for theft.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-walking-dead/mriganka-bhattacharya.webp"
+    },
+    "Gosaipur": {
+      "type": "proper_noun",
+      "description": "A fictional village in Bengal where much of the story is set."
+    },
+    "Victoria Memorial": {
+      "type": "proper_noun",
+      "description": "A famous monument and museum in Kolkata, built in memory of Queen Victoria."
+    },
+    "Princep Ghat": {
+      "type": "proper_noun",
+      "description": "A historic riverside ghat along the Hooghly River in Kolkata."
+    },
+    "Sandesh": {
+      "type": "proper_noun",
+      "description": "A Bengali children's magazine, historically edited by Satyajit Ray and his family."
+    },
+    "Gosaipur Literary Society": {
+      "type": "proper_noun",
+      "description": "A local organization in Gosaipur that arranges literary events and receptions."
+    },
+    "Katwa Junction": {
+      "type": "proper_noun",
+      "description": "A real railway junction in West Bengal, serving as a transit point to Gosaipur."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, the capital city of West Bengal."
+    },
+    "National Geographic": {
+      "type": "proper_noun",
+      "description": "A well-known international magazine focused on geography, history, and world culture."
+    },
+    "Canada": {
+      "type": "proper_noun",
+      "description": "A country in North America, referenced as Feluda's supposed place of residence."
+    },
+    "Azimganj": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, mentioned as the residence of Tulsi Babu's married daughter."
+    },
+    "daalmut": {
+      "type": "vocabulary",
+      "description": "A crunchy Indian snack made from fried lentils and spices."
+    },
+    "rickshaw": {
+      "type": "vocabulary",
+      "description": "A small, two- or three-wheeled passenger vehicle pulled by a person or driven by cycle."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional long shirt worn in South Asia."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "palanquin": {
+      "type": "vocabulary",
+      "description": "A covered litter for one passenger, carried on poles by several bearers."
+    },
+    "punkha-puller": {
+      "type": "vocabulary",
+      "description": "A person employed to manually operate a ceiling fan (punkha) by pulling a cord, especially before electric fans."
+    },
+    "cheroots": {
+      "type": "vocabulary",
+      "description": "A type of cigar with both ends clipped during manufacture, popular in South Asia."
+    },
+    "neem": {
+      "type": "vocabulary",
+      "description": "A tree native to India, whose twigs are often used as natural toothbrushes."
+    },
+    "ayurvedic": {
+      "type": "vocabulary",
+      "description": "Relating to Ayurveda, the traditional system of medicine native to India."
+    },
+    "Kaviraj": {
+      "type": "vocabulary",
+      "description": "A traditional Ayurvedic doctor or herbal healer."
+    },
+    "beaten-rice": {
+      "type": "vocabulary",
+      "description": "Also known as 'poha', flattened rice flakes commonly eaten as a snack or breakfast in India."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch or gallery attached to the outside of a house."
+    },
+    "bamboo grove": {
+      "type": "vocabulary",
+      "description": "A small forested area consisting mainly of bamboo plants."
+    },
+    "zamindar": {
+      "type": "vocabulary",
+      "description": "A landowner, especially one who leases land to tenant farmers; historically, a hereditary aristocrat in Bengal."
+    },
+    "citation": {
+      "type": "vocabulary",
+      "description": "A formal statement of praise or recognition, often presented at a public function."
+    },
+    "seances": {
+      "type": "vocabulary",
+      "description": "Meetings at which people attempt to communicate with spirits of the dead."
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's cousin and the narrator of the stories, who assists in investigations."
+    },
+    "Dashu": {
+      "type": "character",
+      "description": "A servant in the Mallik household, responsible for pulling the fan."
+    },
+    "Bholanath Babu": {
+      "type": "character",
+      "description": "The trusted manager of the Mallik household, originally from the village.",
+      "image": "/data/images/characters/feluda-the-mystery-of-the-walking-dead/bholanath-babu.webp"
+    },
+    "Durlabh Singh Mallik": {
+      "type": "character",
+      "description": "Shyamlal Mallik's father, a ruthless and feared figure in Gosaipur's history."
+    },
+    "Tarak Kaviraj": {
+      "type": "character",
+      "description": "The ayurvedic doctor attending to Shyamlal Mallik."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic depicting the life and adventures of Lord Rama."
+    },
+    "Bengali": {
+      "type": "proper_noun",
+      "description": "A language spoken in the Indian state of West Bengal and Bangladesh; some books in the house are in Bengali."
+    },
+    "Nescafé": {
+      "type": "proper_noun",
+      "description": "A popular brand of instant coffee."
+    },
+    "south India": {
+      "type": "proper_noun",
+      "description": "A region in the southern part of India, referenced in relation to drinking coffee."
+    },
+    "Katwa": {
+      "type": "proper_noun",
+      "description": "A town mentioned as the posting location of the threatening letter."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A household servant, often responsible for serving and carrying items."
+    },
+    "hookah": {
+      "type": "vocabulary",
+      "description": "A traditional Indian water pipe used for smoking, common in South Asia. The plural form is hookahs."
+    },
+    "bolster": {
+      "type": "vocabulary",
+      "description": "A long, firm pillow placed under other pillows for support."
+    },
+    "Nityanand": {
+      "type": "character",
+      "description": "Mr Bhattacharya's nephew who assists him in spiritual matters."
+    },
+    "Kali": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess often associated with destruction and power, worshipped in many parts of India."
+    },
+    "Guatemala": {
+      "type": "proper_noun",
+      "description": "A country in Central America, mentioned by Lalmohan Babu as a potential setting for his novel."
+    },
+    "Mitter": {
+      "type": "proper_noun",
+      "description": "Feluda's surname, used formally in the text."
+    },
+    "moong daal": {
+      "type": "vocabulary",
+      "description": "A dish made from split yellow mung beans, commonly eaten in Indian cuisine."
+    },
+    "Odomos": {
+      "type": "vocabulary",
+      "description": "A popular Indian brand of mosquito repellent cream."
+    },
+    "Lakshmi": {
+      "type": "character",
+      "description": "Bholanath Babu's deceased daughter, whose spirit was supposedly contacted by Mriganka Bhattacharya."
+    },
+    "Jagarani": {
+      "type": "proper_noun",
+      "description": "The local club in the village, involved in organizing and rehearsing plays."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular Indian brand of cigarettes smoked by Feluda."
+    },
+    "Dettol": {
+      "type": "proper_noun",
+      "description": "A well-known antiseptic liquid used for cleaning wounds."
+    },
+    "shaluk": {
+      "type": "vocabulary",
+      "description": "An aquatic flower, commonly known as water lily, found in ponds in Bengal."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects."
+    },
+    "mosquito net": {
+      "type": "vocabulary",
+      "description": "A fine mesh net used to protect against mosquito bites while sleeping."
+    },
+    "Jeevanlal’s grandmother": {
+      "type": "character",
+      "description": "An elderly woman living in the rear portion of the house, unaware of the murder."
+    },
+    "Kali temple": {
+      "type": "proper_noun",
+      "description": "A Hindu temple dedicated to the goddess Kali, mentioned as a landmark near the bamboo grove. The Bat-kali temple is an old, abandoned Kali temple in the village, now inhabited by bats and considered a local attraction."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful suffix or form of address for men in Bengali and Hindi."
+    },
+    "chappals": {
+      "type": "vocabulary",
+      "description": "A type of open-toed sandal commonly worn in India."
+    },
+    "saree": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn by women in India, consisting of a long piece of cloth draped around the body."
+    },
+    "Sudhakar Pramanik": {
+      "type": "character",
+      "description": "The police inspector in charge of the investigation who helps recover stolen money and is initially skeptical of Feluda."
+    },
+    "Malliks": {
+      "type": "proper_noun",
+      "description": "A family in Gosaipur who own a garden believed to be a breeding ground for mosquitoes."
+    },
+    "Uri Geller": {
+      "type": "proper_noun",
+      "description": "A real-life Israeli-British illusionist famous for allegedly bending spoons and forks with his mind."
+    },
+    "Benimadhav": {
+      "type": "character",
+      "description": "A mime artist encountered by the protagonists near the bamboo grove; he offers to show them the Bat-kali temple and reacts dramatically upon discovering a dead body."
+    },
+    "beedi": {
+      "type": "vocabulary",
+      "description": "A thin, hand-rolled cigarette made of tobacco wrapped in a tendu or temburni leaf, commonly smoked in India."
+    },
+    "pyjamas": {
+      "type": "vocabulary",
+      "description": "Loose-fitting trousers, often worn as nightwear or casual attire in South Asia."
+    },
+    "dakaat": {
+      "type": "vocabulary",
+      "description": "A term for 'dacoit,' meaning a bandit or armed robber in India."
+    },
+    "tabla": {
+      "type": "vocabulary",
+      "description": "A pair of Indian drums used in classical and popular music."
+    },
+    "shloka": {
+      "type": "vocabulary",
+      "description": "A verse, phrase, proverb, or hymn typically composed in Sanskrit, often used in religious or philosophical contexts."
+    },
+    "rupee": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "mango tree": {
+      "type": "vocabulary",
+      "description": "A culturally significant tree in India, often referenced in stories and used as a landmark."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Tulsi Babu",
+      "Jeevanlal Mallik",
+      "Shyamlal Mallik",
+      "Ganga",
+      "Suresh Chakladar",
+      "Mriganka Bhattacharya",
+      "Gosaipur",
+      "Victoria Memorial",
+      "Princep Ghat",
+      "Sandesh",
+      "Gosaipur Literary Society",
+      "Katwa Junction",
+      "Calcutta",
+      "National Geographic",
+      "Canada",
+      "Azimganj",
+      "daalmut",
+      "rickshaw",
+      "kurta",
+      "dhoti",
+      "palanquin",
+      "punkha-puller",
+      "cheroots",
+      "neem",
+      "ayurvedic",
+      "Kaviraj",
+      "beaten-rice",
+      "veranda",
+      "bamboo grove",
+      "zamindar",
+      "citation",
+      "seances",
+      "Topshe",
+      "Durlabh Singh Mallik",
+      "hookah"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Topshe",
+      "Dashu",
+      "Bholanath Babu",
+      "Durlabh Singh Mallik",
+      "Shyamlal Mallik",
+      "Tarak Kaviraj",
+      "Mriganka Bhattacharya",
+      "Ramayana",
+      "Bengali",
+      "Nescafé",
+      "south India",
+      "Katwa",
+      "Gosaipur",
+      "Calcutta",
+      "bearer",
+      "palanquin",
+      "punkha-puller",
+      "zamindar",
+      "hookah",
+      "bolster",
+      "ayurvedic",
+      "Jeevanlal Mallik"
+    ],
+    "ch-3": [
+      "Tulsi Babu",
+      "Lalmohan Babu",
+      "Feluda",
+      "Mriganka Bhattacharya",
+      "Shyamlal Mallik",
+      "Nityanand",
+      "Bholanath Babu",
+      "Ganga",
+      "Kali",
+      "Calcutta",
+      "Guatemala",
+      "Gosaipur",
+      "Mitter",
+      "palanquin",
+      "moong daal",
+      "Odomos",
+      "Topshe",
+      "Durlabh Singh Mallik",
+      "Kali temple"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Jeevanlal Mallik",
+      "Bholanath Babu",
+      "Lalmohan Babu",
+      "Tulsi Babu",
+      "Mriganka Bhattacharya",
+      "Nityanand",
+      "Lakshmi",
+      "Shyamlal Mallik",
+      "Jagarani",
+      "Canada",
+      "Gosaipur",
+      "Charminar",
+      "Dettol",
+      "Odomos",
+      "Kali",
+      "dhoti",
+      "shaluk",
+      "paan",
+      "mosquito net",
+      "neem",
+      "Durlabh Singh Mallik"
+    ],
+    "ch-5": [
+      "Shyamlal Mallik",
+      "Feluda",
+      "Bholanath Babu",
+      "Lalmohan Babu",
+      "Tarak Kaviraj",
+      "Tulsi Babu",
+      "Jeevanlal’s grandmother",
+      "Calcutta",
+      "Kali temple",
+      "Babu",
+      "palanquin",
+      "chappals",
+      "saree",
+      "ayurvedic",
+      "Jeevanlal Mallik"
+    ],
+    "ch-6": [
+      "Lalmohan Babu",
+      "Tulsi Babu",
+      "Feluda",
+      "Sudhakar Pramanik",
+      "Gosaipur",
+      "Malliks",
+      "Uri Geller",
+      "Mriganka Bhattacharya",
+      "Babu",
+      "Jeevanlal Mallik",
+      "Bholanath Babu"
+    ],
+    "ch-7": [
+      "Benimadhav",
+      "Lalmohan Babu",
+      "Feluda",
+      "Tulsi Babu",
+      "Nityanand",
+      "Calcutta",
+      "Gosaipur",
+      "beedi",
+      "pyjamas",
+      "dakaat",
+      "Babu",
+      "Jeevanlal Mallik",
+      "Suresh Chakladar",
+      "Kali temple",
+      "Mriganka Bhattacharya"
+    ],
+    "ch-8": [
+      "Tulsi Babu",
+      "Lalmohan Babu",
+      "Feluda",
+      "Topshe",
+      "Nityanand",
+      "Bholanath Babu",
+      "Shyamlal Mallik",
+      "Jeevanlal Mallik",
+      "Mriganka Bhattacharya",
+      "tabla",
+      "shloka",
+      "rupee",
+      "mango tree",
+      "Durlabh Singh Mallik",
+      "Sudhakar Pramanik"
+    ]
+  }
+}

@@ -22,26 +22,35 @@ interface ChapterContentProps {
   chapterTerms?: string[];
   glossary?: Record<string, Annotation>;
   hideImage?: boolean;
+  hideChapterHeading?: boolean;
   quoteHighlight?: QuoteHighlight;
   onHighlightRef?: (el: HTMLElement | null) => void;
 }
 
 /** Split text on quoted segments and style them differently. */
 function renderWithQuotes(text: string, darkMode: boolean) {
-  // Match straight "..." and curly \u201c...\u201d double quotes only
-  const parts = text.split(/(\u201c[^\u201d]*\u201d|"[^"]*")/g);
-  if (parts.length === 1) return text;
-  const quoteColor = darkMode ? "rgb(186, 180, 160)" : "rgb(120, 90, 50)";
-  return parts.map((part, i) => {
-    if (/^[\u201c"]/.test(part)) {
-      return (
-        <span key={i} style={{ color: quoteColor, fontStyle: "italic" }}>
-          {part}
-        </span>
-      );
+  // Match: curly double \u201c...\u201d, straight double "...", curly single \u2018...\u2019
+  // For curly singles: require closing \u2019 to be followed by non-letter (space, punctuation, EOL)
+  // to distinguish closing quotes from apostrophes (he\u2019s, that\u2019s)
+  const quotePattern = /(\u201c[^\u201d]*\u201d|"[^"]*"|\u2018[\s\S]*?\u2019(?=[^a-zA-Z]|$))/g;
+  const result: (string | React.ReactElement)[] = [];
+  let lastIndex = 0;
+  let match;
+  while ((match = quotePattern.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      result.push(text.slice(lastIndex, match.index));
     }
-    return part;
-  });
+    const quoteColor = darkMode ? "rgb(186, 180, 160)" : "rgb(120, 90, 50)";
+    result.push(
+      <span key={match.index} style={{ color: quoteColor, fontStyle: "italic" }}>
+        {match[0]}
+      </span>
+    );
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex === 0) return text;
+  if (lastIndex < text.length) result.push(text.slice(lastIndex));
+  return result;
 }
 
 /** Render text with annotation highlights + quote styling, handling quotes that span across annotations. */
@@ -64,7 +73,7 @@ function renderAnnotatedText(
   // Pre-compute quote ranges from the full original text so quotes
   // that get split by annotation terms are still detected
   const quoteRanges: [number, number][] = [];
-  const quoteRegex = /\u201c[^\u201d]*\u201d|"[^"]*"/g;
+  const quoteRegex = /\u201c[^\u201d]*\u201d|"[^"]*"|\u2018[\s\S]*?\u2019(?=[^a-zA-Z]|$)/g;
   let qm;
   while ((qm = quoteRegex.exec(text)) !== null) {
     quoteRanges.push([qm.index, qm.index + qm[0].length]);
@@ -155,6 +164,7 @@ export default function ChapterContent({
   chapterTerms,
   glossary,
   hideImage,
+  hideChapterHeading,
   quoteHighlight,
   onHighlightRef,
 }: ChapterContentProps) {
@@ -198,15 +208,17 @@ export default function ChapterContent({
         data-chapter={chapterIndex}
         className="text-center pt-12 pb-8 max-w-[720px] mx-auto px-5 sm:px-6"
       >
-        <p
-          className={`text-xs tracking-[0.25em] uppercase ${
-            darkMode ? "text-white/30" : "text-black/30"
-          }`}
-        >
-          Chapter {chapter.number}
-        </p>
+        {!hideChapterHeading && (
+          <p
+            className={`text-xs tracking-[0.25em] uppercase ${
+              darkMode ? "text-white/30" : "text-black/30"
+            }`}
+          >
+            Chapter {chapter.number}
+          </p>
+        )}
         <h2
-          className={`text-2xl sm:text-3xl font-bold mt-2 ${
+          className={`text-2xl sm:text-3xl font-bold ${hideChapterHeading ? "" : "mt-2"} ${
             darkMode ? "text-white/90" : "text-black/90"
           }`}
           style={{ fontFamily: "var(--font-serif)" }}

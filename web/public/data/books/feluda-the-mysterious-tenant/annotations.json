@@ -1,0 +1,507 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "Prodosh C. Mitter, known as Feluda, is a private investigator and the protagonist of the stories.",
+      "image": "/data/images/characters/feluda-the-mysterious-tenant/feluda.webp"
+    },
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "Lalmohan Babu, also known as Jatayu, is a friend of Feluda and a thriller writer who often accompanies Feluda on his cases."
+    },
+    "Subir Datta": {
+      "type": "character",
+      "description": "A sales executive and visitor who seeks Feluda's help regarding a burglary at his house, Golok Lodge.",
+      "image": "/data/images/characters/feluda-the-mysterious-tenant/subir-datta.webp"
+    },
+    "Nihar Datta": {
+      "type": "character",
+      "description": "Nihar Datta is a biochemist who became blind after a laboratory accident in America and lives in Golok Lodge.",
+      "image": "/data/images/characters/feluda-the-mysterious-tenant/nihar-datta.webp"
+    },
+    "Koumudi": {
+      "type": "character",
+      "description": "Servant of Nihar Datta, who sleeps outside his room to assist him at night.",
+      "image": "/data/images/characters/feluda-the-mysterious-tenant/koumudi.webp"
+    },
+    "Mr Dastur": {
+      "type": "character",
+      "description": "Mr Dastur is a tenant in Subir Datta's house, described as quiet and withdrawn, who runs an electrical goods business and is linked to the theft and the investigation.",
+      "image": "/data/images/characters/feluda-the-mysterious-tenant/mr-dastur.webp"
+    },
+    "Uncle Sidhu": {
+      "type": "character",
+      "description": "A close family friend with an encyclopedic memory, often consulted by Feluda for information."
+    },
+    "Suprakash Choudhury": {
+      "type": "character",
+      "description": "An Indian biochemist who was Nihar Datta's assistant during the laboratory accident."
+    },
+    "Jayadrath": {
+      "type": "proper_noun",
+      "description": "A character from the Mahabharat, husband of Duhshala."
+    },
+    "Duryodhan": {
+      "type": "proper_noun",
+      "description": "A principal antagonist in the Mahabharat, brother of Duhshala."
+    },
+    "Duhshala": {
+      "type": "proper_noun",
+      "description": "Sister of Duryodhan in the Mahabharat."
+    },
+    "Jarasandh": {
+      "type": "proper_noun",
+      "description": "King of Magadh in the Mahabharat."
+    },
+    "Magadh": {
+      "type": "proper_noun",
+      "description": "An ancient kingdom in India, referenced in the Mahabharat."
+    },
+    "Dhrishtadyumna": {
+      "type": "proper_noun",
+      "description": "Brother of Draupadi in the Mahabharat."
+    },
+    "Draupadi": {
+      "type": "proper_noun",
+      "description": "A key female character in the Mahabharat."
+    },
+    "Arjun": {
+      "type": "proper_noun",
+      "description": "A major hero of the Mahabharat, known for his archery skills."
+    },
+    "Yudhisthir": {
+      "type": "proper_noun",
+      "description": "Eldest of the Pandavas in the Mahabharat."
+    },
+    "Anantavijay": {
+      "type": "proper_noun",
+      "description": "Anantavijay and Devdatt are the names of Yudhisthir's and Arjun's conch shells, respectively, in the Mahabharat."
+    },
+    "Twashtra": {
+      "type": "proper_noun",
+      "description": "A mythical missile in the Mahabharat that causes confusion in enemy ranks."
+    },
+    "Ramayan": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic narrating the story of Lord Rama."
+    },
+    "Mahabharat": {
+      "type": "proper_noun",
+      "description": "One of the two major Sanskrit epics of ancient India."
+    },
+    "Kaliprasanna Sinha": {
+      "type": "proper_noun",
+      "description": "A Bengali writer known for his translation of the Mahabharat into Bengali."
+    },
+    "Hijli": {
+      "type": "proper_noun",
+      "description": "A place where Feluda previously solved a murder case."
+    },
+    "Corbett & Norris": {
+      "type": "proper_noun",
+      "description": "The company where Subir Datta works as a sales executive."
+    },
+    "Dinesh Choudhury": {
+      "type": "proper_noun",
+      "description": "A client of Feluda who lives on Camac Street."
+    },
+    "Camac Street": {
+      "type": "proper_noun",
+      "description": "A well-known street in Calcutta."
+    },
+    "University of Michigan": {
+      "type": "proper_noun",
+      "description": "A university in the United States where Nihar Datta worked as a biochemist."
+    },
+    "Ballygunj Park": {
+      "type": "proper_noun",
+      "description": "A residential area in Calcutta where Subir Datta's house is located."
+    },
+    "Bangladesh": {
+      "type": "proper_noun",
+      "description": "A country in South Asia, formerly part of Bengal, referenced as the Datta family's ancestral home."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in India."
+    },
+    "College Street": {
+      "type": "proper_noun",
+      "description": "A famous street in Calcutta known for its bookshops and educational institutions."
+    },
+    "Lindsay Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta where Mr Sukhwani's antiques shop is located."
+    },
+    "Germany": {
+      "type": "proper_noun",
+      "description": "A country in Europe where Subir Datta's elder son lives."
+    },
+    "Dusseldorf": {
+      "type": "proper_noun",
+      "description": "A city in Germany where Subir Datta's elder son works."
+    },
+    "National Library": {
+      "type": "proper_noun",
+      "description": "A major library in Calcutta, referenced as a source of information."
+    },
+    "zamindars": {
+      "type": "vocabulary",
+      "description": "Landowners, often hereditary, who held large estates and collected taxes in colonial India."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A term of respect or endearment in Bengali and Hindi, often used for educated men."
+    },
+    "Golok Bihari Datta": {
+      "type": "character",
+      "description": "The grandfather of Subir and Nihar Datta, after whom Golok Lodge is named."
+    },
+    "Topesh": {
+      "type": "character",
+      "description": "Topesh, also referred to as Topshe, is Feluda’s cousin and the narrator of the story."
+    },
+    "Golok Lodge": {
+      "type": "proper_noun",
+      "description": "The name of the Datta family's residence, named after Golok Bihari Datta."
+    },
+    "Belgium": {
+      "type": "proper_noun",
+      "description": "A European country, referenced as the origin of the large mirror in the living room."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular brand of Indian cigarettes."
+    },
+    "America": {
+      "type": "proper_noun",
+      "description": "Refers to the United States, where Suprakash Choudhury had been a student."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country to which Nihar Datta returned with his research papers."
+    },
+    "Nobel Prize": {
+      "type": "proper_noun",
+      "description": "A prestigious international award, mentioned as a possible achievement for Nihar Datta's research."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional long shirt worn in South Asia, typically by men."
+    },
+    "pyjamas": {
+      "type": "vocabulary",
+      "description": "Loose-fitting trousers, part of traditional South Asian attire, often worn with a kurta."
+    },
+    "Namaskar": {
+      "type": "vocabulary",
+      "description": "A respectful greeting in India, similar to 'hello' or 'greetings.'"
+    },
+    "Dada": {
+      "type": "vocabulary",
+      "description": "A Bengali term meaning 'elder brother,' used as a respectful form of address."
+    },
+    "Ranajit Banerjee": {
+      "type": "character",
+      "description": "Ranajit Banerjee is Nihar Datta’s secretary, who has worked for him for four years.",
+      "image": "/data/images/characters/feluda-the-mysterious-tenant/ranajit-banerjee.webp"
+    },
+    "Shankar Datta": {
+      "type": "character",
+      "description": "Shankar Datta is Subir Datta’s younger son, described as troubled, suspected of theft, and involved in criminal activities."
+    },
+    "Inspector Bakshi": {
+      "type": "character",
+      "description": "A police inspector from Calcutta Police investigating the murder."
+    },
+    "Dr Sarkar": {
+      "type": "character",
+      "description": "A doctor who examines Mr Dastur’s body after the murder."
+    },
+    "Bhagirath": {
+      "type": "character",
+      "description": "A servant who finds the missing envelope with research papers."
+    },
+    "Godrej": {
+      "type": "proper_noun",
+      "description": "A well-known Indian brand, here referring to a steel safe."
+    },
+    "Soneril": {
+      "type": "proper_noun",
+      "description": "A brand of strong sleeping pills."
+    },
+    "East Bengal": {
+      "type": "proper_noun",
+      "description": "A famous football club based in Kolkata."
+    },
+    "Thums-Up": {
+      "type": "proper_noun",
+      "description": "A well-known Indian cola soft drink."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, a major city in India."
+    },
+    "Argentina": {
+      "type": "proper_noun",
+      "description": "A South American country, referenced in a letter found in Dastur’s room."
+    },
+    "Dalhousie Square": {
+      "type": "proper_noun",
+      "description": "A prominent area in central Kolkata."
+    },
+    "Southern Avenue": {
+      "type": "proper_noun",
+      "description": "A major road in Kolkata."
+    },
+    "Lansdowne Road": {
+      "type": "proper_noun",
+      "description": "A well-known road in Kolkata."
+    },
+    "Elgin Road": {
+      "type": "proper_noun",
+      "description": "A road in Kolkata."
+    },
+    "Lower Circular Road": {
+      "type": "proper_noun",
+      "description": "A road in Kolkata."
+    },
+    "Park Street": {
+      "type": "proper_noun",
+      "description": "A famous street in Kolkata."
+    },
+    "Mirza Ghalib Street": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata."
+    },
+    "Marquis Street": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata."
+    },
+    "The New Corinthian Lodge": {
+      "type": "proper_noun",
+      "description": "A hotel in Kolkata where Shankar and his gang are seen."
+    },
+    "G T Road": {
+      "type": "proper_noun",
+      "description": "Grand Trunk Road, a major road in India."
+    },
+    "Pandavas": {
+      "type": "proper_noun",
+      "description": "The five heroic brothers in the Mahabharat."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed platform along the outside of a house; common in Indian architecture."
+    },
+    "hookahs": {
+      "type": "vocabulary",
+      "description": "Traditional Indian water pipes used for smoking."
+    },
+    "ittar": {
+      "type": "vocabulary",
+      "description": "A type of natural perfume oil popular in South Asia."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or security guard in India."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects."
+    },
+    "paisa": {
+      "type": "vocabulary",
+      "description": "A subunit of the Indian rupee."
+    },
+    "ashtray": {
+      "type": "vocabulary",
+      "description": "A receptacle for ash from cigarettes or cigars, commonly found in Indian homes."
+    },
+    "Sellotape": {
+      "type": "vocabulary",
+      "description": "A brand of transparent adhesive tape, commonly used in India."
+    },
+    "collapsible gate": {
+      "type": "vocabulary",
+      "description": "A type of folding metal gate, often used for security in Indian buildings."
+    },
+    "Professor Bagchi": {
+      "type": "character",
+      "description": "Ranajit Banerjee's former professor, who provides background information about Banerjee's academic excellence."
+    },
+    "Sukhwani": {
+      "type": "character",
+      "description": "Mr Sukhwani is a tenant in Subir Datta's house, owns an antiques shop in Lindsay Street, and is considered shady."
+    },
+    "Department of Biochemistry, University of Michigan, Michigan, USA": {
+      "type": "proper_noun",
+      "description": "The institution printed on the envelope, suggesting a connection to scientific research."
+    },
+    "Madame Tussaud’s": {
+      "type": "proper_noun",
+      "description": "A famous wax museum in London, used as a comparison for Ranajit Banerjee's expression."
+    },
+    "Dasharath": {
+      "type": "proper_noun",
+      "description": "A king from the Ramayan, whose story is used as an analogy in Feluda's explanation."
+    },
+    "London": {
+      "type": "proper_noun",
+      "description": "The capital of England, mentioned as the location of Madame Tussaud’s."
+    },
+    "kerosene lamp": {
+      "type": "vocabulary",
+      "description": "A lamp that burns kerosene as fuel, commonly used in India during power cuts."
+    },
+    "foolscap": {
+      "type": "vocabulary",
+      "description": "A size of paper commonly used in India for writing, larger than A4."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Subir Datta",
+      "Nihar Datta",
+      "Koumudi",
+      "Mr Dastur",
+      "Uncle Sidhu",
+      "Suprakash Choudhury",
+      "Jayadrath",
+      "Duryodhan",
+      "Duhshala",
+      "Jarasandh",
+      "Magadh",
+      "Dhrishtadyumna",
+      "Draupadi",
+      "Arjun",
+      "Yudhisthir",
+      "Anantavijay",
+      "Twashtra",
+      "Ramayan",
+      "Mahabharat",
+      "Kaliprasanna Sinha",
+      "Hijli",
+      "Corbett & Norris",
+      "Dinesh Choudhury",
+      "Camac Street",
+      "University of Michigan",
+      "Ballygunj Park",
+      "Bangladesh",
+      "Calcutta",
+      "College Street",
+      "Lindsay Street",
+      "Germany",
+      "Dusseldorf",
+      "National Library",
+      "zamindars",
+      "rupees",
+      "Shankar Datta",
+      "Sukhwani"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Subir Datta",
+      "Golok Bihari Datta",
+      "Nihar Datta",
+      "Topesh",
+      "Suprakash Choudhury",
+      "Koumudi",
+      "Ballygunj Park",
+      "Golok Lodge",
+      "Belgium",
+      "Charminar",
+      "America",
+      "India",
+      "Nobel Prize",
+      "kurta",
+      "pyjamas",
+      "Namaskar",
+      "Dada",
+      "Ranajit Banerjee"
+    ],
+    "ch-3": [
+      "Nihar Datta",
+      "Feluda",
+      "Subir Datta",
+      "Koumudi",
+      "Ranajit Banerjee",
+      "Mr Dastur",
+      "Shankar Datta",
+      "Uncle Sidhu",
+      "Inspector Bakshi",
+      "Dr Sarkar",
+      "Bhagirath",
+      "Godrej",
+      "Soneril",
+      "East Bengal",
+      "University of Michigan",
+      "Charminar",
+      "Thums-Up",
+      "Calcutta",
+      "Bombay",
+      "Germany",
+      "Argentina",
+      "Ballygunj Park",
+      "Dalhousie Square",
+      "Golok Lodge",
+      "Southern Avenue",
+      "Lansdowne Road",
+      "Elgin Road",
+      "Lower Circular Road",
+      "Camac Street",
+      "Park Street",
+      "Mirza Ghalib Street",
+      "Marquis Street",
+      "The New Corinthian Lodge",
+      "G T Road",
+      "Mahabharat",
+      "Pandavas",
+      "babu",
+      "veranda",
+      "hookahs",
+      "ittar",
+      "dhoti",
+      "chowkidar",
+      "paan",
+      "rupees",
+      "paisa",
+      "ashtray",
+      "Sellotape",
+      "collapsible gate",
+      "Sukhwani",
+      "Topesh"
+    ],
+    "ch-4": [
+      "Ranajit Banerjee",
+      "Feluda",
+      "Subir Datta",
+      "Nihar Datta",
+      "Suprakash Choudhury",
+      "Professor Bagchi",
+      "Sukhwani",
+      "Golok Lodge",
+      "Department of Biochemistry, University of Michigan, Michigan, USA",
+      "Calcutta",
+      "Madame Tussaud’s",
+      "Ramayan",
+      "Dasharath",
+      "London",
+      "kerosene lamp",
+      "foolscap",
+      "Sellotape",
+      "Mr Dastur",
+      "Topesh"
+    ]
+  }
+}

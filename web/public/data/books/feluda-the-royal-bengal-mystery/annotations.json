@@ -1,0 +1,751 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "A private detective renowned for his intelligence and deductive skills, also known as Feluda.",
+      "image": "/data/images/characters/feluda-the-royal-bengal-mystery/feluda.webp"
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's cousin and the narrator of the stories, often assisting Feluda in his investigations."
+    },
+    "Lalmohan Ganguli": {
+      "type": "character",
+      "description": "A popular crime thriller writer who uses the pen name Jatayu and is a close companion of Feluda.",
+      "image": "/data/images/characters/feluda-the-royal-bengal-mystery/lalmohan-ganguli.webp"
+    },
+    "Mahitosh Sinha-Roy": {
+      "type": "character",
+      "description": "A well-known shikari, writer, and owner of the Sinha-Roy Palace whose family history is central to the mystery.",
+      "image": "/data/images/characters/feluda-the-royal-bengal-mystery/mahitosh-sinha-roy.webp"
+    },
+    "Torit Sengupta": {
+      "type": "character",
+      "description": "The secretary to Mahitosh Sinha-Roy whose death triggers the investigation; his brother handles his funeral arrangements.",
+      "image": "/data/images/characters/feluda-the-royal-bengal-mystery/torit-sengupta.webp"
+    },
+    "Devtosh Babu": {
+      "type": "character",
+      "description": "Mahitosh Sinha-Roy's elder brother, known for his extensive knowledge of history but suffering from mental health issues.",
+      "image": "/data/images/characters/feluda-the-royal-bengal-mystery/devtosh-babu.webp"
+    },
+    "Laxmanbari": {
+      "type": "proper_noun",
+      "description": "A fictitious place near the border of Bhutan, where the main events of the story occur."
+    },
+    "Bhutan": {
+      "type": "proper_noun",
+      "description": "A country in the Eastern Himalayas, bordering India, referenced as the location near Laxmanbari."
+    },
+    "Rajputana": {
+      "type": "proper_noun",
+      "description": "A historical region in northwestern India, now largely in Rajasthan, from where the Sinha-Roy family is said to have originated."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, home to the story's main characters."
+    },
+    "Todar Mal": {
+      "type": "proper_noun",
+      "description": "A historical figure, a finance minister in the Mughal Empire, mentioned as having led armies in Bengal."
+    },
+    "Pathans": {
+      "type": "proper_noun",
+      "description": "An ethnic group from the north-western region of the Indian subcontinent, referenced as historical adversaries."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "Now called Kolkata, it is the capital of West Bengal and the starting point of the story."
+    },
+    "West Bengal": {
+      "type": "proper_noun",
+      "description": "A state in eastern India, where much of the story takes place."
+    },
+    "Sunderbans": {
+      "type": "proper_noun",
+      "description": "A large mangrove forest area in southern West Bengal, famous for its tigers."
+    },
+    "Terai": {
+      "type": "proper_noun",
+      "description": "A region of marshy grasslands at the base of the Himalayas, known for its forests."
+    },
+    "Orissa": {
+      "type": "proper_noun",
+      "description": "Now called Odisha, a state in eastern India, mentioned as a possible residence of Mahitosh Sinha-Roy."
+    },
+    "Assam": {
+      "type": "proper_noun",
+      "description": "A state in northeastern India, also mentioned as a possible residence of Mahitosh Sinha-Roy."
+    },
+    "Dooars Forest": {
+      "type": "proper_noun",
+      "description": "A forested region in northern West Bengal, near Bhutan, where Mahitosh Sinha-Roy lives."
+    },
+    "Robert Scott": {
+      "type": "proper_noun",
+      "description": "A British explorer of the Antarctic, referenced in a book dedication."
+    },
+    "David Livingstone": {
+      "type": "proper_noun",
+      "description": "A British explorer and missionary in Africa, referenced in a book dedication."
+    },
+    "Einstein": {
+      "type": "proper_noun",
+      "description": "Albert Einstein, the famous physicist, referenced in a book dedication."
+    },
+    "Sir Edmund Hillary": {
+      "type": "proper_noun",
+      "description": "A famous New Zealand mountaineer, referenced in a book dedication."
+    },
+    "The Tiger and the Gun": {
+      "type": "proper_noun",
+      "description": "A book written by Mahitosh Sinha-Roy, consulted by Lalmohan Babu."
+    },
+    "New Jalpaiguri": {
+      "type": "proper_noun",
+      "description": "A major railway station in northern West Bengal, where the characters arrive before heading to Laxmanbari."
+    },
+    "Shonadeeghi": {
+      "type": "proper_noun",
+      "description": "A village near Dhaka, mentioned as the ancestral home of the narrator's family."
+    },
+    "Dhaka": {
+      "type": "proper_noun",
+      "description": "The capital of Bangladesh, referenced as the location near Shonadeeghi."
+    },
+    "Mymansinh": {
+      "type": "proper_noun",
+      "description": "A region in Bangladesh, where the narrator's uncle managed an estate."
+    },
+    "Madhupur": {
+      "type": "proper_noun",
+      "description": "A forested area north of Mymansinh, known for wildlife."
+    },
+    "Corbett": {
+      "type": "proper_noun",
+      "description": "Refers to Jim Corbett, a famous British-Indian hunter and writer."
+    },
+    "Kenneth Anderson": {
+      "type": "proper_noun",
+      "description": "A well-known hunter and writer of adventure stories set in Indian jungles."
+    },
+    "Royal Bengal tiger": {
+      "type": "proper_noun",
+      "description": "The Royal Bengal tiger is a subspecies of tiger native to the Indian subcontinent, featured in the story as a significant presence and symbol of the region's wildlife."
+    },
+    "Indian government": {
+      "type": "proper_noun",
+      "description": "The central government of India, referenced in relation to the ban on hunting."
+    },
+    "New Farakka": {
+      "type": "proper_noun",
+      "description": "A railway station in West Bengal, passed by the characters on their journey."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "A major mountain range in Asia, visible from the north of Laxmanbari."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, mentioned as being north of Laxmanbari."
+    },
+    "Teesta": {
+      "type": "proper_noun",
+      "description": "A river in the eastern Himalayas, crossed by the characters en route to Laxmanbari."
+    },
+    "Hasimara": {
+      "type": "proper_noun",
+      "description": "A town near the Bhutan border, where Mahitosh Sinha-Roy owns a tea estate."
+    },
+    "Forest Department": {
+      "type": "proper_noun",
+      "description": "A government body responsible for managing forests and wildlife in India."
+    },
+    "Kalbuni": {
+      "type": "proper_noun",
+      "description": "A forest near Laxmanbari, once known for its tigers."
+    },
+    "Sinha-Roy Palace": {
+      "type": "proper_noun",
+      "description": "The mansion owned by Mahitosh Sinha-Roy, where the main events unfold."
+    },
+    "zamindar": {
+      "type": "vocabulary",
+      "description": "A zamindar is a hereditary landowner, often with feudal privileges, in colonial and pre-colonial India; 'zamindars' refers to multiple such landowners."
+    },
+    "shikari": {
+      "type": "vocabulary",
+      "description": "A shikari is a hunter, especially one who hunts big game in India; the plural form 'shikaris' refers to multiple hunters, often featured in the context of tiger hunting."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term of address for men in Bengal, often used after a name."
+    },
+    "adivasi": {
+      "type": "vocabulary",
+      "description": "A term for the indigenous tribal peoples of India."
+    },
+    "sheaf": {
+      "type": "vocabulary",
+      "description": "A bundle of papers or documents, often manuscripts."
+    },
+    "divan": {
+      "type": "vocabulary",
+      "description": "A long, low sofa without a back or arms, commonly used in India."
+    },
+    "Shashanka Sanyal": {
+      "type": "character",
+      "description": "Mahitosh Babu's childhood friend and timber business manager who brings news of the death."
+    },
+    "Bankim Chandra Chatterjee": {
+      "type": "proper_noun",
+      "description": "A renowned Bengali novelist and poet, author of 'Devi Chowdhurani'."
+    },
+    "Devi Chowdhurani": {
+      "type": "proper_noun",
+      "description": "A famous Bengali novel by Bankim Chandra Chatterjee, set in Bengal and featuring a female protagonist."
+    },
+    "Trisrota": {
+      "type": "proper_noun",
+      "description": "An ancient or alternative name for the Teesta river, referenced in Bengali literature."
+    },
+    "Jalpeshwar": {
+      "type": "proper_noun",
+      "description": "A Shiva temple near the story's setting, significant for local religious gatherings."
+    },
+    "Shivaratri": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival dedicated to Lord Shiva, marked by night-long worship and fairs."
+    },
+    "Gaur": {
+      "type": "proper_noun",
+      "description": "An ancient city in Bengal, historically significant and once ruled by Sultan Hussain Khan."
+    },
+    "Hussain Khan": {
+      "type": "proper_noun",
+      "description": "A historical figure, former Sultan of Gaur, known for destroying Hindu temples in Bengal."
+    },
+    "Kalapahar": {
+      "type": "proper_noun",
+      "description": "A historical figure associated with the destruction of Hindu temples in Bengal."
+    },
+    "mango sherbet": {
+      "type": "vocabulary",
+      "description": "A sweet, chilled beverage made from mango pulp, sugar, and water, popular in India."
+    },
+    "machaan": {
+      "type": "vocabulary",
+      "description": "A raised platform or cot, often used in India for hunting or as a lookout in forests."
+    },
+    "shikar": {
+      "type": "vocabulary",
+      "description": "The act of hunting, especially big game, in the Indian subcontinent."
+    },
+    "Madhavlal": {
+      "type": "character",
+      "description": "A professional shikari (hunter) who acts as a guide for the group and is experienced in jungle expeditions.",
+      "image": "/data/images/characters/feluda-the-royal-bengal-mystery/madhavlal.webp"
+    },
+    "Adityanarayan": {
+      "type": "character",
+      "description": "Mahitosh Babu’s grandfather, who went mad in his old age and is associated with the hidden riddle and the sword."
+    },
+    "Sher Shah": {
+      "type": "proper_noun",
+      "description": "A historical figure, Sher Shah Suri, who allegedly earned his title by beheading a tiger with a sword."
+    },
+    "Bikaner": {
+      "type": "proper_noun",
+      "description": "A city in Rajasthan, India, known for its historic fort and Rajput heritage."
+    },
+    "Rajput": {
+      "type": "proper_noun",
+      "description": "A member of a prominent warrior class in India, associated here with impressive swords in Bikaner fort."
+    },
+    "Mughal": {
+      "type": "proper_noun",
+      "description": "Refers to the Mughal Empire, which ruled large parts of India; mentioned in relation to binoculars and hunting traditions."
+    },
+    "Sinha-Roy": {
+      "type": "proper_noun",
+      "description": "Sinha-Roy refers to the prominent family in the story, whose history and secrets are central to the plot. The Sinha-Roys are known for their heritage and the Sinha-Roy Palace."
+    },
+    "badshahs": {
+      "type": "vocabulary",
+      "description": "A Persian-derived term meaning 'kings' or 'emperors', used for Mughal rulers."
+    },
+    "mrigaya": {
+      "type": "vocabulary",
+      "description": "A Sanskrit word meaning 'hunting', used for royal or traditional hunting expeditions."
+    },
+    "kukris": {
+      "type": "vocabulary",
+      "description": "A type of curved knife traditionally used by the Gurkhas of Nepal and northern India."
+    },
+    "Bhot Raja": {
+      "type": "proper_noun",
+      "description": "Refers to the king of Bhutan; 'Bhot' is an old term for Bhutan or Tibet in Bengali."
+    },
+    "Raja of Bhutan": {
+      "type": "proper_noun",
+      "description": "The monarch of Bhutan, a Himalayan kingdom neighboring India."
+    },
+    "Nawab": {
+      "type": "proper_noun",
+      "description": "A historical title for Muslim rulers or noblemen in South Asia, particularly during the Mughal era."
+    },
+    "Yudhisthir": {
+      "type": "proper_noun",
+      "description": "A major character from the Indian epic Mahabharata, known for his righteousness; his chariot's wheels not touching the ground is a famous mythological motif."
+    },
+    "Simla": {
+      "type": "proper_noun",
+      "description": "A hill station in northern India, now known as Shimla, popular for its colonial architecture and cool climate."
+    },
+    "Odomos": {
+      "type": "proper_noun",
+      "description": "A popular Indian brand of mosquito repellent cream."
+    },
+    "clogs": {
+      "type": "vocabulary",
+      "description": "Wooden-soled footwear, sometimes worn indoors in India for comfort or to reduce noise."
+    },
+    "mosquito nets": {
+      "type": "vocabulary",
+      "description": "Fine mesh nets used in India to protect sleepers from mosquito bites, especially in rural or forested areas."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch or gallery common in Indian homes, often used for sitting or socializing."
+    },
+    "Kanai": {
+      "type": "character",
+      "description": "One of the three bearers, responsible for bringing morning tea to the group."
+    },
+    "Mr Datta": {
+      "type": "character",
+      "description": "A man from the Forest Department who accompanies the investigation party."
+    },
+    "yoga": {
+      "type": "vocabulary",
+      "description": "A physical, mental, and spiritual practice originating in ancient India."
+    },
+    "bearers": {
+      "type": "vocabulary",
+      "description": "Servants or attendants, often responsible for carrying luggage or performing household tasks."
+    },
+    "Inspector Biswas": {
+      "type": "character",
+      "description": "Inspector Biswas is the police inspector leading the official investigation into Mr Sengupta's death, often in rivalry with Feluda. He is also referred to as Mr Biswas."
+    },
+    "Chandan Mishir": {
+      "type": "character",
+      "description": "The chowkidar (watchman) of Mahitosh Babu's estate, who provides local information about the forest and the tiger."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular Indian brand of cigarettes smoked by Feluda."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or guard, typically employed to look after property."
+    },
+    "huzoor": {
+      "type": "vocabulary",
+      "description": "A term of respect meaning 'sir' or 'master', used in Hindi and Urdu."
+    },
+    "Coochbehar": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, mentioned in the context of a book on its history."
+    },
+    "Chopped Goddess": {
+      "type": "proper_noun",
+      "description": "A temple mentioned as a landmark near the significant peepul tree."
+    },
+    "Raju": {
+      "type": "proper_noun",
+      "description": "A person mentioned as being responsible for the temple of the Chopped Goddess."
+    },
+    "fakir": {
+      "type": "vocabulary",
+      "description": "A term for a holy man or ascetic, often associated with Sufi or Hindu traditions."
+    },
+    "Sengupta": {
+      "type": "proper_noun",
+      "description": "The surname of Torit Sengupta and Mr Sengupta, central figures in the mystery."
+    },
+    "peepul tree": {
+      "type": "vocabulary",
+      "description": "The peepul tree (Ficus religiosa) is a sacred fig tree commonly found in India, often associated with religious and cultural significance and serving as a landmark in the story."
+    },
+    "khaki": {
+      "type": "vocabulary",
+      "description": "A light brown fabric commonly used for trousers and uniforms, especially in India."
+    },
+    "man-eater": {
+      "type": "vocabulary",
+      "description": "A term used in India for a tiger or other animal that has developed a habit of attacking and eating humans."
+    },
+    "Mr Sapru": {
+      "type": "character",
+      "description": "A renowned shikari (hunter) expected to arrive to deal with the man-eater tiger."
+    },
+    "Jim Corbett": {
+      "type": "character",
+      "description": "A famous British-Indian hunter and author known for hunting man-eating tigers and leopards."
+    },
+    "Durga": {
+      "type": "proper_noun",
+      "description": "A major Hindu goddess, often depicted with ten arms, worshipped for her power and protection."
+    },
+    "nullah": {
+      "type": "vocabulary",
+      "description": "A small stream or watercourse, often dry except during the rainy season."
+    },
+    "pug mark": {
+      "type": "vocabulary",
+      "description": "A pug mark is the footprint or track of an animal, especially a tiger, with 'pug marks' being the plural form commonly used in Indian English."
+    },
+    "banyan": {
+      "type": "vocabulary",
+      "description": "A large, spreading tree (Ficus benghalensis) native to India, known for its aerial roots."
+    },
+    "krait": {
+      "type": "vocabulary",
+      "description": "A highly venomous snake found in South and Southeast Asia."
+    },
+    "stinging nettle": {
+      "type": "vocabulary",
+      "description": "A plant with hairs that cause a stinging sensation when touched."
+    },
+    "Head of the Forest Department": {
+      "type": "proper_noun",
+      "description": "The chief official in charge of the forest area, visited by Mahitosh Babu and Mr Sanyal."
+    },
+    "Jalpaiguri": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, referenced as a travel destination."
+    },
+    "Kurukshetra": {
+      "type": "proper_noun",
+      "description": "A historic battlefield from the Indian epic Mahabharata, referenced metaphorically."
+    },
+    "Archimedes": {
+      "type": "proper_noun",
+      "description": "An ancient Greek mathematician, referenced for his famous exclamation 'Eureka!'."
+    },
+    "Parvat Singh": {
+      "type": "character",
+      "description": "A bearer who accompanies Mahitosh Babu on hunting expeditions and is responsible for carrying the rifle."
+    },
+    "Maharaja": {
+      "type": "proper_noun",
+      "description": "A title for a Hindu prince or king in India, here referring to the ruler of Coochbehar."
+    },
+    "bed-tea": {
+      "type": "vocabulary",
+      "description": "Morning tea served in bed, a common custom in Indian households."
+    },
+    "Sambalpur": {
+      "type": "proper_noun",
+      "description": "A city in Odisha, India, mentioned as the location where the tiger was killed in 1957."
+    },
+    "mynahs": {
+      "type": "vocabulary",
+      "description": "A type of bird native to South Asia, often referenced in Indian contexts."
+    },
+    "airgun": {
+      "type": "vocabulary",
+      "description": "A gun that uses compressed air to fire pellets, commonly used for shooting small game or target practice in India."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Lalmohan Ganguli",
+      "Mahitosh Sinha-Roy",
+      "Torit Sengupta",
+      "Devtosh Babu",
+      "Laxmanbari",
+      "Bhutan",
+      "Rajputana",
+      "Bengal",
+      "Todar Mal",
+      "Pathans",
+      "Calcutta",
+      "West Bengal",
+      "Sunderbans",
+      "Terai",
+      "Orissa",
+      "Assam",
+      "Dooars Forest",
+      "Robert Scott",
+      "David Livingstone",
+      "Einstein",
+      "Sir Edmund Hillary",
+      "The Tiger and the Gun",
+      "New Jalpaiguri",
+      "Shonadeeghi",
+      "Dhaka",
+      "Mymansinh",
+      "Madhupur",
+      "Corbett",
+      "Kenneth Anderson",
+      "Royal Bengal tiger",
+      "Indian government",
+      "New Farakka",
+      "Himalayas",
+      "Darjeeling",
+      "Teesta",
+      "Hasimara",
+      "Forest Department",
+      "Kalbuni",
+      "Sinha-Roy Palace",
+      "zamindar",
+      "shikari",
+      "Babu",
+      "adivasi",
+      "sheaf",
+      "divan"
+    ],
+    "ch-2": [
+      "Mahitosh Sinha-Roy",
+      "Feluda",
+      "Shashanka Sanyal",
+      "Devtosh Babu",
+      "Rajputana",
+      "Bankim Chandra Chatterjee",
+      "Devi Chowdhurani",
+      "Teesta",
+      "Trisrota",
+      "Bhutan",
+      "Jalpeshwar",
+      "Shivaratri",
+      "Calcutta",
+      "Gaur",
+      "Hussain Khan",
+      "Kalapahar",
+      "Babu",
+      "shikari",
+      "mango sherbet",
+      "machaan",
+      "shikar",
+      "Lalmohan Ganguli",
+      "Torit Sengupta"
+    ],
+    "ch-3": [
+      "Shashanka Sanyal",
+      "Madhavlal",
+      "Feluda",
+      "Adityanarayan",
+      "Torit Sengupta",
+      "Calcutta",
+      "Sher Shah",
+      "Bhutan",
+      "Bikaner",
+      "Rajput",
+      "Mughal",
+      "Sinha-Roy",
+      "shikari",
+      "machaan",
+      "Babu",
+      "badshahs",
+      "shikar",
+      "mrigaya",
+      "kukris",
+      "Mahitosh Sinha-Roy",
+      "Lalmohan Ganguli"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Devtosh Babu",
+      "Mahitosh Sinha-Roy",
+      "Bhot Raja",
+      "Raja of Bhutan",
+      "Nawab",
+      "Adityanarayan",
+      "Yudhisthir",
+      "Simla",
+      "Odomos",
+      "Kalbuni",
+      "Jalpeshwar",
+      "clogs",
+      "mosquito nets",
+      "veranda",
+      "Lalmohan Ganguli"
+    ],
+    "ch-5": [
+      "Feluda",
+      "Kanai",
+      "Adityanarayan",
+      "Mr Datta",
+      "Madhavlal",
+      "Forest Department",
+      "Shashanka Sanyal",
+      "Torit Sengupta",
+      "yoga",
+      "bearers",
+      "Babu",
+      "shikari",
+      "Mahitosh Sinha-Roy",
+      "Lalmohan Ganguli",
+      "pug mark"
+    ],
+    "ch-6": [
+      "Shashanka Sanyal",
+      "Feluda",
+      "Inspector Biswas",
+      "Torit Sengupta",
+      "Chandan Mishir",
+      "Charminar",
+      "Assam",
+      "Orissa",
+      "Kalbuni",
+      "Sinha-Roy",
+      "Babu",
+      "chowkidar",
+      "huzoor",
+      "shikari",
+      "shikar",
+      "machaan",
+      "Mahitosh Sinha-Roy",
+      "Lalmohan Ganguli"
+    ],
+    "ch-7": [
+      "Kanai",
+      "Feluda",
+      "Devtosh Babu",
+      "Topshe",
+      "Madhavlal",
+      "Torit Sengupta",
+      "Adityanarayan",
+      "Calcutta",
+      "Coochbehar",
+      "Kalbuni",
+      "Yudhisthir",
+      "Chopped Goddess",
+      "Raju",
+      "Babu",
+      "fakir",
+      "Mahitosh Sinha-Roy",
+      "Lalmohan Ganguli",
+      "peepul tree"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Torit Sengupta",
+      "Mahitosh Sinha-Roy",
+      "Devtosh Babu",
+      "Shashanka Sanyal",
+      "Madhavlal",
+      "Calcutta",
+      "Yudhisthir",
+      "Kalapahar",
+      "Raju",
+      "Sengupta",
+      "Sinha-Roy",
+      "Babu",
+      "fakir",
+      "shikari",
+      "peepul tree",
+      "khaki",
+      "man-eater",
+      "Inspector Biswas",
+      "Lalmohan Ganguli"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Madhavlal",
+      "Mr Sapru",
+      "Jim Corbett",
+      "Adityanarayan",
+      "Devtosh Babu",
+      "Calcutta",
+      "Terai",
+      "Forest Department",
+      "Assam",
+      "Orissa",
+      "Adityanarayan",
+      "Chopped Goddess",
+      "Sher Shah",
+      "Durga",
+      "Kalapahar",
+      "shikari",
+      "nullah",
+      "pug mark",
+      "shikar",
+      "banyan",
+      "krait",
+      "stinging nettle",
+      "Mahitosh Sinha-Roy",
+      "Lalmohan Ganguli",
+      "Torit Sengupta",
+      "peepul tree"
+    ],
+    "ch-10": [
+      "Feluda",
+      "Devtosh Babu",
+      "Torit Sengupta",
+      "Madhavlal",
+      "Adityanarayan",
+      "Head of the Forest Department",
+      "Kalbuni",
+      "Jalpaiguri",
+      "Sinha-Roy",
+      "Chopped Goddess",
+      "Kurukshetra",
+      "Archimedes",
+      "Babu",
+      "pug mark",
+      "peepul tree",
+      "chowkidar",
+      "Mahitosh Sinha-Roy",
+      "Lalmohan Ganguli",
+      "Royal Bengal tiger",
+      "Shashanka Sanyal"
+    ],
+    "ch-11": [
+      "Feluda",
+      "Torit Sengupta",
+      "Devtosh Babu",
+      "Madhavlal",
+      "Parvat Singh",
+      "Topshe",
+      "Bengal",
+      "Calcutta",
+      "Coochbehar",
+      "Maharaja",
+      "bed-tea",
+      "Babu",
+      "nullah",
+      "Mahitosh Sinha-Roy",
+      "Lalmohan Ganguli",
+      "Sinha-Roy",
+      "peepul tree",
+      "zamindar",
+      "Shashanka Sanyal"
+    ],
+    "ch-12": [
+      "Parvat Singh",
+      "Feluda",
+      "Torit Sengupta",
+      "Madhavlal",
+      "Adityanarayan",
+      "Assam",
+      "Orissa",
+      "Yudhisthir",
+      "Sinha-Roy",
+      "Sengupta",
+      "Sambalpur",
+      "Calcutta",
+      "shikari",
+      "mynahs",
+      "peepul tree",
+      "airgun",
+      "Mahitosh Sinha-Roy",
+      "Lalmohan Ganguli",
+      "pug mark",
+      "Shashanka Sanyal"
+    ]
+  }
+}

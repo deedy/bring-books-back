@@ -1,0 +1,21 @@
+{
+  "id": "feluda-robertson-s-ruby",
+  "title": "Robertson's Ruby",
+  "transliteratedTitle": "Robertsoner Ruby",
+  "subtitle": "A Legendary Ruby, A Tangled Web of Deceit",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-robertson-s-ruby.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "রবার্টসনের রুবি",
+  "originalYear": 1990,
+  "totalChapters": 9,
+  "wordCount": 14809,
+  "summary": "When master detective Feluda is drawn into the mysterious world of Robertson’s Ruby, an ordinary trip soon turns into a high-stakes chase through the heart of Bengal. With clever banter, curious clues, and local legends, Feluda and his companions must unravel secrets where every answer leads to new questions. Dive in for an adventure where wit is as sharp as the suspense.",
+  "anthologyId": "feluda",
+  "storyNumber": 35
+}

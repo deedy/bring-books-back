@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback, useRef } from "react";
 import Link from "next/link";
 import { Book, Author } from "@/lib/types";
-import { readingTime } from "@/lib/utils";
+import { readingTime, displayYear } from "@/lib/utils";
 
 interface HomeHeroProps {
   books: Book[];
@@ -108,10 +108,14 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
           {/* Metadata */}
           <div className="flex flex-wrap gap-x-6 gap-y-1.5 mt-3 text-xs text-white/40">
             <span>{book.originalLanguage}</span>
-            <span>{book.originalYear}</span>
+            <span>{displayYear(book.originalYear, book.yearEnd)}</span>
           </div>
           <div className="flex flex-wrap gap-x-6 gap-y-1.5 mt-1 text-xs text-white/40">
-            <span>{book.totalChapters} chapters</span>
+            <span>
+              {book.type === "anthology" && book.totalStories
+                ? `${book.totalStories} stories`
+                : `${book.totalChapters} chapters`}
+            </span>
             <span>
               {book.wordCount >= 1000
                 ? `${Math.round(book.wordCount / 1000)}k`
@@ -193,7 +197,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
                     {bookAuthor.name}
                   </p>
                   <p className="text-[11px] text-white/30 mt-0.5">
-                    {b.originalLanguage} &middot; {b.originalYear} &middot;{" "}
+                    {b.originalLanguage} &middot; {displayYear(b.originalYear, b.yearEnd)} &middot;{" "}
                     {readingTime(b.wordCount)}
                   </p>
                 </div>

@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-royal-bengal-mystery",
+  "title": "The Royal Bengal Mystery",
+  "transliteratedTitle": "Royal Bengal Rahasya",
+  "subtitle": "Secrets Unveiled in the Shadows of Bengal",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-royal-bengal-mystery.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "রয়েল বেঙ্গল রহস্য",
+  "originalYear": 1974,
+  "totalChapters": 12,
+  "wordCount": 24634,
+  "summary": "A cryptic puzzle kicks off Feluda's latest adventure, drawing him and his companions deep into the mysterious forests bordering Bhutan. As the heat of Calcutta gives way to intrigue, the line between fact and fiction blurs, promising twists and secrets at every turn. Dive into a tale where every clue could mean danger—and the truth is never quite what it seems.",
+  "anthologyId": "feluda",
+  "storyNumber": 10
+}

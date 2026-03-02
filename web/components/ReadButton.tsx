@@ -6,15 +6,18 @@ import { useReadingStore } from "@/lib/store";
 interface ReadButtonProps {
   bookId: string;
   accentColor: string;
+  totalChapters?: number;
 }
 
-export default function ReadButton({ bookId, accentColor }: ReadButtonProps) {
+export default function ReadButton({ bookId, accentColor, totalChapters }: ReadButtonProps) {
   const progress = useReadingStore((s) => s.getProgress(bookId));
 
   let label = "Start Reading";
   if (progress) {
     if (progress.finished) {
       label = "Read Again";
+    } else if (totalChapters === 1) {
+      label = "Continue Reading";
     } else {
       label = `Continue Reading (Ch. ${progress.currentChapter + 1})`;
     }

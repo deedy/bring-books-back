@@ -1,0 +1,21 @@
+{
+  "id": "feluda-danger-in-darjeeling",
+  "title": "Danger in Darjeeling",
+  "transliteratedTitle": "Feludar Goendagiri",
+  "subtitle": "Mystery Unfolds Among the Himalayan Hills",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-danger-in-darjeeling.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "ফেলুদার গোয়েন্দাগিরি",
+  "originalYear": 1965,
+  "totalChapters": 1,
+  "wordCount": 7837,
+  "summary": "A tranquil summer in Darjeeling turns unexpectedly sinister when kind-hearted Rajen Babu finds himself entangled in a web of secrets. Young Tapesh and his sharp-eyed cousin Feluda must unravel the hidden dangers lurking beneath the hill station’s peaceful surface. Who can be trusted when every friendly face might be hiding a secret?",
+  "anthologyId": "feluda",
+  "storyNumber": 1
+}

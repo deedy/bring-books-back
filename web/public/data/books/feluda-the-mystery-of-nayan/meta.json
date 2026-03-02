@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-mystery-of-nayan",
+  "title": "The Mystery of Nayan",
+  "transliteratedTitle": "Nayan Rahasya",
+  "subtitle": "A Somber Sleuth, A Puzzling New Case",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-mystery-of-nayan.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "নয়ন রহস্য",
+  "originalYear": 1990,
+  "totalChapters": 14,
+  "wordCount": 22440,
+  "summary": "When famed detective Feluda grows uncharacteristically withdrawn, his friends sense something is amiss—until a flood of mysterious letters hints at a deeper disquiet. But is this malaise merely a bruised ego, or the prelude to a far more sinister enigma? Dive in to discover how Feluda’s latest mystery will test his mind—and his heart—in unexpected ways.",
+  "anthologyId": "feluda",
+  "storyNumber": 34
+}

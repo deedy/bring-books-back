@@ -1,0 +1,322 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "The main detective, known for his intelligence and wide range of knowledge, whose real name is Pradosh Mitter.",
+      "image": "/data/images/characters/feluda-the-magical-mystery/feluda.webp"
+    },
+    "Jatayu": {
+      "type": "character",
+      "description": "A companion and friend of Feluda and a writer of popular crime thrillers whose real name is Lalmohan Ganguli.",
+      "image": "/data/images/characters/feluda-the-magical-mystery/jatayu.webp"
+    },
+    "Nikhil Burman": {
+      "type": "character",
+      "description": "Someshwar Burman's younger son, currently residing with him, who approaches Feluda for help regarding his father's manuscript on Indian magic.",
+      "image": "/data/images/characters/feluda-the-magical-mystery/nikhil-burman.webp"
+    },
+    "Someshwar Burman": {
+      "type": "character",
+      "description": "A retired magician and head of the household, father of Akhil and Nikhil Burman, known for performing Indian magic in princely states.",
+      "image": "/data/images/characters/feluda-the-magical-mystery/someshwar-burman.webp"
+    },
+    "Surya Kumar": {
+      "type": "character",
+      "description": "A magician performing in Calcutta known for his hypnotism act, who is later revealed to be Someshwar Burman's son, Akhil Burman, in disguise.",
+      "image": "/data/images/characters/feluda-the-magical-mystery/surya-kumar.webp"
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "A domestic helper who brings tea to Feluda and his friends."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in India, now known as Kolkata, where the story is set."
+    },
+    "Gorpar": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta, mentioned as the place where Lalmohan Babu lives."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A classic Indian car model, popular in the mid-20th century."
+    },
+    "Indian magic": {
+      "type": "proper_noun",
+      "description": "Traditional forms of magic and illusion practiced in India, often performed in informal settings."
+    },
+    "princely states": {
+      "type": "proper_noun",
+      "description": "Semi-autonomous regions in pre-independence India ruled by local monarchs, known as rajas."
+    },
+    "rajas": {
+      "type": "proper_noun",
+      "description": "Traditional Indian monarchs or princes who ruled princely states."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term of address for men in Bengal, often used after a person's name."
+    },
+    "sandesh": {
+      "type": "vocabulary",
+      "description": "A traditional Bengali sweet made from fresh cheese and sugar."
+    },
+    "Baba": {
+      "type": "vocabulary",
+      "description": "A Bengali and Hindi term for father, used affectionately."
+    },
+    "Pranavesh Roy": {
+      "type": "character",
+      "description": "Someshwar Burman's secretary, trusted with personal matters and typing the manuscript, who has been working for him for five years and lives in the same house."
+    },
+    "Animesh Sen": {
+      "type": "character",
+      "description": "A long-time friend and resident in Someshwar Burman's house, formerly an astrologer, who has read and praised the manuscript and is considered but ruled out as a suspect."
+    },
+    "Ranen Tarafdar": {
+      "type": "character",
+      "description": "An artist staying at the Burman house to draw Someshwar Burman's portrait.",
+      "image": "/data/images/characters/feluda-the-magical-mystery/ranen-tarafdar.webp"
+    },
+    "Rammohan Roy Sarani": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta where Someshwar Burman's house is located."
+    },
+    "East Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern Bengal, now part of Bangladesh, where Someshwar Burman's family originated."
+    },
+    "Allahabad": {
+      "type": "proper_noun",
+      "description": "A city in northern India, mentioned as the place where Someshwar Burman saw a magician perform."
+    },
+    "Indian": {
+      "type": "proper_noun",
+      "description": "Refers to things pertaining to India, such as Indian magic."
+    },
+    "Krishna": {
+      "type": "proper_noun",
+      "description": "A Hindu deity, depicted here as a statue with a flute and adorned with gems."
+    },
+    "Raja Dayal Singh": {
+      "type": "proper_noun",
+      "description": "A royal figure from Raghunathpur who gifted the Krishna statue to Someshwar Burman."
+    },
+    "Raghunathpur": {
+      "type": "proper_noun",
+      "description": "A place associated with Raja Dayal Singh, who gave a valuable statue to Someshwar Burman."
+    },
+    "Germany": {
+      "type": "proper_noun",
+      "description": "A country in Europe where Akhil, Someshwar Burman's elder son, went to work."
+    },
+    "Europe": {
+      "type": "proper_noun",
+      "description": "The continent where Germany is located and where Akhil is presumed to be."
+    },
+    "zamindars": {
+      "type": "vocabulary",
+      "description": "Landowners, often hereditary, who collected taxes from peasants in pre-independence India."
+    },
+    "homoeopath": {
+      "type": "vocabulary",
+      "description": "A practitioner of homeopathy, an alternative medicine system popular in India."
+    },
+    "tantrik": {
+      "type": "vocabulary",
+      "description": "A practitioner of tantra, a set of esoteric spiritual practices in Hinduism and Buddhism."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or security guard, especially for a house or compound."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed platform along the outside of a house, common in Indian architecture."
+    },
+    "Nakshatra Sen": {
+      "type": "character",
+      "description": "A magician who was Surya Kumar's mentor and died on stage."
+    },
+    "Maruti": {
+      "type": "proper_noun",
+      "description": "An Indian automobile brand; Surya Kumar arrives in a Maruti car."
+    },
+    "Japan": {
+      "type": "proper_noun",
+      "description": "A country in East Asia, mentioned as a place Surya Kumar has visited for his shows."
+    },
+    "Hong Kong": {
+      "type": "proper_noun",
+      "description": "A city and special administrative region in China, also visited by Surya Kumar."
+    },
+    "Singapore": {
+      "type": "proper_noun",
+      "description": "A Southeast Asian city-state, where Surya Kumar has an invitation for a future show."
+    },
+    "Patna": {
+      "type": "proper_noun",
+      "description": "A city in the Indian state of Bihar, mentioned as Surya Kumar's next destination."
+    },
+    "paraphernalia": {
+      "type": "vocabulary",
+      "description": "Miscellaneous articles, especially the equipment needed for a particular activity, here referring to a magician's tools."
+    },
+    "Avinash": {
+      "type": "character",
+      "description": "Someshwar Burman's oldest servant, who is murdered during the theft of the statue of Krishna."
+    },
+    "Inspector Ghosh": {
+      "type": "character",
+      "description": "The police inspector in charge of the case, familiar with Feluda's reputation."
+    },
+    "Mirza Ghalib Street": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata, India, known for its commercial establishments."
+    },
+    "The Modern Sales Bureau": {
+      "type": "proper_noun",
+      "description": "The auction house owned by Nikhil Burman, located on Mirza Ghalib Street."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A term used in India for a domestic servant, especially one who serves food or attends to guests."
+    },
+    "Bhowanipore": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Kolkata (Calcutta), India, where Pranavesh Babu owns a house."
+    },
+    "Paris": {
+      "type": "proper_noun",
+      "description": "The capital city of France, where Ranen Tarafdar trained as an artist."
+    },
+    "Government College of Art": {
+      "type": "proper_noun",
+      "description": "A prestigious art institution in Calcutta (Kolkata), India, where Ranen Tarafdar studied."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "Gopchand": {
+      "type": "character",
+      "description": "A thief recently released from prison, initially suspected by the police but dismissed by Feluda."
+    },
+    "auction house": {
+      "type": "proper_noun",
+      "description": "A business establishment where goods, such as antiques or art, are sold to the highest bidder."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Jatayu",
+      "Nikhil Burman",
+      "Someshwar Burman",
+      "Surya Kumar",
+      "Srinath",
+      "Calcutta",
+      "Gorpar",
+      "Ambassador",
+      "Indian magic",
+      "princely states",
+      "rajas",
+      "Babu",
+      "sandesh",
+      "Baba"
+    ],
+    "ch-2": [
+      "Someshwar Burman",
+      "Pranavesh Roy",
+      "Animesh Sen",
+      "Ranen Tarafdar",
+      "Surya Kumar",
+      "Feluda",
+      "Rammohan Roy Sarani",
+      "East Bengal",
+      "Calcutta",
+      "Allahabad",
+      "Indian",
+      "Surya Kumar",
+      "Krishna",
+      "Raja Dayal Singh",
+      "Raghunathpur",
+      "Germany",
+      "Europe",
+      "zamindars",
+      "homoeopath",
+      "tantrik",
+      "Babu",
+      "chowkidar",
+      "veranda",
+      "Jatayu",
+      "Nikhil Burman",
+      "rajas"
+    ],
+    "ch-3": [
+      "Someshwar Burman",
+      "Surya Kumar",
+      "Feluda",
+      "Nakshatra Sen",
+      "Maruti",
+      "Japan",
+      "Hong Kong",
+      "Singapore",
+      "Patna",
+      "Babu",
+      "paraphernalia",
+      "Jatayu"
+    ],
+    "ch-4": [
+      "Someshwar Burman",
+      "Avinash",
+      "Feluda",
+      "Inspector Ghosh",
+      "Ranen Tarafdar",
+      "Surya Kumar",
+      "Krishna",
+      "Mirza Ghalib Street",
+      "The Modern Sales Bureau",
+      "Babu",
+      "bearer",
+      "Baba",
+      "Animesh Sen",
+      "Jatayu",
+      "Nikhil Burman"
+    ],
+    "ch-5": [
+      "Someshwar Burman",
+      "Feluda",
+      "Ranen Tarafdar",
+      "Surya Kumar",
+      "Avinash",
+      "Raja Dayal Singh",
+      "Bhowanipore",
+      "Paris",
+      "Government College of Art",
+      "Calcutta",
+      "Babu",
+      "rupees",
+      "Jatayu",
+      "Pranavesh Roy"
+    ],
+    "ch-6": [
+      "Someshwar Burman",
+      "Feluda",
+      "Nikhil Burman",
+      "Surya Kumar",
+      "Inspector Ghosh",
+      "Ranen Tarafdar",
+      "Gopchand",
+      "auction house",
+      "Government College of Art",
+      "Paris",
+      "Krishna",
+      "Babu",
+      "chowkidar",
+      "veranda",
+      "Animesh Sen",
+      "Jatayu"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "feluda-feluda-in-london",
+  "title": "Feluda in London",
+  "transliteratedTitle": "Londoney Feluda",
+  "subtitle": "A Chilling Mystery Unfolds in London Streets",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-feluda-in-london.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "লন্ডনে ফেলুদা",
+  "originalYear": 1989,
+  "totalChapters": 9,
+  "wordCount": 10599,
+  "summary": "When Feluda, Lalmohan Babu, and Topshe are visited by an enigmatic stranger, their quiet days are abruptly interrupted—and soon, the trio finds themselves journeying to London, where intrigue lurks behind every corner. With a web of secrets, surprising suspects, and a touch of Bengali wit, can Feluda unravel the truth before danger strikes? Discover a classic detective adventure that will keep you guessing until the very end.",
+  "anthologyId": "feluda",
+  "storyNumber": 31
+}

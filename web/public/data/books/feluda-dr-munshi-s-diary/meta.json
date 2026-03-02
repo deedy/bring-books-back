@@ -1,0 +1,21 @@
+{
+  "id": "feluda-dr-munshi-s-diary",
+  "title": "Dr Munshi's Diary",
+  "transliteratedTitle": "Dr Munshir Diary",
+  "subtitle": "A Mysterious Diary and Razor-Sharp Observation",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-dr-munshi-s-diary.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "ডঃ মুন্সীর ডায়েরী",
+  "originalYear": 1990,
+  "totalChapters": 9,
+  "wordCount": 13139,
+  "summary": "When Feluda, the master detective, and his companions stumble upon a peculiar diary, their sharp wit and powers of observation are put to the test. Amid lively banter and subtle clues, secrets begin to surface, drawing the trio into a puzzle that only Feluda can unravel. Dive into this captivating adventure where every detail matters—can you keep up with Feluda's legendary mind?",
+  "anthologyId": "feluda",
+  "storyNumber": 33
+}

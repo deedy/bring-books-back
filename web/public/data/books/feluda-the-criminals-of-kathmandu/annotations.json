@@ -1,0 +1,1022 @@
+{
+  "glossary": {
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "A writer of thrillers and close companion of Feluda known by his pen name Jatayu, who often provides comic relief.",
+      "image": "/data/images/characters/feluda-the-criminals-of-kathmandu/lalmohan-babu.webp"
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "A famous investigator known for his sharp intellect, real name Pradosh Mitter, who is sometimes addressed formally as Mr Mitter.",
+      "image": "/data/images/characters/feluda-the-criminals-of-kathmandu/feluda.webp"
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's cousin and the narrator of the stories, whose real name is Tapesh.",
+      "image": "/data/images/characters/feluda-the-criminals-of-kathmandu/topshe.webp"
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "A domestic helper who answers the door and serves tea in Feluda's household."
+    },
+    "Sarweshwar Sahai": {
+      "type": "character",
+      "description": "An old client of Feluda, mentioned as someone who recommended Feluda to Mr Batra."
+    },
+    "New Market": {
+      "type": "proper_noun",
+      "description": "A historic and iconic shopping market in Calcutta (now Kolkata), known for its colonial architecture and diverse shops."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in eastern India and the setting for many Feluda stories."
+    },
+    "Dey Electricals": {
+      "type": "proper_noun",
+      "description": "A shop in New Market specializing in electrical goods, whose owner knows Feluda."
+    },
+    "Kalimuddi": {
+      "type": "proper_noun",
+      "description": "The owner of a popular shop in New Market known for selling daalmut."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital city of Nepal, where Mr Batra works and where part of the story's events originate."
+    },
+    "Sun Travels": {
+      "type": "proper_noun",
+      "description": "The travel agency in Kathmandu where Mr Batra is employed as a PRO."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, mentioned as one of the cities Mr Batra frequently visits."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, a major city in western India, also mentioned as a travel destination for Mr Batra."
+    },
+    "Nepal": {
+      "type": "proper_noun",
+      "description": "A neighboring country to India, of which Kathmandu is the capital."
+    },
+    "daalmut": {
+      "type": "vocabulary",
+      "description": "A spicy Indian snack made from fried lentils and nuts, popular in Bengal."
+    },
+    "bush-shirt": {
+      "type": "vocabulary",
+      "description": "A style of short-sleeved shirt, often worn untucked, common in South Asia."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term of address in Bengali and Hindi, often used for gentlemen."
+    },
+    "masala": {
+      "type": "vocabulary",
+      "description": "A mixture of ground spices used in Indian cooking."
+    },
+    "rupee": {
+      "type": "vocabulary",
+      "description": "The currency of India (and also of Nepal, with a different value)."
+    },
+    "kukri": {
+      "type": "vocabulary",
+      "description": "A traditional curved knife from Nepal, used as both a tool and a weapon."
+    },
+    "Charminar": {
+      "type": "vocabulary",
+      "description": "A popular brand of Indian cigarettes."
+    },
+    "Anikendra Som": {
+      "type": "character",
+      "description": "A client who contacts Feluda and is later found murdered in the Central Hotel, a case central to the investigation.",
+      "image": "/data/images/characters/feluda-the-criminals-of-kathmandu/anikendra-som.webp"
+    },
+    "Inspector Mahim Dattagupta": {
+      "type": "character",
+      "description": "A police officer in charge of the Jorasanko police station who provides updates on the case and discusses CID involvement."
+    },
+    "Haripada": {
+      "type": "character",
+      "description": "Haripada is Lalmohan Babu's driver who drives the group to the Central Hotel."
+    },
+    "Central Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel in Calcutta where Anikendra Som is found murdered."
+    },
+    "Jorasanko": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta, notable for its police station and historical significance."
+    },
+    "Central Avenue": {
+      "type": "proper_noun",
+      "description": "A major road in Calcutta, referenced as the location of the Central Hotel."
+    },
+    "Kanpur": {
+      "type": "proper_noun",
+      "description": "A large industrial city in the northern Indian state of Uttar Pradesh."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A popular model of Indian car, often used as taxis or private vehicles."
+    },
+    "Grand Hotel": {
+      "type": "proper_noun",
+      "description": "The Grand Hotel, also referred to as the Grand, is a well-known hotel in Calcutta where Mr Batra is staying and which features a notable gift shop."
+    },
+    "Globe cinema": {
+      "type": "proper_noun",
+      "description": "Globe cinema, also known as Globe, is a cinema hall in Calcutta where Feluda and his companions watch a film and is mentioned as a landmark near a hotel frequented by hippies."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or security guard, often employed at buildings or compounds."
+    },
+    "VIP": {
+      "type": "vocabulary",
+      "description": "A popular Indian brand of luggage and suitcases."
+    },
+    "jerkin": {
+      "type": "vocabulary",
+      "description": "A short, close-fitting jacket, often sleeveless; here, refers to a type of outerwear."
+    },
+    "Moulinath Bhattacharya": {
+      "type": "character",
+      "description": "A palmist consulted by Lalmohan Babu, known for his unusual theories and research."
+    },
+    "Captain Mukherjee": {
+      "type": "character",
+      "description": "The pilot of the flight to Kathmandu who invites Feluda to the cockpit."
+    },
+    "Kanpur IIT": {
+      "type": "proper_noun",
+      "description": "The Indian Institute of Technology in Kanpur, a prestigious engineering institution in India."
+    },
+    "Dum Dum": {
+      "type": "proper_noun",
+      "description": "The location of the main airport in Calcutta (now Netaji Subhas Chandra Bose International Airport)."
+    },
+    "CID": {
+      "type": "proper_noun",
+      "description": "Criminal Investigation Department, a specialized branch of the police."
+    },
+    "Home Department": {
+      "type": "proper_noun",
+      "description": "A government department responsible for internal security and law enforcement."
+    },
+    "Indian Airlines": {
+      "type": "proper_noun",
+      "description": "A major Indian airline operating domestic and international flights at the time."
+    },
+    "USA": {
+      "type": "proper_noun",
+      "description": "The United States of America, referenced in comparison to cross-border criminal escapes."
+    },
+    "Mexico": {
+      "type": "proper_noun",
+      "description": "A country bordering the USA, referenced in the context of criminals escaping across borders."
+    },
+    "Lenin Sarani": {
+      "type": "proper_noun",
+      "description": "A prominent street in Calcutta."
+    },
+    "Kanchenjunga": {
+      "type": "proper_noun",
+      "description": "The third highest mountain in the world, located in the Himalayas."
+    },
+    "Makalu": {
+      "type": "proper_noun",
+      "description": "A major Himalayan peak, the fifth highest mountain in the world."
+    },
+    "Mount Everest": {
+      "type": "proper_noun",
+      "description": "The highest mountain in the world, located on the Nepal-Tibet border."
+    },
+    "Gourishankar": {
+      "type": "proper_noun",
+      "description": "A notable Himalayan peak in Nepal, also known as Gauri Shankar."
+    },
+    "Annapurna": {
+      "type": "proper_noun",
+      "description": "A massif in the Himalayas, known for its high peaks."
+    },
+    "Dhaulagiri": {
+      "type": "proper_noun",
+      "description": "The seventh highest mountain in the world, located in Nepal."
+    },
+    "Terai": {
+      "type": "proper_noun",
+      "description": "A lowland region in southern Nepal and northern India, known for its fertile plains."
+    },
+    "Kathmandu valley": {
+      "type": "proper_noun",
+      "description": "A region in Nepal that includes the capital city and surrounding areas."
+    },
+    "Tribhuvan airport": {
+      "type": "proper_noun",
+      "description": "The international airport in Kathmandu, Nepal."
+    },
+    "palmist": {
+      "type": "vocabulary",
+      "description": "A person who claims to tell fortunes by reading the lines on people's palms."
+    },
+    "lassi": {
+      "type": "vocabulary",
+      "description": "A traditional Indian yogurt-based drink, often sweet or flavored."
+    },
+    "curator": {
+      "type": "vocabulary",
+      "description": "A person in charge of a museum, zoo, or similar institution."
+    },
+    "diary": {
+      "type": "vocabulary",
+      "description": "A personal journal used to record daily events and thoughts."
+    },
+    "Mr Bhowmik": {
+      "type": "character",
+      "description": "A Bengali gentleman from Calcutta visiting Kathmandu with his family."
+    },
+    "Jairam Chakravarty": {
+      "type": "character",
+      "description": "Ancestor of Harinath Chakravarty, a tantrik from Bengal who brought rain to Nepal."
+    },
+    "King Jagatjit Mallya": {
+      "type": "character",
+      "description": "A historical king of Nepal who invited Jairam Chakravarty to Kathmandu."
+    },
+    "Niladri": {
+      "type": "character",
+      "description": "Harinath Chakravarty’s elder son, who died in a mountaineering accident."
+    },
+    "Dr Divakar": {
+      "type": "character",
+      "description": "A doctor in Kathmandu who treated Himadri.",
+      "image": "/data/images/characters/feluda-the-criminals-of-kathmandu/dr-divakar.webp"
+    },
+    "Dr Mukherjee": {
+      "type": "character",
+      "description": "The deceased family physician of the Chakravarty family."
+    },
+    "Hotel Lumbini": {
+      "type": "proper_noun",
+      "description": "A hotel in Kathmandu where Feluda and his companions are staying."
+    },
+    "Statesman": {
+      "type": "proper_noun",
+      "description": "An English-language newspaper in India."
+    },
+    "Nepal Airlines": {
+      "type": "proper_noun",
+      "description": "The national airline of Nepal."
+    },
+    "Datsun": {
+      "type": "proper_noun",
+      "description": "A Japanese automobile brand, referring here to the taxi model."
+    },
+    "Ranas": {
+      "type": "proper_noun",
+      "description": "A powerful ruling family in Nepal who held power for generations."
+    },
+    "Hindu": {
+      "type": "proper_noun",
+      "description": "A major religion in South Asia, referenced regarding the king of Nepal."
+    },
+    "Buddhist": {
+      "type": "proper_noun",
+      "description": "Pertaining to Buddhism, a major religion in Nepal."
+    },
+    "Lumbini": {
+      "type": "proper_noun",
+      "description": "A town in Nepal, famous as the birthplace of Lord Buddha."
+    },
+    "Kanti Path": {
+      "type": "proper_noun",
+      "description": "A major road in Kathmandu."
+    },
+    "New Road": {
+      "type": "proper_noun",
+      "description": "A prominent commercial street in Kathmandu."
+    },
+    "Pokhara": {
+      "type": "proper_noun",
+      "description": "A city in Nepal, popular with tourists."
+    },
+    "Mallyas": {
+      "type": "proper_noun",
+      "description": "A historical dynasty that ruled Nepal before the Ranas."
+    },
+    "Pashupatinath": {
+      "type": "proper_noun",
+      "description": "Pashupatinath, also referred to as Pasupati temple, is a famous Hindu temple in Kathmandu."
+    },
+    "Raja Tribhuvan": {
+      "type": "proper_noun",
+      "description": "A former king of Nepal, after whom a college in Kathmandu is named."
+    },
+    "Himalayan": {
+      "type": "proper_noun",
+      "description": "Refers to the Himalayas, the mountain range in Nepal."
+    },
+    "aam papad": {
+      "type": "vocabulary",
+      "description": "A sweet and tangy Indian fruit leather made from mango pulp."
+    },
+    "tiffin box": {
+      "type": "vocabulary",
+      "description": "A small container used in South Asia for carrying snacks or meals."
+    },
+    "puja": {
+      "type": "vocabulary",
+      "description": "Puja is a Hindu religious ritual involving offerings and prayers, and also refers to the major Hindu festival season, especially Durga Puja, celebrated with great enthusiasm in Bengal."
+    },
+    "tantrik": {
+      "type": "vocabulary",
+      "description": "A practitioner of tantra, a mystical spiritual practice in Hinduism and Buddhism."
+    },
+    "Himadri Chakravarty": {
+      "type": "character",
+      "description": "The younger son of Harinath Chakravarty and a helicopter pilot who died of tetanus in Kathmandu."
+    },
+    "Rajgurung": {
+      "type": "character",
+      "description": "Mr Rajgurung is the OC (Officer-in-Charge) at the Kathmandu police station, who promises cooperation to Feluda."
+    },
+    "Nirvana": {
+      "type": "proper_noun",
+      "description": "Nirvana is the name of the hotel restaurant where the characters have lunch."
+    },
+    "Dalai Lama": {
+      "type": "proper_noun",
+      "description": "The Dalai Lama is the spiritual leader of Tibetan Buddhism, referenced in relation to Tibetan cuisine."
+    },
+    "Darbar Square": {
+      "type": "proper_noun",
+      "description": "Darbar Square is a historic plaza in Kathmandu, known for its palaces, temples, and statues."
+    },
+    "Varanasi": {
+      "type": "proper_noun",
+      "description": "Varanasi, also known as Benaras, is a famous ancient city in India, known for its temples and narrow lanes and associated with Maganlal Meghraj."
+    },
+    "Kaal Bhairav": {
+      "type": "proper_noun",
+      "description": "Kaal Bhairav is a fierce manifestation of Shiva in Hinduism, represented by a famous statue in Kathmandu."
+    },
+    "mo-mo": {
+      "type": "vocabulary",
+      "description": "A Tibetan dish consisting of steamed or fried dumplings filled with meat or vegetables."
+    },
+    "ganja": {
+      "type": "vocabulary",
+      "description": "A colloquial term for marijuana or cannabis, often used in South Asia."
+    },
+    "pagodas": {
+      "type": "vocabulary",
+      "description": "Multi-tiered towers with upward-curving roofs, common in Asian temple architecture."
+    },
+    "tankhas": {
+      "type": "vocabulary",
+      "description": "Traditional Tibetan Buddhist paintings on cloth, usually depicting deities or mandalas."
+    },
+    "Shukra Path": {
+      "type": "proper_noun",
+      "description": "A street near the hotel leading to a shopping complex in Kathmandu."
+    },
+    "Land of the Lamas": {
+      "type": "proper_noun",
+      "description": "A phrase referring to Tibet or regions with significant Buddhist Lama presence, though here it is mistakenly applied to Nepal."
+    },
+    "Star Dispensary": {
+      "type": "proper_noun",
+      "description": "A medical dispensary on Dharma Path where Dr Divakar sees patients."
+    },
+    "Dharma Path": {
+      "type": "proper_noun",
+      "description": "A street in Kathmandu where the Star Dispensary is located."
+    },
+    "Directorate of Drug Control": {
+      "type": "proper_noun",
+      "description": "A government body likely responsible for regulating drugs and medicines."
+    },
+    "Calcutta Police": {
+      "type": "proper_noun",
+      "description": "The police force of Calcutta (Kolkata), referenced in the investigation."
+    },
+    "Heaven’s Gate Lodge": {
+      "type": "proper_noun",
+      "description": "A hotel near the Tibetan handicraft shop in Kathmandu."
+    },
+    "Tibetan shop": {
+      "type": "proper_noun",
+      "description": "A handicraft shop run by Tibetans, significant to the investigation."
+    },
+    "terrywool": {
+      "type": "vocabulary",
+      "description": "A blended fabric made from terry (cotton) and wool, often used for making trousers."
+    },
+    "anti-tetanus": {
+      "type": "vocabulary",
+      "description": "A term referring to medicine or injections given to prevent tetanus infection."
+    },
+    "spurious": {
+      "type": "vocabulary",
+      "description": "Fake or counterfeit, often used in the context of medicines."
+    },
+    "Nepali bearer": {
+      "type": "vocabulary",
+      "description": "A hotel staff member or attendant from Nepal who assists guests."
+    },
+    "Swayambhu": {
+      "type": "proper_noun",
+      "description": "A prominent Buddhist stupa in Kathmandu, also known as Swayambhunath."
+    },
+    "Patan": {
+      "type": "proper_noun",
+      "description": "An ancient city near Kathmandu, known for its rich cultural heritage and architecture."
+    },
+    "Nepal Police": {
+      "type": "proper_noun",
+      "description": "The national police force of Nepal."
+    },
+    "Rapti valley": {
+      "type": "proper_noun",
+      "description": "A valley in the Terai region of Nepal, known for its natural beauty."
+    },
+    "Nandi": {
+      "type": "proper_noun",
+      "description": "The sacred bull and vehicle of Lord Shiva, often found in Hindu temples."
+    },
+    "Bagmati": {
+      "type": "proper_noun",
+      "description": "A river flowing through Kathmandu, considered sacred in Hinduism."
+    },
+    "Tibetan": {
+      "type": "proper_noun",
+      "description": "Refers to people or goods from Tibet, often seen in Nepal due to proximity."
+    },
+    "Mangal Bazar": {
+      "type": "proper_noun",
+      "description": "A market area in Patan known for handicrafts and local goods."
+    },
+    "Nepali": {
+      "type": "proper_noun",
+      "description": "Relating to Nepal or its people."
+    },
+    "sandalwood paste": {
+      "type": "vocabulary",
+      "description": "A fragrant paste made from sandalwood, used in Hindu rituals for blessings."
+    },
+    "stupa": {
+      "type": "vocabulary",
+      "description": "A dome-shaped Buddhist monument, often containing relics."
+    },
+    "prayer wheel": {
+      "type": "vocabulary",
+      "description": "A prayer wheel (plural: prayer wheels) is a cylindrical wheel on a spindle, used in Tibetan Buddhist practice to accumulate merit, often containing scrolls with prayers."
+    },
+    "tempo": {
+      "type": "vocabulary",
+      "description": "A three-wheeled motor vehicle used for transporting goods or passengers in South Asia."
+    },
+    "sarinda": {
+      "type": "vocabulary",
+      "description": "A traditional stringed musical instrument played with a bow, common in South Asia."
+    },
+    "Bonobihari Sarkar": {
+      "type": "character",
+      "description": "A villain from a previous Feluda adventure, formerly encountered in Lucknow."
+    },
+    "Mandar Bose": {
+      "type": "character",
+      "description": "Another criminal adversary from Feluda's past, previously encountered in Jaisalmer."
+    },
+    "Mr Gore": {
+      "type": "character",
+      "description": "A character from Feluda's earlier cases, associated with Bombay."
+    },
+    "Maganlal Meghraj": {
+      "type": "character",
+      "description": "A notorious and cunning criminal mastermind and art dealer, also referred to respectfully as Maganlalji."
+    },
+    "Lucknow": {
+      "type": "proper_noun",
+      "description": "A city in northern India, associated with Bonobihari Sarkar."
+    },
+    "Jaisalmer": {
+      "type": "proper_noun",
+      "description": "A city in Rajasthan, India, associated with Mandar Bose."
+    },
+    "UP": {
+      "type": "proper_noun",
+      "description": "Short for Uttar Pradesh, a populous state in northern India."
+    },
+    "Bihar": {
+      "type": "proper_noun",
+      "description": "A state in eastern India."
+    },
+    "Yudhisthir": {
+      "type": "proper_noun",
+      "description": "A character from the Indian epic Mahabharata, known for his gambling episode."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "One of the two major Sanskrit epics of ancient India."
+    },
+    "Om Manipadmey Hoom": {
+      "type": "vocabulary",
+      "description": "A sacred Tibetan Buddhist mantra, often placed inside prayer wheels."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "Namaskar is a respectful Indian greeting or salutation in Hindi and other Indian languages, similar to 'hello' or 'greetings'."
+    },
+    "Jagdeesh": {
+      "type": "character",
+      "description": "Maganlal's right-hand man, Jagdeesh is involved in the current case and is notable for his resemblance to another character, Mr Batra."
+    },
+    "Baba Vishwanath": {
+      "type": "proper_noun",
+      "description": "A reference to Lord Vishwanath, the presiding deity of the famous Kashi Vishwanath Temple in Benaras."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country of origin for Feluda and his companions, and the setting for much of their adventures."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A region in India famous for its high-quality tea, referenced as the tea served in the chapter."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment, a long piece of cloth wrapped around the waist and legs, commonly worn by men."
+    },
+    "sherwani": {
+      "type": "vocabulary",
+      "description": "A formal, knee-length coat worn by men in South Asia, often for ceremonial occasions."
+    },
+    "karma": {
+      "type": "vocabulary",
+      "description": "A concept in Indian religions referring to the sum of a person's actions and their consequences."
+    },
+    "dharma": {
+      "type": "vocabulary",
+      "description": "A key concept in Indian philosophy, meaning duty, righteousness, or moral order."
+    },
+    "Harinath Chakravarty": {
+      "type": "character",
+      "description": "An elderly, distinguished Bengali gentleman whose family has lived in Nepal for generations."
+    },
+    "Vibgyor": {
+      "type": "proper_noun",
+      "description": "An acronym for the sequence of colors in a rainbow: Violet, Indigo, Blue, Green, Yellow, Orange, Red."
+    },
+    "LSD": {
+      "type": "proper_noun",
+      "description": "A powerful hallucinogenic drug, referenced as the substance affecting Lalmohan Babu."
+    },
+    "Om-m-m-m": {
+      "type": "proper_noun",
+      "description": "A phonetic rendering of 'Om', a sacred sound and spiritual symbol in Indian religions."
+    },
+    "moksha": {
+      "type": "proper_noun",
+      "description": "A Sanskrit term meaning liberation or release, especially from the cycle of rebirth in Hinduism."
+    },
+    "charas": {
+      "type": "vocabulary",
+      "description": "A form of hand-made cannabis resin, commonly used in India and Nepal."
+    },
+    "Batra": {
+      "type": "character",
+      "description": "A travel agency PRO from Kathmandu's Sun Travels who seeks Feluda's help.",
+      "image": "/data/images/characters/feluda-the-criminals-of-kathmandu/batra.webp"
+    },
+    "Mr Pradhan": {
+      "type": "character",
+      "description": "Batra’s secretary at Sun Travels, who provides information about Batra’s movements."
+    },
+    "Ganga": {
+      "type": "character",
+      "description": "One of Maganlal’s henchmen, involved in searching and restraining Feluda’s group."
+    },
+    "Kesri": {
+      "type": "character",
+      "description": "Another of Maganlal’s henchmen, assisting Ganga in the confrontation."
+    },
+    "Buckingham Palace": {
+      "type": "proper_noun",
+      "description": "The official residence of the British monarch in London, England."
+    },
+    "Hotel Lumumba": {
+      "type": "proper_noun",
+      "description": "A hotel mentioned by Lalmohan Babu, possibly a confusion with another name."
+    },
+    "Gautam Buddha": {
+      "type": "proper_noun",
+      "description": "Gautam Buddha, also known as Lord Buddha, is the founder of Buddhism, believed to have been born in Lumbini, Nepal."
+    },
+    "Oberoi": {
+      "type": "proper_noun",
+      "description": "A luxury hotel where Mr Meghraj is said to be staying."
+    },
+    "Freak Street": {
+      "type": "proper_noun",
+      "description": "A famous street in Kathmandu, historically popular with hippies."
+    },
+    "Shivalik hills": {
+      "type": "proper_noun",
+      "description": "A mountain range at the southern edge of the Himalayas."
+    },
+    "Hetaora": {
+      "type": "proper_noun",
+      "description": "A town in Nepal, serving as a waypoint in the journey."
+    },
+    "sepoy mutiny": {
+      "type": "proper_noun",
+      "description": "The Indian Rebellion of 1857 against British rule."
+    },
+    "Nana Saheb": {
+      "type": "proper_noun",
+      "description": "A leader of the Indian Rebellion of 1857, believed to have taken refuge in the Terai."
+    },
+    "puri-sabzi": {
+      "type": "vocabulary",
+      "description": "A traditional Indian meal consisting of deep-fried bread (puri) served with a spiced vegetable curry (sabzi)."
+    },
+    "tiffin carrier": {
+      "type": "vocabulary",
+      "description": "A multi-tiered lunchbox commonly used in India and Nepal to carry meals."
+    },
+    "phials": {
+      "type": "vocabulary",
+      "description": "Phials, also referred to as ampoules, are small bottles or sealed vials typically used to hold liquids such as medicines."
+    },
+    "Inspector Sharma": {
+      "type": "character",
+      "description": "A police inspector from the Nepal Police involved in the investigation."
+    },
+    "Inspector Joardar": {
+      "type": "character",
+      "description": "A police inspector from Calcutta assisting in the case."
+    },
+    "Om Manipadmey Hoomicide": {
+      "type": "proper_noun",
+      "description": "A pun on the Buddhist mantra 'Om Mani Padme Hum', humorously suggested as a case title."
+    },
+    "PRO": {
+      "type": "vocabulary",
+      "description": "Public Relations Officer, a professional responsible for managing public image and communications."
+    },
+    "rubri": {
+      "type": "vocabulary",
+      "description": "A sweet, condensed milk-based Indian dessert."
+    },
+    "strychnine": {
+      "type": "vocabulary",
+      "description": "A highly toxic substance used as a poison, causing convulsions similar to tetanus."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Srinath",
+      "Sarweshwar Sahai",
+      "New Market",
+      "Calcutta",
+      "Dey Electricals",
+      "Kalimuddi",
+      "Kathmandu",
+      "Sun Travels",
+      "Delhi",
+      "Bombay",
+      "Nepal",
+      "daalmut",
+      "bush-shirt",
+      "Babu",
+      "masala",
+      "rupee",
+      "kukri",
+      "Charminar",
+      "Batra",
+      "Grand Hotel",
+      "Globe cinema",
+      "puja"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Anikendra Som",
+      "Inspector Mahim Dattagupta",
+      "Haripada",
+      "Central Hotel",
+      "Calcutta",
+      "New Market",
+      "Jorasanko",
+      "Central Avenue",
+      "Kanpur",
+      "Ambassador",
+      "Grand Hotel",
+      "Bombay",
+      "Delhi",
+      "Globe cinema",
+      "Babu",
+      "chowkidar",
+      "kukri",
+      "VIP",
+      "jerkin",
+      "bush-shirt",
+      "Topshe",
+      "Batra",
+      "namaskar"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Anikendra Som",
+      "Lalmohan Babu",
+      "Moulinath Bhattacharya",
+      "Captain Mukherjee",
+      "Kanpur IIT",
+      "Calcutta",
+      "Grand Hotel",
+      "Kathmandu",
+      "Dum Dum",
+      "CID",
+      "Home Department",
+      "Nepal",
+      "Indian Airlines",
+      "USA",
+      "Mexico",
+      "Lenin Sarani",
+      "Kanchenjunga",
+      "Makalu",
+      "Mount Everest",
+      "Gourishankar",
+      "Annapurna",
+      "Dhaulagiri",
+      "Terai",
+      "Kathmandu valley",
+      "Tribhuvan airport",
+      "kukri",
+      "palmist",
+      "lassi",
+      "curator",
+      "diary",
+      "Topshe",
+      "Batra",
+      "Inspector Mahim Dattagupta"
+    ],
+    "ch-4": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Mr Bhowmik",
+      "Jairam Chakravarty",
+      "King Jagatjit Mallya",
+      "Niladri",
+      "Dr Divakar",
+      "Dr Mukherjee",
+      "Anikendra Som",
+      "Nepal",
+      "Kathmandu",
+      "Hotel Lumbini",
+      "Statesman",
+      "Calcutta",
+      "Nepal Airlines",
+      "Indian Airlines",
+      "Datsun",
+      "Ranas",
+      "Hindu",
+      "Buddhist",
+      "Lumbini",
+      "Kanti Path",
+      "New Road",
+      "Pokhara",
+      "Mallyas",
+      "Kathmandu valley",
+      "Pashupatinath",
+      "Raja Tribhuvan",
+      "Terai",
+      "Himalayan",
+      "aam papad",
+      "tiffin box",
+      "kukri",
+      "puja",
+      "tantrik",
+      "Harinath Chakravarty",
+      "Himadri Chakravarty",
+      "Batra",
+      "Gautam Buddha"
+    ],
+    "ch-5": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Himadri Chakravarty",
+      "Rajgurung",
+      "Nirvana",
+      "Calcutta",
+      "Kathmandu",
+      "Dalai Lama",
+      "Darbar Square",
+      "Varanasi",
+      "Kaal Bhairav",
+      "Nepal",
+      "mo-mo",
+      "ganja",
+      "pagodas",
+      "tankhas",
+      "Topshe",
+      "Anikendra Som",
+      "Batra",
+      "prayer wheel"
+    ],
+    "ch-6": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Dr Divakar",
+      "Himadri Chakravarty",
+      "Anikendra Som",
+      "Shukra Path",
+      "Bombay",
+      "Land of the Lamas",
+      "Nepal",
+      "Calcutta",
+      "Kathmandu",
+      "Star Dispensary",
+      "Dharma Path",
+      "Directorate of Drug Control",
+      "Calcutta Police",
+      "Darbar Square",
+      "Heaven’s Gate Lodge",
+      "Tibetan shop",
+      "terrywool",
+      "anti-tetanus",
+      "spurious",
+      "Nepali bearer",
+      "Harinath Chakravarty",
+      "phials"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Mr Bhowmik",
+      "Swayambhu",
+      "Pashupatinath",
+      "Patan",
+      "Sun Travels",
+      "Pokhara",
+      "New Road",
+      "Nepal Police",
+      "Kathmandu",
+      "Rapti valley",
+      "Terai",
+      "Nandi",
+      "Bagmati",
+      "Tibetan",
+      "Darbar Square",
+      "Mangal Bazar",
+      "Nepali",
+      "kukri",
+      "Babu",
+      "sandalwood paste",
+      "stupa",
+      "prayer wheel",
+      "tempo",
+      "sarinda",
+      "Topshe",
+      "Batra"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Bonobihari Sarkar",
+      "Mandar Bose",
+      "Mr Gore",
+      "Maganlal Meghraj",
+      "Nepal",
+      "Lucknow",
+      "Jaisalmer",
+      "Bombay",
+      "Maganlal Meghraj",
+      "Kathmandu",
+      "Patan",
+      "UP",
+      "Bihar",
+      "New Market",
+      "Calcutta",
+      "Nepali",
+      "Yudhisthir",
+      "Mahabharata",
+      "Varanasi",
+      "mo-mo",
+      "prayer wheel",
+      "Om Manipadmey Hoom",
+      "tempo",
+      "namaskar",
+      "jerkin",
+      "Batra",
+      "phials"
+    ],
+    "ch-9": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Jagdeesh",
+      "Nepal",
+      "Kathmandu",
+      "Baba Vishwanath",
+      "Pashupatinath",
+      "Calcutta",
+      "India",
+      "Darjeeling",
+      "dhoti",
+      "sherwani",
+      "karma",
+      "dharma",
+      "Charminar",
+      "Anikendra Som",
+      "Batra",
+      "Maganlal Meghraj",
+      "Varanasi"
+    ],
+    "ch-10": [
+      "Harinath Chakravarty",
+      "Feluda",
+      "Lalmohan Babu",
+      "Dr Divakar",
+      "Topshe",
+      "Nepal",
+      "Vibgyor",
+      "Dr Divakar",
+      "LSD",
+      "Om-m-m-m",
+      "moksha",
+      "ganja",
+      "charas",
+      "prayer wheel",
+      "Babu",
+      "Himadri Chakravarty",
+      "Batra",
+      "Maganlal Meghraj"
+    ],
+    "ch-11": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Dr Divakar",
+      "Batra",
+      "Mr Pradhan",
+      "Jagdeesh",
+      "Ganga",
+      "Kesri",
+      "Topshe",
+      "LSD",
+      "Nepali",
+      "Buckingham Palace",
+      "Hotel Lumumba",
+      "Lumbini",
+      "Gautam Buddha",
+      "Sun Travels",
+      "Rapti valley",
+      "Oberoi",
+      "Darbar Square",
+      "Freak Street",
+      "Kathmandu",
+      "Shivalik hills",
+      "Hetaora",
+      "Terai",
+      "sepoy mutiny",
+      "Nana Saheb",
+      "Patan",
+      "Nepal Police",
+      "Calcutta",
+      "puri-sabzi",
+      "tiffin carrier",
+      "kukri",
+      "phials",
+      "Maganlal Meghraj",
+      "Varanasi"
+    ],
+    "ch-12": [
+      "Feluda",
+      "Dr Divakar",
+      "Inspector Sharma",
+      "Inspector Joardar",
+      "Batra",
+      "Anikendra Som",
+      "Lalmohan Babu",
+      "Himadri Chakravarty",
+      "Kathmandu",
+      "Nepal Police",
+      "Calcutta",
+      "Himadri Chakravarty",
+      "LSD",
+      "Om Manipadmey Hoomicide",
+      "Nepal",
+      "PRO",
+      "kukri",
+      "rubri",
+      "spurious",
+      "anti-tetanus",
+      "strychnine",
+      "prayer wheel",
+      "Maganlal Meghraj"
+    ]
+  }
+}

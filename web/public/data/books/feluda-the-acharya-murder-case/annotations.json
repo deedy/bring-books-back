@@ -1,0 +1,614 @@
+{
+  "glossary": {
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "A popular thriller writer and friend of Feluda, known for his melodramatic stories and pen name Jatayu.",
+      "image": "/data/images/characters/feluda-the-acharya-murder-case/lalmohan-babu.webp"
+    },
+    "Feluda": {
+      "type": "character",
+      "description": "A private investigator and the protagonist of the stories, known for his sharp intellect and deductive skills.",
+      "image": "/data/images/characters/feluda-the-acharya-murder-case/feluda.webp"
+    },
+    "Indranarayan Acharya": {
+      "type": "character",
+      "description": "Indranarayan Acharya is a talented playwright, songwriter, and violinist associated with Bharat Opera, whose life and work become central to the investigation. He faces a dilemma about whether to leave his long-time association with Bharat Opera for a rival theatre group.",
+      "image": "/data/images/characters/feluda-the-acharya-murder-case/indranarayan-acharya.webp"
+    },
+    "Devnarayan": {
+      "type": "character",
+      "description": "Indranarayan Acharya's elder brother, a businessman."
+    },
+    "Kandarpanarayan Acharya": {
+      "type": "character",
+      "description": "Kandarpanarayan Acharya is Indranarayan Acharya's great-grandfather, known for his lavish lifestyle and travels to England and France."
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "A character who brings tea during the meeting with Mr Acharya."
+    },
+    "Bharat Opera": {
+      "type": "proper_noun",
+      "description": "A well-known jatra group that stages Bengali folk theatre performances."
+    },
+    "Surya Toran": {
+      "type": "proper_noun",
+      "description": "The title of the jatra play staged by Bharat Opera and written by Indranarayan Acharya."
+    },
+    "Bosepukur": {
+      "type": "proper_noun",
+      "description": "A locality referenced as the ancestral home of the Acharya family."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "A country in Europe, referenced as the place where Kandarpanarayan Acharya traveled and lived lavishly."
+    },
+    "Prince Dwarkanath Tagore": {
+      "type": "proper_noun",
+      "description": "A historical Bengali figure known for his wealth and westernized lifestyle, used as a comparison for Kandarpanarayan Acharya."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in India where the story is set."
+    },
+    "Muhammad Shafi Lane": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta where the Bharat Opera office and rehearsals are located."
+    },
+    "Beadon Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, near Muhammad Shafi Lane, mentioned as part of the setting."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular Indian cigarette brand smoked by Feluda."
+    },
+    "jatra": {
+      "type": "vocabulary",
+      "description": "A traditional Bengali folk theatre form, often performed in rural areas with music, drama, and dance."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "barrister": {
+      "type": "vocabulary",
+      "description": "A type of lawyer, especially one entitled to practice as an advocate in higher courts."
+    },
+    "chartered accountant": {
+      "type": "vocabulary",
+      "description": "A professional accountant with certification, recognized for expertise in accounting and finance."
+    },
+    "Ashwini Bhaur": {
+      "type": "character",
+      "description": "Ashwini Bhaur is the manager of Binapani Opera, who is trying to persuade Indranarayan to join his theatre group.",
+      "image": "/data/images/characters/feluda-the-acharya-murder-case/ashwini-bhaur.webp"
+    },
+    "Santosh": {
+      "type": "character",
+      "description": "The bearer who delivers a slip announcing Ashwini Bhaur's arrival."
+    },
+    "Samrat Ashok": {
+      "type": "proper_noun",
+      "description": "The title of a play written by Indranarayan, likely referencing the historical Indian emperor Ashoka."
+    },
+    "Binapani Opera": {
+      "type": "proper_noun",
+      "description": "Binapani Opera is a rival jatra company competing with Bharat Opera, also involved in the investigation and trying to recruit Indranarayan."
+    },
+    "Nobo Natya": {
+      "type": "proper_noun",
+      "description": "Another, smaller theatre group interested in recruiting Indranarayan."
+    },
+    "New Opera": {
+      "type": "proper_noun",
+      "description": "A theatre group mentioned in the context of another playwright's career move."
+    },
+    "Sanjay Kumar": {
+      "type": "proper_noun",
+      "description": "A playwright or theatre professional referenced as having switched theatre groups."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term of address in India, often used for gentlemen or elders."
+    },
+    "Acharya": {
+      "type": "vocabulary",
+      "description": "A title of respect in India, traditionally used for learned persons or teachers."
+    },
+    "Monilal Poddar": {
+      "type": "character",
+      "description": "Inspector Monilal Poddar is a local police inspector involved in the investigation of the Acharya household burglary, who knows Feluda and provides information about the case."
+    },
+    "Pradyumna Mallik": {
+      "type": "character",
+      "description": "Pradyumna Mallik is Keertinarayan's secretary and a writer currently working on a biography of Kandarpanarayan Acharya, assisting in the investigation."
+    },
+    "Leena": {
+      "type": "character",
+      "description": "Hari's daughter, who was very attached to Indranarayan."
+    },
+    "Rohini Babu": {
+      "type": "character",
+      "description": "Lalmohan Babu's neighbor, who knows the Acharya family and comments on their strange relationships."
+    },
+    "Jodu Naskar Lane": {
+      "type": "proper_noun",
+      "description": "A lane behind the Acharya house, mentioned as a possible route for the killer."
+    },
+    "Pushpak Rath": {
+      "type": "proper_noun",
+      "description": "The name given by Kandarpanarayan to his first Lagonda car, referencing the mythical flying chariot from Indian epics."
+    },
+    "Sudarshan Chakra": {
+      "type": "proper_noun",
+      "description": "A mythological weapon associated with Lord Vishnu, here used humorously as a name for a gramophone record."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A classic Indian car model, owned by Lalmohan Babu."
+    },
+    "Puja": {
+      "type": "proper_noun",
+      "description": "Refers to the Hindu religious festival season during which the events take place."
+    },
+    "kurta-pyjama": {
+      "type": "vocabulary",
+      "description": "A traditional Indian outfit consisting of a long tunic (kurta) and loose trousers (pyjama)."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or guard, typically employed to look after a building or property."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A household servant, often responsible for serving food and attending to guests."
+    },
+    "settee": {
+      "type": "vocabulary",
+      "description": "A long upholstered seat for more than one person; a sofa."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed platform along the outside of a house, level with the ground floor."
+    },
+    "Hukum Chand": {
+      "type": "character",
+      "description": "A mysterious name found on a piece of paper, possibly connected to the case."
+    },
+    "France": {
+      "type": "proper_noun",
+      "description": "A European country visited by Kandarpanarayan."
+    },
+    "London": {
+      "type": "proper_noun",
+      "description": "The capital city of England, visited by Kandarpanarayan."
+    },
+    "Paris": {
+      "type": "proper_noun",
+      "description": "The capital city of France, visited by Kandarpanarayan."
+    },
+    "French Riviera": {
+      "type": "proper_noun",
+      "description": "A famous coastal region in southeastern France, known for its casinos and luxury."
+    },
+    "Mecca": {
+      "type": "proper_noun",
+      "description": "A city in Saudi Arabia, used metaphorically here to mean a central or important place for gamblers."
+    },
+    "Kantipur": {
+      "type": "proper_noun",
+      "description": "A location in East Bengal where the Acharyas had their zamindari (landholding)."
+    },
+    "East Bengal": {
+      "type": "proper_noun",
+      "description": "A region in the eastern part of Bengal, now part of Bangladesh."
+    },
+    "Stockwell Tea Company": {
+      "type": "proper_noun",
+      "description": "A company where Devnarayan works as a senior officer."
+    },
+    "Skinner & Hardwick": {
+      "type": "proper_noun",
+      "description": "A company where Harinarayan works as a chartered accountant."
+    },
+    "Saturday Club": {
+      "type": "proper_noun",
+      "description": "A social club frequented by Harinarayan."
+    },
+    "Bengal Club": {
+      "type": "proper_noun",
+      "description": "A prestigious social club frequented by Devnarayan."
+    },
+    "Calcutta Girls’ School": {
+      "type": "proper_noun",
+      "description": "An educational institution in Calcutta attended by Leena."
+    },
+    "Pune": {
+      "type": "proper_noun",
+      "description": "A city in western India where Devnarayan's married daughter lives."
+    },
+    "National Library": {
+      "type": "proper_noun",
+      "description": "A major library in India where Mr Mallik conducted research."
+    },
+    "lassi": {
+      "type": "vocabulary",
+      "description": "A traditional Indian yogurt-based drink, often sweet or flavored."
+    },
+    "lakhs": {
+      "type": "vocabulary",
+      "description": "A unit in the Indian numbering system equal to one hundred thousand (100,000)."
+    },
+    "zamindari": {
+      "type": "vocabulary",
+      "description": "A system of landholding and revenue collection in India, historically involving large estates."
+    },
+    "Suresh Mallik Street": {
+      "type": "proper_noun",
+      "description": "A street in the city where one of the jatra companies is located."
+    },
+    "Sarat Bhattacharya": {
+      "type": "proper_noun",
+      "description": "Sarat Bhattacharya, also known as Sarat Babu, is the proprietor of Bharat Opera, deeply affected by the murder of his company's key artist."
+    },
+    "Chowringhee": {
+      "type": "proper_noun",
+      "description": "A famous area in Kolkata, known for its restaurants and cultural landmarks."
+    },
+    "harmonium": {
+      "type": "vocabulary",
+      "description": "A free-reed keyboard instrument, commonly used in Indian music and theatre."
+    },
+    "almirah": {
+      "type": "vocabulary",
+      "description": "A cupboard or wardrobe, often used in Indian households for storage."
+    },
+    "Serampore": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, where Mr Mallik plans to return to write his book."
+    },
+    "Bhaskar Deb": {
+      "type": "character",
+      "description": "Feluda's old classmate and a member of the Saturday Club, who provides information about Harinarayan."
+    },
+    "Animesh Som": {
+      "type": "character",
+      "description": "Feluda's old classmate and a member of the Bengal Club, who provides information about Devnarayan."
+    },
+    "Harinarayan Acharya": {
+      "type": "character",
+      "description": "Keertinarayan's second son and a chartered accountant with an interest in western classical music; his wife and daughter live in the Acharya household.",
+      "image": "/data/images/characters/feluda-the-acharya-murder-case/harinarayan-acharya.webp"
+    },
+    "Statesman": {
+      "type": "proper_noun",
+      "description": "A well-known English-language newspaper published in Kolkata."
+    },
+    "daalmut": {
+      "type": "vocabulary",
+      "description": "A crunchy Indian snack made from fried lentils and spices."
+    },
+    "paddock": {
+      "type": "vocabulary",
+      "description": "The area at a racecourse where horses are paraded before a race."
+    },
+    "Haripada": {
+      "type": "character",
+      "description": "Lalmohan Babu's driver, who assists in the surveillance operation."
+    },
+    "Mozart": {
+      "type": "proper_noun",
+      "description": "Famous Western composer referenced in the context of musical mysteries."
+    },
+    "Salieri": {
+      "type": "proper_noun",
+      "description": "Another composer, historically rumored to have poisoned Mozart."
+    },
+    "Oriya": {
+      "type": "proper_noun",
+      "description": "Refers to people or culture from Odisha, India; used here for the group's disguise."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A betel leaf preparation chewed for its stimulant effects, common in India."
+    },
+    "beedi": {
+      "type": "vocabulary",
+      "description": "A thin, hand-rolled Indian cigarette made from tobacco wrapped in a tendu leaf."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment, a rectangular piece of cloth wrapped around the waist and legs."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A piece of fabric worn over the shoulders for warmth or as part of traditional attire."
+    },
+    "twenty-nine": {
+      "type": "vocabulary",
+      "description": "A popular card game played in India, especially in Bengal and Odisha."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in India, often paired with a dhoti or pyjama."
+    },
+    "Turupo maruchi kain": {
+      "type": "vocabulary",
+      "description": "An Oriya phrase used in the card game, meaning 'Are you playing a trump card?'"
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "Feluda's cousin and assistant, who often narrates the stories and helps with the investigations."
+    },
+    "Keertinarayan Acharya": {
+      "type": "character",
+      "description": "Keertinarayan Acharya is the seventy-nine-year-old patriarch of the Acharya family and father of Indranarayan, Devnarayan, and Harinarayan, a retired barrister.",
+      "image": "/data/images/characters/feluda-the-acharya-murder-case/keertinarayan-acharya.webp"
+    },
+    "Mr Rebello": {
+      "type": "character",
+      "description": "An antiques dealer who buys the Amati violin from Harinarayan Acharya."
+    },
+    "Lowdon Street": {
+      "type": "proper_noun",
+      "description": "A street name in the city, mentioned as a location Feluda visits."
+    },
+    "Antonio Stradivari": {
+      "type": "proper_noun",
+      "description": "A famous Italian violin maker from the seventeenth century."
+    },
+    "Andrea Guarneri": {
+      "type": "proper_noun",
+      "description": "Another renowned Italian violin maker from the seventeenth century."
+    },
+    "Nicolo Amati": {
+      "type": "proper_noun",
+      "description": "A celebrated Italian violin maker, the first to revolutionize violin making in Cremona."
+    },
+    "Cremona": {
+      "type": "proper_noun",
+      "description": "A city in Italy, famous for its tradition of violin making."
+    },
+    "Happy Birthday": {
+      "type": "proper_noun",
+      "description": "Another race horse's name, found on the same piece of paper."
+    },
+    "Prakhar Rudra": {
+      "type": "proper_noun",
+      "description": "A fictional hero created by Lalmohan Babu in his thriller novels."
+    },
+    "The Three Musketeers": {
+      "type": "proper_noun",
+      "description": "A reference to the famous novel by Alexandre Dumas, mentioned humorously by Lalmohan Babu."
+    },
+    "pot-boilers": {
+      "type": "vocabulary",
+      "description": "A term for works of literature or art produced quickly to make money rather than for artistic merit."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Indranarayan Acharya",
+      "Devnarayan",
+      "Kandarpanarayan Acharya",
+      "Srinath",
+      "Bharat Opera",
+      "Surya Toran",
+      "Bosepukur",
+      "England",
+      "Prince Dwarkanath Tagore",
+      "Calcutta",
+      "Muhammad Shafi Lane",
+      "Beadon Street",
+      "Charminar",
+      "jatra",
+      "rupees",
+      "barrister",
+      "chartered accountant",
+      "Harinarayan Acharya",
+      "Keertinarayan Acharya"
+    ],
+    "ch-2": [
+      "Ashwini Bhaur",
+      "Santosh",
+      "Samrat Ashok",
+      "Bharat Opera",
+      "Binapani Opera",
+      "Nobo Natya",
+      "New Opera",
+      "Sanjay Kumar",
+      "Babu",
+      "Acharya",
+      "Indranarayan Acharya",
+      "Feluda"
+    ],
+    "ch-3": [
+      "Indranarayan Acharya",
+      "Feluda",
+      "Monilal Poddar",
+      "Pradyumna Mallik",
+      "Lalmohan Babu",
+      "Ashwini Bhaur",
+      "Santosh",
+      "Kandarpanarayan Acharya",
+      "Devnarayan",
+      "Leena",
+      "Rohini Babu",
+      "Bosepukur",
+      "Binapani Opera",
+      "Bharat Opera",
+      "Jodu Naskar Lane",
+      "England",
+      "Pushpak Rath",
+      "Sudarshan Chakra",
+      "Ambassador",
+      "Puja",
+      "Acharya",
+      "jatra",
+      "barrister",
+      "kurta-pyjama",
+      "chowkidar",
+      "bearer",
+      "settee",
+      "veranda",
+      "Keertinarayan Acharya",
+      "Harinarayan Acharya"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Ashwini Bhaur",
+      "Santosh",
+      "Devnarayan",
+      "Lalmohan Babu",
+      "Leena",
+      "Hukum Chand",
+      "Binapani Opera",
+      "England",
+      "France",
+      "London",
+      "Paris",
+      "French Riviera",
+      "Mecca",
+      "Kantipur",
+      "East Bengal",
+      "Charminar",
+      "Stockwell Tea Company",
+      "Skinner & Hardwick",
+      "Saturday Club",
+      "Bengal Club",
+      "Calcutta Girls’ School",
+      "Pune",
+      "National Library",
+      "veranda",
+      "lassi",
+      "lakhs",
+      "zamindari",
+      "jatra",
+      "Indranarayan Acharya",
+      "Harinarayan Acharya",
+      "Kandarpanarayan Acharya",
+      "Keertinarayan Acharya",
+      "Monilal Poddar",
+      "Pradyumna Mallik"
+    ],
+    "ch-5": [
+      "Lalmohan Babu",
+      "Feluda",
+      "Ashwini Bhaur",
+      "Bosepukur",
+      "Bharat Opera",
+      "Suresh Mallik Street",
+      "Muhammad Shafi Lane",
+      "Sarat Bhattacharya",
+      "Chowringhee",
+      "jatra",
+      "Babu",
+      "harmonium",
+      "almirah",
+      "Indranarayan Acharya",
+      "Harinarayan Acharya",
+      "Keertinarayan Acharya",
+      "Tapesh",
+      "Binapani Opera"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Leena",
+      "Lalmohan Babu",
+      "Devnarayan",
+      "Bosepukur",
+      "Bharat Opera",
+      "Samrat Ashok",
+      "Serampore",
+      "Jodu Naskar Lane",
+      "jatra",
+      "barrister",
+      "Indranarayan Acharya",
+      "Harinarayan Acharya",
+      "Kandarpanarayan Acharya",
+      "Keertinarayan Acharya",
+      "Pradyumna Mallik",
+      "Binapani Opera"
+    ],
+    "ch-7": [
+      "Lalmohan Babu",
+      "Srinath",
+      "Devnarayan",
+      "Bhaskar Deb",
+      "Animesh Som",
+      "Harinarayan Acharya",
+      "Bosepukur",
+      "Charminar",
+      "jatra",
+      "Saturday Club",
+      "Bengal Club",
+      "London",
+      "Statesman",
+      "Calcutta",
+      "daalmut",
+      "paddock",
+      "Keertinarayan Acharya",
+      "Feluda"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Santosh",
+      "Pradyumna Mallik",
+      "Lalmohan Babu",
+      "Haripada",
+      "Ashwini Bhaur",
+      "Acharya",
+      "Bosepukur",
+      "Jodu Naskar Lane",
+      "Bharat Opera",
+      "Binapani Opera",
+      "Mozart",
+      "Salieri",
+      "Oriya",
+      "jatra",
+      "paan",
+      "beedi",
+      "dhoti",
+      "shawl",
+      "twenty-nine",
+      "kurta",
+      "Turupo maruchi kain",
+      "Indranarayan Acharya",
+      "Monilal Poddar"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Ashwini Bhaur",
+      "Indranarayan Acharya",
+      "Lalmohan Babu",
+      "Tapesh",
+      "Keertinarayan Acharya",
+      "Devnarayan",
+      "Leena",
+      "Mr Rebello",
+      "Bosepukur",
+      "Binapani Opera",
+      "Statesman",
+      "Lowdon Street",
+      "Antonio Stradivari",
+      "Andrea Guarneri",
+      "Nicolo Amati",
+      "Cremona",
+      "Hukum Chand",
+      "Happy Birthday",
+      "Prakhar Rudra",
+      "The Three Musketeers",
+      "jatra",
+      "Babu",
+      "rupees",
+      "pot-boilers",
+      "Harinarayan Acharya",
+      "Kandarpanarayan Acharya",
+      "Monilal Poddar",
+      "Pradyumna Mallik"
+    ]
+  }
+}

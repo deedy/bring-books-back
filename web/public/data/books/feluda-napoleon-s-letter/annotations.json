@@ -1,0 +1,496 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "The main detective, Prodosh C. Mitter, known for his sharp intellect and investigative skills.",
+      "image": "/data/images/characters/feluda-napoleon-s-letter/feluda.webp"
+    },
+    "Aniruddha Haldar": {
+      "type": "character",
+      "description": "The six-year-old son of Amitabh Haldar who owns a toy machine-gun and asks Feluda to find his missing bird."
+    },
+    "Amitabh Haldar": {
+      "type": "character",
+      "description": "Aniruddha's father, son of Parvaticharan Haldar, who invites Feluda to their home.",
+      "image": "/data/images/characters/feluda-napoleon-s-letter/amitabh-haldar.webp"
+    },
+    "Parvaticharan Haldar": {
+      "type": "character",
+      "description": "A retired barrister and passionate collector of antiques, father of Amitabh, and the murder victim found dead in his study."
+    },
+    "Lalmohan Babu": {
+      "type": "character",
+      "description": "A writer of thrillers and Feluda's friend, known by his pen name Jatayu and real surname Ganguli.",
+      "image": "/data/images/characters/feluda-napoleon-s-letter/lalmohan-babu.webp"
+    },
+    "Hrishikesh Datta": {
+      "type": "character",
+      "description": "The current secretary of Parvaticharan Haldar and associate who arranges meetings and provides information about Barasat.",
+      "image": "/data/images/characters/feluda-napoleon-s-letter/hrishikesh-datta.webp"
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A popular Indian cigarette brand, often associated with Feluda."
+    },
+    "Hobby Centre": {
+      "type": "proper_noun",
+      "description": "A shop located at the corner of Park Street and Russell Street, selling toys and other items."
+    },
+    "Park Street": {
+      "type": "proper_noun",
+      "description": "A well-known street in Kolkata, famous for its shops and restaurants."
+    },
+    "Russell Street": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata intersecting with Park Street."
+    },
+    "Uncle Sidhu": {
+      "type": "proper_noun",
+      "description": "A recurring character in the Feluda stories, known for his knowledge and age."
+    },
+    "Barasat": {
+      "type": "proper_noun",
+      "description": "A town near Kolkata where the Haldar family resides."
+    },
+    "New Market": {
+      "type": "proper_noun",
+      "description": "A historic and popular shopping area in Kolkata."
+    },
+    "Tinkori Babu": {
+      "type": "proper_noun",
+      "description": "The owner of a well-known pet shop in New Market."
+    },
+    "Mughal": {
+      "type": "proper_noun",
+      "description": "Refers to the Mughal Empire, an important historical period in India."
+    },
+    "Warren Hastings": {
+      "type": "proper_noun",
+      "description": "The first Governor-General of India under British rule."
+    },
+    "Napoleon": {
+      "type": "proper_noun",
+      "description": "Refers to Napoleon Bonaparte, the French military leader and emperor."
+    },
+    "VIP Road": {
+      "type": "proper_noun",
+      "description": "A major road in Kolkata connecting the city to the airport."
+    },
+    "Bagbazar": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Kolkata, known for its sweet shops."
+    },
+    "Mohan’s": {
+      "type": "proper_noun",
+      "description": "A famous sweetshop in Bagbazar."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in India."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India."
+    },
+    "Sai Baba": {
+      "type": "proper_noun",
+      "description": "A revered spiritual leader in India, with many followers and ashrams."
+    },
+    "chandana": {
+      "type": "vocabulary",
+      "description": "A type of bird, commonly kept as a pet in Bengal."
+    },
+    "kachauris": {
+      "type": "vocabulary",
+      "description": "A popular Indian snack, deep-fried and stuffed with spiced filling."
+    },
+    "Baba": {
+      "type": "vocabulary",
+      "description": "A common Indian term for father."
+    },
+    "ashram": {
+      "type": "vocabulary",
+      "description": "A spiritual hermitage or monastery in Indian religions."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or security guard, especially in Indian households."
+    },
+    "supari": {
+      "type": "vocabulary",
+      "description": "Areca nut, often chewed in India and also refers to the tree it grows on."
+    },
+    "Durga Puja": {
+      "type": "vocabulary",
+      "description": "A major Hindu festival celebrated in Bengal and other parts of India."
+    },
+    "Inspector Hajra": {
+      "type": "character",
+      "description": "The police inspector in charge of the case, who respects Feluda."
+    },
+    "Achintya Haldar": {
+      "type": "character",
+      "description": "Amitabh’s younger brother and Aniruddha's uncle, involved in theatre and a potential suspect in the Haldar family mystery.",
+      "image": "/data/images/characters/feluda-napoleon-s-letter/achintya-haldar.webp"
+    },
+    "Nobo Rangamanch": {
+      "type": "proper_noun",
+      "description": "A theatre company in Calcutta where Achintya Haldar seeks work."
+    },
+    "Alkathene": {
+      "type": "vocabulary",
+      "description": "A type of plastic (polyethylene) commonly used for making envelopes and containers in India."
+    },
+    "Sadhan Dastidar": {
+      "type": "character",
+      "description": "Parvaticharan's former secretary, known for his superstitious nature and mysterious disappearance.",
+      "image": "/data/images/characters/feluda-napoleon-s-letter/sadhan-dastidar.webp"
+    },
+    "Mukundo": {
+      "type": "character",
+      "description": "Mukundo is a bearer (servant) in the Haldar household, responsible for serving coffee."
+    },
+    "Haldar": {
+      "type": "proper_noun",
+      "description": "The Haldar family, central to the story, whose house is the site of the murder and theft."
+    },
+    "Lord Sinha Road": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata, mentioned as the location of a clinic visited by Pestonji."
+    },
+    "Bowbazar Street": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata, referenced as the address of the ancient Parsi household."
+    },
+    "Parsi": {
+      "type": "proper_noun",
+      "description": "Parsi refers to the Zoroastrian community in India, originally from Persia, with a long history in Kolkata."
+    },
+    "Siraj-ud-daula": {
+      "type": "proper_noun",
+      "description": "Siraj-ud-daula was the last independent Nawab of Bengal, referenced in relation to the history of Parsis in Calcutta."
+    },
+    "Jai Guru": {
+      "type": "proper_noun",
+      "description": "A spiritual phrase, often used in Indian religious contexts, meaning 'Victory to the Guru'."
+    },
+    "Hare Krishna": {
+      "type": "proper_noun",
+      "description": "A Hindu devotional chant associated with the worship of Lord Krishna."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful term for a gentleman, commonly used in Bengal and northern India."
+    },
+    "mali": {
+      "type": "vocabulary",
+      "description": "A gardener, responsible for tending to plants and gardens."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A household servant, often responsible for serving food and drinks."
+    },
+    "telegram": {
+      "type": "vocabulary",
+      "description": "A message sent via telegraph, once a common method of communication in India."
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's cousin and assistant, who narrates the story and helps with investigations."
+    },
+    "R.D. Pestonji": {
+      "type": "character",
+      "description": "An elderly antiquarian and collector interested in buying the stolen Napoleon letter."
+    },
+    "Abhilash Poddar": {
+      "type": "character",
+      "description": "The proprietor of Nobo Rangamanch theatre on Cornwallis Street."
+    },
+    "Manas Banerjee": {
+      "type": "character",
+      "description": "An actor mentioned as one of the leading men at the theatre."
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "A servant who brings coffee to guests in Feluda's house."
+    },
+    "Boubazar": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta (Kolkata), known for its old houses and bustling streets."
+    },
+    "St Helena": {
+      "type": "proper_noun",
+      "description": "An island in the South Atlantic where Napoleon was exiled after his defeat."
+    },
+    "Zurich": {
+      "type": "proper_noun",
+      "description": "A city in Switzerland, mentioned as the place where the Napoleon letter was bought."
+    },
+    "Ming": {
+      "type": "proper_noun",
+      "description": "Refers to the Ming dynasty of China, known for its exquisite porcelain vases."
+    },
+    "Cornwallis Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, location of the Nobo Rangamanch theatre."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, a major city in western India."
+    },
+    "Bahadur Shah Zafar": {
+      "type": "proper_noun",
+      "description": "The last Mughal emperor of India, referenced as the original owner of a snuff box."
+    },
+    "Madhumurali Deeghi": {
+      "type": "proper_noun",
+      "description": "A lake near the broken indigo factory, mentioned as a meeting place."
+    },
+    "Rajasthan": {
+      "type": "proper_noun",
+      "description": "A state in western India, known for its history of dacoits (bandits)."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects."
+    },
+    "attar": {
+      "type": "vocabulary",
+      "description": "A fragrant essential oil, usually derived from flowers, used as perfume."
+    },
+    "biriyani": {
+      "type": "vocabulary",
+      "description": "A popular Indian rice dish cooked with spices, meat, or vegetables."
+    },
+    "dacoits": {
+      "type": "vocabulary",
+      "description": "Armed bandits or robbers, especially those operating in rural India."
+    },
+    "Sadhu": {
+      "type": "vocabulary",
+      "description": "A term meaning 'holy man' or ascetic, but here used as a nickname."
+    },
+    "Haripada": {
+      "type": "character",
+      "description": "Lalmohan Babu’s enthusiastic driver, who admires Feluda and assists the group."
+    },
+    "Mrs Haldar": {
+      "type": "character",
+      "description": "Amitabh Haldar’s wife, who helps make arrangements for the guests."
+    },
+    "Colt": {
+      "type": "proper_noun",
+      "description": "A brand of revolver, indicating Feluda is armed with a firearm."
+    },
+    "sheora": {
+      "type": "proper_noun",
+      "description": "A type of tree (Streblus asper), often associated with folklore and ghost stories in Bengal."
+    },
+    "aloo-sabzi": {
+      "type": "vocabulary",
+      "description": "A spiced potato curry, commonly served as a side dish with Indian breads."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air gallery or porch attached to the outside of a building, common in Indian architecture."
+    },
+    "Odomos": {
+      "type": "vocabulary",
+      "description": "A popular Indian brand of mosquito repellent cream."
+    },
+    "rickshaw": {
+      "type": "vocabulary",
+      "description": "A small, two- or three-wheeled passenger vehicle, commonly used for transport in India."
+    },
+    "goondas": {
+      "type": "vocabulary",
+      "description": "A Hindi word for hired thugs or hooligans, often involved in criminal activities."
+    },
+    "Shankar": {
+      "type": "character",
+      "description": "The son of the mali (gardener), known for his skill in catching birds."
+    },
+    "Radhe Shyam": {
+      "type": "proper_noun",
+      "description": "A traditional Hindu greeting or chant, often used in devotional contexts."
+    },
+    "dadu": {
+      "type": "vocabulary",
+      "description": "A Bengali term meaning grandfather, used affectionately by children."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Aniruddha Haldar",
+      "Amitabh Haldar",
+      "Parvaticharan Haldar",
+      "Lalmohan Babu",
+      "Hrishikesh Datta",
+      "Charminar",
+      "Hobby Centre",
+      "Park Street",
+      "Russell Street",
+      "Uncle Sidhu",
+      "Barasat",
+      "Lalmohan Babu",
+      "New Market",
+      "Tinkori Babu",
+      "Mughal",
+      "Warren Hastings",
+      "Napoleon",
+      "VIP Road",
+      "Bagbazar",
+      "Mohan’s",
+      "Calcutta",
+      "Delhi",
+      "Sai Baba",
+      "chandana",
+      "kachauris",
+      "Baba",
+      "ashram",
+      "chowkidar",
+      "supari",
+      "Durga Puja",
+      "dadu",
+      "Sadhan Dastidar"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Inspector Hajra",
+      "Amitabh Haldar",
+      "Hrishikesh Datta",
+      "Achintya Haldar",
+      "New Market",
+      "Calcutta",
+      "Nobo Rangamanch",
+      "Napoleon",
+      "chowkidar",
+      "Alkathene",
+      "Parvaticharan Haldar",
+      "R.D. Pestonji",
+      "babu",
+      "Haldar",
+      "Aniruddha Haldar",
+      "Sadhan Dastidar"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Amitabh Haldar",
+      "Sadhan Dastidar",
+      "Achintya Haldar",
+      "Hrishikesh Datta",
+      "Inspector Hajra",
+      "Mukundo",
+      "Tinkori Babu",
+      "Haldar",
+      "Barasat",
+      "Calcutta",
+      "Lord Sinha Road",
+      "Bowbazar Street",
+      "New Market",
+      "Parsi",
+      "Siraj-ud-daula",
+      "Napoleon",
+      "Jai Guru",
+      "Hare Krishna",
+      "chandana",
+      "babu",
+      "chowkidar",
+      "mali",
+      "bearer",
+      "Charminar",
+      "telegram",
+      "Aniruddha Haldar",
+      "Parvaticharan Haldar",
+      "R.D. Pestonji"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Topshe",
+      "Lalmohan Babu",
+      "R.D. Pestonji",
+      "Parvaticharan Haldar",
+      "Uncle Sidhu",
+      "Abhilash Poddar",
+      "Achintya Haldar",
+      "Manas Banerjee",
+      "Tinkori Babu",
+      "Inspector Hajra",
+      "Sadhan Dastidar",
+      "Hrishikesh Datta",
+      "Srinath",
+      "Amitabh Haldar",
+      "Boubazar",
+      "Calcutta",
+      "Napoleon",
+      "St Helena",
+      "Zurich",
+      "Ming",
+      "Cornwallis Street",
+      "Bowbazar Street",
+      "Nobo Rangamanch",
+      "Bombay",
+      "New Market",
+      "Bahadur Shah Zafar",
+      "Madhumurali Deeghi",
+      "Rajasthan",
+      "bearer",
+      "paan",
+      "attar",
+      "chandana",
+      "biriyani",
+      "dacoits",
+      "Sadhu"
+    ],
+    "ch-5": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Haripada",
+      "Amitabh Haldar",
+      "Achintya Haldar",
+      "Mrs Haldar",
+      "Barasat",
+      "VIP Road",
+      "Srinath",
+      "Colt",
+      "Madhumurali Deeghi",
+      "sheora",
+      "Haldar",
+      "kachauris",
+      "aloo-sabzi",
+      "paan",
+      "veranda",
+      "Odomos",
+      "rickshaw",
+      "goondas",
+      "Sadhan Dastidar",
+      "Topshe",
+      "Hrishikesh Datta"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Lalmohan Babu",
+      "Amitabh Haldar",
+      "Inspector Hajra",
+      "Sadhan Dastidar",
+      "Shankar",
+      "Barasat",
+      "Delhi",
+      "Napoleon",
+      "Radhe Shyam",
+      "Hare Krishna",
+      "chandana",
+      "mali",
+      "dadu",
+      "babu",
+      "chowkidar",
+      "Achintya Haldar",
+      "Aniruddha Haldar",
+      "Parvaticharan Haldar",
+      "R.D. Pestonji",
+      "Hrishikesh Datta"
+    ]
+  }
+}

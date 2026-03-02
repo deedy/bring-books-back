@@ -1,0 +1,21 @@
+{
+  "id": "feluda-the-mystery-of-the-pink-pearl",
+  "title": "The Mystery of the Pink Pearl",
+  "transliteratedTitle": "Golapi Mukta Rahasya",
+  "subtitle": "A Priceless Gem and a Village of Secrets",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-the-mystery-of-the-pink-pearl.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "গোলাপী মুক্তা রহস্য",
+  "originalYear": 1989,
+  "totalChapters": 9,
+  "wordCount": 10678,
+  "summary": "When master detective Feluda visits the quiet village of Sonahati for a seemingly routine reception, he finds himself drawn into a web of intrigue surrounding a legendary pink pearl. As rumors of hidden treasures and mysterious collectors swirl, Feluda must unravel the truth before the village's secrets claim another victim.",
+  "anthologyId": "feluda",
+  "storyNumber": 32
+}

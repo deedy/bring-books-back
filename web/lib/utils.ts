@@ -9,6 +9,12 @@ export function readingTime(wordCount: number): string {
   return m > 0 ? `${h}h ${m}min` : `${h}h`;
 }
 
+/** Format year or year range, e.g. "1965" or "1965–1992" */
+export function displayYear(originalYear: number, yearEnd?: number): string {
+  if (yearEnd && yearEnd !== originalYear) return `${originalYear}\u2013${yearEnd}`;
+  return String(originalYear);
+}
+
 export function slugify(text: string): string {
   return text
     .toLowerCase()

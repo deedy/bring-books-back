@@ -1,0 +1,21 @@
+{
+  "id": "feluda-tintoretto-s-jesus",
+  "title": "Tintoretto's Jesus",
+  "transliteratedTitle": "Tintorettor Jishu",
+  "subtitle": "A Mysterious Heir and a Vanished Legacy",
+  "authorId": "satyajit-ray",
+  "coverImage": "/data/images/covers/feluda-tintoretto-s-jesus.webp",
+  "accentColor": "#2E5A3C",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "তিনতোরেত্তোর যীশু",
+  "originalYear": 1982,
+  "totalChapters": 12,
+  "wordCount": 20077,
+  "summary": "When a long-lost relative arrives at the ancestral home of the Niyogis, secrets from decades past begin to surface, shrouded in intrigue and suspicion. As Feluda investigates, he must untangle a web of family history, missing persons, and art world mysteries. What hidden truths lie behind the enigmatic return—and what dangers await those who seek them?",
+  "anthologyId": "feluda",
+  "storyNumber": 21
+}

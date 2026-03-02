@@ -1,0 +1,326 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "A private investigator and the protagonist of the stories, also known as Pradosh C. Mitter or Mr Mitter.",
+      "image": "/data/images/characters/feluda-the-case-of-the-apsara-theatre/feluda.webp"
+    },
+    "Jatayu": {
+      "type": "character",
+      "description": "A popular thriller writer and close friend of Feluda who uses the pen name Jatayu.",
+      "image": "/data/images/characters/feluda-the-case-of-the-apsara-theatre/jatayu.webp"
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "Feluda's cousin and the narrator of the stories, often referred to by his nickname Topshe."
+    },
+    "Srinath": {
+      "type": "character",
+      "description": "A domestic helper who is asked to make tea for the group."
+    },
+    "Mahitosh Roy": {
+      "type": "character",
+      "description": "A theatre actor who approaches Feluda for help after receiving anonymous threats and later disappears.",
+      "image": "/data/images/characters/feluda-the-case-of-the-apsara-theatre/mahitosh-roy.webp"
+    },
+    "Jaganmoy Bhattacharya": {
+      "type": "character",
+      "description": "A former actor at Apsara Theatre who was replaced by Mahitosh Roy and is mentioned as a possible suspect."
+    },
+    "Nepal Lahiri": {
+      "type": "character",
+      "description": "Nepal Lahiri is the lead actor at Apsara Theatre, whose murder is central to the plot.",
+      "image": "/data/images/characters/feluda-the-case-of-the-apsara-theatre/nepal-lahiri.webp"
+    },
+    "Sherlock Holmes": {
+      "type": "proper_noun",
+      "description": "A famous fictional detective created by Sir Arthur Conan Doyle, referenced as an inspiration."
+    },
+    "Watson": {
+      "type": "proper_noun",
+      "description": "Dr. John Watson, Sherlock Holmes's friend and chronicler, referenced in comparison to Feluda and Topshe."
+    },
+    "Conan Doyle": {
+      "type": "proper_noun",
+      "description": "Sir Arthur Conan Doyle, the creator of Sherlock Holmes."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, referenced as the setting for Lalmohan Babu's popularity."
+    },
+    "Apsara Theatre": {
+      "type": "proper_noun",
+      "description": "Apsara Theatre is a prominent theatre company where Nepal Lahiri was a star actor and Mahitosh Roy currently works."
+    },
+    "Prafulla": {
+      "type": "proper_noun",
+      "description": "A play being performed at Apsara Theatre, with Mahitosh Roy in a small role."
+    },
+    "Rupmanch": {
+      "type": "proper_noun",
+      "description": "A previous theatre company where Mahitosh Roy worked before joining Apsara."
+    },
+    "Ballygunj": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, India, where Mahitosh Roy lives."
+    },
+    "Five Panditia Place": {
+      "type": "proper_noun",
+      "description": "The specific address in Ballygunj where Mahitosh Roy resides."
+    },
+    "daalmut": {
+      "type": "vocabulary",
+      "description": "A popular Indian snack made from fried lentils and spices."
+    },
+    "Dinabandhu": {
+      "type": "character",
+      "description": "The loyal bearer of Mahitosh Roy, who has served him for twenty-two years and assists Feluda in the investigation."
+    },
+    "Subodh Adhikari": {
+      "type": "character",
+      "description": "The Officer-in-Charge (OC) and police inspector at Bhawanipore police station handling the case of Mahitosh Roy's disappearance."
+    },
+    "Bhawanipore": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta, location of the police station involved in the investigation."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in India where the story is set."
+    },
+    "Shyambazar": {
+      "type": "proper_noun",
+      "description": "A well-known area in Calcutta, location of the Apsara Theatre."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A domestic servant, often responsible for personal service in Indian households."
+    },
+    "supari": {
+      "type": "vocabulary",
+      "description": "Areca nut, commonly chewed in India, often as a mouth freshener."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "Kailash Banerjee": {
+      "type": "character",
+      "description": "The manager of Apsara Theatre, who provides information about Mahitosh Roy and other actors.",
+      "image": "/data/images/characters/feluda-the-case-of-the-apsara-theatre/kailash-banerjee.webp"
+    },
+    "Nirmal Bose Street": {
+      "type": "proper_noun",
+      "description": "A street address in the city where Jaganmoy Bhattacharya currently resides."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or gatekeeper, commonly employed at buildings or compounds in India."
+    },
+    "divan": {
+      "type": "vocabulary",
+      "description": "A long, low sofa without a back or arms, often used for sitting or reclining in South Asian homes."
+    },
+    "Sudhendu Chakravarty": {
+      "type": "character",
+      "description": "The new actor employed by Apsara Theatre to replace Mahitosh Roy."
+    },
+    "Shivtosh": {
+      "type": "character",
+      "description": "Mahitosh Roy's younger brother, estranged from him due to family disputes over inheritance."
+    },
+    "Anup Sengupta": {
+      "type": "character",
+      "description": "A friend of Shivtosh Roy whose house provided Shivtosh with an alibi."
+    },
+    "Sasadhar Chatterjee": {
+      "type": "character",
+      "description": "An actor who works for Rupam Theatre and was the friend Nepal Lahiri was visiting when he was killed."
+    },
+    "Sardar Shankar Road": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta where Anup Sengupta's house is located."
+    },
+    "Digha": {
+      "type": "proper_noun",
+      "description": "A seaside town in West Bengal, India, where Feluda and his friends travel for a break."
+    },
+    "Rupam Theatre": {
+      "type": "proper_noun",
+      "description": "A rival theatre company where Sasadhar Chatterjee works."
+    },
+    "Nakuleshwar Bhattacharya Lane": {
+      "type": "proper_noun",
+      "description": "The address where Nepal Lahiri lived."
+    },
+    "Alamgeer": {
+      "type": "proper_noun",
+      "description": "A new play planned by Apsara Theatre, with Nepal Lahiri originally set to play the main role."
+    },
+    "Moti Mistri Lane": {
+      "type": "proper_noun",
+      "description": "The alley where Nepal Lahiri was killed."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "'Namaskar' is a respectful Indian greeting or farewell, similar to 'hello' or 'goodbye.'"
+    },
+    "Inspector Bhowmik": {
+      "type": "character",
+      "description": "The police inspector in charge of the murder case.",
+      "image": "/data/images/characters/feluda-the-case-of-the-apsara-theatre/inspector-bhowmik.webp"
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, commonly chewed in India."
+    },
+    "Dharani Sanyal": {
+      "type": "character",
+      "description": "The seniormost artiste at Apsara, with twenty-six years of experience."
+    },
+    "Dipen Bose": {
+      "type": "character",
+      "description": "An actor at Apsara who joined the theatre with Nepal Lahiri."
+    },
+    "Bhujanga Ray": {
+      "type": "character",
+      "description": "An actor at Apsara and close friend of Nepal Lahiri."
+    },
+    "Kalikinkar Ghoshal": {
+      "type": "character",
+      "description": "A friend of Dharani Sanyal, whose house hosted a keertan session."
+    },
+    "Omega": {
+      "type": "proper_noun",
+      "description": "A luxury Swiss watch brand; Nepal Lahiri's expensive watch that went missing."
+    },
+    "Amherst Row": {
+      "type": "proper_noun",
+      "description": "A residential area where Sudhendu Chakravarty lives."
+    },
+    "keertan": {
+      "type": "vocabulary",
+      "description": "A devotional singing session, often involving group chanting of religious songs."
+    },
+    "snuff": {
+      "type": "vocabulary",
+      "description": "A powdered tobacco product inhaled through the nose, commonly used in India."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Jatayu",
+      "Tapesh",
+      "Srinath",
+      "Mahitosh Roy",
+      "Jaganmoy Bhattacharya",
+      "Nepal Lahiri",
+      "Sherlock Holmes",
+      "Watson",
+      "Conan Doyle",
+      "Bengal",
+      "Apsara Theatre",
+      "Prafulla",
+      "Rupmanch",
+      "Ballygunj",
+      "Five Panditia Place",
+      "daalmut",
+      "namaskar"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Mahitosh Roy",
+      "Dinabandhu",
+      "Subodh Adhikari",
+      "Apsara Theatre",
+      "Five Panditia Place",
+      "Ballygunj",
+      "Bhawanipore",
+      "Calcutta",
+      "Shyambazar",
+      "bearer",
+      "supari",
+      "rupees",
+      "Jatayu"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Mahitosh Roy",
+      "Kailash Banerjee",
+      "Jaganmoy Bhattacharya",
+      "Apsara Theatre",
+      "Nirmal Bose Street",
+      "chowkidar",
+      "divan",
+      "Jatayu"
+    ],
+    "ch-4": [
+      "Mahitosh Roy",
+      "Feluda",
+      "Sudhendu Chakravarty",
+      "Shivtosh",
+      "Anup Sengupta",
+      "Nepal Lahiri",
+      "Kailash Banerjee",
+      "Sasadhar Chatterjee",
+      "Apsara Theatre",
+      "Sardar Shankar Road",
+      "Digha",
+      "Calcutta",
+      "Rupam Theatre",
+      "Nakuleshwar Bhattacharya Lane",
+      "Prafulla",
+      "Alamgeer",
+      "Moti Mistri Lane",
+      "namaskar",
+      "chowkidar",
+      "Jatayu"
+    ],
+    "ch-5": [
+      "Sasadhar Chatterjee",
+      "Feluda",
+      "Nepal Lahiri",
+      "Inspector Bhowmik",
+      "Moti Mistri Lane",
+      "Alamgeer",
+      "paan",
+      "Apsara Theatre",
+      "Jatayu"
+    ],
+    "ch-6": [
+      "Inspector Bhowmik",
+      "Feluda",
+      "Nepal Lahiri",
+      "Kailash Banerjee",
+      "Dharani Sanyal",
+      "Dipen Bose",
+      "Bhujanga Ray",
+      "Sudhendu Chakravarty",
+      "Mahitosh Roy",
+      "Kalikinkar Ghoshal",
+      "Moti Mistri Lane",
+      "Omega",
+      "Alamgeer",
+      "Amherst Row",
+      "keertan",
+      "Apsara Theatre",
+      "Jatayu"
+    ],
+    "ch-7": [
+      "Feluda",
+      "Tapesh",
+      "Srinath",
+      "Mahitosh Roy",
+      "Dipen Bose",
+      "Bhujanga Ray",
+      "Sudhendu Chakravarty",
+      "Inspector Bhowmik",
+      "Apsara Theatre",
+      "snuff",
+      "supari",
+      "Jatayu",
+      "Nepal Lahiri"
+    ]
+  }
+}

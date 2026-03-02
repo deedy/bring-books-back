@@ -1,0 +1,731 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "A private detective and the main protagonist known for his sharp observation and analytical skills.",
+      "image": "/data/images/characters/feluda-trouble-in-gangtok/feluda.webp"
+    },
+    "Tapesh": {
+      "type": "character",
+      "description": "Feluda's cousin and the narrator of the story who accompanies Feluda on his adventures and assists in the investigation."
+    },
+    "Baba": {
+      "type": "character",
+      "description": "Tapesh's father, who is unable to join the trip due to a work tour in Bangalore."
+    },
+    "Sasadhar Bose": {
+      "type": "character",
+      "description": "A cheerful and talkative man working for a chemical firm who joins Feluda and Tapesh on their journey to Gangtok.",
+      "image": "/data/images/characters/feluda-trouble-in-gangtok/sasadhar-bose.webp"
+    },
+    "Takla Makan": {
+      "type": "proper_noun",
+      "description": "A large desert in northwest China, referenced as a subject Feluda was reading about."
+    },
+    "Bagdogra": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, with an airport serving as the entry point to the eastern Himalayas."
+    },
+    "Gangtok": {
+      "type": "proper_noun",
+      "description": "The capital city of Sikkim, a northeastern Indian state in the Himalayas."
+    },
+    "Sikkim": {
+      "type": "proper_noun",
+      "description": "A small Indian state in the eastern Himalayas, known for its Tibetan cultural influence."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, India, famous for its tea gardens and scenic beauty."
+    },
+    "Bangalore": {
+      "type": "proper_noun",
+      "description": "A major city in southern India, now known as Bengaluru."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, the capital city of West Bengal, India."
+    },
+    "Tibet": {
+      "type": "proper_noun",
+      "description": "A region north of Sikkim, now an autonomous region of China."
+    },
+    "Sven Hedin": {
+      "type": "proper_noun",
+      "description": "A Swedish geographer and explorer, known for his travels in Central Asia and Tibet."
+    },
+    "Tibetan": {
+      "type": "proper_noun",
+      "description": "Tibetan refers to people from Tibet or their culture; Tibetans are the people of Tibet, many of whom live in Sikkim and are associated with Buddhist culture."
+    },
+    "Lachen": {
+      "type": "proper_noun",
+      "description": "A town in North Sikkim, known for its scenic beauty."
+    },
+    "Lachung": {
+      "type": "proper_noun",
+      "description": "Another picturesque town in North Sikkim."
+    },
+    "Nathula": {
+      "type": "proper_noun",
+      "description": "Nathula is a mountain pass in the Himalayas connecting Sikkim with Tibet; Nathula Road is the road in Gangtok leading towards this pass on the India-China border."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, the capital city of Maharashtra, India."
+    },
+    "S. S. Chemicals": {
+      "type": "proper_noun",
+      "description": "The chemical company where Sasadhar Bose works."
+    },
+    "Siliguri": {
+      "type": "proper_noun",
+      "description": "A city in West Bengal, India, serving as a gateway to the northeast."
+    },
+    "Sewak Road": {
+      "type": "proper_noun",
+      "description": "A road leading from Siliguri towards Sikkim."
+    },
+    "Rongpo": {
+      "type": "proper_noun",
+      "description": "A border town between West Bengal and Sikkim."
+    },
+    "West Bengal": {
+      "type": "proper_noun",
+      "description": "An eastern Indian state, bordering Sikkim."
+    },
+    "Tista": {
+      "type": "proper_noun",
+      "description": "A major river in Sikkim and West Bengal."
+    },
+    "Tista Bazaar": {
+      "type": "proper_noun",
+      "description": "A market area near the Tista river."
+    },
+    "Air India": {
+      "type": "proper_noun",
+      "description": "India's national airline, referenced through a branded bag."
+    },
+    "Snow View Hotel": {
+      "type": "proper_noun",
+      "description": "The Snow View Hotel, also called Snow View, is the hotel in Gangtok where Feluda and his companions are staying during their investigation."
+    },
+    "Nepal": {
+      "type": "proper_noun",
+      "description": "A neighboring country to India, north of Sikkim."
+    },
+    "Bhutan": {
+      "type": "proper_noun",
+      "description": "A Himalayan kingdom east of Sikkim."
+    },
+    "Ma": {
+      "type": "vocabulary",
+      "description": "Means 'mother' in Bengali and Hindi; here, it is inscribed on a ring as a sign of devotion."
+    },
+    "dak bungalow": {
+      "type": "vocabulary",
+      "description": "A colonial-era rest house or guesthouse for travelers, often used by government officials in India."
+    },
+    "woollens": {
+      "type": "vocabulary",
+      "description": "Warm clothing made of wool, commonly used in India to refer to winter wear."
+    },
+    "pullover": {
+      "type": "vocabulary",
+      "description": "A knitted sweater or jumper, commonly used in Indian English."
+    },
+    "air pocket": {
+      "type": "vocabulary",
+      "description": "A term used in aviation for a sudden drop in altitude due to turbulence."
+    },
+    "Nishikanto Sarkar": {
+      "type": "character",
+      "description": "A Bengali gentleman from Darjeeling who sold a Tibetan statue to Mr Shelvankar and appears nervous after receiving a mysterious note.",
+      "image": "/data/images/characters/feluda-trouble-in-gangtok/nishikanto-sarkar.webp"
+    },
+    "Helmut Ungar": {
+      "type": "character",
+      "description": "A German professional photographer staying at the dak bungalow who was an acquaintance of Mr Shelvankar.",
+      "image": "/data/images/characters/feluda-trouble-in-gangtok/helmut-ungar.webp"
+    },
+    "Dr Vaidya": {
+      "type": "character",
+      "description": "A mysterious figure who stayed at the dak bungalow, known for his abilities in palmistry and spiritualism, and who unsettled Mr Shelvankar.",
+      "image": "/data/images/characters/feluda-trouble-in-gangtok/dr-vaidya.webp"
+    },
+    "Kanchenjunga": {
+      "type": "proper_noun",
+      "description": "A prominent Himalayan mountain visible from Sikkim and Darjeeling, famous for its scenic beauty."
+    },
+    "Pemiangchi": {
+      "type": "proper_noun",
+      "description": "A location near Gangtok, noted for its ruins, forest, and old British-era buildings."
+    },
+    "Kalimpong": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, near Darjeeling and Sikkim, mentioned as a destination of Dr Vaidya."
+    },
+    "Singik": {
+      "type": "proper_noun",
+      "description": "A place near Gangtok, mentioned as the destination of Mr Shelvankar on the day of his accident."
+    },
+    "Tibetan Institute": {
+      "type": "proper_noun",
+      "description": "A local institution in Gangtok dedicated to Tibetan culture and art."
+    },
+    "Art Emporium": {
+      "type": "proper_noun",
+      "description": "A shop or gallery in Gangtok where art objects are displayed and sold."
+    },
+    "Bata": {
+      "type": "proper_noun",
+      "description": "A popular footwear brand in India, known for its retail stores across the country."
+    },
+    "Indian": {
+      "type": "proper_noun",
+      "description": "Relating to India, its people, or culture."
+    },
+    "Chinese": {
+      "type": "proper_noun",
+      "description": "Relating to China, its people, or culture."
+    },
+    "Nepali": {
+      "type": "proper_noun",
+      "description": "Relating to Nepal or its people; here, referring to local laborers."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed as a stimulant and mouth freshener."
+    },
+    "gumpha": {
+      "type": "vocabulary",
+      "description": "A gumpha (plural: gumphas) is a Buddhist monastery, especially in the Himalayan regions, serving as a center for religious practice and community life."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting, similar to 'hello,' accompanied by a gesture of folded hands."
+    },
+    "Mr Shelvankar": {
+      "type": "character",
+      "description": "The owner of S. S. Chemicals who died in a jeep accident near Gangtok after purchasing a Tibetan statue.",
+      "image": "/data/images/characters/feluda-trouble-in-gangtok/mr-shelvankar.webp"
+    },
+    "Lama": {
+      "type": "character",
+      "description": "Refers to the chief religious figure at Rumtek, described as number three after the Dalai Lama."
+    },
+    "North Sikkim Highway": {
+      "type": "proper_noun",
+      "description": "A major road in Sikkim, referenced as the site of the accident."
+    },
+    "Dalai Lama": {
+      "type": "proper_noun",
+      "description": "The spiritual leader of Tibetan Buddhism, referenced as having met the Institute's curator."
+    },
+    "Rumtek": {
+      "type": "proper_noun",
+      "description": "A town near Gangtok, famous for its monastery and the Lama dance."
+    },
+    "National and Grindlays Bank": {
+      "type": "proper_noun",
+      "description": "A British bank with branches in India, referenced as the issuer of the cheque."
+    },
+    "Chogyal": {
+      "type": "proper_noun",
+      "description": "The Chogyal, also known as the King of Sikkim, was the monarch who ruled Sikkim before its merger with India in 1975."
+    },
+    "tankhas": {
+      "type": "vocabulary",
+      "description": "Tibetan Buddhist religious paintings on cloth, often depicting deities or mandalas."
+    },
+    "Tantrik": {
+      "type": "vocabulary",
+      "description": "Relating to Tantra, a set of esoteric traditions rooted in Hindu and Buddhist philosophy."
+    },
+    "jeep": {
+      "type": "vocabulary",
+      "description": "A type of rugged vehicle commonly used in hilly regions of India."
+    },
+    "Yamantak": {
+      "type": "vocabulary",
+      "description": "A fierce deity in Tibetan Buddhism, depicted with multiple heads and arms."
+    },
+    "sacred intestine": {
+      "type": "vocabulary",
+      "description": "A term used for the hollow space in a statue where a prayer scroll is inserted."
+    },
+    "darshan": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning an auspicious viewing or audience, especially of a deity or holy person."
+    },
+    "Lama dance": {
+      "type": "proper_noun",
+      "description": "A traditional Tibetan Buddhist ritual dance performed by monks, often during festivals."
+    },
+    "Chungtham": {
+      "type": "proper_noun",
+      "description": "A town in North Sikkim, serving as a junction for routes to Lachen and Lachung."
+    },
+    "Qutab Minar": {
+      "type": "proper_noun",
+      "description": "A historic minaret located in Delhi, India, and a UNESCO World Heritage Site."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air gallery or porch attached to the outside of a building, common in Indian architecture."
+    },
+    "dhobi": {
+      "type": "vocabulary",
+      "description": "A traditional Indian washerman who washes clothes for a living."
+    },
+    "Pritex": {
+      "type": "proper_noun",
+      "description": "Mentioned as a probable private detective agency involved in the investigation."
+    },
+    "yoga": {
+      "type": "vocabulary",
+      "description": "A physical, mental, and spiritual practice originating from ancient India."
+    },
+    "telegram": {
+      "type": "vocabulary",
+      "description": "A written message sent by telegraph, a common means of communication before the digital age."
+    },
+    "Buddha": {
+      "type": "proper_noun",
+      "description": "The founder of Buddhism, whose life and teachings are depicted in the monastery."
+    },
+    "shamiana": {
+      "type": "vocabulary",
+      "description": "A decorative tent or canopy used for outdoor gatherings and ceremonies in India."
+    },
+    "paisa": {
+      "type": "vocabulary",
+      "description": "A small unit of Indian currency, equal to one-hundredth of a rupee."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, home to Feluda and his companions."
+    },
+    "Egypt": {
+      "type": "proper_noun",
+      "description": "An ancient civilization referenced in comparison to Tibet."
+    },
+    "Iraq": {
+      "type": "proper_noun",
+      "description": "A country in the Middle East, referenced as the site of ancient civilizations."
+    },
+    "Mesopotamia": {
+      "type": "proper_noun",
+      "description": "An ancient historical region, referenced as one of the world's earliest civilizations."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country where the story is set and whose cultural heritage is discussed."
+    },
+    "Charminar": {
+      "type": "proper_noun",
+      "description": "A brand of Indian cigarettes offered by Feluda during the séance."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A domestic servant or attendant, often responsible for serving food and drinks."
+    },
+    "seances": {
+      "type": "vocabulary",
+      "description": "Spiritual gatherings intended to communicate with the dead, often involving rituals or mediums."
+    },
+    "Virendra Shelvankar": {
+      "type": "character",
+      "description": "Mr Shelvankar's son and a suspect in the case, identified during a séance as the alleged murderer."
+    },
+    "SKM 463": {
+      "type": "proper_noun",
+      "description": "A vehicle registration number, referring to a specific jeep involved in the investigation."
+    },
+    "trunk call": {
+      "type": "vocabulary",
+      "description": "A long-distance telephone call, especially one made within India."
+    },
+    "Mall": {
+      "type": "vocabulary",
+      "description": "In Indian hill stations, 'Mall' refers to the main promenade or central street where people gather."
+    },
+    "Sikkim orange": {
+      "type": "vocabulary",
+      "description": "A type of orange grown in Sikkim, here referring to a beverage made from it."
+    },
+    "Agfa": {
+      "type": "proper_noun",
+      "description": "A well-known German brand of photographic products, such as film and cameras."
+    },
+    "Florence": {
+      "type": "proper_noun",
+      "description": "A historic city in Italy, mentioned as a place where Helmut worked."
+    },
+    "Heidelburg": {
+      "type": "proper_noun",
+      "description": "A city in Germany, where Helmut's parents met and married."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital of Nepal, referenced as a place where Helmut stayed at a monastery."
+    },
+    "Buddha Purnima": {
+      "type": "proper_noun",
+      "description": "A major Buddhist festival celebrating the birth, enlightenment, and death of Gautama Buddha."
+    },
+    "hippies": {
+      "type": "vocabulary",
+      "description": "A term for members of a countercultural movement of the 1960s and 70s, some of whom traveled to India seeking spiritual experiences."
+    },
+    "leech": {
+      "type": "vocabulary",
+      "description": "A blood-sucking worm found in wet environments, common in the hills of India."
+    },
+    "Thondup": {
+      "type": "character",
+      "description": "The jeep driver with a Tibetan name, described as tall and dressed in black."
+    },
+    "Singtham": {
+      "type": "proper_noun",
+      "description": "A town in Sikkim passed through on the way to Pemiangchi."
+    },
+    "Namchi": {
+      "type": "proper_noun",
+      "description": "Namchi, sometimes referred to as Namche, is a town in Sikkim known for being dry and clean, where the group stops briefly."
+    },
+    "Rangeet": {
+      "type": "proper_noun",
+      "description": "Another river in Sikkim, noted for its clear, greenish water."
+    },
+    "Baisakh": {
+      "type": "proper_noun",
+      "description": "The first month of the Bengali and Indian solar calendar, corresponding to April-May."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "A country in Europe, referenced in relation to birch trees."
+    },
+    "galoshes": {
+      "type": "vocabulary",
+      "description": "Waterproof overshoes worn to protect regular shoes from rain or mud."
+    },
+    "sadhubaba": {
+      "type": "vocabulary",
+      "description": "A holy man or ascetic in India, often smeared with ash as a sign of renunciation."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or caretaker, typically employed to look after property or buildings."
+    },
+    "Ghatshila": {
+      "type": "proper_noun",
+      "description": "A town in eastern India, mentioned as the supposed location of Mr Bose's nephew's wedding."
+    },
+    "Chaitra": {
+      "type": "proper_noun",
+      "description": "The last month of the Bengali calendar, traditionally considered inauspicious for Hindu weddings."
+    },
+    "bungalow": {
+      "type": "vocabulary",
+      "description": "A type of single-storied house, common in India, especially as colonial-era residences."
+    },
+    "tobacoo": {
+      "type": "vocabulary",
+      "description": "Tobacco (sometimes misspelled as 'tobacoo') is a substance smoked or chewed, here used with salt to remove leeches."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Tapesh",
+      "Baba",
+      "Sasadhar Bose",
+      "Takla Makan",
+      "Bagdogra",
+      "Gangtok",
+      "Sikkim",
+      "Darjeeling",
+      "Bangalore",
+      "Calcutta",
+      "Tibet",
+      "Sven Hedin",
+      "Tibetan",
+      "Lachen",
+      "Lachung",
+      "Nathula",
+      "Bombay",
+      "S. S. Chemicals",
+      "Siliguri",
+      "Sewak Road",
+      "Rongpo",
+      "West Bengal",
+      "Tista",
+      "Tista Bazaar",
+      "Air India",
+      "Snow View Hotel",
+      "Nepal",
+      "Bhutan",
+      "Ma",
+      "dak bungalow",
+      "woollens",
+      "pullover",
+      "air pocket",
+      "Mr Shelvankar",
+      "Chogyal",
+      "gumpha",
+      "Namchi"
+    ],
+    "ch-2": [
+      "Feluda",
+      "Nishikanto Sarkar",
+      "Helmut Ungar",
+      "Dr Vaidya",
+      "Kanchenjunga",
+      "Gangtok",
+      "Sikkim",
+      "Darjeeling",
+      "Bagdogra",
+      "Bombay",
+      "Pemiangchi",
+      "Kalimpong",
+      "Nathula",
+      "Singik",
+      "Tibetan Institute",
+      "Art Emporium",
+      "Bata",
+      "Indian",
+      "Chinese",
+      "Nepali",
+      "paan",
+      "dak bungalow",
+      "gumpha",
+      "namaskar",
+      "Sasadhar Bose",
+      "Mr Shelvankar",
+      "Snow View Hotel"
+    ],
+    "ch-3": [
+      "Feluda",
+      "Mr Shelvankar",
+      "Nishikanto Sarkar",
+      "Lama",
+      "Bata",
+      "Tibetan Institute",
+      "Gangtok",
+      "North Sikkim Highway",
+      "Snow View Hotel",
+      "Tibet",
+      "Dalai Lama",
+      "Bombay",
+      "Bagdogra",
+      "Darjeeling",
+      "Rumtek",
+      "Bhutan",
+      "Kalimpong",
+      "National and Grindlays Bank",
+      "Chogyal",
+      "tankhas",
+      "Tantrik",
+      "jeep",
+      "Yamantak",
+      "sacred intestine",
+      "dak bungalow",
+      "darshan",
+      "Sasadhar Bose"
+    ],
+    "ch-4": [
+      "Feluda",
+      "Mr Shelvankar",
+      "Kanchenjunga",
+      "Darjeeling",
+      "Tibetan Institute",
+      "Lama dance",
+      "dak bungalow",
+      "Kalimpong",
+      "North Sikkim Highway",
+      "Chungtham",
+      "Lachen",
+      "Lachung",
+      "Qutab Minar",
+      "veranda",
+      "dhobi",
+      "Tapesh",
+      "Sasadhar Bose",
+      "Helmut Ungar",
+      "Nishikanto Sarkar"
+    ],
+    "ch-5": [
+      "Feluda",
+      "Dr Vaidya",
+      "Rumtek",
+      "Lama dance",
+      "Gangtok",
+      "Darjeeling",
+      "Tibetan Institute",
+      "Bombay",
+      "Pritex",
+      "Yamantak",
+      "yoga",
+      "telegram",
+      "Sasadhar Bose",
+      "Mr Shelvankar",
+      "Helmut Ungar",
+      "Nishikanto Sarkar"
+    ],
+    "ch-6": [
+      "Feluda",
+      "Dr Vaidya",
+      "Rumtek",
+      "Siliguri",
+      "Lama",
+      "Kalimpong",
+      "Sikkim",
+      "Buddha",
+      "Gangtok",
+      "dak bungalow",
+      "gumpha",
+      "shamiana",
+      "paisa",
+      "Mr Shelvankar",
+      "Helmut Ungar",
+      "Tibetan",
+      "Nishikanto Sarkar"
+    ],
+    "ch-7": [
+      "Dr Vaidya",
+      "Feluda",
+      "Mr Shelvankar",
+      "Bengal",
+      "Pemiangchi",
+      "Tibet",
+      "Egypt",
+      "Iraq",
+      "Mesopotamia",
+      "India",
+      "Sikkim",
+      "Charminar",
+      "bearer",
+      "seances",
+      "Virendra Shelvankar",
+      "Helmut Ungar",
+      "Nishikanto Sarkar"
+    ],
+    "ch-8": [
+      "Feluda",
+      "Dr Vaidya",
+      "Virendra Shelvankar",
+      "Sikkim",
+      "Rumtek",
+      "Yamantak",
+      "paan",
+      "Lama dance",
+      "Tapesh",
+      "Helmut Ungar",
+      "Nishikanto Sarkar"
+    ],
+    "ch-9": [
+      "Feluda",
+      "Dr Vaidya",
+      "Mr Shelvankar",
+      "Bombay",
+      "Gangtok",
+      "Pemiangchi",
+      "Kanchenjunga",
+      "Darjeeling",
+      "Siliguri",
+      "Rumtek",
+      "Kalimpong",
+      "Sikkim",
+      "SKM 463",
+      "trunk call",
+      "Mall",
+      "Tibetan",
+      "Sikkim orange",
+      "Tapesh",
+      "Sasadhar Bose",
+      "Virendra Shelvankar",
+      "Helmut Ungar",
+      "Nathula",
+      "Nishikanto Sarkar"
+    ],
+    "ch-10": [
+      "Feluda",
+      "Mr Shelvankar",
+      "Dr Vaidya",
+      "Agfa",
+      "Darjeeling",
+      "North Sikkim Highway",
+      "Gangtok",
+      "Florence",
+      "Heidelburg",
+      "Kathmandu",
+      "Sikkim",
+      "Pemiangchi",
+      "Rumtek",
+      "Buddha Purnima",
+      "Kanchenjunga",
+      "dak bungalow",
+      "hippies",
+      "leech",
+      "Buddha Purnima",
+      "Helmut Ungar",
+      "Nishikanto Sarkar"
+    ],
+    "ch-11": [
+      "Feluda",
+      "Thondup",
+      "Mr Shelvankar",
+      "Dr Vaidya",
+      "Pemiangchi",
+      "Singtham",
+      "Gangtok",
+      "Tista",
+      "Namchi",
+      "Bombay",
+      "Rangeet",
+      "Sikkim",
+      "Buddha Purnima",
+      "Baisakh",
+      "England",
+      "dak bungalow",
+      "galoshes",
+      "sadhubaba",
+      "gumpha",
+      "chowkidar",
+      "Sasadhar Bose",
+      "Helmut Ungar",
+      "Nishikanto Sarkar"
+    ],
+    "ch-12": [
+      "Feluda",
+      "Dr Vaidya",
+      "Thondup",
+      "Mr Shelvankar",
+      "Kanchenjunga",
+      "Ghatshila",
+      "Calcutta",
+      "Bombay",
+      "Sikkim",
+      "Rumtek",
+      "Tibetan Institute",
+      "Gangtok",
+      "Yamantak",
+      "Baisakh",
+      "Chaitra",
+      "chowkidar",
+      "bungalow",
+      "veranda",
+      "dak bungalow",
+      "Charminar",
+      "gumpha",
+      "telegram",
+      "jeep",
+      "tobacoo",
+      "Sasadhar Bose",
+      "Helmut Ungar",
+      "Nathula",
+      "Nishikanto Sarkar"
+    ]
+  }
+}

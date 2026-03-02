@@ -34,7 +34,7 @@ export async function generateMetadata({
 
 export function generateStaticParams() {
   const catalog = getCatalog();
-  return catalog.books.map((book) => ({ id: book.id }));
+  return catalog.books.filter((b) => b.type !== "anthology").map((book) => ({ id: book.id }));
 }
 
 export default async function ReadPage({

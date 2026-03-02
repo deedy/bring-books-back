@@ -1,0 +1,174 @@
+{
+  "glossary": {
+    "Feluda": {
+      "type": "character",
+      "description": "The central detective protagonist known for his sharp intellect, whose real name is Pradosh C. Mitter.",
+      "image": "/data/images/characters/feluda-the-locked-chest/feluda.webp"
+    },
+    "Topshe": {
+      "type": "character",
+      "description": "Feluda's younger cousin and loyal assistant, whose full name is Tapesh, and who serves as the story's narrator.",
+      "image": "/data/images/characters/feluda-the-locked-chest/topshe.webp"
+    },
+    "Kalikinkar Majumdar": {
+      "type": "character",
+      "description": "An elderly man who invites Feluda to his mansion in Ghurghutia, and whose mysterious locked chest is central to the plot.",
+      "image": "/data/images/characters/feluda-the-locked-chest/kalikinkar-majumdar.webp"
+    },
+    "Gokul": {
+      "type": "character",
+      "description": "The old and loyal servant of Kalikinkar Majumdar, who has served the family for thirty years.",
+      "image": "/data/images/characters/feluda-the-locked-chest/gokul.webp"
+    },
+    "Vishwanath Majumdar": {
+      "type": "character",
+      "description": "Kalikinkar Majumdar's son from Calcutta, who disguised himself as the manager Rajen Babu and was revealed to be the murderer."
+    },
+    "Monilal": {
+      "type": "character",
+      "description": "The driver of Kalikinkar Majumdar, who drives Feluda and Topshe from the station.",
+      "image": "/data/images/characters/feluda-the-locked-chest/monilal.webp"
+    },
+    "Mr Sarkar": {
+      "type": "character",
+      "description": "The sub-inspector at the local police station who assists Feluda in investigating the crime.",
+      "image": "/data/images/characters/feluda-the-locked-chest/mr-sarkar.webp"
+    },
+    "Ghurghutia": {
+      "type": "proper_noun",
+      "description": "A village in Bengal where the story is set and Kalikinkar Majumdar's mansion is located."
+    },
+    "Plassey": {
+      "type": "proper_noun",
+      "description": "A town in Bengal, historically significant as the site of the Battle of Plassey in 1757."
+    },
+    "Nadia": {
+      "type": "proper_noun",
+      "description": "A district in West Bengal, India, where Ghurghutia and Plassey are located."
+    },
+    "Sealdah": {
+      "type": "proper_noun",
+      "description": "A major railway station in Kolkata, from where trains to Plassey depart."
+    },
+    "Lalgola Passenger": {
+      "type": "proper_noun",
+      "description": "A passenger train running between Sealdah and Lalgola, stopping at Plassey."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in India and home to Feluda and Vishwanath."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, encompassing West Bengal and Bangladesh."
+    },
+    "palash": {
+      "type": "proper_noun",
+      "description": "A type of tree (Butea monosperma) whose flowers are bright red and which gave Plassey its name."
+    },
+    "Siraj-ud-daula": {
+      "type": "proper_noun",
+      "description": "The last independent Nawab of Bengal, defeated at the Battle of Plassey."
+    },
+    "Behrampore": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, mentioned as a place to fetch doctors."
+    },
+    "College Street": {
+      "type": "proper_noun",
+      "description": "A famous street in Kolkata known for its many bookstores."
+    },
+    "Ranaghat": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, mentioned as a stop where Feluda and Topshe have tea and sweets."
+    },
+    "Ambassador": {
+      "type": "proper_noun",
+      "description": "A classic Indian car model, commonly used as taxis and by government officials."
+    },
+    "Gaboriau": {
+      "type": "proper_noun",
+      "description": "Refers to Émile Gaboriau, a French writer considered one of the pioneers of detective fiction."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "mali": {
+      "type": "vocabulary",
+      "description": "A gardener."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or guard."
+    },
+    "zamindar": {
+      "type": "vocabulary",
+      "description": "A landowner, especially one who owned large estates in Bengal during the colonial period."
+    },
+    "dacoits": {
+      "type": "vocabulary",
+      "description": "Armed bandits or robbers, especially those operating in rural India."
+    },
+    "naubatkhana": {
+      "type": "vocabulary",
+      "description": "A music room or drum house, often found at the entrance of large Indian mansions or palaces."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting, similar to 'hello', often accompanied by folding the hands."
+    },
+    "Babu": {
+      "type": "vocabulary",
+      "description": "A respectful term of address for men, especially in Bengal."
+    },
+    "Chhoto Babu": {
+      "type": "vocabulary",
+      "description": "A term meaning 'younger gentleman' or 'young master', used to refer to the younger son in a Bengali household."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in South Asia."
+    },
+    "daal": {
+      "type": "vocabulary",
+      "description": "A dish made from lentils, a staple in Indian cuisine."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Feluda",
+      "Topshe",
+      "Kalikinkar Majumdar",
+      "Gokul",
+      "Vishwanath Majumdar",
+      "Monilal",
+      "Mr Sarkar",
+      "Ghurghutia",
+      "Plassey",
+      "Nadia",
+      "Sealdah",
+      "Lalgola Passenger",
+      "Calcutta",
+      "Bengal",
+      "palash",
+      "Siraj-ud-daula",
+      "Behrampore",
+      "College Street",
+      "Ranaghat",
+      "Ambassador",
+      "Gaboriau",
+      "dhoti",
+      "mali",
+      "chowkidar",
+      "zamindar",
+      "dacoits",
+      "naubatkhana",
+      "namaskar",
+      "Babu",
+      "Chhoto Babu",
+      "kurta",
+      "daal"
+    ]
+  }
+}

@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { getCatalog, getAnnotations, getChapters } from "@/lib/data";
+import { getCatalog, getAnnotations, getChapters, getAnthologyData } from "@/lib/data";
 import ReadButton from "@/components/ReadButton";
 import DownloadButton from "@/components/DownloadButton";
 import BookCard from "@/components/BookCard";
-import BookPreview from "@/components/BookPreview";
 import ShareButtons from "@/components/ShareButtons";
 import BookOpenTracker from "@/components/BookOpenTracker";
+import CharacterGrid from "@/components/CharacterGrid";
 import ChapterList from "@/components/ChapterList";
-import { readingTime } from "@/lib/utils";
+import AnnotatedSummary from "@/components/AnnotatedSummary";
+import { readingTime, displayYear } from "@/lib/utils";
 
 export function generateStaticParams() {
   const catalog = getCatalog();
@@ -56,13 +57,30 @@ export default async function BookPage({
   const catalog = getCatalog();
   const book = catalog.books.find((b) => b.id === id)!;
   const author = catalog.authors.find((a) => a.id === book.authorId)!;
-  const otherBooks = catalog.books.filter(
-    (b) => b.authorId === book.authorId && b.id !== book.id
-  );
 
-  const annotations = getAnnotations(id);
-  const chaptersData = getChapters(id);
-  const chaptersForList = chaptersData.chapters.map(({ paragraphs, ...rest }) => rest);
+  const isAnthology = book.type === "anthology";
+
+  // For anthologies: load story-books from catalog
+  const anthologyData = isAnthology ? getAnthologyData(id) : null;
+  const storyBooks = isAnthology && anthologyData
+    ? anthologyData.storyBookIds
+        .map((sid) => catalog.books.find((b) => b.id === sid))
+        .filter(Boolean) as typeof catalog.books
+    : [];
+
+  // For regular books: load chapters, annotations, etc.
+  const annotations = !isAnthology ? getAnnotations(id) : null;
+  const chaptersData = !isAnthology ? getChapters(id) : null;
+  const chaptersForList = chaptersData
+    ? chaptersData.chapters.map(({ paragraphs, ...rest }) => rest)
+    : [];
+
+  // For anthology member books: find siblings
+  const otherBooks = isAnthology
+    ? []
+    : catalog.books.filter(
+        (b) => b.authorId === book.authorId && b.id !== book.id && !b.anthologyId
+      );
 
   // Build glossary lists sorted by frequency (most appearances first)
   type TermCard = { name: string; description: string; image?: string };
@@ -72,10 +90,9 @@ export default async function BookPage({
   let totalCharacters = 0;
   let totalProperNouns = 0;
   let totalVocabulary = 0;
-  if (annotations) {
+  if (annotations && chaptersData) {
     const chapterIds = chaptersData.chapters.map((ch) => ch.id);
 
-    // Count chapter appearances for each term
     function byFrequency(type: string): { items: TermCard[]; total: number } {
       const entries = Object.entries(annotations!.glossary).filter(
         ([, a]) => a.type === type
@@ -128,11 +145,14 @@ export default async function BookPage({
       {/* Hero Banner — fades into page background */}
       <div className="relative w-full h-[200px] md:h-[350px] -mt-4">
         <img
-          src={`/data/images/heroes/${book.id}.webp`}
+          src={
+            !isAnthology && chaptersData?.chapters.length === 1 && chaptersData.chapters[0].image
+              ? chaptersData.chapters[0].image
+              : `/data/images/heroes/${id}.webp`
+          }
           alt=""
           className="absolute inset-0 w-full h-full object-cover"
         />
-        {/* Bottom fade into page bg */}
         <div
           className="absolute inset-0"
           style={{
@@ -143,7 +163,7 @@ export default async function BookPage({
       </div>
 
       {/* Book Header — overlaps banner */}
-      <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-10 -mt-32 relative z-10">
+      <div className="max-w-4xl mx-auto px-6 flex flex-col md:flex-row gap-10 -mt-32 relative z-10">
         <div className="w-64 flex-shrink-0 mx-auto md:mx-0">
           <div
             className="aspect-[2/3] rounded-lg overflow-hidden"
@@ -161,6 +181,16 @@ export default async function BookPage({
           </div>
         </div>
         <div className="flex-1 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
+          {/* Breadcrumb for anthology members */}
+          {book.anthologyId && (
+            <Link
+              href={`/books/${book.anthologyId}`}
+              className="text-xs text-white/40 hover:text-white/60 transition-colors mb-2 inline-block"
+            >
+              &larr; {catalog.books.find((b) => b.id === book.anthologyId)?.title ?? "Back to collection"}
+            </Link>
+          )}
+
           <h1 className="text-3xl md:text-4xl font-bold text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">
             {book.title}
           </h1>
@@ -190,38 +220,92 @@ export default async function BookPage({
           </p>
           <div className="flex gap-6 mt-2 text-xs text-white/40">
             <span>Originally in {book.originalLanguage}</span>
-            <span>{book.originalYear}</span>
+            <span>{displayYear(book.originalYear, book.yearEnd)}</span>
           </div>
 
           <div className="flex gap-6 mt-2 text-xs text-white/40">
-            <span>{book.totalChapters} chapters</span>
+            {book.storyNumber && (
+              <span>Story #{book.storyNumber}</span>
+            )}
+            {(isAnthology ? book.totalStories : book.totalChapters > 1) && (
+              <span>
+                {isAnthology && book.totalStories
+                  ? `${book.totalStories} stories`
+                  : `${book.totalChapters} chapters`}
+              </span>
+            )}
             <span>{Math.round(book.wordCount / 1000)}k words</span>
             <span>{readingTime(book.wordCount)} read</span>
           </div>
 
-          <div className="mt-6 flex flex-wrap items-center gap-3">
-            <ReadButton bookId={book.id} accentColor={book.accentColor} />
-            <DownloadButton bookId={book.id} />
-          </div>
+          {/* Read/Download only for non-anthologies */}
+          {!isAnthology && (
+            <>
+              <div className="mt-6 flex flex-wrap items-center gap-3">
+                <ReadButton bookId={book.id} accentColor={book.accentColor} totalChapters={book.totalChapters} />
+                <DownloadButton bookId={book.id} />
+              </div>
+              <BookOpenTracker bookId={book.id} />
+            </>
+          )}
 
           <div className="mt-4">
             <ShareButtons url={`/books/${book.id}`} title={`${book.title} by ${author.name}`} />
           </div>
-
-          <BookOpenTracker bookId={book.id} />
         </div>
       </div>
 
       {/* Summary */}
       <section className="max-w-4xl mx-auto px-6 mt-16">
-        <h2 className="text-xl font-bold text-white mb-4">About This Book</h2>
-        <p className="text-white/60 leading-relaxed">
-          {book.summary}
-        </p>
+        <h2 className="text-xl font-bold text-white mb-4">
+          {isAnthology ? "About This Collection" : "About This Book"}
+        </h2>
+        {!isAnthology && annotations ? (
+          <AnnotatedSummary summary={book.summary} glossary={annotations.glossary} />
+        ) : (
+          <p className="text-white/60 leading-relaxed">{book.summary}</p>
+        )}
       </section>
 
-      {/* Chapters */}
-      {chaptersForList.length > 0 && (
+      {/* Anthology: Story-book grid */}
+      {isAnthology && storyBooks.length > 0 && (
+        <section className="max-w-5xl mx-auto px-6 mt-16">
+          <h2 className="text-xl font-bold text-white mb-6">Stories</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            {storyBooks.map((sb, i) => (
+              <Link key={sb.id} href={`/books/${sb.id}`} className="group block">
+                <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg transition-all duration-200 group-hover:scale-[1.03] group-hover:shadow-2xl">
+                  <img
+                    src={sb.coverImage}
+                    alt={sb.title}
+                    loading="lazy"
+                    className="w-full h-full object-cover"
+                  />
+                  <span className="absolute top-2 left-2 px-1.5 py-0.5 text-[10px] font-semibold rounded bg-black/60 text-white/70 backdrop-blur-sm">
+                    #{sb.storyNumber ?? i + 1}
+                  </span>
+                </div>
+                <div className="mt-3">
+                  <h3 className="text-sm font-semibold text-white line-clamp-2 leading-snug">
+                    {sb.title}
+                  </h3>
+                  {sb.transliteratedTitle && sb.transliteratedTitle !== sb.title && (
+                    <p className="text-[11px] text-white/30 mt-0.5 italic">{sb.transliteratedTitle}</p>
+                  )}
+                  <p className="text-[11px] text-white/30 mt-0.5">
+                    {displayYear(sb.originalYear, sb.yearEnd)} &middot;{" "}
+                    {sb.totalChapters === 1 ? "Short Story" : `${sb.totalChapters} chapters`} &middot;{" "}
+                    {readingTime(sb.wordCount)}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Regular book: Chapters (hide for single-chapter books) */}
+      {!isAnthology && chaptersForList.length > 1 && (
         <section className="max-w-4xl mx-auto px-6 mt-16">
           <h2 className="text-xl font-bold text-white mb-6">Chapters</h2>
           <ChapterList chapters={chaptersForList} bookId={book.id} accentColor={book.accentColor} />
@@ -232,29 +316,7 @@ export default async function BookPage({
       {characters.length > 0 && (
         <section className="max-w-4xl mx-auto px-6 mt-16">
           <h2 className="text-xl font-bold text-white mb-6">Characters</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {characters.map((ch) => (
-              <div
-                key={ch.name}
-                className="px-3.5 py-3 rounded-lg bg-white/[0.04] border border-white/[0.06] flex items-start gap-3"
-              >
-                {ch.image && (
-                  <img
-                    src={ch.image}
-                    alt={ch.name}
-                    loading="lazy"
-                    className="w-14 h-14 rounded-full object-cover flex-shrink-0"
-                  />
-                )}
-                <div className="min-w-0">
-                  <p className="font-semibold text-white text-sm">{ch.name}</p>
-                  <p className="text-white/50 text-xs mt-1 leading-relaxed">
-                    {ch.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <CharacterGrid characters={characters} />
           <Link
             href={`/books/${id}/glossary?type=character`}
             className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors mt-4"
@@ -297,11 +359,6 @@ export default async function BookPage({
           </div>
         </div>
       </section>
-
-      {/* Preview / Continue Reading */}
-      <div className="max-w-4xl mx-auto px-6">
-        <BookPreview bookId={book.id} accentColor={book.accentColor} previewText={book.previewText} />
-      </div>
 
       {/* Places and terms in this book */}
       {properNouns.length > 0 && (
