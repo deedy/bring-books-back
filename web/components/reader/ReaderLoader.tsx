@@ -15,6 +15,9 @@ export default function ReaderLoader({ bookId, initialChapter }: ReaderLoaderPro
     title: string;
     accentColor: string;
     totalChapters: number;
+    authorName: string;
+    coverImage: string;
+    originalYear: number;
   } | null>(null);
   const [annotations, setAnnotations] = useState<AnnotationsData | undefined>(undefined);
 
@@ -25,9 +28,14 @@ export default function ReaderLoader({ bookId, initialChapter }: ReaderLoaderPro
       fetch(`/data/books/${bookId}/annotations.json`)
         .then((r) => (r.ok ? r.json() : null))
         .catch(() => null),
-    ]).then(([chapters, meta, annot]) => {
+      fetch(`/data/catalog.json`).then((r) => r.json()),
+    ]).then(([chapters, meta, annot, catalog]) => {
+      const book = catalog.books?.find((b: { id: string }) => b.id === bookId);
+      const author = book
+        ? catalog.authors?.find((a: { id: string }) => a.id === book.authorId)
+        : null;
       setChaptersData(chapters);
-      setBookMeta(meta);
+      setBookMeta({ ...meta, authorName: author?.name ?? "Unknown" });
       if (annot) setAnnotations(annot);
     });
   }, [bookId]);
@@ -44,7 +52,10 @@ export default function ReaderLoader({ bookId, initialChapter }: ReaderLoaderPro
     <ReaderView
       bookId={bookId}
       bookTitle={bookMeta.title}
+      authorName={bookMeta.authorName}
       accentColor={bookMeta.accentColor}
+      coverImage={bookMeta.coverImage}
+      originalYear={bookMeta.originalYear}
       chapters={chaptersData.chapters}
       totalChapters={bookMeta.totalChapters}
       initialChapter={initialChapter}

@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getCatalog, getAnnotations, getChapters } from "@/lib/data";
 import ReadButton from "@/components/ReadButton";
+import DownloadButton from "@/components/DownloadButton";
 import BookCard from "@/components/BookCard";
 import BookPreview from "@/components/BookPreview";
 import ShareButtons from "@/components/ShareButtons";
 import BookOpenTracker from "@/components/BookOpenTracker";
+import ChapterList from "@/components/ChapterList";
 import { readingTime } from "@/lib/utils";
 
 export function generateStaticParams() {
@@ -59,6 +61,8 @@ export default async function BookPage({
   );
 
   const annotations = getAnnotations(id);
+  const chaptersData = getChapters(id);
+  const chaptersForList = chaptersData.chapters.map(({ paragraphs, ...rest }) => rest);
 
   // Build glossary lists sorted by frequency (most appearances first)
   type TermCard = { name: string; description: string; image?: string };
@@ -69,7 +73,6 @@ export default async function BookPage({
   let totalProperNouns = 0;
   let totalVocabulary = 0;
   if (annotations) {
-    const chaptersData = getChapters(id);
     const chapterIds = chaptersData.chapters.map((ch) => ch.id);
 
     // Count chapter appearances for each term
@@ -123,7 +126,7 @@ export default async function BookPage({
       />
 
       {/* Hero Banner — fades into page background */}
-      <div className="relative w-full h-[350px] -mt-4">
+      <div className="relative w-full h-[200px] md:h-[350px] -mt-4">
         <img
           src={`/data/images/heroes/${book.id}.webp`}
           alt=""
@@ -196,8 +199,9 @@ export default async function BookPage({
             <span>{readingTime(book.wordCount)} read</span>
           </div>
 
-          <div className="mt-6">
+          <div className="mt-6 flex flex-wrap items-center gap-3">
             <ReadButton bookId={book.id} accentColor={book.accentColor} />
+            <DownloadButton bookId={book.id} />
           </div>
 
           <div className="mt-4">
@@ -215,6 +219,16 @@ export default async function BookPage({
           {book.summary}
         </p>
       </section>
+
+      {/* Chapters */}
+      {chaptersForList.length > 0 && (
+        <section className="max-w-6xl mx-auto px-6 mt-16">
+          <h2 className="text-xl font-bold text-white mb-6">Chapters</h2>
+          <div className="max-w-3xl">
+            <ChapterList chapters={chaptersForList} bookId={book.id} accentColor={book.accentColor} />
+          </div>
+        </section>
+      )}
 
       {/* Characters */}
       {characters.length > 0 && (

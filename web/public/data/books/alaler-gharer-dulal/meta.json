@@ -1,6 +1,7 @@
 {
   "id": "alaler-gharer-dulal",
   "title": "The Spoilt Child",
+  "transliteratedTitle": "Alaler Gharer Dulal",
   "subtitle": "A Satire of Colonial Calcutta",
   "authorId": "peary-chand-mitra",
   "coverImage": "/data/images/covers/alaler-gharer-dulal.webp",
@@ -10,7 +11,7 @@
     "Domestic Fiction"
   ],
   "originalLanguage": "Bengali",
-  "originalTitle": "Alaler Gharer Dulal",
+  "originalTitle": "আলালের ঘরের দুলাল",
   "originalYear": 1858,
   "totalChapters": 30,
   "wordCount": 54071,

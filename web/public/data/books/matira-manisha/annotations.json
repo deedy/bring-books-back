@@ -1,0 +1,2581 @@
+{
+  "glossary": {
+    "Parash": {
+      "type": "character",
+      "description": "A character mentioned as someone whose words can help reveal the truth of the matter; likely a villager or family member."
+    },
+    "Shama Pradhan": {
+      "type": "character",
+      "description": "A respected figure in the village, known for his generosity and virtue; referred to as the Pradhan, indicating a leadership role."
+    },
+    "Pradhan": {
+      "type": "character",
+      "description": "Refers to the head of the village or a prominent family; in this context, it is Shama Pradhan.",
+      "image": "/data/images/characters/matira-manisha/pradhan.png"
+    },
+    "Sharaghaboda": {
+      "type": "character",
+      "description": "A villager who comments on the rarity of virtuous people like the Pradhan's wife."
+    },
+    "Sebani": {
+      "type": "character",
+      "description": "A character who recalls the old woman's illness and her struggles."
+    },
+    "Baraju": {
+      "type": "character",
+      "description": "One of the old woman's sons, referred to as the elder son; called 'Shashukhia' by his mother.",
+      "image": "/data/images/characters/matira-manisha/baraju.png"
+    },
+    "Chakada": {
+      "type": "character",
+      "description": "The younger son of the old woman; called 'Chagalpa' by his mother.",
+      "image": "/data/images/characters/matira-manisha/chakada.png"
+    },
+    "Adhe": {
+      "type": "character",
+      "description": "A character who reflects on family harmony and tradition, possibly an elder or relative."
+    },
+    "Bhauni": {
+      "type": "character",
+      "description": "A name mentioned when referring to someone not being called for a meal, likely a daughter-in-law or female family member."
+    },
+    "Khandia Bhuni": {
+      "type": "character",
+      "description": "The mother of the younger daughter-in-law, mentioned to highlight the daughter's background."
+    },
+    "Leu Pada": {
+      "type": "character",
+      "description": "A character who speaks about her children and household concerns, likely a daughter-in-law."
+    },
+    "Bhima": {
+      "type": "character",
+      "description": "A character referenced as someone who roasted many ears of corn, possibly a family member or helper."
+    },
+    "Naruni": {
+      "type": "character",
+      "description": "The granddaughter of the old woman, whom she holds and tells stories to."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "The Ganges River, considered sacred in Hinduism and often referenced in rituals of purity."
+    },
+    "Baraju Chhakada": {
+      "type": "proper_noun",
+      "description": "A compound reference to the two sons, Baraju and Chakada, used to emphasize their familial roles."
+    },
+    "salna": {
+      "type": "proper_noun",
+      "description": "A type of tree found in Odisha, whose leaves or parts may be used for various household or culinary purposes."
+    },
+    "arua rice": {
+      "type": "vocabulary",
+      "description": "A type of parboiled rice commonly eaten in Odisha."
+    },
+    "usuna": {
+      "type": "vocabulary",
+      "description": "Another variety of rice, typically referring to raw, unboiled rice."
+    },
+    "jaggery": {
+      "type": "vocabulary",
+      "description": "Unrefined cane sugar, often used in Indian sweets and cooking."
+    },
+    "ghee": {
+      "type": "vocabulary",
+      "description": "Clarified butter used in Indian cooking and rituals."
+    },
+    "pulses": {
+      "type": "vocabulary",
+      "description": "Edible seeds from leguminous plants, such as lentils, beans, and peas."
+    },
+    "earthen pot": {
+      "type": "vocabulary",
+      "description": "A clay vessel used for storing water or food, common in rural Indian households."
+    },
+    "amaranth": {
+      "type": "vocabulary",
+      "description": "A leafy green vegetable widely grown and consumed in Odisha."
+    },
+    "spinach": {
+      "type": "vocabulary",
+      "description": "A leafy green vegetable, also common in Indian rural diets."
+    },
+    "Sanboh": {
+      "type": "character",
+      "description": "A daughter-in-law in the household, often scolded by her mother-in-law and rarely speaks up for herself."
+    },
+    "Bhramara": {
+      "type": "character",
+      "description": "Mentioned as someone who is criticized for not understanding household matters; likely another family member or daughter-in-law."
+    },
+    "Nehamani": {
+      "type": "character",
+      "description": "Chakadi's wife, involved in household chores and affected by family quarrels."
+    },
+    "Nesamani": {
+      "type": "character",
+      "description": "The younger daughter-in-law, new to the family, often quiet and subject to the dynamics of the household."
+    },
+    "Chhakada Khoka": {
+      "type": "character",
+      "description": "A younger male member of the family, known for his flashy appearance and carefree attitude."
+    },
+    "Sunadai": {
+      "type": "character",
+      "description": "A younger female in the household, possibly a daughter or younger daughter-in-law, who helps with chores."
+    },
+    "Bhuba": {
+      "type": "character",
+      "description": "The youngest son in the family, depicted as a child who looks up to his elder brother."
+    },
+    "Dada": {
+      "type": "character",
+      "description": "A term used for the elder brother in the family, a figure of authority among the children."
+    },
+    "Musama": {
+      "type": "character",
+      "description": "An older woman in the household, likely the mother-in-law, who manages household affairs."
+    },
+    "Chakadi": {
+      "type": "character",
+      "description": "A son in the family, husband to Nehamani, who reflects on family responsibilities."
+    },
+    "Karlaka": {
+      "type": "character",
+      "description": "A character involved in family discussions, possibly an elder or respected figure."
+    },
+    "Alpa": {
+      "type": "character",
+      "description": "A character who comments on village matters, possibly a relative or neighbor."
+    },
+    "Sunapoda": {
+      "type": "proper_noun",
+      "description": "A local fair or festival, described as a major event in the village."
+    },
+    "Kolkata": {
+      "type": "proper_noun",
+      "description": "A major city in eastern India, representing migration for work or opportunity."
+    },
+    "Guakara": {
+      "type": "proper_noun",
+      "description": "A place or locality near the village, mentioned as the bullock-cart passes by."
+    },
+    "Kod Gundira": {
+      "type": "proper_noun",
+      "description": "A place referenced in a conversation, possibly another village or locality."
+    },
+    "Bhandaruni": {
+      "type": "proper_noun",
+      "description": "A personal or family name, possibly referring to a woman in the village."
+    },
+    "Seiani": {
+      "type": "proper_noun",
+      "description": "A personal or family name, possibly referring to a woman in the village."
+    },
+    "Sindhaba": {
+      "type": "proper_noun",
+      "description": "A person or family associated with salt, possibly a local salt merchant or supplier."
+    },
+    "paddy": {
+      "type": "vocabulary",
+      "description": "Unmilled rice, a staple crop in rural Odisha."
+    },
+    "dowry": {
+      "type": "vocabulary",
+      "description": "Property or money brought by a bride to her husband's family upon marriage."
+    },
+    "winnow": {
+      "type": "vocabulary",
+      "description": "To separate grain from chaff, a common agricultural activity."
+    },
+    "gamucha": {
+      "type": "vocabulary",
+      "description": "A thin, traditional cotton towel used in rural India, often worn over the shoulder."
+    },
+    "yatra": {
+      "type": "vocabulary",
+      "description": "A traditional rural drama or performance, often staged during festivals or fairs."
+    },
+    "bier": {
+      "type": "vocabulary",
+      "description": "A frame or stand on which a corpse is carried to the cremation ground."
+    },
+    "peṅkāl": {
+      "type": "vocabulary",
+      "description": "A funeral drum used during mourning rituals in Odisha."
+    },
+    "ambula": {
+      "type": "vocabulary",
+      "description": "Dried and salted mango, used as a souring agent in Odia cuisine."
+    },
+    "betel leaves": {
+      "type": "vocabulary",
+      "description": "Leaves of the betel plant, chewed with areca nut and lime as a traditional mouth freshener."
+    },
+    "lime": {
+      "type": "vocabulary",
+      "description": "Calcium hydroxide, used in India to smear on betel leaves for chewing."
+    },
+    "Kolatha": {
+      "type": "vocabulary",
+      "description": "A type of pumpkin or gourd commonly grown and stored in rural Odisha."
+    },
+    "Chakada Narba": {
+      "type": "character",
+      "description": "An elderly man in the village, often depicted as forgetful and prone to telling stories; he is a patriarchal figure whose actions and words influence his family."
+    },
+    "Har Mishra": {
+      "type": "character",
+      "description": "A wealthy and cunning villager, known for amassing land and property through questionable means; he is also the president of the panchayat.",
+      "image": "/data/images/characters/matira-manisha/har-mishra.png"
+    },
+    "Padhaan": {
+      "type": "character",
+      "description": "A term used for the village headman, often referring to Shama Pradhan in this context."
+    },
+    "Baraku": {
+      "type": "character",
+      "description": "The eldest son, referred to as the chief, who returns home to perform his father's funeral rites."
+    },
+    "Chhakada Munda": {
+      "type": "character",
+      "description": "Another elder in the village, possibly related to Chakada Narba, who explains traditional customs to the children."
+    },
+    "Majhibh Maṣ": {
+      "type": "character",
+      "description": "A woman in the village, notable for her emotional demands and frequent clashes with Baraju."
+    },
+    "Narasa": {
+      "type": "character",
+      "description": "A character who becomes numb from listening to the elder daughter-in-law's complaints."
+    },
+    "Surara": {
+      "type": "character",
+      "description": "Mentioned in relation to his wife, who is a source of gossip in the village."
+    },
+    "Bhagavan": {
+      "type": "proper_noun",
+      "description": "A term for God or the divine, commonly used in Hinduism."
+    },
+    "Ekadashi": {
+      "type": "proper_noun",
+      "description": "An auspicious day in the Hindu lunar calendar, occurring twice a month, often observed by fasting and prayer."
+    },
+    "Barupa river": {
+      "type": "proper_noun",
+      "description": "A river near the village, significant in the daily life and landscape of the community."
+    },
+    "Padhanpada": {
+      "type": "proper_noun",
+      "description": "A locality or hamlet within the village, likely associated with the Pradhan (headman) family."
+    },
+    "Lanka": {
+      "type": "proper_noun",
+      "description": "A reference to a place, possibly alluding to the mythological kingdom from the Ramayana, used here to emphasize honesty."
+    },
+    "Jagannath": {
+      "type": "proper_noun",
+      "description": "A form of Lord Krishna worshipped in Odisha, with a famous temple in Puri."
+    },
+    "Sarua pond": {
+      "type": "proper_noun",
+      "description": "A local pond in the village, important for water and daily activities."
+    },
+    "panchayat": {
+      "type": "proper_noun",
+      "description": "The village council, a traditional system of local self-government in rural India."
+    },
+    "Badabhala Bhai": {
+      "type": "proper_noun",
+      "description": "A notable ancestor or elder from the village's past, remembered for his reputation."
+    },
+    "Bhagavata": {
+      "type": "proper_noun",
+      "description": "Refers to the Bhagavata Purana, a revered Hindu scripture, often recited in religious gatherings."
+    },
+    "paise": {
+      "type": "vocabulary",
+      "description": "A small unit of Indian currency, one-hundredth of a rupee."
+    },
+    "bari": {
+      "type": "vocabulary",
+      "description": "A kitchen garden or homestead plot attached to a rural house."
+    },
+    "zamindar": {
+      "type": "vocabulary",
+      "description": "A landowner, often with hereditary rights, who collects rent from tenant farmers."
+    },
+    "gumasta": {
+      "type": "vocabulary",
+      "description": "A clerk or agent, especially one who manages accounts or records for a landowner or employer."
+    },
+    "kaonkal mohar": {
+      "type": "vocabulary",
+      "description": "A specific administrative or clerical position, likely related to record-keeping or revenue collection."
+    },
+    "settlement amin": {
+      "type": "vocabulary",
+      "description": "A government land surveyor or revenue official responsible for measuring and assessing land."
+    },
+    "Hakims": {
+      "type": "vocabulary",
+      "description": "Officials or magistrates, often with administrative or judicial authority."
+    },
+    "sarkars": {
+      "type": "vocabulary",
+      "description": "Officials or authorities, often referring to government representatives."
+    },
+    "gandikars": {
+      "type": "vocabulary",
+      "description": "Local officials or revenue collectors, specific to rural administration."
+    },
+    "bhondis": {
+      "type": "vocabulary",
+      "description": "A term for certain village functionaries or lower-level officials."
+    },
+    "mukhtars": {
+      "type": "vocabulary",
+      "description": "Legal representatives or agents, often acting as advocates in rural courts."
+    },
+    "annas": {
+      "type": "vocabulary",
+      "description": "An old Indian currency unit, one-sixteenth of a rupee."
+    },
+    "cowries": {
+      "type": "vocabulary",
+      "description": "Small shells historically used as currency or ritual tokens in India."
+    },
+    "dharma": {
+      "type": "vocabulary",
+      "description": "A key concept in Indian religions, meaning duty, righteousness, or moral law."
+    },
+    "turban": {
+      "type": "vocabulary",
+      "description": "A traditional headwear made of cloth, worn by men in many parts of India."
+    },
+    "plough": {
+      "type": "vocabulary",
+      "description": "A farming implement used to till the land, central to rural agricultural life."
+    },
+    "hal": {
+      "type": "vocabulary",
+      "description": "A plough, used for tilling fields."
+    },
+    "Paj": {
+      "type": "vocabulary",
+      "description": "Likely a nickname or term for a person or role associated with farming."
+    },
+    "Jadu": {
+      "type": "character",
+      "description": "A farmer working at the edge of the field, involved in threshing and conversing with others about village matters."
+    },
+    "Jagu": {
+      "type": "character",
+      "description": "Mentioned as someone who could have gone to school, possibly a younger member of the farming community or family."
+    },
+    "Baraju Muruk": {
+      "type": "character",
+      "description": "Appears to be another name or title for Baraju, involved in village discussions and household affairs."
+    },
+    "Bhui": {
+      "type": "character",
+      "description": "A villager engaged in philosophical discussions about fate and labor with others."
+    },
+    "Swai": {
+      "type": "character",
+      "description": "Another villager who participates in conversations about fate and the hardships of rural life."
+    },
+    "Jadu Dalei": {
+      "type": "character",
+      "description": "A farmer, possibly the same as Jadu, who reflects on the injustices faced by villagers."
+    },
+    "Manibou": {
+      "type": "character",
+      "description": "A woman in the household, responsible for chores like smearing cow dung on the walls and managing domestic affairs."
+    },
+    "Kalika": {
+      "type": "character",
+      "description": "A woman, possibly a servant or relative, scolded by Manibou for not understanding proper food for children."
+    },
+    "Sarasima": {
+      "type": "character",
+      "description": "A woman who is seen cleaning her sari and commenting on household matters."
+    },
+    "Bhuasuni": {
+      "type": "character",
+      "description": "Addressed by Sarasima, likely another woman in the household or village."
+    },
+    "Harabou": {
+      "type": "character",
+      "description": "A woman who comments on the household's reputation and the behavior of her sisters-in-law."
+    },
+    "Nandi Gandiani": {
+      "type": "character",
+      "description": "A village elder woman who reflects on changes in village life and customs."
+    },
+    "Bhubou": {
+      "type": "character",
+      "description": "Addressed by Nandi Gandiani, likely a younger woman or daughter-in-law."
+    },
+    "Sanbou": {
+      "type": "character",
+      "description": "A younger woman who listens in on conversations from the upper floor and spreads gossip."
+    },
+    "Chhakada": {
+      "type": "character",
+      "description": "A man involved in household chores and family disputes, possibly a younger brother or son.",
+      "image": "/data/images/characters/matira-manisha/chhakada.png"
+    },
+    "Pakaila": {
+      "type": "character",
+      "description": "A person who comments on the behavior of others regarding caring for the mother."
+    },
+    "Sana’s wife": {
+      "type": "character",
+      "description": "A woman known for her quick retorts and strong opinions in household matters."
+    },
+    "Dija": {
+      "type": "character",
+      "description": "A woman whose words are described as unrecorded in any dictionary, indicating her sharp tongue."
+    },
+    "Rusha": {
+      "type": "character",
+      "description": "Described as a 'Man of the Soil,' not a servant, who tries to mediate disputes patiently."
+    },
+    "Sanabo": {
+      "type": "character",
+      "description": "Mentioned in the context of wedding conversations, possibly the same as Sanabo earlier."
+    },
+    "Badabo": {
+      "type": "character",
+      "description": "The elder daughter-in-law, responsible for major household tasks and feared for her straightforwardness."
+    },
+    "Badabon": {
+      "type": "character",
+      "description": "Likely another form of Badabo, depicted performing morning chores."
+    },
+    "Man of the Soil Rusha": {
+      "type": "character",
+      "description": "Reiterates Rusha's role as a patient mediator, emphasizing his connection to the land."
+    },
+    "Hagabod": {
+      "type": "character",
+      "description": "A woman who feels marginalized in household disputes, likening herself to a bee on the hive’s edge."
+    },
+    "Nebamani": {
+      "type": "character",
+      "description": "A woman who commands her husband to attend to guests during festivities.",
+      "image": "/data/images/characters/matira-manisha/nebamani.png"
+    },
+    "Nandi Pandi’s wife": {
+      "type": "character",
+      "description": "A woman who participates in wedding conversations and social commentary."
+    },
+    "Sharadi Bou": {
+      "type": "character",
+      "description": "A woman who sits with Sanako’s wife during the wedding festivities."
+    },
+    "Sanako’s wife": {
+      "type": "character",
+      "description": "A woman involved in wedding preparations and social discussions."
+    },
+    "Nandi Pandiani": {
+      "type": "character",
+      "description": "A woman who gives advice and house keys to the younger daughter-in-law."
+    },
+    "Sharaprabha": {
+      "type": "character",
+      "description": "A woman known for her commentary on sarees and social customs."
+    },
+    "Chhenagudi": {
+      "type": "character",
+      "description": "Addressed by Sharaprabha, likely another woman in the social circle."
+    },
+    "Asadha": {
+      "type": "proper_noun",
+      "description": "A month in the traditional Hindu lunar calendar, corresponding roughly to June-July, marking the onset of the monsoon."
+    },
+    "Mother Mangala": {
+      "type": "proper_noun",
+      "description": "A local deity worshipped in Odisha, often associated with protection and fertility."
+    },
+    "Brahmin": {
+      "type": "proper_noun",
+      "description": "A member of the priestly caste in Hindu society, traditionally responsible for religious rituals."
+    },
+    "tulsi": {
+      "type": "proper_noun",
+      "description": "Holy basil, a sacred plant in Hinduism often used in rituals and considered auspicious."
+    },
+    "Gopalakshmi": {
+      "type": "proper_noun",
+      "description": "Likely a reference to a person or household, possibly indicating wealth or prosperity (Gopala means cowherd, Lakshmi is the goddess of wealth)."
+    },
+    "Akha Pakh": {
+      "type": "proper_noun",
+      "description": "A locality or neighborhood within the village, possibly denoting a specific area or community."
+    },
+    "Sai Padisha": {
+      "type": "proper_noun",
+      "description": "A place or landmark near Akha Pakh, possibly a shrine or significant site."
+    },
+    "Panch": {
+      "type": "proper_noun",
+      "description": "The village council or its members, responsible for local governance and dispute resolution."
+    },
+    "Mangala Maa": {
+      "type": "proper_noun",
+      "description": "A form of the goddess Mangala, revered in Odisha as a protective mother deity."
+    },
+    "amin": {
+      "type": "proper_noun",
+      "description": "A revenue official or surveyor involved in land measurement and tax collection."
+    },
+    "Lakhana Barajat": {
+      "type": "proper_noun",
+      "description": "A village or locality mentioned in a folk song or chant."
+    },
+    "Jenapur": {
+      "type": "proper_noun",
+      "description": "A village or town, referenced in comparison to wedding finery."
+    },
+    "Chaudhury": {
+      "type": "proper_noun",
+      "description": "A surname or title, often denoting a landowning or influential family."
+    },
+    "Godavari": {
+      "type": "proper_noun",
+      "description": "A major river in India, but here likely refers to a type of saree named after the region."
+    },
+    "threshing floor": {
+      "type": "vocabulary",
+      "description": "An area, often outdoors, where harvested grain is separated from the chaff."
+    },
+    "yoke": {
+      "type": "vocabulary",
+      "description": "A wooden beam fastened over the necks of two animals, usually oxen, to pull a plow or cart."
+    },
+    "chulha": {
+      "type": "vocabulary",
+      "description": "A traditional clay or brick stove used for cooking in rural Indian households."
+    },
+    "granary": {
+      "type": "vocabulary",
+      "description": "A storehouse for threshed grain."
+    },
+    "besara": {
+      "type": "vocabulary",
+      "description": "A traditional Odia dish or paste made with mustard and vegetables."
+    },
+    "pakhala": {
+      "type": "vocabulary",
+      "description": "A popular Odia dish of fermented rice soaked in water, often eaten in summer."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn by women in India, consisting of a long piece of cloth draped around the body."
+    },
+    "kaakhei": {
+      "type": "vocabulary",
+      "description": "A simple rural dish, possibly rice gruel or porridge, given to children."
+    },
+    "mustard oil": {
+      "type": "vocabulary",
+      "description": "A pungent oil extracted from mustard seeds, commonly used in Odia cooking."
+    },
+    "marriage hall": {
+      "type": "vocabulary",
+      "description": "A space, often a decorated area in or near the house, where wedding ceremonies and feasts are held."
+    },
+    "Nandi": {
+      "type": "character",
+      "description": "A villager who participates in the conversation about family, lineage, and marriage customs."
+    },
+    "Sanaboha": {
+      "type": "character",
+      "description": "A woman who is disconnected from her father's house, as noted by Sharadiboj."
+    },
+    "Sharadiboj": {
+      "type": "character",
+      "description": "An elder who comments on the new daughters-in-law and their adaptation to household ways."
+    },
+    "Hara Mishra": {
+      "type": "character",
+      "description": "The village chowkidar (watchman) and president, known for his authority and inherited land."
+    },
+    "Baraju Pradhan": {
+      "type": "character",
+      "description": "A villager who often opposes Hara Mishra and creates obstacles in his work."
+    },
+    "Chhakadi": {
+      "type": "character",
+      "description": "A youth who speaks gravely about family responsibilities and is involved in the discussion about family unity."
+    },
+    "Kadhei": {
+      "type": "character",
+      "description": "An elder figure addressed by Chhakadi, offering advice and commentary on family matters."
+    },
+    "Brother Mishra": {
+      "type": "character",
+      "description": "A familiar or respectful way of referring to Hara Mishra in conversation."
+    },
+    "Bhoma": {
+      "type": "character",
+      "description": "A villager mentioned in a discussion about dependence and self-reliance."
+    },
+    "Kagui Deba": {
+      "type": "character",
+      "description": "A villager involved in a dispute about a cow's money and a lost earring."
+    },
+    "Ragh Kimvira": {
+      "type": "character",
+      "description": "A villager mentioned as powerless against the authority of the powerful men in the village."
+    },
+    "Mishra": {
+      "type": "proper_noun",
+      "description": "A surname indicating a Brahmin family, here referring to Hara Mishra and his lineage."
+    },
+    "Padhan": {
+      "type": "proper_noun",
+      "description": "A surname or title, often associated with village headmen or leaders."
+    },
+    "Akhainas": {
+      "type": "proper_noun",
+      "description": "A personal name, referring to Chhakada's father."
+    },
+    "pinda": {
+      "type": "proper_noun",
+      "description": "A raised platform or mound, often used for sitting or rituals."
+    },
+    "jhirapitha": {
+      "type": "proper_noun",
+      "description": "A type of traditional Odia sweet or cake, typically served at feasts."
+    },
+    "Kakei": {
+      "type": "proper_noun",
+      "description": "A respectful term for an elder woman, possibly an aunt or mother figure."
+    },
+    "Maṭira Maṇisha": {
+      "type": "proper_noun",
+      "description": "The title of the novel, meaning 'Men of the Soil' in Odia."
+    },
+    "President": {
+      "type": "proper_noun",
+      "description": "Refers to the head of the village council or panchayat."
+    },
+    "Zamindar": {
+      "type": "proper_noun",
+      "description": "A large landowner or landlord, often with significant power in rural India."
+    },
+    "Mahajan": {
+      "type": "proper_noun",
+      "description": "A moneylender or wealthy merchant in the village."
+    },
+    "Chandala": {
+      "type": "proper_noun",
+      "description": "A caste term referring to those considered 'untouchable' or at the bottom of the social hierarchy."
+    },
+    "chowkidar": {
+      "type": "vocabulary",
+      "description": "A village watchman or guard, responsible for maintaining order."
+    },
+    "rupee": {
+      "type": "vocabulary",
+      "description": "The currency of India."
+    },
+    "anna": {
+      "type": "vocabulary",
+      "description": "A former currency unit in India, equal to 1/16 of a rupee."
+    },
+    "khadaka": {
+      "type": "vocabulary",
+      "description": "A platform or raised area, often used for sitting."
+    },
+    "dantamula": {
+      "type": "vocabulary",
+      "description": "A type of root, possibly used for chewing or medicinal purposes."
+    },
+    "maund": {
+      "type": "vocabulary",
+      "description": "A traditional unit of weight in India, approximately 37 kilograms."
+    },
+    "chaukidar": {
+      "type": "vocabulary",
+      "description": "Alternate spelling of chowkidar, the village watchman."
+    },
+    "priest’s house": {
+      "type": "vocabulary",
+      "description": "The residence of the village priest, often a respected figure."
+    },
+    "dacoits": {
+      "type": "vocabulary",
+      "description": "Bandits or armed robbers, often feared in rural areas."
+    },
+    "Hayi Mishra": {
+      "type": "character",
+      "description": "A villager known for his wisdom and sayings, often seen in the company of the village headman."
+    },
+    "Karaju Pradhan": {
+      "type": "character",
+      "description": "The son of Bha’, considered an outsider due to his father's misfortune, mentioned as part of the village's social fabric."
+    },
+    "Subhadra": {
+      "type": "character",
+      "description": "Baraju's relative (likely his daughter or niece) who must return to her father's house in hardship."
+    },
+    "Nanda": {
+      "type": "character",
+      "description": "Baraju’s younger brother, who is resentful and wishes to separate from the joint family."
+    },
+    "Chhakada’s wife": {
+      "type": "character",
+      "description": "A woman in the extended family, depicted as burdened and contemplative."
+    },
+    "Hagabota": {
+      "type": "character",
+      "description": "A woman whose heart is filled with happiness at one point, possibly a daughter-in-law or wife."
+    },
+    "Hagaboja": {
+      "type": "character",
+      "description": "A silent woman who tends to her home and keeps her emotions hidden."
+    },
+    "Harabote": {
+      "type": "character",
+      "description": "An elderly woman, possibly Baraju’s mother or mother-in-law, who is sorrowful and burdened by family troubles."
+    },
+    "Biju": {
+      "type": "character",
+      "description": "A family member, possibly a son or younger brother, who accuses others of mismanagement."
+    },
+    "Habou": {
+      "type": "character",
+      "description": "A daughter-in-law in the family, who feels isolated and defensive about her children."
+    },
+    "Satku Sat Baraju Manishu": {
+      "type": "character",
+      "description": "A figure (possibly Baraju himself or a proverbial character) who stands as a symbol of steadfastness in the face of family conflict."
+    },
+    "Nagarou": {
+      "type": "character",
+      "description": "A family member who responds with resignation to Baraju’s advice."
+    },
+    "Kamiya": {
+      "type": "character",
+      "description": "A person, likely a woman or girl, responsible for sweeping the courtyard."
+    },
+    "Bhagyachandra": {
+      "type": "character",
+      "description": "A character mentioned as having broken up his family for the sake of this struggle, possibly as a cautionary example."
+    },
+    "Srichandra": {
+      "type": "character",
+      "description": "A figure referenced as having endured sorrow to drive out evil, likened to epic heroes."
+    },
+    "Kansa": {
+      "type": "character",
+      "description": "A mythological villain invoked as a metaphor for the demon of discord in the household."
+    },
+    "Sanabou": {
+      "type": "character",
+      "description": "The younger wife in the family, who leaves the house briefly."
+    },
+    "Sharabou": {
+      "type": "character",
+      "description": "A woman, possibly a sister-in-law, who laments Baraju’s transformation."
+    },
+    "Sharadibou": {
+      "type": "character",
+      "description": "Another woman in the family, who tries to comfort Harabou."
+    },
+    "Bha’": {
+      "type": "proper_noun",
+      "description": "A respectful or affectionate term for father, used in Odia families."
+    },
+    "Mangala": {
+      "type": "proper_noun",
+      "description": "A sacred platform or place of worship, possibly dedicated to the goddess Mangala, significant in Odia rural culture."
+    },
+    "kusuma": {
+      "type": "proper_noun",
+      "description": "A type of tree found near cattle sheds, possibly a local species known for its thorns."
+    },
+    "Pandavas": {
+      "type": "proper_noun",
+      "description": "The five heroic brothers from the Indian epic Mahabharata, symbolizing virtue and endurance."
+    },
+    "Draupadi": {
+      "type": "proper_noun",
+      "description": "The wife of the Pandavas in the Mahabharata, known for her suffering and resilience."
+    },
+    "asura": {
+      "type": "proper_noun",
+      "description": "A term from Hindu mythology referring to demons or forces of evil."
+    },
+    "deva": {
+      "type": "proper_noun",
+      "description": "A term from Hindu mythology referring to gods or divine beings."
+    },
+    "Raja": {
+      "type": "proper_noun",
+      "description": "A term meaning king or ruler, often used to refer to a royal family."
+    },
+    "ploughmen": {
+      "type": "vocabulary",
+      "description": "Farmers who till the land using a plough, a traditional rural occupation."
+    },
+    "cremation ground": {
+      "type": "vocabulary",
+      "description": "A place where dead bodies are burned as part of Hindu funeral rites."
+    },
+    "joint": {
+      "type": "vocabulary",
+      "description": "Short for 'joint family,' a traditional Indian family structure where extended family members live together."
+    },
+    "doctorni": {
+      "type": "vocabulary",
+      "description": "A colloquial or affectionate term for a female doctor or healer."
+    },
+    "vermilion": {
+      "type": "vocabulary",
+      "description": "A red powder (sindoor) applied by married Hindu women along the parting of their hair as a symbol of marriage."
+    },
+    "kohl": {
+      "type": "vocabulary",
+      "description": "A black cosmetic applied around the eyes, traditionally used in South Asia."
+    },
+    "Apa": {
+      "type": "vocabulary",
+      "description": "A respectful term for elder sister or a woman elder, used in Odia and other Indian languages."
+    },
+    "Sharaprabou": {
+      "type": "character",
+      "description": "An elderly, wise woman in the household, often giving advice and managing domestic affairs."
+    },
+    "Sana Ojha": {
+      "type": "character",
+      "description": "A person whom the family considers calling, possibly a ritual specialist or healer."
+    },
+    "Kalapanita": {
+      "type": "character",
+      "description": "A character who comments on Jagu Sau’s absence, possibly a neighbor or relative."
+    },
+    "Jagu Sau": {
+      "type": "character",
+      "description": "A man who has been absent from home for eight years and suddenly returns."
+    },
+    "Sona Ma": {
+      "type": "character",
+      "description": "A motherly figure, likely Kadua’s mother, expressing concern for her son’s late return."
+    },
+    "Kadua": {
+      "type": "character",
+      "description": "Sona Ma’s son, who hasn’t returned home from Sanjaber."
+    },
+    "Karu": {
+      "type": "character",
+      "description": "A man who does not work and idles at home, contributing little to the household."
+    },
+    "Nendramani": {
+      "type": "character",
+      "description": "A person known for consuming betel nut from the shop, affecting its profit."
+    },
+    "Kothapua": {
+      "type": "character",
+      "description": "A villager whom Mishra asks about the shop’s business."
+    },
+    "Dharma Das": {
+      "type": "character",
+      "description": "A hardworking farmer, referred to as a 'man of the soil,' who takes pride in his labor."
+    },
+    "Roop": {
+      "type": "character",
+      "description": "A villager known for talking a lot, sometimes making up stories."
+    },
+    "Bhau": {
+      "type": "character",
+      "description": "A man who now manages the family property and livestock."
+    },
+    "Hem Kakar": {
+      "type": "character",
+      "description": "Bhau’s wife, who joins in village conversations."
+    },
+    "Banhi": {
+      "type": "character",
+      "description": "A villager who tries to calm Dharma Das during an argument."
+    },
+    "Mishe": {
+      "type": "character",
+      "description": "A villager who comments on the behavior of others, possibly a variant of Mishra."
+    },
+    "Bakbheiya": {
+      "type": "character",
+      "description": "A person or type referenced in comparison to Dharma’s past."
+    },
+    "Baliyar": {
+      "type": "character",
+      "description": "Another person or type referenced in comparison to Dharma’s past."
+    },
+    "Bhaku": {
+      "type": "character",
+      "description": "A person whom Chakada suggests Mishra should see."
+    },
+    "Mishra Subhadha": {
+      "type": "character",
+      "description": "A knowledgeable villager, possibly related to Mishra, who reflects on household matters."
+    },
+    "Basuthabo": {
+      "type": "character",
+      "description": "A deceased elder whose advice is recalled by Mishra Subhadha."
+    },
+    "Mishra Majhia": {
+      "type": "character",
+      "description": "Mishra’s younger brother."
+    },
+    "Khokai": {
+      "type": "character",
+      "description": "A child or young person addressed in a conversation about rice."
+    },
+    "Chandshi Sial": {
+      "type": "character",
+      "description": "A villager known for his predictable actions regarding land."
+    },
+    "Chandra": {
+      "type": "character",
+      "description": "A villager who manages land and keeps accounts, known for his shrewdness."
+    },
+    "Bhama": {
+      "type": "character",
+      "description": "A younger brother in a family dispute over land and earnings."
+    },
+    "Bhalu": {
+      "type": "character",
+      "description": "A family member discussed in the context of sharing earnings."
+    },
+    "Bhothu": {
+      "type": "character",
+      "description": "A villager who discusses recent events with Chakada."
+    },
+    "Ushara": {
+      "type": "character",
+      "description": "A person whose story is referenced as an example."
+    },
+    "Same Baika": {
+      "type": "character",
+      "description": "A widow in the village whose daughter died tragically."
+    },
+    "Barapa": {
+      "type": "character",
+      "description": "Same Baika’s brother, whose children play by the pond."
+    },
+    "Kalabaks": {
+      "type": "character",
+      "description": "A woman who keeps her house clean and is withdrawn after a tragedy."
+    },
+    "Sharagabou": {
+      "type": "character",
+      "description": "A person who informs others about Kalabaks."
+    },
+    "Same Baraka": {
+      "type": "character",
+      "description": "A person related to Same Baika, possibly a male relative."
+    },
+    "Rouka": {
+      "type": "character",
+      "description": "A villager from the other side who is to be informed about an event."
+    },
+    "chuda pitha": {
+      "type": "proper_noun",
+      "description": "A traditional Odia rice cake, often prepared during festivals or special occasions."
+    },
+    "dub grass": {
+      "type": "proper_noun",
+      "description": "A type of sacred grass (Cynodon dactylon) used in Hindu rituals."
+    },
+    "Chhe Pradhanpada": {
+      "type": "proper_noun",
+      "description": "A small hamlet or neighborhood in the village, likely named after the Pradhan (headman) family."
+    },
+    "banyan tree": {
+      "type": "proper_noun",
+      "description": "A large, sacred fig tree (Ficus benghalensis) commonly found in Indian villages and associated with gatherings."
+    },
+    "betel": {
+      "type": "proper_noun",
+      "description": "A leaf from the betel plant, chewed with areca nut and other ingredients as a mild stimulant."
+    },
+    "Sanjaber": {
+      "type": "proper_noun",
+      "description": "A place from which Kadua has not returned; likely a nearby village or locality."
+    },
+    "date-palm jaggery": {
+      "type": "proper_noun",
+      "description": "A type of unrefined sugar made from the sap of date palm trees, used in sweets and snacks."
+    },
+    "areca nuts": {
+      "type": "proper_noun",
+      "description": "Seeds of the areca palm, chewed with betel leaves as a traditional stimulant."
+    },
+    "cow dung cakes": {
+      "type": "proper_noun",
+      "description": "Dried cakes made from cow dung, used as fuel in rural households."
+    },
+    "moneylender": {
+      "type": "proper_noun",
+      "description": "A person who lends money at interest, often informally in rural areas."
+    },
+    "Bhagia family": {
+      "type": "proper_noun",
+      "description": "A family in the village, referenced as part of local history."
+    },
+    "Sai Purushi": {
+      "type": "proper_noun",
+      "description": "A term referring to a true farmer or man of the soil."
+    },
+    "mani": {
+      "type": "proper_noun",
+      "description": "A traditional unit of measure for grain in Odisha."
+    },
+    "Pusha": {
+      "type": "proper_noun",
+      "description": "A month in the Odia calendar, corresponding to December-January."
+    },
+    "Mrigabhaka": {
+      "type": "proper_noun",
+      "description": "A specific plot of land or field, possibly named after an animal or person."
+    },
+    "Guja Maharaja": {
+      "type": "proper_noun",
+      "description": "A local deity or respected figure who receives special worship in the village."
+    },
+    "Yudaku": {
+      "type": "proper_noun",
+      "description": "A meeting or gathering, possibly a local council or assembly."
+    },
+    "Kadamba tree": {
+      "type": "proper_noun",
+      "description": "A tree (Neolamarckia cadamba) often found near water bodies in Indian villages and associated with folklore."
+    },
+    "saree": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by women, consisting of a long piece of cloth draped around the body."
+    },
+    "chaff": {
+      "type": "vocabulary",
+      "description": "The husks separated from grain during threshing, often used as fodder."
+    },
+    "share of the field": {
+      "type": "vocabulary",
+      "description": "A portion of agricultural land or its produce, often divided among family members."
+    },
+    "barn": {
+      "type": "vocabulary",
+      "description": "A storage building for grain, fodder, or livestock."
+    },
+    "hospitality": {
+      "type": "vocabulary",
+      "description": "The act of generously hosting guests, often with food and drink, a valued custom in rural India."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed platform along the outside of a house, common in Indian homes."
+    },
+    "madi-gaintha": {
+      "type": "vocabulary",
+      "description": "A colloquial Odia term for someone who can eat anything without complaint, symbolizing resilience."
+    },
+    "stale rice": {
+      "type": "vocabulary",
+      "description": "Cooked rice that has been left overnight, often eaten cold or with simple accompaniments in rural Odisha."
+    },
+    "untouchable": {
+      "type": "vocabulary",
+      "description": "A term historically used in India to refer to people outside the caste system, now considered offensive."
+    },
+    "betel nut box": {
+      "type": "vocabulary",
+      "description": "A container used to store areca nuts and other ingredients for chewing with betel leaves."
+    },
+    "ancestral seat": {
+      "type": "vocabulary",
+      "description": "A symbolic or literal position of authority inherited within a family."
+    },
+    "outsider": {
+      "type": "vocabulary",
+      "description": "A person considered not to belong to the family or community, often used to mark social boundaries."
+    },
+    "curd": {
+      "type": "vocabulary",
+      "description": "A dairy product similar to yogurt, commonly eaten in India."
+    },
+    "bullock cart": {
+      "type": "vocabulary",
+      "description": "A traditional vehicle pulled by oxen, used for transport in rural India."
+    },
+    "Chowkidar": {
+      "type": "vocabulary",
+      "description": "A village watchman or guard."
+    },
+    "police station": {
+      "type": "vocabulary",
+      "description": "The local law enforcement office, often distant from rural villages."
+    },
+    "Nalabha": {
+      "type": "character",
+      "description": "A person whose stories or disputes are well-known in the village, symbolizing recurring conflicts."
+    },
+    "Sanei": {
+      "type": "character",
+      "description": "A villager whose sons are described as becoming more arrogant, representing generational change."
+    },
+    "Shabdabhoja": {
+      "type": "character",
+      "description": "A family member who goes to buy 'kapani' and brings news of Baraju's return."
+    },
+    "Hagabohu": {
+      "type": "character",
+      "description": "Baraju's wife, the elder daughter-in-law, who manages the household and navigates family conflicts."
+    },
+    "Suna": {
+      "type": "character",
+      "description": "A younger family member, possibly a daughter or daughter-in-law, who assists with household tasks."
+    },
+    "Suna Motanka": {
+      "type": "character",
+      "description": "Refers to Suna's wedding house, indicating Suna's family or marital home."
+    },
+    "Bhamaru": {
+      "type": "character",
+      "description": "A family member, possibly another daughter-in-law, involved in household discussions."
+    },
+    "Hasbou": {
+      "type": "character",
+      "description": "Likely another form or nickname for Hagabou, involved in household vows and rituals."
+    },
+    "Sānabouh": {
+      "type": "character",
+      "description": "Variant spelling of Sanabou, the younger daughter-in-law."
+    },
+    "Bhā’u": {
+      "type": "character",
+      "description": "A family member, possibly a child or younger relative, who reacts to household quarrels."
+    },
+    "Hāgbottar": {
+      "type": "character",
+      "description": "Likely another form of Hagabou, referring to the elder daughter-in-law."
+    },
+    "Thage": {
+      "type": "character",
+      "description": "A family member or neighbor involved in household conversations."
+    },
+    "Age Badku": {
+      "type": "character",
+      "description": "A family member or neighbor involved in household conversations."
+    },
+    "Rabhabou": {
+      "type": "character",
+      "description": "A woman in the household, possibly another daughter-in-law or relative."
+    },
+    "Ekā Hārbou": {
+      "type": "character",
+      "description": "A reference to the elder daughter-in-law, emphasizing her singular role."
+    },
+    "Chhakada Nabamani": {
+      "type": "character",
+      "description": "Refers to Chhakada and Nebamani together, observing family events."
+    },
+    "Harabotta": {
+      "type": "character",
+      "description": "Another form of Hagabou, the elder daughter-in-law."
+    },
+    "Bada Jaa": {
+      "type": "character",
+      "description": "A family member, possibly the elder co-sister or aunt, who reports events to Baraju."
+    },
+    "Saan-bohu": {
+      "type": "character",
+      "description": "Another form of Sanabou, the younger daughter-in-law."
+    },
+    "Biraja": {
+      "type": "character",
+      "description": "A family member who calls Chhakada to eat, possibly a sister or mother."
+    },
+    "Jnanabohu": {
+      "type": "character",
+      "description": "The younger daughter-in-law, addressed by the elder for meals."
+    },
+    "Sharghabou": {
+      "type": "character",
+      "description": "A woman in the village, possibly a neighbor or relative, who visits the household."
+    },
+    "Nandi Panda": {
+      "type": "character",
+      "description": "A villager, possibly a priest or respected elder, whose wife visits the household."
+    },
+    "Lugā": {
+      "type": "character",
+      "description": "A woman who helps fold cloth and participates in household activities."
+    },
+    "Sarbabou": {
+      "type": "character",
+      "description": "A woman in the village, possibly a neighbor or relative."
+    },
+    "Nandapandi": {
+      "type": "character",
+      "description": "A villager, possibly related to Nandi Panda, who visits the household."
+    },
+    "Bastula": {
+      "type": "character",
+      "description": "The younger co-sister, expected to receive a share from the big house."
+    },
+    "Lord Kapalashore": {
+      "type": "proper_noun",
+      "description": "A deity, possibly a local or regional form of Shiva, prayed to for safe journeys."
+    },
+    "Navaranga": {
+      "type": "proper_noun",
+      "description": "A reference to the many colors or aspects of life, possibly also a metaphor for marriage or family."
+    },
+    "panji": {
+      "type": "proper_noun",
+      "description": "A genealogical record or almanac maintained by Brahmins, especially in Odisha."
+    },
+    "Osha": {
+      "type": "proper_noun",
+      "description": "A type of religious fast or observance practiced by women in Odisha."
+    },
+    "Barabha": {
+      "type": "proper_noun",
+      "description": "A specific religious fast or ritual observed in Odisha."
+    },
+    "pitha": {
+      "type": "proper_noun",
+      "description": "A traditional Odia rice cake or sweet, commonly prepared during festivals."
+    },
+    "santula": {
+      "type": "proper_noun",
+      "description": "A simple Odia vegetable stew, often served as a staple dish."
+    },
+    "Akhinamasar": {
+      "type": "proper_noun",
+      "description": "A pond mentioned in the village, possibly a local landmark."
+    },
+    "Barala": {
+      "type": "proper_noun",
+      "description": "The name of the household bullock, important in rural farming life."
+    },
+    "haagabod": {
+      "type": "proper_noun",
+      "description": "The veranda or front platform of a traditional Odia house."
+    },
+    "Manjira Manisha": {
+      "type": "proper_noun",
+      "description": "The title of the novel, meaning 'Man of the Soil' or 'Son of the Earth'."
+    },
+    "Kartika": {
+      "type": "proper_noun",
+      "description": "A personal name, possibly a family member or neighbor; also the name of a sacred month in the Hindu calendar."
+    },
+    "katha": {
+      "type": "vocabulary",
+      "description": "Story or gossip; refers to tales or disputes circulating in the village."
+    },
+    "kapani": {
+      "type": "vocabulary",
+      "description": "A type of cloth or garment, often purchased for special occasions."
+    },
+    "bou": {
+      "type": "vocabulary",
+      "description": "Wife or daughter-in-law in Odia; used to refer to women in the household."
+    },
+    "thali": {
+      "type": "vocabulary",
+      "description": "A round metal plate used for serving food in Indian households."
+    },
+    "dakhanda": {
+      "type": "vocabulary",
+      "description": "A type of sweet or food item, possibly specific to Odisha."
+    },
+    "alms": {
+      "type": "vocabulary",
+      "description": "Charitable offerings, often of food or money, given to the needy."
+    },
+    "cowshed": {
+      "type": "vocabulary",
+      "description": "A shelter for cows, an essential part of rural households."
+    },
+    "ploughman": {
+      "type": "vocabulary",
+      "description": "A person who tills the land with a plough, usually drawn by bullocks."
+    },
+    "greens": {
+      "type": "vocabulary",
+      "description": "Leafy vegetables, a common part of rural Odia cuisine."
+    },
+    "Dharama": {
+      "type": "character",
+      "description": "Dharama is a poor farmer who suffers abuse from the local Brahmin and struggles with the burdens of land and family responsibilities. He is often at the center of the village's disputes and hardships."
+    },
+    "Barajua": {
+      "type": "character",
+      "description": "Barajua is a familiar or affectionate form of address for Baraju, used by other characters, especially Dharama."
+    },
+    "Dharama Baura": {
+      "type": "character",
+      "description": "Dharama Baura refers to Dharama himself, with 'Baura' being an honorific or descriptive suffix."
+    },
+    "Dharma Bou": {
+      "type": "character",
+      "description": "Dharma Bou is Dharama's wife, mentioned in the context of keeping the household keys safe."
+    },
+    "Mangala Thakuguni": {
+      "type": "character",
+      "description": "Mangala Thakuguni is a woman whose hut serves as a gathering place for villagers in the evening."
+    },
+    "Jal Khatei": {
+      "type": "character",
+      "description": "Jal Khatei is a villager who sits in the circle during the evening gathering."
+    },
+    "Jad Subhara": {
+      "type": "character",
+      "description": "Jad Subhara is another villager present at the evening meeting."
+    },
+    "Rup Jena": {
+      "type": "character",
+      "description": "Rup Jena is a villager who participates in the group discussions."
+    },
+    "Bhoti Goshthi": {
+      "type": "character",
+      "description": "Bhoti Goshthi is a villager present at the gathering."
+    },
+    "Ag Mundia": {
+      "type": "character",
+      "description": "Ag Mundia is a woman who sits quietly near Mangala during the meeting."
+    },
+    "Malati": {
+      "type": "character",
+      "description": "Malati is a woman present at the evening gathering."
+    },
+    "Rupa": {
+      "type": "character",
+      "description": "Rupa is a villager, possibly a woman, who reflects on the hardships and fate of the villagers."
+    },
+    "Uda": {
+      "type": "character",
+      "description": "Uda is the village carpenter who comments on the lack of unity among the villagers."
+    },
+    "Apat": {
+      "type": "character",
+      "description": "Apat is a villager mentioned as an example of someone who has suffered misfortune."
+    },
+    "Dhadukh": {
+      "type": "character",
+      "description": "Dhadukh is another villager cited as an example of shared suffering."
+    },
+    "Dama": {
+      "type": "character",
+      "description": "Dama is a villager whose house has been burnt, symbolizing communal suffering."
+    },
+    "Guruch": {
+      "type": "character",
+      "description": "Guruch is a villager mentioned in Baraju's speech, possibly as a symbol of resilience."
+    },
+    "Amar": {
+      "type": "character",
+      "description": "Amar is a villager whose absence is lamented as a loss to the community."
+    },
+    "Old Ratana": {
+      "type": "character",
+      "description": "Old Ratana is an elderly villager who acknowledges the collective suffering of the group."
+    },
+    "Jadu Dalai": {
+      "type": "character",
+      "description": "Jadu Dalai is a villager who comments on the importance of unity and the futility of discord."
+    },
+    "Rupaguai": {
+      "type": "character",
+      "description": "Rupaguai is a villager addressed in a discussion about family quarrels and unity."
+    },
+    "Baralu": {
+      "type": "character",
+      "description": "Baralu is a villager who advocates for reconciliation and harmony."
+    },
+    "Jahu": {
+      "type": "character",
+      "description": "Jahu is a villager who joins the group at the end of the chapter."
+    },
+    "Nathu": {
+      "type": "character",
+      "description": "Nathu is a villager who joins the group at the end."
+    },
+    "Roopa": {
+      "type": "character",
+      "description": "Roopa is a villager who joins the group at the end."
+    },
+    "Nebhara": {
+      "type": "character",
+      "description": "Nebhara is a villager who joins the group at the end."
+    },
+    "Dhenā": {
+      "type": "character",
+      "description": "Dhenā is an old villager who reflects on the transience of life."
+    },
+    "Jadu Dalera": {
+      "type": "character",
+      "description": "Jadu Dalera is a villager who philosophically comments on the way of the world."
+    },
+    "Mishra Brahmin": {
+      "type": "proper_noun",
+      "description": "Mishra Brahmin refers to a member of the Mishra caste, a Brahmin family in the village, often associated with landownership and authority."
+    },
+    "Baighara": {
+      "type": "proper_noun",
+      "description": "Baighara is a type of hut or shelter, possibly used by cattle herders or as a temporary dwelling."
+    },
+    "Gramchandra": {
+      "type": "proper_noun",
+      "description": "Gramchandra refers to an auspicious or inauspicious star or astrological influence believed to affect one's fate."
+    },
+    "Sravan Gramchandra": {
+      "type": "proper_noun",
+      "description": "Sravan Gramchandra refers to a specific astrological star or period considered unlucky in local belief."
+    },
+    "Gandhya": {
+      "type": "proper_noun",
+      "description": "Gandhya is the name of a clan or family group in the village."
+    },
+    "Meru": {
+      "type": "proper_noun",
+      "description": "Meru refers to Mount Meru, a sacred mountain in Hindu, Jain, and Buddhist cosmology, symbolizing something immense or unyielding."
+    },
+    "landlords": {
+      "type": "vocabulary",
+      "description": "Large landowners who lease land to tenant farmers or laborers."
+    },
+    "handman": {
+      "type": "vocabulary",
+      "description": "Likely a local term for an enforcer or henchman, possibly working for landlords or moneylenders."
+    },
+    "Gubha": {
+      "type": "vocabulary",
+      "description": "A local ritual or recitation performed for unity or protection, specific to Odia rural culture."
+    },
+    "cartloads": {
+      "type": "vocabulary",
+      "description": "A measure of quantity, referring to the amount that can be carried in a cart, often used for straw or grain."
+    },
+    "rice gruel": {
+      "type": "vocabulary",
+      "description": "A simple, watery porridge made from rice, commonly eaten by the poor in rural India."
+    },
+    "Bancha": {
+      "type": "character",
+      "description": "A villager who interacts with Baraju and Rupa, sometimes providing comic relief or commentary."
+    },
+    "Sana": {
+      "type": "character",
+      "description": "A member of the household or village, Sana is depicted as simple and sometimes bewildered by events."
+    },
+    "Bhaba": {
+      "type": "character",
+      "description": "A figure whose actions are referenced as a model for others, likely an elder or respected person in the community."
+    },
+    "Sanath": {
+      "type": "character",
+      "description": "A member of the household, Sanath is involved in discussions about family matters and expresses uncertainty about the future."
+    },
+    "Muruka": {
+      "type": "character",
+      "description": "A villager who makes lighthearted comments about family events."
+    },
+    "Sao": {
+      "type": "character",
+      "description": "A villager involved in discussions about land and harvest with Baraju."
+    },
+    "Sarat": {
+      "type": "character",
+      "description": "A villager who questions Baraju about the division of crops."
+    },
+    "Sanabohu": {
+      "type": "character",
+      "description": "A female member of the household, possibly a daughter-in-law, referenced in relation to a sari."
+    },
+    "Bhamana": {
+      "type": "character",
+      "description": "A villager or family member who is confused about household matters."
+    },
+    "Harimise": {
+      "type": "character",
+      "description": "A villager who comments on family disputes and traditions."
+    },
+    "Mishra Akhimika Maai": {
+      "type": "character",
+      "description": "An elder woman, possibly a respected matriarch or wise figure in the village."
+    },
+    "Neus Ohba": {
+      "type": "character",
+      "description": "A villager who criticizes others' actions and sense of responsibility."
+    },
+    "Manjira Manisha Sanath": {
+      "type": "character",
+      "description": "A villager who defends Baraju's actions and contributions to the household."
+    },
+    "Chandar": {
+      "type": "character",
+      "description": "A villager expected to speak at a gathering."
+    },
+    "Jagua": {
+      "type": "character",
+      "description": "A villager expected to speak at a gathering."
+    },
+    "Baraku Pradhan": {
+      "type": "character",
+      "description": "A variant of Baraju's name, possibly used to emphasize his stature or as a term of respect."
+    },
+    "Baju Pradhan": {
+      "type": "character",
+      "description": "Another variant of Baraju's name, used in the context of his fearlessness."
+    },
+    "Regi": {
+      "type": "character",
+      "description": "A villager or symbolic figure representing the suffering poor."
+    },
+    "Daramal": {
+      "type": "character",
+      "description": "A villager or symbolic figure representing the suffering poor."
+    },
+    "Madua": {
+      "type": "character",
+      "description": "A villager or symbolic figure representing the suffering poor."
+    },
+    "Dharama Bauro": {
+      "type": "character",
+      "description": "A figure invoked in prayer, possibly a deity or personification of dharma (righteousness)."
+    },
+    "Nabhei Maharana": {
+      "type": "character",
+      "description": "A villager in distress, seeking help from Baraju for his sick child."
+    },
+    "Nabha Maharana": {
+      "type": "character",
+      "description": "Another spelling of Nabhei Maharana, described as a poor and struggling villager."
+    },
+    "Barunei": {
+      "type": "proper_noun",
+      "description": "A person referenced as Baraju's parent, indicating lineage."
+    },
+    "Amin": {
+      "type": "proper_noun",
+      "description": "A government land surveyor or revenue official."
+    },
+    "Baisakh": {
+      "type": "proper_noun",
+      "description": "The first month of the Odia (and Hindu) calendar, typically April-May, associated with harvest and new beginnings."
+    },
+    "Sunar": {
+      "type": "proper_noun",
+      "description": "A person or family in the village, possibly of the goldsmith caste."
+    },
+    "Aj Bhenika": {
+      "type": "proper_noun",
+      "description": "A villager, possibly an elder or respected figure, referenced for his wisdom."
+    },
+    "Chak Muga": {
+      "type": "proper_noun",
+      "description": "A specific plot or field in the village, associated with muga (a type of crop or land)."
+    },
+    "Dekhura’s Chandan": {
+      "type": "proper_noun",
+      "description": "A reference to a person named Dekhura and his sandalwood stick, possibly symbolic or literal."
+    },
+    "Koda Rishi": {
+      "type": "proper_noun",
+      "description": "A sage or wise figure from local folklore, invoked for comic effect."
+    },
+    "ru ta kansara gharara paagu": {
+      "type": "proper_noun",
+      "description": "An Odia proverb or saying, likely referencing household wisdom or tradition."
+    },
+    "am shoikshaghara": {
+      "type": "proper_noun",
+      "description": "A specific household or storage place, possibly a granary or family room."
+    },
+    "Satya, Dwapara, Kali": {
+      "type": "proper_noun",
+      "description": "The three ages (yugas) in Hindu cosmology: Satya Yuga (age of truth), Dwapara Yuga, and Kali Yuga (current age of darkness)."
+    },
+    "Maharana": {
+      "type": "proper_noun",
+      "description": "A caste or occupational title, often referring to carpenters or artisans in Odisha."
+    },
+    "plough cattle": {
+      "type": "vocabulary",
+      "description": "Oxen or bullocks used for ploughing fields in traditional agriculture."
+    },
+    "manias": {
+      "type": "vocabulary",
+      "description": "A traditional unit of land measurement or quantity, specific to the region."
+    },
+    "chhakidas": {
+      "type": "vocabulary",
+      "description": "Members of a family or group who have separated their share, possibly referring to divided households."
+    },
+    "IOU": {
+      "type": "vocabulary",
+      "description": "A written acknowledgment of debt, used informally to borrow money."
+    },
+    "paisa": {
+      "type": "vocabulary",
+      "description": "A subunit of Indian currency, 1/100 of a rupee."
+    },
+    "bohu": {
+      "type": "vocabulary",
+      "description": "Daughter-in-law in Odia and other Indian languages."
+    },
+    "shopkeeper’s house": {
+      "type": "vocabulary",
+      "description": "A household in the village associated with running a shop, often a distinct social or economic unit."
+    },
+    "wedding house": {
+      "type": "vocabulary",
+      "description": "A household where a wedding is taking place, often the center of social activity during the event."
+    },
+    "central house": {
+      "type": "vocabulary",
+      "description": "The main or ancestral house in a joint family, where important decisions and gatherings occur."
+    },
+    "Baraju Padhaan": {
+      "type": "character",
+      "description": "A key male character, responsible for household rituals and property matters; often seen as the head of the family."
+    },
+    "Maipi": {
+      "type": "character",
+      "description": "A woman frequently involved in household affairs, particularly in arranging chores and weddings."
+    },
+    "Rghara": {
+      "type": "character",
+      "description": "Mentioned as the father of Rula; likely a villager or family relation."
+    },
+    "Rula": {
+      "type": "character",
+      "description": "Son of Rghara, mentioned in the context of village families."
+    },
+    "Swaghara": {
+      "type": "character",
+      "description": "Mentioned as the father of Ghu; another villager or family relation."
+    },
+    "Ghu": {
+      "type": "character",
+      "description": "Son of Swaghara, part of the extended village community."
+    },
+    "Kulura": {
+      "type": "character",
+      "description": "Referenced as an object of devotion; possibly a deity or spiritual figure."
+    },
+    "Naim": {
+      "type": "character",
+      "description": "A character involved in the discussion about separating cooking pots; possibly a family member."
+    },
+    "Bajku": {
+      "type": "character",
+      "description": "A person writing near the house; possibly another name or nickname for Baraju."
+    },
+    "Baraja": {
+      "type": "character",
+      "description": "Another spelling for Baraju, involved in family leadership and property matters."
+    },
+    "Dharu": {
+      "type": "character",
+      "description": "A person who takes care of the chhakadi and has learned from Hari Mishra."
+    },
+    "Ghoshei": {
+      "type": "character",
+      "description": "Mentioned in relation to Dharu; possibly another villager or family member."
+    },
+    "Hagu": {
+      "type": "character",
+      "description": "A family member whose wedding expenses are discussed."
+    },
+    "Bhone": {
+      "type": "character",
+      "description": "Addressed by Baraju, possibly a term for a younger brother or close male relative."
+    },
+    "Palanka": {
+      "type": "character",
+      "description": "Mentioned as someone to be taken to the house near the school; likely a family member."
+    },
+    "Haghabou": {
+      "type": "character",
+      "description": "A variant spelling of Hagaboja, involved in the discussion about leaving the home."
+    },
+    "Kauka": {
+      "type": "character",
+      "description": "A character who feels uneasy about abandoning the home."
+    },
+    "Bidagun": {
+      "type": "character",
+      "description": "Mentioned in reference to another family that left their home; likely a villager."
+    },
+    "Kanchika": {
+      "type": "proper_noun",
+      "description": "A month in the Odia calendar, marking a specific time in the agricultural cycle."
+    },
+    "karmabandhua": {
+      "type": "proper_noun",
+      "description": "A term referring to a person bound by duty or karma, often used to describe a devoted spouse."
+    },
+    "kansa": {
+      "type": "proper_noun",
+      "description": "Bell metal, a traditional alloy used for making utensils in Odisha."
+    },
+    "gulpa": {
+      "type": "proper_noun",
+      "description": "A type of tree, often used as a landmark in Odia villages."
+    },
+    "mung beans": {
+      "type": "vocabulary",
+      "description": "A type of small, green legume commonly used in Indian cooking."
+    },
+    "deer skin": {
+      "type": "vocabulary",
+      "description": "Animal hide used in traditional rituals and ceremonies."
+    },
+    "almanac": {
+      "type": "vocabulary",
+      "description": "A traditional calendar or book of auspicious dates, used for planning rituals."
+    },
+    "main rope": {
+      "type": "vocabulary",
+      "description": "The primary rope used for drawing water from a well, essential in daily rural life."
+    },
+    "verandah": {
+      "type": "vocabulary",
+      "description": "A roofed platform along the outside of a house, common in Indian homes."
+    },
+    "Haraboad": {
+      "type": "character",
+      "description": "A male family member suffering from fever, involved in the household's packing and property matters."
+    },
+    "Hagbou": {
+      "type": "character",
+      "description": "A quiet family member who does not voice opinions about the family's decisions."
+    },
+    "Shaighaboi": {
+      "type": "character",
+      "description": "One of the village women who gathers at the headman's house to discuss the family's situation."
+    },
+    "Padma": {
+      "type": "character",
+      "description": "A villager who gathers with others to discuss Baraju's decision."
+    },
+    "Nadhu": {
+      "type": "character",
+      "description": "A villager, often emotional, who discusses the family's fate and expresses concern about Baraju's departure."
+    },
+    "Dharma": {
+      "type": "character",
+      "description": "A villager who worries about the consequences of Baraju leaving and the future of the household."
+    },
+    "Maga": {
+      "type": "character",
+      "description": "A villager who questions the value of staying in the village and discusses the leadership of the Pradhan."
+    },
+    "Nevas": {
+      "type": "character",
+      "description": "A villager who agrees with others to bring Baraju back home."
+    },
+    "Chand": {
+      "type": "character",
+      "description": "A villager who supports the idea of bringing Baraju back."
+    },
+    "Hagboja": {
+      "type": "character",
+      "description": "A family member, likely a child, who clings to Baraju as the family departs."
+    },
+    "Dam": {
+      "type": "character",
+      "description": "Baraju's young son, who is closely attached to his father."
+    },
+    "Gauranga Sethi": {
+      "type": "character",
+      "description": "Baraju Pradhan's elder cousin from Harpura, known for seeking Baraju's help and maintaining family ties."
+    },
+    "Gau": {
+      "type": "character",
+      "description": "A nickname for Gauranga Sethi, who interacts with Baraju about family matters."
+    },
+    "Ramku": {
+      "type": "character",
+      "description": "A household member who leaves raw rice for Chhakadi, indicating care for daily needs."
+    },
+    "Bukula": {
+      "type": "character",
+      "description": "A villager mentioned in Chhakadi's agitated thoughts about property and conduct."
+    },
+    "Shisa": {
+      "type": "character",
+      "description": "Another villager referenced in the context of property and social standing."
+    },
+    "Bandhua": {
+      "type": "character",
+      "description": "A villager mentioned alongside others in Chhakadi's reflections."
+    },
+    "Jaga": {
+      "type": "character",
+      "description": "A villager who informs others about Baraju's whereabouts."
+    },
+    "Swara": {
+      "type": "character",
+      "description": "A child who is usually seen reading the Bhagavata at the threshold, symbolizing the household's former liveliness."
+    },
+    "Bha": {
+      "type": "character",
+      "description": "A character who becomes emotional about the loss of family and property, possibly another name for Chhakadi."
+    },
+    "Sadhuama": {
+      "type": "character",
+      "description": "An old woman of the house, frail and reflective, who mourns the decline of the family and property."
+    },
+    "dandak": {
+      "type": "proper_noun",
+      "description": "A rural Odia term for a raised village path or embankment, often a gathering place for villagers."
+    },
+    "Gopalpuri": {
+      "type": "proper_noun",
+      "description": "Refers to tales or customs associated with the village of Gopalpur, indicating local folklore or gossip."
+    },
+    "Brahma, Vishnu, Maheshwara": {
+      "type": "proper_noun",
+      "description": "The Hindu trinity of gods representing creation (Brahma), preservation (Vishnu), and destruction (Maheshwara/Shiva)."
+    },
+    "Nakara": {
+      "type": "proper_noun",
+      "description": "A person or household in the village, referenced as a place where Baraju could go for food."
+    },
+    "Bhamara": {
+      "type": "proper_noun",
+      "description": "A person or household in the village, mentioned as a place Gauranga visits."
+    },
+    "Nagpur": {
+      "type": "proper_noun",
+      "description": "A town or city, possibly referring to a nearby urban center or market town."
+    },
+    "Bharat": {
+      "type": "proper_noun",
+      "description": "Refers to India, used here to evoke the continuity of village life despite changes."
+    },
+    "Kurua": {
+      "type": "proper_noun",
+      "description": "A household or family in the village, referenced in conversation."
+    },
+    "Damaku": {
+      "type": "proper_noun",
+      "description": "A diminutive or affectionate form of Dam, Baraju's son."
+    },
+    "Maipa": {
+      "type": "proper_noun",
+      "description": "A woman in the village, possibly a relative, who cares for Damaku."
+    },
+    "Kodka": {
+      "type": "proper_noun",
+      "description": "A villager addressed in conversation, possibly a friend or neighbor."
+    },
+    "Dhadha": {
+      "type": "proper_noun",
+      "description": "A respectful or affectionate term for an elder or senior male in the village."
+    },
+    "Basindhu Harapur": {
+      "type": "proper_noun",
+      "description": "A family or household in the village of Harapur, associated with Gauranga Sen."
+    },
+    "kapuri bird": {
+      "type": "proper_noun",
+      "description": "A local bird species, possibly the Asian koel or another bird known for its distinctive call."
+    },
+    "damara crow": {
+      "type": "proper_noun",
+      "description": "A type of crow common in rural Odisha, known for its loud cawing."
+    },
+    "Bharasugaon": {
+      "type": "proper_noun",
+      "description": "A place or household name, possibly referring to the ancestral home or village."
+    },
+    "Bakhei": {
+      "type": "proper_noun",
+      "description": "A term indicating a price or edition, here referring to the cost of the book ('Ten Annas Each')."
+    },
+    "Manchara Manisha": {
+      "type": "proper_noun",
+      "description": "The title of the novel, meaning 'The Simple Man' or 'Man of the Soil' in Odia."
+    },
+    "hasboard": {
+      "type": "vocabulary",
+      "description": "A household item, possibly a wooden board or chest used for storage."
+    },
+    "lagapara": {
+      "type": "vocabulary",
+      "description": "A rural household item, possibly a rope or strap used for tying bundles or livestock."
+    },
+    "chhakada": {
+      "type": "vocabulary",
+      "description": "A village lane or crossroads, also used as a nickname for a character."
+    },
+    "ghada-kuncha": {
+      "type": "vocabulary",
+      "description": "Earthen pots and cleaning brushes, common household items in rural Odisha."
+    },
+    "betel leaf": {
+      "type": "vocabulary",
+      "description": "A leaf from the betel plant, commonly chewed with areca nut in India."
+    },
+    "barapipal": {
+      "type": "vocabulary",
+      "description": "A large sacred fig tree, often a central landmark in villages."
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Parash",
+      "Shama Pradhan",
+      "Pradhan",
+      "Sharaghaboda",
+      "Sebani",
+      "Baraju",
+      "Chakada",
+      "Adhe",
+      "Bhauni",
+      "Khandia Bhuni",
+      "Leu Pada",
+      "Bhima",
+      "Naruni",
+      "Pradhan",
+      "Ganga",
+      "Khandia Bhuni",
+      "Baraju Chhakada",
+      "salna",
+      "arua rice",
+      "usuna",
+      "jaggery",
+      "ghee",
+      "pulses",
+      "earthen pot",
+      "amaranth",
+      "spinach"
+    ],
+    "ch-1-2": [
+      "Sanboh",
+      "Bhramara",
+      "Nehamani",
+      "Nesamani",
+      "Chhakada Khoka",
+      "Shama Pradhan",
+      "Sunadai",
+      "Bhuba",
+      "Dada",
+      "Musama",
+      "Chakadi",
+      "Karlaka",
+      "Alpa",
+      "Sunapoda",
+      "Kolkata",
+      "Pradhan",
+      "Guakara",
+      "Kod Gundira",
+      "Bhandaruni",
+      "Seiani",
+      "Sindhaba",
+      "paddy",
+      "dowry",
+      "winnow",
+      "gamucha",
+      "yatra",
+      "bier",
+      "peṅkāl",
+      "ambula",
+      "betel leaves",
+      "lime",
+      "Kolatha"
+    ],
+    "ch-1-3": [
+      "Chakada Narba",
+      "Baraju",
+      "Shama Pradhan",
+      "Har Mishra",
+      "Padhaan",
+      "Baraku",
+      "Chhakada Munda",
+      "Majhibh Maṣ",
+      "Narasa",
+      "Surara",
+      "Bhagavan",
+      "Ekadashi",
+      "Barupa river",
+      "Padhanpada",
+      "Lanka",
+      "Jagannath",
+      "Sarua pond",
+      "panchayat",
+      "Badabhala Bhai",
+      "Bhagavata",
+      "paise",
+      "bari",
+      "zamindar",
+      "gumasta",
+      "kaonkal mohar",
+      "settlement amin",
+      "Hakims",
+      "sarkars",
+      "gandikars",
+      "bhondis",
+      "mukhtars",
+      "annas",
+      "cowries",
+      "dharma",
+      "turban",
+      "plough",
+      "paddy",
+      "Majhibh Maṣ",
+      "hal",
+      "Paj"
+    ],
+    "ch-1-4": [
+      "Jadu",
+      "Baraju",
+      "Jagu",
+      "Har Mishra",
+      "Baraju Muruk",
+      "Bhui",
+      "Swai",
+      "Jadu Dalei",
+      "Baraku",
+      "Manibou",
+      "Kalika",
+      "Sarasima",
+      "Bhuasuni",
+      "Harabou",
+      "Nandi Gandiani",
+      "Bhubou",
+      "Sanbou",
+      "Chhakada",
+      "Pakaila",
+      "Sana’s wife",
+      "Dija",
+      "Rusha",
+      "Sanabo",
+      "Badabo",
+      "Badabon",
+      "Man of the Soil Rusha",
+      "Bhramara",
+      "Hagabod",
+      "Nebamani",
+      "Nandi Pandi’s wife",
+      "Sharadi Bou",
+      "Sanako’s wife",
+      "Nandi Pandiani",
+      "Sharaprabha",
+      "Chhenagudi",
+      "Asadha",
+      "Mother Mangala",
+      "Brahmin",
+      "tulsi",
+      "Gopalakshmi",
+      "Akha Pakh",
+      "Sai Padisha",
+      "Panch",
+      "Mangala Maa",
+      "amin",
+      "Lakhana Barajat",
+      "Jenapur",
+      "Chaudhury",
+      "Godavari",
+      "paddy",
+      "threshing floor",
+      "yoke",
+      "chulha",
+      "annas",
+      "granary",
+      "besara",
+      "pakhala",
+      "ghee",
+      "sari",
+      "kaakhei",
+      "mustard oil",
+      "betel leaves",
+      "marriage hall"
+    ],
+    "ch-1-5": [
+      "Nandi",
+      "Sanaboha",
+      "Sharadiboj",
+      "Hara Mishra",
+      "Baraju Pradhan",
+      "Chhakada",
+      "Chhakadi",
+      "Kadhei",
+      "Brother Mishra",
+      "Bhoma",
+      "Shama Pradhan",
+      "Kagui Deba",
+      "Ragh Kimvira",
+      "panchayat",
+      "Mishra",
+      "Baraju",
+      "Padhan",
+      "Akhainas",
+      "pinda",
+      "jhirapitha",
+      "Kakei",
+      "Bhoma",
+      "Har Mishra",
+      "Shama Pradhan",
+      "Kagui Deba",
+      "Maṭira Maṇisha",
+      "President",
+      "Zamindar",
+      "Mahajan",
+      "Chandala",
+      "Brahmin",
+      "chowkidar",
+      "paddy",
+      "rupee",
+      "anna",
+      "khadaka",
+      "dantamula",
+      "maund",
+      "ghee",
+      "chaukidar",
+      "priest’s house",
+      "panchayat",
+      "dacoits"
+    ],
+    "ch-1-6": [
+      "Baraju",
+      "Hayi Mishra",
+      "Karaju Pradhan",
+      "Subhadra",
+      "Nanda",
+      "Chhakada",
+      "Chhakada’s wife",
+      "Hagabota",
+      "Hagaboja",
+      "Harabote",
+      "Harabou",
+      "Biju",
+      "Habou",
+      "Satku Sat Baraju Manishu",
+      "Nagarou",
+      "Kamiya",
+      "Bhagyachandra",
+      "Srichandra",
+      "Kansa",
+      "Sanabou",
+      "Sharabou",
+      "Sharadibou",
+      "Bha’",
+      "Pradhan",
+      "Mangala",
+      "kusuma",
+      "Pandavas",
+      "Draupadi",
+      "asura",
+      "deva",
+      "Raja",
+      "Kansa",
+      "ploughmen",
+      "cremation ground",
+      "joint",
+      "gamucha",
+      "jaggery",
+      "doctorni",
+      "sari",
+      "vermilion",
+      "kohl",
+      "Apa"
+    ],
+    "ch-1-7": [
+      "Sharaprabou",
+      "Sana Ojha",
+      "Kalapanita",
+      "Jagu Sau",
+      "Sona Ma",
+      "Kadua",
+      "Chakada",
+      "Baraju",
+      "Karu",
+      "Nendramani",
+      "Har Mishra",
+      "Kothapua",
+      "Dharma Das",
+      "Roop",
+      "Kakei",
+      "Bhau",
+      "Hem Kakar",
+      "Bhramara",
+      "Banhi",
+      "Mishe",
+      "Bakbheiya",
+      "Baliyar",
+      "Bhaku",
+      "Mishra Subhadha",
+      "Basuthabo",
+      "Mishra Majhia",
+      "Khokai",
+      "Chandshi Sial",
+      "Chandra",
+      "Bhama",
+      "Bhalu",
+      "Bhothu",
+      "Chakadi",
+      "Ushara",
+      "Same Baika",
+      "Barapa",
+      "Kalabaks",
+      "Sharagabou",
+      "Same Baraka",
+      "Rouka",
+      "chuda pitha",
+      "ghee",
+      "dub grass",
+      "Chhe Pradhanpada",
+      "banyan tree",
+      "betel",
+      "Sanjaber",
+      "date-palm jaggery",
+      "areca nuts",
+      "paddy",
+      "threshing floor",
+      "cow dung cakes",
+      "granary",
+      "moneylender",
+      "Bhagia family",
+      "Sai Purushi",
+      "mani",
+      "Pusha",
+      "Mrigabhaka",
+      "Guja Maharaja",
+      "Yudaku",
+      "Kadamba tree",
+      "saree",
+      "chaff",
+      "share of the field",
+      "barn",
+      "hospitality",
+      "veranda",
+      "madi-gaintha",
+      "stale rice",
+      "untouchable",
+      "betel nut box",
+      "ancestral seat",
+      "outsider",
+      "curd",
+      "bullock cart",
+      "Chowkidar",
+      "police station"
+    ],
+    "ch-1-8": [
+      "Kadhei",
+      "Nalabha",
+      "Har Mishra",
+      "Sanei",
+      "Baraju",
+      "Shabdabhoja",
+      "Hagabohu",
+      "Suna",
+      "Nesamani",
+      "Chakada",
+      "Harabou",
+      "Sharadibou",
+      "Suna Motanka",
+      "Bhamaru",
+      "Sanabou",
+      "Hasbou",
+      "Nebamani",
+      "Sānabouh",
+      "Bhā’u",
+      "Hāgbottar",
+      "Thage",
+      "Age Badku",
+      "Rabhabou",
+      "Ekā Hārbou",
+      "Chhakada Nabamani",
+      "Harabotta",
+      "Bada Jaa",
+      "Saan-bohu",
+      "Biraja",
+      "Jnanabohu",
+      "Habou",
+      "Sharghabou",
+      "Nandi Panda",
+      "Apa",
+      "Lugā",
+      "Sarbabou",
+      "Nandapandi",
+      "Bastula",
+      "Mother Mangala",
+      "Lord Kapalashore",
+      "Navaranga",
+      "Brahmin",
+      "panji",
+      "Osha",
+      "Barabha",
+      "pitha",
+      "santula",
+      "Akhinamasar",
+      "Barala",
+      "haagabod",
+      "Manjira Manisha",
+      "Kartika",
+      "katha",
+      "kapani",
+      "bou",
+      "paddy",
+      "granary",
+      "vermilion",
+      "banyan tree",
+      "thali",
+      "dakhanda",
+      "haagabod",
+      "saree",
+      "alms",
+      "cowshed",
+      "ploughman",
+      "greens"
+    ],
+    "ch-1-9": [
+      "Baraju",
+      "Dharama",
+      "Barajua",
+      "Dharama Baura",
+      "Dharma Bou",
+      "Kartika",
+      "Mangala",
+      "Mangala Thakuguni",
+      "Jal Khatei",
+      "Jad Subhara",
+      "Rup Jena",
+      "Jadu Dalei",
+      "Bhoti Goshthi",
+      "Ag Mundia",
+      "Malati",
+      "Har Mishra",
+      "Jadu",
+      "Rupa",
+      "Uda",
+      "Apat",
+      "Dhadukh",
+      "Dama",
+      "Baraku",
+      "Guruch",
+      "Amar",
+      "Old Ratana",
+      "Jadu Dalai",
+      "Rupaguai",
+      "Baralu",
+      "Jahu",
+      "Nathu",
+      "Roopa",
+      "Nebhara",
+      "Dhenā",
+      "Jadu Dalera",
+      "Mishra Brahmin",
+      "Baighara",
+      "Gramchandra",
+      "Sravan Gramchandra",
+      "Padhanpada",
+      "Gandhya",
+      "Meru",
+      "Brahmin",
+      "ghee",
+      "landlords",
+      "amin",
+      "handman",
+      "gamucha",
+      "Gubha",
+      "threshing floor",
+      "cartloads",
+      "rice gruel"
+    ],
+    "ch-1-10": [
+      "Baraju",
+      "Rupa",
+      "Bancha",
+      "Chakada",
+      "Sana",
+      "Bhaba",
+      "Harabou",
+      "Nebamani",
+      "Sanath",
+      "Muruka",
+      "Sao",
+      "Sarat",
+      "Chhakada",
+      "Sanabohu",
+      "Bhamana",
+      "Harimise",
+      "Chhakadi",
+      "Mishra Akhimika Maai",
+      "Kakei",
+      "Neus Ohba",
+      "Manjira Manisha Sanath",
+      "Mangala",
+      "Chandar",
+      "Jagua",
+      "Padhaan",
+      "Baraju Pradhan",
+      "Baraku Pradhan",
+      "Baju Pradhan",
+      "Regi",
+      "Daramal",
+      "Madua",
+      "Har Mishra",
+      "Dharama Bauro",
+      "Nabhei Maharana",
+      "Nabha Maharana",
+      "Barajua",
+      "Barunei",
+      "Amin",
+      "Baisakh",
+      "Sunar",
+      "Aj Bhenika",
+      "Chak Muga",
+      "Dekhura’s Chandan",
+      "Koda Rishi",
+      "ru ta kansara gharara paagu",
+      "am shoikshaghara",
+      "Mangala",
+      "Satya, Dwapara, Kali",
+      "Padhaan",
+      "Pradhan",
+      "Mishra",
+      "Maharana",
+      "Swai",
+      "plough cattle",
+      "manias",
+      "threshing floor",
+      "barn",
+      "chhakidas",
+      "jaggery",
+      "sari",
+      "IOU",
+      "annas",
+      "paisa",
+      "dharma",
+      "bohu",
+      "shopkeeper’s house",
+      "wedding house",
+      "central house"
+    ],
+    "ch-1-11": [
+      "Nendramani",
+      "Baraju Padhaan",
+      "Chhakada",
+      "Maipi",
+      "Amar",
+      "Kakei",
+      "Mishe",
+      "Rghara",
+      "Rula",
+      "Swaghara",
+      "Ghu",
+      "Kulura",
+      "Naim",
+      "Har Mishra",
+      "Nesamani",
+      "Chhakadi",
+      "Bajku",
+      "Baraja",
+      "Dharu",
+      "Ghoshei",
+      "Hagu",
+      "Suna",
+      "Bhone",
+      "Palanka",
+      "Hagaboja",
+      "Haghabou",
+      "Kauka",
+      "Nebamani",
+      "Bidagun",
+      "Bhagavata",
+      "Pradhan",
+      "Padhaan",
+      "Kanchika",
+      "gamucha",
+      "karmabandhua",
+      "kansa",
+      "gulpa",
+      "mung beans",
+      "jaggery",
+      "deer skin",
+      "cowshed",
+      "almanac",
+      "main rope",
+      "verandah"
+    ],
+    "ch-1-12": [
+      "Nebamani",
+      "Baraja",
+      "Baraju",
+      "Chhakadi",
+      "Haraboad",
+      "Hagbou",
+      "Shaighaboi",
+      "Nandi",
+      "Padma",
+      "Nadhu",
+      "Dharma",
+      "Jadu",
+      "Maga",
+      "Nevas",
+      "Chand",
+      "Baraju Pradhan",
+      "Hagboja",
+      "Dam",
+      "Gauranga Sethi",
+      "Gau",
+      "Har Mishra",
+      "Ramku",
+      "Bukula",
+      "Shisa",
+      "Bandhua",
+      "Jaga",
+      "Swara",
+      "Bha",
+      "Sadhuama",
+      "Nesamani",
+      "dandak",
+      "gamucha",
+      "zamindar",
+      "Pradhan",
+      "Gopalpuri",
+      "Brahma, Vishnu, Maheshwara",
+      "Nakara",
+      "Sanabohu",
+      "Bhamara",
+      "Nagpur",
+      "Bharat",
+      "Kurua",
+      "Damaku",
+      "Maipa",
+      "Kodka",
+      "Dhadha",
+      "Basindhu Harapur",
+      "kapuri bird",
+      "damara crow",
+      "Bharasugaon",
+      "Bakhei",
+      "Manchara Manisha",
+      "Bhagavata",
+      "paddy",
+      "hasboard",
+      "lagapara",
+      "Pradhan",
+      "sari",
+      "bohu",
+      "chhakada",
+      "ghada-kuncha",
+      "anna",
+      "betel leaf",
+      "barapipal",
+      "threshing floor",
+      "granary"
+    ]
+  }
+}

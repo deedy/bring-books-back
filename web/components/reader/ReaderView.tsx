@@ -10,11 +10,17 @@ import ChapterImage from "./ChapterImage";
 import ChapterPicker from "./ChapterPicker";
 import { chapterPath } from "@/lib/utils";
 import { trackEvent } from "@/lib/analytics";
+import { decodeQuoteHash } from "@/lib/quote";
+import type { QuoteHighlight } from "./ChapterContent";
+import SelectionSharePopover from "./SelectionSharePopover";
 
 interface ReaderViewProps {
   bookId: string;
   bookTitle: string;
+  authorName: string;
   accentColor: string;
+  coverImage: string;
+  originalYear: number;
   chapters: Chapter[];
   totalChapters: number;
   initialChapter?: number;
@@ -24,14 +30,16 @@ interface ReaderViewProps {
 export default function ReaderView({
   bookId,
   bookTitle,
+  authorName,
   accentColor,
+  coverImage,
+  originalYear,
   chapters,
   totalChapters,
   initialChapter,
   annotations,
 }: ReaderViewProps) {
   const updateProgress = useReadingStore((s) => s.updateProgress);
-  const savedProgress = useReadingStore((s) => s.getProgress(bookId));
   const scrollMode = useReadingStore((s) => s.scrollMode);
   const setScrollMode = useReadingStore((s) => s.setScrollMode);
 
@@ -39,7 +47,7 @@ export default function ReaderView({
     if (initialChapter !== undefined && initialChapter >= 1 && initialChapter <= chapters.length) {
       return initialChapter - 1;
     }
-    return savedProgress?.currentChapter ?? 0;
+    return useReadingStore.getState().progress[bookId]?.currentChapter ?? 0;
   });
   const [showPicker, setShowPicker] = useState(false);
   const [headerVisible, setHeaderVisible] = useState(true);
@@ -47,6 +55,21 @@ export default function ReaderView({
   const [fontSize, setFontSize] = useState<"small" | "medium" | "large">("medium");
   const [chapterProgress, setChapterProgress] = useState(0);
   const lastScrollY = useRef(0);
+  const hasRestoredRef = useRef(false);
+  const latestScrollPercentRef = useRef(0);
+  // Capture the initial hash synchronously during render (before effects run),
+  // because the URL-sync effect will strip the hash via replaceState.
+  const initialHashRef = useRef(
+    typeof window !== "undefined" ? window.location.hash : ""
+  );
+  // When arriving via a quote deep-link (#q=...), suppress all reading-progress writes
+  // so the visitor's saved position isn't overwritten.
+  const isQuoteLinkRef = useRef(
+    !!decodeQuoteHash(initialHashRef.current)
+  );
+
+  // Ref for the chapter text container (used by SelectionSharePopover)
+  const contentContainerRef = useRef<HTMLDivElement>(null);
 
   // Refs for infinite scroll mode
   const chapterHeadingRefs = useRef<Map<number, HTMLElement>>(new Map());
@@ -124,10 +147,19 @@ export default function ReaderView({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [scrollMode]);
 
-  // Sync URL and save progress whenever chapter changes
+  // Sync URL on every chapter change; only write to store when chapter actually changes
   useEffect(() => {
-    updateProgress(bookId, { currentChapter: currentIndex });
-    window.history.replaceState({}, "", chapterUrl(currentIndex));
+    // Preserve quote hash in URL so the highlight link remains shareable
+    const hash = isQuoteLinkRef.current ? initialHashRef.current : "";
+    window.history.replaceState({}, "", chapterUrl(currentIndex) + hash);
+    if (isQuoteLinkRef.current) return; // Don't overwrite saved position on quote links
+    // Check stored chapter — skip write on initial mount to avoid corrupting
+    // scrollPercent before Zustand persist has hydrated from localStorage
+    const stored = useReadingStore.getState().progress[bookId];
+    if (!stored || stored.currentChapter === currentIndex) return;
+    // User changed chapters — save new chapter and reset scroll to top
+    updateProgress(bookId, { currentChapter: currentIndex, scrollPercent: 0 });
+    latestScrollPercentRef.current = 0;
   }, [bookId, currentIndex, updateProgress, chapterUrl]);
 
   // Track chapter start for analytics
@@ -180,7 +212,7 @@ export default function ReaderView({
     return () => observer.disconnect();
   }, [scrollMode, chapters.length]);
 
-  // Scroll tracking: header visibility + chapter progress
+  // Scroll tracking: header visibility + chapter progress + save position
   useEffect(() => {
     const handleScroll = () => {
       const y = window.scrollY;
@@ -198,22 +230,97 @@ export default function ReaderView({
             : document.documentElement.scrollHeight;
           const chapterHeight = chapterBottom - chapterTop;
           if (chapterHeight > 0) {
-            const progress = ((y - chapterTop + window.innerHeight * 0.3) / chapterHeight) * 100;
-            setChapterProgress(Math.max(0, Math.min(100, progress)));
+            const pct = Math.max(0, Math.min(100, ((y - chapterTop) / chapterHeight) * 100));
+            latestScrollPercentRef.current = pct;
+            // UI progress bar uses a visual offset
+            setChapterProgress(Math.max(0, Math.min(100, ((y - chapterTop + window.innerHeight * 0.3) / chapterHeight) * 100)));
           }
         }
       } else {
-        // Paginated: whole-page progress
+        // Paginated: whole-page progress = within-chapter progress
         const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
         if (scrollHeight > 0) {
-          setChapterProgress(Math.min(100, (y / scrollHeight) * 100));
+          const pct = Math.min(100, (y / scrollHeight) * 100);
+          latestScrollPercentRef.current = pct;
+          setChapterProgress(pct);
         }
       }
+
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, [scrollMode, currentIndex]);
+
+  // One-time restore of exact scroll position on initial mount
+  // Skip if a quote deep-link hash is present — the quote highlight effect handles scrolling instead.
+  useEffect(() => {
+    if (hasRestoredRef.current) return;
+
+    // Delay: 300ms lets Zustand hydrate + content render + infinite chapter-scroll (50ms) settle
+    const timer = setTimeout(() => {
+      if (hasRestoredRef.current) return;
+      hasRestoredRef.current = true;
+
+      // If there's a quote hash, skip scroll restore — let the quote highlight effect handle it
+      if (isQuoteLinkRef.current) return;
+
+      // Read directly from store (not render closure) to guarantee hydrated state
+      const state = useReadingStore.getState();
+      const progress = state.progress[bookId];
+      const pct = progress?.scrollPercent;
+      if (!pct || pct <= 0) return;
+
+      // Only restore if displayed chapter matches saved chapter
+      if (progress.currentChapter !== currentIndex) return;
+
+      if (state.scrollMode === "infinite") {
+        // Infinite: scroll to within-chapter offset
+        const headingEl = chapterHeadingRefs.current.get(currentIndex);
+        const nextHeadingEl = chapterHeadingRefs.current.get(currentIndex + 1);
+        if (headingEl) {
+          const chapterTop = headingEl.getBoundingClientRect().top + window.scrollY;
+          const chapterBottom = nextHeadingEl
+            ? nextHeadingEl.getBoundingClientRect().top + window.scrollY
+            : document.documentElement.scrollHeight;
+          const chapterHeight = chapterBottom - chapterTop;
+          if (chapterHeight > 0) {
+            suppressObserverRef.current = true;
+            window.scrollTo({ top: chapterTop + (pct / 100) * chapterHeight - 60, behavior: "auto" });
+            setTimeout(() => { suppressObserverRef.current = false; }, 200);
+          }
+        }
+      } else {
+        // Paginated: within-chapter percent = whole-page percent
+        const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+        if (scrollHeight > 0) {
+          window.scrollTo({ top: (pct / 100) * scrollHeight, behavior: "auto" });
+        }
+      }
+    }, 300);
+    return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [bookId]);
+
+  // Flush scroll position to store on page hide, beforeunload, and component unmount
+  // (beforeunload covers tab close; visibilitychange covers mobile tab switch;
+  //  cleanup covers Next.js client-side navigation where beforeunload doesn't fire)
+  useEffect(() => {
+    const savePosition = () => {
+      if (isQuoteLinkRef.current) return; // Don't overwrite saved position on quote links
+      updateProgress(bookId, { scrollPercent: latestScrollPercentRef.current });
+    };
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "hidden") savePosition();
+    };
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    window.addEventListener("beforeunload", savePosition);
+    return () => {
+      savePosition();
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+      window.removeEventListener("beforeunload", savePosition);
+    };
+  }, [bookId, updateProgress]);
 
   // Keyboard nav: left/right arrows (paginated only)
   useEffect(() => {
@@ -228,6 +335,48 @@ export default function ReaderView({
     window.addEventListener("keydown", handleKey);
     return () => window.removeEventListener("keydown", handleKey);
   }, [currentIndex, chapters.length, goToChapter, scrollMode]);
+
+  // Deep-link quote highlight: React-managed state instead of imperative DOM.
+  // Parse the hash captured at render time and set highlight state.
+  const [quoteHighlight, setQuoteHighlight] = useState<QuoteHighlight | null>(() => {
+    const pos = decodeQuoteHash(initialHashRef.current);
+    if (!pos) return null;
+    return { paragraphIndex: pos.paragraphIndex, accentColor };
+  });
+
+  // Listen for hashchange so quote links work when already on the page
+  useEffect(() => {
+    const onHashChange = () => {
+      const pos = decodeQuoteHash(window.location.hash);
+      if (pos) {
+        setQuoteHighlight({ paragraphIndex: pos.paragraphIndex, accentColor });
+      }
+    };
+    window.addEventListener("hashchange", onHashChange);
+    return () => window.removeEventListener("hashchange", onHashChange);
+  }, [accentColor]);
+
+  // Scroll the highlighted paragraph into view via ref callback.
+  // Uses a ref to track the last highlighted index so it scrolls again on change.
+  const lastHighlightedPara = useRef<number | null>(null);
+  const onHighlightRef = useCallback((el: HTMLElement | null) => {
+    if (!el) return;
+    const idx = quoteHighlight?.paragraphIndex ?? null;
+    if (idx === lastHighlightedPara.current) return;
+    lastHighlightedPara.current = idx;
+    // Delay to let content render + layout settle
+    setTimeout(() => {
+      // Force contentVisibility on ancestor wrappers so paragraph is laid out
+      let parent: HTMLElement | null = el.parentElement;
+      while (parent) {
+        if (parent.style.contentVisibility === "auto") {
+          parent.style.contentVisibility = "visible";
+        }
+        parent = parent.parentElement;
+      }
+      el.scrollIntoView({ behavior: "smooth", block: "center" });
+    }, 100);
+  }, [quoteHighlight]);
 
   // Ref registration callbacks
   const registerRef = useCallback((idx: number, el: HTMLElement | null) => {
@@ -271,11 +420,19 @@ export default function ReaderView({
     return ch?.part !== null && (prev === null || prev?.part !== ch?.part);
   };
 
+  // Unique ID for scoping ::selection styles to this reader instance
+  const selectionStyleId = "reader-selection";
+
   return (
     <div
+      ref={contentContainerRef}
+      id={selectionStyleId}
       className="min-h-screen transition-colors duration-200"
       style={{ backgroundColor: bgColor, color: textColor, "--reader-bg": bgColor } as React.CSSProperties}
     >
+      {/* Text selection color using book's accent */}
+      <style>{`#${selectionStyleId} ::selection { background-color: ${accentColor}40; color: inherit; }`}</style>
+
       {/* Book progress — top */}
       <ProgressBar percent={overallProgress} accentColor={accentColor} />
 
@@ -300,7 +457,7 @@ export default function ReaderView({
         open={showPicker}
         onClose={() => setShowPicker(false)}
         onSelectChapter={goToChapter}
-        readChapters={savedProgress ? savedProgress.currentChapter : 0}
+        readChapters={currentIndex}
         glossaryUrl={annotations ? `/books/${bookId}/glossary` : undefined}
       />
 
@@ -341,6 +498,16 @@ export default function ReaderView({
         />
       </div>
 
+      <SelectionSharePopover
+        accentColor={accentColor}
+        bookTitle={bookTitle}
+        authorName={authorName}
+        coverImage={coverImage}
+        originalYear={originalYear}
+        chapterTitle={chapter?.title ?? ""}
+        containerRef={contentContainerRef}
+      />
+
       {scrollMode === "infinite" ? (
         /* Infinite scroll: render all chapters */
         <div className="pb-32">
@@ -360,6 +527,8 @@ export default function ReaderView({
                 isFirst={idx === 0}
                 chapterTerms={annotations?.chapters[ch.id]}
                 glossary={annotations?.glossary}
+                quoteHighlight={quoteHighlight ?? undefined}
+                onHighlightRef={onHighlightRef}
               />
             </div>
           ))}
@@ -375,7 +544,7 @@ export default function ReaderView({
               </div>
               {/* Prev / Next overlay on image, below the header */}
               <div className="absolute inset-x-0 top-14 grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 sm:px-8 max-w-[720px] mx-auto">
-                <div className="justify-self-start">
+                <div className="min-w-0">
                   <button
                     onClick={() => goToChapter(currentIndex - 1)}
                     disabled={currentIndex === 0}
@@ -392,11 +561,11 @@ export default function ReaderView({
                   </button>
                 </div>
 
-                <span className="text-xs text-white/50 bg-black/30 backdrop-blur-md px-2.5 py-1 rounded-md">
+                <span className="text-xs text-white/50 bg-black/30 backdrop-blur-md px-2.5 py-1 rounded-md whitespace-nowrap">
                   {currentIndex + 1} / {totalChapters}
                 </span>
 
-                <div className="justify-self-end">
+                <div className="min-w-0 flex justify-end">
                   {nextChapter ? (
                     <button
                       onClick={() => goToChapter(currentIndex + 1)}
@@ -416,7 +585,7 @@ export default function ReaderView({
           ) : (
             /* No image — simple top nav */
             <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 sm:px-8 pt-16 pb-2 max-w-[720px] mx-auto">
-              <div className="justify-self-start">
+              <div className="min-w-0">
                 <button
                   onClick={() => goToChapter(currentIndex - 1)}
                   disabled={currentIndex === 0}
@@ -435,11 +604,11 @@ export default function ReaderView({
                 </button>
               </div>
 
-              <span className={`text-xs ${darkMode ? "text-white/30" : "text-black/30"}`}>
+              <span className={`text-xs whitespace-nowrap ${darkMode ? "text-white/30" : "text-black/30"}`}>
                 {currentIndex + 1} / {totalChapters}
               </span>
 
-              <div className="justify-self-end">
+              <div className="min-w-0 flex justify-end">
                 {nextChapter ? (
                   <button
                     onClick={() => goToChapter(currentIndex + 1)}
@@ -476,13 +645,15 @@ export default function ReaderView({
                 hideImage
                 chapterTerms={annotations?.chapters[chapter.id]}
                 glossary={annotations?.glossary}
+                quoteHighlight={quoteHighlight ?? undefined}
+                onHighlightRef={onHighlightRef}
               />
             )}
           </div>
 
           {/* Bottom nav */}
           <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 sm:px-8 pb-16 max-w-[720px] mx-auto">
-            <div className="justify-self-start">
+            <div className="min-w-0">
               <button
                 onClick={() => goToChapter(currentIndex - 1)}
                 disabled={currentIndex === 0}
@@ -509,12 +680,12 @@ export default function ReaderView({
             </div>
 
             <span
-              className={`text-xs ${darkMode ? "text-white/30" : "text-black/30"}`}
+              className={`text-xs whitespace-nowrap ${darkMode ? "text-white/30" : "text-black/30"}`}
             >
               {currentIndex + 1} / {totalChapters}
             </span>
 
-            <div className="justify-self-end">
+            <div className="min-w-0 flex justify-end">
               {currentIndex >= chapters.length - 1 ? (
                 <span
                   className={`text-sm italic ${darkMode ? "text-white/30" : "text-black/30"}`}

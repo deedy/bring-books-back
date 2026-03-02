@@ -1,0 +1,3595 @@
+{
+  "glossary": {
+    "Parvati": {
+      "type": "character",
+      "description": "A friend or family member who attends the narrator's birthday celebration, helping to make it festive."
+    },
+    "Gaumati": {
+      "type": "character",
+      "description": "Another friend or family member present at the narrator's birthday celebration."
+    },
+    "Gopal": {
+      "type": "character",
+      "description": "The narrator's childhood friend who calls her to inform her about the visitor from Mircea's country."
+    },
+    "Amrita": {
+      "type": "character",
+      "description": "The narrator and protagonist, reflecting on her past and her relationship with Mircea; addressed as Amrita Devi in Sergei's letter and affectionately called Ruu by her mother.",
+      "image": "/data/images/characters/na-hanyate/amrita.webp"
+    },
+    "Sergei Sebastian": {
+      "type": "character",
+      "description": "A visitor from Mircea's country who meets Amrita and discusses Mircea's book and their shared past."
+    },
+    "Khoka": {
+      "type": "character",
+      "description": "A boy from a poor family raised by the narrator's grandmother, considered like a brother, known for his humor; 'Khoka’s Kakima' refers to his aunt."
+    },
+    "Shanti": {
+      "type": "character",
+      "description": "Khoka's sister, also under the narrator's family's protection.",
+      "image": "/data/images/characters/na-hanyate/shanti.webp"
+    },
+    "Ma": {
+      "type": "character",
+      "description": "The narrator's mother, a figure of authority and tradition in the family, who treats Mircea kindly and is seen as the embodiment of motherhood.",
+      "image": "/data/images/characters/na-hanyate/ma.webp"
+    },
+    "Grandmother": {
+      "type": "character",
+      "description": "The narrator's grandmother, who raised Pishima and holds significant influence in the family."
+    },
+    "Lekha": {
+      "type": "character",
+      "description": "The narrator's daughter-in-law, described as extremely intelligent and attentive."
+    },
+    "Mr. K": {
+      "type": "character",
+      "description": "A man expected to visit the narrator's house for work, mentioned by Lekha."
+    },
+    "Saptarshi": {
+      "type": "proper_noun",
+      "description": "A prominent constellation in Indian astronomy, known as the Big Dipper or Ursa Major in Western terms."
+    },
+    "Guru": {
+      "type": "proper_noun",
+      "description": "A spiritual teacher or guide, whom the narrator reveres and credits with giving her life meaning."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The city in India where much of the story is set, formerly known as Calcutta and now called Kolkata."
+    },
+    "Bhabanipur": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta where the narrator's family home is located."
+    },
+    "Chevrolet": {
+      "type": "proper_noun",
+      "description": "An American car brand; the narrator recalls their first family car being a Chevrolet."
+    },
+    "Santiniketan": {
+      "type": "proper_noun",
+      "description": "A university town in West Bengal founded by Rabindranath Tagore, known for its unique educational and cultural practices."
+    },
+    "Tagore household": {
+      "type": "proper_noun",
+      "description": "The family and home of Rabindranath Tagore, known for its cultural innovations and influence."
+    },
+    "Kalighat": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, famous for its Kali temple, mentioned as Khoka's possible current residence."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch or gallery attached to the outside of a house."
+    },
+    "puja": {
+      "type": "vocabulary",
+      "description": "A Hindu ritual of worship, though not directly mentioned in this chapter, is implied in the context of reverence and worship."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting involving joining the palms together, often accompanied by a slight bow."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional men's garment in India, consisting of a rectangular piece of cloth wrapped around the waist and legs; also spelled dhuti."
+    },
+    "sari border": {
+      "type": "vocabulary",
+      "description": "The decorative edge of a saree, often torn in grief or protest in traditional contexts."
+    },
+    "Pratu": {
+      "type": "vocabulary",
+      "description": "A term of endearment or nickname for the narrator's Guru, invoked in times of distress."
+    },
+    "Mircea": {
+      "type": "character",
+      "description": "A foreign student (based on Mircea Eliade) who comes to stay at the narrator's house; he is central to the memoir's story and is also referred to as Mircea Euclid, a Romanian scholar and the narrator's former lover.",
+      "image": "/data/images/characters/na-hanyate/mircea.webp"
+    },
+    "Stella Kramrisch": {
+      "type": "character",
+      "description": "A learned visitor to the household, she was a renowned art historian specializing in Indian art."
+    },
+    "Professor Tucci": {
+      "type": "character",
+      "description": "A visiting European scholar, likely Giuseppe Tucci, an Italian orientalist and Indologist, who learned Bengali and frequently visited the narrator's home."
+    },
+    "Farmico": {
+      "type": "character",
+      "description": "Another foreign visitor to the household, mentioned as part of the intellectual circle."
+    },
+    "Thakur": {
+      "type": "character",
+      "description": "A family elder, possibly the narrator's grandfather, known for his orthodox views and resistance to change."
+    },
+    "Kaka": {
+      "type": "character",
+      "description": "The narrator's uncle, who assists in caring for Thakuma during her illness."
+    },
+    "Thakuma": {
+      "type": "character",
+      "description": "The narrator's grandmother, a figure of tradition and orthodoxy in the family."
+    },
+    "Rabindranath Tagore": {
+      "type": "character",
+      "description": "Rabindranath Tagore, the Nobel laureate poet and founder of Santiniketan, who influenced Bengali culture and is revered by the family; referred to by various honorifics and nicknames including Poet, Kobi, Robi Thakur, and others.",
+      "image": "/data/images/characters/na-hanyate/rabindranath-tagore.webp"
+    },
+    "Sarojini Naidu": {
+      "type": "character",
+      "description": "Mentioned as an aspirational figure for Amrita, she was a prominent Indian poet and freedom fighter."
+    },
+    "Bogdanov": {
+      "type": "character",
+      "description": "A Russian scholar who visits the narrator's house and participates in philosophical discussions."
+    },
+    "Whitman": {
+      "type": "proper_noun",
+      "description": "Refers to Walt Whitman, a famous American poet whose work is discussed in the household."
+    },
+    "Shelley": {
+      "type": "proper_noun",
+      "description": "Refers to Percy Bysshe Shelley, a renowned English Romantic poet."
+    },
+    "East Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern Bengal, now part of Bangladesh, referenced as the location of the father's earlier teaching post."
+    },
+    "Vaishnava": {
+      "type": "proper_noun",
+      "description": "Relating to Vaishnavism, a devotional tradition of Hinduism focused on the worship of Vishnu or Krishna."
+    },
+    "Krishna": {
+      "type": "proper_noun",
+      "description": "A major deity in Hinduism, central to Vaishnava devotion and referenced in the mother's quoted lines."
+    },
+    "Sonar Tori": {
+      "type": "proper_noun",
+      "description": "A famous poem by Rabindranath Tagore, meaning 'The Golden Boat.'"
+    },
+    "Kautukamoyi": {
+      "type": "proper_noun",
+      "description": "A poem by Rabindranath Tagore, the title means 'The Playful One.'"
+    },
+    "Jiban Debata": {
+      "type": "proper_noun",
+      "description": "A philosophical poem by Rabindranath Tagore, meaning 'The Lord of Life.'"
+    },
+    "Hriday Jamuna": {
+      "type": "proper_noun",
+      "description": "Another poem by Tagore, meaning 'The Yamuna of the Heart.'"
+    },
+    "Chitpur Road": {
+      "type": "proper_noun",
+      "description": "A historic road in Calcutta, known for its bustling markets and cultural significance."
+    },
+    "Egbert Andrews": {
+      "type": "proper_noun",
+      "description": "A furniture shop in Calcutta, frequented by the narrator and her father."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, referenced as a source of brassware."
+    },
+    "Kanpur": {
+      "type": "proper_noun",
+      "description": "A major city in northern India, also referenced as a source of brassware."
+    },
+    "Kalyan": {
+      "type": "proper_noun",
+      "description": "A locality or slum area in Calcutta, mentioned in the context of changing musical tastes."
+    },
+    "Globe Theatre": {
+      "type": "proper_noun",
+      "description": "A prominent theater in Calcutta where the Russian couple performed magic tricks."
+    },
+    "Empire Theatre": {
+      "type": "proper_noun",
+      "description": "A theater in Calcutta where the family attends an Italian opera."
+    },
+    "Anglophile": {
+      "type": "proper_noun",
+      "description": "A term describing people who admire or are influenced by English culture."
+    },
+    "Nationalism": {
+      "type": "proper_noun",
+      "description": "The title of an essay or book given to the narrator by her father, likely referring to Tagore's work."
+    },
+    "Chokher Bali": {
+      "type": "proper_noun",
+      "description": "A controversial novel by Tagore, meaning 'A Grain of Sand.'"
+    },
+    "Krishnakant-er Will": {
+      "type": "proper_noun",
+      "description": "A Bengali novel by Bankim Chandra Chattopadhyay, meaning 'Krishnakanta's Will.'"
+    },
+    "Charitraheen": {
+      "type": "proper_noun",
+      "description": "A Bengali novel by Sarat Chandra Chattopadhyay, meaning 'Characterless.'"
+    },
+    "ashram": {
+      "type": "vocabulary",
+      "description": "A spiritual hermitage or monastery in Indian religions (not directly in this chapter, but included if present)."
+    },
+    "sannyasi": {
+      "type": "vocabulary",
+      "description": "A Hindu ascetic or renunciant (not directly in this chapter, but included if present)."
+    },
+    "elite": {
+      "type": "vocabulary",
+      "description": "A term used to describe the upper class or socially privileged group in society."
+    },
+    "bourgeois": {
+      "type": "vocabulary",
+      "description": "A term referring to the middle class, often with connotations of materialism or conventional attitudes."
+    },
+    "leftovers": {
+      "type": "vocabulary",
+      "description": "In this context, refers to food that has been partially eaten or touched, often considered ritually impure in Hindu customs."
+    },
+    "untouchability": {
+      "type": "vocabulary",
+      "description": "A social practice of ostracizing a group by segregating them from the mainstream, especially in the context of caste."
+    },
+    "partition": {
+      "type": "vocabulary",
+      "description": "A temporary wall or divider used to create separate spaces within a room."
+    },
+    "purdah": {
+      "type": "vocabulary",
+      "description": "The practice of secluding women from public observation by means of clothing or physical barriers."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn by women in South Asia, consisting of a long piece of cloth draped around the body; also spelled saree."
+    },
+    "Brahmin": {
+      "type": "vocabulary",
+      "description": "A member of the highest Hindu caste, traditionally priests or scholars."
+    },
+    "widow": {
+      "type": "vocabulary",
+      "description": "A woman whose husband has died; in the Indian context, often subject to specific social customs and restrictions."
+    },
+    "feeding cup": {
+      "type": "vocabulary",
+      "description": "A special cup used to give liquids to patients who are too weak to drink normally."
+    },
+    "cream of the...": {
+      "type": "vocabulary",
+      "description": "An idiomatic phrase meaning the best or most select group."
+    },
+    "veil": {
+      "type": "vocabulary",
+      "description": "A piece of cloth worn to cover the face or head, symbolizing modesty or seclusion."
+    },
+    "Father": {
+      "type": "character",
+      "description": "The narrator's father, a respected scholar and teacher who guides the narrator and Mircea in their studies and is a central figure in the family; addressed as Baba, Naren Babu, or Narenbabu.",
+      "image": "/data/images/characters/na-hanyate/father.webp"
+    },
+    "Euclid": {
+      "type": "character",
+      "description": "A nickname for Mircea, used affectionately by the family, referencing the mathematician and highlighting Mircea's scholarly nature; 'Euclid-da' combines the name with 'da', meaning elder brother in Bengali."
+    },
+    "Meelu": {
+      "type": "character",
+      "description": "A peer and friend of the narrator, mentioned as someone with whom the narrator laughs about the sycophantic boys."
+    },
+    "Sergei": {
+      "type": "character",
+      "description": "The narrator's husband of thirty-eight years, a gentle and undemanding man who senses his wife's distress."
+    },
+    "Kshitimohan Sen": {
+      "type": "character",
+      "description": "A scholar at Santiniketan, mentioned as someone Father may have met while visiting Tagore."
+    },
+    "Atulprasad Sen": {
+      "type": "character",
+      "description": "A famous Bengali composer and singer, whose performance is described at a gathering of Calcutta's elite."
+    },
+    "Kalidas Babu": {
+      "type": "character",
+      "description": "A family acquaintance who sings Tagore's songs and escorts the narrator home from a visit."
+    },
+    "Ramananda Chattopadhyay": {
+      "type": "character",
+      "description": "A prominent editor and supporter of Tagore, who lives nearby and is a family friend; also known as Ramananda Chattopadhyay."
+    },
+    "Stapleton": {
+      "type": "character",
+      "description": "The Principal of Presidency College, involved in a student protest incident mediated by the narrator's father."
+    },
+    "Uncle": {
+      "type": "character",
+      "description": "A recurring male relative in the household, often involved in translating and family discussions; sometimes about to inform the police when Mircea goes missing."
+    },
+    "Shakuntala": {
+      "type": "proper_noun",
+      "description": "A classical Sanskrit play by Kalidasa, often studied for its literary and poetic value."
+    },
+    "Hitopadesha": {
+      "type": "proper_noun",
+      "description": "An ancient Sanskrit collection of fables and moral stories, traditionally used to teach Sanskrit."
+    },
+    "sahib": {
+      "type": "proper_noun",
+      "description": "A term used in colonial India to refer to European men, especially the British, often those in authority."
+    },
+    "Puri": {
+      "type": "proper_noun",
+      "description": "A coastal city in Odisha, India, known for its beaches and the Jagannath Temple."
+    },
+    "Bhogapatra": {
+      "type": "proper_noun",
+      "description": "The title of a poem written by the narrator, meaning 'the leaf of enjoyment' or 'offering leaf' in Sanskrit."
+    },
+    "Chhatimtala": {
+      "type": "proper_noun",
+      "description": "A sacred meditation spot at Santiniketan, associated with Tagore."
+    },
+    "Store Road": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, mentioned as the location of a gathering."
+    },
+    "Sri Krishna": {
+      "type": "proper_noun",
+      "description": "A major deity in Hinduism, regarded as the supreme god in Vaishnavism."
+    },
+    "Radha": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess and the beloved consort of Krishna, central to Vaishnava literature."
+    },
+    "Uttarayan": {
+      "type": "proper_noun",
+      "description": "A residence at Santiniketan where Rabindranath Tagore lived."
+    },
+    "Indra": {
+      "type": "proper_noun",
+      "description": "The king of the gods in Hindu mythology, ruler of the heavens."
+    },
+    "Meghaduta": {
+      "type": "proper_noun",
+      "description": "A famous Sanskrit poem by Kalidasa, meaning 'The Cloud Messenger,' known for its themes of longing and separation."
+    },
+    "Prarthana": {
+      "type": "proper_noun",
+      "description": "A poem by Rabindranath Tagore, referenced for its poetic lines."
+    },
+    "Presidency College": {
+      "type": "proper_noun",
+      "description": "A prestigious college in Calcutta, known for its role in the Indian freedom movement."
+    },
+    "Principal Stapleton": {
+      "type": "proper_noun",
+      "description": "The British principal of Presidency College during the colonial era."
+    },
+    "Ramesh Mitra Park": {
+      "type": "proper_noun",
+      "description": "A park in Calcutta, mentioned as a place the narrator passes through."
+    },
+    "vermilion": {
+      "type": "vocabulary",
+      "description": "A bright red powder (sindoor) applied by married Hindu women along the parting of their hair as a symbol of marriage."
+    },
+    "alta": {
+      "type": "vocabulary",
+      "description": "A red dye applied to the feet by Bengali women, especially during festivals and weddings."
+    },
+    "malati": {
+      "type": "vocabulary",
+      "description": "A fragrant flowering vine (Jasminum malabaricum) with white or red blossoms, common in Bengal."
+    },
+    "khaddar": {
+      "type": "vocabulary",
+      "description": "Hand-spun, hand-woven cloth, popularized by Mahatma Gandhi as a symbol of Indian self-reliance."
+    },
+    "panjabi": {
+      "type": "vocabulary",
+      "description": "A traditional knee-length tunic worn by men in Bengal and northern India."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A term of respect or endearment for a man, often used after a name in Bengal."
+    },
+    "mantra": {
+      "type": "vocabulary",
+      "description": "A sacred utterance, word, or phrase repeated in prayer or meditation in Hinduism and Buddhism."
+    },
+    "picketing": {
+      "type": "vocabulary",
+      "description": "A form of protest where people gather outside a place to demonstrate or prevent entry, often used during India's freedom movement."
+    },
+    "harmonium": {
+      "type": "vocabulary",
+      "description": "A small, hand-pumped organ used in Indian music."
+    },
+    "pantheism": {
+      "type": "vocabulary",
+      "description": "A philosophical belief that God or divinity is identical with the universe and everything in it."
+    },
+    "birohabethar": {
+      "type": "vocabulary",
+      "description": "A Bengali term meaning 'the pain of separation,' often used in poetry and songs."
+    },
+    "amrit": {
+      "type": "vocabulary",
+      "description": "A Sanskrit word meaning 'nectar' or 'immortality,' often used to signify divine sweetness or bliss."
+    },
+    "Chandsi": {
+      "type": "character",
+      "description": "A person who provides ointment for Mircea's sunburn; likely a household member or acquaintance."
+    },
+    "Sabi": {
+      "type": "character",
+      "description": "The narrator's eleven-year-old younger sister, sensitive and sometimes jealous of attention given to others; affectionately called 'Sabi'."
+    },
+    "Lidi": {
+      "type": "character",
+      "description": "A family member, apparently favored by others, causing Sabi to feel neglected."
+    },
+    "Anadi Dastidar": {
+      "type": "character",
+      "description": "The narrator's music teacher who comes to the house for lessons."
+    },
+    "Ramen Chakraborty": {
+      "type": "character",
+      "description": "The narrator's painting teacher."
+    },
+    "Goanese master": {
+      "type": "character",
+      "description": "A music teacher from Goa who teaches the narrator violin."
+    },
+    "Mastermoshai": {
+      "type": "character",
+      "description": "The narrator's Sanskrit teacher, respected and sometimes teased by the family."
+    },
+    "Gourmohan Ghosh": {
+      "type": "character",
+      "description": "The full name of Mastermoshai, the Sanskrit teacher."
+    },
+    "Shreesh Babu": {
+      "type": "character",
+      "description": "A name used for uncle, who jokes with Mastermoshai."
+    },
+    "second aunt": {
+      "type": "character",
+      "description": "A relative who is suspicious and critical of the narrator's behavior."
+    },
+    "Milu": {
+      "type": "character",
+      "description": "A family member, likely a sibling or cousin, who discusses fashion and jewelry with the narrator."
+    },
+    "Jhadu": {
+      "type": "character",
+      "description": "The family cook, described as uncivilized but endearing."
+    },
+    "Kamal Babu": {
+      "type": "character",
+      "description": "A family acquaintance, educated and cultured, but whose behavior makes the narrator uncomfortable."
+    },
+    "Man Kumari Basu": {
+      "type": "character",
+      "description": "Michael Madhusudan’s niece, the eldest writer at the literary conference."
+    },
+    "Sahitya Parishad": {
+      "type": "proper_noun",
+      "description": "A literary society or venue in Calcutta where literary conferences are held."
+    },
+    "Gokhale Memorial School": {
+      "type": "proper_noun",
+      "description": "A well-known school in Calcutta, built on the site of the Sahitya Parishad."
+    },
+    "Hyderabad": {
+      "type": "proper_noun",
+      "description": "A major city in southern India, mentioned as the place where Rabindranath fell ill."
+    },
+    "Senate": {
+      "type": "proper_noun",
+      "description": "Likely refers to the University of Calcutta Senate, where academic gatherings occur."
+    },
+    "Michael Madhusudan": {
+      "type": "proper_noun",
+      "description": "Michael Madhusudan Dutt, a renowned 19th-century Bengali poet and dramatist."
+    },
+    "Balaka": {
+      "type": "proper_noun",
+      "description": "A famous poetry collection by Rabindranath Tagore."
+    },
+    "Dakghar": {
+      "type": "proper_noun",
+      "description": "A play by Rabindranath Tagore, known in English as 'The Post Office.'"
+    },
+    "Knut Hamsun": {
+      "type": "proper_noun",
+      "description": "A Norwegian author, whose novel 'Hunger' is given to the narrator."
+    },
+    "Ashtanga Yoga": {
+      "type": "proper_noun",
+      "description": "A classical system of yoga with eight limbs, central to Indian philosophy."
+    },
+    "Tantra": {
+      "type": "proper_noun",
+      "description": "A spiritual and philosophical tradition in Hinduism and Buddhism, often discussed in the household."
+    },
+    "Rajputani": {
+      "type": "proper_noun",
+      "description": "Refers to women of the Rajput community, known for their distinctive dress."
+    },
+    "Marathi": {
+      "type": "proper_noun",
+      "description": "Relating to Maharashtra, a region in western India, and its traditional sari style."
+    },
+    "Rajput": {
+      "type": "proper_noun",
+      "description": "A North Indian warrior caste, known for their jewelry and traditions."
+    },
+    "Orissan": {
+      "type": "proper_noun",
+      "description": "Relating to Orissa (now Odisha), a state in eastern India, known for its silver jewelry."
+    },
+    "Hazeline": {
+      "type": "proper_noun",
+      "description": "A brand of face cream popular in colonial India."
+    },
+    "Johnson’s": {
+      "type": "proper_noun",
+      "description": "Refers to Johnson’s talcum powder, a Western cosmetic product."
+    },
+    "Sarat Chandra": {
+      "type": "proper_noun",
+      "description": "Sarat Chandra Chattopadhyay, a famous Bengali novelist."
+    },
+    "Mahua": {
+      "type": "proper_noun",
+      "description": "A type of flower, also the name of the narrator's notebook."
+    },
+    "Sabala": {
+      "type": "proper_noun",
+      "description": "A poem referenced by the narrator, representing strength and self-determination."
+    },
+    "vasudhaiva kutumbakam": {
+      "type": "proper_noun",
+      "description": "A Sanskrit phrase meaning 'the world is one family.'"
+    },
+    "Bhairava": {
+      "type": "proper_noun",
+      "description": "A fierce form of Shiva in Hinduism, symbolizing destruction and transformation."
+    },
+    "Mahakala": {
+      "type": "proper_noun",
+      "description": "A form of Shiva representing time and death."
+    },
+    "Nataraja": {
+      "type": "proper_noun",
+      "description": "A depiction of Shiva as the cosmic dancer."
+    },
+    "Keshava": {
+      "type": "proper_noun",
+      "description": "A name for Krishna or Vishnu, representing the divine preserver."
+    },
+    "Buddha": {
+      "type": "proper_noun",
+      "description": "The founder of Buddhism, invoked here as a symbol of compassion."
+    },
+    "Indrapuri": {
+      "type": "proper_noun",
+      "description": "The mythical city of Indra, king of the gods in Hindu mythology."
+    },
+    "Orion": {
+      "type": "proper_noun",
+      "description": "A prominent constellation, observed by the narrator at night."
+    },
+    "Somapayi": {
+      "type": "proper_noun",
+      "description": "A poetic reference to one who drinks soma (nectar), symbolizing bliss."
+    },
+    "Brahma-heart": {
+      "type": "proper_noun",
+      "description": "A poetic reference to the heart of Brahma, the creator god in Hinduism."
+    },
+    "Shankar": {
+      "type": "proper_noun",
+      "description": "Refers to Adi Shankaracharya, a Hindu philosopher, or to Shiva."
+    },
+    "madhabilata": {
+      "type": "proper_noun",
+      "description": "A fragrant flowering vine common in Bengal."
+    },
+    "Bankimchandra": {
+      "type": "proper_noun",
+      "description": "Bankimchandra Chattopadhyay, a major Bengali novelist and poet."
+    },
+    "dhaturupas": {
+      "type": "vocabulary",
+      "description": "Sanskrit verb forms, memorized as part of traditional language study."
+    },
+    "sinthi": {
+      "type": "vocabulary",
+      "description": "The parting of hair, often decorated with jewelry in Indian tradition."
+    },
+    "masoor dal": {
+      "type": "vocabulary",
+      "description": "Red lentils, often ground and used as a natural face scrub in India."
+    },
+    "nilakamal": {
+      "type": "vocabulary",
+      "description": "The blue lotus, a symbol of beauty and purity in Indian poetry."
+    },
+    "kurubak": {
+      "type": "vocabulary",
+      "description": "A type of flower, possibly the bakul, referenced in Sanskrit poetry."
+    },
+    "lol chikur mama": {
+      "type": "vocabulary",
+      "description": "A Sanskrit phrase meaning 'my loose hair,' used in poetry."
+    },
+    "gulmohar": {
+      "type": "vocabulary",
+      "description": "A flowering tree (Delonix regia) with bright red blossoms, often pressed as keepsakes."
+    },
+    "palkis": {
+      "type": "vocabulary",
+      "description": "Palanquins, traditional covered litters carried by bearers, used for women's transport."
+    },
+    "tola": {
+      "type": "vocabulary",
+      "description": "A traditional Indian unit of weight, especially for gold (about 11.66 grams)."
+    },
+    "bindi": {
+      "type": "vocabulary",
+      "description": "A decorative mark worn on the forehead by many Indian women."
+    },
+    "rumuku jhumuku rimi kim": {
+      "type": "vocabulary",
+      "description": "Onomatopoeic words imitating the sound of anklets, used in Bengali poetry."
+    },
+    "nagrai": {
+      "type": "vocabulary",
+      "description": "A style of traditional Indian footwear, often made of leather."
+    },
+    "Punjabi": {
+      "type": "vocabulary",
+      "description": "A style of long shirt worn by men in India, especially in Bengal."
+    },
+    "chakra": {
+      "type": "vocabulary",
+      "description": "Energy centers in the body according to yogic philosophy; 'crown chakra' refers to the highest, at the top of the head."
+    },
+    "Aradhana": {
+      "type": "character",
+      "description": "A close relative and friend of the narrator, six years older, whose unhappy marriage and love affair are recounted in detail."
+    },
+    "Jatin": {
+      "type": "character",
+      "description": "Aradhana's husband, chosen for her by her family, who loves her deeply but is rejected by her."
+    },
+    "Soumen": {
+      "type": "character",
+      "description": "A young professor and Aradhana's lover, who struggles with the conflict between love and social duty."
+    },
+    "Romen": {
+      "type": "character",
+      "description": "Shanti's husband, who remarried and mistreated Shanti, leading to her return to her family."
+    },
+    "Arjuna": {
+      "type": "character",
+      "description": "A hero from the Mahabharata, referenced in a spiritual context regarding cosmic vision."
+    },
+    "Gautami": {
+      "type": "character",
+      "description": "Likely a female confidante or addressee, invoked alongside Parvati."
+    },
+    "Sushil De": {
+      "type": "character",
+      "description": "A musician who performed a song at Presidency College, admired by the narrator."
+    },
+    "Hunger": {
+      "type": "proper_noun",
+      "description": "A book discussed by the narrator and Mircea, likely referring to Knut Hamsun's novel 'Hunger' about poverty and deprivation."
+    },
+    "Noukadubi": {
+      "type": "proper_noun",
+      "description": "A novel by Rabindranath Tagore, meaning 'Boat Wreck', referenced as a book cover hiding 'Charitraheen'."
+    },
+    "Draupadi": {
+      "type": "proper_noun",
+      "description": "A central female character from the Mahabharata, known for having five husbands."
+    },
+    "Agra": {
+      "type": "proper_noun",
+      "description": "A city in India, to which Aradhana and Soumen flee."
+    },
+    "Kallol": {
+      "type": "proper_noun",
+      "description": "A Bengali literary magazine known for its association with the modernist Kallol movement."
+    },
+    "Chhatim Tree": {
+      "type": "proper_noun",
+      "description": "A poem written by the narrator and sent to 'Kallol' magazine."
+    },
+    "Bakul Bagan": {
+      "type": "proper_noun",
+      "description": "The name of the narrator's family house."
+    },
+    "Ha Ja Ba Ra La": {
+      "type": "proper_noun",
+      "description": "A classic Bengali nonsense novel by Sukumar Ray, referenced for its humorous chaos."
+    },
+    "Kingkartavyabimūḍha": {
+      "type": "proper_noun",
+      "description": "A Sanskrit term meaning 'bewildered about what to do', used in Bengali literature for comic effect."
+    },
+    "Faridpur": {
+      "type": "proper_noun",
+      "description": "A region in East Bengal (now Bangladesh), mentioned as the village where Shanti's husband lived."
+    },
+    "Chayanika": {
+      "type": "proper_noun",
+      "description": "A collection of poems by Rabindranath Tagore, used by Aradhana to find lines for her love letter."
+    },
+    "Praseeda": {
+      "type": "proper_noun",
+      "description": "A Sanskrit word meaning 'be gracious', used in a prayerful context."
+    },
+    "1930": {
+      "type": "proper_noun",
+      "description": "The year referenced as the period of the narrator's youthful experiences."
+    },
+    "jilting": {
+      "type": "vocabulary",
+      "description": "A term used by Mircea to describe a public rejection or insult, especially in the context of romantic relationships."
+    },
+    "karakamal": {
+      "type": "vocabulary",
+      "description": "A Sanskrit-derived term meaning 'lotus hand', a poetic metaphor for the beauty of hands."
+    },
+    "attar": {
+      "type": "vocabulary",
+      "description": "A natural perfume oil derived from botanical sources, commonly used in South Asia."
+    },
+    "kewra": {
+      "type": "vocabulary",
+      "description": "An aromatic extract distilled from the pandanus flower, used as a fragrance or flavoring."
+    },
+    "Padmini": {
+      "type": "vocabulary",
+      "description": "A reference to a legendary or idealized woman in Indian culture, often associated with beauty and virtue."
+    },
+    "anchal": {
+      "type": "vocabulary",
+      "description": "The loose end of a sari, often draped over the shoulder or head."
+    },
+    "sindoor": {
+      "type": "vocabulary",
+      "description": "A red or orange powder applied along the parting of a married Hindu woman's hair, signifying marital status."
+    },
+    "mesho": {
+      "type": "vocabulary",
+      "description": "A Bengali term for maternal uncle or aunt's husband, used here as a suffix for Jatin."
+    },
+    "atyag-sahano bandhu": {
+      "type": "vocabulary",
+      "description": "A Sanskrit/Bengali phrase meaning 'a friend whose loss or separation you cannot bear'."
+    },
+    "Sabita": {
+      "type": "character",
+      "description": "A young girl whom the narrator wishes to teach to dance after marriage; likely a younger relative or family friend."
+    },
+    "Sita": {
+      "type": "character",
+      "description": "The narrator's cousin whose marriage is arranged with a zamindar's son; also a reference to the Hindu epic Ramayana, where Sita is held captive in the Ashoka grove by Ravana."
+    },
+    "Mriganka": {
+      "type": "character",
+      "description": "A zamindar's son, initially engaged to Sita, who later proposes to the narrator."
+    },
+    "Nasu": {
+      "type": "character",
+      "description": "The family artisan who paints the goddess's idol and performs animal sacrifices during puja."
+    },
+    "Sajanikanta Das": {
+      "type": "character",
+      "description": "A well-known Bengali literary critic, feared by the narrator for his sharp commentary."
+    },
+    "Purna Chakravarti": {
+      "type": "character",
+      "description": "An artist who illustrated the Bengali translation of Gita Govinda."
+    },
+    "Anandamoyi": {
+      "type": "character",
+      "description": "A reference to a goddess or a symbolic figure associated with joy during the puja."
+    },
+    "Yaksha": {
+      "type": "character",
+      "description": "A mythological character from Kalidasa's Meghaduta, representing the longing of separation."
+    },
+    "Shantiniketan": {
+      "type": "proper_noun",
+      "description": "An educational institution founded by Rabindranath Tagore in West Bengal, known for its emphasis on the arts and progressive education."
+    },
+    "Malini": {
+      "type": "proper_noun",
+      "description": "A play written by Rabindranath Tagore, referenced as a potential role for the narrator."
+    },
+    "Alakananda": {
+      "type": "proper_noun",
+      "description": "A sacred river in India, often symbolizing purity and spiritual flow in literature."
+    },
+    "Malhar raga": {
+      "type": "proper_noun",
+      "description": "A classical Indian musical mode associated with the monsoon and rain."
+    },
+    "Gita Govinda": {
+      "type": "proper_noun",
+      "description": "A 12th-century Sanskrit poem by Jayadeva, depicting the love of Radha and Krishna."
+    },
+    "Jayadeva": {
+      "type": "proper_noun",
+      "description": "A 12th-century Sanskrit poet, author of Gita Govinda."
+    },
+    "Maya": {
+      "type": "proper_noun",
+      "description": "A poem from Tagore's Mahua, noted for its philosophical depth."
+    },
+    "Ripon Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, known for its diverse population, including Anglo-Indians."
+    },
+    "Gandhi": {
+      "type": "proper_noun",
+      "description": "Mahatma Gandhi, leader of the Indian independence movement, referenced for his polarizing effect on Anglo-Indians and as an inspiration to Amrita."
+    },
+    "Aryan": {
+      "type": "proper_noun",
+      "description": "A term historically used in India to denote people of Indo-European descent, often associated with Hindu identity."
+    },
+    "Hindu": {
+      "type": "proper_noun",
+      "description": "A follower of Hinduism, the major religion of India."
+    },
+    "gotra": {
+      "type": "proper_noun",
+      "description": "A lineage or clan assigned to a Hindu at birth, important in marriage customs."
+    },
+    "Kabiraj house": {
+      "type": "proper_noun",
+      "description": "A traditional family home, possibly named after a lineage of Ayurvedic physicians (kabiraj)."
+    },
+    "Chandimandap": {
+      "type": "proper_noun",
+      "description": "A pavilion in Bengali homes or temples where the goddess Chandi is worshipped during festivals."
+    },
+    "tol": {
+      "type": "proper_noun",
+      "description": "A traditional school, often for Sanskrit or religious studies, in Bengal."
+    },
+    "Ashtami": {
+      "type": "proper_noun",
+      "description": "The eighth day of the Hindu lunar festival, especially significant during Durga Puja."
+    },
+    "Saptami": {
+      "type": "proper_noun",
+      "description": "The seventh day of the Hindu lunar festival, especially during Durga Puja."
+    },
+    "Navami": {
+      "type": "proper_noun",
+      "description": "The ninth day of the Hindu lunar festival, especially during Durga Puja."
+    },
+    "Dashami": {
+      "type": "proper_noun",
+      "description": "The tenth day of the Hindu lunar festival, marking the end of Durga Puja."
+    },
+    "Vaishnavas": {
+      "type": "proper_noun",
+      "description": "Followers of the Vaishnava tradition in Hinduism, who often reject animal sacrifice."
+    },
+    "Shaktas": {
+      "type": "proper_noun",
+      "description": "Followers of Shaktism, a sect of Hinduism that worships the goddess Shakti and often practices animal sacrifice."
+    },
+    "Hinduism": {
+      "type": "proper_noun",
+      "description": "The major religion of India, encompassing diverse beliefs and practices."
+    },
+    "Bengal Nights": {
+      "type": "proper_noun",
+      "description": "A novel by Mircea Eliade, based on his experiences in Bengal and his relationship with the narrator."
+    },
+    "Sahib": {
+      "type": "proper_noun",
+      "description": "A term used in colonial India to refer to European men, especially the British."
+    },
+    "Goethe": {
+      "type": "proper_noun",
+      "description": "Johann Wolfgang von Goethe, a German writer and statesman, whose biography Mircea gifts to the narrator."
+    },
+    "shudra": {
+      "type": "proper_noun",
+      "description": "The lowest of the four varnas (castes) in traditional Hindu society."
+    },
+    "French": {
+      "type": "proper_noun",
+      "description": "The French language, which Mircea is teaching the narrator."
+    },
+    "Bengali": {
+      "type": "proper_noun",
+      "description": "The language spoken in Bengal, which the narrator is teaching Mircea."
+    },
+    "pranam": {
+      "type": "vocabulary",
+      "description": "A gesture of respect or greeting, typically involving bowing or touching the feet of elders."
+    },
+    "nadus": {
+      "type": "vocabulary",
+      "description": "A type of Bengali sweet, usually round and made from coconut or other ingredients."
+    },
+    "khoi": {
+      "type": "vocabulary",
+      "description": "Puffed rice, a common snack and offering in Bengali households."
+    },
+    "til": {
+      "type": "vocabulary",
+      "description": "Sesame seeds, often used in sweets and rituals."
+    },
+    "aswattha": {
+      "type": "vocabulary",
+      "description": "The sacred fig tree (Ficus religiosa), revered in Hinduism."
+    },
+    "hookah": {
+      "type": "vocabulary",
+      "description": "A traditional water pipe used for smoking, common in Indian households."
+    },
+    "chiwda": {
+      "type": "vocabulary",
+      "description": "Flattened rice, used as a snack or breakfast item in Bengal."
+    },
+    "naru": {
+      "type": "vocabulary",
+      "description": "A Bengali sweet made from coconut and jaggery."
+    },
+    "murki": {
+      "type": "vocabulary",
+      "description": "A sweet snack made from puffed rice coated in jaggery or sugar."
+    },
+    "zamindar": {
+      "type": "vocabulary",
+      "description": "A landowner, especially one who held large estates in colonial India; zamindars were the landowning aristocrats in colonial Bengal."
+    },
+    "Kakima": {
+      "type": "character",
+      "description": "A relative or aunt by marriage, present in the household and privy to family dynamics."
+    },
+    "Prafulla Ghosh": {
+      "type": "character",
+      "description": "A professor of English who visits the family and recites Shakespeare."
+    },
+    "Anna Pavlova": {
+      "type": "character",
+      "description": "A famous Russian ballerina whose performance in Calcutta left a lasting impression on the narrator's mother."
+    },
+    "Debu": {
+      "type": "character",
+      "description": "The narrator's cousin, seen at a dance performance and anxious about being caught by his aunt."
+    },
+    "Uday Shankar": {
+      "type": "character",
+      "description": "A pioneering Indian dancer and choreographer who performed in Calcutta, inspiring awe in the narrator."
+    },
+    "Simkie": {
+      "type": "character",
+      "description": "A dancer who performed as Parvati alongside Uday Shankar."
+    },
+    "Bijoykrishna Goswami": {
+      "type": "character",
+      "description": "A spiritual figure who believed in past lives and had a connection with the narrator's father."
+    },
+    "Professor McTaggart": {
+      "type": "character",
+      "description": "A British philosopher and the narrator's father's professor, known for his scholarship and fondness for drink."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, central to the memoir's setting and cultural context."
+    },
+    "Jessore Road": {
+      "type": "proper_noun",
+      "description": "A major road in Calcutta, used for family outings."
+    },
+    "Barrackpore Road": {
+      "type": "proper_noun",
+      "description": "Another significant road in Calcutta."
+    },
+    "Tollygunge Circular Road": {
+      "type": "proper_noun",
+      "description": "A well-known road in Calcutta, associated with scenic drives."
+    },
+    "Merchant of Venice": {
+      "type": "proper_noun",
+      "description": "A Shakespearean play, referenced during a family literary gathering."
+    },
+    "Jessica": {
+      "type": "proper_noun",
+      "description": "A character from 'Merchant of Venice'."
+    },
+    "Lorenzo": {
+      "type": "proper_noun",
+      "description": "A character from 'Merchant of Venice'."
+    },
+    "Portia": {
+      "type": "proper_noun",
+      "description": "A character from 'Merchant of Venice'."
+    },
+    "Asharh": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar, associated with the monsoon season."
+    },
+    "Bhasita": {
+      "type": "proper_noun",
+      "description": "The title of the narrator's book of poems, soon to be published."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "Referenced in comparison to Bengali customs regarding coming of age."
+    },
+    "New Empire": {
+      "type": "proper_noun",
+      "description": "A prominent theater in Calcutta where dance performances were held."
+    },
+    "M.A.": {
+      "type": "proper_noun",
+      "description": "Master of Arts, a postgraduate academic degree."
+    },
+    "Pavlova": {
+      "type": "proper_noun",
+      "description": "Refers to Anna Pavlova, the Russian ballerina."
+    },
+    "Brahmo Samaj": {
+      "type": "proper_noun",
+      "description": "A reformist religious and social movement in Bengal advocating monotheism and social reform; its female members are called Brahmikas."
+    },
+    "Sudas Mali": {
+      "type": "proper_noun",
+      "description": "A mythological figure, here used metaphorically to describe Mircea's awe."
+    },
+    "Oriya": {
+      "type": "proper_noun",
+      "description": "The language spoken in Odisha, which the narrator's mother learned to read Vaishnava texts."
+    },
+    "Charyapada": {
+      "type": "proper_noun",
+      "description": "An ancient collection of Buddhist mystical poems in Bengali."
+    },
+    "Mangal Kavya": {
+      "type": "proper_noun",
+      "description": "A genre of Bengali Hindu religious texts."
+    },
+    "Chandidas": {
+      "type": "proper_noun",
+      "description": "A medieval Bengali poet known for his Vaishnava lyrics."
+    },
+    "Vidyapati": {
+      "type": "proper_noun",
+      "description": "A Maithili and Sanskrit poet, famous for his devotional and love poetry."
+    },
+    "Konarak": {
+      "type": "proper_noun",
+      "description": "A historic temple in Odisha, famous for its erotic sculptures."
+    },
+    "Bhubaneswar": {
+      "type": "proper_noun",
+      "description": "The capital of Odisha, known for its ancient temples."
+    },
+    "mlecha": {
+      "type": "proper_noun",
+      "description": "A term from Sanskrit and Bengali referring to a foreigner or non-Hindu."
+    },
+    "dolonchampa": {
+      "type": "proper_noun",
+      "description": "A fragrant flower, often used metaphorically in Bengali poetry."
+    },
+    "Shrimati": {
+      "type": "proper_noun",
+      "description": "A character or symbolic figure in Rabindranath Tagore's play 'Natir Puja'."
+    },
+    "Natir Puja": {
+      "type": "proper_noun",
+      "description": "A dance-drama by Rabindranath Tagore, meaning 'The Dancing Girl's Worship'."
+    },
+    "Lord Buddha": {
+      "type": "proper_noun",
+      "description": "The founder of Buddhism, addressed in the song from 'Natir Puja'."
+    },
+    "Santals": {
+      "type": "proper_noun",
+      "description": "An indigenous tribal community in eastern India."
+    },
+    "Mundas": {
+      "type": "proper_noun",
+      "description": "Another tribal group in eastern India."
+    },
+    "Gonds": {
+      "type": "proper_noun",
+      "description": "A major tribal group in central India."
+    },
+    "Manipuri": {
+      "type": "proper_noun",
+      "description": "A classical dance form from the Indian state of Manipur."
+    },
+    "Garba": {
+      "type": "proper_noun",
+      "description": "A traditional folk dance from Gujarat, India."
+    },
+    "Bratachari": {
+      "type": "proper_noun",
+      "description": "A Bengali social and cultural movement promoting folk dance and physical culture."
+    },
+    "thandis": {
+      "type": "proper_noun",
+      "description": "Women who perform teasing dances in the bridal chamber during Bengali weddings."
+    },
+    "Akbar": {
+      "type": "proper_noun",
+      "description": "A Mughal emperor, referenced here for his legendary punishment of Anarkali."
+    },
+    "Anarkali": {
+      "type": "proper_noun",
+      "description": "A legendary courtesan in Mughal history, symbolizing tragic love."
+    },
+    "Didi": {
+      "type": "vocabulary",
+      "description": "Elder sister; a respectful and affectionate Bengali term."
+    },
+    "ghat": {
+      "type": "vocabulary",
+      "description": "A series of steps leading down to a river, used for bathing or washing."
+    },
+    "beriberi": {
+      "type": "vocabulary",
+      "description": "A disease caused by vitamin B1 (thiamine) deficiency, leading to weakness and swelling."
+    },
+    "Ru": {
+      "type": "vocabulary",
+      "description": "A nickname for the narrator, Maitreyi Devi."
+    },
+    "jatismara": {
+      "type": "vocabulary",
+      "description": "A person who remembers their past lives, from Sanskrit."
+    },
+    "pishi": {
+      "type": "vocabulary",
+      "description": "Father's sister; paternal aunt in Bengali, also used as a character name for Khoka's mother."
+    },
+    "anna": {
+      "type": "vocabulary",
+      "description": "A former currency unit in India, equal to 1/16 of a rupee."
+    },
+    "dehi padapallavamudaram": {
+      "type": "vocabulary",
+      "description": "A Sanskrit phrase meaning 'offer your tender feet', from a famous love poem."
+    },
+    "baijis": {
+      "type": "vocabulary",
+      "description": "Professional female dancers and courtesans in India."
+    },
+    "devadasis": {
+      "type": "vocabulary",
+      "description": "Women dedicated to worship and service in Hindu temples, often as dancers."
+    },
+    "jug": {
+      "type": "vocabulary",
+      "description": "An age or era; in poetry, often used to mean a very long time."
+    },
+    "lakhs": {
+      "type": "vocabulary",
+      "description": "A unit in the Indian numbering system equal to one hundred thousand."
+    },
+    "Kabiraj Kaka": {
+      "type": "character",
+      "description": "A traditional Ayurvedic doctor (kabiraj) and family friend, referred to as 'Kaka' (uncle), who treats Sabi's illness."
+    },
+    "Upendranath Gangopadhyay": {
+      "type": "character",
+      "description": "Editor of the magazine Bichitra, a frequent visitor to the narrator's home and supporter of young writers."
+    },
+    "Jaldhar Sen": {
+      "type": "character",
+      "description": "An elderly, respected literary figure who participates in the narrator's birthday celebration."
+    },
+    "Kamini Roy": {
+      "type": "character",
+      "description": "A nationally renowned poet, admired by the narrator and her friends, known for her intellect and rumored romantic history."
+    },
+    "Jagadish Chandra Bose": {
+      "type": "character",
+      "description": "A famous scientist, rumored to have had a romantic connection with Kamini Roy."
+    },
+    "P. C. Ray": {
+      "type": "character",
+      "description": "A renowned chemist, said to have remained a bachelor due to his affection for Kamini Roy."
+    },
+    "Priyambada Devi": {
+      "type": "character",
+      "description": "A poet and family friend, known for her affectionate nature and rumored connections to Rabindranath and Okakura."
+    },
+    "Okakura": {
+      "type": "character",
+      "description": "A famous Japanese artist who is said to have loved Priyambada Devi and painted her portrait."
+    },
+    "Sarala Devi": {
+      "type": "character",
+      "description": "A prominent, learned woman in the Tagore circle, known for her strong temperament and affection for the narrator."
+    },
+    "Hiranmoyee Devi": {
+      "type": "character",
+      "description": "Another erudite woman in the Tagore circle, admired by the narrator."
+    },
+    "Indira Devi": {
+      "type": "character",
+      "description": "A talented woman in the Tagore family circle, respected by the narrator."
+    },
+    "Anurupa Devi": {
+      "type": "character",
+      "description": "A noted woman writer, mentioned as not being part of the narrator's close circle."
+    },
+    "Kantichandra Ghosh": {
+      "type": "character",
+      "description": "A well-known literary figure, famous for his translation of Omar Khayyam’s Rubaiyat."
+    },
+    "Berhampore": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, mentioned here as the location of a lunatic asylum."
+    },
+    "Gandhir Abedan": {
+      "type": "proper_noun",
+      "description": "A Bengali play or literary work, possibly referencing Gandhi’s appeal."
+    },
+    "Karnakunti-Samvad": {
+      "type": "proper_noun",
+      "description": "A Bengali literary work or play, likely dramatizing a dialogue between Karna and Kunti from the Mahabharata."
+    },
+    "Biday-Abhishap": {
+      "type": "proper_noun",
+      "description": "A Bengali play or poem, meaning 'Farewell-Curse', favored by the narrator."
+    },
+    "Kacha": {
+      "type": "proper_noun",
+      "description": "A character from Hindu mythology, known for his relationship with Devyani."
+    },
+    "Devyani": {
+      "type": "proper_noun",
+      "description": "A mythological figure, daughter of Shukracharya, associated with the story of Kacha."
+    },
+    "Achintya Sengupta": {
+      "type": "proper_noun",
+      "description": "A noted Bengali poet and writer, whose collection 'Amabashya' is mentioned."
+    },
+    "Amabashya": {
+      "type": "proper_noun",
+      "description": "A collection of poems by Achintya Sengupta."
+    },
+    "Niranjan Anand Murti": {
+      "type": "proper_noun",
+      "description": "A Sanskrit phrase meaning 'embodiment of pure bliss', used to describe Tagore’s appearance."
+    },
+    "pince-nez": {
+      "type": "proper_noun",
+      "description": "A style of eyeglasses without earpieces, popular in the early 20th century."
+    },
+    "Townsend Road": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata, where Ramananda Babu lived."
+    },
+    "Shesher Kobita": {
+      "type": "proper_noun",
+      "description": "A famous Bengali novel by Rabindranath Tagore, meaning 'The Last Poem'."
+    },
+    "Prabasi": {
+      "type": "proper_noun",
+      "description": "A respected Bengali literary magazine that published Tagore’s works."
+    },
+    "Rituranga": {
+      "type": "proper_noun",
+      "description": "A literary work by Rabindranath Tagore."
+    },
+    "Tin Purush": {
+      "type": "proper_noun",
+      "description": "Another major work by Rabindranath Tagore."
+    },
+    "Bichitra": {
+      "type": "proper_noun",
+      "description": "A modern Bengali literary magazine, edited by Upendranath Gangopadhyay."
+    },
+    "Basumati": {
+      "type": "proper_noun",
+      "description": "A Bengali literary magazine, noted for not publishing Tagore’s works."
+    },
+    "Bharatbarsha": {
+      "type": "proper_noun",
+      "description": "Another Bengali magazine, also known for not publishing Tagore’s works."
+    },
+    "Alochhaya": {
+      "type": "proper_noun",
+      "description": "A book of poems by Kamini Roy."
+    },
+    "Bipradash": {
+      "type": "proper_noun",
+      "description": "A character and the title of a novel by Sarat Chandra Chattopadhyay."
+    },
+    "Pallisamaj": {
+      "type": "proper_noun",
+      "description": "A novel by Sarat Chandra Chattopadhyay, meaning 'The Village Community'."
+    },
+    "Jogajog": {
+      "type": "proper_noun",
+      "description": "A novel by Rabindranath Tagore."
+    },
+    "Gora": {
+      "type": "proper_noun",
+      "description": "A novel by Rabindranath Tagore, addressing issues of identity and orthodoxy."
+    },
+    "Maharshi Deb": {
+      "type": "proper_noun",
+      "description": "Refers to Maharshi Debendranath Tagore, Rabindranath's father."
+    },
+    "Brahmika sari": {
+      "type": "proper_noun",
+      "description": "A style of sari associated with Brahmo women, symbolizing reformist ideals."
+    },
+    "Omar Khayyam’s Rubaiyat": {
+      "type": "proper_noun",
+      "description": "A collection of quatrains by the Persian poet Omar Khayyam, translated into Bengali."
+    },
+    "Dhakuria Lake": {
+      "type": "proper_noun",
+      "description": "A large artificial lake in south Kolkata, also known as Rabindra Sarobar."
+    },
+    "Southern Avenue": {
+      "type": "proper_noun",
+      "description": "A major road in south Kolkata."
+    },
+    "kabiraj": {
+      "type": "vocabulary",
+      "description": "A traditional Ayurvedic physician or herbal healer in Bengal."
+    },
+    "eldest aunt": {
+      "type": "vocabulary",
+      "description": "A term denoting the oldest aunt in a family, often with special responsibilities."
+    },
+    "Madhumanarayan oil": {
+      "type": "vocabulary",
+      "description": "A medicinal oil used in Bengal, likely for head massages or treating ailments."
+    },
+    "Srimati Malabika": {
+      "type": "character",
+      "description": "Also called Maladevi, a woman in the narrator's social circle, depicted as jealous and critical."
+    },
+    "Ranu": {
+      "type": "character",
+      "description": "The narrator's school friend, who reacts to the news of the narrator's love marriage."
+    },
+    "Didima": {
+      "type": "character",
+      "description": "Another elder, possibly a grandmother or respected woman, whose opinion matters to the narrator."
+    },
+    "Chutki": {
+      "type": "character",
+      "description": "A sibling or young family member, mentioned as someone the narrator is told not to talk to."
+    },
+    "Champa Pishi": {
+      "type": "character",
+      "description": "An older woman living in the household, originally a maid but treated as family, who suffers from illness; referred to as Champa Pishi or Champa-pishi."
+    },
+    "Baidyanathbabu": {
+      "type": "character",
+      "description": "A neighbor who gossips about the narrator's family, representing societal judgment."
+    },
+    "Prinsep Ghat": {
+      "type": "proper_noun",
+      "description": "A famous riverside promenade in Calcutta, associated with departures and farewells."
+    },
+    "Suez Canal": {
+      "type": "proper_noun",
+      "description": "A crucial waterway connecting the Mediterranean Sea to the Red Sea, symbolizing travel between East and West."
+    },
+    "Mediterranean": {
+      "type": "proper_noun",
+      "description": "The sea west of the Suez Canal, representing the journey to Europe."
+    },
+    "Banamali": {
+      "type": "proper_noun",
+      "description": "A name for Lord Krishna, depicted as wearing yellow robes; used here as a metaphor for Mircea."
+    },
+    "Kacha and Devyani": {
+      "type": "proper_noun",
+      "description": "A reference to a mythological love story from Indian epics, used as a metaphor for the narrator's situation."
+    },
+    "Anglo-Indian": {
+      "type": "proper_noun",
+      "description": "Refers to people of mixed Indian and British ancestry and their associated community, with a distinct cultural identity in colonial India."
+    },
+    "Debjani": {
+      "type": "proper_noun",
+      "description": "A character from Bengali literature, known for her farewell curse, referenced in Khoka's recitation."
+    },
+    "Maupassant": {
+      "type": "proper_noun",
+      "description": "Guy de Maupassant, a French writer whose stories are cited in the discussion of European morals."
+    },
+    "The Necklace": {
+      "type": "proper_noun",
+      "description": "A famous short story by Maupassant, referenced as an example of European literature."
+    },
+    "Durga": {
+      "type": "proper_noun",
+      "description": "A major Hindu goddess, invoked here in a moment of distress."
+    },
+    "Srihari": {
+      "type": "proper_noun",
+      "description": "Another name for Lord Vishnu, a principal Hindu deity, invoked for help."
+    },
+    "Pinaki": {
+      "type": "proper_noun",
+      "description": "An epithet for Lord Shiva, referring to his bow; used metaphorically in the text."
+    },
+    "alpana": {
+      "type": "vocabulary",
+      "description": "Traditional Bengali decorative patterns drawn on the floor with rice paste during auspicious occasions."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A piece of cloth worn over the shoulders or head, often as part of traditional attire."
+    },
+    "sacred thread": {
+      "type": "vocabulary",
+      "description": "A symbolic thread worn by Hindu men after a rite of passage, signifying their initiation into spiritual life."
+    },
+    "gandharva marriage": {
+      "type": "vocabulary",
+      "description": "A type of marriage in Hindu tradition based on mutual consent and love, often without formal rituals."
+    },
+    "almirah": {
+      "type": "vocabulary",
+      "description": "A cupboard or wardrobe, commonly used in Indian households."
+    },
+    "didi": {
+      "type": "vocabulary",
+      "description": "A Hindi/Bengali term meaning 'elder sister,' used as a respectful form of address."
+    },
+    "bhai": {
+      "type": "vocabulary",
+      "description": "A Hindi/Bengali word meaning 'brother,' used as a term of endearment."
+    },
+    "lotus feet": {
+      "type": "vocabulary",
+      "description": "A devotional phrase in Hinduism referring to the feet of a deity, symbolizing reverence and surrender."
+    },
+    "Shyamadas": {
+      "type": "character",
+      "description": "A physician mentioned as being called to attend to someone’s illness; likely a family doctor or trusted medical professional."
+    },
+    "Sabir": {
+      "type": "character",
+      "description": "The narrator's younger brother, who falls ill during the family's stay in Madhupur."
+    },
+    "Nilratan Sircar": {
+      "type": "character",
+      "description": "A renowned physician of the era, respected for his diagnostic skills and mentioned as treating the family."
+    },
+    "Madhupur": {
+      "type": "proper_noun",
+      "description": "A town in present-day Jharkhand, India, known as a health resort and vacation spot for Bengali families."
+    },
+    "Puja": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival celebrated in Bengal, marking the worship of the goddess Durga and referenced as 'Puja' in the text."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "A vast mountain range in South Asia, often associated with spiritual journeys and ascetic practices."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, famous for its tea gardens and scenic beauty."
+    },
+    "Rishikesh": {
+      "type": "proper_noun",
+      "description": "A town in the foothills of the Himalayas, renowned as a center for yoga, spirituality, and sannyasis."
+    },
+    "Chittagong Armoury Raid": {
+      "type": "proper_noun",
+      "description": "A significant revolutionary event in 1930 British India, where Indian nationalists attempted to raid the British armory in Chittagong (now in Bangladesh)."
+    },
+    "Pahartali": {
+      "type": "proper_noun",
+      "description": "A locality near Chittagong, associated with the aftermath of the Chittagong Armoury Raid."
+    },
+    "Dushyanta": {
+      "type": "proper_noun",
+      "description": "A character from the play 'Shakuntala', the king who falls in love with Shakuntala."
+    },
+    "Madan": {
+      "type": "proper_noun",
+      "description": "The Hindu god of love, also known as Kamadeva, often referenced in classical poetry."
+    },
+    "Brahmavadini": {
+      "type": "proper_noun",
+      "description": "A learned woman or female sage in Vedic tradition, devoted to the pursuit of Brahman (ultimate reality)."
+    },
+    "Medical College": {
+      "type": "proper_noun",
+      "description": "Refers to the Calcutta Medical College, a prestigious hospital and medical school in Kolkata."
+    },
+    "Europe": {
+      "type": "proper_noun",
+      "description": "Referenced as a cultural contrast to Indian customs, especially regarding cleanliness and habits."
+    },
+    "Shakespeare": {
+      "type": "proper_noun",
+      "description": "The renowned English playwright and poet, invoked as a literary figure in the narrator's poetry."
+    },
+    "Juliet": {
+      "type": "proper_noun",
+      "description": "The heroine of Shakespeare's play 'Romeo and Juliet', symbolizing tragic love."
+    },
+    "oath": {
+      "type": "vocabulary",
+      "description": "A solemn promise, often with religious or moral implications."
+    },
+    "missionary school": {
+      "type": "vocabulary",
+      "description": "A school run by Christian missionaries, known for imparting Western-style education in colonial India."
+    },
+    "nun": {
+      "type": "vocabulary",
+      "description": "A woman who has taken religious vows, often living in a convent; here, used as a metaphor for renunciation."
+    },
+    "avidyā mṛtyuṃ tīrtvā, vidyayā’mṛtam aśnute": {
+      "type": "vocabulary",
+      "description": "A Sanskrit phrase meaning 'Having crossed death through ignorance, one attains immortality through knowledge.'"
+    },
+    "maya": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning illusion or the deceptive appearance of the material world."
+    },
+    "Brahmarandhra": {
+      "type": "vocabulary",
+      "description": "The crown of the head, considered the spiritual center in yogic and Hindu philosophy."
+    },
+    "abhootapurva chiri": {
+      "type": "vocabulary",
+      "description": "A Bengali/Sanskrit grammatical or literary term, likely referring to a type of sentence or phrase denoting unprecedented laughter."
+    },
+    "devotee": {
+      "type": "vocabulary",
+      "description": "A person who is deeply devoted to a deity, cause, or person, often in a religious or spiritual context."
+    },
+    "fire-ritual": {
+      "type": "vocabulary",
+      "description": "A Hindu religious ceremony involving offerings to fire, symbolizing purification and transformation."
+    },
+    "Surajpal": {
+      "type": "character",
+      "description": "The family's gatekeeper, who is displaced from his room for Panchi."
+    },
+    "Panchi": {
+      "type": "character",
+      "description": "The contract maid who is pregnant and becomes a subject of controversy in the household."
+    },
+    "Tibetan": {
+      "type": "proper_noun",
+      "description": "Relating to Tibet; here, refers to curios or artifacts from Tibet."
+    },
+    "sati": {
+      "type": "proper_noun",
+      "description": "An ancient and now-outlawed Hindu custom where a widow would immolate herself on her husband's funeral pyre."
+    },
+    "Jagannath": {
+      "type": "proper_noun",
+      "description": "A form of Lord Krishna worshipped in the Jagannath Temple at Puri, Odisha; the temple and its Rath Yatra festival are major religious events."
+    },
+    "tithi": {
+      "type": "proper_noun",
+      "description": "A lunar day in the Hindu calendar, often associated with religious observances."
+    },
+    "Dehradun": {
+      "type": "proper_noun",
+      "description": "A city in the foothills of the Himalayas in northern India."
+    },
+    "Laxmanjhula": {
+      "type": "proper_noun",
+      "description": "A suspension bridge and locality in Rishikesh, Uttarakhand, India."
+    },
+    "Haridwar": {
+      "type": "proper_noun",
+      "description": "A holy city on the Ganges River in Uttarakhand, India."
+    },
+    "Swargadwar": {
+      "type": "proper_noun",
+      "description": "Literally 'gateway to heaven'; here, refers to a location near Rishikesh."
+    },
+    "Kalikambaliwala": {
+      "type": "proper_noun",
+      "description": "Likely refers to a charitable institution or person associated with providing food to ascetics."
+    },
+    "dharmashala": {
+      "type": "proper_noun",
+      "description": "A rest house or shelter for pilgrims and travelers, often run by religious or charitable organizations."
+    },
+    "padmasana": {
+      "type": "proper_noun",
+      "description": "A lotus position, a meditative posture in yoga."
+    },
+    "Gurudev": {
+      "type": "proper_noun",
+      "description": "An honorific meaning 'revered teacher', often used for Tagore."
+    },
+    "Russia": {
+      "type": "proper_noun",
+      "description": "A country in Eurasia; Tagore traveled there."
+    },
+    "ascetic": {
+      "type": "vocabulary",
+      "description": "A person who practices severe self-discipline and abstention from all forms of indulgence, typically for religious reasons."
+    },
+    "idolater": {
+      "type": "vocabulary",
+      "description": "One who worships idols or physical objects as representations of the divine."
+    },
+    "widowhood": {
+      "type": "vocabulary",
+      "description": "The state or period of being a widow, often associated with specific customs in Indian society."
+    },
+    "Majhi": {
+      "type": "vocabulary",
+      "description": "A respectful term for a female employer or mistress of the house."
+    },
+    "Maharani": {
+      "type": "vocabulary",
+      "description": "A queen or high-ranking woman, here used ironically for the maid Panchi."
+    },
+    "Bouma": {
+      "type": "vocabulary",
+      "description": "A Bengali term for daughter-in-law."
+    },
+    "sadhu": {
+      "type": "vocabulary",
+      "description": "A holy man or ascetic in Hinduism, often living a life of renunciation."
+    },
+    "sher": {
+      "type": "vocabulary",
+      "description": "Hindi word for 'tiger'."
+    },
+    "Sur-nara-nistarinī, pāpatāpa-nivāriṇī, patitapāvanī, sāgaragāminī Gange": {
+      "type": "vocabulary",
+      "description": "A Sanskrit hymn praising the Ganges as the purifier of sins and the liberator of gods and humans."
+    },
+    "tridents": {
+      "type": "vocabulary",
+      "description": "Three-pronged spears, often associated with Hindu deities and ascetics."
+    },
+    "ash-smeared": {
+      "type": "vocabulary",
+      "description": "Covered in sacred ash, a common practice among Hindu ascetics."
+    },
+    "Rama": {
+      "type": "character",
+      "description": "A young woman who comes to live with the narrator's family, gradually taking over the mother's place in the household."
+    },
+    "Ganapati": {
+      "type": "character",
+      "description": "A servant or helper in the Poet's household, mentioned as the only one present to assist with hospitality."
+    },
+    "Shaktipada": {
+      "type": "character",
+      "description": "A servant or helper in the Poet's household, whose voice is heard at night."
+    },
+    "Nepal Babu": {
+      "type": "character",
+      "description": "A man associated with the Poet, possibly an assistant or household member, mentioned as someone who could escort the narrator."
+    },
+    "Mr. Eguz": {
+      "type": "character",
+      "description": "A person whom the narrator imagines could help her travel to Europe, possibly a European acquaintance or official."
+    },
+    "Ravi Babu": {
+      "type": "character",
+      "description": "A familiar form of address for Rabindranath Tagore, used in a hypothetical conversation."
+    },
+    "Chutku": {
+      "type": "character",
+      "description": "A friend or companion of the narrator, who joins her in the funeral procession."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The narrator's homeland, under British colonial rule during the events described."
+    },
+    "Jorasanko": {
+      "type": "proper_noun",
+      "description": "The ancestral home of the Tagore family in Kolkata, where Rabindranath Tagore lived."
+    },
+    "Bentinck Street": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata, marking the narrator's journey to visit the Poet."
+    },
+    "Dwarkanath Tagore Lane": {
+      "type": "proper_noun",
+      "description": "A lane in Kolkata, named after a member of the Tagore family, on the narrator's route to the Poet."
+    },
+    "Rabindra Society": {
+      "type": "proper_noun",
+      "description": "A society or organization dedicated to Rabindranath Tagore, possibly involving students of his works."
+    },
+    "Chandalika": {
+      "type": "proper_noun",
+      "description": "A dance drama by Rabindranath Tagore, referenced for its emotional resonance."
+    },
+    "Bhagirath": {
+      "type": "proper_noun",
+      "description": "Likely refers to Bhagirath Palace, a famous area in Kolkata, mentioned as an 'office' in the context of wedding arrangements."
+    },
+    "Russa Road": {
+      "type": "proper_noun",
+      "description": "A road in Kolkata where Jatin Das's funeral procession passed."
+    },
+    "British Empire": {
+      "type": "proper_noun",
+      "description": "The colonial empire under which India was ruled at the time, referenced for its global reach."
+    },
+    "PhD": {
+      "type": "proper_noun",
+      "description": "A Doctor of Philosophy degree, referenced as a mark of scholarly achievement."
+    },
+    "Jatin Das": {
+      "type": "proper_noun",
+      "description": "A revolutionary freedom fighter whose funeral procession is described in the chapter."
+    },
+    "Subhas Bose": {
+      "type": "proper_noun",
+      "description": "Subhas Chandra Bose, a prominent Indian nationalist leader, who led Jatin Das's funeral procession."
+    },
+    "Nabin": {
+      "type": "vocabulary",
+      "description": "A dance festival staged in Kolkata, possibly named for its theme of 'newness' or 'youth'."
+    },
+    "Shravan": {
+      "type": "vocabulary",
+      "description": "A month in the Bengali calendar, corresponding roughly to July-August."
+    },
+    "Bhadra": {
+      "type": "vocabulary",
+      "description": "A month in the Bengali calendar, following Shravan, corresponding roughly to August-September."
+    },
+    "planchette": {
+      "type": "vocabulary",
+      "description": "A small board used in séances to produce automatic writing, believed to communicate with spirits."
+    },
+    "Chandalini": {
+      "type": "vocabulary",
+      "description": "The female protagonist of Tagore's dance drama 'Chandalika', referenced for her emotional expression."
+    },
+    "damaru": {
+      "type": "vocabulary",
+      "description": "A small two-headed drum associated with Lord Shiva, used in religious rituals and symbolic of cosmic sound."
+    },
+    "Rudra": {
+      "type": "vocabulary",
+      "description": "A Vedic deity associated with storm and wind, later identified with Lord Shiva in Hinduism."
+    },
+    "Anandam paramanandam param sukham parama tripti": {
+      "type": "vocabulary",
+      "description": "A Sanskrit phrase meaning 'bliss, supreme bliss, supreme happiness, supreme satisfaction', used as a mantra for solace."
+    },
+    "swairini": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning a woman who acts independently, often with negative connotations of being unchaste."
+    },
+    "upayachika": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning a woman who seeks or petitions, often with a sense of impropriety."
+    },
+    "Rath Yatra": {
+      "type": "vocabulary",
+      "description": "A Hindu festival involving the procession of deities in chariots, especially associated with Lord Jagannath."
+    },
+    "provident fund": {
+      "type": "vocabulary",
+      "description": "A government-mandated savings scheme for employees, referenced in the context of financial security."
+    },
+    "copyright": {
+      "type": "vocabulary",
+      "description": "The legal right to publish and profit from literary works, referenced regarding the Poet's books."
+    },
+    "Roma": {
+      "type": "character",
+      "description": "A close friend or relative of the narrator who assists with her wedding and is present during emotional moments."
+    },
+    "Bhupesh": {
+      "type": "character",
+      "description": "A friend of the narrator's husband, whose unusual wedding night story is recounted."
+    },
+    "Ruma": {
+      "type": "character",
+      "description": "A family member or friend who informs the narrator's father about her private conversation."
+    },
+    "Ceylon": {
+      "type": "proper_noun",
+      "description": "The former name of Sri Lanka, an island nation south of India."
+    },
+    "Pratapaditya Road": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta (now Kolkata), likely the location of the narrator's family home."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "The Ganges River, considered sacred and purifying in Hinduism, central to Hindu rituals and referenced in the context of religious bathing."
+    },
+    "Benarasi sari": {
+      "type": "proper_noun",
+      "description": "A luxurious silk sari from Varanasi, traditionally worn by Bengali brides."
+    },
+    "Galpaswapner Bhalomanush": {
+      "type": "proper_noun",
+      "description": "A poem by Rabindranath Tagore, referenced for its philosophical content."
+    },
+    "Gita": {
+      "type": "proper_noun",
+      "description": "The Bhagavad Gita, a sacred Hindu scripture teaching philosophical and ethical principles."
+    },
+    "shehnai": {
+      "type": "vocabulary",
+      "description": "A traditional North Indian wind instrument, often played at weddings."
+    },
+    "Dadhi-mangal": {
+      "type": "vocabulary",
+      "description": "A Bengali pre-wedding ritual involving the ceremonial feeding of curd and rice to the bride or groom."
+    },
+    "kauri": {
+      "type": "vocabulary",
+      "description": "A traditional Bengali wedding game played with cowrie shells in the bridal chamber."
+    },
+    "sandalwood paste": {
+      "type": "vocabulary",
+      "description": "A fragrant paste made from sandalwood, applied to the forehead for auspiciousness."
+    },
+    "kush-bhika": {
+      "type": "vocabulary",
+      "description": "A Bengali wedding ritual involving sacred grass (kush), signifying the completion of marriage rites."
+    },
+    "kushandika": {
+      "type": "vocabulary",
+      "description": "A Hindu wedding ritual involving the use of sacred grass (kush) to sanctify the ceremony."
+    },
+    "samprasad": {
+      "type": "vocabulary",
+      "description": "A ritual or offering, here referring to a part of the wedding ceremony."
+    },
+    "Bhubhyam aham sampradade": {
+      "type": "vocabulary",
+      "description": "A Sanskrit phrase used in Hindu weddings meaning 'I give her to you,' signifying the formal handover of the bride."
+    },
+    "memsahib": {
+      "type": "vocabulary",
+      "description": "A colonial-era term for a European or upper-class lady, especially the wife of a British official in India."
+    },
+    "mackintosh": {
+      "type": "vocabulary",
+      "description": "A waterproof raincoat, named after its Scottish inventor."
+    },
+    "gumboots": {
+      "type": "vocabulary",
+      "description": "Rubber boots worn for protection in wet or muddy conditions."
+    },
+    "Satyam Shivam Sundaram": {
+      "type": "vocabulary",
+      "description": "A Sanskrit phrase meaning 'Truth, Godliness, Beauty,' expressing the ideal qualities of existence."
+    },
+    "Shamsher": {
+      "type": "character",
+      "description": "A bearer (household servant) who assists with domestic tasks in the narrator's household."
+    },
+    "Macdonald": {
+      "type": "character",
+      "description": "An Englishman living in the hills, representing the colonial British presence and their attitudes."
+    },
+    "Sir B. L. Mitra": {
+      "type": "character",
+      "description": "An elderly gentleman who visits the narrator and compares her situation to Sita in Ashokavana."
+    },
+    "Jyotiprakash Sarkar": {
+      "type": "character",
+      "description": "A person who brings an insect specimen to show at Bose Institute."
+    },
+    "Pajjati": {
+      "type": "character",
+      "description": "The narrator's daughter, affectionately called by this nickname, who brings joy to the household."
+    },
+    "Raktakarabi": {
+      "type": "proper_noun",
+      "description": "A famous play by Rabindranath Tagore, often referenced in Bengali literary circles."
+    },
+    "Orissa": {
+      "type": "proper_noun",
+      "description": "A state in eastern India, now called Odisha."
+    },
+    "Guptas": {
+      "type": "proper_noun",
+      "description": "A brand or family name associated with Indian-made fountain pens, symbolizing indigenous goods."
+    },
+    "Gurkhas": {
+      "type": "proper_noun",
+      "description": "An ethnic group from Nepal, known for their honesty and service, many of whom worked as laborers or soldiers in colonial India."
+    },
+    "Samanog": {
+      "type": "proper_noun",
+      "description": "A place in the hills where the narrator cultivates potatoes."
+    },
+    "Bose Institute": {
+      "type": "proper_noun",
+      "description": "A renowned scientific research institute in Kolkata, founded by Jagadish Chandra Bose."
+    },
+    "Van Gogh": {
+      "type": "proper_noun",
+      "description": "A Dutch post-impressionist painter, referenced for his famous painting 'The Potato Eaters.'"
+    },
+    "Java": {
+      "type": "proper_noun",
+      "description": "An island in Indonesia, referenced in a conversation about Indian civilization's historical reach."
+    },
+    "Siam": {
+      "type": "proper_noun",
+      "description": "The former name of Thailand, referenced in the context of Indian cultural influence."
+    },
+    "Ravana": {
+      "type": "proper_noun",
+      "description": "The demon king in the Ramayana who abducts Sita."
+    },
+    "Sharadvat": {
+      "type": "proper_noun",
+      "description": "A sage or character referenced in Sanskrit literature, quoted for his feelings of detachment."
+    },
+    "Marwaris": {
+      "type": "proper_noun",
+      "description": "A business community from the Marwar region of Rajasthan, known for their adaptability and entrepreneurship."
+    },
+    "Mayakovsky": {
+      "type": "proper_noun",
+      "description": "A Russian poet whose work is quoted to express existential longing."
+    },
+    "Sangsargaja doshagunāh bhavanti": {
+      "type": "proper_noun",
+      "description": "A Sanskrit proverb meaning 'one acquires the virtues and vices of those with whom one keeps company.'"
+    },
+    "sisters-in-law": {
+      "type": "vocabulary",
+      "description": "The wives of one's brothers or sisters of one's spouse, significant in Indian joint family structures."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A household servant, often responsible for serving food and other domestic duties."
+    },
+    "bigha": {
+      "type": "vocabulary",
+      "description": "A traditional unit of land measurement in India, varying regionally but generally a large plot."
+    },
+    "chapkan": {
+      "type": "vocabulary",
+      "description": "A long, close-fitting coat worn by men in South Asia."
+    },
+    "bed tea": {
+      "type": "vocabulary",
+      "description": "Tea served in the morning while still in bed, a colonial-era custom in India."
+    },
+    "Bowbazar": {
+      "type": "vocabulary",
+      "description": "A famous market area in Kolkata known for its flower and other local markets."
+    },
+    "chintz": {
+      "type": "vocabulary",
+      "description": "A printed multicolored cotton fabric with a glazed finish, originally from India."
+    },
+    "mems": {
+      "type": "vocabulary",
+      "description": "Short for 'memsahib,' a term used in colonial India for European women."
+    },
+    "sandesh": {
+      "type": "vocabulary",
+      "description": "A Bengali sweet made from fresh paneer (chhena) and sugar."
+    },
+    "coolie": {
+      "type": "vocabulary",
+      "description": "A manual laborer or porter, often used for those carrying loads in South Asia."
+    },
+    "Scotch whisky": {
+      "type": "vocabulary",
+      "description": "A type of whisky made in Scotland, considered a luxury import in colonial India."
+    },
+    "divyaushadhi": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning 'divine herb,' referenced in ancient Indian texts as a legendary luminous plant."
+    },
+    "titapapati": {
+      "type": "vocabulary",
+      "description": "A fragrant leaf found in the hills, used locally to intoxicate fish for easy catching."
+    },
+    "tabu": {
+      "type": "vocabulary",
+      "description": "A Bengali word meaning 'but' or 'however,' often used to introduce a contrasting thought."
+    },
+    "Bona": {
+      "type": "character",
+      "description": "A recurring character, likely a close friend or confidant of the narrator, involved in a promise with her."
+    },
+    "O-Babu": {
+      "type": "character",
+      "description": "A family acquaintance or servant, familiar enough to comment on household matters and interact with the poet and Amrita."
+    },
+    "Su-babu": {
+      "type": "character",
+      "description": "A male family member or friend, present during emotional moments and addressed by the poet."
+    },
+    "Ram": {
+      "type": "character",
+      "description": "A nickname or alternate name for Milu, addressed by the poet in a playful context."
+    },
+    "Mr. Gupta": {
+      "type": "character",
+      "description": "A renowned lawyer from Calcutta and a family friend, who gives legal and practical advice to Amrita."
+    },
+    "Richards": {
+      "type": "character",
+      "description": "An English officer who enforces colonial rules harshly, representing colonial authority."
+    },
+    "Kalimpong": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, India, known for its scenic beauty and colonial history."
+    },
+    "Moscow News": {
+      "type": "proper_noun",
+      "description": "A Soviet-era English-language newspaper published in Moscow, reflecting the poet's interest in international affairs."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "One of the two major Sanskrit epics of ancient India, central to Indian culture and philosophy."
+    },
+    "Rigveda": {
+      "type": "proper_noun",
+      "description": "An ancient Indian collection of Vedic Sanskrit hymns, one of the oldest religious texts in the world."
+    },
+    "Historians' History of the World": {
+      "type": "proper_noun",
+      "description": "A multi-volume historical reference work, popular in the early 20th century."
+    },
+    "Mirabai": {
+      "type": "proper_noun",
+      "description": "A 16th-century Hindu mystic poet and devotee of Krishna, renowned for her devotional songs."
+    },
+    "Bernard Shaw": {
+      "type": "proper_noun",
+      "description": "George Bernard Shaw, a famous Irish playwright and critic."
+    },
+    "Romain Rolland": {
+      "type": "proper_noun",
+      "description": "A French writer and Nobel laureate, known for his works on music and literature."
+    },
+    "Bertrand Russell": {
+      "type": "proper_noun",
+      "description": "A British philosopher, logician, and Nobel laureate."
+    },
+    "Bergson": {
+      "type": "proper_noun",
+      "description": "Henri Bergson, a French philosopher influential in early 20th-century thought."
+    },
+    "English": {
+      "type": "proper_noun",
+      "description": "Refers to the British colonial rulers in India during the time period described."
+    },
+    "Hindu-Muslim": {
+      "type": "proper_noun",
+      "description": "Refers to the two major religious communities in India, often mentioned in the context of communal tensions."
+    },
+    "S.P.": {
+      "type": "proper_noun",
+      "description": "Superintendent of Police, a senior police official in the Indian administrative system."
+    },
+    "lotus seat": {
+      "type": "vocabulary",
+      "description": "A symbolic or literal seat shaped like a lotus, representing purity and spiritual awakening in Indian culture."
+    },
+    "officer": {
+      "type": "vocabulary",
+      "description": "In this context, refers to a British or Indian government official, often with colonial authority."
+    },
+    "laborers": {
+      "type": "vocabulary",
+      "description": "Manual workers, often from marginalized communities, who worked in tea gardens and estates in colonial India."
+    },
+    "dismount": {
+      "type": "vocabulary",
+      "description": "To get off a horse; in colonial India, laborers were required to dismount when passing officers as a sign of respect."
+    },
+    "famine": {
+      "type": "vocabulary",
+      "description": "A period of severe food shortage, in this context referring to the Bengal famine of 1942."
+    },
+    "assignee": {
+      "type": "vocabulary",
+      "description": "A person to whom a right or property is legally transferred, here referring to insurance inheritance."
+    },
+    "Hiranyan": {
+      "type": "character",
+      "description": "A former student of Amrita's father, now living abroad; he meets Amrita in Europe and brings up the topic of Euclid."
+    },
+    "Nicolai Stanenku": {
+      "type": "character",
+      "description": "A professor living in exile in Paris, originally from Mircea’s country, who hosts Amrita and her husband for tea."
+    },
+    "Madame Stanenku": {
+      "type": "character",
+      "description": "The wife of Professor Stanenku, who recognizes Amrita and discusses Euclid’s books with her."
+    },
+    "Ion Popescu": {
+      "type": "character",
+      "description": "A man staying in the same hotel as Amrita in Paris, who recognizes her and offers to deliver a letter to Mircea."
+    },
+    "Satyenbabu": {
+      "type": "character",
+      "description": "A family acquaintance who helps Amrita and her husband find affordable lodging in Paris and later discusses Euclid’s book with her."
+    },
+    "Vera": {
+      "type": "character",
+      "description": "A young woman Amrita meets in Europe who tells her that Mircea is 'dead to us' because he has become a fascist."
+    },
+    "Paris": {
+      "type": "proper_noun",
+      "description": "The capital city of France, where Amrita stays and meets several characters connected to Mircea."
+    },
+    "Latin Quarter": {
+      "type": "proper_noun",
+      "description": "A historic area in Paris known for its intellectual and student life, where Amrita stays in a hotel."
+    },
+    "Riviera": {
+      "type": "proper_noun",
+      "description": "A region along the Mediterranean coast in the south of France, known for its beauty and luxury."
+    },
+    "Seine": {
+      "type": "proper_noun",
+      "description": "A major river running through Paris, near which Amrita stays."
+    },
+    "Dover Channel": {
+      "type": "proper_noun",
+      "description": "Also known as the English Channel, the body of water separating southern England from northern France."
+    },
+    "Mahadev": {
+      "type": "proper_noun",
+      "description": "A name for the Hindu god Shiva, used here as a term of respect for Amrita’s husband."
+    },
+    "yogi": {
+      "type": "vocabulary",
+      "description": "A practitioner of yoga, often implying someone who is spiritually advanced or ascetic."
+    },
+    "ash": {
+      "type": "vocabulary",
+      "description": "Used metaphorically here, but in Indian culture, ash (vibhuti) can symbolize purity or renunciation."
+    },
+    "mosquito net": {
+      "type": "vocabulary",
+      "description": "A mesh covering used over beds to protect sleepers from mosquito bites, common in tropical regions."
+    },
+    "Parbati": {
+      "type": "character",
+      "description": "A friend or acquaintance of the narrator, who brings up news about 'Armayara' and Mircea Euclid."
+    },
+    "Mrs. Parvati": {
+      "type": "character",
+      "description": "Likely the same as Parbati, she continues the conversation about 'J' and Mircea."
+    },
+    "'J'": {
+      "type": "character",
+      "description": "An acquaintance who met Mircea Euclid and relayed information about him to the narrator's circle."
+    },
+    "Rashid": {
+      "type": "character",
+      "description": "A person who is present during the narrator's visit to the refugee camps and expresses concern for her."
+    },
+    "Rina": {
+      "type": "character",
+      "description": "A young Bengali woman living in Europe, multilingual, who recognizes the narrator's name from a book."
+    },
+    "Sumita": {
+      "type": "character",
+      "description": "A friend of the narrator living in Mircea's country, who provides emotional support and commentary on the situation."
+    },
+    "Bangladesh": {
+      "type": "proper_noun",
+      "description": "A country in South Asia, formerly East Pakistan, which gained independence in 1971 after a war."
+    },
+    "West Bengal": {
+      "type": "proper_noun",
+      "description": "An Indian state bordering Bangladesh, home to Calcutta and affected by the Bangladesh war."
+    },
+    "Bongaon": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, near the India-Bangladesh border, referenced as a place the narrator should go."
+    },
+    "Armayara": {
+      "type": "proper_noun",
+      "description": "A term used in the text, possibly a nickname or code for a romantic partner or significant other."
+    },
+    "Ekalavya": {
+      "type": "proper_noun",
+      "description": "A character from the Indian epic Mahabharata, known for his devotion to his guru, referenced as a metaphor for Mircea's relationship to the narrator's father."
+    },
+    "saline": {
+      "type": "vocabulary",
+      "description": "A solution of salt in water, often used medically for rehydration, here administered to a dying woman."
+    },
+    "guru": {
+      "type": "vocabulary",
+      "description": "A spiritual teacher or mentor in Indian tradition."
+    },
+    "disciple": {
+      "type": "vocabulary",
+      "description": "A student or follower of a guru or teacher, especially in a spiritual context."
+    },
+    "Ardhanarishvara": {
+      "type": "vocabulary",
+      "description": "A composite form of the Hindu god Shiva and his consort Parvati, symbolizing the unity of masculine and feminine energies."
+    },
+    "ya enam vetti hantāraṃ yaś cainaṃ manyate hatam ubhau tau na vijānīto nāyaṃ hanti na hanyate": {
+      "type": "vocabulary",
+      "description": "A verse from the Bhagavad Gita, meaning 'He who thinks that the soul kills, and he who thinks of it as killed, are both ignorant. The soul kills not, nor is it killed.'"
+    },
+    "self-immolation": {
+      "type": "vocabulary",
+      "description": "The act of setting oneself on fire, historically referenced as a test of chastity or devotion in some Indian traditions."
+    },
+    "J": {
+      "type": "character",
+      "description": "A person the narrator contacts to inquire about Mircea's willingness to meet."
+    },
+    "Purohit": {
+      "type": "character",
+      "description": "An employee at the Air India office who assists the narrator with travel arrangements."
+    },
+    "sea of time": {
+      "type": "proper_noun",
+      "description": "A metaphorical expression for the vast, flowing passage of time."
+    },
+    "Amal": {
+      "type": "proper_noun",
+      "description": "A character from the narrator's past, possibly a pseudonym or literary reference, associated with memories in the library."
+    },
+    "Bakulbagan Road": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, referenced as a place familiar to Mircea."
+    },
+    "Smaraṇe": {
+      "type": "proper_noun",
+      "description": "A work by Rabindranath Tagore, containing poems of memory and loss."
+    },
+    "President": {
+      "type": "proper_noun",
+      "description": "Refers to the head of state of India, mentioned in the context of the narrator's father's ambitions."
+    },
+    "chakna khela": {
+      "type": "proper_noun",
+      "description": "A Bengali phrase meaning a game of deception or illusion."
+    },
+    "apavṛṇu": {
+      "type": "proper_noun",
+      "description": "A Sanskrit term meaning 'unveiling' or 'removal of the veil', often used in spiritual contexts."
+    },
+    "Deputy Secretary": {
+      "type": "proper_noun",
+      "description": "A government official, referenced as part of the narrator's professional life."
+    },
+    "Vaitarani": {
+      "type": "proper_noun",
+      "description": "A river in Hindu mythology believed to separate the world of the living from the dead."
+    },
+    "Theatre Road": {
+      "type": "proper_noun",
+      "description": "A prominent street in Calcutta, symbolizing material wealth and status."
+    },
+    "Yajnavalkya": {
+      "type": "proper_noun",
+      "description": "An ancient Indian sage and philosopher, cited for his teachings on self-love and the nature of love."
+    },
+    "Atmanantu kamaya putrah priyah bhavati": {
+      "type": "proper_noun",
+      "description": "A Sanskrit phrase from the Brihadaranyaka Upanishad, meaning 'It is for the sake of the Self that the son is dear.'"
+    },
+    "Air India": {
+      "type": "proper_noun",
+      "description": "India's national airline, mentioned in the context of the narrator's travel plans."
+    },
+    "Chhelebela": {
+      "type": "proper_noun",
+      "description": "A memoir by Rabindranath Tagore recounting his childhood."
+    },
+    "Panchanan": {
+      "type": "proper_noun",
+      "description": "A common Bengali male name, used here as a generic reference to an ordinary neighbor."
+    },
+    "De Profundis": {
+      "type": "proper_noun",
+      "description": "A literary work, here referencing a poem about fate and destiny."
+    },
+    "Popescu": {
+      "type": "proper_noun",
+      "description": "A Romanian surname, possibly referring to a mutual acquaintance of the narrator and Mircea."
+    },
+    "embarkation card": {
+      "type": "vocabulary",
+      "description": "A travel document required for boarding a ship or plane, symbolizing readiness for a journey."
+    },
+    "catalog books": {
+      "type": "vocabulary",
+      "description": "Reference books used to organize and locate materials in a library."
+    },
+    "utilitarian": {
+      "type": "vocabulary",
+      "description": "A philosophy or mindset focused on practical benefit and usefulness."
+    },
+    "memoir-novel": {
+      "type": "vocabulary",
+      "description": "A hybrid literary form blending autobiography and fiction."
+    },
+    "estuary": {
+      "type": "vocabulary",
+      "description": "The tidal mouth of a river, where it meets the sea; used metaphorically for the unknown."
+    },
+    "kamaya": {
+      "type": "vocabulary",
+      "description": "Desire or for the sake of, from Sanskrit."
+    },
+    "da": {
+      "type": "vocabulary",
+      "description": "A Bengali honorific meaning 'elder brother', used after a male's name."
+    },
+    "sister": {
+      "type": "vocabulary",
+      "description": "Used here as a term of address for a close female companion, not necessarily a biological sibling."
+    },
+    "my husband": {
+      "type": "character",
+      "description": "The narrator's current spouse, who offers reassurance and support as she revisits her past."
+    },
+    "Bal Gopal": {
+      "type": "proper_noun",
+      "description": "A term for the child form of Lord Krishna, often referenced in devotional and cultural contexts in Bengal."
+    },
+    "Swargashram": {
+      "type": "proper_noun",
+      "description": "A spiritual hermitage or ashram located in Rishikesh, India, known for its association with Hindu ascetics."
+    },
+    "Brahmapuri": {
+      "type": "proper_noun",
+      "description": "A locality or forested area near Rishikesh, associated with spiritual retreat and solitude."
+    },
+    "Sri Chaitanya": {
+      "type": "proper_noun",
+      "description": "A revered 16th-century Bengali saint and founder of the Gaudiya Vaishnavism tradition, known for his devotion to Krishna."
+    },
+    "Jesus": {
+      "type": "proper_noun",
+      "description": "Refers to Jesus Christ, the central figure of Christianity, mentioned here in the context of spiritual penance."
+    },
+    "Ramakrishna": {
+      "type": "proper_noun",
+      "description": "A 19th-century Bengali mystic and saint, influential in the revival of Hinduism in India."
+    },
+    "Swami Vivekananda": {
+      "type": "proper_noun",
+      "description": "A prominent Indian monk and disciple of Ramakrishna, known for introducing Indian philosophies to the West."
+    },
+    "Upanishads": {
+      "type": "proper_noun",
+      "description": "Ancient Sanskrit texts that form the philosophical basis of Hinduism, focusing on meditation, morality, and spiritual knowledge."
+    },
+    "Vedas": {
+      "type": "proper_noun",
+      "description": "The oldest sacred scriptures of Hinduism, composed in Sanskrit and foundational to Indian spiritual thought."
+    },
+    "Gurukul": {
+      "type": "proper_noun",
+      "description": "A traditional Indian residential school where students live and learn with their teacher, often focused on spiritual and classical education."
+    },
+    "Arya Samaj": {
+      "type": "proper_noun",
+      "description": "A Hindu reform movement founded in the 19th century, advocating values based on the Vedas and social reform."
+    },
+    "Sicily": {
+      "type": "proper_noun",
+      "description": "An island region of Italy, referenced as part of Mircea's European memories."
+    },
+    "Rome": {
+      "type": "proper_noun",
+      "description": "The capital city of Italy, referenced for its ancient ruins."
+    },
+    "Florence": {
+      "type": "proper_noun",
+      "description": "A city in Italy, renowned for its art, architecture, and Renaissance history."
+    },
+    "Switzerland": {
+      "type": "proper_noun",
+      "description": "A European country, referenced for its solitude and scenic beauty."
+    },
+    "Benares": {
+      "type": "proper_noun",
+      "description": "A sacred city on the Ganges in India, known for its spiritual significance and also referred to as Varanasi or Kashi."
+    },
+    "Je Alo Nibe Geche": {
+      "type": "proper_noun",
+      "description": "A Bengali book title mentioned as authored by Mircea, meaning 'The Light That Has Been Extinguished.'"
+    },
+    "anklets": {
+      "type": "vocabulary",
+      "description": "Traditional ornamental jewelry worn around the ankles, often associated with femininity and dance in Indian culture."
+    },
+    "kohl": {
+      "type": "vocabulary",
+      "description": "A black cosmetic applied around the eyes, commonly used in South Asia for both beauty and cultural reasons."
+    },
+    "sadhana": {
+      "type": "vocabulary",
+      "description": "A term for spiritual practice or disciplined effort undertaken to achieve spiritual realization."
+    },
+    "mantras": {
+      "type": "vocabulary",
+      "description": "Sacred utterances, sounds, or phrases repeated in meditation or spiritual practice in Hinduism and Buddhism."
+    },
+    "lungi": {
+      "type": "vocabulary",
+      "description": "A traditional garment, a loose cloth wrapped around the waist, commonly worn by men in South Asia."
+    },
+    "karma": {
+      "type": "vocabulary",
+      "description": "A concept in Indian religions referring to the law of moral cause and effect, where actions influence future outcomes."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The currency of India, referenced here as a sum of money requested by Khoka."
+    },
+    "John": {
+      "type": "character",
+      "description": "A newly acquainted companion of the narrator in Chicago who helps her navigate the city and reach Woodland Road."
+    },
+    "Molly": {
+      "type": "character",
+      "description": "A woman who assists Amrita upon her arrival, ensuring she is taken care of and arranging for her to meet others."
+    },
+    "Sharly": {
+      "type": "character",
+      "description": "A young student at the university who helps Amrita with directions and accompanies her to meet the professor; also spelled Sharly."
+    },
+    "Ed": {
+      "type": "character",
+      "description": "A person mentioned by Mircea as someone who supposedly informed him of Amrita's arrival."
+    },
+    "Vishweshwara": {
+      "type": "proper_noun",
+      "description": "A Sanskrit epithet meaning 'Lord of the Universe,' often used for the Hindu god Shiva."
+    },
+    "pole star": {
+      "type": "proper_noun",
+      "description": "A metaphor for steadfastness; in Indian tradition, the pole star (Dhruva Tara) symbolizes guidance and constancy."
+    },
+    "Woodland Road": {
+      "type": "proper_noun",
+      "description": "A street in Chicago that Amrita is trying to reach to meet her old acquaintance."
+    },
+    "Theological College": {
+      "type": "proper_noun",
+      "description": "A college or academic institution focused on the study of theology, referenced here as the place where Mircea works."
+    },
+    "Holy Grail": {
+      "type": "proper_noun",
+      "description": "A legendary object in Western mythology, symbolizing a highly sought-after goal; used metaphorically."
+    },
+    "Sumeru": {
+      "type": "proper_noun",
+      "description": "A sacred mountain in Hindu, Jain, and Buddhist cosmology, considered the center of the universe."
+    },
+    "Kali": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess associated with destruction, time, and transformation, often depicted as dark and powerful."
+    },
+    "Dante": {
+      "type": "proper_noun",
+      "description": "Dante Alighieri, the Italian poet, referenced for his love for Beatrice in 'The Divine Comedy.'"
+    },
+    "Beatrice": {
+      "type": "proper_noun",
+      "description": "Dante's muse and symbol of idealized love in 'The Divine Comedy.'"
+    },
+    "Lake Michigan": {
+      "type": "proper_noun",
+      "description": "One of the five Great Lakes of North America, located near Chicago."
+    },
+    "Pandora’s box": {
+      "type": "proper_noun",
+      "description": "A reference from Greek mythology, symbolizing the release of unforeseen troubles and hope."
+    },
+    "Milky Way": {
+      "type": "proper_noun",
+      "description": "The galaxy containing our solar system, used here as a poetic metaphor for a distant meeting place."
+    },
+    "Nayantam na madhyam na punastavadim": {
+      "type": "vocabulary",
+      "description": "A Sanskrit phrase meaning 'neither beginning nor middle nor end,' expressing the infinite nature of the divine."
+    },
+    "pashyami Vishweshwara Vishwarupam": {
+      "type": "vocabulary",
+      "description": "Sanskrit for 'I behold the Lord of the Universe in his cosmic form,' referencing a vision of divinity."
+    },
+    "shastra chhede na, agni dohe na jare": {
+      "type": "vocabulary",
+      "description": "A Bengali/Sanskrit phrase meaning 'weapons cannot pierce, fire cannot burn,' alluding to the immortal soul."
+    },
+    "Na hanyate hanyamane sharire": {
+      "type": "vocabulary",
+      "description": "Sanskrit for 'It does not die when the body is slain,' from the Bhagavad Gita, signifying the immortality of the soul."
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Parvati",
+      "Gaumati",
+      "Gopal",
+      "Amrita",
+      "Sergei Sebastian",
+      "Khoka",
+      "Shanti",
+      "Ma",
+      "Grandmother",
+      "Lekha",
+      "Mr. K",
+      "Saptarshi",
+      "Guru",
+      "Calcutta",
+      "Bhabanipur",
+      "Chevrolet",
+      "Santiniketan",
+      "Tagore household",
+      "Kalighat",
+      "veranda",
+      "namaskar",
+      "dhoti",
+      "Pishima",
+      "Ma",
+      "sari border",
+      "Pratu",
+      "Mircea",
+      "Rabindranath Tagore",
+      "sari",
+      "pishi"
+    ],
+    "ch-1-2": [
+      "Mircea",
+      "Amrita",
+      "Stella Kramrisch",
+      "Professor Tucci",
+      "Farmico",
+      "Thakur",
+      "Ma",
+      "Kaka",
+      "Thakuma",
+      "Shanti",
+      "Rabindranath Tagore",
+      "Sarojini Naidu",
+      "Bogdanov",
+      "Whitman",
+      "Shelley",
+      "Bhabanipur",
+      "East Bengal",
+      "Calcutta",
+      "Vaishnava",
+      "Krishna",
+      "Stella Kramrisch",
+      "Professor Tucci",
+      "Kalighat",
+      "Rabindranath Tagore",
+      "Sonar Tori",
+      "Kautukamoyi",
+      "Jiban Debata",
+      "Hriday Jamuna",
+      "Santiniketan",
+      "Chitpur Road",
+      "Egbert Andrews",
+      "Delhi",
+      "Kanpur",
+      "Chevrolet",
+      "Kalyan",
+      "Globe Theatre",
+      "Empire Theatre",
+      "Anglophile",
+      "Sarojini Naidu",
+      "Nationalism",
+      "Chokher Bali",
+      "Krishnakant-er Will",
+      "Charitraheen",
+      "puja",
+      "elite",
+      "bourgeois",
+      "leftovers",
+      "untouchability",
+      "partition",
+      "purdah",
+      "sari",
+      "Brahmin",
+      "widow",
+      "feeding cup",
+      "cream of the...",
+      "veil",
+      "Brahmo Samaj",
+      "Father",
+      "Ganga",
+      "Noukadubi",
+      "Sabi"
+    ],
+    "ch-1-3": [
+      "Father",
+      "Mircea",
+      "Euclid",
+      "Meelu",
+      "Lekha",
+      "Sergei",
+      "Kshitimohan Sen",
+      "Atulprasad Sen",
+      "Kalidas Babu",
+      "Ramananda Chattopadhyay",
+      "Stapleton",
+      "Uncle",
+      "Shakuntala",
+      "Hitopadesha",
+      "sahib",
+      "Puri",
+      "Bhogapatra",
+      "Rabindranath",
+      "Santiniketan",
+      "Chhatimtala",
+      "Store Road",
+      "Calcutta",
+      "Vaishnava",
+      "Sri Krishna",
+      "Radha",
+      "Uttarayan",
+      "Indra",
+      "Meghaduta",
+      "Prarthana",
+      "Presidency College",
+      "Principal Stapleton",
+      "Kshitimohan Sen",
+      "Ramesh Mitra Park",
+      "sari",
+      "vermilion",
+      "alta",
+      "malati",
+      "khaddar",
+      "panjabi",
+      "namaskar",
+      "babu",
+      "mantra",
+      "Chhatimtala",
+      "picketing",
+      "harmonium",
+      "pantheism",
+      "birohabethar",
+      "amrit",
+      "Ma",
+      "Rabindranath Tagore"
+    ],
+    "ch-1-4": [
+      "Mircea",
+      "Ma",
+      "Amrita",
+      "Chandsi",
+      "Sabi",
+      "Lidi",
+      "Anadi Dastidar",
+      "Ramen Chakraborty",
+      "Goanese master",
+      "Mastermoshai",
+      "Gourmohan Ghosh",
+      "Shreesh Babu",
+      "second aunt",
+      "Milu",
+      "Jhadu",
+      "Shanti",
+      "Kamal Babu",
+      "Sergei",
+      "Man Kumari Basu",
+      "Sahitya Parishad",
+      "Gokhale Memorial School",
+      "Hyderabad",
+      "Senate",
+      "Michael Madhusudan",
+      "Balaka",
+      "Dakghar",
+      "Knut Hamsun",
+      "Ashtanga Yoga",
+      "Tantra",
+      "Rajputani",
+      "Marathi",
+      "Tagore household",
+      "Stella Kramrisch",
+      "Rajput",
+      "Orissan",
+      "Hazeline",
+      "Johnson’s",
+      "Meghaduta",
+      "Sarat Chandra",
+      "Mahua",
+      "Sabala",
+      "vasudhaiva kutumbakam",
+      "Bhairava",
+      "Mahakala",
+      "Nataraja",
+      "Keshava",
+      "Buddha",
+      "Bhabanipur",
+      "Indrapuri",
+      "Orion",
+      "Somapayi",
+      "Brahma-heart",
+      "Shankar",
+      "madhabilata",
+      "Bankimchandra",
+      "sahib",
+      "dhaturupas",
+      "vasudhaiva kutumbakam",
+      "sinthi",
+      "alta",
+      "masoor dal",
+      "nilakamal",
+      "kurubak",
+      "lol chikur mama",
+      "gulmohar",
+      "palkis",
+      "tola",
+      "bindi",
+      "rumuku jhumuku rimi kim",
+      "nagrai",
+      "Punjabi",
+      "chakra",
+      "Father",
+      "Rabindranath Tagore",
+      "Uncle"
+    ],
+    "ch-1-5": [
+      "Father",
+      "Mircea",
+      "Milu",
+      "Aradhana",
+      "Jatin",
+      "Soumen",
+      "Ma",
+      "Meelu",
+      "Shanti",
+      "Khoka",
+      "Romen",
+      "Arjuna",
+      "Sri Krishna",
+      "Parvati",
+      "Gautami",
+      "Sushil De",
+      "Hunger",
+      "Chokher Bali",
+      "Charitraheen",
+      "Noukadubi",
+      "Rabindranath Tagore",
+      "Draupadi",
+      "Agra",
+      "Kallol",
+      "Chhatim Tree",
+      "Bakul Bagan",
+      "Ha Ja Ba Ra La",
+      "Kingkartavyabimūḍha",
+      "Presidency College",
+      "Faridpur",
+      "East Bengal",
+      "Chayanika",
+      "Praseeda",
+      "1930",
+      "jilting",
+      "karakamal",
+      "bindi",
+      "attar",
+      "kewra",
+      "Padmini",
+      "anchal",
+      "sindoor",
+      "mesho",
+      "babu",
+      "atyag-sahano bandhu"
+    ],
+    "ch-1-6": [
+      "Shanti",
+      "Mircea",
+      "Sabita",
+      "Amrita",
+      "Ma",
+      "Sita",
+      "Mriganka",
+      "Kaka",
+      "Khoka",
+      "Nasu",
+      "Sajanikanta Das",
+      "Purna Chakravarti",
+      "Anandamoyi",
+      "Yaksha",
+      "Sabi",
+      "Shantiniketan",
+      "Malini",
+      "Alakananda",
+      "Malhar raga",
+      "Radha",
+      "Krishna",
+      "Gita Govinda",
+      "Jayadeva",
+      "Mahua",
+      "Maya",
+      "Whitman",
+      "Ripon Street",
+      "Gandhi",
+      "panjabi",
+      "Aryan",
+      "Hindu",
+      "gotra",
+      "puja",
+      "East Bengal",
+      "Kabiraj house",
+      "Chandimandap",
+      "Anandamoyi",
+      "tol",
+      "Ashtami",
+      "Saptami",
+      "Navami",
+      "Dashami",
+      "Vaishnavas",
+      "Shaktas",
+      "Sarojini Naidu",
+      "Hinduism",
+      "Bengal Nights",
+      "Sahib",
+      "Goethe",
+      "Meghaduta",
+      "shudra",
+      "French",
+      "Bengali",
+      "sindoor",
+      "vermilion",
+      "pranam",
+      "nadus",
+      "khoi",
+      "til",
+      "aswattha",
+      "hookah",
+      "chiwda",
+      "naru",
+      "murki",
+      "Saptami",
+      "Ashtami",
+      "Navami",
+      "Dashami",
+      "puja",
+      "panjabi",
+      "dhuti",
+      "gotra",
+      "tol",
+      "zamindar",
+      "Chandimandap",
+      "shudra",
+      "Anglo-Indian",
+      "Father",
+      "Rabindranath Tagore",
+      "dhoti"
+    ],
+    "ch-1-7": [
+      "Mircea",
+      "Sabi",
+      "Shanti",
+      "Khoka",
+      "Kakima",
+      "Ma",
+      "Ramananda Chattopadhyay",
+      "Prafulla Ghosh",
+      "Milu",
+      "Rabindranath Tagore",
+      "Anna Pavlova",
+      "Debu",
+      "Uday Shankar",
+      "Simkie",
+      "Bijoykrishna Goswami",
+      "Professor McTaggart",
+      "Gopal",
+      "Bengal",
+      "Delhi",
+      "Chevrolet",
+      "Jessore Road",
+      "Barrackpore Road",
+      "Tollygunge Circular Road",
+      "Merchant of Venice",
+      "Jessica",
+      "Lorenzo",
+      "Portia",
+      "Asharh",
+      "Bhasita",
+      "Chayanika",
+      "Balaka",
+      "Mahua",
+      "England",
+      "New Empire",
+      "M.A.",
+      "Pavlova",
+      "Calcutta",
+      "Brahmo Samaj",
+      "Parvati",
+      "Sudas Mali",
+      "Vaishnava",
+      "Oriya",
+      "Charyapada",
+      "Mangal Kavya",
+      "Chandidas",
+      "Vidyapati",
+      "Konarak",
+      "Puri",
+      "Bhubaneswar",
+      "mlecha",
+      "dolonchampa",
+      "Shrimati",
+      "Natir Puja",
+      "Lord Buddha",
+      "Santals",
+      "Mundas",
+      "Gonds",
+      "Manipuri",
+      "Garba",
+      "Bratachari",
+      "thandis",
+      "Akbar",
+      "Anarkali",
+      "Buddha",
+      "Brahmo",
+      "Didi",
+      "ghat",
+      "panjabi",
+      "beriberi",
+      "Kakima",
+      "Ru",
+      "jatismara",
+      "pishi",
+      "anna",
+      "dehi padapallavamudaram",
+      "mlecha",
+      "dolonchampa",
+      "baijis",
+      "devadasis",
+      "Bratachari",
+      "thandis",
+      "zamindars",
+      "Brahmikas",
+      "jug",
+      "lakhs",
+      "Champa Pishi",
+      "Euclid",
+      "Father",
+      "zamindar"
+    ],
+    "ch-1-8": [
+      "Sabi",
+      "Kabiraj Kaka",
+      "Mircea",
+      "Milu",
+      "Gopal",
+      "Shanti",
+      "Ru",
+      "Upendranath Gangopadhyay",
+      "Jaldhar Sen",
+      "Kamini Roy",
+      "Jagadish Chandra Bose",
+      "P. C. Ray",
+      "Priyambada Devi",
+      "Okakura",
+      "Sarala Devi",
+      "Hiranmoyee Devi",
+      "Indira Devi",
+      "Anurupa Devi",
+      "Kantichandra Ghosh",
+      "Uday Shankar",
+      "Rabindranath",
+      "Bengal",
+      "Berhampore",
+      "Gandhir Abedan",
+      "Karnakunti-Samvad",
+      "Biday-Abhishap",
+      "Kacha",
+      "Devyani",
+      "Buddha",
+      "Achintya Sengupta",
+      "Amabashya",
+      "Niranjan Anand Murti",
+      "pince-nez",
+      "dhoti",
+      "Ramananda Babu",
+      "Townsend Road",
+      "Shesher Kobita",
+      "Prabasi",
+      "Rituranga",
+      "Tin Purush",
+      "Bichitra",
+      "Ramananda Chattopadhyay",
+      "Basumati",
+      "Bharatbarsha",
+      "Kamini Roy",
+      "Jagadish Chandra Bose",
+      "P. C. Ray",
+      "Alochhaya",
+      "Bipradash",
+      "Pallisamaj",
+      "Jogajog",
+      "Gora",
+      "Priyambada Devi",
+      "Maharshi Deb",
+      "Okakura",
+      "Sarala Devi",
+      "Hiranmoyee Devi",
+      "Indira Devi",
+      "Anurupa Devi",
+      "Brahmika sari",
+      "Kantichandra Ghosh",
+      "Omar Khayyam’s Rubaiyat",
+      "Uday Shankar",
+      "Dhakuria Lake",
+      "Southern Avenue",
+      "kabiraj",
+      "Kaka",
+      "eldest aunt",
+      "Madhumanarayan oil",
+      "Didi",
+      "babu",
+      "dhoti",
+      "panjabi",
+      "Kakima",
+      "Brahmika sari",
+      "jug",
+      "Calcutta",
+      "Father",
+      "Khoka",
+      "Ma",
+      "Rabindranath Tagore"
+    ],
+    "ch-1-9": [
+      "Mircea",
+      "Sabi",
+      "Ma",
+      "Thakuma",
+      "Srimati Malabika",
+      "Ranu",
+      "Milu",
+      "Didima",
+      "Aradhana",
+      "Khoka",
+      "Chutki",
+      "Kakima",
+      "Champa Pishi",
+      "Baidyanathbabu",
+      "Prinsep Ghat",
+      "England",
+      "Calcutta",
+      "Suez Canal",
+      "Mediterranean",
+      "Banamali",
+      "Srimati Malabika",
+      "Kacha and Devyani",
+      "Ripon Street",
+      "Anglo-Indian",
+      "Debjani",
+      "Maupassant",
+      "The Necklace",
+      "Durga",
+      "Srihari",
+      "Pinaki",
+      "bindi",
+      "alpana",
+      "dhoti",
+      "shawl",
+      "sacred thread",
+      "gandharva marriage",
+      "almirah",
+      "didi",
+      "madhabilata",
+      "Kakima",
+      "bhai",
+      "Didima",
+      "babu",
+      "lotus feet",
+      "Euclid",
+      "Father",
+      "Rabindranath Tagore",
+      "pishi"
+    ],
+    "ch-1-10": [
+      "Shyamadas",
+      "Father",
+      "Uncle",
+      "Khoka",
+      "Ma",
+      "Chutki",
+      "Shanti",
+      "Sabir",
+      "Nilratan Sircar",
+      "Madhupur",
+      "Puja",
+      "Ripon Street",
+      "Calcutta",
+      "Himalayas",
+      "Darjeeling",
+      "Rishikesh",
+      "Chittagong Armoury Raid",
+      "Pahartali",
+      "Shakuntala",
+      "Dushyanta",
+      "Madan",
+      "Brahmavadini",
+      "Medical College",
+      "Europe",
+      "Shakespeare",
+      "Juliet",
+      "madhabilata",
+      "sannyasi",
+      "ghat",
+      "oath",
+      "missionary school",
+      "nun",
+      "avidyā mṛtyuṃ tīrtvā, vidyayā’mṛtam aśnute",
+      "maya",
+      "Brahmarandhra",
+      "abhootapurva chiri",
+      "sahib",
+      "devotee",
+      "fire-ritual",
+      "Rabindranath Tagore"
+    ],
+    "ch-1-11": [
+      "Ma",
+      "Mircea",
+      "Khoka",
+      "Kakima",
+      "Kaka",
+      "Thakuma",
+      "Surajpal",
+      "Panchi",
+      "Grandmother",
+      "Milu",
+      "Didima",
+      "Shanti",
+      "Darjeeling",
+      "Tibetan",
+      "sati",
+      "Jagannath",
+      "Puri",
+      "tithi",
+      "England",
+      "Kalighat",
+      "Dehradun",
+      "Agra",
+      "Rishikesh",
+      "Laxmanjhula",
+      "Haridwar",
+      "Swargadwar",
+      "Himalayas",
+      "Alakananda",
+      "Kalikambaliwala",
+      "dharmashala",
+      "padmasana",
+      "Krishna",
+      "sahib",
+      "Bhabanipur",
+      "Gurudev",
+      "Guru",
+      "Russia",
+      "Bogdanov",
+      "ascetic",
+      "idolater",
+      "widowhood",
+      "tithi",
+      "Majhi",
+      "Maharani",
+      "Bouma",
+      "sadhu",
+      "padmasana",
+      "dharmashala",
+      "ghat",
+      "sher",
+      "Sur-nara-nistarinī, pāpatāpa-nivāriṇī, patitapāvanī, sāgaragāminī Gange",
+      "tridents",
+      "ash-smeared",
+      "Benares",
+      "Champa Pishi",
+      "Father",
+      "Ganga",
+      "Rabindranath Tagore",
+      "Ramananda Chattopadhyay",
+      "Sabi"
+    ],
+    "ch-1-12": [
+      "Father",
+      "Ma",
+      "Mircea",
+      "Shanti",
+      "Khoka",
+      "Rama",
+      "Ganapati",
+      "Shaktipada",
+      "Nepal Babu",
+      "Mr. Eguz",
+      "Ravi Babu",
+      "Chutku",
+      "Sabi",
+      "England",
+      "Russia",
+      "India",
+      "Jorasanko",
+      "Rishikesh",
+      "Santiniketan",
+      "Bentinck Street",
+      "Dwarkanath Tagore Lane",
+      "Rabindra Society",
+      "Chandalika",
+      "Bhabanipur",
+      "East Bengal",
+      "Bhagirath",
+      "Russa Road",
+      "British Empire",
+      "Bengali",
+      "PhD",
+      "Jatin Das",
+      "Subhas Bose",
+      "Nabin",
+      "Shravan",
+      "Bhadra",
+      "sahib",
+      "planchette",
+      "Chandalini",
+      "damaru",
+      "Rudra",
+      "Anandam paramanandam param sukham parama tripti",
+      "swairini",
+      "upayachika",
+      "Rath Yatra",
+      "provident fund",
+      "copyright",
+      "Calcutta",
+      "Jagannath",
+      "Rabindranath Tagore",
+      "Ramananda Chattopadhyay"
+    ],
+    "ch-1-13": [
+      "Mircea",
+      "Roma",
+      "Uncle",
+      "Bhupesh",
+      "Ruma",
+      "Amrita",
+      "Santiniketan",
+      "Ceylon",
+      "Pratapaditya Road",
+      "Ganga",
+      "Benarasi sari",
+      "Himalayas",
+      "Galpaswapner Bhalomanush",
+      "Gita",
+      "shehnai",
+      "Dadhi-mangal",
+      "kauri",
+      "veranda",
+      "sandalwood paste",
+      "vermilion",
+      "kush-bhika",
+      "kushandika",
+      "samprasad",
+      "Bhubhyam aham sampradade",
+      "memsahib",
+      "mackintosh",
+      "gumboots",
+      "Satyam Shivam Sundaram",
+      "sari",
+      "Brahmo Samaj",
+      "Father",
+      "Rabindranath Tagore"
+    ],
+    "ch-1-14": [
+      "Shamsher",
+      "Mircea",
+      "Rabindranath Tagore",
+      "Macdonald",
+      "Sir B. L. Mitra",
+      "Jyotiprakash Sarkar",
+      "Pajjati",
+      "Mahua",
+      "Santiniketan",
+      "Raktakarabi",
+      "Calcutta",
+      "Prabasi",
+      "Tagore household",
+      "Oriya",
+      "Orissa",
+      "Guptas",
+      "Gurkhas",
+      "Samanog",
+      "Bose Institute",
+      "Van Gogh",
+      "Java",
+      "Siam",
+      "Ravana",
+      "Dushyanta",
+      "Shakuntala",
+      "Sharadvat",
+      "Marwaris",
+      "Himalayas",
+      "Mayakovsky",
+      "Sangsargaja doshagunāh bhavanti",
+      "sisters-in-law",
+      "bearer",
+      "veranda",
+      "bigha",
+      "chapkan",
+      "bed tea",
+      "Bowbazar",
+      "chintz",
+      "Ma",
+      "mems",
+      "sandesh",
+      "coolie",
+      "Scotch whisky",
+      "divyaushadhi",
+      "titapapati",
+      "tabu",
+      "Sita",
+      "sahib",
+      "dhoti"
+    ],
+    "ch-1-15": [
+      "Bona",
+      "Ma",
+      "Amrita",
+      "O-Babu",
+      "Milu",
+      "Su-babu",
+      "Ram",
+      "Mr. Gupta",
+      "Richards",
+      "Chandalika",
+      "Kalimpong",
+      "Bengali",
+      "Moscow News",
+      "Mahabharata",
+      "Rigveda",
+      "Historians' History of the World",
+      "Mirabai",
+      "Russia",
+      "Bernard Shaw",
+      "Romain Rolland",
+      "Bertrand Russell",
+      "Bergson",
+      "Gurkhas",
+      "Calcutta",
+      "English",
+      "Hindu-Muslim",
+      "sahib",
+      "S.P.",
+      "lotus seat",
+      "babu",
+      "officer",
+      "laborers",
+      "dismount",
+      "famine",
+      "assignee",
+      "Rabindranath Tagore"
+    ],
+    "ch-1-16": [
+      "Mircea",
+      "Amrita",
+      "Hiranyan",
+      "Nicolai Stanenku",
+      "Madame Stanenku",
+      "Ion Popescu",
+      "Satyenbabu",
+      "Vera",
+      "Ma",
+      "Europe",
+      "Paris",
+      "Latin Quarter",
+      "Riviera",
+      "Seine",
+      "England",
+      "Dover Channel",
+      "Calcutta",
+      "Rabindranath Tagore",
+      "Gita",
+      "Mahadev",
+      "sahib",
+      "Guru",
+      "yogi",
+      "ash",
+      "sari",
+      "mosquito net",
+      "babu"
+    ],
+    "ch-1-17": [
+      "Ma",
+      "Ru",
+      "Parbati",
+      "Amrita",
+      "Mrs. Parvati",
+      "'J'",
+      "Rashid",
+      "Rina",
+      "Sergei Sebastian",
+      "Sumita",
+      "Paris",
+      "Calcutta",
+      "Bangladesh",
+      "West Bengal",
+      "Bongaon",
+      "Armayara",
+      "Bhabanipur",
+      "Ekalavya",
+      "India",
+      "sari",
+      "saline",
+      "guru",
+      "disciple",
+      "Ardhanarishvara",
+      "ya enam vetti hantāraṃ yaś cainaṃ manyate hatam ubhau tau na vijānīto nāyaṃ hanti na hanyate",
+      "self-immolation",
+      "Mircea",
+      "Rabindranath Tagore"
+    ],
+    "ch-1-18": [
+      "Sergei",
+      "Sumita",
+      "Rabindranath Tagore",
+      "Shanti",
+      "Roma",
+      "Bijoykrishna Goswami",
+      "Rina",
+      "Mircea",
+      "J",
+      "Parvati",
+      "Purohit",
+      "sea of time",
+      "Rabindranath Tagore",
+      "Amal",
+      "Calcutta",
+      "Bakulbagan Road",
+      "India",
+      "Smaraṇe",
+      "President",
+      "chakna khela",
+      "apavṛṇu",
+      "guru",
+      "Delhi",
+      "Deputy Secretary",
+      "Paris",
+      "Vaitarani",
+      "Theatre Road",
+      "Yajnavalkya",
+      "Atmanantu kamaya putrah priyah bhavati",
+      "Krishna",
+      "Air India",
+      "Chhelebela",
+      "Panchanan",
+      "De Profundis",
+      "Popescu",
+      "embarkation card",
+      "guru",
+      "catalog books",
+      "utilitarian",
+      "memoir-novel",
+      "estuary",
+      "kamaya",
+      "apavṛṇu",
+      "chakna khela",
+      "da",
+      "Ma",
+      "Vaitarani",
+      "sister",
+      "Amrita",
+      "Euclid"
+    ],
+    "ch-1-19": [
+      "Mircea",
+      "Khoka",
+      "Ru",
+      "Amrita",
+      "Father",
+      "Sergei",
+      "my husband",
+      "Bal Gopal",
+      "Swargashram",
+      "Rishikesh",
+      "Brahmapuri",
+      "Sri Chaitanya",
+      "Jesus",
+      "Ramakrishna",
+      "Swami Vivekananda",
+      "Upanishads",
+      "Vedas",
+      "Gurukul",
+      "Arya Samaj",
+      "Sicily",
+      "Rome",
+      "Florence",
+      "Switzerland",
+      "Benares",
+      "Rabindranath",
+      "Je Alo Nibe Geche",
+      "anklets",
+      "kohl",
+      "ashram",
+      "sadhana",
+      "mantras",
+      "lungi",
+      "karma",
+      "rupees",
+      "Calcutta",
+      "Rabindranath Tagore"
+    ],
+    "ch-1-20": [
+      "John",
+      "Molly",
+      "Sharly",
+      "Mircea",
+      "Amrita",
+      "Ed",
+      "Vishweshwara",
+      "Mahakala",
+      "pole star",
+      "Woodland Road",
+      "Theological College",
+      "Holy Grail",
+      "Sumeru",
+      "Himalayas",
+      "India",
+      "Kali",
+      "Durga",
+      "Dante",
+      "Beatrice",
+      "Lake Michigan",
+      "Pandora’s box",
+      "Milky Way",
+      "Nayantam na madhyam na punastavadim",
+      "pashyami Vishweshwara Vishwarupam",
+      "shastra chhede na, agni dohe na jare",
+      "Na hanyate hanyamane sharire",
+      "Ganga",
+      "Gandhi"
+    ]
+  }
+}

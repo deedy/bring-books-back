@@ -47,8 +47,8 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
 
   return (
     <>
-      {/* Hero banner — fades into page background */}
-      <div className="relative w-full h-[350px]">
+      {/* Hero banner — overlaps behind the fixed header */}
+      <div className="relative w-full h-[350px] -mt-16">
         {/* All hero images stacked for instant crossfade */}
         {books.map((b, idx) => (
           <img

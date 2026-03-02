@@ -1,0 +1,3101 @@
+{
+  "glossary": {
+    "Klassiper": {
+      "type": "character",
+      "description": "The government-appointed land survey official whose arrival and actions drive much of the chapter's conflict; also referred to as the Classiper or Klassiper Kochupillai."
+    },
+    "Kodanthara Moothassan": {
+      "type": "character",
+      "description": "A senior community leader and head of the Kodanthara family, involved in temple and village affairs."
+    },
+    "Kanakku Pillai": {
+      "type": "character",
+      "description": "The temple administrator responsible for managing temple affairs and implementing orders."
+    },
+    "Ponnu Thampuran": {
+      "type": "character",
+      "description": "A local feudal lord or royal figure whose authority is invoked by officials and villagers."
+    },
+    "Thampuratti Amma": {
+      "type": "character",
+      "description": "The wife of Ponnu Thampuran, remembered for her regal appearance and status."
+    },
+    "Kunjudevi": {
+      "type": "character",
+      "description": "A woman who helps clean the Erumathramadam and recalls seeing Ponnu Thampuran and Thampuratti Amma."
+    },
+    "Mani": {
+      "type": "character",
+      "description": "A woman who helps clean the Erumathramadam with Kunjudevi and Kunnukki."
+    },
+    "Kunnukki": {
+      "type": "character",
+      "description": "A strong-willed woman who voices opinions on social equality and opposes tradition."
+    },
+    "Pottachi": {
+      "type": "character",
+      "description": "Nickname for Kunjukki, known for her outspoken nature."
+    },
+    "Kunjilakshi": {
+      "type": "character",
+      "description": "A woman who warns Kunjukki to be careful with her words about the Thampuratti."
+    },
+    "Kuruppachan": {
+      "type": "character",
+      "description": "A respected elder and community leader, involved in land and temple matters."
+    },
+    "Asan": {
+      "type": "character",
+      "description": "A learned man or teacher, often consulted for advice and involved in temple administration."
+    },
+    "Achoman Mama": {
+      "type": "character",
+      "description": "A storyteller and elder whose tales about family histories are well known in the village."
+    },
+    "Idramankonthi": {
+      "type": "character",
+      "description": "A past Karanavar (family head) who managed land leases and family affairs."
+    },
+    "Kochupillai": {
+      "type": "character",
+      "description": "The Classifier, a land surveyor, described as handsome and married to Kunjulakshmi.",
+      "image": "/data/images/characters/kayar/kochupillai.png"
+    },
+    "Kunjulakshmi": {
+      "type": "character",
+      "description": "Kochupillai's wife, described as dark-skinned and stout, who desires status and a child."
+    },
+    "Subbaiyan Swami": {
+      "type": "character",
+      "description": "The royal cook for the Maharaja, known for his connections and personal stories."
+    },
+    "Bhavathi": {
+      "type": "character",
+      "description": "Subbaiyan Swami's second wife, formerly a wet nurse in the palace."
+    },
+    "Yandan": {
+      "type": "character",
+      "description": "A handsome clerk at the Kilimanoor palace who marries Bhavathi's daughter."
+    },
+    "Devadi Mullakkaran": {
+      "type": "character",
+      "description": "Klassiper's attendant who manages the collection of gifts and bribes for officials."
+    },
+    "Erikkillathu Pappu": {
+      "type": "character",
+      "description": "A local man who announces the new standard for offerings to the Classifier."
+    },
+    "Pappu Panikkar": {
+      "type": "character",
+      "description": "A family manager who is shocked by the high cost of the new gold coin offerings."
+    },
+    "Kunju Lakshmiyammai": {
+      "type": "character",
+      "description": "Klassiper's wife, who desires rare gold coins and status."
+    },
+    "Ittirachikkaimal": {
+      "type": "character",
+      "description": "The present head of the Pullattu family, involved in the story of the Nagarasi treasure."
+    },
+    "Cheyya Mullakkaran": {
+      "type": "character",
+      "description": "A Mullakkaran who tries to obtain a Nagarasi gold coin for Kunju Lakshmiyammai."
+    },
+    "Unnooliyamma": {
+      "type": "character",
+      "description": "The aged sister of the present Mullakkaran, reflecting on her family's decline."
+    },
+    "Paacharan": {
+      "type": "character",
+      "description": "Unnooliyamma's younger brother and the current Mullakkaran."
+    },
+    "Seerattak Kaimalan": {
+      "type": "character",
+      "description": "A community leader involved in village and temple decisions."
+    },
+    "Konnothu Pillai": {
+      "type": "character",
+      "description": "A community leader who helps arrange accommodations for officials."
+    },
+    "Sankaran Annaavi": {
+      "type": "character",
+      "description": "A cook brought in to prepare food for the visiting officer."
+    },
+    "Balathol Mukundar": {
+      "type": "character",
+      "description": "A prominent Brahmin and chief priest of the temple for fifty years."
+    },
+    "Kochumichar": {
+      "type": "character",
+      "description": "A villager known for supplying rice to the royal household and for his palace stories."
+    },
+    "Paru": {
+      "type": "character",
+      "description": "Kochumichar's daughter-in-law who listens to family stories."
+    },
+    "Thattachari Samimoopar": {
+      "type": "character",
+      "description": "A goldsmith who advises Kunjulakshmi to have a gold child crafted."
+    },
+    "Nangaiyar": {
+      "type": "character",
+      "description": "A servant woman in the Kodantra household who raises Kunjammai."
+    },
+    "Kochu Pennu Kunjammai": {
+      "type": "character",
+      "description": "The only remaining female descendant in the Kodantra house, raised by Nangaiyar."
+    },
+    "Ittikkuruppu": {
+      "type": "character",
+      "description": "The present elder Asan of the Kodantra household, widowed and childless."
+    },
+    "Ayyappa Kuruppu": {
+      "type": "character",
+      "description": "Younger brother of Ittikkuruppu and next in line as household head."
+    },
+    "Seshaiyyan": {
+      "type": "character",
+      "description": "A young Pattar (Brahmin) from Thiruvananthapuram who marries Kunjammai."
+    },
+    "Kochachasan": {
+      "type": "character",
+      "description": "A member of the Kodantra household who receives Seshaiyyan."
+    },
+    "Chakki": {
+      "type": "character",
+      "description": "A woman with whom Seshaiyyan has a relationship after his marriage."
+    },
+    "Kalyaniyammai": {
+      "type": "character",
+      "description": "A renowned midwife from Seelandhippillai, also skilled in copying manuscripts."
+    },
+    "Paramu Vathiyar": {
+      "type": "character",
+      "description": "The head of Seelandhippillai, a learned guru and spiritual leader of the village."
+    },
+    "Kochittuli": {
+      "type": "character",
+      "description": "Paramu Vathiyar's wife, originally from Malabar, who was left destitute after a plague."
+    },
+    "Kunnumalu": {
+      "type": "character",
+      "description": "Paramu Vathiyar's beloved granddaughter."
+    },
+    "Nagampillai": {
+      "type": "character",
+      "description": "Tamilian surveyor who leads the group of measurers, rival to Klassiper."
+    },
+    "Paruthikkattu Othai": {
+      "type": "character",
+      "description": "A Christian oil supplier who serves Nagampillai and aspires to build a church."
+    },
+    "Orodhai": {
+      "type": "character",
+      "description": "Outhai's wife, who works at the oil press."
+    },
+    "Varkki": {
+      "type": "character",
+      "description": "Outhai's son, who also works at the oil press.",
+      "image": "/data/images/characters/kayar/varkki.webp"
+    },
+    "Mangalacheri Iravippillai": {
+      "type": "character",
+      "description": "Head of the Mangalacheri family, registers new land and manages family affairs."
+    },
+    "Kochunnyamma": {
+      "type": "character",
+      "description": "Iravippillai's wife from Vaipparacheri, respected as Periyamma."
+    },
+    "Pachaalathu Kodhai": {
+      "type": "character",
+      "description": "A former Periyamma of Mangalacheri, known for her harshness."
+    },
+    "Valiyamaani Paatti": {
+      "type": "character",
+      "description": "An elder woman of Mangalacheri who stands up to Periyamma."
+    },
+    "Kunjanda Pillai Mama": {
+      "type": "character",
+      "description": "A past head of Mangalacheri, husband of Pachaalathu Kodhai."
+    },
+    "Thampi Muraikkaran Madhupillai": {
+      "type": "character",
+      "description": "Next in line to head Mangalacheri, leads a rival family faction."
+    },
+    "Kochumaniyammai": {
+      "type": "character",
+      "description": "Madhupillai's wife, who schemes to become Periyamma."
+    },
+    "Pappummaavan": {
+      "type": "character",
+      "description": "Iravippillai's elder brother, unfit to be karanavar."
+    },
+    "Kochukoathai": {
+      "type": "character",
+      "description": "Pappummaavan's wife from the Chaanakathara family."
+    },
+    "Kochukothai Akka": {
+      "type": "character",
+      "description": "Kochukoathai, considered for the role of senior aunt at the wedding."
+    },
+    "Kochumani": {
+      "type": "character",
+      "description": "Kochumaniyammai, who tries to elevate Kochukothai Akka's status."
+    },
+    "Seelandhippillai Paramu Vathiyar": {
+      "type": "character",
+      "description": "The spiritual leader and guru of the village, head of Seelandhippillai family."
+    },
+    "Krishnankovindan": {
+      "type": "character",
+      "description": "Paramu Vathiyar's former manager in Alappuzha and Kochittuliyamma's husband."
+    },
+    "Vaaryanthara Kochittuliyamma": {
+      "type": "character",
+      "description": "Krishnankovindan's wife, left alone after the plague."
+    },
+    "Kochidvoori": {
+      "type": "character",
+      "description": "A maiden from Kaplangattu Mana in Malabar, ancestor of the Varyanthara family."
+    },
+    "Unni Namboothiri": {
+      "type": "character",
+      "description": "A young Namboothiri who elopes with Kochidvoori."
+    },
+    "Vezhapra family": {
+      "type": "character",
+      "description": "A family of Pallichanmar (palanquin bearers) ostracized for ritual defilement."
+    },
+    "Erumathramadam": {
+      "type": "proper_noun",
+      "description": "A guesthouse or lodging near the temple, traditionally reserved for Brahmin priests."
+    },
+    "Sthanikars": {
+      "type": "proper_noun",
+      "description": "Community leaders or temple administrators with authority over temple affairs."
+    },
+    "Sudra": {
+      "type": "proper_noun",
+      "description": "A member of the fourth varna (caste) in the traditional Hindu social hierarchy."
+    },
+    "Namboothiri": {
+      "type": "proper_noun",
+      "description": "A high-caste Brahmin community in Kerala, traditionally temple priests."
+    },
+    "Thantris": {
+      "type": "proper_noun",
+      "description": "Brahmin priests who perform temple rituals and ceremonies."
+    },
+    "Tahsildar": {
+      "type": "proper_noun",
+      "description": "A revenue administrative officer in charge of land and tax matters."
+    },
+    "Ambalappuzha": {
+      "type": "proper_noun",
+      "description": "A town in Kerala, known for its famous Krishna temple."
+    },
+    "naivedya prasadam": {
+      "type": "proper_noun",
+      "description": "Sacred food offered to the deity and then distributed to devotees."
+    },
+    "rajabhogam": {
+      "type": "proper_noun",
+      "description": "A share of agricultural produce given as tax to the ruling authority."
+    },
+    "Talavayi": {
+      "type": "proper_noun",
+      "description": "A local administrative official or subordinate authority."
+    },
+    "taluka": {
+      "type": "proper_noun",
+      "description": "An administrative division or sub-district in India."
+    },
+    "tandalkaran": {
+      "type": "proper_noun",
+      "description": "A land agent or local revenue official responsible for measuring and collecting taxes."
+    },
+    "Mulleppilli family": {
+      "type": "proper_noun",
+      "description": "A prominent family with hereditary office in the village."
+    },
+    "marumakkathayam": {
+      "type": "proper_noun",
+      "description": "The matrilineal system of inheritance practiced in parts of Kerala."
+    },
+    "Karanavar": {
+      "type": "proper_noun",
+      "description": "The head of a matrilineal family, usually the maternal uncle."
+    },
+    "marakkals": {
+      "type": "proper_noun",
+      "description": "Traditional units of measurement for grain or land in Kerala."
+    },
+    "chakrams": {
+      "type": "proper_noun",
+      "description": "Old silver coins used as currency in Kerala."
+    },
+    "Vettikkattu": {
+      "type": "proper_noun",
+      "description": "A paddy field or area of agricultural land in the village."
+    },
+    "Purana": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu texts or legends; here, refers to family histories."
+    },
+    "Achoma Purana": {
+      "type": "proper_noun",
+      "description": "The family history or legend as told by Achoman Mama."
+    },
+    "Hanuman": {
+      "type": "proper_noun",
+      "description": "A Hindu deity, symbolizing strength and devotion."
+    },
+    "Devasthanam": {
+      "type": "proper_noun",
+      "description": "A temple trust or institution that owns and manages temple property."
+    },
+    "Mangalaseri family": {
+      "type": "proper_noun",
+      "description": "A large, industrious family in the village known for their agricultural work."
+    },
+    "Nagarasi": {
+      "type": "proper_noun",
+      "description": "A rare and valuable gold coin, highly prized as an offering."
+    },
+    "Pullattu family": {
+      "type": "proper_noun",
+      "description": "A family in the village with a legendary treasure story."
+    },
+    "Idyathikaimal": {
+      "type": "proper_noun",
+      "description": "A past head of the Pullattu family, associated with the treasure legend."
+    },
+    "karisal": {
+      "type": "proper_noun",
+      "description": "Marshy or alluvial land, often newly cultivated."
+    },
+    "Marutha": {
+      "type": "proper_noun",
+      "description": "A clan deity worshipped by the Pulayar community."
+    },
+    "Pulayars": {
+      "type": "proper_noun",
+      "description": "A Dalit community in Kerala, traditionally agricultural laborers."
+    },
+    "Dharmasastha": {
+      "type": "proper_noun",
+      "description": "A Hindu deity, often identified with Lord Ayyappa."
+    },
+    "Thiruvananthapuram": {
+      "type": "proper_noun",
+      "description": "The capital city of Kerala, seat of royal and administrative power."
+    },
+    "Kilimanoor": {
+      "type": "proper_noun",
+      "description": "A palace or region associated with the royal family."
+    },
+    "Madappalli": {
+      "type": "proper_noun",
+      "description": "The temple kitchen or royal kitchen."
+    },
+    "Kandavarnan": {
+      "type": "proper_noun",
+      "description": "A reference to a handsome, high-caste man, possibly mythological."
+    },
+    "Panikkar": {
+      "type": "proper_noun",
+      "description": "A title for a martial arts teacher or family manager."
+    },
+    "marakkal": {
+      "type": "proper_noun",
+      "description": "A traditional unit of measurement for grain or land."
+    },
+    "Ezhupura": {
+      "type": "proper_noun",
+      "description": "A verandah or open hall in a traditional Kerala house."
+    },
+    "kalari": {
+      "type": "proper_noun",
+      "description": "A traditional martial arts training hall."
+    },
+    "Pattar": {
+      "type": "proper_noun",
+      "description": "A Tamil Brahmin, often brought in for religious ceremonies."
+    },
+    "thali": {
+      "type": "proper_noun",
+      "description": "A sacred necklace tied during Hindu marriage ceremonies."
+    },
+    "puja": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual of worship."
+    },
+    "namaskara rice": {
+      "type": "proper_noun",
+      "description": "Rice offered as part of a ritual meal for Brahmins."
+    },
+    "angavastram": {
+      "type": "proper_noun",
+      "description": "A traditional upper cloth worn by men in South India."
+    },
+    "tulasi": {
+      "type": "proper_noun",
+      "description": "Holy basil, used in Hindu rituals and as a hair adornment."
+    },
+    "kasturi": {
+      "type": "proper_noun",
+      "description": "Musk, used as a fragrance."
+    },
+    "naazhigai": {
+      "type": "proper_noun",
+      "description": "A traditional unit of time in South India."
+    },
+    "mamathu": {
+      "type": "proper_noun",
+      "description": "A raised mound or embankment, often near water bodies."
+    },
+    "Seeratta family": {
+      "type": "proper_noun",
+      "description": "A prominent family in the village with a Brahmin lodging."
+    },
+    "Namboothiris": {
+      "type": "proper_noun",
+      "description": "A Brahmin community in Kerala."
+    },
+    "Pattars": {
+      "type": "proper_noun",
+      "description": "Tamil Brahmins, often brought for rituals."
+    },
+    "Ganapathippotri": {
+      "type": "proper_noun",
+      "description": "A Brahmin husband of Siruthakunjammai in the Seeratta family."
+    },
+    "Siruthakunjammai": {
+      "type": "proper_noun",
+      "description": "The eldest woman in the Seeratta family."
+    },
+    "Paruthikkattu": {
+      "type": "proper_noun",
+      "description": "A house or family associated with oil supply, belonging to the temple."
+    },
+    "Konnotthu": {
+      "type": "proper_noun",
+      "description": "A family or location in the village."
+    },
+    "Vaipparacheri": {
+      "type": "proper_noun",
+      "description": "A family from which the Periyammas of Mangalacheri are traditionally chosen."
+    },
+    "Periyamma": {
+      "type": "proper_noun",
+      "description": "The respected matriarch or senior woman of a household."
+    },
+    "Chanakathara": {
+      "type": "proper_noun",
+      "description": "A family or house in the village."
+    },
+    "neyyappam": {
+      "type": "proper_noun",
+      "description": "A sweet fried rice cake made with ghee, served at ceremonies."
+    },
+    "pandal": {
+      "type": "proper_noun",
+      "description": "A ceremonial canopy or temporary structure for weddings."
+    },
+    "Bhagavathi": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess, often worshipped in Kerala temples."
+    },
+    "Ganapathi homam": {
+      "type": "proper_noun",
+      "description": "A fire ritual dedicated to Lord Ganesha."
+    },
+    "Mrityunjaya homam": {
+      "type": "proper_noun",
+      "description": "A Vedic ritual for longevity and protection from death."
+    },
+    "Gita Govinda": {
+      "type": "proper_noun",
+      "description": "A classical Sanskrit text, often copied by skilled scribes."
+    },
+    "Grantha Library": {
+      "type": "proper_noun",
+      "description": "A collection of palm-leaf manuscripts."
+    },
+    "Chithirai": {
+      "type": "proper_noun",
+      "description": "A month in the Tamil calendar (April-May)."
+    },
+    "Padeni": {
+      "type": "proper_noun",
+      "description": "A street play or festival performance at the temple."
+    },
+    "thullal": {
+      "type": "proper_noun",
+      "description": "A satirical dance-drama form from Kerala."
+    },
+    "chovan": {
+      "type": "proper_noun",
+      "description": "A type of performance or character in temple festivals."
+    },
+    "geethangal": {
+      "type": "proper_noun",
+      "description": "Songs, often performed during temple festivals."
+    },
+    "parayan": {
+      "type": "proper_noun",
+      "description": "A reciter or performer of religious texts."
+    },
+    "kakkan thullal": {
+      "type": "proper_noun",
+      "description": "A specific style of thullal dance."
+    },
+    "Kaakkathi": {
+      "type": "proper_noun",
+      "description": "A female character in thullal performances."
+    },
+    "Kasi": {
+      "type": "proper_noun",
+      "description": "The holy city of Varanasi, a major pilgrimage destination."
+    },
+    "dakshina": {
+      "type": "proper_noun",
+      "description": "A traditional offering or fee given to priests or teachers."
+    },
+    "bhajan": {
+      "type": "proper_noun",
+      "description": "Devotional singing or prayer session."
+    },
+    "Chandali": {
+      "type": "proper_noun",
+      "description": "A term for an outcaste woman, used here as an insult."
+    },
+    "Kaplangattu Mana": {
+      "type": "proper_noun",
+      "description": "A Nair family in Malabar, Kerala."
+    },
+    "Malabar": {
+      "type": "proper_noun",
+      "description": "A region in northern Kerala."
+    },
+    "Thiruvambadi": {
+      "type": "proper_noun",
+      "description": "A place in Alappuzha where the Varyanthara family settled."
+    },
+    "Varyanthara": {
+      "type": "proper_noun",
+      "description": "A family founded by Kochittuli and Unni Namboothiri."
+    },
+    "Alappuzha": {
+      "type": "proper_noun",
+      "description": "A city in Kerala, known for its backwaters and trade."
+    },
+    "pottu": {
+      "type": "proper_noun",
+      "description": "A decorative mark worn on the forehead by women."
+    },
+    "toddy": {
+      "type": "vocabulary",
+      "description": "An alcoholic beverage made from the fermented sap of palm trees."
+    },
+    "backwater": {
+      "type": "vocabulary",
+      "description": "A network of interconnected canals, rivers, and lakes in Kerala."
+    },
+    "madam": {
+      "type": "vocabulary",
+      "description": "A guesthouse or lodging, often attached to a temple."
+    },
+    "prasadam": {
+      "type": "vocabulary",
+      "description": "Food offered to a deity and then distributed to devotees as a blessing."
+    },
+    "chakram": {
+      "type": "vocabulary",
+      "description": "An old silver coin formerly used as currency in Kerala."
+    },
+    "sambandham": {
+      "type": "vocabulary",
+      "description": "A traditional form of relationship or marriage among matrilineal communities."
+    },
+    "mundus": {
+      "type": "vocabulary",
+      "description": "A traditional white cotton garment worn by men and women in Kerala."
+    },
+    "homam": {
+      "type": "vocabulary",
+      "description": "A Vedic fire ritual performed for specific purposes."
+    },
+    "naivedya": {
+      "type": "vocabulary",
+      "description": "Food offered to a deity during worship."
+    },
+    "karanavar": {
+      "type": "vocabulary",
+      "description": "The head or senior-most male of a matrilineal family."
+    },
+    "matrilineal": {
+      "type": "vocabulary",
+      "description": "A system of inheritance and lineage traced through the mother's line."
+    },
+    "Pulayar": {
+      "type": "vocabulary",
+      "description": "A Dalit community in Kerala, traditionally agricultural laborers."
+    },
+    "Gandharva": {
+      "type": "vocabulary",
+      "description": "A celestial being in Hindu mythology, often associated with music and romance."
+    },
+    "Gandharvan": {
+      "type": "vocabulary",
+      "description": "A male Gandharva; here, also refers to a mysterious or supernatural lover."
+    },
+    "Sthanikar": {
+      "type": "vocabulary",
+      "description": "A temple administrator or community leader."
+    },
+    "punugu": {
+      "type": "vocabulary",
+      "description": "A fragrant substance used in traditional perfumes."
+    },
+    "parijata": {
+      "type": "vocabulary",
+      "description": "A fragrant night-flowering tree, also known as night-flowering jasmine."
+    },
+    "kakkan": {
+      "type": "vocabulary",
+      "description": "A character or style in thullal performances."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn by women in India."
+    },
+    "bhajan hall": {
+      "type": "vocabulary",
+      "description": "A hall or space in the temple designated for devotional singing."
+    },
+    "thaali": {
+      "type": "vocabulary",
+      "description": "A sacred necklace tied during Hindu marriage ceremonies."
+    },
+    "Konnothu Valyachan": {
+      "type": "character",
+      "description": "The patriarchal elder of the Konnothu family, responsible for the administration and keys to the Devasthanam treasury; his death marks a generational shift."
+    },
+    "Kodanthra Moothassan": {
+      "type": "character",
+      "description": "The respected elder of the Kodanthra family, known for his righteousness and ability to discern the temple's naivedya prasadam; his death leaves a leadership void."
+    },
+    "Seerattakaimal": {
+      "type": "character",
+      "description": "A senior leader from the Seeratta family who inherits the Devasthanam treasury keys after Konnothu Valyachan; later grows old and weary."
+    },
+    "Ayyappakuruppu": {
+      "type": "character",
+      "description": "Son-in-law of Kodanthra Moothassan, becomes the Moothassan of Kodanthra; involved in family property disputes and court cases."
+    },
+    "Kallaraykkal Raman Pillai": {
+      "type": "character",
+      "description": "A member of the Kallaraykkal branch, next in line for Konnothu Valyachan's position; faces financial struggles and property disputes."
+    },
+    "Ganapathi Ayyar": {
+      "type": "character",
+      "description": "A powerful Brahmin landlord and moneylender from Mangombu, who accumulates land and wealth through loans and mortgages."
+    },
+    "Swami": {
+      "type": "character",
+      "description": "Another term for Ganapathi Ayyar, used as a sign of respect for the Brahmin landlord and creditor."
+    },
+    "Paruthikkaattu Ozhathai Maappillai": {
+      "type": "character",
+      "description": "A Christian oil-mill worker who becomes a successful farmer and leaseholder of Naatrangkaal Naru, later known as Olatheymappillai."
+    },
+    "Anthoni of Aatrukkadal": {
+      "type": "character",
+      "description": "A Christian farmer who joins the collective farming effort with Ozhathai Maappillai."
+    },
+    "Mathayi of Kol": {
+      "type": "character",
+      "description": "A Christian farmer and businessman, partner in collective farming and later a moneylender."
+    },
+    "Thanu Ayyar": {
+      "type": "character",
+      "description": "Ancestral Brahmin cloth merchant from Tamil Nadu who settled in Mangombil and became the founder of a wealthy lineage."
+    },
+    "Kittunnik Kaimal": {
+      "type": "character",
+      "description": "Heir to Seerattakaimal, known for transferring property to his wife's family and disregarding traditional customs."
+    },
+    "Agavur Nani": {
+      "type": "character",
+      "description": "Wife of Ayyappakuruppu, mistress of Kodanthara, known for her beauty and influence; later becomes Ammaavi."
+    },
+    "Nangayyar": {
+      "type": "character",
+      "description": "Elderly woman, mother of Kunjamma, who becomes bedridden and eventually dies."
+    },
+    "Kunjamma": {
+      "type": "character",
+      "description": "Nangayyar's youngest daughter, lives in a dream world, mother of Thripurasundari.",
+      "image": "/data/images/characters/kayar/kunjamma.webp"
+    },
+    "Thripurasundari": {
+      "type": "character",
+      "description": "Kunjamma's daughter, seen as the future of the Kodanthara family."
+    },
+    "Seelandhippillai Kalyaniyamma": {
+      "type": "character",
+      "description": "Mother of Kesavan, a respected woman who values education and tradition."
+    },
+    "Kesavan": {
+      "type": "character",
+      "description": "Son of Kalyaniyamma, a lively and intelligent boy who becomes a teacher and later a clerk."
+    },
+    "Mangalacheri Madhupillai": {
+      "type": "character",
+      "description": "Landlord and office-bearer involved in temple disputes and family property conflicts."
+    },
+    "Ittiraman Pillai": {
+      "type": "character",
+      "description": "Member of the Konnotthu family, involved in property disputes and lawsuits against Kallaraykkal Raman Pillai."
+    },
+    "Kunhammayi": {
+      "type": "character",
+      "description": "Eldest woman of the Konnotthu branch, speaks of the family's hardships."
+    },
+    "Kunjunji": {
+      "type": "character",
+      "description": "Individual who travels from Paadi to Paruthikkadu, possibly a family member or messenger."
+    },
+    "Kunjachan": {
+      "type": "character",
+      "description": "Relative of Mathayi, successful farmer and businessman in the eastern hills."
+    },
+    "Vattathara Peeli": {
+      "type": "character",
+      "description": "Business partner of Mathayi, later becomes a successful independent businessman."
+    },
+    "Thoma": {
+      "type": "character",
+      "description": "Peeli's eldest son, wealthy plantation owner and innovator in agricultural labor practices."
+    },
+    "Kunjjeli": {
+      "type": "character",
+      "description": "Thoma's wife, who transforms from emaciated to prosperous after marriage."
+    },
+    "Paloothra Kunjan": {
+      "type": "character",
+      "description": "Temple farmer devoted to agricultural work, trusted by the Pulayas, dies heartbroken after a betrayal."
+    },
+    "Ravippillai": {
+      "type": "character",
+      "description": "Relative of Mangalacheri Madhupillai, whose debts cause family property loss."
+    },
+    "Kanakkulathu Pappupillai": {
+      "type": "character",
+      "description": "Honest and upright farmer, respected for his integrity in dealings with Ganapathi Ayyar."
+    },
+    "Kunjhan of Uppamparambu": {
+      "type": "character",
+      "description": "One of the 'Trimurthis,' a former ploughman who becomes the temple administrator."
+    },
+    "Paman Karthaavu": {
+      "type": "character",
+      "description": "One of the 'Trimurthis,' former overseer for the Konnotthu family, father of Lakshmi."
+    },
+    "Ittunnan of Sudhoorathu": {
+      "type": "character",
+      "description": "One of the 'Trimurthis,' known for his sharp tongue and unconventional family life."
+    },
+    "Lakshmi": {
+      "type": "character",
+      "description": "Daughter of Kalikkunjhamma and Paraman Karthavu, raised separately after her mother's death."
+    },
+    "Kalikkunjhamma": {
+      "type": "character",
+      "description": "Kunjhamma who dies during childbirth, mother of Lakshmi."
+    },
+    "Araykattu Kochunani": {
+      "type": "character",
+      "description": "Ittunnan's third wife, with whom he has a harmonious marriage."
+    },
+    "Therumathu Kondikkuruppu": {
+      "type": "character",
+      "description": "Oldest man in the village, respected elder who persuades Kunjhan Pillai to take up temple administration."
+    },
+    "Kochu Devi": {
+      "type": "character",
+      "description": "Girl in Kesavan's class, whom he likes and wishes to marry."
+    },
+    "Kochutti": {
+      "type": "character",
+      "description": "Kochu Devi's elder sister, whose marriage is arranged by Kochunni Nair."
+    },
+    "Kochunni Nair": {
+      "type": "character",
+      "description": "Maternal uncle and head of Kochu Devi's family, wields authority over family decisions."
+    },
+    "Mathaiyar": {
+      "type": "character",
+      "description": "Mother of Kochu Devi, upholds family honor and refuses Kesavan's marriage proposal."
+    },
+    "Suttikkunjamma": {
+      "type": "character",
+      "description": "Kunjamma who becomes pregnant by a Brahmin and is later helped by Kunjangarasaar."
+    },
+    "Kunjangarasaar": {
+      "type": "character",
+      "description": "Devasthanam boatman of lower caste who helps Suttikkunjamma."
+    },
+    "Peerukannu Mudalali": {
+      "type": "character",
+      "description": "Shopkeeper and landlord, descendant of a Seeratta son-in-law who converted to Islam."
+    },
+    "Amina": {
+      "type": "character",
+      "description": "Court official who oversees the eviction of the Seeratta women."
+    },
+    "Chennan Pulayan": {
+      "type": "character",
+      "description": "Pulaya bonded laborer with three wives, lives in the purakkalam and later loses his family."
+    },
+    "Vattathaan": {
+      "type": "character",
+      "description": "Chennan's son, becomes a fisherman, converts to Islam, and is renamed Pareed."
+    },
+    "Fatima": {
+      "type": "character",
+      "description": "Vattathaan's (Pareed's) wife from Alappuzha."
+    },
+    "Sulaiman": {
+      "type": "character",
+      "description": "Landlord and master of Vattathaan (Pareed), arranges his marriage and supports him."
+    },
+    "Krishnapillai": {
+      "type": "character",
+      "description": "Current head of the Konnoth family, known for his obsession with chasing flies."
+    },
+    "Kunjun Pillai": {
+      "type": "character",
+      "description": "Administrator of the Devasthanam, wishes to retire and hand over responsibilities."
+    },
+    "Krishnathirumeny": {
+      "type": "character",
+      "description": "Head of Palathol House, considered for Devasthanam administration."
+    },
+    "Moolappadathu Govindan": {
+      "type": "character",
+      "description": "Potential candidate for Devasthanam administration, but his parentage is questioned."
+    },
+    "Nattasseri Padmanabhan": {
+      "type": "character",
+      "description": "Wealthy and arrogant man, considered but rejected for Devasthanam administration."
+    },
+    "Vettikkattu Nanukkuruppu": {
+      "type": "character",
+      "description": "Respected cook, brings his son-in-law Parameswaran to Kesavapillai for blessings."
+    },
+    "Parameswaran": {
+      "type": "character",
+      "description": "Nanukkuruppu's son-in-law, whom he hopes will become a judge."
+    },
+    "Konnothu": {
+      "type": "proper_noun",
+      "description": "A prominent family or lineage in the village, often holding leadership roles."
+    },
+    "Kodanthra": {
+      "type": "proper_noun",
+      "description": "Another major family or lineage in the village, associated with temple leadership."
+    },
+    "Seeratta": {
+      "type": "proper_noun",
+      "description": "A significant family or branch, with its own mansion and leadership."
+    },
+    "Kallaraykkal": {
+      "type": "proper_noun",
+      "description": "A branch of the Konnothu family, involved in inheritance and property disputes."
+    },
+    "Mangombu": {
+      "type": "proper_noun",
+      "description": "A village or locality, home to Ganapathi Ayyar and the Swami's math."
+    },
+    "Naatrangkaal Naru": {
+      "type": "proper_noun",
+      "description": "A tract of forty acres of fertile land, considered among the best in the village."
+    },
+    "Aatrukkadal": {
+      "type": "proper_noun",
+      "description": "A locality or family name, associated with Anthoni."
+    },
+    "Kol": {
+      "type": "proper_noun",
+      "description": "A locality or family name, associated with Mathayi."
+    },
+    "math": {
+      "type": "proper_noun",
+      "description": "A Brahmin religious institution or monastery, often involved in landholding and lending."
+    },
+    "Aatrithara": {
+      "type": "proper_noun",
+      "description": "A family or locality, associated with marital ties and property transfers."
+    },
+    "Ammaavi": {
+      "type": "proper_noun",
+      "description": "Title for the respected lady or matriarch of a household."
+    },
+    "Kalasip": {
+      "type": "proper_noun",
+      "description": "A laborer or worker, sometimes used for those who do odd jobs or manual labor."
+    },
+    "Sthani": {
+      "type": "proper_noun",
+      "description": "A title for the head of a family or a person holding a hereditary office."
+    },
+    "Ettukattu": {
+      "type": "proper_noun",
+      "description": "Traditional eight-pillared mansion, typical of Kerala aristocratic families."
+    },
+    "Kadammattu": {
+      "type": "proper_noun",
+      "description": "A family or locality, associated with Kochikki and property disputes."
+    },
+    "Changanassery": {
+      "type": "proper_noun",
+      "description": "A town in Kerala, known as a commercial and educational center."
+    },
+    "Palai": {
+      "type": "proper_noun",
+      "description": "A town in the eastern hills of Kerala, associated with rubber plantations."
+    },
+    "Mundampadam": {
+      "type": "proper_noun",
+      "description": "A large paddy field in Mangombu, leased by Thoma."
+    },
+    "urulai": {
+      "type": "proper_noun",
+      "description": "Traditional water-lifting device used in paddy fields."
+    },
+    "vadakkayiru": {
+      "type": "proper_noun",
+      "description": "Rope mechanism used with the urulai for irrigation."
+    },
+    "sahib": {
+      "type": "proper_noun",
+      "description": "Term used for a European or white man, often a plantation owner."
+    },
+    "Ponmudampuraan": {
+      "type": "proper_noun",
+      "description": "Title or nickname for a local ruler or landlord."
+    },
+    "Pulaya": {
+      "type": "proper_noun",
+      "description": "A Dalit (formerly 'untouchable') caste, traditionally agricultural laborers."
+    },
+    "praadu": {
+      "type": "proper_noun",
+      "description": "A legal suit or case, especially regarding property or debt."
+    },
+    "Pandinadu": {
+      "type": "proper_noun",
+      "description": "A region in Tamil Nadu, referenced in caste and migration contexts."
+    },
+    "Maravan": {
+      "type": "proper_noun",
+      "description": "A Tamil caste, here used as a slur for someone considered untrustworthy."
+    },
+    "Paraiyan": {
+      "type": "proper_noun",
+      "description": "A Dalit caste in Tamil Nadu and Kerala, traditionally considered 'untouchable.'"
+    },
+    "Madan": {
+      "type": "proper_noun",
+      "description": "A local spirit or deity worshipped by lower castes."
+    },
+    "abhisheka pedestal": {
+      "type": "proper_noun",
+      "description": "Platform used for ritual bathing of the deity during temple festivals."
+    },
+    "Kaliyattam": {
+      "type": "proper_noun",
+      "description": "Traditional ritual dance-drama of Kerala, associated with temple festivals."
+    },
+    "kudumi": {
+      "type": "proper_noun",
+      "description": "Traditional tuft of hair worn by Brahmin men."
+    },
+    "yakshi": {
+      "type": "proper_noun",
+      "description": "A female spirit or supernatural being in Kerala folklore."
+    },
+    "Kunjhan": {
+      "type": "proper_noun",
+      "description": "A common male name, here referring to a member of the Trimurthis."
+    },
+    "Karthavu": {
+      "type": "proper_noun",
+      "description": "Title for a landlord or overseer, as in Paraman Karthavu."
+    },
+    "Thiruvathira": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival in Kerala, especially for women."
+    },
+    "seer": {
+      "type": "proper_noun",
+      "description": "Customary gifts or offerings brought for festivals or ceremonies."
+    },
+    "nendran bananas": {
+      "type": "proper_noun",
+      "description": "A variety of plantain banana popular in Kerala."
+    },
+    "Poothiruvathira": {
+      "type": "proper_noun",
+      "description": "A local or variant festival related to Thiruvathira."
+    },
+    "panam": {
+      "type": "proper_noun",
+      "description": "Traditional currency unit, coin used in Kerala."
+    },
+    "Parisalotti": {
+      "type": "proper_noun",
+      "description": "A family or branch name, possibly of lower status."
+    },
+    "Parayan": {
+      "type": "proper_noun",
+      "description": "Another Dalit caste, similar to Pulayar."
+    },
+    "taluk office": {
+      "type": "proper_noun",
+      "description": "Sub-district administrative office in India."
+    },
+    "Dharmashastras": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu legal and ethical texts."
+    },
+    "Trimurthis": {
+      "type": "proper_noun",
+      "description": "The 'three great ones,' here referring to the trio of village leaders."
+    },
+    "Uppamparambu": {
+      "type": "proper_noun",
+      "description": "A locality or family name, associated with Kunjhan."
+    },
+    "Mukkol": {
+      "type": "proper_noun",
+      "description": "A locality or family name, associated with Paman Karthaavu."
+    },
+    "Sudhoorathu": {
+      "type": "proper_noun",
+      "description": "A locality or family name, associated with Ittunnan."
+    },
+    "Vaiparacheri": {
+      "type": "proper_noun",
+      "description": "A locality or family, associated with Nani and Kochunnyamma."
+    },
+    "Aravathu stone": {
+      "type": "proper_noun",
+      "description": "A specific stone or location, possibly a ritual site."
+    },
+    "Sthaninayar": {
+      "type": "proper_noun",
+      "description": "Title for a Nair holding a hereditary office."
+    },
+    "Kodupunna": {
+      "type": "proper_noun",
+      "description": "A locality or family, associated with Sthaninayar."
+    },
+    "Eriyetra property": {
+      "type": "proper_noun",
+      "description": "A property or landholding where a new branch of the family is established."
+    },
+    "Kadukkathra": {
+      "type": "proper_noun",
+      "description": "A family or locality, associated with Kochunni Nair and Kochudevi."
+    },
+    "Kadukkathra Poothiruvathira": {
+      "type": "proper_noun",
+      "description": "The Poothiruvathira festival as celebrated by the Kadukkathra community."
+    },
+    "Kadukkathra Kochukalyan": {
+      "type": "proper_noun",
+      "description": "A member of the Kadukkathra family, involved in inviting others to the festival."
+    },
+    "Seelandhippillai": {
+      "type": "proper_noun",
+      "description": "A family name, associated with Kalyaniyamma and Kesavan."
+    },
+    "Beerukannu Mudalali": {
+      "type": "proper_noun",
+      "description": "Shopkeeper and landlord, employer of Kesavan."
+    },
+    "Peerukannu": {
+      "type": "proper_noun",
+      "description": "Another name for Beerukannu Mudalali, referencing his lineage."
+    },
+    "Pennani": {
+      "type": "proper_noun",
+      "description": "A place, possibly where Peerukannu's ancestor converted to Islam."
+    },
+    "Pareed": {
+      "type": "proper_noun",
+      "description": "Islamic name taken by converts, including Peerukannu's ancestor and Vattathaan."
+    },
+    "Nair": {
+      "type": "proper_noun",
+      "description": "A dominant caste in Kerala, traditionally landowners and warriors."
+    },
+    "Parangis": {
+      "type": "proper_noun",
+      "description": "Term for Europeans, especially Portuguese, in Kerala."
+    },
+    "Dharma Sastha": {
+      "type": "proper_noun",
+      "description": "A Hindu deity, also known as Ayyappa."
+    },
+    "Sree Padmanabha": {
+      "type": "proper_noun",
+      "description": "A form of Lord Vishnu, associated with the famous temple in Thiruvananthapuram."
+    },
+    "Kashi": {
+      "type": "proper_noun",
+      "description": "The holy city of Varanasi, a major Hindu pilgrimage site."
+    },
+    "Saranath": {
+      "type": "proper_noun",
+      "description": "Sarnath, a Buddhist pilgrimage site near Varanasi."
+    },
+    "Manikarnika Ghat": {
+      "type": "proper_noun",
+      "description": "A famous cremation ghat in Varanasi."
+    },
+    "Kapilavastu": {
+      "type": "proper_noun",
+      "description": "Ancient city, birthplace of the Buddha."
+    },
+    "Mecca": {
+      "type": "proper_noun",
+      "description": "The holiest city of Islam, pilgrimage site for Muslims."
+    },
+    "Jerusalem": {
+      "type": "proper_noun",
+      "description": "A holy city for Christians, Jews, and Muslims."
+    },
+    "Palathol House": {
+      "type": "proper_noun",
+      "description": "A prominent family or household, associated with Krishnathirumeny."
+    },
+    "Moolappadathu": {
+      "type": "proper_noun",
+      "description": "A family or household, associated with Govindan."
+    },
+    "Nattasseri": {
+      "type": "proper_noun",
+      "description": "A family or household, associated with Padmanabhan."
+    },
+    "granary": {
+      "type": "vocabulary",
+      "description": "A storehouse for threshed grain, especially rice."
+    },
+    "key-bunch": {
+      "type": "vocabulary",
+      "description": "A large set of keys, symbolizing authority over property or treasury."
+    },
+    "lease": {
+      "type": "vocabulary",
+      "description": "A contract granting use of land or property in exchange for rent."
+    },
+    "mortgage": {
+      "type": "vocabulary",
+      "description": "A legal agreement in which property is pledged as security for a loan."
+    },
+    "deed": {
+      "type": "vocabulary",
+      "description": "A legal document regarding ownership or transfer of property."
+    },
+    "surveyor": {
+      "type": "vocabulary",
+      "description": "A person who measures and maps land boundaries."
+    },
+    "collective farming": {
+      "type": "vocabulary",
+      "description": "A system where multiple farmers jointly cultivate land and share the yield."
+    },
+    "paddy": {
+      "type": "vocabulary",
+      "description": "Unhusked rice, or the field where rice is grown."
+    },
+    "seed paddy": {
+      "type": "vocabulary",
+      "description": "Rice grains used for sowing new crops."
+    },
+    "share-cropping": {
+      "type": "vocabulary",
+      "description": "An arrangement where farmers cultivate land and share the produce with the landowner."
+    },
+    "sublease": {
+      "type": "vocabulary",
+      "description": "A secondary lease given by the primary leaseholder to another party."
+    },
+    "midwife": {
+      "type": "vocabulary",
+      "description": "A woman trained to assist in childbirth."
+    },
+    "untouchability": {
+      "type": "vocabulary",
+      "description": "A social practice of ostracizing certain castes considered 'impure.'"
+    },
+    "flag bearers": {
+      "type": "vocabulary",
+      "description": "Individuals who carry ceremonial flags in processions."
+    },
+    "coming-of-age sari": {
+      "type": "vocabulary",
+      "description": "A sari given to a girl during her puberty ceremony, marking her transition to womanhood."
+    },
+    "dowry": {
+      "type": "vocabulary",
+      "description": "Property or money brought by a bride to her husband on marriage."
+    },
+    "baptism": {
+      "type": "vocabulary",
+      "description": "Christian sacrament of initiation involving water."
+    },
+    "nikah": {
+      "type": "vocabulary",
+      "description": "Islamic marriage ceremony."
+    },
+    "circumcision": {
+      "type": "vocabulary",
+      "description": "Religious or cultural practice of removing the foreskin, common in Islam."
+    },
+    "Kalima": {
+      "type": "vocabulary",
+      "description": "Islamic declaration of faith."
+    },
+    "mundu": {
+      "type": "vocabulary",
+      "description": "Traditional Kerala garment, a cloth worn around the waist."
+    },
+    "bund": {
+      "type": "vocabulary",
+      "description": "An embankment or levee built to control water in paddy fields."
+    },
+    "granary platform": {
+      "type": "vocabulary",
+      "description": "Raised structure for storing grain, often a symbol of wealth."
+    },
+    "lease rent": {
+      "type": "vocabulary",
+      "description": "Payment made for the use of leased land, often in kind (paddy)."
+    },
+    "almanac": {
+      "type": "vocabulary",
+      "description": "A calendar or table showing auspicious days and planetary positions."
+    },
+    "nal": {
+      "type": "vocabulary",
+      "description": "A traditional unit of land area."
+    },
+    "palm-leaf records": {
+      "type": "vocabulary",
+      "description": "Ancient manuscripts written on dried palm leaves, used for keeping accounts."
+    },
+    "paddy field": {
+      "type": "vocabulary",
+      "description": "A flooded parcel of arable land used for growing rice."
+    },
+    "fallow": {
+      "type": "vocabulary",
+      "description": "Land left unplanted for a period to restore its fertility."
+    },
+    "jackal": {
+      "type": "vocabulary",
+      "description": "A wild animal, often associated with desolate or abandoned places."
+    },
+    "kalan hen": {
+      "type": "vocabulary",
+      "description": "A bird believed to announce death in Kerala folklore."
+    },
+    "kolath": {
+      "type": "vocabulary",
+      "description": "Sacred grove or place for worship, often associated with guardian deities."
+    },
+    "surety": {
+      "type": "vocabulary",
+      "description": "A person or thing that takes responsibility for another's performance, especially in financial matters."
+    },
+    "registration deed": {
+      "type": "vocabulary",
+      "description": "Official document recording the transfer or mortgage of property."
+    },
+    "baptism ceremony": {
+      "type": "vocabulary",
+      "description": "Christian ritual of initiation, involving water and naming."
+    },
+    "paddy granary": {
+      "type": "vocabulary",
+      "description": "A storehouse specifically for rice."
+    },
+    "Chennadan": {
+      "type": "character",
+      "description": "A respected elder and orator in the village, deeply knowledgeable about the Puranas and traditional customs; he is a central figure in community affairs and family disputes.",
+      "image": "/data/images/characters/kayar/chennadan.webp"
+    },
+    "Kallaaru Mooppan": {
+      "type": "character",
+      "description": "A respected elder in the village, often consulted on matters of tradition and community."
+    },
+    "Sunakkulathu Kittunayar": {
+      "type": "character",
+      "description": "A villager who, along with others, shares in the sorrow over the decline of the temple and village."
+    },
+    "Chennattu Kunjunayar": {
+      "type": "character",
+      "description": "A hardworking member of the Chennattu family, known for his resourcefulness and for supporting his extended family; later referred to as Kunjunayar.",
+      "image": "/data/images/characters/kayar/kunjunayar.webp"
+    },
+    "Chennattu Kesavan": {
+      "type": "character",
+      "description": "Younger brother of Chennattu Kunjunayar, a celebrated Kathakali performer in the northern regions."
+    },
+    "Kunjhan Pillai": {
+      "type": "character",
+      "description": "A member of the Uppamparambu family, involved in the temple administration."
+    },
+    "Ganapathi Namboothiri": {
+      "type": "character",
+      "description": "A Brahmin and clever administrator of the temple, whose actions and leadership are both praised and criticized in the village."
+    },
+    "Krishnan Namboothiri": {
+      "type": "character",
+      "description": "Elder brother of Ganapathi Namboothiri, who criticizes his brother's handling of temple property."
+    },
+    "Kunjunni Kaimal": {
+      "type": "character",
+      "description": "A respected elder of the Soriyan family, honored during the temple festival."
+    },
+    "Kunjammai": {
+      "type": "character",
+      "description": "Wife of Ganapathi Namboothiri, originally from the Madampikkal family of Chertala."
+    },
+    "Kochudevi": {
+      "type": "character",
+      "description": "A bold buttermilk vendor from the Konoth family who leads a group of women in challenging social norms at the temple festival."
+    },
+    "Mathullavan": {
+      "type": "character",
+      "description": "A Christian tenant farmer from Aatrukkadavu who supplies paddy to the Devasthanam."
+    },
+    "Sauriyar": {
+      "type": "character",
+      "description": "A Christian tenant farmer from Paruthikkadu who also supplies paddy to the Devasthanam."
+    },
+    "Bhavathrathan Namboothiri": {
+      "type": "character",
+      "description": "A Brahmin from the Kangothu family who, after the Mappila riots, is forcibly converted to Islam and becomes Ahmad."
+    },
+    "Thothrakkutty Antharjanam": {
+      "type": "character",
+      "description": "Daughter of Bhavathrathan Namboothiri, also converted to Islam and renamed Amina."
+    },
+    "Samu Menon": {
+      "type": "character",
+      "description": "Steward of the Kangkothu house, involved in collecting rent and caught up in the Mappila rebellion."
+    },
+    "Chinnammu": {
+      "type": "character",
+      "description": "Daughter of Samu Menon, who is abducted and later dies during the Mappila rebellion."
+    },
+    "Moidhu": {
+      "type": "character",
+      "description": "A young Muslim who loves Chinnammu and tries to protect her during the rebellion."
+    },
+    "Kangkothu Ahmad Kunji": {
+      "type": "character",
+      "description": "Leader of the Mappila group during the rebellion, responsible for capturing and converting Bhavathrathan."
+    },
+    "Govindan": {
+      "type": "character",
+      "description": "A member of the Keelmel house, who helps decide how to host Bhavathrathan and his daughter."
+    },
+    "Namboothiri Govindan": {
+      "type": "character",
+      "description": "A Brahmin at the Keelmel house who listens to Bhavathrathan's account of the Mappila rebellion."
+    },
+    "Kunjumalu Amma": {
+      "type": "character",
+      "description": "Wife of Chennadan, mother to their children, and a central figure in the Athippuraykkal family.",
+      "image": "/data/images/characters/kayar/kunjumalu-amma.webp"
+    },
+    "Eechara Pillai": {
+      "type": "character",
+      "description": "Supervisor of the paddy granary, husband of Unnachiyammai, and an honest official who faces hardship.",
+      "image": "/data/images/characters/kayar/eechara-pillai.webp"
+    },
+    "Unnachiyammai": {
+      "type": "character",
+      "description": "Daughter of Seelanthippillai Paramu Vathiyar, wife of Eechara Pillai, and mother of Kunjumalu."
+    },
+    "Madhupillai": {
+      "type": "character",
+      "description": "Eechara Pillai's maternal uncle and former supervisor of the paddy stores, from the Ezham Pillai family."
+    },
+    "Seelanthippillai Paramu Vathiyar": {
+      "type": "character",
+      "description": "Father of Unnachiyammai, a respected figure in the village."
+    },
+    "Kochittooli": {
+      "type": "character",
+      "description": "Wife of Paramu Vathiyar, mother of Unnachiyammai."
+    },
+    "Kunjumalu": {
+      "type": "character",
+      "description": "Wife of Chennadan, mother to their children, and a central figure in the Athippuraykkal family.",
+      "see": "Kunjumalu Amma",
+      "image": "/data/images/characters/kayar/kunjumalu-amma.webp"
+    },
+    "Kochchunangi": {
+      "type": "character",
+      "description": "Sister of Kunjunayar, responsible for feeding her large family after her uncle's death."
+    },
+    "Kunjhu": {
+      "type": "character",
+      "description": "Nickname for Chennattu Kunjunayar in his youth."
+    },
+    "Athippuraykkal Raghavan Pillai": {
+      "type": "character",
+      "description": "Kunjumalu’s younger brother, a teacher who later buys a plantation and is involved in family property disputes."
+    },
+    "Kochunangai": {
+      "type": "character",
+      "description": "Sister of Kunjunayar, mother of eight children, and a source of family tension."
+    },
+    "Kochukittan": {
+      "type": "character",
+      "description": "Eldest son-in-law in the Chennattu family, involved in property and family disputes."
+    },
+    "Madhavan Pillai": {
+      "type": "character",
+      "description": "Eechara Pillai’s eldest son-in-law, who claims inheritance rights to family property."
+    },
+    "Elampillil Madhavan Pillai": {
+      "type": "character",
+      "description": "Plaintiff in the court case over Athippuraykkal property, arguing for inheritance through marumakkathayam."
+    },
+    "Kunjanna Nair": {
+      "type": "character",
+      "description": "Son of Kunjachi, a teacher, Gandhian, and social reformer who leads many progressive movements in the village."
+    },
+    "Kunjachi": {
+      "type": "character",
+      "description": "Mother of Kunjanna Nair, a maid at the Palathol house."
+    },
+    "Manikandan": {
+      "type": "character",
+      "description": "Son of Chennadan and Kunjumalu Amma, a bright student and budding poet.",
+      "image": "/data/images/characters/kayar/manikandan.png"
+    },
+    "Viswanathan": {
+      "type": "character",
+      "description": "Manikandan’s close friend, son of a school headmistress, and fellow student.",
+      "image": "/data/images/characters/kayar/viswanathan.png"
+    },
+    "Sarada": {
+      "type": "character",
+      "description": "A girl in Manikandan’s class who cares for him."
+    },
+    "Surendran": {
+      "type": "character",
+      "description": "A friend of Manikandan, involved in labor organizing and trade union activities among Pulayars and Parayars.",
+      "image": "/data/images/characters/kayar/surendran.png"
+    },
+    "Ponnamma": {
+      "type": "character",
+      "description": "Surendran’s wife, whom he marries to avoid temptation."
+    },
+    "Paachu": {
+      "type": "character",
+      "description": "Ganapathi Namboothiri’s boatman, later found murdered; also a hotel worker who supports his family."
+    },
+    "Parayan Idyappan": {
+      "type": "character",
+      "description": "A member of the Parayan caste, first to walk on public roads after untouchability restrictions are lifted."
+    },
+    "Vettippurakkal Kunjannayar": {
+      "type": "character",
+      "description": "Teacher who admits Ezhava children to school, follower of Gandhiji and Sree Narayana Guru."
+    },
+    "Kochuraman Vaidyar": {
+      "type": "character",
+      "description": "Prominent Ezhava in the village, prefers to maintain caste distinctions."
+    },
+    "Nattacheri Padmanabhan": {
+      "type": "character",
+      "description": "A villager who funds legal action against Ganapathi Namboothiri."
+    },
+    "Krishnan Pillai": {
+      "type": "character",
+      "description": "Appointed as the new temple manager after the receiver administration."
+    },
+    "Vattathara Grigory": {
+      "type": "character",
+      "description": "A prominent Christian who helps organize the Congress conference."
+    },
+    "Paruthikkattu Thomas": {
+      "type": "character",
+      "description": "Another leading Christian involved in the Congress conference."
+    },
+    "Suren": {
+      "type": "character",
+      "description": "A friend of Manikandan, involved in labor organizing and trade union activities among Pulayars and Parayars.",
+      "see": "Surendran",
+      "image": "/data/images/characters/kayar/surendran.webp"
+    },
+    "Karthiyayani": {
+      "type": "character",
+      "description": "Beneficiary of Kunjanna Nair’s will, along with her unborn child."
+    },
+    "Puranas": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu scriptures containing mythological stories and teachings."
+    },
+    "Kali Yuga": {
+      "type": "proper_noun",
+      "description": "The current age in Hindu cosmology, often described as an era of decline and moral decay."
+    },
+    "Dharma": {
+      "type": "proper_noun",
+      "description": "A key concept in Indian religions, meaning righteousness, moral order, or duty."
+    },
+    "Palathol": {
+      "type": "proper_noun",
+      "description": "A prominent family or house in the village."
+    },
+    "Madampikkal": {
+      "type": "proper_noun",
+      "description": "A family or lineage, here from Chertala."
+    },
+    "Chertala": {
+      "type": "proper_noun",
+      "description": "A town in Kerala."
+    },
+    "Konoth": {
+      "type": "proper_noun",
+      "description": "A family or lineage in the village."
+    },
+    "Sthanis": {
+      "type": "proper_noun",
+      "description": "Hereditary temple administrators or dignitaries."
+    },
+    "Ashtabandha Kalasam": {
+      "type": "proper_noun",
+      "description": "A special Hindu ritual for restoring the power of a temple idol."
+    },
+    "Aatrukkadavu": {
+      "type": "proper_noun",
+      "description": "A place or locality, home to Mathullavan."
+    },
+    "Paruthikkadu": {
+      "type": "proper_noun",
+      "description": "A place or locality, home to Sauriyar."
+    },
+    "Antharjanam": {
+      "type": "proper_noun",
+      "description": "A term for Namboothiri Brahmin women."
+    },
+    "Valluvanadu": {
+      "type": "proper_noun",
+      "description": "A historical region in Kerala."
+    },
+    "Kathakali": {
+      "type": "proper_noun",
+      "description": "A classical dance-drama from Kerala, known for its elaborate costumes and storytelling."
+    },
+    "Mappila": {
+      "type": "proper_noun",
+      "description": "A Muslim community in Kerala; also refers to the Mappila rebellion."
+    },
+    "Travancore": {
+      "type": "proper_noun",
+      "description": "A princely state in southern Kerala."
+    },
+    "Shudra": {
+      "type": "proper_noun",
+      "description": "The lowest of the four varnas (castes) in traditional Hindu society."
+    },
+    "Keelmel": {
+      "type": "proper_noun",
+      "description": "A family or house name in the village."
+    },
+    "Kangkothu": {
+      "type": "proper_noun",
+      "description": "A family or house name, involved in the Mappila rebellion story."
+    },
+    "Varyantra": {
+      "type": "proper_noun",
+      "description": "A house or estate name in Alappuzha."
+    },
+    "Ezhava": {
+      "type": "proper_noun",
+      "description": "A prominent caste in Kerala, historically considered lower caste and often associated with social reform."
+    },
+    "Vedippurakkal": {
+      "type": "proper_noun",
+      "description": "A family or house name, also used as a prefix for Kunjannayar."
+    },
+    "Gandhiji": {
+      "type": "proper_noun",
+      "description": "Refers to Mahatma Gandhi, leader of the Indian independence movement."
+    },
+    "Sree Narayana Guru": {
+      "type": "proper_noun",
+      "description": "A revered social reformer and spiritual leader among the Ezhavas and other communities in Kerala."
+    },
+    "Sree Narayana Dharma Paripalana Sangham": {
+      "type": "proper_noun",
+      "description": "An organization founded by Sree Narayana Guru to promote social reform and upliftment."
+    },
+    "Nair Service Society": {
+      "type": "proper_noun",
+      "description": "A community organization for the Nair caste, promoting their welfare and interests."
+    },
+    "Ponnuthampuran Thirunal": {
+      "type": "proper_noun",
+      "description": "A festival or celebration associated with the Maharaja."
+    },
+    "Sri Padmanabhan": {
+      "type": "proper_noun",
+      "description": "Refers to Lord Padmanabha, the presiding deity of the Travancore royal family; also used on currency."
+    },
+    "Erumelil": {
+      "type": "proper_noun",
+      "description": "A place or region, likely referring to Erumeli in Kerala."
+    },
+    "Kottayam": {
+      "type": "proper_noun",
+      "description": "A major town in Kerala."
+    },
+    "Thampanoor": {
+      "type": "proper_noun",
+      "description": "A locality in Thiruvananthapuram."
+    },
+    "Bharat Mata ki Jai": {
+      "type": "proper_noun",
+      "description": "A patriotic slogan meaning 'Victory to Mother India'."
+    },
+    "Vaikom": {
+      "type": "proper_noun",
+      "description": "A town in Kerala, famous for the Vaikom Satyagraha against untouchability."
+    },
+    "Satyagraha": {
+      "type": "proper_noun",
+      "description": "A form of nonviolent protest popularized by Mahatma Gandhi."
+    },
+    "Harijan": {
+      "type": "proper_noun",
+      "description": "A term used by Gandhi for people considered 'untouchable' in the caste system."
+    },
+    "Balasena": {
+      "type": "proper_noun",
+      "description": "A youth group or brigade, here involved in community action."
+    },
+    "Puthupparambu": {
+      "type": "proper_noun",
+      "description": "A place or house name, bequeathed in Kunjanna Nair’s will."
+    },
+    "Kondal": {
+      "type": "proper_noun",
+      "description": "A term or name mentioned in the context of prayers for Manikandan."
+    },
+    "Nandankode": {
+      "type": "proper_noun",
+      "description": "A locality in Thiruvananthapuram."
+    },
+    "Parayathara": {
+      "type": "proper_noun",
+      "description": "A locality in Kottayam town."
+    },
+    "Paraiyar": {
+      "type": "proper_noun",
+      "description": "A Dalit caste, similar to Parayan, found in Kerala and Tamil Nadu."
+    },
+    "betel": {
+      "type": "vocabulary",
+      "description": "A leaf from the betel plant, often chewed with areca nut and lime as a mild stimulant."
+    },
+    "plantain leaf": {
+      "type": "vocabulary",
+      "description": "A large leaf from the banana plant, traditionally used as a plate for serving food in Kerala."
+    },
+    "veshti": {
+      "type": "vocabulary",
+      "description": "A traditional South Indian garment, a rectangular cloth worn around the waist."
+    },
+    "kanji": {
+      "type": "vocabulary",
+      "description": "A rice gruel or porridge, a staple food in Kerala."
+    },
+    "ashram": {
+      "type": "vocabulary",
+      "description": "A spiritual hermitage or community, often associated with Gandhian or religious movements."
+    },
+    "vakil": {
+      "type": "vocabulary",
+      "description": "A lawyer or legal advocate."
+    },
+    "arrack": {
+      "type": "vocabulary",
+      "description": "A distilled alcoholic drink made from fermented sap of coconut flowers or sugarcane."
+    },
+    "tahsildar": {
+      "type": "vocabulary",
+      "description": "A revenue administrative officer in charge of a taluk or sub-district."
+    },
+    "sovereign": {
+      "type": "vocabulary",
+      "description": "A gold coin, often used as a measure of wealth or dowry."
+    },
+    "satyagrahi": {
+      "type": "vocabulary",
+      "description": "A participant in satyagraha, or nonviolent resistance."
+    },
+    "receiver": {
+      "type": "vocabulary",
+      "description": "A court-appointed administrator to manage property or institutions during legal disputes."
+    },
+    "bhajans": {
+      "type": "vocabulary",
+      "description": "Devotional songs sung in praise of deities, often in group settings."
+    },
+    "paddy-threshing room": {
+      "type": "vocabulary",
+      "description": "A room used for threshing and processing harvested paddy."
+    },
+    "Malancheri Pappi": {
+      "type": "character",
+      "description": "Matriarch of the Malancheri family, whose fortunes rise due to her son's success abroad."
+    },
+    "Gopalakrishnan": {
+      "type": "character",
+      "description": "Pappiyamma's son who works in Malaya, sends money home, and later dies in the war; a symbol of migration and sacrifice."
+    },
+    "Pappiyamma": {
+      "type": "character",
+      "description": "Mother of Gopalakrishnan, a lender of gold and money in the village, and a central figure in her family's prosperity."
+    },
+    "Levadevi": {
+      "type": "character",
+      "description": "A woman who lends gold and gives loans, possibly a moneylender in the community."
+    },
+    "Chennattu Kunjannayar": {
+      "type": "character",
+      "description": "A villager who often borrows from Pappiyamma, once her secret lover, and later a symbol of the older generation."
+    },
+    "Vattathara Krikary": {
+      "type": "character",
+      "description": "A prominent farmer in the village, involved in land disputes and agricultural politics."
+    },
+    "Paruthikkattu Kocheuseppu": {
+      "type": "character",
+      "description": "A large Christian landowner and farmer, representative of the rising Christian agrarian class."
+    },
+    "Aathumali Anthoni": {
+      "type": "character",
+      "description": "Another major Christian landowner, illustrating the shift in land ownership."
+    },
+    "Srinivasaiyyar": {
+      "type": "character",
+      "description": "A wealthy moneylender and landowner from Mangombu, central to the village's debt issues."
+    },
+    "Grigory": {
+      "type": "character",
+      "description": "A farmer and activist working for debt relief, involved in village politics.",
+      "image": "/data/images/characters/kayar/grigory.png"
+    },
+    "Diwanji": {
+      "type": "character",
+      "description": "The chief minister or high official of the princely state, whose birthday celebration becomes a political flashpoint."
+    },
+    "Thomas": {
+      "type": "character",
+      "description": "Son of Kochauthayi from Paruthikkadu, a Congress youth opposing the Diwanji's reception."
+    },
+    "Philip": {
+      "type": "character",
+      "description": "Son of the Karikari from Vattathara, a Congress youth."
+    },
+    "Varghese": {
+      "type": "character",
+      "description": "Son of Anthony from Aathumala, a Congress youth."
+    },
+    "Sridharan": {
+      "type": "character",
+      "description": "A youth involved in the Congress opposition to the Diwanji's reception."
+    },
+    "Kaurikkunjamma": {
+      "type": "character",
+      "description": "A mother whose sons serve in the army, known for her hospitality to the postman."
+    },
+    "Vasudevan": {
+      "type": "character",
+      "description": "Kaurikkunjamma's son, who joins the army and dies in the war."
+    },
+    "Krishnan": {
+      "type": "character",
+      "description": "Kaurikkunjamma's younger son, who also joins the army and dies."
+    },
+    "Gaurikkutty": {
+      "type": "character",
+      "description": "A woman who tends to the postman with devotion, possibly another name for Kaurikkunjamma."
+    },
+    "Seeratta Gopalan": {
+      "type": "character",
+      "description": "A man who becomes wealthy during the war by trading in paddy and rice."
+    },
+    "Seeratta Gopalakkaimal": {
+      "type": "character",
+      "description": "Another name for Seeratta Gopalan, emphasizing his status."
+    },
+    "Abdul Razak": {
+      "type": "character",
+      "description": "A descendant of Beerukannu, current owner of the Seeratta estate, who returns land to its Hindu owners after independence."
+    },
+    "Suleiman": {
+      "type": "character",
+      "description": "Abdul Razak's younger brother, who wishes to migrate to Pakistan after Partition."
+    },
+    "Parayathra Paachu": {
+      "type": "character",
+      "description": "A man who becomes wealthy during the war by supplying wooden goods."
+    },
+    "Pappa": {
+      "type": "character",
+      "description": "Sotha's daughter, a laborer and activist, involved with Surendran."
+    },
+    "Kuttappan": {
+      "type": "character",
+      "description": "Pappa's husband, who complains about her relationship with Surendran."
+    },
+    "Neeli": {
+      "type": "character",
+      "description": "Kannan's daughter, rumored to have a child by Surendran."
+    },
+    "Gauriyamma": {
+      "type": "character",
+      "description": "A woman arrested during the Quit India movement.",
+      "image": "/data/images/characters/kayar/gauriyamma.png"
+    },
+    "Thamas": {
+      "type": "character",
+      "description": "A man arrested during the Quit India movement."
+    },
+    "Gopalan Nayar": {
+      "type": "character",
+      "description": "Neighbor who reads the Bhagavatam to Kunjunayar on his deathbed."
+    },
+    "Malancheri": {
+      "type": "proper_noun",
+      "description": "A family and house in the village, symbolizing changing fortunes."
+    },
+    "Malaya": {
+      "type": "proper_noun",
+      "description": "Historical term for present-day Malaysia, where many Malayalis migrated for work."
+    },
+    "Math": {
+      "type": "proper_noun",
+      "description": "A Hindu monastic institution or religious establishment, often holding land and lending money."
+    },
+    "Congress": {
+      "type": "proper_noun",
+      "description": "Refers to the Indian National Congress, the main political party leading the independence movement."
+    },
+    "INA": {
+      "type": "proper_noun",
+      "description": "Indian National Army, a force formed by Indian nationalists in Southeast Asia during WWII to fight for independence."
+    },
+    "Bhagavatam": {
+      "type": "proper_noun",
+      "description": "A major Hindu scripture, also known as the Bhagavata Purana."
+    },
+    "Ekadasha Skandham": {
+      "type": "proper_noun",
+      "description": "The eleventh section or canto of the Bhagavatam, considered significant in ritual readings."
+    },
+    "Koyirpuram": {
+      "type": "proper_noun",
+      "description": "A locality or house plot in the village, site of Kunjunayar and Kunjumalu Amma's funeral."
+    },
+    "Makkaal": {
+      "type": "proper_noun",
+      "description": "Name of a paddy field or locality in the village."
+    },
+    "Seeratta Mana": {
+      "type": "proper_noun",
+      "description": "The ancestral home of the Seeratta family."
+    },
+    "Vattathara": {
+      "type": "proper_noun",
+      "description": "A locality or family name, associated with Krikary and Philip."
+    },
+    "Aathumala": {
+      "type": "proper_noun",
+      "description": "A locality or family name, associated with Anthoni and Varghese."
+    },
+    "Mathakoyil": {
+      "type": "proper_noun",
+      "description": "A church or parish in the region."
+    },
+    "Mahabali": {
+      "type": "proper_noun",
+      "description": "A legendary king in Kerala mythology, associated with the Onam festival."
+    },
+    "Thunbeghat": {
+      "type": "proper_noun",
+      "description": "A locality or family name, associated with Gauriyar."
+    },
+    "Gauriyar": {
+      "type": "proper_noun",
+      "description": "A title or name, possibly denoting a community leader or elder."
+    },
+    "Parayars": {
+      "type": "proper_noun",
+      "description": "A Dalit (formerly 'untouchable') caste traditionally engaged in agricultural labor."
+    },
+    "pongal": {
+      "type": "proper_noun",
+      "description": "A traditional South Indian rice dish, often eaten during festivals."
+    },
+    "Bharat": {
+      "type": "proper_noun",
+      "description": "The Hindi name for India."
+    },
+    "Dharma Chakra": {
+      "type": "proper_noun",
+      "description": "The 'Wheel of Dharma', a symbol on the Indian national flag."
+    },
+    "Mahatmaji": {
+      "type": "proper_noun",
+      "description": "A respectful term for Mahatma Gandhi."
+    },
+    "pujas": {
+      "type": "proper_noun",
+      "description": "Hindu religious rituals or worship ceremonies."
+    },
+    "darbha grass": {
+      "type": "vocabulary",
+      "description": "A sacred grass used in Hindu rituals and funerals."
+    },
+    "Mana": {
+      "type": "vocabulary",
+      "description": "A traditional Namboothiri Brahmin ancestral home in Kerala."
+    },
+    "Quit India": {
+      "type": "vocabulary",
+      "description": "Refers to the Quit India Movement, a mass protest demanding an end to British rule in India."
+    },
+    "lathi charge": {
+      "type": "vocabulary",
+      "description": "A police tactic involving charging a crowd with long bamboo sticks (lathis) to disperse them."
+    },
+    "money order": {
+      "type": "vocabulary",
+      "description": "A method of sending money by post, common before widespread banking."
+    },
+    "telegram": {
+      "type": "vocabulary",
+      "description": "A message sent by telegraph, often used for urgent or official communication."
+    },
+    "sharecropping": {
+      "type": "vocabulary",
+      "description": "A system where farmers cultivate land owned by others and share the produce."
+    },
+    "tricolour": {
+      "type": "vocabulary",
+      "description": "The Indian national flag, with three horizontal bands of color."
+    },
+    "party": {
+      "type": "vocabulary",
+      "description": "Refers to the Communist Party or a similar political organization active in Kerala's labor movement."
+    },
+    "Sadanandan": {
+      "type": "character",
+      "description": "The Left (Communist) candidate, known for his role in the Punnapra Vayalar struggle."
+    },
+    "Paruthikkattu Kochousepp": {
+      "type": "character",
+      "description": "A landlord who, along with Krikary, attempts to control workers and elections."
+    },
+    "Vattathra Philipose": {
+      "type": "character",
+      "description": "A wealthy candidate opposing Surendran in the panchayat elections, willing to buy votes."
+    },
+    "Pamupillai": {
+      "type": "character",
+      "description": "A member of the Seelanthippillil family, now working in Kochi, who supports his sister Gauriyamma."
+    },
+    "Paramupillai": {
+      "type": "character",
+      "description": "A family member of Seelanthippillil who remains unmarried and helps Gauri."
+    },
+    "Arya Antharjanam": {
+      "type": "character",
+      "description": "Vasudevan's wife, living with him and their children in the Palathol house."
+    },
+    "Subhadra": {
+      "type": "character",
+      "description": "Daughter of Vasudevan and Arya Antharjanam."
+    },
+    "Valiyakunjathi": {
+      "type": "character",
+      "description": "Son of the elder Pulayan, who boldly addresses Krikari, symbolizing changing social relations."
+    },
+    "Karuthai": {
+      "type": "character",
+      "description": "A laborer whose corpse is found floating in the river, representing the violence of the era."
+    },
+    "Koya": {
+      "type": "character",
+      "description": "Watchman at the choultry in Thiruvananthapuram who shelters Manikandan."
+    },
+    "Saleel": {
+      "type": "character",
+      "description": "Surendran's son by Pappa, a union secretary and adversary to Surendran in the factory strike."
+    },
+    "Kadukkathra Kunjukuttan": {
+      "type": "character",
+      "description": "A former Naxalite who applies for a job at the factory, struggling with his past."
+    },
+    "Anthoni of Aatrukkadavu": {
+      "type": "character",
+      "description": "An elderly landlord, part of the trio reflecting on the changes in the village."
+    },
+    "Kochouseph of Paruthikkadu": {
+      "type": "character",
+      "description": "An elderly landlord, part of the trio reflecting on the changes in the village."
+    },
+    "Poovachaal Paili": {
+      "type": "character",
+      "description": "A man who temporarily holds Krikari's land as a benami during the land ceiling."
+    },
+    "Suppaiyan": {
+      "type": "character",
+      "description": "The first to bring the term 'Saar' (Sir) to the village, remembered for his romance with Seelanthippillil Kalyaniyamma."
+    },
+    "Nattacheriy Ramachandran Pillai": {
+      "type": "character",
+      "description": "Father of Madhu and Nalini, struggling to secure his children's futures."
+    },
+    "Madhu": {
+      "type": "character",
+      "description": "Son of Ramachandran Pillai, who elopes with Rosakkutty."
+    },
+    "Nalini": {
+      "type": "character",
+      "description": "Madhu's younger sister, a B.A. graduate awaiting marriage."
+    },
+    "Rosakkutty": {
+      "type": "character",
+      "description": "A college student from the Aatrukkadalil family who elopes with Madhu."
+    },
+    "Damodaran": {
+      "type": "character",
+      "description": "Gopalakkaimal's educated son, who does not help with family work."
+    },
+    "Narayana Panicker": {
+      "type": "character",
+      "description": "Panchayat member who learns about the Land Tribunal and its implications."
+    },
+    "Paruthikkattu Kochouthayam": {
+      "type": "character",
+      "description": "A landlord who, along with others, fears the coming land reform."
+    },
+    "Vattathara Karikari": {
+      "type": "character",
+      "description": "A landlord, possibly another spelling of Krikary/Krikori, who fears land reform."
+    },
+    "Chain Measurer Nagam Pillai": {
+      "type": "character",
+      "description": "A figure from the past known for measuring land boundaries."
+    },
+    "Konnothu Vallyachan": {
+      "type": "character",
+      "description": "Ancestral figure, once a village leader, now referenced as a ghostly presence."
+    },
+    "Paruthikkattu Olatha": {
+      "type": "character",
+      "description": "A figure from the past, referenced as a ghostly presence."
+    },
+    "Thunbekkalavan": {
+      "type": "character",
+      "description": "A landlord terrified by the Naxalite threat."
+    },
+    "Murugan": {
+      "type": "character",
+      "description": "A laborer killed by Philip in the Thodarchi hills."
+    },
+    "Paruthikkattu Sochchoth": {
+      "type": "character",
+      "description": "A villager who asks the crucial question about food security at the end of the chapter."
+    },
+    "Begkal fields": {
+      "type": "proper_noun",
+      "description": "A locality or group of fields in the village, associated with Gauriyar."
+    },
+    "Communist": {
+      "type": "proper_noun",
+      "description": "Refers to the Communist Party and its ideology, influential in Kerala's politics and land reforms."
+    },
+    "Punnapra Vayalar": {
+      "type": "proper_noun",
+      "description": "Refers to the Punnapra-Vayalar uprising, a historic Communist-led workers' revolt in Kerala in 1946."
+    },
+    "Vayalar": {
+      "type": "proper_noun",
+      "description": "A village in Kerala, site of the famous Punnapra-Vayalar uprising."
+    },
+    "Aatrukkadalil": {
+      "type": "proper_noun",
+      "description": "A Christian family in the village, home of Rosakkutty."
+    },
+    "Sirattai": {
+      "type": "proper_noun",
+      "description": "A locality in the village where Kunjamma, the orphaned woman, lived."
+    },
+    "Kazhimukham": {
+      "type": "proper_noun",
+      "description": "A beach in Thiruvananthapuram where Manikandan wanders and a suicide occurs."
+    },
+    "Kuttanad": {
+      "type": "proper_noun",
+      "description": "A region in Kerala known for its vast paddy fields and backwaters."
+    },
+    "Balathol house": {
+      "type": "proper_noun",
+      "description": "A family house in the village, associated with Vasudevan."
+    },
+    "Pulayan": {
+      "type": "proper_noun",
+      "description": "A Dalit caste traditionally associated with agricultural labor in Kerala."
+    },
+    "Parayas": {
+      "type": "proper_noun",
+      "description": "A Dalit caste in Kerala, traditionally agricultural laborers."
+    },
+    "Naxalite": {
+      "type": "proper_noun",
+      "description": "A member of the radical Communist movement in India, inspired by the Naxalbari uprising."
+    },
+    "Kadukathra Kunnukkutty": {
+      "type": "proper_noun",
+      "description": "A village or locality associated with Naxalite activity."
+    },
+    "Devaswom": {
+      "type": "proper_noun",
+      "description": "A temple trust or administrative body managing Hindu temples in Kerala."
+    },
+    "Kalasiper": {
+      "type": "proper_noun",
+      "description": "Likely a local deity or temple figure, mentioned in connection with donations."
+    },
+    "Erumathra Madam": {
+      "type": "proper_noun",
+      "description": "A religious or community building donated to the Kalasiper."
+    },
+    "Land Tribunal": {
+      "type": "proper_noun",
+      "description": "A government office established to implement land reform laws and settle land disputes."
+    },
+    "Panchayat": {
+      "type": "proper_noun",
+      "description": "The local self-government body at the village level in India."
+    },
+    "Panchayat hall": {
+      "type": "proper_noun",
+      "description": "The building where the panchayat meets."
+    },
+    "Land Reform Act": {
+      "type": "proper_noun",
+      "description": "A law passed to redistribute land from landlords to tenants and the landless."
+    },
+    "Pattas": {
+      "type": "proper_noun",
+      "description": "Legal documents granting ownership or tenancy rights to land."
+    },
+    "Thodarchi hills": {
+      "type": "proper_noun",
+      "description": "A hilly region or estate area in the east, associated with Philip and laborers."
+    },
+    "Mangalassery": {
+      "type": "proper_noun",
+      "description": "A locality with karisal lands that have been converted to house plots."
+    },
+    "Seelanthippillil": {
+      "type": "proper_noun",
+      "description": "A family or house in the village, associated with Kalyaniyamma and others."
+    },
+    "Saar": {
+      "type": "proper_noun",
+      "description": "A Malayalam adaptation of 'Sir', used as a respectful address for superiors."
+    },
+    "Karthika wind": {
+      "type": "proper_noun",
+      "description": "A seasonal wind in Kerala, associated with the Karthika star and agricultural cycles."
+    },
+    "Kaalaar river": {
+      "type": "proper_noun",
+      "description": "A river in the region, source of floods and irrigation."
+    },
+    "Gandharvans": {
+      "type": "proper_noun",
+      "description": "Mythical celestial beings in Hindu tradition, believed to inhabit family homes."
+    },
+    "Panchayat President Tenant Surendran": {
+      "type": "proper_noun",
+      "description": "Refers to Surendran's dual role as both panchayat president and tenant leader."
+    },
+    "Kochoutha": {
+      "type": "proper_noun",
+      "description": "A landlord, possibly another spelling of Kochouthayam."
+    },
+    "Palathol family": {
+      "type": "proper_noun",
+      "description": "A once-prominent family in the village, now impoverished."
+    },
+    "Suppaiyan Saar": {
+      "type": "proper_noun",
+      "description": "Suppaiyan, who introduced the term 'Saar' to the village."
+    },
+    "sickle": {
+      "type": "vocabulary",
+      "description": "A curved, hand-held agricultural tool used for harvesting crops."
+    },
+    "constituency": {
+      "type": "vocabulary",
+      "description": "A geographic area represented by an elected official."
+    },
+    "open votes": {
+      "type": "vocabulary",
+      "description": "Votes cast openly, often under the supervision or pressure of landlords, as opposed to secret ballots."
+    },
+    "registers": {
+      "type": "vocabulary",
+      "description": "Official records, often referring to land or tenancy records."
+    },
+    "pamphlet": {
+      "type": "vocabulary",
+      "description": "A small booklet or leaflet containing information or political propaganda."
+    },
+    "pit notice": {
+      "type": "vocabulary",
+      "description": "A public notice, often posted in a conspicuous place, used for accusations or announcements."
+    },
+    "panchayat": {
+      "type": "vocabulary",
+      "description": "The local self-government council at the village level in India."
+    },
+    "ward": {
+      "type": "vocabulary",
+      "description": "A division or district within a panchayat or municipality, represented by an elected member."
+    },
+    "tharavadu": {
+      "type": "vocabulary",
+      "description": "The ancestral joint family home and system in Kerala."
+    },
+    "kuthuvilakku": {
+      "type": "vocabulary",
+      "description": "A traditional South Indian oil lamp, used in rituals and ceremonies."
+    },
+    "patta": {
+      "type": "vocabulary",
+      "description": "A legal document granting ownership or tenancy rights to land."
+    },
+    "lessor": {
+      "type": "vocabulary",
+      "description": "A person who leases land or property to another."
+    },
+    "tenant": {
+      "type": "vocabulary",
+      "description": "A person who occupies land or property rented from a landlord."
+    },
+    "landlord": {
+      "type": "vocabulary",
+      "description": "A person who owns and leases land to tenants."
+    },
+    "archana": {
+      "type": "vocabulary",
+      "description": "A Hindu ritual involving the chanting of names and offering of flowers or rice to a deity."
+    },
+    "pooja": {
+      "type": "vocabulary",
+      "description": "A Hindu act of worship or ritual."
+    },
+    "benami": {
+      "type": "vocabulary",
+      "description": "A property held in the name of another person to conceal the real owner's identity."
+    },
+    "coolie": {
+      "type": "vocabulary",
+      "description": "A manual laborer, especially one employed in agriculture or construction."
+    },
+    "palmyra": {
+      "type": "vocabulary",
+      "description": "A type of palm tree, whose leaves are used for thatching and writing manuscripts."
+    },
+    "naal": {
+      "type": "vocabulary",
+      "description": "A traditional unit of land area in Kerala."
+    },
+    "Inquilab Zindabad": {
+      "type": "vocabulary",
+      "description": "A revolutionary slogan in Urdu/Hindi meaning 'Long live the revolution'."
+    },
+    "land ceiling": {
+      "type": "vocabulary",
+      "description": "A legal limit on the amount of land one family or individual can own."
+    },
+    "pattas": {
+      "type": "vocabulary",
+      "description": "Legal documents granting ownership or tenancy rights to land."
+    },
+    "class enemy": {
+      "type": "vocabulary",
+      "description": "A person or group seen as an adversary of the working class, especially in Communist ideology."
+    },
+    "gruel": {
+      "type": "vocabulary",
+      "description": "A thin porridge made by boiling rice or other grains in water, often eaten by the poor."
+    },
+    "seedling land": {
+      "type": "vocabulary",
+      "description": "Land used for growing young rice plants before transplanting."
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Klassiper",
+      "Kodanthara Moothassan",
+      "Kanakku Pillai",
+      "Ponnu Thampuran",
+      "Thampuratti Amma",
+      "Kunjudevi",
+      "Mani",
+      "Kunnukki",
+      "Pottachi",
+      "Kunjilakshi",
+      "Kuruppachan",
+      "Asan",
+      "Achoman Mama",
+      "Idramankonthi",
+      "Kochupillai",
+      "Kunjulakshmi",
+      "Subbaiyan Swami",
+      "Bhavathi",
+      "Yandan",
+      "Devadi Mullakkaran",
+      "Erikkillathu Pappu",
+      "Pappu Panikkar",
+      "Kunju Lakshmiyammai",
+      "Ittirachikkaimal",
+      "Cheyya Mullakkaran",
+      "Unnooliyamma",
+      "Paacharan",
+      "Seerattak Kaimalan",
+      "Konnothu Pillai",
+      "Sankaran Annaavi",
+      "Balathol Mukundar",
+      "Kochumichar",
+      "Paru",
+      "Thattachari Samimoopar",
+      "Nangaiyar",
+      "Kochu Pennu Kunjammai",
+      "Ittikkuruppu",
+      "Ayyappa Kuruppu",
+      "Seshaiyyan",
+      "Kochachasan",
+      "Chakki",
+      "Kalyaniyammai",
+      "Paramu Vathiyar",
+      "Kochittuli",
+      "Kunnumalu",
+      "Nagampillai",
+      "Paruthikkattu Othai",
+      "Orodhai",
+      "Varkki",
+      "Mangalacheri Iravippillai",
+      "Kochunnyamma",
+      "Pachaalathu Kodhai",
+      "Valiyamaani Paatti",
+      "Kunjanda Pillai Mama",
+      "Thampi Muraikkaran Madhupillai",
+      "Kochumaniyammai",
+      "Pappummaavan",
+      "Kochukoathai",
+      "Kochukothai Akka",
+      "Kochumani",
+      "Seelandhippillai Paramu Vathiyar",
+      "Krishnankovindan",
+      "Vaaryanthara Kochittuliyamma",
+      "Kochidvoori",
+      "Unni Namboothiri",
+      "Vezhapra family",
+      "Erumathramadam",
+      "Sthanikars",
+      "Sudra",
+      "Namboothiri",
+      "Thantris",
+      "Tahsildar",
+      "Ponnu Thampuran",
+      "Ambalappuzha",
+      "Thampuratti Amma",
+      "Kunnukki",
+      "Kuruppachan",
+      "Asan",
+      "naivedya prasadam",
+      "rajabhogam",
+      "Talavayi",
+      "taluka",
+      "tandalkaran",
+      "Mulleppilli family",
+      "marumakkathayam",
+      "Karanavar",
+      "marakkals",
+      "chakrams",
+      "Vettikkattu",
+      "Purana",
+      "Achoma Purana",
+      "Hanuman",
+      "Devasthanam",
+      "Mangalaseri family",
+      "Nagarasi",
+      "Pullattu family",
+      "Idyathikaimal",
+      "karisal",
+      "Marutha",
+      "Pulayars",
+      "Dharmasastha",
+      "Thiruvananthapuram",
+      "Kilimanoor",
+      "Madappalli",
+      "Kandavarnan",
+      "Devadi Mullakkaran",
+      "Panikkar",
+      "marakkal",
+      "Kochu Pennu Kunjammai",
+      "Ezhupura",
+      "kalari",
+      "Pattar",
+      "thali",
+      "puja",
+      "namaskara rice",
+      "angavastram",
+      "tulasi",
+      "kasturi",
+      "naazhigai",
+      "mamathu",
+      "Seeratta family",
+      "Namboothiris",
+      "Pattars",
+      "Ganapathippotri",
+      "Siruthakunjammai",
+      "Nagampillai",
+      "Paruthikkattu",
+      "Konnotthu",
+      "Vaipparacheri",
+      "Periyamma",
+      "Pachaalathu Kodhai",
+      "Valiyamaani Paatti",
+      "Chanakathara",
+      "neyyappam",
+      "pandal",
+      "Bhagavathi",
+      "Ganapathi homam",
+      "Mrityunjaya homam",
+      "Gita Govinda",
+      "Grantha Library",
+      "Chithirai",
+      "Padeni",
+      "thullal",
+      "chovan",
+      "geethangal",
+      "parayan",
+      "kakkan thullal",
+      "Kaakkathi",
+      "Kasi",
+      "dakshina",
+      "bhajan",
+      "Chandali",
+      "Kaplangattu Mana",
+      "Malabar",
+      "Thiruvambadi",
+      "Varyanthara",
+      "Alappuzha",
+      "pottu",
+      "toddy",
+      "madam",
+      "prasadam",
+      "marakkal",
+      "chakram",
+      "sambandham",
+      "mundus",
+      "angavastram",
+      "thali",
+      "puja",
+      "homam",
+      "naivedya",
+      "pandal",
+      "Periyamma",
+      "karanavar",
+      "matrilineal",
+      "Pulayar",
+      "karisal",
+      "Gandharva",
+      "Gandharvan",
+      "Sthanikar",
+      "Pottachi",
+      "Karanavar",
+      "marumakkathayam",
+      "naazhigai",
+      "kasturi",
+      "punugu",
+      "parijata",
+      "bhajan",
+      "dakshina",
+      "Chandali",
+      "thullal",
+      "kakkan",
+      "namaskara rice",
+      "sari",
+      "bhajan hall",
+      "pottu",
+      "thaali",
+      "neyyappam"
+    ],
+    "ch-1-2": [
+      "Konnothu Valyachan",
+      "Kodanthra Moothassan",
+      "Seerattakaimal",
+      "Ayyappakuruppu",
+      "Kallaraykkal Raman Pillai",
+      "Ganapathi Ayyar",
+      "Swami",
+      "Paruthikkaattu Ozhathai Maappillai",
+      "Nagampillai",
+      "Varkki",
+      "Anthoni of Aatrukkadal",
+      "Mathayi of Kol",
+      "Thanu Ayyar",
+      "Kittunnik Kaimal",
+      "Agavur Nani",
+      "Nangayyar",
+      "Kunjamma",
+      "Thripurasundari",
+      "Kochupillai",
+      "Seelandhippillai Kalyaniyamma",
+      "Kesavan",
+      "Mangalacheri Madhupillai",
+      "Ittiraman Pillai",
+      "Kunhammayi",
+      "Kunjunji",
+      "Kunjachan",
+      "Vattathara Peeli",
+      "Thoma",
+      "Kunjjeli",
+      "Paloothra Kunjan",
+      "Ravippillai",
+      "Kochunnyamma",
+      "Kanakkulathu Pappupillai",
+      "Kunjhan of Uppamparambu",
+      "Paman Karthaavu",
+      "Ittunnan of Sudhoorathu",
+      "Lakshmi",
+      "Kalikkunjhamma",
+      "Araykattu Kochunani",
+      "Therumathu Kondikkuruppu",
+      "Kochu Devi",
+      "Kochutti",
+      "Kochunni Nair",
+      "Mathaiyar",
+      "Suttikkunjamma",
+      "Kunjangarasaar",
+      "Peerukannu Mudalali",
+      "Amina",
+      "Chennan Pulayan",
+      "Vattathaan",
+      "Fatima",
+      "Sulaiman",
+      "Krishnapillai",
+      "Kunjun Pillai",
+      "Krishnathirumeny",
+      "Moolappadathu Govindan",
+      "Nattasseri Padmanabhan",
+      "Vettikkattu Nanukkuruppu",
+      "Parameswaran",
+      "Konnothu",
+      "Kodanthra",
+      "Seeratta",
+      "Kallaraykkal",
+      "Devasthanam",
+      "Mangombu",
+      "Naatrangkaal Naru",
+      "Aatrukkadal",
+      "Kol",
+      "marakkal",
+      "Swami",
+      "math",
+      "Aatrithara",
+      "Ammaavi",
+      "Kalasip",
+      "Sthani",
+      "Ettukattu",
+      "Kadammattu",
+      "Changanassery",
+      "Palai",
+      "Mundampadam",
+      "urulai",
+      "vadakkayiru",
+      "chakram",
+      "sahib",
+      "Ponmudampuraan",
+      "Pulaya",
+      "praadu",
+      "Pandinadu",
+      "Maravan",
+      "Paraiyan",
+      "Madan",
+      "Marutha",
+      "naivedya prasadam",
+      "abhisheka pedestal",
+      "Kaliyattam",
+      "kudumi",
+      "kasturi",
+      "yakshi",
+      "Gandharvan",
+      "Kunjamma",
+      "Kunjunji",
+      "Kunjjeli",
+      "Kunjhan",
+      "Karthavu",
+      "Kochu Devi",
+      "Kochunni Nair",
+      "Thiruvathira",
+      "seer",
+      "nendran bananas",
+      "Poothiruvathira",
+      "panam",
+      "Parisalotti",
+      "Pulayar",
+      "Parayan",
+      "taluk office",
+      "Dharmashastras",
+      "Trimurthis",
+      "Uppamparambu",
+      "Mukkol",
+      "Sudhoorathu",
+      "Vaiparacheri",
+      "Aravathu stone",
+      "Sthaninayar",
+      "Kodupunna",
+      "Eriyetra property",
+      "Kadukkathra",
+      "Kadukkathra Poothiruvathira",
+      "Kadukkathra Kochukalyan",
+      "Seelandhippillai",
+      "Beerukannu Mudalali",
+      "Peerukannu",
+      "Pennani",
+      "Pareed",
+      "madam",
+      "Namboothiri",
+      "Nair",
+      "Parangis",
+      "Dharma Sastha",
+      "Sree Padmanabha",
+      "Kashi",
+      "Saranath",
+      "Manikarnika Ghat",
+      "Kapilavastu",
+      "Mecca",
+      "Jerusalem",
+      "Palathol House",
+      "Moolappadathu",
+      "Nattasseri",
+      "Vettikkattu",
+      "backwater",
+      "granary",
+      "key-bunch",
+      "lease",
+      "mortgage",
+      "deed",
+      "surveyor",
+      "collective farming",
+      "paddy",
+      "seed paddy",
+      "share-cropping",
+      "sublease",
+      "midwife",
+      "untouchability",
+      "flag bearers",
+      "coming-of-age sari",
+      "dowry",
+      "baptism",
+      "nikah",
+      "circumcision",
+      "Kalima",
+      "mundu",
+      "bund",
+      "praadu",
+      "Sthani",
+      "granary platform",
+      "lease rent",
+      "almanac",
+      "marakkal",
+      "nal",
+      "thali",
+      "sari",
+      "palm-leaf records",
+      "paddy field",
+      "fallow",
+      "yakshi",
+      "jackal",
+      "kalan hen",
+      "kolath",
+      "surety",
+      "registration deed",
+      "baptism ceremony",
+      "paddy granary"
+    ],
+    "ch-1-3": [
+      "Chennadan",
+      "Kallaaru Mooppan",
+      "Sunakkulathu Kittunayar",
+      "Chennattu Kunjunayar",
+      "Chennattu Kesavan",
+      "Kunjhan Pillai",
+      "Krishnathirumeny",
+      "Ganapathi Namboothiri",
+      "Krishnan Namboothiri",
+      "Kunjunni Kaimal",
+      "Kunjammai",
+      "Kochudevi",
+      "Mathullavan",
+      "Sauriyar",
+      "Bhavathrathan Namboothiri",
+      "Thothrakkutty Antharjanam",
+      "Samu Menon",
+      "Chinnammu",
+      "Moidhu",
+      "Kangkothu Ahmad Kunji",
+      "Govindan",
+      "Namboothiri Govindan",
+      "Kunjumalu Amma",
+      "Eechara Pillai",
+      "Unnachiyammai",
+      "Madhupillai",
+      "Seelanthippillai Paramu Vathiyar",
+      "Kochittooli",
+      "Kunjumalu",
+      "Kochchunangi",
+      "Kesavan",
+      "Kunjhu",
+      "Athippuraykkal Raghavan Pillai",
+      "Kochunangai",
+      "Kochukittan",
+      "Madhavan Pillai",
+      "Elampillil Madhavan Pillai",
+      "Kunjanna Nair",
+      "Kunjachi",
+      "Manikandan",
+      "Viswanathan",
+      "Sarada",
+      "Surendran",
+      "Ponnamma",
+      "Paachu",
+      "Parayan Idyappan",
+      "Vettippurakkal Kunjannayar",
+      "Kochuraman Vaidyar",
+      "Nattacheri Padmanabhan",
+      "Krishnan Pillai",
+      "Vattathara Grigory",
+      "Paruthikkattu Thomas",
+      "Suren",
+      "Karthiyayani",
+      "Puranas",
+      "Kali Yuga",
+      "Dharma",
+      "Uppamparambu",
+      "Palathol",
+      "Sthanikar",
+      "Devasthanam",
+      "Madampikkal",
+      "Chertala",
+      "Konoth",
+      "Sthanis",
+      "Ashtabandha Kalasam",
+      "Aatrukkadavu",
+      "Paruthikkadu",
+      "Antharjanam",
+      "Valluvanadu",
+      "Kathakali",
+      "Mappila",
+      "Travancore",
+      "Shudra",
+      "Keelmel",
+      "Nair",
+      "Kangkothu",
+      "Alappuzha",
+      "Varyantra",
+      "Ezhava",
+      "Vedippurakkal",
+      "Gandhiji",
+      "Sree Narayana Guru",
+      "Sree Narayana Dharma Paripalana Sangham",
+      "Nair Service Society",
+      "Ponnuthampuran Thirunal",
+      "Sri Padmanabhan",
+      "Thiruvananthapuram",
+      "Erumelil",
+      "Kottayam",
+      "Thampanoor",
+      "Bharat Mata ki Jai",
+      "Vaikom",
+      "Kashi",
+      "Satyagraha",
+      "Harijan",
+      "Balasena",
+      "Puthupparambu",
+      "Kondal",
+      "Nandankode",
+      "Parayathara",
+      "Parayan",
+      "Pulayar",
+      "Paraiyar",
+      "betel",
+      "plantain leaf",
+      "paddy",
+      "marakkal",
+      "naazhigai",
+      "veshti",
+      "kanji",
+      "bhajan",
+      "ashram",
+      "vakil",
+      "pandal",
+      "chakram",
+      "sambandham",
+      "arrack",
+      "deed",
+      "granary",
+      "tahsildar",
+      "sovereign",
+      "satyagrahi",
+      "receiver",
+      "bhajans",
+      "Balasena",
+      "paddy-threshing room"
+    ],
+    "ch-1-4": [
+      "Malancheri Pappi",
+      "Gopalakrishnan",
+      "Pappiyamma",
+      "Levadevi",
+      "Manikandan",
+      "Chennattu Kunjannayar",
+      "Kunjumalu Amma",
+      "Kunjumalu",
+      "Vattathara Krikary",
+      "Paruthikkattu Kocheuseppu",
+      "Aathumali Anthoni",
+      "Srinivasaiyyar",
+      "Pattar",
+      "Grigory",
+      "Diwanji",
+      "Thomas",
+      "Philip",
+      "Varghese",
+      "Sridharan",
+      "Viswanathan",
+      "Kaurikkunjamma",
+      "Vasudevan",
+      "Krishnan",
+      "Gaurikkutty",
+      "Seeratta Gopalan",
+      "Seeratta Gopalakkaimal",
+      "Beerukannu Mudalali",
+      "Abdul Razak",
+      "Suleiman",
+      "Parayathra Paachu",
+      "Surendran",
+      "Pappa",
+      "Kuttappan",
+      "Neeli",
+      "Gauriyamma",
+      "Thamas",
+      "Gopalan Nayar",
+      "Malancheri",
+      "Malaya",
+      "Thiruvananthapuram",
+      "Mangombu",
+      "Devasthanam",
+      "Math",
+      "Congress",
+      "Diwanji",
+      "INA",
+      "Puranas",
+      "Bhagavatam",
+      "Ekadasha Skandham",
+      "Koyirpuram",
+      "Makkaal",
+      "Seeratta Mana",
+      "Paruthikkadu",
+      "Vattathara",
+      "Aathumala",
+      "Mathakoyil",
+      "Mahabali",
+      "Thunbeghat",
+      "Gauriyar",
+      "Parayars",
+      "Pulayars",
+      "pongal",
+      "Bharat",
+      "Bharat Mata ki Jai",
+      "Dharma Chakra",
+      "Mahatmaji",
+      "pujas",
+      "paddy",
+      "marakkals",
+      "kanji",
+      "madam",
+      "darbha grass",
+      "Mana",
+      "bund",
+      "Quit India",
+      "puja",
+      "lathi charge",
+      "money order",
+      "telegram",
+      "granary",
+      "sharecropping",
+      "tricolour",
+      "party"
+    ],
+    "ch-1-5": [
+      "Paruthikkattu Thomas",
+      "Gauriyar",
+      "Sadanandan",
+      "Vattathara Krikary",
+      "Paruthikkattu Kochousepp",
+      "Surendran",
+      "Pappa",
+      "Vattathra Philipose",
+      "Kunjamma",
+      "Pamupillai",
+      "Gauriyamma",
+      "Paramupillai",
+      "Kochupillai",
+      "Vasudevan",
+      "Arya Antharjanam",
+      "Subhadra",
+      "Krishnan",
+      "Sridharan",
+      "Valiyakunjathi",
+      "Karuthai",
+      "Manikandan",
+      "Koya",
+      "Viswanathan",
+      "Saleel",
+      "Kadukkathra Kunjukuttan",
+      "Philip",
+      "Anthoni of Aatrukkadavu",
+      "Kochouseph of Paruthikkadu",
+      "Poovachaal Paili",
+      "Suppaiyan",
+      "Nattacheriy Ramachandran Pillai",
+      "Madhu",
+      "Nalini",
+      "Rosakkutty",
+      "Seeratta Gopalakkaimal",
+      "Damodaran",
+      "Narayana Panicker",
+      "Paruthikkattu Kochouthayam",
+      "Vattathara Karikari",
+      "Chain Measurer Nagam Pillai",
+      "Kodanthara Moothassan",
+      "Konnothu Vallyachan",
+      "Seerattakaimal",
+      "Paruthikkattu Olatha",
+      "Thunbekkalavan",
+      "Murugan",
+      "Paruthikkattu Sochchoth",
+      "Congress",
+      "Begkal fields",
+      "Communist",
+      "Punnapra Vayalar",
+      "Vayalar",
+      "Aatrukkadalil",
+      "Sirattai",
+      "Thiruvananthapuram",
+      "Kazhimukham",
+      "Kuttanad",
+      "Balathol house",
+      "Pulayan",
+      "Pulayars",
+      "Parayas",
+      "Namboothiri",
+      "Antharjanam",
+      "Naxalite",
+      "Kadukathra Kunnukkutty",
+      "Devaswom",
+      "Kalasiper",
+      "Erumathra Madam",
+      "Land Tribunal",
+      "Panchayat",
+      "Panchayat hall",
+      "Land Reform Act",
+      "Pattas",
+      "Thodarchi hills",
+      "Mangalassery",
+      "Seelanthippillil",
+      "Saar",
+      "Karthika wind",
+      "Kaalaar river",
+      "Gandharvans",
+      "Panchayat President Tenant Surendran",
+      "Grigory",
+      "Kochoutha",
+      "Palathol family",
+      "Seeratta Gopalakkaimal",
+      "Suppaiyan Saar",
+      "paddy",
+      "sickle",
+      "constituency",
+      "open votes",
+      "registers",
+      "marakkal",
+      "pamphlet",
+      "pit notice",
+      "panchayat",
+      "ward",
+      "tharavadu",
+      "kudumi",
+      "kuthuvilakku",
+      "patta",
+      "lessor",
+      "tenant",
+      "landlord",
+      "archana",
+      "pooja",
+      "benami",
+      "coolie",
+      "palmyra",
+      "naal",
+      "karisal",
+      "Inquilab Zindabad",
+      "land ceiling",
+      "pattas",
+      "class enemy",
+      "Naxalite",
+      "Devaswom",
+      "gruel",
+      "seedling land"
+    ]
+  }
+}

@@ -3,6 +3,7 @@
     {
       "id": "baeesween-sadi",
       "title": "The Twenty-Second Century",
+      "transliteratedTitle": "Baeesween Sadi",
       "subtitle": "A Vision of the Future",
       "authorId": "rahul-sankrityayan",
       "coverImage": "/data/images/covers/baeesween-sadi.webp",
@@ -12,7 +13,7 @@
         "Utopian Fiction"
       ],
       "originalLanguage": "Hindi",
-      "originalTitle": "Baeesween Sadi",
+      "originalTitle": "बाईसवीं सदी",
       "originalYear": 1924,
       "totalChapters": 16,
       "wordCount": 41181,
@@ -22,6 +23,7 @@
     {
       "id": "mrinalini",
       "title": "Mrinalini",
+      "transliteratedTitle": "Mrinalini",
       "subtitle": "A Historical Romance of 13th Century Bengal",
       "authorId": "bankim-chandra-chattopadhyay",
       "coverImage": "/data/images/covers/mrinalini.webp",
@@ -31,7 +33,7 @@
         "Romance"
       ],
       "originalLanguage": "Bengali",
-      "originalTitle": "Mrinalini",
+      "originalTitle": "মৃণালিনী",
       "originalYear": 1882,
       "totalChapters": 43,
       "wordCount": 39002,
@@ -41,6 +43,7 @@
     {
       "id": "alaler-gharer-dulal",
       "title": "The Spoilt Child",
+      "transliteratedTitle": "Alaler Gharer Dulal",
       "subtitle": "A Satire of Colonial Calcutta",
       "authorId": "peary-chand-mitra",
       "coverImage": "/data/images/covers/alaler-gharer-dulal.webp",
@@ -50,7 +53,7 @@
         "Domestic Fiction"
       ],
       "originalLanguage": "Bengali",
-      "originalTitle": "Alaler Gharer Dulal",
+      "originalTitle": "আলালের ঘরের দুলাল",
       "originalYear": 1858,
       "totalChapters": 30,
       "wordCount": 54071,
@@ -59,7 +62,8 @@
     },
     {
       "id": "ponniyin-selvan",
-      "title": "Ponniyin Selvan",
+      "title": "The Son of Ponni",
+      "transliteratedTitle": "Ponniyin Selvan",
       "subtitle": "The Son of the Kaveri",
       "authorId": "kalki-krishnamurthy",
       "coverImage": "/data/images/covers/ponniyin-selvan.webp",
@@ -80,6 +84,7 @@
     {
       "id": "barrister-parvatishan",
       "title": "Barrister Parvatishan",
+      "transliteratedTitle": "Barrister Parvateesam",
       "subtitle": "A Humorous Tale of East Meets West",
       "authorId": "mokkapati-narasimha-shastri",
       "coverImage": "/data/images/covers/barrister-parvatishan.webp",
@@ -96,6 +101,147 @@
       "wordCount": 188289,
       "summary": "A naive young Brahmin from rural Andhra Pradesh sets out for England to become a barrister, armed with more enthusiasm than common sense. Through a series of hilarious misadventures — from baffling train journeys and seasick ocean crossings to bewildering English customs and ill-fitting suits — Parvatishan stumbles through the culture shock of early 20th century England and returns home a changed man. Mokkapati Narasimha Shastri's beloved 1924 Telugu classic is one of India's funniest novels, a warm-hearted satire on ambition, identity, and the comedy of crossing cultures.",
       "previewText": "Many people who have read Parvatisham’s book often ask me, “Who is this fellow, anyway?” or, “On whom did you base this character?” or, “How did you ever come up with the idea to write like this?” I am constantly bombarded with such questions. Not only that, but recently the radio folks too said, “Please tell us a few words about this man—Parvatisham—his origins and background.” The answers I gave them, and the gist of what I usually tell all those who question me in this manner, are as follows. Our people say that everything is born with a destiny, or that a face is written by fate. Sometimes, just by looking at a face, you feel like planting a kiss on it. Of course, not everyone gets to do that, but at least you feel like seeing that face, or getting acquainted with the person who owns it. Some faces, on the other hand, make you want to shout; you wish you could go through your entire life without ever seeing them. In the same way, the moment you hear certain names, you are seized by an urge to know all about that person’s background and ancestry. Such a fortunate soul is our Parvatisham. His lotus-like face, its radiance, his birth star and fate—all these are his own. Otherwise,"
+    },
+    {
+      "id": "matira-manisha",
+      "title": "Man of the Soil",
+      "transliteratedTitle": "Matira Manisha",
+      "subtitle": "A Village Family's Struggle and Sacrifice",
+      "authorId": "kalindi-charan-panigrahi",
+      "coverImage": "/data/images/covers/matira-manisha.webp",
+      "accentColor": "#B8860B",
+      "genre": [
+        "Realist Fiction",
+        "Rural Life"
+      ],
+      "originalLanguage": "Odia",
+      "originalTitle": "ମାଟିର ମଣିଷ",
+      "originalYear": 1929,
+      "totalChapters": 12,
+      "wordCount": 38221,
+      "summary": "Matira Manisha transports readers to rural Odisha, where the rhythms of farm life are woven with the complexities of family, duty, and compassion. At the heart of the story stands the Pradhan household—a haven of generosity led by a wise matriarch whose kindness sustains both kin and neighbors through hardship and scarcity. As tensions simmer beneath the surface and unspoken sorrows weigh on its members, the family must navigate the delicate balance between tradition and change, selflessness and self-preservation. With vivid detail and deep empathy, this novel paints a moving portrait of village life, revealing the quiet heroism and resilience that bind a community together.",
+      "previewText": "Chapter I Let Parash say a few words, and if Shama Pradhan adds a few more, then the truth of the matter will come to light. Whoever Shama Pradhan extended his hand to, became part of his family. He was a good man, a man of virtue. Even though she was a farmer’s daughter, what did it matter? Her heart was vast and generous. Whenever anyone in the neighboring village fell into distress, she would go straight to the Pradhan’s house. Why? Because even if there was nothing in the house, the Pradhan’s wife would scoop out a handful of rice from the bottom of the bin, wrap it up in a piece of cloth, and send it to their home— “Take this, sister! There may be nothing left in my house, but I have children too. If I don’t help others’ children, who will help mine in times of need?”"
+    },
+    {
+      "id": "shyamchi-aai",
+      "title": "Shyam's Mother",
+      "transliteratedTitle": "Shyamchi Aai",
+      "subtitle": "A Son’s Journey Through Love and Hardship",
+      "authorId": "sane-guruji",
+      "coverImage": "/data/images/covers/shyamchi-aai.webp",
+      "accentColor": "#D2691E",
+      "genre": [
+        "Autobiography",
+        "Coming of Age"
+      ],
+      "originalLanguage": "Marathi",
+      "originalTitle": "श्यामची आई",
+      "originalYear": 1935,
+      "totalChapters": 42,
+      "wordCount": 47171,
+      "summary": "Shyamchi Aai is a moving Marathi autobiography that beautifully captures the unbreakable bond between a mother and her son. Through Shyam’s eyes, we witness the profound influence his mother has on shaping his values, character, and spirit, even as the family faces relentless hardships, social customs, and emotional trials. Vivid village life, the challenges of tradition, and the warmth of familial love come alive in each chapter, painting a heartfelt portrait of resilience and moral strength. Perfect for readers seeking inspiration and a touching glimpse into the power of a mother’s guidance, this classic resonates across generations.",
+      "previewText": "1. Be Ashamed to Commit a Sin The foundation of a child’s life is laid in childhood by the parents—especially the mother. Shyam was blessed with a mother who was truly good—exceptionally good. She was his ‘Guru’. He never forgot the debt he owed his mother for shaping his character through her influence. He always remembered her with gratitude. How his mother strove to mold his life, you will read in the various episodes that follow. Shyam’s father was a khot—a village headman. He used to inspect the crops in the village."
+    },
+    {
+      "id": "kayar",
+      "title": "Coir",
+      "transliteratedTitle": "Kayar",
+      "subtitle": "An Epic of Struggle and Heritage in Kerala",
+      "authorId": "thakazhi-sivasankara-pillai",
+      "coverImage": "/data/images/covers/kayar.webp",
+      "accentColor": "#2E8B57",
+      "genre": [
+        "Epic Fiction",
+        "Social Realism"
+      ],
+      "originalLanguage": "Tamil (translation of Malayalam)",
+      "originalTitle": "கயர்",
+      "originalYear": 1978,
+      "totalChapters": 5,
+      "wordCount": 56470,
+      "summary": "Step into the heart of Kerala's vibrant backwaters, where centuries-old traditions and the daily lives of coir workers unfold in a sweeping saga of change and resilience. Kayar weaves together the destinies of families and community leaders as they face shifting power, caste tensions, and the relentless tide of time. With each passing generation, keys to sacred treasuries and ancestral honor pass from hand to hand, illuminating the struggles and hopes of those bound by both land and labor. Thakazhi Sivasankara Pillai’s masterpiece is a powerful portrait of a community’s endurance, inviting readers to witness the intimate joys and sorrows of an entire era.",
+      "previewText": "By order of the government, a new land survey was about to take place in the village. The official who was to come for this purpose was named Klassiper. The Erumathramadam was being cleaned and prepared as his place of stay. Kodanthara Moothassan, one of the community leaders, rushed over upon hearing the news. The temple administration was under the authority of the community leaders known as the ‘Sthanikars’. The most important place in the village was the temple itself. Moothassan asked the temple administrator, “What is it, Kanakku Pillai, for whom is the Erumathramadam being prepared?” “For Klassiper.”"
+    },
+    {
+      "id": "chandrakanta",
+      "title": "Chandrakanta",
+      "transliteratedTitle": "Chandrakanta",
+      "subtitle": "A Tale of Magical Realms and Royal Intrigue",
+      "authorId": "devaki-nandan-khatri",
+      "coverImage": "/data/images/covers/chandrakanta.webp",
+      "accentColor": "#8B0000",
+      "genre": [
+        "Fantasy",
+        "Romance",
+        "Adventure"
+      ],
+      "originalLanguage": "Hindi",
+      "originalTitle": "चंद्रकांता",
+      "originalYear": 1888,
+      "totalChapters": 57,
+      "wordCount": 103978,
+      "summary": "Step into the captivating world of 'Chandrakanta,' a cornerstone of Hindi fantasy where romance and adventure unfold amidst royal courts and mystical tilisms—magical labyrinths brimming with secrets and danger. The newly crowned Raja Virendra Singh and his beloved Chandrakanta face not just familial joys and political challenges but also the shadowy enmity of Maharaj Shivdutt, whose grudges threaten peace. As loyalties shift and ancient rivalries simmer, clever ayyars (spies) weave their way through dazzling intrigues and perilous quests. Brimming with dramatic twists, magical realms, and unforgettable characters, ‘Chandrakanta’ promises a spellbinding journey for anyone eager to lose themselves in a legendary tale of love, valor, and wonder.",
+      "previewText": "The son of Surendra Singh, King of Naugarh, Virendra Singh, was married to Chandrakanta, the daughter of Maharaj Jay Singh of Vijaygarh. On the day of the wedding procession, owing to Tej Singh's final prank, Maharaj Shivdutt of Chunar was forced to become a torchbearer. Many were of the opinion that Maharaj Shivdutt's heart had not yet been cleansed of old grudges, and thus it would be prudent to keep him imprisoned. However, Maharaj Surendra Singh disapproved of this, saying, \"We have already released Maharaj Shivdutt. The recent quarrel with Tej Singh cannot be taken as proof that he still harbors enmity towards us. After all, Maharaj Shivdutt is a Kshatriya; when Tej Singh, disguised as him, set out to disgrace him, how could he possibly endure such an insult? I cannot claim that Maharaj Shivdutt's heart is entirely free of resentment towards us, for if it were, what need would there have been for him to come in secret to witness these events? Even so, considering that his fight with Tej Singh cannot be deemed a result of our enmity, I shall release him once more. And if he still chooses to oppose us, what harm is there? He is a man, and so are we. We shall see what comes.\" Mah"
+    },
+    {
+      "id": "ghare-baire",
+      "title": "The Home and the World",
+      "transliteratedTitle": "Ghare Baire",
+      "subtitle": "Love, Loyalty, and Revolution in Bengal's Heart",
+      "authorId": "rabindranath-tagore",
+      "coverImage": "/data/images/covers/ghare-baire.webp",
+      "accentColor": "#8B4513",
+      "genre": [
+        "Literary Fiction",
+        "Political Novel"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "ঘরে বাইরে",
+      "originalYear": 1916,
+      "totalChapters": 19,
+      "wordCount": 74771,
+      "summary": "Set against the backdrop of early twentieth-century Bengal, 'The Home and the World' plunges readers into a world torn between the intimate bonds of home and the sweeping tides of nationalism. Through the voices of Bimala, her contemplative husband Nikhilesh, and the charismatic revolutionary Sandip, Rabindranath Tagore crafts a vivid tapestry where personal desires collide with political ideals. As the Swadeshi movement stirs passions and uproots certainties, each character is forced to confront the shifting boundaries of love, duty, and self. Tagore’s lyrical storytelling and complex characters invite readers into an unforgettable exploration of identity and the price of devotion—both to country and to heart.",
+      "previewText": "Bimala’s Memoir Mother, today I remember the vermilion in the parting of your hair, that red-bordered sari, those two eyes of yours—calm, gentle, deep. I see them now on the sky of my mind like the crimson streaks of dawn. The day of my life set out on its journey with that golden provision. And after that? Did dark clouds come racing down the path like bandits? Did they leave not a single particle of my light behind? Yet, that gift of the dawn, given in the Brahma-moment of life by the chaste morning-star—though it may be covered in calamity, can it ever be destroyed? In our country, we call one beautiful whose complexion is fair. But the sky that gives us light is blue. My mother’s complexion was dusky, her radiance was of virtue. Her beauty would put the pride of beauty itself to shame."
+    },
+    {
+      "id": "maitreyi",
+      "title": "Bengal Nights",
+      "transliteratedTitle": "Maitreyi",
+      "subtitle": "Forbidden Passions in Colonial Calcutta",
+      "authorId": "mircea-eliade",
+      "coverImage": "/data/images/covers/maitreyi.webp",
+      "accentColor": "#8B4513",
+      "genre": [
+        "Autobiographical Fiction",
+        "Romance"
+      ],
+      "originalLanguage": "Romanian",
+      "originalTitle": "Maitreyi",
+      "originalYear": 1933,
+      "totalChapters": 15,
+      "wordCount": 60683,
+      "summary": "Bengal Nights sweeps readers into the sultry, mysterious world of 1930s Calcutta, where cultures collide and boundaries blur. When a young European intellectual finds himself entranced by the enigmatic Maitreyi, their initial encounter is fraught with bewilderment and fascination—an attraction made perilous by the rigid customs and prejudices of colonial India. Through a haze of sensual detail and introspective longing, the novel explores the intoxicating thrill and inevitable anguish of forbidden love. Mircea Eliade’s evocative prose immerses you in the charged atmosphere of a city alive with tradition and change, where every stolen glance promises both ecstasy and heartbreak.",
+      "previewText": "I have hesitated so long before this notebook, because I have not yet managed to discover the exact day when I first met Maitreyi. In my notes from that year, I found nothing. Her name appears there much later, after I had left the sanatorium and had to move into the house of engineer Narendra Sen, in the Bhowanipore district. But that happened in 1929, and I had met Maitreyi at least ten months before that. And if I suffer somewhat as I begin this story, it is precisely because I do not know how to evoke her figure as she was then, and I cannot truly relive my astonishment, uncertainty, and the confusion of those first encounters. I remember very vaguely that, seeing her once in the car, waiting in front of the \"Oxford Book Stationary\"—while her father, the engineer, and I were choosing books for the Christmas holidays—I felt a strange start, followed by a very surprising disdain. She seemed ugly to me—with her eyes too large and too black, her fleshy, turned lips, her strong breasts, like those of a Bengali maiden grown too full, like a fruit past its ripeness. When I was introduced to her and she brought her palms to her forehead in greeting, I suddenly saw her whole bare arm, a"
+    },
+    {
+      "id": "na-hanyate",
+      "title": "It Does Not Die",
+      "transliteratedTitle": "Na Hanyate",
+      "subtitle": "A Forbidden Love Across Time and Memory",
+      "authorId": "maitreyi-devi",
+      "coverImage": "/data/images/covers/na-hanyate.webp",
+      "accentColor": "#722F37",
+      "genre": [
+        "Autobiographical Fiction",
+        "Memoir"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "ন হন্যতে",
+      "originalYear": 1974,
+      "totalChapters": 20,
+      "wordCount": 93215,
+      "summary": "It Does Not Die is a haunting and poetic memoir that revisits the forbidden love between Maitreyi Devi and a young Romanian scholar in 1930s Calcutta. Through vivid recollections and present-day reflections, Devi explores the lingering power of passion, the ache of unanswered questions, and the complexities of memory. As the narrative shifts between the lush world of her youth and the quiet introspection of her later years, readers are drawn into a deeply personal story of love, loss, and self-discovery. Winner of the Sahitya Akademi Award, this is a rare glimpse into the emotional landscape of a woman who dared to remember—and to speak her truth.",
+      "previewText": "September 1, 1972 Today, Parvati and Gaumati, you both came to my birthday celebration. It was you who made it festive, but you did not know—right then, at that very moment, while there was singing and storytelling in this room, while I was laughing, I was, in truth, leaving this place. The current of time surged within my mind, it touched me, and I traveled—not toward the future, but into the past. Now it is past midnight, perhaps two o’clock—I am standing on the veranda—from here, I cannot see the full sky, only half of the Saptarshi constellation gazes at me like an eternal question. Questions, questions, questions—why have these questions, after so many ages, come to me again tonight? Why did such an incident occur in my life, one that was never necessary? I see now, it has neither a beginning nor an end."
     }
   ],
   "authors": [
@@ -147,6 +293,76 @@
       "bio": "Mokkapati Narasimha Shastri (1892-1960) was a celebrated Telugu writer, humorist, and playwright whose works brought laughter and social commentary to Telugu literature. Born in Mogalturru, Andhra Pradesh, he is best known for 'Barrister Parvatishan' (1924), a satirical novel about a young Indian's misadventures in England that became one of the most beloved Telugu novels of the 20th century. Shastri's gift for observational humor and his ability to capture the absurdities of cross-cultural encounters made him a pioneer of humorous writing in Telugu. His works continue to be widely read and have been adapted for stage and screen.",
       "bookIds": [
         "barrister-parvatishan"
+      ]
+    },
+    {
+      "id": "devaki-nandan-khatri",
+      "name": "Devaki Nandan Khatri",
+      "image": "/data/images/authors/devaki-nandan-khatri.webp",
+      "years": "1861–1913",
+      "bio": "Devaki Nandan Khatri (1861–1913) stands as a pioneering figure in Hindi literature, celebrated chiefly for his magnum opus, *Chandrakanta* (1888). Born in Pusa, Bihar, Khatri transformed the literary landscape of his time by popularizing prose fiction in Hindi—a language then dominated by poetry and religious texts. *Chandrakanta*, a mesmerizing blend of romance, fantasy, and adventure, captivated readers with its intricate tales of tilism (magical labyrinths) and aiyari (spying and disguise), spawning an entire genre of fantasy fiction in Hindi. Khatri's storytelling prowess and vivid imagination drew a vast readership, making Hindi novels accessible and engaging for the masses. His works not only entertained but also played a crucial role in the evolution of modern Hindi prose, inspiring generations of writers. Despite his relatively brief life, Khatri’s contribution endures; *Chandrakanta* remains a timeless classic, adapted across media and still beloved today. Through his innovative narrative style and compelling plots, Devaki Nandan Khatri left an indelible mark on Indian literature, cementing his legacy as the father of the Hindi novel.",
+      "bookIds": [
+        "chandrakanta"
+      ]
+    },
+    {
+      "id": "kalindi-charan-panigrahi",
+      "name": "Kalindi Charan Panigrahi",
+      "image": "/data/images/authors/kalindi-charan-panigrahi.webp",
+      "years": "1901–1991",
+      "bio": "Kalindi Charan Panigrahi (1901–1991) stands as a towering figure in 20th-century Odia literature, celebrated for his profound contribution to poetry, fiction, and literary criticism. Born in Nilakanthapur, Odisha, Panigrahi was instrumental in shaping the Sabuja literary movement, ushering in a new era of modernist thought and introspection in Odia letters. His most acclaimed novel, *Matira Manisha* (1929), is a masterful exploration of rural life, human values, and the complexities of familial bonds, resonating deeply with readers across generations. Through his vivid storytelling and empathetic characterizations, Panigrahi illuminated the struggles and resilience of the agrarian community, earning him enduring respect as both a literary craftsman and a social commentator. His legacy extends beyond fiction; his poetic works and essays reflect a deep engagement with the cultural and philosophical currents of his time. Today, Kalindi Charan Panigrahi is remembered not only as a pioneer of Odia modernism but also as an advocate for social harmony and literary innovation, whose influence continues to shape Indian literature’s evolving landscape.",
+      "bookIds": [
+        "matira-manisha"
+      ]
+    },
+    {
+      "id": "sane-guruji",
+      "name": "Sane Guruji",
+      "image": "/data/images/authors/sane-guruji.webp",
+      "years": "1899–1950",
+      "bio": "Sane Guruji (Pandurang Sadashiv Sane) (1899–1950) stands as a towering figure in Marathi literature and social reform. Born in Palgad, Maharashtra, Guruji’s life was shaped by unwavering empathy and a commitment to the upliftment of the marginalized. His most celebrated work, *Shyamchi Aai* (1935), is a tender, autobiographical tribute to his mother’s love and sacrifices, capturing the rural ethos and timeless values of early 20th-century Maharashtra. Written in evocative, lucid prose, the book has touched countless readers, becoming a staple in schools and homes alike.\n\nBeyond his literary achievements, Sane Guruji was a passionate freedom fighter, educationist, and advocate for social equality. His writings—ranging from children’s stories to philosophical essays—reflect a deep moral vision and a belief in the transformative power of compassion. Guruji’s legacy endures in Maharashtra’s cultural consciousness; his works continue to inspire generations to value simplicity, empathy, and justice. Through *Shyamchi Aai* and his broader oeuvre, Sane Guruji remains a beloved voice, bridging literature and life with rare sincerity.",
+      "bookIds": [
+        "shyamchi-aai"
+      ]
+    },
+    {
+      "id": "thakazhi-sivasankara-pillai",
+      "name": "Thakazhi Sivasankara Pillai",
+      "image": "/data/images/authors/thakazhi-sivasankara-pillai.webp",
+      "years": "1912–1999",
+      "bio": "Thakazhi Sivasankara Pillai (1912–1999) stands as a towering figure in 20th-century Malayalam literature, celebrated for his compassionate and unflinching portrayals of Kerala’s rural life. Born in the village of Thakazhi, Kerala, Pillai’s deep empathy for the marginalized is at the heart of his prolific output, which includes over 35 novels and countless short stories. Among his most acclaimed works is \"Kayar\" (\"Coir,\" 1978), a sweeping epic chronicling four generations of villagers, weaving together personal destinies with the broader tapestry of social and economic change. \"Kayar\" is lauded for its rich characterization, intricate narrative structure, and its panoramic vision of Kerala society, making it a cornerstone of Indian regional fiction. Pillai’s literary legacy is further cemented by classics such as \"Chemmeen\" and \"Randidangazhi,\" which have been adapted into award-winning films. His works, translated into several languages including Tamil, continue to resonate with readers for their lyrical realism and deep humanism, securing his place as a major architect of modern Indian literature.",
+      "bookIds": [
+        "kayar"
+      ]
+    },
+    {
+      "id": "rabindranath-tagore",
+      "name": "Rabindranath Tagore",
+      "image": "/data/images/authors/rabindranath-tagore.webp",
+      "years": "1861–1941",
+      "bio": "Rabindranath Tagore (1861–1941) stands as a towering figure in Indian and world literature, celebrated for his lyrical mastery and profound humanism. The first non-European to win the Nobel Prize in Literature in 1913 for his collection Gitanjali, Tagore’s creative genius spanned poetry, novels, music, and painting. His novel *Ghare Baire* (*The Home and the World*, 1916) explores the complexities of identity and nationalism, reflecting his nuanced vision for modern India. As the founder of Visva-Bharati University, Tagore championed a global, inclusive education, ensuring his legacy endures as a beacon of cultural and intellectual renaissance.",
+      "bookIds": [
+        "ghare-baire"
+      ]
+    },
+    {
+      "id": "mircea-eliade",
+      "name": "Mircea Eliade",
+      "image": "/data/images/authors/mircea-eliade.webp",
+      "years": "1907–1986",
+      "bio": "Mircea Eliade (1907–1986) was a Romanian historian of religion, philosopher, and prolific writer. Born in Bucharest, Eliade displayed an early interest in literature and the history of religions, pursuing his studies at the University of Bucharest. In the late 1920s, he traveled to India to study Sanskrit and Indian philosophy at the University of Calcutta under Surendranath Dasgupta, an experience that profoundly influenced his intellectual development. Returning to Romania, Eliade embarked on a distinguished academic and literary career. After World War II, he lived in exile in France and later the United States, ultimately becoming a professor at the University of Chicago, where he established himself as a leading scholar in the study of religion.\n\nEliade’s literary work is noted for its exploration of myth, spirituality, and the intersection of East and West. Among his most celebrated books is 'Bengal Nights' ('Maitreyi', 1933), an autobiographical novel that recounts his intense and controversial romance with Maitreyi Devi during his time in India. The novel is significant for its candid portrayal of cultural and emotional conflict, and it remains a touchstone in world literature for its cross-cultural perspective. Eliade's broader legacy includes influential contributions to both literature and religious studies, with works that continue to inspire debate and scholarship worldwide.",
+      "bookIds": [
+        "maitreyi"
+      ]
+    },
+    {
+      "id": "maitreyi-devi",
+      "name": "Maitreyi Devi",
+      "image": "/data/images/authors/maitreyi-devi.webp",
+      "years": "1914–1990",
+      "bio": "Maitreyi Devi (1914–1990) was an influential Indian poet, novelist, and essayist born in Kolkata (Calcutta), India. The daughter of philosopher Surendranath Dasgupta, she was raised in an intellectually vibrant environment and received her education at Visva-Bharati University in Santiniketan, founded by Rabindranath Tagore. Throughout her life, Devi was active in literary and social circles, contributing significantly to Indian literature in both Bengali and English. Apart from her writing, she was also known for her humanitarian work and leadership in various cultural organizations. Her experiences in 1930s Calcutta, particularly her association with Romanian scholar Mircea Eliade, would later become central to her most famous work.\n\nMaitreyi Devi's literary significance lies in her evocative exploration of memory, identity, and cultural interplay. Her acclaimed memoir, 'It Does Not Die' (ন হন্যতে, 1974), stands as a poignant response to Mircea Eliade's 'Bengal Nights', recounting their youthful romance and its lasting emotional impact. The book intricately weaves together present-day reflections from their reunion in 1972 with memories from the 1930s, offering a deeply personal perspective on love and cross-cultural misunderstanding. Awarded the Sahitya Akademi Award in 1976, 'It Does Not Die' remains a landmark in autobiographical fiction and South Asian literature, celebrated for its honesty, emotional depth, and unique voice. Devi's legacy endures as a vital chronicler of her era and as a bridge between Eastern and Western literary traditions.",
+      "bookIds": [
+        "na-hanyate"
       ]
     }
   ]

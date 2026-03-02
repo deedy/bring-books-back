@@ -9,12 +9,12 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/40 backdrop-blur-xl border-b border-white/[0.06]">
-      <nav className="max-w-6xl mx-auto px-6 h-16 grid grid-cols-[1fr_auto_1fr] items-center">
+      <nav className="max-w-6xl mx-auto px-6 h-16 grid grid-cols-[1fr_auto_1fr] gap-3 items-center">
         <div className="justify-self-start">
           {isSubPage && (
             <Link
               href="/"
-              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-sm font-medium tracking-wide border border-white/15 text-white/60 hover:text-white/90 hover:border-white/30 hover:bg-white/5 transition-all"
+              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-sm font-medium tracking-wide whitespace-nowrap border border-white/15 text-white/60 hover:text-white/90 hover:border-white/30 hover:bg-white/5 transition-all"
             >
               <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
                 <path d="M10 12L6 8l4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

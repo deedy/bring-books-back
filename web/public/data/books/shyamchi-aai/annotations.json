@@ -1,0 +1,2126 @@
+{
+  "glossary": {
+    "Shyam": {
+      "type": "character",
+      "description": "The protagonist of the story, a young boy whose character and values are shaped by his mother's teachings and example.",
+      "image": "/data/images/characters/shyamchi-aai/shyam.png"
+    },
+    "Shyam’s mother": {
+      "type": "character",
+      "description": "Shyam's mother, a central figure in his life, known for her devotion, strength, and influence in shaping Shyam's morals.",
+      "image": "/data/images/characters/shyamchi-aai/shyams-mother.png"
+    },
+    "Shyam’s father": {
+      "type": "character",
+      "description": "Shyam's father, also called Bhau, who works as a khot (village headman) and is respected in the community."
+    },
+    "Umashankar": {
+      "type": "character",
+      "description": "A family member (possibly another name for Shyam’s father or a relative) who goes out on an errand and faces danger from dacoits."
+    },
+    "Bhau": {
+      "type": "character",
+      "description": "A respectful term meaning 'brother', used by villagers to refer to Shyam’s father.",
+      "image": "/data/images/characters/shyamchi-aai/bhau.png"
+    },
+    "khot": {
+      "type": "proper_noun",
+      "description": "A hereditary village headman responsible for collecting taxes from farmers and managing village affairs."
+    },
+    "Palovan": {
+      "type": "proper_noun",
+      "description": "A village where Shyam's family is responsible for collecting taxes from the farmers."
+    },
+    "Vat-Savitri": {
+      "type": "proper_noun",
+      "description": "A Hindu festival and fast observed by married women for the well-being and longevity of their husbands, involving rituals around the banyan tree."
+    },
+    "Purana": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu scriptures that contain mythological stories, legends, and traditions."
+    },
+    "Sati Savitri": {
+      "type": "proper_noun",
+      "description": "A legendary figure in Hindu mythology who, according to the Purana, brought her husband back to life from Yama, the god of death."
+    },
+    "Yama": {
+      "type": "proper_noun",
+      "description": "The Hindu god of death, who judges the souls of the deceased."
+    },
+    "Bhaktivijay": {
+      "type": "proper_noun",
+      "description": "A Marathi religious text or scripture often read for spiritual merit."
+    },
+    "Pandavpratap": {
+      "type": "proper_noun",
+      "description": "A Marathi text recounting the valor and deeds of the Pandavas from the Mahabharata."
+    },
+    "Shri Krishna": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, known for his role as Arjuna’s charioteer in the Mahabharata and for his teachings."
+    },
+    "circumambulation": {
+      "type": "vocabulary",
+      "description": "The act of walking around a sacred object or tree, often as a religious ritual."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by women, consisting of a long piece of cloth draped around the body."
+    },
+    "dacoits": {
+      "type": "vocabulary",
+      "description": "Armed bandits or robbers, especially those who operate in rural areas of India."
+    },
+    "Akka": {
+      "type": "character",
+      "description": "Shyam’s elder sister, who is gentle and hardworking; her marriage is a central concern in this chapter."
+    },
+    "Aai": {
+      "type": "character",
+      "description": "Shyam’s mother, known for her compassion and selflessness, especially towards children.",
+      "image": "/data/images/characters/shyamchi-aai/aai.png"
+    },
+    "Pawanshi family": {
+      "type": "character",
+      "description": "Shyam’s family, who are traveling together for Akka’s wedding."
+    },
+    "Mangal": {
+      "type": "proper_noun",
+      "description": "Mars; in Indian astrology, being born under the influence of Mangal is considered inauspicious for marriage, especially for girls."
+    },
+    "Ratnagiri": {
+      "type": "proper_noun",
+      "description": "A coastal district in Maharashtra, India, where Akka’s wedding is to take place."
+    },
+    "Palgad": {
+      "type": "proper_noun",
+      "description": "A village, likely the family’s home or starting point of their journey."
+    },
+    "Harne": {
+      "type": "proper_noun",
+      "description": "A port on the Konkan coast of Maharashtra, where the family attempts to board the boat."
+    },
+    "Panvel": {
+      "type": "proper_noun",
+      "description": "A town near Mumbai, Maharashtra, serving as a transit point in the journey."
+    },
+    "Bapu": {
+      "type": "character",
+      "description": "Shyam’s father, a devout worshipper of God, especially Lord Ganapati, who performs daily rituals and worship."
+    },
+    "Shyamali": {
+      "type": "character",
+      "description": "A girl mentioned as stringing together a garland of jasmine flowers with her friends; likely a friend or sibling of Shyam."
+    },
+    "Ganapati": {
+      "type": "proper_noun",
+      "description": "A widely worshipped Hindu deity, also known as Ganesha, the elephant-headed god of wisdom and remover of obstacles."
+    },
+    "durva": {
+      "type": "vocabulary",
+      "description": "A type of sacred grass (Cynodon dactylon) used in Hindu rituals, especially in the worship of Lord Ganapati."
+    },
+    "oleander": {
+      "type": "vocabulary",
+      "description": "A fragrant flowering shrub (Nerium oleander) whose blossoms are commonly used in Indian religious offerings."
+    },
+    "Yashwant": {
+      "type": "character",
+      "description": "Shyam's younger brother, described as virtuous and loving, whose illness and passing are central to this chapter."
+    },
+    "Purushottam": {
+      "type": "character",
+      "description": "One of Shyam’s brothers, mentioned as part of the family but not central to the events of this chapter.",
+      "image": "/data/images/characters/shyamchi-aai/purushottam.png"
+    },
+    "Sadanand": {
+      "type": "character",
+      "description": "Another of Shyam’s brothers, mentioned as part of the family group."
+    },
+    "grandmother": {
+      "type": "character",
+      "description": "The elderly woman in the household, likely Shyam's or Yashwant’s grandmother, who scolds Yashwant over the dal incident."
+    },
+    "Konkan": {
+      "type": "proper_noun",
+      "description": "A coastal region in western Maharashtra, known for its heavy monsoon rains and rural culture."
+    },
+    "Goa": {
+      "type": "proper_noun",
+      "description": "A neighboring region to Konkan, referenced here for its similar monsoon climate."
+    },
+    "Ashadhi Ekadashi": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival and holy day, especially significant in Maharashtra, considered auspicious for spiritual merit."
+    },
+    "shlokas": {
+      "type": "vocabulary",
+      "description": "Verses or hymns, often from Sanskrit scriptures, recited as part of religious or educational practice."
+    },
+    "abhangas": {
+      "type": "vocabulary",
+      "description": "Devotional songs in Marathi, typically sung in praise of the deity Vithoba."
+    },
+    "bhupaliyas": {
+      "type": "vocabulary",
+      "description": "A type of traditional Marathi song, often sung in the early morning."
+    },
+    "chana dal": {
+      "type": "vocabulary",
+      "description": "Split chickpeas, a staple pulse in Indian cuisine."
+    },
+    "Shyama": {
+      "type": "character",
+      "description": "The young boy who is the central figure of the narrative, often referred to as Shyam; the story is told from his perspective."
+    },
+    "Mathura": {
+      "type": "character",
+      "description": "A gentle woman who works as a kandpini (rice pounder) at Shyama’s house and is the mother of Shivram."
+    },
+    "Shivram": {
+      "type": "character",
+      "description": "Mathura’s son, about ten or twelve years old, who helps with various chores at Shyama’s house and cares for his ailing mother."
+    },
+    "Shyama’s mother": {
+      "type": "character",
+      "description": "Shyama’s compassionate and generous mother, known for her kindness to others and her central role in the household."
+    },
+    "Mathure": {
+      "type": "character",
+      "description": "A variant or affectionate form of Mathura, used when addressing her directly in the narrative."
+    },
+    "kandpini": {
+      "type": "vocabulary",
+      "description": "A woman who pounds rice or grain by hand as an occupation."
+    },
+    "kandpinis": {
+      "type": "vocabulary",
+      "description": "Plural of kandpini; women who work pounding rice or grain."
+    },
+    "sambharshing": {
+      "type": "vocabulary",
+      "description": "A medicinal herb used in traditional remedies, especially for headaches."
+    },
+    "gruel": {
+      "type": "vocabulary",
+      "description": "A thin, watery porridge, often made from rice or other grains, commonly eaten in rural Maharashtra."
+    },
+    "Mother": {
+      "type": "character",
+      "description": "Shyam's mother, whose love, care, and wisdom deeply influence Shyam's upbringing and values.",
+      "image": "/data/images/characters/shyamchi-aai/mother.png"
+    },
+    "saree": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by women, consisting of a long piece of cloth draped around the body."
+    },
+    "patravali": {
+      "type": "vocabulary",
+      "description": "A plate made from stitched leaves, traditionally used for serving food."
+    },
+    "patravalis": {
+      "type": "vocabulary",
+      "description": "Plural of patravali; multiple leaf plates."
+    },
+    "patraval": {
+      "type": "vocabulary",
+      "description": "Alternate spelling of patravali; a leaf plate."
+    },
+    "donas": {
+      "type": "vocabulary",
+      "description": "Small bowls made from leaves, used for serving food."
+    },
+    "verandah": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch attached to the outside of a house."
+    },
+    "Gangappa Oak": {
+      "type": "character",
+      "description": "A close friend of Shyama's who lives in Samrad; mentioned as hosting a meal where Shyama is invited."
+    },
+    "Manatai": {
+      "type": "character",
+      "description": "A character who agrees with the custom of reciting shlokas before meals; likely an elder or respected woman in the community."
+    },
+    "Govindbhat": {
+      "type": "character",
+      "description": "A person who teases Shyama for his shyness, comparing it to that of a girl; represents societal expectations."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "A sacred river in India, personified as a goddess in Hindu tradition; often referenced in religious hymns."
+    },
+    "Samrad": {
+      "type": "proper_noun",
+      "description": "The name of a village where Gangappa Oak lives and where a meal gathering takes place."
+    },
+    "shloka": {
+      "type": "vocabulary",
+      "description": "A verse, phrase, proverb, or hymn, usually in Sanskrit, recited as part of Hindu religious practice."
+    },
+    "bhupali": {
+      "type": "vocabulary",
+      "description": "A type of Marathi devotional song, often sung in the evening or at the close of day."
+    },
+    "Mori": {
+      "type": "character",
+      "description": "The family cow, cherished by Shyam and his mother, regarded almost as a member of the family and a symbol of prosperity and affection."
+    },
+    "Gomata": {
+      "type": "proper_noun",
+      "description": "A respectful term meaning 'Mother Cow' in Indian culture, signifying the cow's revered status as a maternal and divine figure."
+    },
+    "Mother India": {
+      "type": "proper_noun",
+      "description": "A personification of India as a nurturing mother, often invoked in patriotic and cultural contexts."
+    },
+    "naivedya": {
+      "type": "vocabulary",
+      "description": "Sacred food offered to a deity or revered being before being consumed by people."
+    },
+    "tandul": {
+      "type": "vocabulary",
+      "description": "The water in which rice is washed, considered nourishing and often given to animals like cows."
+    },
+    "gograss": {
+      "type": "vocabulary",
+      "description": "A portion of food, especially rice or grass, set aside as an offering for the cow, symbolizing respect and gratitude."
+    },
+    "vermilion": {
+      "type": "vocabulary",
+      "description": "A bright red powder (also called 'kumkum' or 'sindoor') used in Hindu rituals, often applied to the forehead during worship."
+    },
+    "grandfather": {
+      "type": "character",
+      "description": "Shyam's maternal grandfather, who lives in the same village and whose house becomes a refuge for Shyam's family."
+    },
+    "younger brother": {
+      "type": "character",
+      "description": "Shyam’s younger brother, who shares in the family’s experiences and participates in conversations about their new home."
+    },
+    "Ganpati": {
+      "type": "proper_noun",
+      "description": "A Hindu festival celebrating Lord Ganesha, the elephant-headed god of wisdom and prosperity."
+    },
+    "Magh": {
+      "type": "proper_noun",
+      "description": "A month in the traditional Hindu lunar calendar, typically falling in January-February."
+    },
+    "Chaturthi": {
+      "type": "proper_noun",
+      "description": "A specific day in the lunar calendar, often associated with the worship of Lord Ganesha."
+    },
+    "kirtan": {
+      "type": "proper_noun",
+      "description": "A devotional singing or musical performance, usually held in temples or during religious festivals."
+    },
+    "Gokul": {
+      "type": "proper_noun",
+      "description": "A town in Hindu mythology associated with Lord Krishna's childhood, often symbolizing an idyllic, loving home."
+    },
+    "Pune": {
+      "type": "proper_noun",
+      "description": "A major city in Maharashtra, India, known for its educational and cultural significance."
+    },
+    "Akshaya Tritiya": {
+      "type": "proper_noun",
+      "description": "An auspicious day in the Hindu calendar, considered highly favorable for new beginnings and important events."
+    },
+    "mangalsutra": {
+      "type": "vocabulary",
+      "description": "A sacred necklace worn by married Hindu women as a symbol of marriage."
+    },
+    "jasmine": {
+      "type": "proper_noun",
+      "description": "A fragrant flowering plant often grown in Indian homes and gardens; in this context, it refers to the jasmine tree near which Shyam buries the fledgling."
+    },
+    "God": {
+      "type": "proper_noun",
+      "description": "A reference to the divine, reflecting the spiritual beliefs common in Indian households; here, it signifies a higher power who rewards good deeds."
+    },
+    "courtyard": {
+      "type": "vocabulary",
+      "description": "An open space or yard enclosed by the walls of a house, commonly found in traditional Indian homes."
+    },
+    "mourning": {
+      "type": "vocabulary",
+      "description": "A period of observance and rituals after a death, often involving specific customs in Indian culture."
+    },
+    "Balu": {
+      "type": "character",
+      "description": "Shyam's dear friend who is suggested as a companion to help Shyam learn to swim."
+    },
+    "Falya": {
+      "type": "character",
+      "description": "A boy mentioned by Shyam's mother as someone Shyam could go with to learn to swim."
+    },
+    "uncle": {
+      "type": "character",
+      "description": "Shyam's paternal uncle, described as an expert swimmer who is suggested to help teach Shyam."
+    },
+    "paddy": {
+      "type": "vocabulary",
+      "description": "Unmilled rice, commonly grown and threshed in rural Maharashtra."
+    },
+    "dhotar": {
+      "type": "vocabulary",
+      "description": "A traditional Marathi men's garment, a rectangular cloth worn as a loincloth."
+    },
+    "gram": {
+      "type": "vocabulary",
+      "description": "A type of pulse (legume), commonly eaten in India; also known as chickpea."
+    },
+    "Pandu Bhatmam": {
+      "type": "character",
+      "description": "A respected man and priest in the village, Pandu Bhatmam is mentioned as someone who accepts gifts despite not being wealthy."
+    },
+    "Brahmins": {
+      "type": "proper_noun",
+      "description": "A Hindu caste traditionally associated with priesthood, learning, and religious duties in Indian society."
+    },
+    "Rohidas": {
+      "type": "proper_noun",
+      "description": "A reference to a saintly figure in Indian tradition, known for humility and service, who is said to have drawn water for others but never for himself."
+    },
+    "Europe": {
+      "type": "proper_noun",
+      "description": "A continent referenced here to contrast cultural values regarding self-reliance and education."
+    },
+    "Russia": {
+      "type": "proper_noun",
+      "description": "A country mentioned as an example where self-reliance and the value of labor are deliberately taught."
+    },
+    "dakshina": {
+      "type": "vocabulary",
+      "description": "A traditional offering or gift, often money, given to priests or Brahmins during religious ceremonies or auspicious occasions."
+    },
+    "annas": {
+      "type": "vocabulary",
+      "description": "An old Indian currency unit, formerly used in British India, where sixteen annas made up one rupee."
+    },
+    "householders": {
+      "type": "vocabulary",
+      "description": "In Indian context, refers to those who manage a household and are expected to give rather than receive charity."
+    },
+    "Parvatibai": {
+      "type": "character",
+      "description": "An elderly lady who lives in the mansion and is Venu's mother; she invites Shyam’s mother to help make shrikhand slices."
+    },
+    "Venu": {
+      "type": "character",
+      "description": "Parvatibai's daughter and Shyam's childhood friend, who cares deeply for Shyam and his mother."
+    },
+    "shreekhand": {
+      "type": "proper_noun",
+      "description": "A traditional sweet dish made from strained yogurt, sugar, and flavorings, popular in Maharashtra and Gujarat."
+    },
+    "tulsi": {
+      "type": "proper_noun",
+      "description": "A sacred plant (holy basil) in Hindu households, often worshipped and kept in a special place near the house."
+    },
+    "usal": {
+      "type": "vocabulary",
+      "description": "A spicy Maharashtrian dish made from sprouted beans or legumes, cooked with spices and often eaten with bread or rice."
+    },
+    "Rabindranath Tagore": {
+      "type": "character",
+      "description": "A renowned Indian poet and philosopher whose words inspire Shyam to persevere even when alone."
+    },
+    "Puranas": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu religious texts containing stories of gods, goddesses, and moral lessons."
+    },
+    "Shaligram": {
+      "type": "proper_noun",
+      "description": "A sacred black stone, considered a representation of Lord Vishnu and worshipped in Hindu households and temples."
+    },
+    "Chaturmas": {
+      "type": "proper_noun",
+      "description": "A four-month holy period in the Hindu calendar, marked by increased religious observances and rituals."
+    },
+    "Ganpati temple": {
+      "type": "proper_noun",
+      "description": "A temple dedicated to Lord Ganpati (Ganesha), the elephant-headed Hindu deity revered as the remover of obstacles."
+    },
+    "Shri Ram Jai Ram, Jai Jai Ram": {
+      "type": "proper_noun",
+      "description": "A popular Hindu devotional chant praising Lord Rama."
+    },
+    "bhajans": {
+      "type": "vocabulary",
+      "description": "Devotional songs sung in praise of Hindu deities, often performed in groups."
+    },
+    "priest": {
+      "type": "vocabulary",
+      "description": "A religious officiant who conducts rituals and ceremonies in Hindu temples."
+    },
+    "Shyam’s paternal uncle": {
+      "type": "character",
+      "description": "Shyam's father's brother, involved in family matters and helps bring Shyam home when he goes missing."
+    },
+    "headmaster": {
+      "type": "character",
+      "description": "The school headmaster who punishes Shyam for poor handwriting, causing distress for Shyam and concern for his parents."
+    },
+    "Maharashtra": {
+      "type": "proper_noun",
+      "description": "A state in western India, known for its rich culture and history; the setting of the story."
+    },
+    "Wai": {
+      "type": "proper_noun",
+      "description": "A sacred town in Maharashtra, situated on the banks of the Krishna river, known for its temples and religious significance."
+    },
+    "Krishna": {
+      "type": "proper_noun",
+      "description": "A major river in southern India, considered holy and often associated with religious rituals and pilgrimages."
+    },
+    "Kanyagat": {
+      "type": "proper_noun",
+      "description": "A specific month or period in the Hindu calendar during which certain religious rituals, like bathing in the Krishna, are performed."
+    },
+    "Pundalik": {
+      "type": "proper_noun",
+      "description": "A legendary devotee in Hindu tradition, associated with the worship of Lord Vitthal in Maharashtra."
+    },
+    "Dhruva": {
+      "type": "proper_noun",
+      "description": "A character from Hindu mythology, celebrated for his devotion and penance, who attained a place among the stars."
+    },
+    "bullock carts": {
+      "type": "vocabulary",
+      "description": "Traditional wooden carts pulled by oxen (bullocks), commonly used for rural transport in India."
+    },
+    "pilgrimage": {
+      "type": "vocabulary",
+      "description": "A religious journey undertaken to a sacred place, often involving rituals and prayers."
+    },
+    "Bhaskar": {
+      "type": "character",
+      "description": "Shyam's neighbor and contemporary, known for his ability to recite the Ramraksha and sometimes perceived by Shyam as boastful."
+    },
+    "Bhima-tai": {
+      "type": "character",
+      "description": "Bhaskar's mother, who helps facilitate Shyam's access to the Ramraksha book."
+    },
+    "Harivijay": {
+      "type": "proper_noun",
+      "description": "A Marathi religious text recounting the story of Lord Hari (Vishnu), often read for devotional purposes."
+    },
+    "Mahavijay": {
+      "type": "proper_noun",
+      "description": "Another Marathi religious or epic text, similar in nature to Harivijay, focused on spiritual or moral lessons."
+    },
+    "Sanskrit": {
+      "type": "proper_noun",
+      "description": "An ancient classical language of India, used in many Hindu scriptures and hymns."
+    },
+    "Rama": {
+      "type": "proper_noun",
+      "description": "A major deity in Hinduism, considered the seventh avatar of Vishnu and the hero of the epic Ramayana."
+    },
+    "Ramraksha": {
+      "type": "proper_noun",
+      "description": "A Sanskrit hymn dedicated to Lord Rama, believed to offer protection to its reciters."
+    },
+    "Shubhamkaroti": {
+      "type": "proper_noun",
+      "description": "A popular Sanskrit prayer recited by children in Maharashtra, often at the beginning or end of daily rituals."
+    },
+    "Bhashya": {
+      "type": "vocabulary",
+      "description": "A term of address, possibly a nickname or diminutive for Bhaskar."
+    },
+    "Vishnusahasranama": {
+      "type": "proper_noun",
+      "description": "A revered Hindu scripture consisting of a thousand names of Lord Vishnu, often recited as a form of devotion."
+    },
+    "Annapurna": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess of food and nourishment, symbolizing abundance and the provider of meals."
+    },
+    "Hindu culture": {
+      "type": "proper_noun",
+      "description": "The collective traditions, values, and practices rooted in Hinduism, emphasizing restraint, contentment, and skill in action."
+    },
+    "holy water": {
+      "type": "vocabulary",
+      "description": "Water that has been blessed or sanctified, often used in Hindu rituals for purification and blessings."
+    },
+    "Mama": {
+      "type": "character",
+      "description": "Shyam's maternal uncle in Pune, with whom Shyam stays while studying."
+    },
+    "Payan Akka": {
+      "type": "character",
+      "description": "A woman in the household, likely Akka herself or another female relative, who is unable to nurse her child due to illness."
+    },
+    "Rangu": {
+      "type": "character",
+      "description": "A younger child in the household, possibly Shyam's sibling or cousin, who is seen playing and crying in the narrative."
+    },
+    "Appurbai": {
+      "type": "character",
+      "description": "Aunt in the family, whose sharp words and virtues leave a strong impression on Shyam."
+    },
+    "Mumbai": {
+      "type": "proper_noun",
+      "description": "The capital city of Maharashtra, India, and a major metropolitan center."
+    },
+    "Swadeshi movement": {
+      "type": "proper_noun",
+      "description": "A nationalist movement in India advocating for the use of Indian-made goods and the boycott of British products during the struggle for independence."
+    },
+    "Danapara": {
+      "type": "proper_noun",
+      "description": "A specific location, likely a neighborhood or area near the family's home where meals are shared."
+    },
+    "Rao": {
+      "type": "character",
+      "description": "A person in Dapoli with whom Shyam stays while attending school; his family is described as poor but caring."
+    },
+    "Namne": {
+      "type": "character",
+      "description": "A teacher at the Mission School in Dapoli whom Shyam likes."
+    },
+    "Bapuya": {
+      "type": "character",
+      "description": "Mentioned as a family member, likely one of Shyam's younger brothers."
+    },
+    "Mission School": {
+      "type": "proper_noun",
+      "description": "A school established by Christian missionaries, often known for teaching English and Western subjects."
+    },
+    "Dapoli": {
+      "type": "proper_noun",
+      "description": "A town in Maharashtra, India, where Shyam attends school."
+    },
+    "Sankranti": {
+      "type": "proper_noun",
+      "description": "A Hindu festival marking the transition of the sun into the zodiac sign of Capricorn, celebrated with special foods and rituals."
+    },
+    "Ekadashi": {
+      "type": "proper_noun",
+      "description": "A sacred day in the Hindu lunar calendar, observed twice a month with fasting and prayers."
+    },
+    "puja": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual of worship involving offerings to deities."
+    },
+    "kos": {
+      "type": "vocabulary",
+      "description": "An old Indian unit of distance, roughly equivalent to 2-3 kilometers."
+    },
+    "bel leaves": {
+      "type": "vocabulary",
+      "description": "Leaves from the bael tree, considered sacred and commonly used in Hindu worship, especially for Lord Shiva."
+    },
+    "durva grass": {
+      "type": "vocabulary",
+      "description": "A type of grass considered sacred in Hindu rituals, often used in offerings."
+    },
+    "tavasli": {
+      "type": "vocabulary",
+      "description": "A traditional sweet or dish, often prepared in Maharashtrian households for special occasions."
+    },
+    "Dwarakakaku": {
+      "type": "character",
+      "description": "An old woman who stays at Shyama’s house during the harvest; she is Shyama’s father’s sister and is trusted by the family."
+    },
+    "Aaji": {
+      "type": "character",
+      "description": "The affectionate term for grandmother, used here for Dwarakakaku, who is involved in household and community activities."
+    },
+    "Ajji": {
+      "type": "character",
+      "description": "Another affectionate term for grandmother, used interchangeably with Aaji in the text."
+    },
+    "Yashoda": {
+      "type": "character",
+      "description": "The given name of Shyam’s mother, addressed directly by Aaji in a moment of argument."
+    },
+    "Vatan": {
+      "type": "character",
+      "description": "A member of the household, possibly a helper or younger family member, asked to fetch buttermilk."
+    },
+    "Durva Aaji": {
+      "type": "proper_noun",
+      "description": "A nickname given to Aaji by the children, meaning 'Grandmother of Sacred Grass', due to her role in collecting and distributing durva for religious offerings."
+    },
+    "Mangala Gauri": {
+      "type": "proper_noun",
+      "description": "A traditional gathering or festival observed by women, often involving prayers, games, and songs, especially during the month of Shravan."
+    },
+    "Mother of the World": {
+      "type": "proper_noun",
+      "description": "A reverential term referring to the Hindu goddess or the universal mother figure, symbolizing divine forgiveness and compassion."
+    },
+    "payasam": {
+      "type": "vocabulary",
+      "description": "A sweet dish made from milk, rice, and sugar, commonly prepared for special occasions in Indian households."
+    },
+    "papads": {
+      "type": "vocabulary",
+      "description": "Thin, crisp, disc-shaped snacks made from seasoned dough, typically served as an accompaniment in Indian meals."
+    },
+    "Amrit Sheth": {
+      "type": "character",
+      "description": "The owner of the cloth shop in the market from whom Shyam buys the dhoti; also referred to as Amritsheti."
+    },
+    "Baba": {
+      "type": "character",
+      "description": "The father of Shyam and Bhau, who performs religious rituals in the temple."
+    },
+    "Diwali": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival celebrated across India, known as the festival of lights."
+    },
+    "Amritsheti": {
+      "type": "proper_noun",
+      "description": "A colloquial form of address for Amrit Sheth, indicating respect or familiarity."
+    },
+    "Narakasura": {
+      "type": "proper_noun",
+      "description": "A demon in Hindu mythology whose defeat is celebrated during Diwali."
+    },
+    "tulsi vrindavan": {
+      "type": "proper_noun",
+      "description": "A sacred basil plant altar found in many Hindu homes, especially in Maharashtra, used for daily worship."
+    },
+    "Bhau Beej": {
+      "type": "proper_noun",
+      "description": "A festival celebrated on the last day of Diwali, marking the bond between brothers and sisters."
+    },
+    "dhotis": {
+      "type": "vocabulary",
+      "description": "Traditional men's garments in India, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "ubtan": {
+      "type": "vocabulary",
+      "description": "A traditional herbal paste applied to the body for cleansing and beautification, especially during festivals."
+    },
+    "utna": {
+      "type": "vocabulary",
+      "description": "A Marathi word for a fragrant herbal powder or paste used for bathing."
+    },
+    "nevariyo": {
+      "type": "vocabulary",
+      "description": "A type of traditional sweet or food item offered as naivedya during religious ceremonies."
+    },
+    "modak": {
+      "type": "vocabulary",
+      "description": "A sweet dumpling popular in Maharashtra, often offered to Lord Ganesha during puja."
+    },
+    "Janaki-vayani": {
+      "type": "character",
+      "description": "A neighbor who occasionally helps with household tasks and converses with Aai and Shyam, sometimes offering advice or criticism."
+    },
+    "Buvaji": {
+      "type": "character",
+      "description": "A referenced family member, likely Shyam's father, whose potential departure is discussed by Janaki-vayani."
+    },
+    "Janabai": {
+      "type": "proper_noun",
+      "description": "A revered female saint and devotee of Lord Vitthal from Maharashtra, known for her devotional songs and stories of God's help in her daily chores."
+    },
+    "Namdev": {
+      "type": "proper_noun",
+      "description": "A famous Marathi saint, poet, and devotee of Lord Vitthal, often mentioned in bhakti literature."
+    },
+    "Om Namo Bhagavate Vasudevaya": {
+      "type": "proper_noun",
+      "description": "A sacred Hindu mantra dedicated to Lord Vishnu, often chanted for spiritual progress and devotion."
+    },
+    "Ardhanari Nateshwar": {
+      "type": "proper_noun",
+      "description": "A form of the Hindu god Shiva depicted as half-male and half-female, symbolizing the unity of masculine and feminine principles."
+    },
+    "patolyo": {
+      "type": "vocabulary",
+      "description": "A traditional Maharashtrian sweet dish, typically made of rice flour stuffed with coconut and jaggery, steamed in turmeric leaves."
+    },
+    "mantra": {
+      "type": "vocabulary",
+      "description": "A sacred utterance, sound, or phrase in Hinduism believed to have spiritual power."
+    },
+    "grinding stone": {
+      "type": "vocabulary",
+      "description": "A traditional stone implement used in Indian households for grinding grains and spices, operated manually."
+    },
+    "Janaki’s mother": {
+      "type": "character",
+      "description": "A woman in the community who advises Shyam’s mother on religious offerings, representing the influence of elders and neighbors."
+    },
+    "banyan tree": {
+      "type": "proper_noun",
+      "description": "A sacred tree in Hindu culture, often worshipped during certain rituals and vows by women."
+    },
+    "Uma’s festival": {
+      "type": "proper_noun",
+      "description": "A religious festival dedicated to the goddess Uma (another name for Parvati), observed with special rituals and offerings."
+    },
+    "Uma": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess, also known as Parvati, worshipped during specific festivals and rituals."
+    },
+    "Jalgaon": {
+      "type": "proper_noun",
+      "description": "A city in Maharashtra, India, referenced here as a place with a large garden where flowers are gathered."
+    },
+    "prasad": {
+      "type": "vocabulary",
+      "description": "Food or other offerings that have been presented to a deity and then distributed among devotees as a blessing."
+    },
+    "betel leaves": {
+      "type": "vocabulary",
+      "description": "Leaves of the betel plant, commonly used in religious offerings and traditional Indian customs."
+    },
+    "areca nuts": {
+      "type": "vocabulary",
+      "description": "Nuts from the areca palm, often chewed with betel leaves and used in rituals."
+    },
+    "sarees": {
+      "type": "vocabulary",
+      "description": "Traditional Indian garments worn by women, often offered during religious ceremonies."
+    },
+    "jaggery": {
+      "type": "vocabulary",
+      "description": "Unrefined cane sugar, commonly used in Indian sweets and offerings."
+    },
+    "tamarinds": {
+      "type": "vocabulary",
+      "description": "A tangy fruit used in Indian cooking and sometimes offered in religious rituals."
+    },
+    "dhavda": {
+      "type": "vocabulary",
+      "description": "A type of flower (Woodfordia fruticosa) commonly used in religious offerings."
+    },
+    "champa": {
+      "type": "vocabulary",
+      "description": "A fragrant flower (plumeria or magnolia species) used in Hindu worship."
+    },
+    "nagchampa": {
+      "type": "vocabulary",
+      "description": "A specific variety of champa flower known for its sweet fragrance and significance in religious rituals."
+    },
+    "Bhoro": {
+      "type": "character",
+      "description": "A person among the old shepherds who demonstrates how to prepare firewood for cooking."
+    },
+    "Bhivan": {
+      "type": "character",
+      "description": "Another individual among the shepherds, who begins to cook during Shyam's visit."
+    },
+    "Sridharbhat": {
+      "type": "character",
+      "description": "A villager who becomes angry with Shyam for his actions, representing the orthodox views of the community."
+    },
+    "Mahars": {
+      "type": "proper_noun",
+      "description": "A Dalit community in Maharashtra, historically considered 'untouchable' and subjected to social discrimination."
+    },
+    "Chambhars": {
+      "type": "proper_noun",
+      "description": "A caste in Maharashtra traditionally associated with leatherwork, also classified as 'untouchable' in the caste hierarchy."
+    },
+    "Maharwada": {
+      "type": "proper_noun",
+      "description": "A segregated settlement or area in a village where the Mahar community resides."
+    },
+    "Brahmin": {
+      "type": "proper_noun",
+      "description": "A member of the highest caste in Hindu society, traditionally priests and scholars."
+    },
+    "Irani hotels": {
+      "type": "proper_noun",
+      "description": "Cafés or restaurants run by Irani immigrants, popular in Maharashtra for their unique cuisine and culture."
+    },
+    "mamlatdar": {
+      "type": "proper_noun",
+      "description": "A government revenue officer or administrative head of a taluka (sub-district) in Maharashtra."
+    },
+    "Mang": {
+      "type": "proper_noun",
+      "description": "A Dalit community in Maharashtra, historically marginalized and considered 'untouchable'."
+    },
+    "Damaji": {
+      "type": "proper_noun",
+      "description": "A reference to a historical or legendary devotee, often associated with stories of devotion and equality in Maharashtra."
+    },
+    "Lord Vitthal": {
+      "type": "proper_noun",
+      "description": "A form of the Hindu god Vishnu worshipped predominantly in Maharashtra, especially at Pandharpur."
+    },
+    "Kubja": {
+      "type": "proper_noun",
+      "description": "A hunchbacked woman in Hindu mythology whom Lord Krishna blesses and transforms."
+    },
+    "Shabari": {
+      "type": "proper_noun",
+      "description": "A devotee of Lord Rama in the Ramayana, known for her unwavering devotion."
+    },
+    "Jatayu": {
+      "type": "proper_noun",
+      "description": "A divine bird in the Ramayana who tries to rescue Sita from Ravana."
+    },
+    "Hanuman": {
+      "type": "proper_noun",
+      "description": "A revered monkey god in Hindu mythology, known for his devotion to Lord Rama."
+    },
+    "Eknath Maharaj": {
+      "type": "proper_noun",
+      "description": "A 16th-century Marathi saint and poet known for his teachings on equality and compassion."
+    },
+    "puranpolis": {
+      "type": "vocabulary",
+      "description": "A traditional sweet flatbread from Maharashtra, stuffed with a mixture of jaggery and lentils."
+    },
+    "Dada": {
+      "type": "character",
+      "description": "Shyam’s elder brother, known for his patience and endurance, who is recovering from illness in this chapter."
+    },
+    "Durva": {
+      "type": "character",
+      "description": "A child in the household or neighborhood, who recites verses and participates in the evening gathering."
+    },
+    "Durva’s grandmother": {
+      "type": "character",
+      "description": "An elderly woman who tells stories to the children, including the story of Chindhi in this chapter."
+    },
+    "Janaki": {
+      "type": "character",
+      "description": "A neighbor who visits and suggests that Shyam should recite a story."
+    },
+    "Abhimanyu": {
+      "type": "character",
+      "description": "A character from the Mahabharata, referenced as the subject of a story Shyam is asked to recite."
+    },
+    "Chindhi": {
+      "type": "character",
+      "description": "A character in a story told by Durva’s grandmother, representing an old or tattered tale."
+    },
+    "Draupadi": {
+      "type": "character",
+      "description": "A key figure from the Mahabharata, depicted as having a special bond with Krishna."
+    },
+    "Subhadra": {
+      "type": "character",
+      "description": "Krishna’s real sister, mentioned in the story narrated by Durva’s grandmother."
+    },
+    "Narada": {
+      "type": "character",
+      "description": "A sage from Hindu mythology, who tests the affection between Krishna and Draupadi in the story."
+    },
+    "goddess": {
+      "type": "proper_noun",
+      "description": "A divine female figure, mentioned metaphorically by Shyam when expressing his feelings about his mother."
+    },
+    "patole": {
+      "type": "vocabulary",
+      "description": "Plural form of patolyo; refers to the same sweet dish."
+    },
+    "kande-pak": {
+      "type": "vocabulary",
+      "description": "A sweet or savory preparation made from onions, typically fried or cooked with sugar."
+    },
+    "ghee": {
+      "type": "vocabulary",
+      "description": "Clarified butter commonly used in Indian cooking and for religious rituals."
+    },
+    "sweetmeat": {
+      "type": "vocabulary",
+      "description": "A general term for Indian sweets or desserts, often made from sugar, milk, or flour."
+    },
+    "banana leaves": {
+      "type": "vocabulary",
+      "description": "Large leaves used as natural plates for serving food in traditional Indian meals."
+    },
+    "my elder brother": {
+      "type": "character",
+      "description": "Shyam's older brother, who acts as a messenger between home and Shyam at school, and is also a student learning English."
+    },
+    "Tagele": {
+      "type": "character",
+      "description": "Shyam's friend at school, mentioned as his companion during playtime."
+    },
+    "Father": {
+      "type": "character",
+      "description": "Shyam's father, depicted as a loving and hardworking man who brings food to Shyam at school."
+    },
+    "pos": {
+      "type": "vocabulary",
+      "description": "A traditional sweet dish from Maharashtra made with coconut and jaggery, often prepared for special occasions."
+    },
+    "Samb Sadashiv": {
+      "type": "proper_noun",
+      "description": "A devotional name for Lord Shiva, invoked in prayers for rain and prosperity."
+    },
+    "Shiva": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, worshipped as the destroyer and transformer, often prayed to for rain and blessings."
+    },
+    "Shiva lingam": {
+      "type": "proper_noun",
+      "description": "A symbolic representation of Lord Shiva, commonly found in temples and used as an object of worship."
+    },
+    "Rudrasukt": {
+      "type": "proper_noun",
+      "description": "A sacred hymn from the Vedas dedicated to Lord Shiva, chanted during religious rituals."
+    },
+    "Govardhan": {
+      "type": "proper_noun",
+      "description": "A sacred hill in Hindu mythology, famously lifted by Krishna to protect villagers from torrential rains."
+    },
+    "Lanka": {
+      "type": "proper_noun",
+      "description": "The island kingdom ruled by Ravana in the Ramayana, corresponding to modern-day Sri Lanka."
+    },
+    "Ravana": {
+      "type": "proper_noun",
+      "description": "The demon king of Lanka in the Ramayana, defeated by Rama as a symbol of the triumph of good over evil."
+    },
+    "lingam": {
+      "type": "vocabulary",
+      "description": "A stone or symbolic object representing Lord Shiva, worshipped in Hindu temples."
+    },
+    "kalash": {
+      "type": "vocabulary",
+      "description": "A metal pot, often filled with water and used in Hindu rituals as a symbol of abundance and purity."
+    },
+    "mantras": {
+      "type": "vocabulary",
+      "description": "Sacred chants or prayers recited during Hindu religious ceremonies."
+    },
+    "deity": {
+      "type": "vocabulary",
+      "description": "A god or divine figure worshipped in a religious context."
+    },
+    "monsoon": {
+      "type": "vocabulary",
+      "description": "The seasonal period of heavy rainfall crucial for agriculture in India."
+    },
+    "Bhaurao": {
+      "type": "character",
+      "description": "A member of the household or close circle, involved in searching for the missing five-rupee note."
+    },
+    "Phadkebaba": {
+      "type": "character",
+      "description": "A respected elder or family friend who notices the missing money and informs others."
+    },
+    "Balwantrao Phadke": {
+      "type": "character",
+      "description": "A frequent visitor and acquaintance of the family, involved in the incident of the missing money."
+    },
+    "Ram Tirtha": {
+      "type": "proper_noun",
+      "description": "A renowned Indian philosopher and spiritual writer whose books influenced Shyam."
+    },
+    "Marathi Puranas": {
+      "type": "proper_noun",
+      "description": "Ancient religious and mythological texts written in the Marathi language, which Shyam reads to gain understanding."
+    },
+    "bidi": {
+      "type": "vocabulary",
+      "description": "A thin, hand-rolled cigarette made from tobacco wrapped in a tendu or temburni leaf, commonly smoked in India."
+    },
+    "compass box": {
+      "type": "vocabulary",
+      "description": "A small box containing drawing instruments such as a compass, ruler, and pencils, used by students in India."
+    },
+    "Bapa": {
+      "type": "character",
+      "description": "Shyam's father, a quiet and supportive presence in the family."
+    },
+    "Aadhyan Bhivn": {
+      "type": "character",
+      "description": "A family member or close acquaintance who anxiously asks Shyam if he begged for money."
+    },
+    "Anna": {
+      "type": "vocabulary",
+      "description": "A respectful term for elder brother in Marathi."
+    },
+    "Sumatai": {
+      "type": "character",
+      "description": "Shyam’s paternal aunt who lives in Ladghar and hosts Shyam and his mother during their pilgrimage."
+    },
+    "Ladghar": {
+      "type": "proper_noun",
+      "description": "A small coastal village in Dapoli taluka, known for its temple and the sacred site Tamas-Tirth."
+    },
+    "Tamas-Tirth": {
+      "type": "proper_noun",
+      "description": "A sacred spot near Ladghar where the sea water appears reddish and pilgrims bathe before visiting the temple."
+    },
+    "Palghar": {
+      "type": "proper_noun",
+      "description": "A town in Maharashtra, the home from which Shyam and his mother begin their journey."
+    },
+    "Pandharpur": {
+      "type": "proper_noun",
+      "description": "A major pilgrimage town in Maharashtra, famous for the temple of Vithoba, mentioned as a holy site Aai wishes to visit."
+    },
+    "Kashi": {
+      "type": "proper_noun",
+      "description": "Another name for Varanasi, a sacred city in Hinduism, referenced as a symbol of holiness."
+    },
+    "Tuka": {
+      "type": "proper_noun",
+      "description": "Refers to Sant Tukaram, a revered Marathi saint and poet, whom Aai wishes Shyam to emulate."
+    },
+    "darshan": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning 'auspicious sight' of a deity or holy person, often used for visiting temples."
+    },
+    "teerth": {
+      "type": "vocabulary",
+      "description": "Holy water or a sacred place, often associated with pilgrimage sites in Hinduism."
+    },
+    "nallu": {
+      "type": "vocabulary",
+      "description": "A traditional Maharashtrian snack or sweet, typically served during festive or special occasions."
+    },
+    "phov": {
+      "type": "vocabulary",
+      "description": "Flattened rice, also known as 'poha', commonly eaten as a snack or breakfast in Maharashtra."
+    },
+    "khan": {
+      "type": "vocabulary",
+      "description": "A traditional silk saree from Maharashtra, often given as a gift."
+    },
+    "Vamanrao": {
+      "type": "character",
+      "description": "A relative or acquaintance who acts as a debt collector for his brother-in-law, demanding repayment and behaving shamelessly towards Shyam's family."
+    },
+    "my brother": {
+      "type": "character",
+      "description": "The narrator's brother, who manages the family's affairs, negotiates with Vamanrao, and tries to maintain dignity despite hardship."
+    },
+    "Kalantare": {
+      "type": "proper_noun",
+      "description": "A specific legal or financial case mentioned in the chapter, likely involving debt or property in the family's village."
+    },
+    "Janaki Vahini": {
+      "type": "character",
+      "description": "A woman in the household, likely Shyam's sister-in-law, whom Shyam asks to take care of his mother."
+    },
+    "Sakoon": {
+      "type": "proper_noun",
+      "description": "A place Shyam returns from; its exact location is unclear but it is distinct from Dapoli."
+    },
+    "Aundh State": {
+      "type": "proper_noun",
+      "description": "A princely state in Maharashtra, known for its progressive policies and educational institutions."
+    },
+    "Aundh": {
+      "type": "proper_noun",
+      "description": "Refers to the town or region associated with Aundh State, where Shyam plans to study."
+    },
+    "Vahini": {
+      "type": "vocabulary",
+      "description": "Sister-in-law in Marathi, specifically the wife of one's elder brother."
+    },
+    "madhukari": {
+      "type": "vocabulary",
+      "description": "The practice of seeking alms for sustenance, especially by students or ascetics."
+    },
+    "paisa": {
+      "type": "vocabulary",
+      "description": "A small unit of currency in India, traditionally one-hundredth of a rupee."
+    },
+    "Nana": {
+      "type": "character",
+      "description": "A senior male figure in the family, often portrayed as practical, proud, and quick-tempered; he is involved in family disputes and tries to advise others on financial matters."
+    },
+    "Shyama’s maternal uncle": {
+      "type": "character",
+      "description": "Shyama’s mother’s brother, who visits to console her and support her during family hardships."
+    },
+    "Marwari": {
+      "type": "proper_noun",
+      "description": "A term referring to a community from Rajasthan, often associated with moneylending and trade in rural Maharashtra."
+    },
+    "Amkya": {
+      "type": "proper_noun",
+      "description": "A personal name mentioned in relation to a seizure order, likely a villager or extended family member."
+    },
+    "bunds": {
+      "type": "vocabulary",
+      "description": "Raised embankments built to control water flow and protect agricultural fields from flooding."
+    },
+    "paddy field": {
+      "type": "vocabulary",
+      "description": "A field where rice is cultivated, typically requiring controlled irrigation and bunds."
+    },
+    "dowry": {
+      "type": "vocabulary",
+      "description": "Property or money brought by a bride to her husband's family upon marriage, a traditional practice in Indian society."
+    },
+    "Tatu": {
+      "type": "character",
+      "description": "A family member who left the household, promising to return soon but did not come back."
+    },
+    "Radha-bai": {
+      "type": "character",
+      "description": "The wife of the pensioner who moves into the village; she befriends Shyama’s mother and offers her work."
+    },
+    "Indu": {
+      "type": "character",
+      "description": "Radha-bai’s midwife who comes to stay due to ill health and is cared for by Shyama’s mother."
+    },
+    "Chandrakala": {
+      "type": "character",
+      "description": "Shyama’s mother’s own midwife from earlier times, mentioned in passing."
+    },
+    "Yashoda-bai": {
+      "type": "character",
+      "description": "Another name used for Shyama’s mother, as addressed by Radha-bai."
+    },
+    "Tulsi": {
+      "type": "proper_noun",
+      "description": "A sacred basil plant worshipped in Hindu households, often associated with purity and devotion."
+    },
+    "Tulsi Vivah": {
+      "type": "proper_noun",
+      "description": "A Hindu festival celebrating the ceremonial marriage of the Tulsi plant to Lord Vishnu or Krishna, marking the end of the monsoon and the beginning of the wedding season."
+    },
+    "Bhau-beej": {
+      "type": "proper_noun",
+      "description": "A festival celebrated by brothers and sisters in Maharashtra, similar to Raksha Bandhan, where sisters pray for their brothers' well-being."
+    },
+    "amla": {
+      "type": "proper_noun",
+      "description": "The Indian gooseberry, a fruit commonly used in Indian cuisine and traditional medicine."
+    },
+    "tamarind": {
+      "type": "proper_noun",
+      "description": "A tangy fruit widely used in Indian cooking and festive preparations."
+    },
+    "maund": {
+      "type": "vocabulary",
+      "description": "A traditional unit of weight in India, roughly equal to about 37 kilograms."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The currency of India."
+    },
+    "kumkum": {
+      "type": "vocabulary",
+      "description": "A red powder used for social and religious markings in Hindu culture."
+    },
+    "fogona": {
+      "type": "vocabulary",
+      "description": "A ceremonial gift, often given during festivals or rituals as a token of blessing or affection."
+    },
+    "Sangale": {
+      "type": "character",
+      "description": "Mentioned as someone being called to join for a meal, likely a friend or family member."
+    },
+    "Sardars": {
+      "type": "proper_noun",
+      "description": "A title used for respected leaders or chiefs in the village, indicating high social status."
+    },
+    "Panchayat": {
+      "type": "proper_noun",
+      "description": "The village council or governing body responsible for local administration and justice."
+    },
+    "stotra": {
+      "type": "vocabulary",
+      "description": "A Sanskrit hymn or chant, typically recited in praise of a deity."
+    },
+    "cow-dung": {
+      "type": "vocabulary",
+      "description": "In rural Indian culture, cow-dung is often used to make small idols or for ritual purposes, especially in domestic worship."
+    },
+    "Nimaane": {
+      "type": "character",
+      "description": "Nimaane is a man suffering from illness, expressing sorrow to his wife about being a burden to the family."
+    },
+    "Sakhu": {
+      "type": "character",
+      "description": "Sakhu is referred to as a caring woman, possibly a sister or close relative, who is expected to help look after the family."
+    },
+    "Janaki-vahini": {
+      "type": "character",
+      "description": "Janaki-vahini is a neighbor or relative who assists the family and visits during illness."
+    },
+    "Namu-maushi": {
+      "type": "character",
+      "description": "Namu-maushi is a childhood friend of Shyama's mother, married into the same village, who visits and helps the family."
+    },
+    "Dwaraka-kaku": {
+      "type": "character",
+      "description": "Dwaraka-kaku is an elderly woman in the household, responsible for cooking and managing some chores."
+    },
+    "Afu": {
+      "type": "character",
+      "description": "Afu is an elder sister to whom the family writes for support."
+    },
+    "Gajanan": {
+      "type": "character",
+      "description": "Gajanan is a son of the family who has recently found a job and sends money home."
+    },
+    "Aunt Namoo": {
+      "type": "character",
+      "description": "Aunt Namoo is a relative who writes letters to the family and visits to provide comfort."
+    },
+    "Aunt": {
+      "type": "character",
+      "description": "Aunt is the mother's sister who comes to comfort and support her during illness."
+    },
+    "Yamuna": {
+      "type": "proper_noun",
+      "description": "Yamuna is another sacred river in India, often mentioned alongside the Ganga in religious and poetic contexts."
+    },
+    "vahini": {
+      "type": "vocabulary",
+      "description": "Vahini is a Marathi term for sister-in-law."
+    },
+    "maushi": {
+      "type": "vocabulary",
+      "description": "Maushi is a Marathi term for maternal aunt."
+    },
+    "kaku": {
+      "type": "vocabulary",
+      "description": "Kaku is a Marathi term for paternal aunt."
+    },
+    "nikhate": {
+      "type": "vocabulary",
+      "description": "Nikhate refers to a type of rice, often considered of lower quality or broken rice."
+    },
+    "pallu": {
+      "type": "vocabulary",
+      "description": "Pallu is the loose end of a sari, often used symbolically for protection or care."
+    },
+    "Aakka": {
+      "type": "character",
+      "description": "Aai's elder sister, referred to as 'Aakka', who helps care for Aai during her illness."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "A major city in India (now called Mumbai), where Gajanan works and to which he returns after visiting home."
+    },
+    "Maavshi": {
+      "type": "character",
+      "description": "An aunt or maternal figure who tends to Shyama’s mother and calls for help during her illness."
+    },
+    "Chandri": {
+      "type": "character",
+      "description": "One of Shyama’s mother’s children, mentioned as being dear to her."
+    },
+    "Saku": {
+      "type": "character",
+      "description": "A woman in the household, possibly a daughter-in-law or relative, who is asked about the family’s well-being."
+    },
+    "Radhabai": {
+      "type": "character",
+      "description": "A woman who moistens the mother's lips and speaks to her in her final moments."
+    },
+    "Bayo": {
+      "type": "character",
+      "description": "A woman who worked in the house, referenced as being gone after the mother’s passing."
+    },
+    "Pergaon": {
+      "type": "proper_noun",
+      "description": "A place name, likely a village or locality relevant to the family’s land and property."
+    },
+    "Sankashti Chaturthi": {
+      "type": "proper_noun",
+      "description": "A Hindu festival dedicated to Lord Ganesha, observed with fasting and prayers for the removal of obstacles."
+    },
+    "Hemgarbha": {
+      "type": "proper_noun",
+      "description": "A type of traditional medicine, possibly an Ayurvedic preparation used for fever."
+    },
+    "Ram": {
+      "type": "proper_noun",
+      "description": "A revered Hindu deity, Lord Rama; uttering his name is considered auspicious at the time of death."
+    },
+    "Rao Pavn": {
+      "type": "character",
+      "description": "A person to whom Namdev communicates about Shyam's letter; possibly an acquaintance or family friend."
+    },
+    "Maushi": {
+      "type": "character",
+      "description": "A term for maternal aunt in Marathi, here referring to a close female relative who supports and consoles Shyam."
+    },
+    "Tukaram": {
+      "type": "character",
+      "description": "Another of Shyam's brothers, mentioned as waiting for Shyam at home."
+    },
+    "Durva's grandmother": {
+      "type": "character",
+      "description": "An elderly woman in the village, possibly a neighbor, who offers comfort and wisdom during the rituals."
+    },
+    "Bhatmama": {
+      "type": "character",
+      "description": "Shyam's uncle, who assists in collecting the ashes and performing the funeral rituals."
+    },
+    "Boribunder": {
+      "type": "proper_noun",
+      "description": "A major railway station in Mumbai (now known as Chhatrapati Shivaji Maharaj Terminus), where Shyam disembarks."
+    },
+    "Girgaon": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Mumbai, indicating Shyam's journey through the city."
+    },
+    "Gitanjali": {
+      "type": "proper_noun",
+      "description": "A collection of poems by Rabindranath Tagore, reflecting spiritual and emotional themes."
+    },
+    "Harnai": {
+      "type": "proper_noun",
+      "description": "A coastal port town in Maharashtra, where Shyam arrives by boat."
+    },
+    "Gita": {
+      "type": "proper_noun",
+      "description": "A reference to the Bhagavad Gita, a sacred Hindu scripture."
+    },
+    "Geetanjali": {
+      "type": "proper_noun",
+      "description": "Another spelling of 'Gitanjali', Tagore's collection of poems."
+    },
+    "pindadaan": {
+      "type": "vocabulary",
+      "description": "A Hindu ritual of offering rice balls (pinda) to departed souls to help them attain peace."
+    },
+    "pind": {
+      "type": "vocabulary",
+      "description": "A rice ball offered during Hindu funeral rites as part of pindadaan."
+    },
+    "darbha grass": {
+      "type": "vocabulary",
+      "description": "A type of sacred grass used in Hindu rituals, especially during funeral ceremonies."
+    },
+    "Mathi": {
+      "type": "character",
+      "description": "The family cat who was deeply attached to Shyam's mother and whose devotion is highlighted in this chapter."
+    },
+    "Sane Guruji": {
+      "type": "character",
+      "description": "The author and narrator of the autobiography, recounting his childhood as Shyam and reflecting on his mother’s influence."
+    },
+    "Paingin": {
+      "type": "proper_noun",
+      "description": "A village in Canacona, Goa, mentioned as the place of residence or origin in the library information."
+    },
+    "Canacona": {
+      "type": "proper_noun",
+      "description": "A region in the southern part of Goa, India."
+    },
+    "Shri Shraddhanand Vidyalaya": {
+      "type": "proper_noun",
+      "description": "A school in Goa where the author or a related person served as Headmaster."
+    },
+    "Om Shri Datt Padmaja Prakashan": {
+      "type": "proper_noun",
+      "description": "A publishing house based in Shristhal, Canacona, Goa."
+    },
+    "Shristhal": {
+      "type": "proper_noun",
+      "description": "A locality in Canacona, Goa, mentioned as the location of the publishing house."
+    },
+    "Konkani": {
+      "type": "proper_noun",
+      "description": "An Indo-Aryan language spoken primarily in the state of Goa and surrounding regions."
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Shyam",
+      "Shyam’s mother",
+      "Shyam’s father",
+      "Umashankar",
+      "Bhau",
+      "khot",
+      "Palovan",
+      "Vat-Savitri",
+      "Purana",
+      "Sati Savitri",
+      "Yama",
+      "Bhaktivijay",
+      "Pandavpratap",
+      "Shri Krishna",
+      "circumambulation",
+      "sari",
+      "dacoits"
+    ],
+    "ch-1-2": [
+      "Akka",
+      "Shyam",
+      "Aai",
+      "Pawanshi family",
+      "Mangal",
+      "Ratnagiri",
+      "Palgad",
+      "Harne",
+      "Panvel"
+    ],
+    "ch-1-3": [
+      "Shyam",
+      "Bapu",
+      "Shyamali",
+      "Ganapati",
+      "durva",
+      "oleander"
+    ],
+    "ch-1-4": [
+      "Shyam",
+      "Yashwant",
+      "Purushottam",
+      "Sadanand",
+      "Bapu",
+      "Aai",
+      "grandmother",
+      "Konkan",
+      "Goa",
+      "Ashadhi Ekadashi",
+      "shlokas",
+      "abhangas",
+      "bhupaliyas",
+      "chana dal",
+      "Aai"
+    ],
+    "ch-1-5": [
+      "Shyama",
+      "Mathura",
+      "Shivram",
+      "Shyama’s mother",
+      "Mathure",
+      "Aai",
+      "Konkan",
+      "kandpini",
+      "kandpinis",
+      "sambharshing",
+      "gruel"
+    ],
+    "ch-1-6": [
+      "Shyam",
+      "Mother",
+      "Aai",
+      "Aai",
+      "saree",
+      "sari"
+    ],
+    "ch-1-7": [
+      "Shyam",
+      "Aai",
+      "Akka",
+      "Bapu",
+      "Shyama",
+      "Konkan",
+      "patravali",
+      "patravalis",
+      "patraval",
+      "donas",
+      "verandah"
+    ],
+    "ch-1-8": [
+      "Shyam",
+      "Bapu",
+      "Aai",
+      "Gangappa Oak",
+      "Manatai",
+      "Govindbhat",
+      "Ganapati",
+      "Ganga",
+      "Samrad",
+      "shloka",
+      "bhupali",
+      "Aai",
+      "Bapu"
+    ],
+    "ch-1-9": [
+      "Shyam",
+      "Shyam’s mother",
+      "Mori",
+      "Gomata",
+      "Mother India",
+      "naivedya",
+      "tandul",
+      "gograss",
+      "vermilion"
+    ],
+    "ch-1-10": [
+      "Shyam",
+      "Shyam’s mother",
+      "Shyam’s father",
+      "grandfather",
+      "grandmother",
+      "younger brother",
+      "Ganpati",
+      "Magh",
+      "Chaturthi",
+      "kirtan",
+      "Gokul",
+      "Pune",
+      "Akshaya Tritiya",
+      "Mathura",
+      "mangalsutra"
+    ],
+    "ch-1-11": [
+      "Shyam",
+      "Mother",
+      "jasmine",
+      "God",
+      "courtyard",
+      "mourning"
+    ],
+    "ch-1-12": [
+      "Shyam",
+      "Mother",
+      "Balu",
+      "Falya",
+      "uncle",
+      "Konkan",
+      "paddy",
+      "sari",
+      "dhotar",
+      "gram"
+    ],
+    "ch-1-13": [
+      "Shyam",
+      "Mother",
+      "Pandu Bhatmam",
+      "Brahmins",
+      "Rohidas",
+      "Europe",
+      "Russia",
+      "dakshina",
+      "annas",
+      "householders"
+    ],
+    "ch-1-14": [
+      "Shyam",
+      "Shyam’s mother",
+      "Parvatibai",
+      "Venu",
+      "shreekhand",
+      "Venu",
+      "Parvatibai",
+      "tulsi",
+      "usal"
+    ],
+    "ch-1-15": [
+      "Shyam",
+      "Shyam’s mother",
+      "Aai",
+      "Rabindranath Tagore",
+      "Puranas",
+      "Shaligram",
+      "Chaturmas",
+      "Ganpati temple",
+      "Purana",
+      "Shri Ram Jai Ram, Jai Jai Ram",
+      "bhajans",
+      "priest"
+    ],
+    "ch-1-16": [
+      "Shyam",
+      "Shyam’s mother",
+      "Shyam’s father",
+      "Shyam’s paternal uncle",
+      "headmaster",
+      "Maharashtra",
+      "Wai",
+      "Krishna",
+      "Ganga",
+      "Palgad",
+      "Kanyagat",
+      "Pundalik",
+      "Dhruva",
+      "bullock carts",
+      "pilgrimage",
+      "tulsi"
+    ],
+    "ch-1-17": [
+      "Shyam",
+      "Bhaskar",
+      "Mother",
+      "Bhima-tai",
+      "Bapu",
+      "Harivijay",
+      "Mahavijay",
+      "Sanskrit",
+      "Rama",
+      "Ramraksha",
+      "Shubhamkaroti",
+      "Aai",
+      "Bhashya",
+      "Bhima-tai",
+      "Shyama"
+    ],
+    "ch-1-18": [
+      "Shyam",
+      "Shyam’s father",
+      "Shyam’s mother",
+      "Bapu",
+      "Ganpati temple",
+      "Vishnusahasranama",
+      "Annapurna",
+      "Hindu culture",
+      "Aai",
+      "holy water"
+    ],
+    "ch-1-19": [
+      "Shyam",
+      "Aai",
+      "Akka",
+      "Mama",
+      "Payan Akka",
+      "Rangu",
+      "Appurbai",
+      "Pune",
+      "Mumbai",
+      "Swadeshi movement",
+      "Danapara",
+      "Ramraksha",
+      "Aai",
+      "Akka",
+      "Mama",
+      "shlokas",
+      "Appurbai"
+    ],
+    "ch-1-20": [
+      "Shyam",
+      "Mother",
+      "Mama",
+      "Rao",
+      "Namne",
+      "Bapuya",
+      "Pune",
+      "Mission School",
+      "Dapoli",
+      "Palgad",
+      "Sankranti",
+      "Ekadashi",
+      "puja",
+      "kos",
+      "shlokas",
+      "tulsi",
+      "bel leaves",
+      "durva grass",
+      "tavasli",
+      "Aai"
+    ],
+    "ch-1-21": [
+      "Dwarakakaku",
+      "Shyama",
+      "Aaji",
+      "Shyam’s mother",
+      "Ajji",
+      "Yashoda",
+      "Vatan",
+      "Durva Aaji",
+      "Chaturmas",
+      "Mangala Gauri",
+      "Mother of the World",
+      "Aaji",
+      "durva",
+      "payasam",
+      "papads",
+      "Aai",
+      "Ajji"
+    ],
+    "ch-1-22": [
+      "Shyam",
+      "Aai",
+      "Bhau",
+      "Amrit Sheth",
+      "Baba",
+      "Diwali",
+      "Dapoli",
+      "Maharashtra",
+      "Pune",
+      "Mumbai",
+      "Amritsheti",
+      "Narakasura",
+      "tulsi vrindavan",
+      "Bhau Beej",
+      "dhotis",
+      "dhotar",
+      "ubtan",
+      "utna",
+      "naivedya",
+      "nevariyo",
+      "modak",
+      "Aai"
+    ],
+    "ch-1-23": [
+      "Shyam",
+      "Aai",
+      "Janaki-vayani",
+      "Buvaji",
+      "Shyama",
+      "Janabai",
+      "Namdev",
+      "kirtan",
+      "Dhruva",
+      "Om Namo Bhagavate Vasudevaya",
+      "Ardhanari Nateshwar",
+      "patolyo",
+      "Aai",
+      "mantra",
+      "grinding stone"
+    ],
+    "ch-1-24": [
+      "Shyam",
+      "Shyam’s mother",
+      "Janaki’s mother",
+      "Aai",
+      "Bhau",
+      "banyan tree",
+      "Uma’s festival",
+      "Uma",
+      "Ganapati",
+      "Jalgaon",
+      "prasad",
+      "puja",
+      "betel leaves",
+      "areca nuts",
+      "sarees",
+      "jaggery",
+      "tamarinds",
+      "dakshina",
+      "tulsi",
+      "durva grass",
+      "bel leaves",
+      "dhavda",
+      "champa",
+      "nagchampa"
+    ],
+    "ch-1-25": [
+      "Shyam",
+      "Mother",
+      "Bhoro",
+      "Bhivan",
+      "Sridharbhat",
+      "Aai",
+      "Mahars",
+      "Chambhars",
+      "Maharwada",
+      "Brahmin",
+      "Irani hotels",
+      "mamlatdar",
+      "Mang",
+      "Damaji",
+      "Lord Vitthal",
+      "Kubja",
+      "Shabari",
+      "Jatayu",
+      "Hanuman",
+      "Eknath Maharaj",
+      "puranpolis"
+    ],
+    "ch-1-26": [
+      "Shyam",
+      "Dada",
+      "Aai",
+      "Durva",
+      "Durva’s grandmother",
+      "Janaki",
+      "Abhimanyu",
+      "Chindhi",
+      "Shri Krishna",
+      "Draupadi",
+      "Subhadra",
+      "Narada",
+      "Pune",
+      "Dapoli",
+      "God",
+      "goddess",
+      "Aai",
+      "patolyo",
+      "patole",
+      "kande-pak",
+      "ghee",
+      "sweetmeat",
+      "banana leaves",
+      "courtyard"
+    ],
+    "ch-1-27": [
+      "Shyam",
+      "Mother",
+      "my elder brother",
+      "Tagele",
+      "Father",
+      "Dapoli",
+      "pos"
+    ],
+    "ch-1-28": [
+      "Shyam",
+      "Shyam’s mother",
+      "Shyam’s father",
+      "Samb Sadashiv",
+      "Shiva",
+      "Shiva lingam",
+      "Maharashtra",
+      "Konkan",
+      "Palgad",
+      "Rudrasukt",
+      "Krishna",
+      "Govardhan",
+      "Rama",
+      "Lanka",
+      "Hanuman",
+      "Ravana",
+      "lingam",
+      "kalash",
+      "mantras",
+      "deity",
+      "monsoon"
+    ],
+    "ch-1-29": [
+      "Bhaurao",
+      "Phadkebaba",
+      "Bhau",
+      "Shyam",
+      "Aai",
+      "Balwantrao Phadke",
+      "Dapoli",
+      "Ram Tirtha",
+      "Marathi Puranas",
+      "Aai",
+      "shloka",
+      "bidi",
+      "betel leaves",
+      "compass box"
+    ],
+    "ch-1-30": [
+      "Shyam",
+      "Aai",
+      "Bapa",
+      "Purushottam",
+      "Bhau",
+      "Aadhyan Bhivn",
+      "Shyama",
+      "Ganpati",
+      "Konkan",
+      "Dapoli",
+      "dhotar",
+      "Anna",
+      "Aai"
+    ],
+    "ch-1-31": [
+      "Shyam",
+      "Sumatai",
+      "Aai",
+      "Dapoli",
+      "Ladghar",
+      "Tamas-Tirth",
+      "Palghar",
+      "Pandharpur",
+      "Kashi",
+      "Tuka",
+      "darshan",
+      "teerth",
+      "vermilion",
+      "annas",
+      "nallu",
+      "phov",
+      "Aai",
+      "khan"
+    ],
+    "ch-1-32": [
+      "Vamanrao",
+      "Shyam’s mother",
+      "Bhau",
+      "my brother",
+      "Shyama",
+      "Purushottam",
+      "Kalantare",
+      "Aai",
+      "dhotar",
+      "shloka"
+    ],
+    "ch-1-33": [
+      "Shyam",
+      "Aai",
+      "Baba",
+      "Bhau",
+      "Janaki Vahini",
+      "Purushottam",
+      "Bapu",
+      "Dapoli",
+      "Sakoon",
+      "Aundh State",
+      "Ganpati temple",
+      "Dhruva",
+      "Aundh",
+      "Aai",
+      "Bhau",
+      "Vahini",
+      "madhukari",
+      "paisa"
+    ],
+    "ch-1-34": [
+      "Nana",
+      "Shyama’s mother",
+      "Bhau",
+      "Bapu",
+      "Shyama’s maternal uncle",
+      "Marwari",
+      "Amkya",
+      "tulsi",
+      "bunds",
+      "paddy field",
+      "dowry"
+    ],
+    "ch-1-35": [
+      "Shyam",
+      "Aai",
+      "Sadanand",
+      "Purushottam",
+      "Aundh",
+      "Harne",
+      "Palgad",
+      "Ganpati",
+      "Aai",
+      "sari"
+    ],
+    "ch-1-36": [
+      "Shyama’s mother",
+      "Shyam",
+      "Tatu",
+      "Radha-bai",
+      "Purushottam",
+      "Indu",
+      "Chandrakala",
+      "Yashoda-bai",
+      "Tulsi",
+      "Tulsi Vivah",
+      "Pune",
+      "Mumbai",
+      "Ganpati",
+      "Diwali",
+      "Bhau-beej",
+      "amla",
+      "tamarind",
+      "maund",
+      "rupees",
+      "ghee",
+      "kumkum",
+      "fogona",
+      "annas"
+    ],
+    "ch-1-37": [
+      "Purushottam",
+      "Shyam",
+      "Indu",
+      "Sangale",
+      "Radha-bai",
+      "Bhaurao",
+      "Shyama",
+      "Marwari",
+      "Ganapati",
+      "Sardars",
+      "Panchayat",
+      "Aai",
+      "stotra",
+      "cow-dung"
+    ],
+    "ch-1-38": [
+      "Nimaane",
+      "Purushottam",
+      "Sakhu",
+      "Durva",
+      "Radha-bai",
+      "Janaki-vahini",
+      "Namu-maushi",
+      "Dwaraka-kaku",
+      "Indu",
+      "Afu",
+      "Gajanan",
+      "Shyam",
+      "Mother",
+      "Aunt Namoo",
+      "Akka",
+      "Aunt",
+      "Ganga",
+      "Mumbai",
+      "Yamuna",
+      "Aai",
+      "vahini",
+      "maushi",
+      "kaku",
+      "nikhate",
+      "pallu"
+    ],
+    "ch-1-39": [
+      "Aai",
+      "Aakka",
+      "Sakhu",
+      "Gajanan",
+      "Purushottam",
+      "Bombay",
+      "Aai",
+      "Aakka"
+    ],
+    "ch-1-40": [
+      "Shyama’s mother",
+      "Shyam",
+      "Purushottam",
+      "Bhau",
+      "Maavshi",
+      "Chandri",
+      "Radha-bai",
+      "Saku",
+      "Gajanan",
+      "Durva’s grandmother",
+      "Nana",
+      "Janaki-vahini",
+      "Radhabai",
+      "Aai",
+      "Aaji",
+      "Bayo",
+      "Pergaon",
+      "Sankashti Chaturthi",
+      "Ganpati temple",
+      "Hemgarbha",
+      "Ganga",
+      "Ram",
+      "vahini",
+      "tulsi"
+    ],
+    "ch-1-41": [
+      "Shyam",
+      "Namdev",
+      "Rao Pavn",
+      "Aunt",
+      "Maushi",
+      "Purushottam",
+      "Tukaram",
+      "Durva's grandmother",
+      "Bhatmama",
+      "Shyama",
+      "Yashoda",
+      "Boribunder",
+      "Girgaon",
+      "Rabindranath Tagore",
+      "Gitanjali",
+      "Harnai",
+      "Pune",
+      "Ganga",
+      "Gita",
+      "Geetanjali",
+      "Anna",
+      "Aai",
+      "Maushi",
+      "mangalsutra",
+      "pindadaan",
+      "pind",
+      "darbha grass"
+    ],
+    "ch-1-42": [
+      "Shyam",
+      "Mathi",
+      "Sane Guruji",
+      "Mother India",
+      "Paingin",
+      "Canacona",
+      "Goa",
+      "Shri Shraddhanand Vidyalaya",
+      "Om Shri Datt Padmaja Prakashan",
+      "Shristhal",
+      "Konkani"
+    ]
+  }
+}

@@ -1,0 +1,1958 @@
+{
+  "glossary": {
+    "Bimala": {
+      "type": "character",
+      "description": "Bimala is the central female character and narrator, wife of Nikhilesh, addressed by various affectionate and respectful terms such as Chhoto Rani, Rani Ma, Ranima, and metaphorically as Queen of the Bees/queen bee; she is also called Chhutu, Makhhi, Makhi, Mokshi, and second queen by different characters.",
+      "image": "/data/images/characters/ghare-baire/bimala.png"
+    },
+    "Nikhilesh": {
+      "type": "character",
+      "description": "Nikhilesh (Nikhil) is Bimala's husband, an idealistic and liberal-minded landlord who values reason and ethical conduct over politics; he is referred to as 'my husband' by Bimala.",
+      "image": "/data/images/characters/ghare-baire/nikhilesh.png"
+    },
+    "Miss Gilby": {
+      "type": "character",
+      "description": "An Englishwoman employed as Bimala's companion and teacher, whose presence in the household becomes a point of controversy."
+    },
+    "Chandranath Babu": {
+      "type": "character",
+      "description": "Chandranath Babu is Nikhilesh's respected teacher or mentor, an elderly and serene figure symbolizing asceticism and renunciation, also addressed as Chandrababu, Chandramaster, or Mastermoshai.",
+      "image": "/data/images/characters/ghare-baire/chandranath-babu.png"
+    },
+    "Noren": {
+      "type": "character",
+      "description": "A young distant relative who, in his Swadeshi enthusiasm, insults Miss Gilby and is subsequently dismissed by Nikhilesh."
+    },
+    "Brahma-moment": {
+      "type": "proper_noun",
+      "description": "A sacred time at dawn in Hindu tradition, considered especially auspicious for spiritual activities."
+    },
+    "Shiva": {
+      "type": "proper_noun",
+      "description": "A principal Hindu deity, often worshipped as the supreme god within Shaivism."
+    },
+    "Mughal-Pathan": {
+      "type": "proper_noun",
+      "description": "Refers to customs or manners influenced by the Mughal and Pathan (Pashtun) Muslim dynasties that ruled parts of India."
+    },
+    "Manu": {
+      "type": "proper_noun",
+      "description": "The legendary first man and lawgiver in Hindu tradition, associated with the ancient legal text Manusmriti."
+    },
+    "Parashara": {
+      "type": "proper_noun",
+      "description": "A revered sage in Hindu tradition, associated with ancient scriptures and codes of conduct."
+    },
+    "Lakshmi": {
+      "type": "proper_noun",
+      "description": "Lakshmi is the Hindu goddess of wealth, fortune, and prosperity; 'Lakshmis' refers to women as embodiments of the goddess, symbolizing prosperity and auspiciousness."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The capital of British India at the time (now Kolkata), a major cultural and political center."
+    },
+    "Puri": {
+      "type": "proper_noun",
+      "description": "A city in Odisha, India, famous for its Jagannath temple and as a pilgrimage site."
+    },
+    "Swadeshi": {
+      "type": "proper_noun",
+      "description": "A movement advocating the use of Indian-made goods and the boycott of foreign products, central to the Indian independence movement."
+    },
+    "Bande Mataram": {
+      "type": "proper_noun",
+      "description": "A patriotic slogan and song meaning 'Hail to the Mother(land)', widely used during the Swadeshi movement."
+    },
+    "natmandir": {
+      "type": "proper_noun",
+      "description": "A temple pavilion or hall, often used for gatherings and performances in Bengali households."
+    },
+    "Rajbari": {
+      "type": "proper_noun",
+      "description": "A royal or aristocratic mansion, literally 'king's house' in Bengali."
+    },
+    "Jagaddhatri": {
+      "type": "proper_noun",
+      "description": "A form of the Hindu goddess Durga, worshipped especially in Bengal."
+    },
+    "Madras": {
+      "type": "proper_noun",
+      "description": "Refers here to a type of sari made from Madras cotton, originating from the city of Madras (now Chennai)."
+    },
+    "Annapurna": {
+      "type": "proper_noun",
+      "description": "The Hindu goddess of food and nourishment, often invoked in the context of serving meals."
+    },
+    "parijat": {
+      "type": "proper_noun",
+      "description": "A mythical, heavenly flower in Hindu mythology, symbolizing beauty and purity."
+    },
+    "Swastyayan": {
+      "type": "proper_noun",
+      "description": "A ritual or act of invoking blessings or auspiciousness, often through recitation or prayer."
+    },
+    "Arjuna": {
+      "type": "proper_noun",
+      "description": "A hero of the Mahabharata, known for his prowess in battle and his devotion to Krishna."
+    },
+    "Kirata": {
+      "type": "proper_noun",
+      "description": "A hunter; in the Mahabharata, Shiva appears to Arjuna in the form of a Kirata."
+    },
+    "Valmiki": {
+      "type": "proper_noun",
+      "description": "The legendary author of the Ramayana, regarded as the 'Adi Kavi' or first poet in Sanskrit literature."
+    },
+    "Anushtubh": {
+      "type": "proper_noun",
+      "description": "A classical Sanskrit meter used in poetry, notably in the Ramayana."
+    },
+    "vermilion": {
+      "type": "vocabulary",
+      "description": "A bright red powder (sindoor) traditionally applied by married Hindu women in the parting of their hair."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn by women in India, consisting of a long piece of cloth draped around the body."
+    },
+    "betel leaves": {
+      "type": "vocabulary",
+      "description": "Leaves of the betel plant, often chewed with areca nut and lime as a mild stimulant in South Asia."
+    },
+    "kewra water": {
+      "type": "vocabulary",
+      "description": "A fragrant water distilled from the pandanus flower, used in Indian cuisine and rituals."
+    },
+    "arati": {
+      "type": "vocabulary",
+      "description": "A Hindu ritual of worship involving the waving of lamps before a deity."
+    },
+    "anna": {
+      "type": "vocabulary",
+      "description": "A former Indian currency unit, equal to 1/16 of a rupee."
+    },
+    "kabiraj": {
+      "type": "vocabulary",
+      "description": "A traditional Ayurvedic physician or herbal doctor in Bengal."
+    },
+    "Munu": {
+      "type": "character",
+      "description": "Nikhilesh's cousin, Munu is mentioned as someone whose humble home and loving nature are admired by Nikhilesh."
+    },
+    "Gopal": {
+      "type": "character",
+      "description": "Munu’s husband, Gopal comes to Nikhilesh seeking help for his daughter's marriage, representing the familial and social ties in the story."
+    },
+    "Sandip": {
+      "type": "character",
+      "description": "Sandip is a fiery nationalist and friend of Nikhilesh, charismatic and passionate about the Swadeshi movement; he is also referred to respectfully as Sandipbabu.",
+      "image": "/data/images/characters/ghare-baire/sandip.png"
+    },
+    "God": {
+      "type": "proper_noun",
+      "description": "A reference to the divine, reflecting the spiritual and philosophical undertones of the novel."
+    },
+    "Bhatpara": {
+      "type": "proper_noun",
+      "description": "A locality or system referenced as a symbol of entrenched social or cultural structures in Bengal."
+    },
+    "Rangpur": {
+      "type": "proper_noun",
+      "description": "A city in Bengal (now in Bangladesh), mentioned as a place where Sandip is expected to travel for Swadeshi activities."
+    },
+    "Mother": {
+      "type": "proper_noun",
+      "description": "Used here as a personification of the country, reflecting the nationalistic tendency to view India as a mother figure."
+    },
+    "Goddess": {
+      "type": "proper_noun",
+      "description": "A religious term used to elevate the country to divine status, common in nationalist rhetoric."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in the Himalayas, popular for its scenic beauty and as a travel destination for Bengalis."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "The mountain range in northern India, symbolizing grandeur and spiritual aspiration."
+    },
+    "municipal corporation": {
+      "type": "vocabulary",
+      "description": "A local governing body in Indian cities, here used metaphorically to describe the regulated distribution of resources."
+    },
+    "orgy": {
+      "type": "vocabulary",
+      "description": "Used metaphorically to describe the frenzied excitement of the nationalist movement."
+    },
+    "servility": {
+      "type": "vocabulary",
+      "description": "A condition of being subservient or slavish, often used in colonial contexts to describe the psychological effects of subjugation."
+    },
+    "exorcist": {
+      "type": "vocabulary",
+      "description": "A person who expels evil spirits, used metaphorically for those who attempt to rid society of its ills."
+    },
+    "ascetic": {
+      "type": "vocabulary",
+      "description": "A person who practices severe self-discipline and abstention from worldly pleasures, often for religious reasons."
+    },
+    "affinity": {
+      "type": "vocabulary",
+      "description": "In this context, refers to a natural attraction or bond between people, often implying a destined or spiritual connection."
+    },
+    "incantations": {
+      "type": "vocabulary",
+      "description": "Chanted words or phrases believed to have magical or spiritual power, often used in religious or ritual contexts."
+    },
+    "elder sister-in-law": {
+      "type": "character",
+      "description": "Nikhil's elder brother's wife, she plays a traditional role in the household and often observes and comments on Bimala's behavior."
+    },
+    "mother-in-law": {
+      "type": "character",
+      "description": "Nikhil's mother, who has relieved Nikhil of household responsibilities, reflecting her authority in the family."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, Bengal was a major center of the Swadeshi movement and is the cultural setting of the novel."
+    },
+    "adornment": {
+      "type": "vocabulary",
+      "description": "Refers to jewelry and decorative items worn, especially by women, as part of traditional Indian dress."
+    },
+    "battle attire": {
+      "type": "vocabulary",
+      "description": "A figurative phrase referring to a woman's dress and appearance as if preparing for a significant or confrontational event."
+    },
+    "warrior maiden": {
+      "type": "vocabulary",
+      "description": "A metaphorical term implying a young woman who is brave and ready to fight, often used in a romantic or nationalistic context."
+    },
+    "temple bells": {
+      "type": "vocabulary",
+      "description": "Bells rung in Hindu temples during worship, symbolizing spiritual awakening or celebration."
+    },
+    "Creator": {
+      "type": "vocabulary",
+      "description": "A reference to God or the divine force believed to have created the universe, often used in spiritual or philosophical contexts."
+    },
+    "medicine chest of Nature": {
+      "type": "vocabulary",
+      "description": "A metaphorical phrase referring to the natural remedies and coping mechanisms that help numb emotional pain."
+    },
+    "Nanku": {
+      "type": "character",
+      "description": "The doorkeeper or servant who attempts to prevent Sandip from entering the inner quarters."
+    },
+    "Longfellow": {
+      "type": "proper_noun",
+      "description": "Henry Wadsworth Longfellow, a famous 19th-century American poet whose works are referenced in the novel."
+    },
+    "Jayadeva": {
+      "type": "proper_noun",
+      "description": "A 12th-century Sanskrit poet known for his devotional work 'Gita Govinda,' referenced as a master of lyrical poetry."
+    },
+    "Lalita Lavanga Lata": {
+      "type": "proper_noun",
+      "description": "A famous song or verse from Jayadeva's 'Gita Govinda,' celebrated for its lyrical beauty."
+    },
+    "Europe": {
+      "type": "proper_noun",
+      "description": "Referenced as a place where modern scientific and philosophical ideas are influencing society, contrasting with Indian tradition."
+    },
+    "Eden": {
+      "type": "proper_noun",
+      "description": "A biblical reference to the Garden of Eden, used metaphorically to discuss temptation and the awakening of desire."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "'Babu' is a respectful or honorific suffix for men, especially in Bengal, similar to 'Mr.' or 'Sir'; also used as a respectful term for a gentleman or educated man in Bengali/Indian society."
+    },
+    "doorman": {
+      "type": "vocabulary",
+      "description": "A household servant responsible for guarding entrances, especially between the inner and outer parts of the house."
+    },
+    "Ma phaleshu kadachana": {
+      "type": "vocabulary",
+      "description": "A Sanskrit phrase from the Bhagavad Gita meaning 'Do your work, but do not expect the fruits,' emphasizing selfless action."
+    },
+    "annas": {
+      "type": "vocabulary",
+      "description": "A former Indian currency unit, where sixteen annas made up one rupee; used here to mean a fraction or portion."
+    },
+    "photo-stand": {
+      "type": "vocabulary",
+      "description": "A stand or frame for displaying photographs, common in Indian households."
+    },
+    "mantra": {
+      "type": "vocabulary",
+      "description": "A sacred utterance, word, or phrase in Hinduism believed to have spiritual power; here used metaphorically for repeated sayings or beliefs."
+    },
+    "guru": {
+      "type": "vocabulary",
+      "description": "A spiritual teacher or guide in Indian tradition."
+    },
+    "pilgrimage": {
+      "type": "vocabulary",
+      "description": "A religious journey to a sacred place, common in Hindu practice."
+    },
+    "incarnations": {
+      "type": "vocabulary",
+      "description": "Refers to the Hindu belief in divine beings taking physical form on earth."
+    },
+    "Sahana": {
+      "type": "proper_noun",
+      "description": "A raga (melodic framework) in Indian classical music, often associated with deep emotion and used in devotional or romantic contexts."
+    },
+    "Tilottama": {
+      "type": "proper_noun",
+      "description": "A celestial nymph from Hindu mythology, renowned for her unparalleled beauty, often referenced as an ideal of feminine perfection."
+    },
+    "Vishwakarma": {
+      "type": "proper_noun",
+      "description": "In Hindu mythology, Vishwakarma is the divine architect and craftsman of the gods, symbolizing creation and artistry."
+    },
+    "bakul": {
+      "type": "vocabulary",
+      "description": "A fragrant flower (Mimusops elengi) commonly found in Bengal, often used in religious and romantic imagery."
+    },
+    "shefali": {
+      "type": "vocabulary",
+      "description": "A small, fragrant white flower (Nyctanthes arbor-tristis), also known as night-flowering jasmine, associated with autumn in Bengal."
+    },
+    "monsoon": {
+      "type": "vocabulary",
+      "description": "The seasonal wind and heavy rainfall period typical in South Asia, marking a significant time in Indian life and culture."
+    },
+    "garland": {
+      "type": "vocabulary",
+      "description": "A string of flowers, often used in Indian ceremonies for worship, honor, or as a symbol of marriage and selection."
+    },
+    "Thakurpo": {
+      "type": "vocabulary",
+      "description": "A Bengali term meaning 'younger brother-in-law,' used by a sister-in-law to address her husband's younger brother."
+    },
+    "Monu": {
+      "type": "character",
+      "description": "Bimala's sister-in-law, Monu is mentioned in relation to her troubled marriage and serves as a point of comparison for Bimala's own emotional struggles."
+    },
+    "Govinda’s mother": {
+      "type": "character",
+      "description": "A household figure responsible for managing provisions, she addresses Bimala with respect and helps with daily domestic affairs."
+    },
+    "Harimoti": {
+      "type": "character",
+      "description": "A person in the household, likely a servant or dependent, whom Bimala instructs to be brought out for distributing provisions."
+    },
+    "Vaishnava": {
+      "type": "proper_noun",
+      "description": "Vaishnava refers to the devotional tradition within Hinduism centered on the worship of Vishnu and his avatars; Vaishnav babajis are ascetic devotees of this tradition."
+    },
+    "Radha": {
+      "type": "proper_noun",
+      "description": "A central figure in Vaishnava devotional literature, Radha is the beloved of Krishna and symbolizes divine love and longing."
+    },
+    "veena": {
+      "type": "vocabulary",
+      "description": "A traditional Indian stringed musical instrument, often symbolizing feminine grace or the soul in literature."
+    },
+    "almirah": {
+      "type": "vocabulary",
+      "description": "A freestanding wardrobe or cabinet used for storing clothes and valuables, common in Indian households."
+    },
+    "betel nuts": {
+      "type": "vocabulary",
+      "description": "Betel nut (the seed of the areca palm) is commonly chewed in South Asia for its stimulant effects, often sliced and prepared with betel leaf and other ingredients."
+    },
+    "Khema": {
+      "type": "character",
+      "description": "A maid in Bimala's household, Khema is involved in a quarrel that disrupts the household's harmony."
+    },
+    "Majorani": {
+      "type": "character",
+      "description": "Majorani, also known as Mejo-rani or Mejorani, is the middle sister-in-law in Bimala's family, involved in household affairs and sometimes called Mejoranididi or Mejo Rani; she is the middle sister-in-law.",
+      "image": "/data/images/characters/ghare-baire/majorani.png"
+    },
+    "Nonu": {
+      "type": "character",
+      "description": "The gatekeeper of the household, whose dismissal becomes a point of contention."
+    },
+    "British Academy": {
+      "type": "proper_noun",
+      "description": "A prestigious institution in London known for its exhibitions of art and scholarship, representing Western cultural authority."
+    },
+    "Dipak raga": {
+      "type": "proper_noun",
+      "description": "A classical Indian musical mode (raga), traditionally believed to evoke intense emotion and even to have the power to light lamps."
+    },
+    "Indian Ocean": {
+      "type": "proper_noun",
+      "description": "The ocean south of the Indian subcontinent, referenced here as the origin of a rare orchid."
+    },
+    "Damayanti": {
+      "type": "proper_noun",
+      "description": "A legendary princess from Indian epic literature, known for her swayamvara and her choice of a mortal husband over a god."
+    },
+    "swayamvara": {
+      "type": "proper_noun",
+      "description": "An ancient Indian practice where a woman chooses her husband from among assembled suitors, often through a public ceremony."
+    },
+    "anchal": {
+      "type": "vocabulary",
+      "description": "The loose end or border of a sari, often used symbolically in Bengali literature."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A veranda (or verandah) is a roofed, open-air gallery or porch attached to a house, common in South Asian architecture."
+    },
+    "parasite": {
+      "type": "vocabulary",
+      "description": "Used metaphorically here to refer to something or someone dependent or clinging, often with a negative connotation."
+    },
+    "niche": {
+      "type": "vocabulary",
+      "description": "A recess in a wall, often used in Indian homes to display religious icons or photographs."
+    },
+    "inner quarters": {
+      "type": "vocabulary",
+      "description": "Also known as 'zenana', refers to the private, domestic spaces of a traditional Indian household reserved for women."
+    },
+    "Panchu": {
+      "type": "character",
+      "description": "A minor character, Panchu is a villager whose suffering becomes a point of comparison for Sandip, highlighting the gap between ideals and reality."
+    },
+    "Indra": {
+      "type": "character",
+      "description": "In Hindu mythology, Indra is the king of the gods, often associated with rain and storms; here, he is referenced as a divine figure who tests ascetics."
+    },
+    "Buddha": {
+      "type": "character",
+      "description": "The founder of Buddhism, Buddha is invoked as an example of spiritual striving and renunciation."
+    },
+    "Ravana": {
+      "type": "character",
+      "description": "The primary antagonist in the Ramayana, Ravana is the demon king of Lanka who abducts Sita; Sandip admires him as a true hero."
+    },
+    "Sita": {
+      "type": "character",
+      "description": "A central figure in the Ramayana, Sita is the wife of Rama, renowned for her chastity and virtue."
+    },
+    "Vibhishan": {
+      "type": "character",
+      "description": "Ravana's brother in the Ramayana, Vibhishan defects to Rama's side, symbolizing betrayal and moral conflict."
+    },
+    "Bhagavad Gita": {
+      "type": "proper_noun",
+      "description": "A revered Hindu scripture, the Bhagavad Gita is a philosophical dialogue between Krishna and Arjuna on duty, righteousness, and the nature of the self."
+    },
+    "shehnai": {
+      "type": "proper_noun",
+      "description": "A traditional North Indian wind instrument, often played at weddings and auspicious occasions."
+    },
+    "Mother Shakti": {
+      "type": "proper_noun",
+      "description": "A Hindu concept personifying the divine feminine power and energy, often worshipped as the mother goddess."
+    },
+    "Mother Mahamaya": {
+      "type": "proper_noun",
+      "description": "A form of the goddess in Hinduism, Mahamaya represents the cosmic illusion or the power that creates the material world."
+    },
+    "Vinolia": {
+      "type": "proper_noun",
+      "description": "A brand of soap popular in colonial India, symbolizing Western consumer goods and modernity."
+    },
+    "Kali": {
+      "type": "proper_noun",
+      "description": "A fierce Hindu goddess representing destruction, power, and transformation; she is worshipped as a symbol of female strength and liberation."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic that narrates the life of Rama, his wife Sita, and his battle with Ravana."
+    },
+    "sattvic": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term denoting purity, harmony, and goodness, often used in Hindu philosophy to describe a calm and balanced nature."
+    },
+    "bhui-champa": {
+      "type": "vocabulary",
+      "description": "A wild, fragrant flower native to Bengal, often associated with natural beauty and simplicity."
+    },
+    "banana trunks": {
+      "type": "vocabulary",
+      "description": "Refers to the practice of making makeshift rafts from banana tree trunks, symbolizing something temporary or unstable."
+    },
+    "garland of her self-choice": {
+      "type": "vocabulary",
+      "description": "A metaphorical phrase referring to the Hindu wedding custom where the bride garlands the groom, symbolizing her acceptance of him."
+    },
+    "B.A.": {
+      "type": "vocabulary",
+      "description": "Bachelor of Arts, an undergraduate academic degree, indicating Sandip's Western-style education."
+    },
+    "Harish Kundu": {
+      "type": "character",
+      "description": "Harish Kundu is a neighboring landlord and Panchu's landlord, depicted as orthodox and oppressive; 'Harishkundu' is a variant spelling."
+    },
+    "Bhadra": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar, corresponding roughly to August-September, associated with the monsoon and harvest."
+    },
+    "Shyamladaha": {
+      "type": "proper_noun",
+      "description": "A lake or water body mentioned as a place where Nikhilesh and Bimala would go boating during Bhadra."
+    },
+    "Krishna Panchami": {
+      "type": "proper_noun",
+      "description": "A specific lunar date in the Hindu calendar, the fifth day of the dark fortnight, often associated with religious observances."
+    },
+    "Lake Manasarovar": {
+      "type": "proper_noun",
+      "description": "A sacred lake in Tibet, revered in Hinduism and Buddhism, associated here with mythic union."
+    },
+    "Mount Kailash": {
+      "type": "proper_noun",
+      "description": "A holy mountain in Tibet, considered the abode of Lord Shiva in Hindu mythology."
+    },
+    "kumud": {
+      "type": "proper_noun",
+      "description": "A type of water lily or lotus, often blooming during the monsoon."
+    },
+    "Kalidasa": {
+      "type": "proper_noun",
+      "description": "A classical Sanskrit poet and dramatist, celebrated for works like 'Ritusamhara'."
+    },
+    "Ritusamhara": {
+      "type": "proper_noun",
+      "description": "A famous Sanskrit poem by Kalidasa, describing the seasons and their effects on lovers."
+    },
+    "Kama": {
+      "type": "proper_noun",
+      "description": "The Hindu god of love and desire, often depicted with five arrows."
+    },
+    "Amiel’s Journal": {
+      "type": "proper_noun",
+      "description": "A reference to the diary of Henri-Frédéric Amiel, a Swiss philosopher and writer."
+    },
+    "Lucknow": {
+      "type": "proper_noun",
+      "description": "A major city in northern India, known for its cultural and historical significance."
+    },
+    "Namasudras": {
+      "type": "proper_noun",
+      "description": "A marginalized and formerly untouchable caste group in Bengal."
+    },
+    "Siddhartha": {
+      "type": "proper_noun",
+      "description": "Refers to Prince Siddhartha, who became the Buddha, symbolizing renunciation and spiritual quest."
+    },
+    "Guhaka": {
+      "type": "proper_noun",
+      "description": "A character from the Ramayana, a Nishada (tribal) king who befriended Rama."
+    },
+    "Ekalavya": {
+      "type": "proper_noun",
+      "description": "A character from the Mahabharata, a lower-caste archer known for his devotion and skill."
+    },
+    "Bharatvarsha": {
+      "type": "proper_noun",
+      "description": "A traditional Sanskrit name for the Indian subcontinent."
+    },
+    "Rangoon": {
+      "type": "proper_noun",
+      "description": "The former capital of Burma (now Yangon, Myanmar), mentioned as a place where Chandranath Babu's son goes for work."
+    },
+    "Battala": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, historically associated with printing presses and publishing."
+    },
+    "Lal Dighi": {
+      "type": "proper_noun",
+      "description": "A historic water tank in central Kolkata, near the administrative and commercial heart of the city."
+    },
+    "Bidyapati": {
+      "type": "proper_noun",
+      "description": "A medieval Maithili poet known for his devotional and romantic poetry."
+    },
+    "Hari": {
+      "type": "proper_noun",
+      "description": "A name for the Hindu god Vishnu or Krishna, often used in devotional contexts."
+    },
+    "paddy": {
+      "type": "vocabulary",
+      "description": "Unhusked rice, commonly grown in Bengal's fields."
+    },
+    "batasa": {
+      "type": "vocabulary",
+      "description": "A type of small, round, crisp sugar candy popular in Bengal."
+    },
+    "conch bangles": {
+      "type": "vocabulary",
+      "description": "Bangles made from conch shells, traditionally worn by married Bengali Hindu women."
+    },
+    "plantain seeds": {
+      "type": "vocabulary",
+      "description": "Seeds from the plantain fruit, sometimes eaten as a cheap food source."
+    },
+    "Huzoor": {
+      "type": "vocabulary",
+      "description": "An honorific term of respect, derived from Persian/Urdu, meaning 'sir' or 'lord'."
+    },
+    "asceticism": {
+      "type": "vocabulary",
+      "description": "A lifestyle characterized by abstinence from worldly pleasures, often for spiritual reasons."
+    },
+    "caste": {
+      "type": "vocabulary",
+      "description": "A traditional social stratification system in India, dividing people into hereditary groups."
+    },
+    "widowed": {
+      "type": "vocabulary",
+      "description": "A woman whose husband has died and who has not remarried."
+    },
+    "octave": {
+      "type": "vocabulary",
+      "description": "A metaphor here for a period or cycle of life, borrowed from musical terminology."
+    },
+    "Sarala": {
+      "type": "character",
+      "description": "Mentioned in a conversation with Mejo-rani, likely another woman in the household or village."
+    },
+    "Sagar": {
+      "type": "proper_noun",
+      "description": "Refers to King Sagar from Hindu mythology, whose sons' ashes were purified by the river Ganga."
+    },
+    "Bhagirathi": {
+      "type": "proper_noun",
+      "description": "A major river in Bengal, considered sacred and associated with the Ganges."
+    },
+    "Ahalya": {
+      "type": "proper_noun",
+      "description": "A character from Hindu mythology who was turned to stone and later restored to life by Rama."
+    },
+    "Pushpak": {
+      "type": "proper_noun",
+      "description": "A mythical flying chariot from the Indian epic Ramayana."
+    },
+    "Nikaria": {
+      "type": "proper_noun",
+      "description": "A term used in a festival and song, possibly referencing a local or folk tradition."
+    },
+    "Hladini Shakti": {
+      "type": "proper_noun",
+      "description": "In Vaishnava philosophy, the personification of the divine feminine energy of joy and bliss, often associated with Radha."
+    },
+    "Rasa-tattva": {
+      "type": "proper_noun",
+      "description": "A concept in Indian aesthetics and Vaishnava theology referring to the essence or principle of spiritual emotion or flavor."
+    },
+    "Shakti-tattva": {
+      "type": "proper_noun",
+      "description": "The principle of divine feminine energy or power in Hindu philosophy."
+    },
+    "Shukhsayorer Hat": {
+      "type": "proper_noun",
+      "description": "A large local market in the district, significant for trade and Swadeshi activism."
+    },
+    "Manchester": {
+      "type": "proper_noun",
+      "description": "A city in England, symbolizing British industrial goods, especially textiles, imported into India."
+    },
+    "Congress party": {
+      "type": "proper_noun",
+      "description": "Refers to the Indian National Congress, the principal organization leading the Indian independence movement."
+    },
+    "Vrindavan": {
+      "type": "proper_noun",
+      "description": "A holy town in northern India, associated with Krishna and a place of pilgrimage, especially for widows and ascetics."
+    },
+    "Kincob": {
+      "type": "proper_noun",
+      "description": "A luxurious brocade fabric, often gold-embroidered, used in India."
+    },
+    "Babaji": {
+      "type": "proper_noun",
+      "description": "A respectful term for a holy man or elder, sometimes used ironically."
+    },
+    "amavasya": {
+      "type": "proper_noun",
+      "description": "The new moon night in the Hindu lunar calendar, symbolizing darkness or absence of light."
+    },
+    "Paradise Lost": {
+      "type": "proper_noun",
+      "description": "An epic poem by John Milton, referenced here as a metaphor for epic struggle."
+    },
+    "Kundu": {
+      "type": "proper_noun",
+      "description": "Kundu refers to a zamindar (landlord) family or clan, whose tenants are involved in the market conflict; 'Kundus' is the plural or collective form."
+    },
+    "zamindar": {
+      "type": "proper_noun",
+      "description": "A hereditary landowner, often with administrative and tax-collecting powers under colonial rule."
+    },
+    "swadeshi": {
+      "type": "vocabulary",
+      "description": "Indian-made; specifically refers to goods produced in India as part of the nationalist boycott of foreign products."
+    },
+    "shāmādān": {
+      "type": "vocabulary",
+      "description": "A traditional Indian lamp or candle stand."
+    },
+    "mem": {
+      "type": "vocabulary",
+      "description": "A colloquial term for a European or Anglo-Indian woman, or sometimes a governess or female teacher."
+    },
+    "kanchan": {
+      "type": "vocabulary",
+      "description": "A type of tree known for its pink blossoms, often referenced in Bengali literature."
+    },
+    "gamchha": {
+      "type": "vocabulary",
+      "description": "A traditional thin, coarse cotton towel used in Bengal and other parts of India."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional men's garment, a long piece of cloth wrapped around the waist and legs."
+    },
+    "bighas": {
+      "type": "vocabulary",
+      "description": "A traditional unit of land measurement in India."
+    },
+    "tamasik": {
+      "type": "vocabulary",
+      "description": "In Hindu philosophy, relating to tamas, the quality of darkness, inertia, or ignorance."
+    },
+    "apsara": {
+      "type": "vocabulary",
+      "description": "A celestial nymph in Hindu and Buddhist mythology, often associated with beauty and temptation."
+    },
+    "tapasya": {
+      "type": "vocabulary",
+      "description": "Austerity, penance, or spiritual discipline."
+    },
+    "khichuri": {
+      "type": "vocabulary",
+      "description": "A dish made of rice and lentils, often cooked during religious or communal events."
+    },
+    "rosary": {
+      "type": "vocabulary",
+      "description": "A string of prayer beads used for counting mantras or prayers."
+    },
+    "fuller's earth": {
+      "type": "vocabulary",
+      "description": "A type of clay used as a cleaning agent, here humorously referred to as 'swadeshi soap'."
+    },
+    "Amulya": {
+      "type": "character",
+      "description": "Amulya is a devoted young follower of Sandip, involved in Swadeshi activism and often tasked with carrying out Sandip's orders; he is sometimes addressed respectfully as Amulyababu or by his full name, Amulya Charan.",
+      "image": "/data/images/characters/ghare-baire/amulya.png"
+    },
+    "Kulada": {
+      "type": "character",
+      "description": "The local manager for Sandip's group, involved in the sabotage of Mirjan's boat."
+    },
+    "Mirjan": {
+      "type": "character",
+      "description": "A prominent boatman who resists joining Sandip's cause and whose boat is sabotaged as a result."
+    },
+    "Padma": {
+      "type": "proper_noun",
+      "description": "A major river in Bengal, often used symbolically in Bengali literature."
+    },
+    "Marwaris": {
+      "type": "proper_noun",
+      "description": "A business community from Rajasthan, known for their commercial acumen and presence in Bengal's trade."
+    },
+    "Muslims": {
+      "type": "proper_noun",
+      "description": "Refers to the Muslim community in Bengal, who are depicted as resisting the Swadeshi boycott."
+    },
+    "Kashmiri": {
+      "type": "proper_noun",
+      "description": "Relating to Kashmir, here referring to the region's famous shawls."
+    },
+    "Huzur": {
+      "type": "proper_noun",
+      "description": "An honorific used in India to address someone respectfully, especially of higher status."
+    },
+    "Dharma": {
+      "type": "proper_noun",
+      "description": "Dharma is a key concept in Indian religions, meaning duty, righteousness, or the moral law governing individual conduct."
+    },
+    "Amir": {
+      "type": "proper_noun",
+      "description": "A term meaning 'noble' or 'wealthy person', used here to describe Sandip's self-image."
+    },
+    "Chand Sadagar": {
+      "type": "proper_noun",
+      "description": "A legendary Bengali merchant known from medieval literature, symbolizing steadfastness and devotion."
+    },
+    "Durga": {
+      "type": "proper_noun",
+      "description": "A major Hindu goddess, worshipped especially in Bengal, often associated with power and protection."
+    },
+    "Marathas": {
+      "type": "proper_noun",
+      "description": "A warrior group from western India, significant in Indian history."
+    },
+    "Sikhs": {
+      "type": "proper_noun",
+      "description": "A religious community originating from Punjab, referenced in the context of Indian history."
+    },
+    "Krishna": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, charioteer and guide to Arjuna in the Mahabharata."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "The Ganges River, sacred in Hinduism and a symbol of Bengal."
+    },
+    "Brahmaputra": {
+      "type": "proper_noun",
+      "description": "A major river in the Indian subcontinent, significant in Bengal."
+    },
+    "Jaishtha": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar, corresponding to May-June, known for its heat."
+    },
+    "Mahishamardini": {
+      "type": "proper_noun",
+      "description": "An epithet of goddess Durga, meaning 'slayer of the buffalo demon', symbolizing the triumph of good over evil."
+    },
+    "Rui-mari": {
+      "type": "proper_noun",
+      "description": "Refers to a locality or event, here the Rui-mari famine, indicating a time of hardship."
+    },
+    "Hosengazi": {
+      "type": "proper_noun",
+      "description": "A place where a large fair is held, mentioned as a potential site for the worship ceremony."
+    },
+    "Yamuna": {
+      "type": "proper_noun",
+      "description": "A major river in India, often personified in Indian poetry and mythology."
+    },
+    "Radhika": {
+      "type": "proper_noun",
+      "description": "Another name for Radha, the beloved of Krishna in Hindu mythology."
+    },
+    "Shakuntala": {
+      "type": "proper_noun",
+      "description": "A heroine from classical Sanskrit literature, known for her longing and separation."
+    },
+    "Devi": {
+      "type": "proper_noun",
+      "description": "A general term for goddess in Hinduism, here referring to the Mother goddess."
+    },
+    "ghat": {
+      "type": "vocabulary",
+      "description": "A set of steps leading down to a river, often used for bathing or docking boats."
+    },
+    "lakhs": {
+      "type": "vocabulary",
+      "description": "A unit in the Indian numbering system equal to one hundred thousand."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The currency of India."
+    },
+    "apni": {
+      "type": "vocabulary",
+      "description": "A formal Bengali/Hindi pronoun for 'you', indicating respect."
+    },
+    "tumi": {
+      "type": "vocabulary",
+      "description": "An informal Bengali pronoun for 'you', indicating intimacy or familiarity."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A piece of fabric worn over the shoulders or head, common in Indian attire."
+    },
+    "wrapper": {
+      "type": "vocabulary",
+      "description": "A type of cloth used for draping or covering, especially in rural India."
+    },
+    "merino": {
+      "type": "vocabulary",
+      "description": "A type of fine wool, often used for warm clothing."
+    },
+    "safes": {
+      "type": "vocabulary",
+      "description": "Strongboxes or secure storage for valuables, here referring to money storage."
+    },
+    "three worlds": {
+      "type": "vocabulary",
+      "description": "A concept from Hindu cosmology referring to heaven, earth, and the underworld."
+    },
+    "Satyameva Jayate": {
+      "type": "vocabulary",
+      "description": "A Sanskrit phrase meaning 'Truth alone triumphs', the national motto of India."
+    },
+    "Chakrabartis": {
+      "type": "character",
+      "description": "A landlord family from Sankibhanga, known for their oppressive rule and use of force to enforce Swadeshi."
+    },
+    "Gurucharan Bhaduri": {
+      "type": "character",
+      "description": "Kundu’s agent, notorious for his cruelty in collecting debts from tenants."
+    },
+    "Mami": {
+      "type": "character",
+      "description": "A woman pretending to be Panchu's aunt, involved in the dispute over Panchu's property."
+    },
+    "Shri Ambikacharan Gupta": {
+      "type": "character",
+      "description": "The signatory of a threatening letter, claiming to be a humble devotee at the Mother’s feet."
+    },
+    "F.A.": {
+      "type": "character",
+      "description": "A student, referred to as 'Pluck fellow,' who shares a story about the Chakrabartis."
+    },
+    "M.A. in history": {
+      "type": "character",
+      "description": "A student with a master's degree in history, who debates with Nikhilesh about the rule of fear."
+    },
+    "Liverpool": {
+      "type": "proper_noun",
+      "description": "A port city in England, referenced here as a center of British trade and authority."
+    },
+    "ramshinga": {
+      "type": "proper_noun",
+      "description": "A traditional Indian trumpet or horn, often used in ceremonial or religious music."
+    },
+    "Chakrabartis of Sankibhanga": {
+      "type": "proper_noun",
+      "description": "A specific landlord family from the region of Sankibhanga, known for their harsh enforcement of Swadeshi."
+    },
+    "Kayastha": {
+      "type": "proper_noun",
+      "description": "A Hindu caste traditionally associated with scribes and administrators in Bengal."
+    },
+    "gomostas": {
+      "type": "proper_noun",
+      "description": "Agents or middlemen employed by landlords or merchants, often tasked with collecting rents or debts."
+    },
+    "Jagaddhatri Puja": {
+      "type": "proper_noun",
+      "description": "A Hindu festival in Bengal dedicated to the goddess Jagaddhatri, celebrated with rituals and festivities."
+    },
+    "Muharram": {
+      "type": "proper_noun",
+      "description": "An important Islamic month, observed with mourning rituals by Muslims, especially Shia communities."
+    },
+    "Gangotri": {
+      "type": "proper_noun",
+      "description": "A sacred site in the Himalayas, considered the source of the Ganges River and an important Hindu pilgrimage destination."
+    },
+    "Krishna Paksha": {
+      "type": "proper_noun",
+      "description": "The dark fortnight of the lunar month in the Hindu calendar, when the moon is waning."
+    },
+    "salt-loyal": {
+      "type": "vocabulary",
+      "description": "A term referring to landlords or people loyal to British trade interests, especially in commodities like salt."
+    },
+    "Inner Witness": {
+      "type": "vocabulary",
+      "description": "A spiritual or philosophical concept referring to one's innermost conscience or soul."
+    },
+    "Amrita": {
+      "type": "vocabulary",
+      "description": "The nectar of immortality in Hindu mythology, believed to grant eternal life to the gods."
+    },
+    "agent": {
+      "type": "vocabulary",
+      "description": "A representative or manager employed by a landlord to collect rents or manage estates."
+    },
+    "arrears": {
+      "type": "vocabulary",
+      "description": "Overdue payments, especially rent or debts owed to a landlord."
+    },
+    "Baurani": {
+      "type": "character",
+      "description": "A term for the wife of a younger brother-in-law, used within the family."
+    },
+    "Madhab Chakraborty": {
+      "type": "character",
+      "description": "A person mentioned as a point of comparison, likely a local figure known for his character."
+    },
+    "Dakshinacharan": {
+      "type": "character",
+      "description": "Mentioned as an inspector of the salt monopoly and a former member of the college club, known for his poetic translation skills."
+    },
+    "Gita": {
+      "type": "proper_noun",
+      "description": "The Bhagavad Gita, a revered Hindu scripture that discusses duty, righteousness, and the nature of the soul."
+    },
+    "Rai-Moshai": {
+      "type": "proper_noun",
+      "description": "A respectful Bengali term for a Brahmin or learned man, here referring to the old cashier."
+    },
+    "Bhai Phonta": {
+      "type": "proper_noun",
+      "description": "A Bengali festival similar to Bhai Dooj, celebrating the bond between brothers and sisters, marked by sisters blessing their brothers."
+    },
+    "Rakhi": {
+      "type": "proper_noun",
+      "description": "A festival (Raksha Bandhan) in which sisters tie a protective thread (rakhi) around their brothers' wrists, symbolizing love and protection."
+    },
+    "Kolkata": {
+      "type": "proper_noun",
+      "description": "The modern name for Calcutta, the capital of West Bengal."
+    },
+    "Dhaka": {
+      "type": "proper_noun",
+      "description": "A major city in Bengal, now the capital of Bangladesh, referenced here as a center of political activity."
+    },
+    "Maulvis": {
+      "type": "proper_noun",
+      "description": "Muslim religious scholars or clerics, referenced here as political agitators."
+    },
+    "Providence": {
+      "type": "proper_noun",
+      "description": "A term referring to divine fate or destiny."
+    },
+    "Lord Sri Krishna": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, speaker of the Bhagavad Gita."
+    },
+    "Browning": {
+      "type": "proper_noun",
+      "description": "Refers to Robert Browning, the English poet, whose work is discussed by the characters."
+    },
+    "Pan": {
+      "type": "proper_noun",
+      "description": "A reference to the Greek god of nature, or possibly to the Bengali word for betel leaf, but here likely used in a literary context."
+    },
+    "Bhairavi": {
+      "type": "proper_noun",
+      "description": "A raga in Indian classical music, often associated with melancholy or devotion."
+    },
+    "Poush": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar, corresponding to December-January, associated with winter and traditional foods."
+    },
+    "Puja": {
+      "type": "proper_noun",
+      "description": "Puja is a Hindu religious festival or ritual worship, especially referring to Durga Puja in Bengal; 'puja' is the lowercase variant."
+    },
+    "prasad": {
+      "type": "vocabulary",
+      "description": "Blessed food offered to a deity and then distributed to devotees."
+    },
+    "pitha": {
+      "type": "vocabulary",
+      "description": "A type of traditional Bengali rice cake or sweet, often made during festivals."
+    },
+    "dacoits": {
+      "type": "vocabulary",
+      "description": "Armed bandits or robbers, especially in rural India."
+    },
+    "guineas": {
+      "type": "vocabulary",
+      "description": "Gold coins formerly used as currency, here referring to valuable gold money."
+    },
+    "raga": {
+      "type": "vocabulary",
+      "description": "A melodic framework in Indian classical music."
+    },
+    "didi": {
+      "type": "vocabulary",
+      "description": "A Bengali term meaning 'elder sister', used as a respectful form of address."
+    },
+    "Na hanyate hanyamane sharire": {
+      "type": "vocabulary",
+      "description": "A Sanskrit verse from the Gita meaning 'It is not slain when the body is slain', referring to the immortality of the soul."
+    },
+    "Kasem Sardar": {
+      "type": "character",
+      "description": "A long-serving and trusted employee of Nikhilesh, Kasem Sardar is wounded during a robbery and later suspected by the police."
+    },
+    "Ekram Sarddar": {
+      "type": "character",
+      "description": "Mentioned as a possible leader of the robbers, Ekram Sarddar is suspected by Kasem of being involved in the theft."
+    },
+    "Maharaj": {
+      "type": "character",
+      "description": "A respectful title used to address Nikhilesh by his tenants and others in the community."
+    },
+    "Vidyabagish Mosai": {
+      "type": "proper_noun",
+      "description": "A learned scholar and poet in the community, involved in composing hymns for religious ceremonies."
+    },
+    "Central Africa": {
+      "type": "proper_noun",
+      "description": "A geographical reference used metaphorically to illustrate Sandip's capacity for adapting his arguments to any context."
+    },
+    "Brahmastra": {
+      "type": "proper_noun",
+      "description": "A mythical, ultimate weapon in Hindu epics, symbolizing immense destructive power."
+    },
+    "Maulvi": {
+      "type": "proper_noun",
+      "description": "An Islamic religious teacher or preacher, often involved in community leadership."
+    },
+    "Shakta": {
+      "type": "proper_noun",
+      "description": "A follower of the Hindu tradition devoted to the worship of the goddess Shakti or Durga."
+    },
+    "Panchur": {
+      "type": "proper_noun",
+      "description": "A place referenced as the site of communal disturbance."
+    },
+    "Java": {
+      "type": "proper_noun",
+      "description": "An island in Indonesia, referenced as a source of imported sugarcane."
+    },
+    "Mauritius": {
+      "type": "proper_noun",
+      "description": "An island nation in the Indian Ocean, also referenced as a source of imported sugarcane."
+    },
+    "Bharat": {
+      "type": "proper_noun",
+      "description": "The Sanskrit name for India, used in a nationalistic and cultural context."
+    },
+    "deity": {
+      "type": "vocabulary",
+      "description": "A god or divine being, often referring to one's personal or household god in Hindu tradition."
+    },
+    "initiation": {
+      "type": "vocabulary",
+      "description": "A religious or spiritual ceremony marking entry into a new stage or acceptance of a truth or practice."
+    },
+    "dawn-bird": {
+      "type": "vocabulary",
+      "description": "A poetic image, likely referring to a bird that sings at dawn, symbolizing hope or awakening."
+    },
+    "illusion": {
+      "type": "vocabulary",
+      "description": "In Indian philosophy, the concept of 'maya', the illusory nature of the world."
+    },
+    "tenants": {
+      "type": "vocabulary",
+      "description": "People who rent land or property, especially in the context of rural Bengal's agrarian society."
+    },
+    "mantras": {
+      "type": "vocabulary",
+      "description": "Sacred chants or phrases believed to have spiritual power in Hinduism and other Indian religions."
+    },
+    "lathiyals": {
+      "type": "vocabulary",
+      "description": "Men armed with lathis (heavy sticks), often employed as guards or enforcers in rural Bengal."
+    },
+    "accounts office": {
+      "type": "vocabulary",
+      "description": "The office responsible for managing financial transactions and records on an estate."
+    },
+    "Deputy Sahib": {
+      "type": "vocabulary",
+      "description": "A colonial-era term for a British or high-ranking Indian official in the police or administration."
+    },
+    "Mosai": {
+      "type": "vocabulary",
+      "description": "A respectful Bengali term for an elder or teacher, often used for learned men."
+    },
+    "effigy": {
+      "type": "vocabulary",
+      "description": "A representation or dummy of a person, often burned in protest or as a form of public humiliation."
+    },
+    "priest": {
+      "type": "vocabulary",
+      "description": "A religious officiant, especially in Hindu rituals."
+    },
+    "rites of peace and well-being": {
+      "type": "vocabulary",
+      "description": "Religious ceremonies performed to bring peace and prosperity, often involving prayers and offerings."
+    },
+    "Behari": {
+      "type": "character",
+      "description": "Behari is a close friend of Nikhilesh and Bimala, known for his integrity and wisdom; 'Behara' refers to a servant in the household, but in some contexts may be a variant or mistaken reference to Behari."
+    },
+    "Thako": {
+      "type": "character",
+      "description": "A female elder or attendant in the household, often present with Mejorani; she is a minor but recurring figure."
+    },
+    "Didi": {
+      "type": "character",
+      "description": "Didi is a term meaning 'elder sister,' used affectionately and respectfully by Amulya and others to address Bimala; Didirani is a respectful and affectionate form of Didi."
+    },
+    "Naib": {
+      "type": "character",
+      "description": "An official or manager, often responsible for estate affairs; in this context, a minor antagonist involved in a subplot about stolen letters."
+    },
+    "Yama": {
+      "type": "proper_noun",
+      "description": "The Hindu god of death, often invoked in reference to fate or mortality."
+    },
+    "Airavata": {
+      "type": "proper_noun",
+      "description": "The mythological white elephant of Indra, symbolizing royal power and grandeur."
+    },
+    "bazaar": {
+      "type": "proper_noun",
+      "description": "A marketplace or commercial area, often central to Indian towns and cities."
+    },
+    "Alakapuri": {
+      "type": "proper_noun",
+      "description": "A mythical city in Hindu and Indian legend, often depicted as a city of wealth and beauty."
+    },
+    "Indrani": {
+      "type": "proper_noun",
+      "description": "The consort of Indra in Hindu mythology, symbolizing beauty and splendor."
+    },
+    "Bhojpuri": {
+      "type": "proper_noun",
+      "description": "Refers to a person from the Bhojpuri-speaking region of India, often used to denote a servant or laborer from that area."
+    },
+    "quarter-anna": {
+      "type": "vocabulary",
+      "description": "A small unit of currency in colonial India, equal to one-sixteenth of a rupee."
+    },
+    "behara": {
+      "type": "vocabulary",
+      "description": "A male servant or attendant in a Bengali household."
+    },
+    "Bande Priyam, Bande Mohinim": {
+      "type": "vocabulary",
+      "description": "A play on 'Bande Mataram,' meaning 'Hail to the Beloved, Hail to the Enchantress,' expressing personal devotion."
+    },
+    "Shuchi": {
+      "type": "character",
+      "description": "A character addressed as leaving for Calcutta, possibly a younger female relative or companion."
+    },
+    "Kshema": {
+      "type": "character",
+      "description": "A maid in the household who entrusts her jewelry to Bimala for safekeeping."
+    },
+    "Thakur": {
+      "type": "character",
+      "description": "A household servant who also entrusts his savings to Bimala."
+    },
+    "Nandababu": {
+      "type": "character",
+      "description": "Mejo-rani's nephew, who brings a gramophone ('kol') from Kolkata."
+    },
+    "Devi Chowdhurani": {
+      "type": "proper_noun",
+      "description": "Devi Chowdhurani is a legendary female bandit and folk heroine in Bengal, often invoked as a symbol of rebellious womanhood and daring."
+    },
+    "Benarasi sari": {
+      "type": "proper_noun",
+      "description": "A luxurious silk sari from Varanasi (Benares), prized for its intricate weaving and often worn on special occasions."
+    },
+    "Magh": {
+      "type": "proper_noun",
+      "description": "The eleventh month in the Bengali calendar, corresponding roughly to January-February."
+    },
+    "kol": {
+      "type": "proper_noun",
+      "description": "A colloquial Bengali term for a gramophone, an early record-playing machine."
+    },
+    "Gandharvas": {
+      "type": "proper_noun",
+      "description": "Celestial musicians in Hindu mythology, associated with divine music."
+    },
+    "Saptami": {
+      "type": "proper_noun",
+      "description": "The seventh day of the lunar fortnight in the Hindu calendar, often marking religious observances."
+    },
+    "thakur-bari": {
+      "type": "proper_noun",
+      "description": "The family shrine or prayer room in a Bengali household."
+    },
+    "Narayan": {
+      "type": "proper_noun",
+      "description": "Narayan (or Narayana) is a name for the Hindu god Vishnu, often used as a term of reverence and representing the divine presence in all beings."
+    },
+    "Lord": {
+      "type": "proper_noun",
+      "description": "Used here as a translation of 'Prabhu' or 'Thakur,' referring to God or a divine figure."
+    },
+    "safe key": {
+      "type": "vocabulary",
+      "description": "The key to a household iron safe, used to store valuables."
+    },
+    "nautch-girls": {
+      "type": "vocabulary",
+      "description": "Professional female dancers and entertainers in colonial India, often performing in courts or at social gatherings."
+    },
+    "Daroga-babu": {
+      "type": "character",
+      "description": "The local police inspector, involved in investigating the theft of money from the estate."
+    },
+    "Haricharan Babu": {
+      "type": "character",
+      "description": "A police inspector who recognizes Amulya and discusses the case with Nikhilesh."
+    },
+    "Tinkori Dutta": {
+      "type": "character",
+      "description": "The manager of Nikhilesh's Chakua estate, suspected of involvement in the theft."
+    },
+    "Nibaran Ghoshal": {
+      "type": "character",
+      "description": "Amulya's father, mentioned as a classmate of Haricharan Babu."
+    },
+    "Ripon College": {
+      "type": "proper_noun",
+      "description": "A prominent college in Calcutta (now Surendranath College), named after Lord Ripon, a British Viceroy."
+    },
+    "Chakua": {
+      "type": "proper_noun",
+      "description": "An estate or property managed by Nikhilesh, referenced in connection with the theft."
+    },
+    "kewa": {
+      "type": "vocabulary",
+      "description": "A type of aromatic ingredient or flavoring, often used in betel preparations."
+    },
+    "catechu": {
+      "type": "vocabulary",
+      "description": "An extract from the acacia tree, used in betel chewing for its astringent flavor."
+    },
+    "bullock cart": {
+      "type": "vocabulary",
+      "description": "A traditional cart pulled by oxen, used for transportation in rural India."
+    },
+    "barkandazes": {
+      "type": "vocabulary",
+      "description": "Armed guards or watchmen, often employed to protect property or estates."
+    },
+    "bull’s-eye lantern": {
+      "type": "vocabulary",
+      "description": "A type of hand-held lantern with a glass lens, used to focus light in a beam."
+    },
+    "kaviraj": {
+      "type": "vocabulary",
+      "description": "A traditional Ayurvedic physician or herbal doctor."
+    },
+    "Dada": {
+      "type": "vocabulary",
+      "description": "A Bengali term for elder brother."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation of betel leaf with areca nut and slaked lime, chewed for its stimulant effects."
+    },
+    "Dewan Sahib": {
+      "type": "character",
+      "description": "The chief administrative officer or manager of the estate, responsible for carrying out orders and managing emergencies."
+    },
+    "Harishkundur": {
+      "type": "proper_noun",
+      "description": "Likely a local place or office associated with the estate, mentioned as having been looted during the unrest."
+    },
+    "Goalpaar": {
+      "type": "proper_noun",
+      "description": "A locality or region near the estate, referenced in the description of the sunset."
+    },
+    "last rites": {
+      "type": "vocabulary",
+      "description": "Religious or ritualistic ceremonies performed at the time of death to ensure the soul's peaceful departure."
+    },
+    "jewel box": {
+      "type": "vocabulary",
+      "description": "A container for storing valuable ornaments, symbolizing wealth and status."
+    },
+    "drumstick tree": {
+      "type": "vocabulary",
+      "description": "A tree known for its edible pods and flowers, commonly found in Indian villages."
+    },
+    "Demoness": {
+      "type": "vocabulary",
+      "description": "A term of abuse, implying a woman with destructive or evil intent."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Bimala",
+      "Nikhilesh",
+      "Miss Gilby",
+      "Chandranath Babu",
+      "Noren",
+      "Brahma-moment",
+      "Shiva",
+      "Mughal-Pathan",
+      "Manu",
+      "Parashara",
+      "Lakshmi",
+      "Calcutta",
+      "Puri",
+      "Swadeshi",
+      "Bande Mataram",
+      "natmandir",
+      "Rajbari",
+      "Jagaddhatri",
+      "Madras",
+      "Annapurna",
+      "parijat",
+      "Swastyayan",
+      "Arjuna",
+      "Kirata",
+      "Valmiki",
+      "Anushtubh",
+      "Chandranath Babu",
+      "vermilion",
+      "sari",
+      "betel leaves",
+      "kewra water",
+      "arati",
+      "anna",
+      "kabiraj",
+      "Narayan",
+      "Sandip",
+      "babu"
+    ],
+    "ch-2": [
+      "Bimala",
+      "Munu",
+      "Gopal",
+      "Sandip",
+      "Chandranath Babu",
+      "God",
+      "Bhatpara",
+      "Rangpur",
+      "Swadeshi",
+      "Mother",
+      "Goddess",
+      "Chandranath Babu",
+      "Darjeeling",
+      "Himalayas",
+      "Bande Mataram",
+      "municipal corporation",
+      "orgy",
+      "servility",
+      "exorcist",
+      "babu"
+    ],
+    "ch-3": [
+      "Nikhilesh",
+      "ascetic",
+      "affinity",
+      "incantations",
+      "Vaishnava"
+    ],
+    "ch-4": [
+      "elder sister-in-law",
+      "mother-in-law",
+      "Bengal",
+      "Sandipbabu",
+      "sari",
+      "adornment",
+      "battle attire",
+      "warrior maiden",
+      "temple bells",
+      "Creator",
+      "medicine chest of Nature",
+      "Bimala",
+      "Majorani",
+      "Nikhilesh",
+      "Sandip"
+    ],
+    "ch-5": [
+      "Sandip",
+      "Nikhilesh",
+      "Bimala",
+      "Nanku",
+      "Chandranath Babu",
+      "Longfellow",
+      "Jayadeva",
+      "Lalita Lavanga Lata",
+      "Swadeshi",
+      "Europe",
+      "Eden",
+      "babu",
+      "doorman",
+      "Ma phaleshu kadachana",
+      "annas",
+      "photo-stand",
+      "mantra",
+      "guru",
+      "pilgrimage",
+      "incarnations",
+      "Behari"
+    ],
+    "ch-6": [
+      "Bimala",
+      "Sandip",
+      "Sahana",
+      "Tilottama",
+      "Vishwakarma",
+      "bakul",
+      "shefali",
+      "monsoon",
+      "garland",
+      "vermilion",
+      "Thakurpo",
+      "Chandranath Babu",
+      "Majorani"
+    ],
+    "ch-7": [
+      "Monu",
+      "Govinda’s mother",
+      "Harimoti",
+      "Vaishnava",
+      "Radha",
+      "veena",
+      "almirah",
+      "betel nuts",
+      "Bimala",
+      "Chandranath Babu",
+      "Sandip"
+    ],
+    "ch-8": [
+      "Sandip",
+      "Khema",
+      "Majorani",
+      "Nonu",
+      "Thakurpo",
+      "British Academy",
+      "Vaishnava",
+      "Dipak raga",
+      "Calcutta",
+      "Indian Ocean",
+      "Damayanti",
+      "swayamvara",
+      "guru",
+      "anchal",
+      "sari",
+      "betel nuts",
+      "veranda",
+      "parasite",
+      "niche",
+      "mantra",
+      "babu",
+      "inner quarters",
+      "Bimala",
+      "Nikhilesh"
+    ],
+    "ch-9": [
+      "Sandip",
+      "Bimala",
+      "Panchu",
+      "Indra",
+      "Buddha",
+      "Ravana",
+      "Sita",
+      "Vibhishan",
+      "Bhagavad Gita",
+      "Bande Mataram",
+      "shehnai",
+      "Mother Shakti",
+      "Mother Mahamaya",
+      "Vinolia",
+      "Lakshmi",
+      "Kali",
+      "Ramayana",
+      "sattvic",
+      "bhui-champa",
+      "banana trunks",
+      "garland of her self-choice",
+      "B.A.",
+      "Nikhilesh",
+      "Dharma"
+    ],
+    "ch-10": [
+      "Bimala",
+      "Panchu",
+      "Chandranath Babu",
+      "Harish Kundu",
+      "Bhadra",
+      "Shyamladaha",
+      "Krishna Panchami",
+      "Lake Manasarovar",
+      "Mount Kailash",
+      "Calcutta",
+      "kumud",
+      "Lakshmi",
+      "Kalidasa",
+      "Ritusamhara",
+      "Kama",
+      "Amiel’s Journal",
+      "Lucknow",
+      "Namasudras",
+      "Bengal",
+      "Siddhartha",
+      "Manu",
+      "Guhaka",
+      "Ekalavya",
+      "Bharatvarsha",
+      "Rangoon",
+      "Battala",
+      "Lal Dighi",
+      "Bidyapati",
+      "Hari",
+      "paddy",
+      "sari",
+      "batasa",
+      "conch bangles",
+      "plantain seeds",
+      "Huzoor",
+      "asceticism",
+      "caste",
+      "widowed",
+      "octave",
+      "veranda"
+    ],
+    "ch-11": [
+      "Bimala",
+      "Nikhilesh",
+      "Sandip",
+      "Panchu",
+      "Sarala",
+      "Bengal",
+      "Sagar",
+      "Bhagirathi",
+      "Ahalya",
+      "Pushpak",
+      "Nikaria",
+      "Vaishnava",
+      "Radha",
+      "Hladini Shakti",
+      "Rasa-tattva",
+      "Shakti-tattva",
+      "Rangoon",
+      "Calcutta",
+      "Shukhsayorer Hat",
+      "Manchester",
+      "Congress party",
+      "Vrindavan",
+      "Lakshmi",
+      "Kincob",
+      "Babaji",
+      "Bande Mataram",
+      "Swadeshi",
+      "amavasya",
+      "Paradise Lost",
+      "Hari",
+      "Kundu",
+      "zamindar",
+      "swadeshi",
+      "shāmādān",
+      "Mejo-rani",
+      "Thakurpo",
+      "mem",
+      "kanchan",
+      "gamchha",
+      "dhoti",
+      "sari",
+      "bighas",
+      "tamasik",
+      "apsara",
+      "tapasya",
+      "khichuri",
+      "rosary",
+      "fuller's earth",
+      "Amulya",
+      "Chandranath Babu",
+      "Harish Kundu",
+      "Majorani"
+    ],
+    "ch-12": [
+      "Bimala",
+      "Sandip",
+      "Amulya",
+      "Kulada",
+      "Mirjan",
+      "Padma",
+      "Calcutta",
+      "Marwaris",
+      "Muslims",
+      "Kashmiri",
+      "Mirjan",
+      "Huzur",
+      "Bande Mataram",
+      "Dharma",
+      "Amir",
+      "Bharatvarsha",
+      "Chand Sadagar",
+      "Shiva",
+      "Durga",
+      "Jagaddhatri",
+      "Marathas",
+      "Sikhs",
+      "Arjuna",
+      "Krishna",
+      "Ganga",
+      "Brahmaputra",
+      "Jaishtha",
+      "Mahishamardini",
+      "Rui-mari",
+      "Hosengazi",
+      "Yamuna",
+      "Radhika",
+      "Shakuntala",
+      "Devi",
+      "Bengal",
+      "ghat",
+      "lakhs",
+      "rupees",
+      "apni",
+      "tumi",
+      "mantra",
+      "veena",
+      "sari",
+      "shawl",
+      "wrapper",
+      "merino",
+      "safes",
+      "annas",
+      "three worlds",
+      "Mahishamardini",
+      "Satyameva Jayate",
+      "Chandranath Babu",
+      "Kundu",
+      "Nikhilesh",
+      "Puja"
+    ],
+    "ch-13": [
+      "Nikhilesh",
+      "Bimala",
+      "Chakrabartis",
+      "Kundu",
+      "Gurucharan Bhaduri",
+      "Panchu",
+      "Mami",
+      "Shri Ambikacharan Gupta",
+      "F.A.",
+      "M.A. in history",
+      "B.A.",
+      "Swadeshi",
+      "Manchester",
+      "Liverpool",
+      "Bande Mataram",
+      "ramshinga",
+      "Chakrabartis of Sankibhanga",
+      "Kayastha",
+      "gomostas",
+      "Jagaddhatri Puja",
+      "Muharram",
+      "Vrindavan",
+      "Gangotri",
+      "Krishna Paksha",
+      "salt-loyal",
+      "Mother",
+      "Inner Witness",
+      "Amrita",
+      "agent",
+      "arrears",
+      "ghat",
+      "sari",
+      "Chandranath Babu",
+      "Harish Kundu",
+      "Sandip"
+    ],
+    "ch-14": [
+      "Sandip",
+      "Amulya",
+      "Thakurpo",
+      "Baurani",
+      "Madhab Chakraborty",
+      "Dakshinacharan",
+      "Gita",
+      "Rai-Moshai",
+      "Bhai Phonta",
+      "Rakhi",
+      "Debi Chowdhurani",
+      "Calcutta",
+      "Kolkata",
+      "Dhaka",
+      "Bengal",
+      "Maulvis",
+      "Muslims",
+      "Providence",
+      "Mother",
+      "Lord Sri Krishna",
+      "Browning",
+      "Pan",
+      "Bhairavi",
+      "Poush",
+      "Puja",
+      "Bande Mataram",
+      "anchal",
+      "prasad",
+      "pitha",
+      "dacoits",
+      "guineas",
+      "sari",
+      "raga",
+      "didi",
+      "Ranididi",
+      "Mejo-rani",
+      "Choto-rani",
+      "Thakurpo",
+      "Baurani",
+      "Na hanyate hanyamane sharire",
+      "Devi",
+      "Bimala",
+      "Devi Chowdhurani",
+      "Didi",
+      "Majorani",
+      "Nikhilesh",
+      "Dharma"
+    ],
+    "ch-15": [
+      "Sandip",
+      "Bimala",
+      "Kasem Sardar",
+      "Ekram Sarddar",
+      "Maharaj",
+      "Annapurna",
+      "Mahishamardini",
+      "Vidyabagish Mosai",
+      "Central Africa",
+      "Brahmastra",
+      "Dhaka",
+      "Maulvi",
+      "Vaishnava",
+      "Shakta",
+      "Panchur",
+      "Chakrabartis",
+      "Java",
+      "Mauritius",
+      "Calcutta",
+      "Bharat",
+      "Europe",
+      "deity",
+      "initiation",
+      "dawn-bird",
+      "illusion",
+      "tenants",
+      "mantras",
+      "Bande Mataram",
+      "Swadeshi",
+      "lathiyals",
+      "dacoits",
+      "accounts office",
+      "Deputy Sahib",
+      "Mosai",
+      "effigy",
+      "mantra",
+      "priest",
+      "rites of peace and well-being",
+      "veranda",
+      "Chandranath Babu",
+      "Harish Kundu",
+      "Majorani",
+      "Dharma"
+    ],
+    "ch-16": [
+      "Amulya",
+      "Behari",
+      "Thako",
+      "Didi",
+      "Sandip",
+      "Naib",
+      "Calcutta",
+      "Yama",
+      "Bengal",
+      "Indra",
+      "Airavata",
+      "bazaar",
+      "Alakapuri",
+      "Lakshmi",
+      "Indrani",
+      "Bhojpuri",
+      "Shiva",
+      "Devi",
+      "betel leaves",
+      "Bhai Phonta",
+      "quarter-anna",
+      "guineas",
+      "prasad",
+      "behara",
+      "Bande Mataram",
+      "Bande Priyam, Bande Mohinim",
+      "mantra",
+      "sari",
+      "Bimala",
+      "Majorani"
+    ],
+    "ch-17": [
+      "Amulya",
+      "Thakurpo",
+      "Kasem Sardar",
+      "Shuchi",
+      "Kshema",
+      "Thakur",
+      "Thako",
+      "Nandababu",
+      "Calcutta",
+      "Bande Mataram",
+      "Devi Chowdhurani",
+      "Bhai Phonta",
+      "Benarasi sari",
+      "Magh",
+      "pitha",
+      "kol",
+      "Kolkata",
+      "Gandharvas",
+      "Saptami",
+      "thakur-bari",
+      "arati",
+      "Narayan",
+      "Lord",
+      "dacoits",
+      "sari",
+      "safe key",
+      "behara",
+      "pitha",
+      "arati",
+      "thakur-bari",
+      "kol",
+      "nautch-girls",
+      "Bande Mataram",
+      "Behari",
+      "Bimala",
+      "Majorani"
+    ],
+    "ch-18": [
+      "Bimala",
+      "Khema",
+      "Daroga-babu",
+      "Maharaj",
+      "Amulya",
+      "Haricharan Babu",
+      "Tinkori Dutta",
+      "Kasem Sardar",
+      "Nibaran Ghoshal",
+      "Calcutta",
+      "Ganga",
+      "Ripon College",
+      "Chakua",
+      "Bande Mataram",
+      "kewa",
+      "catechu",
+      "swadeshi",
+      "pitha",
+      "bullock cart",
+      "barkandazes",
+      "bull’s-eye lantern",
+      "dacoits",
+      "kaviraj",
+      "mantra",
+      "Devi",
+      "Thakurpo",
+      "Dada",
+      "Didi",
+      "paan",
+      "Majorani",
+      "betel nuts"
+    ],
+    "ch-19": [
+      "Bimala",
+      "Sandip",
+      "Chandranath Babu",
+      "Dewan Sahib",
+      "Kolkata",
+      "Muslims",
+      "Harishkundur",
+      "Goalpaar",
+      "last rites",
+      "jewel box",
+      "Thakurpo",
+      "Dewan Sahib",
+      "Maharaj",
+      "drumstick tree",
+      "Demoness",
+      "Nikhilesh",
+      "babu"
+    ]
+  }
+}

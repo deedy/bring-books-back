@@ -1,6 +1,7 @@
 {
   "id": "mrinalini",
   "title": "Mrinalini",
+  "transliteratedTitle": "Mrinalini",
   "subtitle": "A Historical Romance of 13th Century Bengal",
   "authorId": "bankim-chandra-chattopadhyay",
   "coverImage": "/data/images/covers/mrinalini.webp",
@@ -10,7 +11,7 @@
     "Romance"
   ],
   "originalLanguage": "Bengali",
-  "originalTitle": "Mrinalini",
+  "originalTitle": "মৃণালিনী",
   "originalYear": 1882,
   "totalChapters": 43,
   "wordCount": 39002,

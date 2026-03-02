@@ -5,6 +5,11 @@ import { readingTime } from "@/lib/utils";
 import ChapterImage from "./ChapterImage";
 import AnnotatedTerm from "./AnnotatedTerm";
 
+export interface QuoteHighlight {
+  paragraphIndex: number;
+  accentColor: string;
+}
+
 interface ChapterContentProps {
   chapter: Chapter;
   chapterIndex: number;
@@ -17,6 +22,8 @@ interface ChapterContentProps {
   chapterTerms?: string[];
   glossary?: Record<string, Annotation>;
   hideImage?: boolean;
+  quoteHighlight?: QuoteHighlight;
+  onHighlightRef?: (el: HTMLElement | null) => void;
 }
 
 /** Split text on quoted segments and style them differently. */
@@ -148,6 +155,8 @@ export default function ChapterContent({
   chapterTerms,
   glossary,
   hideImage,
+  quoteHighlight,
+  onHighlightRef,
 }: ChapterContentProps) {
   return (
     <article className={`mb-16 ${isFirst ? "pt-16" : ""}`}>
@@ -221,17 +230,36 @@ export default function ChapterContent({
         className={`max-w-[720px] mx-auto px-5 sm:px-6 ${fontSizeMap[fontSize]}`}
         style={{ fontFamily: "var(--font-serif)" }}
       >
-        {chapter.paragraphs.map((p, i) => (
-          <p
-            key={i}
-            className={i > 0 ? "indent-[1.5em]" : ""}
-            style={{ marginBottom: 0, marginTop: 0 }}
-          >
-            {chapterTerms && glossary
-              ? renderAnnotatedText(p, darkMode, chapterTerms, glossary)
-              : renderWithQuotes(p, darkMode)}
-          </p>
-        ))}
+        {chapter.paragraphs.map((p, i) => {
+          const isHighlighted = quoteHighlight?.paragraphIndex === i;
+          return (
+            <p
+              key={i}
+              data-p={i}
+              ref={isHighlighted ? onHighlightRef : undefined}
+              className={i > 0 ? "indent-[1.5em]" : ""}
+              style={{
+                marginBottom: 0,
+                marginTop: 0,
+                ...(isHighlighted
+                  ? {
+                      backgroundColor: quoteHighlight.accentColor + "18",
+                      borderLeft: `3px solid ${quoteHighlight.accentColor}`,
+                      paddingLeft: "1em",
+                      paddingTop: "0.3em",
+                      paddingBottom: "0.3em",
+                      marginLeft: "-1.2em",
+                      borderRadius: "0 4px 4px 0",
+                    }
+                  : undefined),
+              }}
+            >
+              {chapterTerms && glossary
+                ? renderAnnotatedText(p, darkMode, chapterTerms, glossary)
+                : renderWithQuotes(p, darkMode)}
+            </p>
+          );
+        })}
       </div>
     </article>
   );

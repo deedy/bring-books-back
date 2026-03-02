@@ -1,6 +1,7 @@
 export interface Book {
   id: string;
   title: string;
+  transliteratedTitle: string;
   subtitle: string;
   authorId: string;
   coverImage: string;
@@ -38,6 +39,7 @@ export interface Chapter {
   image: string;
   wordCount: number;
   paragraphs: string[];
+  summary?: string;
 }
 
 export interface ChaptersData {
@@ -47,6 +49,7 @@ export interface ChaptersData {
 export interface BookMeta {
   id: string;
   title: string;
+  transliteratedTitle: string;
   subtitle: string;
   authorId: string;
   coverImage: string;

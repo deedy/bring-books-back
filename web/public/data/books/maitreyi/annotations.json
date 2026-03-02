@@ -1,0 +1,1499 @@
+{
+  "glossary": {
+    "Maitreyi": {
+      "type": "character",
+      "description": "The daughter of engineer Narendra Sen, Maitreyi is the central female figure of the novel, whose mysterious beauty and presence captivate the narrator.",
+      "image": "/data/images/characters/maitreyi/maitreyi.webp"
+    },
+    "Narendra Sen": {
+      "type": "character",
+      "description": "A respected Bengali engineer, Maitreyi's father, and the narrator's employer and patron in Calcutta."
+    },
+    "Harold Carr": {
+      "type": "character",
+      "description": "Harold Carr is the narrator's roommate at Ripon Mansion and an employee at the Army and Navy Stores; he is part of Allan's expatriate social group in Calcutta."
+    },
+    "Lucien Metz": {
+      "type": "character",
+      "description": "A French journalist and acquaintance of the narrator, visiting India to write a book and eager to learn about Indian society."
+    },
+    "Bhowanipore": {
+      "type": "proper_noun",
+      "description": "A district in Calcutta (now Kolkata), known for its residential neighborhoods and Bengali culture."
+    },
+    "Oxford Book Stationary": {
+      "type": "proper_noun",
+      "description": "A book and stationery shop in Calcutta, a colonial-era establishment frequented by the educated class."
+    },
+    "Ripon Mansion": {
+      "type": "proper_noun",
+      "description": "A residential building on Wellesley Street in Calcutta where the narrator lives."
+    },
+    "Army and Navy Stores": {
+      "type": "proper_noun",
+      "description": "A British colonial department store in Calcutta catering to Europeans and the colonial elite."
+    },
+    "Y.M.C.A.": {
+      "type": "proper_noun",
+      "description": "Young Men's Christian Association, a social and recreational club popular among Europeans in colonial India."
+    },
+    "Rotary Club": {
+      "type": "proper_noun",
+      "description": "An international service organization with local chapters, including one in Calcutta, often frequented by professionals and elites."
+    },
+    "Noel and Noel": {
+      "type": "proper_noun",
+      "description": "A company or factory referenced as the narrator's former employer, likely a British or European business in colonial India."
+    },
+    "Clive Street": {
+      "type": "proper_noun",
+      "description": "A major commercial street in Calcutta, known for its colonial-era offices and businesses."
+    },
+    "Tamluk": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, where the narrator oversees construction work."
+    },
+    "Howrah-Madras express": {
+      "type": "proper_noun",
+      "description": "A long-distance train connecting Howrah (Calcutta's main station) with Madras (now Chennai), indicative of colonial rail travel."
+    },
+    "Howrah": {
+      "type": "proper_noun",
+      "description": "The main railway station in Calcutta and a city across the Hooghly River, serving as a transportation hub."
+    },
+    "Capstan": {
+      "type": "proper_noun",
+      "description": "A popular British brand of pipe tobacco, favored by the narrator."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, known for its distinct culture, language, and landscape."
+    },
+    "Hindusthani": {
+      "type": "proper_noun",
+      "description": "A colloquial term for the Hindustani language, a lingua franca in northern India combining elements of Hindi and Urdu."
+    },
+    "Aden": {
+      "type": "proper_noun",
+      "description": "A port city in Yemen, historically a stopover for ships traveling between Europe and India."
+    },
+    "Malaya": {
+      "type": "proper_noun",
+      "description": "A historical region in Southeast Asia, now part of Malaysia, referenced as part of Lucien's travels."
+    },
+    "Mahatma Gandhi": {
+      "type": "proper_noun",
+      "description": "The prominent Indian leader of the independence movement, referenced for his influence and reputation."
+    },
+    "Paris": {
+      "type": "proper_noun",
+      "description": "The capital of France, mentioned as the publication city for Lucien's planned book."
+    },
+    "Brahmin": {
+      "type": "proper_noun",
+      "description": "The highest caste in the traditional Hindu social hierarchy, associated with priests and scholars."
+    },
+    "Calcutta Club": {
+      "type": "proper_noun",
+      "description": "An exclusive social club in Calcutta, frequented by the city's elite."
+    },
+    "Kashmiri": {
+      "type": "proper_noun",
+      "description": "Relating to Kashmir, a region in northern India known for its fine wool and handicrafts."
+    },
+    "sahib": {
+      "type": "vocabulary",
+      "description": "A term of respect used in colonial India to address or refer to European men."
+    },
+    "Eurasian": {
+      "type": "vocabulary",
+      "description": "A person of mixed European and Asian (usually Indian) descent, often occupying a distinct social position in colonial society."
+    },
+    "purdah": {
+      "type": "vocabulary",
+      "description": "A social and religious practice of female seclusion prevalent among some Muslim and Hindu communities in India."
+    },
+    "pan": {
+      "type": "vocabulary",
+      "description": "A preparation of betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects and often reddening the lips."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for women, consisting of a long piece of cloth draped around the body."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A piece of fabric worn over the shoulders or head, commonly used in Indian attire."
+    },
+    "calico": {
+      "type": "vocabulary",
+      "description": "A type of plain-woven cotton fabric, often printed with simple patterns, commonly used for dresses in India."
+    },
+    "Lucien": {
+      "type": "character",
+      "description": "A friend or acquaintance of the narrator, shown Sanskrit manuscripts by the engineer."
+    },
+    "Norinne": {
+      "type": "character",
+      "description": "A woman from the narrator's social circle, recently engaged, with whom the narrator once had romantic feelings."
+    },
+    "Eddy Higgering": {
+      "type": "character",
+      "description": "A man from the narrator's past, involved in a conflict and boxing match with the narrator."
+    },
+    "Geurtie": {
+      "type": "character",
+      "description": "A woman in the narrator's social circle, who accompanies him to a banquet and sits on his knees."
+    },
+    "Allan": {
+      "type": "character",
+      "description": "Allan is the narrator and protagonist, a European engineer working in India; he is based on Mircea Eliade, the Romanian intellectual whose experiences and feelings form the core of the novel.",
+      "image": "/data/images/characters/maitreyi/allan.webp"
+    },
+    "Sanskrit": {
+      "type": "proper_noun",
+      "description": "An ancient classical language of India, in which many religious and philosophical texts are written."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in eastern India, known today as Kolkata, and the primary setting of the novel."
+    },
+    "Lakes": {
+      "type": "proper_noun",
+      "description": "Refers to a recreational area, likely the lakes in or near Calcutta, popular for outings."
+    },
+    "Assam": {
+      "type": "proper_noun",
+      "description": "A state in northeastern India, known for its tea plantations and jungles."
+    },
+    "Lumding-Sadyia": {
+      "type": "proper_noun",
+      "description": "A railway line in Assam, India, referenced as the site of engineering work."
+    },
+    "Society": {
+      "type": "proper_noun",
+      "description": "Refers to the professional or engineering society employing the narrator, which is swarajist."
+    },
+    "Park Street": {
+      "type": "proper_noun",
+      "description": "A famous street in Calcutta, known for its nightlife and restaurants."
+    },
+    "Chowringhee Road": {
+      "type": "proper_noun",
+      "description": "A major thoroughfare in Calcutta, central to the city's colonial and commercial life."
+    },
+    "Dhurmtollah Street": {
+      "type": "proper_noun",
+      "description": "A well-known street in Calcutta, intersecting with other major roads."
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "A sacred river in India, central to Hindu religious practices."
+    },
+    "Council": {
+      "type": "proper_noun",
+      "description": "The governing or administrative body of the Society or company employing the narrator."
+    },
+    "Sikh": {
+      "type": "proper_noun",
+      "description": "A member of a religious community originating in the Punjab region, known for their distinct identity and often serving in the military or as drivers."
+    },
+    "pandit": {
+      "type": "vocabulary",
+      "description": "A learned scholar or teacher, especially in Sanskrit and Hindu law, philosophy, or religion."
+    },
+    "telegram": {
+      "type": "vocabulary",
+      "description": "A message sent by telegraph, a common means of urgent communication in the early 20th century."
+    },
+    "pajama party": {
+      "type": "vocabulary",
+      "description": "A social gathering where guests wear pajamas, reflecting Westernized customs among expatriates."
+    },
+    "banquet": {
+      "type": "vocabulary",
+      "description": "A formal meal or feast, often for celebration."
+    },
+    "bahut achhal": {
+      "type": "vocabulary",
+      "description": "Hindi phrase meaning 'very good' or 'very nice.'"
+    },
+    "Clara": {
+      "type": "character",
+      "description": "A friend of Allan, who visits him in the hospital with Geurtie."
+    },
+    "Mr. Frank": {
+      "type": "character",
+      "description": "A Eurasian who helps identify Allan's illness as malaria and arranges for his care."
+    },
+    "Mr. Carr": {
+      "type": "character",
+      "description": "A person at the hospital whom the nurse refers to, likely a staff member or doctor."
+    },
+    "Catherine": {
+      "type": "character",
+      "description": "A friend of Allan, mentioned as concerned for his health."
+    },
+    "Huber": {
+      "type": "character",
+      "description": "Refers to the Huber brothers, acquaintances of Allan, one of whom is associated with Ivy."
+    },
+    "Ivy": {
+      "type": "character",
+      "description": "A beautiful woman associated with the Huber brothers."
+    },
+    "Simpsons": {
+      "type": "character",
+      "description": "Refers to two individuals, Isaac and Gerald, known for their questionable behavior at social gatherings."
+    },
+    "Isaac": {
+      "type": "character",
+      "description": "One of the Simpsons, known for hiding and drinking whisky neat."
+    },
+    "Gerald": {
+      "type": "character",
+      "description": "One of the Simpsons, known for stealing cigarettes at parties."
+    },
+    "Mrs. Sen": {
+      "type": "character",
+      "description": "Mrs. Sen, also known as Srimati Devi Indira, is Narendra Sen's wife and Maitreyi's mother, depicted as youthful and timid, with limited English proficiency.",
+      "image": "/data/images/characters/maitreyi/mrs-sen.webp"
+    },
+    "Anglo-Indians": {
+      "type": "proper_noun",
+      "description": "A community of mixed Indian and British ancestry, prominent in colonial India, often forming their own social circles."
+    },
+    "Shillong": {
+      "type": "proper_noun",
+      "description": "A hill station in northeast India, known for its cool climate and as a retreat from the plains."
+    },
+    "Sadyia": {
+      "type": "proper_noun",
+      "description": "A town in Assam, located in a remote area near the Brahmaputra River."
+    },
+    "European hospital": {
+      "type": "proper_noun",
+      "description": "A hospital in colonial India designated for Europeans, reflecting the racial segregation of the era."
+    },
+    "Wellesley Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, indicative of the colonial urban landscape."
+    },
+    "Middle Bank": {
+      "type": "proper_noun",
+      "description": "Likely refers to a bank or financial institution in Calcutta."
+    },
+    "Firpos": {
+      "type": "proper_noun",
+      "description": "A famous European-style restaurant and nightclub in colonial Calcutta."
+    },
+    "Out of the East": {
+      "type": "proper_noun",
+      "description": "A book by Lafcadio Hearn, reflecting cross-cultural literary interests."
+    },
+    "Lord Jim": {
+      "type": "proper_noun",
+      "description": "A novel by Joseph Conrad, referenced in the context of literary discussion."
+    },
+    "Almayer’s Folly": {
+      "type": "proper_noun",
+      "description": "Another novel by Joseph Conrad, mentioned as Allan's favorite."
+    },
+    "boy": {
+      "type": "vocabulary",
+      "description": "In colonial India, a term used by Europeans to refer to a male servant or house attendant."
+    },
+    "bungalow": {
+      "type": "vocabulary",
+      "description": "A single-story house with a veranda, typical of colonial architecture in India."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch attached to a house, common in Indian homes."
+    },
+    "soda siphon": {
+      "type": "vocabulary",
+      "description": "A pressurized bottle used to dispense carbonated water, popular in colonial drinks."
+    },
+    "pajamas": {
+      "type": "vocabulary",
+      "description": "Loose-fitting clothes for sleeping or lounging, originally from South Asia."
+    },
+    "monsoon": {
+      "type": "vocabulary",
+      "description": "The seasonal heavy rains characteristic of the Indian subcontinent."
+    },
+    "annas": {
+      "type": "vocabulary",
+      "description": "A former unit of currency in India, equal to 1/16 of a rupee."
+    },
+    "Mr. Sen": {
+      "type": "character",
+      "description": "Mr. Sen (also referred to as Sen, baba, or babà) is the Indian engineer and head of the household where Allan is staying; he is Maitreyi's father and Allan's superior, whose approval is crucial for Maitreyi's engagement.",
+      "image": "/data/images/characters/maitreyi/mr-sen.webp"
+    },
+    "David": {
+      "type": "character",
+      "description": "The elder Huber brother, mentioned as someone with a car who might be invited to a gathering."
+    },
+    "Bengali": {
+      "type": "proper_noun",
+      "description": "The language spoken by the Sen family and many in Calcutta; also refers to the culture of Bengal."
+    },
+    "maidan": {
+      "type": "proper_noun",
+      "description": "A large open parkland or field, commonly found in Indian cities; in Calcutta, the Maidan is a famous central park."
+    },
+    "Count Lew Tolstoy": {
+      "type": "proper_noun",
+      "description": "Refers to Leo Tolstoy, the famous Russian writer known for his philosophical and literary works."
+    },
+    "Italian legation": {
+      "type": "proper_noun",
+      "description": "The diplomatic mission or embassy of Italy in Calcutta, a place of social gatherings for expatriates."
+    },
+    "University": {
+      "type": "proper_noun",
+      "description": "Refers to the University of Calcutta, a prestigious institution where Maitreyi is preparing for her Bachelor of Arts."
+    },
+    "Bachelor of Arts": {
+      "type": "proper_noun",
+      "description": "An undergraduate academic degree awarded for a course or program in the arts or sciences."
+    },
+    "Tagore": {
+      "type": "proper_noun",
+      "description": "Rabindranath Tagore, also known as Robi Thakkur in Bengali, is a renowned Bengali poet, philosopher, and Nobel laureate, admired by Maitreyi and her family."
+    },
+    "matriculation": {
+      "type": "vocabulary",
+      "description": "The process of qualifying for entry to a university, often through a standardized exam."
+    },
+    "box": {
+      "type": "vocabulary",
+      "description": "A private seating area in a theater or opera house, often reserved for families or distinguished guests."
+    },
+    "French": {
+      "type": "proper_noun",
+      "description": "Refers to the French language, which the narrator teaches to Maitreyi as part of their cultural exchange."
+    },
+    "dowry": {
+      "type": "vocabulary",
+      "description": "A sum of money or property brought by a bride to her husband upon marriage, a traditional practice in Indian society."
+    },
+    "custom": {
+      "type": "vocabulary",
+      "description": "A traditional practice or usual way of doing something specific to a culture or community."
+    },
+    "giacè": {
+      "type": "vocabulary",
+      "description": "A Bengali expression meaning 'I’m coming now.'"
+    },
+    "ki vishan": {
+      "type": "vocabulary",
+      "description": "A Bengali exclamation expressing wonder or surprise, similar to 'how extraordinary!'"
+    },
+    "caste": {
+      "type": "vocabulary",
+      "description": "A hereditary social class in Hindu society, traditionally restricting the occupation of its members and their association with the members of other castes."
+    },
+    "pantheist": {
+      "type": "vocabulary",
+      "description": "A person who believes that God or divinity is identical with the universe or nature; here, used to describe Maitreyi's spiritual worldview."
+    },
+    "idyll": {
+      "type": "vocabulary",
+      "description": "A simple, peaceful, or romantic scene, often used to describe an idealized relationship or situation."
+    },
+    "Mantu": {
+      "type": "character",
+      "description": "The engineer's cousin, recently arrived from Delhi to become a lecturer and to get married; he becomes a friend to the narrator."
+    },
+    "Khokha": {
+      "type": "character",
+      "description": "A young man, a poor relative of the engineer, who stays in the house during Mantu's wedding and entertains with jokes.",
+      "image": "/data/images/characters/maitreyi/khokha.webp"
+    },
+    "Phul": {
+      "type": "character",
+      "description": "A fictional character, the king's son in Chabù's story, symbolizing innocence and wonder."
+    },
+    "Keora atar": {
+      "type": "proper_noun",
+      "description": "A traditional Indian perfume distilled from the flowers of the pandanus plant, popular in Bengal."
+    },
+    "Puri": {
+      "type": "proper_noun",
+      "description": "A coastal city in the Indian state of Odisha, famous for its beaches and religious significance."
+    },
+    "L’Inde avec les Anglais": {
+      "type": "proper_noun",
+      "description": "A French book titled 'India with the English', written by Lucien, reflecting on colonial India."
+    },
+    "Valéry": {
+      "type": "proper_noun",
+      "description": "Refers to Paul Valéry, a renowned French poet, mentioned as a standard for romantic poetry."
+    },
+    "Anactoria": {
+      "type": "proper_noun",
+      "description": "A poem by Algernon Charles Swinburne, referenced during a literary discussion between the narrator and Maitreyi."
+    },
+    "Government Commercial School": {
+      "type": "proper_noun",
+      "description": "An educational institution in Delhi where Mantu previously taught."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, where Mantu lived before coming to Calcutta."
+    },
+    "atar": {
+      "type": "vocabulary",
+      "description": "A natural perfume oil derived from botanical sources, commonly used in South Asia."
+    },
+    "balustrade": {
+      "type": "vocabulary",
+      "description": "A railing supported by balusters, commonly found on balconies or staircases."
+    },
+    "guru": {
+      "type": "vocabulary",
+      "description": "A spiritual teacher or guide in Indian culture, often revered by disciples."
+    },
+    "nox": {
+      "type": "vocabulary",
+      "description": "Latin for 'night', used here to refer to the first night of Mantu's wedding ceremony."
+    },
+    "fiancée": {
+      "type": "vocabulary",
+      "description": "A woman engaged to be married, used here in the context of the narrator's musings."
+    },
+    "mouches volantes": {
+      "type": "vocabulary",
+      "description": "French for 'flying flies', referring to floaters or spots in one's vision, often due to eye or blood pressure issues."
+    },
+    "mat": {
+      "type": "vocabulary",
+      "description": "A thin piece of woven material used for sleeping or sitting, often made from bamboo or straw in India."
+    },
+    "Lilu": {
+      "type": "character",
+      "description": "A young woman, referred to as 'auntie' though only seventeen, who is part of the household's social circle and confides in Maitreyi about conjugal love."
+    },
+    "Himansural Ray": {
+      "type": "character",
+      "description": "An Indian film actor whose movie the characters watch at the cinema."
+    },
+    "Shakuntala": {
+      "type": "proper_noun",
+      "description": "A classic Sanskrit play by Kalidasa, widely regarded as a masterpiece of Indian literature."
+    },
+    "Mahuya": {
+      "type": "proper_noun",
+      "description": "A work by Tagore, from which Maitreyi recites poetry; it refers to one of his poetic or dramatic compositions."
+    },
+    "Vallaka": {
+      "type": "proper_noun",
+      "description": "Another work by Tagore, likely a collection of poems or a poetic drama."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "Referenced as the place where a Bengali young man is studying, highlighting the colonial context."
+    },
+    "France": {
+      "type": "proper_noun",
+      "description": "Mentioned as the destination of the engineer's postponed journey, reflecting the cosmopolitan connections of the characters."
+    },
+    "Rajputana": {
+      "type": "proper_noun",
+      "description": "A historical region in northwestern India, known for its distinctive traditional costumes."
+    },
+    "madam": {
+      "type": "vocabulary",
+      "description": "A formal term of address for a woman, here contrasted with the Indian custom of calling a mother-in-law 'mother.'"
+    },
+    "auntie": {
+      "type": "vocabulary",
+      "description": "A term of respect and affection for an older woman, not necessarily a blood relative, common in Indian culture."
+    },
+    "nuptial bed": {
+      "type": "vocabulary",
+      "description": "A phrase referring to the marriage bed, symbolizing consummation and marital union."
+    },
+    "poetess": {
+      "type": "vocabulary",
+      "description": "A female poet; used here to refer to Maitreyi."
+    },
+    "platonic": {
+      "type": "vocabulary",
+      "description": "Describing a relationship that is intimate and affectionate but not sexual."
+    },
+    "meditation through contrary images": {
+      "type": "vocabulary",
+      "description": "A mental exercise where one tries to suppress desire by imagining the object of affection in an unappealing way."
+    },
+    "Iris": {
+      "type": "character",
+      "description": "Iris is mentioned as someone for whom Harold goes to church, suggesting she is a significant person in Harold's life, possibly his wife or romantic interest."
+    },
+    "Acintya": {
+      "type": "character",
+      "description": "Acintya is a young Bengali poet, described as original and controversial, admired by Maitreyi and associated with the magazine Prabuddha Bharatta; he interacts with Maitreyi by telephone, sending poems for publication."
+    },
+    "Ripon Street": {
+      "type": "proper_noun",
+      "description": "Another street in Calcutta, similarly associated with the city's colonial-era social scene."
+    },
+    "Prabuddha Bharatta": {
+      "type": "proper_noun",
+      "description": "A prominent English-language monthly journal of the Ramakrishna Order, focused on spirituality and Indian culture."
+    },
+    "Krishna": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, central to the Vaishnav tradition, often associated with divine love and mysticism."
+    },
+    "Vaishnavism": {
+      "type": "proper_noun",
+      "description": "Vaishnavism is a major tradition within Hinduism devoted to the worship of Vishnu and his avatars; its followers are called Vaishnavas or Vaishnavs, emphasizing devotion and love."
+    },
+    "Chaitanya": {
+      "type": "proper_noun",
+      "description": "Refers to Chaitanya Mahaprabhu, a 16th-century Bengali saint and founder of the Gaudiya Vaishnavism movement, renowned for his ecstatic devotion to Krishna."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional men's garment in India, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "mantra": {
+      "type": "vocabulary",
+      "description": "A sacred utterance, word, or phrase in Sanskrit, believed to have spiritual power and used in meditation or prayer."
+    },
+    "Shantiniketan": {
+      "type": "proper_noun",
+      "description": "An educational and cultural institution founded by Rabindranath Tagore in West Bengal, known for its artistic and intellectual community."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country in which the novel is set, specifically during the colonial period under British rule."
+    },
+    "rajah": {
+      "type": "proper_noun",
+      "description": "A term for an Indian king or prince, here used to evoke the fantasy of wealth and status in a foreign land."
+    },
+    "English": {
+      "type": "proper_noun",
+      "description": "Refers to the British colonial rulers of India, often contrasted with the Indian characters in terms of culture and power."
+    },
+    "voluptuousness": {
+      "type": "vocabulary",
+      "description": "A term describing sensual pleasure or delight, often used in the context of physical love."
+    },
+    "betrothal": {
+      "type": "vocabulary",
+      "description": "The formal engagement or promise to marry, here symbolized by the exchange of a jasmine garland."
+    },
+    "Kalidasa": {
+      "type": "proper_noun",
+      "description": "A celebrated classical Sanskrit poet and playwright, author of 'Shakuntala' and other works."
+    },
+    "Alipore": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta (Kolkata), known for its affluent residences and colonial history."
+    },
+    "Jaganath": {
+      "type": "proper_noun",
+      "description": "Refers to Lord Jagannath, a form of the Hindu god Krishna, worshipped primarily at the Jagannath Temple in Puri."
+    },
+    "Chandernagore": {
+      "type": "proper_noun",
+      "description": "A former French colony and town near Calcutta, known for its colonial architecture and historical significance."
+    },
+    "Barackpur": {
+      "type": "proper_noun",
+      "description": "A town near Calcutta, historically significant as a British cantonment and site of early Indian uprisings."
+    },
+    "Urwald": {
+      "type": "proper_noun",
+      "description": "A German word meaning 'primeval forest,' used here to evoke the sense of an ancient, untouched jungle."
+    },
+    "ashram": {
+      "type": "proper_noun",
+      "description": "A spiritual hermitage or monastery in Indian religions, often a place for religious retreat and study."
+    },
+    "Swami Vivekananda": {
+      "type": "proper_noun",
+      "description": "A prominent Indian Hindu monk and spiritual leader, founder of the Ramakrishna Mission and influential in introducing Indian philosophies to the West."
+    },
+    "Chattered Bank": {
+      "type": "proper_noun",
+      "description": "Likely a reference to the Chartered Bank, a British colonial-era bank operating in India."
+    },
+    "Gandhi": {
+      "type": "proper_noun",
+      "description": "Mahatma Gandhi, leader of the Indian independence movement, known for his philosophy of nonviolent resistance."
+    },
+    "Japan": {
+      "type": "proper_noun",
+      "description": "Mentioned in the context of Japanese merchandise, reflecting the boycott of British goods during the nationalist movement."
+    },
+    "Christianity": {
+      "type": "proper_noun",
+      "description": "Christianity refers to the religion based on the teachings of Jesus Christ, contrasted in the novel with Hindu customs and morality."
+    },
+    "Hinduism": {
+      "type": "proper_noun",
+      "description": "The major religion of India, central to the beliefs and customs of Maitreyi's family."
+    },
+    "Upanishads": {
+      "type": "proper_noun",
+      "description": "Ancient Indian philosophical texts that form the theoretical basis for Hinduism, referenced for their spiritual teachings."
+    },
+    "pcm": {
+      "type": "vocabulary",
+      "description": "A Bengali term used here by Maitreyi to refer to a tree she loved as a child; possibly a child's word or nickname."
+    },
+    "seven leaves": {
+      "type": "vocabulary",
+      "description": "A colloquial or poetic reference to a type of tree with compound leaves, significant in Maitreyi's childhood story."
+    },
+    "garland": {
+      "type": "vocabulary",
+      "description": "A decorative wreath of flowers, often used in Indian rituals and as a symbol of betrothal or honor."
+    },
+    "bodice": {
+      "type": "vocabulary",
+      "description": "The fitted upper part of a woman's dress, here referring to the blouse worn under a sari."
+    },
+    "karma": {
+      "type": "vocabulary",
+      "description": "A concept in Indian religions referring to the sum of a person's actions and their consequences in this and future lives."
+    },
+    "swadeshi": {
+      "type": "vocabulary",
+      "description": "A nationalist movement and principle in India advocating the use of domestically produced goods and the boycott of foreign products."
+    },
+    "Chabii": {
+      "type": "character",
+      "description": "Chabii (also spelled Chabù) is the younger daughter of Narendra Sen, about ten or eleven years old, described as lively and resembling a gypsy girl; she is also referred to as Khokha’s sister and a widow, timid and overworked.",
+      "image": "/data/images/characters/maitreyi/chabii.webp"
+    },
+    "Indian marriage ceremony": {
+      "type": "proper_noun",
+      "description": "Refers to the traditional Hindu wedding rituals, which involve symbolic jewelry and customs."
+    },
+    "kirtan": {
+      "type": "proper_noun",
+      "description": "A devotional singing or chanting of hymns, especially in the Vaishnava tradition."
+    },
+    "scented with coconut oil": {
+      "type": "vocabulary",
+      "description": "Refers to the common practice in India of applying coconut oil to hair or skin for fragrance and care."
+    },
+    "betrothal bracelet": {
+      "type": "vocabulary",
+      "description": "A traditional piece of jewelry given to a bride during engagement ceremonies in India, symbolizing commitment."
+    },
+    "chaise longue": {
+      "type": "vocabulary",
+      "description": "A chaise longue (also spelled chaise-longue) is a long reclining chair for relaxing, often used in colonial settings."
+    },
+    "Allan-dadà": {
+      "type": "vocabulary",
+      "description": "'Dadà' is a Bengali term meaning 'elder brother,' used affectionately for an older male; 'Allan-dadà' is a term of endearment or respect used for Allan by the Sen family."
+    },
+    "bar": {
+      "type": "vocabulary",
+      "description": "A wooden bar used to secure a door, mentioned as a way to lock the narrator's room."
+    },
+    "chauffeur": {
+      "type": "vocabulary",
+      "description": "A driver, often for a private car; in colonial India, usually a servant employed by wealthy families."
+    },
+    "beri-beri": {
+      "type": "vocabulary",
+      "description": "A disease caused by vitamin B1 (thiamine) deficiency, leading to swelling and pain, mentioned as part of Maitreyi's health history."
+    },
+    "Anasuya": {
+      "type": "character",
+      "description": "A nickname used by Maitreyi and the narrator for a fictional friend, referenced in their discussions to disguise their true feelings."
+    },
+    "Chatterji": {
+      "type": "character",
+      "description": "A Bengali author, mentioned as the writer of 'Srikantha,' expected to attend Maitreyi's birthday celebration."
+    },
+    "Uday Shankar": {
+      "type": "character",
+      "description": "A famous Indian dancer known for his beauty and artistry, admired by Maitreyi and present at her birthday celebration."
+    },
+    "Srikantha": {
+      "type": "proper_noun",
+      "description": "A novel written by Chatterji, a notable work in Bengali literature."
+    },
+    "James Joyce": {
+      "type": "proper_noun",
+      "description": "An Irish modernist writer, referenced here for his novel 'Ulysses,' which influenced contemporary literature."
+    },
+    "Ulysses": {
+      "type": "proper_noun",
+      "description": "A groundbreaking modernist novel by James Joyce, known for its experimental style."
+    },
+    "Midnapur": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, mentioned as a place where the Sen family has relatives."
+    },
+    "divan": {
+      "type": "vocabulary",
+      "description": "A long, low sofa or couch, often without a back or arms, used for reclining."
+    },
+    "Mrs. Ribeiro": {
+      "type": "character",
+      "description": "The landlady of Allan's boarding house, a concerned and motherly figure."
+    },
+    "Swami Madhvananda": {
+      "type": "character",
+      "description": "A monk at Belur Math whom Allan visits for solace during his emotional crisis."
+    },
+    "The Statesman": {
+      "type": "proper_noun",
+      "description": "A prominent English-language newspaper published in Calcutta."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, famous for its tea plantations and cool climate."
+    },
+    "Gopalpur-at-Sea": {
+      "type": "proper_noun",
+      "description": "A seaside town in Odisha, India, popular as a quiet retreat."
+    },
+    "father Justus": {
+      "type": "proper_noun",
+      "description": "A reference to a Catholic priest known to the characters, who recovered at Gopalpur-at-Sea."
+    },
+    "Uddkita": {
+      "type": "proper_noun",
+      "description": "A notebook or literary work in which Maitreyi writes her last words to Allan."
+    },
+    "Hoogli": {
+      "type": "proper_noun",
+      "description": "Hooghly (also spelled Hoogly or Hoogli) refers to a district and river near Calcutta, important in Bengal's history and culture."
+    },
+    "Bengal Film Company": {
+      "type": "proper_noun",
+      "description": "A film production company in Bengal, where Khokha is employed."
+    },
+    "Kalighat": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta, famous for its Kali temple."
+    },
+    "Royd Lane": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, location of Allan's boarding house."
+    },
+    "Howrah Bridge": {
+      "type": "proper_noun",
+      "description": "A famous bridge spanning the Hooghly River, connecting Calcutta and Howrah."
+    },
+    "Belur": {
+      "type": "proper_noun",
+      "description": "Belur is a town near Calcutta, home to the headquarters of the Ramakrishna Mission; Belur-Math refers specifically to the monastery and headquarters of the Ramakrishna Mission located there."
+    },
+    "Swami": {
+      "type": "proper_noun",
+      "description": "A Hindu religious teacher or monk."
+    },
+    "Ranaghat": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, north of Calcutta."
+    },
+    "Bally": {
+      "type": "proper_noun",
+      "description": "A suburb near Calcutta, on the banks of the Ganges."
+    },
+    "Asutosh Mukerjee Road": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, named after a prominent Bengali academic."
+    },
+    "Lucknow": {
+      "type": "proper_noun",
+      "description": "A city in northern India; here, refers to the destination of the express train."
+    },
+    "China Town": {
+      "type": "proper_noun",
+      "description": "China Town (also spelled China-Town or referred to as Chinese City) is a district in Calcutta known for its Chinese community, restaurants, and cuisine."
+    },
+    "Bengalis": {
+      "type": "proper_noun",
+      "description": "The people of Bengal, or the Bengali language."
+    },
+    "rupee": {
+      "type": "vocabulary",
+      "description": "The rupee is the currency of India, referenced in both singular and plural forms throughout the novel."
+    },
+    "gramophone": {
+      "type": "vocabulary",
+      "description": "An early device for playing recorded music, predecessor to the record player."
+    },
+    "orangeade": {
+      "type": "vocabulary",
+      "description": "A sweet, carbonated orange-flavored drink."
+    },
+    "idolaters": {
+      "type": "vocabulary",
+      "description": "A derogatory term used here for Hindus, referring to the worship of idols."
+    },
+    "huka": {
+      "type": "vocabulary",
+      "description": "A water pipe used for smoking tobacco, also known as hookah."
+    },
+    "carri": {
+      "type": "vocabulary",
+      "description": "A variant spelling of 'curry,' a dish made with a blend of spices, often including turmeric."
+    },
+    "inter-class ticket": {
+      "type": "vocabulary",
+      "description": "A railway ticket for a class between third and second class, used in colonial Indian trains."
+    },
+    "creolin": {
+      "type": "vocabulary",
+      "description": "A disinfectant liquid, here used in a suicide attempt."
+    },
+    "Jenia Isaac": {
+      "type": "character",
+      "description": "Jenia Isaac is a Finnish Jewish woman from Capetown, South Africa, who arrives at the narrator's Himalayan bungalow seeking spiritual fulfillment; she is also referred to simply as Jenia."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "A vast mountain range in Asia, forming the northern border of the Indian subcontinent."
+    },
+    "Almora": {
+      "type": "proper_noun",
+      "description": "A hill station in the Indian state of Uttarakhand, located in the Himalayas."
+    },
+    "Ranikhet": {
+      "type": "proper_noun",
+      "description": "A hill station and cantonment town in Uttarakhand, India, near Almora."
+    },
+    "Simla": {
+      "type": "proper_noun",
+      "description": "Also known as Shimla, a hill station and the capital of Himachal Pradesh, India."
+    },
+    "Naini-Tal": {
+      "type": "proper_noun",
+      "description": "A popular hill station in Uttarakhand, India, known for its scenic lake."
+    },
+    "Fatehpur-Sikhri": {
+      "type": "proper_noun",
+      "description": "A historic city near Agra, India, known for its Mughal architecture and now largely abandoned."
+    },
+    "Java": {
+      "type": "proper_noun",
+      "description": "An island in Indonesia, mentioned as a possible destination for the narrator."
+    },
+    "Maikhali": {
+      "type": "proper_noun",
+      "description": "A location in the Himalayas, mentioned as a destination for Jenia Isaac."
+    },
+    "Bhadrinath": {
+      "type": "proper_noun",
+      "description": "A holy town and pilgrimage site in Uttarakhand, India, famous for its Hindu temple."
+    },
+    "Hardwar": {
+      "type": "proper_noun",
+      "description": "Also known as Haridwar, a sacred city in Uttarakhand, India, and a gateway to the Himalayas."
+    },
+    "Kotwara": {
+      "type": "proper_noun",
+      "description": "A town or station in northern India, suggested as a travel route."
+    },
+    "Capetown": {
+      "type": "proper_noun",
+      "description": "A city in South Africa, Jenia Isaac's hometown."
+    },
+    "Johannesburg": {
+      "type": "proper_noun",
+      "description": "A major city in South Africa, where Jenia performed as a cellist."
+    },
+    "Ramacharaka": {
+      "type": "proper_noun",
+      "description": "The pseudonym of William Walker Atkinson, an early 20th-century American writer on yoga and occultism, whose books inspired Jenia."
+    },
+    "Tibet": {
+      "type": "proper_noun",
+      "description": "A region in Asia, often associated with mysticism and spiritual secrets in Western imagination."
+    },
+    "Abelard and Heloise": {
+      "type": "proper_noun",
+      "description": "Historical figures known for their tragic love affair in medieval France, referenced as a literary parallel."
+    },
+    "poste restante": {
+      "type": "vocabulary",
+      "description": "A mail service where letters are held at a post office until collected by the recipient."
+    },
+    "memsahib": {
+      "type": "vocabulary",
+      "description": "A respectful term used in colonial India for a European woman, especially the wife of a sahib."
+    },
+    "fakir": {
+      "type": "vocabulary",
+      "description": "A term for a Muslim or Hindu ascetic or holy person, often associated with mystical powers."
+    },
+    "theosophy": {
+      "type": "vocabulary",
+      "description": "A spiritual movement blending Eastern and Western religious ideas, popular in the late 19th and early 20th centuries."
+    },
+    "bovarism": {
+      "type": "vocabulary",
+      "description": "A psychological term derived from Flaubert's 'Madame Bovary,' meaning dissatisfaction with one's life and a tendency to live in fantasies."
+    },
+    "Mrs. Mctyre": {
+      "type": "character",
+      "description": "A woman who is annoyed by the narrator's ongoing connection to Maitreyi and expresses her frustration bluntly."
+    },
+    "J.": {
+      "type": "character",
+      "description": "Mrs. Sen’s nephew, whom the narrator meets in Singapore; he brings news of Maitreyi's fate."
+    },
+    "Maika": {
+      "type": "character",
+      "description": "A family member of Maitreyi, possibly her mother, who is described as almost mad with grief over Maitreyi's situation."
+    },
+    "Bhowanipore Park": {
+      "type": "proper_noun",
+      "description": "A park in the Bhowanipore neighborhood of Calcutta, suggested as a possible meeting place for the narrator and Maitreyi."
+    },
+    "Singapore": {
+      "type": "proper_noun",
+      "description": "A Southeast Asian city-state, where the narrator hopes to find work and eventually travels."
+    },
+    "Burma Oil Company": {
+      "type": "proper_noun",
+      "description": "A British colonial-era oil company operating in South and Southeast Asia, where the narrator seeks employment."
+    },
+    "Technical Institute Library": {
+      "type": "proper_noun",
+      "description": "A library associated with a technical institute, where the narrator researches the job of a river agent."
+    },
+    "State Express 555": {
+      "type": "proper_noun",
+      "description": "A popular British brand of cigarettes, considered a luxury item in colonial India."
+    },
+    "bara-sahibs": {
+      "type": "proper_noun",
+      "description": "A term used to refer to high-ranking European men, especially British colonial officials."
+    },
+    "idolater": {
+      "type": "vocabulary",
+      "description": "A person who worships idols; used here as a derogatory term for someone who has abandoned Christianity."
+    },
+    "river agent": {
+      "type": "vocabulary",
+      "description": "A job title in colonial India, referring to someone who manages or oversees river transport and trade."
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Maitreyi",
+      "Narendra Sen",
+      "Harold Carr",
+      "Lucien Metz",
+      "Bhowanipore",
+      "Oxford Book Stationary",
+      "Ripon Mansion",
+      "Army and Navy Stores",
+      "Y.M.C.A.",
+      "Rotary Club",
+      "Noel and Noel",
+      "Clive Street",
+      "Tamluk",
+      "Howrah-Madras express",
+      "Howrah",
+      "Capstan",
+      "Bengal",
+      "Hindusthani",
+      "Aden",
+      "Malaya",
+      "Mahatma Gandhi",
+      "Paris",
+      "Brahmin",
+      "Calcutta Club",
+      "Kashmiri",
+      "sahib",
+      "Eurasian",
+      "purdah",
+      "pan",
+      "sari",
+      "shawl",
+      "calico",
+      "Allan",
+      "Chabii",
+      "Mrs. Sen"
+    ],
+    "ch-1-2": [
+      "Maitreyi",
+      "Lucien",
+      "Norinne",
+      "Eddy Higgering",
+      "Narendra Sen",
+      "Geurtie",
+      "Allan",
+      "Sanskrit",
+      "Calcutta",
+      "Tamluk",
+      "Lakes",
+      "Assam",
+      "Lumding-Sadyia",
+      "Noel and Noel",
+      "Society",
+      "Park Street",
+      "Chowringhee Road",
+      "Dhurmtollah Street",
+      "Ganges",
+      "Council",
+      "Sikh",
+      "pandit",
+      "sahib",
+      "telegram",
+      "pajama party",
+      "banquet",
+      "bahut achhal",
+      "China Town",
+      "Harold Carr",
+      "rupee"
+    ],
+    "ch-1-3": [
+      "Allan",
+      "Maitreyi",
+      "Geurtie",
+      "Clara",
+      "Norinne",
+      "Mr. Frank",
+      "Mr. Carr",
+      "Catherine",
+      "Huber",
+      "Ivy",
+      "Simpsons",
+      "Isaac",
+      "Gerald",
+      "Mrs. Sen",
+      "Lucien",
+      "Anglo-Indians",
+      "Rotary Club",
+      "Shillong",
+      "Assam",
+      "Sadyia",
+      "Calcutta",
+      "European hospital",
+      "Wellesley Street",
+      "Middle Bank",
+      "Firpos",
+      "Lakes",
+      "Out of the East",
+      "Lord Jim",
+      "Almayer’s Folly",
+      "boy",
+      "bungalow",
+      "veranda",
+      "Eurasian",
+      "soda siphon",
+      "pajamas",
+      "monsoon",
+      "annas",
+      "pan",
+      "China Town",
+      "Harold Carr",
+      "Mr. Sen",
+      "rupee",
+      "chaise longue"
+    ],
+    "ch-1-4": [
+      "Allan",
+      "Geurtie",
+      "Mr. Sen",
+      "Maitreyi",
+      "Clara",
+      "David",
+      "Mrs. Sen",
+      "Bhowanipore",
+      "Bengali",
+      "Hindusthani",
+      "Wellesley Street",
+      "maidan",
+      "Count Lew Tolstoy",
+      "Italian legation",
+      "University",
+      "Bachelor of Arts",
+      "Tagore",
+      "sari",
+      "pan",
+      "veranda",
+      "matriculation",
+      "box",
+      "Chabii",
+      "Harold Carr"
+    ],
+    "ch-1-5": [
+      "Maitreyi",
+      "Mrs. Sen",
+      "Lucien",
+      "Geurtie",
+      "Bhowanipore",
+      "Bengali",
+      "Calcutta",
+      "French",
+      "dowry",
+      "custom",
+      "giacè",
+      "ki vishan",
+      "caste",
+      "pantheist",
+      "veranda",
+      "idyll",
+      "Chabii",
+      "Mr. Sen",
+      "Tagore"
+    ],
+    "ch-1-6": [
+      "Maitreyi",
+      "Mr. Sen",
+      "Lucien",
+      "Mantu",
+      "Mrs. Sen",
+      "Khokha",
+      "Phul",
+      "Keora atar",
+      "Bengali",
+      "Puri",
+      "Clive Street",
+      "Ganges",
+      "Paris",
+      "L’Inde avec les Anglais",
+      "Valéry",
+      "Anactoria",
+      "Government Commercial School",
+      "Delhi",
+      "Bhowanipore",
+      "Bengal",
+      "sari",
+      "shawl",
+      "atar",
+      "pan",
+      "balustrade",
+      "pandit",
+      "guru",
+      "nox",
+      "fiancée",
+      "mouches volantes",
+      "veranda",
+      "mat",
+      "Chabii",
+      "Tagore"
+    ],
+    "ch-1-7": [
+      "Maitreyi",
+      "Mantu",
+      "Lilu",
+      "Mrs. Sen",
+      "Mr. Sen",
+      "Khokha",
+      "Himansural Ray",
+      "Shakuntala",
+      "Tagore",
+      "Mahuya",
+      "Vallaka",
+      "Bengal",
+      "England",
+      "France",
+      "Rajputana",
+      "guru",
+      "sari",
+      "madam",
+      "auntie",
+      "nuptial bed",
+      "veranda",
+      "poetess",
+      "platonic",
+      "meditation through contrary images"
+    ],
+    "ch-1-8": [
+      "Lilu",
+      "Maitreyi",
+      "Iris",
+      "Mantu",
+      "Khokha",
+      "Mrs. Sen",
+      "Acintya",
+      "Bhowanipore",
+      "Y.M.C.A.",
+      "Wellesley Street",
+      "Ripon Street",
+      "Bengali",
+      "Prabuddha Bharatta",
+      "Krishna",
+      "Vaishnavism",
+      "Chaitanya",
+      "Tagore",
+      "mantra",
+      "guru",
+      "sari",
+      "Chabii",
+      "Harold Carr",
+      "Mr. Sen"
+    ],
+    "ch-1-9": [
+      "Mrs. Sen",
+      "Lilu",
+      "Maitreyi",
+      "Khokha",
+      "Mantu",
+      "Tagore",
+      "Shantiniketan",
+      "Bengal",
+      "Allan",
+      "India",
+      "rajah",
+      "English",
+      "sari",
+      "guru",
+      "mantra",
+      "voluptuousness",
+      "balustrade",
+      "veranda",
+      "betrothal",
+      "Mr. Sen"
+    ],
+    "ch-1-10": [
+      "Maitreyi",
+      "Mrs. Sen",
+      "Mr. Sen",
+      "Mantu",
+      "Khokha",
+      "Lilu",
+      "Allan",
+      "Shakuntala",
+      "Kalidasa",
+      "Alipore",
+      "Puri",
+      "Jaganath",
+      "Tagore",
+      "Chandernagore",
+      "Barackpur",
+      "Urwald",
+      "ashram",
+      "Swami Vivekananda",
+      "Ganges",
+      "Shantiniketan",
+      "Bhowanipore",
+      "Chattered Bank",
+      "Sikh",
+      "Gandhi",
+      "England",
+      "Japan",
+      "Christianity",
+      "Hinduism",
+      "Upanishads",
+      "pandit",
+      "pcm",
+      "seven leaves",
+      "garland",
+      "betrothal",
+      "sari",
+      "shawl",
+      "bodice",
+      "karma",
+      "swadeshi",
+      "mouches volantes",
+      "Eurasian",
+      "Belur",
+      "Chabii",
+      "Harold Carr",
+      "Hoogli",
+      "Vaishnavism",
+      "rupee"
+    ],
+    "ch-1-11": [
+      "Khokha",
+      "Maitreyi",
+      "Mrs. Sen",
+      "Lilu",
+      "Mantu",
+      "Chabii",
+      "Allan",
+      "Mr. Sen",
+      "sari",
+      "Indian marriage ceremony",
+      "Calcutta",
+      "Lakes",
+      "Bengali",
+      "Puri",
+      "Bengal",
+      "kirtan",
+      "scented with coconut oil",
+      "garland",
+      "betrothal bracelet",
+      "shawl",
+      "chaise longue",
+      "Allan-dadà",
+      "bar",
+      "chauffeur",
+      "beri-beri",
+      "Christianity",
+      "Tagore",
+      "Vaishnavism"
+    ],
+    "ch-1-12": [
+      "Khokha",
+      "Maitreyi",
+      "Mrs. Sen",
+      "Anasuya",
+      "Mr. Sen",
+      "Chatterji",
+      "Uday Shankar",
+      "Lilu",
+      "Allan",
+      "Shakuntala",
+      "Bengal",
+      "Tagore",
+      "Srikantha",
+      "Uday Shankar",
+      "Prabuddha Bharatta",
+      "James Joyce",
+      "Ulysses",
+      "Calcutta",
+      "Bhowanipore",
+      "Midnapur",
+      "Lakes",
+      "sari",
+      "divan",
+      "pan",
+      "shawl",
+      "veranda",
+      "balustrade",
+      "Acintya",
+      "Allan-dadà",
+      "Chabii",
+      "rupee"
+    ],
+    "ch-1-13": [
+      "Narendra Sen",
+      "Mrs. Ribeiro",
+      "Maitreyi",
+      "Khokha",
+      "Mrs. Sen",
+      "Geurtie",
+      "Clara",
+      "Swami Madhvananda",
+      "Bhowanipore",
+      "The Statesman",
+      "Calcutta",
+      "Darjeeling",
+      "Shillong",
+      "Gopalpur-at-Sea",
+      "father Justus",
+      "Chandernagore",
+      "Uddkita",
+      "Mantu",
+      "Lilu",
+      "Hoogli",
+      "Midnapur",
+      "Bengal Film Company",
+      "Kalighat",
+      "Royd Lane",
+      "Clive Street",
+      "Howrah Bridge",
+      "Ganges",
+      "Belur",
+      "Swami",
+      "Ranaghat",
+      "Bally",
+      "Howrah",
+      "Park Street",
+      "Asutosh Mukerjee Road",
+      "Lucknow",
+      "China Town",
+      "Bengalis",
+      "Hindusthani",
+      "sahib",
+      "dhoti",
+      "rupee",
+      "gramophone",
+      "orangeade",
+      "idolaters",
+      "huka",
+      "carri",
+      "inter-class ticket",
+      "creolin",
+      "sari",
+      "Allan-dadà",
+      "Chabii",
+      "Harold Carr"
+    ],
+    "ch-1-14": [
+      "Khokha",
+      "Maitreyi",
+      "Mrs. Ribeiro",
+      "Mrs. Sen",
+      "Mantu",
+      "Lilu",
+      "Jenia Isaac",
+      "Allan",
+      "Bhowanipore",
+      "Himalayas",
+      "Almora",
+      "Ranikhet",
+      "Delhi",
+      "Simla",
+      "Naini-Tal",
+      "Fatehpur-Sikhri",
+      "Midnapur",
+      "Royd Lane",
+      "Calcutta",
+      "Java",
+      "Ganges",
+      "Maikhali",
+      "Bhadrinath",
+      "Hardwar",
+      "Kotwara",
+      "Capetown",
+      "Johannesburg",
+      "Ramacharaka",
+      "Tibet",
+      "Abelard and Heloise",
+      "bungalow",
+      "poste restante",
+      "memsahib",
+      "Hindusthani",
+      "ashram",
+      "fakir",
+      "theosophy",
+      "bovarism",
+      "Chabii",
+      "Harold Carr",
+      "Mr. Sen",
+      "chaise longue"
+    ],
+    "ch-1-15": [
+      "Maitreyi",
+      "Jenia Isaac",
+      "Mrs. Ribeiro",
+      "Khokha",
+      "Mrs. Mctyre",
+      "Geurtie",
+      "Clara",
+      "J.",
+      "Maika",
+      "Allan",
+      "Bhowanipore Park",
+      "Bhowanipore",
+      "Singapore",
+      "Burma Oil Company",
+      "Technical Institute Library",
+      "Midnapur",
+      "State Express 555",
+      "Eurasian",
+      "bara-sahibs",
+      "sahib",
+      "idolater",
+      "river agent",
+      "Harold Carr",
+      "Mr. Sen",
+      "rupee"
+    ]
+  }
+}

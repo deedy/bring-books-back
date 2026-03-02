@@ -1,6 +1,7 @@
 {
   "id": "baeesween-sadi",
   "title": "The Twenty-Second Century",
+  "transliteratedTitle": "Baeesween Sadi",
   "subtitle": "A Vision of the Future",
   "authorId": "rahul-sankrityayan",
   "coverImage": "/data/images/covers/baeesween-sadi.webp",
@@ -10,7 +11,7 @@
     "Utopian Fiction"
   ],
   "originalLanguage": "Hindi",
-  "originalTitle": "Baeesween Sadi",
+  "originalTitle": "बाईसवीं सदी",
   "originalYear": 1924,
   "totalChapters": 16,
   "wordCount": 41181,

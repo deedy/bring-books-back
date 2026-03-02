@@ -1,0 +1,2972 @@
+{
+  "glossary": {
+    "Surendra Singh": {
+      "type": "character",
+      "description": "King of Naugarh and father of Virendra Singh; a wise and respected ruler who later resides in Chunar."
+    },
+    "Virendra Singh": {
+      "type": "character",
+      "description": "Son of Surendra Singh and King of Chunar. Husband of Chandrakanta, father of Indrajit Singh and Anand Singh. A just and powerful ruler waging war against Shivdutt.",
+      "image": "/data/images/characters/chandrakanta/virendra-singh.png"
+    },
+    "Chandrakanta": {
+      "type": "character",
+      "description": "Daughter of Maharaj Jay Singh of Vijaygarh; wife of Virendra Singh and mother of Indrajeet Singh and Anand Singh."
+    },
+    "Maharaj Jay Singh": {
+      "type": "character",
+      "description": "King of Vijaygarh and father of Chandrakanta."
+    },
+    "Tej Singh": {
+      "type": "character",
+      "description": "A prominent ayyār (spy/magician) known for his cunning; later becomes chief minister to Raja Virendra Singh."
+    },
+    "Maharaj Shivdutt": {
+      "type": "character",
+      "description": "King of Chunar and rival to Surendra Singh; known for his old grudges and villainy."
+    },
+    "Chapla": {
+      "type": "character",
+      "description": "Ayyara (female ayyār), married to Tej Singh; sister of Champa."
+    },
+    "Champa": {
+      "type": "character",
+      "description": "Ayyara, married to Devi Singh; sister of Chapla."
+    },
+    "Devi Singh": {
+      "type": "character",
+      "description": "Ayyār, husband of Champa."
+    },
+    "Fateh Singh": {
+      "type": "character",
+      "description": "Entrusted with the throne of Naugarh when Surendra Singh moves to Chunar."
+    },
+    "Jeet Singh": {
+      "type": "character",
+      "description": "Ayyār and close confidant of Surendra Singh; becomes tutor and protector of the princes."
+    },
+    "Indrajeet Singh": {
+      "type": "character",
+      "description": "Elder son of Virendra Singh and Chandrakanta; skilled and adventurous prince, central to the story."
+    },
+    "Anand Singh": {
+      "type": "character",
+      "description": "Younger son of Virendra Singh and Chandrakanta; accompanies Indrajeet Singh on adventures.",
+      "image": "/data/images/characters/chandrakanta/anand-singh.png"
+    },
+    "Bhairon Singh": {
+      "type": "character",
+      "description": "Son of Tej Singh and Chapla; a clever and skilled ayyār, close to Indrajeet Singh.",
+      "image": "/data/images/characters/chandrakanta/bhairon-singh.webp"
+    },
+    "Tara Singh": {
+      "type": "character",
+      "description": "Son of Devi Singh and Champa; a talented ayyār, close to Anand Singh.",
+      "image": "/data/images/characters/chandrakanta/tara-singh.webp"
+    },
+    "Pannalal": {
+      "type": "character",
+      "description": "An ayyār who, along with others, tests and trains Bhairon Singh and Tara Singh."
+    },
+    "Kanchan Singh": {
+      "type": "character",
+      "description": "Commander of the army accompanying the princes on their hunting expedition."
+    },
+    "Babaji": {
+      "type": "character",
+      "description": "A mysterious sadhu (holy man) who rides lions and is later revealed to be an ayyār in disguise."
+    },
+    "Bawaji": {
+      "type": "character",
+      "description": "Alternate spelling of Babaji, used in dialogue; the same character."
+    },
+    "Gandhakarta": {
+      "type": "character",
+      "description": "A character who appears with Shivdutt at the end of the chapter, likely an associate or henchman."
+    },
+    "Naugarh": {
+      "type": "proper_noun",
+      "description": "A kingdom ruled by Surendra Singh, later entrusted to Fateh Singh."
+    },
+    "Vijaygarh": {
+      "type": "proper_noun",
+      "description": "A kingdom ruled by Maharaj Jay Singh, father of Chandrakanta."
+    },
+    "Chunar": {
+      "type": "proper_noun",
+      "description": "A kingdom formerly ruled by Shivdutt, later the seat of Virendra Singh's rule and the main setting."
+    },
+    "Girnar": {
+      "type": "proper_noun",
+      "description": "A place mentioned by Babaji as his destination, known in India as a sacred mountain."
+    },
+    "Raja": {
+      "type": "proper_noun",
+      "description": "A royal title meaning 'king' or 'prince' in Hindi."
+    },
+    "Maharaj": {
+      "type": "proper_noun",
+      "description": "A royal title meaning 'great king' in Hindi."
+    },
+    "banrakhas": {
+      "type": "proper_noun",
+      "description": "Forest guards or keepers responsible for assisting in hunts."
+    },
+    "dhuni": {
+      "type": "proper_noun",
+      "description": "A sacred fire kept by ascetics or sadhus for meditation and rituals."
+    },
+    "Kshatriya": {
+      "type": "proper_noun",
+      "description": "A member of the warrior and ruler caste in traditional Hindu society."
+    },
+    "Brahma": {
+      "type": "proper_noun",
+      "description": "The Hindu god of creation, referenced here as a symbol of supreme authority."
+    },
+    "aiyyar": {
+      "type": "vocabulary",
+      "description": "A master of disguise, espionage, and trickery; a spy or magician in the context of the novel."
+    },
+    "tilism": {
+      "type": "vocabulary",
+      "description": "A magical realm, labyrinth, or enchanted puzzle that must be solved or broken."
+    },
+    "babaji": {
+      "type": "vocabulary",
+      "description": "A term of respect for a holy man or ascetic."
+    },
+    "sadhu": {
+      "type": "vocabulary",
+      "description": "A Hindu holy man or ascetic, often depicted as wandering and spiritually advanced."
+    },
+    "mahātma": {
+      "type": "vocabulary",
+      "description": "A great soul; a term of respect for a spiritually advanced person or saint."
+    },
+    "ayyaars": {
+      "type": "vocabulary",
+      "description": "Plural of aiyyar; refers to the group of spies/magicians in the story."
+    },
+    "kos": {
+      "type": "vocabulary",
+      "description": "An ancient Indian unit of distance, approximately 2-3 kilometers."
+    },
+    "Kunwar Virendra Singh": {
+      "type": "character",
+      "description": "A prince and rival of Maharaj Shivdutt, victorious in their conflict."
+    },
+    "King Chet Singh": {
+      "type": "character",
+      "description": "A famous king of Kashi, formerly associated with the ancient ruined fort near Ahraura."
+    },
+    "Nazim": {
+      "type": "character",
+      "description": "A Muslim ayyar, mentioned as a possible relative of the three ayyars serving Shivdutt."
+    },
+    "Ahmad": {
+      "type": "character",
+      "description": "A Muslim ayyar, also mentioned as a possible relative of the three ayyars serving Shivdutt."
+    },
+    "Bakar Ali": {
+      "type": "character",
+      "description": "One of the three chief Muslim ayyars in Shivdutt's service, skilled in espionage and disguise."
+    },
+    "Khudabakhsh": {
+      "type": "character",
+      "description": "One of the three chief Muslim ayyars serving Maharaj Shivdutt."
+    },
+    "Yar Ali": {
+      "type": "character",
+      "description": "One of the three chief Muslim ayyars serving Maharaj Shivdutt."
+    },
+    "Indrajit Singh": {
+      "type": "character",
+      "description": "The elder son of Raja Virendra Singh and Chandrakanta, a brave and handsome prince (Kunwar). He is the central hero of the story, skilled in warfare and deeply in love with Kishori.",
+      "image": "/data/images/characters/chandrakanta/indrajit-singh.png"
+    },
+    "Vindhya": {
+      "type": "proper_noun",
+      "description": "A mountain range in central India, whose forests serve as the setting for Shivdutt's retreat."
+    },
+    "Robertsganj": {
+      "type": "proper_noun",
+      "description": "A town in Uttar Pradesh, India, mentioned as part of the forest region."
+    },
+    "Sarguja": {
+      "type": "proper_noun",
+      "description": "A region in central India, included in the stretch of the Vindhya forest."
+    },
+    "Singrauli": {
+      "type": "proper_noun",
+      "description": "A district in central India, also part of the forested area described."
+    },
+    "Ahraura": {
+      "type": "proper_noun",
+      "description": "A town near Chunar, noted for its ancient ruined fort."
+    },
+    "Kashi": {
+      "type": "proper_noun",
+      "description": "The ancient name for Varanasi, a major city in India associated with King Chet Singh."
+    },
+    "Shivduttgarh": {
+      "type": "proper_noun",
+      "description": "The name given by Shivdutt to the old fort where he takes refuge and establishes his base."
+    },
+    "Bhil": {
+      "type": "proper_noun",
+      "description": "An indigenous tribal community of central India, among the hill tribes led by Shivdutt."
+    },
+    "Kharwar": {
+      "type": "proper_noun",
+      "description": "Another indigenous tribal group of central India, also led by Shivdutt."
+    },
+    "Kunwar": {
+      "type": "vocabulary",
+      "description": "A title meaning 'prince' or 'young nobleman' in Hindi."
+    },
+    "ayyari": {
+      "type": "vocabulary",
+      "description": "The art or craft of being an aiyyar, involving disguise, intelligence gathering, and trickery."
+    },
+    "garh": {
+      "type": "vocabulary",
+      "description": "A Hindi word meaning 'fort' or 'fortress', often used as a suffix in place names."
+    },
+    "Maharaj Surendra Singh": {
+      "type": "character",
+      "description": "The king of Chunar Fort and grandfather to Indrajit Singh and Anand Singh; a wise and respected ruler."
+    },
+    "Bhairon": {
+      "type": "character",
+      "description": "An aiyyār who disguised himself as Indrajit Singh and allowed himself to be captured by Shivdutt's spies."
+    },
+    "Shivdutt": {
+      "type": "character",
+      "description": "A rival king or prince, antagonist to the Chunar royals, known for employing cunning ayyars."
+    },
+    "Ramnarayan": {
+      "type": "character",
+      "description": "Another aiyyār or agent sent to help Bhairon Singh."
+    },
+    "Chunnilal": {
+      "type": "character",
+      "description": "Another aiyyār or agent sent to help Bhairon Singh."
+    },
+    "Badrinath": {
+      "type": "character",
+      "description": "An aiyyār or agent, notable for his swimming prowess and involvement in aiding Bhairon Singh."
+    },
+    "Jyotishiji": {
+      "type": "character",
+      "description": "An aiyyār or advisor, possibly with astrological expertise, sent to assist Bhairon Singh."
+    },
+    "Chamberlain": {
+      "type": "character",
+      "description": "A senior servant or official in the royal household, responsible for relaying messages and managing guests."
+    },
+    "Attendant": {
+      "type": "character",
+      "description": "A servant who announces visitors and assists the princes."
+    },
+    "Chunar Fort": {
+      "type": "proper_noun",
+      "description": "A historic fort and the seat of the Chunar royal family, serving as the main setting for much of the story."
+    },
+    "Shivdutt's ayyars": {
+      "type": "proper_noun",
+      "description": "The group of spies and magicians employed by Shivdutt."
+    },
+    "Shivdattgarh": {
+      "type": "proper_noun",
+      "description": "A fortress or city under Shivdutt's control."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "The sacred river Ganges, central to many scenes in the chapter."
+    },
+    "barahdari": {
+      "type": "proper_noun",
+      "description": "A pavilion with twelve doors, common in Mughal and Indian architecture, often used for gatherings."
+    },
+    "mridang": {
+      "type": "proper_noun",
+      "description": "A traditional Indian percussion instrument, similar to a drum."
+    },
+    "siddha": {
+      "type": "vocabulary",
+      "description": "A spiritually perfected or enlightened person, often with supernatural powers."
+    },
+    "Kunwar Anand Singh": {
+      "type": "character",
+      "description": "Another young prince who also goes missing alongside Indrajit Singh."
+    },
+    "Jeetsingh": {
+      "type": "character",
+      "description": "A trusted advisor and possibly an aiyyar, who helps strategize and coordinate the search efforts."
+    },
+    "Tejsingh": {
+      "type": "character",
+      "description": "A loyal and resourceful aide, likely an aiyyar, who leads the search party and coordinates military action."
+    },
+    "Devisingh": {
+      "type": "character",
+      "description": "Another trusted associate summoned for counsel regarding the disappearance."
+    },
+    "Shivdatt": {
+      "type": "character",
+      "description": "An antagonist whose resurgence is suspected to be behind the recent troubles."
+    },
+    "Dev Singh": {
+      "type": "character",
+      "description": "A member of the royal circle who is consulted about the mysterious corpse."
+    },
+    "Tarasingh": {
+      "type": "character",
+      "description": "A character considered for a mission to Badrinath to assist Bhaironsingh."
+    },
+    "Bhaironsingh": {
+      "type": "character",
+      "description": "A character mentioned as needing to be freed, possibly an ally in trouble."
+    },
+    "turret": {
+      "type": "vocabulary",
+      "description": "A small tower on top of a fort or castle, often used for lookout or signaling."
+    },
+    "kettledrum": {
+      "type": "vocabulary",
+      "description": "A large drum used in Indian courts and armies for signaling or ceremonial purposes."
+    },
+    "mallet": {
+      "type": "vocabulary",
+      "description": "A hammer-like tool used to strike the kettledrum."
+    },
+    "audience hall": {
+      "type": "vocabulary",
+      "description": "A formal hall in a palace where the king meets with courtiers and the public."
+    },
+    "torchbearers": {
+      "type": "vocabulary",
+      "description": "Individuals who carry torches, especially in processions or at night for illumination."
+    },
+    "Pandit Badrinath": {
+      "type": "character",
+      "description": "A skilled aiyyar and leader of the rescue party, known for his intelligence and resourcefulness."
+    },
+    "Jagannath Jyotishi": {
+      "type": "character",
+      "description": "Also referred to as Jyotishiji, he is a learned astrologer and aiyyar who aids in the rescue mission."
+    },
+    "Bhaironsingh Aiyar": {
+      "type": "character",
+      "description": "A brave and resourceful aiyyar who is initially imprisoned in Shivdattgarh but later escapes."
+    },
+    "Kanchansingh": {
+      "type": "character",
+      "description": "Commander who oversees the search for the lion-clad Babaji and Bhaironsingh."
+    },
+    "Baqar Ali Ayyar": {
+      "type": "character",
+      "description": "The old jailor and aiyyar who cleverly traps Ramnarayan and Chunnilal, later rewarded for his cunning."
+    },
+    "Aiyar": {
+      "type": "proper_noun",
+      "description": "A term for a master spy, disguise artist, and magician in the world of Chandrakanta."
+    },
+    "Aiyars": {
+      "type": "proper_noun",
+      "description": "Plural of 'Aiyar', referring to the group of skilled spies and magicians."
+    },
+    "Jyotishi": {
+      "type": "proper_noun",
+      "description": "A term for an astrologer; in this context, refers to Jagannath Jyotishi."
+    },
+    "Halwai": {
+      "type": "proper_noun",
+      "description": "A sweet-seller or confectioner, commonly found in Indian towns and villages."
+    },
+    "ayyars": {
+      "type": "vocabulary",
+      "description": "Plural of 'aiyyar', referring to a group of such agents."
+    },
+    "peda": {
+      "type": "vocabulary",
+      "description": "A type of Indian sweet made from condensed milk and sugar, often flavored with cardamom."
+    },
+    "puri": {
+      "type": "vocabulary",
+      "description": "A deep-fried, unleavened Indian bread, commonly eaten with various accompaniments."
+    },
+    "seer": {
+      "type": "vocabulary",
+      "description": "A traditional Indian unit of weight, roughly equivalent to about 0.93 kilograms or 2 pounds."
+    },
+    "anna": {
+      "type": "vocabulary",
+      "description": "A former Indian currency unit, equal to 1/16 of a rupee."
+    },
+    "Ajay Singh": {
+      "type": "character",
+      "description": "A cunning character who betrays the ayyars, aiding their capture."
+    },
+    "Chanla": {
+      "type": "character",
+      "description": "A female companion or attendant of Chandrakanta, often involved in her adventures."
+    },
+    "halwai": {
+      "type": "vocabulary",
+      "description": "A confectioner or sweet-maker in Indian culture."
+    },
+    "Soldier": {
+      "type": "character",
+      "description": "A mysterious, resourceful man who helps Anand Singh escape captivity, refusing to reveal his true identity."
+    },
+    "Woman": {
+      "type": "character",
+      "description": "A beautiful, enigmatic woman who imprisons Anand Singh and tries to win his love, later revealed to possess magical or supernatural abilities."
+    },
+    "Abyssinian girl": {
+      "type": "character",
+      "description": "A young, beautiful attendant of the main woman, holding a dagger and assisting in the torture scene."
+    },
+    "Abyssinian man": {
+      "type": "character",
+      "description": "An ugly attendant who assists the main woman by digging in the pit."
+    },
+    "Yogini": {
+      "type": "character",
+      "description": "A formidable female ascetic with supernatural powers, who intervenes at the end of the chapter, rendering everyone unconscious with her magic."
+    },
+    "Falak-e-Haftum": {
+      "type": "proper_noun",
+      "description": "The seventh and highest level of heaven in Islamic cosmology, referenced as a mark of honor."
+    },
+    "Khuda": {
+      "type": "proper_noun",
+      "description": "An Urdu/Persian word for God, commonly used by Muslims."
+    },
+    "Ram-Ram": {
+      "type": "proper_noun",
+      "description": "A traditional Hindu greeting or exclamation invoking the deity Rama."
+    },
+    "Abyssinian": {
+      "type": "proper_noun",
+      "description": "Refers to people of Ethiopian origin; in Indian literature, often denotes African slaves or attendants."
+    },
+    "nimcha": {
+      "type": "proper_noun",
+      "description": "A type of curved sword, originally from North Africa but used in India as well."
+    },
+    "lota": {
+      "type": "proper_noun",
+      "description": "A small, rounded metal vessel used for storing and pouring liquids, especially water or milk."
+    },
+    "yogini": {
+      "type": "proper_noun",
+      "description": "A female ascetic or practitioner of yoga, often depicted as possessing mystical powers in Indian tradition."
+    },
+    "pishachi": {
+      "type": "vocabulary",
+      "description": "A female demon or evil spirit in Hindu mythology, often associated with vampiric or ghostly traits."
+    },
+    "betel box": {
+      "type": "vocabulary",
+      "description": "A container for storing betel leaves and accompaniments, used in the preparation of paan (a traditional Indian chew)."
+    },
+    "tripund": {
+      "type": "vocabulary",
+      "description": "Three horizontal lines of sacred ash worn on the forehead by Shaivite Hindus."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air gallery or porch attached to a house, common in Indian architecture."
+    },
+    "maidservant": {
+      "type": "vocabulary",
+      "description": "A female domestic worker or attendant, often serving noblewomen in Indian households."
+    },
+    "skull-cup": {
+      "type": "vocabulary",
+      "description": "A ritual vessel made from a human skull, used in Tantric and ascetic practices in India."
+    },
+    "ash": {
+      "type": "vocabulary",
+      "description": "Sacred ash (vibhuti) used by Hindu ascetics for ritual purposes, often smeared on the body."
+    },
+    "Bhimsen": {
+      "type": "character",
+      "description": "Bhimsen is the eighteen-year-old son of Maharaj Shivdatt, known for his physical strength, skills in weaponry, and fondness for hunting."
+    },
+    "Kishori": {
+      "type": "character",
+      "description": "Kishori is the fifteen-year-old daughter of Maharaj Shivdatt, currently sent away to her maternal grandparents' home due to her father's displeasure.",
+      "image": "/data/images/characters/chandrakanta/kishori.png"
+    },
+    "Bakr Ali": {
+      "type": "character",
+      "description": "An ayyaar (spy/agent) serving Maharaj Shivdutt, tasked with releasing Virendra Singh's ayyaars and returning their belongings."
+    },
+    "Shivdatt Singh": {
+      "type": "character",
+      "description": "Another name for Maharaj Shivdutt, used interchangeably in the text."
+    },
+    "Miyan Bakar": {
+      "type": "character",
+      "description": "Another name for Bakr Ali, used by the ayyaars in a familiar or teasing way."
+    },
+    "Bhim": {
+      "type": "character",
+      "description": "Shortened form of Bhimsen, used in his letter and by others."
+    },
+    "Raja Sahib": {
+      "type": "proper_noun",
+      "description": "A respectful term for a king or ruler, likely referring to Shivdutt in this context."
+    },
+    "Kumar Bhimsen": {
+      "type": "proper_noun",
+      "description": "A formal title for Prince Bhimsen, indicating his royal status."
+    },
+    "Prince Virendra Singh": {
+      "type": "proper_noun",
+      "description": "Alternate title for Raja Virendra Singh, emphasizing his royal lineage."
+    },
+    "ayyārs": {
+      "type": "proper_noun",
+      "description": "Plural form of ayyaar, referring to the group of spies/magicians."
+    },
+    "muddu": {
+      "type": "proper_noun",
+      "description": "A tilism term, possibly meaning a magical being or person of interest, as noted in the text."
+    },
+    "chobdar": {
+      "type": "vocabulary",
+      "description": "A ceremonial usher or attendant, often responsible for delivering messages in royal courts."
+    },
+    "masha": {
+      "type": "vocabulary",
+      "description": "A traditional Indian unit of weight, often used for gold or precious materials."
+    },
+    "howdah": {
+      "type": "vocabulary",
+      "description": "A seat or carriage mounted on the back of an elephant, used for riding."
+    },
+    "palanquins": {
+      "type": "vocabulary",
+      "description": "Covered litters carried by bearers, used for transporting people, especially nobility."
+    },
+    "Miyan": {
+      "type": "vocabulary",
+      "description": "A respectful or familiar address, often used for Muslim men."
+    },
+    "daggers": {
+      "type": "vocabulary",
+      "description": "Short, pointed knives, commonly carried by warriors and spies in the story."
+    },
+    "Vanchari": {
+      "type": "character",
+      "description": "A provisional name given to the second woman accompanying the Yogini, whose true identity is yet to be disclosed."
+    },
+    "Habshi": {
+      "type": "character",
+      "description": "A person involved in the events of the cave, responsible for digging a grave and assisting the Yogini and others."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by women, consisting of a long piece of cloth draped around the body."
+    },
+    "jalchari": {
+      "type": "vocabulary",
+      "description": "A Hindi term meaning 'water nymph' or 'water-dweller', used here to describe the young woman emerging from the pond."
+    },
+    "Kamla": {
+      "type": "character",
+      "description": "An ayyar (spy/magician) who is Kishori's devoted companion, skilled in disguise and espionage, and determined to help Kishori reunite with Indrajit Singh."
+    },
+    "Madhavi": {
+      "type": "character",
+      "description": "A woman skilled in disguise, who deceives others by taking on Kishori's appearance and is implicated in the abduction of Indrajit Singh.",
+      "image": "/data/images/characters/chandrakanta/madhavi.png"
+    },
+    "Vaikunth": {
+      "type": "proper_noun",
+      "description": "In Hindu cosmology, the celestial abode of Lord Vishnu; here it is used metaphorically to mean 'sent to the afterlife' or 'killed.'"
+    },
+    "Pari Jamal": {
+      "type": "character",
+      "description": "Mentioned in Kishori's letter as the woman who has deceived Indrajit Singh by making herself look like Kishori."
+    },
+    "Santati": {
+      "type": "proper_noun",
+      "description": "Refers to the four parts or volumes of the story, possibly meaning 'descendants' or 'generations' in Hindi."
+    },
+    "haveli": {
+      "type": "proper_noun",
+      "description": "A traditional Indian mansion or large house, often grand and ornate."
+    },
+    "stepwell": {
+      "type": "vocabulary",
+      "description": "A well or water storage structure in which the water is reached by descending a set of steps, common in India."
+    },
+    "maiden": {
+      "type": "vocabulary",
+      "description": "An archaic term for a young, unmarried woman."
+    },
+    "portrait": {
+      "type": "vocabulary",
+      "description": "A painted or drawn representation of a person, often used in the story as a token of identity or love."
+    },
+    "tunnel": {
+      "type": "vocabulary",
+      "description": "A passageway, often underground, used here to refer to a secret or hidden route."
+    },
+    "canal": {
+      "type": "vocabulary",
+      "description": "A man-made waterway, but in this context, it may refer to a natural or artificial water channel or cave."
+    },
+    "Lalita": {
+      "type": "character",
+      "description": "One of Madhavi's two closest companions, Lalita is skilled in the art of ayyari and is trusted by Madhavi."
+    },
+    "Tilottama": {
+      "type": "character",
+      "description": "Madhavi's other close companion, Tilottama is also an expert in ayyari and provides counsel to Madhavi."
+    },
+    "Chandaal": {
+      "type": "character",
+      "description": "A powerful figure who holds sway over the affairs of the state in Gayaji, feared by Madhavi for his potential to ruin everything."
+    },
+    "Gayaji": {
+      "type": "proper_noun",
+      "description": "A region or kingdom where Madhavi rules, and the setting for much of the intrigue in this chapter."
+    },
+    "dark woman": {
+      "type": "character",
+      "description": "A mysterious, clever woman who aids Indrajit Singh with her cunning and resourcefulness, orchestrating secret plans and facilitating his movements."
+    },
+    "Diwan": {
+      "type": "character",
+      "description": "The middle-aged man seen with Madhavi; he is her chief minister or administrator, wielding significant influence within the kingdom."
+    },
+    "Kalavati": {
+      "type": "character",
+      "description": "Sister of Mayavati and wife of Shivdutt, Kalavati is Kishori's mother."
+    },
+    "Mayavati": {
+      "type": "character",
+      "description": "Sister of Kalavati, wife of Chandraddatt, and mother of Madhavi."
+    },
+    "Chandraddatt": {
+      "type": "character",
+      "description": "King of Gaya, husband of Mayavati, and father of Madhavi, known for his indulgent lifestyle."
+    },
+    "Agnidatt": {
+      "type": "character",
+      "description": "The minister of the kingdom, one of the three chief men holding real power."
+    },
+    "Kuver Singh": {
+      "type": "character",
+      "description": "The commander of the kingdom's forces, one of the three chief men."
+    },
+    "Dharam Singh": {
+      "type": "character",
+      "description": "The city's chief constable, one of the three chief men in the kingdom."
+    },
+    "Kumar Indrajit Singh": {
+      "type": "character",
+      "description": "A prince who is currently lying helpless in Rajgriha."
+    },
+    "Chachi": {
+      "type": "character",
+      "description": "A character referenced as someone who might ensnare Lalita and Tilottama."
+    },
+    "Gaya": {
+      "type": "proper_noun",
+      "description": "A city and kingdom ruled by Chandraddatt, also a famous pilgrimage site in India."
+    },
+    "Rajgriha": {
+      "type": "proper_noun",
+      "description": "A hill and pilgrimage site near Gaya where Chandraddatt built a mansion and spent much of his time."
+    },
+    "Diwan Sahib": {
+      "type": "proper_noun",
+      "description": "A formal title referring to the minister or chief administrator."
+    },
+    "Senapati": {
+      "type": "proper_noun",
+      "description": "A title meaning commander or general of the army."
+    },
+    "Kotwal": {
+      "type": "proper_noun",
+      "description": "A title for the chief constable or head of city police."
+    },
+    "vanchari": {
+      "type": "vocabulary",
+      "description": "A wandering woman or female ascetic, often associated with forests or rural areas."
+    },
+    "Diwan Agniddatt": {
+      "type": "character",
+      "description": "A diwan (minister or high official) allied with Madhavi, involved in the intrigues against Indrajit Singh."
+    },
+    "Maharaj Virendra Singh": {
+      "type": "character",
+      "description": "The powerful ruler of Chunar, respected and feared, under whose protection Kishori would be safe."
+    },
+    "Maharani Chandrakanta": {
+      "type": "character",
+      "description": "The queen of Chunar, she supports Kishori and sends Kamla to bring her to Chunar, showing her approval of Kishori."
+    },
+    "Ram": {
+      "type": "proper_noun",
+      "description": "A revered deity in Hinduism, invoked here as a protector in a moment of uncertainty."
+    },
+    "Nagauri": {
+      "type": "proper_noun",
+      "description": "Refers to a breed of oxen from Nagaur, Rajasthan, known for their strength and speed, used to draw the chariot."
+    },
+    "Maharani": {
+      "type": "proper_noun",
+      "description": "A royal title meaning 'queen,' used for female rulers such as Chandrakanta."
+    },
+    "watch": {
+      "type": "vocabulary",
+      "description": "A traditional Indian unit of time, roughly equivalent to about three hours, used to divide the night."
+    },
+    "chariot": {
+      "type": "vocabulary",
+      "description": "A horse- or oxen-drawn carriage, often used for travel by nobility or royalty."
+    },
+    "orchard": {
+      "type": "vocabulary",
+      "description": "A garden or plantation of fruit trees, here specifically a mango orchard."
+    },
+    "maidservants": {
+      "type": "vocabulary",
+      "description": "Female domestic workers or attendants, commonly found in royal or noble households."
+    },
+    "waning moon": {
+      "type": "vocabulary",
+      "description": "The phase of the moon when it is decreasing in illumination, often used in Indian literature to mark time or atmosphere."
+    },
+    "Manraj": {
+      "type": "character",
+      "description": "A figure mentioned as love-intoxicated, whose command guides the movement of prayer beads; likely a devotee or spiritual figure."
+    },
+    "Girijapati": {
+      "type": "character",
+      "description": "A divine name invoked during prayers, referring to Lord Shiva, the consort of Goddess Parvati (Girija)."
+    },
+    "Jahnavi": {
+      "type": "character",
+      "description": "A divine name for the river Ganga, personified as a goddess whose waters are believed to cleanse sins."
+    },
+    "King Virendrasingh": {
+      "type": "character",
+      "description": "The ruler of a kingdom, he is one of the two men on the hill, depicted as a person of high standing and authority."
+    },
+    "Prince Anandasingh": {
+      "type": "character",
+      "description": "The younger son of King Virendrasingh, a brave young man around twenty years old, standing with his father and Tejsingh."
+    },
+    "Bahadur": {
+      "type": "character",
+      "description": "A brave soldier who descends the hill to rejoin the army; 'Bahadur' is also a common title or honorific for a courageous man."
+    },
+    "sal": {
+      "type": "proper_noun",
+      "description": "A type of tree (Shorea robusta) native to the Indian subcontinent, often found in forests."
+    },
+    "shisham": {
+      "type": "proper_noun",
+      "description": "Also known as Indian rosewood (Dalbergia sissoo), a valuable hardwood tree common in India."
+    },
+    "dhotis": {
+      "type": "vocabulary",
+      "description": "Traditional Indian garments for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "rosary": {
+      "type": "vocabulary",
+      "description": "A string of prayer beads used in Hindu (and other) devotional practices to count recitations of prayers or mantras."
+    },
+    "anointing": {
+      "type": "vocabulary",
+      "description": "The ritual act of applying oil, ash, or sandalwood paste to the body, often as part of religious observance."
+    },
+    "garland-maker": {
+      "type": "vocabulary",
+      "description": "A person who makes garlands, typically of flowers, for religious offerings or adornment."
+    },
+    "pendant": {
+      "type": "vocabulary",
+      "description": "An ornament that hangs from jewelry, such as earrings or necklaces; in this context, a flower used in place of a traditional pendant."
+    },
+    "Diwan Agnidatt": {
+      "type": "character",
+      "description": "The chief minister (Diwan) of Madhavi's court, favored by Madhavi and close friends with Kuber Singh and Dharm Singh."
+    },
+    "Kuber Singh": {
+      "type": "character",
+      "description": "The commander (Senapati) of Madhavi's forces and one of the three chief men at her court."
+    },
+    "Dharm Singh": {
+      "type": "character",
+      "description": "The kotwal (chief of police) of Madhavi's realm and one of the three chief men at her court."
+    },
+    "Senapati Sahib": {
+      "type": "character",
+      "description": "Honorific form of Kuber Singh, used throughout the chapter."
+    },
+    "Kotwal Sahib": {
+      "type": "character",
+      "description": "Honorific form of Dharm Singh, used throughout the chapter."
+    },
+    "First Man": {
+      "type": "character",
+      "description": "One of two young brothers from Gayaji who appear before the Kotwal with a dispute over a woman."
+    },
+    "Second Man": {
+      "type": "character",
+      "description": "The other young brother from Gayaji, also involved in the dispute over the mysterious woman."
+    },
+    "First Brother": {
+      "type": "character",
+      "description": "Refers to the First Man when guiding the Kotwal to the woman."
+    },
+    "Second Brother": {
+      "type": "character",
+      "description": "Refers to the Second Man when guiding the Kotwal to the woman."
+    },
+    "Rani Madhavi": {
+      "type": "character",
+      "description": "Another form of Madhavi's name, with 'Rani' meaning queen, confirming her royal status."
+    },
+    "Madhavi's court": {
+      "type": "proper_noun",
+      "description": "The royal court or palace where Queen Madhavi rules and her chief officials convene."
+    },
+    "Rani": {
+      "type": "proper_noun",
+      "description": "A Hindi word meaning 'queen', used as a title for royal women."
+    },
+    "kotwal": {
+      "type": "vocabulary",
+      "description": "The chief of police or head of city security in an Indian town or city."
+    },
+    "sahib": {
+      "type": "vocabulary",
+      "description": "An honorific term of respect, equivalent to 'sir' or 'lord'."
+    },
+    "palanquin": {
+      "type": "vocabulary",
+      "description": "A covered litter for one passenger, carried on poles by bearers, used in South Asia."
+    },
+    "orderlies": {
+      "type": "vocabulary",
+      "description": "Attendants or assistants, often soldiers serving a superior officer."
+    },
+    "Randheersingh": {
+      "type": "character",
+      "description": "Kishori's maternal grandfather, a powerful landlord who becomes enraged at Madhavi's actions."
+    },
+    "Harnamsingh": {
+      "type": "character",
+      "description": "Kamla's elder brother, who assists her in the search for Kishori."
+    },
+    "Rewa": {
+      "type": "proper_noun",
+      "description": "A place name; a region or kingdom through which one of the roads at the crossroads passes."
+    },
+    "Garyaji": {
+      "type": "proper_noun",
+      "description": "A place name; a destination reached by taking the road through Rewa."
+    },
+    "ayyara": {
+      "type": "vocabulary",
+      "description": "A female spy, trickster, or magician skilled in disguise and subterfuge."
+    },
+    "diwan": {
+      "type": "vocabulary",
+      "description": "A high-ranking official or chief minister in a royal court, responsible for administration."
+    },
+    "Bhairav Singh": {
+      "type": "character",
+      "description": "One of the protagonists, an ally working to rescue Indrajit Singh."
+    },
+    "Jat": {
+      "type": "proper_noun",
+      "description": "A specific location or object in the pond, possibly a platform or marker."
+    },
+    "ayyaar": {
+      "type": "vocabulary",
+      "description": "A master of disguise, espionage, and trickery; a spy or rogue with magical abilities."
+    },
+    "Kunwar Indrajitsingh": {
+      "type": "character",
+      "description": "A prince and the main protagonist, known for his bravery and determination; he is in love with Kishori and seeks to rescue her."
+    },
+    "water tunnel": {
+      "type": "proper_noun",
+      "description": "A secret passage previously used for movement within the palace, now sealed and replaced by another tunnel."
+    },
+    "palace": {
+      "type": "proper_noun",
+      "description": "The royal residence where much of the intrigue and action takes place."
+    },
+    "underground chamber": {
+      "type": "proper_noun",
+      "description": "A hidden room beneath the palace, accessible via secret tunnels."
+    },
+    "cave": {
+      "type": "proper_noun",
+      "description": "A subterranean area near the palace, possibly part of the tunnel system."
+    },
+    "garden": {
+      "type": "proper_noun",
+      "description": "A walled area surrounding the mansion, heavily guarded and central to the escape attempt."
+    },
+    "mansion": {
+      "type": "proper_noun",
+      "description": "A grand residence, here referring to the home of Madhavi's minister, Agnidatt."
+    },
+    "Ayyars": {
+      "type": "proper_noun",
+      "description": "A group of skilled spies, warriors, and masters of disguise, loyal to Indrajitsingh."
+    },
+    "chandalini": {
+      "type": "vocabulary",
+      "description": "A term referring to a cruel or merciless woman, derived from 'chandal', a member of a low caste associated with harshness."
+    },
+    "Agniddatt": {
+      "type": "character",
+      "description": "Also referred to as Diwan Sahib or Diwan Agnidatt, he is a villainous minister who abducts Kishori and schemes to seize the throne."
+    },
+    "Kamini": {
+      "type": "character",
+      "description": "The unmarried daughter of Agnidatt, she is of Kishori's age and is described as beautiful and good-natured."
+    },
+    "Agnidatt's wife": {
+      "type": "character",
+      "description": "The wife of Agnidatt, described as good-natured but suffering under her husband's cruelty."
+    },
+    "Dussehra": {
+      "type": "proper_noun",
+      "description": "Also known as Vijayadashami, a major Hindu festival celebrating the victory of good over evil."
+    },
+    "Vijayadashami": {
+      "type": "proper_noun",
+      "description": "Another name for Dussehra, marking the end of the Navaratri festival and the triumph of Lord Rama over Ravana."
+    },
+    "Yama": {
+      "type": "proper_noun",
+      "description": "The Hindu god of death, whose abode is referenced as a metaphor for being killed."
+    },
+    "cavern": {
+      "type": "vocabulary",
+      "description": "A large underground chamber, often used in the novel as a secret prison or hideout."
+    },
+    "palace guards": {
+      "type": "vocabulary",
+      "description": "Soldiers responsible for the security of the palace."
+    },
+    "chief constable": {
+      "type": "vocabulary",
+      "description": "The head of the city police or law enforcement, referred to as the kotwal in Hindi."
+    },
+    "abode of Yama": {
+      "type": "vocabulary",
+      "description": "A phrase meaning death or the afterlife, referencing the Hindu god of death."
+    },
+    "Chandradhar": {
+      "type": "proper_noun",
+      "description": "The former ruler or dynasty of Gaya, whose palace is now occupied by Virendra Singh's family."
+    },
+    "Puranas": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu scriptures and mythological texts, referenced as a source of Anand Singh's knowledge."
+    },
+    "Yamlok": {
+      "type": "proper_noun",
+      "description": "In Hindu belief, the abode of Yama, the god of death; used metaphorically here to mean death or the afterlife."
+    },
+    "Rambha": {
+      "type": "proper_noun",
+      "description": "A celestial nymph (apsara) from Hindu mythology, symbolizing beauty."
+    },
+    "Urvashi": {
+      "type": "proper_noun",
+      "description": "Another famous apsara (celestial nymph) from Hindu mythology, renowned for her beauty."
+    },
+    "vaidya": {
+      "type": "vocabulary",
+      "description": "A traditional physician or healer, trained in Indian medicine."
+    },
+    "petition chest": {
+      "type": "vocabulary",
+      "description": "A locked box placed for subjects to submit written petitions or grievances to the ruler."
+    },
+    "proclamation": {
+      "type": "vocabulary",
+      "description": "An official public announcement, often regarding new laws or royal decisions."
+    },
+    "candelabrum": {
+      "type": "vocabulary",
+      "description": "A large branched candlestick holder, used for lighting rooms."
+    },
+    "landlord": {
+      "type": "vocabulary",
+      "description": "A person who owns large tracts of land, often with significant local influence."
+    },
+    "noble": {
+      "type": "vocabulary",
+      "description": "A person of high birth or aristocratic rank, often holding titles and land."
+    },
+    "Ramshila": {
+      "type": "proper_noun",
+      "description": "A hill near Gayaji, serving as the location where Dev Singh posts his note and observes the villains."
+    },
+    "dacoit": {
+      "type": "vocabulary",
+      "description": "A bandit or member of a gang of robbers, especially one operating in rural India."
+    },
+    "bouquet": {
+      "type": "vocabulary",
+      "description": "A bunch of flowers, often used here to refer to floral arrangements left as clues or tokens."
+    },
+    "grotto": {
+      "type": "vocabulary",
+      "description": "A small cave or cavern, used here as a hiding place for observation."
+    },
+    "chamber": {
+      "type": "vocabulary",
+      "description": "A private room, often used in palaces or large houses, sometimes with secret or special significance in the story."
+    },
+    "Devsingh": {
+      "type": "character",
+      "description": "An ayyār (spy/agent) who enters the chamber and discovers evidence of the violent struggle."
+    },
+    "Kinnari": {
+      "type": "character",
+      "description": "The name given by the narrator to the mysterious woman at the center of the intrigue, whose true identity is yet to be revealed."
+    },
+    "ayyār": {
+      "type": "proper_noun",
+      "description": "A term for a spy, trickster, or agent skilled in disguise, subterfuge, and sometimes magic, common in Indian fantasy literature."
+    },
+    "Maharaja": {
+      "type": "proper_noun",
+      "description": "A Sanskrit title meaning 'great king,' used for rulers of Indian princely states."
+    },
+    "dacoits": {
+      "type": "vocabulary",
+      "description": "Bandits or armed robbers, particularly those operating in rural India."
+    },
+    "crier": {
+      "type": "vocabulary",
+      "description": "An official who makes public announcements, often by shouting proclamations in public spaces."
+    },
+    "sun god": {
+      "type": "vocabulary",
+      "description": "Refers to Surya, the Hindu deity representing the sun, often invoked in poetic descriptions of sunrise or sunset."
+    },
+    "dharma": {
+      "type": "vocabulary",
+      "description": "A key concept in Indian philosophy and religion, meaning duty, righteousness, or moral law."
+    },
+    "watches": {
+      "type": "vocabulary",
+      "description": "Traditional divisions of the night in Indian timekeeping, each 'watch' representing a specific period."
+    },
+    "Vishnu-Paduka": {
+      "type": "proper_noun",
+      "description": "A significant religious site in Gaya, believed to be associated with the footprints of Lord Vishnu."
+    },
+    "Falgu": {
+      "type": "proper_noun",
+      "description": "A river that flows through Gaya, considered sacred and featuring prominently in the local geography."
+    },
+    "guru": {
+      "type": "vocabulary",
+      "description": "A spiritual teacher or guide, especially in Hinduism."
+    },
+    "ber": {
+      "type": "vocabulary",
+      "description": "A type of wild Indian jujube tree, known for its small edible fruit."
+    },
+    "makoiche": {
+      "type": "vocabulary",
+      "description": "A wild plant or tree, likely referring to a local species found in India."
+    },
+    "dhau": {
+      "type": "vocabulary",
+      "description": "A type of wild tree native to India, often found in forests and wastelands."
+    },
+    "Devisinghji": {
+      "type": "vocabulary",
+      "description": "The suffix 'ji' is an honorific used in Hindi to show respect."
+    },
+    "Indrajitsingh": {
+      "type": "character",
+      "description": "Indrajitsingh is an alternate spelling of Indrajit Singh, used in dialogue and narrative."
+    },
+    "Anandsingh": {
+      "type": "character",
+      "description": "Anandsingh is an alternate spelling of Anand Singh, used in dialogue and narrative."
+    },
+    "Rajgrih": {
+      "type": "proper_noun",
+      "description": "Rajgrih is an alternate spelling of Rajgriha, referring to the same city or estate."
+    },
+    "sardar": {
+      "type": "proper_noun",
+      "description": "Sardar is a title for a military or group leader, often used for commanders or chiefs in Indian contexts."
+    },
+    "sardars": {
+      "type": "vocabulary",
+      "description": "Sardars are leaders or commanders, especially of military units or groups."
+    },
+    "estate": {
+      "type": "vocabulary",
+      "description": "In this context, 'estate' refers to a large area of land or a domain under the control of a ruler or noble, often with administrative or strategic significance."
+    },
+    "King Surendrasingh": {
+      "type": "character",
+      "description": "A king and authority figure who, along with others, has issued strict orders regarding the treatment of ayyārs."
+    },
+    "Virendrasingh": {
+      "type": "character",
+      "description": "Another royal, likely related to Indrajitsingh, who has also given orders about ayyār protocol."
+    },
+    "Vishnupaduka temple": {
+      "type": "proper_noun",
+      "description": "A temple in the city, serving as a landmark near the house where Kamla leads Indrajitsingh."
+    },
+    "pleasure garden": {
+      "type": "proper_noun",
+      "description": "A type of ornamental garden designed for leisure and enjoyment, often found in royal or noble residences in India."
+    },
+    "Phalgu River": {
+      "type": "proper_noun",
+      "description": "A river, likely inspired by the real Phalgu River in Bihar, India, serving as a setting for Babaji's abode."
+    },
+    "verandah": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch or gallery attached to a building, common in Indian architecture."
+    },
+    "Naharsingh": {
+      "type": "character",
+      "description": "A formidable and honorable warrior in Shivdutt's service, known for his vow to serve whoever defeats him in single combat."
+    },
+    "Diwan Agnidutt": {
+      "type": "character",
+      "description": "A minister or high-ranking official who captured Kishori."
+    },
+    "Sadhu": {
+      "type": "character",
+      "description": "A holy man or ascetic who intervenes to save Kishori and displays remarkable strength and skill."
+    },
+    "Chief": {
+      "type": "character",
+      "description": "The leader of a group who rescues Kishori's body from her captors in the mountain pass."
+    },
+    "Phalgu": {
+      "type": "proper_noun",
+      "description": "A river near Ramshila hill, significant for its association with the sadhu's dwelling."
+    },
+    "Akhadnath Babaji": {
+      "type": "character",
+      "description": "A mysterious holy man (Babaji) living on a mound in the Phalgu, known for saving Kishori's life; later revealed to be Dev Singh in disguise."
+    },
+    "Prince Kalyan Singh": {
+      "type": "character",
+      "description": "The prince of Rohtasgarh, target of a kidnapping plot to prevent Kishori's forced marriage."
+    },
+    "Maharaj Kumar": {
+      "type": "character",
+      "description": "The prince of Rohtasgarh, also referred to as Kalyan Singh, who performs daily rituals at the Shiva temple."
+    },
+    "Mathuria Chaubes": {
+      "type": "character",
+      "description": "A guise adopted by Badrinath and Bhaironsingh as Brahmin priests to infiltrate Rohtasgarh."
+    },
+    "Rohtasgarh": {
+      "type": "proper_noun",
+      "description": "A famous mountain fortress in Bihar, central to the plot as the site of Kishori's captivity and the focus of military action."
+    },
+    "Rohitashm": {
+      "type": "proper_noun",
+      "description": "The ancient name for Rohtasgarh, as referenced in historical accounts."
+    },
+    "Son River": {
+      "type": "proper_noun",
+      "description": "A major river in eastern India, near which Rohtasgarh is located."
+    },
+    "Akbar": {
+      "type": "proper_noun",
+      "description": "The Mughal emperor, mentioned in historical context regarding Rohtasgarh's antiquity."
+    },
+    "Bihar": {
+      "type": "proper_noun",
+      "description": "An Indian region where much of the novel's action takes place."
+    },
+    "Shiva": {
+      "type": "proper_noun",
+      "description": "A principal Hindu deity; temples dedicated to Shiva are significant settings in the chapter."
+    },
+    "Yamuna": {
+      "type": "proper_noun",
+      "description": "A sacred river and goddess in Hinduism; invoked in greetings by the disguised characters."
+    },
+    "Mahatma": {
+      "type": "proper_noun",
+      "description": "A term for a great or holy person, used here for a revered figure at the mountain's foot."
+    },
+    "Jaan Jahanuma": {
+      "type": "proper_noun",
+      "description": "A book by Raja Shivprasad Sitare-Hind, cited for historical information about Rohtasgarh."
+    },
+    "Raja Shivprasad Sitare-Hind": {
+      "type": "proper_noun",
+      "description": "An author and historian whose work is referenced for factual background."
+    },
+    "Kumar": {
+      "type": "vocabulary",
+      "description": "A title meaning 'prince' or 'young nobleman'."
+    },
+    "prasad": {
+      "type": "vocabulary",
+      "description": "A religious offering, usually food or flowers, given as a blessing after worship."
+    },
+    "hom": {
+      "type": "vocabulary",
+      "description": "A Vedic fire ritual involving offerings to the sacred fire."
+    },
+    "bhang": {
+      "type": "vocabulary",
+      "description": "An intoxicating drink made from cannabis leaves, traditionally consumed in some Indian rituals and festivals."
+    },
+    "Chaube": {
+      "type": "vocabulary",
+      "description": "A Brahmin subcaste, often serving as priests; here, a disguise used by the protagonists."
+    },
+    "Chaubeyji": {
+      "type": "vocabulary",
+      "description": "An honorific for a Chaube, used as a respectful address."
+    },
+    "bazaar": {
+      "type": "vocabulary",
+      "description": "A marketplace or commercial area, common in Indian towns and cities."
+    },
+    "pranayama": {
+      "type": "vocabulary",
+      "description": "A yogic practice of breath control, often performed during Hindu rituals."
+    },
+    "Kalyan Singh": {
+      "type": "proper_noun",
+      "description": "A prince whose abduction by ayyars is a turning point in the chapter."
+    },
+    "Lali": {
+      "type": "character",
+      "description": "A beautiful woman tasked with entertaining and watching over Kishori; she intervenes to protect Kishori from Kundan and reveals her authority over Kundan."
+    },
+    "Kundan": {
+      "type": "character",
+      "description": "A young noblewoman, initially appearing distressed and seeking escape, later revealed to have some authority and a hidden agenda; she is confronted by Lali."
+    },
+    "kingdom": {
+      "type": "proper_noun",
+      "description": "Refers to the royal domain or realm in which the events are taking place, indicating a setting of rival courts and intrigue."
+    },
+    "Jagannath": {
+      "type": "character",
+      "description": "The astrologer in Virendra Singh's camp, likely consulted for auspicious timings."
+    },
+    "Digvijay Singh": {
+      "type": "character",
+      "description": "King of the opposing side, holding Rohtasgarh and sending a letter to Virendra Singh."
+    },
+    "Kunwar Kalyan Singh": {
+      "type": "character",
+      "description": "The son of Digvijay Singh, now a prisoner of Virendra Singh."
+    },
+    "munshi": {
+      "type": "vocabulary",
+      "description": "A secretary, clerk, or scribe, often responsible for reading or writing letters."
+    },
+    "standard": {
+      "type": "vocabulary",
+      "description": "A military flag or banner, used here to signify the size of the army."
+    },
+    "King Virendra Singh": {
+      "type": "character",
+      "description": "The ruler whose camp is being guarded; he is a central royal figure in the story."
+    },
+    "Fatehsingh": {
+      "type": "character",
+      "description": "A loyal soldier who keeps watch over King Virendra Singh's tent."
+    },
+    "Prince Indrajit Singh": {
+      "type": "character",
+      "description": "Also called Kunwar Indrajit Singh or Kumar; the prince who is abducted and later rescued in this chapter."
+    },
+    "Kishoriji": {
+      "type": "character",
+      "description": "A person from Rohtasgarh who sends a message to Prince Indrajit Singh; likely a woman of importance."
+    },
+    "Coachman": {
+      "type": "character",
+      "description": "The driver of the chariot used to abduct Prince Indrajit Singh; he is killed during the escape."
+    },
+    "Rider": {
+      "type": "character",
+      "description": "A masked individual who rescues Prince Indrajit Singh from his abductors; later revealed to be a woman."
+    },
+    "Kashmiri": {
+      "type": "proper_noun",
+      "description": "Relating to Kashmir, a region in northern India; the cloak worn by the mysterious man is described as Kashmiri."
+    },
+    "Narangi": {
+      "type": "proper_noun",
+      "description": "A mysterious object or code word central to the intrigue, possibly connected to threats or magical elements."
+    },
+    "Dadi": {
+      "type": "character",
+      "description": "An old woman, referred to as 'old Dadi', who recognizes the special chest and provides guidance to Lali and Kishori."
+    },
+    "baradari": {
+      "type": "proper_noun",
+      "description": "A type of pavilion or building with twelve doors, common in Mughal and Indian architecture, often used for gatherings or as a passageway."
+    },
+    "cubits": {
+      "type": "vocabulary",
+      "description": "An ancient unit of length, roughly the length of a forearm, used here to describe the height of the wall."
+    },
+    "Tara": {
+      "type": "character",
+      "description": "The signatory of the note found by the prince; she is acting as a servant or agent and reports on the progress of their plans."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "Sher Singh": {
+      "type": "character",
+      "description": "An older, valorous man, Kamla's uncle and an experienced Aiyyar, formerly loyal to the king of Rohtasgarh."
+    },
+    "Randhir Singh": {
+      "type": "character",
+      "description": "Kishori's grandfather, once a friend of Digvijay Singh and associated with Sher Singh's family."
+    },
+    "Ajayabghar": {
+      "type": "proper_noun",
+      "description": "A mysterious and dangerous building, referred to as a 'house of wonders,' built in the middle of a pond and associated with strange tales and a witch."
+    },
+    "mirzai": {
+      "type": "vocabulary",
+      "description": "A traditional close-fitting jacket or tunic worn by men in India."
+    },
+    "tendu": {
+      "type": "proper_noun",
+      "description": "A tree (Diospyros melanoxylon) whose leaves are used for rolling bidis (Indian cigarettes)."
+    },
+    "asan": {
+      "type": "proper_noun",
+      "description": "A tree (Terminalia alata) native to India, known for its durable wood."
+    },
+    "salai": {
+      "type": "proper_noun",
+      "description": "A tree (Boswellia serrata) native to India, known for producing frankincense."
+    },
+    "jujube": {
+      "type": "vocabulary",
+      "description": "A small, thorny tree (Ziziphus mauritiana) producing edible fruit, common in India."
+    },
+    "executioner": {
+      "type": "vocabulary",
+      "description": "A person appointed to carry out death sentences, often by beheading."
+    },
+    "throne": {
+      "type": "vocabulary",
+      "description": "A ceremonial chair for a ruler or deity, symbolizing authority and power."
+    },
+    "Manji": {
+      "type": "character",
+      "description": "Mentioned as 'old Manji,' this character is referenced as someone who had knowledge about the mysterious voice in the tunnel, though Lali claims Manji never told her anything about it."
+    },
+    "House of Wonders": {
+      "type": "proper_noun",
+      "description": "A mysterious and magical building within the fort, also referred to as the 'chamber of wonders,' containing secret passages and hidden dangers."
+    },
+    "Raja Digvijay Singh": {
+      "type": "character",
+      "description": "The ruler of Rohtasgarh fort and a rival to Virendra Singh; he is suspicious and cautious."
+    },
+    "Ramanand": {
+      "type": "character",
+      "description": "One of the two main ayyars serving Maharaj Digvijay Singh; trusted and witty, but attached to his beard."
+    },
+    "Govindsingh": {
+      "type": "character",
+      "description": "A highly skilled ayyar serving Maharaj Digvijay Singh, currently away on a mission to Chunar."
+    },
+    "Daroga": {
+      "type": "character",
+      "description": "The jailor or chief warden of the underground cells in Rohtasgarh, responsible for prisoners."
+    },
+    "Shiva temple": {
+      "type": "proper_noun",
+      "description": "A temple dedicated to the Hindu god Shiva, significant for previous ayyari and the capture of Kunwar Kalyan Singh."
+    },
+    "adda": {
+      "type": "proper_noun",
+      "description": "A local establishment or shop where people gather to drink hemp (ganja) and socialize."
+    },
+    "dharmashala": {
+      "type": "proper_noun",
+      "description": "A rest house or inn, often for travelers or pilgrims, where Tej Singh rents a room."
+    },
+    "ayyar": {
+      "type": "vocabulary",
+      "description": "A master of disguise, espionage, and trickery; a spy or magician in the context of the novel."
+    },
+    "fakir": {
+      "type": "vocabulary",
+      "description": "A wandering ascetic or holy man, often living on alms."
+    },
+    "sanyasi": {
+      "type": "vocabulary",
+      "description": "A Hindu renunciant who has given up worldly life for spiritual pursuits."
+    },
+    "Brahmin": {
+      "type": "vocabulary",
+      "description": "A member of the priestly caste in Hindu society."
+    },
+    "vairagi": {
+      "type": "vocabulary",
+      "description": "A type of ascetic or renunciant, often detached from worldly affairs."
+    },
+    "ganja": {
+      "type": "vocabulary",
+      "description": "A preparation of cannabis, commonly smoked or consumed for its intoxicating effects."
+    },
+    "Pandit Badri Nath": {
+      "type": "character",
+      "description": "An experienced and clever ayyar, trusted by Tej Singh to remain at the camp due to his skills."
+    },
+    "Jyotishi Ji": {
+      "type": "character",
+      "description": "One of the ayyars accompanying Tej Singh on his mission, later disguised as the Daroga."
+    },
+    "Digvijaysingh": {
+      "type": "character",
+      "description": "A maharaj (king) who controls the underground vault and is involved in the secret affairs of Rohtasgarh."
+    },
+    "Daroga's book": {
+      "type": "proper_noun",
+      "description": "A journal or record kept by the Daroga, containing daily happenings and secrets of the vault."
+    },
+    "vault": {
+      "type": "proper_noun",
+      "description": "The secret underground chamber in Rohtasgarh, containing treasures and guarded secrets."
+    },
+    "mantras": {
+      "type": "proper_noun",
+      "description": "Sacred chants or formulas, referenced here to emphasize the secrecy of the vault's affairs."
+    },
+    "Pandit": {
+      "type": "vocabulary",
+      "description": "A learned scholar, often with expertise in religious or scholarly matters."
+    },
+    "watch of the night": {
+      "type": "vocabulary",
+      "description": "A traditional way of dividing the night into segments for keeping time or guard duty."
+    },
+    "Diwan Ramanandji": {
+      "type": "character",
+      "description": "A title referring to Ramanand in his official capacity as a minister or high-ranking official."
+    },
+    "Ramanandji": {
+      "type": "proper_noun",
+      "description": "An honorific form of Ramanand, indicating respect or official status."
+    },
+    "dungeon": {
+      "type": "vocabulary",
+      "description": "An underground prison or chamber, often used for holding important captives."
+    },
+    "executioners": {
+      "type": "vocabulary",
+      "description": "Individuals responsible for carrying out executions or burials, often serving the king."
+    },
+    "stupefaction": {
+      "type": "vocabulary",
+      "description": "A state of being stunned or rendered unconscious, often by drugs or magical means."
+    },
+    "Daroga Sahib": {
+      "type": "character",
+      "description": "The title used for Jyotishiji in his official capacity as the jailor or chief of police in the dungeon."
+    },
+    "Bhootnath": {
+      "type": "proper_noun",
+      "description": "A fearsome black stone idol to whom sacrifices are made in the underground chamber, as per the established rules."
+    },
+    "daroga": {
+      "type": "vocabulary",
+      "description": "A Hindi/Urdu term for a police chief, jailor, or head of security."
+    },
+    "ghadi": {
+      "type": "vocabulary",
+      "description": "A traditional Indian unit of time, roughly equivalent to 24 minutes."
+    },
+    "elixir": {
+      "type": "vocabulary",
+      "description": "A medicinal or magical liquid, often used for healing or reviving characters."
+    },
+    "Nanakprasad": {
+      "type": "character",
+      "description": "A loyal and devoted man who accompanies Rambholi, assisting her in her secretive tasks and expressing deep love for her."
+    },
+    "Rambholi": {
+      "type": "character",
+      "description": "A mute and deaf young woman, skilled in disguise and action, who is on a mysterious mission involving secret objects and letters."
+    },
+    "Nanak": {
+      "type": "character",
+      "description": "An abbreviated form of Nanakprasad, used interchangeably in the text for the same character."
+    },
+    "Koopdev": {
+      "type": "character",
+      "description": "A mysterious entity associated with the well, who responds to the woman's call by offering water in a supernatural manner."
+    },
+    "barge": {
+      "type": "vocabulary",
+      "description": "A flat-bottomed boat used for transporting people or goods, often on rivers."
+    },
+    "chapkan": {
+      "type": "vocabulary",
+      "description": "A traditional Indian long coat or tunic, often worn as outerwear."
+    },
+    "pajamas": {
+      "type": "vocabulary",
+      "description": "Loose-fitting trousers, traditionally worn in South Asia as nightwear or casual attire."
+    },
+    "waistband": {
+      "type": "vocabulary",
+      "description": "A cloth belt or sash tied around the waist, often used to secure clothing or carry small items."
+    },
+    "turban": {
+      "type": "vocabulary",
+      "description": "A long piece of cloth wound around the head, commonly worn in South Asia as a traditional headdress."
+    },
+    "sal tree": {
+      "type": "vocabulary",
+      "description": "A large, deciduous tree native to the Indian subcontinent, valued for its hardwood."
+    },
+    "RamBholi": {
+      "type": "character",
+      "description": "A woman from Nanak's neighborhood, previously mute, who is revealed to be of high status and plays a key role in the unfolding events."
+    },
+    "Harihar": {
+      "type": "character",
+      "description": "A person mentioned as about to arrive, possibly an authority figure or enforcer among the women."
+    },
+    "bajra": {
+      "type": "proper_noun",
+      "description": "A specific barge or boat referenced in the story, possibly with magical or narrative significance."
+    },
+    "munj": {
+      "type": "vocabulary",
+      "description": "A type of tough grass (Saccharum munja) used for making ropes and mats in India."
+    },
+    "loincloth": {
+      "type": "vocabulary",
+      "description": "A simple garment worn around the waist, often by ascetics or laborers in India."
+    },
+    "sacred thread": {
+      "type": "vocabulary",
+      "description": "A symbolic thread worn by Hindu men after a coming-of-age ritual, signifying their initiation into spiritual life."
+    },
+    "lotus posture": {
+      "type": "vocabulary",
+      "description": "A cross-legged sitting position (padmasana) used in meditation and yoga."
+    },
+    "deerskin": {
+      "type": "vocabulary",
+      "description": "A traditional mat made from the hide of a deer, often used by ascetics for meditation."
+    },
+    "conch": {
+      "type": "vocabulary",
+      "description": "A large seashell (shankha) used as a ceremonial horn in Hindu rituals."
+    },
+    "chobdars": {
+      "type": "vocabulary",
+      "description": "Palace attendants or doorkeepers, often distinguished by carrying staffs."
+    },
+    "Dhanpati": {
+      "type": "character",
+      "description": "A woman with a significant role in the plot, previously escaped with Rambholi from Nanak; her name and identity are noted as mysterious and important."
+    },
+    "Pandit Jagannath Jyotishi": {
+      "type": "character",
+      "description": "A learned man and ally of the protagonists, who is present in disguise as the Daroga (warden) and attempts to help Kunwar Anand Singh."
+    },
+    "Mathuraji": {
+      "type": "proper_noun",
+      "description": "A place referenced as Lali's home, likely referring to the city of Mathura, an ancient and culturally significant city in India."
+    },
+    "barvai": {
+      "type": "proper_noun",
+      "description": "A specific form of Hindi verse or poetic riddle, often used to convey secret messages."
+    },
+    "Sahib": {
+      "type": "vocabulary",
+      "description": "A term of respect or honorific, often used after a title or name."
+    },
+    "Diwan Ramanand": {
+      "type": "character",
+      "description": "Diwan Ramanand is a high-ranking minister or administrator, involved in the affairs of Rohtasgarh."
+    },
+    "Shersingh": {
+      "type": "character",
+      "description": "Shersingh is a renowned aiyyar, Kamla's uncle, formerly in Digvijay Singh's service, later joins Virendra Singh's side."
+    },
+    "Gadādharsingh": {
+      "type": "character",
+      "description": "Gadādharsingh is Shersingh's younger brother and Kamla's father, deceased by the time of this chapter."
+    },
+    "Randhirsingh": {
+      "type": "character",
+      "description": "Randhirsingh is a former friend of Digvijay Singh, grandfather of Kishori."
+    },
+    "Raja Virendrasingh": {
+      "type": "proper_noun",
+      "description": "Another form of addressing King Virendra Singh, emphasizing his royal status."
+    },
+    "tribute": {
+      "type": "vocabulary",
+      "description": "A payment or revenue imposed by a superior ruler on a subordinate kingdom as a sign of allegiance."
+    },
+    "deputy": {
+      "type": "vocabulary",
+      "description": "A person appointed to act as a ruler or administrator in place of the king."
+    },
+    "committee": {
+      "type": "vocabulary",
+      "description": "A group of select individuals convened to discuss and decide important matters."
+    },
+    "masked man": {
+      "type": "vocabulary",
+      "description": "A person whose identity is concealed, often for secrecy or dramatic revelation."
+    },
+    "folding his hands": {
+      "type": "vocabulary",
+      "description": "A gesture of respect or supplication in Indian culture, often performed before superiors."
+    },
+    "Maharaj Digvijay Singh": {
+      "type": "character",
+      "description": "The king of Rohtasgarh, involved in the events surrounding the underground vault and the sacrifices before the terrifying idol."
+    },
+    "Rama": {
+      "type": "character",
+      "description": "One of Kundan's loyal followers who assists in the escape of Kishori from the cave."
+    },
+    "barwa": {
+      "type": "proper_noun",
+      "description": "A type of poetic or coded message, referenced here as something written by Dhanpati in the underground chamber."
+    },
+    "bundle": {
+      "type": "vocabulary",
+      "description": "A small package or cloth-wrapped parcel, commonly used for carrying personal items or tools in Indian settings."
+    },
+    "Agnidev": {
+      "type": "character",
+      "description": "The Hindu god of fire, invoked by Kishori as she faces death."
+    },
+    "pyre": {
+      "type": "vocabulary",
+      "description": "A pile of wood used for burning a body as part of a funeral or execution."
+    },
+    "Kunwar Indrajit Singh": {
+      "type": "character",
+      "description": "The elder son of Raja Virendra Singh and Chandrakanta, a brave and handsome prince (Kunwar). He is the central hero of the story, skilled in warfare and deeply in love with Kishori.",
+      "image": "/data/images/characters/chandrakanta/kunwar-indrajit-singh.png"
+    },
+    "Raja Virendra Singh": {
+      "type": "character",
+      "description": "Son of Surendra Singh and King of Chunar. Husband of Chandrakanta, father of Indrajit Singh and Anand Singh. A just and powerful ruler waging war against Shivdutt.",
+      "image": "/data/images/characters/chandrakanta/virendra-singh.webp"
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Surendra Singh",
+      "Virendra Singh",
+      "Chandrakanta",
+      "Maharaj Jay Singh",
+      "Tej Singh",
+      "Maharaj Shivdutt",
+      "Chapla",
+      "Champa",
+      "Devi Singh",
+      "Fateh Singh",
+      "Jeet Singh",
+      "Indrajeet Singh",
+      "Anand Singh",
+      "Bhairon Singh",
+      "Tara Singh",
+      "Pannalal",
+      "Kanchan Singh",
+      "Babaji",
+      "Bawaji",
+      "Gandhakarta",
+      "Naugarh",
+      "Vijaygarh",
+      "Chunar",
+      "Girnar",
+      "Raja",
+      "Maharaj",
+      "banrakhas",
+      "dhuni",
+      "Kshatriya",
+      "Brahma",
+      "tilism",
+      "babaji",
+      "sadhu",
+      "mahātma",
+      "banrakhas",
+      "ayyaars",
+      "dhuni",
+      "kos",
+      "Indrajit Singh",
+      "Raja Virendra Singh"
+    ],
+    "ch-1-2": [
+      "Maharaj Shivdutt",
+      "Kunwar Virendra Singh",
+      "King Chet Singh",
+      "Nazim",
+      "Ahmad",
+      "Bakar Ali",
+      "Khudabakhsh",
+      "Yar Ali",
+      "Indrajit Singh",
+      "Chunar",
+      "Vindhya",
+      "Robertsganj",
+      "Sarguja",
+      "Singrauli",
+      "kos",
+      "Ahraura",
+      "Kashi",
+      "Shivduttgarh",
+      "Bhil",
+      "Kharwar",
+      "Maharaj",
+      "Kunwar",
+      "ayyari",
+      "garh",
+      "Virendra Singh",
+      "Raja Virendra Singh"
+    ],
+    "ch-1-3": [
+      "Maharaj Surendra Singh",
+      "Virendra Singh",
+      "Jeet Singh",
+      "Tej Singh",
+      "Devi Singh",
+      "Indrajit Singh",
+      "Anand Singh",
+      "Bhairon",
+      "Shivdutt",
+      "Babaji",
+      "Pannalal",
+      "Ramnarayan",
+      "Chunnilal",
+      "Badrinath",
+      "Jyotishiji",
+      "Chamberlain",
+      "Attendant",
+      "Chunar Fort",
+      "Shivdutt",
+      "Shivdutt's ayyars",
+      "Babaji",
+      "Shivdattgarh",
+      "Ganga",
+      "barahdari",
+      "kos",
+      "mridang",
+      "siddha",
+      "barahdari",
+      "kos",
+      "mridang",
+      "Maharaj",
+      "Kunwar",
+      "Kunwar Indrajit Singh",
+      "Raja Virendra Singh"
+    ],
+    "ch-1-4": [
+      "Maharaj Surendra Singh",
+      "Virendra Singh",
+      "Kunwar Anand Singh",
+      "Jeetsingh",
+      "Tejsingh",
+      "Devisingh",
+      "Shivdatt",
+      "Tara Singh",
+      "Chandrakanta",
+      "Chapla",
+      "Champa",
+      "Dev Singh",
+      "Tarasingh",
+      "Bhaironsingh",
+      "Chunar",
+      "Badrinath",
+      "Bhaironsingh",
+      "Maharaj",
+      "Kunwar",
+      "turret",
+      "kettledrum",
+      "mallet",
+      "audience hall",
+      "torchbearers",
+      "Indrajit Singh",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-1-5": [
+      "Pandit Badrinath",
+      "Pannalal",
+      "Ramnarayan",
+      "Chunnilal",
+      "Jagannath Jyotishi",
+      "Bhaironsingh Aiyar",
+      "Kanchansingh",
+      "Babaji",
+      "Baqar Ali Ayyar",
+      "Shivdutt",
+      "Jyotishiji",
+      "Shivdattgarh",
+      "Aiyar",
+      "Aiyars",
+      "Maharaj",
+      "Jyotishi",
+      "Halwai",
+      "ayyars",
+      "ayyari",
+      "peda",
+      "puri",
+      "seer",
+      "anna"
+    ],
+    "ch-1-6": [
+      "Badrinath",
+      "Jyotishiji",
+      "Pannalal",
+      "Bhaironsingh",
+      "Ajay Singh",
+      "Maharaj Surendra Singh",
+      "Virendra Singh",
+      "Chandrakanta",
+      "Chanla",
+      "Champa",
+      "Tejsingh",
+      "Devisingh",
+      "Shivdatt",
+      "Jagannath Jyotishi",
+      "Jeet Singh",
+      "Tarasingh",
+      "Chapla",
+      "Shivdattgarh",
+      "Maharaj",
+      "Chunar",
+      "puri",
+      "halwai",
+      "Raja Virendra Singh"
+    ],
+    "ch-1-7": [
+      "Anand Singh",
+      "Indrajeet Singh",
+      "Tej Singh",
+      "Soldier",
+      "Woman",
+      "Abyssinian girl",
+      "Abyssinian man",
+      "Chunar",
+      "Falak-e-Haftum",
+      "Khuda",
+      "Ram-Ram",
+      "Abyssinian",
+      "nimcha",
+      "lota",
+      "yogini",
+      "pishachi",
+      "betel box",
+      "tripund",
+      "veranda",
+      "maidservant",
+      "skull-cup",
+      "ash",
+      "Virendra Singh",
+      "Indrajit Singh",
+      "Raja Virendra Singh"
+    ],
+    "ch-1-8": [
+      "Shivdatt",
+      "Bhimsen",
+      "Kishori",
+      "Shivdattgarh",
+      "Maharaj",
+      "kos"
+    ],
+    "ch-1-9": [
+      "Bhimsen",
+      "Maharaj Shivdutt",
+      "Bakr Ali",
+      "Shivdatt Singh",
+      "Badrinath",
+      "Pannalal",
+      "Ramnarayan",
+      "Chunnilal",
+      "Jyotishi",
+      "Bhairon Singh",
+      "Bhaironsingh",
+      "Tejsingh",
+      "Miyan Bakar",
+      "Surendra Singh",
+      "Bhim",
+      "Virendra Singh",
+      "Chunar",
+      "Raja Sahib",
+      "Kumar Bhimsen",
+      "Maharaj Surendra Singh",
+      "Prince Virendra Singh",
+      "kos",
+      "ayyārs",
+      "muddu",
+      "ayyaars",
+      "chobdar",
+      "tilism",
+      "masha",
+      "howdah",
+      "palanquins",
+      "Raja Sahib",
+      "Miyan",
+      "daggers",
+      "Raja Virendra Singh"
+    ],
+    "ch-1-10": [
+      "Anand Singh",
+      "Yogini",
+      "Vanchari",
+      "Habshi",
+      "Indrajit Singh",
+      "Chunar",
+      "Yogini",
+      "Vanchari",
+      "Habshi",
+      "sari",
+      "jalchari"
+    ],
+    "ch-1-11": [
+      "Kishori",
+      "Kamla",
+      "Anand Singh",
+      "Madhavi",
+      "Indrajit Singh",
+      "Maharaj Shivdutt",
+      "Chapla",
+      "Champa",
+      "Chunar",
+      "Shivduttgarh",
+      "Vaikunth",
+      "Kunwar",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-1-12": [
+      "Indrajit Singh",
+      "Madhavi",
+      "Kishori",
+      "Pari Jamal",
+      "tilism",
+      "Santati",
+      "Ganga",
+      "haveli",
+      "stepwell",
+      "maiden",
+      "portrait",
+      "tunnel",
+      "canal",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-1-13": [
+      "Indrajit Singh",
+      "Madhavi",
+      "Lalita",
+      "Tilottama",
+      "Kishori",
+      "Chandaal",
+      "Gayaji",
+      "Chunar",
+      "Chandaal"
+    ],
+    "ch-1-14": [
+      "Indrajit Singh",
+      "Madhavi",
+      "dark woman",
+      "Diwan",
+      "Diwan",
+      "sari"
+    ],
+    "ch-1-15": [
+      "Madhavi",
+      "Kishori",
+      "Shivdutt",
+      "Kalavati",
+      "Mayavati",
+      "Chandraddatt",
+      "Agnidatt",
+      "Kuver Singh",
+      "Dharam Singh",
+      "Kumar Indrajit Singh",
+      "Pandit Badrinath",
+      "Bhairon Singh",
+      "Tara Singh",
+      "Lalita",
+      "Tilottama",
+      "Chachi",
+      "Gaya",
+      "Rajgriha",
+      "Diwan Sahib",
+      "Senapati",
+      "Kotwal",
+      "ayyari",
+      "yogini",
+      "vanchari",
+      "Diwan",
+      "Senapati",
+      "Kotwal",
+      "Indrajit Singh"
+    ],
+    "ch-2-1": [
+      "Kishori",
+      "Kamla",
+      "Madhavi",
+      "Bakar Ali",
+      "Indrajit Singh",
+      "Diwan Agniddatt",
+      "Maharaj Virendra Singh",
+      "Surendra Singh",
+      "Maharani Chandrakanta",
+      "Chunar",
+      "Ram",
+      "Nagauri",
+      "Maharaj",
+      "Maharani",
+      "Diwan",
+      "maidservant",
+      "watch",
+      "chariot",
+      "orchard",
+      "Virendra Singh"
+    ],
+    "ch-2-2": [
+      "Kishori",
+      "Kamla",
+      "Indrajit Singh",
+      "Chunar",
+      "chariot",
+      "maidservants",
+      "waning moon"
+    ],
+    "ch-2-3": [
+      "Manraj",
+      "Girijapati",
+      "Jahnavi",
+      "Tejsingh",
+      "King Virendrasingh",
+      "Prince Anandasingh",
+      "Bahadur",
+      "Ganga",
+      "sal",
+      "shisham",
+      "dhotis",
+      "rosary",
+      "anointing",
+      "garland-maker",
+      "pendant"
+    ],
+    "ch-2-4": [
+      "Madhavi",
+      "Diwan Agnidatt",
+      "Kuber Singh",
+      "Dharm Singh",
+      "Diwan Sahib",
+      "Senapati Sahib",
+      "Kotwal Sahib",
+      "First Man",
+      "Second Man",
+      "First Brother",
+      "Second Brother",
+      "Rani Madhavi",
+      "Madhavi's court",
+      "Gayaji",
+      "Ganga",
+      "Gaya",
+      "Rani",
+      "Diwan",
+      "kotwal",
+      "Senapati",
+      "sahib",
+      "kos",
+      "palanquin",
+      "orderlies",
+      "Rani"
+    ],
+    "ch-2-5": [
+      "Kamla",
+      "Kishori",
+      "Madhavi",
+      "Lalita",
+      "Randheersingh",
+      "Harnamsingh",
+      "Virendra Singh",
+      "Shivdatt",
+      "Chunar",
+      "Rewa",
+      "Garyaji",
+      "ayyari",
+      "ayyara"
+    ],
+    "ch-2-6": [
+      "Madhavi",
+      "Tilottama",
+      "Kishori",
+      "Lalita",
+      "Kamla",
+      "Diwan Sahib",
+      "Senapati",
+      "Kotwal",
+      "Virendra Singh",
+      "Chapla",
+      "Bhaironsingh",
+      "Tarasingh",
+      "Gaya",
+      "Kshatriya",
+      "Indrajit Singh",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-2-7": [
+      "kotwal",
+      "Madhavi",
+      "Diwan Sahib",
+      "Indrajit Singh",
+      "Virendra Singh",
+      "Bhairon Singh",
+      "Tara Singh",
+      "Chapla",
+      "Devisingh",
+      "Tilottama",
+      "Maharani",
+      "Diwan Sahib",
+      "Indrajit Singh",
+      "Virendra Singh",
+      "Bhairon Singh",
+      "Tara Singh",
+      "Chapla",
+      "Devisingh",
+      "Tilottama",
+      "kotwal",
+      "Diwan Sahib"
+    ],
+    "ch-2-8": [
+      "Madhavi",
+      "Kotwal Sahib",
+      "Chapla",
+      "Diwan Sahib",
+      "Bhairav Singh",
+      "Tara Singh",
+      "Pandit Badrinath",
+      "Devisingh",
+      "Kamla",
+      "Bhaironsingh",
+      "Kishori",
+      "Lalita",
+      "Shivdatt",
+      "Shivdattgarh",
+      "Jat",
+      "yogini",
+      "vanchari",
+      "ayyaar",
+      "Diwan",
+      "Indrajit Singh",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-2-9": [
+      "Kunwar Indrajitsingh",
+      "Madhavi",
+      "Tilottama",
+      "Diwan",
+      "Diwan Sahib",
+      "Kishori",
+      "Lalita",
+      "Chapla",
+      "Devisingh",
+      "Bhaironsingh",
+      "Pandit Badrinath",
+      "Kamla",
+      "Agnidatt",
+      "Bhairav Singh",
+      "water tunnel",
+      "palace",
+      "veranda",
+      "underground chamber",
+      "cave",
+      "garden",
+      "mansion",
+      "Ayyars",
+      "Kunwar",
+      "Diwan",
+      "Diwan Sahib",
+      "chandalini",
+      "Indrajit Singh"
+    ],
+    "ch-2-10": [
+      "Indrajit Singh",
+      "Kishori",
+      "Agniddatt",
+      "Tilottama",
+      "Madhavi",
+      "Virendra Singh",
+      "Kamini",
+      "Lalita",
+      "Shivdutt",
+      "Agnidatt's wife",
+      "Diwan Sahib",
+      "Maharaj",
+      "Dussehra",
+      "Vijayadashami",
+      "Yama",
+      "Diwan",
+      "cavern",
+      "palace guards",
+      "chief constable",
+      "abode of Yama"
+    ],
+    "ch-2-11": [
+      "Kunwar Anand Singh",
+      "Tej Singh",
+      "Madhavi",
+      "Diwan Agnidatt",
+      "Bhairon Singh",
+      "Tara Singh",
+      "Devi Singh",
+      "Dev Singh",
+      "Indrajeet Singh",
+      "Anand Singh",
+      "Bhaironsingh",
+      "Tarasingh",
+      "Devisingh",
+      "Kishori",
+      "Gaya",
+      "Rajgriha",
+      "Chunar",
+      "Gayaji",
+      "Chandradhar",
+      "Vijayadashami",
+      "Puranas",
+      "Yamlok",
+      "Diwan Sahib",
+      "Maharaj",
+      "Rambha",
+      "Urvashi",
+      "Diwan",
+      "Kunwar",
+      "vaidya",
+      "petition chest",
+      "proclamation",
+      "candelabrum",
+      "landlord",
+      "noble",
+      "Indrajit Singh",
+      "Virendra Singh",
+      "Kunwar Indrajit Singh",
+      "Raja Virendra Singh"
+    ],
+    "ch-2-12": [
+      "Dev Singh",
+      "Virendra Singh",
+      "Bhairon Singh",
+      "Tara Singh",
+      "Indrajit Singh",
+      "Anand Singh",
+      "Devisingh",
+      "Ramshila",
+      "Agnidatt",
+      "Gayaji",
+      "Kunwar",
+      "kos",
+      "dacoit",
+      "bouquet",
+      "grotto",
+      "chamber",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-2-13": [
+      "Kishori",
+      "Bhairon Singh",
+      "Diwan Agnidatt",
+      "Chapla",
+      "Champa",
+      "Pandit Badrinath",
+      "Shivdatt",
+      "Kunwar Anand Singh",
+      "Devisingh",
+      "Tarasingh",
+      "Devsingh",
+      "Bhaironsingh",
+      "Kinnari",
+      "ayyār",
+      "Gaya",
+      "Maharaja",
+      "Agnidatt",
+      "Diwan",
+      "dacoits",
+      "crier",
+      "Indrajit Singh",
+      "Virendra Singh",
+      "Kunwar Indrajit Singh",
+      "Raja Virendra Singh"
+    ],
+    "ch-2-14": [
+      "Indrajit Singh",
+      "Anand Singh",
+      "Virendra Singh",
+      "Dev Singh",
+      "Devi Singh",
+      "Bhairon Singh",
+      "Tara Singh",
+      "Attendant",
+      "Chunar",
+      "Gaya",
+      "barahdari",
+      "palace",
+      "Maharaj",
+      "Raja",
+      "Kunwar",
+      "sun god",
+      "dharma",
+      "watches",
+      "Kunwar Indrajit Singh",
+      "Raja Virendra Singh"
+    ],
+    "ch-2-15": [
+      "Devisingh",
+      "Virendra Singh",
+      "Madhavi",
+      "Kamini",
+      "Anand Singh",
+      "Gaya",
+      "Vishnu-Paduka",
+      "Ramshila",
+      "Falgu",
+      "sadhu",
+      "babaji",
+      "guru",
+      "ber",
+      "makoiche",
+      "dhau",
+      "Maharaj",
+      "Devisinghji"
+    ],
+    "ch-2-16": [
+      "Virendra Singh",
+      "Anand Singh",
+      "Indrajit Singh",
+      "Bhairon Singh",
+      "Bhaironsingh",
+      "Indrajitsingh",
+      "Anandsingh",
+      "Kinnari",
+      "Kishori",
+      "Agnidatt",
+      "Chunar",
+      "Rajgriha",
+      "Gayaji",
+      "Rajgrih",
+      "Madhavi",
+      "sardar",
+      "sardars",
+      "estate"
+    ],
+    "ch-2-17": [
+      "Bhaironsingh",
+      "Indrajitsingh",
+      "Kishori",
+      "King Surendrasingh",
+      "Virendrasingh",
+      "Anandsingh",
+      "Agnidatt",
+      "Kamla",
+      "Tarasingh",
+      "Rajgriha",
+      "Vishnupaduka temple",
+      "ayyār",
+      "Kunwar",
+      "Indrajit Singh",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-2-18": [
+      "Kamla",
+      "Indrajitsingh",
+      "Tarasingh",
+      "Kishori",
+      "Kinnari",
+      "Kunwar Anand Singh",
+      "veranda",
+      "pleasure garden",
+      "Kunwar"
+    ],
+    "ch-3-1": [
+      "Babaji",
+      "Madhavi",
+      "Tilottama",
+      "Agnidatt",
+      "Bhimsen",
+      "Kishori",
+      "Kamla",
+      "Indrajit Singh",
+      "Kinnari",
+      "Tarasingh",
+      "Shivdutt",
+      "Phalgu River",
+      "Ramshila",
+      "Kishori",
+      "Bhimsen",
+      "Shivdutt",
+      "Tarasingh",
+      "Babaji",
+      "Kunwar",
+      "verandah",
+      "Virendra Singh",
+      "Kunwar Indrajit Singh",
+      "Raja Virendra Singh"
+    ],
+    "ch-3-2": [
+      "Shivdutt",
+      "Bhimsen",
+      "Kalavati",
+      "Kishori",
+      "Virendra Singh",
+      "Naharsingh",
+      "Madhavi",
+      "Tilottama",
+      "Diwan Agnidutt",
+      "Indrajitsingh",
+      "Tarasingh",
+      "Kinnari",
+      "Kamla",
+      "Anand Singh",
+      "Devsingh",
+      "Babaji",
+      "Chief",
+      "Shivdattgarh",
+      "Chunar",
+      "Gayaji",
+      "Rajgriha",
+      "Diwan Agnidutt",
+      "Ramshila",
+      "Phalgu",
+      "Kunwar Indrajitsingh",
+      "Anand Singh",
+      "Babaji",
+      "Maharaj",
+      "Maharani",
+      "aiyyar",
+      "sadhu",
+      "Babaji",
+      "Kunwar",
+      "Diwan",
+      "Maharaj",
+      "Maharani",
+      "dacoits",
+      "watch",
+      "Raja Virendra Singh"
+    ],
+    "ch-3-5": [
+      "Naharsingh",
+      "Tarasingh",
+      "Pandit Badrinath",
+      "Bhaironsingh",
+      "Jagannath Jyotishi",
+      "Anand Singh",
+      "Kishori",
+      "Diwan Agnidatt",
+      "Madhavi",
+      "Pannalal",
+      "Akhadnath Babaji",
+      "Dev Singh",
+      "Bhimsen",
+      "Maharaj Shivdutt",
+      "Bhairav Singh",
+      "Prince Kalyan Singh",
+      "Maharaj Kumar",
+      "Mathuria Chaubes",
+      "Gaya",
+      "Chunar",
+      "Phalgu",
+      "Ramshila",
+      "Shivdattgarh",
+      "Rohtasgarh",
+      "Rohitashm",
+      "Son River",
+      "Akbar",
+      "Bihar",
+      "Mathuria Chaubes",
+      "Shiva",
+      "Yamuna",
+      "Mahatma",
+      "Jaan Jahanuma",
+      "Raja Shivprasad Sitare-Hind",
+      "ayyār",
+      "Babaji",
+      "Jyotishi",
+      "Diwan",
+      "kos",
+      "Maharaj",
+      "Kumar",
+      "prasad",
+      "hom",
+      "bhang",
+      "Chaube",
+      "Chaubeyji",
+      "Ram-Ram",
+      "Mahatma",
+      "bazaar",
+      "pranayama",
+      "lota",
+      "Indrajit Singh",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-3-6": [
+      "Kishori",
+      "Maharaj",
+      "Prince Kalyan Singh",
+      "Virendra Singh",
+      "Rohtasgarh",
+      "Virendra Singh",
+      "Kalyan Singh",
+      "Indrajit Singh",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-3-7": [
+      "Kishori",
+      "Lali",
+      "Kundan",
+      "kingdom",
+      "veranda"
+    ],
+    "ch-3-8": [
+      "Virendra Singh",
+      "Anand Singh",
+      "Tej Singh",
+      "Devi Singh",
+      "Pandit Badrinath",
+      "Bhairon Singh",
+      "Tara Singh",
+      "Jagannath",
+      "Fateh Singh",
+      "Naharsingh",
+      "Pannalal",
+      "Ramnarayan",
+      "Chunnilal",
+      "Digvijay Singh",
+      "Kishori",
+      "Kunwar Kalyan Singh",
+      "Lali",
+      "Kundan",
+      "Rohtasgarh",
+      "Naugarh",
+      "Gayaji",
+      "Chunar Fort",
+      "bazaar",
+      "Kunwar",
+      "sardar",
+      "ayyārs",
+      "munshi",
+      "standard",
+      "Indrajit Singh",
+      "Kunwar Indrajit Singh",
+      "Raja Virendra Singh"
+    ],
+    "ch-3-9": [
+      "King Virendra Singh",
+      "Fatehsingh",
+      "Kanchansingh",
+      "Naharsingh",
+      "Prince Indrajit Singh",
+      "Kishoriji",
+      "Anand Singh",
+      "Kumar",
+      "Coachman",
+      "Rider",
+      "ayyār",
+      "Rohtasgarh",
+      "Kashmiri",
+      "Kshatriya",
+      "sal",
+      "Kunwar",
+      "Kumar",
+      "ayyār",
+      "Indrajit Singh",
+      "Kunwar Indrajit Singh",
+      "Virendra Singh"
+    ],
+    "ch-3-10": [
+      "Kishori",
+      "Lali",
+      "Kundan",
+      "Anand Singh",
+      "Devisingh",
+      "Madhavi",
+      "Rohtasgarh",
+      "Narangi",
+      "Indrajit Singh",
+      "Anand Singh",
+      "Devisingh",
+      "Madhavi",
+      "ayyari",
+      "Kunwar",
+      "veranda",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-3-11": [
+      "Kishori",
+      "Lali",
+      "Kundan",
+      "Dadi",
+      "baradari",
+      "palace",
+      "cubits",
+      "Dadi",
+      "maidservants"
+    ],
+    "ch-3-12": [
+      "Kishori",
+      "Lali",
+      "Kundan",
+      "Tara",
+      "Kashmiri",
+      "dhoti",
+      "maidservant",
+      "Indrajit Singh",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-3-13": [
+      "Kinnari",
+      "Kamla",
+      "Kishori",
+      "Anand Singh",
+      "Sher Singh",
+      "Digvijay Singh",
+      "Randhir Singh",
+      "Kundan",
+      "Lali",
+      "Gayaji",
+      "Rohtasgarh",
+      "Ajayabghar",
+      "mirzai",
+      "watch",
+      "Indrajit Singh",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-3-14": [
+      "Kunwar Anand Singh",
+      "Bhairon Singh",
+      "Tara Singh",
+      "Kishori",
+      "Rohtasgarh",
+      "sal",
+      "shisham",
+      "tendu",
+      "asan",
+      "salai",
+      "barahdari",
+      "cubits",
+      "jujube",
+      "barahdari",
+      "executioner",
+      "throne"
+    ],
+    "ch-4-1": [
+      "Kishori",
+      "Lali",
+      "Manji",
+      "Rohtasgarh",
+      "House of Wonders",
+      "seer",
+      "veranda"
+    ],
+    "ch-4-2": [
+      "Kanchan Singh",
+      "Tej Singh",
+      "Raja Digvijay Singh",
+      "Bhairon Singh",
+      "Badrinath",
+      "Kunwar Kalyan Singh",
+      "Ramanand",
+      "Govindsingh",
+      "Maharaj",
+      "Kishori",
+      "Kunwar Anand Singh",
+      "Daroga",
+      "Rohtasgarh",
+      "Shiva temple",
+      "Chunar",
+      "adda",
+      "dharmashala",
+      "baradari",
+      "ayyar",
+      "ayyaars",
+      "ayyari",
+      "fakir",
+      "sadhu",
+      "sanyasi",
+      "Brahmin",
+      "chobdar",
+      "vairagi",
+      "ganja",
+      "Daroga",
+      "diwan",
+      "Indrajit Singh",
+      "Virendra Singh",
+      "Kunwar Indrajit Singh",
+      "Raja Virendra Singh"
+    ],
+    "ch-4-3": [
+      "Tej Singh",
+      "Ramanand",
+      "Pandit Badri Nath",
+      "Jyotishi Ji",
+      "Bhairon",
+      "Tara",
+      "Kunwar Anand Singh",
+      "Digvijaysingh",
+      "Daroga",
+      "Maharaj",
+      "Bhaironsingh",
+      "Tarasingh",
+      "Rohtasgarh",
+      "Daroga's book",
+      "Maharaj",
+      "vault",
+      "mantras",
+      "ayyar",
+      "Kunwar",
+      "Pandit",
+      "Jyotishi",
+      "Daroga",
+      "Maharaj",
+      "watch of the night",
+      "Indrajit Singh",
+      "Virendra Singh",
+      "Kunwar Indrajit Singh",
+      "Raja Virendra Singh"
+    ],
+    "ch-4-4": [
+      "Tej Singh",
+      "Ramanand",
+      "Maharaj",
+      "Virendra Singh",
+      "Bhairon Singh",
+      "Jyotishiji",
+      "Digvijay Singh",
+      "Diwan Ramanandji",
+      "Rohtasgarh",
+      "kos",
+      "Digvijay Singh",
+      "Virendra Singh",
+      "Ramanandji",
+      "dungeon",
+      "Diwan",
+      "Maharaj",
+      "executioners",
+      "stupefaction"
+    ],
+    "ch-4-5": [
+      "Jyotishiji",
+      "Pandit Badrinath",
+      "Madhavi",
+      "Daroga Sahib",
+      "Kunwar Anand Singh",
+      "Kishori",
+      "Lali",
+      "Maharaj",
+      "Bhairon Singh",
+      "Tara Singh",
+      "Bhootnath",
+      "Raja Virendra Singh",
+      "barahdari",
+      "daroga",
+      "ghadi",
+      "elixir",
+      "Maharaj",
+      "barahdari",
+      "Virendra Singh"
+    ],
+    "ch-4-6": [
+      "Nanakprasad",
+      "Rambholi",
+      "Nanak",
+      "Koopdev",
+      "Ganga",
+      "Kashi",
+      "Shiva",
+      "barge",
+      "palanquins",
+      "chapkan",
+      "pajamas",
+      "waistband",
+      "turban",
+      "sari",
+      "sal tree"
+    ],
+    "ch-4-7": [
+      "Nanak",
+      "RamBholi",
+      "Babaji",
+      "Maharani",
+      "Anand Singh",
+      "Harihar",
+      "Ganga",
+      "Kashi",
+      "bajra",
+      "Babaji",
+      "Maharani",
+      "Kunwar",
+      "Sadhu",
+      "kos",
+      "fakir",
+      "munj",
+      "loincloth",
+      "sacred thread",
+      "lotus posture",
+      "deerskin",
+      "conch",
+      "verandah",
+      "chobdars",
+      "bajra",
+      "maidservant",
+      "Indrajit Singh",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-4-8": [
+      "Babaji",
+      "Maharani",
+      "Nanak",
+      "Rambholi",
+      "Dhanpati",
+      "Anand Singh",
+      "Kishori",
+      "Ganga",
+      "barahdari",
+      "ayyār",
+      "Indrajit Singh",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-4-9": [
+      "Kishori",
+      "Kunwar Anand Singh",
+      "Bhairon Singh",
+      "Tara Singh",
+      "Raja Digvijay Singh",
+      "Pandit Jagannath Jyotishi",
+      "Jyotishiji",
+      "Pandit Badrinath",
+      "Lali",
+      "Daroga Sahib",
+      "Virendra Singh",
+      "Kalyan Singh",
+      "Kunwar Kalyan Singh",
+      "Rohtasgarh",
+      "Mathuraji",
+      "Maharaj",
+      "barvai",
+      "ayyari",
+      "Kunwar",
+      "Raja",
+      "Daroga",
+      "ayyar",
+      "Sahib",
+      "barvai",
+      "Raja Virendra Singh"
+    ],
+    "ch-4-10": [
+      "Virendra Singh",
+      "Pandit Badrinath",
+      "Bhairon Singh",
+      "Tara Singh",
+      "Jyotishiji",
+      "Anandsingh",
+      "Tejsingh",
+      "Digvijay Singh",
+      "Kishori",
+      "Diwan Ramanand",
+      "Kalyan Singh",
+      "Lali",
+      "Kundan",
+      "Indrajit Singh",
+      "Devi Singh",
+      "Ramanand",
+      "Shersingh",
+      "Govindsingh",
+      "Gadādharsingh",
+      "Randhirsingh",
+      "Kamla",
+      "Rohtasgarh",
+      "Chunar Fort",
+      "tilism",
+      "Raja Sahib",
+      "Maharaj",
+      "Raja Virendrasingh",
+      "Kunwar",
+      "Diwan Sahib",
+      "tribute",
+      "underground chamber",
+      "deputy",
+      "committee",
+      "audience hall",
+      "masked man",
+      "folding his hands",
+      "Kunwar Indrajit Singh"
+    ],
+    "ch-4-11": [
+      "Kundan",
+      "Kishori",
+      "Lali",
+      "Maharaj Digvijay Singh",
+      "Kunwar Anand Singh",
+      "Dhanpati",
+      "Rama",
+      "Nanak",
+      "Rambholi",
+      "Rohtasgarh",
+      "Dhanpati",
+      "Rambholi",
+      "Nanak",
+      "barwa",
+      "Maharaj",
+      "Kunwar",
+      "vault",
+      "barwa",
+      "bundle"
+    ],
+    "ch-4-12": [
+      "Kishori",
+      "Kundan",
+      "Dhanpati",
+      "Indrajit Singh",
+      "Agnidev",
+      "Agnidev",
+      "pyre",
+      "Kunwar",
+      "Agnidev",
+      "Kunwar Indrajit Singh"
+    ]
+  }
+}
