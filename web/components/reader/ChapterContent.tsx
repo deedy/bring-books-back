@@ -56,7 +56,7 @@ function renderAnnotatedText(
   // Sort terms longest-first to avoid partial matches
   const sortedTerms = [...terms].sort((a, b) => b.length - a.length);
   const escaped = sortedTerms.map((t) => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
-  const regex = new RegExp(`(${escaped.join("|")})`, "g");
+  const regex = new RegExp(`\\b(${escaped.join("|")})\\b`, "g");
 
   const parts = text.split(regex);
   if (parts.length === 1) return renderWithQuotes(text, darkMode);
