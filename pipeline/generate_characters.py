@@ -205,7 +205,8 @@ def generate_single_image(book_id, slug, prompt_text, retries=3):
 
     full_prompt = (
         "A character portrait, head and upper body, facing slightly to the side. "
-        "The subject is centered. Square composition (1:1 ratio). No text.\n\n"
+        "The subject is centered. Edge-to-edge, no border, no frame, no margin. "
+        "No text.\n\n"
         + style_prefix
         + prompt_text
     )
@@ -220,6 +221,9 @@ def generate_single_image(book_id, slug, prompt_text, retries=3):
                 contents=full_prompt,
                 config=types.GenerateContentConfig(
                     response_modalities=["IMAGE", "TEXT"],
+                    image_config=types.ImageConfig(
+                        aspect_ratio="1:1",
+                    ),
                 ),
             )
             if response.parts is None:
@@ -232,7 +236,6 @@ def generate_single_image(book_id, slug, prompt_text, retries=3):
                 if part.inline_data is not None:
                     img = part.as_image()
                     img.save(output_path)
-                    crop_to_square(output_path)
 
                     web_book_dir = os.path.join(WEB_DIR, book_id)
                     os.makedirs(web_book_dir, exist_ok=True)

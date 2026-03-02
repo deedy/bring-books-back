@@ -43,11 +43,19 @@ def generate_hero(book_id, prompt, max_retries=5):
     for attempt in range(max_retries):
         try:
             print(f"  [{book_id}] Attempt {attempt + 1}...")
+            full_prompt = (
+                "Edge-to-edge illustration filling the entire frame. "
+                "No border, no frame, no margin, no vignette, no white space. "
+                + prompt
+            )
             response = client.models.generate_content(
                 model=IMAGE_MODEL,
-                contents=prompt,
+                contents=full_prompt,
                 config=types.GenerateContentConfig(
                     response_modalities=["IMAGE", "TEXT"],
+                    image_config=types.ImageConfig(
+                        aspect_ratio="16:9",
+                    ),
                 ),
             )
 

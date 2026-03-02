@@ -217,6 +217,12 @@ _register(BookConfig(
     genre=["Science Fiction", "Utopian Fiction"],
     accent_color="#4B0082",
     style_context="Hindi science fiction novel about a utopian 22nd century India",
+    image_style_prefix=(
+        "Scene in the style of a vintage Indian woodblock print with saffron, indigo, and gold palette. "
+        "Monochromatic warm tones with fine crosshatch engraving lines and a single accent of deep saffron orange. "
+        "Futuristic 22nd-century Indian setting with advanced technology blended with traditional aesthetics. "
+        "No text, no lettering. Scene: "
+    ),
     annotation_prompt=(
         'You are a literary analyst helping annotate an English translation of "Baeesween Sadi" '
         "(The Twenty-Second Century, 1924), a Hindi science fiction novel by Rahul Sankrityayan. "

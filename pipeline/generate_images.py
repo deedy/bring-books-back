@@ -108,7 +108,12 @@ def generate_scene_prompt(chapter, cfg, prompt_cache):
 
 def generate_image(output_path, style_prefix, prompt_text, retries=3):
     client = genai.Client(api_key=GEMINI_API_KEY)
-    full_prompt = "Wide landscape orientation (16:9 ratio, cinematic banner). " + style_prefix + prompt_text
+    full_prompt = (
+        "Edge-to-edge illustration filling the entire frame. "
+        "No border, no frame, no margin, no vignette, no white space. "
+        "The artwork must extend to all edges. "
+        + style_prefix + prompt_text
+    )
 
     for attempt in range(retries):
         try:
@@ -117,6 +122,9 @@ def generate_image(output_path, style_prefix, prompt_text, retries=3):
                 contents=full_prompt,
                 config=types.GenerateContentConfig(
                     response_modalities=["IMAGE", "TEXT"],
+                    image_config=types.ImageConfig(
+                        aspect_ratio="16:9",
+                    ),
                 ),
             )
             if response.parts is None:
@@ -129,7 +137,6 @@ def generate_image(output_path, style_prefix, prompt_text, retries=3):
                 if part.inline_data is not None:
                     img = part.as_image()
                     img.save(output_path)
-                    crop_to_ratio(output_path, LANDSCAPE_RATIO)
                     return True
 
             if attempt < retries - 1:
@@ -157,8 +164,9 @@ def generate_cover(book_id, cfg, retries=3):
         return
 
     cover_prompt = (
+        "Edge-to-edge illustration filling the entire frame. "
+        "No border, no frame, no margin, no vignette, no white space. "
         "A bright, colorful, vibrant book cover illustration. "
-        "Portrait orientation (A5 book cover ratio, taller than wide). "
         + cfg.image_style_prefix.replace("Scene: ", "")
         + "A sweeping panoramic scene that captures the essence of the entire story. "
         "Bright, inviting colors. No text, no lettering."
@@ -171,6 +179,9 @@ def generate_cover(book_id, cfg, retries=3):
                 contents=cover_prompt,
                 config=types.GenerateContentConfig(
                     response_modalities=["IMAGE", "TEXT"],
+                    image_config=types.ImageConfig(
+                        aspect_ratio="3:4",
+                    ),
                 ),
             )
             if response.parts is None:
@@ -184,8 +195,6 @@ def generate_cover(book_id, cfg, retries=3):
                 if part.inline_data is not None:
                     img = part.as_image()
                     img.save(cover_path)
-                    a5_ratio = 148 / 210
-                    crop_to_ratio(cover_path, a5_ratio)
                     print(f"  [{book_id}] Cover generated -> {cover_path}")
                     return
         except Exception as e:
