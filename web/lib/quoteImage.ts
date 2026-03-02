@@ -165,13 +165,24 @@ export async function generateQuoteImage(
   });
 }
 
-function loadImage(src: string): Promise<HTMLImageElement> {
+async function loadImage(src: string): Promise<HTMLImageElement> {
+  // Fetch as blob to avoid CORS issues with cross-origin redirects (nginx 301 → GCS).
+  // Using a blob URL means the Image element loads from a same-origin blob,
+  // so the canvas stays un-tainted without needing crossOrigin="anonymous".
+  const res = await fetch(src);
+  const blob = await res.blob();
+  const url = URL.createObjectURL(blob);
   return new Promise((resolve, reject) => {
     const img = new Image();
-    img.crossOrigin = "anonymous";
-    img.onload = () => resolve(img);
-    img.onerror = reject;
-    img.src = src;
+    img.onload = () => {
+      URL.revokeObjectURL(url);
+      resolve(img);
+    };
+    img.onerror = (e) => {
+      URL.revokeObjectURL(url);
+      reject(e);
+    };
+    img.src = url;
   });
 }
 

@@ -1,7 +1,56 @@
+import type { Metadata } from "next";
 import { getCatalog, getChapters } from "@/lib/data";
 import { slugify, chapterPath } from "@/lib/utils";
 import { redirect } from "next/navigation";
 import ReaderLoader from "@/components/reader/ReaderLoader";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string; path: string[] }>;
+}): Promise<Metadata> {
+  const { id, path } = await params;
+  const catalog = getCatalog();
+  const book = catalog.books.find((b) => b.id === id);
+  if (!book) return {};
+  const author = catalog.authors.find((a) => a.id === book.authorId);
+  const { chapters } = getChapters(id);
+
+  // Resolve chapter from path segments
+  let chapterTitle = "";
+  if (path.length === 2) {
+    const num = parseInt(path[0], 10);
+    const ch = chapters[isNaN(num) ? 0 : num - 1];
+    if (ch) chapterTitle = ch.title;
+  } else if (path.length === 4) {
+    const partNum = parseInt(path[0], 10);
+    const chapterNum = parseInt(path[2], 10);
+    const ch = chapters.find((c) => c.part === partNum && c.number === chapterNum);
+    if (ch) chapterTitle = ch.title;
+  }
+
+  const title = chapterTitle
+    ? `${chapterTitle} — ${book.title}`
+    : `Read ${book.title}`;
+  const description = `Read ${book.title} by ${author?.name ?? "Unknown"} — free English translation with illustrations`;
+  const coverPng = book.coverImage.replace(".webp", ".png");
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: [{ url: coverPng }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [coverPng],
+    },
+  };
+}
 
 export async function generateStaticParams() {
   const catalog = getCatalog();

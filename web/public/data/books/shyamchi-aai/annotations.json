@@ -2,30 +2,8 @@
   "glossary": {
     "Shyam": {
       "type": "character",
-      "description": "The protagonist of the story, a young boy whose character and values are shaped by his mother's teachings and example.",
+      "description": "The protagonist and narrator of the story, a young boy whose character is shaped by his mother's teachings and experiences growing up.",
       "image": "/data/images/characters/shyamchi-aai/shyam.png"
-    },
-    "Shyam’s mother": {
-      "type": "character",
-      "description": "Shyam's mother, a central figure in his life, known for her devotion, strength, and influence in shaping Shyam's morals.",
-      "image": "/data/images/characters/shyamchi-aai/shyams-mother.png"
-    },
-    "Shyam’s father": {
-      "type": "character",
-      "description": "Shyam's father, also called Bhau, who works as a khot (village headman) and is respected in the community."
-    },
-    "Umashankar": {
-      "type": "character",
-      "description": "A family member (possibly another name for Shyam’s father or a relative) who goes out on an errand and faces danger from dacoits."
-    },
-    "Bhau": {
-      "type": "character",
-      "description": "A respectful term meaning 'brother', used by villagers to refer to Shyam’s father.",
-      "image": "/data/images/characters/shyamchi-aai/bhau.png"
-    },
-    "khot": {
-      "type": "proper_noun",
-      "description": "A hereditary village headman responsible for collecting taxes from farmers and managing village affairs."
     },
     "Palovan": {
       "type": "proper_noun",
@@ -73,12 +51,7 @@
     },
     "Akka": {
       "type": "character",
-      "description": "Shyam’s elder sister, who is gentle and hardworking; her marriage is a central concern in this chapter."
-    },
-    "Aai": {
-      "type": "character",
-      "description": "Shyam’s mother, known for her compassion and selflessness, especially towards children.",
-      "image": "/data/images/characters/shyamchi-aai/aai.png"
+      "description": "Shyam's elder sister, a gentle and hardworking woman whose marriage and health are significant concerns for the family."
     },
     "Pawanshi family": {
       "type": "character",
@@ -106,11 +79,8 @@
     },
     "Bapu": {
       "type": "character",
-      "description": "Shyam’s father, a devout worshipper of God, especially Lord Ganapati, who performs daily rituals and worship."
-    },
-    "Shyamali": {
-      "type": "character",
-      "description": "A girl mentioned as stringing together a garland of jasmine flowers with her friends; likely a friend or sibling of Shyam."
+      "description": "Shyam's father, a devout and hardworking village headman (khot) who performs daily rituals and manages family affairs.",
+      "image": "/data/images/characters/shyamchi-aai/bhau.png"
     },
     "Ganapati": {
       "type": "proper_noun",
@@ -126,7 +96,7 @@
     },
     "Yashwant": {
       "type": "character",
-      "description": "Shyam's younger brother, described as virtuous and loving, whose illness and passing are central to this chapter."
+      "description": "Shyam's virtuous younger brother whose illness and passing are central emotional events in the narrative."
     },
     "Purushottam": {
       "type": "character",
@@ -136,10 +106,6 @@
     "Sadanand": {
       "type": "character",
       "description": "Another of Shyam’s brothers, mentioned as part of the family group."
-    },
-    "grandmother": {
-      "type": "character",
-      "description": "The elderly woman in the household, likely Shyam's or Yashwant’s grandmother, who scolds Yashwant over the dal incident."
     },
     "Konkan": {
       "type": "proper_noun",
@@ -169,29 +135,13 @@
       "type": "vocabulary",
       "description": "Split chickpeas, a staple pulse in Indian cuisine."
     },
-    "Shyama": {
-      "type": "character",
-      "description": "The young boy who is the central figure of the narrative, often referred to as Shyam; the story is told from his perspective."
-    },
     "Mathura": {
       "type": "character",
-      "description": "A gentle woman who works as a kandpini (rice pounder) at Shyama’s house and is the mother of Shivram."
+      "description": "A gentle woman who works as a rice pounder (kandpini) at Shyam's house and is the mother of Shivram."
     },
     "Shivram": {
       "type": "character",
       "description": "Mathura’s son, about ten or twelve years old, who helps with various chores at Shyama’s house and cares for his ailing mother."
-    },
-    "Shyama’s mother": {
-      "type": "character",
-      "description": "Shyama’s compassionate and generous mother, known for her kindness to others and her central role in the household."
-    },
-    "Mathure": {
-      "type": "character",
-      "description": "A variant or affectionate form of Mathura, used when addressing her directly in the narrative."
-    },
-    "kandpini": {
-      "type": "vocabulary",
-      "description": "A woman who pounds rice or grain by hand as an occupation."
     },
     "kandpinis": {
       "type": "vocabulary",
@@ -204,11 +154,6 @@
     "gruel": {
       "type": "vocabulary",
       "description": "A thin, watery porridge, often made from rice or other grains, commonly eaten in rural Maharashtra."
-    },
-    "Mother": {
-      "type": "character",
-      "description": "Shyam's mother, whose love, care, and wisdom deeply influence Shyam's upbringing and values.",
-      "image": "/data/images/characters/shyamchi-aai/mother.png"
     },
     "saree": {
       "type": "vocabulary",
@@ -294,10 +239,6 @@
       "type": "character",
       "description": "Shyam's maternal grandfather, who lives in the same village and whose house becomes a refuge for Shyam's family."
     },
-    "younger brother": {
-      "type": "character",
-      "description": "Shyam’s younger brother, who shares in the family’s experiences and participates in conversations about their new home."
-    },
     "Ganpati": {
       "type": "proper_noun",
       "description": "A Hindu festival celebrating Lord Ganesha, the elephant-headed god of wisdom and prosperity."
@@ -354,10 +295,6 @@
       "type": "character",
       "description": "A boy mentioned by Shyam's mother as someone Shyam could go with to learn to swim."
     },
-    "uncle": {
-      "type": "character",
-      "description": "Shyam's paternal uncle, described as an expert swimmer who is suggested to help teach Shyam."
-    },
     "paddy": {
       "type": "vocabulary",
       "description": "Unmilled rice, commonly grown and threshed in rural Maharashtra."
@@ -369,10 +306,6 @@
     "gram": {
       "type": "vocabulary",
       "description": "A type of pulse (legume), commonly eaten in India; also known as chickpea."
-    },
-    "Pandu Bhatmam": {
-      "type": "character",
-      "description": "A respected man and priest in the village, Pandu Bhatmam is mentioned as someone who accepts gifts despite not being wealthy."
     },
     "Brahmins": {
       "type": "proper_noun",
@@ -456,7 +389,7 @@
     },
     "Shyam’s paternal uncle": {
       "type": "character",
-      "description": "Shyam's father's brother, involved in family matters and helps bring Shyam home when he goes missing."
+      "description": "Shyam's father's brother, an expert swimmer who helps with family matters and bringing Shyam home."
     },
     "headmaster": {
       "type": "character",
@@ -496,7 +429,7 @@
     },
     "Bhaskar": {
       "type": "character",
-      "description": "Shyam's neighbor and contemporary, known for his ability to recite the Ramraksha and sometimes perceived by Shyam as boastful."
+      "description": "Shyam's neighbor and contemporary who is involved in household incidents and known for reciting the Ramraksha."
     },
     "Bhima-tai": {
       "type": "character",
@@ -546,14 +479,6 @@
       "type": "vocabulary",
       "description": "Water that has been blessed or sanctified, often used in Hindu rituals for purification and blessings."
     },
-    "Mama": {
-      "type": "character",
-      "description": "Shyam's maternal uncle in Pune, with whom Shyam stays while studying."
-    },
-    "Payan Akka": {
-      "type": "character",
-      "description": "A woman in the household, likely Akka herself or another female relative, who is unable to nurse her child due to illness."
-    },
     "Rangu": {
       "type": "character",
       "description": "A younger child in the household, possibly Shyam's sibling or cousin, who is seen playing and crying in the narrative."
@@ -580,11 +505,7 @@
     },
     "Namne": {
       "type": "character",
-      "description": "A teacher at the Mission School in Dapoli whom Shyam likes."
-    },
-    "Bapuya": {
-      "type": "character",
-      "description": "Mentioned as a family member, likely one of Shyam's younger brothers."
+      "description": "A teacher at the Mission School in Dapoli who is also depicted as a man suffering from illness and expressing sorrow to his wife."
     },
     "Mission School": {
       "type": "proper_noun",
@@ -624,19 +545,12 @@
     },
     "Dwarakakaku": {
       "type": "character",
-      "description": "An old woman who stays at Shyama’s house during the harvest; she is Shyama’s father’s sister and is trusted by the family."
-    },
-    "Aaji": {
-      "type": "character",
-      "description": "The affectionate term for grandmother, used here for Dwarakakaku, who is involved in household and community activities."
-    },
-    "Ajji": {
-      "type": "character",
-      "description": "Another affectionate term for grandmother, used interchangeably with Aaji in the text."
+      "description": "An elderly woman in the household and sister to Shyam's father who manages chores and is affectionately referred to as grandmother."
     },
     "Yashoda": {
       "type": "character",
-      "description": "The given name of Shyam’s mother, addressed directly by Aaji in a moment of argument."
+      "description": "The protagonist's mother and the moral heart of the story, known for her compassion, selflessness, and deep influence on her children's values.",
+      "image": "/data/images/characters/shyamchi-aai/aai.png"
     },
     "Vatan": {
       "type": "character",
@@ -664,19 +578,11 @@
     },
     "Amrit Sheth": {
       "type": "character",
-      "description": "The owner of the cloth shop in the market from whom Shyam buys the dhoti; also referred to as Amritsheti."
-    },
-    "Baba": {
-      "type": "character",
-      "description": "The father of Shyam and Bhau, who performs religious rituals in the temple."
+      "description": "The owner of the cloth shop in the market where Shyam purchases a dhoti."
     },
     "Diwali": {
       "type": "proper_noun",
       "description": "A major Hindu festival celebrated across India, known as the festival of lights."
-    },
-    "Amritsheti": {
-      "type": "proper_noun",
-      "description": "A colloquial form of address for Amrit Sheth, indicating respect or familiarity."
     },
     "Narakasura": {
       "type": "proper_noun",
@@ -709,14 +615,6 @@
     "modak": {
       "type": "vocabulary",
       "description": "A sweet dumpling popular in Maharashtra, often offered to Lord Ganesha during puja."
-    },
-    "Janaki-vayani": {
-      "type": "character",
-      "description": "A neighbor who occasionally helps with household tasks and converses with Aai and Shyam, sometimes offering advice or criticism."
-    },
-    "Buvaji": {
-      "type": "character",
-      "description": "A referenced family member, likely Shyam's father, whose potential departure is discussed by Janaki-vayani."
     },
     "Janabai": {
       "type": "proper_noun",
@@ -804,11 +702,7 @@
     },
     "Bhoro": {
       "type": "character",
-      "description": "A person among the old shepherds who demonstrates how to prepare firewood for cooking."
-    },
-    "Bhivan": {
-      "type": "character",
-      "description": "Another individual among the shepherds, who begins to cook during Shyam's visit."
+      "description": "Members of the shepherd community who interact with Shyam, demonstrating how to prepare firewood and cook during his visit."
     },
     "Sridharbhat": {
       "type": "character",
@@ -876,27 +770,15 @@
     },
     "Dada": {
       "type": "character",
-      "description": "Shyam’s elder brother, known for his patience and endurance, who is recovering from illness in this chapter."
+      "description": "Shyam's eldest brother who manages family affairs, acts as a messenger, and eventually finds a job to send money home."
     },
     "Durva": {
       "type": "character",
       "description": "A child in the household or neighborhood, who recites verses and participates in the evening gathering."
     },
-    "Durva’s grandmother": {
-      "type": "character",
-      "description": "An elderly woman who tells stories to the children, including the story of Chindhi in this chapter."
-    },
-    "Janaki": {
-      "type": "character",
-      "description": "A neighbor who visits and suggests that Shyam should recite a story."
-    },
     "Abhimanyu": {
       "type": "character",
       "description": "A character from the Mahabharata, referenced as the subject of a story Shyam is asked to recite."
-    },
-    "Chindhi": {
-      "type": "character",
-      "description": "A character in a story told by Durva’s grandmother, representing an old or tattered tale."
     },
     "Draupadi": {
       "type": "character",
@@ -934,17 +816,9 @@
       "type": "vocabulary",
       "description": "Large leaves used as natural plates for serving food in traditional Indian meals."
     },
-    "my elder brother": {
-      "type": "character",
-      "description": "Shyam's older brother, who acts as a messenger between home and Shyam at school, and is also a student learning English."
-    },
     "Tagele": {
       "type": "character",
       "description": "Shyam's friend at school, mentioned as his companion during playtime."
-    },
-    "Father": {
-      "type": "character",
-      "description": "Shyam's father, depicted as a loving and hardworking man who brings food to Shyam at school."
     },
     "pos": {
       "type": "vocabulary",
@@ -998,17 +872,9 @@
       "type": "vocabulary",
       "description": "The seasonal period of heavy rainfall crucial for agriculture in India."
     },
-    "Bhaurao": {
-      "type": "character",
-      "description": "A member of the household or close circle, involved in searching for the missing five-rupee note."
-    },
-    "Phadkebaba": {
-      "type": "character",
-      "description": "A respected elder or family friend who notices the missing money and informs others."
-    },
     "Balwantrao Phadke": {
       "type": "character",
-      "description": "A frequent visitor and acquaintance of the family, involved in the incident of the missing money."
+      "description": "A respected elder and frequent visitor who is involved in the incident regarding the missing five-rupee note."
     },
     "Ram Tirtha": {
       "type": "proper_noun",
@@ -1025,14 +891,6 @@
     "compass box": {
       "type": "vocabulary",
       "description": "A small box containing drawing instruments such as a compass, ruler, and pencils, used by students in India."
-    },
-    "Bapa": {
-      "type": "character",
-      "description": "Shyam's father, a quiet and supportive presence in the family."
-    },
-    "Aadhyan Bhivn": {
-      "type": "character",
-      "description": "A family member or close acquaintance who anxiously asks Shyam if he begged for money."
     },
     "Anna": {
       "type": "vocabulary",
@@ -1090,17 +948,9 @@
       "type": "character",
       "description": "A relative or acquaintance who acts as a debt collector for his brother-in-law, demanding repayment and behaving shamelessly towards Shyam's family."
     },
-    "my brother": {
-      "type": "character",
-      "description": "The narrator's brother, who manages the family's affairs, negotiates with Vamanrao, and tries to maintain dignity despite hardship."
-    },
     "Kalantare": {
       "type": "proper_noun",
       "description": "A specific legal or financial case mentioned in the chapter, likely involving debt or property in the family's village."
-    },
-    "Janaki Vahini": {
-      "type": "character",
-      "description": "A woman in the household, likely Shyam's sister-in-law, whom Shyam asks to take care of his mother."
     },
     "Sakoon": {
       "type": "proper_noun",
@@ -1128,11 +978,7 @@
     },
     "Nana": {
       "type": "character",
-      "description": "A senior male figure in the family, often portrayed as practical, proud, and quick-tempered; he is involved in family disputes and tries to advise others on financial matters."
-    },
-    "Shyama’s maternal uncle": {
-      "type": "character",
-      "description": "Shyama’s mother’s brother, who visits to console her and support her during family hardships."
+      "description": "A senior male figure in the family, often portrayed as practical, proud, and quick-tempered; he is involved in family disputes."
     },
     "Marwari": {
       "type": "proper_noun",
@@ -1160,7 +1006,7 @@
     },
     "Radha-bai": {
       "type": "character",
-      "description": "The wife of the pensioner who moves into the village; she befriends Shyama’s mother and offers her work."
+      "description": "A neighbor and friend to Shyam's mother who assists the family during the mother's final moments."
     },
     "Indu": {
       "type": "character",
@@ -1169,10 +1015,6 @@
     "Chandrakala": {
       "type": "character",
       "description": "Shyama’s mother’s own midwife from earlier times, mentioned in passing."
-    },
-    "Yashoda-bai": {
-      "type": "character",
-      "description": "Another name used for Shyama’s mother, as addressed by Radha-bai."
     },
     "Tulsi": {
       "type": "proper_noun",
@@ -1230,41 +1072,17 @@
       "type": "vocabulary",
       "description": "In rural Indian culture, cow-dung is often used to make small idols or for ritual purposes, especially in domestic worship."
     },
-    "Nimaane": {
-      "type": "character",
-      "description": "Nimaane is a man suffering from illness, expressing sorrow to his wife about being a burden to the family."
-    },
     "Sakhu": {
       "type": "character",
-      "description": "Sakhu is referred to as a caring woman, possibly a sister or close relative, who is expected to help look after the family."
+      "description": "A caring woman in the household, possibly a relative or daughter-in-law, expected to help look after the family."
     },
     "Janaki-vahini": {
       "type": "character",
-      "description": "Janaki-vahini is a neighbor or relative who assists the family and visits during illness."
+      "description": "A neighbor or relative (likely a sister-in-law) who assists the family with household tasks and supports them during times of illness."
     },
     "Namu-maushi": {
       "type": "character",
-      "description": "Namu-maushi is a childhood friend of Shyama's mother, married into the same village, who visits and helps the family."
-    },
-    "Dwaraka-kaku": {
-      "type": "character",
-      "description": "Dwaraka-kaku is an elderly woman in the household, responsible for cooking and managing some chores."
-    },
-    "Afu": {
-      "type": "character",
-      "description": "Afu is an elder sister to whom the family writes for support."
-    },
-    "Gajanan": {
-      "type": "character",
-      "description": "Gajanan is a son of the family who has recently found a job and sends money home."
-    },
-    "Aunt Namoo": {
-      "type": "character",
-      "description": "Aunt Namoo is a relative who writes letters to the family and visits to provide comfort."
-    },
-    "Aunt": {
-      "type": "character",
-      "description": "Aunt is the mother's sister who comes to comfort and support her during illness."
+      "description": "A childhood friend of Shyam's mother and a maternal aunt figure who provides comfort, support, and nursing care during family illnesses."
     },
     "Yamuna": {
       "type": "proper_noun",
@@ -1290,29 +1108,13 @@
       "type": "vocabulary",
       "description": "Pallu is the loose end of a sari, often used symbolically for protection or care."
     },
-    "Aakka": {
-      "type": "character",
-      "description": "Aai's elder sister, referred to as 'Aakka', who helps care for Aai during her illness."
-    },
     "Bombay": {
       "type": "proper_noun",
       "description": "A major city in India (now called Mumbai), where Gajanan works and to which he returns after visiting home."
     },
-    "Maavshi": {
-      "type": "character",
-      "description": "An aunt or maternal figure who tends to Shyama’s mother and calls for help during her illness."
-    },
     "Chandri": {
       "type": "character",
       "description": "One of Shyama’s mother’s children, mentioned as being dear to her."
-    },
-    "Saku": {
-      "type": "character",
-      "description": "A woman in the household, possibly a daughter-in-law or relative, who is asked about the family’s well-being."
-    },
-    "Radhabai": {
-      "type": "character",
-      "description": "A woman who moistens the mother's lips and speaks to her in her final moments."
     },
     "Bayo": {
       "type": "character",
@@ -1338,21 +1140,17 @@
       "type": "character",
       "description": "A person to whom Namdev communicates about Shyam's letter; possibly an acquaintance or family friend."
     },
-    "Maushi": {
-      "type": "character",
-      "description": "A term for maternal aunt in Marathi, here referring to a close female relative who supports and consoles Shyam."
-    },
     "Tukaram": {
       "type": "character",
       "description": "Another of Shyam's brothers, mentioned as waiting for Shyam at home."
     },
     "Durva's grandmother": {
       "type": "character",
-      "description": "An elderly woman in the village, possibly a neighbor, who offers comfort and wisdom during the rituals."
+      "description": "An elderly woman in the village who tells stories to children, including the tale of Chindhi, and offers wisdom during rituals."
     },
     "Bhatmama": {
       "type": "character",
-      "description": "Shyam's uncle, who assists in collecting the ashes and performing the funeral rituals."
+      "description": "Shyam's maternal uncle and village priest who supports the family during hardships and assists with funeral rituals."
     },
     "Boribunder": {
       "type": "proper_noun",
@@ -1394,10 +1192,6 @@
       "type": "character",
       "description": "The family cat who was deeply attached to Shyam's mother and whose devotion is highlighted in this chapter."
     },
-    "Sane Guruji": {
-      "type": "character",
-      "description": "The author and narrator of the autobiography, recounting his childhood as Shyam and reflecting on his mother’s influence."
-    },
     "Paingin": {
       "type": "proper_noun",
       "description": "A village in Canacona, Goa, mentioned as the place of residence or origin in the library information."
@@ -1426,11 +1220,6 @@
   "chapters": {
     "ch-1-1": [
       "Shyam",
-      "Shyam’s mother",
-      "Shyam’s father",
-      "Umashankar",
-      "Bhau",
-      "khot",
       "Palovan",
       "Vat-Savitri",
       "Purana",
@@ -1441,23 +1230,24 @@
       "Shri Krishna",
       "circumambulation",
       "sari",
-      "dacoits"
+      "dacoits",
+      "Yashoda",
+      "Bapu"
     ],
     "ch-1-2": [
       "Akka",
       "Shyam",
-      "Aai",
       "Pawanshi family",
       "Mangal",
       "Ratnagiri",
       "Palgad",
       "Harne",
-      "Panvel"
+      "Panvel",
+      "Yashoda"
     ],
     "ch-1-3": [
       "Shyam",
       "Bapu",
-      "Shyamali",
       "Ganapati",
       "durva",
       "oleander"
@@ -1468,8 +1258,6 @@
       "Purushottam",
       "Sadanand",
       "Bapu",
-      "Aai",
-      "grandmother",
       "Konkan",
       "Goa",
       "Ashadhi Ekadashi",
@@ -1477,46 +1265,40 @@
       "abhangas",
       "bhupaliyas",
       "chana dal",
-      "Aai"
+      "Yashoda",
+      "Dwarakakaku"
     ],
     "ch-1-5": [
-      "Shyama",
       "Mathura",
       "Shivram",
-      "Shyama’s mother",
-      "Mathure",
-      "Aai",
       "Konkan",
-      "kandpini",
       "kandpinis",
       "sambharshing",
-      "gruel"
+      "gruel",
+      "Yashoda",
+      "Shyam"
     ],
     "ch-1-6": [
       "Shyam",
-      "Mother",
-      "Aai",
-      "Aai",
       "saree",
-      "sari"
+      "sari",
+      "Yashoda"
     ],
     "ch-1-7": [
       "Shyam",
-      "Aai",
       "Akka",
       "Bapu",
-      "Shyama",
       "Konkan",
       "patravali",
       "patravalis",
       "patraval",
       "donas",
-      "verandah"
+      "verandah",
+      "Yashoda"
     ],
     "ch-1-8": [
       "Shyam",
       "Bapu",
-      "Aai",
       "Gangappa Oak",
       "Manatai",
       "Govindbhat",
@@ -1525,27 +1307,23 @@
       "Samrad",
       "shloka",
       "bhupali",
-      "Aai",
-      "Bapu"
+      "Bapu",
+      "Yashoda"
     ],
     "ch-1-9": [
       "Shyam",
-      "Shyam’s mother",
       "Mori",
       "Gomata",
       "Mother India",
       "naivedya",
       "tandul",
       "gograss",
-      "vermilion"
+      "vermilion",
+      "Yashoda"
     ],
     "ch-1-10": [
       "Shyam",
-      "Shyam’s mother",
-      "Shyam’s father",
       "grandfather",
-      "grandmother",
-      "younger brother",
       "Ganpati",
       "Magh",
       "Chaturthi",
@@ -1554,55 +1332,57 @@
       "Pune",
       "Akshaya Tritiya",
       "Mathura",
-      "mangalsutra"
+      "mangalsutra",
+      "Yashoda",
+      "Bapu",
+      "Yashwant",
+      "Dwarakakaku"
     ],
     "ch-1-11": [
       "Shyam",
-      "Mother",
       "jasmine",
       "God",
       "courtyard",
-      "mourning"
+      "mourning",
+      "Yashoda"
     ],
     "ch-1-12": [
       "Shyam",
-      "Mother",
       "Balu",
       "Falya",
-      "uncle",
       "Konkan",
       "paddy",
       "sari",
       "dhotar",
-      "gram"
+      "gram",
+      "Yashoda",
+      "Shyam’s paternal uncle"
     ],
     "ch-1-13": [
       "Shyam",
-      "Mother",
-      "Pandu Bhatmam",
       "Brahmins",
       "Rohidas",
       "Europe",
       "Russia",
       "dakshina",
       "annas",
-      "householders"
+      "householders",
+      "Yashoda",
+      "Bhatmama"
     ],
     "ch-1-14": [
       "Shyam",
-      "Shyam’s mother",
       "Parvatibai",
       "Venu",
       "shreekhand",
       "Venu",
       "Parvatibai",
       "tulsi",
-      "usal"
+      "usal",
+      "Yashoda"
     ],
     "ch-1-15": [
       "Shyam",
-      "Shyam’s mother",
-      "Aai",
       "Rabindranath Tagore",
       "Puranas",
       "Shaligram",
@@ -1611,12 +1391,11 @@
       "Purana",
       "Shri Ram Jai Ram, Jai Jai Ram",
       "bhajans",
-      "priest"
+      "priest",
+      "Yashoda"
     ],
     "ch-1-16": [
       "Shyam",
-      "Shyam’s mother",
-      "Shyam’s father",
       "Shyam’s paternal uncle",
       "headmaster",
       "Maharashtra",
@@ -1629,12 +1408,13 @@
       "Dhruva",
       "bullock carts",
       "pilgrimage",
-      "tulsi"
+      "tulsi",
+      "Yashoda",
+      "Bapu"
     ],
     "ch-1-17": [
       "Shyam",
       "Bhaskar",
-      "Mother",
       "Bhima-tai",
       "Bapu",
       "Harivijay",
@@ -1643,29 +1423,23 @@
       "Rama",
       "Ramraksha",
       "Shubhamkaroti",
-      "Aai",
       "Bhashya",
       "Bhima-tai",
-      "Shyama"
+      "Yashoda"
     ],
     "ch-1-18": [
       "Shyam",
-      "Shyam’s father",
-      "Shyam’s mother",
       "Bapu",
       "Ganpati temple",
       "Vishnusahasranama",
       "Annapurna",
       "Hindu culture",
-      "Aai",
-      "holy water"
+      "holy water",
+      "Yashoda"
     ],
     "ch-1-19": [
       "Shyam",
-      "Aai",
       "Akka",
-      "Mama",
-      "Payan Akka",
       "Rangu",
       "Appurbai",
       "Pune",
@@ -1673,19 +1447,16 @@
       "Swadeshi movement",
       "Danapara",
       "Ramraksha",
-      "Aai",
       "Akka",
-      "Mama",
       "shlokas",
-      "Appurbai"
+      "Appurbai",
+      "Yashoda",
+      "Bhatmama"
     ],
     "ch-1-20": [
       "Shyam",
-      "Mother",
-      "Mama",
       "Rao",
       "Namne",
-      "Bapuya",
       "Pune",
       "Mission School",
       "Dapoli",
@@ -1699,39 +1470,31 @@
       "bel leaves",
       "durva grass",
       "tavasli",
-      "Aai"
+      "Yashoda",
+      "Bhatmama",
+      "Yashwant"
     ],
     "ch-1-21": [
       "Dwarakakaku",
-      "Shyama",
-      "Aaji",
-      "Shyam’s mother",
-      "Ajji",
       "Yashoda",
       "Vatan",
       "Durva Aaji",
       "Chaturmas",
       "Mangala Gauri",
       "Mother of the World",
-      "Aaji",
       "durva",
       "payasam",
       "papads",
-      "Aai",
-      "Ajji"
+      "Shyam"
     ],
     "ch-1-22": [
       "Shyam",
-      "Aai",
-      "Bhau",
       "Amrit Sheth",
-      "Baba",
       "Diwali",
       "Dapoli",
       "Maharashtra",
       "Pune",
       "Mumbai",
-      "Amritsheti",
       "Narakasura",
       "tulsi vrindavan",
       "Bhau Beej",
@@ -1742,14 +1505,11 @@
       "naivedya",
       "nevariyo",
       "modak",
-      "Aai"
+      "Yashoda",
+      "Bapu"
     ],
     "ch-1-23": [
       "Shyam",
-      "Aai",
-      "Janaki-vayani",
-      "Buvaji",
-      "Shyama",
       "Janabai",
       "Namdev",
       "kirtan",
@@ -1757,16 +1517,15 @@
       "Om Namo Bhagavate Vasudevaya",
       "Ardhanari Nateshwar",
       "patolyo",
-      "Aai",
       "mantra",
-      "grinding stone"
+      "grinding stone",
+      "Yashoda",
+      "Bapu",
+      "Janaki-vahini"
     ],
     "ch-1-24": [
       "Shyam",
-      "Shyam’s mother",
       "Janaki’s mother",
-      "Aai",
-      "Bhau",
       "banyan tree",
       "Uma’s festival",
       "Uma",
@@ -1785,15 +1544,14 @@
       "bel leaves",
       "dhavda",
       "champa",
-      "nagchampa"
+      "nagchampa",
+      "Yashoda",
+      "Bapu"
     ],
     "ch-1-25": [
       "Shyam",
-      "Mother",
       "Bhoro",
-      "Bhivan",
       "Sridharbhat",
-      "Aai",
       "Mahars",
       "Chambhars",
       "Maharwada",
@@ -1808,17 +1566,14 @@
       "Jatayu",
       "Hanuman",
       "Eknath Maharaj",
-      "puranpolis"
+      "puranpolis",
+      "Yashoda"
     ],
     "ch-1-26": [
       "Shyam",
       "Dada",
-      "Aai",
       "Durva",
-      "Durva’s grandmother",
-      "Janaki",
       "Abhimanyu",
-      "Chindhi",
       "Shri Krishna",
       "Draupadi",
       "Subhadra",
@@ -1827,28 +1582,28 @@
       "Dapoli",
       "God",
       "goddess",
-      "Aai",
       "patolyo",
       "patole",
       "kande-pak",
       "ghee",
       "sweetmeat",
       "banana leaves",
-      "courtyard"
+      "courtyard",
+      "Yashoda",
+      "Janaki-vahini",
+      "Durva's grandmother"
     ],
     "ch-1-27": [
       "Shyam",
-      "Mother",
-      "my elder brother",
       "Tagele",
-      "Father",
       "Dapoli",
-      "pos"
+      "pos",
+      "Yashoda",
+      "Bapu",
+      "Dada"
     ],
     "ch-1-28": [
       "Shyam",
-      "Shyam’s mother",
-      "Shyam’s father",
       "Samb Sadashiv",
       "Shiva",
       "Shiva lingam",
@@ -1866,43 +1621,38 @@
       "kalash",
       "mantras",
       "deity",
-      "monsoon"
+      "monsoon",
+      "Yashoda",
+      "Bapu"
     ],
     "ch-1-29": [
-      "Bhaurao",
-      "Phadkebaba",
-      "Bhau",
       "Shyam",
-      "Aai",
       "Balwantrao Phadke",
       "Dapoli",
       "Ram Tirtha",
       "Marathi Puranas",
-      "Aai",
       "shloka",
       "bidi",
       "betel leaves",
-      "compass box"
+      "compass box",
+      "Yashoda",
+      "Bapu",
+      "Bhaskar"
     ],
     "ch-1-30": [
       "Shyam",
-      "Aai",
-      "Bapa",
       "Purushottam",
-      "Bhau",
-      "Aadhyan Bhivn",
-      "Shyama",
       "Ganpati",
       "Konkan",
       "Dapoli",
       "dhotar",
       "Anna",
-      "Aai"
+      "Yashoda",
+      "Bapu"
     ],
     "ch-1-31": [
       "Shyam",
       "Sumatai",
-      "Aai",
       "Dapoli",
       "Ladghar",
       "Tamas-Tirth",
@@ -1916,27 +1666,22 @@
       "annas",
       "nallu",
       "phov",
-      "Aai",
-      "khan"
+      "khan",
+      "Yashoda"
     ],
     "ch-1-32": [
       "Vamanrao",
-      "Shyam’s mother",
-      "Bhau",
-      "my brother",
-      "Shyama",
       "Purushottam",
       "Kalantare",
-      "Aai",
       "dhotar",
-      "shloka"
+      "shloka",
+      "Yashoda",
+      "Shyam",
+      "Bapu",
+      "Dada"
     ],
     "ch-1-33": [
       "Shyam",
-      "Aai",
-      "Baba",
-      "Bhau",
-      "Janaki Vahini",
       "Purushottam",
       "Bapu",
       "Dapoli",
@@ -1945,46 +1690,42 @@
       "Ganpati temple",
       "Dhruva",
       "Aundh",
-      "Aai",
-      "Bhau",
       "Vahini",
       "madhukari",
-      "paisa"
+      "paisa",
+      "Yashoda",
+      "Janaki-vahini"
     ],
     "ch-1-34": [
       "Nana",
-      "Shyama’s mother",
-      "Bhau",
       "Bapu",
-      "Shyama’s maternal uncle",
       "Marwari",
       "Amkya",
       "tulsi",
       "bunds",
       "paddy field",
-      "dowry"
+      "dowry",
+      "Yashoda",
+      "Bhatmama"
     ],
     "ch-1-35": [
       "Shyam",
-      "Aai",
       "Sadanand",
       "Purushottam",
       "Aundh",
       "Harne",
       "Palgad",
       "Ganpati",
-      "Aai",
-      "sari"
+      "sari",
+      "Yashoda"
     ],
     "ch-1-36": [
-      "Shyama’s mother",
       "Shyam",
       "Tatu",
       "Radha-bai",
       "Purushottam",
       "Indu",
       "Chandrakala",
-      "Yashoda-bai",
       "Tulsi",
       "Tulsi Vivah",
       "Pune",
@@ -1999,7 +1740,8 @@
       "ghee",
       "kumkum",
       "fogona",
-      "annas"
+      "annas",
+      "Yashoda"
     ],
     "ch-1-37": [
       "Purushottam",
@@ -2007,69 +1749,53 @@
       "Indu",
       "Sangale",
       "Radha-bai",
-      "Bhaurao",
-      "Shyama",
       "Marwari",
       "Ganapati",
       "Sardars",
       "Panchayat",
-      "Aai",
       "stotra",
-      "cow-dung"
+      "cow-dung",
+      "Yashoda",
+      "Bhaskar"
     ],
     "ch-1-38": [
-      "Nimaane",
       "Purushottam",
       "Sakhu",
       "Durva",
       "Radha-bai",
       "Janaki-vahini",
       "Namu-maushi",
-      "Dwaraka-kaku",
       "Indu",
-      "Afu",
-      "Gajanan",
       "Shyam",
-      "Mother",
-      "Aunt Namoo",
       "Akka",
-      "Aunt",
       "Ganga",
       "Mumbai",
       "Yamuna",
-      "Aai",
       "vahini",
       "maushi",
       "kaku",
       "nikhate",
-      "pallu"
+      "pallu",
+      "Yashoda",
+      "Dwarakakaku",
+      "Dada",
+      "Namne"
     ],
     "ch-1-39": [
-      "Aai",
-      "Aakka",
       "Sakhu",
-      "Gajanan",
       "Purushottam",
       "Bombay",
-      "Aai",
-      "Aakka"
+      "Yashoda",
+      "Akka",
+      "Dada"
     ],
     "ch-1-40": [
-      "Shyama’s mother",
       "Shyam",
       "Purushottam",
-      "Bhau",
-      "Maavshi",
       "Chandri",
       "Radha-bai",
-      "Saku",
-      "Gajanan",
-      "Durva’s grandmother",
       "Nana",
       "Janaki-vahini",
-      "Radhabai",
-      "Aai",
-      "Aaji",
       "Bayo",
       "Pergaon",
       "Sankashti Chaturthi",
@@ -2078,19 +1804,23 @@
       "Ganga",
       "Ram",
       "vahini",
-      "tulsi"
+      "tulsi",
+      "Yashoda",
+      "Bapu",
+      "Dwarakakaku",
+      "Namu-maushi",
+      "Durva's grandmother",
+      "Sakhu",
+      "Dada"
     ],
     "ch-1-41": [
       "Shyam",
       "Namdev",
       "Rao Pavn",
-      "Aunt",
-      "Maushi",
       "Purushottam",
       "Tukaram",
       "Durva's grandmother",
       "Bhatmama",
-      "Shyama",
       "Yashoda",
       "Boribunder",
       "Girgaon",
@@ -2102,17 +1832,15 @@
       "Gita",
       "Geetanjali",
       "Anna",
-      "Aai",
-      "Maushi",
       "mangalsutra",
       "pindadaan",
       "pind",
-      "darbha grass"
+      "darbha grass",
+      "Namu-maushi"
     ],
     "ch-1-42": [
       "Shyam",
       "Mathi",
-      "Sane Guruji",
       "Mother India",
       "Paingin",
       "Canacona",

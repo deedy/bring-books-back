@@ -70,6 +70,7 @@ export default function ReaderHeader({
         className={`backdrop-blur-xl border-b ${
           darkMode ? "bg-[#0a0a0a]/40 border-white/[0.06]" : "bg-white/40 border-black/[0.06]"
         }`}
+        style={{ paddingTop: "env(safe-area-inset-top, 0px)" }}
       >
         <div className="max-w-4xl mx-auto px-4 h-12 flex items-center justify-between relative">
           <div className="flex items-center gap-2">

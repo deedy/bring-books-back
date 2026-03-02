@@ -36,13 +36,13 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      images: [{ url: book.coverImage }],
+      images: [{ url: book.coverImage.replace(".webp", ".png") }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [book.coverImage],
+      images: [book.coverImage.replace(".webp", ".png")],
     },
   };
 }
@@ -213,28 +213,26 @@ export default async function BookPage({
       </div>
 
       {/* Summary */}
-      <section className="max-w-6xl mx-auto px-6 mt-16">
+      <section className="max-w-4xl mx-auto px-6 mt-16">
         <h2 className="text-xl font-bold text-white mb-4">About This Book</h2>
-        <p className="text-white/60 leading-relaxed max-w-3xl">
+        <p className="text-white/60 leading-relaxed">
           {book.summary}
         </p>
       </section>
 
       {/* Chapters */}
       {chaptersForList.length > 0 && (
-        <section className="max-w-6xl mx-auto px-6 mt-16">
+        <section className="max-w-4xl mx-auto px-6 mt-16">
           <h2 className="text-xl font-bold text-white mb-6">Chapters</h2>
-          <div className="max-w-3xl">
-            <ChapterList chapters={chaptersForList} bookId={book.id} accentColor={book.accentColor} />
-          </div>
+          <ChapterList chapters={chaptersForList} bookId={book.id} accentColor={book.accentColor} />
         </section>
       )}
 
       {/* Characters */}
       {characters.length > 0 && (
-        <section className="max-w-6xl mx-auto px-6 mt-16">
+        <section className="max-w-4xl mx-auto px-6 mt-16">
           <h2 className="text-xl font-bold text-white mb-6">Characters</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-3xl">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {characters.map((ch) => (
               <div
                 key={ch.name}
@@ -270,7 +268,7 @@ export default async function BookPage({
       )}
 
       {/* About the Author */}
-      <section className="max-w-6xl mx-auto px-6 mt-16">
+      <section className="max-w-4xl mx-auto px-6 mt-16">
         <h2 className="text-xl font-bold text-white mb-4">
           About the Author
         </h2>
@@ -293,7 +291,7 @@ export default async function BookPage({
               {author.name}
             </Link>
             <p className="text-xs text-white/40 mt-0.5">{author.years}</p>
-            <p className="text-sm text-white/50 mt-2 leading-relaxed max-w-2xl">
+            <p className="text-sm text-white/50 mt-2 leading-relaxed">
               {author.bio.split("\n\n")[0]}
             </p>
           </div>
@@ -301,15 +299,15 @@ export default async function BookPage({
       </section>
 
       {/* Preview / Continue Reading */}
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-4xl mx-auto px-6">
         <BookPreview bookId={book.id} accentColor={book.accentColor} previewText={book.previewText} />
       </div>
 
       {/* Places and terms in this book */}
       {properNouns.length > 0 && (
-        <section className="max-w-6xl mx-auto px-6 mt-16">
+        <section className="max-w-4xl mx-auto px-6 mt-16">
           <h2 className="text-xl font-bold text-white mb-4">Places and Terms in this Book</h2>
-          <div className="space-y-2 max-w-3xl">
+          <div className="space-y-2">
             {properNouns.map((t) => (
               <p key={t.name} className="text-sm">
                 <span className="font-medium text-white">{t.name}</span>
@@ -331,9 +329,9 @@ export default async function BookPage({
 
       {/* Vocabulary */}
       {vocabulary.length > 0 && (
-        <section className="max-w-6xl mx-auto px-6 mt-16">
+        <section className="max-w-4xl mx-auto px-6 mt-16">
           <h2 className="text-xl font-bold text-white mb-4">Vocabulary</h2>
-          <div className="space-y-2 max-w-3xl">
+          <div className="space-y-2">
             {vocabulary.map((t) => (
               <p key={t.name} className="text-sm">
                 <span className="font-medium text-white">{t.name}</span>
@@ -355,7 +353,7 @@ export default async function BookPage({
 
       {/* Other Books */}
       {otherBooks.length > 0 && (
-        <section className="max-w-6xl mx-auto px-6 mt-16">
+        <section className="max-w-4xl mx-auto px-6 mt-16">
           <h2 className="text-xl font-bold text-white mb-6">
             More by {author.name}
           </h2>

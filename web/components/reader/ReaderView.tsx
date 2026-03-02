@@ -104,13 +104,13 @@ export default function ReaderView({
           target.scrollIntoView({ behavior: "auto", block: "start" });
           // Offset for the header
           window.scrollBy(0, -60);
-          window.history.replaceState({}, "", chapterUrl(idx));
+          window.history.pushState({}, "", chapterUrl(idx));
           setTimeout(() => { suppressObserverRef.current = false; }, 200);
         }
       } else {
         setCurrentIndex(idx);
         window.scrollTo({ top: 0, behavior: "auto" });
-        window.history.replaceState({}, "", chapterUrl(idx));
+        window.history.pushState({}, "", chapterUrl(idx));
       }
     },
     [chapters.length, chapterUrl, scrollMode]
@@ -322,6 +322,33 @@ export default function ReaderView({
     };
   }, [bookId, updateProgress]);
 
+  // Handle browser back/forward: map URL back to chapter index
+  useEffect(() => {
+    const handlePopState = () => {
+      const path = window.location.pathname;
+      for (let i = 0; i < chapters.length; i++) {
+        if (path === chapterUrl(i)) {
+          suppressObserverRef.current = true;
+          setCurrentIndex(i);
+          if (scrollMode === "infinite") {
+            const target = chapterScrollTargetRefs.current.get(i) ?? chapterHeadingRefs.current.get(i);
+            if (target) {
+              target.scrollIntoView({ behavior: "auto", block: "start" });
+              window.scrollBy(0, -60);
+            }
+          } else {
+            window.scrollTo({ top: 0, behavior: "auto" });
+          }
+          setTimeout(() => { suppressObserverRef.current = false; }, 200);
+          return;
+        }
+      }
+      // URL doesn't match any chapter — let the browser handle it (e.g. back to book page)
+    };
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, [chapters, chapterUrl, scrollMode]);
+
   // Keyboard nav: left/right arrows (paginated only)
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
@@ -465,7 +492,7 @@ export default function ReaderView({
       <button
         type="button"
         className={`fixed top-0 left-0 right-0 z-30 transition-all duration-300 overflow-hidden ${
-          headerVisible ? "max-h-0 opacity-0 pointer-events-none" : "max-h-9 opacity-100"
+          headerVisible ? "max-h-0 opacity-0 pointer-events-none" : "max-h-16 opacity-100"
         }`}
         onClick={() => setShowPicker(true)}
       >
@@ -473,6 +500,7 @@ export default function ReaderView({
           className={`h-9 flex items-center justify-center gap-2 px-4 backdrop-blur-xl ${
             darkMode ? "bg-[#0a0a0a]/40" : "bg-white/40"
           }`}
+          style={{ marginTop: "env(safe-area-inset-top, 0px)" }}
         >
           <span
             className={`text-[11px] truncate text-center ${
@@ -484,10 +512,9 @@ export default function ReaderView({
         </div>
       </button>
 
-      {/* Chapter progress bar — bottom, using env() for mobile browser chrome */}
+      {/* Chapter progress bar — bottom */}
       <div
-        className="fixed left-0 right-0 z-50 h-[6px] bg-transparent"
-        style={{ bottom: "env(safe-area-inset-bottom, 0px)" }}
+        className="fixed bottom-0 left-0 right-0 z-50 h-[6px] bg-transparent"
       >
         <div
           className="h-full transition-[width] duration-200 ease-out"

@@ -60,7 +60,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-white/5 text-center">
-          <p className="text-xs text-white/30">&copy; 2025 Grand Old Books</p>
+          <p className="text-xs text-white/30">&copy; {new Date().getFullYear()} Grand Old Books</p>
         </div>
       </div>
     </footer>

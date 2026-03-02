@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Chapter } from "@/lib/types";
 
 interface ChapterPickerProps {
@@ -25,6 +25,7 @@ export default function ChapterPicker({
   glossaryUrl,
 }: ChapterPickerProps) {
   const currentRef = useRef<HTMLButtonElement>(null);
+  const [viewMode, setViewMode] = useState<"expanded" | "compact">("expanded");
 
   // Scroll current chapter into view when drawer opens
   useEffect(() => {
@@ -34,7 +35,7 @@ export default function ChapterPicker({
         currentRef.current?.scrollIntoView({ block: "center", behavior: "auto" });
       }, 50);
     }
-  }, [open]);
+  }, [open, viewMode]);
 
   // Close on Escape
   useEffect(() => {
@@ -57,6 +58,8 @@ export default function ChapterPicker({
     parts.get(key)!.push({ ...ch, _idx: i });
   }
 
+  const isExpanded = viewMode === "expanded";
+
   return (
     <>
       {/* Backdrop */}
@@ -69,32 +72,86 @@ export default function ChapterPicker({
 
       {/* Drawer */}
       <div
-        className={`fixed top-0 right-0 bottom-0 z-50 w-80 max-w-[85vw] bg-[#111] transform transition-transform duration-300 ease-out flex flex-col ${
+        className={`fixed top-0 right-0 bottom-0 z-50 max-w-[85vw] bg-[#111] transform transition-all duration-300 ease-out flex flex-col ${
           open ? "translate-x-0" : "translate-x-full"
-        }`}
+        } ${isExpanded ? "w-[420px]" : "w-80"}`}
       >
         <div className="flex items-center justify-between p-4 border-b border-white/10 flex-shrink-0">
           <h3 className="text-sm font-semibold text-white/80">
             Table of Contents
           </h3>
-          <button
-            onClick={onClose}
-            className="p-1 hover:bg-white/10 rounded"
-            aria-label="Close"
-          >
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              className="text-white/60"
+          <div className="flex items-center gap-1">
+            {/* Compact list toggle */}
+            <button
+              onClick={() => setViewMode("compact")}
+              className="p-1.5 rounded transition-colors"
+              style={
+                !isExpanded
+                  ? { backgroundColor: accentColor + "30", color: accentColor }
+                  : undefined
+              }
+              aria-label="Compact view"
+              title="Compact view"
             >
-              <line x1="18" y1="6" x2="6" y2="18" />
-              <line x1="6" y1="6" x2="18" y2="18" />
-            </svg>
-          </button>
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                className={isExpanded ? "text-white/40" : ""}
+              >
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <line x1="3" y1="12" x2="21" y2="12" />
+                <line x1="3" y1="18" x2="21" y2="18" />
+              </svg>
+            </button>
+            {/* Expanded card toggle */}
+            <button
+              onClick={() => setViewMode("expanded")}
+              className="p-1.5 rounded transition-colors"
+              style={
+                isExpanded
+                  ? { backgroundColor: accentColor + "30", color: accentColor }
+                  : undefined
+              }
+              aria-label="Expanded view"
+              title="Expanded view"
+            >
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                className={!isExpanded ? "text-white/40" : ""}
+              >
+                <rect x="3" y="3" width="18" height="8" rx="1" />
+                <rect x="3" y="13" width="18" height="8" rx="1" />
+              </svg>
+            </button>
+            {/* Close */}
+            <button
+              onClick={onClose}
+              className="p-1 hover:bg-white/10 rounded ml-1"
+              aria-label="Close"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                className="text-white/60"
+              >
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+          </div>
         </div>
 
         <nav className="p-2 flex-1 overflow-y-auto scrollbar-thin">
@@ -111,6 +168,77 @@ export default function ChapterPicker({
                 const isCurrent = ch._idx === currentChapter;
                 const isRead = ch._idx < readChapters;
 
+                if (isExpanded) {
+                  return (
+                    <button
+                      key={ch.id}
+                      ref={isCurrent ? currentRef : undefined}
+                      onClick={() => onSelectChapter(ch._idx)}
+                      className={`w-full text-left p-2 rounded-lg transition-colors mb-1.5 border ${
+                        isCurrent
+                          ? "bg-white/[0.08] border-white/[0.15]"
+                          : "bg-white/[0.03] border-white/[0.06] hover:bg-white/[0.07]"
+                      }`}
+                      style={isCurrent ? { borderColor: `${accentColor}66` } : undefined}
+                    >
+                      {/* Thumbnail */}
+                      {ch.image && (
+                        <div className="w-full aspect-video rounded overflow-hidden bg-white/[0.06] mb-2">
+                          <img
+                            src={ch.image}
+                            alt=""
+                            loading="lazy"
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                      )}
+                      {/* Info */}
+                      <div className="px-1">
+                        <div className="flex items-center justify-between gap-2">
+                          <span className="text-xs text-white/40">
+                            Chapter {ch.number}
+                            {isCurrent && (
+                              <span
+                                className="ml-2 text-[10px] font-semibold uppercase tracking-wider"
+                                style={{ color: accentColor }}
+                              >
+                                Reading
+                              </span>
+                            )}
+                          </span>
+                          <div className="flex items-center gap-1.5 flex-shrink-0">
+                            <span className="text-xs text-white/30">
+                              {Math.max(1, Math.round(ch.wordCount / 230))}m
+                            </span>
+                            {isRead && (
+                              <svg
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                                className="text-white/30"
+                              >
+                                <polyline points="20 6 9 17 4 12" />
+                              </svg>
+                            )}
+                          </div>
+                        </div>
+                        <p className="text-sm font-semibold text-white mt-0.5">
+                          {ch.title}
+                        </p>
+                        {ch.summary && (
+                          <p className="text-xs text-white/40 mt-1 line-clamp-2 leading-relaxed">
+                            {ch.summary}
+                          </p>
+                        )}
+                      </div>
+                    </button>
+                  );
+                }
+
+                // Compact view
                 return (
                   <button
                     key={ch.id}

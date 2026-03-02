@@ -9,6 +9,7 @@ IMAGE="gcr.io/${PROJECT_ID}/${SERVICE_NAME}"
 BUCKET="gs://grandoldbooks-assets"
 IMG_DIR="web/public/data/images"
 DATA_DIR="web/public/data"
+MARKER=".last_gcs_sync"
 
 echo "==> Deploying ${SERVICE_NAME} to Cloud Run"
 echo "    Project: ${PROJECT_ID}"
@@ -18,18 +19,20 @@ echo ""
 # Ensure gcloud is pointed at the right project
 gcloud config set project "${PROJECT_ID}" --quiet
 
-# ── Step 1: Convert any new PNGs to WebP ──
+# ── Step 1: Convert any new PNGs to WebP (parallel) ──
 echo "==> Converting new PNGs to WebP..."
-converted=0
-while IFS= read -r png; do
+TO_CONVERT=$(find "$IMG_DIR" -name "*.png" | while read -r png; do
   webp="${png%.png}.webp"
-  if [ ! -f "$webp" ]; then
-    cwebp -q 80 -quiet "$png" -o "$webp"
-    converted=$((converted + 1))
-    echo "  Converted: $(basename "$webp")"
-  fi
-done < <(find "$IMG_DIR" -name "*.png")
-echo "  ${converted} new images converted"
+  [ ! -f "$webp" ] && echo "$png"
+done || true)
+
+if [ -n "$TO_CONVERT" ]; then
+  converted=$(echo "$TO_CONVERT" | wc -l | tr -d ' ')
+  echo "$TO_CONVERT" | xargs -P 8 -I{} sh -c 'cwebp -q 80 -quiet "$1" -o "${1%.png}.webp" && echo "  Converted: $(basename "${1%.png}.webp")"' _ {}
+  echo "  ${converted} new images converted"
+else
+  echo "  0 new images converted"
+fi
 
 # ── Step 2: Ensure all JSON refs use .webp ──
 echo "==> Ensuring JSON references use .webp..."
@@ -40,20 +43,37 @@ else
   echo "  Already up to date"
 fi
 
-# ── Step 3: Sync images to GCS ──
-echo "==> Syncing images to GCS..."
-gcloud storage rsync -r "$IMG_DIR" "${BUCKET}/data/images" \
-  --cache-control='public, max-age=2592000' \
-  --project="${PROJECT_ID}" \
-  --delete-unmatched-destination-objects \
-  --quiet
-echo "  Done"
+# ── Step 3 & 4: GCS sync and Cloud Build (parallel) ──
+SYNC_PID=""
+BUILD_PID=""
 
-# ── Step 4: Build and push container (images excluded via .dockerignore) ──
+# Step 3: Sync images to GCS (skip if no changes)
+if [ -f "$MARKER" ] && [ -z "$(find "$IMG_DIR" -newer "$MARKER" -name '*.webp' -print -quit)" ]; then
+  echo "==> Skipping GCS sync (no image changes since last sync)"
+else
+  echo "==> Syncing images to GCS..."
+  (gcloud storage rsync -r "$IMG_DIR" "${BUCKET}/data/images" \
+    --cache-control='public, max-age=2592000' \
+    --project="${PROJECT_ID}" \
+    --delete-unmatched-destination-objects \
+    --quiet && touch "$MARKER") &
+  SYNC_PID=$!
+fi
+
+# Step 4: Build and push container
 echo "==> Building container image..."
 gcloud builds submit web/ \
   --tag "${IMAGE}" \
-  --quiet
+  --quiet &
+BUILD_PID=$!
+
+# Wait for both background jobs
+if [ -n "$SYNC_PID" ]; then
+  wait "$SYNC_PID" || { echo "ERROR: GCS sync failed"; exit 1; }
+  echo "  GCS sync done"
+fi
+wait "$BUILD_PID" || { echo "ERROR: Cloud Build failed"; exit 1; }
+echo "  Build done"
 
 # ── Step 5: Deploy to Cloud Run ──
 echo "==> Deploying to Cloud Run..."

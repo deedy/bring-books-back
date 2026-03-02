@@ -177,6 +177,120 @@ async def deduplicate_glossary(data, book_id):
     return {"glossary": glossary, "chapters": chapter_terms}
 
 
+async def reconcile_characters(data, book_id):
+    """Aggressively merge character duplicates using Gemini Flash.
+
+    The standard dedup step catches some aliases, but character-specific
+    reconciliation is needed for names vs. honorifics vs. kinship terms
+    (e.g., "Aai" = "Mother" = "Shyam's mother" = "Yashoda").
+    """
+    glossary = data["glossary"]
+    chapter_terms = data["chapters"]
+
+    characters = {k: v for k, v in glossary.items() if v["type"] == "character"}
+    if len(characters) < 2:
+        print(f"  [{book_id}] Only {len(characters)} characters, nothing to reconcile")
+        return data
+
+    entries = []
+    for name, info in sorted(characters.items()):
+        count = sum(1 for ch_terms in chapter_terms.values() if name in ch_terms)
+        entries.append(f"  {name} ({count} chapters): {info['description'][:150]}")
+
+    prompt = (
+        "Below is a list of character entries extracted from a novel. Many entries refer to the "
+        "SAME person under different names, spellings, honorifics, kinship terms, or references.\n\n"
+        "For example:\n"
+        "- 'Aai', 'Mother', 'Shyam\\'s mother', 'Yashoda' might all be the same person\n"
+        "- 'Shyam' and 'Shyama' are likely the same person\n"
+        "- 'Bhau', 'Father', 'Bapa', 'Bapu' might all refer to the same father figure\n"
+        "- 'Dwarakakaku' and 'Dwaraka-kaku' are spelling variants\n"
+        "- 'Mathura' and 'Mathure' are the same person\n\n"
+        "AGGRESSIVELY identify ALL groups of entries that refer to the same person. "
+        "Consider: variant spellings, nicknames, honorifics, kinship terms (mother, father, uncle, etc.), "
+        "possessive forms ('Shyam's mother' vs 'Aai'), cultural equivalents, and hyphenation variants.\n\n"
+        "For each group, pick the best canonical name — prefer the character's actual given name "
+        "(e.g., 'Yashoda' over 'Mother'). If no proper name exists, use the most common reference "
+        "(highest chapter count).\n\n"
+        "Characters:\n" + "\n".join(entries) + "\n\n"
+        'Return JSON: {"groups": [{"canonical": "BestName", "aliases": ["Alias1", "Alias2"], '
+        '"merged_description": "Best 1-2 sentence description combining all info"}]}\n'
+        "Include ALL groups with 2+ entries. Be aggressive — err on the side of merging."
+    )
+
+    response = await client.chat.completions.create(
+        model="google/gemini-3-flash-preview",
+        messages=[
+            {"role": "system", "content": (
+                "You are a literary analyst specializing in Indian literature. "
+                "You understand that Indian novels use many different names, honorifics, "
+                "and kinship terms for the same character. Be thorough and aggressive "
+                "in identifying duplicates."
+            )},
+            {"role": "user", "content": prompt},
+        ],
+        temperature=0.2,
+        response_format={"type": "json_object"},
+    )
+
+    result = json.loads(response.choices[0].message.content)
+    groups = result.get("groups", [])
+
+    merged_count = 0
+    for group in groups:
+        canonical = group["canonical"]
+        aliases = group.get("aliases", [])
+        merged_desc = group.get("merged_description", "")
+
+        # Find canonical in glossary (or first alias that exists)
+        if canonical not in glossary:
+            for candidate in [canonical] + aliases:
+                if candidate in glossary:
+                    canonical = candidate
+                    break
+            else:
+                continue
+
+        if merged_desc:
+            glossary[canonical]["description"] = merged_desc
+
+        for alias in aliases:
+            if alias == canonical:
+                continue
+
+            # Always clean up chapter references, even if alias was already
+            # removed from glossary by a previous group in this pass
+            for ch_id, terms in chapter_terms.items():
+                if alias in terms:
+                    terms.remove(alias)
+                    if canonical not in terms:
+                        terms.append(canonical)
+
+            # Only delete from glossary if still present
+            if alias in glossary:
+                if glossary[alias].get("image") and not glossary[canonical].get("image"):
+                    glossary[canonical]["image"] = glossary[alias]["image"]
+                del glossary[alias]
+                merged_count += 1
+
+    print(f"  [{book_id}] Reconciled {merged_count} character aliases across {len(groups)} groups")
+
+    # Clean up orphan chapter references (terms in chapters but not in glossary)
+    glossary_keys = set(glossary.keys())
+    orphan_count = 0
+    for ch_id, terms in chapter_terms.items():
+        orphans = [t for t in terms if t not in glossary_keys]
+        for o in orphans:
+            terms.remove(o)
+            orphan_count += 1
+    if orphan_count:
+        print(f"  [{book_id}] Removed {orphan_count} orphan chapter references")
+
+    chars_after = sum(1 for v in glossary.values() if v["type"] == "character")
+    print(f"  [{book_id}] Characters: {len(characters)} -> {chars_after}")
+    return {"glossary": glossary, "chapters": chapter_terms}
+
+
 SUMMARY_SYSTEM_PROMPT = (
     "You write concise chapter teasers for a book browsing page. "
     "Write exactly 1 sentence of 22-25 words. Count carefully before responding. "
@@ -298,6 +412,9 @@ async def _run_async(book_id, force=False):
         print(f"\n[{book_id}] Deduplicating glossary...")
         output = await deduplicate_glossary(output, book_id)
 
+        print(f"\n[{book_id}] Reconciling characters...")
+        output = await reconcile_characters(output, book_id)
+
         Path(output_path).parent.mkdir(parents=True, exist_ok=True)
         with open(output_path, "w") as f:
             json.dump(output, f, indent=2, ensure_ascii=False)
@@ -332,13 +449,46 @@ def run(book_id, force=False):
     return asyncio.run(_run_async(book_id, force=force))
 
 
+async def _run_reconcile(book_id):
+    """Run character reconciliation on existing annotations."""
+    cfg = get_book(book_id)
+    output_path = str(cfg.web_annotations_json)
+
+    if not os.path.exists(output_path):
+        print(f"[{book_id}] annotations.json not found: {output_path}")
+        return False
+
+    with open(output_path) as f:
+        data = json.load(f)
+
+    chars_before = sum(1 for v in data["glossary"].values() if v["type"] == "character")
+    print(f"[{book_id}] Reconciling characters ({chars_before} characters)...")
+    data = await reconcile_characters(data, book_id)
+
+    with open(output_path, "w") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    chars_after = sum(1 for v in data["glossary"].values() if v["type"] == "character")
+    print(f"[{book_id}] Saved {output_path} ({chars_after} characters)")
+    return True
+
+
+def run_reconcile(book_id):
+    """Run character reconciliation on existing annotations."""
+    return asyncio.run(_run_reconcile(book_id))
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generate annotations for a book")
     parser.add_argument("--book", required=True, help="Book ID")
     parser.add_argument("--force", action="store_true", help="Force re-run")
+    parser.add_argument("--reconcile", action="store_true", help="Run character reconciliation only")
     args = parser.parse_args()
 
-    run(args.book, force=args.force)
+    if args.reconcile:
+        run_reconcile(args.book)
+    else:
+        run(args.book, force=args.force)
 
 
 if __name__ == "__main__":
