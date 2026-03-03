@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { getCatalog, getChapters } from "@/lib/data";
 import { slugify, chapterPath } from "@/lib/utils";
 import { redirect } from "next/navigation";
@@ -33,7 +34,7 @@ export async function generateMetadata({
     ? `${chapterTitle} — ${book.title}`
     : `Read ${book.title}`;
   const description = `Read ${book.title} by ${author?.name ?? "Unknown"} — free English translation with illustrations`;
-  const coverPng = book.coverImage.replace(".webp", ".png");
+  const coverPng = `https://storage.googleapis.com/grandoldbooks-assets${book.coverImage.replace(".webp", ".png")}`;
 
   return {
     title,
@@ -111,7 +112,15 @@ export default async function ChapterRoutePage({
   if (path.length === 2) {
     const num = parseInt(path[0], 10);
     const initialChapter = isNaN(num) ? 1 : num;
-    return <ReaderLoader bookId={id} initialChapter={initialChapter} />;
+    return (
+      <Suspense fallback={
+        <div className="fixed inset-0 bg-[#1a1a1a] flex items-center justify-center">
+          <div className="w-8 h-8 border-2 border-white/20 border-t-white/60 rounded-full animate-spin" />
+        </div>
+      }>
+        <ReaderLoader bookId={id} initialChapter={initialChapter} />
+      </Suspense>
+    );
   }
 
   // 4 segments → part book: [partNum, partSlug, chapterNum, chapterSlug]
@@ -122,7 +131,15 @@ export default async function ChapterRoutePage({
       (ch) => ch.part === partNum && ch.number === chapterNum,
     );
     const initialChapter = idx >= 0 ? idx + 1 : 1;
-    return <ReaderLoader bookId={id} initialChapter={initialChapter} />;
+    return (
+      <Suspense fallback={
+        <div className="fixed inset-0 bg-[#1a1a1a] flex items-center justify-center">
+          <div className="w-8 h-8 border-2 border-white/20 border-t-white/60 rounded-full animate-spin" />
+        </div>
+      }>
+        <ReaderLoader bookId={id} initialChapter={initialChapter} />
+      </Suspense>
+    );
   }
 
   // Fallback → first chapter

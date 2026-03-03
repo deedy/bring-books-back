@@ -23,6 +23,9 @@ client = OpenAI(
 
 SCANNING_ARTIFACTS = [
     r"Digitized by srujanika@gmail\.com",
+    r"www\.MurchOna\.(?:com|org)",
+    r"suman_a[lh]*m@yahoo\.com\s*WWW\.MURCHONA\.COM[^\n]*(?:\n[^\n]*\|+[^\n]*)*",
+    r"-{10,}",
 ]
 
 

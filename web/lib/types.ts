@@ -19,6 +19,8 @@ export interface Book {
   totalStories?: number;
   anthologyId?: string;
   storyNumber?: number;
+  hasOriginalText?: boolean;
+  originalScript?: string;
 }
 
 export interface Author {
@@ -71,6 +73,8 @@ export interface BookMeta {
   totalStories?: number;
   anthologyId?: string;
   storyNumber?: number;
+  hasOriginalText?: boolean;
+  originalScript?: string;
 }
 
 export interface ReadingProgress {
@@ -93,4 +97,16 @@ export interface AnnotationsData {
 
 export interface AnthologyData {
   storyBookIds: string[];
+}
+
+export interface OriginalChapter {
+  id: string;
+  title?: string;
+  paragraphs: string[];
+}
+
+export interface OriginalChaptersData {
+  language: string;
+  script: string;
+  chapters: OriginalChapter[];
 }

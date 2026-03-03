@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { Catalog, ChaptersData, BookMeta, AnnotationsData, AnthologyData } from "./types";
+import { Catalog, ChaptersData, BookMeta, AnnotationsData, AnthologyData, OriginalChaptersData } from "./types";
 
 export { slugify } from "./utils";
 
@@ -37,6 +37,13 @@ export function getAnnotations(bookId: string): AnnotationsData | null {
 
 export function getAnthologyData(bookId: string): AnthologyData | null {
   const filePath = path.join(dataDir, "books", bookId, "anthology.json");
+  if (!fs.existsSync(filePath)) return null;
+  const data = fs.readFileSync(filePath, "utf-8");
+  return JSON.parse(data);
+}
+
+export function getOriginalChapters(bookId: string): OriginalChaptersData | null {
+  const filePath = path.join(dataDir, "books", bookId, "chapters_original.json");
   if (!fs.existsSync(filePath)) return null;
   const data = fs.readFileSync(filePath, "utf-8");
   return JSON.parse(data);

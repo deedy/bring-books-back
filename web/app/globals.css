@@ -40,3 +40,23 @@ body {
 .scrollbar-thin::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.25);
 }
+
+/* Indic script font families — loaded dynamically via Google Fonts <link>.
+   Tiro fonts are designed for literary long-form reading; Noto as fallback. */
+.font-devanagari { font-family: "Tiro Devanagari Hindi", "Noto Serif Devanagari", serif; }
+.font-bengali { font-family: "Tiro Bangla", "Noto Serif Bengali", serif; }
+.font-tamil { font-family: "Tiro Tamil", "Noto Serif Tamil", serif; }
+.font-malayalam { font-family: "Noto Serif Malayalam", serif; }
+.font-odia { font-family: "Noto Serif Oriya", serif; }
+.font-telugu { font-family: "Tiro Telugu", "Noto Serif Telugu", serif; }
+.font-kannada { font-family: "Tiro Kannada", "Noto Serif Kannada", serif; }
+
+/* Global rules for all Indic scripts in reading view */
+.font-devanagari, .font-bengali, .font-tamil, .font-malayalam,
+.font-odia, .font-telugu, .font-kannada {
+  font-synthesis: none;
+  text-decoration-skip-ink: auto;
+  word-break: normal;
+  overflow-wrap: break-word;
+  letter-spacing: normal;
+}

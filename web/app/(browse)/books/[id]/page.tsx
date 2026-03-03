@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getCatalog, getAnnotations, getChapters, getAnthologyData } from "@/lib/data";
-import ReadButton from "@/components/ReadButton";
-import DownloadButton from "@/components/DownloadButton";
 import BookCard from "@/components/BookCard";
 import ShareButtons from "@/components/ShareButtons";
 import BookOpenTracker from "@/components/BookOpenTracker";
+import ReadActions from "@/components/ReadActions";
 import CharacterGrid from "@/components/CharacterGrid";
 import ChapterList from "@/components/ChapterList";
 import AnnotatedSummary from "@/components/AnnotatedSummary";
@@ -28,6 +27,7 @@ export async function generateMetadata({
   const author = catalog.authors.find((a) => a.id === book.authorId);
   const title = `${book.title} by ${author?.name ?? "Unknown"}`;
   const description = book.summary.slice(0, 160);
+  const ogImage = `https://storage.googleapis.com/grandoldbooks-assets${book.coverImage.replace(".webp", ".png")}`;
   return {
     title,
     description,
@@ -37,13 +37,13 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      images: [{ url: book.coverImage.replace(".webp", ".png") }],
+      images: [{ url: ogImage }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [book.coverImage.replace(".webp", ".png")],
+      images: [ogImage],
     },
   };
 }
@@ -69,7 +69,22 @@ export default async function BookPage({
     : [];
 
   // For regular books: load chapters, annotations, etc.
+  // For anthologies: merge glossary from all story-books for annotated summary
   const annotations = !isAnthology ? getAnnotations(id) : null;
+  const anthologyGlossary = isAnthology && anthologyData
+    ? (() => {
+        const merged: Record<string, import("@/lib/types").Annotation> = {};
+        for (const sid of anthologyData.storyBookIds) {
+          const ann = getAnnotations(sid);
+          if (ann) {
+            for (const [term, entry] of Object.entries(ann.glossary)) {
+              if (!merged[term]) merged[term] = entry;
+            }
+          }
+        }
+        return Object.keys(merged).length > 0 ? merged : null;
+      })()
+    : null;
   const chaptersData = !isAnthology ? getChapters(id) : null;
   const chaptersForList = chaptersData
     ? chaptersData.chapters.map(({ paragraphs, ...rest }) => rest)
@@ -241,10 +256,14 @@ export default async function BookPage({
           {/* Read/Download only for non-anthologies */}
           {!isAnthology && (
             <>
-              <div className="mt-6 flex flex-wrap items-center gap-3">
-                <ReadButton bookId={book.id} accentColor={book.accentColor} totalChapters={book.totalChapters} />
-                <DownloadButton bookId={book.id} />
-              </div>
+              <ReadActions
+                bookId={book.id}
+                accentColor={book.accentColor}
+                totalChapters={book.totalChapters}
+                hasOriginalText={book.hasOriginalText}
+                originalLanguage={book.originalLanguage}
+                originalScript={book.originalScript}
+              />
               <BookOpenTracker bookId={book.id} />
             </>
           )}
@@ -260,8 +279,10 @@ export default async function BookPage({
         <h2 className="text-xl font-bold text-white mb-4">
           {isAnthology ? "About This Collection" : "About This Book"}
         </h2>
-        {!isAnthology && annotations ? (
+        {annotations ? (
           <AnnotatedSummary summary={book.summary} glossary={annotations.glossary} />
+        ) : anthologyGlossary ? (
+          <AnnotatedSummary summary={book.summary} glossary={anthologyGlossary} />
         ) : (
           <p className="text-white/60 leading-relaxed">{book.summary}</p>
         )}

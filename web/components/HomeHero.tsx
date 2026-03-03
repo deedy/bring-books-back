@@ -12,9 +12,12 @@ interface HomeHeroProps {
 
 
 export default function HomeHero({ books, authors }: HomeHeroProps) {
-  const [activeIndex, setActiveIndex] = useState(() =>
-    Math.floor(Math.random() * books.length)
-  );
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  // Randomize on client after hydration
+  useEffect(() => {
+    setActiveIndex(Math.floor(Math.random() * books.length));
+  }, [books.length]);
   const [paused, setPaused] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -197,6 +200,9 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
                     {bookAuthor.name}
                   </p>
                   <p className="text-[11px] text-white/30 mt-0.5">
+                    {b.transliteratedTitle && b.transliteratedTitle !== b.title && (
+                      <><span className="italic">{b.transliteratedTitle}</span> &middot; </>
+                    )}
                     {b.originalLanguage} &middot; {displayYear(b.originalYear, b.yearEnd)} &middot;{" "}
                     {readingTime(b.wordCount)}
                   </p>

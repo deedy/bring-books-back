@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState, useCallback } from "react";
-import { Chapter, AnnotationsData } from "@/lib/types";
+import { Chapter, AnnotationsData, OriginalChaptersData } from "@/lib/types";
 import { useReadingStore } from "@/lib/store";
+import { useRouter, useSearchParams } from "next/navigation";
 import ReaderHeader from "./ReaderHeader";
 import ProgressBar from "./ProgressBar";
 import ChapterContent from "./ChapterContent";
@@ -25,6 +26,11 @@ interface ReaderViewProps {
   totalChapters: number;
   initialChapter?: number;
   annotations?: AnnotationsData;
+  hasOriginalText?: boolean;
+  originalLanguage?: string;
+  originalScript?: string;
+  initialOriginalData?: OriginalChaptersData | null;
+  isOriginalActive: boolean;
 }
 
 export default function ReaderView({
@@ -38,10 +44,71 @@ export default function ReaderView({
   totalChapters,
   initialChapter,
   annotations,
+  originalLanguage,
+  originalScript,
+  initialOriginalData,
+  isOriginalActive,
 }: ReaderViewProps) {
   const updateProgress = useReadingStore((s) => s.updateProgress);
   const scrollMode = useReadingStore((s) => s.scrollMode);
   const setScrollMode = useReadingStore((s) => s.setScrollMode);
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  // Original-language chapter map (built from data passed by ReaderLoader)
+  const originalChapterMap = useRef<Map<string, { paragraphs: string[]; title?: string }>>(new Map());
+  useEffect(() => {
+    if (!initialOriginalData) return;
+    const map = new Map<string, { paragraphs: string[]; title?: string }>();
+    for (const ch of initialOriginalData.chapters) {
+      map.set(ch.id, { paragraphs: ch.paragraphs, title: ch.title });
+    }
+    originalChapterMap.current = map;
+  }, [initialOriginalData]);
+
+  // Toggle language via URL param
+  const toggleLanguage = useCallback(() => {
+    const params = new URLSearchParams(searchParams.toString());
+    if (isOriginalActive) {
+      params.delete("language");
+    } else if (originalLanguage) {
+      params.set("language", originalLanguage.toLowerCase());
+    }
+    const qs = params.toString();
+    router.replace(`${window.location.pathname}${qs ? `?${qs}` : ""}`, { scroll: false });
+  }, [isOriginalActive, originalLanguage, searchParams, router]);
+
+  // Dynamically load Google Font for the original script
+  useEffect(() => {
+    if (!isOriginalActive || !originalScript || originalScript === "Latin") return;
+    // Tiro fonts for literary reading, Noto as fallback
+    const fontFamilies: Record<string, string[]> = {
+      Devanagari: ["Tiro+Devanagari+Hindi", "Noto+Serif+Devanagari"],
+      Bengali: ["Tiro+Bangla", "Noto+Serif+Bengali"],
+      Tamil: ["Tiro+Tamil", "Noto+Serif+Tamil"],
+      Malayalam: ["Noto+Serif+Malayalam"],
+      Odia: ["Noto+Serif+Oriya"],
+      Telugu: ["Tiro+Telugu", "Noto+Serif+Telugu"],
+      Kannada: ["Tiro+Kannada", "Noto+Serif+Kannada"],
+    };
+    const families = fontFamilies[originalScript];
+    if (!families) return;
+    const linkId = `gfont-${originalScript}`;
+    if (document.getElementById(linkId)) return;
+    const familyParam = families.map((f) => `family=${f}`).join("&");
+    const link = document.createElement("link");
+    link.id = linkId;
+    link.rel = "stylesheet";
+    link.href = `https://fonts.googleapis.com/css2?${familyParam}&display=swap`;
+    document.head.appendChild(link);
+  }, [isOriginalActive, originalScript]);
+
+  const resolvedChapters = chapters.map((ch) => {
+    if (!isOriginalActive) return ch;
+    const orig = originalChapterMap.current.get(ch.id);
+    if (!orig) return ch;
+    return { ...ch, paragraphs: orig.paragraphs, ...(orig.title ? { title: orig.title } : {}) };
+  });
 
   const [currentIndex, setCurrentIndex] = useState(() => {
     if (initialChapter !== undefined && initialChapter >= 1 && initialChapter <= chapters.length) {
@@ -77,16 +144,18 @@ export default function ReaderView({
   // Suppress observer updates while programmatically scrolling
   const suppressObserverRef = useRef(false);
 
-  const chapter = chapters[currentIndex];
-  const prevChapter = currentIndex > 0 ? chapters[currentIndex - 1] : null;
+  const chapter = resolvedChapters[currentIndex];
+  const prevChapter = currentIndex > 0 ? resolvedChapters[currentIndex - 1] : null;
 
   // Build chapter URL path
   const chapterUrl = useCallback(
     (idx: number) => {
       const ch = chapters[idx];
-      return `/read/${bookId}/${chapterPath(ch, idx + 1)}`;
+      const base = `/read/${bookId}/${chapterPath(ch, idx + 1)}`;
+      const qs = searchParams.toString();
+      return qs ? `${base}?${qs}` : base;
     },
-    [bookId, chapters]
+    [bookId, chapters, searchParams]
   );
 
   // Navigate to chapter by index
@@ -429,8 +498,8 @@ export default function ReaderView({
       })()
     : ((currentIndex + chapterProgress / 100) / totalChapters) * 100;
 
-  const nextChapter = currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null;
-  const isSingleChapter = chapters.length === 1;
+  const nextChapter = currentIndex < resolvedChapters.length - 1 ? resolvedChapters[currentIndex + 1] : null;
+  const isSingleChapter = resolvedChapters.length === 1;
 
   const bgColor = darkMode ? "#1a1a1a" : "#fafafa";
   const textColor = darkMode ? "#e5e5e5" : "#1a1a1a";
@@ -478,6 +547,10 @@ export default function ReaderView({
         onChangeFontSize={setFontSize}
         scrollMode={scrollMode}
         onToggleScrollMode={handleToggleScrollMode}
+        originalLanguage={originalLanguage}
+        originalScript={originalScript}
+        isOriginalActive={isOriginalActive}
+        onToggleLanguage={originalLanguage ? toggleLanguage : undefined}
       />
 
       <ChapterPicker
@@ -541,7 +614,7 @@ export default function ReaderView({
       {scrollMode === "infinite" ? (
         /* Infinite scroll: render all chapters */
         <div className="pb-32">
-          {chapters.map((ch, idx) => (
+          {resolvedChapters.map((ch, idx) => (
             <div
               key={ch.id}
               style={{ contentVisibility: "auto", containIntrinsicSize: "auto 800px" }}
@@ -555,10 +628,11 @@ export default function ReaderView({
                 darkMode={darkMode}
                 fontSize={fontSize}
                 isFirst={idx === 0}
-                chapterTerms={annotations?.chapters[ch.id]}
-                glossary={annotations?.glossary}
-                quoteHighlight={quoteHighlight ?? undefined}
-                onHighlightRef={onHighlightRef}
+                chapterTerms={isOriginalActive ? undefined : annotations?.chapters[ch.id]}
+                glossary={isOriginalActive ? undefined : annotations?.glossary}
+                quoteHighlight={isOriginalActive ? undefined : quoteHighlight ?? undefined}
+                onHighlightRef={isOriginalActive ? undefined : onHighlightRef}
+                languageScript={isOriginalActive ? originalScript : undefined}
               />
             </div>
           ))}
@@ -679,10 +753,11 @@ export default function ReaderView({
                 isFirst={false}
                 hideImage
                 hideChapterHeading={isSingleChapter}
-                chapterTerms={annotations?.chapters[chapter.id]}
-                glossary={annotations?.glossary}
-                quoteHighlight={quoteHighlight ?? undefined}
-                onHighlightRef={onHighlightRef}
+                chapterTerms={isOriginalActive ? undefined : annotations?.chapters[chapter.id]}
+                glossary={isOriginalActive ? undefined : annotations?.glossary}
+                quoteHighlight={isOriginalActive ? undefined : quoteHighlight ?? undefined}
+                onHighlightRef={isOriginalActive ? undefined : onHighlightRef}
+                languageScript={isOriginalActive ? originalScript : undefined}
               />
             )}
           </div>

@@ -20,6 +20,7 @@ STAGES = [
     "translate",
     "chapters",
     "json",
+    "original_json",
     "annotations",
     "images",
     "characters",
@@ -35,6 +36,7 @@ def check_stage(book_id, stage):
         "translate": lambda: os.path.exists(str(cfg.english_raw_txt)),
         "chapters": lambda: os.path.exists(str(cfg.chapters_def_json)),
         "json": lambda: os.path.exists(str(cfg.web_chapters_json)),
+        "original_json": lambda: os.path.exists(str(cfg.web_original_chapters_json)),
         "annotations": lambda: os.path.exists(str(cfg.web_annotations_json)),
         "images": lambda: (
             os.path.exists(str(cfg.images_dir))
@@ -77,6 +79,9 @@ def run_stage(book_id, stage, force=False):
         return run(book_id, force=force)
     elif stage == "json":
         from pipeline.generate_json import run
+        return run(book_id, force=force)
+    elif stage == "original_json":
+        from pipeline.generate_original_json import run
         return run(book_id, force=force)
     elif stage == "annotations":
         from pipeline.generate_annotations import run

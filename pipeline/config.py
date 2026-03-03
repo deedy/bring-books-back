@@ -49,6 +49,9 @@ class BookConfig:
     # ── Hero banner ───────────────────────────────────────────────────────
     hero_prompt: str = ""
 
+    # ── Original text ──────────────────────────────────────────────────
+    original_script: str = ""  # e.g., "Devanagari", "Bengali", "Tamil"
+
     # ── Book type ────────────────────────────────────────────────────────
     type: str = "book"  # "book" or "anthology"
 
@@ -108,6 +111,10 @@ class BookConfig:
         return self.web_book_dir / "chapters.json"
 
     @property
+    def web_original_chapters_json(self) -> Path:
+        return self.web_book_dir / "chapters_original.json"
+
+    @property
     def web_annotations_json(self) -> Path:
         return self.web_book_dir / "annotations.json"
 
@@ -148,6 +155,7 @@ _register(BookConfig(
     author_name="Kalki Krishnamurthy",
     author_years="1899–1954",
     original_language="Tamil",
+    original_script="Tamil",
     original_year=1955,
     genre=["Historical Fiction", "Epic"],
     accent_color="#8B6914",
@@ -216,6 +224,7 @@ _register(BookConfig(
     author_name="Rahul Sankrityayan",
     author_years="1893–1963",
     original_language="Hindi",
+    original_script="Devanagari",
     original_year=1924,
     genre=["Science Fiction", "Utopian Fiction"],
     accent_color="#4B0082",
@@ -273,6 +282,7 @@ _register(BookConfig(
     author_name="Bankim Chandra Chattopadhyay",
     author_years="1838–1894",
     original_language="Bengali",
+    original_script="Bengali",
     original_year=1882,
     genre=["Historical Romance", "Adventure"],
     accent_color="#800020",
@@ -328,6 +338,7 @@ _register(BookConfig(
     author_name="Peary Chand Mitra",
     author_years="1814–1883",
     original_language="Bengali",
+    original_script="Bengali",
     original_year=1858,
     genre=["Social Satire", "Realist Fiction"],
     accent_color="#2F4F4F",
@@ -380,6 +391,7 @@ _register(BookConfig(
     author_name="Mokkapati Narasimha Shastri",
     author_years="1892–1975",
     original_language="Telugu",
+    original_script="Telugu",
     original_year=1924,
     genre=["Humor", "Picaresque"],
     accent_color="#8B4513",
@@ -433,6 +445,7 @@ _register(BookConfig(
     author_name="Devaki Nandan Khatri",
     author_years="1861–1913",
     original_language="Hindi",
+    original_script="Devanagari",
     original_year=1888,
     genre=["Fantasy", "Romance", "Adventure"],
     accent_color="#8B0000",
@@ -518,6 +531,7 @@ _register(BookConfig(
     author_name="Kalindi Charan Panigrahi",
     author_years="1901–1991",
     original_language="Odia",
+    original_script="Odia",
     original_year=1929,
     genre=["Realist Fiction", "Rural Life"],
     accent_color="#B8860B",
@@ -593,6 +607,7 @@ _register(BookConfig(
     author_name="Sane Guruji",
     author_years="1899–1950",
     original_language="Marathi",
+    original_script="Devanagari",
     original_year=1935,
     genre=["Autobiography", "Coming of Age"],
     accent_color="#D2691E",
@@ -671,7 +686,8 @@ _register(BookConfig(
     author_id="thakazhi-sivasankara-pillai",
     author_name="Thakazhi Sivasankara Pillai",
     author_years="1912–1999",
-    original_language="Tamil (translation of Malayalam)",
+    original_language="Malayalam",
+    original_script="Malayalam",
     original_year=1978,
     genre=["Epic Fiction", "Social Realism"],
     accent_color="#2E8B57",
@@ -749,6 +765,7 @@ _register(BookConfig(
     author_name="Rabindranath Tagore",
     author_years="1861–1941",
     original_language="Bengali",
+    original_script="Bengali",
     original_year=1916,
     genre=["Literary Fiction", "Political Novel"],
     accent_color="#8B4513",
@@ -837,6 +854,7 @@ _register(BookConfig(
     author_name="Kuvempu",
     author_years="1904–1994",
     original_language="Kannada",
+    original_script="Kannada",
     original_year=1967,
     genre=["Literary Fiction", "Nature Writing"],
     accent_color="#556B2F",
@@ -894,6 +912,7 @@ _register(BookConfig(
     author_name="Mircea Eliade",
     author_years="1907–1986",
     original_language="Romanian",
+    original_script="Latin",
     original_year=1933,
     genre=["Autobiographical Fiction", "Romance"],
     accent_color="#8B4513",
@@ -974,6 +993,7 @@ _register(BookConfig(
     author_name="Maitreyi Devi",
     author_years="1914–1990",
     original_language="Bengali",
+    original_script="Bengali",
     original_year=1974,
     genre=["Autobiographical Fiction", "Memoir"],
     accent_color="#722F37",
@@ -1075,6 +1095,7 @@ _register(BookConfig(
     author_name="Satyajit Ray",
     author_years="1921–1992",
     original_language="Bengali",
+    original_script="Bengali",
     original_year=1965,
     genre=["Detective Fiction", "Mystery"],
     accent_color="#2E5A3C",

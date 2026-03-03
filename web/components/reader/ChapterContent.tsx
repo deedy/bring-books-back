@@ -25,6 +25,7 @@ interface ChapterContentProps {
   hideChapterHeading?: boolean;
   quoteHighlight?: QuoteHighlight;
   onHighlightRef?: (el: HTMLElement | null) => void;
+  languageScript?: string;
 }
 
 /** Split text on quoted segments and style them differently. */
@@ -167,7 +168,22 @@ export default function ChapterContent({
   hideChapterHeading,
   quoteHighlight,
   onHighlightRef,
+  languageScript,
 }: ChapterContentProps) {
+  // Map script names to CSS font classes and per-script line-height.
+  // Values based on W3C Layout Requirements and Material Design guidelines.
+  const scriptConfig: Record<string, { fontClass: string; lineHeight: number }> = {
+    Devanagari: { fontClass: "font-devanagari", lineHeight: 1.9 },
+    Bengali:    { fontClass: "font-bengali",    lineHeight: 1.9 },
+    Tamil:      { fontClass: "font-tamil",      lineHeight: 1.8 },
+    Malayalam:  { fontClass: "font-malayalam",  lineHeight: 2.1 },
+    Odia:       { fontClass: "font-odia",       lineHeight: 1.8 },
+    Telugu:     { fontClass: "font-telugu",     lineHeight: 1.9 },
+    Kannada:    { fontClass: "font-kannada",    lineHeight: 1.8 },
+  };
+  const isIndicScript = !!languageScript && languageScript !== "Latin";
+  const config = languageScript ? scriptConfig[languageScript] : undefined;
+  const fontClass = config?.fontClass ?? "";
   return (
     <article className={`mb-16 ${isFirst ? "pt-16" : ""}`}>
       {/* Part divider */}
@@ -239,11 +255,14 @@ export default function ChapterContent({
 
       {/* Paragraphs */}
       <div
-        className={`max-w-[720px] mx-auto px-5 sm:px-6 ${fontSizeMap[fontSize]}`}
-        style={{ fontFamily: "var(--font-serif)" }}
+        className={`max-w-[720px] mx-auto px-5 sm:px-6 ${fontSizeMap[fontSize]} ${fontClass}`}
+        style={{
+          fontFamily: isIndicScript ? undefined : "var(--font-serif)",
+          ...(isIndicScript && config ? { lineHeight: config.lineHeight } : {}),
+        }}
       >
         {chapter.paragraphs.map((p, i) => {
-          const isHighlighted = quoteHighlight?.paragraphIndex === i;
+          const isHighlighted = !languageScript && quoteHighlight?.paragraphIndex === i;
           return (
             <p
               key={i}
@@ -255,8 +274,8 @@ export default function ChapterContent({
                 marginTop: 0,
                 ...(isHighlighted
                   ? {
-                      backgroundColor: quoteHighlight.accentColor + "18",
-                      borderLeft: `3px solid ${quoteHighlight.accentColor}`,
+                      backgroundColor: quoteHighlight!.accentColor + "18",
+                      borderLeft: `3px solid ${quoteHighlight!.accentColor}`,
                       paddingLeft: "1em",
                       paddingTop: "0.3em",
                       paddingBottom: "0.3em",
