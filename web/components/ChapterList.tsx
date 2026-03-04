@@ -1,10 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import type { Chapter } from "@/lib/types";
 import { useReadingStore } from "@/lib/store";
 import { readingTime, chapterPath } from "@/lib/utils";
+
+/** Hook that returns the stored language param for a book (reactive to store changes). */
+function useBookLanguageParam(bookId: string): string | undefined {
+  const lang = useReadingStore((s) => s.bookLanguages[bookId]);
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  return mounted ? lang : undefined;
+}
 
 type ChapterSummary = Omit<Chapter, "paragraphs">;
 
@@ -26,6 +34,7 @@ function initialRange(total: number, currentIdx: number | null): { start: number
 
 export default function ChapterList({ chapters, bookId, accentColor }: ChapterListProps) {
   const progress = useReadingStore((s) => s.getProgress(bookId));
+  const languageParam = useBookLanguageParam(bookId);
   const currentIdx = progress && !progress.finished ? progress.currentChapter : null;
   const range = initialRange(chapters.length, currentIdx);
 
@@ -62,6 +71,7 @@ export default function ChapterList({ chapters, bookId, accentColor }: ChapterLi
                 bookId={bookId}
                 isCurrent={gi === currentIdx}
                 accentColor={accentColor}
+                languageParam={languageParam}
               />
             );
           });
@@ -109,6 +119,7 @@ export default function ChapterList({ chapters, bookId, accentColor }: ChapterLi
             bookId={bookId}
             isCurrent={gi === currentIdx}
             accentColor={accentColor}
+            languageParam={languageParam}
           />
         );
       })}
@@ -131,14 +142,17 @@ function ChapterCard({
   bookId,
   isCurrent,
   accentColor,
+  languageParam,
 }: {
   chapter: ChapterSummary;
   index: number;
   bookId: string;
   isCurrent: boolean;
   accentColor: string;
+  languageParam?: string;
 }) {
-  const href = `/read/${bookId}/${chapterPath(chapter, index)}`;
+  const base = `/read/${bookId}/${chapterPath(chapter, index)}`;
+  const href = languageParam ? `${base}?language=${languageParam}` : base;
   const time = readingTime(chapter.wordCount);
 
   return (

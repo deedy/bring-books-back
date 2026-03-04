@@ -9,7 +9,7 @@ export default function BrowseLayout({
   return (
     <>
       <Header />
-      <main className="pt-16 min-h-screen">{children}</main>
+      <main className="pt-12 min-h-screen">{children}</main>
       <Footer />
     </>
   );

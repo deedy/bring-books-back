@@ -1,9 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ReadButton from "./ReadButton";
 import DownloadButton from "./DownloadButton";
 import LanguageToggle from "./LanguageToggle";
+import { useReadingStore } from "@/lib/store";
 
 interface ReadActionsProps {
   bookId: string;
@@ -22,16 +23,41 @@ export default function ReadActions({
   originalLanguage,
   originalScript,
 }: ReadActionsProps) {
-  const [languageParam, setLanguageParam] = useState<string | undefined>(undefined);
+  const setBookLanguage = useReadingStore((s) => s.setBookLanguage);
+  const storedLang = useReadingStore((s) => s.bookLanguages[bookId]);
+  const progress = useReadingStore((s) => s.getProgress(bookId));
 
+  // Wait for Zustand persist hydration before rendering
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => {
+    // If already hydrated (fast path), set immediately
+    if (useReadingStore.persist.hasHydrated()) {
+      setHydrated(true);
+      return;
+    }
+    const unsub = useReadingStore.persist.onFinishHydration(() => setHydrated(true));
+    return unsub;
+  }, []);
+
+  const languageParam = hydrated ? storedLang : undefined;
+
+  const handleLanguageChange = (lang: "english" | "original") => {
+    const param = lang === "original" && originalLanguage ? originalLanguage.toLowerCase() : undefined;
+    setBookLanguage(bookId, param);
+  };
+
+  const isOriginal = hydrated && !!languageParam;
+
+  // Reserve layout space but hide content until hydrated to avoid flicker
   return (
-    <>
+    <div style={{ visibility: hydrated ? "visible" : "hidden" }}>
       <div className="mt-6 flex flex-wrap items-center gap-3">
         <ReadButton
           bookId={bookId}
           accentColor={accentColor}
           totalChapters={totalChapters}
           languageParam={languageParam}
+          progress={hydrated ? progress : null}
         />
         <DownloadButton bookId={bookId} />
       </div>
@@ -42,12 +68,11 @@ export default function ReadActions({
             originalLanguage={originalLanguage}
             originalScript={originalScript}
             accentColor={accentColor}
-            onLanguageChange={(lang) =>
-              setLanguageParam(lang === "original" ? originalLanguage.toLowerCase() : undefined)
-            }
+            isOriginal={isOriginal}
+            onLanguageChange={handleLanguageChange}
           />
         </div>
       )}
-    </>
+    </div>
   );
 }

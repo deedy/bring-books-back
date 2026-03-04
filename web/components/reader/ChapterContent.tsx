@@ -2,6 +2,7 @@
 
 import { Chapter, Annotation } from "@/lib/types";
 import { readingTime } from "@/lib/utils";
+import { SCRIPT_CONFIG } from "@/lib/scripts";
 import ChapterImage from "./ChapterImage";
 import AnnotatedTerm from "./AnnotatedTerm";
 
@@ -170,19 +171,8 @@ export default function ChapterContent({
   onHighlightRef,
   languageScript,
 }: ChapterContentProps) {
-  // Map script names to CSS font classes and per-script line-height.
-  // Values based on W3C Layout Requirements and Material Design guidelines.
-  const scriptConfig: Record<string, { fontClass: string; lineHeight: number }> = {
-    Devanagari: { fontClass: "font-devanagari", lineHeight: 1.9 },
-    Bengali:    { fontClass: "font-bengali",    lineHeight: 1.9 },
-    Tamil:      { fontClass: "font-tamil",      lineHeight: 1.8 },
-    Malayalam:  { fontClass: "font-malayalam",  lineHeight: 2.1 },
-    Odia:       { fontClass: "font-odia",       lineHeight: 1.8 },
-    Telugu:     { fontClass: "font-telugu",     lineHeight: 1.9 },
-    Kannada:    { fontClass: "font-kannada",    lineHeight: 1.8 },
-  };
   const isIndicScript = !!languageScript && languageScript !== "Latin";
-  const config = languageScript ? scriptConfig[languageScript] : undefined;
+  const config = languageScript ? SCRIPT_CONFIG[languageScript] : undefined;
   const fontClass = config?.fontClass ?? "";
   return (
     <article className={`mb-16 ${isFirst ? "pt-16" : ""}`}>

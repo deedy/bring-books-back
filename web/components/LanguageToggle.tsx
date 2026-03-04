@@ -1,37 +1,27 @@
 "use client";
 
-import { useState } from "react";
-
-const languageLabels: Record<string, string> = {
-  Hindi: "हिंदी",
-  Marathi: "मराठी",
-  Bengali: "বাংলা",
-  Tamil: "தமிழ்",
-  Malayalam: "മലയാളം",
-  Odia: "ଓଡ଼ିଆ",
-  Telugu: "తెలుగు",
-  Kannada: "ಕನ್ನಡ",
-};
+import { LANGUAGE_LABELS } from "@/lib/scripts";
 
 interface LanguageToggleProps {
   originalLanguage: string;
   originalScript: string;
   accentColor: string;
+  isOriginal: boolean;
   onLanguageChange?: (lang: "english" | "original") => void;
 }
 
 export default function LanguageToggle({
   originalLanguage,
   accentColor,
+  isOriginal,
   onLanguageChange,
 }: LanguageToggleProps) {
-  const [isOriginal, setIsOriginal] = useState(false);
-  const nativeLabel = languageLabels[originalLanguage] ?? originalLanguage;
+  const nativeLabel = LANGUAGE_LABELS[originalLanguage] ?? originalLanguage;
 
   return (
     <div className="inline-flex items-center rounded-lg border border-white/15 overflow-hidden text-sm">
       <button
-        onClick={() => { setIsOriginal(false); onLanguageChange?.("english"); }}
+        onClick={() => onLanguageChange?.("english")}
         className="px-4 py-2 font-medium transition-colors"
         style={
           !isOriginal
@@ -42,7 +32,7 @@ export default function LanguageToggle({
         English
       </button>
       <button
-        onClick={() => { setIsOriginal(true); onLanguageChange?.("original"); }}
+        onClick={() => onLanguageChange?.("original")}
         className="px-4 py-2 font-medium transition-colors"
         style={
           isOriginal

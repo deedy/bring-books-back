@@ -15,24 +15,9 @@ interface ReaderHeaderProps {
   onChangeFontSize: (size: "small" | "medium" | "large") => void;
   scrollMode: "paginated" | "infinite";
   onToggleScrollMode: () => void;
-  originalLanguage?: string;
-  originalScript?: string;
-  isOriginalActive: boolean;
-  onToggleLanguage?: () => void;
 }
 
 const fontSizes: Array<"small" | "medium" | "large"> = ["small", "medium", "large"];
-
-const languageLabels: Record<string, string> = {
-  Hindi: "हिंदी",
-  Marathi: "मराठी",
-  Bengali: "বাংলা",
-  Tamil: "தமிழ்",
-  Malayalam: "മലയാളം",
-  Odia: "ଓଡ଼ିଆ",
-  Telugu: "తెలుగు",
-  Kannada: "ಕನ್ನಡ",
-};
 
 export default function ReaderHeader({
   bookTitle,
@@ -46,10 +31,6 @@ export default function ReaderHeader({
   onChangeFontSize,
   scrollMode,
   onToggleScrollMode,
-  originalLanguage,
-  originalScript,
-  isOriginalActive,
-  onToggleLanguage,
 }: ReaderHeaderProps) {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -160,16 +141,6 @@ export default function ReaderHeader({
                 </svg>
               )}
             </button>
-            {process.env.NODE_ENV === "development" && onToggleLanguage && originalLanguage && (
-              <button
-                onClick={onToggleLanguage}
-                className={buttonClass}
-                aria-label="Toggle language"
-                title={isOriginalActive ? "Switch to English" : `Switch to ${originalLanguage}`}
-              >
-                {isOriginalActive ? "EN" : (languageLabels[originalLanguage] ?? originalLanguage)}
-              </button>
-            )}
             <button
               onClick={onTogglePicker}
               className={buttonClass}
@@ -235,17 +206,6 @@ export default function ReaderHeader({
                   <span>Font size: {fontSize}</span>
                   <span className={`${sizeClass} font-semibold`}>{sizeLabel}</span>
                 </button>
-                {process.env.NODE_ENV === "development" && onToggleLanguage && originalLanguage && (
-                  <button
-                    onClick={() => { onToggleLanguage(); setSettingsOpen(false); }}
-                    className={menuItemClass}
-                  >
-                    <span>{isOriginalActive ? "English" : originalLanguage}</span>
-                    <span className="text-xs opacity-60">
-                      {isOriginalActive ? "EN" : (languageLabels[originalLanguage] ?? "")}
-                    </span>
-                  </button>
-                )}
                 <button
                   onClick={() => { onToggleDarkMode(); setSettingsOpen(false); }}
                   className={menuItemClass}

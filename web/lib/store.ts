@@ -7,10 +7,13 @@ import { ReadingProgress } from "./types";
 interface ReadingStore {
   progress: Record<string, ReadingProgress>;
   scrollMode: "paginated" | "infinite";
+  bookLanguages: Record<string, string>;
   updateProgress: (bookId: string, progress: Partial<ReadingProgress>) => void;
   getProgress: (bookId: string) => ReadingProgress | null;
   markFinished: (bookId: string) => void;
   setScrollMode: (mode: "paginated" | "infinite") => void;
+  setBookLanguage: (bookId: string, language: string | undefined) => void;
+  getBookLanguage: (bookId: string) => string | undefined;
 }
 
 export const useReadingStore = create<ReadingStore>()(
@@ -18,7 +21,19 @@ export const useReadingStore = create<ReadingStore>()(
     (set, get) => ({
       progress: {},
       scrollMode: "paginated" as "paginated" | "infinite",
+      bookLanguages: {},
       setScrollMode: (mode: "paginated" | "infinite") => set({ scrollMode: mode }),
+      setBookLanguage: (bookId, language) =>
+        set((state) => {
+          const updated = { ...state.bookLanguages };
+          if (language) {
+            updated[bookId] = language;
+          } else {
+            delete updated[bookId];
+          }
+          return { bookLanguages: updated };
+        }),
+      getBookLanguage: (bookId) => get().bookLanguages[bookId],
       updateProgress: (bookId, update) =>
         set((state) => {
           const defaults: ReadingProgress = {

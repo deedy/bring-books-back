@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { ChaptersData, AnnotationsData, OriginalChaptersData } from "@/lib/types";
+import { SCRIPT_CONFIG } from "@/lib/scripts";
 import ReaderView from "./ReaderView";
 
 interface ReaderLoaderProps {
@@ -29,9 +30,11 @@ export default function ReaderLoader({ bookId, initialChapter }: ReaderLoaderPro
     originalScript?: string;
   } | null>(null);
   const [annotations, setAnnotations] = useState<AnnotationsData | undefined>(undefined);
+  const [ready, setReady] = useState(false);
 
-  // Load base data (English chapters, meta, annotations, catalog)
   useEffect(() => {
+    setReady(false);
+
     Promise.all([
       fetch(`/data/books/${bookId}/chapters.json`).then((r) => r.json()),
       fetch(`/data/books/${bookId}/meta.json`).then((r) => r.json()),
@@ -39,45 +42,60 @@ export default function ReaderLoader({ bookId, initialChapter }: ReaderLoaderPro
         .then((r) => (r.ok ? r.json() : null))
         .catch(() => null),
       fetch(`/data/catalog.json`).then((r) => r.json()),
-    ]).then(([chapters, meta, annot, catalog]) => {
+      wantsOriginal
+        ? fetch(`/data/books/${bookId}/chapters_original.json`)
+            .then((r) => (r.ok ? r.json() : null))
+            .catch(() => null)
+        : Promise.resolve(null),
+    ]).then(async ([chapters, meta, annot, catalog, origData]) => {
       const book = catalog.books?.find((b: { id: string }) => b.id === bookId);
       const author = book
         ? catalog.authors?.find((a: { id: string }) => a.id === book.authorId)
         : null;
       setChaptersData(chapters);
-      setBookMeta({
+      const resolvedMeta = {
         ...meta,
         authorName: author?.name ?? "Unknown",
         originalLanguage: book?.originalLanguage,
-      });
+      };
+      setBookMeta(resolvedMeta);
       if (annot) setAnnotations(annot);
+      if (origData) setOriginalData(origData);
+
+      // If showing original text, load the font and wait for it
+      // before revealing the reader — prevents fallback font flicker.
+      const script = resolvedMeta.originalScript as string | undefined;
+      if (wantsOriginal && origData && script && script !== "Latin") {
+        const scriptInfo = SCRIPT_CONFIG[script];
+        if (scriptInfo) {
+          const linkId = `gfont-${script}`;
+          if (!document.getElementById(linkId)) {
+            const familyParam = scriptInfo.googleFontFamilies.map((f) => `family=${f}`).join("&");
+            const link = document.createElement("link");
+            link.id = linkId;
+            link.rel = "stylesheet";
+            link.href = `https://fonts.googleapis.com/css2?${familyParam}&display=swap`;
+            document.head.appendChild(link);
+          }
+          // Fast path: skip await if font is already cached
+          if (!document.fonts.check(`16px "${scriptInfo.primaryFont}"`)) {
+            try {
+              await Promise.race([
+                document.fonts.load(`16px "${scriptInfo.primaryFont}"`),
+                new Promise((resolve) => setTimeout(resolve, 3000)),
+              ]);
+            } catch {
+              // Font loading failed — proceed anyway with fallback
+            }
+          }
+        }
+      }
+
+      setReady(true);
     });
-  }, [bookId]);
+  }, [bookId, wantsOriginal]);
 
-  // Load original chapters when language param requests it and book supports it
-  const fetchedOriginalRef = useRef(false);
-  useEffect(() => {
-    if (
-      wantsOriginal &&
-      bookMeta?.hasOriginalText &&
-      !originalData &&
-      !fetchedOriginalRef.current
-    ) {
-      fetchedOriginalRef.current = true;
-      fetch(`/data/books/${bookId}/chapters_original.json`)
-        .then((r) => (r.ok ? r.json() : null))
-        .then((data) => {
-          if (data) setOriginalData(data);
-        })
-        .catch(() => {});
-    }
-  }, [bookId, wantsOriginal, bookMeta?.hasOriginalText, originalData]);
-
-  // Not ready until base data loaded AND original fetched if needed
-  const needsOriginal = wantsOriginal && bookMeta?.hasOriginalText;
-  const ready = chaptersData && bookMeta && (!needsOriginal || originalData);
-
-  if (!ready) {
+  if (!ready || !chaptersData || !bookMeta) {
     return (
       <div className="fixed inset-0 bg-[#1a1a1a] flex items-center justify-center">
         <div className="w-8 h-8 border-2 border-white/20 border-t-white/60 rounded-full animate-spin" />
@@ -98,7 +116,6 @@ export default function ReaderLoader({ bookId, initialChapter }: ReaderLoaderPro
       initialChapter={initialChapter}
       annotations={annotations}
       hasOriginalText={bookMeta.hasOriginalText}
-      originalLanguage={bookMeta.originalLanguage}
       originalScript={bookMeta.originalScript}
       initialOriginalData={originalData}
       isOriginalActive={wantsOriginal && !!originalData}

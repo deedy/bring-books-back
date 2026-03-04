@@ -1,24 +1,19 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import Link from "next/link";
-import { useReadingStore } from "@/lib/store";
+import { ReadingProgress } from "@/lib/types";
 
 interface ReadButtonProps {
   bookId: string;
   accentColor: string;
   totalChapters?: number;
   languageParam?: string;
+  progress?: ReadingProgress | null;
 }
 
-export default function ReadButton({ bookId, accentColor, totalChapters, languageParam }: ReadButtonProps) {
-  const progress = useReadingStore((s) => s.getProgress(bookId));
-  const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
-
-  // Always render "Start Reading" on server; update on client after hydration
+export default function ReadButton({ bookId, accentColor, totalChapters, languageParam, progress }: ReadButtonProps) {
   let label = "Start Reading";
-  if (mounted && progress) {
+  if (progress) {
     if (progress.finished) {
       label = "Read Again";
     } else if (totalChapters === 1) {

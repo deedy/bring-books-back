@@ -1,9 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState, useCallback, useMemo } from "react";
 import { Chapter, AnnotationsData, OriginalChaptersData } from "@/lib/types";
 import { useReadingStore } from "@/lib/store";
-import { useRouter, useSearchParams } from "next/navigation";
 import ReaderHeader from "./ReaderHeader";
 import ProgressBar from "./ProgressBar";
 import ChapterContent from "./ChapterContent";
@@ -27,7 +26,6 @@ interface ReaderViewProps {
   initialChapter?: number;
   annotations?: AnnotationsData;
   hasOriginalText?: boolean;
-  originalLanguage?: string;
   originalScript?: string;
   initialOriginalData?: OriginalChaptersData | null;
   isOriginalActive: boolean;
@@ -44,7 +42,6 @@ export default function ReaderView({
   totalChapters,
   initialChapter,
   annotations,
-  originalLanguage,
   originalScript,
   initialOriginalData,
   isOriginalActive,
@@ -52,63 +49,26 @@ export default function ReaderView({
   const updateProgress = useReadingStore((s) => s.updateProgress);
   const scrollMode = useReadingStore((s) => s.scrollMode);
   const setScrollMode = useReadingStore((s) => s.setScrollMode);
-  const router = useRouter();
-  const searchParams = useSearchParams();
 
-  // Original-language chapter map (built from data passed by ReaderLoader)
-  const originalChapterMap = useRef<Map<string, { paragraphs: string[]; title?: string }>>(new Map());
-  useEffect(() => {
-    if (!initialOriginalData) return;
+  // Original-language chapter map — built synchronously via useMemo
+  // so it's available on the very first render (no flicker).
+  const originalChapterMap = useMemo(() => {
+    if (!initialOriginalData) return null;
     const map = new Map<string, { paragraphs: string[]; title?: string }>();
     for (const ch of initialOriginalData.chapters) {
       map.set(ch.id, { paragraphs: ch.paragraphs, title: ch.title });
     }
-    originalChapterMap.current = map;
+    return map;
   }, [initialOriginalData]);
 
-  // Toggle language via URL param
-  const toggleLanguage = useCallback(() => {
-    const params = new URLSearchParams(searchParams.toString());
-    if (isOriginalActive) {
-      params.delete("language");
-    } else if (originalLanguage) {
-      params.set("language", originalLanguage.toLowerCase());
-    }
-    const qs = params.toString();
-    router.replace(`${window.location.pathname}${qs ? `?${qs}` : ""}`, { scroll: false });
-  }, [isOriginalActive, originalLanguage, searchParams, router]);
+  // Font loading is handled by ReaderLoader (waits for font before rendering)
 
-  // Dynamically load Google Font for the original script
-  useEffect(() => {
-    if (!isOriginalActive || !originalScript || originalScript === "Latin") return;
-    // Tiro fonts for literary reading, Noto as fallback
-    const fontFamilies: Record<string, string[]> = {
-      Devanagari: ["Tiro+Devanagari+Hindi", "Noto+Serif+Devanagari"],
-      Bengali: ["Tiro+Bangla", "Noto+Serif+Bengali"],
-      Tamil: ["Tiro+Tamil", "Noto+Serif+Tamil"],
-      Malayalam: ["Noto+Serif+Malayalam"],
-      Odia: ["Noto+Serif+Oriya"],
-      Telugu: ["Tiro+Telugu", "Noto+Serif+Telugu"],
-      Kannada: ["Tiro+Kannada", "Noto+Serif+Kannada"],
-    };
-    const families = fontFamilies[originalScript];
-    if (!families) return;
-    const linkId = `gfont-${originalScript}`;
-    if (document.getElementById(linkId)) return;
-    const familyParam = families.map((f) => `family=${f}`).join("&");
-    const link = document.createElement("link");
-    link.id = linkId;
-    link.rel = "stylesheet";
-    link.href = `https://fonts.googleapis.com/css2?${familyParam}&display=swap`;
-    document.head.appendChild(link);
-  }, [isOriginalActive, originalScript]);
-
-  const resolvedChapters = chapters.map((ch) => {
-    if (!isOriginalActive) return ch;
-    const orig = originalChapterMap.current.get(ch.id);
+  const resolvedChapters = useMemo(() => chapters.map((ch) => {
+    if (!isOriginalActive || !originalChapterMap) return ch;
+    const orig = originalChapterMap.get(ch.id);
     if (!orig) return ch;
     return { ...ch, paragraphs: orig.paragraphs, ...(orig.title ? { title: orig.title } : {}) };
-  });
+  }), [chapters, isOriginalActive, originalChapterMap]);
 
   const [currentIndex, setCurrentIndex] = useState(() => {
     if (initialChapter !== undefined && initialChapter >= 1 && initialChapter <= chapters.length) {
@@ -152,10 +112,12 @@ export default function ReaderView({
     (idx: number) => {
       const ch = chapters[idx];
       const base = `/read/${bookId}/${chapterPath(ch, idx + 1)}`;
-      const qs = searchParams.toString();
-      return qs ? `${base}?${qs}` : base;
+      // Read query string directly from window.location — not from
+      // searchParams which can go stale after pushState/replaceState.
+      const qs = typeof window !== "undefined" ? window.location.search : "";
+      return `${base}${qs}`;
     },
-    [bookId, chapters, searchParams]
+    [bookId, chapters]
   );
 
   // Navigate to chapter by index
@@ -173,7 +135,7 @@ export default function ReaderView({
           target.scrollIntoView({ behavior: "auto", block: "start" });
           // Offset for the header
           window.scrollBy(0, -60);
-          window.history.pushState({}, "", chapterUrl(idx));
+          window.history.replaceState({}, "", chapterUrl(idx));
           setTimeout(() => { suppressObserverRef.current = false; }, 200);
         }
       } else {
@@ -547,14 +509,10 @@ export default function ReaderView({
         onChangeFontSize={setFontSize}
         scrollMode={scrollMode}
         onToggleScrollMode={handleToggleScrollMode}
-        originalLanguage={originalLanguage}
-        originalScript={originalScript}
-        isOriginalActive={isOriginalActive}
-        onToggleLanguage={originalLanguage ? toggleLanguage : undefined}
       />
 
       <ChapterPicker
-        chapters={chapters}
+        chapters={resolvedChapters}
         currentChapter={currentIndex}
         accentColor={accentColor}
         open={showPicker}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { trackEvent } from "@/lib/analytics";
 
 interface ShareButtonsProps {
@@ -10,6 +10,8 @@ interface ShareButtonsProps {
 
 export default function ShareButtons({ url, title }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
+  const [hasNativeShare, setHasNativeShare] = useState(false);
+  useEffect(() => { setHasNativeShare(!!navigator.share); }, []);
   const fullUrl = `https://grandoldbooks.com${url}`;
   const text = `${title} — read free on Grand Old Books`;
 
@@ -46,8 +48,8 @@ export default function ShareButtons({ url, title }: ShareButtonsProps) {
     <div className="flex items-center gap-2 flex-wrap">
       <span className="text-xs text-white/30 mr-1">Share</span>
 
-      {/* Native share on mobile */}
-      {"share" in (typeof navigator !== "undefined" ? navigator : {}) && (
+      {/* Native share on mobile — deferred to client to avoid hydration mismatch */}
+      {hasNativeShare && (
         <button
           onClick={() => handleShare("native")}
           className="p-2 rounded-lg bg-white/[0.06] hover:bg-white/10 transition-colors text-white/50 hover:text-white/80"

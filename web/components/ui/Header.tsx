@@ -9,21 +9,21 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/40 backdrop-blur-xl border-b border-white/[0.06]">
-      <nav className="max-w-6xl mx-auto px-6 h-16 grid grid-cols-[1fr_auto_1fr] gap-3 items-center">
-        <div className="justify-self-start">
+      <nav className="max-w-4xl mx-auto px-4 h-12 flex items-center justify-between relative">
+        <div className="flex items-center gap-2">
           {isSubPage && (
             <Link
               href="/"
-              className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-sm font-medium tracking-wide whitespace-nowrap border border-white/15 text-white/60 hover:text-white/90 hover:border-white/30 hover:bg-white/5 transition-all"
+              className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-xs font-medium tracking-wide border border-white/20 text-white/70 hover:bg-white/10 transition-colors"
             >
-              <svg width="12" height="12" viewBox="0 0 16 16" fill="none">
-                <path d="M10 12L6 8l4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                <polyline points="15 18 9 12 15 6" />
               </svg>
               All Books
             </Link>
           )}
         </div>
-        <Link href="/" className="flex items-center gap-2.5 text-lg font-semibold tracking-tight text-white" style={{ fontFamily: "var(--font-serif)" }}>
+        <Link href="/" className="absolute left-1/2 -translate-x-1/2 flex items-center gap-2.5 text-lg font-semibold tracking-tight text-white pointer-events-auto" style={{ fontFamily: "var(--font-serif)" }}>
           <img src="/logo.png" alt="" className="w-7 h-7 rounded" />
           Grand Old Books
         </Link>

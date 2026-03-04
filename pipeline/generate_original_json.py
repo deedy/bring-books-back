@@ -27,18 +27,18 @@ text_client = OpenAI(
     base_url=OPENROUTER_BASE_URL,
     api_key=os.environ["OPENROUTER_API_KEY"],
 )
-CLEANUP_MODEL = "google/gemini-2.5-flash"
+CLEANUP_MODEL = "google/gemini-3-flash-preview"
 MAX_CLEANUP_WORKERS = 10
 
 
-def _load_english_chapter_ids(web_book_dir):
-    """Read chapter IDs from the existing English chapters.json so original IDs match exactly."""
-    chapters_path = os.path.join(str(web_book_dir), "chapters.json")
-    if not os.path.exists(chapters_path):
-        return None
-    with open(chapters_path) as f:
-        data = json.load(f)
-    return [ch["id"] for ch in data["chapters"]]
+def _strip_markdown_fences(raw: str) -> str:
+    """Strip markdown code fences from LLM output."""
+    if raw.startswith("```"):
+        raw = raw.split("\n", 1)[1] if "\n" in raw else raw[3:]
+        if raw.endswith("```"):
+            raw = raw[:-3]
+        raw = raw.strip()
+    return raw
 
 
 def _cleanup_chapter(ch_id, paragraphs, language, book_title):
@@ -101,13 +101,7 @@ def _cleanup_chapter(ch_id, paragraphs, language, book_title):
                     continue
                 break
 
-            raw = raw.strip()
-            # Strip markdown fences if model adds them
-            if raw.startswith("```"):
-                raw = raw.split("\n", 1)[1] if "\n" in raw else raw[3:]
-                if raw.endswith("```"):
-                    raw = raw[:-3]
-                raw = raw.strip()
+            raw = _strip_markdown_fences(raw.strip())
 
             cleaned = json.loads(raw)
             if isinstance(cleaned, list):
@@ -171,9 +165,10 @@ def run(book_id, force=False):
         chapters_def = json.load(f)
 
     running_headers = chapters_def.get("running_headers", [])
+    chapter_list = chapters_def.get("chapters", [])
     page_nums = sorted(pages.keys())
 
-    # Read English chapters to get IDs and compute proportional offsets
+    # Read English chapters to get IDs
     eng_chapters_path = os.path.join(str(cfg.web_book_dir), "chapters.json")
     if not os.path.exists(eng_chapters_path):
         print(f"[{book_id}] English chapters.json not found, cannot split original text")
@@ -182,65 +177,27 @@ def run(book_id, force=False):
     with open(eng_chapters_path) as f:
         eng_chapters = json.load(f)["chapters"]
 
-    # Load English text and compute chapter boundary offsets
-    with open(str(cfg.english_txt)) as f:
-        eng_text = f.read()
-    eng_pages = split_into_pages(eng_text)
-    eng_page_nums = sorted(eng_pages.keys())
-    eng_full = "\n\n".join(eng_pages[pn] for pn in eng_page_nums)
-    eng_total_len = len(eng_full)
+    if len(eng_chapters) != len(chapter_list):
+        print(f"[{book_id}] WARNING: English has {len(eng_chapters)} chapters but chapters_def has {len(chapter_list)}")
 
-    # Find each English chapter's start position in the full English text
-    # by searching for the first paragraph
-    eng_offsets = []
-    search_from = 0
-    for ech in eng_chapters:
-        # Try multiple paragraphs as needles in case the first one was reformatted
-        found = False
-        for para in ech["paragraphs"][:3]:
-            needle = para[:120]
-            if not needle:
-                continue
-            pos = eng_full.find(needle, search_from)
-            if pos != -1:
-                eng_offsets.append(pos)
-                search_from = pos + 1
-                found = True
-                break
-        if not found:
-            eng_offsets.append(-1)  # mark for interpolation
-
-    # Interpolate missing offsets from neighbors
-    for i in range(len(eng_offsets)):
-        if eng_offsets[i] != -1:
-            continue
-        # Find previous and next known offsets
-        prev_offset = eng_offsets[i - 1] if i > 0 else 0
-        next_idx = next((j for j in range(i + 1, len(eng_offsets)) if eng_offsets[j] != -1), None)
-        next_offset = eng_offsets[next_idx] if next_idx is not None else eng_total_len
-        gap_count = (next_idx if next_idx is not None else len(eng_offsets)) - (i - 1 if i > 0 else 0)
-        step = (next_offset - prev_offset) / gap_count if gap_count > 0 else 0
-        eng_offsets[i] = int(prev_offset + step * (i - (i - 1 if i > 0 else 0)))
-
-    # Build OCR full text in page order
-    ocr_full = "\n\n".join(pages[pn] for pn in page_nums)
-    ocr_total_len = len(ocr_full)
-
-    # Map English proportional offsets to OCR text positions
+    # Split OCR text by page ranges from chapters_def.json.
+    # The page numbers correspond to physical PDF pages — same for both OCR and English.
     original_chapters = []
     empty_chapters = []
-    for i, ech in enumerate(eng_chapters):
-        # Proportional mapping: where this chapter starts/ends in the OCR text
-        eng_start_frac = eng_offsets[i] / eng_total_len if eng_total_len > 0 else 0
-        eng_end_frac = eng_offsets[i + 1] / eng_total_len if i + 1 < len(eng_offsets) else 1.0
+    for i, ch_def in enumerate(chapter_list):
+        start_page = ch_def["page"]
+        end_page = chapter_list[i + 1]["page"] if i + 1 < len(chapter_list) else max(page_nums) + 1
+        # When two chapters share the same start page, give each at least one page
+        if end_page <= start_page:
+            end_page = start_page + 1
 
-        ocr_start = int(eng_start_frac * ocr_total_len)
-        ocr_end = int(eng_end_frac * ocr_total_len)
-
-        body = ocr_full[ocr_start:ocr_end]
+        body = "\n\n".join(
+            pages[pn] for pn in page_nums if start_page <= pn < end_page
+        )
         paras = text_to_paragraphs(body, running_headers)
 
-        ch_id = ech["id"]
+        # Use English chapter ID to ensure exact match
+        ch_id = eng_chapters[i]["id"] if i < len(eng_chapters) else f"ch-{i+1}"
 
         if not paras:
             empty_chapters.append(ch_id)
@@ -295,12 +252,7 @@ def run(book_id, force=False):
                 ],
                 temperature=0,
             )
-            raw = response.choices[0].message.content.strip()
-            if raw.startswith("```"):
-                raw = raw.split("\n", 1)[1] if "\n" in raw else raw[3:]
-                if raw.endswith("```"):
-                    raw = raw[:-3]
-                raw = raw.strip()
+            raw = _strip_markdown_fences(response.choices[0].message.content.strip())
             translated_titles = json.loads(raw)
             if isinstance(translated_titles, list) and len(translated_titles) == len(eng_titles):
                 for ch, title in zip(original_chapters, translated_titles):
@@ -330,11 +282,9 @@ def run(book_id, force=False):
 
     # 3. Total original paragraphs should be at least 10% of English total
     eng_chapters_path = os.path.join(str(cfg.web_book_dir), "chapters.json")
-    if os.path.exists(eng_chapters_path):
-        with open(eng_chapters_path) as f:
-            eng_total = sum(len(ch["paragraphs"]) for ch in json.load(f)["chapters"])
-        orig_total = sum(len(ch["paragraphs"]) for ch in original_chapters)
-        if eng_total > 0 and orig_total < eng_total * 0.1:
+    eng_total = sum(len(ch["paragraphs"]) for ch in eng_chapters)
+    orig_total = sum(len(ch["paragraphs"]) for ch in original_chapters)
+    if eng_total > 0 and orig_total < eng_total * 0.1:
             problems.append(f"too few paragraphs overall: {orig_total} original vs {eng_total} English ({orig_total/eng_total:.0%})")
 
     quality_ok = len(problems) == 0
