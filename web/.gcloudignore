@@ -1,5 +1,9 @@
 node_modules
 .next
-out
 .git
-public/data/images
+.env*
+public/
+app/
+components/
+lib/
+# Only out/, Dockerfile, nginx.conf, and package files are needed for Cloud Build.
