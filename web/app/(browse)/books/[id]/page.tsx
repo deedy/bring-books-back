@@ -13,8 +13,7 @@ import { readingTime, displayYear } from "@/lib/utils";
 
 export function generateStaticParams() {
   const catalog = getCatalog();
-  const isProd = process.env.NODE_ENV === "production";
-  return catalog.books.filter((b) => !isProd || b.enabled !== false).map((book) => ({ id: book.id }));
+  return catalog.books.map((book) => ({ id: book.id }));
 }
 
 export async function generateMetadata({
