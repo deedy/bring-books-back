@@ -1,0 +1,143 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist, a renowned Bengali detective known as a 'truth-seeker', whose identity is also used as a disguise by the antagonist Anukulbabu, a former criminal with a grudge."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, who narrates the stories and often assists in investigations."
+    },
+    "Debkumarbabu": {
+      "type": "character",
+      "description": "A scientist whose trial for murder and refusal to reveal his invention's formula is central to the chapter's mystery."
+    },
+    "Birenbabu": {
+      "type": "character",
+      "description": "Birenbabu, also known as Inspector Biren Sinha, is a police officer who collaborates with Byomkesh on the case and provides official support during the investigation."
+    },
+    "Putiram": {
+      "type": "character",
+      "description": "Byomkesh and Ajit's loyal domestic help, known for his simplicity and occasional comic relief."
+    },
+    "High Court": {
+      "type": "proper_noun",
+      "description": "Refers to the highest judicial court in the region, where Debkumarbabu's trial takes place."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The city (now Kolkata) where the story is set, a major cultural and historical center in India."
+    },
+    "Srirampore": {
+      "type": "proper_noun",
+      "description": "A town near Calcutta, where the fake corpse incident is staged as part of Byomkesh's plan."
+    },
+    "Bagbazar": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta, mentioned as the origin of a letter in the story."
+    },
+    "Daily Kalketu": {
+      "type": "proper_noun",
+      "description": "A fictional newspaper in Calcutta that publishes the classified advertisement central to the plot."
+    },
+    "Sitaram Ghose Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, given as an address in the investigation."
+    },
+    "Bowbazar": {
+      "type": "proper_noun",
+      "description": "A well-known locality in central Calcutta, referenced as a destination in the taxi chase."
+    },
+    "Harrison Road": {
+      "type": "proper_noun",
+      "description": "A major road in Calcutta, mentioned as a location the characters pass through."
+    },
+    "Diamond Harbour": {
+      "type": "proper_noun",
+      "description": "A town south of Calcutta, used as a cover story for Ajit's movements."
+    },
+    "Sealdah": {
+      "type": "proper_noun",
+      "description": "A major railway station in Calcutta, from where Ajit departs for Srirampore."
+    },
+    "Howrah": {
+      "type": "proper_noun",
+      "description": "Another major railway station in Calcutta, serving as a departure point for Srirampore."
+    },
+    "Alipore Jail": {
+      "type": "proper_noun",
+      "description": "A famous prison in Calcutta, where the antagonist previously served time."
+    },
+    "Commissioner": {
+      "type": "proper_noun",
+      "description": "Refers to the Commissioner of Police, the highest-ranking police official in the city."
+    },
+    "CID": {
+      "type": "proper_noun",
+      "description": "Criminal Investigation Department, a specialized branch of the police handling complex investigations."
+    },
+    "Chanakya": {
+      "type": "proper_noun",
+      "description": "An ancient Indian philosopher and strategist, quoted for his wisdom on secrecy and strategy."
+    },
+    "Mammon": {
+      "type": "proper_noun",
+      "description": "A biblical term symbolizing wealth or greed, used here to comment on police corruption."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful suffix or form of address for men in Bengali and Hindi, often attached to names."
+    },
+    "mess": {
+      "type": "vocabulary",
+      "description": "A boarding house or communal living arrangement, common in Indian cities for students and professionals."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional Indian long shirt worn by men."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A large piece of cloth worn over the shoulders, commonly used in India for warmth."
+    },
+    "taski": {
+      "type": "vocabulary",
+      "description": "Colloquial Bengali pronunciation for 'taxi.'"
+    },
+    "Gupta": {
+      "type": "vocabulary",
+      "description": "A common Indian surname, but also means 'secret' or 'covert' in Sanskrit/Hindi, often used in aliases."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Debkumarbabu",
+      "Birenbabu",
+      "Putiram",
+      "High Court",
+      "Calcutta",
+      "Srirampore",
+      "Bagbazar",
+      "Daily Kalketu",
+      "Sitaram Ghose Street",
+      "Bowbazar",
+      "Harrison Road",
+      "Diamond Harbour",
+      "Sealdah",
+      "Howrah",
+      "Alipore Jail",
+      "Commissioner",
+      "CID",
+      "Chanakya",
+      "Mammon",
+      "babu",
+      "mess",
+      "kurta",
+      "shawl",
+      "taski",
+      "Gupta"
+    ]
+  }
+}

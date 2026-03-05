@@ -1,0 +1,158 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist, a renowned Bengali detective known for his sharp intellect and keen powers of observation."
+    },
+    "Satyaboti": {
+      "type": "character",
+      "description": "Byomkesh's wife, caring and attentive, often involved in his domestic and investigative life."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, who narrates the stories and assists in investigations."
+    },
+    "Professor Adinath Shome": {
+      "type": "character",
+      "description": "Byomkesh's landlord, a once-promising academic whose life is troubled by marital discord with his wife Malati Devi."
+    },
+    "Malati Devi": {
+      "type": "character",
+      "description": "Professor Shome's wife, known for her difficult temperament and jealousy, which causes tension in her marriage."
+    },
+    "Ashwini Ghatok": {
+      "type": "character",
+      "description": "The local doctor, respected for his medical skills, who is secretly in love with and eventually marries Rajani."
+    },
+    "Mahidhar Choudhury": {
+      "type": "character",
+      "description": "A wealthy, amiable Bengali gentleman who hosts social gatherings and is Rajani's father."
+    },
+    "Rajani": {
+      "type": "character",
+      "description": "Mahidharbabu's daughter, an attractive and intelligent widow who later marries Dr. Ghatok."
+    },
+    "Nakulesh Sarkar": {
+      "type": "character",
+      "description": "A businessman and the town's only photographer, who took the group photograph central to the mystery."
+    },
+    "Ushanath Ghosh": {
+      "type": "character",
+      "description": "A government official in charge of the local treasury, stern and controlling, wears dark glasses due to a glass eye."
+    },
+    "Purandar Pandey": {
+      "type": "character",
+      "description": "The DSP of Police, not Bengali but fluent in the language, friendly and cooperative with Byomkesh."
+    },
+    "Amaresh Raha": {
+      "type": "character",
+      "description": "The local bank manager, seemingly unremarkable but ultimately revealed as the criminal mastermind."
+    },
+    "Phalguni Pal": {
+      "type": "character",
+      "description": "A talented but impoverished and alcoholic artist, whose sketches play a role in the unfolding mystery."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in eastern India, now known as Kolkata, often referenced as the place from which characters travel."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, the cultural and geographical setting for the story."
+    },
+    "Santhal district": {
+      "type": "proper_noun",
+      "description": "A rural area on the western fringes of Bengal, known for its indigenous Santhal population and natural landscape."
+    },
+    "DSP": {
+      "type": "proper_noun",
+      "description": "Abbreviation for Deputy Superintendent of Police, a senior police rank in India."
+    },
+    "Christmas": {
+      "type": "proper_noun",
+      "description": "A Christian festival, referenced as a time marker in the story."
+    },
+    "New Year": {
+      "type": "proper_noun",
+      "description": "The beginning of the calendar year, used as a time marker for events in the story."
+    },
+    "Gujarati": {
+      "type": "proper_noun",
+      "description": "A language spoken in the western Indian state of Gujarat, referenced in relation to Amaresh's plans."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "Now known as Mumbai, a major city in western India, mentioned as a possible destination for escape."
+    },
+    "Inspector Dubey": {
+      "type": "proper_noun",
+      "description": "A police inspector involved in the climax of the investigation."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful suffix or form of address for men in Bengal, often indicating status or familiarity."
+    },
+    "Devi": {
+      "type": "vocabulary",
+      "description": "A respectful suffix or form of address for women in Bengal, denoting respect or status."
+    },
+    "almirah": {
+      "type": "vocabulary",
+      "description": "A freestanding cupboard or wardrobe, commonly used in Indian households for storing valuables."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for women, consisting of a long piece of fabric draped around the body."
+    },
+    "rickshaw": {
+      "type": "vocabulary",
+      "description": "A small, human-powered or cycle-pulled vehicle used for transport, common in Indian towns and cities."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A piece of cloth worn over the shoulders or head, commonly used for warmth in Indian attire."
+    },
+    "peon": {
+      "type": "vocabulary",
+      "description": "An office attendant or messenger, typically performing menial tasks in Indian institutions."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Satyaboti",
+      "Ajit",
+      "Professor Adinath Shome",
+      "Malati Devi",
+      "Ashwini Ghatok",
+      "Mahidhar Choudhury",
+      "Rajani",
+      "Nakulesh Sarkar",
+      "Ushanath Ghosh",
+      "Purandar Pandey",
+      "Amaresh Raha",
+      "Phalguni Pal",
+      "Calcutta",
+      "Bengal",
+      "Santhal district",
+      "DSP",
+      "Christmas",
+      "New Year",
+      "Gujarati",
+      "Bombay",
+      "Inspector Dubey",
+      "babu",
+      "Devi",
+      "almirah",
+      "dhoti",
+      "sari",
+      "rickshaw",
+      "shawl",
+      "peon"
+    ]
+  }
+}

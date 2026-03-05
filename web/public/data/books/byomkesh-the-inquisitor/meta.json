@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-inquisitor",
+  "title": "The Inquisitor",
+  "transliteratedTitle": "Satyanweshi",
+  "subtitle": "A Mysterious Encounter in Calcutta’s Shadows",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-inquisitor.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "সত্যান্বেষী",
+  "originalYear": 1932,
+  "totalChapters": 1,
+  "wordCount": 9899,
+  "summary": "When a young aspiring writer moves into a secluded boarding house in Calcutta, he’s drawn into the enigmatic world of Byomkesh Bakshi—a man with a sharp intellect and a knack for uncovering secrets. As dusk falls, the city’s ordinary façade fades, revealing secrets and dangers that only the bravest dare face. Discover how an unexpected meeting sparks the beginning of a legendary partnership in this atmospheric detective tale.",
+  "anthologyId": "byomkesh"
+}

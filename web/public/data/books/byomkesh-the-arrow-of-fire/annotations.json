@@ -1,0 +1,160 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist, a sharp and thoughtful detective known for his keen observation and logical reasoning."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, who narrates the stories and often assists in investigations."
+    },
+    "Devkumar Babu": {
+      "type": "character",
+      "description": "A renowned professor and scientific researcher from Calcutta, father of Habul and Rekha, and a neighbor of Byomkesh."
+    },
+    "Habul": {
+      "type": "character",
+      "description": "Devkumar Babu's son, a college student who admires Byomkesh and is deeply affected by his sister Rekha's death."
+    },
+    "Rekha": {
+      "type": "character",
+      "description": "Habul's younger sister, whose sudden and mysterious death becomes the central case in the chapter."
+    },
+    "Dr. Rudra": {
+      "type": "character",
+      "description": "A renowned but abrasive physician in Calcutta, known for his skill and harsh demeanor; father of Manmathanath (Nontu)."
+    },
+    "Manmathanath Rudra": {
+      "type": "character",
+      "description": "Also called Nontu, Dr. Rudra's son, who was engaged to Rekha and is devastated by her death."
+    },
+    "Biren Babu": {
+      "type": "character",
+      "description": "The local police inspector (Daroga), respected by Byomkesh for his shrewdness and lack of arrogance."
+    },
+    "Putiram": {
+      "type": "character",
+      "description": "A servant in Byomkesh's household, occasionally mentioned in domestic contexts."
+    },
+    "Calcutta": {
+      "type": "place",
+      "description": "The city (now Kolkata) where the story is set, a major urban center in India."
+    },
+    "Delhi": {
+      "type": "place",
+      "description": "The capital city of India, where the All-India Science Congress is taking place."
+    },
+    "All-India Science Congress": {
+      "type": "place",
+      "description": "A major scientific conference in India attended by scientists and scholars from across the country."
+    },
+    "India": {
+      "type": "place",
+      "description": "The country in which the story takes place, referenced in discussions of science and national progress."
+    },
+    "Kash": {
+      "type": "place",
+      "description": "A type of flower (Saccharum spontaneum) mentioned metaphorically in the professor's speech."
+    },
+    "Lakshmi": {
+      "type": "place",
+      "description": "The Hindu goddess of wealth, invoked as a metaphor for financial resources."
+    },
+    "Ma Kali": {
+      "type": "place",
+      "description": "A Hindu goddess, depicted in a picture in the stepmother's room, symbolizing power and sometimes fear."
+    },
+    "Patna": {
+      "type": "place",
+      "description": "A city in eastern India, mentioned as the location where Devkumar Babu is to give a university lecture."
+    },
+    "College Square": {
+      "type": "place",
+      "description": "A well-known area in Calcutta, popular among students and referenced as a location in the story."
+    },
+    "Punjab Mail": {
+      "type": "place",
+      "description": "A famous express train in India, used metaphorically to describe Byomkesh's mental energy."
+    },
+    "Babu": {
+      "type": "term",
+      "description": "A respectful suffix or form of address for men, especially educated or upper-class individuals."
+    },
+    "Acharyas": {
+      "type": "term",
+      "description": "Sanskrit term for learned teachers or scholars, especially in ancient India."
+    },
+    "Rishis": {
+      "type": "term",
+      "description": "Sanskrit term for sages or seers, often associated with spiritual wisdom in ancient Indian tradition."
+    },
+    "Baithak-khana": {
+      "type": "term",
+      "description": "A sitting room or drawing room in a Bengali household."
+    },
+    "Jhumkas": {
+      "type": "term",
+      "description": "Traditional Indian earrings, often bell-shaped and ornate."
+    },
+    "Sari": {
+      "type": "term",
+      "description": "A traditional garment worn by women in India, consisting of a long piece of cloth draped around the body."
+    },
+    "Ganga-Jamuna": {
+      "type": "term",
+      "description": "A style of sari with a dual-tone border, named after the Ganges and Yamuna rivers."
+    },
+    "Birenbabu": {
+      "type": "term",
+      "description": "A respectful way to refer to Inspector Biren, combining his name with the honorific 'babu'."
+    },
+    "Daroga": {
+      "type": "term",
+      "description": "A term for a police inspector or officer in India."
+    },
+    "Thana": {
+      "type": "term",
+      "description": "A police station in India."
+    },
+    "Agnibaan": {
+      "type": "term",
+      "description": "Literally 'arrow of fire' in Sanskrit/Hindi/Bengali, used as a chapter or section title and metaphor for sudden, fatal events."
+    },
+    "Satyanweshi": {
+      "type": "term",
+      "description": "A term meaning 'truth-seeker', often used to describe Byomkesh's approach to detective work."
+    },
+    "Mantra": {
+      "type": "term",
+      "description": "A sacred utterance or chant in Hinduism, recited for spiritual purposes."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Devkumar Babu",
+      "Habul",
+      "Rekha",
+      "Dr. Rudra",
+      "Manmathanath Rudra",
+      "Biren Babu",
+      "Putiram",
+      "Calcutta",
+      "Delhi",
+      "All-India Science Congress",
+      "India",
+      "Kash",
+      "Lakshmi",
+      "Ma Kali",
+      "Patna",
+      "College Square",
+      "Punjab Mail",
+      "Babu",
+      "Ganga-Jamuna",
+      "Birenbabu",
+      "Daroga",
+      "Agnibaan"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist and sharp-eyed truth-seeker who investigates the murder at Karalibabu's house."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, who narrates the events and assists in the investigation."
+    },
+    "Bidhubabu": {
+      "type": "character",
+      "description": "The Deputy Commissioner of Police known for his pompous and ostentatious manner."
+    },
+    "Karalibabu": {
+      "type": "character",
+      "description": "A wealthy, irascible, and childless widower who frequently changed his will and was eventually murdered."
+    },
+    "Motilal": {
+      "type": "character",
+      "description": "One of Karalibabu's nephews, initially suspected of the murder due to his quarrelsome nature."
+    },
+    "Makhanlal": {
+      "type": "character",
+      "description": "Another nephew of Karalibabu, known for his indulgence in drugs but not considered as degenerate as Motilal."
+    },
+    "Phonibhushan": {
+      "type": "character",
+      "description": "Karalibabu's lame nephew, ultimately revealed as the murderer; well-read but embittered by his disability."
+    },
+    "Satyaboti": {
+      "type": "character",
+      "description": "A strong-willed and intelligent young woman devoted to her brother Sukumar and related to Karalibabu's wife."
+    },
+    "Sukumar": {
+      "type": "character",
+      "description": "Satyaboti's brother and a medical student who was the initial beneficiary of Karalibabu's last will."
+    },
+    "Putiram": {
+      "type": "character",
+      "description": "Byomkesh and Ajit's servant, who prepares tea for them."
+    },
+    "Dalim": {
+      "type": "character",
+      "description": "A woman from the red-light area, with whom Motilal claims to have spent the night."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The city (now Kolkata) where the story is set, reflecting the urban Bengali milieu."
+    },
+    "Chitra": {
+      "type": "proper_noun",
+      "description": "A cinema hall in Calcutta where Sukumar claims to have watched a film the night of the murder."
+    },
+    "Mirzapuri": {
+      "type": "proper_noun",
+      "description": "Refers to Mirzapur, a region known for its carpets; a Mirzapuri carpet is mentioned in Karalibabu's room."
+    },
+    "Gray’s Anatomy": {
+      "type": "proper_noun",
+      "description": "A famous medical textbook, found in Sukumar's room and relevant to the murder method."
+    },
+    "Cornwallis Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, used as a landmark in the narrative."
+    },
+    "CID": {
+      "type": "proper_noun",
+      "description": "Criminal Investigation Department, a specialized branch of the police in India."
+    },
+    "Christian calendar": {
+      "type": "proper_noun",
+      "description": "Refers to the Gregorian calendar, used to date the will in the story."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional Indian long shirt worn by men."
+    },
+    "chawl": {
+      "type": "vocabulary",
+      "description": "A type of low-cost, communal housing found in Indian cities, typically consisting of small rooms along a corridor."
+    },
+    "lakhs": {
+      "type": "vocabulary",
+      "description": "An Indian unit equal to one hundred thousand (100,000), often used to denote sums of money."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "teapoy": {
+      "type": "vocabulary",
+      "description": "A small table, often used to serve tea."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by women, consisting of a long piece of cloth draped around the body."
+    },
+    "probate": {
+      "type": "vocabulary",
+      "description": "The legal process of validating a will and administering the estate of the deceased."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Bidhubabu",
+      "Karalibabu",
+      "Motilal",
+      "Makhanlal",
+      "Phonibhushan",
+      "Satyaboti",
+      "Sukumar",
+      "Putiram",
+      "Dalim",
+      "Calcutta",
+      "Chitra",
+      "Mirzapuri",
+      "Gray’s Anatomy",
+      "Cornwallis Street",
+      "CID",
+      "Christian calendar",
+      "kurta",
+      "chawl",
+      "lakhs",
+      "dhoti",
+      "teapoy",
+      "sari",
+      "probate"
+    ]
+  }
+}

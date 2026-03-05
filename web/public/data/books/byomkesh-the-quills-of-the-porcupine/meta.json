@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-quills-of-the-porcupine",
+  "title": "The Quills of the Porcupine",
+  "transliteratedTitle": "Shajarur Kanta",
+  "subtitle": "A Chilling Mystery Awakens in Calcutta Dawn",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-quills-of-the-porcupine.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "শজারুর কাঁটা",
+  "originalYear": 1967,
+  "totalChapters": 1,
+  "wordCount": 36846,
+  "summary": "When a quiet Calcutta morning is shattered by an unexpected event, detective Byomkesh Bakshi is drawn into a labyrinthine mystery. As secrets unravel in the misty streets, every ordinary detail hints at something far more sinister. Step into a world where even a beggar’s routine hides a deadly secret.",
+  "anthologyId": "byomkesh"
+}

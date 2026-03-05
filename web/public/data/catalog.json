@@ -1057,6 +1057,700 @@
       "type": "anthology",
       "totalStories": 35,
       "previewText": ""
+    },
+    {
+      "id": "byomkesh-the-inquisitor",
+      "title": "The Inquisitor",
+      "transliteratedTitle": "Satyanweshi",
+      "subtitle": "A Chance Meeting in Calcutta’s Shadows",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-inquisitor.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "সত্যান্বেষী",
+      "originalYear": 1932,
+      "totalChapters": 1,
+      "wordCount": 9899,
+      "summary": "When a young aspiring writer moves into a mysterious Calcutta boarding house, he has no idea that fate will introduce him to the enigmatic Byomkesh Bakshi. Amidst the city’s shadowy streets and hidden secrets, their first encounter sets the stage for intrigue, intellect, and a mystery that will draw you in from the very first page.",
+      "anthologyId": "byomkesh",
+      "previewText": "M y first meeting with Byomkesh Bakshi took place in the spring of 1925. I was fresh out of the university. There was no pressing need to try and earn my keep. The money that my father had left in the bank generated an interest decent enough to cover the expenses of a single person living in a boarding-house in Calcutta. I had decided to remain a bachelor all my life and to spend my time practising the literary arts. The first flush of youthful enthusiasm had led me to believe that a serious dedication to the literary muse would enable me to change the face of literature in Bengal. At this point in life it is not uncommon for Bengalis to dream of greatness—and it usually doesn’t take very long for these dreams to shatter. However, let me continue with the story about my first encounter with Byomkesh."
+    },
+    {
+      "id": "byomkesh-the-gramophone-pin-mystery",
+      "title": "The Gramophone Pin Mystery",
+      "transliteratedTitle": "Pother Kanta",
+      "subtitle": "A Curious Clue Hidden in Plain Sight",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-gramophone-pin-mystery.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "পথের কাঁটা",
+      "originalYear": 1932,
+      "totalChapters": 1,
+      "wordCount": 15117,
+      "summary": "When Byomkesh Bakshi spots an odd advertisement in the morning paper, an ordinary February day quickly turns mysterious. What begins as idle curiosity soon leads to a tangled enigma—one that only the sharpest mind can unravel. Dive into this classic detective tale where every detail might be a clue.",
+      "anthologyId": "byomkesh",
+      "previewText": "B yomkesh folded the morning’s newspaper neatly and put it aside. Then he leaned back in his chair and looked out of the window abstractedly. The sun was shining brightly outside. It was a fogless February morning. There wasn’t even a cloud in the sky. We had the second floor of the house all to ourselves. The window in the drawing room provided a nice view of a part of the city and the sky. Down below, the sounds of the city coming awake had already begun; there was no end to the rush of traffic and activity on Harrison Road. Some of this bustle seemed to have carried over to the sky. Sparrows were flying around, filling the air with their uncalled-for chirps; way above them, a flock of pigeons were soaring, as if hoping to circle the sun. It was nearly eight o’clock. The two of us had just finished breakfast and were lazily turning the pages of the newspaper, looking for interesting news from the world outside. Byomkesh turned away from the window and said, ‘Have you noticed that a strange advertisement has been appearing in the newspaper for the last few days?’"
+    },
+    {
+      "id": "byomkesh-the-hidden-heirloom",
+      "title": "The Hidden Heirloom",
+      "transliteratedTitle": "Seemanto-Heera",
+      "subtitle": "A Silent City, A Buried Secret Awaits",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-hidden-heirloom.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "সীমন্ত-হীরা",
+      "originalYear": 1932,
+      "totalChapters": 1,
+      "wordCount": 9230,
+      "summary": "With crime seemingly vanishing from the city, detective Byomkesh Bakshi’s days pass in quiet routine—until a hidden mystery beckons from the shadows. When boredom gives way to intrigue, Byomkesh and his narrator are drawn into a puzzle that promises deception, danger, and a secret worth uncovering. Step into a world where peace is an illusion and a forgotten heirloom could change everything.",
+      "anthologyId": "byomkesh",
+      "previewText": "B yomkesh was out of work for some time now. The people of this country have a bad habit of not even informing the police about small crimes like theft — better to have peace than prosperity — that is their philosophy. If something serious happens — the police get to know but no one spends hard-earned money on a private detective. For some days they moan and groan and complain, even abuse the police, then they forget about the whole thing. Murders are also committed in our country. But most of the time they are acts of anger — unplanned and unintelligent — so that the murderers are caught at once — put into the jail and later hanged. So it is not surprising that the Truth Seeker Byomkesh Bakshi had hardly any truth to seek. Byomkesh was not at all bothered about this. He continued reading the newspaper from its north-west comer to the south-east comer in detail and the rest of the time he spent in his library behind closed doors. But I was getting impatient with so much of free time. Though my job was not to catch criminals but to entertain readers with my stories free of cost, in fact that was the motto of my life, I was addicted to the catching of the criminals. As a result, life"
+    },
+    {
+      "id": "byomkesh-the-venom-of-the-tarantula",
+      "title": "The Venom of the Tarantula",
+      "transliteratedTitle": "Makorshar Rosh",
+      "subtitle": "A Master Sleuth Drawn into Deadly Intrigue",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-venom-of-the-tarantula.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "মকরশার রস",
+      "originalYear": 1933,
+      "totalChapters": 1,
+      "wordCount": 6466,
+      "summary": "When Byomkesh Bakshi is coaxed out of seclusion from a taxing forgery case, an unexpected twist awaits just beyond the library walls. What begins as a simple walk by the lake soon entangles him in a web of danger and deception, where every clue could be as lethal as a tarantula’s bite. Dive into a world where intellect is the only safeguard against a cunning adversary.",
+      "anthologyId": "byomkesh",
+      "previewText": "I t was almost under duress that I got Byomkesh to leave the house. For the last month he had been concentrating on a complicated forgery case. He would sit with a pile of papers all day and try to conjure up the image of the criminal from it all. As the mystery thickened, so did his conversation trickle gradually to silence. I noticed that this endless ploughing through papers, sitting in the library day after day, wasn’t doing his health any good. But every time I brought this up, he would say, ‘Oh no, I am quite all right.’ That evening I said, ‘I am not going to take no for an answer. We’re going for a walk. You need at least a couple of hours’ respite in the day.’"
+    },
+    {
+      "id": "byomkesh-where-there-s-a-will",
+      "title": "Where There's a Will",
+      "transliteratedTitle": "Arthamanartham",
+      "subtitle": "A Sudden Call, A Deadly Secret Unveiled",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-where-there-s-a-will.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "অর্থমনর্থম",
+      "originalYear": 1933,
+      "totalChapters": 1,
+      "wordCount": 13705,
+      "summary": "A seemingly ordinary morning is shattered when detective Byomkesh Bakshi is summoned by the Deputy Commissioner to investigate a murder. As Byomkesh and his companion navigate egos and hidden motives, they are drawn into a case where nothing is as it seems. What secrets lie behind the summons, and who truly benefits where there’s a will?",
+      "anthologyId": "byomkesh",
+      "previewText": "I t was around ten-thirty in the morning; I was toying with the idea of getting up to take a shower when suddenly the telephone rang in the next room. Byomkesh got up and took the call. I could hear him say, ‘Hello, who is that? Bidhubabu? Oh, good morning. How are you? How are things? I beg your pardon? Oh, really? I have to go? Well, all right... what is the address? Fine, I’ll be there in about half an hour.’ Byomkesh came out of the room fastening the buttons on his kurta and said, ‘Come on, let’s go visiting. There’s been a murder. Bidhubabu has called for us.’ I stood up and asked, ‘Which Bidhubabu, the Deputy Commissioner?’"
+    },
+    {
+      "id": "byomkesh-quicksand",
+      "title": "Quicksand",
+      "transliteratedTitle": "Chorabali",
+      "subtitle": "A Deadly Secret Lurks Beneath the Surface",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-quicksand.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "চোরাবালি",
+      "originalYear": 1933,
+      "totalChapters": 1,
+      "wordCount": 14356,
+      "summary": "Byomkesh and Ajit seek rest and recreation at Kumar Tridib’s country estate, but the shadow of the neighboring jungle—ominously named Quicksand—hangs over their holiday. When the friends are drawn into local intrigue and whispered secrets about the land’s mysterious owner, their relaxing getaway quickly unravels into a puzzle that only a sharp mind can solve.",
+      "anthologyId": "byomkesh",
+      "previewText": "W e, that is Byomkesh and I, Ajit, could not ignore any longer the repeated requests of Kumar Tridib to visit his estate. So one cold December morning we left Calcutta for a break of seven or eight days. Our intention was to relax completely for those days, and return bright and fresh for work again, to Calcutta. There was no dearth of hospitality. We spent the first day just snacking every hour and chatting non-stop with Kumar Tridib. The main topic of our discussion was, of course, Kumar Tridib's uncle, Sir Digindra, mentioned in the story — Hidden Heirloom. After dinner, Tridib ushered us to our bedroom and said, \"We will go out early tomorrow morning for hunting. I have made all the arrangements.\""
+    },
+    {
+      "id": "byomkesh-calamity-strikes",
+      "title": "Calamity Strikes",
+      "transliteratedTitle": "Agnibaan",
+      "subtitle": "A Baffling Case Begins with a Classified Clue",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-calamity-strikes.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "অগ্নিবাণ",
+      "originalYear": 1935,
+      "totalChapters": 1,
+      "wordCount": 11791,
+      "summary": "When a slow news day leaves Byomkesh Bakshi restless, a curious advertisement in the classifieds sparks his keen detective instincts. What starts as idle banter soon leads to a web of intrigue hidden in plain sight. Step into a world where even the most mundane details hold the key to unraveling a deeper mystery.",
+      "anthologyId": "byomkesh",
+      "previewText": "W ith a dejected sway of the hand Byomkesh deposited the newspaper on my lap and said, ‘Nothing anywhere, absolutely nothing. The press people could try bringing out blank sheets instead. At least it would save them the printing costs.’ I couldn’t resist a dig, ‘Isn’t there anything in the advertisements? Don’t you always say that all the news in the world is crammed into the classified columns?’ With a downcast expression Byomkesh lit a cheroot and said, ‘No, there isn’t much even in the personal notices. Someone has placed an advertisement seeking to marry a widow. Why the insistence on a widow when there is no dearth of unmarried females? I am sure he is up to no good.’"
+    },
+    {
+      "id": "byomkesh-an-encore-for-byomkesh",
+      "title": "An Encore for Byomkesh",
+      "transliteratedTitle": "Uposonghaar",
+      "subtitle": "A Reluctant Inventor and a Deadly Secret",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-an-encore-for-byomkesh.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "উপসংহার",
+      "originalYear": 1935,
+      "totalChapters": 1,
+      "wordCount": 11481,
+      "summary": "When an unyielding scientist is convicted of murder, Byomkesh Bakshi finds himself drawn into a case where innovation meets tragedy and the truth remains tantalizingly out of reach. As political intrigue collides with scientific mystery, a single phone call hints that the case is far from over. Will Byomkesh uncover what others have missed, or will the inventor’s secret remain buried forever?",
+      "anthologyId": "byomkesh",
+      "previewText": "D ebkumarbabu’s trial had come to an end at the High Court. It was early February. The severity of winter was subsiding gradually. At times a light breeze brought the reminder that spring was not far away, but the warm rays of the morning sun still seemed inviting enough. That morning, I was sitting by the window and soaking up the sun while turning the pages of the newspaper. Byomkesh had left on some errand soon after breakfast. He had said he would be back by ten o’clock. The newspaper contained a report of the final phase of Debkumarbabu’s trial. I had no need to read about it because Byomkesh and I had been present in court through the entire proceedings. So I was turning the pages lazily and thinking about Debkumarbabu and his impossible obduracy. If he had been a little flexible, perhaps his conviction for murder could have been averted, since high politics did not always go by the penal code. But Debkumarbabu had decided not to reveal the formula of his invention, and there was no way to make him change his mind. An extensive investigation of the matchsticks, too, had failed to reveal the exact composition of the poisonous substance. So, the legal juggernaut had run its ful"
+    },
+    {
+      "id": "byomkesh-the-deadly-diamond",
+      "title": "The Deadly Diamond",
+      "transliteratedTitle": "Raktomukhi Neela",
+      "subtitle": "A Monsoon Mystery Unfolds in Kolkata",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-deadly-diamond.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "রক্তমুখী নীলা",
+      "originalYear": 1936,
+      "totalChapters": 1,
+      "wordCount": 4854,
+      "summary": "An idle, rain-soaked day turns unexpectedly intriguing when detective Byomkesh Bakshi stumbles upon news of a notorious criminal's release. Restless and craving excitement, Byomkesh is soon drawn into a web of mystery surrounding a deadly diamond. Dive into this classic whodunit where every clue brings more questions than answers.",
+      "anthologyId": "byomkesh",
+      "previewText": "B yomkesh had put up his legs on a table and was fidgeting his feet restlessly. The newspaper was open on his lap. On this monsoon morning, we were spending an idle day at home. The last four days had been spent similarly. We were feeling depressed about spending this day in the same way. The constant movement of his feet, did not disturb his concentration. He was reading the paper. I was smoking a cigarette — none of us was exchanging any words. But how long could we keep quiet? Just for the sake of talking, I said, \"Is there any news?\" Byomkesh spoke without lifting his eyes from the paper, \"The news is serious. Two culprits have been released.\" Hopefully, I said, \"Who are they?\""
+    },
+    {
+      "id": "byomkesh-byomkesh-and-barada",
+      "title": "Byomkesh and Barada",
+      "transliteratedTitle": "Byomkesh O Boroda",
+      "subtitle": "A Ghost-Seeker, a Truth-Seeker, and a Hidden Motive",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-byomkesh-and-barada.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "ব্যোমকেশ ও বরদা",
+      "originalYear": 1936,
+      "totalChapters": 1,
+      "wordCount": 16052,
+      "summary": "When Byomkesh Bakshi, India's master detective, receives an urgent invitation from an old friend now serving as a police official in Munger, he can't resist the lure of an unsolved mystery. Joined by his loyal companion, Byomkesh is thrust into a web of intrigue and secrets that challenge his deductive prowess. Journey into the heart of Bihar, where nothing is as it seems and every friendship hides a deeper story.",
+      "anthologyId": "byomkesh",
+      "previewText": "It wasn’t so very long ago that Barada-babu, the ghost-seeker, had run into Byomkesh, the truth-seeker. Byomkesh was by nature opposed to the outdoors; he preferred to spin his spider’s web in a corner of the room. But on that occasion he had surprised everyone with a journey of three hundred miles. A childhood friend of Byomkesh’s was employed as Deputy Superintendent of Police in the state of Bihar. He had been transferred to Munger some time earlier and had begun to hurl letters at Byomkesh at regular intervals. There must have been a hidden motive behind his cordial invitations; for the mind refuses to imagine that a DSP would want to revive an ancient, half-forgotten friendship without any reason. It was the middle of September; the clouds had lost their colour, perhaps due to their excessive extravagance. On a day such as this Byomkesh suggested with a kind of desperation on receiving a letter from his policeman friend, ‘Let us visit Munger.’"
+    },
+    {
+      "id": "byomkesh-picture-imperfect",
+      "title": "Picture Imperfect",
+      "transliteratedTitle": "Chitrochor",
+      "subtitle": "A Curious Case Behind Closed Doors",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-picture-imperfect.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "চিত্রচোর",
+      "originalYear": 1951,
+      "totalChapters": 1,
+      "wordCount": 18883,
+      "summary": "When routine is shattered by an unexpected mystery, detective Byomkesh Bakshi is drawn away from his afternoon respite into a web of intrigue. With keen observation and sly wit, he must unravel clues that lurk just beneath the surface of domestic calm. Step into a world where nothing is quite as it seems and every detail could hold the key to the truth.",
+      "anthologyId": "byomkesh",
+      "previewText": "S atyaboti came and stood at Byomkesh’s side with a cup of pomegranate juice. She said, ‘Here, can you please drink this up?’ I glanced at the clock; it was exactly four o’clock. The clock could be set by Satyaboti and her ministrations. Byomkesh was sitting in his easy chair reading a book. He stared gloomily at the proferred cup for a while and then said, ‘Why do I have to drink pomegranate juice every day?’"
+    },
+    {
+      "id": "byomkesh-the-mystery-of-the-fortress",
+      "title": "The Mystery of the Fortress",
+      "transliteratedTitle": "Durgo Rahasya",
+      "subtitle": "Gold, Betrayal, and Shadows in a Forgotten Fort",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-mystery-of-the-fortress.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "দুর্গরহস্য",
+      "originalYear": 1952,
+      "totalChapters": 1,
+      "wordCount": 30793,
+      "summary": "As flames of rebellion sweep across the countryside, an ancient fortress and its trove of hidden wealth become the focal point of peril and intrigue. With danger closing in, the family within must face not just marauding soldiers, but secrets that have lain dormant for generations. Enter the world of Byomkesh Bakshi, where every locked door hides a deeper mystery.",
+      "anthologyId": "byomkesh",
+      "previewText": "Durgar Hashya 283 Under the rule of the Company, the land had grown somewhat quiet. In Janakirama’s fortress, his fourth and fifth generation descendants still resided—Rajarama and his son Jayarama. Rajarama was an elderly man, his son Jayarama a youth. The household ran smoothly on the income from ancestral wealth and the surrounding zamindari. The accumulated fortune had not diminished over these generations; rather, it had increased. The descendants of Janakirama had a habit: as soon as money came into their hands, they would convert it into gold and keep it safe. In this way, piles of mohurs, asharfis, and ornaments had been hoarded. No one harbored any ill intent. In this wilderness, where was there room for luxury or vice? Suddenly, the country was set ablaze. The fire of the Sepoy Mutiny was not confined to the cities; like a wild beast, it spread into the forests and jungles as well."
+    },
+    {
+      "id": "byomkesh-the-menagerie",
+      "title": "The Menagerie",
+      "transliteratedTitle": "Chiriyakhana",
+      "subtitle": "A Scorching Summer, A Chilling Intrusion",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-menagerie.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "চিড়িয়াখানা",
+      "originalYear": 1953,
+      "totalChapters": 1,
+      "wordCount": 48819,
+      "summary": "With Calcutta sweltering in relentless heat, Byomkesh Bakshi and his companion search for relief from boredom—until an unexpected visitor interrupts their quiet game of chess. What begins as a languid summer day quickly turns into the first move of a gripping mystery. Dive into a tale where every shadow hides a secret and every knock could change everything.",
+      "anthologyId": "byomkesh",
+      "previewText": "Calcutta, soon after the Second World War. Summer was at its peak. Satyaboti’s brother, Sukumar, had taken her and the child away to Darjeeling. Byomkesh and I were on our own in the Harrison Road flat, left to roast in the heat. Work was a little slow for Byomkesh just then. This was nothing new; but this time, the length of the slack period and the sheer monotony of leisure were getting on our nerves. We were urgently in need of some diversion. To compound our misery, Satyaboti and the baby too were away. In sheer desperation, we had taken to playing chess. I had an aptitude of sorts at the game and I had taught it to Byomkesh. At the outset, he was quite easy to trump. But with time, it became increasingly difficult to beat him at the game. Eventually, the day arrived when he checkmated me with the unexpected move of a pawn. I was aware of the saying that there is no shame in being defeated by one’s disciple. But when you start losing to someone whom you have only just initiated into the game, you begin to lose faith in your own abilities. I was quite disconsolate."
+    },
+    {
+      "id": "byomkesh-the-primal-enemy",
+      "title": "The Primal Enemy",
+      "transliteratedTitle": "Adim Ripu",
+      "subtitle": "Murder, Misdirection, and Postwar Shadows",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-primal-enemy.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "আদিম রিপু",
+      "originalYear": 1955,
+      "totalChapters": 1,
+      "wordCount": 40104,
+      "summary": "When Byomkesh Bakshi’s quiet routine is interrupted by rumors of illicit firearms and shifting alliances, a new and deadly mystery begins to unfold in the city’s underbelly. Old enemies resurface and secrets lurk in every conversation—can Byomkesh untangle the web before danger strikes close to home? Step into a world where every clue might be a trap, and the primal enemy is never far away.",
+      "anthologyId": "byomkesh",
+      "previewText": "Byomkesh Samagra On the occasion of collecting his dues, when Bantul arrived, Byomkesh would offer him tea and cigarettes, and engage him in conversation; much news could be gleaned about the machinations of both enemy and ally. Bantul, in these moments, would steer the talk toward business. After the war, the American soldiers had sold off many firearms for a pittance before departing; Bantul had managed to acquire some of these weapons, and now he was trying to sell them to us. He would say, “Buy a rifle and keep it at home, sir. We can’t keep an eye on everything at all times. In troubled times, it’s good to have a weapon at hand.” I would reply, “No, Bantul, we don’t need a rifle. Something that big can’t be hidden; one day the police will get wind of it and haul us away in chains. If you could manage a pistol or a revolver instead—”"
+    },
+    {
+      "id": "byomkesh-the-arrow-of-fire",
+      "title": "The Arrow of Fire",
+      "transliteratedTitle": "Rokter Daag",
+      "subtitle": "A Costly Journey Sparks a Deadly Mystery",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-arrow-of-fire.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "রক্তের দাগ",
+      "originalYear": 1956,
+      "totalChapters": 1,
+      "wordCount": 14599,
+      "summary": "When the prospect of a trip to Kashmir is dashed by financial woes, Byomkesh Bakshi finds himself drawn into a web of intrigue far more dangerous than any vacation. As tempers flare and secrets surface, a new mystery beckons the legendary detective into its fiery depths. Will Byomkesh unravel the truth before the arrow strikes its mark?",
+      "anthologyId": "byomkesh",
+      "previewText": "Byomkesh sat up with a start and said, \"Do you know how much it costs to go to Kashmir?\" \"How much?\" \"At least a thousand rupees. Where would I get that kind of money?\""
+    },
+    {
+      "id": "byomkesh-the-moth-and-the-flame",
+      "title": "The Moth and the Flame",
+      "transliteratedTitle": "Banhi-Patanga",
+      "subtitle": "A Deadly Game Beneath a Civilized Surface",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-moth-and-the-flame.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "বহ্নি-পতঙ্গ",
+      "originalYear": 1956,
+      "totalChapters": 1,
+      "wordCount": 24922,
+      "summary": "When Byomkesh Bakshi is drawn into the shadowy world of poisonings and hidden crimes, he must peel back the layers of civility to reveal the lurking dangers beneath. As secrets and motives swirl in the winter air, every gesture and word hides more than it reveals. Dive into a mystery where trust is scarce, and the truth is more unsettling than anyone suspects.",
+      "anthologyId": "byomkesh",
+      "previewText": "Byomkesh Babu, do you think the police ever hear of every case of poisoning in our country? You don’t even need a doctor’s certificate to cremate a corpse. Perhaps if someone of importance is poisoned, there’s a bit of an uproar. Even then, the family hushes it up. Yet I believe the number of poisonings in this country is not at all insignificant.” Byomkesh, drawing deeply on his hookah, said after a pause, “Tell me, all these poisons and narcotics you people seize—where do they end up?” Pandeyji replied, “Where else would they go? They stay with us for a while, then are sent to the head office, and they take care of it. But that’s just a fraction. Most of it is out there, circulating in the black market. Whoever needs it, buys it and uses it.” Pandeyji sighed—“War and revolution strip civilized men of their civility. Then the mask of conscience and reason falls away, and the raw, ravenous beast emerges. How fragile our civilization is! At heart, we are barbarians.”"
+    },
+    {
+      "id": "byomkesh-the-jewel-case",
+      "title": "The Jewel Case",
+      "transliteratedTitle": "Monimondon",
+      "subtitle": "A Glittering Theft and a Master Sleuth",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-jewel-case.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "মণিমন্দন",
+      "originalYear": 1958,
+      "totalChapters": 1,
+      "wordCount": 8202,
+      "summary": "When a renowned jeweller’s priceless necklace vanishes without a trace, Byomkesh Bakshi is called upon to unravel the tangled threads of deception. With intrigue lurking in every shadow, this gripping mystery promises secrets, suspense, and the thrill of a case only a true detective can solve.",
+      "anthologyId": "byomkesh",
+      "previewText": "A priceless necklace made of precious gemstones had been stolen from the home of the famous jeweller Rashomoy Sirkar. I noticed the headline on page three while going through the morning newspaper. The phone rang at around eight a.m. A tremulous, unfamiliar voice asked, ‘Hello, is that Byomkeshbabu?’ ‘No,’ I replied, ‘this is Ajit. May I know who’s on the line?’"
+    },
+    {
+      "id": "byomkesh-the-death-of-amrito",
+      "title": "The Death of Amrito",
+      "transliteratedTitle": "Amriter Mrityu",
+      "subtitle": "Secrets Lurk in the Shadows of Baghmari",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-death-of-amrito.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "অমৃতের মৃত্যু",
+      "originalYear": 1959,
+      "totalChapters": 1,
+      "wordCount": 18553,
+      "summary": "When famed detective Byomkesh Bakshi arrives in the quiet village of Baghmari, he finds more than just whispers of old crimes—he uncovers a legacy of secrets left behind by soldiers and villagers alike. As danger creeps out from the shadowy jungle, Byomkesh must unravel the mysterious death of Amrito before the truth is lost forever.",
+      "anthologyId": "byomkesh",
+      "previewText": "The village was named Baghmari. It was situated just by the railway line, but to reach the village one had to walk about a mile from the station. Between the two lay a dense forest. The villagers did not usually enter the forest when going to and from the station—they slipped under the barbed wire protecting the railway line and walked along the tracks instead. The station was named Santalgola. It was quite a large station, and a small town had sprung up around it. The area was rich in paddy. Both paddy and rice were exported from the region. There were a couple of rice mills too. During the war, a company of American soldiers had camped for some time in the forest between Santalgola and Baghmari; they used to wander about bare-bodied, dressed only in trousers, and share a smoke with the farmers. They returned home after the war, leaving behind several illegitimate children and some small arms."
+    },
+    {
+      "id": "byomkesh-the-phantom-client",
+      "title": "The Phantom Client",
+      "transliteratedTitle": "Shailo Rahasya",
+      "subtitle": "A Chilling Mystery in the Shadows of Mahabaleshwar",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-phantom-client.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "শৈল রহস্য",
+      "originalYear": 1959,
+      "totalChapters": 1,
+      "wordCount": 7521,
+      "summary": "When master detective Byomkesh Bakshi pens a cryptic letter from a haunted hill station, an unseen client and an atmosphere thick with suspense set the stage for a case unlike any other. As shadows flicker and secrets grow, even the most rational mind must question where truth ends and the supernatural begins. Dive into this atmospheric mystery and discover what compels Byomkesh to confront the unknown.",
+      "anthologyId": "byomkesh",
+      "previewText": "Shayahadri Hotel, Mahabaleshwar, Pune 3rd January Dear Ajit,"
+    },
+    {
+      "id": "byomkesh-the-avenger",
+      "title": "The Avenger",
+      "transliteratedTitle": "Achin Pakhi",
+      "subtitle": "A Wedding Shadowed by Secrets and Revenge",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-avenger.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "অচিন পাখী",
+      "originalYear": 1960,
+      "totalChapters": 1,
+      "wordCount": 5696,
+      "summary": "When detective Byomkesh Bakshi attends an old friend’s daughter's wedding in a distant, ancient town, the festive atmosphere is soon pierced by an unsettling presence. As old acquaintances gather and tensions simmer beneath the celebrations, Byomkesh senses that not all is as it seems—setting the stage for a mystery where vengeance may lurk among familiar faces.",
+      "anthologyId": "byomkesh",
+      "previewText": "B yomkesh and I went to Birenbabu's daughter's wedding last February. The town was some distance away from Calcutta. It was ancient and dirty. From Calcutta It took us about three hours by train. We knew Birenbabu intimately for a long time. He was a police officer in Calcutta. An amiable and helpful man, he had retired two years back and had settled here in his ancestral home. He had begged us to attend his daughter's wedding. Byomkesh was free, so we decided to accept the invitation. As we reached the house, we heard the sound of \"shehnai\" and saw people busily running here and there. Birenbabu welcomed us warmly and took us to a decorated room, which the bridegroom with his entourage would occupy in the evening. At present it was empty. We made ourselves comfortably there and were served tea and snacks. Byomkesh told Birenbabu, \"You must be very busy, feel free to go and attend to your duties. We are very comfortable.\""
+    },
+    {
+      "id": "byomkesh-the-invisible-triangle",
+      "title": "The Invisible Triangle",
+      "transliteratedTitle": "Adrishya Trikon",
+      "subtitle": "A Web of Deceit and Unseen Motives",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-invisible-triangle.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "অদৃশ্য ত্রিকোণ",
+      "originalYear": 1961,
+      "totalChapters": 1,
+      "wordCount": 7319,
+      "summary": "When Police Inspector Ramani Mohan Sanyal shares a baffling murder case without a shred of evidence, Byomkesh Bakshi is drawn into a web where nothing is as it seems. As secrets unravel in the shadows of a distant city, can Byomkesh outwit a killer who seems invisible to the law? Dive into a mystery where intellect is the only weapon and every conversation hides a clue.",
+      "anthologyId": "byomkesh",
+      "previewText": "We had heard the story from Police Inspector Ramani Mohan Sanyal. Byomkesh and I had met Ramani babu when we went to a large city in western India on some secret government work. Due to red tape in government work, our work was getting delayed hence we were sitting doing nothing in the Dak bungalow. Ramani Babu used to come to our bungalow almost every evening, and we used to have a good chat. His face was very sweet and charming. But that is his disguise. In fact, he is a very clever and intelligent policeman. His age was less than ours, not more than forty years. But our conversations were very interesting and lively cause we belonged to the same field of catching criminals. It occurred to us that his frequent visits to us could not be of unselfish kindness; I was waiting in the hope that his purpose of frequent visit would be revealed in due time. Then one day he told us a story. Not exactly a story but a series of events related to a murder. After finishing his story, Ramani Babu said, \" Byomkesh Babu, I know who the killer is, I know why he killed; But still, I can't hang the man on the gallows. I don’t have any evidence. The only way is confession if the accused admits the cr"
+    },
+    {
+      "id": "byomkesh-the-will-that-vanished",
+      "title": "The Will That Vanished",
+      "transliteratedTitle": "Khuji Khuji Nari",
+      "subtitle": "A Missing Will, A Final Practical Joke",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-will-that-vanished.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "খুঁজি খুঁজি নারি",
+      "originalYear": 1961,
+      "totalChapters": 1,
+      "wordCount": 6203,
+      "summary": "When the wealthy and witty Rameswarbabu’s will suddenly disappears, detective Byomkesh Bakshi is drawn into a mystery swirling with family secrets and cunning humor. As Byomkesh unravels the tangled threads of Rameswarbabu’s last laugh, every clue draws him closer to a truth no one expected. Will Byomkesh solve the case before the joke turns deadly?",
+      "anthologyId": "byomkesh",
+      "previewText": "In all the fifteen years that Byomkesh had known Rameswarbabu, I doubt whether we’d met the gentleman as many times. During the last five years or so, we had not seen him at all. But twice a year, the gentleman took it upon himself to send reminders that he had not forgotten us. On the annual occasions of the Bengali New Year and then Dussehra, the gentleman sent Byomkesh a missive by post. Rameswarbabu was a wealthy man. He owned no less than eight houses in the city and his cash reserves were just as abundant. The lion’s share of the rent collected from those houses enhanced his accumulated wealth. His immediate family comprised his second wife, Kumudini, and his offspring from his first marriage: son Kusheswar and daughter Nalini. But most of all, he had an unlimited fund of humour. Rameswarbabu was a witty man. He loved a good laugh and enjoyed making others laugh too. In my experience of life and people, I had discovered a natural law: Those who were humorous by nature, seldom succeeded in acquiring wealth. In fact, Lakshmi, the goddess of wealth, only smiled upon the dour owl, her chosen mount. Rameswarbabu had turned this theory of mine on its head. At least, I was now aware"
+    },
+    {
+      "id": "byomkesh-adwitiya",
+      "title": "Adwitiya",
+      "transliteratedTitle": "Adwitiyo",
+      "subtitle": "A Daring Heist Shakes Calcutta's Calm",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-adwitiya.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "অদ্বিতীয়",
+      "originalYear": 1961,
+      "totalChapters": 1,
+      "wordCount": 6878,
+      "summary": "A series of bold daylight burglaries by mysterious young women leaves Calcutta on edge, baffling the authorities and sparking lively debates in Byomkesh Bakshi’s own home. When a new crime hits the headlines, Byomkesh and his companions find themselves drawn into a tangled web of suspicion and intrigue. Will the master detective uncover the truth behind these audacious crimes, or will the culprits slip away once more?",
+      "anthologyId": "byomkesh",
+      "previewText": "When by natures inviolable law Satyawati had a conjugal quarrel with Byomkesh I used to take a neutral position and enjoy it. But when the topic of relative excellence of women and men came up in marital disputes, I was forced to side of Byomkesh. Still, we two friends being united could not always defeat Satyawati. In the history of the vast human race, the example of male violence has been recorded so vividly that it is impossible to refute it. At last, we had to break the war of words. For some time now there has been some unique criminal activities taking place in the city of Calcutta, which Byomkesh and I were discussing one winter morning over tea along with the newspaper. The following is the modus operandi of such criminal activities that have happened recently: sometimes one, sometimes one or more classy young women head out at noon. During the afternoon the men are off to work, the women at home take a siesta after completing lunch. During this time the young women go and knock on the door of middle-class households. If the housewife is alert, she asks without opening the door. Who is it? A young woman says from outside, “I am selling good petticoat and blouse made of chi"
+    },
+    {
+      "id": "byomkesh-thus-spoke-poet-kalidasa",
+      "title": "Thus Spoke Poet Kalidasa",
+      "transliteratedTitle": "Kohen Kobi Kalidas",
+      "subtitle": "A Poet’s Riddle in a Shadowed Guest Room",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-thus-spoke-poet-kalidasa.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "কহেন কবি কালিদাস",
+      "originalYear": 1961,
+      "totalChapters": 1,
+      "wordCount": 21298,
+      "summary": "When Byomkesh and his companion are welcomed into a mysterious household, they immediately sense layers of intrigue beneath the surface. As a gentle young man lingers at the threshold, subtle clues and poetic references hint at secrets waiting to be uncovered. Dive into a tale where every word and gesture might conceal a vital truth.",
+      "anthologyId": "byomkesh",
+      "previewText": "Thus Spake Poet Kalidas 675 Phanish said, “No, sir.” “Then take them to the guest room. See that they have no inconvenience. —You gentlemen, please wash your hands and faces, tea is being prepared.”"
+    },
+    {
+      "id": "byomkesh-the-crooked-circle",
+      "title": "The Crooked Circle",
+      "transliteratedTitle": "Dushtochokro",
+      "subtitle": "A Sinister Scheme Unfolds in Calcutta",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-crooked-circle.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "দুষ্টচক্র",
+      "originalYear": 1963,
+      "totalChapters": 1,
+      "wordCount": 7841,
+      "summary": "When a desperate doctor seeks Byomkesh Bakshi’s help for a gravely ill patient, a web of mystery and intrigue begins to unravel. Reluctant yet intrigued, Byomkesh is drawn into a case where nothing is as it seems, and danger lurks beneath the surface. Will his razor-sharp intellect uncover the truth before it’s too late?",
+      "anthologyId": "byomkesh",
+      "previewText": "Dustu Chakra (Wicked Plan) Doctor Suresh Rakshit said, “You must come once, Byomkesh babu. The patient is in a very bad state, if you don’t give him your assurance, the patient may not live through."
+    },
+    {
+      "id": "byomkesh-the-submerged-peak",
+      "title": "The Submerged Peak",
+      "transliteratedTitle": "Mognomoinak",
+      "subtitle": "A Family's Secrets Surface After Sudden Deaths",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-submerged-peak.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "মগ্নমৈনাক",
+      "originalYear": 1963,
+      "totalChapters": 1,
+      "wordCount": 24597,
+      "summary": "When tragedy strikes the influential Samaddar family, Byomkesh Bakshi is drawn into a web of political intrigue and personal secrets. As hidden truths begin to rise to the surface, the line between protector and suspect blurs. Unravel the enigma behind the deaths that haunt this prosperous household—where every motive is as deep as the secrets submerged beneath.",
+      "anthologyId": "byomkesh",
+      "previewText": "Nengti said, “She’s my uncle’s friend’s daughter. Used to live in East Bengal. Her parents were killed in the Hindu-Muslim riots; the girl barely escaped with her life. My uncle gave her shelter, let her stay in the house. Her situation is much like mine.” Inwardly, I offered my respects to Nengti’s uncle, Santosh Samaddar. Though I had never met him in person, I knew of him through Nengti. He was a renowned figure; his political and business exploits were well known throughout Bangladesh. We were also familiar with his family circumstances. In fact, the story I am about to recount is a family affair of Santosh Babu himself. What I learned about the members of this family, both before and after the incident, I shall record here in brief. It was a sudden death that brought us into contact with this prosperous household. And again, it was a sudden death that drew the final curtain on the last act of this drama. I haven’t seen Nengti in many days—but let that be."
+    },
+    {
+      "id": "byomkesh-the-rhythm-of-riddles",
+      "title": "The Rhythm of Riddles",
+      "transliteratedTitle": "Henyalir Chhondo",
+      "subtitle": "A Winter Mystery in Calcutta’s Shadows",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-rhythm-of-riddles.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "হেঁয়ালির ছন্দ",
+      "originalYear": 1964,
+      "totalChapters": 1,
+      "wordCount": 8778,
+      "summary": "As Byomkesh delves into government secrets in Cuttack, his companion returns to a quiet, uneventful Calcutta—until a mysterious neighbor’s visit disrupts the monotony. A chance encounter in their three-storied building soon entangles them in a web of intrigue, promising that even the most ordinary evenings can hide extraordinary riddles. Discover a tale where every knock on the door could be the start of a new enigma.",
+      "anthologyId": "byomkesh",
+      "previewText": "Byomkesh had been to Cuttack on official work, I had accompanied him too. After a few days, it became evident that the task would not be accomplished quickly, that it would take time to rummage through a mountain of deeds and documents in the government office to unearth the truth. Accordingly, Byomkesh stayed on in Cuttack, while I returned to Calcutta. How could a Bengali household be expected to run without the presence of a man at home? On my return to Calcutta, however, I had no work. I was feeling a little helpless in Byomkesh’s absence. Winter was setting in, the days were getting shorter; and yet the hours refused to pass. Occasionally I would visit the shop, supervise Prabhat, who ran the shop, read new manuscripts if any. But still there was nothing to do for most part of the day. Then an opportunity to pass the evenings presented itself unexpectedly."
+    },
+    {
+      "id": "byomkesh-room-number-two",
+      "title": "Room Number Two",
+      "transliteratedTitle": "Room Nombor Dui",
+      "subtitle": "A Silent Room Hides a Deadly Secret",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-room-number-two.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "রুম নম্বর দুই",
+      "originalYear": 1964,
+      "totalChapters": 1,
+      "wordCount": 7522,
+      "summary": "When a guest in Room Number Two fails to respond to his morning tea, the tranquil Nirupama Hotel is thrust into an unexpected mystery. As suspicions mount and routines unravel, Byomkesh Bakshi is called upon to peel back layers of deception lurking behind closed doors. Step inside if you dare—every clue may be a trap.",
+      "anthologyId": "byomkesh",
+      "previewText": "T he manager of Nirupama Hotel, Harishchandra Hore, looked at his watch — six thirty! He quickly sat up in bed. It was very late today. He called, \"Gunadhar!\" The uniformed bearer appeared at his door. He was a thin man, very alert and efficient. Harish asked him, \"Have you given the guests their bed-tea?\" Gunadhar said, \"Yes. Everyone in the second floor has taken bed-tea, but Room Number Two of the first floor did not respond even when I knocked.\""
+    },
+    {
+      "id": "byomkesh-the-man-in-a-red-coat",
+      "title": "The Man in a Red Coat",
+      "transliteratedTitle": "Cholonar Chhondo",
+      "subtitle": "A Deadly Attempt and a Curious Clue",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-man-in-a-red-coat.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "চোলনার ছন্দ",
+      "originalYear": 1965,
+      "totalChapters": 1,
+      "wordCount": 5275,
+      "summary": "When a mysterious shooting lands a man in the hospital, detective Byomkesh Bakshi is called to unravel the bizarre tale behind the crime. As secrets begin to surface, every detail—especially the victim's striking red coat—could be the key to solving the case. Dive into a web of suspense where nothing is quite as it seems.",
+      "anthologyId": "byomkesh",
+      "previewText": "B yomkesh spoke into the phone, \"Hello?\" The police inspector Rakhalbabu's voice was heard at the other end, \"Byomkeshbabu, I am Rakhal. I am calling you up from Netaji Hospital. Could you please come here for a while?\" \"What's wrong?\""
+    },
+    {
+      "id": "byomkesh-the-quills-of-the-porcupine",
+      "title": "The Quills of the Porcupine",
+      "transliteratedTitle": "Shajarur Kanta",
+      "subtitle": "A Chilling Mystery Awakens in Calcutta Dawn",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-quills-of-the-porcupine.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "শজারুর কাঁটা",
+      "originalYear": 1967,
+      "totalChapters": 1,
+      "wordCount": 36846,
+      "summary": "When a quiet Calcutta morning is shattered by an unexpected event, detective Byomkesh Bakshi is drawn into a labyrinthine mystery. As secrets unravel in the misty streets, every ordinary detail hints at something far more sinister. Step into a world where even a beggar’s routine hides a deadly secret.",
+      "anthologyId": "byomkesh",
+      "previewText": "Prologue The story is set in south Calcutta. Before the first light of dawn had peeped over the horizon, tea was already being brewed in the small tea shop that stood on a street corner diagonally opposite Gol Park. Hot, sweet tea that was served in small earthenware mugs. Biscuits to go with it were available on request. The clientele consisted mostly of taxi drivers, bus conductors and others of that ilk—in other words, people who had to get to work at the crack of dawn."
+    },
+    {
+      "id": "byomkesh-the-annihilation-of-beni",
+      "title": "The Annihilation of Beni",
+      "transliteratedTitle": "Benishonghar",
+      "subtitle": "A Disappearance in Calcutta’s Shadowed Mansion",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-annihilation-of-beni.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "বেণীসংহার",
+      "originalYear": 1968,
+      "totalChapters": 1,
+      "wordCount": 19294,
+      "summary": "When the enigmatic Benimadhab vanishes without a trace from his grand South Calcutta home, Byomkesh Bakshi is drawn into a tangled web of family secrets and hidden motives. As suspicion falls on those closest to Benimadhab, every conversation and shadowed hallway brims with danger. Can Byomkesh unravel the truth before the darkness closes in?",
+      "anthologyId": "byomkesh",
+      "previewText": "No trace could be found. Are you very busy?' 'No.' 'Then could you come over here once? It’s not far from your house, just five minutes away. The house is called Benimadhab.' 'I know it.' 'When will you come?' 'Immediately.' Two Benimadhab Chakraborty had amassed a fortune as a contractor for the government’s military department. His sprawling three-storied house on Sadar Road in South Calcutta was but a modest testament to that wealth."
+    },
+    {
+      "id": "byomkesh-the-iron-biscuit",
+      "title": "The Iron Biscuit",
+      "transliteratedTitle": "Lohar Biscuit",
+      "subtitle": "A Curious Case at Hindustan Park",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh-the-iron-biscuit.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "লোহার বিস্কুট",
+      "originalYear": 1969,
+      "totalChapters": 1,
+      "wordCount": 4581,
+      "summary": "When an anxious bank cashier seeks Byomkesh Bakshi’s help with an unusual problem, the renowned detective’s curiosity is instantly piqued. In the quiet lanes of Calcutta, a seemingly trivial incident unravels into a web of intrigue. Dive into this riveting mystery where every detail may hold the key to the truth.",
+      "anthologyId": "byomkesh",
+      "previewText": "Kamal Babu said, “I live in this neighbourhood, on the edge of Hindustan Park, I have seen you many times, wanted to speak to you but didn't have the courage. I got a reason today, so I thought I will meet you and talk about it. A small problem has come in my life. A problem! Byomkesh held out a cigarette case and said, pray tell me, it’s been quite a while that I have solved any problems. This discussion was happening in Byomkesh’s Keyatala house on a warm Sunday Afternoon."
+    },
+    {
+      "id": "byomkesh",
+      "title": "The Complete Adventures of Byomkesh Bakshi",
+      "transliteratedTitle": "Byomkesh Samagra",
+      "subtitle": "Intrigue and Shadows in Colonial Calcutta",
+      "authorId": "sharadindu-bandyopadhyay",
+      "coverImage": "/data/images/covers/byomkesh.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Detective Fiction",
+        "Mystery"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "ব্যোমকেশ সমগ্র",
+      "originalYear": 1932,
+      "totalChapters": 32,
+      "wordCount": 487475,
+      "summary": "Step into the labyrinthine streets of 1930s–1960s Calcutta, where danger and deception lurk behind every corner. Meet Byomkesh Bakshi, the brilliant and unorthodox 'truth-seeker,' and his loyal friend Ajit, as they unravel a series of beguiling mysteries in a city teeming with secrets. From eerie boarding houses to bustling markets, each case challenges Byomkesh to untangle human psychology, moral ambiguities, and the darkest corners of society. Sharadindu Bandyopadhyay's classic stories pulse with atmospheric detail and suspense, making every investigation an immersive journey into the heart of an unforgettable era. Dive into these legendary adventures and discover why Byomkesh Bakshi remains one of literature's most beloved detectives.",
+      "type": "anthology",
+      "totalStories": 32,
+      "previewText": ""
     }
   ],
   "authors": [
@@ -1188,6 +1882,16 @@
       "bio": "Satyajit Ray (1921–1992) was an influential Indian filmmaker, writer, and illustrator, born in Calcutta (now Kolkata), West Bengal. He was educated at Presidency College and later at Visva-Bharati University in Santiniketan. Ray began his professional life as a commercial artist before moving into filmmaking, where he achieved international acclaim with films such as 'Pather Panchali.' Alongside his cinematic career, Ray made significant contributions to Bengali literature, particularly in the genre of detective and science fiction. His multifaceted talents extended to illustration, music composition, and magazine editing, making him a towering figure in twentieth-century Indian culture.\n\nRay's literary legacy is especially celebrated for his creation of Feluda, the astute Bengali private investigator featured in 'The Complete Adventures of Feluda (ফেলুদা সমগ্র, 1965).' Across 31 stories, Ray captivated readers with intricate mysteries, sharp dialogue, and evocative depictions of Indian and international locales. The Feluda stories, originally serialized in Bengali magazines, are renowned for their cerebral puzzles and the dynamic interplay between Feluda, his cousin Topshe, and the comic writer Jatayu. Ray's deft blending of intellectual challenge, travelogue, and humor has ensured the enduring popularity of Feluda, securing Ray's place as a foundational figure in modern Indian detective fiction.",
       "bookIds": [
         "feluda"
+      ]
+    },
+    {
+      "id": "sharadindu-bandyopadhyay",
+      "name": "Sharadindu Bandyopadhyay",
+      "image": "/data/images/authors/sharadindu-bandyopadhyay.webp",
+      "years": "1899–1970",
+      "bio": "Sharadindu Bandyopadhyay (1899–1970) was a celebrated Bengali author, best known for his enduring contribution to Indian detective fiction. Born in Jaunpur, Uttar Pradesh, Bandyopadhyay was educated at Vidyasagar College and later at Patna University. He initially worked as a teacher and a scriptwriter for the Bombay film industry, but his literary pursuits remained central throughout his life. His prolific career spanned several genres including historical fiction, short stories, and plays, but he achieved lasting fame for his creation of the detective Byomkesh Bakshi. Bandyopadhyay’s works reflect a deep engagement with the social and cultural life of early- to mid-20th-century Bengal.\n\nSharadindu Bandyopadhyay's literary significance lies primarily in his innovative approach to the detective genre within Indian literature. The featured collection, 'The Complete Adventures of Byomkesh Bakshi (ব্যোমকেশ সমগ্র, 1932),' anthologizes all 32 stories chronicling the exploits of Byomkesh Bakshi and his friend Ajit Bandyopadhyay. Set against the evocative backdrop of Calcutta’s lanes and colonial-era neighborhoods, these stories are noted for their psychological depth, moral ambiguity, and atmospheric detail. Bandyopadhyay’s nuanced portrayal of his detective as a 'truth-seeker' rather than merely a sleuth set a new standard for the genre in Bengali literature. His legacy endures, with Byomkesh Bakshi remaining one of the most iconic detective figures in South Asian fiction, inspiring numerous adaptations in film, television, and theatre.",
+      "bookIds": [
+        "byomkesh"
       ]
     }
   ]

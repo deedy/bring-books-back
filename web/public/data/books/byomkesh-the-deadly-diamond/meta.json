@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-deadly-diamond",
+  "title": "The Deadly Diamond",
+  "transliteratedTitle": "Raktomukhi Neela",
+  "subtitle": "A Monsoon Morning, A Murderous Secret",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-deadly-diamond.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "রক্তমুখী নীলা",
+  "originalYear": 1936,
+  "totalChapters": 1,
+  "wordCount": 4854,
+  "summary": "Byomkesh Bakshi is restless, longing for excitement as the rain keeps him indoors—until an ominous news item stirs his curiosity. With two notorious figures newly released, the air is thick with tension and the promise of a new mystery. Dive into this atmospheric detective tale where even an idle day can spark deadly intrigue.",
+  "anthologyId": "byomkesh"
+}

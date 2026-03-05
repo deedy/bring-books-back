@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-quicksand",
+  "title": "Quicksand",
+  "transliteratedTitle": "Chorabali",
+  "subtitle": "A Country Retreat Turns Into a Deadly Game",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-quicksand.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "চোরাবালি",
+  "originalYear": 1933,
+  "totalChapters": 1,
+  "wordCount": 14356,
+  "summary": "Byomkesh and Ajit expect nothing more than restful days and country hospitality at Kumar Tridib’s estate. But the shadow of the mysterious Chorabali—quicksand—lurks nearby, hinting at hidden dangers and secrets to be unearthed. What begins as a leisurely escape soon draws them into a puzzle where every step could be their last.",
+  "anthologyId": "byomkesh"
+}

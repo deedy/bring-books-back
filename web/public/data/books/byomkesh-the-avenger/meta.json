@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-avenger",
+  "title": "The Avenger",
+  "transliteratedTitle": "Achin Pakhi",
+  "subtitle": "A Wedding Shadows Old Secrets and New Danger",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-avenger.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "অচিন পাখী",
+  "originalYear": 1960,
+  "totalChapters": 1,
+  "wordCount": 5696,
+  "summary": "When Byomkesh Bakshi attends a quiet wedding in a remote town, festivities quickly take a backseat to intrigue. As old friends gather and unexpected guests arrive, a hidden mystery begins to unravel—one that only the legendary Truth Seeker can solve. Step into a world where every celebration may conceal a deeper, darker truth.",
+  "anthologyId": "byomkesh"
+}

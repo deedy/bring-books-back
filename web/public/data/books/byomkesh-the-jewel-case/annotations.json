@@ -1,0 +1,148 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The main detective, known for his sharp intellect and keen observation skills; often referred to respectfully as Byomkeshbabu."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, who narrates the story and assists in investigations."
+    },
+    "Rashomoy Sirkar": {
+      "type": "character",
+      "description": "A wealthy and respected jeweller whose priceless necklace is stolen; he seeks Byomkesh's help to solve the case."
+    },
+    "Monimoy Sirkar": {
+      "type": "character",
+      "description": "Rashomoy's elder son, who helps manage the family business and is involved in the events surrounding the theft."
+    },
+    "Bhola": {
+      "type": "character",
+      "description": "Rashomoy's personal valet, a canny and wiry man suspected of involvement in the theft."
+    },
+    "Amareshbabu": {
+      "type": "character",
+      "description": "The chief inspector at the local police station, known for his toughness and courage; assists in the investigation."
+    },
+    "Bhootnath Das": {
+      "type": "character",
+      "description": "Bhola's elder brother, a postal worker who becomes an accomplice in the theft."
+    },
+    "Satyaboti": {
+      "type": "character",
+      "description": "Ajit's wife, who appears in domestic scenes and provides comic relief."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The major Indian city (now Kolkata) where the story is set."
+    },
+    "Bowbazaar": {
+      "type": "proper_noun",
+      "description": "A historic neighborhood in central Calcutta, known for its markets and residential areas."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "The former name of Mumbai, a major city in western India."
+    },
+    "Madras": {
+      "type": "proper_noun",
+      "description": "The former name of Chennai, a major city in southern India."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India."
+    },
+    "Rajasthan": {
+      "type": "proper_noun",
+      "description": "A large state in northwestern India, mentioned in the context of a royal wedding."
+    },
+    "Mechhuabazaar": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta where Bhola's brothers live."
+    },
+    "The Sports Club": {
+      "type": "proper_noun",
+      "description": "A local club near Rashomoy's house, frequented by Monimoy."
+    },
+    "Golap Colony": {
+      "type": "proper_noun",
+      "description": "A location referenced in connection with a previous investigation."
+    },
+    "Pramod Barat": {
+      "type": "proper_noun",
+      "description": "A police officer mentioned as a friend of Amareshbabu and a previous investigator."
+    },
+    "Yale lock": {
+      "type": "proper_noun",
+      "description": "A type of lock with an automatic latch mechanism, referenced for security in the house."
+    },
+    "Cadillac": {
+      "type": "proper_noun",
+      "description": "A luxury American car brand, used here to indicate Rashomoy's wealth."
+    },
+    "Persian-style tapestries": {
+      "type": "proper_noun",
+      "description": "Decorative wall hangings of Persian origin, indicating affluence."
+    },
+    "555 cigarettes": {
+      "type": "proper_noun",
+      "description": "A popular brand of cigarettes in India, offered to guests in the story."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting, performed by joining the palms together."
+    },
+    "bouma": {
+      "type": "vocabulary",
+      "description": "A Bengali term for daughter-in-law."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful suffix or form of address for men in Bengali and Hindi."
+    },
+    "ma": {
+      "type": "vocabulary",
+      "description": "A Bengali and Hindi term for mother."
+    },
+    "valet": {
+      "type": "vocabulary",
+      "description": "A personal attendant or servant, especially one who takes care of clothes and personal needs."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Rashomoy Sirkar",
+      "Monimoy Sirkar",
+      "Bhola",
+      "Amareshbabu",
+      "Bhootnath Das",
+      "Satyaboti",
+      "Calcutta",
+      "Bowbazaar",
+      "Bombay",
+      "Madras",
+      "Delhi",
+      "Rajasthan",
+      "Mechhuabazaar",
+      "The Sports Club",
+      "Golap Colony",
+      "Pramod Barat",
+      "Yale lock",
+      "Cadillac",
+      "Persian-style tapestries",
+      "555 cigarettes",
+      "namaskar",
+      "bouma",
+      "babu",
+      "ma",
+      "valet",
+      "dhoti"
+    ]
+  }
+}

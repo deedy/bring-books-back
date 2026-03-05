@@ -1,0 +1,221 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist, a renowned truth-seeker and detective, traveling under the alias Gagan Mitra in this case."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "The narrator and close companion of Byomkesh, chronicling the events of the investigation."
+    },
+    "Phanish": {
+      "type": "character",
+      "description": "A young, gentle man, son of Manish Babu, recently married to Indira and entangled in a murder case."
+    },
+    "Indira": {
+      "type": "character",
+      "description": "Phanish's young, shy wife, concerned for her husband's safety and the daughter-in-law of the household."
+    },
+    "Manish Babu": {
+      "type": "character",
+      "description": "Owner of a coal mine and father of Phanish, a man of traditional values and influence."
+    },
+    "Gobinda Halder": {
+      "type": "character",
+      "description": "Owner of a neighboring coal mine, described as cunning and intimidating, brother of Aravinda."
+    },
+    "Gagan Mitra": {
+      "type": "character",
+      "description": "Alias used by Byomkesh during the investigation."
+    },
+    "Sujit Bandyopadhyay": {
+      "type": "character",
+      "description": "Alias used by Ajit during the investigation."
+    },
+    "Surapati Ghatak": {
+      "type": "character",
+      "description": "The caretaker and office master of the colliery's main office, known for his experience."
+    },
+    "Tarapada Babu": {
+      "type": "character",
+      "description": "The elderly manager of the coal mine, responsible for its operations."
+    },
+    "Dr. Jatindra Ghosh": {
+      "type": "character",
+      "description": "The physician at the mine's dispensary and hospital, a contemporary of Byomkesh and Ajit."
+    },
+    "Aravinda": {
+      "type": "character",
+      "description": "Gobinda Halder's younger brother and business partner, notorious for his vices and bad reputation."
+    },
+    "Mrigendra Moulik": {
+      "type": "character",
+      "description": "Owner of the Uludanga coal mine and a member of the Coal Club gambling group."
+    },
+    "Madhumoy Sur": {
+      "type": "character",
+      "description": "Owner of the Dhupipota mine and a member of the Coal Club gambling group."
+    },
+    "Pranahari Poddar": {
+      "type": "character",
+      "description": "An elderly, shrewd moneylender and skilled card player, whose murder is central to the case."
+    },
+    "Mohini": {
+      "type": "character",
+      "description": "Pranahari Poddar's young, attractive maidservant from Orissa, suspected in the murder investigation."
+    },
+    "Promod Barat": {
+      "type": "character",
+      "description": "The chief inspector of the city’s main police station, an acquaintance of Byomkesh."
+    },
+    "Bikash": {
+      "type": "character",
+      "description": "A clever young man known to Byomkesh, summoned to work as a compounder at the colliery dispensary."
+    },
+    "Calcutta": {
+      "type": "place",
+      "description": "A major Indian city, now known as Kolkata, referenced as the origin of some characters."
+    },
+    "swadeshi": {
+      "type": "place",
+      "description": "A movement and set of customs promoting Indian-made goods and traditional practices."
+    },
+    "Uludanga": {
+      "type": "place",
+      "description": "A locality referenced as the site of a coal mine and the road where Pranahari Poddar lived."
+    },
+    "Dhupipota": {
+      "type": "place",
+      "description": "A locality referenced as the site of a coal mine owned by Madhumoy Sur."
+    },
+    "Shimulia": {
+      "type": "place",
+      "description": "A locality referenced as the site of a coal mine owned by the Halder brothers."
+    },
+    "Cuttack": {
+      "type": "place",
+      "description": "A city in the state of Orissa (now Odisha), where Pranahari Poddar previously lived."
+    },
+    "Orissa": {
+      "type": "place",
+      "description": "An Indian state (now called Odisha), the home state of Mohini and Pranahari Poddar's previous residence."
+    },
+    "Coal Club": {
+      "type": "place",
+      "description": "An exclusive club in the city for elite members, where gambling and card games take place."
+    },
+    "Uludanga Khoni Road": {
+      "type": "place",
+      "description": "A road leading to Uludanga, where Pranahari Poddar's house is located."
+    },
+    "Fuljhuri Colliery": {
+      "type": "place",
+      "description": "The coal mine owned by Manish Babu and central to the story's events."
+    },
+    "Golap Colony": {
+      "type": "place",
+      "description": "A previous case referenced, where Byomkesh and Promod Barat became acquainted."
+    },
+    "Doropani": {
+      "type": "place",
+      "description": "A location referenced as a base for Byomkesh's intelligence gathering."
+    },
+    "Yale lock": {
+      "type": "place",
+      "description": "A brand of lock, noted for its security, used on Pranahari Poddar's door."
+    },
+    "thana": {
+      "type": "place",
+      "description": "The local police station."
+    },
+    "babu": {
+      "type": "term",
+      "description": "A term of respect for a man, especially in Bengal."
+    },
+    "Mahashay": {
+      "type": "term",
+      "description": "A respectful Bengali honorific, similar to 'sir' or 'gentleman.'"
+    },
+    "daroga-babu": {
+      "type": "term",
+      "description": "A respectful term for a police inspector or sub-inspector."
+    },
+    "dhuti": {
+      "type": "term",
+      "description": "A traditional Indian men's garment, a long piece of cloth wrapped around the waist and legs."
+    },
+    "panjabi": {
+      "type": "term",
+      "description": "A knee-length tunic worn by men, especially in Bengal."
+    },
+    "Pharasdanga dhuti": {
+      "type": "term",
+      "description": "A specific style or quality of dhuti, indicating a fine or formal garment."
+    },
+    "bazar": {
+      "type": "term",
+      "description": "Market; refers to a commercial area or marketplace."
+    },
+    "para": {
+      "type": "term",
+      "description": "A neighborhood or locality, especially in Bengali contexts."
+    },
+    "baithak-khana": {
+      "type": "term",
+      "description": "A drawing-room or sitting room in a Bengali household."
+    },
+    "compounder": {
+      "type": "term",
+      "description": "A medical assistant who prepares and dispenses medicines, often in a dispensary or clinic."
+    },
+    "PM report": {
+      "type": "term",
+      "description": "Post-mortem report; the official autopsy findings."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Phanish",
+      "Indira",
+      "Manish Babu",
+      "Gobinda Halder",
+      "Gagan Mitra",
+      "Sujit Bandyopadhyay",
+      "Surapati Ghatak",
+      "Tarapada Babu",
+      "Dr. Jatindra Ghosh",
+      "Aravinda",
+      "Mrigendra Moulik",
+      "Madhumoy Sur",
+      "Pranahari Poddar",
+      "Mohini",
+      "Promod Barat",
+      "Bikash",
+      "Calcutta",
+      "swadeshi",
+      "Uludanga",
+      "Dhupipota",
+      "Shimulia",
+      "Cuttack",
+      "Orissa",
+      "Coal Club",
+      "Uludanga Khoni Road",
+      "Fuljhuri Colliery",
+      "Golap Colony",
+      "Doropani",
+      "Yale lock",
+      "thana",
+      "babu",
+      "Mahashay",
+      "daroga-babu",
+      "dhuti",
+      "panjabi",
+      "para",
+      "baithak-khana",
+      "compounder",
+      "PM report"
+    ]
+  }
+}

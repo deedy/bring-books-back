@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-thus-spoke-poet-kalidasa",
+  "title": "Thus Spoke Poet Kalidasa",
+  "transliteratedTitle": "Kohen Kobi Kalidas",
+  "subtitle": "A Poet’s Secret in the Shadows",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-thus-spoke-poet-kalidasa.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "কহেন কবি কালিদাস",
+  "originalYear": 1961,
+  "totalChapters": 1,
+  "wordCount": 21298,
+  "summary": "When Byomkesh Bakshi and his companion are welcomed into an enigmatic household, they quickly sense that beneath the surface of hospitality lies a mystery waiting to be unraveled. With a cast of intriguing characters and subtle clues, the stage is set for a case where poetic riddles may hold the key to the truth. Follow Byomkesh as he navigates wit and deception to expose secrets hidden in plain sight.",
+  "anthologyId": "byomkesh"
+}

@@ -1,0 +1,133 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist, a 'truth-seeker' or detective known for his keen observation and logical reasoning."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, who narrates the story and assists in investigations."
+    },
+    "Baikuntha Das": {
+      "type": "character",
+      "description": "A miserly goldsmith and jeweller, whose mysterious murder is the central case of the chapter."
+    },
+    "Bhanupratap Singh": {
+      "type": "character",
+      "description": "A constable who assists in the capture of Shailen-babu."
+    },
+    "Munger": {
+      "type": "proper_noun",
+      "description": "A historic town in Bihar, India, known for its fort and as the setting for this chapter."
+    },
+    "Bihar": {
+      "type": "proper_noun",
+      "description": "A state in eastern India where the events of the story take place."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "Now Kolkata, a major city in eastern India, home to Byomkesh and Ajit."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "The Ganges River, a major and sacred river in India, flowing near Munger."
+    },
+    "Mir Kasim": {
+      "type": "proper_noun",
+      "description": "An 18th-century Nawab of Bengal, historically associated with Munger's fort."
+    },
+    "Nabadwip": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, India, mentioned as the home of Baikuntha-babu's relatives and the site of his daughter's wedding."
+    },
+    "Jessore": {
+      "type": "proper_noun",
+      "description": "A town (now in Bangladesh), mentioned as the origin of Baikuntha-babu's son-in-law."
+    },
+    "Gaya": {
+      "type": "proper_noun",
+      "description": "A city in Bihar, India, considered holy for performing Hindu last rites."
+    },
+    "Balloonbazar": {
+      "type": "proper_noun",
+      "description": "A Bengali-dominated locality in Munger where Tarashankar-babu resides."
+    },
+    "Kashtaharini Ghat": {
+      "type": "proper_noun",
+      "description": "A riverside ghat (steps leading to the river) in Munger, visited by the characters."
+    },
+    "Peer Shanfa": {
+      "type": "proper_noun",
+      "description": "A tomb or shrine in Munger, referenced as a local landmark."
+    },
+    "Robert Clive": {
+      "type": "proper_noun",
+      "description": "A British colonial figure, referenced in the context of Munger's history."
+    },
+    "Jarasandha": {
+      "type": "proper_noun",
+      "description": "A legendary king from Indian epic history, referenced in connection with Munger's ancient past."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "‘Babu’ is a respectful suffix or title for men, often used in Bengal and northern India; in this story, it is attached to several characters’ names as an honorific."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and other ingredients, chewed for its stimulant effects."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional men's garment, a long piece of cloth wrapped around the waist and legs, commonly worn in India."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn by women in India, consisting of a long piece of cloth draped around the body."
+    },
+    "hookah": {
+      "type": "vocabulary",
+      "description": "A water pipe used for smoking, popular in India and the Middle East."
+    },
+    "planchette": {
+      "type": "vocabulary",
+      "description": "A small board supported on casters, used in séances to communicate with spirits by spelling out messages."
+    },
+    "zamindar": {
+      "type": "vocabulary",
+      "description": "A landowner, especially one who collected taxes from peasants under the former system in India."
+    },
+    "phaeton": {
+      "type": "vocabulary",
+      "description": "A type of horse-drawn carriage, referenced here as a mode of transport."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Baikuntha Das",
+      "Bhanupratap Singh",
+      "Munger",
+      "Bihar",
+      "Calcutta",
+      "Ganga",
+      "Mir Kasim",
+      "Nabadwip",
+      "Jessore",
+      "Gaya",
+      "Balloonbazar",
+      "Kashtaharini Ghat",
+      "Peer Shanfa",
+      "Robert Clive",
+      "Jarasandha",
+      "babu",
+      "paan",
+      "dhoti",
+      "sari",
+      "hookah",
+      "planchette",
+      "zamindar",
+      "phaeton"
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist, a brilliant and unconventional detective who prefers to call himself a 'Seeker of Truth' rather than a detective."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, who narrates the stories and often assists in investigations."
+    },
+    "Ashutosh Mitra": {
+      "type": "character",
+      "description": "A middle-aged, unmarried man who becomes a target in the gramophone pin mystery."
+    },
+    "Prafulla Roy": {
+      "type": "character",
+      "description": "A seemingly amiable insurance agent who is later revealed to be the mastermind behind the gramophone pin murders."
+    },
+    "Putiram": {
+      "type": "character",
+      "description": "A servant who brings snacks and tea to Byomkesh and Ajit."
+    },
+    "Jayhari Sanyal": {
+      "type": "character",
+      "description": "The first victim of the gramophone pin murders, found dead on Cornwallis Street."
+    },
+    "Kailashchandra Moulik": {
+      "type": "character",
+      "description": "A wealthy businessman and the second victim of the gramophone pin murders."
+    },
+    "Kali Singh": {
+      "type": "character",
+      "description": "Kailashbabu's chauffeur, detained by the police on suspicion."
+    },
+    "Krishnadayal Laha": {
+      "type": "character",
+      "description": "A rich moneylender and another victim of the gramophone pin murders."
+    },
+    "Bilash Mullick": {
+      "type": "character",
+      "description": "Ashubabu's lawyer who conspires against him and later absconds with his companion."
+    },
+    "Binod": {
+      "type": "character",
+      "description": "Ashubabu's nephew, described as a drunkard and gambler, currently in prison."
+    },
+    "Harrison Road": {
+      "type": "proper_noun",
+      "description": "A major thoroughfare in Calcutta, known for its bustling traffic and activity."
+    },
+    "Whiteway Laidlaw": {
+      "type": "proper_noun",
+      "description": "A famous British-era department store in Calcutta, often referenced as a landmark."
+    },
+    "New Market": {
+      "type": "proper_noun",
+      "description": "A historic and popular shopping area in central Calcutta."
+    },
+    "Maidan": {
+      "type": "proper_noun",
+      "description": "A large urban park in Calcutta, often used for recreation and public events."
+    },
+    "Red Road": {
+      "type": "proper_noun",
+      "description": "A prominent road in Calcutta, adjacent to the Maidan."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The capital city of West Bengal, India, now known as Kolkata."
+    },
+    "Sukiya Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, mentioned as the residence of Jayhari Sanyal."
+    },
+    "Cornwallis Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta where the first gramophone pin murder occurs."
+    },
+    "Dharmatolla": {
+      "type": "proper_noun",
+      "description": "A busy commercial area and road intersection in central Calcutta."
+    },
+    "Wellington Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, near Dharmatolla, mentioned in the context of a murder."
+    },
+    "Jorasanko": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta, known for its cultural and historical significance."
+    },
+    "Amherst Street": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta, intersecting with Harrison Road."
+    },
+    "Nebutola": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta, mentioned as Ashubabu's residence."
+    },
+    "Kidderpore": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta, known for its docks and the racecourse."
+    },
+    "Bowbazar": {
+      "type": "proper_noun",
+      "description": "A central neighborhood in Calcutta, known for its markets and busy streets."
+    },
+    "Howrah": {
+      "type": "proper_noun",
+      "description": "A city across the river from Calcutta, also referencing the Howrah Bridge."
+    },
+    "Howrah Bridge": {
+      "type": "proper_noun",
+      "description": "A famous cantilever bridge connecting Calcutta and Howrah."
+    },
+    "Jessore": {
+      "type": "proper_noun",
+      "description": "A town in present-day Bangladesh, referenced as the supposed location of the real Prafulla Roy."
+    },
+    "Burdwan": {
+      "type": "proper_noun",
+      "description": "A city in West Bengal, mentioned as the place where Bilash Mullick is expected to be arrested."
+    },
+    "Lalbazar": {
+      "type": "proper_noun",
+      "description": "The location of Calcutta Police Headquarters."
+    },
+    "Sealdah": {
+      "type": "proper_noun",
+      "description": "An important railway station and area in Calcutta."
+    },
+    "Chowringhee": {
+      "type": "proper_noun",
+      "description": "A major road and district in central Calcutta, known for its hotels and landmarks."
+    },
+    "Kalighat": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta, famous for its Kali temple."
+    },
+    "Circular Road": {
+      "type": "proper_noun",
+      "description": "A road in Calcutta, referenced as a tram route."
+    },
+    "Jewel Insurance Company": {
+      "type": "proper_noun",
+      "description": "The insurance company Prafulla Roy claims to work for."
+    },
+    "Daily Kalketu": {
+      "type": "proper_noun",
+      "description": "A fictional newspaper reporting on the gramophone pin murders."
+    },
+    "Reuters": {
+      "type": "proper_noun",
+      "description": "An international news agency, referenced in the discussion about news sources."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic, referenced in relation to Arjun's archery skills."
+    },
+    "Draupadi": {
+      "type": "proper_noun",
+      "description": "A character from the Mahabharata, referenced in the context of her swayamvara."
+    },
+    "Arjun": {
+      "type": "proper_noun",
+      "description": "A legendary archer from the Mahabharata, referenced for his unparalleled skill."
+    },
+    "Deoghar": {
+      "type": "proper_noun",
+      "description": "A town in Jharkhand, India, mentioned as the place where Ashubabu met his mistress."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A term of respect for a man, especially in Bengal."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional men's garment, a long piece of cloth wrapped around the waist and legs."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in South Asia."
+    },
+    "adda": {
+      "type": "vocabulary",
+      "description": "An informal gathering or conversation, usually among friends, often involving intellectual discussion."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects."
+    },
+    "paanwallah": {
+      "type": "vocabulary",
+      "description": "A vendor who sells paan."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A type of cigar with both ends clipped during manufacture, commonly smoked in India."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Ashutosh Mitra",
+      "Prafulla Roy",
+      "Putiram",
+      "Jayhari Sanyal",
+      "Kailashchandra Moulik",
+      "Kali Singh",
+      "Krishnadayal Laha",
+      "Bilash Mullick",
+      "Binod",
+      "Harrison Road",
+      "Whiteway Laidlaw",
+      "New Market",
+      "Maidan",
+      "Red Road",
+      "Calcutta",
+      "Sukiya Street",
+      "Cornwallis Street",
+      "Dharmatolla",
+      "Wellington Street",
+      "Jorasanko",
+      "Amherst Street",
+      "Nebutola",
+      "Kidderpore",
+      "Bowbazar",
+      "Howrah",
+      "Howrah Bridge",
+      "Jessore",
+      "Burdwan",
+      "Lalbazar",
+      "Sealdah",
+      "Chowringhee",
+      "Kalighat",
+      "Circular Road",
+      "Jewel Insurance Company",
+      "Daily Kalketu",
+      "Reuters",
+      "Mahabharata",
+      "Draupadi",
+      "Arjun",
+      "Deoghar",
+      "babu",
+      "dhoti",
+      "kurta",
+      "adda",
+      "paan",
+      "paanwallah",
+      "cheroot"
+    ]
+  }
+}

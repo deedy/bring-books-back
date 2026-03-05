@@ -1,0 +1,143 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The main detective and truth-seeker who investigates mysteries with keen observation and intelligence."
+    },
+    "Rakhalbabu": {
+      "type": "character",
+      "description": "A police inspector who works closely with Byomkesh, providing official support and sharing case details."
+    },
+    "Gangapada Choudhury": {
+      "type": "character",
+      "description": "A cunning factory worker who sets up Ashoke Maiti in a scheme and was initially presented as the injured victim."
+    },
+    "Ashoke Maiti": {
+      "type": "character",
+      "description": "A man from Meerat who is mistaken for Gangapada and becomes the target of an attempted murder."
+    },
+    "Ramchatur": {
+      "type": "character",
+      "description": "The Hindi-speaking part-time servant in Gangapada's house, who goes missing after the incident."
+    },
+    "Ratanlal Kapadia": {
+      "type": "character",
+      "description": "The Marwari owner of the Scrap Iron and Steel Factory Ltd., where Gangapada and Naresh worked."
+    },
+    "Naresh Mandal": {
+      "type": "character",
+      "description": "A former chief melter at the factory known for his ill-temper and violent tendencies who seeks revenge against Gangapada."
+    },
+    "Prafulla Dey": {
+      "type": "character",
+      "description": "An electrician who applies for the melter job but is not relevant to the main case."
+    },
+    "Dhiren": {
+      "type": "character",
+      "description": "Rakhalbabu's assistant, tasked with searching Naresh Mondol's house."
+    },
+    "Netaji Hospital": {
+      "type": "proper_noun",
+      "description": "A hospital in Calcutta where the injured man is taken for treatment."
+    },
+    "Keyatala": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta where Byomkesh's new house is located."
+    },
+    "Fraser Road": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta near which the crime scene is located."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The city (now Kolkata) where the story is set."
+    },
+    "Meerat": {
+      "type": "proper_noun",
+      "description": "A city in northern India (modern spelling: Meerut), where Ashoke Maiti is from."
+    },
+    "Howrah station": {
+      "type": "proper_noun",
+      "description": "A major railway station in Calcutta, serving as a gateway to the city."
+    },
+    "dharmashala": {
+      "type": "proper_noun",
+      "description": "A type of inexpensive lodging or rest house, often for travelers or pilgrims."
+    },
+    "South Calcutta": {
+      "type": "proper_noun",
+      "description": "The southern part of Calcutta, where Gangapada's house is located."
+    },
+    "Kashipur": {
+      "type": "proper_noun",
+      "description": "A place referenced as the location of Gangapada's landlord."
+    },
+    "Bihar": {
+      "type": "proper_noun",
+      "description": "An Indian state, mentioned as Ramchatur's likely home."
+    },
+    "Scrap Iron and Steel Factory Ltd.": {
+      "type": "proper_noun",
+      "description": "The factory near Calcutta where Gangapada and Naresh worked as melters."
+    },
+    "Bombay Steel Foundry Ltd.": {
+      "type": "proper_noun",
+      "description": "A fictional company used as bait in the police's plan to catch Naresh."
+    },
+    "Gariahat Market": {
+      "type": "proper_noun",
+      "description": "A well-known market area in Calcutta, used as a landmark for the fake job interview."
+    },
+    "Nagpur": {
+      "type": "proper_noun",
+      "description": "A city in central India, mentioned as the supposed location of Nrisinha Mullick's previous employment."
+    },
+    "Anglo-Indian": {
+      "type": "proper_noun",
+      "description": "Refers to a person of mixed Indian and British ancestry, describing the beggar in the court case."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful term of address for men, often used after a name (e.g., Byomkeshbabu, Rakhalbabu)."
+    },
+    "melter": {
+      "type": "vocabulary",
+      "description": "A skilled worker who operates an electric furnace to melt iron in a foundry."
+    },
+    "para": {
+      "type": "vocabulary",
+      "description": "A neighborhood or locality, commonly used in Bengali (not present in this chapter, so omitted)."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Rakhalbabu",
+      "Gangapada Choudhury",
+      "Ashoke Maiti",
+      "Ramchatur",
+      "Ratanlal Kapadia",
+      "Naresh Mandal",
+      "Prafulla Dey",
+      "Dhiren",
+      "Netaji Hospital",
+      "Keyatala",
+      "Fraser Road",
+      "Calcutta",
+      "Meerat",
+      "Howrah station",
+      "dharmashala",
+      "South Calcutta",
+      "Kashipur",
+      "Bihar",
+      "Scrap Iron and Steel Factory Ltd.",
+      "Bombay Steel Foundry Ltd.",
+      "Gariahat Market",
+      "Nagpur",
+      "Anglo-Indian",
+      "babu",
+      "melter",
+      "para"
+    ]
+  }
+}

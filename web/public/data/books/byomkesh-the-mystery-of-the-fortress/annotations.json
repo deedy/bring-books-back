@@ -1,0 +1,281 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The central detective figure, known as a 'satyanweshi' or truth-seeker, who investigates mysteries with keen observation and logic."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, who narrates their adventures and assists in investigations."
+    },
+    "Satyabati": {
+      "type": "character",
+      "description": "Byomkesh's wife, who shares a close familial bond with Ajit and is expecting a child during this chapter."
+    },
+    "Rajarama": {
+      "type": "character",
+      "description": "An elderly descendant of Janakirama and head of the family during the time of the Sepoy Mutiny; father of Jayarama."
+    },
+    "Jayarama": {
+      "type": "character",
+      "description": "Rajarama's son, a youth who assists his father in trying to protect their family fortune."
+    },
+    "Ram Binod": {
+      "type": "character",
+      "description": "A descendant of Janakirama, elder brother of Ram Kishore Singh, who dies young under mysterious circumstances."
+    },
+    "Ram Kishore Singh": {
+      "type": "character",
+      "description": "Younger brother of Ram Binod, who rebuilds the family fortune, repurchases the ancestral estate, and becomes the patriarch."
+    },
+    "Banshidhar": {
+      "type": "character",
+      "description": "Ram Kishore's eldest son, known for his fierce temper and involvement in managing the zamindari."
+    },
+    "Muralidhar": {
+      "type": "character",
+      "description": "Ram Kishore's second son, physically disabled and sly, rumored to have committed crimes with his servant Ganpat."
+    },
+    "Haripriya": {
+      "type": "character",
+      "description": "Ram Kishore's daughter, envious and sharp-tongued, whose marriage to Monilal ends with her mysterious death by snakebite."
+    },
+    "Monilal": {
+      "type": "character",
+      "description": "Haripriya's husband, a calm and educated man who becomes a 'ghar-jamai' living with his wife's family."
+    },
+    "Gadadhar": {
+      "type": "character",
+      "description": "Ram Kishore's simple-minded teenage son, more interested in roaming the woods than in studies."
+    },
+    "Tulsi": {
+      "type": "character",
+      "description": "Ram Kishore's youngest daughter, sharp-eyed, restless, and sensible, but traumatized by witnessing Haripriya's death."
+    },
+    "Ganpat": {
+      "type": "character",
+      "description": "Muralidhar's loyal and wicked servant, rumored to assist his master in various misdeeds."
+    },
+    "Chandmohan Dutta": {
+      "type": "character",
+      "description": "The family's long-serving steward, shrewd and knowledgeable about property and estate affairs."
+    },
+    "Ramapati": {
+      "type": "character",
+      "description": "A distant relative given shelter by Ram Kishore, intended as a tutor for the younger children but largely ignored."
+    },
+    "Bulaki Lal": {
+      "type": "character",
+      "description": "Ram Kishore's old chauffeur, responsible for the family's motor car and known for preparing bhang thandai."
+    },
+    "Ishanchandra Majumdar": {
+      "type": "character",
+      "description": "A retired professor and old family friend, whose mysterious death by snakebite becomes the focus of the investigation."
+    },
+    "Purandar Pandey": {
+      "type": "character",
+      "description": "The local D.S.P. (Deputy Superintendent of Police), a friend of Byomkesh, who invites him to investigate the case."
+    },
+    "Dr. Ghatak": {
+      "type": "character",
+      "description": "The resident physician for Ram Kishore's family, involved in the aftermath of the mysterious deaths."
+    },
+    "Sadhu": {
+      "type": "character",
+      "description": "A holy man who sets up camp near the well and becomes a mysterious presence in the story."
+    },
+    "Company rule": {
+      "type": "place",
+      "description": "Refers to the period of British East India Company administration in India before direct Crown rule."
+    },
+    "Janakirama": {
+      "type": "place",
+      "description": "The original founder of the family lineage whose descendants are central to the story."
+    },
+    "zamindari": {
+      "type": "place",
+      "description": "A system of landholding and revenue collection in colonial India, with zamindars as landlords."
+    },
+    "Sepoy Mutiny": {
+      "type": "place",
+      "description": "The Indian Rebellion of 1857, a major uprising against British rule."
+    },
+    "Santhal": {
+      "type": "place",
+      "description": "An indigenous tribal group in eastern India; here, refers to a Santhal village near the fort."
+    },
+    "Bengal": {
+      "type": "place",
+      "description": "A region in eastern India, historically significant and culturally rich."
+    },
+    "ghee": {
+      "type": "place",
+      "description": "Clarified butter used in Indian cooking and rituals."
+    },
+    "Berhampore College": {
+      "type": "place",
+      "description": "A college in Berhampore, a city in West Bengal."
+    },
+    "B.Sc.": {
+      "type": "place",
+      "description": "Bachelor of Science degree, an undergraduate academic degree."
+    },
+    "ghar-jamai": {
+      "type": "place",
+      "description": "A son-in-law who lives with his wife's family, often considered a dependent."
+    },
+    "Vaishnav": {
+      "type": "place",
+      "description": "A follower of Vaishnavism, a major tradition within Hinduism devoted to Vishnu."
+    },
+    "Bedes": {
+      "type": "place",
+      "description": "A nomadic tribe in Bengal, known as snake charmers and performers."
+    },
+    "shilajit": {
+      "type": "place",
+      "description": "A mineral-rich substance used in traditional Indian medicine."
+    },
+    "Santal Parganas": {
+      "type": "place",
+      "description": "A region in present-day Jharkhand, India, historically inhabited by the Santal tribe."
+    },
+    "Harrison Road": {
+      "type": "place",
+      "description": "A major thoroughfare in Calcutta (now Kolkata), where Byomkesh resides."
+    },
+    "Nepal": {
+      "type": "place",
+      "description": "A neighboring country to India, mentioned as the residence of Professor Majumdar's son-in-law."
+    },
+    "Genghis Khan": {
+      "type": "place",
+      "description": "The Mongol conqueror, referenced metaphorically to describe Banshidhar's brutality."
+    },
+    "Yama": {
+      "type": "place",
+      "description": "The Hindu god of death, used to describe Ramkishore's fearsome authority."
+    },
+    "Bihar": {
+      "type": "place",
+      "description": "An Indian state neighboring Bengal, referenced in relation to old house architecture."
+    },
+    "Badshahs": {
+      "type": "place",
+      "description": "Refers to Mughal emperors; here, indicates the era of the gold mohur coin."
+    },
+    "mohar": {
+      "type": "term",
+      "description": "A gold coin used in India during the Mughal era."
+    },
+    "asharfi": {
+      "type": "term",
+      "description": "A gold coin, similar to the mohar, used in historical India."
+    },
+    "krosh": {
+      "type": "term",
+      "description": "An ancient Indian unit of distance, roughly 2-3 miles."
+    },
+    "dhoti": {
+      "type": "term",
+      "description": "A traditional men's garment, a long piece of cloth wrapped around the waist and legs."
+    },
+    "bhang": {
+      "type": "term",
+      "description": "An intoxicating drink made from cannabis leaves, consumed especially during festivals."
+    },
+    "bhang thandai": {
+      "type": "term",
+      "description": "A cold, sweet beverage flavored with bhang (cannabis), milk, and spices."
+    },
+    "sal": {
+      "type": "term",
+      "description": "A type of hardwood tree native to India, valued for timber."
+    },
+    "satyanweshi": {
+      "type": "term",
+      "description": "A seeker of truth; Byomkesh's self-description as a detective."
+    },
+    "didi": {
+      "type": "term",
+      "description": "A respectful term for elder sister in Bengali and Hindi."
+    },
+    "baba": {
+      "type": "term",
+      "description": "A term of respect for an elder or holy man; also used for fathers."
+    },
+    "Mahashay": {
+      "type": "term",
+      "description": "A respectful Bengali term for 'gentleman' or 'sir.'"
+    },
+    "cubits": {
+      "type": "term",
+      "description": "An ancient unit of length, roughly the length of a forearm (about 18 inches)."
+    },
+    "bighas": {
+      "type": "term",
+      "description": "A traditional unit of land measurement in India, varying regionally but generally about 1/3 acre."
+    },
+    "para": {
+      "type": "term",
+      "description": "A neighborhood or locality, especially in Bengali context."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Satyabati",
+      "Rajarama",
+      "Jayarama",
+      "Ram Binod",
+      "Ram Kishore Singh",
+      "Banshidhar",
+      "Muralidhar",
+      "Haripriya",
+      "Monilal",
+      "Gadadhar",
+      "Tulsi",
+      "Ganpat",
+      "Chandmohan Dutta",
+      "Ramapati",
+      "Bulaki Lal",
+      "Ishanchandra Majumdar",
+      "Purandar Pandey",
+      "Dr. Ghatak",
+      "Sadhu",
+      "Company rule",
+      "Janakirama",
+      "zamindari",
+      "Sepoy Mutiny",
+      "Santhal",
+      "Bengal",
+      "ghee",
+      "Berhampore College",
+      "B.Sc.",
+      "ghar-jamai",
+      "Vaishnav",
+      "Bedes",
+      "shilajit",
+      "Santal Parganas",
+      "Harrison Road",
+      "Nepal",
+      "Genghis Khan",
+      "Yama",
+      "Bihar",
+      "Badshahs",
+      "mohar",
+      "asharfi",
+      "krosh",
+      "dhoti",
+      "bhang",
+      "bhang thandai",
+      "sal",
+      "baba",
+      "Mahashay",
+      "cubits",
+      "bighas",
+      "para"
+    ]
+  }
+}

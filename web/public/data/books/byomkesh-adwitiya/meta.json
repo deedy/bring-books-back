@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-adwitiya",
+  "title": "Adwitiya",
+  "transliteratedTitle": "Adwitiyo",
+  "subtitle": "A Daring Daylight Heist in Calcutta",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-adwitiya.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "অদ্বিতীয়",
+  "originalYear": 1961,
+  "totalChapters": 1,
+  "wordCount": 6878,
+  "summary": "While marital debates simmer in the Bakshi household, a series of audacious robberies by young women sweeps through the city, baffling the police and intriguing Byomkesh. As household doors open to apparent hawkers, the true nature of these criminals is revealed, pulling Byomkesh and his loyal friend into a case where nothing is as it seems. Will Byomkesh unravel the mystery before the thieves strike again?",
+  "anthologyId": "byomkesh"
+}

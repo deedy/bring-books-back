@@ -1,0 +1,178 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist and renowned detective who prefers the title 'Truth Seeker', investigating the mystery at Chorabali Estate."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Ajit is the narrator and close friend of Byomkesh, who accompanies him on his cases and documents their adventures."
+    },
+    "Kumar Tridib": {
+      "type": "character",
+      "description": "A friend of Byomkesh and Ajit, owner of an estate near Chorabali, who invites them for a holiday and becomes involved in the case."
+    },
+    "Himangshu": {
+      "type": "character",
+      "description": "The zaminder (landlord) of Chorabali Estate and an avid hunter who hosts the investigation."
+    },
+    "Kaligati Bhattacharjee": {
+      "type": "character",
+      "description": "The Dewan (manager) of Chorabali Estate and a devout worshipper of Kali who manages the estate's finances."
+    },
+    "Baby": {
+      "type": "character",
+      "description": "Himangshu's young daughter, who is fond of her tutor and becomes friendly with Byomkesh and Ajit."
+    },
+    "Harinath Choudhary": {
+      "type": "character",
+      "description": "The missing tutor of Baby whose mysterious disappearance is the central focus of the story."
+    },
+    "Anadi Sarkar": {
+      "type": "character",
+      "description": "The head servant of the estate, an old and loyal employee whose family becomes entangled in the household's troubles."
+    },
+    "Radha": {
+      "type": "character",
+      "description": "Anadi Sarkar's widowed daughter, who faces social stigma and personal tragedy."
+    },
+    "Bhuban": {
+      "type": "character",
+      "description": "Himangshu's personal bearer, who provides information about Harinath and the household."
+    },
+    "Chorabali": {
+      "type": "proper_noun",
+      "description": "The name of Himangshu's estate, meaning 'quicksand' in Bengali, named after a dangerous sandy patch on the property."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in India (now Kolkata), the home city of Byomkesh and Ajit."
+    },
+    "Sir Digindra": {
+      "type": "proper_noun",
+      "description": "Kumar Tridib's uncle, mentioned in connection with a previous story, 'Hidden Heirloom'."
+    },
+    "Tripura": {
+      "type": "proper_noun",
+      "description": "A region in northeast India, referenced as a destination for a hunting expedition."
+    },
+    "B.Sc.": {
+      "type": "proper_noun",
+      "description": "Bachelor of Science, an academic degree mentioned as Harinath's qualification."
+    },
+    "Kali": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess, worshipped by Kaligati and referenced in the tutor's spiritual practices."
+    },
+    "Benares": {
+      "type": "proper_noun",
+      "description": "A city in India (now Varanasi), mentioned as the destination where Radha is sent."
+    },
+    "Registry Office": {
+      "type": "proper_noun",
+      "description": "A government office where property deeds and legal documents are registered."
+    },
+    "North Bengal": {
+      "type": "proper_noun",
+      "description": "A region in the state of West Bengal, India, where Chorabali Estate is located."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful term of address for a gentleman, often used in Bengal."
+    },
+    "puja": {
+      "type": "vocabulary",
+      "description": "A Hindu religious ritual or worship ceremony."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in South Asia."
+    },
+    "kameej": {
+      "type": "vocabulary",
+      "description": "A tunic or long shirt, commonly worn in South Asia."
+    },
+    "tika": {
+      "type": "vocabulary",
+      "description": "A mark, often red, worn on the forehead as a religious symbol."
+    },
+    "Rudraksha": {
+      "type": "vocabulary",
+      "description": "A sacred seed often used for prayer beads in Hinduism, associated with Lord Shiva."
+    },
+    "asana": {
+      "type": "vocabulary",
+      "description": "A posture or seat, especially in the context of meditation or yoga."
+    },
+    "almanac": {
+      "type": "vocabulary",
+      "description": "A calendar or annual publication containing important dates and astronomical information, used here to determine lunar phases."
+    },
+    "didi": {
+      "type": "vocabulary",
+      "description": "An affectionate term for an elder sister or respected woman."
+    },
+    "dada": {
+      "type": "vocabulary",
+      "description": "An affectionate term for an elder brother or respected man."
+    },
+    "sadhu": {
+      "type": "vocabulary",
+      "description": "A holy man or ascetic in Hindu tradition."
+    },
+    "mantra": {
+      "type": "vocabulary",
+      "description": "A sacred utterance or chant, often used in spiritual practices."
+    },
+    "hymn": {
+      "type": "vocabulary",
+      "description": "A religious song or chant, here referring to a prayer to goddess Kali."
+    },
+    "bearer": {
+      "type": "vocabulary",
+      "description": "A personal attendant or servant, especially one who serves food or performs household duties."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Kumar Tridib",
+      "Himangshu",
+      "Kaligati Bhattacharjee",
+      "Baby",
+      "Harinath Choudhary",
+      "Anadi Sarkar",
+      "Radha",
+      "Bhuban",
+      "Chorabali",
+      "Calcutta",
+      "Sir Digindra",
+      "Tripura",
+      "B.Sc.",
+      "Kali",
+      "Benares",
+      "Registry Office",
+      "North Bengal",
+      "babu",
+      "puja",
+      "dhoti",
+      "kurta",
+      "kameej",
+      "tika",
+      "Rudraksha",
+      "asana",
+      "almanac",
+      "didi",
+      "dada",
+      "sadhu",
+      "mantra",
+      "hymn",
+      "bearer"
+    ]
+  }
+}

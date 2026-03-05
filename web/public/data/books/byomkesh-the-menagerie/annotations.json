@@ -1,0 +1,468 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "A renowned Bengali detective known as a 'truth-seeker' or 'satyanweshi', who investigates mysteries with keen observation and logic."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler who narrates their adventures, assists in investigations, and is married to Satyaboti."
+    },
+    "Satyaboti": {
+      "type": "character",
+      "description": "Ajit's wife, mentioned as being away in Darjeeling."
+    },
+    "Sukumar": {
+      "type": "character",
+      "description": "Satyaboti’s brother, who takes her and her child to Darjeeling."
+    },
+    "Nishanath Sen": {
+      "type": "character",
+      "description": "The owner of Golap Colony and a former sessions judge from Bombay who runs a flower and dairy farm near Calcutta."
+    },
+    "Damayanti": {
+      "type": "character",
+      "description": "Nishanath Sen's wife, a graceful and efficient woman with a mysterious background and complex past."
+    },
+    "Bijoy": {
+      "type": "character",
+      "description": "Nishanathbabu's nephew and ward, in charge of the flower stall, emotionally involved with Bonolokhhi and previously with Mukul."
+    },
+    "Panugopal": {
+      "type": "character",
+      "description": "A young, hearing-impaired and speech-impaired man who manages the dairy at Golap Colony."
+    },
+    "Bhujangadhar Das": {
+      "type": "character",
+      "description": "A former doctor specializing in plastic surgery, debarred for a felony, now the farm's doctor and a key figure in the mystery."
+    },
+    "Mushkil Mian": {
+      "type": "character",
+      "description": "The farm's coachman, formerly a motor car driver, known for his catchphrase 'the problem is...'."
+    },
+    "Rashiklal De": {
+      "type": "character",
+      "description": "Manager of the vegetable stall at Hogg Market, a discontented man with a physical disability."
+    },
+    "Sunayana": {
+      "type": "character",
+      "description": "A mysterious ex-film actress also known as Netyakali, who is central to the investigation and acted in 'The Golden Maid'."
+    },
+    "Indu Roy": {
+      "type": "character",
+      "description": "A scriptwriter and Ajit's friend in the film world."
+    },
+    "Ramen Mullick": {
+      "type": "character",
+      "description": "A film enthusiast and 'encyclopedia' of the film world, who provides information about Sunayana."
+    },
+    "Gourharibabu": {
+      "type": "character",
+      "description": "Owner of Gourango Studios, who gave Sunayana her first film role."
+    },
+    "Murari Dutta": {
+      "type": "character",
+      "description": "A wealthy jeweller from the Dutta and Das family, murdered in mysterious circumstances involving Sunayana."
+    },
+    "Tarok Ganguly": {
+      "type": "character",
+      "description": "Director of 'The Golden Maid', the second film in which Sunayana acted."
+    },
+    "Nazarbibi": {
+      "type": "character",
+      "description": "Mushkil Mian’s second wife, originally from western India, in charge of the farm’s poultry."
+    },
+    "Professor Nepal Gupta": {
+      "type": "character",
+      "description": "A former chemistry professor with a scandalous past now conducting experiments at Golap Colony; he is the father of Mukul."
+    },
+    "Mukul": {
+      "type": "character",
+      "description": "Nepal Gupta's daughter, a hardworking young woman who manages the kitchen, with a past connection to the film world."
+    },
+    "Brojodas": {
+      "type": "character",
+      "description": "A former clerk turned Vaishnav devotee, who manages the cattle and dairy after a stint in prison."
+    },
+    "Bonolokhhi": {
+      "type": "character",
+      "description": "A young woman with a troubled past, skilled in tailoring, who becomes central to the mystery."
+    },
+    "Putiram": {
+      "type": "character",
+      "description": "Ajit and Byomkesh's domestic help, mentioned in connection with preparing food."
+    },
+    "Dr Nagendra Pal": {
+      "type": "character",
+      "description": "A local doctor called to examine Nishanathbabu after his death."
+    },
+    "Pramod Barat": {
+      "type": "character",
+      "description": "Inspector of the local police station who assists Byomkesh in the investigation alongside his subordinate Bikash."
+    },
+    "Bikash": {
+      "type": "character",
+      "description": "A police officer under Inspector Barat, who helps investigate No. 19 Mirza Lane."
+    },
+    "Gaffoor Sheikh": {
+      "type": "character",
+      "description": "Kanpur's shoe store owner in Calcutta, related to Mushkil Mian's second wife."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The capital city of West Bengal, India, where Byomkesh and Ajit reside."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, known for its tea gardens and cool climate."
+    },
+    "Harrison Road": {
+      "type": "proper_noun",
+      "description": "A prominent street in Calcutta, where Byomkesh and Ajit live."
+    },
+    "Golap Colony": {
+      "type": "proper_noun",
+      "description": "The name of Nishanath Sen’s farm, meaning 'Rose Colony', located near Mohanpur."
+    },
+    "Mohanpur": {
+      "type": "proper_noun",
+      "description": "A village near Calcutta, where Golap Colony is situated."
+    },
+    "24 Paraganas": {
+      "type": "proper_noun",
+      "description": "A district in West Bengal, referenced as the location of Golap Colony."
+    },
+    "Sealdah": {
+      "type": "proper_noun",
+      "description": "A major railway station in Calcutta, used for travel to Mohanpur."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "Now Mumbai, a major city in India, where Nishanathbabu served as a judge."
+    },
+    "Bagbazaar": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta, location of the Dutta and Das jewelry store."
+    },
+    "Dutta and Das": {
+      "type": "proper_noun",
+      "description": "A famous jewellers' company in Calcutta, associated with Murari Dutta."
+    },
+    "Gourango Studios": {
+      "type": "proper_noun",
+      "description": "A film studio in Calcutta where Sunayana began her acting career."
+    },
+    "The Poison Tree": {
+      "type": "proper_noun",
+      "description": "A famous novel by Bankim Chandra Chatterjee, adapted into a film starring Sunayana."
+    },
+    "Bankim Chandra Chatterjee": {
+      "type": "proper_noun",
+      "description": "A renowned Bengali novelist, author of 'The Poison Tree'."
+    },
+    "The Golden Maid": {
+      "type": "proper_noun",
+      "description": "A film directed by Tarok Ganguly, featuring Sunayana."
+    },
+    "Hogg Market": {
+      "type": "proper_noun",
+      "description": "A well-known market in Calcutta, where Golap Colony has a vegetable stall."
+    },
+    "China town": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta known for its Chinese community, where Bhujangadhar once had a dispensary."
+    },
+    "St Martha’s Girls’ School": {
+      "type": "proper_noun",
+      "description": "An English-medium girls’ school in Calcutta attended by Damayanti Devi."
+    },
+    "Nabadwip": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal, famous as a center of Vaishnavism, where Brojodas is found."
+    },
+    "Mirza Lane": {
+      "type": "proper_noun",
+      "description": "A street in Calcutta where Bhujangadhar and Bonolokhhi have a secret hideout."
+    },
+    "Cafe Shahjahan": {
+      "type": "proper_noun",
+      "description": "A restaurant in Calcutta where Byomkesh eats."
+    },
+    "Anandabazaar": {
+      "type": "proper_noun",
+      "description": "A leading Bengali newspaper, read by Ramenbabu."
+    },
+    "Mohamudgar": {
+      "type": "proper_noun",
+      "description": "A Sanskrit poem by Adi Shankaracharya, recited by Bhujangadhar."
+    },
+    "Adi Shankaracharya": {
+      "type": "proper_noun",
+      "description": "A revered Indian philosopher and theologian, author of 'Mohamudgar'."
+    },
+    "Malkauns": {
+      "type": "proper_noun",
+      "description": "A raga in Indian classical music, played by Bhujangadhar."
+    },
+    "Gaur Sarang": {
+      "type": "proper_noun",
+      "description": "Another raga in Indian classical music, played by Bhujangadhar."
+    },
+    "Animal Farm": {
+      "type": "proper_noun",
+      "description": "A reference to George Orwell’s novel, used humorously by Byomkesh for a cattle farm."
+    },
+    "Sajjandas Mirzapuri": {
+      "type": "proper_noun",
+      "description": "A fictitious criminal name used by Byomkesh as a ruse."
+    },
+    "Banga Bilash Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel near Sealdah station where Rashik De is arrested."
+    },
+    "Kanpur": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, India, referenced as the origin of Mushkil Mian’s wife's family."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful suffix used for men in Bengal, akin to 'Mr.'"
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional loose-fitting shirt worn in India."
+    },
+    "muslin": {
+      "type": "vocabulary",
+      "description": "A fine, lightweight cotton fabric, often used for stoles or garments."
+    },
+    "charpoy": {
+      "type": "vocabulary",
+      "description": "A traditional Indian woven bed or cot."
+    },
+    "rook": {
+      "type": "vocabulary",
+      "description": "A chess piece, also called a castle."
+    },
+    "rasgulla": {
+      "type": "vocabulary",
+      "description": "A popular Bengali sweet made of cheese balls soaked in syrup."
+    },
+    "beedi": {
+      "type": "vocabulary",
+      "description": "A thin, hand-rolled Indian cigarette made of tobacco wrapped in a tendu leaf."
+    },
+    "pyjamas": {
+      "type": "vocabulary",
+      "description": "Loose-fitting trousers, traditional Indian attire, also used for sleepwear."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional men's garment, a long piece of cloth wrapped around the waist and legs."
+    },
+    "lungi": {
+      "type": "vocabulary",
+      "description": "A casual lower garment worn around the waist, common in South Asia."
+    },
+    "sherbet": {
+      "type": "vocabulary",
+      "description": "A sweet, chilled drink, often fruit-flavored, popular in India."
+    },
+    "ashram": {
+      "type": "vocabulary",
+      "description": "A spiritual hermitage or communal living place, often associated with simplicity."
+    },
+    "tilak": {
+      "type": "vocabulary",
+      "description": "A mark, often of sandalwood paste, worn on the forehead as a religious symbol."
+    },
+    "Vaishnav": {
+      "type": "vocabulary",
+      "description": "A devotee of the Hindu god Vishnu, often marked by specific symbols and practices."
+    },
+    "raga": {
+      "type": "vocabulary",
+      "description": "A melodic framework in Indian classical music."
+    },
+    "alaap": {
+      "type": "vocabulary",
+      "description": "An improvised, unmetered introduction to a raga in Indian classical music."
+    },
+    "kheer": {
+      "type": "vocabulary",
+      "description": "A traditional Indian rice pudding dessert."
+    },
+    "barfi": {
+      "type": "vocabulary",
+      "description": "A sweet confection made from condensed milk and sugar."
+    },
+    "chutney": {
+      "type": "vocabulary",
+      "description": "A condiment made from fruits or vegetables, often sweet and tangy."
+    },
+    "talaq": {
+      "type": "vocabulary",
+      "description": "The Islamic practice of divorce, pronounced by the husband."
+    },
+    "purdah": {
+      "type": "vocabulary",
+      "description": "The practice of female seclusion or veiling in some South Asian communities."
+    },
+    "sindoor": {
+      "type": "vocabulary",
+      "description": "A red powder applied in the hair parting by married Hindu women."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A respectful greeting or farewell in India, similar to 'namaste'."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation of betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects."
+    },
+    "guru": {
+      "type": "vocabulary",
+      "description": "A spiritual teacher or guide."
+    },
+    "almirah": {
+      "type": "vocabulary",
+      "description": "A cupboard or wardrobe, often used for storing valuables or clothes."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A type of cigar, often smoked in India and Burma."
+    },
+    "moong dal": {
+      "type": "vocabulary",
+      "description": "A type of lentil commonly used in Indian cooking."
+    },
+    "ghee": {
+      "type": "vocabulary",
+      "description": "Clarified butter used in Indian cuisine."
+    },
+    "sitar": {
+      "type": "vocabulary",
+      "description": "A plucked stringed instrument used in Indian classical music."
+    },
+    "thumri": {
+      "type": "vocabulary",
+      "description": "A genre of semi-classical Indian music, often romantic or devotional."
+    },
+    "sloka": {
+      "type": "vocabulary",
+      "description": "A verse, phrase, proverb, or hymn, especially in Sanskrit literature."
+    },
+    "bangle": {
+      "type": "vocabulary",
+      "description": "A rigid bracelet, usually made of glass, metal, or plastic, worn by women in South Asia."
+    },
+    "lassi": {
+      "type": "vocabulary",
+      "description": "A traditional Indian yogurt-based drink, often sweet or salted."
+    },
+    "paan stall": {
+      "type": "vocabulary",
+      "description": "A small shop or kiosk selling paan and related items."
+    },
+    "Kakababu": {
+      "type": "vocabulary",
+      "description": "A respectful term for an elder male, often used for an uncle."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Satyaboti",
+      "Sukumar",
+      "Nishanath Sen",
+      "Damayanti",
+      "Bijoy",
+      "Panugopal",
+      "Bhujangadhar Das",
+      "Mushkil Mian",
+      "Rashiklal De",
+      "Sunayana",
+      "Indu Roy",
+      "Ramen Mullick",
+      "Gourharibabu",
+      "Murari Dutta",
+      "Tarok Ganguly",
+      "Nazarbibi",
+      "Professor Nepal Gupta",
+      "Mukul",
+      "Brojodas",
+      "Bonolokhhi",
+      "Putiram",
+      "Dr Nagendra Pal",
+      "Pramod Barat",
+      "Bikash",
+      "Gaffoor Sheikh",
+      "Calcutta",
+      "Darjeeling",
+      "Harrison Road",
+      "Golap Colony",
+      "Mohanpur",
+      "24 Paraganas",
+      "Sealdah",
+      "Bombay",
+      "Bagbazaar",
+      "Dutta and Das",
+      "Gourango Studios",
+      "The Poison Tree",
+      "Bankim Chandra Chatterjee",
+      "The Golden Maid",
+      "Hogg Market",
+      "China town",
+      "St Martha’s Girls’ School",
+      "Nabadwip",
+      "Mirza Lane",
+      "Cafe Shahjahan",
+      "Anandabazaar",
+      "Mohamudgar",
+      "Adi Shankaracharya",
+      "Malkauns",
+      "Gaur Sarang",
+      "Animal Farm",
+      "Sajjandas Mirzapuri",
+      "Banga Bilash Hotel",
+      "Kanpur",
+      "babu",
+      "kurta",
+      "muslin",
+      "charpoy",
+      "rook",
+      "rasgulla",
+      "beedi",
+      "pyjamas",
+      "dhoti",
+      "lungi",
+      "sherbet",
+      "ashram",
+      "tilak",
+      "Vaishnav",
+      "raga",
+      "alaap",
+      "kheer",
+      "barfi",
+      "chutney",
+      "talaq",
+      "purdah",
+      "sindoor",
+      "namaskar",
+      "paan",
+      "guru",
+      "almirah",
+      "cheroot",
+      "moong dal",
+      "ghee",
+      "sitar",
+      "thumri",
+      "sloka",
+      "bangle",
+      "lassi",
+      "paan stall",
+      "Kakababu"
+    ]
+  }
+}

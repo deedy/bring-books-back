@@ -1,0 +1,143 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist and truth-seeker, renowned for his detective skills and keen intellect."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, often accompanying him on investigations."
+    },
+    "Birenbabu": {
+      "type": "character",
+      "description": "A retired police officer from Calcutta, now settled in his ancestral home, who invites Byomkesh and Ajit to his daughter's wedding."
+    },
+    "Neelmani Majumdar": {
+      "type": "character",
+      "description": "A respected, retired police officer with a deep connection to the town and a central figure in the case discussed."
+    },
+    "Sureshwar Ghose": {
+      "type": "character",
+      "description": "A wealthy man suspected of murdering his wife Hashi; later found murdered in the same manner."
+    },
+    "Hashi": {
+      "type": "character",
+      "description": "Sureshwar's wife whose mysterious death is the focus of the investigation."
+    },
+    "Binodbabu": {
+      "type": "character",
+      "description": "A jeweller in the town known as Binod Sarkar or Binodbabu, who had a past relationship with Hashi's mother."
+    },
+    "Kalikinkar Das": {
+      "type": "character",
+      "description": "Owner of an iron and steel shop called Kalikinkar's shop, a friend of Sureshwar and one of the four card players."
+    },
+    "Debu Mondol": {
+      "type": "character",
+      "description": "A coal and firewood businessman, childhood friend of Sureshwar, and one of the four card players."
+    },
+    "Bilash Dutta": {
+      "type": "character",
+      "description": "A building contractor, friend of Sureshwar, and one of the four card players."
+    },
+    "Dinamani Haldar": {
+      "type": "character",
+      "description": "Hashi's legal father, known for his criminal background and frequent imprisonments."
+    },
+    "Amala": {
+      "type": "character",
+      "description": "Hashi's mother who had a troubled past and is revealed to be central to the family mystery; she had a past relationship with Binodbabu."
+    },
+    "Major Burman": {
+      "type": "character",
+      "description": "The civil surgeon who conducts the post-mortem examinations in the case."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in eastern India, now known as Kolkata, historically significant as a cultural and administrative center."
+    },
+    "East Bengal": {
+      "type": "proper_noun",
+      "description": "A region that became part of Bangladesh after the Partition of India in 1947."
+    },
+    "Partition": {
+      "type": "proper_noun",
+      "description": "Refers to the 1947 division of British India into India and Pakistan, resulting in mass migrations and upheaval."
+    },
+    "Lohapatty": {
+      "type": "proper_noun",
+      "description": "A market area in the town known for its iron and steel shops."
+    },
+    "Pujas": {
+      "type": "proper_noun",
+      "description": "Refers to Hindu religious festivals, especially Durga Puja, widely celebrated in Bengal."
+    },
+    "Holi": {
+      "type": "proper_noun",
+      "description": "A popular Hindu festival known as the festival of colors, celebrated across India."
+    },
+    "Ramdayal": {
+      "type": "proper_noun",
+      "description": "A worker in Binod Sarkar's shop who helps identify the origin of the ornaments."
+    },
+    "shehnai": {
+      "type": "vocabulary",
+      "description": "A traditional North Indian wind instrument, often played at weddings and festive occasions."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A term of respect or endearment for a man, commonly used in Bengal and other parts of India."
+    },
+    "bail": {
+      "type": "vocabulary",
+      "description": "A legal term referring to the temporary release of an accused person awaiting trial, sometimes used in Indian English."
+    },
+    "ghat": {
+      "type": "vocabulary",
+      "description": "A series of steps leading down to a river or cremation ground, commonly used for religious or funerary purposes in India."
+    },
+    "godown": {
+      "type": "vocabulary",
+      "description": "A warehouse or storage place, commonly used in Indian English."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in South Asia, often paired with a dhoti or pajama."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Birenbabu",
+      "Neelmani Majumdar",
+      "Sureshwar Ghose",
+      "Hashi",
+      "Binodbabu",
+      "Kalikinkar Das",
+      "Debu Mondol",
+      "Bilash Dutta",
+      "Dinamani Haldar",
+      "Amala",
+      "Major Burman",
+      "Calcutta",
+      "East Bengal",
+      "Partition",
+      "Lohapatty",
+      "Pujas",
+      "Holi",
+      "Ramdayal",
+      "shehnai",
+      "babu",
+      "bail",
+      "ghat",
+      "godown",
+      "dhoti",
+      "kurta"
+    ]
+  }
+}

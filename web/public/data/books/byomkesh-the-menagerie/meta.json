@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-menagerie",
+  "title": "The Menagerie",
+  "transliteratedTitle": "Chiriyakhana",
+  "subtitle": "A Scorching Summer, A Twisted Intrusion",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-menagerie.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "চিড়িয়াখানা",
+  "originalYear": 1953,
+  "totalChapters": 1,
+  "wordCount": 48819,
+  "summary": "Calcutta swelters under the relentless summer heat, leaving Byomkesh Bakshi and his companion restless and craving excitement. Just as monotony and the chessboard threaten to consume them, an unexpected visitor bursts into their lives, setting the stage for a mystery that promises to shatter the oppressive stillness. What secrets will this intrusion reveal amid the city’s simmering atmosphere?",
+  "anthologyId": "byomkesh"
+}

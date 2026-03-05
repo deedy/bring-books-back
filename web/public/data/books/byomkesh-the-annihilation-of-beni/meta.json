@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-annihilation-of-beni",
+  "title": "The Annihilation of Beni",
+  "transliteratedTitle": "Benishonghar",
+  "subtitle": "A Disappearance in Calcutta’s Shadowed Mansion",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-annihilation-of-beni.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "বেণীসংহার",
+  "originalYear": 1968,
+  "totalChapters": 1,
+  "wordCount": 19294,
+  "summary": "When the enigmatic Benimadhab vanishes without a trace from his grand South Calcutta home, Byomkesh Bakshi is drawn into a tangled web of family secrets and hidden motives. As suspicion falls on those closest to Benimadhab, every conversation and shadowed hallway brims with danger. Can Byomkesh unravel the truth before the darkness closes in?",
+  "anthologyId": "byomkesh"
+}

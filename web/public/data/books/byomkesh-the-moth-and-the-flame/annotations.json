@@ -1,0 +1,212 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist, a renowned Bengali detective known as a 'truth-seeker' (satyanweshi), who investigates complex cases with keen observation and logic."
+    },
+    "Pandeyji": {
+      "type": "character",
+      "description": "A senior police officer and friend of Byomkesh, who assists in the investigation and provides local insight."
+    },
+    "Ratikanta": {
+      "type": "character",
+      "description": "Inspector Ratikanta Chowdhury, a young police officer, relative of Dipnarayan Singh, and involved in the official investigation."
+    },
+    "Dipnarayan Singh": {
+      "type": "character",
+      "description": "A wealthy and influential zamindar of Bihar, recently recovered from illness, who becomes the murder victim."
+    },
+    "Dr. Palit": {
+      "type": "character",
+      "description": "A Bengali physician responsible for treating Dipnarayan Singh, who administers the fatal injection."
+    },
+    "Dr. Jagannath Prasad": {
+      "type": "character",
+      "description": "A young Bihari doctor, nicknamed 'Ghoda Jagannath' (Horse Jagannath), known for his arrogance and rivalry with Bengali doctors."
+    },
+    "Debnarayan": {
+      "type": "character",
+      "description": "Dipnarayan Singh's obese and foolish nephew, who stands to inherit the estate."
+    },
+    "Beniprasad": {
+      "type": "character",
+      "description": "Debnarayan's close companion and jester, known for his wit."
+    },
+    "Liladhar Banshi": {
+      "type": "character",
+      "description": "Assistant manager of the estate and Debnarayan's assistant jester."
+    },
+    "Gangadhar Banshi": {
+      "type": "character",
+      "description": "Chief manager of Dipnarayan Singh's estate and father of Liladhar, described as a shrewd and enigmatic figure."
+    },
+    "Shakuntala": {
+      "type": "character",
+      "description": "Dipnarayan Singh's beautiful and accomplished young wife, skilled in the arts and a graduate of Allahabad University."
+    },
+    "Chandni": {
+      "type": "character",
+      "description": "Debnarayan's wife, depicted as plump, shy, and unaccustomed to socializing openly."
+    },
+    "Miss Manna": {
+      "type": "character",
+      "description": "The resident lady doctor of the house, called to attend to Shakuntala after Dipnarayan's death."
+    },
+    "Khublal": {
+      "type": "character",
+      "description": "Dr. Palit's compounder, a poor Bihari assistant who is questioned during the investigation."
+    },
+    "Narmada Shankar": {
+      "type": "character",
+      "description": "A notorious, wealthy young man from Allahabad, known for his scandalous behavior and former visitor to Dipnarayan's house."
+    },
+    "Calcutta": {
+      "type": "place",
+      "description": "A major city in eastern India (now Kolkata), referenced as the origin of Byomkesh and his friends."
+    },
+    "Bihar": {
+      "type": "place",
+      "description": "An Indian state where the story is set, known for its zamindari estates and conservative social customs."
+    },
+    "Pratapgarh": {
+      "type": "place",
+      "description": "A region in India, mentioned as the ancestral home of Ratikanta's family."
+    },
+    "Allahabad University": {
+      "type": "place",
+      "description": "A prestigious university in Allahabad (now Prayagraj), India, from which Shakuntala graduated."
+    },
+    "Patna": {
+      "type": "place",
+      "description": "The capital city of Bihar, where much of the story's action occurs."
+    },
+    "Buxar": {
+      "type": "place",
+      "description": "A town in Bihar, referenced as the location of a jail."
+    },
+    "Ganges": {
+      "type": "place",
+      "description": "A major river in India, referenced metaphorically as a 'one-way journey' (i.e., death)."
+    },
+    "hookah": {
+      "type": "term",
+      "description": "A traditional Indian water pipe used for smoking tobacco."
+    },
+    "sahib": {
+      "type": "term",
+      "description": "A term of respect used in colonial India for Europeans or people of high status."
+    },
+    "zamindar": {
+      "type": "term",
+      "description": "A hereditary landowner or landlord, especially in pre-independence India."
+    },
+    "purdah": {
+      "type": "term",
+      "description": "The practice of secluding women from public observation, prevalent in some Indian households."
+    },
+    "adda": {
+      "type": "term",
+      "description": "An informal gathering or conversation, often among friends, typical in Bengali culture."
+    },
+    "thana": {
+      "type": "term",
+      "description": "A local police station."
+    },
+    "baithak-khana": {
+      "type": "term",
+      "description": "A sitting room or drawing room in an Indian household."
+    },
+    "paṭaṅga": {
+      "type": "term",
+      "description": "A word meaning 'moth' in Hindi/Bengali, used in the story's title."
+    },
+    "huzoor": {
+      "type": "term",
+      "description": "A respectful form of address, meaning 'sir' or 'master' in Urdu/Hindi."
+    },
+    "compounder": {
+      "type": "term",
+      "description": "A medical assistant responsible for preparing and dispensing medicines in a clinic."
+    },
+    "bandhgala": {
+      "type": "term",
+      "description": "A formal Indian jacket, typically worn by men."
+    },
+    "paan": {
+      "type": "term",
+      "description": "A preparation of betel leaf with areca nut and sometimes tobacco, chewed as a stimulant."
+    },
+    "sari": {
+      "type": "term",
+      "description": "A traditional Indian garment worn by women, consisting of a long piece of cloth draped around the body."
+    },
+    "B.Sc.": {
+      "type": "term",
+      "description": "Bachelor of Science, an undergraduate academic degree."
+    },
+    "civil marriage": {
+      "type": "term",
+      "description": "A marriage performed and recognized by the state, not based on religious rites."
+    },
+    "curare": {
+      "type": "term",
+      "description": "A plant-derived poison used historically on arrow tips and referenced here as a means of murder."
+    },
+    "post-mortem": {
+      "type": "term",
+      "description": "An autopsy; the examination of a body after death to determine the cause."
+    },
+    "intramuscular": {
+      "type": "term",
+      "description": "A type of injection administered into a muscle."
+    },
+    "satyanweshi": {
+      "type": "term",
+      "description": "A term meaning 'truth-seeker', used to describe Byomkesh's approach to detection."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Pandeyji",
+      "Ratikanta",
+      "Dipnarayan Singh",
+      "Dr. Palit",
+      "Dr. Jagannath Prasad",
+      "Debnarayan",
+      "Beniprasad",
+      "Liladhar Banshi",
+      "Gangadhar Banshi",
+      "Shakuntala",
+      "Chandni",
+      "Miss Manna",
+      "Khublal",
+      "Narmada Shankar",
+      "Calcutta",
+      "Bihar",
+      "Pratapgarh",
+      "Allahabad University",
+      "Patna",
+      "Buxar",
+      "Ganges",
+      "hookah",
+      "sahib",
+      "zamindar",
+      "purdah",
+      "adda",
+      "thana",
+      "baithak-khana",
+      "huzoor",
+      "compounder",
+      "bandhgala",
+      "paan",
+      "sari",
+      "B.Sc.",
+      "civil marriage",
+      "curare",
+      "post-mortem",
+      "intramuscular",
+      "satyanweshi"
+    ]
+  }
+}

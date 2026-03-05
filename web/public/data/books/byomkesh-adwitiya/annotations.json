@@ -1,0 +1,108 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist and sharp detective known as a 'truth-seeker' or satyanweshi, who solves mysteries with logical reasoning alongside his friend Ajit."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, who narrates the stories and often assists in investigations."
+    },
+    "Satyawati": {
+      "type": "character",
+      "description": "Byomkesh's wife, known for her strong opinions and spirited debates, especially regarding gender roles."
+    },
+    "Chintamani Kundu": {
+      "type": "character",
+      "description": "A paralyzed, elderly landlord who becomes embroiled in a murder case involving his tenant and seeks Byomkesh's help."
+    },
+    "Ramadhin": {
+      "type": "character",
+      "description": "Chintamani Kundu's loyal Hindustani servant who assists him in daily tasks."
+    },
+    "Bijoy Bhaduri": {
+      "type": "character",
+      "description": "A senior police inspector and former junior inspector known to Byomkesh who investigates the murder case."
+    },
+    "Bidhu Bhushan Aich": {
+      "type": "character",
+      "description": "The murder victim, a police officer from Burdwan who recognizes Pramila Pal in disguise."
+    },
+    "Pramila Pal": {
+      "type": "character",
+      "description": "A fugitive woman and master of disguise, previously convicted of murder, who assumes the identity of a young man named Tapan Sen."
+    },
+    "Jamadar": {
+      "type": "character",
+      "description": "A police officer who assists Bijoy Babu in arresting Pramila Pal."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The city (now Kolkata) where the story is set, a major metropolis in eastern India."
+    },
+    "Kashipur": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta mentioned as the site of a recent burglary."
+    },
+    "Bankim Chandra": {
+      "type": "proper_noun",
+      "description": "Refers to Bankim Chandra Chattopadhyay, a renowned Bengali novelist and author of 'Devi Chaudhurani'."
+    },
+    "Devi Chaudhurani": {
+      "type": "proper_noun",
+      "description": "A famous fictional female bandit and freedom fighter from Bankim Chandra's novel, cited as an example of a strong woman."
+    },
+    "Burdwan": {
+      "type": "proper_noun",
+      "description": "A city in West Bengal, India, referenced as the home of Bidhu Bhushan Aich and the location of a jail."
+    },
+    "Chetla": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta, mentioned as the location of the girls' school where Shanta claims to work."
+    },
+    "Madrasi": {
+      "type": "proper_noun",
+      "description": "A term used to refer to people from the southern Indian region of Madras (now Chennai), here describing a tenant family."
+    },
+    "Prabhat": {
+      "type": "proper_noun",
+      "description": "Likely refers to a publishing house or a person to whom Byomkesh sends unsolicited manuscripts."
+    },
+    "dewan": {
+      "type": "vocabulary",
+      "description": "A type of low, backless couch or divan commonly used in Indian households."
+    },
+    "namaskar": {
+      "type": "vocabulary",
+      "description": "A traditional Indian greeting, performed with folded hands."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A term of respect or endearment for a man, often used for educated or respectable gentlemen."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Satyawati",
+      "Chintamani Kundu",
+      "Ramadhin",
+      "Bijoy Bhaduri",
+      "Bidhu Bhushan Aich",
+      "Pramila Pal",
+      "Jamadar",
+      "Calcutta",
+      "Kashipur",
+      "Bankim Chandra",
+      "Devi Chaudhurani",
+      "Burdwan",
+      "Chetla",
+      "Madrasi",
+      "Prabhat",
+      "dewan",
+      "namaskar",
+      "babu"
+    ]
+  }
+}
