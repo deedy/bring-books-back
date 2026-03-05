@@ -1,0 +1,2164 @@
+{
+  "glossary": {
+    "Praneshacharya": {
+      "type": "character",
+      "description": "A respected Brahmin scholar and religious leader in the agrahara, known for his ascetic lifestyle and devotion to ritual.",
+      "image": "/data/images/characters/samskara/praneshacharya.png"
+    },
+    "agrahara": {
+      "type": "proper_noun",
+      "description": "A traditional Brahmin quarter or settlement, typically consisting of a row of houses inhabited by Brahmin families."
+    },
+    "Acharya": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term for a learned teacher or religious preceptor, especially one who leads rituals and imparts spiritual guidance; 'Acharyas' is the plural form."
+    },
+    "camphor": {
+      "type": "vocabulary",
+      "description": "A white, crystalline substance often burned in Hindu rituals for its fragrance and symbolic purity."
+    },
+    "ablutions": {
+      "type": "vocabulary",
+      "description": "Ritual washing or cleansing of the body, especially hands, as part of religious observance."
+    },
+    "Bhagirathi": {
+      "type": "character",
+      "description": "Praneshacharya's ailing wife, whose care and daily rituals form a central part of his life."
+    },
+    "Chandri": {
+      "type": "character",
+      "description": "Narayanappa’s concubine, a woman of lower caste, whose presence and actions cause tension in the community.",
+      "image": "/data/images/characters/samskara/chandri.png"
+    },
+    "Narayanappa": {
+      "type": "character",
+      "description": "A Brahmin who defied religious norms, lived with Chandri, and whose death triggers the community's crisis.",
+      "image": "/data/images/characters/samskara/narayanappa.png"
+    },
+    "Garudacharya": {
+      "type": "character",
+      "description": "A prominent Brahmin of the agrahara and father of Shyama, known for his pride, involvement in community matters, and frequent complaints regarding Narayanappa's sacrilege.",
+      "image": "/data/images/characters/samskara/garudacharya.png"
+    },
+    "Dasacharya": {
+      "type": "character",
+      "description": "A poor Brahmin dependent on charity, eager for ritual merit and food.",
+      "image": "/data/images/characters/samskara/dasacharya.png"
+    },
+    "Padmanabhacharya": {
+      "type": "character",
+      "description": "A Brahmin who joins the discussion about Narayanappa’s conduct."
+    },
+    "Anasuya": {
+      "type": "character",
+      "description": "The family of Lakshmanacharya, including his wife Anasuya and their daughter Leelavati, who is married to Shripati; they are deeply affected by the community's social tensions."
+    },
+    "Manjayya": {
+      "type": "character",
+      "description": "A wealthy Brahmin from Parijatapura whose household is known for prosperity and providing food to dependent Brahmins like Dasacharya."
+    },
+    "prasada": {
+      "type": "proper_noun",
+      "description": "Sacred food offered to a deity and then distributed to devotees."
+    },
+    "tirtha": {
+      "type": "proper_noun",
+      "description": "Holy water used in rituals and given as a blessing."
+    },
+    "sandhyavandana": {
+      "type": "proper_noun",
+      "description": "A daily ritual of prayers and meditation performed by Brahmins."
+    },
+    "puja": {
+      "type": "proper_noun",
+      "description": "A religious ritual of worship in Hinduism."
+    },
+    "Kashi": {
+      "type": "proper_noun",
+      "description": "A sacred city (Varanasi) known for religious learning and pilgrimage."
+    },
+    "Brahmin": {
+      "type": "proper_noun",
+      "description": "A member of the priestly caste in Hindu society, central to the novel's community; 'Brahmins' is the plural, 'Brahmin woman' refers to women of this caste, and 'Brahminhood' refers to the quality or status of being a Brahmin."
+    },
+    "Dharma Shastra": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu texts that codify laws and duties, prescribing religious and moral law for society, especially for Brahmins."
+    },
+    "Veda": {
+      "type": "proper_noun",
+      "description": "The oldest and most authoritative scriptures of Hinduism, regarded as the foundation of Brahminical religious knowledge."
+    },
+    "Dharmasthala": {
+      "type": "proper_noun",
+      "description": "A famous pilgrimage and temple town in Karnataka."
+    },
+    "anuloma": {
+      "type": "proper_noun",
+      "description": "A term for a marriage between a higher-caste man and a lower-caste woman."
+    },
+    "pratiloma": {
+      "type": "proper_noun",
+      "description": "A term for a marriage between a lower-caste man and a higher-caste woman."
+    },
+    "Turukas": {
+      "type": "proper_noun",
+      "description": "A term for Muslims, often used in a historical or pejorative sense."
+    },
+    "shraddha": {
+      "type": "proper_noun",
+      "description": "A ritual performed for deceased ancestors."
+    },
+    "chandala": {
+      "type": "proper_noun",
+      "description": "A person of the lowest caste, considered untouchable."
+    },
+    "Sanatana Dharma": {
+      "type": "proper_noun",
+      "description": "A term for the eternal and universal duties in Hinduism."
+    },
+    "Parijatapura": {
+      "type": "proper_noun",
+      "description": "A neighboring village, home to a different Brahmin community."
+    },
+    "Adapankti": {
+      "type": "proper_noun",
+      "description": "A term for Brahmins considered of lower ritual status."
+    },
+    "Sringeri": {
+      "type": "proper_noun",
+      "description": "A prominent center of Advaita Vedanta and a famous matha (monastic institution) in Karnataka."
+    },
+    "Basuramma": {
+      "type": "proper_noun",
+      "description": "A widow from Parijatapura, referenced in the community's history."
+    },
+    "Kundapura": {
+      "type": "proper_noun",
+      "description": "A town in Karnataka, mentioned as Chandri’s place of origin."
+    },
+    "Vatsyayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian philosopher, author of the Kama Sutra."
+    },
+    "Ravi Varma": {
+      "type": "proper_noun",
+      "description": "Refers to Raja Ravi Varma, a famous Indian painter."
+    },
+    "Matsyagandhi": {
+      "type": "proper_noun",
+      "description": "A mythological character, mother of Vyasa, known for her fish-like smell."
+    },
+    "Jagannatha": {
+      "type": "proper_noun",
+      "description": "A figure referenced for marrying a Muslim girl."
+    },
+    "mlechha": {
+      "type": "proper_noun",
+      "description": "A term for foreigners or those outside the Vedic fold, often with a negative connotation."
+    },
+    "Shringara Shataka": {
+      "type": "proper_noun",
+      "description": "A classical Sanskrit text of erotic poetry."
+    },
+    "avalakki": {
+      "type": "proper_noun",
+      "description": "Flattened rice, a common South Indian food."
+    },
+    "uppittu": {
+      "type": "proper_noun",
+      "description": "A South Indian dish made from semolina, also known as upma."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by women."
+    },
+    "saaru": {
+      "type": "vocabulary",
+      "description": "A South Indian soup, similar to rasam."
+    },
+    "angavastra": {
+      "type": "vocabulary",
+      "description": "A traditional cloth draped over the shoulders by men, especially during rituals."
+    },
+    "shanti": {
+      "type": "vocabulary",
+      "description": "A ritual for peace or atonement."
+    },
+    "shastras": {
+      "type": "vocabulary",
+      "description": "Scriptural texts or treatises in Hinduism."
+    },
+    "chāvadi": {
+      "type": "vocabulary",
+      "description": "A public hall or meeting place in a village."
+    },
+    "achara": {
+      "type": "vocabulary",
+      "description": "Customary conduct or practice, especially in religious matters."
+    },
+    "areca": {
+      "type": "vocabulary",
+      "description": "A type of palm tree whose nuts are chewed as a stimulant."
+    },
+    "Lakshmanacharya": {
+      "type": "character",
+      "description": "A miserly Brahmin of the agrahara, husband of Anasuya and father-in-law to Shripati, who is often involved in debates regarding ritual and kinship.",
+      "image": "/data/images/characters/samskara/lakshmanacharya.png"
+    },
+    "Bhimacharya": {
+      "type": "character",
+      "description": "A Brahmin resident of the agrahara, known for his garden."
+    },
+    "Taure": {
+      "type": "character",
+      "description": "A person to whom Lakshmanacharya’s wife might secretly give things."
+    },
+    "Shankarayya": {
+      "type": "character",
+      "description": "Priest for the Brahmins of Parijatapura, concerned with ritual correctness."
+    },
+    "Manusmriti": {
+      "type": "proper_noun",
+      "description": "An ancient Sanskrit text on Hindu law and social order."
+    },
+    "night queen": {
+      "type": "proper_noun",
+      "description": "A fragrant flowering plant (raat rani), considered inauspicious for worship."
+    },
+    "Konkani": {
+      "type": "proper_noun",
+      "description": "Refers to a linguistic and cultural community in coastal Karnataka and Goa."
+    },
+    "Chaitra": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu lunar calendar, corresponding to March-April."
+    },
+    "Vaishakha": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu lunar calendar, corresponding to April-May."
+    },
+    "Kartika": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu lunar calendar, corresponding to October-November."
+    },
+    "Tunga": {
+      "type": "proper_noun",
+      "description": "A river flowing by the agrahara, significant in local legend."
+    },
+    "Shravan": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu calendar, corresponding to July-August."
+    },
+    "Basuris": {
+      "type": "proper_noun",
+      "description": "A community or group referenced in relation to food preferences."
+    },
+    "Durvasapura": {
+      "type": "proper_noun",
+      "description": "The agrahara where the story is set, named after the sage Durvasa."
+    },
+    "Kaimara": {
+      "type": "proper_noun",
+      "description": "A nearby place associated with the Pandavas' exile and the site of the river legend; variant spellings include Kayimara and kaimara."
+    },
+    "Pandavas": {
+      "type": "proper_noun",
+      "description": "The five heroic brothers from the Mahabharata epic."
+    },
+    "Draupadi": {
+      "type": "proper_noun",
+      "description": "Wife of the Pandavas in the Mahabharata."
+    },
+    "Bhimasena": {
+      "type": "proper_noun",
+      "description": "One of the Pandavas, known for his strength."
+    },
+    "Durvasa": {
+      "type": "proper_noun",
+      "description": "A legendary sage known for his temper, associated with the agrahara's legend."
+    },
+    "Dvapara Yuga": {
+      "type": "proper_noun",
+      "description": "The third of the four ages in Hindu cosmology."
+    },
+    "Dharmaja": {
+      "type": "proper_noun",
+      "description": "Another name for Yudhishthira, the eldest Pandava."
+    },
+    "Ramanavami": {
+      "type": "proper_noun",
+      "description": "A Hindu festival celebrating the birth of Rama."
+    },
+    "Tikaacharya": {
+      "type": "proper_noun",
+      "description": "A revered religious figure, whose anniversary is celebrated."
+    },
+    "matha": {
+      "type": "proper_noun",
+      "description": "A Hindu monastery or religious institution."
+    },
+    "Nandanadi": {
+      "type": "proper_noun",
+      "description": "A sacred river referenced in ritual context."
+    },
+    "Shimoga": {
+      "type": "proper_noun",
+      "description": "A city in Karnataka, mentioned as a place of business."
+    },
+    "Vaikuntha-samaradhane": {
+      "type": "proper_noun",
+      "description": "A special ritual performed for the dead, believed to help the soul attain Vaikuntha (Vishnu's abode)."
+    },
+    "papads": {
+      "type": "vocabulary",
+      "description": "Thin, crisp, disc-shaped food typically made from lentil flour."
+    },
+    "sandige": {
+      "type": "vocabulary",
+      "description": "Sun-dried wafers or fryums made from rice or lentils, common in South Indian cuisine."
+    },
+    "mandara": {
+      "type": "vocabulary",
+      "description": "A type of flower (Erythrina indica) used in worship."
+    },
+    "shankhapushpa": {
+      "type": "vocabulary",
+      "description": "A medicinal and sacred flower (Clitoria ternatea) used in rituals."
+    },
+    "bilva": {
+      "type": "vocabulary",
+      "description": "Leaves of the bael tree, sacred to Lord Shiva and used in worship."
+    },
+    "raat rani": {
+      "type": "vocabulary",
+      "description": "Hindi for 'night queen', a night-blooming jasmine (Cestrum nocturnum)."
+    },
+    "tamasic": {
+      "type": "vocabulary",
+      "description": "Pertaining to tamas, one of the three gunas (qualities), meaning dark, impure, or inauspicious."
+    },
+    "kosumbari": {
+      "type": "vocabulary",
+      "description": "A South Indian salad made from soaked lentils and vegetables, offered during festivals and feasts."
+    },
+    "panaka": {
+      "type": "vocabulary",
+      "description": "A sweet, spiced beverage made during Hindu festivals."
+    },
+    "palya": {
+      "type": "vocabulary",
+      "description": "A South Indian stir-fried vegetable dish."
+    },
+    "huli": {
+      "type": "vocabulary",
+      "description": "A sour, spicy South Indian curry, often made with tamarind."
+    },
+    "gojju": {
+      "type": "vocabulary",
+      "description": "A tangy, spicy South Indian sauce or curry."
+    },
+    "aradhana": {
+      "type": "vocabulary",
+      "description": "A ritual of worship or commemoration, often for saints or religious teachers."
+    },
+    "sthala purana": {
+      "type": "vocabulary",
+      "description": "A local legend or myth associated with a specific place."
+    },
+    "jnani": {
+      "type": "vocabulary",
+      "description": "A person of spiritual knowledge or wisdom."
+    },
+    "grihastha-dharma": {
+      "type": "vocabulary",
+      "description": "The duties and responsibilities of a householder in Hindu tradition."
+    },
+    "mandi": {
+      "type": "vocabulary",
+      "description": "A market, especially for agricultural produce."
+    },
+    "Bhagavan": {
+      "type": "vocabulary",
+      "description": "A respectful term for God or the divine."
+    },
+    "dvija": {
+      "type": "vocabulary",
+      "description": "Literally 'twice-born', a term for members of the three upper castes in Hinduism, especially Brahmins."
+    },
+    "adharma": {
+      "type": "vocabulary",
+      "description": "Unrighteousness or actions contrary to dharma (moral order)."
+    },
+    "Saligrama": {
+      "type": "vocabulary",
+      "description": "A sacred stone representing Vishnu, worshipped by Vaishnavas."
+    },
+    "Shripati": {
+      "type": "character",
+      "description": "Lakshmana’s son-in-law, once under Praneshacharya’s influence but later drawn away by Narayanappa."
+    },
+    "Shyama": {
+      "type": "character",
+      "description": "The son of Garuda and student of Praneshacharya who, along with other young men like Ganesh, becomes involved in the drama troupe and secular interests."
+    },
+    "Congress": {
+      "type": "proper_noun",
+      "description": "Refers to the Indian National Congress, symbolizing modern, reformist political forces."
+    },
+    "Panchamas": {
+      "type": "proper_noun",
+      "description": "A term for those outside the traditional four varnas, considered 'untouchables' in the caste hierarchy."
+    },
+    "Charvaka": {
+      "type": "proper_noun",
+      "description": "An ancient Indian materialist and atheistic philosophical school that rejected Vedic authority."
+    },
+    "Ganapati": {
+      "type": "proper_noun",
+      "description": "A Hindu deity, also known as Ganesha, whose temple and river are mentioned."
+    },
+    "Kali": {
+      "type": "proper_noun",
+      "description": "The current age in Hindu cosmology, believed to be an era of moral decline."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "The sacred river Ganges, symbolizing purity and spiritual cleansing."
+    },
+    "Parashara": {
+      "type": "proper_noun",
+      "description": "A revered sage and author of several ancient Hindu texts."
+    },
+    "Bhrigu": {
+      "type": "proper_noun",
+      "description": "An ancient sage and one of the Saptarishis in Hindu tradition."
+    },
+    "Brihaspati": {
+      "type": "proper_noun",
+      "description": "A sage and the preceptor of the gods in Hindu mythology."
+    },
+    "Kashyapa": {
+      "type": "proper_noun",
+      "description": "A revered Vedic sage and progenitor of many beings in Hindu mythology."
+    },
+    "Kalidasa": {
+      "type": "proper_noun",
+      "description": "A classical Sanskrit poet and dramatist, author of 'Shakuntala'."
+    },
+    "Shakuntala": {
+      "type": "proper_noun",
+      "description": "A famous play by Kalidasa, also the name of its heroine."
+    },
+    "Samskara": {
+      "type": "vocabulary",
+      "description": "A Hindu rite of passage or ritual purification, also the title and central theme of the novel, especially referring to funeral rites."
+    },
+    "mantras": {
+      "type": "vocabulary",
+      "description": "Sacred utterances or chants used in Hindu rituals and prayers."
+    },
+    "dharma": {
+      "type": "vocabulary",
+      "description": "Righteousness, moral duty, or the ethical path as prescribed by Hindu tradition."
+    },
+    "rishis": {
+      "type": "vocabulary",
+      "description": "Ancient sages or seers in Hindu tradition, often credited with composing the Vedas."
+    },
+    "arrack": {
+      "type": "vocabulary",
+      "description": "A distilled alcoholic drink popular in South Asia."
+    },
+    "Purana": {
+      "type": "vocabulary",
+      "description": "A genre of ancient Hindu texts containing mythological stories, traditions, and legends."
+    },
+    "chakravyuha": {
+      "type": "vocabulary",
+      "description": "A complex, circular military formation described in the Mahabharata, here used metaphorically for an inescapable maze."
+    },
+    "sattvic": {
+      "type": "vocabulary",
+      "description": "Pertaining to purity, harmony, and goodness in Hindu philosophy."
+    },
+    "Supreme Being": {
+      "type": "proper_noun",
+      "description": "A reference to the ultimate divine reality in Hindu philosophy."
+    },
+    "Paramatma": {
+      "type": "proper_noun",
+      "description": "A Sanskrit term for the supreme soul or universal spirit in Hinduism."
+    },
+    "Bhasmasura": {
+      "type": "proper_noun",
+      "description": "A demon from Hindu mythology who was destroyed by his own boon."
+    },
+    "Pune": {
+      "type": "proper_noun",
+      "description": "A city in western India, mentioned as Shyama’s location after joining the military."
+    },
+    "Tulasi": {
+      "type": "proper_noun",
+      "description": "Holy basil, a sacred plant in Hinduism used in worship and prayer beads."
+    },
+    "Madhva": {
+      "type": "proper_noun",
+      "description": "Refers to followers of the Dvaita Vedanta philosophy founded by Madhvacharya."
+    },
+    "punyadina": {
+      "type": "proper_noun",
+      "description": "A day of religious merit or anniversary, often for rituals."
+    },
+    "Tikacharya": {
+      "type": "proper_noun",
+      "description": "A revered scholar or religious figure referenced in the text."
+    },
+    "Shri Guru": {
+      "type": "proper_noun",
+      "description": "An honorific for a revered spiritual teacher."
+    },
+    "Vyasaraya Matha": {
+      "type": "proper_noun",
+      "description": "A specific monastery or lineage within the Madhva tradition."
+    },
+    "Madhyamata": {
+      "type": "proper_noun",
+      "description": "A philosophical school or interpretation within Vedanta."
+    },
+    "Singalika": {
+      "type": "proper_noun",
+      "description": "A term of self-deprecation, possibly referencing a lowly or insignificant person."
+    },
+    "Vedanta": {
+      "type": "proper_noun",
+      "description": "A major school of Hindu philosophy, literally meaning 'end of the Vedas.'"
+    },
+    "keri": {
+      "type": "proper_noun",
+      "description": "A section or street within a traditional South Indian village or agrahara."
+    },
+    "turuka": {
+      "type": "proper_noun",
+      "description": "A term for a Muslim, used here to indicate excommunication."
+    },
+    "apaddharma": {
+      "type": "proper_noun",
+      "description": "Emergency or situational dharma, allowing exceptions to rules in dire circumstances."
+    },
+    "Vishwamitra": {
+      "type": "proper_noun",
+      "description": "A legendary sage in Hindu mythology."
+    },
+    "shadkaksha": {
+      "type": "proper_noun",
+      "description": "A term denoting a specific lineage or sect within Brahmins."
+    },
+    "Trivikrama": {
+      "type": "proper_noun",
+      "description": "An incarnation of Vishnu, here symbolizing an overwhelming challenge."
+    },
+    "Yakshagana": {
+      "type": "proper_noun",
+      "description": "A traditional South Indian dance-drama form."
+    },
+    "Kamath": {
+      "type": "proper_noun",
+      "description": "A merchant or shopkeeper’s name."
+    },
+    "Shenoy": {
+      "type": "proper_noun",
+      "description": "Another merchant or shopkeeper’s name."
+    },
+    "Kanayya": {
+      "type": "proper_noun",
+      "description": "A familiar form of address, likely for a shopkeeper."
+    },
+    "dakshina": {
+      "type": "vocabulary",
+      "description": "A traditional offering or fee given to priests or teachers."
+    },
+    "namaskara": {
+      "type": "vocabulary",
+      "description": "A respectful greeting or gesture of reverence, often with folded hands."
+    },
+    "Bhagavata": {
+      "type": "character",
+      "description": "The lead singer and narrator of the Keluru troupe, befriends Shripati."
+    },
+    "Belli": {
+      "type": "character",
+      "description": "A lower-caste woman with whom Shripati has a relationship."
+    },
+    "Sheena": {
+      "type": "character",
+      "description": "A temple priest (pujari) whose household is associated with crossing social boundaries and visits from Shripati."
+    },
+    "Kundapura Nagappa": {
+      "type": "character",
+      "description": "A performer who plays the king’s role in the Yakshagana troupe."
+    },
+    "Keluru": {
+      "type": "proper_noun",
+      "description": "A place name, home to the troupe performing Jambuvanti-Kalyana."
+    },
+    "Jambuvanti-Kalyana": {
+      "type": "proper_noun",
+      "description": "A mythological play performed by the Keluru troupe, depicting the marriage of Jambuvanti."
+    },
+    "Pujari": {
+      "type": "proper_noun",
+      "description": "A Hindu temple priest responsible for performing rituals."
+    },
+    "Nagaraja": {
+      "type": "proper_noun",
+      "description": "A person living in Parijatapura, whom Shripati plans to visit."
+    },
+    "Holaya": {
+      "type": "proper_noun",
+      "description": "A Dalit (untouchable) caste community, whose settlement is located on the hill; 'Holayas' is the plural form."
+    },
+    "mathas": {
+      "type": "proper_noun",
+      "description": "A Hindu monastery or religious institution; 'mathas' is the plural form."
+    },
+    "South": {
+      "type": "proper_noun",
+      "description": "Refers to South India, the region where the story is set."
+    },
+    "Vyasa": {
+      "type": "proper_noun",
+      "description": "A legendary sage and author of the Mahabharata, revered in Hindu tradition."
+    },
+    "Ushas": {
+      "type": "proper_noun",
+      "description": "The Vedic goddess of dawn."
+    },
+    "Pushpavati": {
+      "type": "proper_noun",
+      "description": "A mythological or poetic reference, used as a simile in the text."
+    },
+    "Parijata": {
+      "type": "proper_noun",
+      "description": "A celestial flower in Hindu mythology, also used as a fragrant flower in Hindu rituals."
+    },
+    "Shesha-shayi": {
+      "type": "proper_noun",
+      "description": "An epithet of Lord Vishnu, depicting him reclining on the serpent Shesha."
+    },
+    "Narayana": {
+      "type": "proper_noun",
+      "description": "A name for Lord Vishnu, one of the principal deities of Hinduism."
+    },
+    "Narada": {
+      "type": "proper_noun",
+      "description": "A divine sage and musician in Hindu mythology."
+    },
+    "tambura": {
+      "type": "proper_noun",
+      "description": "A stringed musical instrument used in Indian classical music."
+    },
+    "vanaras": {
+      "type": "proper_noun",
+      "description": "Mythical monkey-like beings in Hindu epics."
+    },
+    "kinnaras": {
+      "type": "proper_noun",
+      "description": "Mythical beings, half-human and half-horse, known for their musical abilities."
+    },
+    "yakshas": {
+      "type": "proper_noun",
+      "description": "Nature-spirits in Hindu, Jain, and Buddhist mythology."
+    },
+    "gandharvas": {
+      "type": "proper_noun",
+      "description": "Celestial musicians in Hindu mythology."
+    },
+    "Menaka": {
+      "type": "proper_noun",
+      "description": "A celestial nymph in Hindu mythology, known for seducing sages."
+    },
+    "rishi": {
+      "type": "proper_noun",
+      "description": "A sage or seer in Hindu tradition."
+    },
+    "payasa": {
+      "type": "vocabulary",
+      "description": "A sweet pudding made from rice, milk, and sugar, often used in South Indian rituals."
+    },
+    "mridanga": {
+      "type": "vocabulary",
+      "description": "A classical South Indian percussion instrument used in music and dance."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn by men in India, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "akshata": {
+      "type": "vocabulary",
+      "description": "Unbroken rice grains mixed with turmeric, used as a sacred offering in Hindu rituals."
+    },
+    "zari": {
+      "type": "vocabulary",
+      "description": "A type of thread made of fine gold or silver, used in traditional Indian garments for decoration."
+    },
+    "lasya": {
+      "type": "vocabulary",
+      "description": "A graceful, feminine style of dance in Indian classical tradition."
+    },
+    "Muslims": {
+      "type": "proper_noun",
+      "description": "A religious community referenced in the context of Narayanappa's social transgressions."
+    },
+    "Tungabhadra": {
+      "type": "proper_noun",
+      "description": "A sacred river in South India, used metaphorically to describe Chandri."
+    },
+    "Rigveda": {
+      "type": "proper_noun",
+      "description": "One of the four ancient Vedas, referenced in a tale about dharma and Brahminhood."
+    },
+    "Indra": {
+      "type": "proper_noun",
+      "description": "A Vedic deity, invoked in the Rigveda story."
+    },
+    "Yama": {
+      "type": "proper_noun",
+      "description": "The Hindu god of death, mentioned in the Rigveda story."
+    },
+    "Varuna": {
+      "type": "proper_noun",
+      "description": "A Vedic deity associated with cosmic order and water, mentioned in the Rigveda story."
+    },
+    "Agni": {
+      "type": "proper_noun",
+      "description": "The Vedic god of fire, invoked in ritual contexts."
+    },
+    "Jaya and Vijaya": {
+      "type": "proper_noun",
+      "description": "Mythological gatekeepers of Vishnu, referenced as examples of souls choosing their fate."
+    },
+    "Vayu": {
+      "type": "proper_noun",
+      "description": "The Hindu wind god, father of Hanuman (Maruti)."
+    },
+    "Dharo": {
+      "type": "vocabulary",
+      "description": "An exclamation or call, possibly to announce one's presence or to open a door."
+    },
+    "raurava": {
+      "type": "vocabulary",
+      "description": "A type of hell in Hindu cosmology, associated with severe punishment."
+    },
+    "sumangali": {
+      "type": "vocabulary",
+      "description": "A woman whose husband is alive; considered auspicious and blessed."
+    },
+    "abhisheka": {
+      "type": "vocabulary",
+      "description": "A ritual bathing or anointing, especially of a deity's idol."
+    },
+    "jaguli": {
+      "type": "vocabulary",
+      "description": "A raised platform or verandah, used for sitting or sleeping."
+    },
+    "shastra": {
+      "type": "vocabulary",
+      "description": "Scriptural or legal texts that guide religious and social conduct."
+    },
+    "Sudha": {
+      "type": "vocabulary",
+      "description": "A reference to a specific scholarly text, likely the 'Parimala Sudha,' a commentary on Dvaita Vedanta."
+    },
+    "tapas-shakti": {
+      "type": "vocabulary",
+      "description": "Spiritual power or energy acquired through austerities and penance."
+    },
+    "yajna": {
+      "type": "vocabulary",
+      "description": "A Vedic ritual of sacrifice or offering performed with fire."
+    },
+    "twice-born": {
+      "type": "vocabulary",
+      "description": "A term for the upper three varnas (castes) in Hinduism, especially Brahmins, who undergo a sacred thread ceremony."
+    },
+    "oblations": {
+      "type": "vocabulary",
+      "description": "Offerings made to deities during rituals, especially in fire sacrifices."
+    },
+    "Lakshmidevamma": {
+      "type": "character",
+      "description": "A woman in the agrahara, known for her reputation for misfortune and nicknamed 'inauspicious Lakshmidevamma' and 'Lakshmidevamma of the anthill.'"
+    },
+    "Gudiyamma": {
+      "type": "character",
+      "description": "A woman living in a hut, affected by the stench and the events in the agrahara."
+    },
+    "Venkataramanacharya": {
+      "type": "character",
+      "description": "One of the Brahmins in the agrahara, father of mischievous children."
+    },
+    "Srinivasacharya": {
+      "type": "character",
+      "description": "A Brahmin who joins the others in the chavadi."
+    },
+    "Gundacharya": {
+      "type": "character",
+      "description": "Another Brahmin present among the group."
+    },
+    "Hanumanthacharya": {
+      "type": "character",
+      "description": "A Brahmin in the agrahara."
+    },
+    "Appayya": {
+      "type": "character",
+      "description": "A person who measures out rice in the granary."
+    },
+    "Basunde": {
+      "type": "character",
+      "description": "A figure mentioned as a threat to discipline the children."
+    },
+    "chavadi": {
+      "type": "proper_noun",
+      "description": "A community meeting place or hall in South Indian villages."
+    },
+    "Appa": {
+      "type": "proper_noun",
+      "description": "A respectful term for father or elder man in Kannada."
+    },
+    "Amma": {
+      "type": "proper_noun",
+      "description": "A respectful term for mother or elder woman."
+    },
+    "brahmarakshasa": {
+      "type": "vocabulary",
+      "description": "A restless or malevolent spirit of a Brahmin who died improperly."
+    },
+    "yajñopavīta": {
+      "type": "vocabulary",
+      "description": "The sacred thread worn by initiated Brahmin males."
+    },
+    "prasāda": {
+      "type": "vocabulary",
+      "description": "Sacred food offered to a deity and then distributed to devotees, considered divine favor."
+    },
+    "Kali Yuga": {
+      "type": "proper_noun",
+      "description": "The current age in Hindu cosmology, believed to be an era of moral decline."
+    },
+    "ghee": {
+      "type": "vocabulary",
+      "description": "Clarified butter used in Indian cooking and religious rituals."
+    },
+    "Panchamudradharana": {
+      "type": "vocabulary",
+      "description": "A ritual involving the application of five marks on the body, signifying religious initiation or purification."
+    },
+    "Guru": {
+      "type": "vocabulary",
+      "description": "A spiritual teacher or guide in Hindu tradition."
+    },
+    "Bharatanatyam": {
+      "type": "vocabulary",
+      "description": "A classical Indian dance form originating from Tamil Nadu."
+    },
+    "jaggery": {
+      "type": "vocabulary",
+      "description": "Unrefined cane sugar, commonly used in Indian sweets and rituals."
+    },
+    "Chinni": {
+      "type": "character",
+      "description": "A girl who comes to collect the manure basket in Belli's place and shares local gossip."
+    },
+    "Durga Bhatta": {
+      "type": "character",
+      "description": "A Brahmin in the agrahara, known for his sharp tongue and different religious leanings, who tries to scare away the kites by shouting."
+    },
+    "Chowda": {
+      "type": "proper_noun",
+      "description": "A person mentioned in Chinni's tale, whose death is a subject of gossip."
+    },
+    "temple": {
+      "type": "proper_noun",
+      "description": "The central place of worship in the agrahara, significant for rituals and community gatherings."
+    },
+    "Pashupati": {
+      "type": "proper_noun",
+      "description": "A form of the Hindu god Shiva, referenced here for his wrathful third eye."
+    },
+    "Durvasavana": {
+      "type": "proper_noun",
+      "description": "A place referenced as the site of worship and ritual in the agrahara."
+    },
+    "Ayya": {
+      "type": "vocabulary",
+      "description": "A respectful term for an elder or male authority figure, similar to 'sir' in South Indian languages."
+    },
+    "hogesoppu": {
+      "type": "vocabulary",
+      "description": "A leafy green commonly used in South Indian cuisine."
+    },
+    "Avva": {
+      "type": "vocabulary",
+      "description": "A Kannada term for 'mother' or an elderly woman."
+    },
+    "areca nut": {
+      "type": "vocabulary",
+      "description": "The seed of the areca palm, chewed with betel leaves as a stimulant."
+    },
+    "betel leaves": {
+      "type": "vocabulary",
+      "description": "Leaves of the betel plant, chewed with areca nut and tobacco."
+    },
+    "bhr": {
+      "type": "vocabulary",
+      "description": "Onomatopoeic representation of the sound made by a bird, likely a kite."
+    },
+    "mangalarati": {
+      "type": "vocabulary",
+      "description": "A ritual of waving lamps before a deity, accompanied by music and bells."
+    },
+    "nagari drum": {
+      "type": "vocabulary",
+      "description": "A large ceremonial drum used in temple processions and rituals."
+    },
+    "pyre": {
+      "type": "vocabulary",
+      "description": "A structure for burning a body as part of funeral rites."
+    },
+    "vultures": {
+      "type": "vocabulary",
+      "description": "Scavenging birds, here symbolically described as kites invading the agrahara."
+    },
+    "Sanjeevini": {
+      "type": "proper_noun",
+      "description": "A mythical medicinal herb from the Ramayana, believed to have the power to revive the dead."
+    },
+    "Krishna Paksha": {
+      "type": "proper_noun",
+      "description": "The waning phase of the moon in the Hindu lunar calendar, considered an inauspicious period."
+    },
+    "koel": {
+      "type": "proper_noun",
+      "description": "A type of bird known for its melodious call, often referenced in Indian literature."
+    },
+    "verandah": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch or gallery attached to a house, common in South Indian architecture."
+    },
+    "scriptures": {
+      "type": "vocabulary",
+      "description": "Sacred Hindu texts, such as the Vedas or Upanishads, which guide religious and moral conduct."
+    },
+    "pollution": {
+      "type": "vocabulary",
+      "description": "In Hindu ritual context, refers to the state of impurity brought about by contact with death or other taboo events."
+    },
+    "Gadi Sheshappa": {
+      "type": "character",
+      "description": "A resident of the Gowda quarter, known for bringing eggs to Chandri and approached by her for help with the corpse."
+    },
+    "Saptarishis": {
+      "type": "proper_noun",
+      "description": "A prominent constellation in Indian astronomy, representing the seven great sages in Hindu tradition."
+    },
+    "Arundhati": {
+      "type": "proper_noun",
+      "description": "A star in the Saptarishis constellation, traditionally associated with the sage Vasishta's wife in Hindu mythology."
+    },
+    "Vasishta": {
+      "type": "proper_noun",
+      "description": "A revered sage in Hindu tradition, represented as a star in the Saptarishis constellation."
+    },
+    "Vishnukanta": {
+      "type": "proper_noun",
+      "description": "A type of flower mentioned for its scent, commonly found in South India."
+    },
+    "Gowda quarter": {
+      "type": "proper_noun",
+      "description": "A section of the village inhabited by the Gowda community, a land-owning and agricultural caste."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch or gallery attached to a house, common in South Indian architecture."
+    },
+    "Ahmad Bary": {
+      "type": "character",
+      "description": "A Muslim cattle trader who once lent Chandri money and is remembered by her as someone who could help with the cremation."
+    },
+    "Ganganna": {
+      "type": "character",
+      "description": "A member of the Malera family, part of the drama troupe."
+    },
+    "Manjunath": {
+      "type": "character",
+      "description": "A young man who plays female roles in the drama and is part of the group of friends."
+    },
+    "Shudra": {
+      "type": "proper_noun",
+      "description": "The lowest of the four traditional Hindu castes, often associated with manual labor; 'Shudras' is the plural form."
+    },
+    "Malera": {
+      "type": "proper_noun",
+      "description": "A family or lineage name within the agrahara community."
+    },
+    "Hirannayya": {
+      "type": "proper_noun",
+      "description": "A famous actor whose play songs are admired by the youths."
+    },
+    "Sita": {
+      "type": "proper_noun",
+      "description": "A revered female figure from the Hindu epic Ramayana, symbolizing virtue."
+    },
+    "khadi": {
+      "type": "vocabulary",
+      "description": "Hand-spun and hand-woven cloth, symbolizing Indian nationalism and simplicity."
+    },
+    "jubba": {
+      "type": "vocabulary",
+      "description": "A long, loose-fitting traditional Indian shirt."
+    },
+    "pyjama": {
+      "type": "vocabulary",
+      "description": "Loose-fitting trousers, part of traditional Indian attire."
+    },
+    "tabla": {
+      "type": "vocabulary",
+      "description": "A pair of hand drums used in Indian classical music."
+    },
+    "guru": {
+      "type": "vocabulary",
+      "description": "A spiritual teacher or mentor in Indian tradition."
+    },
+    "Venkannacharya": {
+      "type": "character",
+      "description": "A Brahmin from Kaimara, remembered for requesting baskets and dried leaves."
+    },
+    "Pandit Subbannacharya": {
+      "type": "character",
+      "description": "A learned Brahmin in Kaimara, an astrologer whose verandah hosts the assembled Brahmins."
+    },
+    "Swami": {
+      "type": "character",
+      "description": "The head of the matha, regarded as a higher religious authority."
+    },
+    "Vedantashironmani": {
+      "type": "proper_noun",
+      "description": "A title meaning 'Crest-jewel of Vedanta', signifying a distinguished scholar of Vedanta philosophy."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "One of the two great Sanskrit epics of ancient India, recounting the life of Rama."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "The other major Sanskrit epic, chronicling the Kurukshetra war and the fate of the Kauravas and Pandavas."
+    },
+    "Gayatri": {
+      "type": "proper_noun",
+      "description": "A highly revered Vedic mantra, central to Brahminical spiritual practice."
+    },
+    "Ekadashi": {
+      "type": "proper_noun",
+      "description": "Sacred days in the Hindu lunar calendar: Ekadashi (11th), Dwadashi (12th), and Chaturdashi (14th) days of the fortnight, each associated with religious observances and fasting."
+    },
+    "tulasi mala": {
+      "type": "proper_noun",
+      "description": "A rosary made of holy basil (tulasi) beads, used for counting mantras."
+    },
+    "Smarta": {
+      "type": "proper_noun",
+      "description": "A sect of Brahmins who follow the Smriti texts and worship multiple deities, emphasizing a more inclusive approach to worship."
+    },
+    "rajas": {
+      "type": "proper_noun",
+      "description": "Refers to the quality of passion, activity, and restlessness in Hindu philosophy."
+    },
+    "Lakshmi": {
+      "type": "proper_noun",
+      "description": "The Hindu goddess of wealth and prosperity, consort of Vishnu (Narayana)."
+    },
+    "gopis": {
+      "type": "proper_noun",
+      "description": "Cowherd maidens devoted to Krishna, central to many devotional stories."
+    },
+    "Urvashi": {
+      "type": "proper_noun",
+      "description": "A celestial nymph from Hindu mythology, symbolizing beauty and unattainability."
+    },
+    "Hanuman": {
+      "type": "proper_noun",
+      "description": "A revered monkey god, devotee of Rama, symbolizing strength and devotion; also known as Maruti."
+    },
+    "darshan": {
+      "type": "proper_noun",
+      "description": "The act of seeing or being seen by a deity or holy person, considered auspicious."
+    },
+    "karma": {
+      "type": "vocabulary",
+      "description": "The law of cause and effect; actions and their consequences in Hindu belief."
+    },
+    "sannyasi": {
+      "type": "vocabulary",
+      "description": "A renunciant or ascetic who has given up worldly life for spiritual pursuit."
+    },
+    "tapas": {
+      "type": "vocabulary",
+      "description": "Austerity, spiritual discipline, or penance undertaken for religious merit."
+    },
+    "pandit": {
+      "type": "vocabulary",
+      "description": "A learned scholar, especially in Sanskrit and Hindu scriptures."
+    },
+    "mantra": {
+      "type": "vocabulary",
+      "description": "Sacred utterances, sounds, or chants used in Hindu rituals and prayers."
+    },
+    "mala": {
+      "type": "vocabulary",
+      "description": "A string of prayer beads used for counting recitations of mantras."
+    },
+    "Supreme Self": {
+      "type": "proper_noun",
+      "description": "A philosophical concept in Hinduism referring to the ultimate reality or Brahman."
+    },
+    "aralu": {
+      "type": "vocabulary",
+      "description": "A type of puffed rice or edible preparation carried for journeys."
+    },
+    "gopichandana": {
+      "type": "vocabulary",
+      "description": "Sacred clay used by Vaishnavas for ritual markings on the body."
+    },
+    "sambar": {
+      "type": "vocabulary",
+      "description": "A South Indian lentil-based vegetable stew."
+    },
+    "amrita": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning 'nectar' or 'immortality,' used here to denote an auspicious time."
+    },
+    "visha": {
+      "type": "vocabulary",
+      "description": "A Sanskrit word meaning 'poison,' used here to denote an inauspicious time."
+    },
+    "almanac": {
+      "type": "vocabulary",
+      "description": "A traditional calendar or panchanga used for determining auspicious times."
+    },
+    "cowries": {
+      "type": "vocabulary",
+      "description": "Small shells historically used as currency or for ritual counting in India."
+    },
+    "Analakki": {
+      "type": "character",
+      "description": "A woman in the agrahara whose house is a place where food is eaten by one of the Brahmins."
+    },
+    "Vishnu": {
+      "type": "proper_noun",
+      "description": "A principal Hindu deity, associated with preservation and often invoked in religious imagery."
+    },
+    "Purushartha": {
+      "type": "vocabulary",
+      "description": "One of the four aims of human life in Hindu philosophy, referring to human purpose or goals."
+    },
+    "gruel": {
+      "type": "vocabulary",
+      "description": "A thin, watery food made by boiling grain, often served to the sick or infirm."
+    },
+    "Lord Krishna": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, regarded as an avatar of Vishnu and central to many devotional stories."
+    },
+    "Srimatha": {
+      "type": "proper_noun",
+      "description": "A religious institution or monastery, specifically referenced as the recipient of property."
+    },
+    "pancha": {
+      "type": "vocabulary",
+      "description": "A traditional five-yard garment worn by South Indian Brahmin men."
+    },
+    "Putta": {
+      "type": "character",
+      "description": "A lively and talkative young man from the Malera caste who befriends Praneshacharya during his wanderings."
+    },
+    "Mahabala": {
+      "type": "character",
+      "description": "Praneshacharya's close friend from his student days in Kashi, whose life choices haunt and influence Praneshacharya."
+    },
+    "Padmavathi": {
+      "type": "character",
+      "description": "A widow from the Malera community, related to Putta, who hosts Praneshacharya during his journey."
+    },
+    "Ushyappa": {
+      "type": "character",
+      "description": "A companion of Putta, briefly appearing during the journey."
+    },
+    "peepul tree": {
+      "type": "proper_noun",
+      "description": "A sacred fig tree often found in Indian villages, associated with religious gatherings."
+    },
+    "vibhuti": {
+      "type": "proper_noun",
+      "description": "Sacred ash used by Brahmins and Shaivites as a mark of devotion."
+    },
+    "Achyuta, Ananta, Govinda": {
+      "type": "proper_noun",
+      "description": "Names of Lord Vishnu, often used in devotional chanting."
+    },
+    "Yoga": {
+      "type": "proper_noun",
+      "description": "A spiritual and physical discipline in Hinduism, here referring to mental control."
+    },
+    "rangavalli": {
+      "type": "proper_noun",
+      "description": "Decorative floor patterns made with colored powders, also known as rangoli."
+    },
+    "gowda": {
+      "type": "proper_noun",
+      "description": "A land-owning caste, often village headmen in Karnataka."
+    },
+    "Shivamogga": {
+      "type": "proper_noun",
+      "description": "A city in Karnataka, also known as Shimoga, mentioned in the context of the plague."
+    },
+    "Tirthahalli": {
+      "type": "proper_noun",
+      "description": "A town in Karnataka, serving as a local administrative and religious center."
+    },
+    "Raghavendra Stotra": {
+      "type": "proper_noun",
+      "description": "A hymn in praise of the saint Raghavendra Swami."
+    },
+    "Sogeya shrine": {
+      "type": "proper_noun",
+      "description": "A local shrine where cremations are performed."
+    },
+    "Jayadeva": {
+      "type": "proper_noun",
+      "description": "A 12th-century Sanskrit poet, author of the Gita Govinda."
+    },
+    "Gita Govinda": {
+      "type": "proper_noun",
+      "description": "A classical Sanskrit text of devotional poetry by Jayadeva."
+    },
+    "Nandana": {
+      "type": "proper_noun",
+      "description": "Refers to Nandana Vana, a celestial garden in Hindu mythology."
+    },
+    "Daitha": {
+      "type": "proper_noun",
+      "description": "A reference to the Dvaita (dualistic) school of Vedanta."
+    },
+    "Vaikuntha": {
+      "type": "proper_noun",
+      "description": "The abode of Lord Vishnu in Hindu cosmology."
+    },
+    "Dom": {
+      "type": "proper_noun",
+      "description": "A caste traditionally associated with cremation work and performing arts."
+    },
+    "Kota": {
+      "type": "proper_noun",
+      "description": "A region or community referenced in the context of Brahmin gotras."
+    },
+    "Bharadvaja": {
+      "type": "proper_noun",
+      "description": "A prominent gotra (clan lineage) among Brahmins."
+    },
+    "Angirasa": {
+      "type": "proper_noun",
+      "description": "Another ancient Brahmin gotra."
+    },
+    "Gajakesari Yoga": {
+      "type": "proper_noun",
+      "description": "An auspicious astrological combination in Hindu astrology."
+    },
+    "Tayinadu": {
+      "type": "proper_noun",
+      "description": "A newspaper mentioned in the context of the plague news."
+    },
+    "Mysore Maharaja": {
+      "type": "proper_noun",
+      "description": "The ruler of the princely state of Mysore, referenced in the fair."
+    },
+    "Tirupati": {
+      "type": "proper_noun",
+      "description": "A major pilgrimage site in Andhra Pradesh, famous for the Venkateswara temple."
+    },
+    "Collector": {
+      "type": "proper_noun",
+      "description": "The administrative head of a district in India."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "Now Mumbai, a major city in India, referenced in the context of urban spectacle."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "India's capital city, referenced in the fair's Bombay box."
+    },
+    "Bangalore": {
+      "type": "proper_noun",
+      "description": "A major city in Karnataka, referenced in the fair."
+    },
+    "Saptarshi": {
+      "type": "proper_noun",
+      "description": "The constellation of the seven sages, known as the Big Dipper."
+    },
+    "Sri Sri Durga Puja Celebration Committee, Dhaka": {
+      "type": "proper_noun",
+      "description": "A religious committee in Dhaka, Bangladesh, mentioned in the publication details."
+    },
+    "Jangamwadi Math, VARANASI": {
+      "type": "proper_noun",
+      "description": "A religious institution in Varanasi, referenced in the publication details."
+    },
+    "guru-ṛṇa": {
+      "type": "vocabulary",
+      "description": "The debt owed to one's teacher or guru."
+    },
+    "pitṛ-ṛṇa": {
+      "type": "vocabulary",
+      "description": "The debt owed to one's ancestors or father."
+    },
+    "deva-ṛṇa": {
+      "type": "vocabulary",
+      "description": "The debt owed to the gods."
+    },
+    "sootaka": {
+      "type": "vocabulary",
+      "description": "A period of ritual impurity following a death or birth in the family."
+    },
+    "janivara": {
+      "type": "vocabulary",
+      "description": "The sacred thread worn by Brahmin men after their initiation."
+    },
+    "prarabdha karma": {
+      "type": "vocabulary",
+      "description": "The portion of past karma that is responsible for one's present life and circumstances."
+    },
+    "akshate": {
+      "type": "vocabulary",
+      "description": "Unbroken rice grains used in rituals for blessings."
+    },
+    "ratha": {
+      "type": "vocabulary",
+      "description": "A chariot, especially one used in temple festivals."
+    },
+    "parimanchane": {
+      "type": "vocabulary",
+      "description": "The ritual seating arrangement for meals or ceremonies."
+    },
+    "kosambari": {
+      "type": "vocabulary",
+      "description": "A South Indian salad made of lentils and vegetables, often served at feasts."
+    },
+    "huLi": {
+      "type": "vocabulary",
+      "description": "A sour curry or sambar, a staple in South Indian meals."
+    },
+    "laddu": {
+      "type": "vocabulary",
+      "description": "A round sweet made from flour, sugar, and ghee."
+    },
+    "huli anna": {
+      "type": "vocabulary",
+      "description": "Rice mixed with sour curry, a common dish in Karnataka."
+    },
+    "madi-Brahmins": {
+      "type": "vocabulary",
+      "description": "Brahmins who maintain ritual purity, especially in matters of food and dress."
+    },
+    "beedi": {
+      "type": "vocabulary",
+      "description": "A thin Indian cigarette filled with tobacco and wrapped in a tendu leaf."
+    },
+    "tambula": {
+      "type": "vocabulary",
+      "description": "A betel leaf preparation chewed after meals, often with areca nut and lime."
+    },
+    "mandi-pet": {
+      "type": "vocabulary",
+      "description": "A market area, especially in towns or cities."
+    },
+    "choultry": {
+      "type": "vocabulary",
+      "description": "A public rest house or inn, often used by pilgrims."
+    },
+    "bhikshukas": {
+      "type": "vocabulary",
+      "description": "Mendicants or those who beg for alms, often Brahmins in ritual contexts."
+    },
+    "jerisalle": {
+      "type": "vocabulary",
+      "description": "A type of shawl or cloth, often silk-bordered, worn by Brahmins."
+    },
+    "chiroti": {
+      "type": "vocabulary",
+      "description": "A layered, flaky sweet pastry from Karnataka."
+    },
+    "kamandala": {
+      "type": "vocabulary",
+      "description": "A water pot carried by ascetics and sages."
+    }
+  },
+  "chapters": {
+    "ch-1-0": [
+      "Praneshacharya",
+      "agrahara",
+      "Acharya",
+      "camphor",
+      "ablutions"
+    ],
+    "ch-1-1": [
+      "Bhagirathi",
+      "Praneshacharya",
+      "Chandri",
+      "Narayanappa",
+      "Garudacharya",
+      "Dasacharya",
+      "Padmanabhacharya",
+      "Anasuya",
+      "Manjayya",
+      "prasada",
+      "tirtha",
+      "sandhyavandana",
+      "puja",
+      "agrahara",
+      "Kashi",
+      "Brahmin",
+      "Dharma Shastra",
+      "Veda",
+      "Dharmasthala",
+      "anuloma",
+      "pratiloma",
+      "Turukas",
+      "shraddha",
+      "Sanatana Dharma",
+      "Parijatapura",
+      "Adapankti",
+      "Sringeri",
+      "Basuramma",
+      "Kundapura",
+      "Vatsyayana",
+      "Ravi Varma",
+      "Matsyagandhi",
+      "Jagannatha",
+      "mlechha",
+      "Shringara Shataka",
+      "avalakki",
+      "uppittu",
+      "sari",
+      "prasada",
+      "tirtha",
+      "sandhyavandana",
+      "puja",
+      "agrahara",
+      "saaru",
+      "angavastra",
+      "shanti",
+      "shastras",
+      "chāvadi",
+      "achara",
+      "areca",
+      "avalakki",
+      "uppittu",
+      "Durga Bhatta",
+      "Hanuman",
+      "Lakshmidevamma",
+      "Madhva",
+      "Purana",
+      "Saligrama",
+      "Samskara",
+      "Shudra",
+      "Smarta",
+      "Vedantashironmani",
+      "Lakshmanacharya"
+    ],
+    "ch-1-2": [
+      "Lakshmanacharya",
+      "Anasuya",
+      "Garudacharya",
+      "Praneshacharya",
+      "Chandri",
+      "Narayanappa",
+      "Bhimacharya",
+      "Padmanabhacharya",
+      "Dasacharya",
+      "Taure",
+      "Manjayya",
+      "Shankarayya",
+      "Parijatapura",
+      "Dharmasthala",
+      "Manusmriti",
+      "agrahara",
+      "night queen",
+      "Konkani",
+      "Chaitra",
+      "Vaishakha",
+      "Kartika",
+      "Tunga",
+      "Shravan",
+      "Basuris",
+      "Durvasapura",
+      "Kaimara",
+      "Pandavas",
+      "Draupadi",
+      "Bhimasena",
+      "Durvasa",
+      "Dvapara Yuga",
+      "Dharmaja",
+      "Ramanavami",
+      "Tikaacharya",
+      "matha",
+      "Nandanadi",
+      "Manjayya",
+      "Shimoga",
+      "Vaikuntha-samaradhane",
+      "shastras",
+      "sari",
+      "papads",
+      "sandige",
+      "mandara",
+      "shankhapushpa",
+      "bilva",
+      "raat rani",
+      "tamasic",
+      "angavastra",
+      "kosumbari",
+      "panaka",
+      "palya",
+      "huli",
+      "gojju",
+      "shraddha",
+      "aradhana",
+      "sthala purana",
+      "jnani",
+      "grihastha-dharma",
+      "areca",
+      "mandi",
+      "Bhagavan",
+      "dvija",
+      "adharma",
+      "Saligrama",
+      "Brahmin",
+      "Durga Bhatta",
+      "Ekadashi",
+      "Madhva",
+      "Samskara",
+      "Smarta",
+      "Vedantashironmani"
+    ],
+    "ch-1-3": [
+      "Praneshacharya",
+      "Chandri",
+      "Narayanappa",
+      "Shripati",
+      "Shyama",
+      "Parijatapura",
+      "Dharma Shastra",
+      "agrahara",
+      "Sanatana Dharma",
+      "Congress",
+      "Panchamas",
+      "Charvaka",
+      "Ganapati",
+      "Kali",
+      "Ganga",
+      "Durvasa",
+      "Parashara",
+      "Bhrigu",
+      "Brihaspati",
+      "Kashyapa",
+      "Kashi",
+      "Kalidasa",
+      "Shakuntala",
+      "Matsyagandhi",
+      "Samskara",
+      "mantras",
+      "shastras",
+      "dharma",
+      "rishis",
+      "tirtha",
+      "arrack",
+      "Purana",
+      "chakravyuha",
+      "sattvic",
+      "Acharya",
+      "Durga Bhatta",
+      "Ekadashi",
+      "Shudra",
+      "Garudacharya",
+      "Lakshmanacharya"
+    ],
+    "ch-1-4": [
+      "Narayanappa",
+      "Acharya",
+      "Praneshacharya",
+      "Garudacharya",
+      "Lakshmanacharya",
+      "Anasuya",
+      "Shyama",
+      "Chandri",
+      "Dasacharya",
+      "Shripati",
+      "Supreme Being",
+      "Paramatma",
+      "Parijatapura",
+      "Bhasmasura",
+      "chandala",
+      "Pune",
+      "sandhyavandana",
+      "Durvasa",
+      "Tulasi",
+      "Madhva",
+      "Manusmriti",
+      "punyadina",
+      "Tikacharya",
+      "matha",
+      "Shri Guru",
+      "Vyasaraya Matha",
+      "Madhyamata",
+      "Singalika",
+      "Vedanta",
+      "keri",
+      "turuka",
+      "apaddharma",
+      "Vishwamitra",
+      "rishis",
+      "Veda",
+      "shadkaksha",
+      "Dharmasthala",
+      "Trivikrama",
+      "Yakshagana",
+      "Kamath",
+      "Shenoy",
+      "Kanayya",
+      "agrahara",
+      "mantras",
+      "dakshina",
+      "namaskara",
+      "sattvic",
+      "Appa",
+      "Brahmin",
+      "Dharma Shastra",
+      "Durga Bhatta",
+      "Hanuman",
+      "Purana",
+      "Samskara",
+      "Shudra"
+    ],
+    "ch-1-5": [
+      "Lakshmanacharya",
+      "Praneshacharya",
+      "Chandri",
+      "Shripati",
+      "Narayanappa",
+      "Bhagavata",
+      "Belli",
+      "Sheena",
+      "Kundapura Nagappa",
+      "Yakshagana",
+      "Keluru",
+      "Jambuvanti-Kalyana",
+      "Shimoga",
+      "agrahara",
+      "Pujari",
+      "Durvasapura",
+      "Parijatapura",
+      "Nagaraja",
+      "Holaya",
+      "Purana",
+      "mathas",
+      "South",
+      "Kalidasa",
+      "Shakuntala",
+      "Vyasa",
+      "Ushas",
+      "Pushpavati",
+      "Parijata",
+      "Shesha-shayi",
+      "Narayana",
+      "Narada",
+      "tambura",
+      "vanaras",
+      "kinnaras",
+      "yakshas",
+      "gandharvas",
+      "Menaka",
+      "Vishwamitra",
+      "rishi",
+      "shastras",
+      "sandhyavandana",
+      "payasa",
+      "mridanga",
+      "dhoti",
+      "akshata",
+      "zari",
+      "angavastra",
+      "lasya",
+      "sari",
+      "arrack",
+      "Acharya",
+      "Ayya",
+      "Dharma Shastra",
+      "Durga Bhatta",
+      "Lakshmi",
+      "Garudacharya"
+    ],
+    "ch-1-6": [
+      "Narayanappa",
+      "Garudacharya",
+      "Praneshacharya",
+      "Shripati",
+      "Chandri",
+      "Nagaraja",
+      "agrahara",
+      "Brahmin",
+      "Parijatapura",
+      "Kundapura",
+      "Muslims",
+      "Tungabhadra",
+      "Rigveda",
+      "Indra",
+      "Yama",
+      "Varuna",
+      "Agni",
+      "Jaya and Vijaya",
+      "Vayu",
+      "Dharo",
+      "chandala",
+      "raurava",
+      "sumangali",
+      "abhisheka",
+      "jaguli",
+      "shastra",
+      "Dharma Shastra",
+      "matha",
+      "Sudha",
+      "tapas-shakti",
+      "yajna",
+      "twice-born",
+      "Narayana",
+      "shastras",
+      "oblations",
+      "Hanuman",
+      "Lakshmidevamma",
+      "Samskara"
+    ],
+    "ch-1-7": [
+      "Dasacharya",
+      "Lakshmidevamma",
+      "Gudiyamma",
+      "Belli",
+      "Venkataramanacharya",
+      "Srinivasacharya",
+      "Gundacharya",
+      "Hanumanthacharya",
+      "Lakshmanacharya",
+      "Garudacharya",
+      "Appayya",
+      "Basunde",
+      "Praneshacharya",
+      "Chandri",
+      "Narayana",
+      "agrahara",
+      "chavadi",
+      "Praneshacharya",
+      "Appa",
+      "Amma",
+      "brahmarakshasa",
+      "achara",
+      "yajñopavīta",
+      "mantras",
+      "prasāda",
+      "sari",
+      "Brahmin",
+      "Durga Bhatta",
+      "Hanuman",
+      "Madhva",
+      "Narayanappa",
+      "Parijata",
+      "Samskara",
+      "Tulasi"
+    ],
+    "ch-1-8": [
+      "Acharya",
+      "Chandri",
+      "Narayanappa",
+      "Dasacharya",
+      "Manjayya",
+      "Praneshacharya",
+      "Lakshmidevamma",
+      "Tungabhadra",
+      "Parijatapura",
+      "Brahmin",
+      "Kali Yuga",
+      "agrahara",
+      "ghee",
+      "avalakki",
+      "uppittu",
+      "panaka",
+      "Panchamudradharana",
+      "Guru",
+      "Bharatanatyam",
+      "jaggery",
+      "Samskara",
+      "Garudacharya",
+      "Lakshmanacharya"
+    ],
+    "ch-1-9": [
+      "Manjayya",
+      "Dasacharya",
+      "Belli",
+      "Chinni",
+      "Garudacharya",
+      "Praneshacharya",
+      "Chandri",
+      "Durga Bhatta",
+      "Anasuya",
+      "uppittu",
+      "Paramatma",
+      "agrahara",
+      "Brahmin",
+      "Chowda",
+      "temple",
+      "Pashupati",
+      "Narayanappa",
+      "Durvasavana",
+      "Narayana",
+      "chavadi",
+      "Ayya",
+      "hogesoppu",
+      "Avva",
+      "areca nut",
+      "betel leaves",
+      "bhr",
+      "mangalarati",
+      "nagari drum",
+      "sari",
+      "pyre",
+      "vultures",
+      "Hanuman",
+      "Samskara"
+    ],
+    "ch-1-10": [
+      "Praneshacharya",
+      "Chandri",
+      "Samskara",
+      "Sanjeevini",
+      "Dharma Shastra",
+      "Krishna Paksha",
+      "agrahara",
+      "prasada",
+      "namaskara",
+      "Hanuman",
+      "Lakshmanacharya"
+    ],
+    "ch-2-0": [
+      "Praneshacharya",
+      "Garudacharya",
+      "Lakshmanacharya",
+      "Dasacharya",
+      "agrahara",
+      "Brahmin",
+      "dharma",
+      "koel",
+      "verandah",
+      "scriptures",
+      "pollution",
+      "Narayanappa",
+      "Samskara"
+    ],
+    "ch-2-1": [
+      "Acharya",
+      "Chandri",
+      "Praneshacharya",
+      "Gadi Sheshappa",
+      "Narayanappa",
+      "Saptarishis",
+      "Arundhati",
+      "Vasishta",
+      "Vishnukanta",
+      "agrahara",
+      "Gowda quarter",
+      "chavadi",
+      "veranda",
+      "Brahmin",
+      "Samskara"
+    ],
+    "ch-2-2": [
+      "Chandri",
+      "Ahmad Bary",
+      "Praneshacharya",
+      "Manjayya",
+      "Shripati",
+      "Ganganna",
+      "Manjunath",
+      "Nagaraja",
+      "Narayanappa",
+      "Belli",
+      "Narayanappa",
+      "Brahmin",
+      "Shudra",
+      "Muslims",
+      "Acharya",
+      "Kundapura",
+      "Parijatapura",
+      "Shimoga",
+      "Congress",
+      "Yakshagana",
+      "Malera",
+      "Hirannayya",
+      "Trivikrama",
+      "Sita",
+      "Shakuntala",
+      "agrahara",
+      "khadi",
+      "jubba",
+      "pyjama",
+      "avalakki",
+      "dhoti",
+      "tabla",
+      "guru",
+      "Samskara",
+      "Shyama"
+    ],
+    "ch-2-3": [
+      "Narayanappa",
+      "Shripati",
+      "Nagaraja",
+      "Lakshmidevamma",
+      "Praneshacharya",
+      "Chandri",
+      "Dasacharya",
+      "Garudacharya",
+      "Lakshmanacharya",
+      "Venkannacharya",
+      "Pandit Subbannacharya",
+      "Swami",
+      "agrahara",
+      "Kashi",
+      "Vedantashironmani",
+      "Ramayana",
+      "Mahabharata",
+      "Bhagavata",
+      "Gayatri",
+      "Ekadashi",
+      "tulasi mala",
+      "Smarta",
+      "sattvic",
+      "tamasic",
+      "rajas",
+      "Lakshmi",
+      "Narayana",
+      "gopis",
+      "Urvashi",
+      "Hanuman",
+      "Kaimara",
+      "matha",
+      "Guru",
+      "darshan",
+      "arrack",
+      "dharma",
+      "karma",
+      "sannyasi",
+      "tapas",
+      "pandit",
+      "mantra",
+      "mala",
+      "sattvic",
+      "tamasic",
+      "rajas",
+      "Acharya",
+      "Lord Krishna",
+      "Samskara"
+    ],
+    "ch-2-4": [
+      "Lakshmanacharya",
+      "Dasacharya",
+      "Lakshmidevamma",
+      "Praneshacharya",
+      "Madhva",
+      "Praneshacharya",
+      "Acharya",
+      "Kaimara",
+      "Narayanappa",
+      "matha",
+      "Supreme Self",
+      "aralu",
+      "gopichandana",
+      "sambar",
+      "amrita",
+      "visha",
+      "prasada",
+      "almanac",
+      "cowries",
+      "Brahmin",
+      "Durga Bhatta",
+      "Pandit Subbannacharya",
+      "Samskara"
+    ],
+    "ch-2-5": [
+      "Garudacharya",
+      "Analakki",
+      "Padmanabhacharya",
+      "Praneshacharya",
+      "Chandri",
+      "Belli",
+      "agrahara",
+      "matha",
+      "Gayatri",
+      "Shakuntala",
+      "Vishnu",
+      "Samskara",
+      "dhoti",
+      "dharma",
+      "karma",
+      "Acharya",
+      "Purushartha",
+      "gruel",
+      "areca",
+      "Brahmin",
+      "Narayanappa",
+      "Pandit Subbannacharya",
+      "Purana",
+      "Veda"
+    ],
+    "ch-2-6": [
+      "Dasacharya",
+      "Lakshmanacharya",
+      "Garudacharya",
+      "Swami",
+      "Praneshacharya",
+      "Gundacharya",
+      "Narayana",
+      "agrahara",
+      "Guru",
+      "Swami",
+      "Lord Krishna",
+      "Srimatha",
+      "matha",
+      "pancha",
+      "tirtha",
+      "payasa",
+      "dakshina",
+      "angavastra",
+      "Acharya",
+      "Brahmin",
+      "Samskara",
+      "Tulasi"
+    ],
+    "ch-3-0": [
+      "Praneshacharya",
+      "Garudacharya",
+      "Chandri",
+      "Putta",
+      "Mahabala",
+      "Padmavathi",
+      "Lakshmanacharya",
+      "Manjayya",
+      "Dasacharya",
+      "Padmanabhacharya",
+      "Belli",
+      "Ushyappa",
+      "agrahara",
+      "shastras",
+      "peepul tree",
+      "vibhuti",
+      "Brahmin",
+      "dharma",
+      "guru",
+      "rishis",
+      "Achyuta, Ananta, Govinda",
+      "Yoga",
+      "rangavalli",
+      "gowda",
+      "Kundapura",
+      "Shivamogga",
+      "Tirthahalli",
+      "matha",
+      "Kaimara",
+      "Parijatapura",
+      "Durvasapura",
+      "Raghavendra Stotra",
+      "Sogeya shrine",
+      "Malera",
+      "Madhva",
+      "Smarta",
+      "Kashi",
+      "Jayadeva",
+      "Gita Govinda",
+      "Nandana",
+      "Daitha",
+      "Vaikuntha",
+      "Ganga",
+      "Dharmasthala",
+      "Dom",
+      "Kota",
+      "Bharadvaja",
+      "Angirasa",
+      "Lakshmi",
+      "Gajakesari Yoga",
+      "Pushpavati",
+      "Ganapati",
+      "Tayinadu",
+      "Mysore Maharaja",
+      "Tirupati",
+      "Collector",
+      "Bombay",
+      "Delhi",
+      "Bangalore",
+      "Saptarshi",
+      "Sri Sri Durga Puja Celebration Committee, Dhaka",
+      "Jangamwadi Math, VARANASI",
+      "ghee",
+      "vibhuti",
+      "shastras",
+      "dharma",
+      "guru-ṛṇa",
+      "pitṛ-ṛṇa",
+      "deva-ṛṇa",
+      "tapas",
+      "mantra",
+      "sootaka",
+      "janivara",
+      "yajñopavīta",
+      "prarabdha karma",
+      "chavadi",
+      "akshate",
+      "puja",
+      "ratha",
+      "parimanchane",
+      "tirtha",
+      "payasa",
+      "kosambari",
+      "palya",
+      "huLi",
+      "laddu",
+      "huli anna",
+      "madi-Brahmins",
+      "beedi",
+      "tambula",
+      "uppittu",
+      "mandi-pet",
+      "matha",
+      "choultry",
+      "saaru",
+      "bhikshukas",
+      "jerisalle",
+      "darshan",
+      "chiroti",
+      "kamandala",
+      "Gadi Sheshappa",
+      "Hanuman",
+      "Holaya",
+      "Narayanappa",
+      "Pandit Subbannacharya",
+      "Samskara",
+      "Shudra",
+      "Tulasi"
+    ]
+  }
+}
