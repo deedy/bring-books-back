@@ -1,0 +1,3975 @@
+{
+  "glossary": {
+    "Gobar": {
+      "type": "character",
+      "description": "Hori's son, a devoted but sometimes rebellious family member who struggles with poverty and his relationship with Jhuniya.",
+      "image": "/data/images/characters/godan/gobar.png"
+    },
+    "Sona": {
+      "type": "character",
+      "description": "Hori and Dhaniya's twelve-year-old daughter; also refers to the family from Sonari village, potential in-laws for Sona."
+    },
+    "Rupa": {
+      "type": "character",
+      "description": "Hori and Dhaniya's young daughter whose future and daily life in the village are central to the family's concerns."
+    },
+    "Bhola": {
+      "type": "character",
+      "description": "A cowherd from a neighboring hamlet who trades in milk and cattle, recently widowed."
+    },
+    "Rai Sahib": {
+      "type": "character",
+      "description": "A landlord of high social standing involved in organizing events and enforcing orders through his stewards; he faces financial and political challenges.",
+      "image": "/data/images/characters/godan/rai-sahib.png"
+    },
+    "zamindar": {
+      "type": "proper_noun",
+      "description": "A feudal landlord who owns agricultural land and collects rent from tenant farmers."
+    },
+    "Jeth": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu calendar (May-June), known for its intense heat."
+    },
+    "Mahato": {
+      "type": "proper_noun",
+      "description": "A caste/community title, often used for influential peasants or headmen in North Indian villages."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in colonial India (now Kolkata), often associated with migration for work."
+    },
+    "Lakshmi": {
+      "type": "proper_noun",
+      "description": "The Hindu goddess of wealth and prosperity, used here as a metaphor for a good and fortunate woman."
+    },
+    "cow-dung cakes": {
+      "type": "vocabulary",
+      "description": "Discs made from cow dung, used as fuel for cooking in rural India."
+    },
+    "staff": {
+      "type": "vocabulary",
+      "description": "A long stick carried for support or as a symbol of authority, common among rural men."
+    },
+    "mirzai": {
+      "type": "vocabulary",
+      "description": "A traditional short jacket worn by men in North India."
+    },
+    "turban": {
+      "type": "vocabulary",
+      "description": "A long cloth wound around the head, worn by men in many parts of India."
+    },
+    "ploughs": {
+      "type": "vocabulary",
+      "description": "Agricultural implements used for tilling the soil."
+    },
+    "seers": {
+      "type": "vocabulary",
+      "description": "A traditional unit of weight in India, roughly equivalent to about a kilogram."
+    },
+    "maund": {
+      "type": "vocabulary",
+      "description": "A traditional South Asian unit of weight, roughly equivalent to 37 kilograms."
+    },
+    "chillum": {
+      "type": "vocabulary",
+      "description": "A conical clay pipe used for smoking, especially tobacco or cannabis."
+    },
+    "mahajan": {
+      "type": "vocabulary",
+      "description": "A moneylender or financier in rural India."
+    },
+    "hemp": {
+      "type": "vocabulary",
+      "description": "A fibrous plant used for making rope, cloth, and sometimes mixed with other crops."
+    },
+    "Hori": {
+      "type": "character",
+      "description": "A poor, deeply moral peasant and the protagonist of the novel who struggles to survive while maintaining his dignity despite heavy debts to moneylenders.",
+      "image": "/data/images/characters/godan/hori.png"
+    },
+    "Raja Janak": {
+      "type": "character",
+      "description": "A legendary king from the Ramayana, father of Sita, referenced in the context of a play during the Dhanush-Yajna festival."
+    },
+    "Shri Janaki": {
+      "type": "character",
+      "description": "Another name for Sita, the wife of Ram in the Ramayana, mentioned as part of the Dhanush-Yajna play."
+    },
+    "Kamadhenu": {
+      "type": "proper_noun",
+      "description": "A divine, wish-fulfilling cow in Hindu mythology, symbolizing abundance and prosperity."
+    },
+    "Semri": {
+      "type": "proper_noun",
+      "description": "A village in the province of Awadh, where Rai Sahib resides."
+    },
+    "Belari": {
+      "type": "proper_noun",
+      "description": "A village in Awadh where Hori lives."
+    },
+    "Awadh": {
+      "type": "proper_noun",
+      "description": "A historical region in northern India, known for its rich culture and history."
+    },
+    "Satyagraha": {
+      "type": "proper_noun",
+      "description": "A movement of nonviolent resistance initiated by Mahatma Gandhi during the Indian independence struggle."
+    },
+    "Ram": {
+      "type": "proper_noun",
+      "description": "A major deity in Hinduism, central to the Ramayana epic, symbolizing virtue and dharma; also invoked in traditional greetings."
+    },
+    "Vrindavan": {
+      "type": "proper_noun",
+      "description": "A holy town in Uttar Pradesh, associated with the worship of Krishna and Radha."
+    },
+    "Radha": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess and the beloved of Krishna, representing devotion and love."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic narrating the life of Ram, Sita, and their adventures."
+    },
+    "Persian": {
+      "type": "proper_noun",
+      "description": "A language historically used in Indian courts and literature, referenced here as the language into which the Ramayana is being translated."
+    },
+    "Dhanush-Yajna": {
+      "type": "proper_noun",
+      "description": "A ceremonial festival and dramatic performance based on the Ramayana, particularly the episode of Sita's swayamvara."
+    },
+    "Dussehra": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival celebrating the victory of good over evil, often marked by dramatic performances."
+    },
+    "Yama": {
+      "type": "proper_noun",
+      "description": "The Hindu god of death, referenced metaphorically."
+    },
+    "Jyotipacharya": {
+      "type": "proper_noun",
+      "description": "A learned astrologer or priest, mentioned as performing rituals for the family."
+    },
+    "Durga": {
+      "type": "proper_noun",
+      "description": "A major Hindu goddess, invoked in temple recitations for protection and blessings."
+    },
+    "bhai": {
+      "type": "vocabulary",
+      "description": "Hindi word meaning 'brother,' used as a term of affection or respect."
+    },
+    "kothi": {
+      "type": "vocabulary",
+      "description": "A large house or mansion, typically belonging to a wealthy landlord."
+    },
+    "steward": {
+      "type": "vocabulary",
+      "description": "An estate manager responsible for overseeing agricultural production and tenant relations."
+    },
+    "tenant": {
+      "type": "vocabulary",
+      "description": "A person who rents land from a landlord, often under exploitative conditions in colonial India."
+    },
+    "estate": {
+      "type": "vocabulary",
+      "description": "A large area of land owned by a landlord, worked by tenant farmers."
+    },
+    "decree": {
+      "type": "vocabulary",
+      "description": "A legal order, often relating to property or debt."
+    },
+    "arrears": {
+      "type": "vocabulary",
+      "description": "Unpaid overdue debts, especially rent."
+    },
+    "courtesan": {
+      "type": "vocabulary",
+      "description": "A woman who attends the court of a king or nobleman, often as a companion or entertainer."
+    },
+    "vaids": {
+      "type": "vocabulary",
+      "description": "Traditional Ayurvedic doctors or healers in India."
+    },
+    "Dhania": {
+      "type": "character",
+      "description": "Hori's wife, practical and strong-willed, managing the household and supporting her family through hardship.",
+      "image": "/data/images/characters/godan/dhania.png"
+    },
+    "Govind": {
+      "type": "character",
+      "description": "A villager seen working in the fields with Sona and Rupa, possibly a relative or neighbor."
+    },
+    "Dhure": {
+      "type": "character",
+      "description": "A villager mentioned as having been fined by officials for putting up a post at his door."
+    },
+    "Mangru": {
+      "type": "character",
+      "description": "A local moneylender from whom Hori borrowed money for an ox."
+    },
+    "Kamta": {
+      "type": "character",
+      "description": "Bhola's eldest son, described as irresponsible with money."
+    },
+    "Jangi": {
+      "type": "character",
+      "description": "Bhola's younger son, interested in music and not diligent in work."
+    },
+    "Sobha": {
+      "type": "character",
+      "description": "Hori's brother, suffering from asthma and known for his patience and avoidance of conflict."
+    },
+    "Heera": {
+      "type": "character",
+      "description": "One of Hori's brothers who is frequently involved in family quarrels and public disputes."
+    },
+    "dharma": {
+      "type": "proper_noun",
+      "description": "A key concept in Indian philosophy and religion, meaning duty, righteousness, or moral order."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic, referenced here to describe household chaos."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "A major Indian city (now Mumbai), referenced as a place of employment."
+    },
+    "begar": {
+      "type": "vocabulary",
+      "description": "Unpaid, forced labor extracted by landlords or officials from peasants."
+    },
+    "betel": {
+      "type": "vocabulary",
+      "description": "A leaf chewed with areca nut and lime, common in Indian culture."
+    },
+    "lota": {
+      "type": "vocabulary",
+      "description": "A small, round metal water vessel used for drinking and washing."
+    },
+    "arhar dal": {
+      "type": "vocabulary",
+      "description": "Split pigeon peas, a common lentil dish in North India."
+    },
+    "bhusa": {
+      "type": "vocabulary",
+      "description": "Chaff or straw, used as cattle fodder."
+    },
+    "angoccha": {
+      "type": "vocabulary",
+      "description": "A thin cotton towel or cloth, often used as a headwrap or for carrying loads."
+    },
+    "gagra": {
+      "type": "vocabulary",
+      "description": "A large water pot or pitcher."
+    },
+    "puja": {
+      "type": "vocabulary",
+      "description": "A Hindu ritual of worship or offering."
+    },
+    "baniya": {
+      "type": "vocabulary",
+      "description": "A caste traditionally associated with trade and moneylending."
+    },
+    "dholak": {
+      "type": "vocabulary",
+      "description": "A double-headed drum used in folk music."
+    },
+    "manjira": {
+      "type": "vocabulary",
+      "description": "Small hand cymbals used in Indian devotional and folk music."
+    },
+    "charas": {
+      "type": "vocabulary",
+      "description": "A form of cannabis resin, smoked as an intoxicant."
+    },
+    "ganja": {
+      "type": "vocabulary",
+      "description": "A preparation of cannabis, smoked for intoxication."
+    },
+    "kisan": {
+      "type": "vocabulary",
+      "description": "A Hindi word for farmer."
+    },
+    "mazdoor": {
+      "type": "vocabulary",
+      "description": "A Hindi word for laborer or manual worker."
+    },
+    "Damri Bansor": {
+      "type": "character",
+      "description": "A bamboo-cutter who comes to buy bamboos from Hori and is involved in a dispute with Punia."
+    },
+    "Chaudhary": {
+      "type": "character",
+      "description": "A title for Damri Bansor, used in negotiations and disputes over bamboo."
+    },
+    "Punia": {
+      "type": "character",
+      "description": "Heera's wife, assertive and combative, whose actions contributed to the brothers' separation and is distressed by her husband's disappearance."
+    },
+    "Dulari": {
+      "type": "character",
+      "description": "A widow who runs the village shop and lends money to villagers; referred to by her occupational title as a female moneylender or shopkeeper."
+    },
+    "Jiawan Mahto": {
+      "type": "character",
+      "description": "A villager whose household is extremely poor."
+    },
+    "Lala Pateshwari": {
+      "type": "character",
+      "description": "The village patwari (record keeper) and a local notable involved in public disputes, negotiations with police, and mediating village affairs."
+    },
+    "Jhinguri Singh": {
+      "type": "character",
+      "description": "A villager and fellow peasant often troubled by debt and the perceived injustices of fate and morality."
+    },
+    "Mahto": {
+      "type": "proper_noun",
+      "description": "A caste title used for certain agricultural communities in North India, also used as a surname."
+    },
+    "biradari": {
+      "type": "proper_noun",
+      "description": "A term for brotherhood or community, often referring to caste or kinship group."
+    },
+    "Pardes": {
+      "type": "proper_noun",
+      "description": "A term meaning 'foreign land' or 'outside the village,' often used for migration."
+    },
+    "mandaps": {
+      "type": "proper_noun",
+      "description": "Temporary pavilions or canopies erected for weddings and ceremonies."
+    },
+    "Maharaj": {
+      "type": "proper_noun",
+      "description": "A respectful title for a Brahmin or religious leader."
+    },
+    "kos": {
+      "type": "proper_noun",
+      "description": "A traditional unit of distance in India, roughly 2-3 kilometers."
+    },
+    "hookah": {
+      "type": "vocabulary",
+      "description": "A traditional Indian water pipe used for smoking tobacco."
+    },
+    "fodder": {
+      "type": "vocabulary",
+      "description": "Food, such as hay or straw, for cattle and other livestock."
+    },
+    "palanquin": {
+      "type": "vocabulary",
+      "description": "A covered litter for one passenger, carried on poles by several bearers."
+    },
+    "winnowing fan": {
+      "type": "vocabulary",
+      "description": "A tool used to separate grain from chaff by tossing it in the air."
+    },
+    "betel leaf": {
+      "type": "vocabulary",
+      "description": "A leaf commonly chewed in India, often with areca nut and lime."
+    },
+    "bamboo cot": {
+      "type": "vocabulary",
+      "description": "A bed made from bamboo, common in rural India."
+    },
+    "neem tree": {
+      "type": "vocabulary",
+      "description": "A type of tree (Azadirachta indica) valued for its medicinal properties."
+    },
+    "manger": {
+      "type": "vocabulary",
+      "description": "A trough or box in a stable or barn from which livestock eat."
+    },
+    "oil-cake": {
+      "type": "vocabulary",
+      "description": "The solid residue left after oil is extracted from seeds, used as cattle feed."
+    },
+    "shagun": {
+      "type": "vocabulary",
+      "description": "A token or auspicious sum of money given during ceremonies or engagements."
+    },
+    "gauna": {
+      "type": "vocabulary",
+      "description": "A post-marriage ceremony marking the bride's departure to her husband's home."
+    },
+    "desi": {
+      "type": "vocabulary",
+      "description": "Native or local, often used to describe indigenous breeds or products."
+    },
+    "pout": {
+      "type": "vocabulary",
+      "description": "To show displeasure by thrusting out the lips, here used for sulking."
+    },
+    "dacoits": {
+      "type": "vocabulary",
+      "description": "Armed robbers or bandits, especially in rural India."
+    },
+    "mandap": {
+      "type": "vocabulary",
+      "description": "A decorated structure or canopy used for Hindu wedding ceremonies."
+    },
+    "purdah": {
+      "type": "vocabulary",
+      "description": "The practice of secluding women from public observation, often by veil or curtain."
+    },
+    "Amma": {
+      "type": "vocabulary",
+      "description": "A respectful term for mother."
+    },
+    "Kaki": {
+      "type": "vocabulary",
+      "description": "Aunt, specifically father's younger brother's wife."
+    },
+    "Dada": {
+      "type": "vocabulary",
+      "description": "Paternal grandfather or an affectionate term for an elder male."
+    },
+    "Kaka": {
+      "type": "vocabulary",
+      "description": "Paternal uncle, specifically father's younger brother."
+    },
+    "pie": {
+      "type": "vocabulary",
+      "description": "A very small unit of currency, now obsolete, formerly 1/12 of an anna; anna is a former Indian currency unit, equal to 1/16 of a rupee."
+    },
+    "threshing floor": {
+      "type": "vocabulary",
+      "description": "An area where harvested grain is separated from chaff."
+    },
+    "chilam": {
+      "type": "vocabulary",
+      "description": "A clay pipe used for smoking tobacco or cannabis."
+    },
+    "Mahato caste": {
+      "type": "vocabulary",
+      "description": "An agricultural caste in North India, referenced for its social customs."
+    },
+    "Datadin": {
+      "type": "character",
+      "description": "A village Brahmin and influential figure, often mediating disputes and involved in village affairs, also a moneylender owed money by Hori.",
+      "image": "/data/images/characters/godan/datadin.png"
+    },
+    "Panditain": {
+      "type": "character",
+      "description": "Panditji's wife, mentioned in the context of the incident with Jhunia."
+    },
+    "Gapdu": {
+      "type": "character",
+      "description": "A wealthy Kashmiri man known for his social status and his daughters' modern, independent ways."
+    },
+    "Ahir": {
+      "type": "proper_noun",
+      "description": "A pastoral caste traditionally associated with cattle herding and milk-selling, prominent in rural North India."
+    },
+    "Chamarin": {
+      "type": "proper_noun",
+      "description": "A woman of the Chamar caste, historically considered a Dalit or 'untouchable' community."
+    },
+    "Thakur": {
+      "type": "proper_noun",
+      "description": "A title used by landowning upper-caste Hindus, often associated with pride and status; also used for landed nobles or feudal lords."
+    },
+    "Pandit": {
+      "type": "proper_noun",
+      "description": "A learned Brahmin, often serving as a priest or scholar in the village, responsible for religious ceremonies and rituals."
+    },
+    "Kashmiri": {
+      "type": "proper_noun",
+      "description": "Refers to someone from Kashmir, a region in northern India."
+    },
+    "Babu": {
+      "type": "proper_noun",
+      "description": "A term of respect for educated or upper-class men, often used for clerks or gentlemen."
+    },
+    "panchayat": {
+      "type": "proper_noun",
+      "description": "The village council, a traditional body for local governance and dispute resolution."
+    },
+    "bhabhiya": {
+      "type": "vocabulary",
+      "description": "Plural of 'bhabhi', meaning sisters-in-law."
+    },
+    "tilak": {
+      "type": "vocabulary",
+      "description": "A mark worn on the forehead, signifying religious or caste identity."
+    },
+    "seer": {
+      "type": "vocabulary",
+      "description": "A traditional unit of weight, roughly equivalent to about one kilogram."
+    },
+    "halwa": {
+      "type": "vocabulary",
+      "description": "A sweet Indian dessert made from flour, sugar, and ghee."
+    },
+    "puri": {
+      "type": "vocabulary",
+      "description": "A deep-fried Indian bread made from unleavened wheat flour."
+    },
+    "roti": {
+      "type": "vocabulary",
+      "description": "A round, unleavened flatbread, a staple food in India."
+    },
+    "dal": {
+      "type": "vocabulary",
+      "description": "Lentils or a dish made from lentils, commonly eaten with roti or rice."
+    },
+    "ghee": {
+      "type": "vocabulary",
+      "description": "Clarified butter used in Indian cooking."
+    },
+    "Shyamvihari Tankha": {
+      "type": "character",
+      "description": "A shrewd lawyer, insurance agent, and election strategist adept at navigating political alliances and arranging loans for zamindars."
+    },
+    "Khan": {
+      "type": "character",
+      "description": "A fierce Afghan leader, owner of a local kothi, who threatens violence when his money is stolen."
+    },
+    "Singh Dwar": {
+      "type": "proper_noun",
+      "description": "A ceremonial gateway, likely at the entrance of Rai Sahib’s mansion."
+    },
+    "Council": {
+      "type": "proper_noun",
+      "description": "Refers to the legislative or administrative council under British colonial rule."
+    },
+    "taluqdar": {
+      "type": "proper_noun",
+      "description": "A hereditary landholder or aristocrat with administrative and revenue-collecting powers."
+    },
+    "Vaishnav": {
+      "type": "proper_noun",
+      "description": "A follower of Vaishnavism, a major Hindu sect devoted to Vishnu, often vegetarian and teetotaler."
+    },
+    "Lucknow": {
+      "type": "proper_noun",
+      "description": "A major city in North India, known for its culture and history."
+    },
+    "Oxford": {
+      "type": "proper_noun",
+      "description": "A prestigious university in England, referenced as the place where Miss Malti studied."
+    },
+    "Swaraj": {
+      "type": "proper_noun",
+      "description": "A nationalist newspaper, its name means 'self-rule' in Hindi."
+    },
+    "Swadhin Bharat": {
+      "type": "proper_noun",
+      "description": "Another nationalist newspaper, meaning 'Independent India'."
+    },
+    "Hunter": {
+      "type": "proper_noun",
+      "description": "A newspaper, likely nationalist in orientation."
+    },
+    "Rural Reform Association": {
+      "type": "proper_noun",
+      "description": "A proposed organization for rural upliftment, with Omkarnath as president."
+    },
+    "Brahmin": {
+      "type": "proper_noun",
+      "description": "The highest caste in the Hindu varna system, traditionally priests and scholars, responsible for religious rituals and maintaining social order."
+    },
+    "Shudra": {
+      "type": "proper_noun",
+      "description": "The lowest caste in the Hindu varna system, traditionally laborers and servants."
+    },
+    "Hindu": {
+      "type": "proper_noun",
+      "description": "A follower of Hinduism, the majority religion in India."
+    },
+    "Muslim": {
+      "type": "proper_noun",
+      "description": "A follower of Islam."
+    },
+    "varnas": {
+      "type": "proper_noun",
+      "description": "The fourfold caste system in Hindu society."
+    },
+    "Samarkand": {
+      "type": "proper_noun",
+      "description": "A historic city in present-day Uzbekistan, referenced in Persian poetry."
+    },
+    "Bukhara": {
+      "type": "proper_noun",
+      "description": "Another historic city in Uzbekistan, paired with Samarkand in classical poetry."
+    },
+    "Kabul": {
+      "type": "proper_noun",
+      "description": "The capital of Afghanistan, referenced as the seat of the Amir."
+    },
+    "British Government": {
+      "type": "proper_noun",
+      "description": "The colonial administration ruling India at the time."
+    },
+    "Khudatala": {
+      "type": "proper_noun",
+      "description": "An Urdu term for God, used by the Afghan character."
+    },
+    "qazi": {
+      "type": "proper_noun",
+      "description": "An Islamic judge or magistrate."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional long shirt worn in South Asia."
+    },
+    "khaddar": {
+      "type": "vocabulary",
+      "description": "Handspun, handwoven cloth promoted during the Indian independence movement."
+    },
+    "achkan": {
+      "type": "vocabulary",
+      "description": "A long, formal coat worn by men in North India."
+    },
+    "pajama": {
+      "type": "vocabulary",
+      "description": "Loose-fitting trousers, part of traditional Indian attire."
+    },
+    "kathni": {
+      "type": "vocabulary",
+      "description": "A knee-length garment, similar to a tunic."
+    },
+    "nazrana": {
+      "type": "vocabulary",
+      "description": "A ceremonial gift or tribute, often given to landlords or rulers."
+    },
+    "cowrie": {
+      "type": "vocabulary",
+      "description": "A small shell used as currency in India in earlier times."
+    },
+    "kofta": {
+      "type": "vocabulary",
+      "description": "A dish of spiced meatballs, common in Indian cuisine."
+    },
+    "kebab": {
+      "type": "vocabulary",
+      "description": "Grilled or roasted meat, a popular dish in South Asia."
+    },
+    "pulao": {
+      "type": "vocabulary",
+      "description": "A rice dish cooked with spices, vegetables, or meat."
+    },
+    "memsahib": {
+      "type": "vocabulary",
+      "description": "A colonial-era term for a European or upper-class Indian woman."
+    },
+    "shehnai": {
+      "type": "vocabulary",
+      "description": "A traditional North Indian wind instrument, played at auspicious events."
+    },
+    "bhang": {
+      "type": "vocabulary",
+      "description": "An intoxicating drink made from cannabis leaves, consumed during festivals."
+    },
+    "qasida": {
+      "type": "vocabulary",
+      "description": "A form of ode or panegyric poetry, often in praise of a person."
+    },
+    "zari": {
+      "type": "vocabulary",
+      "description": "Gold or silver thread used in embroidery."
+    },
+    "salwar": {
+      "type": "vocabulary",
+      "description": "Loose-fitting trousers, part of traditional South Asian attire."
+    },
+    "kulah": {
+      "type": "vocabulary",
+      "description": "A type of cap or headgear."
+    },
+    "Pathan": {
+      "type": "vocabulary",
+      "description": "An ethnic term for Pashtuns, often used for Afghans in North India."
+    },
+    "Huzoor": {
+      "type": "vocabulary",
+      "description": "An honorific term meaning 'sir' or 'your presence' in Urdu."
+    },
+    "Devi-ji": {
+      "type": "vocabulary",
+      "description": "A respectful way to address a woman, combining 'Devi' (goddess/lady) and 'ji' (honorific)."
+    },
+    "Malti": {
+      "type": "character",
+      "description": "A modern, independent woman and doctor educated in England, intelligent and proud, often at the center of romantic and philosophical debates."
+    },
+    "Khanna": {
+      "type": "character",
+      "description": "A businessman, bank manager, and director of a sugar mill who is skilled in commerce and ambitious in his social dealings."
+    },
+    "Vedili": {
+      "type": "character",
+      "description": "A village woman who displays strength, agility, and practical knowledge, assisting Mehta and Malti during their forest excursion."
+    },
+    "Sanda": {
+      "type": "character",
+      "description": "A minor character, part of the group observing Mirza and the woodcutter."
+    },
+    "Pashto": {
+      "type": "proper_noun",
+      "description": "A language spoken in Afghanistan and parts of Pakistan, indicating Khan's (Mehta's) disguise."
+    },
+    "Dhanur-Yajna": {
+      "type": "proper_noun",
+      "description": "A traditional archery contest or ritual, here referring to a theatrical performance."
+    },
+    "banyan tree": {
+      "type": "proper_noun",
+      "description": "A large, sacred tree common in India, often a gathering spot in villages."
+    },
+    "pipal tree": {
+      "type": "proper_noun",
+      "description": "A sacred fig tree, revered in Indian culture and often associated with shade and meditation."
+    },
+    "bazaar": {
+      "type": "proper_noun",
+      "description": "A marketplace, central to village and town commerce in India."
+    },
+    "khadi": {
+      "type": "proper_noun",
+      "description": "Handspun, handwoven cloth promoted during the Indian independence movement as a symbol of self-reliance."
+    },
+    "mahatma": {
+      "type": "proper_noun",
+      "description": "A term meaning 'great soul,' often used for revered spiritual leaders like Mahatma Gandhi."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "The Himalayan mountain range in northern India, referenced metaphorically to describe massive flames and associated with asceticism and spiritual retreat."
+    },
+    "Swamiji": {
+      "type": "proper_noun",
+      "description": "A respectful title for a Hindu holy man or spiritual teacher."
+    },
+    "Congress": {
+      "type": "proper_noun",
+      "description": "Refers to the Indian National Congress, the principal political party leading the independence movement."
+    },
+    "Communal Party": {
+      "type": "proper_noun",
+      "description": "A political group representing communal (often religious) interests in colonial India."
+    },
+    "Hindu Sabha": {
+      "type": "proper_noun",
+      "description": "A Hindu nationalist organization active during the colonial period."
+    },
+    "Quran": {
+      "type": "proper_noun",
+      "description": "The holy book of Islam, cited by Mirza for examples of ideal kingship."
+    },
+    "namaz": {
+      "type": "proper_noun",
+      "description": "The Islamic practice of ritual prayer, performed five times daily."
+    },
+    "Shariat": {
+      "type": "proper_noun",
+      "description": "Islamic law derived from the Quran and Hadith, governing religious and daily life."
+    },
+    "Buddha": {
+      "type": "proper_noun",
+      "description": "The founder of Buddhism, often invoked as a symbol of non-violence."
+    },
+    "Shankar": {
+      "type": "proper_noun",
+      "description": "Likely refers to Adi Shankaracharya, a revered Hindu philosopher and theologian."
+    },
+    "mushaira": {
+      "type": "proper_noun",
+      "description": "A gathering or symposium of poets, popular in Urdu literary culture."
+    },
+    "vaidya": {
+      "type": "vocabulary",
+      "description": "A traditional Indian physician or practitioner of Ayurveda."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn by women in India, consisting of a long piece of cloth draped around the body."
+    },
+    "Bai": {
+      "type": "vocabulary",
+      "description": "A term used for a woman, sometimes as a respectful address or for a maid."
+    },
+    "Bai-ji": {
+      "type": "vocabulary",
+      "description": "A respectful or affectionate form of address for a woman."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A piece of fabric worn over the shoulders or head, often for warmth or as a status symbol."
+    },
+    "maize": {
+      "type": "vocabulary",
+      "description": "Corn, a staple crop and food in rural India."
+    },
+    "halal": {
+      "type": "vocabulary",
+      "description": "The Islamic method of slaughtering animals for food, making the meat permissible to eat."
+    },
+    "janab": {
+      "type": "vocabulary",
+      "description": "A polite form of address, equivalent to 'sir' or 'gentleman' in Urdu."
+    },
+    "vakil": {
+      "type": "vocabulary",
+      "description": "A lawyer or legal advocate."
+    },
+    "makoy": {
+      "type": "vocabulary",
+      "description": "A medicinal herb (Solanum nigrum), used in traditional remedies."
+    },
+    "kanghi": {
+      "type": "vocabulary",
+      "description": "A type of herb or plant, used in traditional medicine."
+    },
+    "sahdeiya": {
+      "type": "vocabulary",
+      "description": "A local medicinal plant, used in folk remedies."
+    },
+    "kukraunde": {
+      "type": "vocabulary",
+      "description": "A wild plant, often used in traditional medicine."
+    },
+    "datura": {
+      "type": "vocabulary",
+      "description": "A poisonous plant whose seeds are used in traditional medicine for pain relief."
+    },
+    "madar": {
+      "type": "vocabulary",
+      "description": "A plant (Calotropis), with medicinal uses in traditional Indian medicine."
+    },
+    "karje": {
+      "type": "vocabulary",
+      "description": "A local herb or plant, used in folk remedies."
+    },
+    "ghumchi": {
+      "type": "vocabulary",
+      "description": "A medicinal plant, used in rural Indian herbal medicine."
+    },
+    "laddus": {
+      "type": "vocabulary",
+      "description": "Sweet, round confections made from flour, sugar, and ghee, often offered in religious rituals."
+    },
+    "mantra": {
+      "type": "vocabulary",
+      "description": "A sacred utterance or chant believed to have spiritual power."
+    },
+    "samskara": {
+      "type": "vocabulary",
+      "description": "A concept in Hindu philosophy referring to mental impressions or formative experiences."
+    },
+    "Matru": {
+      "type": "character",
+      "description": "The name given by the children to the cow's calf."
+    },
+    "Jhuniya": {
+      "type": "character",
+      "description": "Bhola's daughter who becomes romantically involved with Gobar; she is often mistreated by her family and faces social scandal.",
+      "image": "/data/images/characters/godan/jhuniya.png"
+    },
+    "Bhagga": {
+      "type": "character",
+      "description": "A villager who gossips about Gobar and Jhuniya."
+    },
+    "Sundariya": {
+      "type": "character",
+      "description": "The cow that becomes the center of the family's hopes and grief."
+    },
+    "Ashadh": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu lunar calendar, marking the start of the monsoon and a critical time for agriculture."
+    },
+    "kharif": {
+      "type": "proper_noun",
+      "description": "Refers to crops sown at the beginning of the monsoon season and harvested in autumn."
+    },
+    "Lala": {
+      "type": "proper_noun",
+      "description": "A term of address for a merchant or moneylender, sometimes used for a son."
+    },
+    "country liquor": {
+      "type": "vocabulary",
+      "description": "Locally brewed alcoholic drink, often consumed by rural villagers."
+    },
+    "mahajans": {
+      "type": "vocabulary",
+      "description": "Moneylenders or financiers in rural Indian society."
+    },
+    "rupee": {
+      "type": "vocabulary",
+      "description": "The basic monetary unit of India."
+    },
+    "bhabhi": {
+      "type": "vocabulary",
+      "description": "Brother's wife; sister-in-law."
+    },
+    "hakims": {
+      "type": "vocabulary",
+      "description": "Practitioners of Unani (Greco-Arabic) medicine."
+    },
+    "pilgrimage": {
+      "type": "vocabulary",
+      "description": "A religious journey to a sacred place, common in Indian culture."
+    },
+    "fasts": {
+      "type": "vocabulary",
+      "description": "Periods of abstaining from food for religious reasons."
+    },
+    "feasts": {
+      "type": "vocabulary",
+      "description": "Large communal meals, often for religious or celebratory occasions."
+    },
+    "stamped contract": {
+      "type": "vocabulary",
+      "description": "A legal document with government stamp duty paid, used for formalizing loans."
+    },
+    "bangles": {
+      "type": "vocabulary",
+      "description": "Traditional rigid bracelets worn by women in India."
+    },
+    "gilt": {
+      "type": "vocabulary",
+      "description": "Gold-plated or gold-colored, used to describe inexpensive jewelry."
+    },
+    "calved": {
+      "type": "vocabulary",
+      "description": "Given birth to a calf (used for cows)."
+    },
+    "trough": {
+      "type": "vocabulary",
+      "description": "A long, narrow container from which animals eat or drink."
+    },
+    "rites": {
+      "type": "vocabulary",
+      "description": "Religious or ceremonial acts, especially those marking important events."
+    },
+    "feast": {
+      "type": "vocabulary",
+      "description": "A large meal, often for a special occasion or religious observance."
+    },
+    "Nand": {
+      "type": "character",
+      "description": "A villager whose watchman reports the incident to the authorities."
+    },
+    "Nokhe Ram": {
+      "type": "character",
+      "description": "A village Brahmin and headman, owner of the chaupal where leaders meet, respected for his lineage and religious devotion."
+    },
+    "Vaikuntha": {
+      "type": "proper_noun",
+      "description": "The celestial abode of Lord Vishnu in Hindu mythology."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "The sacred river Ganges, considered holy in Hinduism; its water is used for oaths and rituals and is believed to be purifying."
+    },
+    "chabutra": {
+      "type": "proper_noun",
+      "description": "A raised platform, often in the courtyard or village center, used for gatherings or rituals."
+    },
+    "chaupal": {
+      "type": "proper_noun",
+      "description": "A village meeting place or community platform, often under a tree."
+    },
+    "Gandasingh": {
+      "type": "proper_noun",
+      "description": "Name of the police officer (daroga) mentioned as an authority figure."
+    },
+    "kala pani": {
+      "type": "proper_noun",
+      "description": "A term meaning 'black water,' referring to the colonial penal colony in the Andaman Islands, symbolizing harsh punishment."
+    },
+    "khurpi": {
+      "type": "vocabulary",
+      "description": "A small hand-held hoe used for digging and weeding in fields."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The currency of India."
+    },
+    "huzoor": {
+      "type": "vocabulary",
+      "description": "A term of respect or address, similar to 'sir' or 'your honor.'"
+    },
+    "charpoy": {
+      "type": "vocabulary",
+      "description": "A traditional woven bed used in rural India."
+    },
+    "dacoity": {
+      "type": "vocabulary",
+      "description": "Armed robbery by a gang, a term used in colonial legal context."
+    },
+    "self-rule": {
+      "type": "vocabulary",
+      "description": "Refers to 'Swaraj,' the movement for Indian self-governance during the colonial period."
+    },
+    "usury": {
+      "type": "vocabulary",
+      "description": "The practice of charging excessive interest on loans, often by moneylenders."
+    },
+    "bribes": {
+      "type": "vocabulary",
+      "description": "Money or gifts given to influence officials, a common form of corruption."
+    },
+    "Sawan": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu calendar (July-August), associated with the monsoon and agricultural activities like rice planting."
+    },
+    "Bhawani": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess, also known as Durga, invoked by villagers for strength and protection."
+    },
+    "Magh": {
+      "type": "proper_noun",
+      "description": "A winter month in the Hindu calendar (January-February), characterized by cold weather."
+    },
+    "Kabuli": {
+      "type": "proper_noun",
+      "description": "A term for an itinerant cloth seller or moneylender from Kabul (Afghanistan), common in North Indian villages during colonial times."
+    },
+    "bund": {
+      "type": "vocabulary",
+      "description": "An embankment or raised barrier, typically used to separate or protect fields from flooding."
+    },
+    "Matadeen": {
+      "type": "character",
+      "description": "Datadin's son whose relationship with a lower-caste woman causes scandal, though he is protected by his father's high status."
+    },
+    "Daroga Gandasingh": {
+      "type": "character",
+      "description": "The local police inspector who represents colonial authority and is involved in village affairs and bribe-taking."
+    },
+    "Satyanarayan": {
+      "type": "proper_noun",
+      "description": "A Hindu deity whose story is recited during religious observances, especially on full moon days."
+    },
+    "Narad": {
+      "type": "proper_noun",
+      "description": "A reference to the sage Narada from Hindu mythology, known as a divine gossip and messenger."
+    },
+    "sah": {
+      "type": "proper_noun",
+      "description": "A respectful term for a wealthy or important man, often used for moneylenders or merchants."
+    },
+    "Holi": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival celebrated with colors, marking the arrival of spring."
+    },
+    "Bhagavat": {
+      "type": "vocabulary",
+      "description": "Refers to the Bhagavata Purana, a revered Hindu scripture."
+    },
+    "sohar": {
+      "type": "vocabulary",
+      "description": "Traditional songs sung to celebrate childbirth."
+    },
+    "paddy": {
+      "type": "vocabulary",
+      "description": "Unhusked rice; refers to the crop as harvested from the field."
+    },
+    "juar": {
+      "type": "vocabulary",
+      "description": "Sorghum; a staple grain crop in India."
+    },
+    "mehfil": {
+      "type": "vocabulary",
+      "description": "A gathering or assembly, often for music, poetry, or celebration."
+    },
+    "harjai": {
+      "type": "vocabulary",
+      "description": "A Hindi/Urdu term meaning 'faithless' or 'betrayer', often used for a woman who is seen as disloyal."
+    },
+    "Kodai": {
+      "type": "character",
+      "description": "A man Gobar encounters on the road, who initially quarrels with his wife but later befriends Gobar."
+    },
+    "Bhagwan": {
+      "type": "proper_noun",
+      "description": "A term for God in Hinduism, used here to suggest religious devotion."
+    },
+    "gamchha": {
+      "type": "vocabulary",
+      "description": "A thin, traditional cotton towel often worn around the waist or neck by rural men."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional men's garment, a long piece of cloth wrapped around the waist and legs."
+    },
+    "verandah": {
+      "type": "vocabulary",
+      "description": "A roofed, open-air porch or gallery attached to a house."
+    },
+    "milch cow": {
+      "type": "vocabulary",
+      "description": "A cow kept for its ability to produce milk."
+    },
+    "Rani Sahiba Chanda": {
+      "type": "character",
+      "description": "A wealthy woman and political rival mentioned in the context of elections."
+    },
+    "purwa": {
+      "type": "proper_noun",
+      "description": "A small hamlet or outlying settlement, smaller than a main village."
+    },
+    "Aminabad": {
+      "type": "proper_noun",
+      "description": "A bustling bazaar or market area, likely in a city, where laborers gather for work."
+    },
+    "kabaddi": {
+      "type": "proper_noun",
+      "description": "A traditional Indian team sport involving tagging and wrestling, popular in rural areas."
+    },
+    "gilli-danda": {
+      "type": "proper_noun",
+      "description": "A traditional rural Indian game played with a small stick (gilli) and a larger stick (danda)."
+    },
+    "Jackson Road": {
+      "type": "proper_noun",
+      "description": "A specific road or locality, likely in an urban area, referenced in property discussions."
+    },
+    "sugar mill": {
+      "type": "proper_noun",
+      "description": "A factory for processing sugarcane into sugar, representing industrial enterprise."
+    },
+    "taluqdars": {
+      "type": "proper_noun",
+      "description": "Landholding aristocrats or estate owners under the colonial zamindari system."
+    },
+    "shamiana": {
+      "type": "proper_noun",
+      "description": "A decorated tent or canopy used for gatherings and special events."
+    },
+    "Rani Sahiba": {
+      "type": "proper_noun",
+      "description": "A title for a noblewoman or queen, here referring to a political figure."
+    },
+    "Omkarnath": {
+      "type": "proper_noun",
+      "description": "Editor of the newspaper 'Bijli', a principled and outspoken nationalist, often critical and idealistic."
+    },
+    "Einstein": {
+      "type": "proper_noun",
+      "description": "Reference to Albert Einstein, symbolizing intellectual debate."
+    },
+    "Supreme Soul": {
+      "type": "proper_noun",
+      "description": "A philosophical or spiritual concept, referring to the ultimate divine reality."
+    },
+    "sattu": {
+      "type": "vocabulary",
+      "description": "A flour made from roasted grains, typically barley or gram, used as food."
+    },
+    "tahmads": {
+      "type": "vocabulary",
+      "description": "A type of men's loincloth or wrap, similar to a dhoti but shorter."
+    },
+    "cheen": {
+      "type": "vocabulary",
+      "description": "A word used in kabaddi to signal surrender or being 'out' in the game."
+    },
+    "Vaishakh": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu calendar, corresponding to April-May, marking the harvest season."
+    },
+    "Sah": {
+      "type": "proper_noun",
+      "description": "A respectful term for a wealthy or important man, often used for moneylenders, merchants, or landlords; also used as a term of respect or address for men of authority."
+    },
+    "Bhadon": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu calendar, corresponding to August-September, marking the rainy season."
+    },
+    "kodon": {
+      "type": "vocabulary",
+      "description": "A type of millet grown in India, used as a staple grain."
+    },
+    "bahu": {
+      "type": "vocabulary",
+      "description": "Daughter-in-law in Hindi."
+    },
+    "jethani": {
+      "type": "vocabulary",
+      "description": "Elder brother-in-law's wife in Hindi."
+    },
+    "dacoities": {
+      "type": "vocabulary",
+      "description": "Armed robberies or bandit raids, common in rural India during colonial times."
+    },
+    "Vanshi": {
+      "type": "character",
+      "description": "A strong young man from the village who physically confronts Bhola."
+    },
+    "Mr. Kaul": {
+      "type": "character",
+      "description": "Malti's father, a broker who has become incapacitated and financially strained."
+    },
+    "Saroj": {
+      "type": "character",
+      "description": "Malti's middle sister, thin, sharp-tongued, and often ill."
+    },
+    "Varda": {
+      "type": "character",
+      "description": "Malti's youngest sister, healthy, lively, and often at odds with Saroj."
+    },
+    "Dr. Mehta": {
+      "type": "character",
+      "description": "A philosopher, scholar, and lecturer admired for his intellect and honesty, often engaging in deep discussions about society and women's roles."
+    },
+    "Lady Hookoo": {
+      "type": "character",
+      "description": "A woman who mocks Dr. Mehta during his lecture."
+    },
+    "Mirza": {
+      "type": "character",
+      "description": "A humorous Sufi Muslim and shoe shop owner in Lucknow, known for his cheerfulness and occasional friction with his companions."
+    },
+    "Editor": {
+      "type": "character",
+      "description": "The editor of ‘Bijli’, a critical observer of the debate on women's rights, planning to expose the indulgences and hypocrisies of the elite group through journalism."
+    },
+    "Khursheed": {
+      "type": "character",
+      "description": "A participant in the debate, interjecting during the speeches."
+    },
+    "Khushend": {
+      "type": "character",
+      "description": "A participant in the debate, often interjecting humorously."
+    },
+    "zamindars": {
+      "type": "proper_noun",
+      "description": "Landlords in colonial India who owned large estates and collected rent from peasants."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "Referenced as the destination for higher education and symbol of Western influence."
+    },
+    "Women’s League": {
+      "type": "proper_noun",
+      "description": "A city-based organization for educated women, promoting women's rights and debates."
+    },
+    "France": {
+      "type": "proper_noun",
+      "description": "A European country mentioned in the context of women's ideals."
+    },
+    "Germany": {
+      "type": "proper_noun",
+      "description": "A European country mentioned in the context of women's ideals."
+    },
+    "Italy": {
+      "type": "proper_noun",
+      "description": "A European country mentioned in the context of women's ideals."
+    },
+    "Mansarovar": {
+      "type": "proper_noun",
+      "description": "A mythical or sacred lake, symbolizing peace and purity in Indian culture."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country in which the story is set, referenced in contrast to the West."
+    },
+    "West": {
+      "type": "proper_noun",
+      "description": "Refers to Western countries, particularly Europe and America, as a cultural influence."
+    },
+    "bungalow": {
+      "type": "vocabulary",
+      "description": "A type of single-story house, often used for colonial-era residences."
+    },
+    "jumpers": {
+      "type": "vocabulary",
+      "description": "A term for a type of upper garment or sweater, here referring to women's attire."
+    },
+    "Deviji": {
+      "type": "vocabulary",
+      "description": "A respectful term for a woman, meaning 'goddess' or 'respected lady' in Hindi."
+    },
+    "subhanallah": {
+      "type": "vocabulary",
+      "description": "An Urdu exclamation meaning 'Glory be to God', used to express admiration or approval."
+    },
+    "Govindi": {
+      "type": "character",
+      "description": "Mr. Khanna’s thoughtful and reserved wife who is often concerned for her children and faces marital conflict."
+    },
+    "Bagula Bhagat": {
+      "type": "character",
+      "description": "A member of the panchayat implicated in the collection of fines from Hori."
+    },
+    "Gomti": {
+      "type": "character",
+      "description": "Omkar Nath's wife, who expresses skepticism about promises made by landlords and shares her experiences."
+    },
+    "Malti’s bungalow": {
+      "type": "proper_noun",
+      "description": "The residence of Malti, indicating her social status."
+    },
+    "Hori’s village": {
+      "type": "proper_noun",
+      "description": "The village where Hori and the panchayat are based, central to the estate's events."
+    },
+    "government": {
+      "type": "proper_noun",
+      "description": "The colonial or local administrative authority overseeing legal and financial matters."
+    },
+    "homa": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual involving offerings into a sacred fire."
+    },
+    "thanedar": {
+      "type": "proper_noun",
+      "description": "A police officer in charge of a police station in colonial and modern India."
+    },
+    "Swadeshi": {
+      "type": "proper_noun",
+      "description": "A movement promoting Indian-made goods and self-reliance during the independence struggle."
+    },
+    "Harishchandra": {
+      "type": "proper_noun",
+      "description": "A legendary king in Hindu mythology known for his unwavering commitment to truth."
+    },
+    "Diwali": {
+      "type": "proper_noun",
+      "description": "A major Hindu festival of lights."
+    },
+    "Banarasi sari": {
+      "type": "proper_noun",
+      "description": "A luxurious silk sari made in Varanasi (Banaras), known for its intricate designs."
+    },
+    "baniyas": {
+      "type": "proper_noun",
+      "description": "A merchant or trading caste in Indian society."
+    },
+    "peons": {
+      "type": "vocabulary",
+      "description": "Low-ranking servants or messengers in offices or estates."
+    },
+    "forced labor": {
+      "type": "vocabulary",
+      "description": "Unpaid or coerced labor, often extracted by landlords from tenants or workers."
+    },
+    "millstone": {
+      "type": "vocabulary",
+      "description": "A heavy stone used for grinding grain, symbolizing hard manual labor."
+    },
+    "mortgaged": {
+      "type": "vocabulary",
+      "description": "Pledged as security for a loan, often resulting in loss of property if debts are unpaid."
+    },
+    "widow": {
+      "type": "vocabulary",
+      "description": "A woman whose husband has died; in Indian society, widows often faced social stigma."
+    },
+    "noose": {
+      "type": "vocabulary",
+      "description": "A looped rope used for hanging, metaphorically indicating being trapped or in danger."
+    },
+    "ledger": {
+      "type": "vocabulary",
+      "description": "A book for keeping financial accounts."
+    },
+    "decrees": {
+      "type": "vocabulary",
+      "description": "Official orders, often legal judgments for debt recovery."
+    },
+    "gramophone": {
+      "type": "vocabulary",
+      "description": "An early device for playing recorded music, symbolizing modernity and luxury."
+    },
+    "donor": {
+      "type": "vocabulary",
+      "description": "A person who gives money or goods for a cause."
+    },
+    "subscriptions": {
+      "type": "vocabulary",
+      "description": "Payments for regular delivery of a newspaper or magazine."
+    },
+    "ascetic": {
+      "type": "vocabulary",
+      "description": "A person who practices severe self-discipline and abstention from indulgence."
+    },
+    "Girdhar": {
+      "type": "character",
+      "description": "A villager who complains about not receiving his due from the sugarcane payment."
+    },
+    "Kartik": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu lunar calendar, significant for agricultural activities."
+    },
+    "chamar": {
+      "type": "proper_noun",
+      "description": "A caste traditionally associated with leatherwork, considered lower in the social hierarchy."
+    },
+    "Paush": {
+      "type": "proper_noun",
+      "description": "A winter month in the Hindu lunar calendar."
+    },
+    "Sarkar Bahadur": {
+      "type": "proper_noun",
+      "description": "A colonial-era term referring to the British government or authority."
+    },
+    "munim": {
+      "type": "proper_noun",
+      "description": "An accountant or cashier, especially in a business or agricultural context."
+    },
+    "bajra": {
+      "type": "vocabulary",
+      "description": "Pearl millet, a staple grain in rural Indian diets."
+    },
+    "bathua": {
+      "type": "vocabulary",
+      "description": "A leafy green vegetable (Chenopodium album) commonly used in Indian cooking."
+    },
+    "chivda": {
+      "type": "vocabulary",
+      "description": "A savory snack mix made from flattened rice and spices."
+    },
+    "panches": {
+      "type": "vocabulary",
+      "description": "Members of the panchayat, the village council."
+    },
+    "overseer": {
+      "type": "vocabulary",
+      "description": "A supervisor or manager, especially in agricultural or industrial settings."
+    },
+    "Dhyan Singh": {
+      "type": "character",
+      "description": "A Thakur and soldier recently returned to the village after serving in the army abroad."
+    },
+    "Bhishma": {
+      "type": "character",
+      "description": "Khanna and Govindi's youngest, frail son, often ill and a source of concern for Govindi."
+    },
+    "Dr. Nag": {
+      "type": "character",
+      "description": "A doctor who has previously treated Bhishma, but whose competence is questioned by Khanna."
+    },
+    "Raja Sahib": {
+      "type": "character",
+      "description": "An honorific title for a king or nobleman, used for elite figures whom Malti is said to ignore."
+    },
+    "Mr. Todd": {
+      "type": "character",
+      "description": "A civil surgeon who visits to check on Bhishma."
+    },
+    "Neelkanth Shastri": {
+      "type": "character",
+      "description": "A learned physician who visits Bhishma with Dr. Nag and Mr. Todd."
+    },
+    "Baghdad": {
+      "type": "proper_noun",
+      "description": "A city in Iraq, mentioned as one of the places Dhyan Singh traveled to during his army service."
+    },
+    "Aden": {
+      "type": "proper_noun",
+      "description": "A port city in Yemen, also referenced as part of Dhyan Singh's travels."
+    },
+    "Singapore": {
+      "type": "proper_noun",
+      "description": "A Southeast Asian city-state, included in the list of places Dhyan Singh visited."
+    },
+    "Burma": {
+      "type": "proper_noun",
+      "description": "Now called Myanmar, another country Dhyan Singh traveled to as a soldier."
+    },
+    "aarti": {
+      "type": "proper_noun",
+      "description": "A Hindu religious ritual of worship involving the offering of light, usually from a flame."
+    },
+    "katha": {
+      "type": "proper_noun",
+      "description": "A religious storytelling or recitation event, often based on Hindu scriptures."
+    },
+    "Thakurji": {
+      "type": "proper_noun",
+      "description": "A respectful term for a deity, often used for Lord Krishna or other Hindu gods."
+    },
+    "Kama Shastra": {
+      "type": "proper_noun",
+      "description": "An ancient Indian text on love, sexuality, and relationships."
+    },
+    "apsara": {
+      "type": "proper_noun",
+      "description": "A celestial nymph or female spirit of the clouds and waters in Hindu and Buddhist mythology."
+    },
+    "tonga": {
+      "type": "proper_noun",
+      "description": "A horse-drawn carriage commonly used for transportation in India."
+    },
+    "Hazratganj": {
+      "type": "proper_noun",
+      "description": "A prominent shopping and commercial area in Lucknow, Uttar Pradesh."
+    },
+    "Gandhi Ashram": {
+      "type": "proper_noun",
+      "description": "A reference to ashrams or centers inspired by Mahatma Gandhi, often associated with self-reliance and handicrafts."
+    },
+    "French Academy": {
+      "type": "proper_noun",
+      "description": "A prestigious French institution, here referenced as having honored Mehta's work."
+    },
+    "paisa": {
+      "type": "vocabulary",
+      "description": "A small unit of Indian currency, one hundredth of a rupee."
+    },
+    "constellations": {
+      "type": "vocabulary",
+      "description": "Astrological groupings of stars, often referenced in Indian matchmaking and horoscope readings."
+    },
+    "horoscopes": {
+      "type": "vocabulary",
+      "description": "Astrological charts used to predict a person's future, commonly consulted in Indian marriages."
+    },
+    "bondswoman": {
+      "type": "vocabulary",
+      "description": "An archaic term for a female slave or woman bound in servitude."
+    },
+    "club": {
+      "type": "vocabulary",
+      "description": "A colonial-era social institution for the elite, often associated with drinking and entertainment."
+    },
+    "courtesans": {
+      "type": "vocabulary",
+      "description": "Women who entertain men, often through music, dance, or companionship, sometimes with sexual connotations."
+    },
+    "register": {
+      "type": "vocabulary",
+      "description": "A record or list, here referring to keeping track of attendance at religious or social events."
+    },
+    "Aladdin": {
+      "type": "character",
+      "description": "An ekka-driver who borrows money from Gobar for his daughter's wedding and offers advice about family life."
+    },
+    "Bhure": {
+      "type": "character",
+      "description": "A villager or ekka-driver who helps Gobar by providing transport as he leaves for home, showing loyalty and affection to the family."
+    },
+    "City Congress Committee": {
+      "type": "proper_noun",
+      "description": "A political organization, likely a local branch of the Indian National Congress, central to city politics."
+    },
+    "Gaya": {
+      "type": "proper_noun",
+      "description": "A pilgrimage city in Bihar, India, significant in Hindu religious tradition."
+    },
+    "Japanese": {
+      "type": "proper_noun",
+      "description": "Refers to Japanese bangles, indicating imported or foreign goods popular in Indian markets."
+    },
+    "Allah": {
+      "type": "proper_noun",
+      "description": "The Arabic word for God, used by Muslims."
+    },
+    "shivalings": {
+      "type": "proper_noun",
+      "description": "Symbolic representations of the Hindu god Shiva, often found under sacred trees like the peepal."
+    },
+    "peepal": {
+      "type": "proper_noun",
+      "description": "A sacred fig tree (Ficus religiosa) commonly found in Indian villages and associated with religious rituals."
+    },
+    "roza": {
+      "type": "proper_noun",
+      "description": "The daily fast observed by Muslims during the month of Ramadan."
+    },
+    "panchayats": {
+      "type": "vocabulary",
+      "description": "Village or neighborhood councils that resolve disputes and manage local affairs."
+    },
+    "bidi": {
+      "type": "vocabulary",
+      "description": "A thin, hand-rolled cigarette made from tobacco wrapped in a tendu leaf."
+    },
+    "vermilion": {
+      "type": "vocabulary",
+      "description": "A red powder (sindoor) worn by married Hindu women in the parting of their hair."
+    },
+    "ekka": {
+      "type": "vocabulary",
+      "description": "A one-horse cart used for local transport."
+    },
+    "Bhawaniya": {
+      "type": "character",
+      "description": "Jhinguri Singh's eldest son, considered mischievous and uneducated."
+    },
+    "Phagun": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu calendar, marking the arrival of spring and associated with the festival of Holi."
+    },
+    "koel": {
+      "type": "proper_noun",
+      "description": "An Indian cuckoo bird, symbolizing the arrival of spring."
+    },
+    "Lalaji": {
+      "type": "proper_noun",
+      "description": "A respectful form of address for a man with the title 'Lala.'"
+    },
+    "Mirzapur": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, India, referenced as a possible destination."
+    },
+    "Damra Island": {
+      "type": "proper_noun",
+      "description": "A place mentioned as a possible destination, likely fictional or obscure."
+    },
+    "Mahavir Swami": {
+      "type": "proper_noun",
+      "description": "A revered Jain Tirthankara, invoked here for protection."
+    },
+    "halwais": {
+      "type": "proper_noun",
+      "description": "Sweet-makers or confectioners in Indian villages."
+    },
+    "bhaiya": {
+      "type": "vocabulary",
+      "description": "Hindi for 'elder brother,' also used as a friendly or respectful address."
+    },
+    "gulab jamun": {
+      "type": "vocabulary",
+      "description": "A popular Indian sweet made from milk solids, deep-fried and soaked in syrup."
+    },
+    "scarf": {
+      "type": "vocabulary",
+      "description": "A piece of cloth worn around the neck or head, here referring to a traditional Indian men's scarf (angochha or gamcha)."
+    },
+    "oxen": {
+      "type": "vocabulary",
+      "description": "Domesticated cattle used for plowing fields."
+    },
+    "frock": {
+      "type": "vocabulary",
+      "description": "A dress, here referring to a child's garment."
+    },
+    "vaid": {
+      "type": "vocabulary",
+      "description": "A practitioner of traditional Indian medicine (Ayurveda)."
+    },
+    "sherbet": {
+      "type": "vocabulary",
+      "description": "A sweet, flavored drink popular in India."
+    },
+    "goad": {
+      "type": "vocabulary",
+      "description": "A pointed stick used to drive cattle or oxen."
+    },
+    "Semari": {
+      "type": "proper_noun",
+      "description": "The name of the village where the story takes place."
+    },
+    "Phag": {
+      "type": "proper_noun",
+      "description": "Traditional folk songs sung during the Holi festival."
+    },
+    "Alha": {
+      "type": "proper_noun",
+      "description": "Epic ballads sung in rural North India, especially during Ashadh."
+    },
+    "Kajliyan": {
+      "type": "proper_noun",
+      "description": "Folk songs sung during Sawan and Bhadon."
+    },
+    "Biswan": {
+      "type": "proper_noun",
+      "description": "A town, mentioned as the source of special tobacco."
+    },
+    "Thakurain": {
+      "type": "proper_noun",
+      "description": "The wife of a Thakur (landlord), a title of respect."
+    },
+    "karinda": {
+      "type": "proper_noun",
+      "description": "A steward or manager working for the landlord."
+    },
+    "Rani": {
+      "type": "proper_noun",
+      "description": "A queen or lady of high status."
+    },
+    "begum": {
+      "type": "proper_noun",
+      "description": "A term for a Muslim lady of rank, here used colloquially."
+    },
+    "bailiff": {
+      "type": "proper_noun",
+      "description": "A court official responsible for enforcing orders, such as collecting rent."
+    },
+    "Persian wheel": {
+      "type": "proper_noun",
+      "description": "A traditional irrigation device used to draw water from wells."
+    },
+    "Kaliyug": {
+      "type": "proper_noun",
+      "description": "The current age in Hindu cosmology, considered an era of decline."
+    },
+    "Baniya": {
+      "type": "proper_noun",
+      "description": "A merchant or trader caste, often involved in moneylending."
+    },
+    "khamira": {
+      "type": "vocabulary",
+      "description": "A type of aromatic tobacco preparation."
+    },
+    "kewra": {
+      "type": "vocabulary",
+      "description": "An essence distilled from the pandanus flower, used for flavoring."
+    },
+    "peon": {
+      "type": "vocabulary",
+      "description": "A low-ranking servant or messenger."
+    },
+    "deed": {
+      "type": "vocabulary",
+      "description": "A legal document, especially relating to property or loans."
+    },
+    "Dhanna Seth": {
+      "type": "vocabulary",
+      "description": "A proverbial term for a wealthy man, often used sarcastically."
+    },
+    "sav": {
+      "type": "vocabulary",
+      "description": "A colloquial term for a lower-status person or servant."
+    },
+    "court": {
+      "type": "vocabulary",
+      "description": "Refers to the legal court system under colonial administration."
+    },
+    "Kunwar Digvijay Singh": {
+      "type": "character",
+      "description": "Meenakshi's arrogant husband, a young nobleman known for his pride, immoral behavior, and aristocratic decadence."
+    },
+    "Raja Suryapratap Singh": {
+      "type": "character",
+      "description": "A rival nobleman and landowner who competes with Rai Sahib in council elections and seeks to form strategic alliances."
+    },
+    "Agnihotri": {
+      "type": "character",
+      "description": "A person mentioned as having forced the committee to meet about wheat prices."
+    },
+    "Lady Wilson": {
+      "type": "character",
+      "description": "A British lady, supportive of the women's movement, symbolizing colonial influence."
+    },
+    "Lady Willman": {
+      "type": "character",
+      "description": "Mentioned as a figure whose union was advised to be kept, likely another colonial authority."
+    },
+    "chunari": {
+      "type": "proper_noun",
+      "description": "A traditional Indian scarf or veil worn by women, often as a sign of modesty or marital status."
+    },
+    "Eden": {
+      "type": "proper_noun",
+      "description": "Refers to the Eden litigation, a legal case involving a large estate."
+    },
+    "Rajput": {
+      "type": "proper_noun",
+      "description": "A prominent warrior caste in North India, associated with nobility and honor."
+    },
+    "Heera Mahal": {
+      "type": "proper_noun",
+      "description": "A luxurious palace or mansion being built by Raja Suryapratap Singh."
+    },
+    "Kashmir": {
+      "type": "proper_noun",
+      "description": "A region in northern India, famous for its dried fruits."
+    },
+    "Vaitarni": {
+      "type": "proper_noun",
+      "description": "A mythical river in Hindu belief, symbolizing a difficult or perilous crossing after death."
+    },
+    "pathshalas": {
+      "type": "proper_noun",
+      "description": "Traditional Indian schools, often for primary education."
+    },
+    "dharamshalas": {
+      "type": "proper_noun",
+      "description": "Rest houses for travelers, often built as acts of charity."
+    },
+    "Governor Sahib": {
+      "type": "proper_noun",
+      "description": "The British colonial governor, a position of highest authority in the province."
+    },
+    "lakh": {
+      "type": "vocabulary",
+      "description": "A unit in the Indian numbering system equal to one hundred thousand (100,000)."
+    },
+    "mill owners": {
+      "type": "vocabulary",
+      "description": "Owners of industrial mills, often referring to those who control agricultural processing."
+    },
+    "committee": {
+      "type": "vocabulary",
+      "description": "A group formed for decision-making, often in administrative or social contexts."
+    },
+    "council": {
+      "type": "vocabulary",
+      "description": "A legislative or advisory body, here referring to the colonial-era legislative council."
+    },
+    "foundation stone": {
+      "type": "vocabulary",
+      "description": "A ceremonial stone laid to mark the beginning of a building's construction."
+    },
+    "debauchery": {
+      "type": "vocabulary",
+      "description": "Excessive indulgence in sensual pleasures, often used to describe the lifestyle of the elite."
+    },
+    "national movement": {
+      "type": "vocabulary",
+      "description": "Refers to the Indian struggle for independence from British rule."
+    },
+    "slavish imitation": {
+      "type": "vocabulary",
+      "description": "A phrase referring to the uncritical adoption of Western customs or practices."
+    },
+    "Silia": {
+      "type": "character",
+      "description": "A lower-caste woman in a scandalous relationship with Matadeen who suffers harsh treatment from her family and the village."
+    },
+    "Dhanna Chamar": {
+      "type": "character",
+      "description": "A laborer driving bullocks for Datadin, belonging to the Chamar caste."
+    },
+    "Harkhu": {
+      "type": "character",
+      "description": "Silia's father, a Chamar elder who confronts Datadin and Matadeen over Silia's treatment."
+    },
+    "Kaliya": {
+      "type": "character",
+      "description": "Silia's mother, who is harsh and violent towards her daughter."
+    },
+    "gymnasium": {
+      "type": "proper_noun",
+      "description": "A reference to a physical training center, often associated with colonial-era urban culture."
+    },
+    "Puranas": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu texts containing mythological stories and traditions."
+    },
+    "Sukul": {
+      "type": "proper_noun",
+      "description": "A Brahmin subcaste, mentioned here as a marker of ritual status."
+    },
+    "zamindari": {
+      "type": "proper_noun",
+      "description": "A system of landholding and revenue collection under colonial rule, also used for landlord status."
+    },
+    "dakshina": {
+      "type": "proper_noun",
+      "description": "A traditional offering or fee given to a priest or teacher for religious services."
+    },
+    "chamarin": {
+      "type": "proper_noun",
+      "description": "A female member of the Chamar caste."
+    },
+    "checkbook": {
+      "type": "vocabulary",
+      "description": "A book of checks used for banking transactions, symbolizing modern financial dealings."
+    },
+    "kohl": {
+      "type": "vocabulary",
+      "description": "A traditional eye cosmetic used in South Asia."
+    },
+    "mahua": {
+      "type": "vocabulary",
+      "description": "A type of tree whose flowers are used for making liquor and sweets."
+    },
+    "mynas": {
+      "type": "vocabulary",
+      "description": "A species of bird found in India."
+    },
+    "neem": {
+      "type": "vocabulary",
+      "description": "A medicinal tree native to India."
+    },
+    "siris": {
+      "type": "vocabulary",
+      "description": "A type of tree found in India."
+    },
+    "karonda": {
+      "type": "vocabulary",
+      "description": "A berry-bearing shrub native to India."
+    },
+    "devar": {
+      "type": "vocabulary",
+      "description": "A term for husband's younger brother."
+    },
+    "khatkin": {
+      "type": "vocabulary",
+      "description": "A caste or community, often associated with selling forest produce."
+    },
+    "jalebis": {
+      "type": "vocabulary",
+      "description": "A popular Indian sweet made by deep-frying batter in circular shapes and soaking in syrup."
+    },
+    "nai-bari": {
+      "type": "vocabulary",
+      "description": "Barbers, a service caste in Indian villages."
+    },
+    "purohits": {
+      "type": "vocabulary",
+      "description": "Priests who perform Hindu rituals."
+    },
+    "bards": {
+      "type": "vocabulary",
+      "description": "Traditional singers or storytellers, often attached to a patron."
+    },
+    "chaff": {
+      "type": "vocabulary",
+      "description": "The husks separated from grain during threshing."
+    },
+    "Vindeshwari": {
+      "type": "character",
+      "description": "Pateshwari's son, already a father, part of the group of idle young men."
+    },
+    "Huseni": {
+      "type": "character",
+      "description": "A villager who interrupts Hori and Dulari's conversation by buying salt."
+    },
+    "Gauri Mahto": {
+      "type": "character",
+      "description": "A wealthy farmer from Sonari, father of Mathura, and potential in-law for Sona."
+    },
+    "Mathura": {
+      "type": "character",
+      "description": "Gauri Mahto's son, Sona's prospective groom, depicted as compassionate and conflicted."
+    },
+    "Kausalya": {
+      "type": "character",
+      "description": "Dulari's daughter, sent back to her in-laws due to concerns about village boys."
+    },
+    "Chaiti": {
+      "type": "proper_noun",
+      "description": "A springtime festival and harvest season in North India, significant for rural agricultural cycles."
+    },
+    "bigha": {
+      "type": "proper_noun",
+      "description": "A traditional unit of land measurement used in North India, varying regionally."
+    },
+    "Bhabhi": {
+      "type": "proper_noun",
+      "description": "A term for brother's wife or sister-in-law, used as a respectful address."
+    },
+    "Kashi": {
+      "type": "proper_noun",
+      "description": "The city of Varanasi, a major Hindu pilgrimage site."
+    },
+    "Sonari": {
+      "type": "proper_noun",
+      "description": "A neighboring village, home to Sona's prospective groom's family."
+    },
+    "dowry": {
+      "type": "vocabulary",
+      "description": "Property or money brought by a bride to her husband's family upon marriage."
+    },
+    "kusha-daughter": {
+      "type": "vocabulary",
+      "description": "A symbolic or ritual daughter, referring to a marriage with minimal ceremony or expense, often using kusha grass."
+    },
+    "baraatis": {
+      "type": "vocabulary",
+      "description": "The wedding procession from the groom's side in Indian weddings."
+    },
+    "plough": {
+      "type": "vocabulary",
+      "description": "A farming implement used to till the soil."
+    },
+    "yoke": {
+      "type": "vocabulary",
+      "description": "A wooden beam used to harness oxen or cattle for ploughing fields."
+    },
+    "Gauri": {
+      "type": "character",
+      "description": "A woman whose actions and reputation are discussed by other characters, particularly regarding a letter and her decency."
+    },
+    "Nohri": {
+      "type": "character",
+      "description": "Bhola's new wife, a young widow who asserts herself in her new household."
+    },
+    "Kayasth": {
+      "type": "proper_noun",
+      "description": "A caste known for their roles as scribes and administrators."
+    },
+    "Ekadashi": {
+      "type": "proper_noun",
+      "description": "A Hindu fasting day observed twice a month, considered spiritually significant and observed for religious merit."
+    },
+    "Satyanarayan Katha": {
+      "type": "proper_noun",
+      "description": "A Hindu religious story and ritual recitation dedicated to Lord Satyanarayan, performed for prosperity and well-being."
+    },
+    "kotwal": {
+      "type": "proper_noun",
+      "description": "A local police chief or head constable in Indian villages and towns."
+    },
+    "curd": {
+      "type": "vocabulary",
+      "description": "A dairy product similar to yogurt, commonly consumed in Indian households."
+    },
+    "barns": {
+      "type": "vocabulary",
+      "description": "Storage buildings for grain or fodder, important in agricultural communities."
+    },
+    "bran": {
+      "type": "vocabulary",
+      "description": "The outer layer of grain, often used as cattle feed."
+    },
+    "clerk sahib": {
+      "type": "proper_noun",
+      "description": "A respectful term for a colonial-era office worker or minor official, indicating status."
+    },
+    "hookahs": {
+      "type": "vocabulary",
+      "description": "Traditional water pipes used for smoking tobacco."
+    },
+    "bailiffs": {
+      "type": "vocabulary",
+      "description": "Officials who enforce court orders, such as property seizures or auctions."
+    },
+    "string cot": {
+      "type": "vocabulary",
+      "description": "A traditional woven bed made of a wooden frame and interlaced ropes or strings."
+    },
+    "auction": {
+      "type": "vocabulary",
+      "description": "A public sale in which goods or property are sold to the highest bidder."
+    },
+    "Chabili": {
+      "type": "character",
+      "description": "A woman present during the lamp-lighting scene, often depicted as lively and spirited."
+    },
+    "Rangili": {
+      "type": "character",
+      "description": "Another woman present with Chabili and Nohri, her name suggests a cheerful or colorful personality."
+    },
+    "Rawat": {
+      "type": "character",
+      "description": "A man mentioned by Nohri, known for his quarrelsome nature."
+    },
+    "Lallu": {
+      "type": "character",
+      "description": "The young child of Gobar and Jhuniya, whose health and well-being are a constant focus of the family's emotional life."
+    },
+    "Chuhiya": {
+      "type": "character",
+      "description": "A stout, kind neighbor woman in the city who helps Jhuniya during childbirth."
+    },
+    "Kacchi Sarai": {
+      "type": "proper_noun",
+      "description": "A locality in the city where the midwife (dai) lives."
+    },
+    "Maulvi Sahib": {
+      "type": "proper_noun",
+      "description": "A respectful title for a Muslim religious scholar or cleric."
+    },
+    "Nakhass": {
+      "type": "proper_noun",
+      "description": "A neighborhood or locality in the city where the pensioner doctor lives."
+    },
+    "Vijli": {
+      "type": "proper_noun",
+      "description": "A nationalist daily newspaper edited by Pandit Omkarnath."
+    },
+    "brazier": {
+      "type": "vocabulary",
+      "description": "A metal container for burning coal or wood, used for warmth."
+    },
+    "kachalu": {
+      "type": "vocabulary",
+      "description": "A dish made from boiled potatoes, often spiced."
+    },
+    "khichdi": {
+      "type": "vocabulary",
+      "description": "A simple dish of rice and lentils cooked together."
+    },
+    "fulkas": {
+      "type": "vocabulary",
+      "description": "Unleavened Indian flatbreads, also known as rotis or chapatis."
+    },
+    "dai": {
+      "type": "vocabulary",
+      "description": "A traditional midwife."
+    },
+    "ubtan": {
+      "type": "vocabulary",
+      "description": "A herbal paste used for massaging and bathing, especially for infants and brides."
+    },
+    "harira": {
+      "type": "vocabulary",
+      "description": "A nutritious, sweet preparation often given to women after childbirth."
+    },
+    "jamadar": {
+      "type": "vocabulary",
+      "description": "A term for a supervisor or foreman, often used for police or labor overseers."
+    },
+    "sindoor": {
+      "type": "vocabulary",
+      "description": "A red powder worn by married Hindu women in the parting of their hair."
+    },
+    "Ram-Asrey": {
+      "type": "character",
+      "description": "A minor character, he is the person who waits with the car during the fire at the mill."
+    },
+    "Switzerland": {
+      "type": "proper_noun",
+      "description": "A European country referenced as another destination for Mirza Khurshid's travels."
+    },
+    "Sheshnag": {
+      "type": "proper_noun",
+      "description": "A mythological multi-headed serpent from Hindu tradition, used here as a metaphor for the raging fire."
+    },
+    "Harijan": {
+      "type": "proper_noun",
+      "description": "A term popularized by Gandhi for Dalits or members of the lowest caste, literally meaning 'children of God.'"
+    },
+    "Indra": {
+      "type": "proper_noun",
+      "description": "The king of gods in Hindu mythology, associated with heaven and rain."
+    },
+    "yajman": {
+      "type": "proper_noun",
+      "description": "A patron or sponsor of a religious ritual, often a Brahmin's client."
+    },
+    "outcast": {
+      "type": "vocabulary",
+      "description": "A person who has been ostracized from their caste or community."
+    },
+    "atonement": {
+      "type": "vocabulary",
+      "description": "The act of making amends for a wrongdoing, often with religious or social implications."
+    },
+    "Dhanya": {
+      "type": "character",
+      "description": "A village woman who discusses the challenges of cleanliness and discipline with Malti."
+    },
+    "Semi": {
+      "type": "proper_noun",
+      "description": "A village visited by Malti and Mehta during their travels."
+    },
+    "Miss Sahiba": {
+      "type": "proper_noun",
+      "description": "A respectful form of address for an unmarried woman, used by villagers for Malti."
+    },
+    "dung-cakes": {
+      "type": "vocabulary",
+      "description": "Patties made from cow dung, used as fuel in rural India."
+    },
+    "toddy": {
+      "type": "vocabulary",
+      "description": "An alcoholic beverage made from the sap of palm trees, commonly consumed in rural India."
+    },
+    "cot": {
+      "type": "vocabulary",
+      "description": "A simple, woven bed commonly used in Indian villages."
+    },
+    "bullocks": {
+      "type": "vocabulary",
+      "description": "Male cattle used as draft animals for plowing and transport in rural India."
+    },
+    "buffalo": {
+      "type": "vocabulary",
+      "description": "A domesticated animal valued for its milk and as a draft animal in Indian agriculture."
+    },
+    "jhau": {
+      "type": "vocabulary",
+      "description": "A type of shrub or small tree (Tamarix species) whose branches are used for making rafts or fuel."
+    },
+    "lathe": {
+      "type": "vocabulary",
+      "description": "A machine tool used for shaping wood, metal, or other materials; here, metaphorically used for shaping character."
+    },
+    "swayamvar": {
+      "type": "vocabulary",
+      "description": "An ancient Indian practice where a woman chooses her husband from among a group of suitors, often through a test or competition."
+    },
+    "Rudrapal Singh": {
+      "type": "character",
+      "description": "Raisahab's eldest son, an idealistic young man who defies his father's wishes and eventually leaves for England."
+    },
+    "Vacha": {
+      "type": "character",
+      "description": "Mentioned as someone who has learned a lesson, likely a minor character or servant."
+    },
+    "Meenakshi": {
+      "type": "character",
+      "description": "Raisahab's daughter who asserts her independence after becoming estranged from her cruel husband, Digvijay Singh."
+    },
+    "Miss Sultan": {
+      "type": "character",
+      "description": "A barrister who returned from England, she provides legal advice to women and assists Meenakshi."
+    },
+    "Nainital": {
+      "type": "proper_noun",
+      "description": "A hill station in northern India, popular among the elite for its cool climate and scenic beauty."
+    },
+    "Mussoorie": {
+      "type": "proper_noun",
+      "description": "A well-known hill station in the Indian Himalayas, frequented by colonial and Indian aristocracy."
+    },
+    "Shimla": {
+      "type": "proper_noun",
+      "description": "A famous hill station and former summer capital of British India."
+    },
+    "Home Member": {
+      "type": "proper_noun",
+      "description": "A high-ranking position in the provincial government under British rule, responsible for internal administration."
+    },
+    "His Majesty": {
+      "type": "proper_noun",
+      "description": "Refers to the British monarch, indicating the colonial context."
+    },
+    "His Excellency the Governor": {
+      "type": "proper_noun",
+      "description": "The British-appointed head of a province in colonial India."
+    },
+    "DSP": {
+      "type": "proper_noun",
+      "description": "Deputy Superintendent of Police, a senior police officer in the colonial administrative structure."
+    },
+    "Dufferin Hospital": {
+      "type": "proper_noun",
+      "description": "A hospital likely named after Lady Dufferin, associated with women's healthcare in colonial India."
+    },
+    "Ladies’ Club": {
+      "type": "proper_noun",
+      "description": "A social club for elite women, often a site for progressive discussions and social reform."
+    },
+    "maintenance": {
+      "type": "vocabulary",
+      "description": "A legal term for financial support granted to a wife after separation or divorce."
+    },
+    "penance": {
+      "type": "vocabulary",
+      "description": "A self-imposed punishment or act of atonement, often for moral or spiritual reasons."
+    },
+    "District Magistrate": {
+      "type": "proper_noun",
+      "description": "A high-ranking colonial administrative officer in charge of a district."
+    },
+    "Basra": {
+      "type": "proper_noun",
+      "description": "A village mentioned as the location where Mirza was cared for during illness."
+    },
+    "Hindustan": {
+      "type": "proper_noun",
+      "description": "A historical term for India."
+    },
+    "Europe": {
+      "type": "proper_noun",
+      "description": "A reference to the Western continent, often contrasted with Indian society."
+    },
+    "Hindustani": {
+      "type": "proper_noun",
+      "description": "Relating to India or its people, especially the Hindi-Urdu speaking regions."
+    },
+    "tahzeeb": {
+      "type": "proper_noun",
+      "description": "A term meaning culture or refined manners, especially in the context of Indian-Muslim society."
+    },
+    "moong dal": {
+      "type": "vocabulary",
+      "description": "A type of lentil (mung bean) commonly used in Indian cuisine."
+    },
+    "chapatis": {
+      "type": "vocabulary",
+      "description": "Unleavened flatbreads made from whole wheat flour, a staple in Indian diets."
+    },
+    "levies": {
+      "type": "vocabulary",
+      "description": "Taxes or fees imposed, often by landlords or colonial authorities."
+    },
+    "evictions": {
+      "type": "vocabulary",
+      "description": "The act of expelling tenants from land or property, common in feudal and colonial contexts."
+    },
+    "tributes": {
+      "type": "vocabulary",
+      "description": "Payments or gifts given, often by tenants to landlords, as a sign of submission or obligation."
+    },
+    "mosques": {
+      "type": "vocabulary",
+      "description": "Places of worship for Muslims."
+    },
+    "austerity": {
+      "type": "vocabulary",
+      "description": "Severe self-discipline and avoidance of all forms of indulgence, often for religious or ethical reasons."
+    },
+    "boon": {
+      "type": "vocabulary",
+      "description": "A favor or blessing, often sought from a deity or as a reward for penance."
+    },
+    "Velari": {
+      "type": "proper_noun",
+      "description": "A village mentioned by Malti, identified by its proximity to a river."
+    },
+    "Almighty": {
+      "type": "proper_noun",
+      "description": "A reference to God, used in a spiritual or religious context."
+    },
+    "furlong": {
+      "type": "vocabulary",
+      "description": "A unit of distance, about 220 yards or 1/8 of a mile."
+    },
+    "parched rice": {
+      "type": "vocabulary",
+      "description": "Rice that has been roasted or puffed, eaten as a light snack."
+    },
+    "scholarship": {
+      "type": "vocabulary",
+      "description": "Financial aid given to students to support their education."
+    },
+    "orchard": {
+      "type": "vocabulary",
+      "description": "A piece of land planted with fruit trees."
+    },
+    "hoe": {
+      "type": "vocabulary",
+      "description": "A tool used in agriculture for digging or weeding."
+    },
+    "smallpox": {
+      "type": "vocabulary",
+      "description": "A contagious and sometimes fatal disease, characterized by fever and pustules."
+    },
+    "vaccinated": {
+      "type": "vocabulary",
+      "description": "Given a vaccine to protect against disease, in this case, smallpox."
+    },
+    "charms": {
+      "type": "vocabulary",
+      "description": "Objects or rituals believed to have magical powers, often used for protection or healing."
+    },
+    "exorcisms": {
+      "type": "vocabulary",
+      "description": "Rituals intended to expel evil spirits or cure supernatural afflictions."
+    },
+    "paradise": {
+      "type": "vocabulary",
+      "description": "Used metaphorically here to describe a place of comfort and luxury compared to the characters' usual living conditions."
+    },
+    "Ramu": {
+      "type": "character",
+      "description": "Siliya's lively and mischievous young son, whose death brings sorrow to the village."
+    },
+    "Bhunesri": {
+      "type": "character",
+      "description": "The Patwari’s son who is mentioned as having pursued Siliya."
+    },
+    "Patwari": {
+      "type": "proper_noun",
+      "description": "A village-level government official responsible for land records and revenue collection."
+    },
+    "purity and pollution": {
+      "type": "vocabulary",
+      "description": "Hindu concepts relating to ritual cleanliness and social hierarchy."
+    },
+    "cattle-shed": {
+      "type": "vocabulary",
+      "description": "A shelter for keeping cattle, often attached to rural homes."
+    },
+    "havan": {
+      "type": "vocabulary",
+      "description": "A Hindu ritual involving a sacred fire and offerings."
+    },
+    "mantras": {
+      "type": "vocabulary",
+      "description": "Sacred chants or incantations in Hindu rituals."
+    },
+    "shlokas": {
+      "type": "vocabulary",
+      "description": "Verses or hymns, typically from Hindu scriptures."
+    },
+    "chala": {
+      "type": "vocabulary",
+      "description": "A Hindi word meaning companion, associate, or sometimes a child in a playful sense."
+    },
+    "kaki": {
+      "type": "vocabulary",
+      "description": "A Hindi term for aunt, often used affectionately for an older woman."
+    },
+    "Jagannathpuri": {
+      "type": "proper_noun",
+      "description": "A holy pilgrimage city in Odisha, India, known for its temple and religious inclusivity."
+    },
+    "Sabari": {
+      "type": "proper_noun",
+      "description": "A character from the Ramayana who offered Lord Rama berries, symbolizing devotion and humility."
+    },
+    "Bali": {
+      "type": "proper_noun",
+      "description": "A character from the Ramayana, slain by Lord Rama under controversial circumstances."
+    },
+    "qanungo": {
+      "type": "proper_noun",
+      "description": "A revenue officer responsible for supervising patwaris and land records."
+    },
+    "tehsildar": {
+      "type": "proper_noun",
+      "description": "A revenue administrative officer in charge of a tehsil (sub-district)."
+    },
+    "deputy": {
+      "type": "proper_noun",
+      "description": "Short for Deputy Collector, an administrative officer in the colonial revenue system."
+    },
+    "collector": {
+      "type": "proper_noun",
+      "description": "The chief administrative and revenue officer of a district under British rule."
+    },
+    "commissioner": {
+      "type": "proper_noun",
+      "description": "A senior administrative official overseeing several districts or a division."
+    },
+    "padre": {
+      "type": "proper_noun",
+      "description": "A Christian priest, here referring to missionaries or church officials in colonial India."
+    },
+    "devars": {
+      "type": "vocabulary",
+      "description": "Younger brothers-in-law in a joint family, especially from the husband's side."
+    },
+    "chuni": {
+      "type": "vocabulary",
+      "description": "A type of cattle feed made from husked or broken grains."
+    },
+    "threshing floors": {
+      "type": "vocabulary",
+      "description": "Open areas where harvested grain is separated from chaff."
+    },
+    "threshing yard": {
+      "type": "vocabulary",
+      "description": "A place where grain is threshed and processed after harvest."
+    },
+    "Ramsevak": {
+      "type": "character",
+      "description": "Rupa's husband, a middle-aged man who provides her with material comfort; also described as a prosperous farmer and moneylender."
+    },
+    "godan": {
+      "type": "proper_noun",
+      "description": "The ritual donation of a cow, considered a meritorious act in Hindu tradition."
+    },
+    "rosary": {
+      "type": "vocabulary",
+      "description": "A string of prayer beads used for counting recitations of prayers or mantras."
+    },
+    "madhouse": {
+      "type": "vocabulary",
+      "description": "An archaic term for a mental asylum or institution."
+    },
+    "twine": {
+      "type": "vocabulary",
+      "description": "Strong thread or string made by twisting together two or more strands, used for various household tasks."
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Gobar",
+      "Sona",
+      "Rupa",
+      "Bhola",
+      "Rai Sahib",
+      "zamindar",
+      "Jeth",
+      "Mahato",
+      "Calcutta",
+      "Lakshmi",
+      "cow-dung cakes",
+      "staff",
+      "mirzai",
+      "turban",
+      "ploughs",
+      "seers",
+      "maund",
+      "chillum",
+      "mahajan",
+      "hemp",
+      "Dhania",
+      "Hori",
+      "Sah",
+      "bigha"
+    ],
+    "ch-1-2": [
+      "Hori",
+      "Bhola",
+      "Rai Sahib",
+      "Raja Janak",
+      "Shri Janaki",
+      "Kamadhenu",
+      "Semri",
+      "Belari",
+      "Awadh",
+      "Satyagraha",
+      "Ram",
+      "Vrindavan",
+      "Radha",
+      "Ramayana",
+      "Persian",
+      "Dhanush-Yajna",
+      "Jeth",
+      "Dussehra",
+      "Yama",
+      "Jyotipacharya",
+      "Durga",
+      "bhai",
+      "kothi",
+      "steward",
+      "tenant",
+      "estate",
+      "decree",
+      "arrears",
+      "courtesan",
+      "vaids",
+      "Ashadh",
+      "Raja Sahib",
+      "maund"
+    ],
+    "ch-1-3": [
+      "Hori",
+      "Gobar",
+      "Sona",
+      "Rupa",
+      "Dhania",
+      "Bhola",
+      "Govind",
+      "Dhure",
+      "Mangru",
+      "Kamta",
+      "Jangi",
+      "Sobha",
+      "Heera",
+      "dharma",
+      "zamindar",
+      "Lakshmi",
+      "Ram",
+      "Rai Sahib",
+      "Mahabharata",
+      "Ramayana",
+      "Bombay",
+      "Dussehra",
+      "begar",
+      "betel",
+      "lota",
+      "arhar dal",
+      "bhusa",
+      "maund",
+      "chillum",
+      "angoccha",
+      "gagra",
+      "puja",
+      "mahajan",
+      "baniya",
+      "seers",
+      "dholak",
+      "manjira",
+      "charas",
+      "ganja",
+      "kisan",
+      "mazdoor",
+      "Ahir",
+      "Datadin",
+      "Dulari",
+      "Jhuniya",
+      "Raja Janak",
+      "Sah",
+      "pie",
+      "roti"
+    ],
+    "ch-1-4": [
+      "Bhola",
+      "Hori",
+      "Sobha",
+      "Heera",
+      "Rupa",
+      "Sona",
+      "Damri Bansor",
+      "Chaudhary",
+      "Punia",
+      "Dulari",
+      "Jiawan Mahto",
+      "Lala Pateshwari",
+      "Jhinguri Singh",
+      "Mahto",
+      "biradari",
+      "Pardes",
+      "Rai Sahib",
+      "mandaps",
+      "Mahato",
+      "Dussehra",
+      "Maharaj",
+      "mahajan",
+      "kos",
+      "hookah",
+      "fodder",
+      "seers",
+      "palanquin",
+      "winnowing fan",
+      "betel leaf",
+      "bamboo cot",
+      "neem tree",
+      "manger",
+      "chillum",
+      "Chaudhary",
+      "mirzai",
+      "oil-cake",
+      "shagun",
+      "gauna",
+      "desi",
+      "pout",
+      "dacoits",
+      "mandap",
+      "Amma",
+      "Kaki",
+      "Dada",
+      "Kaka",
+      "pie",
+      "threshing floor",
+      "mandaps",
+      "chilam",
+      "Mahato",
+      "Mahato caste",
+      "Datadin",
+      "Dhania",
+      "Gobar",
+      "Jhuniya",
+      "Mangru",
+      "Patwari",
+      "roti"
+    ],
+    "ch-1-5": [
+      "Punia",
+      "Hori",
+      "Gobar",
+      "Datadin",
+      "Jhinguri Singh",
+      "Panditain",
+      "Gapdu",
+      "Ahir",
+      "Chamarin",
+      "Thakur",
+      "mahajan",
+      "Pandit",
+      "Panditain",
+      "Kashmiri",
+      "Babu",
+      "panchayat",
+      "biradari",
+      "bhabhiya",
+      "dharma",
+      "tilak",
+      "seer",
+      "halwa",
+      "puri",
+      "roti",
+      "dal",
+      "ghee",
+      "mahajan",
+      "Brahmin",
+      "Jhuniya",
+      "Matadeen",
+      "Heera"
+    ],
+    "ch-1-6": [
+      "Rai Sahib",
+      "Shyamvihari Tankha",
+      "Hori",
+      "Khan",
+      "Jeth",
+      "Semri",
+      "Singh Dwar",
+      "Dhanush-Yajna",
+      "zamindar",
+      "mahajan",
+      "Council",
+      "taluqdar",
+      "Vaishnav",
+      "Lucknow",
+      "Oxford",
+      "Swaraj",
+      "Swadhin Bharat",
+      "Hunter",
+      "Rural Reform Association",
+      "Brahmin",
+      "Shudra",
+      "Hindu",
+      "Muslim",
+      "varnas",
+      "Samarkand",
+      "Bukhara",
+      "Kabul",
+      "British Government",
+      "Khudatala",
+      "qazi",
+      "kurta",
+      "khaddar",
+      "achkan",
+      "pajama",
+      "shagun",
+      "mirzai",
+      "kathni",
+      "nazrana",
+      "begar",
+      "cowrie",
+      "kofta",
+      "kebab",
+      "pulao",
+      "memsahib",
+      "shehnai",
+      "bhang",
+      "qasida",
+      "zari",
+      "salwar",
+      "kulah",
+      "kothi",
+      "Pathan",
+      "Huzoor",
+      "Devi-ji",
+      "Khanna",
+      "Malti",
+      "Mirza",
+      "Omkarnath",
+      "Raja Janak",
+      "Vijli",
+      "mahatma",
+      "Dr. Mehta",
+      "Govindi"
+    ],
+    "ch-1-7": [
+      "Hori",
+      "Khan",
+      "Malti",
+      "Khanna",
+      "Vedili",
+      "Sanda",
+      "Pashto",
+      "Dhanur-Yajna",
+      "zamindar",
+      "Semri",
+      "banyan tree",
+      "pipal tree",
+      "bazaar",
+      "khadi",
+      "Satyagraha",
+      "mahatma",
+      "Himalayas",
+      "Swamiji",
+      "Congress",
+      "Communal Party",
+      "Hindu Sabha",
+      "Quran",
+      "namaz",
+      "Shariat",
+      "Lakshmi",
+      "Buddha",
+      "Shankar",
+      "mushaira",
+      "vaidya",
+      "sari",
+      "achkan",
+      "Bai",
+      "Bai-ji",
+      "memsahib",
+      "kurta",
+      "shawl",
+      "maize",
+      "maund",
+      "kos",
+      "halal",
+      "janab",
+      "makoy",
+      "kanghi",
+      "sahdeiya",
+      "kukraunde",
+      "datura",
+      "madar",
+      "karje",
+      "ghumchi",
+      "seers",
+      "laddus",
+      "mantra",
+      "samskara",
+      "Babu",
+      "Editor",
+      "Mirza",
+      "Rai Sahib",
+      "Sah",
+      "roti",
+      "Dr. Mehta",
+      "Govindi",
+      "Shyamvihari Tankha"
+    ],
+    "ch-1-8": [
+      "Malti",
+      "Khanna",
+      "Hori",
+      "Jhinguri Singh",
+      "Dhania",
+      "Sona",
+      "Rupa",
+      "Matru",
+      "Gobar",
+      "Heera",
+      "Jhuniya",
+      "Bhola",
+      "Bhagga",
+      "Sundariya",
+      "Ashadh",
+      "kharif",
+      "Rai Sahib",
+      "Thakur",
+      "Lakshmi",
+      "Lala",
+      "country liquor",
+      "seers",
+      "mahajans",
+      "rupee",
+      "bhabhi",
+      "chilam",
+      "vaids",
+      "hakims",
+      "dharma",
+      "pilgrimage",
+      "fasts",
+      "feasts",
+      "stamped contract",
+      "bangles",
+      "gilt",
+      "calved",
+      "trough",
+      "rites",
+      "feast",
+      "Babu",
+      "Datadin",
+      "Dulari",
+      "Mangru",
+      "Mirza",
+      "Pandit",
+      "Sobha",
+      "pie",
+      "Dr. Mehta",
+      "Shyamvihari Tankha"
+    ],
+    "ch-1-9": [
+      "Hori",
+      "Gobar",
+      "Heera",
+      "Rupa",
+      "Sona",
+      "Nand",
+      "Jhinguri Singh",
+      "Nokhe Ram",
+      "Mangru",
+      "Lakshmi",
+      "Vaikuntha",
+      "Ganga",
+      "chabutra",
+      "mahajan",
+      "chaupal",
+      "Gandasingh",
+      "kala pani",
+      "Pandit",
+      "khurpi",
+      "lota",
+      "rupees",
+      "dharma",
+      "huzoor",
+      "charpoy",
+      "dacoity",
+      "self-rule",
+      "usury",
+      "bribes",
+      "Datadin",
+      "Dhania",
+      "Patwari",
+      "Punia",
+      "Sah",
+      "Sobha",
+      "Lala Pateshwari",
+      "Daroga Gandasingh"
+    ],
+    "ch-1-10": [
+      "Heera",
+      "Hori",
+      "Gobar",
+      "Bhola",
+      "Sobha",
+      "Sona",
+      "Rupa",
+      "Sawan",
+      "kharif",
+      "Bhawani",
+      "Magh",
+      "Kabuli",
+      "Ahir",
+      "mirzai",
+      "mahajan",
+      "bund",
+      "sari",
+      "Dhania",
+      "Jhuniya",
+      "Pandit",
+      "Patwari",
+      "Punia",
+      "Jhinguri Singh"
+    ],
+    "ch-1-11": [
+      "Hori",
+      "Gobar",
+      "Bhola",
+      "Matadeen",
+      "Lala Pateshwari",
+      "Daroga Gandasingh",
+      "Jhinguri Singh",
+      "Satyanarayan",
+      "Chamarin",
+      "Narad",
+      "zamindar",
+      "sah",
+      "Holi",
+      "panchayat",
+      "chaupal",
+      "Ram",
+      "Rai Sahib",
+      "biradari",
+      "Amma",
+      "Dada",
+      "begar",
+      "tilak",
+      "Bhagavat",
+      "sohar",
+      "maund",
+      "paddy",
+      "juar",
+      "mehfil",
+      "harjai",
+      "Brahmin",
+      "Datadin",
+      "Dhania",
+      "Jhuniya",
+      "Nokhe Ram",
+      "Thakur",
+      "paisa"
+    ],
+    "ch-1-12": [
+      "Hori",
+      "Gobar",
+      "Amma",
+      "Dada",
+      "Kodai",
+      "panchayat",
+      "biradari",
+      "Mahabharata",
+      "Lucknow",
+      "Bhagwan",
+      "panchayat",
+      "biradari",
+      "roti",
+      "gamchha",
+      "dhoti",
+      "seers",
+      "verandah",
+      "milch cow",
+      "Datadin",
+      "Dhania",
+      "Jhuniya",
+      "bigha",
+      "pie",
+      "Lala Pateshwari"
+    ],
+    "ch-1-13": [
+      "Kodai",
+      "Gobar",
+      "Khanna",
+      "Rai Sahib",
+      "Rani Sahiba Chanda",
+      "purwa",
+      "Aminabad",
+      "kabaddi",
+      "gilli-danda",
+      "Ram",
+      "Jackson Road",
+      "sugar mill",
+      "taluqdars",
+      "shamiana",
+      "Rani Sahiba",
+      "Omkarnath",
+      "Einstein",
+      "Supreme Soul",
+      "chilam",
+      "lota",
+      "sattu",
+      "vaidya",
+      "tahmads",
+      "huzoor",
+      "bazaar",
+      "shamiana",
+      "cheen",
+      "Malti",
+      "Mirza",
+      "Sah",
+      "bigha",
+      "dhoti",
+      "lakh",
+      "pie",
+      "Dr. Mehta",
+      "Govindi",
+      "Shyamvihari Tankha"
+    ],
+    "ch-1-14": [
+      "Hori",
+      "Sona",
+      "Rupa",
+      "Punia",
+      "Mahto",
+      "Jhuniya",
+      "Gobar",
+      "Bhola",
+      "Vaishakh",
+      "Jeth",
+      "Sah",
+      "biradari",
+      "Mahto",
+      "Sawan",
+      "Bhadon",
+      "Magh",
+      "Ganga",
+      "mahajans",
+      "arhar dal",
+      "maund",
+      "seer",
+      "kodon",
+      "bahu",
+      "bhabhi",
+      "jethani",
+      "Amma",
+      "dacoities",
+      "Datadin",
+      "Dhania",
+      "Dulari",
+      "Mangru",
+      "Sobha",
+      "Lala Pateshwari",
+      "Heera"
+    ],
+    "ch-1-15": [
+      "Bhola",
+      "Vanshi",
+      "Hori",
+      "Malti",
+      "Mr. Kaul",
+      "Saroj",
+      "Varda",
+      "Dr. Mehta",
+      "Lady Hookoo",
+      "Mirza",
+      "Khanna",
+      "Editor",
+      "Rai Sahib",
+      "Khursheed",
+      "Omkarnath",
+      "Khushend",
+      "Mahto",
+      "zamindars",
+      "England",
+      "Women’s League",
+      "France",
+      "Germany",
+      "Italy",
+      "Mansarovar",
+      "India",
+      "West",
+      "dharma",
+      "mahajan",
+      "bungalow",
+      "rupees",
+      "bazaar",
+      "sari",
+      "jumpers",
+      "Deviji",
+      "subhanallah",
+      "Datadin",
+      "Govindi",
+      "Jhuniya",
+      "Patwari",
+      "Sah",
+      "Vijli",
+      "lakh",
+      "Lala Pateshwari"
+    ],
+    "ch-1-16": [
+      "Khanna",
+      "Malti",
+      "Govindi",
+      "Nokhe Ram",
+      "Bagula Bhagat",
+      "Hori",
+      "Jhinguri Singh",
+      "Gomti",
+      "Malti’s bungalow",
+      "Hori’s village",
+      "panchayat",
+      "zamindar",
+      "estate",
+      "government",
+      "Ganga",
+      "Brahmin",
+      "homa",
+      "thanedar",
+      "mahajan",
+      "Rai Sahib",
+      "Congress",
+      "taluqdar",
+      "Swadeshi",
+      "Harishchandra",
+      "Diwali",
+      "Dussehra",
+      "Holi",
+      "Banarasi sari",
+      "khadi",
+      "baniyas",
+      "huzoor",
+      "peons",
+      "forced labor",
+      "millstone",
+      "mortgaged",
+      "widow",
+      "noose",
+      "ledger",
+      "decrees",
+      "gramophone",
+      "donor",
+      "subscriptions",
+      "ascetic",
+      "Datadin",
+      "Omkarnath",
+      "Pandit",
+      "Patwari",
+      "Thakur",
+      "Vijli",
+      "shawl",
+      "Lala Pateshwari",
+      "Dr. Mehta"
+    ],
+    "ch-1-17": [
+      "Rai Sahib",
+      "Hori",
+      "Rupa",
+      "Bhola",
+      "Lala Pateshwari",
+      "Jhinguri Singh",
+      "Matadeen",
+      "Gobar",
+      "Sona",
+      "Dulari",
+      "Mangru",
+      "Girdhar",
+      "panchayat",
+      "Kartik",
+      "Brahmin",
+      "Shudra",
+      "chamar",
+      "Chamarin",
+      "dharma",
+      "Paush",
+      "Mahto",
+      "zamindar",
+      "mahajan",
+      "Sarkar Bahadur",
+      "munim",
+      "maund",
+      "bajra",
+      "roti",
+      "bathua",
+      "charas",
+      "ganja",
+      "chivda",
+      "chilam",
+      "panches",
+      "overseer",
+      "Datadin",
+      "Dhania",
+      "Jhuniya",
+      "Khanna",
+      "Nokhe Ram",
+      "Punia",
+      "Silia",
+      "Sobha",
+      "pie"
+    ],
+    "ch-1-18": [
+      "Matadeen",
+      "Amma",
+      "Hori",
+      "Dhyan Singh",
+      "Khanna",
+      "Govindi",
+      "Malti",
+      "Bhishma",
+      "Dr. Nag",
+      "Raja Sahib",
+      "Mr. Todd",
+      "Neelkanth Shastri",
+      "Thakur",
+      "Baghdad",
+      "Aden",
+      "Singapore",
+      "Burma",
+      "aarti",
+      "katha",
+      "Thakurji",
+      "Lala",
+      "Kama Shastra",
+      "apsara",
+      "tonga",
+      "Hazratganj",
+      "Gandhi Ashram",
+      "French Academy",
+      "Deviji",
+      "seer",
+      "paisa",
+      "taluqdar",
+      "constellations",
+      "horoscopes",
+      "bondswoman",
+      "club",
+      "courtesans",
+      "register",
+      "Brahmin",
+      "Jhuniya",
+      "Rai Sahib",
+      "Sobha",
+      "Lala Pateshwari",
+      "Dr. Mehta"
+    ],
+    "ch-1-19": [
+      "Govindi",
+      "Malti",
+      "Gobar",
+      "Aladdin",
+      "Dada",
+      "Amma",
+      "Sona",
+      "Rupa",
+      "Bhure",
+      "City Congress Committee",
+      "Gaya",
+      "Holi",
+      "Japanese",
+      "Allah",
+      "namaz",
+      "shivalings",
+      "peepal",
+      "roza",
+      "panchayats",
+      "tonga",
+      "dhoti",
+      "bidi",
+      "sari",
+      "vermilion",
+      "bazaar",
+      "ekka",
+      "Ekadashi",
+      "Jhuniya",
+      "Khanna",
+      "Mirza",
+      "Sah",
+      "pie",
+      "Dr. Mehta"
+    ],
+    "ch-1-20": [
+      "Gobar",
+      "Hori",
+      "Sona",
+      "Rupa",
+      "Matadeen",
+      "Lala Pateshwari",
+      "Jhinguri Singh",
+      "Bhawaniya",
+      "Bhola",
+      "Jangi",
+      "Kamta",
+      "Dulari",
+      "ekka",
+      "Phagun",
+      "koel",
+      "Maharaj",
+      "Lala",
+      "Lalaji",
+      "Mirzapur",
+      "Damra Island",
+      "Lucknow",
+      "panchayat",
+      "maund",
+      "bhang",
+      "Thakur",
+      "biradari",
+      "Mahavir Swami",
+      "halwais",
+      "rupee",
+      "bhaiya",
+      "sari",
+      "dhoti",
+      "ghee",
+      "roti",
+      "gulab jamun",
+      "scarf",
+      "Amma",
+      "Dada",
+      "paisa",
+      "oxen",
+      "biradari",
+      "bhang",
+      "Holi",
+      "frock",
+      "lota",
+      "seers",
+      "maund",
+      "vaid",
+      "sherbet",
+      "panchayat",
+      "goad",
+      "Babu",
+      "Bhure",
+      "Datadin",
+      "Dhania",
+      "Jhuniya",
+      "Pandit",
+      "Patwari",
+      "Ram",
+      "Sah",
+      "Lallu"
+    ],
+    "ch-1-21": [
+      "Hori",
+      "Gobar",
+      "Jhinguri Singh",
+      "Girdhar",
+      "Sona",
+      "Rupa",
+      "Rai Sahib",
+      "Dulari",
+      "Semari",
+      "Holi",
+      "Phag",
+      "Ashadh",
+      "Alha",
+      "Sawan",
+      "Bhadon",
+      "Kajliyan",
+      "Ramayana",
+      "chaupal",
+      "Biswan",
+      "vakil",
+      "thanedar",
+      "Thakurain",
+      "Thakur",
+      "karinda",
+      "Rani",
+      "begum",
+      "chamar",
+      "bailiff",
+      "Persian wheel",
+      "Kaliyug",
+      "Baniya",
+      "Brahmin",
+      "Lucknow",
+      "bhang",
+      "seer",
+      "khamira",
+      "kewra",
+      "zamindar",
+      "peon",
+      "deed",
+      "dharma",
+      "Dhanna Seth",
+      "Maharaj",
+      "sav",
+      "Amma",
+      "Dada",
+      "chilam",
+      "verandah",
+      "sari",
+      "Jeth",
+      "court",
+      "Datadin",
+      "Dhania",
+      "Ganga",
+      "Jhuniya",
+      "Nokhe Ram",
+      "Pandit",
+      "Patwari",
+      "Punia",
+      "Sah",
+      "Sobha",
+      "manjira",
+      "pie",
+      "Lala Pateshwari"
+    ],
+    "ch-1-22": [
+      "Hori",
+      "Gobar",
+      "Rai Sahib",
+      "Kunwar Digvijay Singh",
+      "Raja Suryapratap Singh",
+      "Malti",
+      "Govindi",
+      "Agnihotri",
+      "Lady Wilson",
+      "Lady Willman",
+      "chunari",
+      "chamar",
+      "Nand",
+      "Eden",
+      "Rajput",
+      "Heera Mahal",
+      "Lucknow",
+      "France",
+      "Kashmir",
+      "Vaitarni",
+      "pathshalas",
+      "dharamshalas",
+      "Governor Sahib",
+      "chunari",
+      "taluqdar",
+      "lakh",
+      "paisa",
+      "achkan",
+      "pajama",
+      "peon",
+      "mill owners",
+      "committee",
+      "council",
+      "estate",
+      "foundation stone",
+      "debauchery",
+      "national movement",
+      "slavish imitation",
+      "Dhania",
+      "Jhuniya",
+      "Khanna",
+      "Sah",
+      "Dr. Mehta",
+      "Shyamvihari Tankha",
+      "Lallu"
+    ],
+    "ch-1-23": [
+      "Malti",
+      "Khanna",
+      "Gobar",
+      "Hori",
+      "Rupa",
+      "Jhinguri Singh",
+      "Matadeen",
+      "Silia",
+      "Dhanna Chamar",
+      "Harkhu",
+      "Kaliya",
+      "gymnasium",
+      "Rai Sahib",
+      "Mahabharata",
+      "Puranas",
+      "Hindu",
+      "Brahmin",
+      "Sukul",
+      "zamindari",
+      "dakshina",
+      "Holi",
+      "Pandit",
+      "chamar",
+      "chamarin",
+      "Ganga",
+      "Mahto",
+      "checkbook",
+      "rupees",
+      "kohl",
+      "threshing floor",
+      "oxen",
+      "hookah",
+      "koel",
+      "mahua",
+      "mynas",
+      "neem",
+      "siris",
+      "karonda",
+      "bhabhi",
+      "devar",
+      "baniyas",
+      "khatkin",
+      "jalebis",
+      "mahajan",
+      "zamindar",
+      "nai-bari",
+      "purohits",
+      "bards",
+      "karinda",
+      "dakshina",
+      "chaff",
+      "seer",
+      "sari",
+      "turban",
+      "staff",
+      "roti",
+      "Datadin",
+      "Dhania",
+      "Dulari",
+      "Jhuniya",
+      "Nokhe Ram",
+      "Sah",
+      "bigha",
+      "dhoti",
+      "paisa",
+      "Satyanarayan Katha",
+      "Lala Pateshwari",
+      "Lallu"
+    ],
+    "ch-1-24": [
+      "Hori",
+      "Dhania",
+      "Sona",
+      "Gobar",
+      "Jhinguri Singh",
+      "Vindeshwari",
+      "Dulari",
+      "Huseni",
+      "Pandit",
+      "Gauri Mahto",
+      "Mathura",
+      "Rupa",
+      "Kausalya",
+      "Chaiti",
+      "biradari",
+      "bigha",
+      "Dussehra",
+      "bhang",
+      "Bhabhi",
+      "Thakurji",
+      "Kashi",
+      "Ganga",
+      "Sonari",
+      "Chamarin",
+      "Brahmin",
+      "Mahto",
+      "mahajan",
+      "dowry",
+      "kusha-daughter",
+      "baraatis",
+      "dharma",
+      "plough",
+      "manger",
+      "yoke",
+      "Datadin",
+      "Jhuniya",
+      "Mangru",
+      "Nokhe Ram",
+      "Silia",
+      "Sobha",
+      "Lala Pateshwari",
+      "Matadeen",
+      "Heera"
+    ],
+    "ch-1-25": [
+      "Gauri",
+      "Hori",
+      "Bhola",
+      "Jangi",
+      "Kamta",
+      "Nohri",
+      "Ganga",
+      "Lucknow",
+      "Brahmin",
+      "Kayasth",
+      "Ekadashi",
+      "panchayat",
+      "Satyanarayan Katha",
+      "zamindar",
+      "kotwal",
+      "paisa",
+      "betel leaf",
+      "chilam",
+      "seer",
+      "curd",
+      "barns",
+      "dowry",
+      "bran",
+      "Narad",
+      "Rani",
+      "Dhania",
+      "Jhuniya",
+      "Lala Pateshwari",
+      "Nokhe Ram",
+      "Sah",
+      "Sobha"
+    ],
+    "ch-1-26": [
+      "Bhola",
+      "Nohri",
+      "Kamta",
+      "Lala Pateshwari",
+      "Hori",
+      "Dulari",
+      "Gauri Mahto",
+      "Sona",
+      "clerk sahib",
+      "mahajan",
+      "Jeth",
+      "Lakshmi",
+      "Thakurain",
+      "rupees",
+      "paisa",
+      "betel",
+      "hookahs",
+      "panchayat",
+      "bailiffs",
+      "string cot",
+      "decree",
+      "auction",
+      "Dhania",
+      "Mangru",
+      "Patwari",
+      "pie"
+    ],
+    "ch-1-27": [
+      "Chabili",
+      "Rangili",
+      "Nohri",
+      "Mahto",
+      "Hori",
+      "Rawat",
+      "Bhola",
+      "Gobar",
+      "Jhuniya",
+      "Rupa",
+      "Sona",
+      "Lallu",
+      "Chuhiya",
+      "Lucknow",
+      "Kacchi Sarai",
+      "Maulvi Sahib",
+      "Nakhass",
+      "Vijli",
+      "brazier",
+      "chaupal",
+      "purdah",
+      "rupees",
+      "tonga",
+      "kachalu",
+      "khichdi",
+      "fulkas",
+      "dai",
+      "ubtan",
+      "harira",
+      "halwa",
+      "jamadar",
+      "sari",
+      "sindoor",
+      "Dhania",
+      "Khanna",
+      "Mirza",
+      "Omkarnath",
+      "Punia"
+    ],
+    "ch-1-28": [
+      "Gobar",
+      "Omkarnath",
+      "Dr. Mehta",
+      "Malti",
+      "Govindi",
+      "Ram-Asrey",
+      "sugar mill",
+      "France",
+      "Switzerland",
+      "Devi-ji",
+      "Sheshnag",
+      "vaidya",
+      "rupees",
+      "bungalow",
+      "Maharaj",
+      "Himalayas",
+      "Khanna",
+      "Mirza",
+      "Rai Sahib",
+      "lakh",
+      "pie"
+    ],
+    "ch-1-29": [
+      "Govindi",
+      "Khanna",
+      "Nohri",
+      "Hori",
+      "Bhola",
+      "Dulari",
+      "Sona",
+      "Mathura",
+      "Lakshmi",
+      "Ram",
+      "Harijan",
+      "Brahmin",
+      "Chamarin",
+      "Kartik",
+      "Indra",
+      "yajman",
+      "biradari",
+      "mahajan",
+      "lota",
+      "hookah",
+      "dharma",
+      "panchayat",
+      "tilak",
+      "outcast",
+      "atonement",
+      "Dhania",
+      "Jhuniya",
+      "Jhinguri Singh",
+      "Matadeen",
+      "Radha",
+      "Silia",
+      "paisa",
+      "pie",
+      "Lala Pateshwari",
+      "Dr. Mehta"
+    ],
+    "ch-1-30": [
+      "Sona",
+      "Mathura",
+      "Matadeen",
+      "Govindi",
+      "Malti",
+      "Hori",
+      "Dhanya",
+      "Semi",
+      "Belari",
+      "Rai Sahib",
+      "Dhanush-Yajna",
+      "Miss Sahiba",
+      "memsahib",
+      "mahajans",
+      "zari",
+      "dung-cakes",
+      "toddy",
+      "Brahmin",
+      "chilam",
+      "cot",
+      "ghee",
+      "bullocks",
+      "buffalo",
+      "fodder",
+      "jhau",
+      "lathe",
+      "swayamvar",
+      "Dhania",
+      "Dulari",
+      "Khanna",
+      "Mirza",
+      "Silia",
+      "Lala Pateshwari",
+      "Dr. Mehta"
+    ],
+    "ch-1-31": [
+      "Malti",
+      "Rudrapal Singh",
+      "Saroj",
+      "Raja Suryapratap Singh",
+      "Khanna",
+      "Govindi",
+      "Vacha",
+      "Meenakshi",
+      "Miss Sultan",
+      "Lucknow",
+      "Nainital",
+      "Mussoorie",
+      "Shimla",
+      "Home Member",
+      "taluqdars",
+      "His Majesty",
+      "His Excellency the Governor",
+      "DSP",
+      "Raja Sahib",
+      "Dufferin Hospital",
+      "panchayats",
+      "Ladies’ Club",
+      "Miss Sultan",
+      "England",
+      "bungalow",
+      "taluqdar",
+      "Huzoor",
+      "purdah",
+      "maintenance",
+      "decree",
+      "penance",
+      "Rai Sahib",
+      "Dr. Mehta",
+      "Shyamvihari Tankha",
+      "Kunwar Digvijay Singh"
+    ],
+    "ch-1-32": [
+      "Meenakshi",
+      "Khanna",
+      "District Magistrate",
+      "zamindari",
+      "Basra",
+      "bazaar",
+      "Hindustan",
+      "Europe",
+      "Hindustani",
+      "tahzeeb",
+      "Khanna",
+      "moong dal",
+      "chapatis",
+      "levies",
+      "evictions",
+      "tributes",
+      "dharamshalas",
+      "mosques",
+      "tahzeeb",
+      "austerity",
+      "boon",
+      "Malti",
+      "Mirza",
+      "Rai Sahib",
+      "Thakur",
+      "Dr. Mehta",
+      "Kunwar Digvijay Singh"
+    ],
+    "ch-1-33": [
+      "Malti",
+      "Mirza",
+      "Saroj",
+      "Gobar",
+      "Maharaj",
+      "Rai Sahib",
+      "Hori",
+      "Khanna",
+      "England",
+      "Magh",
+      "Velari",
+      "Almighty",
+      "paisa",
+      "ghee",
+      "memsahib",
+      "bungalow",
+      "furlong",
+      "parched rice",
+      "widow",
+      "scholarship",
+      "decree",
+      "bailiff",
+      "orchard",
+      "hoe",
+      "smallpox",
+      "vaccinated",
+      "charms",
+      "exorcisms",
+      "paradise",
+      "Jhuniya",
+      "Dr. Mehta",
+      "Lallu",
+      "Rudrapal Singh"
+    ],
+    "ch-1-34": [
+      "Malti",
+      "Ramu",
+      "Rupa",
+      "Datadin",
+      "Hori",
+      "Bhunesri",
+      "Brahmin",
+      "Kashi",
+      "Patwari",
+      "roti",
+      "cowrie",
+      "ubtan",
+      "kohl",
+      "purity and pollution",
+      "cattle-shed",
+      "havan",
+      "mantras",
+      "shlokas",
+      "cot",
+      "bazaar",
+      "verandah",
+      "chala",
+      "bhang",
+      "kaki",
+      "Dhania",
+      "Ganga",
+      "Matadeen",
+      "Pandit",
+      "Silia"
+    ],
+    "ch-1-35": [
+      "Matadeen",
+      "Bhunesri",
+      "Hori",
+      "Rupa",
+      "Gobar",
+      "Malti",
+      "Sona",
+      "Bhola",
+      "Brahmin",
+      "chamar",
+      "Jagannathpuri",
+      "Sabari",
+      "Bali",
+      "Mahto",
+      "zamindar",
+      "kisan",
+      "nazrana",
+      "thanedar",
+      "qanungo",
+      "tehsildar",
+      "deputy",
+      "collector",
+      "commissioner",
+      "padre",
+      "Jeth",
+      "mahajans",
+      "dharma",
+      "Maharaj",
+      "devars",
+      "ghee",
+      "chuni",
+      "threshing floors",
+      "threshing yard",
+      "dowry",
+      "penance",
+      "Datadin",
+      "Dhania",
+      "Dulari",
+      "Jhuniya",
+      "Nokhe Ram",
+      "Patwari",
+      "Rai Sahib",
+      "Ram",
+      "Ramsevak",
+      "Silia"
+    ],
+    "ch-1-36": [
+      "Hori",
+      "Rupa",
+      "Ramsevak",
+      "Malti",
+      "Bhola",
+      "Govind",
+      "Ahir",
+      "Heera",
+      "Ram",
+      "Lucknow",
+      "Jeth",
+      "Magh",
+      "Maharaj",
+      "Kamadhenu",
+      "Bhabhi",
+      "godan",
+      "rosary",
+      "angoccha",
+      "chivda",
+      "lota",
+      "madhouse",
+      "twine",
+      "dharma",
+      "godan",
+      "Datadin",
+      "Dhania",
+      "Gobar",
+      "Jhuniya",
+      "Sobha",
+      "maund",
+      "pie",
+      "Daroga Gandasingh",
+      "Lallu"
+    ]
+  }
+}

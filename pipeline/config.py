@@ -1333,3 +1333,88 @@ _register(BookConfig(
         "NO text, NO border, NO frame."
     ),
 ))
+
+# ── Godan ────────────────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="godan",
+    title="Godan",
+    transliterated_title="Godan",
+    original_title="गोदान",
+    author_id="premchand",
+    author_name="Munshi Premchand",
+    author_years="1880–1936",
+    original_language="Hindi",
+    original_script="Devanagari",
+    original_year=1936,
+    genre=["Literary Fiction", "Social Realism"],
+    accent_color="#B8860B",
+    style_context=(
+        "Premchand's magnum opus about Hori, a poor peasant farmer in colonial-era "
+        "rural India, whose lifelong dream is to own a cow (godan means 'gift of a cow'). "
+        "The novel paints a vivid portrait of village life — caste oppression, debt bondage, "
+        "zamindari exploitation, and the dignity of the rural poor. Parallel urban plotlines "
+        "follow educated characters like Mehta and Malti. Considered the greatest Hindi novel "
+        "ever written, it is a searing critique of colonial and feudal India."
+    ),
+    translation_prompt=(
+        "You are translating a Hindi novel 'Godan' (1936) by Munshi Premchand. "
+        "This is the greatest Hindi novel — about Hori, a poor peasant farmer in colonial "
+        "India whose lifelong dream is to own a cow. The novel depicts village life, caste "
+        "oppression, zamindari exploitation, debt bondage, and the dignity of the rural poor. "
+        "Preserve Hindi/Urdu proper nouns, honorifics, caste terms, and cultural references "
+        "(zamindar, mahajan, panchayat, godan, etc.). Translate into fluent, literary English. "
+        "Maintain Premchand's empathetic, realistic tone. "
+        "Output ONLY the English translation, no commentary."
+    ),
+    chapter_context=(
+        "Novel about peasant life in colonial India. "
+        "Has numbered chapters (likely 30+). No parts."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate an English translation of "Godan" (1936), '
+        "a Hindi novel by Munshi Premchand about peasant life in colonial India.\n\n"
+        "For the given chapter text, extract three categories of terms:\n\n"
+        '1. **Characters** — Recurring named people. 1-2 sentence description.\n'
+        '2. **Proper nouns** — Place names, caste terms, colonial-era references, cultural terms. Brief explanation.\n'
+        '3. **Vocabulary** — Hindi/Urdu words, agricultural terms, feudal terms, archaic terms. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Hindi, Urdu, or Indian-origin terms specific to rural and colonial Indian culture.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of Indian miniature painting meets Bengal School — "
+        "warm earth tones, ochre, terracotta, golden wheat fields. "
+        "The composition should feel like a classic Indian realist painting — "
+        "detailed, emotive, atmospheric. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Rural North India setting — thatched huts, bullock carts, fields, village lanes.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Hori: poor peasant farmer, weathered, dignified, middle-aged\n"
+        "- Dhania: Hori's wife, strong-willed village woman\n"
+        "- Gobar: Hori's son, young, restless, ambitious\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of Indian miniature painting meets Bengal School — "
+        "warm earth tones, ochre, terracotta, golden wheat. "
+        "Atmospheric character portrait in classical Indian realist style. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Rural North India setting.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in Indian miniature painting meets Bengal School style — "
+        "warm earth tones, ochre, terracotta, golden wheat palette. "
+        "A North Indian village at dawn — "
+        "thatched mud huts, a well, bullock carts, golden wheat fields stretching to the horizon, "
+        "a neem tree in the foreground, distant smoke from cooking fires, "
+        "a cow grazing peacefully in the morning light. "
+        "NO people, NO figures. Pure atmospheric scenery. "
+        "Bright, vivid, saturated colors. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+))
