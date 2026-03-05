@@ -1084,6 +1084,92 @@ _register(BookConfig(
 ))
 
 
+# ── Byomkesh ──────────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="byomkesh",
+    title="The Complete Adventures of Byomkesh Bakshi",
+    transliterated_title="Byomkesh Samagra",
+    original_title="ব্যোমকেশ সমগ্র",
+    author_id="sharadindu-bandyopadhyay",
+    author_name="Sharadindu Bandyopadhyay",
+    author_years="1899–1970",
+    original_language="Bengali",
+    original_script="Bengali",
+    original_year=1932,
+    genre=["Detective Fiction", "Mystery"],
+    accent_color="#4A3728",
+    style_context=(
+        "Bengali detective fiction anthology — 32 stories featuring truth-seeker "
+        "Byomkesh Bakshi and his friend/narrator Ajit Bandyopadhyay. Stories span "
+        "1932–1970, set in colonial and post-independence Calcutta. "
+        "Known for atmospheric mysteries, psychological insight, and vivid depictions "
+        "of Bengali society across four decades."
+    ),
+    type="anthology",
+    translation_prompt=(
+        "You are translating a Bengali detective fiction anthology — 'Byomkesh Bakshi' stories "
+        "by Sharadindu Bandyopadhyay. These are classic Bengali mystery stories set in colonial "
+        "and post-independence Calcutta. The narrator is Ajit Bandyopadhyay, Byomkesh's friend. "
+        "Translate the given Bengali OCR text into fluent, literary English. "
+        "Preserve Bengali proper nouns, honorifics, and cultural terms. "
+        "Maintain the narrator's first-person voice and period-appropriate tone. "
+        "Output ONLY the English translation, no commentary."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate an English translation of '
+        '"The Complete Adventures of Byomkesh Bakshi", '
+        "a Bengali detective fiction anthology by Sharadindu Bandyopadhyay featuring "
+        "truth-seeker Byomkesh Bakshi and his friend/narrator Ajit.\n\n"
+        "For the given chapter text, extract three categories of terms:\n\n"
+        '1. **Characters** — Recurring named people. 1-2 sentence description.\n'
+        '2. **Proper nouns** — Place names, cultural terms, historical references. Brief explanation.\n'
+        '3. **Vocabulary** — Culturally-specific words/phrases. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Bengali, Hindi, or Indian-origin terms.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of 1930s–1940s Bengali book illustration — "
+        "noir-influenced, moody ink washes with deep sepia, charcoal grey, "
+        "muted amber, and flashes of deep crimson. "
+        "The composition should feel like a classic pulp detective cover — "
+        "atmospheric, shadowy, with dramatic chiaroscuro lighting. "
+        "No text, no lettering, no words anywhere in the image. "
+        "1930s–1960s Calcutta setting with narrow lanes, boarding houses, "
+        "dim kerosene lamps, and colonial architecture.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Byomkesh Bakshi: young Bengali man in his 20s-30s, lean, sharp intelligent eyes, "
+        "wears white dhoti-kurta, sometimes a shawl, cigarette smoker, contemplative demeanor\n"
+        "- Ajit Bandyopadhyay: Byomkesh's close friend and narrator, similar age, "
+        "loyal, observant, also wears dhoti-kurta, slightly stockier build\n"
+        "- Satyabati: Byomkesh's wife (from later stories), beautiful Bengali woman, "
+        "intelligent, wears traditional sari, strong-willed\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of 1930s–1940s Bengali book illustration — "
+        "noir-influenced, moody ink washes with deep sepia, charcoal grey, and muted amber. "
+        "Atmospheric, shadowy character portrait with dramatic chiaroscuro. "
+        "No text, no lettering, no words anywhere in the image. "
+        "1930s–1960s Calcutta setting.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in the style of 1930s–1940s Bengali book illustration — "
+        "noir-influenced, moody ink washes with deep sepia, charcoal grey, muted amber, deep crimson. "
+        "A moody 1940s Calcutta rooftop at dusk — terracotta terraces, clotheslines, "
+        "chimney smoke, a kerosene lamp on a weathered table beside an open notebook, "
+        "narrow lanes below with dim streetlights, colonial-era buildings silhouetted against darkening sky. "
+        "NO people, NO figures. Pure atmospheric scenery. "
+        "Bright, vivid, saturated colors. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+))
+
 # ── Feluda ─────────────────────────────────────────────────────────────
 
 _register(BookConfig(

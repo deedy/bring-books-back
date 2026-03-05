@@ -22,7 +22,11 @@ export default function AnnotatedTerm({ term, annotation, darkMode }: AnnotatedT
   const spanRef = useRef<HTMLSpanElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
 
-  const colors = typeColors[annotation.type];
+  const typeMap: Record<string, keyof typeof typeColors> = {
+    character: "character", proper_noun: "proper_noun", vocabulary: "vocabulary",
+    place: "proper_noun", term: "vocabulary",
+  };
+  const colors = typeColors[typeMap[annotation.type] ?? "vocabulary"];
   const underlineColor = darkMode ? colors.dark : colors.light;
   const underlineStyle = annotation.type === "vocabulary" ? "dashed" : "dotted";
 
