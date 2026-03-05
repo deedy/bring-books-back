@@ -2,15 +2,18 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist, a detective known for his keen observation and logical reasoning; often referred to as a 'truth-seeker' or 'satyanweshi.'"
+      "description": "The protagonist, a detective known for his keen observation and logical reasoning; often referred to as a 'truth-seeker' or 'satyanweshi.'",
+      "image": "/data/images/characters/byomkesh-the-primal-enemy/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "The narrator and close companion of Byomkesh, who chronicles their adventures and assists in investigations."
+      "description": "The narrator and close companion of Byomkesh, who chronicles their adventures and assists in investigations.",
+      "image": "/data/images/characters/byomkesh-the-primal-enemy/ajit.webp"
     },
     "Batul": {
       "type": "character",
-      "description": "A recurring character who acts as a local informant and sometimes tries to sell firearms to Byomkesh and Ajit."
+      "description": "A recurring character who acts as a local informant and sometimes tries to sell firearms to Byomkesh and Ajit.",
+      "image": "/data/images/characters/byomkesh-the-primal-enemy/batul.webp"
     },
     "Miss Nanibala Ray": {
       "type": "character",
@@ -22,7 +25,8 @@
     },
     "Anadi Halder": {
       "type": "character",
-      "description": "A wealthy, brusque businessman who adopts Prabhat as his foster son and is later found murdered."
+      "description": "A wealthy, brusque businessman who adopts Prabhat as his foster son and is later found murdered.",
+      "image": "/data/images/characters/byomkesh-the-primal-enemy/anadi-halder.webp"
     },
     "Nimai": {
       "type": "character",
@@ -38,7 +42,8 @@
     },
     "Kesto Babu": {
       "type": "character",
-      "description": "A long-time friend of Anadi Halder, dependent on him for sustenance and alcohol; also called Keshto Das."
+      "description": "A long-time friend of Anadi Halder, dependent on him for sustenance and alcohol; also called Keshto Das.",
+      "image": "/data/images/characters/byomkesh-the-primal-enemy/kesto-babu.webp"
     },
     "Shasthibabu": {
       "type": "character",
@@ -46,7 +51,8 @@
     },
     "Gurudutt Singh": {
       "type": "character",
-      "description": "The Sikh contractor overseeing the construction of Anadi Halder’s new house near Bowbazar."
+      "description": "The Sikh contractor overseeing the construction of Anadi Halder’s new house near Bowbazar.",
+      "image": "/data/images/characters/byomkesh-the-primal-enemy/gurudutt-singh.webp"
     },
     "BYOMKESH SAMAGRA": {
       "type": "place",
@@ -192,51 +198,247 @@
   "chapters": {
     "ch-1": [
       "Byomkesh",
-      "Ajit",
       "Batul",
       "Miss Nanibala Ray",
       "Prabhat Ray",
       "Anadi Halder",
       "Nimai",
       "Nitai",
-      "Napa",
-      "Kesto Babu",
-      "Shasthibabu",
-      "Gurudutt Singh",
-      "BYOMKESH SAMAGRA",
       "Patna Medical College Hospital",
       "Patna",
       "Calcutta",
       "Bowbazar",
       "College Street",
-      "Jiban-Prabhat",
-      "Gol Dighi",
       "East Bengal",
       "Second World War",
+      "Kali Puja",
+      "babu",
+      "para",
+      "zenana",
+      "Gurkha"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Ajit",
+      "Anadi Halder",
+      "Nimai",
+      "Nitai",
+      "Patna",
+      "Calcutta",
+      "Bowbazar",
+      "Jiban-Prabhat",
+      "Gol Dighi",
       "Madhu Baral Lane",
       "Job Charnock",
+      "babu",
+      "sari",
+      "Gurkha",
+      "panjabi",
+      "lungi",
+      "fatua"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Ajit",
+      "Batul",
+      "Anadi Halder",
+      "Nimai",
+      "Nitai",
+      "Napa",
+      "Gurudutt Singh",
+      "Patna",
+      "Calcutta",
+      "Bowbazar",
+      "East Bengal",
       "Sealdah",
-      "Kali Puja",
-      "Mother Kali",
-      "Shakti",
-      "Sharadiya",
       "Punjabi",
       "Sardarji",
       "bhetki",
       "babu",
-      "para",
-      "sari",
-      "zenana",
-      "Gurkha",
-      "kukri",
-      "panjabi",
-      "lungi",
-      "fatua",
+      "hookah",
+      "paisa"
+    ],
+    "ch-4": [
+      "Byomkesh",
+      "Ajit",
+      "Batul",
+      "Anadi Halder",
+      "Napa",
+      "Kesto Babu",
+      "Shasthibabu",
+      "Bowbazar",
+      "Kali Puja",
+      "Mother Kali",
+      "Shakti",
+      "bhetki",
+      "babu",
       "adda",
       "hookah",
-      "paisa",
-      "Shreeharish Sharanam",
       "tubri"
+    ],
+    "ch-5": [
+      "Byomkesh",
+      "Ajit",
+      "Anadi Halder",
+      "Napa",
+      "Kesto Babu",
+      "Calcutta",
+      "Sealdah",
+      "babu",
+      "para"
+    ],
+    "ch-6": [
+      "Byomkesh",
+      "Ajit",
+      "Anadi Halder",
+      "Calcutta",
+      "East Bengal",
+      "babu",
+      "Gurkha"
+    ],
+    "ch-7": [
+      "Byomkesh",
+      "Ajit",
+      "Anadi Halder",
+      "Nimai",
+      "Nitai",
+      "Calcutta",
+      "babu"
+    ],
+    "ch-8": [
+      "Byomkesh",
+      "Ajit",
+      "Anadi Halder",
+      "Napa",
+      "Shasthibabu",
+      "Calcutta",
+      "Kali Puja",
+      "babu",
+      "para",
+      "fatua",
+      "tubri"
+    ],
+    "ch-9": [
+      "Byomkesh",
+      "Ajit",
+      "Batul",
+      "Anadi Halder",
+      "Nimai",
+      "Nitai",
+      "Napa",
+      "Gurudutt Singh",
+      "Kali Puja",
+      "babu",
+      "Gurkha"
+    ],
+    "ch-10": [
+      "Byomkesh",
+      "Ajit",
+      "Anadi Halder",
+      "Calcutta",
+      "Bowbazar",
+      "Gol Dighi",
+      "East Bengal",
+      "bhetki",
+      "babu"
+    ],
+    "ch-11": [
+      "Byomkesh",
+      "Ajit",
+      "Batul",
+      "Anadi Halder",
+      "Nimai",
+      "Nitai",
+      "Calcutta",
+      "East Bengal",
+      "Kali Puja",
+      "babu",
+      "para",
+      "Gurkha",
+      "hookah",
+      "paisa"
+    ],
+    "ch-12": [
+      "Byomkesh",
+      "Ajit",
+      "Batul",
+      "Anadi Halder",
+      "Nimai",
+      "Nitai",
+      "Patna",
+      "Calcutta",
+      "babu",
+      "para",
+      "panjabi"
+    ],
+    "ch-13": [
+      "Byomkesh",
+      "Ajit",
+      "Prabhat Ray",
+      "Anadi Halder",
+      "Nimai",
+      "Nitai",
+      "Patna",
+      "Calcutta",
+      "babu"
+    ],
+    "ch-14": [
+      "Byomkesh",
+      "Ajit",
+      "Anadi Halder",
+      "Nimai",
+      "Nitai",
+      "Napa",
+      "Kesto Babu",
+      "Patna",
+      "Calcutta",
+      "babu"
+    ],
+    "ch-15": [
+      "Byomkesh",
+      "Ajit",
+      "Anadi Halder",
+      "Shasthibabu",
+      "Bowbazar",
+      "Gol Dighi",
+      "babu",
+      "sari",
+      "hookah"
+    ],
+    "ch-16": [
+      "Byomkesh",
+      "Ajit",
+      "Batul",
+      "Anadi Halder",
+      "Nimai",
+      "Nitai",
+      "Patna",
+      "Calcutta",
+      "Bowbazar",
+      "babu",
+      "Gurkha"
+    ],
+    "ch-17": [
+      "Byomkesh",
+      "Ajit",
+      "Batul",
+      "Anadi Halder",
+      "Nimai",
+      "Nitai",
+      "Napa",
+      "Gurudutt Singh",
+      "Patna",
+      "Calcutta",
+      "Kali Puja",
+      "babu",
+      "Gurkha"
+    ],
+    "ch-18": [
+      "Byomkesh",
+      "Ajit",
+      "Anadi Halder",
+      "Patna",
+      "babu"
     ]
   }
 }

@@ -3,11 +3,11 @@
     {
       "id": "ch-1",
       "number": 1,
-      "title": "The Death of Amrito",
+      "title": "A Village Shrouded in Mystery",
       "part": null,
       "partName": null,
       "image": "/data/images/chapters/byomkesh-the-death-of-amrito/pNone_chapter_1.webp",
-      "wordCount": 18553,
+      "wordCount": 4749,
       "paragraphs": [
         "The village was named Baghmari. It was situated just by the railway line, but to reach the village one had to walk about a mile from the station. Between the two lay a dense forest. The villagers did not usually enter the forest when going to and from the station—they slipped under the barbed wire protecting the railway line and walked along the tracks instead.",
         "The station was named Santalgola. It was quite a large station, and a small town had sprung up around it. The area was rich in paddy. Both paddy and rice were exported from the region. There were a couple of rice mills too.",
@@ -175,7 +175,19 @@
         "‘You did not arrange for his marriage?’",
         "‘No. He was a bit soft in the head, so I didn’t.’",
         "‘Did he have a job?’",
-        "‘Now and then, but he couldn’t stick to it. I had got him a job with Bhagabati-babu, one of the biggest traders in Santalgola; he even worked there for some time. Then he worked for a month or so at the Marwari Badridas’ rice mill, but Badridas dismissed him as well. Of late he was frequenting Bishu Mallik’s rice mill, but he hadn’t got a job.’",
+        "‘Now and then, but he couldn’t stick to it. I had got him a job with Bhagabati-babu, one of the biggest traders in Santalgola; he even worked there for some time. Then he worked for a month or so at the Marwari Badridas’ rice mill, but Badridas dismissed him as well. Of late he was frequenting Bishu Mallik’s rice mill, but he hadn’t got a job.’"
+      ],
+      "summary": "Sadananda Sur leaves his village with luggage, encountering the headman who questions his departure."
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "title": "Murder, Hoofprints, and Suspects",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-death-of-amrito/pNone_chapter_2.webp",
+      "wordCount": 4377,
+      "paragraphs": [
         "Byomkesh munched on a savoury for a few minutes, then suddenly asked after a sip of tea, ‘Does anyone in the village own a horse?’",
         "Balaram-babu’s eyes began to protrude, while the young men exchanged glances. ‘No one in the village owns a horse,’ Balaram-babu answered eventually.",
         "‘Anyone have a gun-licence?’",
@@ -345,7 +357,19 @@
         "‘But of course,’ declared Sukhamay-babu, his eyes radiating sly amusement. ‘But Byomkesh-babu, when you draw the big fish into your net, my small fry will be trapped too. I won’t have to cast my own net. Hehehehe. Going already? Goodbye then.’",
         "We left. Byomkesh looked at me and chuckled. There was no end to the inspector’s cunning, and yet you couldn’t help being amused by his antics. ‘It’s not too hot yet, let’s visit the rice mills,’ suggested Byomkesh.",
         "It took five minutes to walk down the road to Bishwanath Rice Mill. It was quite a large mill, occupying some two acres of land, fenced in by barbed wire. The first thing to catch the eye on entering through the front gate, guarded by a Gurkha, was an enormous paved courtyard. Beyond the courtyard lay a reservoir, with an engine-room on the left and a shed with a corrugated roof for husking the paddy; on the right lay the warehouse, the office and a row of rooms in which the owner lived. The morning’s activities had begun, as a crackling sound from the paddy-husking shed indicated. The labourers were busy at work, sacks were being loaded on and unloaded from bullock carts and horse-drawn wagons.",
-        "The owner of the rice mill was named Bishwanath Mallik. Despite gathering his name from the police station and sending him an anonymous letter, we had not actually set eyes on him yet. Having sent a message through the Gurkha, we entered the mill. Arriving at the office, we discovered that Bishwanath-babu was not there; only a man with the appearance of a clerk was seated on the traditional mattress from which business was conducted, writing the books.",
+        "The owner of the rice mill was named Bishwanath Mallik. Despite gathering his name from the police station and sending him an anonymous letter, we had not actually set eyes on him yet. Having sent a message through the Gurkha, we entered the mill. Arriving at the office, we discovered that Bishwanath-babu was not there; only a man with the appearance of a clerk was seated on the traditional mattress from which business was conducted, writing the books."
+      ],
+      "summary": "Byomkesh questions villagers about horses and a man named Nadu, then encounters a well-dressed newcomer as news of Amra's death spreads."
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "title": "Blackmail, Black Horses, and Clues",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-death-of-amrito/pNone_chapter_3.webp",
+      "wordCount": 5399,
+      "paragraphs": [
         "‘What do you want?’",
         "‘Is Bishwanath-babu in? We’re here from the police.’",
         "Alarmed, he quickly said, ‘Please come in, please take a seat. Sir is supervising mill work, he’ll be here any moment. Should I send word to him?’",
@@ -565,7 +589,19 @@
         "‘At the police station. This is Inspector Sukhamay’s pistol.’",
         "‘Hmm. I see you don’t want to give explanations. Let’s go to bed then.’",
         "‘You go to bed, I have to be awake all night. What if the person with the hand grenade is afraid? It’s best to be careful.’",
-        "‘Then I shall stay up too.’",
+        "‘Then I shall stay up too.’"
+      ],
+      "summary": "Byomkesh questions the mill's accountant, Nilkantha, about Amrito and Sadananda, uncovering a potential threat involving a pistol."
+    },
+    {
+      "id": "ch-4",
+      "number": 4,
+      "title": "The Truth Beneath the Cotton Tree",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-death-of-amrito/pNone_chapter_4.webp",
+      "wordCount": 4028,
+      "paragraphs": [
         "We passed the night in wakefulness. Fortunately there were no disturbances. Over a cup of tea in the early hours of the morning, Byomkesh’s tongue finally loosened, and I learnt the identity of our unknown bird.",
         "We went out at seven in the morning. Byomkesh wrapped a shawl around himself to ensure that his pistol did not attract attention.",
         "There was no flurry of activity in the shops or on the road yet. Only a bullock cart or two, along with a horse-drawn carriage here and there, were moving about. We entered Badridas the Marwari’s mill.",
@@ -646,7 +682,8 @@
         "‘At the dinner table you recounted the story of Prankeshta Pal and his wife. It is not difficult to see where they went wrong. Prankeshta Pal was competent at his work, but his writ did not run large in his own home, where his wife ruled. Sadananda-babu had indeed left his trunk with his sister. It had not been broken open at first; but when his sister Sushila learnt of his death, she did not hesitate any more. She broke the lock open and seized whatever she found. Maybe she will eventually inherit her brother’s assets anyway, but you can never tell with the law. It is wise to grab what is at hand. This was sister Sushila’s psychology. But Prankeshta Pal is a man who knows right from wrong, which is why he became nervous in your presence …",
         "‘And then? There is nothing more to tell. Now it is time for Vedvyas to rest. Who knows how many more great men like Bishu Mallik are meditating in silence in the wonder that is India!’",
         "With a gigantic yawn, Byomkesh turned on his side. ‘It is almost dawn,’ he said. ‘Get some sleep while you can, we are returning to Calcutta tonight. Hehe.’"
-      ]
+      ],
+      "summary": "Byomkesh reveals the mystery of the \"black dog\" and horse, explaining how moonlight distorted colors. He then prepares to return to Calcutta."
     }
   ]
 }

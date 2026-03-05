@@ -2,23 +2,28 @@
   "glossary": {
     "Byomkesh Bakshi": {
       "type": "character",
-      "description": "The protagonist and sharp detective known as a 'truth-seeker' who investigates complex cases with keen observation."
+      "description": "The protagonist and sharp detective known as a 'truth-seeker' who investigates complex cases with keen observation.",
+      "image": "/data/images/characters/byomkesh-the-crooked-circle/byomkesh-bakshi.webp"
     },
     "Ajit Bandyopadhyay": {
       "type": "character",
-      "description": "The narrator and close companion of Byomkesh, who documents their adventures and assists in investigations."
+      "description": "The narrator and close companion of Byomkesh, who documents their adventures and assists in investigations.",
+      "image": "/data/images/characters/byomkesh-the-crooked-circle/ajit-bandyopadhyay.webp"
     },
     "Doctor Suresh Rakshit": {
       "type": "character",
-      "description": "A family physician and tenant of Bishu Pal, involved in the central plot and later revealed as an accomplice."
+      "description": "A family physician and tenant of Bishu Pal, involved in the central plot and later revealed as an accomplice.",
+      "image": "/data/images/characters/byomkesh-the-crooked-circle/doctor-suresh-rakshit.webp"
     },
     "Bishu Pal": {
       "type": "character",
-      "description": "A wealthy moneylender who fakes paralysis to plot a murder, central to the story's mystery."
+      "description": "A wealthy moneylender who fakes paralysis to plot a murder, central to the story's mystery.",
+      "image": "/data/images/characters/byomkesh-the-crooked-circle/bishu-pal.webp"
     },
     "Abhay Ghosal": {
       "type": "character",
-      "description": "A notorious debtor of Bishu Pal, accused of multiple crimes and ultimately the murder victim."
+      "description": "A notorious debtor of Bishu Pal, accused of multiple crimes and ultimately the murder victim.",
+      "image": "/data/images/characters/byomkesh-the-crooked-circle/abhay-ghosal.webp"
     },
     "Rama Pati babu": {
       "type": "character",
@@ -30,7 +35,8 @@
     },
     "Dr. Asim Sen": {
       "type": "character",
-      "description": "A senior doctor and acquaintance of Byomkesh, consulted for medical expertise regarding paralysis."
+      "description": "A senior doctor and acquaintance of Byomkesh, consulted for medical expertise regarding paralysis.",
+      "image": "/data/images/characters/byomkesh-the-crooked-circle/dr-asim-sen.webp"
     },
     "Dustu Chakra": {
       "type": "proper_noun",

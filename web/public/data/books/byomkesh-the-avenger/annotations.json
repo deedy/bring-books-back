@@ -2,15 +2,18 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist and truth-seeker, renowned for his detective skills and keen intellect."
+      "description": "The protagonist and truth-seeker, renowned for his detective skills and keen intellect.",
+      "image": "/data/images/characters/byomkesh-the-avenger/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, often accompanying him on investigations."
+      "description": "Byomkesh's close friend and chronicler, often accompanying him on investigations.",
+      "image": "/data/images/characters/byomkesh-the-avenger/ajit.webp"
     },
     "Birenbabu": {
       "type": "character",
-      "description": "A retired police officer from Calcutta, now settled in his ancestral home, who invites Byomkesh and Ajit to his daughter's wedding."
+      "description": "A retired police officer from Calcutta, now settled in his ancestral home, who invites Byomkesh and Ajit to his daughter's wedding.",
+      "image": "/data/images/characters/byomkesh-the-avenger/birenbabu.webp"
     },
     "Neelmani Majumdar": {
       "type": "character",
@@ -26,7 +29,8 @@
     },
     "Binodbabu": {
       "type": "character",
-      "description": "A jeweller in the town known as Binod Sarkar or Binodbabu, who had a past relationship with Hashi's mother."
+      "description": "A jeweller in the town known as Binod Sarkar or Binodbabu, who had a past relationship with Hashi's mother.",
+      "image": "/data/images/characters/byomkesh-the-avenger/binodbabu.webp"
     },
     "Kalikinkar Das": {
       "type": "character",
@@ -38,7 +42,8 @@
     },
     "Bilash Dutta": {
       "type": "character",
-      "description": "A building contractor, friend of Sureshwar, and one of the four card players."
+      "description": "A building contractor, friend of Sureshwar, and one of the four card players.",
+      "image": "/data/images/characters/byomkesh-the-avenger/bilash-dutta.webp"
     },
     "Dinamani Haldar": {
       "type": "character",
@@ -46,7 +51,8 @@
     },
     "Amala": {
       "type": "character",
-      "description": "Hashi's mother who had a troubled past and is revealed to be central to the family mystery; she had a past relationship with Binodbabu."
+      "description": "Hashi's mother who had a troubled past and is revealed to be central to the family mystery; she had a past relationship with Binodbabu.",
+      "image": "/data/images/characters/byomkesh-the-avenger/amala.webp"
     },
     "Major Burman": {
       "type": "character",

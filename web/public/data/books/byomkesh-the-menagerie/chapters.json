@@ -3,11 +3,11 @@
     {
       "id": "ch-1",
       "number": 1,
-      "title": "The Menagerie",
+      "title": "The Oppressive Heat",
       "part": null,
       "partName": null,
       "image": "/data/images/chapters/byomkesh-the-menagerie/pNone_chapter_1.webp",
-      "wordCount": 48819,
+      "wordCount": 5349,
       "paragraphs": [
         "Calcutta, soon after the Second World War. Summer was at its peak. Satyaboti’s brother, Sukumar, had taken her and the child away to Darjeeling. Byomkesh and I were on our own in the Harrison Road flat, left to roast in the heat.",
         "Work was a little slow for Byomkesh just then. This was nothing new; but this time, the length of the slack period and the sheer monotony of leisure were getting on our nerves. We were urgently in need of some diversion. To compound our misery, Satyaboti and the baby too were away. In sheer desperation, we had taken to playing chess.",
@@ -168,7 +168,19 @@
         "‘Absolutely. Any time you need me, just say the word.’",
         "‘Okay then, namaskar.’",
         "‘Namaskar, see you later.’",
-        "When I woke up the following morning, I heard Byomkesh talking to someone on the phone in the next room. From a few phrases here and there, I gathered that he was recounting Sunayana’s tale to Nishanathbabu.",
+        "When I woke up the following morning, I heard Byomkesh talking to someone on the phone in the next room. From a few phrases here and there, I gathered that he was recounting Sunayana’s tale to Nishanathbabu."
+      ],
+      "summary": "A visitor arrives, interrupting a chess game and offering a potential escape from the oppressive heat and boredom. Byomkesh later discusses a case with the visitor."
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "title": "A Trip to Golap Colony",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-menagerie/pNone_chapter_2.webp",
+      "wordCount": 5812,
+      "paragraphs": [
         "Nishanathbabu’s visit had stoked our stifled, sweltering lives with renewed vigour. So, when Byomkesh ended his conversation over the phone and came into my room with the words, ‘Ajit, wake up, we are going to Mohanpur,’ I wasted no time and leaped out of bed.",
         "‘When do we have to go?’",
         "‘Immediately. And Ramenbabu is invited too. I got the impression from Nishanathbabu’s remarks that he believes the ex-actress, Sunayana Devi, to be somewhere close at hand. If his suspicions are well-founded, then Ramenbabu has to go there and identify the culprit.’",
@@ -344,7 +356,19 @@
         "Nishanathbabu replied, ‘Mukul—Nepalbabu’s daughter.’",
         "Ramenbabu drew a deep breath and expelled it noisily. ‘I have seen her before,’ he said. ‘I have seen her in the film studios …’",
         "Nishanathbabu paused for a while, then asked gently, ‘But she isn’t Sunayana, is she?’",
-        "Slowly, Ramenbabu shook his head. ‘No … probably … not Sunayana.’",
+        "Slowly, Ramenbabu shook his head. ‘No … probably … not Sunayana.’"
+      ],
+      "summary": "Byomkesh, Ajit, and Ramenbabu travel to Golap Colony, where Ramenbabu believes he may have seen the missing actress."
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "title": "The Farm's Inhabitants",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-menagerie/pNone_chapter_3.webp",
+      "wordCount": 4970,
+      "paragraphs": [
         "As we proceeded on our tour, I asked Nishanathbabu, ‘Tell me, how long have Nepalbabu and his daughter been here?’",
         "‘Nearly two years, give or take a month.’",
         "I made a mental note of the fact that it was roughly around the time of Sunayana’s disappearance from Calcutta. I asked again, ‘You don’t recall the exact date?’",
@@ -521,7 +545,19 @@
         "‘That I have. But the problem is, they are all from the western part of the country and understand very little Bengali; with great difficulty have I taught Nazar Jaan the language.’",
         "‘Oh, that’s good. So, your first wife … did she pass away?’",
         "‘Oh, no, God forbid! She was sterile, although she was a good human being. But when I brought the new wife home, the master said I could not live on the farm with both wives. What could I do? I divorced the old one with a talaq.’",
-        "At this moment, the train rushed into the platform. We left the highly entertaining discussion with Mushkil Mian unfinished and boarded the train home.",
+        "At this moment, the train rushed into the platform. We left the highly entertaining discussion with Mushkil Mian unfinished and boarded the train home."
+      ],
+      "summary": "Nishanathbabu reveals Nepalbabu and Mukul arrived around Sunayana's disappearance, and Nepalbabu criticizes farm management."
+    },
+    {
+      "id": "ch-4",
+      "number": 4,
+      "title": "A Storm Brews",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-menagerie/pNone_chapter_4.webp",
+      "wordCount": 2493,
+      "paragraphs": [
         "Once on the train, Byomkesh clammed up and stared out of the window absent-mindedly. But Ramenbabu became increasingly cheerful as Calcutta drew closer. The two of us continued having a pleasant chat. Once Sunayana’s name came up, he said, ‘If I had to swear under oath in a court of law, I’d say Sunayana was not on the farm. Yet, I can’t get rid of a niggling doubt …’",
         "‘But how is it possible for Sunayana to live there in disguise? I asked. ‘Could someone go on wearing make-up all day long and day after day?’",
         "Ramenbabu said, ‘I’m not alleging either that she is living there in disguise. She is in her natural state over there. But it could well be possible, couldn’t it, that she had disguised her real self when she went into films and that was the guise in which I had seen her?’",
@@ -614,7 +650,19 @@
         "‘But I find it hard to believe. Did he die this morning?’",
         "‘Last night. Perhaps his blood pressure shot up in his sleep and he died of heart failure. Nobody was the wiser last night. This morning he was found dead in bed.’",
         "‘Who called you?’",
-        "‘Bijoy. He suspects it wasn’t a natural death. He seemed frightened. Come now; get out of bed quickly. It’ll take too long by train. We’re taking a taxi.’",
+        "‘Bijoy. He suspects it wasn’t a natural death. He seemed frightened. Come now; get out of bed quickly. It’ll take too long by train. We’re taking a taxi.’"
+      ],
+      "summary": "Byomkesh senses a brewing storm of trouble in Golap Colony, and a man is found dead, raising suspicions of foul play."
+    },
+    {
+      "id": "ch-5",
+      "number": 5,
+      "title": "A Death in the Colony",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-menagerie/pNone_chapter_5.webp",
+      "wordCount": 5675,
+      "paragraphs": [
         "When we drove up to the gates of Golap Colony, it was a little short of eight o’clock. But the heat was already growing in intensity. We paid off the taxi and entered the compound.",
         "The garden was deserted. None of the gardeners were at work. The huts too, looked abandoned. We looked around and couldn’t spot a soul anywhere.",
         "When we reached Nishanathbabu’s house, Bijoy stepped out. His hair was dishevelled and his feet were bare. He had a thin shawl draped around him and his eyes were bloodshot. In a hoarse voice, he said, ‘Please come in.’",
@@ -827,7 +875,19 @@
         "‘Nishanathbabu was probably awake. Death had occurred between ten and eleven in the night. Yesterday, Dr Pal had established that as the time of death and the post-mortem report seems to confirm it.’",
         "‘Then?’",
         "‘It is quite obvious that the culprit is a person with whom the deceased was familiar. I had surmised that the killer had first put him to sleep by giving him an injection and then strung him up. Nowadays, there are many drugs available by which a patient can be made to go under within minutes without leaving a trace in the blood—sodium pentathol, for example. But when no syringe marks were found on the body, it became clear that the oldest of methods had been resorted to.’",
-        "‘In other words …?’",
+        "‘In other words …?’"
+      ],
+      "summary": "Nishanathbabu is found dead, wearing socks, and Byomkesh begins his investigation into the unusual circumstances."
+    },
+    {
+      "id": "ch-6",
+      "number": 6,
+      "title": "Whispers of Suspicion",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-menagerie/pNone_chapter_6.webp",
+      "wordCount": 2834,
+      "paragraphs": [
         "‘In other words, a sandbag. A blow to the back of the neck would do the needful without leaving any marks on the body.’",
         "For a while, all of us were silent. Then Bijoy looked up with a haggard expression and asked, ‘But who …? Why …?’",
         "Byomkesh understood the import of his question and shook his head. ‘That is something I don’t know yet. Something else has been puzzling me. Mrs Sen must have been in the next room between ten and eleven that night—didn’t she hear a thing?’",
@@ -964,7 +1024,19 @@
         "‘Do you have any skeletons in your cupboard?’",
         "‘I wouldn’t know if I did.’",
         "Byomkesh gave a short laugh and declared, ‘I have no further questions for the time being. Bijoybabu, you may lead the lady out.’",
-        "Bijoy heaved an audible sigh of relief, took Damayanti Devi by the hand and drew her to her feet before leading her away into the next room. I noticed that her legs were trembling. Perhaps, in her present frame of mind, she should have been spared the torment of a searching interrogation.",
+        "Bijoy heaved an audible sigh of relief, took Damayanti Devi by the hand and drew her to her feet before leading her away into the next room. I noticed that her legs were trembling. Perhaps, in her present frame of mind, she should have been spared the torment of a searching interrogation."
+      ],
+      "summary": "Suspicion falls on Mrs. Sen as Byomkesh questions her about the night of the murder and the will's beneficiaries."
+    },
+    {
+      "id": "ch-7",
+      "number": 7,
+      "title": "The Interrogation Begins",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-menagerie/pNone_chapter_7.webp",
+      "wordCount": 4431,
+      "paragraphs": [
         "In the meantime, I could see the drawing room filling up from my vantage point near the door.",
         "The first person to enter was Panugopal. He made his way to a corner of the room as inconspicuously as possible and took a seat. He was followed by Nepalbabu and his daughter. They took seats towards the front of the room. The scorched side of Nepalbabu’s face was turned towards me, so I couldn’t decipher his expression, but Mukul had nervousness written all over hers. She looked around a little, then muttered something under her breath to her father.",
         "The last one to enter was Bonolokhhi. Her face looked crushed by fatigue, drained of all vitality. She was probably handling the kitchen chores all by herself. When her eyes fell on Bonolokhhi, Mukul frowned with deep distaste and looked away. Bonolokhhi faltered a little. Then slowly, she moved to the open window and stood before it, clutching the bars and staring out into the darkness.",
@@ -1143,7 +1215,19 @@
         "Byomkesh smiled despondently. ‘I wasn’t caressing her hand. I was merely expressing my sympathy. I notice that the tip of her left index finger was calloused.’",
         "‘What’s so strange about that? Those who do needlework often have calloused fingers.’",
         "Byomkesh took a final drag on his cigarette, a worried frown on his face, threw the butt away and went back to his supine position.",
-        "It was nearly eleven o’clock at night when we returned home. No further discussions were held. We had our dinner quickly and went to bed.",
+        "It was nearly eleven o’clock at night when we returned home. No further discussions were held. We had our dinner quickly and went to bed."
+      ],
+      "summary": "Byomkesh interrogates Bijoy, probing his past relationship with Mukul and a secret trip to Calcutta, hinting at hidden motives."
+    },
+    {
+      "id": "ch-8",
+      "number": 8,
+      "title": "A Grim Morning Call",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-menagerie/pNone_chapter_8.webp",
+      "wordCount": 5325,
+      "paragraphs": [
         "I was awakened by a clamouring noise in my head. Day hadn’t dawned yet. It felt like someone was banging on a metal disc right next to my ear. A few days ago, another such jangling summons had dragged us from sleep.",
         "I could not bring myself to linger in bed this morning. Striding swiftly into the next room, I found Byomkesh answering the telephone call. I sat down on the cot next to the instrument and listened to the audible end of the conversation.",
         "‘Hello, Bijoybabu … what?’ I heard Byomkesh say. ‘Dead! When? What happened? … Yes, I can come over, but what’s the use of going now? Why don’t you give Inspector Barat a call instead, and he’ll make the arrangements … Yes, absolutely! An autopsy is a must and the bottle of medication has to be sent in for examination … Right …’",
@@ -1327,7 +1411,19 @@
         "When we emerged from Pramod Barat’s room, it was nearly noon. In the next room, a few employees of the police station were working at their books. When Barat came out, the head clerk approached him and muttered something in an undertone.",
         "Barat turned to Byomkesh. ‘There’s a slight hitch. I shall have to go out right away in connection with another case. Why don’t you go ahead? I’ll see you at the farm this evening.’",
         "Byomkesh thought it over and suggested, ‘Why don’t we do something else, instead? Let’s all go to the farm together this evening. Why don’t you go ahead with your other assignment now and meet us at six o’clock in the waiting room of the railway station?’",
-        "‘That’s decided, then,’ Barat replied.",
+        "‘That’s decided, then,’ Barat replied."
+      ],
+      "summary": "Panugopal is found dead from poisoned medicine, prompting Byomkesh to investigate the murder."
+    },
+    {
+      "id": "ch-9",
+      "number": 9,
+      "title": "Unraveling the Past",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-menagerie/pNone_chapter_9.webp",
+      "wordCount": 5427,
+      "paragraphs": [
         "Brojodas protested, ‘But … I …’",
         "‘You may go back to the farm now,’ Byomkesh told him, ‘but there’s no need to tell the others about all that has transpired.’",
         "‘Right, sir.’",
@@ -1471,7 +1567,19 @@
         "If his behaviour were any indication, Byomkesh’s efforts and strategies seemed to be coming to a head. He was edgy and puffed continuously on his cigarette. I knew those signs only too well. The fish was about to take the bait.",
         "The day moved on through the tunnel of clouds into evening. At eight o’clock, Byomkesh called Pramod Barat and a long exchange ensued over the telephone. From the bits and pieces that drifted down to my ears, I gathered that plans were being made to keep a close vigil over Golap Colony, so that none of its residents could elude the law.",
         "Even as I slept through the night, I was conscious of Byomkesh being up, pacing back and forth across the house. It rained all night long.",
-        "In the morning, the clouds seemed to be drifting off. The rain was lighter, but hadn’t ceased entirely. Around eleven o’clock, it finally tapered off and a weak sun broke through.",
+        "In the morning, the clouds seemed to be drifting off. The rain was lighter, but hadn’t ceased entirely. Around eleven o’clock, it finally tapered off and a weak sun broke through."
+      ],
+      "summary": "Byomkesh realizes crucial details about Damayanti's identity and background, shifting the investigation's focus."
+    },
+    {
+      "id": "ch-10",
+      "number": 10,
+      "title": "The Final Confrontation",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-menagerie/pNone_chapter_10.webp",
+      "wordCount": 6503,
+      "paragraphs": [
         "I caught Byomkesh quietly sneaking out with his umbrella and exclaimed, ‘Hey! Where are you off to?’",
         "He didn’t reply. He returned home at a half past three. ‘Are you abstaining from meals today as well?’ I inquired.",
         "‘Certainly not,’ he replied, ‘I feasted on khichdi and the roe of the hilsa at Cafe Shahjahan.’",
@@ -1647,7 +1755,8 @@
         "I asked, ‘So the proposal for Animal Farm is to be temporarily shelved?’",
         "‘I’m not too sure,’ was Byomkesh’s riposte. ‘This could well be the capital needed to start a cattle farm. Bijoybabu, be forewarned, Animal Farm may soon come up right next to Golap Colony.’",
         "Published as ‘Chiriakhana’ in Bengali in 1953"
-      ]
+      ],
+      "summary": "Byomkesh investigates the owner of a property and searches for teeth in Chinatown, hinting at a breakthrough."
     }
   ]
 }

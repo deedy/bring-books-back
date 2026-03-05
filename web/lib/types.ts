@@ -21,6 +21,7 @@ export interface Book {
   storyNumber?: number;
   hasOriginalText?: boolean;
   originalScript?: string;
+  enabled?: boolean;
 }
 
 export interface Author {

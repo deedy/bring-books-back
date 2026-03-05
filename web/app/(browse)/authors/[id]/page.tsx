@@ -16,7 +16,8 @@ export default async function AuthorPage({
   const { id } = await params;
   const catalog = getCatalog();
   const author = catalog.authors.find((a) => a.id === id)!;
-  const books = catalog.books.filter((b) => b.authorId === author.id);
+  const isProd = process.env.NODE_ENV === "production";
+  const books = catalog.books.filter((b) => b.authorId === author.id && (!isProd || b.enabled !== false));
   const bioParagraphs = author.bio.split("\n\n");
 
   return (

@@ -2,19 +2,23 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The main detective, known as a 'truth-seeker', who investigates and solves mysteries."
+      "description": "The main detective, known as a 'truth-seeker', who investigates and solves mysteries.",
+      "image": "/data/images/characters/byomkesh-the-iron-biscuit/byomkesh.webp"
     },
     "Kamal Babu": {
       "type": "character",
-      "description": "A bank cashier who rents a room in Akshay Mondal's house and seeks Byomkesh's help; 'babu' is a respectful term for a gentleman or elder."
+      "description": "A bank cashier who rents a room in Akshay Mondal's house and seeks Byomkesh's help; 'babu' is a respectful term for a gentleman or elder.",
+      "image": "/data/images/characters/byomkesh-the-iron-biscuit/kamal-babu.webp"
     },
     "Akshay Mondal": {
       "type": "character",
-      "description": "The landlord of the house, later revealed to be a gold smuggler and murderer."
+      "description": "The landlord of the house, later revealed to be a gold smuggler and murderer.",
+      "image": "/data/images/characters/byomkesh-the-iron-biscuit/akshay-mondal.webp"
     },
     "Harihar Singh": {
       "type": "character",
-      "description": "A hardened criminal and associate of Akshay Mondal, found murdered in the house."
+      "description": "A hardened criminal and associate of Akshay Mondal, found murdered in the house.",
+      "image": "/data/images/characters/byomkesh-the-iron-biscuit/harihar-singh.webp"
     },
     "Rakhal Sarkar": {
       "type": "character",
@@ -26,11 +30,13 @@
     },
     "Khuku": {
       "type": "character",
-      "description": "Kamal Babu's ten-year-old daughter."
+      "description": "Kamal Babu's ten-year-old daughter.",
+      "image": "/data/images/characters/byomkesh-the-iron-biscuit/khuku.webp"
     },
     "Bhuto": {
       "type": "character",
-      "description": "Kamal Babu's fierce mountain dog, used to guard the house."
+      "description": "Kamal Babu's fierce mountain dog, used to guard the house.",
+      "image": "/data/images/characters/byomkesh-the-iron-biscuit/bhuto.webp"
     },
     "Lohar Biscuit": {
       "type": "proper_noun",
@@ -91,7 +97,6 @@
       "Satyawati",
       "Khuku",
       "Bhuto",
-      "Lohar Biscuit",
       "Hindustan Park",
       "Keyatala",
       "Central Bank of India",

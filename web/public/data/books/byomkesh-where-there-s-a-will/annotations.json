@@ -2,19 +2,23 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist and sharp-eyed truth-seeker who investigates the murder at Karalibabu's house."
+      "description": "The protagonist and sharp-eyed truth-seeker who investigates the murder at Karalibabu's house.",
+      "image": "/data/images/characters/byomkesh-where-there-s-a-will/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, who narrates the events and assists in the investigation."
+      "description": "Byomkesh's close friend and chronicler, who narrates the events and assists in the investigation.",
+      "image": "/data/images/characters/byomkesh-where-there-s-a-will/ajit.webp"
     },
     "Bidhubabu": {
       "type": "character",
-      "description": "The Deputy Commissioner of Police known for his pompous and ostentatious manner."
+      "description": "The Deputy Commissioner of Police known for his pompous and ostentatious manner.",
+      "image": "/data/images/characters/byomkesh-where-there-s-a-will/bidhubabu.webp"
     },
     "Karalibabu": {
       "type": "character",
-      "description": "A wealthy, irascible, and childless widower who frequently changed his will and was eventually murdered."
+      "description": "A wealthy, irascible, and childless widower who frequently changed his will and was eventually murdered.",
+      "image": "/data/images/characters/byomkesh-where-there-s-a-will/karalibabu.webp"
     },
     "Motilal": {
       "type": "character",
@@ -22,7 +26,8 @@
     },
     "Makhanlal": {
       "type": "character",
-      "description": "Another nephew of Karalibabu, known for his indulgence in drugs but not considered as degenerate as Motilal."
+      "description": "Another nephew of Karalibabu, known for his indulgence in drugs but not considered as degenerate as Motilal.",
+      "image": "/data/images/characters/byomkesh-where-there-s-a-will/makhanlal.webp"
     },
     "Phonibhushan": {
       "type": "character",
@@ -42,7 +47,8 @@
     },
     "Dalim": {
       "type": "character",
-      "description": "A woman from the red-light area, with whom Motilal claims to have spent the night."
+      "description": "A woman from the red-light area, with whom Motilal claims to have spent the night.",
+      "image": "/data/images/characters/byomkesh-where-there-s-a-will/dalim.webp"
     },
     "Calcutta": {
       "type": "proper_noun",
@@ -112,20 +118,46 @@
       "Phonibhushan",
       "Satyaboti",
       "Sukumar",
-      "Putiram",
-      "Dalim",
       "Calcutta",
       "Chitra",
       "Mirzapuri",
       "Gray’s Anatomy",
-      "Cornwallis Street",
       "CID",
-      "Christian calendar",
       "kurta",
       "chawl",
       "lakhs",
       "dhoti",
-      "teapoy",
+      "teapoy"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Ajit",
+      "Bidhubabu",
+      "Karalibabu",
+      "Motilal",
+      "Satyaboti",
+      "Sukumar",
+      "Putiram",
+      "Dalim",
+      "Gray’s Anatomy",
+      "CID",
+      "sari"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Ajit",
+      "Bidhubabu",
+      "Karalibabu",
+      "Motilal",
+      "Makhanlal",
+      "Phonibhushan",
+      "Satyaboti",
+      "Sukumar",
+      "Chitra",
+      "Gray’s Anatomy",
+      "Cornwallis Street",
+      "Christian calendar",
+      "kurta",
       "sari",
       "probate"
     ]

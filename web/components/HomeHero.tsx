@@ -1,29 +1,140 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback, useRef, useMemo } from "react";
 import Link from "next/link";
 import { Book, Author } from "@/lib/types";
 import { readingTime, displayYear } from "@/lib/utils";
+import CoverProgress from "@/components/CoverProgress";
+
+type SortField = "default" | "year" | "length";
+type SortDir = "asc" | "desc";
 
 interface HomeHeroProps {
   books: Book[];
   authors: Author[];
 }
 
+function LangDropdown({
+  languages,
+  langCounts,
+  value,
+  onChange,
+  totalCount,
+}: {
+  languages: string[];
+  langCounts: Record<string, number>;
+  value: string;
+  onChange: (v: string) => void;
+  totalCount: number;
+}) {
+  const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!open) return;
+    const handler = (e: MouseEvent) => {
+      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, [open]);
+
+  const label = value === "all" ? "All Languages" : value;
+
+  return (
+    <div className="relative" ref={ref}>
+      <button
+        onClick={() => setOpen((o) => !o)}
+        className={`px-2.5 py-1 text-[11px] font-medium rounded-full transition-colors flex items-center gap-1 ${
+          value !== "all"
+            ? "bg-white/15 text-white/80"
+            : "bg-white/5 text-white/40 hover:bg-white/10"
+        }`}
+      >
+        {label}
+        <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className={`transition-transform ${open ? "rotate-180" : ""}`}>
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </button>
+      {open && (
+        <div className="absolute top-full mt-1 right-0 min-w-[160px] rounded-lg bg-[#1a1a1b] border border-white/10 shadow-2xl z-50 py-1">
+          <button
+            onClick={() => { onChange("all"); setOpen(false); }}
+            className={`w-full px-3 py-1.5 text-[11px] text-left flex justify-between items-center transition-colors ${
+              value === "all" ? "text-white/90 bg-white/10" : "text-white/50 hover:bg-white/5"
+            }`}
+          >
+            <span>All Languages</span>
+            <span className="text-white/30">{totalCount}</span>
+          </button>
+          {languages.map((l) => (
+            <button
+              key={l}
+              onClick={() => { onChange(l); setOpen(false); }}
+              className={`w-full px-3 py-1.5 text-[11px] text-left flex justify-between items-center transition-colors ${
+                value === l ? "text-white/90 bg-white/10" : "text-white/50 hover:bg-white/5"
+              }`}
+            >
+              <span>{l}</span>
+              <span className="text-white/30">{langCounts[l]}</span>
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function HomeHero({ books, authors }: HomeHeroProps) {
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  // Randomize on client after hydration
-  useEffect(() => {
-    setActiveIndex(Math.floor(Math.random() * books.length));
-  }, [books.length]);
+  const [activeBookId, setActiveBookId] = useState(books[0]?.id);
   const [paused, setPaused] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
+  // Sort & filter state
+  const [sortField, setSortField] = useState<SortField>("default");
+  const [sortDir, setSortDir] = useState<SortDir>("asc");
+  const [langFilter, setLangFilter] = useState<string>("all");
+
+  const languages = useMemo(() => {
+    const langs = new Set(books.map((b) => b.originalLanguage));
+    return Array.from(langs).sort();
+  }, [books]);
+
+  const langCounts = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const b of books) counts[b.originalLanguage] = (counts[b.originalLanguage] || 0) + 1;
+    return counts;
+  }, [books]);
+
+  const displayBooks = useMemo(() => {
+    let arr = langFilter === "all" ? [...books] : books.filter((b) => b.originalLanguage === langFilter);
+    if (sortField === "year") {
+      arr.sort((a, b) => {
+        const val = a.originalYear - b.originalYear;
+        return sortDir === "asc" ? val : -val;
+      });
+    } else if (sortField === "length") {
+      arr.sort((a, b) => {
+        const val = a.wordCount - b.wordCount;
+        return sortDir === "asc" ? val : -val;
+      });
+    }
+    return arr;
+  }, [books, sortField, sortDir, langFilter]);
+
+  // Randomize on client after hydration
+  useEffect(() => {
+    const idx = Math.floor(Math.random() * books.length);
+    setActiveBookId(books[idx]?.id);
+  }, [books]);
+
   const advance = useCallback(() => {
-    setActiveIndex((prev) => (prev + 1) % books.length);
-  }, [books.length]);
+    setActiveBookId((prev) => {
+      const idx = displayBooks.findIndex((b) => b.id === prev);
+      const next = (idx + 1) % displayBooks.length;
+      return displayBooks[next]?.id ?? displayBooks[0]?.id;
+    });
+  }, [displayBooks]);
 
   useEffect(() => {
     if (paused) return;
@@ -33,8 +144,8 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
     };
   }, [paused, advance]);
 
-  const selectIndex = useCallback((idx: number) => {
-    setActiveIndex(idx);
+  const selectBook = useCallback((id: string) => {
+    setActiveBookId(id);
     setPaused(true);
   }, []);
 
@@ -43,9 +154,27 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
     if (!paused) return;
     const t = setTimeout(() => setPaused(false), 8000);
     return () => clearTimeout(t);
-  }, [paused, activeIndex]);
+  }, [paused, activeBookId]);
 
-  const book = books[activeIndex];
+  const toggleSort = (field: SortField) => {
+    if (field === "default") {
+      setSortField("default");
+      setSortDir("asc");
+    } else if (sortField === field) {
+      setSortDir((d) => (d === "asc" ? "desc" : "asc"));
+    } else {
+      setSortField(field);
+      setSortDir(field === "length" ? "desc" : "asc");
+    }
+  };
+
+  const arrow = (field: SortField) => {
+    if (sortField !== field) return "";
+    if (field === "default") return "";
+    return sortDir === "asc" ? " \u2191" : " \u2193";
+  };
+
+  const book = books.find((b) => b.id === activeBookId) ?? books[0];
   const author = authors.find((a) => a.id === book.authorId)!;
 
   return (
@@ -53,13 +182,13 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
       {/* Hero banner — overlaps behind the fixed header */}
       <div className="relative w-full h-[350px] -mt-16">
         {/* All hero images stacked for instant crossfade */}
-        {books.map((b, idx) => (
+        {books.map((b) => (
           <img
             key={b.id}
             src={`/data/images/heroes/${b.id}.webp`}
             alt=""
             className="absolute inset-0 w-full h-full object-cover transition-opacity duration-500"
-            style={{ opacity: idx === activeIndex ? 1 : 0 }}
+            style={{ opacity: b.id === activeBookId ? 1 : 0 }}
           />
         ))}
         {/* Bottom fade into page bg */}
@@ -90,6 +219,17 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
           </div>
         </div>
         <div className="flex-1 min-w-0 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
+          {book.type === "anthology" && (
+            <div className="flex items-center gap-1.5 mb-2">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-white/50">
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20" />
+              </svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-white/50 -ml-2.5">
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20" />
+              </svg>
+              <span className="text-xs font-semibold uppercase tracking-widest text-white/50">Story Collection</span>
+            </div>
+          )}
           <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">
             {book.title}
           </h1>
@@ -102,11 +242,13 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
           </Link>
 
           {/* Transliterated title + native script */}
-          <p className="text-sm text-white/40 mt-2 italic">
-            {book.title !== book.transliteratedTitle
-              ? `${book.transliteratedTitle} (${book.originalTitle})`
-              : book.originalTitle}
-          </p>
+          {book.type !== "anthology" && (
+            <p className="text-sm text-white/40 mt-2 italic">
+              {book.title !== book.transliteratedTitle
+                ? `${book.transliteratedTitle} (${book.originalTitle})`
+                : book.originalTitle}
+            </p>
+          )}
 
           {/* Metadata */}
           <div className="flex flex-wrap gap-x-6 gap-y-1.5 mt-3 text-xs text-white/40">
@@ -130,6 +272,14 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
 
           {/* Genres */}
           <div className="flex flex-wrap gap-2 mt-3">
+            {book.type === "anthology" && book.totalStories && (
+              <span
+                className="px-2.5 py-0.5 text-[11px] font-semibold rounded-full text-white"
+                style={{ backgroundColor: book.accentColor }}
+              >
+                {book.totalStories} stories
+              </span>
+            )}
             {book.genre.map((g) => (
               <span
                 key={g}
@@ -145,28 +295,56 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
           </p>
 
           <Link
-            href={`/read/${book.id}`}
+            href={book.type === "anthology" ? `/books/${book.id}` : `/read/${book.id}`}
             className="inline-block mt-5 px-6 py-3 rounded-lg font-medium text-white transition-opacity hover:opacity-90"
             style={{ backgroundColor: book.accentColor }}
           >
-            Start Reading
+            {book.type === "anthology" ? "Explore Collection" : "Start Reading"}
           </Link>
         </div>
       </div>
 
       {/* Our Books — hover to feature */}
       <section className="max-w-6xl mx-auto px-6 py-16">
-        <h2 className="text-2xl font-bold text-white mb-8">Our Books</h2>
+        <div className="flex flex-wrap items-center gap-2 mb-8">
+          <h2 className="text-2xl font-bold text-white mr-auto">Our Books</h2>
+
+          {/* Language filter */}
+          <LangDropdown
+            languages={languages}
+            langCounts={langCounts}
+            value={langFilter}
+            onChange={setLangFilter}
+            totalCount={books.length}
+          />
+
+          {/* Sort buttons */}
+          {(["default", "year", "length"] as SortField[]).map((field) => (
+            <button
+              key={field}
+              onClick={() => toggleSort(field)}
+              className={`px-2.5 py-1 text-[11px] font-medium rounded-full transition-colors ${
+                sortField === field
+                  ? "bg-white/15 text-white/80"
+                  : "bg-white/5 text-white/40 hover:bg-white/10"
+              }`}
+            >
+              {field === "default" ? "Default" : field === "year" ? "Year" : "Length"}
+              {arrow(field)}
+            </button>
+          ))}
+        </div>
+
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-          {books.map((b, idx) => {
+          {displayBooks.map((b) => {
             const bookAuthor = authors.find((a) => a.id === b.authorId)!;
-            const isActive = idx === activeIndex;
+            const isActive = b.id === activeBookId;
             return (
               <Link
                 key={b.id}
                 href={`/books/${b.id}`}
                 className="group block"
-                onMouseEnter={() => selectIndex(idx)}
+                onMouseEnter={() => selectBook(b.id)}
               >
                 <div
                   className={`relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg transition-all duration-200 group-hover:scale-[1.03] group-hover:shadow-2xl ${
@@ -185,6 +363,12 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
                     alt={b.title}
                     className="w-full h-full object-cover"
                   />
+                  {b.type === "anthology" && b.totalStories && (
+                    <span className="absolute top-2 left-2 px-1.5 py-0.5 text-[10px] font-semibold rounded bg-black/60 text-white/70 backdrop-blur-sm">
+                      {b.totalStories} stories
+                    </span>
+                  )}
+                  <CoverProgress bookId={b.id} totalChapters={b.totalChapters} accentColor={b.accentColor} />
                   {isActive && (
                     <div
                       className="absolute inset-0 border-2 rounded-lg pointer-events-none"
@@ -200,7 +384,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
                     {bookAuthor.name}
                   </p>
                   <p className="text-[11px] text-white/30 mt-0.5">
-                    {b.transliteratedTitle && b.transliteratedTitle !== b.title && (
+                    {b.type !== "anthology" && b.transliteratedTitle && b.transliteratedTitle !== b.title && (
                       <><span className="italic">{b.transliteratedTitle}</span> &middot; </>
                     )}
                     {b.originalLanguage} &middot; {displayYear(b.originalYear, b.yearEnd)} &middot;{" "}

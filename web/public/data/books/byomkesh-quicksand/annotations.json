@@ -2,11 +2,13 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist and renowned detective who prefers the title 'Truth Seeker', investigating the mystery at Chorabali Estate."
+      "description": "The protagonist and renowned detective who prefers the title 'Truth Seeker', investigating the mystery at Chorabali Estate.",
+      "image": "/data/images/characters/byomkesh-quicksand/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Ajit is the narrator and close friend of Byomkesh, who accompanies him on his cases and documents their adventures."
+      "description": "Ajit is the narrator and close friend of Byomkesh, who accompanies him on his cases and documents their adventures.",
+      "image": "/data/images/characters/byomkesh-quicksand/ajit.webp"
     },
     "Kumar Tridib": {
       "type": "character",
@@ -22,15 +24,18 @@
     },
     "Baby": {
       "type": "character",
-      "description": "Himangshu's young daughter, who is fond of her tutor and becomes friendly with Byomkesh and Ajit."
+      "description": "Himangshu's young daughter, who is fond of her tutor and becomes friendly with Byomkesh and Ajit.",
+      "image": "/data/images/characters/byomkesh-quicksand/baby.webp"
     },
     "Harinath Choudhary": {
       "type": "character",
-      "description": "The missing tutor of Baby whose mysterious disappearance is the central focus of the story."
+      "description": "The missing tutor of Baby whose mysterious disappearance is the central focus of the story.",
+      "image": "/data/images/characters/byomkesh-quicksand/harinath-choudhary.webp"
     },
     "Anadi Sarkar": {
       "type": "character",
-      "description": "The head servant of the estate, an old and loyal employee whose family becomes entangled in the household's troubles."
+      "description": "The head servant of the estate, an old and loyal employee whose family becomes entangled in the household's troubles.",
+      "image": "/data/images/characters/byomkesh-quicksand/anadi-sarkar.webp"
     },
     "Radha": {
       "type": "character",
@@ -38,7 +43,8 @@
     },
     "Bhuban": {
       "type": "character",
-      "description": "Himangshu's personal bearer, who provides information about Harinath and the household."
+      "description": "Himangshu's personal bearer, who provides information about Harinath and the household.",
+      "image": "/data/images/characters/byomkesh-quicksand/bhuban.webp"
     },
     "Chorabali": {
       "type": "proper_noun",
@@ -148,7 +154,6 @@
       "Harinath Choudhary",
       "Anadi Sarkar",
       "Radha",
-      "Bhuban",
       "Chorabali",
       "Calcutta",
       "Sir Digindra",
@@ -156,8 +161,6 @@
       "B.Sc.",
       "Kali",
       "Benares",
-      "Registry Office",
-      "North Bengal",
       "babu",
       "puja",
       "dhoti",
@@ -167,12 +170,44 @@
       "Rudraksha",
       "asana",
       "almanac",
-      "didi",
       "dada",
+      "hymn"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Ajit",
+      "Kumar Tridib",
+      "Himangshu",
+      "Baby",
+      "Anadi Sarkar",
+      "Radha",
+      "Bhuban",
+      "Kali",
+      "Registry Office",
+      "babu",
+      "almanac",
+      "didi",
       "sadhu",
       "mantra",
-      "hymn",
       "bearer"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Ajit",
+      "Kumar Tridib",
+      "Himangshu",
+      "Kaligati Bhattacharjee",
+      "Baby",
+      "Anadi Sarkar",
+      "Radha",
+      "Chorabali",
+      "Kali",
+      "Benares",
+      "Registry Office",
+      "North Bengal",
+      "babu",
+      "kurta",
+      "sadhu"
     ]
   }
 }

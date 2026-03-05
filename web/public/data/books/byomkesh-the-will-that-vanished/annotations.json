@@ -2,11 +2,13 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist, a renowned detective known for his sharp intellect and sense of justice; often referred to as a 'truth-seeker.'"
+      "description": "The protagonist, a renowned detective known for his sharp intellect and sense of justice; often referred to as a 'truth-seeker.'",
+      "image": "/data/images/characters/byomkesh-the-will-that-vanished/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "The narrator and close companion of Byomkesh, who documents their adventures and assists in investigations."
+      "description": "The narrator and close companion of Byomkesh, who documents their adventures and assists in investigations.",
+      "image": "/data/images/characters/byomkesh-the-will-that-vanished/ajit.webp"
     },
     "Rameswarbabu": {
       "type": "character",
@@ -14,7 +16,8 @@
     },
     "Kumudini": {
       "type": "character",
-      "description": "Rameswarbabu’s second wife, described as obese and childless, with eccentric habits."
+      "description": "Rameswarbabu’s second wife, described as obese and childless, with eccentric habits.",
+      "image": "/data/images/characters/byomkesh-the-will-that-vanished/kumudini.webp"
     },
     "Kusheswar": {
       "type": "character",
@@ -30,15 +33,18 @@
     },
     "Dr Ashim Sen": {
       "type": "character",
-      "description": "The family physician and friend, who has attended to Rameswarbabu for decades and acts as a witness to the will."
+      "description": "The family physician and friend, who has attended to Rameswarbabu for decades and acts as a witness to the will.",
+      "image": "/data/images/characters/byomkesh-the-will-that-vanished/dr-ashim-sen.webp"
     },
     "Devnath": {
       "type": "character",
-      "description": "Nalini’s husband, a middle-class man with a modest income."
+      "description": "Nalini’s husband, a middle-class man with a modest income.",
+      "image": "/data/images/characters/byomkesh-the-will-that-vanished/devnath.webp"
     },
     "Inspector Halder": {
       "type": "character",
-      "description": "The local police inspector who assists Byomkesh in searching for the will."
+      "description": "The local police inspector who assists Byomkesh in searching for the will.",
+      "image": "/data/images/characters/byomkesh-the-will-that-vanished/inspector-halder.webp"
     },
     "Putiram": {
       "type": "character",

@@ -2,27 +2,33 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "A brilliant and analytical detective known as a 'truth-seeker' who is often engrossed in solving complex mysteries."
+      "description": "A brilliant and analytical detective known as a 'truth-seeker' who is often engrossed in solving complex mysteries.",
+      "image": "/data/images/characters/byomkesh-the-venom-of-the-tarantula/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "The narrator and chronicler of Byomkesh's adventures, serving as his close friend and investigative partner."
+      "description": "The narrator and chronicler of Byomkesh's adventures, serving as his close friend and investigative partner.",
+      "image": "/data/images/characters/byomkesh-the-venom-of-the-tarantula/ajit.webp"
     },
     "Mohan": {
       "type": "character",
-      "description": "A doctor and old friend of Ajit, currently serving as the family-physician to Nandadulalbabu's household."
+      "description": "A doctor and old friend of Ajit, currently serving as the family-physician to Nandadulalbabu's household.",
+      "image": "/data/images/characters/byomkesh-the-venom-of-the-tarantula/mohan.webp"
     },
     "Nandadulalbabu": {
       "type": "character",
-      "description": "A wealthy, ailing, and cantankerous old man addicted to tarantula venom who is the central figure in the mystery and father to Arun and Abhay."
+      "description": "A wealthy, ailing, and cantankerous old man addicted to tarantula venom who is the central figure in the mystery and father to Arun and Abhay.",
+      "image": "/data/images/characters/byomkesh-the-venom-of-the-tarantula/nandadulalbabu.webp"
     },
     "Arun": {
       "type": "character",
-      "description": "Nandadulalbabu's eldest son, who helps guard his father and is involved in the investigation."
+      "description": "Nandadulalbabu's eldest son, who helps guard his father and is involved in the investigation.",
+      "image": "/data/images/characters/byomkesh-the-venom-of-the-tarantula/arun.webp"
     },
     "Abhay": {
       "type": "character",
-      "description": "Likely Arun's younger brother and another son of Nandadulalbabu, also helps in keeping vigil over his father."
+      "description": "Likely Arun's younger brother and another son of Nandadulalbabu, also helps in keeping vigil over his father.",
+      "image": "/data/images/characters/byomkesh-the-venom-of-the-tarantula/abhay.webp"
     },
     "Rebecca Light": {
       "type": "character",
@@ -85,7 +91,6 @@
       "South America",
       "Emile Zola",
       "Parker",
-      "Rebecca Light",
       "babu",
       "almirah",
       "cheroot"

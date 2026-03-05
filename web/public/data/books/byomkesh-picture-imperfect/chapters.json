@@ -3,11 +3,11 @@
     {
       "id": "ch-1",
       "number": 1,
-      "title": "Picture Imperfect",
+      "title": "A Convalescent's Routine",
       "part": null,
       "partName": null,
       "image": "/data/images/chapters/byomkesh-picture-imperfect/pNone_chapter_1.webp",
-      "wordCount": 18883,
+      "wordCount": 4538,
       "paragraphs": [
         "S atyaboti came and stood at Byomkesh’s side with a cup of pomegranate juice. She said, ‘Here, can you please drink this up?’",
         "I glanced at the clock; it was exactly four o’clock. The clock could be set by Satyaboti and her ministrations.",
@@ -132,7 +132,19 @@
         "Satyaboti lowered her glance and pressed a corner of her shawl to her lips, without saying another word. I said, ‘But how is this jealousy linked to the theft of the picture?’",
         "‘Wherever there is a free interaction between men and women, this jealousy is bound to show up. ‘ And Byomkesh raised his eyes to the ceiling.",
         "I said, ‘Doesn’t seem like a strong enough motive to me. Could there be some other objective?’",
-        "‘Certainly. The artist, Phalguni Pal, could be the burglar. His claim that he can sketch an exact replica of a person after seeing him just once might well be untrue. It is quite easy to make a copy from a photograph. Who knows, perhaps Phalguni is trying to impress everyone and earn more money.’",
+        "‘Certainly. The artist, Phalguni Pal, could be the burglar. His claim that he can sketch an exact replica of a person after seeing him just once might well be untrue. It is quite easy to make a copy from a photograph. Who knows, perhaps Phalguni is trying to impress everyone and earn more money.’"
+      ],
+      "summary": "Byomkesh analyzes motives for a stolen picture, considering jealousy and artistic deception."
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "title": "The Tea Party Unfolds",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-picture-imperfect/pNone_chapter_2.webp",
+      "wordCount": 4004,
+      "paragraphs": [
         "‘Hmm. Any other possibilities?’",
         "Byomkesh laughed and said, ‘The photographer, Nakuleshbabu himself, could be behind the theft.’",
         "‘What would be his reason?’",
@@ -270,7 +282,19 @@
         "Byomkesh did not reply; instead, he just flashed a quick smile at me.",
         "In the afternoon we got ready to go and visit Mahidharbabu. Satyaboti said to me, ‘Please do carry a torch. I’m sure it’ll be dark before you return.’",
         "I put the torch in my pocket, saying, ‘So you aren’t coming with us this time either?’",
-        "Satyaboti said, ‘No. There’s a poor woman lying sick in bed upstairs and she has no one to talk to. If I spend a few minutes with her, it might actually cheer her up.’",
+        "Satyaboti said, ‘No. There’s a poor woman lying sick in bed upstairs and she has no one to talk to. If I spend a few minutes with her, it might actually cheer her up.’"
+      ],
+      "summary": "Byomkesh considers the photographer and a hidden criminal as suspects. Professor Shome visits, and Satyaboti reveals her favorite guest."
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "title": "A Web of Suspicions",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-picture-imperfect/pNone_chapter_3.webp",
+      "wordCount": 4506,
+      "paragraphs": [
         "I said, ‘I see that your sympathies for Malati Devi are on the upsurge.’",
         "‘And whyever not?’",
         "I continued, ‘Your sympathies for Rajani are ebbing with equal speed?’",
@@ -418,7 +442,19 @@
         "‘Why is that so?’",
         "‘Thirty-first December is a Sunday, you see. If you count Saturday as a half-day, then you have a two-and-a-half days’ holiday. You will still be here for a while, I hope?’",
         "‘We’re here till the second of January.’",
-        "‘All right then, goodbye.’",
+        "‘All right then, goodbye.’"
+      ],
+      "summary": "Byomkesh and his companion find Phalguni Pal in a garden shed, who explains his visit to Ushanathbabu's house."
+    },
+    {
+      "id": "ch-4",
+      "number": 4,
+      "title": "The Unraveling Truth",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-picture-imperfect/pNone_chapter_4.webp",
+      "wordCount": 5835,
+      "paragraphs": [
         "We took our leave. We didn’t have to make our way back through the bank. There was a back door to the house, with stairs leading down. These brought us straight onto the main road. We were passing by the market when I suddenly remembered that we were out of cigarettes. I said, ‘Come this way, I have to buy a tin of cigarettes.’",
         "Byomkesh was a little preoccupied. Suddenly he came awake and said, ‘Oh yes! I have to buy something as well.’",
         "We entered a large variety store. I went in one direction to purchase the cigarettes and Byomkesh headed the other way. As I was buying my cigarettes, from the corner of my eye I saw Byomkesh buying a bottle of expensive perfume and putting it into his pocket.",
@@ -611,7 +647,8 @@
         "Byomkesh said, ‘Professor Shome. But don’t be too harsh on him. The man is educated and cultured, but his life is in ruins thanks to his battle-axe of a wife. It was this marital discord that made him feel attracted to Rajani. But that came to nothing either: he lost out to Dr Ghatok. Hence, the pangs of jealousy ... There is no baser instinct than jealousy. Of the seven deadly sins, the most fatal of all is envy.’",
         "After a brief silence, he continued, ‘Malati Devi’s condition is still critical. One shouldn’t wish anyone dead, but I for one won’t be too unhappy if Malati Devi were to depart from Shome’s life at this poin.’",
         "I couldn’t have agreed with him more."
-      ]
+      ],
+      "summary": "Byomkesh reveals the anonymous letter writer and hints at Malati Devi's potential demise, shifting the investigation's focus."
     }
   ]
 }

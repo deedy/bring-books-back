@@ -3,11 +3,11 @@
     {
       "id": "ch-1",
       "number": 1,
-      "title": "The Submerged Peak",
+      "title": "A Haunting from the Past",
       "part": null,
       "partName": null,
       "image": "/data/images/chapters/byomkesh-the-submerged-peak/pNone_chapter_1.webp",
-      "wordCount": 24531,
+      "wordCount": 5863,
       "paragraphs": [
         "Magnamainak",
         "Fifteen years have passed since we gained independence. According to the ancient laws of India, our Goddess of Liberty has now come of age; the time has come to cast aside our escapist tendencies and face the hard truth. Therefore, this story may now be told.",
@@ -136,7 +136,19 @@
         "A.K.R. clicked his tongue and said, 'No, no, nothing of the sort! I have not the slightest curiosity about your secret residence. What you have told us is sufficient for our investigation. Only—if we could meet Srimati Sukumari once, that would be helpful.'",
         "'You will find her at her own address.' Santoshbabu handed over Sukumari’s address and stood up. 'It is ten o’clock. Your work is probably not yet finished; stay as long as you need.'",
         "M G MOINAK",
-        "“Byomkesh-babu, will you stay with the Inspector on my behalf?”",
+        "“Byomkesh-babu, will you stay with the Inspector on my behalf?”"
+      ],
+      "summary": "A precocious youth named Nengti introduces Byomkesh to a case involving a refugee girl and her uncle."
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "title": "A Death in the Samaddar House",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-submerged-peak/pNone_chapter_2.webp",
+      "wordCount": 3606,
+      "paragraphs": [
         "“Certainly,” Byomkesh replied, rising to his feet.",
         "Santosh-babu said, “Well then, I’ll go and take some rest. I’m feeling a bit fatigued.”",
         "He strode out of the room with firm steps. There was no sign of weariness in his body. Perhaps it was fatigue of the mind. After such a calamity in the house—Santosh-babu had revealed his secrets with neither evasion nor subterfuge, made no effort to justify himself. When one must speak the profound truths of life, it is best to speak plainly. Yet, his ruthless honesty could not help but trouble me. He was a seasoned businessman and a shrewd politician; perhaps his character would have been better without that dark stain.",
@@ -265,7 +277,19 @@
         "I read the poem—",
         "The glimmer of your smile Stabbed my heart like a knife Your lips, so red, can punish The innocent, without cause.",
         "I said, “Not bad—rather like some bizarre Sanskrit poetry. Who wrote it?”",
-        "Byomkesh said, “There’s only one poet in their household—Yugal.”",
+        "Byomkesh said, “There’s only one poet in their household—Yugal.”"
+      ],
+      "summary": "Byomkesh and A.K. Ray investigate Hena's locked room, finding a poem that hints at her state of mind."
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "title": "Ashes and Unanswered Questions",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-submerged-peak/pNone_chapter_3.webp",
+      "wordCount": 3895,
+      "paragraphs": [
         "In the afternoon, A. K. Ray himself arrived, carrying a copy of the deposition. Today, his demeanor was entirely different. He joked with us, shared a few amusing stories, and proved that Byomkesh, instead of joining the police, was chasing wild buffaloes on an empty stomach. He partook of refreshments appropriate to the hour; then, at last, he turned to business. Handing the file of the deposition to Byomkesh, he said, “Here you go, have a read. But it won’t be of any use to you.”",
         "Raising his brows, Byomkesh asked, “Why won’t it be of use?”",
         "A. K. Ray replied, “According to the police department, Hena’s death is nothing but an accident. Further investigation is pointless.”",
@@ -394,7 +418,19 @@
         "Jugol glanced at his watch. 'It’s late already, my classes were in the morning.' He moved away from the table and sat on the edge of the bed. 'What do you want to know?' There was a calm gentleness in his manner of speaking. The thunderstruck confusion of that night was gone.",
         "Byomkesh took a slip of pink paper from his pocket and held it out to Jugol. 'Tell me, is this your handwriting?'",
         "I saw Jugol’s handsome face slowly flush red. He took the slip, turning it over in his uncertain hands. Meanwhile, I picked up a notebook from the table and glanced through it. A book of poems, with several short quatrains written inside. All were poems of longing; one among them struck me as not at all bad—",
-        "Byomkesh Samagra",
+        "Byomkesh Samagra"
+      ],
+      "summary": "A. K. Ray dismisses Hena's death as an accident, but Byomkesh questions the fire and a photograph, then questions Jugol about his handwriting."
+    },
+    {
+      "id": "ch-4",
+      "number": 4,
+      "title": "Suspicions and Secret Motives",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-submerged-peak/pNone_chapter_4.webp",
+      "wordCount": 4937,
+      "paragraphs": [
         "Rose, I held you close to my heart In return, you tore my chest with thorns My blood has flowed in torrents Paint your face with that crimson.",
         "Here, it is not difficult to guess who the rose is!",
         "At that moment, Jugal cleared his throat twice and said, “Yes, I wrote it.”",
@@ -589,7 +625,19 @@
         "A shadow of inner speculation flickered in Shrimati Chameli’s eyes. She stepped forward and, in a hushed voice, said suddenly, ‘Byomkeshbabu, I know how Hena died. I saw it with my own eyes.’",
         "Byomkesh started, his eyes widening. ‘You saw it with your own eyes?’",
         "‘Yes.’ Shrimati Chameli spoke in a single breath, ‘That day, after Chingri went to the bathroom, I came outside and saw Hena heading up to the roof on the third floor. Everyone knows I cannot tolerate Hena, and Hena herself is afraid of me. I thought, if I seize this opportunity to go up to the roof and give her a piece of my mind, perhaps she will leave my house, and my sons will be safe.’",
-        "‘So you were anxious about your sons’ safety? Well, then what happened?’",
+        "‘So you were anxious about your sons’ safety? Well, then what happened?’"
+      ],
+      "summary": "Jugal confesses to writing a poem and throwing a rose. Chameli claims she witnessed Hena's death."
+    },
+    {
+      "id": "ch-5",
+      "number": 5,
+      "title": "Confessions and Revelations Unfold",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-submerged-peak/pNone_chapter_5.webp",
+      "wordCount": 6230,
+      "paragraphs": [
         "‘I too climbed the stairs to the third-floor roof. The moment she saw me, Hena panicked, ran toward the parapet, and crashed against it. Then, unable to regain her balance, she toppled over and fell down. Perhaps, seeing me, she was afraid I would harm her!’",
         "Byomkesh gazed at her intently and asked, ‘Why did you never mention this before?’",
         "Shrimati Chameli made a restless gesture with her mouth and said, ‘Would anyone have believed me if I had? On the contrary, they would have suspected that I pushed Hena over.’",
@@ -784,7 +832,8 @@
         "Byomkesh said, “But what can I do? I am no doctor.”",
         "The doctor said, “Let me tell you the real reason. Bishu Pal has a client named Abhay Ghoshal. The man is a scoundrel. In a time of trouble, he borrowed a large sum from Bishu Pal, and now refuses to repay it. Bishu Pal pressed him hard for the money, and in response, Abhay Ghoshal allegedly threatened him—said that if Bishu Pal demanded repayment, he would kill him. Immediately after, Bishu Pal suffered his stroke, and has been bedridden these three months. Of course, his life is not in danger, and with careful treatment, he may yet recover and walk again. But that is not the main issue. What matters is that he is now convinced Abhay Ghoshal will murder him—he believes that even if he forgives the debt, he will still be killed. You need not treat him; Bishu Pal simply wishes to unburden his heart to you. If you could offer him some advice, it might help.”",
         "Byomkesh, a little absent-minded, said, “If someone is truly determined to play the role of Shishupal’s slayer, even Shiva himself could not prevent it. Still, since the gentleman so desires my company—”"
-      ]
+      ],
+      "summary": "Chameli confesses to seeing Hena fall from the roof. Byomkesh learns of Bishu Pal's fear of Abhay Ghoshal."
     }
   ]
 }

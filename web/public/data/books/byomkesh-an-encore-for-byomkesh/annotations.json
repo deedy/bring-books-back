@@ -2,23 +2,28 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist, a renowned Bengali detective known as a 'truth-seeker', whose identity is also used as a disguise by the antagonist Anukulbabu, a former criminal with a grudge."
+      "description": "The protagonist, a renowned Bengali detective known as a 'truth-seeker', whose identity is also used as a disguise by the antagonist Anukulbabu, a former criminal with a grudge.",
+      "image": "/data/images/characters/byomkesh-an-encore-for-byomkesh/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, who narrates the stories and often assists in investigations."
+      "description": "Byomkesh's close friend and chronicler, who narrates the stories and often assists in investigations.",
+      "image": "/data/images/characters/byomkesh-an-encore-for-byomkesh/ajit.webp"
     },
     "Debkumarbabu": {
       "type": "character",
-      "description": "A scientist whose trial for murder and refusal to reveal his invention's formula is central to the chapter's mystery."
+      "description": "A scientist whose trial for murder and refusal to reveal his invention's formula is central to the chapter's mystery.",
+      "image": "/data/images/characters/byomkesh-an-encore-for-byomkesh/debkumarbabu.webp"
     },
     "Birenbabu": {
       "type": "character",
-      "description": "Birenbabu, also known as Inspector Biren Sinha, is a police officer who collaborates with Byomkesh on the case and provides official support during the investigation."
+      "description": "Birenbabu, also known as Inspector Biren Sinha, is a police officer who collaborates with Byomkesh on the case and provides official support during the investigation.",
+      "image": "/data/images/characters/byomkesh-an-encore-for-byomkesh/birenbabu.webp"
     },
     "Putiram": {
       "type": "character",
-      "description": "Byomkesh and Ajit's loyal domestic help, known for his simplicity and occasional comic relief."
+      "description": "Byomkesh and Ajit's loyal domestic help, known for his simplicity and occasional comic relief.",
+      "image": "/data/images/characters/byomkesh-an-encore-for-byomkesh/putiram.webp"
     },
     "High Court": {
       "type": "proper_noun",
@@ -118,20 +123,47 @@
       "Putiram",
       "High Court",
       "Calcutta",
-      "Srirampore",
       "Bagbazar",
       "Daily Kalketu",
       "Sitaram Ghose Street",
-      "Bowbazar",
+      "Commissioner",
+      "CID",
+      "babu",
+      "mess",
+      "Gupta"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Ajit",
+      "Debkumarbabu",
+      "Birenbabu",
+      "Putiram",
+      "Calcutta",
+      "Srirampore",
+      "Daily Kalketu",
       "Harrison Road",
       "Diamond Harbour",
       "Sealdah",
       "Howrah",
-      "Alipore Jail",
       "Commissioner",
       "CID",
       "Chanakya",
       "Mammon",
+      "babu",
+      "mess",
+      "kurta",
+      "shawl"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Ajit",
+      "Birenbabu",
+      "Putiram",
+      "Calcutta",
+      "Srirampore",
+      "Bowbazar",
+      "Alipore Jail",
+      "Commissioner",
       "babu",
       "mess",
       "kurta",

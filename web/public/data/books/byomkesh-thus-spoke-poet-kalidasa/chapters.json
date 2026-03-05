@@ -3,11 +3,11 @@
     {
       "id": "ch-1",
       "number": 1,
-      "title": "Thus Spoke Poet Kalidasa",
+      "title": "Arrival in the Coal Town",
       "part": null,
       "partName": null,
       "image": "/data/images/chapters/byomkesh-thus-spoke-poet-kalidasa/pNone_chapter_1.webp",
-      "wordCount": 21319,
+      "wordCount": 5222,
       "paragraphs": [
         "The city where Byomkesh and I had come to spend a week in exile could well be called a coal-town. Encircling the city, at a distance of three or four miles, lay four or so coal mines. The city itself sat at the center, like a spider in its web, as coal from all directions was gathered at the railway station and dispatched by freight trains to distant places. It was a bustling, prosperous city; wealthy businessmen had set up their haunts here, several large banks operated, and lawyers, doctors, engineers, brokers, and moneylenders abounded. The streets bustled with motors, taxis, buses, and trucks. There was a constant exchange of raw materials and ready cash. The city was ruled—by coal. Everywhere, the song of coal, the clamor of coal. The city was by no means ancient, yet it seemed as if the invisible dust of coal had cast a premature shadow of age upon its every surface.",
         "The man who had summoned us to this city was the owner of a coal mine called Phuljhari—his name, Manish Chakraborty. For several months, his mine had been plagued by various covert disturbances. Fires breaking out deep within the mine, valuable machinery being damaged and destroyed—such accidents had occurred; even among the laborers and coolies, needless discontent had begun to brew. There was no doubt that a group of people were trying to harm him. In such circumstances, as was only natural, Manish Babu called the police. He dismissed many new workers. But nothing came of it. At last, in secret, he sent for Byomkesh.",
@@ -178,7 +178,19 @@
         "Byomkesh said, “Of the five suspects, I’ve seen only one. Until I see the other four, it’s hard to say anything.”",
         "“Five suspects!”",
         "“Yes. We can’t rule out the maidservant.”",
-        "Nothing more was said. Thinking of the strange conclusion to Pranahari Poddar’s life, I drifted off to sleep.",
+        "Nothing more was said. Thinking of the strange conclusion to Pranahari Poddar’s life, I drifted off to sleep."
+      ],
+      "summary": "Byomkesh and Ajit arrive in a coal town to investigate mysterious disturbances at a mine, adopting new identities."
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "title": "The Murder of Pranahari Poddar",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-thus-spoke-poet-kalidasa/pNone_chapter_2.webp",
+      "wordCount": 5494,
+      "paragraphs": [
         "In the morning, I awoke to find Byomkesh seated at the table, writing a letter with utmost concentration. Stretching and yawning, I asked, “Who are you writing to? Satyabati? Barely two days apart and already you’re pining for her?”",
         "Byomkesh, still writing, replied, “Not longing—Bikash.”",
         "“Bikash?”",
@@ -362,7 +374,19 @@
         "Phanish left, embarrassed. I went to bed. Byomkesh studied his notebook for a while longer, then turned off the light and lay down.",
         "In the darkness, I asked, “You’re quoting poetry quite a bit—did you get anything out of today?”",
         "The answer came, “I’ve discovered three facts. One—the person who killed Pranahari Poddar was not motivated by money; two—he is ambidextrous; three—for a woman like Mohini, anyone could commit murder. Now go to sleep.”",
-        "In the morning, I woke to find Byomkesh already seated with the account book. After breakfast, we set out as usual. Byomkesh took the account book along.",
+        "In the morning, I woke to find Byomkesh already seated with the account book. After breakfast, we set out as usual. Byomkesh took the account book along."
+      ],
+      "summary": "Byomkesh arranges for a spy and consults the chief inspector, learning crucial details about the murder."
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "title": "Unraveling the Ledger",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-thus-spoke-poet-kalidasa/pNone_chapter_3.webp",
+      "wordCount": 4041,
+      "paragraphs": [
         "At the thana, Inspector Barat greeted us with a smile. “Finished with the account book already?”",
         "Byomkesh replied, “There’s only a year and a half’s worth of accounts in this book—meaning Pranahari started a new ledger after coming here.”",
         "Barat asked, “Did you find anything?”",
@@ -533,7 +557,19 @@
         "Kohen Kabikalidas",
         "“They deserve a medal.”",
         "I said, “Even to give them a gold medal, we’d need to know who they are.”",
-        "Byomkesh paced a while longer, then said, “We’ll have to visit Mohini again. There’s something I haven’t asked her yet.”",
+        "Byomkesh paced a while longer, then said, “We’ll have to visit Mohini again. There’s something I haven’t asked her yet.”"
+      ],
+      "summary": "Byomkesh discovers a financial anomaly in Pranahari's ledger, suggesting a hidden arrangement with a taxi driver."
+    },
+    {
+      "id": "ch-4",
+      "number": 4,
+      "title": "The Anonymous Threat",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-thus-spoke-poet-kalidasa/pNone_chapter_4.webp",
+      "wordCount": 6562,
+      "paragraphs": [
         "It was at this moment that I first noticed the bicycle. We were pacing along the edge of the road, when I saw, about fifty yards ahead, a bicycle approaching. The cycle bore no light; in the streetlamp’s glow, the rider appeared only as a vague silhouette. A solar topee was pulled low, shadowing his face. As we watched, the bicycle drew up to us, and the rider tossed a pale object at our feet before pedaling away at speed, vanishing into the darkness.",
         "Byomkesh seized my arm and pulled me back with lightning speed. We retreated ten paces and turned, staring fixedly at the whitish object. But nothing happened. The thing, about the size of a tennis ball, lay inert on the ground. It never occurred to me that it could be a bomb; but seeing Byomkesh’s tense posture, my heart began to thud in my chest.",
         "Byomkesh said, “Ajit, run to the house and fetch a torch, quickly.”",
@@ -735,7 +771,8 @@
         "The problem of the weapon was solved in an instant. Bhuban had killed Pranahari with a spanner; the murder weapon matched Dr. Ghoshal’s description exactly.",
         "Bhuban has fled with his wife. A shrewd man—he realized I had seen through him. Where they will set up their hideout, I cannot say; there are so many places—Madras, Bombay. I hope Pramodbabu never finds Bhuban. For if he does, he certainly won’t be awarding him a gold medal.",
         "There is nothing more to say. If I have left anything out, you can guess at it yourselves. Bhuban and Mohini will remain fugitives for life, unless they are caught. The cruel greed of Pranahari Poddar has destroyed two lives—that is the greatest tragedy in this tale."
-      ]
+      ],
+      "summary": "An anonymous threat arrives, revealing the antagonist knows Byomkesh's name and warns him to leave the city."
     }
   ]
 }

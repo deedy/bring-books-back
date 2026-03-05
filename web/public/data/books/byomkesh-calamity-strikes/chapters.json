@@ -3,11 +3,11 @@
     {
       "id": "ch-1",
       "number": 1,
-      "title": "Calamity Strikes",
+      "title": "A Gloomy Morning",
       "part": null,
       "partName": null,
       "image": "/data/images/chapters/byomkesh-calamity-strikes/pNone_chapter_1.webp",
-      "wordCount": 11791,
+      "wordCount": 5280,
       "paragraphs": [
         "W ith a dejected sway of the hand Byomkesh deposited the newspaper on my lap and said, ‘Nothing anywhere, absolutely nothing. The press people could try bringing out blank sheets instead. At least it would save them the printing costs.’",
         "I couldn’t resist a dig, ‘Isn’t there anything in the advertisements? Don’t you always say that all the news in the world is crammed into the classified columns?’",
@@ -125,7 +125,19 @@
         "We trooped downstairs.",
         "Byomkesh was well acquainted with Birenbabu; each understood the other’s worth. Birenbabu was a middle-aged man with a healthy, well-built body. He was known to be a bright and judicious operator. Byomkesh held him in high esteem especially because he did not have a bloated sense of self-importance that was so typical of the police, or the desire to show his opponent down in any way. I had even been witness to a few cases where Byomkesh had actually sought Birenbabu’s help. He had an immense amount of knowledge about the lower classes of criminals and pickpockets.",
         "When we greeted him, he looked at Byomkesh and said, ‘What’s the matter, Byomkeshbabu? Is it something serious?’",
-        "Byomkesh replied, ‘I shall let you be the judge of that, ‘ and led him inside.",
+        "Byomkesh replied, ‘I shall let you be the judge of that, ‘ and led him inside."
+      ],
+      "summary": "A detective, bored by the lack of cases, encounters a police inspector, hinting at a developing mystery."
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "title": "The Unnatural Death",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-calamity-strikes/pNone_chapter_2.webp",
+      "wordCount": 4940,
+      "paragraphs": [
         "It was two o’clock by the time we had sent the body away for the post-mortem, dispatched a telegram to Debkumarbabu and wrapped the matter up to the best of our ability. By the time we returned home and finished our lunch, the short winter day was drawing to a close.",
         "Byomkesh remained morose and silent. I, too, was feeling rather uncomfortable. While we had been rather anxious for something interesting to turn up, who would have thought it would present itself in this cruel fashion? I was constantly reminded of Habul’s face and felt very melancholic.",
         "Gradually dusk rolled in; Byomkesh continued to sit by the window in silence, staring out unseeingly. Finally I asked, ‘It is suicide, isn’t it? What do you feel?’",
@@ -269,7 +281,19 @@
         "‘Wife!’ Debkumarbabu’s eyes became glazed with a demented look. He roared out in wild laughter and said, ‘Wife! After my execution, she is the one who will get all the money from the insurance company. Isn’t it an irony of fate? Come, let’s go.’",
         "A taxi was called. Byomkesh led Debkumarbabu by the hand and reached him to it. Birenbabu got in beside him. Two constables had materialized out of nowhere; they too got into the car.",
         "Debkumarbabu called out from inside, ‘Byomkeshbabu, you had wanted to solve the mystery of my Rekha’s death—I am grateful to you—’",
-        "We remained standing on the pavement as the taxi went on its way.",
+        "We remained standing on the pavement as the taxi went on its way."
+      ],
+      "summary": "Byomkesh questions the suicide, finding inconsistencies in the victim's letter and the circumstances of her death."
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "title": "The Poisoned Flames",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-calamity-strikes/pNone_chapter_3.webp",
+      "wordCount": 1571,
+      "paragraphs": [
         "For a couple of days afterwards Byomkesh didn’t bring this case up at all. I could guess at his state of mind, so I didn’t urge him either. On the evening of the third day he started speaking of his own volition. Haphazardly, talking almost to himself, he began, ‘There is a phrase in English—vengeance coming home to roost—that is what happened to Debkumarbabu! He had wanted to kill his wife, but such was the will of fate that both times he aimed his lethal arrows, they struck his son and daughter, who were dearer than life to him.",
         "‘Quite unexpectedly, Debkumarbabu had come upon an extraordinary invention. But due to a lack of funds, he was unable to make proper use of it. With an invention such as this, you cannot apply for a patent, because it has no value in the commercial market. But if war-prone, expansionist nations like Germany, Japan or France ever got wind of the formula, they would immediately start producing this lethal poison in their laboratories. The inventor wouldn’t be able to do a thing and he wouldn’t stand to gain anything out of his invention.",
         "‘So Debkumarbabu kept it all under wraps. He needed funds badly because much experimentation was needed to find out all the uses of the poison. But where was the money? In order to conduct such a huge experiment in complete secrecy, he would need his own laboratory, and that requires massive resources. Where would so much money come from?",
@@ -292,7 +316,8 @@
         "‘In some corner of my mind, there was always an amorphous idea that the death was caused by some poisonous vapour. Think about it. Rekha held a burnt-out matchstick in one hand and a matchbox in the other—meaning her death had occurred immediately after she struck the match. That could be a coincidence, or there could be a cause-and-effect relationship between the two. Debkumarbabu, however, had been very clever. He had put only one poisoned matchstick in the box, so that an examination of the other matches would yield no results. I had brought back the matchbox and examined it too—but in vain. In the case of Habul too, there was just that one poisoned matchstick in the box. But such was the cruelty of fate that the first match he happened to strike was the poisoned one.",
         "‘Ajit, you are a writer. Don’t you think there is a lesson to be learnt in all this? The day that man discovered the tools to kill another human being, he also brought into being a weapon that could boomerang upon him at any time. The sophisticated weaponry that is, in great secrecy, being produced all over the world today, might one day serve to destroy the entire human race. Like the demon who sprung into being from Brahma’s imagination, like Frankenstein’s monster, it won’t even spare its creators. Don’t you think so?’",
         "The room was in darkness and I could hardly see Byomkesh. I felt as if his final words were not mere musings, but a prophecy of sorts."
-      ]
+      ],
+      "summary": "Debkumarbabu invents a deadly poison and plots to kill his wife, but his children become the victims of his own creation."
     }
   ]
 }

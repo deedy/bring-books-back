@@ -2,11 +2,13 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The main detective, known for his sharp intellect and keen observation skills; often referred to respectfully as Byomkeshbabu."
+      "description": "The main detective, known for his sharp intellect and keen observation skills; often referred to respectfully as Byomkeshbabu.",
+      "image": "/data/images/characters/byomkesh-the-jewel-case/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, who narrates the story and assists in investigations."
+      "description": "Byomkesh's close friend and chronicler, who narrates the story and assists in investigations.",
+      "image": "/data/images/characters/byomkesh-the-jewel-case/ajit.webp"
     },
     "Rashomoy Sirkar": {
       "type": "character",
@@ -14,19 +16,23 @@
     },
     "Monimoy Sirkar": {
       "type": "character",
-      "description": "Rashomoy's elder son, who helps manage the family business and is involved in the events surrounding the theft."
+      "description": "Rashomoy's elder son, who helps manage the family business and is involved in the events surrounding the theft.",
+      "image": "/data/images/characters/byomkesh-the-jewel-case/monimoy-sirkar.webp"
     },
     "Bhola": {
       "type": "character",
-      "description": "Rashomoy's personal valet, a canny and wiry man suspected of involvement in the theft."
+      "description": "Rashomoy's personal valet, a canny and wiry man suspected of involvement in the theft.",
+      "image": "/data/images/characters/byomkesh-the-jewel-case/bhola.webp"
     },
     "Amareshbabu": {
       "type": "character",
-      "description": "The chief inspector at the local police station, known for his toughness and courage; assists in the investigation."
+      "description": "The chief inspector at the local police station, known for his toughness and courage; assists in the investigation.",
+      "image": "/data/images/characters/byomkesh-the-jewel-case/amareshbabu.webp"
     },
     "Bhootnath Das": {
       "type": "character",
-      "description": "Bhola's elder brother, a postal worker who becomes an accomplice in the theft."
+      "description": "Bhola's elder brother, a postal worker who becomes an accomplice in the theft.",
+      "image": "/data/images/characters/byomkesh-the-jewel-case/bhootnath-das.webp"
     },
     "Satyaboti": {
       "type": "character",

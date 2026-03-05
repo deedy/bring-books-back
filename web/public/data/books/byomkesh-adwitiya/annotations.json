@@ -2,11 +2,13 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist and sharp detective known as a 'truth-seeker' or satyanweshi, who solves mysteries with logical reasoning alongside his friend Ajit."
+      "description": "The protagonist and sharp detective known as a 'truth-seeker' or satyanweshi, who solves mysteries with logical reasoning alongside his friend Ajit.",
+      "image": "/data/images/characters/byomkesh-adwitiya/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, who narrates the stories and often assists in investigations."
+      "description": "Byomkesh's close friend and chronicler, who narrates the stories and often assists in investigations.",
+      "image": "/data/images/characters/byomkesh-adwitiya/ajit.webp"
     },
     "Satyawati": {
       "type": "character",
@@ -14,7 +16,8 @@
     },
     "Chintamani Kundu": {
       "type": "character",
-      "description": "A paralyzed, elderly landlord who becomes embroiled in a murder case involving his tenant and seeks Byomkesh's help."
+      "description": "A paralyzed, elderly landlord who becomes embroiled in a murder case involving his tenant and seeks Byomkesh's help.",
+      "image": "/data/images/characters/byomkesh-adwitiya/chintamani-kundu.webp"
     },
     "Ramadhin": {
       "type": "character",
@@ -22,11 +25,13 @@
     },
     "Bijoy Bhaduri": {
       "type": "character",
-      "description": "A senior police inspector and former junior inspector known to Byomkesh who investigates the murder case."
+      "description": "A senior police inspector and former junior inspector known to Byomkesh who investigates the murder case.",
+      "image": "/data/images/characters/byomkesh-adwitiya/bijoy-bhaduri.webp"
     },
     "Bidhu Bhushan Aich": {
       "type": "character",
-      "description": "The murder victim, a police officer from Burdwan who recognizes Pramila Pal in disguise."
+      "description": "The murder victim, a police officer from Burdwan who recognizes Pramila Pal in disguise.",
+      "image": "/data/images/characters/byomkesh-adwitiya/bidhu-bhushan-aich.webp"
     },
     "Pramila Pal": {
       "type": "character",
@@ -34,7 +39,8 @@
     },
     "Jamadar": {
       "type": "character",
-      "description": "A police officer who assists Bijoy Babu in arresting Pramila Pal."
+      "description": "A police officer who assists Bijoy Babu in arresting Pramila Pal.",
+      "image": "/data/images/characters/byomkesh-adwitiya/jamadar.webp"
     },
     "Calcutta": {
       "type": "proper_noun",

@@ -3,11 +3,11 @@
     {
       "id": "ch-1",
       "number": 1,
-      "title": "Where There's a Will",
+      "title": "A Morning Call and a Murder",
       "part": null,
       "partName": null,
       "image": "/data/images/chapters/byomkesh-where-there-s-a-will/pNone_chapter_1.webp",
-      "wordCount": 13705,
+      "wordCount": 4799,
       "paragraphs": [
         "I t was around ten-thirty in the morning; I was toying with the idea of getting up to take a shower when suddenly the telephone rang in the next room. Byomkesh got up and took the call. I could hear him say, ‘Hello, who is that? Bidhubabu? Oh, good morning. How are you? How are things? I beg your pardon? Oh, really? I have to go? Well, all right... what is the address? Fine, I’ll be there in about half an hour.’",
         "Byomkesh came out of the room fastening the buttons on his kurta and said, ‘Come on, let’s go visiting. There’s been a murder. Bidhubabu has called for us.’",
@@ -174,7 +174,19 @@
         "Byomkesh said, ‘Yes, the needle. I presume you stitch with a needle. Where is it?’",
         "The girl was about to say something, but could not. Turning suddenly, she blurted out, ‘Dada!’ and, running to where Sukumar was sitting, she laid her head on his lap and broke into tears. The sobs racked her body.",
         "A dazed Sukumar tried to lift her face up and kept repeating, ‘Satya... Satya... ?’",
-        "Satyaboti did not raise her head. She just continued to weep. Byomkesh went very close to them and said softly, ‘You didn’t do the right thing, you know. You should have told me all. I am not part of the police. Had you confessed to me, you may have profited from it. Come on Ajit, let’s go.’",
+        "Satyaboti did not raise her head. She just continued to weep. Byomkesh went very close to them and said softly, ‘You didn’t do the right thing, you know. You should have told me all. I am not part of the police. Had you confessed to me, you may have profited from it. Come on Ajit, let’s go.’"
+      ],
+      "summary": "A murder occurs, and Byomkesh is called to the scene by the Deputy Commissioner, who seems reluctant to involve him."
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "title": "The Lame Nephew's Tale",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-where-there-s-a-will/pNone_chapter_2.webp",
+      "wordCount": 4795,
+      "paragraphs": [
         "After leaving the room, Byomkesh carefully shut the door behind him. He stood with a frown on his face for some time; then suddenly he looked up and said, ‘Now? Oh yes, Phonibabu. Come, I think that’s his room over there.’",
         "After passing Karalibabu’s room along the corridor and turning the corner, we came to a room on the left. Byomkesh knocked on the door. A young man of twenty- one or twenty-two opened the door. Byomkesh asked, ‘Are you Phonibabu?’",
         "He nodded and said, ‘Yes. Please come in.’",
@@ -314,7 +326,19 @@
         "Byomkesh said, ‘There is nothing to say. I do not want to raise your hopes and then disappoint you. There is a veritable whatsitsname called Bidhubabu involved, you see. Anyway, I can say this for certain, had you told me all this on the very first day, perhaps everything would have gone much more smoothly.’",
         "Tearfully Satyaboti said, ‘Will any of what I have just said cause harm to Dada? Are you certain? Byomkeshbabu, I have no one else...’ She choked on her tears.",
         "Byomkesh quickly went and held the main door open for her, tried to smile and said, ‘You hurry along now—it’s getting late. Ours here is a bachelor-pad too...’",
-        "Satyaboti hurried out, a trifle contrite; just as she crossed the threshold Byomkesh said something to her in a soft undertone, which I was unable to hear. Satyaboti looked back, startled. For a moment her grateful, pleading eyes were before me. Then she quickly raised her hands in a brief gesture of greeting and went rapidly down the stairs.",
+        "Satyaboti hurried out, a trifle contrite; just as she crossed the threshold Byomkesh said something to her in a soft undertone, which I was unable to hear. Satyaboti looked back, startled. For a moment her grateful, pleading eyes were before me. Then she quickly raised her hands in a brief gesture of greeting and went rapidly down the stairs."
+      ],
+      "summary": "Byomkesh interviews Phonibabu, the lame nephew, who reveals family dynamics and hints at hidden affections."
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "title": "The Truth Revealed",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-where-there-s-a-will/pNone_chapter_3.webp",
+      "wordCount": 4111,
+      "paragraphs": [
         "After shutting the door Byomkesh came and sat down, looked at his watch and said, ‘It’s seven o’clock already. ‘ Then he seemed to be doing some mental calculations after which he said, ‘There’s still a lot of time.’",
         "Eagerly I pounced on him, ‘Byomkesh, what do you make of it all? I didn’t get anything—but from your manner I feel as if you have already come to know all the facts.’",
         "Byomkesh shook his head, ‘Not everything, not yet.’",
@@ -446,7 +470,8 @@
         "He said, ‘I am infinitely suspicious of the entire breed of authors.’",
         "I heaved a sigh and said, ‘Fine, so I’ll play the brother from now on. ‘ I placed my hand on Byomkesh’s head in mock- benediction and said, ‘Go on then, mate, it’s almost four. You had better make a move. My blessings are with you. May you always be devoted to Truth, in whatever form, womanly or otherwise.’",
         "Byomkesh went out."
-      ]
+      ],
+      "summary": "Byomkesh questions Ajit about Satyaboti's appearance, then playfully declares Ajit his brother-in-law, before departing."
     }
   ]
 }

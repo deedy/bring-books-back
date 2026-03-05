@@ -2,19 +2,23 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist, a sharp and thoughtful detective known for his keen observation and logical reasoning."
+      "description": "The protagonist, a sharp and thoughtful detective known for his keen observation and logical reasoning.",
+      "image": "/data/images/characters/byomkesh-the-arrow-of-fire/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, who narrates the stories and often assists in investigations."
+      "description": "Byomkesh's close friend and chronicler, who narrates the stories and often assists in investigations.",
+      "image": "/data/images/characters/byomkesh-the-arrow-of-fire/ajit.webp"
     },
     "Devkumar Babu": {
       "type": "character",
-      "description": "A renowned professor and scientific researcher from Calcutta, father of Habul and Rekha, and a neighbor of Byomkesh."
+      "description": "A renowned professor and scientific researcher from Calcutta, father of Habul and Rekha, and a neighbor of Byomkesh.",
+      "image": "/data/images/characters/byomkesh-the-arrow-of-fire/devkumar-babu.webp"
     },
     "Habul": {
       "type": "character",
-      "description": "Devkumar Babu's son, a college student who admires Byomkesh and is deeply affected by his sister Rekha's death."
+      "description": "Devkumar Babu's son, a college student who admires Byomkesh and is deeply affected by his sister Rekha's death.",
+      "image": "/data/images/characters/byomkesh-the-arrow-of-fire/habul.webp"
     },
     "Rekha": {
       "type": "character",
@@ -22,7 +26,8 @@
     },
     "Dr. Rudra": {
       "type": "character",
-      "description": "A renowned but abrasive physician in Calcutta, known for his skill and harsh demeanor; father of Manmathanath (Nontu)."
+      "description": "A renowned but abrasive physician in Calcutta, known for his skill and harsh demeanor; father of Manmathanath (Nontu).",
+      "image": "/data/images/characters/byomkesh-the-arrow-of-fire/dr-rudra.webp"
     },
     "Manmathanath Rudra": {
       "type": "character",
@@ -30,7 +35,8 @@
     },
     "Biren Babu": {
       "type": "character",
-      "description": "The local police inspector (Daroga), respected by Byomkesh for his shrewdness and lack of arrogance."
+      "description": "The local police inspector (Daroga), respected by Byomkesh for his shrewdness and lack of arrogance.",
+      "image": "/data/images/characters/byomkesh-the-arrow-of-fire/biren-babu.webp"
     },
     "Putiram": {
       "type": "character",
@@ -132,29 +138,52 @@
   "chapters": {
     "ch-1": [
       "Byomkesh",
+      "Calcutta",
+      "Kash",
+      "Babu"
+    ],
+    "ch-2": [
+      "Byomkesh",
       "Ajit",
-      "Devkumar Babu",
-      "Habul",
-      "Rekha",
-      "Dr. Rudra",
-      "Manmathanath Rudra",
-      "Biren Babu",
+      "Calcutta",
+      "Kash",
+      "Patna",
+      "Babu"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Ajit",
+      "Babu"
+    ],
+    "ch-4": [
+      "Byomkesh",
       "Putiram",
+      "Kash",
+      "Babu"
+    ],
+    "ch-5": [
+      "Byomkesh",
+      "Ajit",
+      "Calcutta",
+      "Kash",
+      "Babu"
+    ],
+    "ch-6": [
+      "Byomkesh",
+      "Ajit",
       "Calcutta",
       "Delhi",
-      "All-India Science Congress",
+      "Kash",
+      "Babu"
+    ],
+    "ch-7": [
+      "Byomkesh",
+      "Ajit",
+      "Putiram",
+      "Calcutta",
       "India",
       "Kash",
-      "Lakshmi",
-      "Ma Kali",
-      "Patna",
-      "College Square",
-      "Punjab Mail",
-      "Babu",
-      "Ganga-Jamuna",
-      "Birenbabu",
-      "Daroga",
-      "Agnibaan"
+      "Babu"
     ]
   }
 }

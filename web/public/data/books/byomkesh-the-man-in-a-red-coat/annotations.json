@@ -2,7 +2,8 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The main detective and truth-seeker who investigates mysteries with keen observation and intelligence."
+      "description": "The main detective and truth-seeker who investigates mysteries with keen observation and intelligence.",
+      "image": "/data/images/characters/byomkesh-the-man-in-a-red-coat/byomkesh.webp"
     },
     "Rakhalbabu": {
       "type": "character",
@@ -10,11 +11,13 @@
     },
     "Gangapada Choudhury": {
       "type": "character",
-      "description": "A cunning factory worker who sets up Ashoke Maiti in a scheme and was initially presented as the injured victim."
+      "description": "A cunning factory worker who sets up Ashoke Maiti in a scheme and was initially presented as the injured victim.",
+      "image": "/data/images/characters/byomkesh-the-man-in-a-red-coat/gangapada-choudhury.webp"
     },
     "Ashoke Maiti": {
       "type": "character",
-      "description": "A man from Meerat who is mistaken for Gangapada and becomes the target of an attempted murder."
+      "description": "A man from Meerat who is mistaken for Gangapada and becomes the target of an attempted murder.",
+      "image": "/data/images/characters/byomkesh-the-man-in-a-red-coat/ashoke-maiti.webp"
     },
     "Ramchatur": {
       "type": "character",
@@ -26,15 +29,18 @@
     },
     "Naresh Mandal": {
       "type": "character",
-      "description": "A former chief melter at the factory known for his ill-temper and violent tendencies who seeks revenge against Gangapada."
+      "description": "A former chief melter at the factory known for his ill-temper and violent tendencies who seeks revenge against Gangapada.",
+      "image": "/data/images/characters/byomkesh-the-man-in-a-red-coat/naresh-mandal.webp"
     },
     "Prafulla Dey": {
       "type": "character",
-      "description": "An electrician who applies for the melter job but is not relevant to the main case."
+      "description": "An electrician who applies for the melter job but is not relevant to the main case.",
+      "image": "/data/images/characters/byomkesh-the-man-in-a-red-coat/prafulla-dey.webp"
     },
     "Dhiren": {
       "type": "character",
-      "description": "Rakhalbabu's assistant, tasked with searching Naresh Mondol's house."
+      "description": "Rakhalbabu's assistant, tasked with searching Naresh Mondol's house.",
+      "image": "/data/images/characters/byomkesh-the-man-in-a-red-coat/dhiren.webp"
     },
     "Netaji Hospital": {
       "type": "proper_noun",

@@ -3,11 +3,11 @@
     {
       "id": "ch-1",
       "number": 1,
-      "title": "Quicksand",
+      "title": "An Invitation to an Estate",
       "part": null,
       "partName": null,
       "image": "/data/images/chapters/byomkesh-quicksand/pNone_chapter_1.webp",
-      "wordCount": 14356,
+      "wordCount": 6383,
       "paragraphs": [
         "W e, that is Byomkesh and I, Ajit, could not ignore any longer the repeated requests of Kumar Tridib to visit his estate. So one cold December morning we left Calcutta for a break of seven or eight days. Our intention was to relax completely for those days, and return bright and fresh for work again, to Calcutta.",
         "There was no dearth of hospitality. We spent the first day just snacking every hour and chatting non-stop with Kumar Tridib. The main topic of our discussion was, of course, Kumar Tridib's uncle, Sir Digindra, mentioned in the story — Hidden Heirloom.",
@@ -182,7 +182,19 @@
         "\"Is he alone?\"",
         "\"No, he has his wife, and a widowed daughter. His daughter has been ill for the last few days. I had asked him to take her to the doctor — but he is not agreeing — he says she will be all right. Why are you asking all this?\"",
         "\"No — nothing in particular. I wanted to know which employees stay nearby. Do the other servants stay outside the compound?\"",
-        "\"Yes, there are seven or eight living quarters for them. It takes long for them to come to work from the town, so, my master, Himangshu's father, made this arrangement.\"",
+        "\"Yes, there are seven or eight living quarters for them. It takes long for them to come to work from the town, so, my master, Himangshu's father, made this arrangement.\""
+      ],
+      "summary": "Byomkesh and Ajit visit Kumar Tridib's estate, where they plan a hunting trip that leads them into a mysterious jungle."
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "title": "The Tutor's Disappearance",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-quicksand/pNone_chapter_2.webp",
+      "wordCount": 5019,
+      "paragraphs": [
         "\"How far is the town from here?\"",
         "\"About five miles. The road in front goes straight east to the town.\"",
         "Just then, Himangshu came out of the house. He said, smiling at us, \"Come, Byomkesh and Ajitbabu, let me show you my armoury!\"",
@@ -352,7 +364,19 @@
         "Byomkesh said, \"I badly want him to be angry with me.\"",
         "I could not understand what he meant by that. It was unlike Byomkesh to speak against someone's religious belief — but why did he do this today? I said, \"What do you mean? What was the point in hurting the old man?\"",
         "\"You will understand tomorrow, go to sleep now,\" he turned on his side.",
-        "Byomkesh whiled away his time till noon the next day, Himangshu seemed happy and relieved for some reason. He chatted and entertained us with many stories about his hunting experiences. He seemed to have forgotten that we were his guests to solve some serious mystery — he did not bring up that topic even once.",
+        "Byomkesh whiled away his time till noon the next day, Himangshu seemed happy and relieved for some reason. He chatted and entertained us with many stories about his hunting experiences. He seemed to have forgotten that we were his guests to solve some serious mystery — he did not bring up that topic even once."
+      ],
+      "summary": "Byomkesh questions Bhuban about Harinath's habits, revealing inconsistencies about his belongings and revealing Byomkesh's deliberate provocation of Harinath."
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "title": "The Trap is Set",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-quicksand/pNone_chapter_3.webp",
+      "wordCount": 2954,
+      "paragraphs": [
         "After our afternoon tea, Byomkesh took Kaligati aside and whispered to him, \"We will proceed according to last night's plan — all right?\"",
         "Kaligati looked worried, \"Have you given it a serious thought?\"",
         "Byomkesh said, \"I think we should go to the hut tonight. We have to solve this mystery once and for all. The moon will set at about ten at night. Ajit and I will go there before that and wait for the culprit to come, and catch him as soon as he walks in!\"",
@@ -427,7 +451,8 @@
         "Byomkesh read aloud the news item in the paper:",
         "\"The zaminder of Chorabali Estate in North Bengal had gone out to hunt with a few friends. He fired after hearing the roars of a tiger. But unfortunately the shot hit his old dewan Kaligati Bhattacharjee. It is anyone's guess what the old dewan was doing in the forest so late at night. Himangshubabu, the zaminder, is heartbroken at this accident. The police have completely exonerated Himangshubabu as the investigation showed that he had taken ample care and was totally in his senses when this accident occurred.\"",
         "Byomkesh got up and told Kumar, \"Let's go back to your estate now. We have finished the work here. I will relate to you the story of the sad demise of Kaligati while driving to your house.\""
-      ]
+      ],
+      "summary": "Byomkesh and Ajit set a trap at the hut, but Kaligati is accidentally shot and killed by Himangshu."
     }
   ]
 }

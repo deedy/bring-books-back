@@ -2,27 +2,33 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist and brilliant detective known for his keen observation skills and dedication to uncovering the truth."
+      "description": "The protagonist and brilliant detective known for his keen observation skills and dedication to uncovering the truth.",
+      "image": "/data/images/characters/byomkesh-the-hidden-heirloom/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend, assistant, and the narrator of the stories who aspires to document Byomkesh's cases."
+      "description": "Byomkesh's close friend, assistant, and the narrator of the stories who aspires to document Byomkesh's cases.",
+      "image": "/data/images/characters/byomkesh-the-hidden-heirloom/ajit.webp"
     },
     "Kumar Tridib Narayan Roy": {
       "type": "character",
-      "description": "A wealthy young man from North Bengal who seeks Byomkesh's help in recovering his family's stolen diamond."
+      "description": "A wealthy young man from North Bengal who seeks Byomkesh's help in recovering his family's stolen diamond.",
+      "image": "/data/images/characters/byomkesh-the-hidden-heirloom/kumar-tridib-narayan-roy.webp"
     },
     "Sir Digindra Narayan Roy": {
       "type": "character",
-      "description": "A wealthy, eccentric genius known for his artistic and scientific pursuits who is suspected of stealing a family diamond."
+      "description": "A wealthy, eccentric genius known for his artistic and scientific pursuits who is suspected of stealing a family diamond.",
+      "image": "/data/images/characters/byomkesh-the-hidden-heirloom/sir-digindra-narayan-roy.webp"
     },
     "Ujre Singh": {
       "type": "character",
-      "description": "A loyal Nepali servant and chawkidar (watchman) at Sir Digindra's house, known for his vigilance."
+      "description": "A loyal Nepali servant and chawkidar (watchman) at Sir Digindra's house, known for his vigilance.",
+      "image": "/data/images/characters/byomkesh-the-hidden-heirloom/ujre-singh.webp"
     },
     "Putiram": {
       "type": "character",
-      "description": "Ajit and Byomkesh's servant, who assists with household matters and delivers messages."
+      "description": "Ajit and Byomkesh's servant, who assists with household matters and delivers messages.",
+      "image": "/data/images/characters/byomkesh-the-hidden-heirloom/putiram.webp"
     },
     "Seemanta Heera": {
       "type": "proper_noun",
@@ -113,7 +119,6 @@
       "Sir Digindra Narayan Roy",
       "Ujre Singh",
       "Putiram",
-      "Seemanta Heera",
       "Bengal",
       "Calcutta",
       "North Bengal",

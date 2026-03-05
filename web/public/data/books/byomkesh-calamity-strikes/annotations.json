@@ -2,27 +2,33 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "Byomkesh is the protagonist, a sharp and thoughtful detective known for his keen observation and logical reasoning. He is often called the detective and is central to the investigations in the story."
+      "description": "Byomkesh is the protagonist, a sharp and thoughtful detective known for his keen observation and logical reasoning. He is often called the detective and is central to the investigations in the story.",
+      "image": "/data/images/characters/byomkesh-calamity-strikes/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "The narrator and close friend of Byomkesh, who assists him in his investigations and documents their adventures."
+      "description": "The narrator and close friend of Byomkesh, who assists him in his investigations and documents their adventures.",
+      "image": "/data/images/characters/byomkesh-calamity-strikes/ajit.webp"
     },
     "Habul": {
       "type": "character",
-      "description": "Debkumarbabu's son, a college student who admires Byomkesh and becomes distraught after the sudden death of his sister."
+      "description": "Debkumarbabu's son, a college student who admires Byomkesh and becomes distraught after the sudden death of his sister.",
+      "image": "/data/images/characters/byomkesh-calamity-strikes/habul.webp"
     },
     "Rekha": {
       "type": "character",
-      "description": "Habul's younger sister, whose mysterious and sudden death is the catalyst for the investigation."
+      "description": "Habul's younger sister, whose mysterious and sudden death is the catalyst for the investigation.",
+      "image": "/data/images/characters/byomkesh-calamity-strikes/rekha.webp"
     },
     "Dr Rudra": {
       "type": "character",
-      "description": "A renowned but ill-tempered physician in Calcutta, notorious for his rudeness and questionable ethics; he is the father of Nontu."
+      "description": "A renowned but ill-tempered physician in Calcutta, notorious for his rudeness and questionable ethics; he is the father of Nontu.",
+      "image": "/data/images/characters/byomkesh-calamity-strikes/dr-rudra.webp"
     },
     "Putiram": {
       "type": "character",
-      "description": "The servant in Byomkesh and Ajit's household, who serves them tea and assists with household tasks."
+      "description": "The servant in Byomkesh and Ajit's household, who serves them tea and assists with household tasks.",
+      "image": "/data/images/characters/byomkesh-calamity-strikes/putiram.webp"
     },
     "Calcutta": {
       "type": "proper_noun",
@@ -120,24 +126,46 @@
       "Calcutta",
       "Delhi",
       "All India Science Congress",
-      "College Square",
-      "Patna",
       "Bangla",
       "Kali",
+      "cheroot",
+      "babu",
+      "sari",
+      "bangles",
+      "rupees"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Habul",
+      "Rekha",
+      "Dr Rudra",
+      "Putiram",
+      "Calcutta",
+      "Delhi",
+      "College Square",
+      "Patna",
       "Punjab Mail",
+      "babu",
+      "rupees",
+      "post-mortem",
+      "dowry",
+      "joint policy"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Ajit",
+      "Habul",
+      "Rekha",
+      "Dr Rudra",
+      "Delhi",
+      "Patna",
       "Germany",
       "Japan",
       "France",
       "Brahma",
       "Frankenstein",
-      "cheroot",
       "babu",
-      "sari",
-      "bangles",
-      "rupees",
-      "post-mortem",
-      "dowry",
-      "joint policy"
+      "rupees"
     ]
   }
 }

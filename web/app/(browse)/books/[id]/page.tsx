@@ -7,12 +7,14 @@ import BookOpenTracker from "@/components/BookOpenTracker";
 import ReadActions from "@/components/ReadActions";
 import CharacterGrid from "@/components/CharacterGrid";
 import ChapterList from "@/components/ChapterList";
+import StoryGrid from "@/components/StoryGrid";
 import AnnotatedSummary from "@/components/AnnotatedSummary";
 import { readingTime, displayYear } from "@/lib/utils";
 
 export function generateStaticParams() {
   const catalog = getCatalog();
-  return catalog.books.map((book) => ({ id: book.id }));
+  const isProd = process.env.NODE_ENV === "production";
+  return catalog.books.filter((b) => !isProd || b.enabled !== false).map((book) => ({ id: book.id }));
 }
 
 export async function generateMetadata({
@@ -206,6 +208,17 @@ export default async function BookPage({
             </Link>
           )}
 
+          {isAnthology && (
+            <div className="flex items-center gap-1.5 mb-2">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-white/50">
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20" />
+              </svg>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-white/50 -ml-2.5">
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20" />
+              </svg>
+              <span className="text-xs font-semibold uppercase tracking-widest text-white/50">Story Collection</span>
+            </div>
+          )}
           <h1 className="text-3xl md:text-4xl font-bold text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">
             {book.title}
           </h1>
@@ -218,6 +231,14 @@ export default async function BookPage({
           </Link>
 
           <div className="flex flex-wrap gap-2 mt-4">
+            {isAnthology && book.totalStories && (
+              <span
+                className="px-3 py-1 text-xs font-semibold rounded-full text-white"
+                style={{ backgroundColor: book.accentColor }}
+              >
+                {book.totalStories} stories
+              </span>
+            )}
             {book.genre.map((g) => (
               <span
                 key={g}
@@ -291,37 +312,7 @@ export default async function BookPage({
       {/* Anthology: Story-book grid */}
       {isAnthology && storyBooks.length > 0 && (
         <section className="max-w-5xl mx-auto px-6 mt-16">
-          <h2 className="text-xl font-bold text-white mb-6">Stories</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-            {storyBooks.map((sb, i) => (
-              <Link key={sb.id} href={`/books/${sb.id}`} className="group block">
-                <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg transition-all duration-200 group-hover:scale-[1.03] group-hover:shadow-2xl">
-                  <img
-                    src={sb.coverImage}
-                    alt={sb.title}
-                    loading="lazy"
-                    className="w-full h-full object-cover"
-                  />
-                  <span className="absolute top-2 left-2 px-1.5 py-0.5 text-[10px] font-semibold rounded bg-black/60 text-white/70 backdrop-blur-sm">
-                    #{sb.storyNumber ?? i + 1}
-                  </span>
-                </div>
-                <div className="mt-3">
-                  <h3 className="text-sm font-semibold text-white line-clamp-2 leading-snug">
-                    {sb.title}
-                  </h3>
-                  {sb.transliteratedTitle && sb.transliteratedTitle !== sb.title && (
-                    <p className="text-[11px] text-white/30 mt-0.5 italic">{sb.transliteratedTitle}</p>
-                  )}
-                  <p className="text-[11px] text-white/30 mt-0.5">
-                    {displayYear(sb.originalYear, sb.yearEnd)} &middot;{" "}
-                    {sb.totalChapters === 1 ? "Short Story" : `${sb.totalChapters} chapters`} &middot;{" "}
-                    {readingTime(sb.wordCount)}
-                  </p>
-                </div>
-              </Link>
-            ))}
-          </div>
+          <StoryGrid stories={storyBooks} />
         </section>
       )}
 
@@ -338,15 +329,17 @@ export default async function BookPage({
         <section className="max-w-4xl mx-auto px-6 mt-16">
           <h2 className="text-xl font-bold text-white mb-6">Characters</h2>
           <CharacterGrid characters={characters} />
-          <Link
-            href={`/books/${id}/glossary?type=character`}
-            className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors mt-4"
-          >
-            View all {totalCharacters} characters
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <polyline points="9 18 15 12 9 6" />
-            </svg>
-          </Link>
+          {totalCharacters > 6 && (
+            <Link
+              href={`/books/${id}/glossary?type=character`}
+              className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors mt-4"
+            >
+              View all {totalCharacters} characters
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </Link>
+          )}
         </section>
       )}
 

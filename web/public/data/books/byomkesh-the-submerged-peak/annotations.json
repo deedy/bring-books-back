@@ -2,11 +2,13 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist, a sharp and observant detective known as a 'truth-seeker' (satyanweshi), who solves mysteries with logical reasoning."
+      "description": "The protagonist, a sharp and observant detective known as a 'truth-seeker' (satyanweshi), who solves mysteries with logical reasoning.",
+      "image": "/data/images/characters/byomkesh-the-submerged-peak/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, who narrates their adventures and assists in investigations."
+      "description": "Byomkesh's close friend and chronicler, who narrates their adventures and assists in investigations.",
+      "image": "/data/images/characters/byomkesh-the-submerged-peak/ajit.webp"
     },
     "Satyabati": {
       "type": "character",
@@ -30,19 +32,23 @@
     },
     "Bijoy Bhaduri": {
       "type": "character",
-      "description": "A senior police inspector, diligent and suspicious by nature, involved in the murder investigation."
+      "description": "A senior police inspector, diligent and suspicious by nature, involved in the murder investigation.",
+      "image": "/data/images/characters/byomkesh-the-submerged-peak/bijoy-bhaduri.webp"
     },
     "Bidhubhushan Aich": {
       "type": "character",
-      "description": "A Burdwan police employee who is murdered in front of the twin houses."
+      "description": "A Burdwan police employee who is murdered in front of the twin houses.",
+      "image": "/data/images/characters/byomkesh-the-submerged-peak/bidhubhushan-aich.webp"
     },
     "Promila Pal": {
       "type": "character",
-      "description": "The true identity of Tapan Sen/Shanta, a fugitive and murderer who disguises herself as both man and woman."
+      "description": "The true identity of Tapan Sen/Shanta, a fugitive and murderer who disguises herself as both man and woman.",
+      "image": "/data/images/characters/byomkesh-the-submerged-peak/promila-pal.webp"
     },
     "Nengti Dutta": {
       "type": "character",
-      "description": "A precocious and cheeky youth who befriends Byomkesh and is fascinated by detective work."
+      "description": "A precocious and cheeky youth who befriends Byomkesh and is fascinated by detective work.",
+      "image": "/data/images/characters/byomkesh-the-submerged-peak/nengti-dutta.webp"
     },
     "Byomkesh Samagra": {
       "type": "place",
@@ -129,32 +135,45 @@
     "ch-1": [
       "Byomkesh",
       "Ajit",
-      "Satyabati",
-      "Shrichintamani Kundu",
-      "Ramadhin",
-      "Tapan Sen",
-      "Shanta",
-      "Bijoy Bhaduri",
-      "Bidhubhushan Aich",
-      "Promila Pal",
       "Nengti Dutta",
       "Byomkesh Samagra",
-      "Bankimchandra",
-      "Devi Chowdhurani",
-      "zenana ward",
-      "Burdwan",
       "Calcutta",
-      "Chetla",
-      "Madrasi",
-      "Hindustani",
-      "Khotta",
-      "Jemadar",
-      "Ardhanarishvara",
       "Magnamainak",
-      "boti",
+      "para",
+      "mem"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Ajit",
+      "Byomkesh Samagra",
+      "Calcutta",
+      "para",
+      "mem"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Ajit",
+      "Byomkesh Samagra",
+      "Calcutta",
+      "mem"
+    ],
+    "ch-4": [
+      "Byomkesh",
+      "Ajit",
+      "Byomkesh Samagra",
+      "Calcutta",
+      "taktaposh",
+      "mem"
+    ],
+    "ch-5": [
+      "Byomkesh",
+      "Ajit",
+      "Satyabati",
+      "Byomkesh Samagra",
+      "Calcutta",
+      "Magnamainak",
       "para",
       "taktaposh",
-      "attaché case",
       "mem"
     ]
   }

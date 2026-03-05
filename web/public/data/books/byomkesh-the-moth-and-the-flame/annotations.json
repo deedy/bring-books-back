@@ -2,7 +2,8 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist, a renowned Bengali detective known as a 'truth-seeker' (satyanweshi), who investigates complex cases with keen observation and logic."
+      "description": "The protagonist, a renowned Bengali detective known as a 'truth-seeker' (satyanweshi), who investigates complex cases with keen observation and logic.",
+      "image": "/data/images/characters/byomkesh-the-moth-and-the-flame/byomkesh.webp"
     },
     "Pandeyji": {
       "type": "character",
@@ -14,7 +15,8 @@
     },
     "Dipnarayan Singh": {
       "type": "character",
-      "description": "A wealthy and influential zamindar of Bihar, recently recovered from illness, who becomes the murder victim."
+      "description": "A wealthy and influential zamindar of Bihar, recently recovered from illness, who becomes the murder victim.",
+      "image": "/data/images/characters/byomkesh-the-moth-and-the-flame/dipnarayan-singh.webp"
     },
     "Dr. Palit": {
       "type": "character",
@@ -22,15 +24,18 @@
     },
     "Dr. Jagannath Prasad": {
       "type": "character",
-      "description": "A young Bihari doctor, nicknamed 'Ghoda Jagannath' (Horse Jagannath), known for his arrogance and rivalry with Bengali doctors."
+      "description": "A young Bihari doctor, nicknamed 'Ghoda Jagannath' (Horse Jagannath), known for his arrogance and rivalry with Bengali doctors.",
+      "image": "/data/images/characters/byomkesh-the-moth-and-the-flame/dr-jagannath-prasad.webp"
     },
     "Debnarayan": {
       "type": "character",
-      "description": "Dipnarayan Singh's obese and foolish nephew, who stands to inherit the estate."
+      "description": "Dipnarayan Singh's obese and foolish nephew, who stands to inherit the estate.",
+      "image": "/data/images/characters/byomkesh-the-moth-and-the-flame/debnarayan.webp"
     },
     "Beniprasad": {
       "type": "character",
-      "description": "Debnarayan's close companion and jester, known for his wit."
+      "description": "Debnarayan's close companion and jester, known for his wit.",
+      "image": "/data/images/characters/byomkesh-the-moth-and-the-flame/beniprasad.webp"
     },
     "Liladhar Banshi": {
       "type": "character",
@@ -46,7 +51,8 @@
     },
     "Chandni": {
       "type": "character",
-      "description": "Debnarayan's wife, depicted as plump, shy, and unaccustomed to socializing openly."
+      "description": "Debnarayan's wife, depicted as plump, shy, and unaccustomed to socializing openly.",
+      "image": "/data/images/characters/byomkesh-the-moth-and-the-flame/chandni.webp"
     },
     "Miss Manna": {
       "type": "character",
@@ -171,6 +177,25 @@
       "Pandeyji",
       "Ratikanta",
       "Dipnarayan Singh",
+      "Calcutta",
+      "Bihar",
+      "Pratapgarh",
+      "Allahabad University",
+      "Patna",
+      "hookah",
+      "sahib",
+      "zamindar",
+      "purdah",
+      "adda",
+      "huzoor",
+      "B.Sc.",
+      "civil marriage"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Pandeyji",
+      "Ratikanta",
+      "Dipnarayan Singh",
       "Dr. Palit",
       "Dr. Jagannath Prasad",
       "Debnarayan",
@@ -179,34 +204,179 @@
       "Gangadhar Banshi",
       "Shakuntala",
       "Chandni",
+      "Calcutta",
+      "Bihar",
+      "adda",
+      "thana",
+      "bandhgala",
+      "paan",
+      "sari"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Pandeyji",
+      "Ratikanta",
+      "Dipnarayan Singh",
+      "Dr. Palit",
+      "Debnarayan",
+      "Gangadhar Banshi",
+      "Shakuntala",
+      "Chandni",
+      "Miss Manna",
+      "baithak-khana",
+      "compounder",
+      "sari",
+      "curare",
+      "post-mortem",
+      "intramuscular"
+    ],
+    "ch-4": [
+      "Byomkesh",
+      "Pandeyji",
+      "Ratikanta",
+      "Dipnarayan Singh",
+      "Dr. Palit",
+      "Dr. Jagannath Prasad",
+      "Debnarayan",
+      "Shakuntala",
+      "Bihar",
+      "Patna",
+      "Ganges",
+      "zamindar",
+      "adda",
+      "thana",
+      "baithak-khana"
+    ],
+    "ch-5": [
+      "Byomkesh",
+      "Pandeyji",
+      "Ratikanta",
+      "Dr. Palit",
+      "Dr. Jagannath Prasad",
+      "Shakuntala",
+      "Khublal",
+      "Bihar",
+      "Patna",
+      "Buxar",
+      "thana",
+      "huzoor",
+      "compounder",
+      "curare",
+      "post-mortem"
+    ],
+    "ch-6": [
+      "Byomkesh",
+      "Pandeyji",
+      "Ratikanta",
+      "Dipnarayan Singh",
+      "Gangadhar Banshi",
+      "Shakuntala",
+      "Narmada Shankar",
+      "Patna",
+      "sahib",
+      "zamindar",
+      "huzoor"
+    ],
+    "ch-7": [
+      "Byomkesh",
+      "Pandeyji",
+      "Ratikanta",
+      "Dr. Palit",
+      "Debnarayan",
+      "Beniprasad",
+      "Gangadhar Banshi",
+      "Shakuntala",
+      "Chandni"
+    ],
+    "ch-8": [
+      "Byomkesh",
+      "Pandeyji",
+      "Ratikanta",
+      "Debnarayan",
+      "Gangadhar Banshi",
+      "Shakuntala",
+      "Chandni",
+      "Miss Manna",
+      "adda"
+    ],
+    "ch-9": [
+      "Byomkesh",
+      "Pandeyji",
+      "Dipnarayan Singh",
+      "Dr. Palit",
+      "Debnarayan",
+      "Beniprasad",
+      "Gangadhar Banshi",
+      "Shakuntala",
+      "Chandni",
+      "Miss Manna",
+      "Narmada Shankar",
+      "hookah"
+    ],
+    "ch-10": [
+      "Byomkesh",
+      "Pandeyji",
+      "Ratikanta",
+      "Dipnarayan Singh",
+      "Dr. Palit",
+      "Dr. Jagannath Prasad",
+      "Gangadhar Banshi",
+      "Shakuntala",
+      "Miss Manna",
+      "Buxar",
+      "paan",
+      "curare",
+      "post-mortem"
+    ],
+    "ch-11": [
+      "Byomkesh",
+      "Pandeyji",
+      "Ratikanta",
+      "Dipnarayan Singh",
+      "Dr. Palit",
+      "Debnarayan",
+      "Liladhar Banshi",
+      "Gangadhar Banshi",
+      "Shakuntala",
+      "Chandni",
       "Miss Manna",
       "Khublal",
       "Narmada Shankar",
-      "Calcutta",
-      "Bihar",
-      "Pratapgarh",
-      "Allahabad University",
       "Patna",
       "Buxar",
-      "Ganges",
-      "hookah",
-      "sahib",
-      "zamindar",
-      "purdah",
-      "adda",
-      "thana",
-      "baithak-khana",
-      "huzoor",
       "compounder",
-      "bandhgala",
-      "paan",
-      "sari",
-      "B.Sc.",
-      "civil marriage",
-      "curare",
-      "post-mortem",
-      "intramuscular",
-      "satyanweshi"
+      "curare"
+    ],
+    "ch-12": [
+      "Byomkesh",
+      "Pandeyji",
+      "Ratikanta",
+      "Dipnarayan Singh",
+      "Shakuntala",
+      "Miss Manna"
+    ],
+    "ch-13": [
+      "Byomkesh",
+      "Pandeyji",
+      "Ratikanta",
+      "Dipnarayan Singh",
+      "Dr. Palit",
+      "Debnarayan",
+      "Gangadhar Banshi",
+      "Shakuntala",
+      "Chandni",
+      "Miss Manna",
+      "Calcutta",
+      "Pratapgarh",
+      "Patna",
+      "Buxar",
+      "hookah",
+      "curare"
+    ],
+    "ch-14": [
+      "Byomkesh",
+      "Calcutta",
+      "sari"
     ]
   }
 }

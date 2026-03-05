@@ -3,11 +3,11 @@
     {
       "id": "ch-1",
       "number": 1,
-      "title": "The Gramophone Pin Mystery",
+      "title": "The Peculiar Advertisement",
       "part": null,
       "partName": null,
       "image": "/data/images/chapters/byomkesh-the-gramophone-pin-mystery/pNone_chapter_1.webp",
-      "wordCount": 15117,
+      "wordCount": 5673,
       "paragraphs": [
         "B yomkesh folded the morning’s newspaper neatly and put it aside. Then he leaned back in his chair and looked out of the window abstractedly.",
         "The sun was shining brightly outside. It was a fogless February morning. There wasn’t even a cloud in the sky. We had the second floor of the house all to ourselves. The window in the drawing room provided a nice view of a part of the city and the sky. Down below, the sounds of the city coming awake had already begun; there was no end to the rush of traffic and activity on Harrison Road. Some of this bustle seemed to have carried over to the sky. Sparrows were flying around, filling the air with their uncalled-for chirps; way above them, a flock of pigeons were soaring, as if hoping to circle the sun. It was nearly eight o’clock. The two of us had just finished breakfast and were lazily turning the pages of the newspaper, looking for interesting news from the world outside.",
@@ -151,7 +151,19 @@
         "Byomkesh interrupted me, ‘Not murderers, Ajit, the murderer. The plural is completely superfluous here, except to add eminence. Much as the newsmen are clamouring about a “murderous gang”, this gang consists of a single individual. He is the sole patron, high-priest and executor of this human massacre. He is the one and only.’",
         "I could not help sounding a little doubtful, ‘How can you be so sure of that? Do you have any proof?’",
         "Byomkesh replied, ‘Proofs there are many; but at present one will suffice. Is it possible for five people to have this same incredible skill of hitting the bull’s-eye every time? Each of the pins have pierced the victim right through the heart, and not hit him a shade below or above it. Take Ashubabu’s case, for example. But for the watch, where do you think that pin would have landed? How many persons do you think can have such perfect aim? This is like looking at the shadow of the wooden fish in the water and shooting it in the eye through the spokes of a rotating wheel—I suppose you do remember Draupadi’s swayamvara? Just think, that was something that Arjun alone could accomplish—even in the days of the Mahabharata such infallible precision was unique to one person.’ Byomkesh was laughing as he stood up.",
-        "There was a room next to the drawing room which was Byomkesh’s den. He didn’t even let me in there at all times. In effect this room was his library, laboratory, museum and dressing-room, all in one. He picked up Ashubahu’s watch and proceeded towards that room now, saying, ‘There will be enough time after lunch to ponder over the patterns of this case. Now it is time for a bath.’",
+        "There was a room next to the drawing room which was Byomkesh’s den. He didn’t even let me in there at all times. In effect this room was his library, laboratory, museum and dressing-room, all in one. He picked up Ashubahu’s watch and proceeded towards that room now, saying, ‘There will be enough time after lunch to ponder over the patterns of this case. Now it is time for a bath.’"
+      ],
+      "summary": "Byomkesh points out a peculiar newspaper advertisement, leading him to believe a single murderer is responsible for recent deaths."
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "title": "The Gramophone Pin Mystery",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-gramophone-pin-mystery/pNone_chapter_2.webp",
+      "wordCount": 3860,
+      "paragraphs": [
         "Byomkesh went out at around three-thirty in the afternoon. I had no idea where he went, or why. It was dark when he returned. I was waiting for him and so was the tea. As soon as he came in, Putiram brought in some snacks. We ate in complete silence. By force of habit, it didn’t feel right if we didn’t have our evening tea together.",
         "Leaning back in his chair and lighting a cheroot, Byomkesh broke the silence first, ‘What kind of person did Ashubabu strike you as?’",
         "A trifle surprised, I said, ‘Why do you ask? I thought he was a decent man—quite mild and amicable—’",
@@ -232,7 +244,19 @@
         "‘You made them abscond?’",
         "‘Yes. Since Ashubabu had had his fortunate escape, they were on the verge of fleeing anyway. I went to Bilashbabu’s house this morning and implied through obiique hints that I already know a lot and if they didn’t make their escape soon, they’d be behind bars. Bilashbabu is an intelligent man. He took off in the evening train along with his companion.’",
         "‘But what did you gain out of making them disappear?’",
-        "Byomkesh gave a huge yawn and said, ‘I didn’t gain much, except putting a small spoke in a wheel of evil. Bilashbabu was not one to disappear empty-handed. He took with him all the money belonging to his clients that he could lay his hands on. By now I presume the police have arrested him at Burdwan—they had prior information, you see. Anyway, nothing will stop him from serving a two-year sentence at the very least. His rightful penalty would be death, of course, but since that is not possible under the circumstances, I suppose two years is better than nothing.’",
+        "Byomkesh gave a huge yawn and said, ‘I didn’t gain much, except putting a small spoke in a wheel of evil. Bilashbabu was not one to disappear empty-handed. He took with him all the money belonging to his clients that he could lay his hands on. By now I presume the police have arrested him at Burdwan—they had prior information, you see. Anyway, nothing will stop him from serving a two-year sentence at the very least. His rightful penalty would be death, of course, but since that is not possible under the circumstances, I suppose two years is better than nothing.’"
+      ],
+      "summary": "Byomkesh reveals Ashubabu's secret mistress and orchestrates the flight of a fraudulent lawyer."
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "title": "The Thorn Extricated",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-gramophone-pin-mystery/pNone_chapter_3.webp",
+      "wordCount": 5584,
+      "paragraphs": [
         "The following morning a stranger dropped in on us.",
         "I had just finished my tea and was about to open the morning paper when there was a knock on the door.",
         "Byomkesh looked up attentively and called out, ‘Who is it? Please come on in.’",
@@ -347,7 +371,8 @@
         "I had no reply to make. It took a lot to comprehend the strange paths through which admiration and sympathy for the criminal led an inquisitor.",
         "‘Letter, please!’",
         "The postman delivered a registered letter. Byomkesh tore open the envelope and extracted a sheet of coloured paper from it, looked it over and then, smiling, handed it to me. It was a cheque for a thousand rupees from Ashutosh Mitra."
-      ]
+      ],
+      "summary": "An insurance agent seeks Byomkesh's help with a rival stealing his clients, presenting a cryptic advertisement."
     }
   ]
 }

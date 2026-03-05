@@ -2,19 +2,23 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist, a 'truth-seeker' or detective known for his keen observation and logical reasoning."
+      "description": "The protagonist, a 'truth-seeker' or detective known for his keen observation and logical reasoning.",
+      "image": "/data/images/characters/byomkesh-byomkesh-and-barada/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, who narrates the story and assists in investigations."
+      "description": "Byomkesh's close friend and chronicler, who narrates the story and assists in investigations.",
+      "image": "/data/images/characters/byomkesh-byomkesh-and-barada/ajit.webp"
     },
     "Baikuntha Das": {
       "type": "character",
-      "description": "A miserly goldsmith and jeweller, whose mysterious murder is the central case of the chapter."
+      "description": "A miserly goldsmith and jeweller, whose mysterious murder is the central case of the chapter.",
+      "image": "/data/images/characters/byomkesh-byomkesh-and-barada/baikuntha-das.webp"
     },
     "Bhanupratap Singh": {
       "type": "character",
-      "description": "A constable who assists in the capture of Shailen-babu."
+      "description": "A constable who assists in the capture of Shailen-babu.",
+      "image": "/data/images/characters/byomkesh-byomkesh-and-barada/bhanupratap-singh.webp"
     },
     "Munger": {
       "type": "proper_noun",
@@ -106,27 +110,50 @@
       "Byomkesh",
       "Ajit",
       "Baikuntha Das",
-      "Bhanupratap Singh",
       "Munger",
       "Bihar",
       "Calcutta",
       "Ganga",
       "Mir Kasim",
       "Nabadwip",
+      "Gaya",
+      "babu",
+      "paan",
+      "sari"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Ajit",
+      "Munger",
+      "Calcutta",
+      "Ganga",
+      "Nabadwip",
       "Jessore",
       "Gaya",
       "Balloonbazar",
+      "babu",
+      "dhoti",
+      "sari",
+      "hookah",
+      "zamindar"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Ajit",
+      "Bhanupratap Singh",
+      "Munger",
+      "Calcutta",
+      "Ganga",
+      "Nabadwip",
+      "Jessore",
+      "Gaya",
       "Kashtaharini Ghat",
       "Peer Shanfa",
       "Robert Clive",
       "Jarasandha",
       "babu",
       "paan",
-      "dhoti",
-      "sari",
-      "hookah",
       "planchette",
-      "zamindar",
       "phaeton"
     ]
   }

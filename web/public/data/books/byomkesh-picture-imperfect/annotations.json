@@ -2,7 +2,8 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist, a renowned Bengali detective known for his sharp intellect and keen powers of observation."
+      "description": "The protagonist, a renowned Bengali detective known for his sharp intellect and keen powers of observation.",
+      "image": "/data/images/characters/byomkesh-picture-imperfect/byomkesh.webp"
     },
     "Satyaboti": {
       "type": "character",
@@ -10,7 +11,8 @@
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, who narrates the stories and assists in investigations."
+      "description": "Byomkesh's close friend and chronicler, who narrates the stories and assists in investigations.",
+      "image": "/data/images/characters/byomkesh-picture-imperfect/ajit.webp"
     },
     "Professor Adinath Shome": {
       "type": "character",
@@ -18,15 +20,18 @@
     },
     "Malati Devi": {
       "type": "character",
-      "description": "Professor Shome's wife, known for her difficult temperament and jealousy, which causes tension in her marriage."
+      "description": "Professor Shome's wife, known for her difficult temperament and jealousy, which causes tension in her marriage.",
+      "image": "/data/images/characters/byomkesh-picture-imperfect/malati-devi.webp"
     },
     "Ashwini Ghatok": {
       "type": "character",
-      "description": "The local doctor, respected for his medical skills, who is secretly in love with and eventually marries Rajani."
+      "description": "The local doctor, respected for his medical skills, who is secretly in love with and eventually marries Rajani.",
+      "image": "/data/images/characters/byomkesh-picture-imperfect/ashwini-ghatok.webp"
     },
     "Mahidhar Choudhury": {
       "type": "character",
-      "description": "A wealthy, amiable Bengali gentleman who hosts social gatherings and is Rajani's father."
+      "description": "A wealthy, amiable Bengali gentleman who hosts social gatherings and is Rajani's father.",
+      "image": "/data/images/characters/byomkesh-picture-imperfect/mahidhar-choudhury.webp"
     },
     "Rajani": {
       "type": "character",
@@ -46,7 +51,8 @@
     },
     "Amaresh Raha": {
       "type": "character",
-      "description": "The local bank manager, seemingly unremarkable but ultimately revealed as the criminal mastermind."
+      "description": "The local bank manager, seemingly unremarkable but ultimately revealed as the criminal mastermind.",
+      "image": "/data/images/characters/byomkesh-picture-imperfect/amaresh-raha.webp"
     },
     "Phalguni Pal": {
       "type": "character",
@@ -141,6 +147,65 @@
       "Santhal district",
       "DSP",
       "Christmas",
+      "babu",
+      "Devi",
+      "dhoti",
+      "sari",
+      "rickshaw",
+      "shawl"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Satyaboti",
+      "Ajit",
+      "Malati Devi",
+      "Rajani",
+      "Purandar Pandey",
+      "Phalguni Pal",
+      "Calcutta",
+      "DSP",
+      "babu",
+      "Devi",
+      "almirah",
+      "rickshaw",
+      "shawl"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Satyaboti",
+      "Ajit",
+      "Professor Adinath Shome",
+      "Malati Devi",
+      "Rajani",
+      "Nakulesh Sarkar",
+      "Purandar Pandey",
+      "Amaresh Raha",
+      "Phalguni Pal",
+      "Calcutta",
+      "Bengal",
+      "DSP",
+      "New Year",
+      "Gujarati",
+      "babu",
+      "Devi",
+      "almirah",
+      "shawl",
+      "peon"
+    ],
+    "ch-4": [
+      "Byomkesh",
+      "Satyaboti",
+      "Ajit",
+      "Malati Devi",
+      "Rajani",
+      "Nakulesh Sarkar",
+      "Purandar Pandey",
+      "Amaresh Raha",
+      "Phalguni Pal",
+      "Calcutta",
+      "Bengal",
+      "DSP",
+      "Christmas",
       "New Year",
       "Gujarati",
       "Bombay",
@@ -148,11 +213,8 @@
       "babu",
       "Devi",
       "almirah",
-      "dhoti",
       "sari",
-      "rickshaw",
-      "shawl",
-      "peon"
+      "rickshaw"
     ]
   }
 }

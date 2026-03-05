@@ -2,15 +2,18 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist, a brilliant and unconventional detective who prefers to call himself a 'Seeker of Truth' rather than a detective."
+      "description": "The protagonist, a brilliant and unconventional detective who prefers to call himself a 'Seeker of Truth' rather than a detective.",
+      "image": "/data/images/characters/byomkesh-the-gramophone-pin-mystery/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, who narrates the stories and often assists in investigations."
+      "description": "Byomkesh's close friend and chronicler, who narrates the stories and often assists in investigations.",
+      "image": "/data/images/characters/byomkesh-the-gramophone-pin-mystery/ajit.webp"
     },
     "Ashutosh Mitra": {
       "type": "character",
-      "description": "A middle-aged, unmarried man who becomes a target in the gramophone pin mystery."
+      "description": "A middle-aged, unmarried man who becomes a target in the gramophone pin mystery.",
+      "image": "/data/images/characters/byomkesh-the-gramophone-pin-mystery/ashutosh-mitra.webp"
     },
     "Prafulla Roy": {
       "type": "character",
@@ -22,11 +25,13 @@
     },
     "Jayhari Sanyal": {
       "type": "character",
-      "description": "The first victim of the gramophone pin murders, found dead on Cornwallis Street."
+      "description": "The first victim of the gramophone pin murders, found dead on Cornwallis Street.",
+      "image": "/data/images/characters/byomkesh-the-gramophone-pin-mystery/jayhari-sanyal.webp"
     },
     "Kailashchandra Moulik": {
       "type": "character",
-      "description": "A wealthy businessman and the second victim of the gramophone pin murders."
+      "description": "A wealthy businessman and the second victim of the gramophone pin murders.",
+      "image": "/data/images/characters/byomkesh-the-gramophone-pin-mystery/kailashchandra-moulik.webp"
     },
     "Kali Singh": {
       "type": "character",
@@ -38,7 +43,8 @@
     },
     "Bilash Mullick": {
       "type": "character",
-      "description": "Ashubabu's lawyer who conspires against him and later absconds with his companion."
+      "description": "Ashubabu's lawyer who conspires against him and later absconds with his companion.",
+      "image": "/data/images/characters/byomkesh-the-gramophone-pin-mystery/bilash-mullick.webp"
     },
     "Binod": {
       "type": "character",
@@ -202,13 +208,10 @@
       "Byomkesh",
       "Ajit",
       "Ashutosh Mitra",
-      "Prafulla Roy",
-      "Putiram",
       "Jayhari Sanyal",
       "Kailashchandra Moulik",
       "Kali Singh",
       "Krishnadayal Laha",
-      "Bilash Mullick",
       "Binod",
       "Harrison Road",
       "Whiteway Laidlaw",
@@ -223,31 +226,52 @@
       "Jorasanko",
       "Amherst Street",
       "Nebutola",
-      "Kidderpore",
-      "Bowbazar",
-      "Howrah",
-      "Howrah Bridge",
-      "Jessore",
-      "Burdwan",
-      "Lalbazar",
-      "Sealdah",
-      "Chowringhee",
-      "Kalighat",
-      "Circular Road",
-      "Jewel Insurance Company",
       "Daily Kalketu",
       "Reuters",
       "Mahabharata",
       "Draupadi",
       "Arjun",
-      "Deoghar",
       "babu",
       "dhoti",
       "kurta",
-      "adda",
+      "adda"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Ajit",
+      "Putiram",
+      "Bilash Mullick",
+      "Whiteway Laidlaw",
+      "Calcutta",
+      "Jorasanko",
+      "Kidderpore",
+      "Bowbazar",
+      "Howrah",
+      "Howrah Bridge",
+      "Burdwan",
+      "Circular Road",
+      "Deoghar",
+      "babu",
+      "kurta",
       "paan",
       "paanwallah",
       "cheroot"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Ajit",
+      "Ashutosh Mitra",
+      "Prafulla Roy",
+      "Calcutta",
+      "Kidderpore",
+      "Jessore",
+      "Lalbazar",
+      "Sealdah",
+      "Chowringhee",
+      "Kalighat",
+      "Jewel Insurance Company",
+      "babu",
+      "paan"
     ]
   }
 }

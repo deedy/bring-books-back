@@ -2,15 +2,18 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "A renowned detective and truth-seeker who investigates mysteries with keen observation and logic."
+      "description": "A renowned detective and truth-seeker who investigates mysteries with keen observation and logic.",
+      "image": "/data/images/characters/byomkesh-the-rhythm-of-riddles/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "The narrator and chronicler of Byomkesh's adventures, he is Byomkesh's close friend and often assists in investigations."
+      "description": "The narrator and chronicler of Byomkesh's adventures, he is Byomkesh's close friend and often assists in investigations.",
+      "image": "/data/images/characters/byomkesh-the-rhythm-of-riddles/ajit.webp"
     },
     "Bhupesh Chatterjee": {
       "type": "character",
-      "description": "A middle-aged, refined insurance company employee and recent resident of the boarding house, who is deeply fond of bridge."
+      "description": "A middle-aged, refined insurance company employee and recent resident of the boarding house, who is deeply fond of bridge.",
+      "image": "/data/images/characters/byomkesh-the-rhythm-of-riddles/bhupesh-chatterjee.webp"
     },
     "Satyabati": {
       "type": "character",
@@ -22,11 +25,13 @@
     },
     "Banamali Chanda": {
       "type": "character",
-      "description": "A reticent bank employee with an Eastern Bengali accent, later revealed to be Banabehari Biswas."
+      "description": "A reticent bank employee with an Eastern Bengali accent, later revealed to be Banabehari Biswas.",
+      "image": "/data/images/characters/byomkesh-the-rhythm-of-riddles/banamali-chanda.webp"
     },
     "Natabar Nashkar": {
       "type": "character",
-      "description": "A solitary boarder on the ground floor, later revealed to have been a blackmailer, whose murder is central to the story."
+      "description": "A solitary boarder on the ground floor, later revealed to have been a blackmailer, whose murder is central to the story.",
+      "image": "/data/images/characters/byomkesh-the-rhythm-of-riddles/natabar-nashkar.webp"
     },
     "Shibkali Chakraborty": {
       "type": "character",
@@ -38,7 +43,8 @@
     },
     "Haripada": {
       "type": "character",
-      "description": "The servant in the boarding house, who provides a potentially significant observation about Natabar's last visitor."
+      "description": "The servant in the boarding house, who provides a potentially significant observation about Natabar's last visitor.",
+      "image": "/data/images/characters/byomkesh-the-rhythm-of-riddles/haripada.webp"
     },
     "Suren-babu": {
       "type": "character",

@@ -3,11 +3,11 @@
     {
       "id": "ch-1",
       "number": 1,
-      "title": "The Inquisitor",
+      "title": "A New Beginning in Calcutta",
       "part": null,
       "partName": null,
       "image": "/data/images/chapters/byomkesh-the-inquisitor/pNone_chapter_1.webp",
-      "wordCount": 9899,
+      "wordCount": 5093,
       "paragraphs": [
         "M y first meeting with Byomkesh Bakshi took place in the spring of 1925.",
         "I was fresh out of the university. There was no pressing need to try and earn my keep. The money that my father had left in the bank generated an interest decent enough to cover the expenses of a single person living in a boarding-house in Calcutta. I had decided to remain a bachelor all my life and to spend my time practising the literary arts. The first flush of youthful enthusiasm had led me to believe that a serious dedication to the literary muse would enable me to change the face of literature in Bengal. At this point in life it is not uncommon for Bengalis to dream of greatness—and it usually doesn’t take very long for these dreams to shatter.",
@@ -129,7 +129,19 @@
         "All of us shook our heads in silence. Anukulbabu said, ‘Look sir, you are perhaps aware that this locality witnesses more than its fair share of murders. In fact just the day before yesterday one took place right in front of this house. My guess is that all these killings are linked to one another—if one is solved, all the others would be too. That is, of course, if we accept that Ashwinibabu has been murdered!’",
         "The inspector said, ‘That may indeed be true. But if one is to wait for the other crimes to be solved, I am afraid it might turn out to be an eternal wait.’",
         "Atul said, ‘Sir, if you want to get to the bottom of this murder, please ponder over that window.’",
-        "Wearily, the inspector replied, ‘We shall have to ponder over each and every thing, Atulbabu. Now I shall have to search your rooms.’",
+        "Wearily, the inspector replied, ‘We shall have to ponder over each and every thing, Atulbabu. Now I shall have to search your rooms.’"
+      ],
+      "summary": "A murder occurs in the narrator's boarding house, drawing the attention of the police and a mysterious investigator."
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "title": "The Shadow of Suspicion",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-inquisitor/pNone_chapter_2.webp",
+      "wordCount": 3549,
+      "paragraphs": [
         "All the rooms, both downstairs and upstairs, came under the most vigilant scrutiny—but none of them revealed anything that went towards clearing up the mystery of the sudden death. Ashwinibabu’s room was duly inspected too, but it yielded nothing more than a few ordinary letters. The empty case of the razor lay beside the bed. We all knew that Ashwinibabu had been in the habit of doing his own shaving and it wasn’t difficult to identify the case either. The body had already been removed. Now his room was locked and sealed off. Having done his bit, the inspector left the premises at around one-thirty in the afternoon.",
         "Ashwinibabu’s family had been informed of the tragedy by telegram. In the evening his sons and other close relatives arrived. They were all in a complete state of shock. Although we were not related to Ashwinibabu, each of us was deeply affected by his death as well. Moreover, there was some concern for our own lives too. If such a thing could happen right next door, what was to prevent it from happening to us? The distressing, unfortunate day passed in a haze of ragged, apprehensive gloom.",
         "At night, before going to bed, I dropped in on the doctor and found him sitting still with a sombre look on his face. The events of the day had etched deep grooves on his usually calm, unruffled countenance. I took a seat beside him and said, ‘I believe everyone in the mess is planning to shift somewhere else.’",
@@ -221,7 +233,19 @@
         "We arrived at a three-storeyed house on Harrison Road. A brass-inscripted plate beside the door read:",
         "Byomkesh Bakshi",
         "Inquisitor",
-        "Byomkesh said, ‘Welcome! Please do me the honour of setting foot in my humble abode.’",
+        "Byomkesh said, ‘Welcome! Please do me the honour of setting foot in my humble abode.’"
+      ],
+      "summary": "The doctor suspects Ashwinibabu was a cocaine trafficker, leading to his death. Byomkesh Bakshi is revealed as an inquisitor."
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "title": "The Truth Revealed",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-the-inquisitor/pNone_chapter_3.webp",
+      "wordCount": 1257,
+      "paragraphs": [
         "I asked, ‘What is this “Inquisitor” business?’",
         "‘That is my identity. I don’t like the sound of the word “detective”; “investigator” is even worse. So I call myself an Inquisitor, a Seeker of Truth. What’s the matter—don’t you like it?’",
         "Byomkesh had the entire second floor to himself—there were four or five rooms in all, quite decently kept. I asked, ‘Do you live alone?’",
@@ -257,7 +281,8 @@
         "‘Never more.’",
         "‘In that case, why don’t you stay here while I go and get my things?’",
         "With a smile, Byomkesh said, ‘Don’t forget to bring my things along too.’"
-      ]
+      ],
+      "summary": "Byomkesh reveals the doctor is a murderer and drug trafficker, explaining how he uncovered the truth and trapped the killer."
     }
   ]
 }

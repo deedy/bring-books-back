@@ -35,7 +35,9 @@ function initialRange(total: number, currentIdx: number | null): { start: number
 export default function ChapterList({ chapters, bookId, accentColor }: ChapterListProps) {
   const progress = useReadingStore((s) => s.getProgress(bookId));
   const languageParam = useBookLanguageParam(bookId);
-  const currentIdx = progress && !progress.finished ? progress.currentChapter : null;
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  const currentIdx = mounted && progress && !progress.finished ? progress.currentChapter : null;
   const range = initialRange(chapters.length, currentIdx);
 
   const [expanded, setExpanded] = useState(false);

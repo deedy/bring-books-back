@@ -74,7 +74,8 @@ export default function ReaderView({
     if (initialChapter !== undefined && initialChapter >= 1 && initialChapter <= chapters.length) {
       return initialChapter - 1;
     }
-    return useReadingStore.getState().progress[bookId]?.currentChapter ?? 0;
+    const stored = useReadingStore.getState().progress[bookId]?.currentChapter ?? 0;
+    return Math.min(stored, chapters.length - 1);
   });
   const [showPicker, setShowPicker] = useState(false);
   const [headerVisible, setHeaderVisible] = useState(true);
@@ -110,8 +111,9 @@ export default function ReaderView({
   // Build chapter URL path
   const chapterUrl = useCallback(
     (idx: number) => {
-      const ch = chapters[idx];
-      const base = `/read/${bookId}/${chapterPath(ch, idx + 1)}`;
+      const clampedIdx = Math.max(0, Math.min(idx, chapters.length - 1));
+      const ch = chapters[clampedIdx];
+      const base = `/read/${bookId}/${chapterPath(ch, clampedIdx + 1)}`;
       // Read query string directly from window.location — not from
       // searchParams which can go stale after pushState/replaceState.
       const qs = typeof window !== "undefined" ? window.location.search : "";

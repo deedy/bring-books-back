@@ -2,11 +2,13 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The central detective figure, known as a 'satyanweshi' or truth-seeker, who investigates mysteries with keen observation and logic."
+      "description": "The central detective figure, known as a 'satyanweshi' or truth-seeker, who investigates mysteries with keen observation and logic.",
+      "image": "/data/images/characters/byomkesh-the-mystery-of-the-fortress/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, who narrates their adventures and assists in investigations."
+      "description": "Byomkesh's close friend and chronicler, who narrates their adventures and assists in investigations.",
+      "image": "/data/images/characters/byomkesh-the-mystery-of-the-fortress/ajit.webp"
     },
     "Satyabati": {
       "type": "character",
@@ -30,7 +32,8 @@
     },
     "Banshidhar": {
       "type": "character",
-      "description": "Ram Kishore's eldest son, known for his fierce temper and involvement in managing the zamindari."
+      "description": "Ram Kishore's eldest son, known for his fierce temper and involvement in managing the zamindari.",
+      "image": "/data/images/characters/byomkesh-the-mystery-of-the-fortress/banshidhar.webp"
     },
     "Muralidhar": {
       "type": "character",
@@ -58,7 +61,8 @@
     },
     "Chandmohan Dutta": {
       "type": "character",
-      "description": "The family's long-serving steward, shrewd and knowledgeable about property and estate affairs."
+      "description": "The family's long-serving steward, shrewd and knowledgeable about property and estate affairs.",
+      "image": "/data/images/characters/byomkesh-the-mystery-of-the-fortress/chandmohan-dutta.webp"
     },
     "Ramapati": {
       "type": "character",
@@ -66,7 +70,8 @@
     },
     "Bulaki Lal": {
       "type": "character",
-      "description": "Ram Kishore's old chauffeur, responsible for the family's motor car and known for preparing bhang thandai."
+      "description": "Ram Kishore's old chauffeur, responsible for the family's motor car and known for preparing bhang thandai.",
+      "image": "/data/images/characters/byomkesh-the-mystery-of-the-fortress/bulaki-lal.webp"
     },
     "Ishanchandra Majumdar": {
       "type": "character",
@@ -78,7 +83,8 @@
     },
     "Dr. Ghatak": {
       "type": "character",
-      "description": "The resident physician for Ram Kishore's family, involved in the aftermath of the mysterious deaths."
+      "description": "The resident physician for Ram Kishore's family, involved in the aftermath of the mysterious deaths.",
+      "image": "/data/images/characters/byomkesh-the-mystery-of-the-fortress/dr-ghatak.webp"
     },
     "Sadhu": {
       "type": "character",
@@ -224,12 +230,8 @@
   "chapters": {
     "ch-1": [
       "Byomkesh",
-      "Ajit",
-      "Satyabati",
       "Rajarama",
       "Jayarama",
-      "Ram Binod",
-      "Ram Kishore Singh",
       "Banshidhar",
       "Muralidhar",
       "Haripriya",
@@ -239,12 +241,8 @@
       "Ganpat",
       "Chandmohan Dutta",
       "Ramapati",
-      "Bulaki Lal",
       "Ishanchandra Majumdar",
       "Purandar Pandey",
-      "Dr. Ghatak",
-      "Sadhu",
-      "Company rule",
       "Janakirama",
       "zamindari",
       "Sepoy Mutiny",
@@ -253,28 +251,136 @@
       "ghee",
       "Berhampore College",
       "B.Sc.",
-      "ghar-jamai",
       "Vaishnav",
       "Bedes",
       "shilajit",
-      "Santal Parganas",
+      "Bihar",
+      "asharfi",
+      "krosh",
+      "dhoti",
+      "bhang",
+      "sal",
+      "Mahashay",
+      "cubits",
+      "para"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Ajit",
+      "Satyabati",
+      "Banshidhar",
+      "Muralidhar",
+      "Haripriya",
+      "Monilal",
+      "Gadadhar",
+      "Tulsi",
+      "Ganpat",
+      "Ramapati",
+      "Bulaki Lal",
+      "Purandar Pandey",
+      "Dr. Ghatak",
+      "Sadhu",
+      "Janakirama",
+      "zamindari",
+      "Sepoy Mutiny",
+      "Santhal",
+      "Bengal",
       "Harrison Road",
       "Nepal",
       "Genghis Khan",
       "Yama",
       "Bihar",
       "Badshahs",
-      "mohar",
-      "asharfi",
-      "krosh",
-      "dhoti",
       "bhang",
-      "bhang thandai",
+      "sal",
+      "satyanweshi",
+      "baba",
+      "bighas"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Ajit",
+      "Satyabati",
+      "Banshidhar",
+      "Muralidhar",
+      "Monilal",
+      "Tulsi",
+      "Ramapati",
+      "Bulaki Lal",
+      "Dr. Ghatak",
+      "Janakirama",
+      "Sepoy Mutiny",
+      "Bengal",
+      "para"
+    ],
+    "ch-4": [
+      "Byomkesh",
+      "Ajit",
+      "Satyabati",
+      "Ram Binod",
+      "Banshidhar",
+      "Muralidhar",
+      "Monilal",
+      "Gadadhar",
+      "Tulsi",
+      "Ganpat",
+      "Ramapati",
+      "Bulaki Lal",
+      "Dr. Ghatak",
+      "Sadhu",
+      "ghee",
+      "bhang",
+      "baba"
+    ],
+    "ch-5": [
+      "Byomkesh",
+      "Ajit",
+      "Satyabati",
+      "Banshidhar",
+      "Muralidhar",
+      "Monilal",
+      "Gadadhar",
+      "Tulsi",
+      "Ramapati",
+      "Sadhu",
+      "Bengal",
+      "Bedes",
+      "bhang",
       "sal",
       "baba",
-      "Mahashay",
       "cubits",
-      "bighas",
+      "para"
+    ],
+    "ch-6": [
+      "Byomkesh",
+      "Ajit",
+      "Ram Binod",
+      "Banshidhar",
+      "Haripriya",
+      "Monilal",
+      "Tulsi",
+      "Ramapati",
+      "Bulaki Lal",
+      "Dr. Ghatak",
+      "Sadhu",
+      "bhang",
+      "sal",
+      "baba"
+    ],
+    "ch-7": [
+      "Byomkesh",
+      "Ajit",
+      "Satyabati",
+      "Banshidhar",
+      "Muralidhar",
+      "Haripriya",
+      "Monilal",
+      "Gadadhar",
+      "Tulsi",
+      "Ramapati",
+      "Dr. Ghatak",
+      "Janakirama",
+      "Bedes",
       "para"
     ]
   }

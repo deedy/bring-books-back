@@ -3,11 +3,11 @@
     {
       "id": "ch-1",
       "number": 1,
-      "title": "An Encore for Byomkesh",
+      "title": "The Trial's End and a Strange Matchbox",
       "part": null,
       "partName": null,
       "image": "/data/images/chapters/byomkesh-an-encore-for-byomkesh/pNone_chapter_1.webp",
-      "wordCount": 11481,
+      "wordCount": 4078,
       "paragraphs": [
         "D ebkumarbabu’s trial had come to an end at the High Court. It was early February. The severity of winter was subsiding gradually. At times a light breeze brought the reminder that spring was not far away, but the warm rays of the morning sun still seemed inviting enough.",
         "That morning, I was sitting by the window and soaking up the sun while turning the pages of the newspaper. Byomkesh had left on some errand soon after breakfast. He had said he would be back by ten o’clock.",
@@ -152,7 +152,19 @@
         "Calcutta.",
         "Byomkesh jotted the address down and said, ‘I see it is in our neighbourhood. We shall take our leave now—there is no sense in wasting your precious time unnecessarily. Thank you very much.’",
         "The editor said, ‘There is no need to thank me. Just see to it that we get a tip-off if there is some sensational news. I suppose you know that we were the first ones to print the news of Debkumarbabu’s case.’",
-        "‘Oh yes, certainly.’ We left the office and headed straight for Sitaram Ghose Street. The house numbered 18/1 was a small two-storeyed affair. Some quilts and sheets were drying out on the railings; the murmur of young children memorizing their lessons could be heard from inside.",
+        "‘Oh yes, certainly.’ We left the office and headed straight for Sitaram Ghose Street. The house numbered 18/1 was a small two-storeyed affair. Some quilts and sheets were drying out on the railings; the murmur of young children memorizing their lessons could be heard from inside."
+      ],
+      "summary": "A mysterious matchbox in Byomkesh's pocket sparks his curiosity, leading him and his companion to a new address."
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "title": "A Familiar Face and a Twisted Plan",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-an-encore-for-byomkesh/pNone_chapter_2.webp",
+      "wordCount": 2944,
+      "paragraphs": [
         "Byomkesh said, ‘Wrong address. Anyway, since we have come, let us check it out.’",
         "After some knocking and shouting a domestic came out of the house, ‘Who would you be looking for, sir?’",
         "‘Is the master at home?’",
@@ -274,7 +286,19 @@
         "The manager opened the door quickly and stood aside.",
         "Upon entering the room, Byomkesh threw a quick glance all around and said, ‘It looks as if he hasn’t taken anything with him; his boxes and belongings are still in place.’",
         "The manager said, ‘He has just taken a small bag and a flask. Everything else is still here. He said he would be back in a couple of days and so I thought...’",
-        "Byomkesh said, ‘Right. Now, could you please send word to the police inspector, Birenbabu—tell him that the thief has been found and he should come immediately. In the meantime we shall take a look around this room.’",
+        "Byomkesh said, ‘Right. Now, could you please send word to the police inspector, Birenbabu—tell him that the thief has been found and he should come immediately. In the meantime we shall take a look around this room.’"
+      ],
+      "summary": "Byomkesh discovers the police inspector is playing a prank. He devises a risky plan and alerts the inspector to a found \"thief."
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "title": "The Unveiling of the Avenger",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-an-encore-for-byomkesh/pNone_chapter_3.webp",
+      "wordCount": 4459,
+      "paragraphs": [
         "After the manager left, Byomkesh began to inspect the furniture in the room. Nearly all the rooms in this boarding- house were quite large—two or three people shared each one. But this was a smaller room, designed for a single occupant. The rent was also higher than the norm. As a result, the room stayed empty most of the time. It was ideal for someone who wished to live in a mess and yet maintain his privacy.",
         "There was nothing in the room except for a couple of trunks and bedding. Byomkesh scrutinized the bed and remarked, ‘It is winter and yet he hasn’t taken either the blanket or the pillow with him. Do you know what that means?’",
         "‘No. What does it mean?’",
@@ -420,7 +444,8 @@
         "Putiram came in to collect the empty teacups. Byomkesh looked at him and asked, ‘Putiram, have you brought the first book?’",
         "Sheepishly Putiram replied, ‘Yes, sir.’",
         "‘Good. Ajit, let Putiram’s higher education begin today. After all there is no guarantee that every time the culprit will use a taxi numbered 8008 for his getaway.’"
-      ]
+      ],
+      "summary": "Byomkesh realizes the man is an old enemy seeking revenge, using disguises and hidden matches."
     }
   ]
 }

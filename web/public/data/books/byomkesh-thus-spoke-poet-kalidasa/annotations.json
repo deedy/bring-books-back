@@ -2,11 +2,13 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist, a renowned truth-seeker and detective, traveling under the alias Gagan Mitra in this case."
+      "description": "The protagonist, a renowned truth-seeker and detective, traveling under the alias Gagan Mitra in this case.",
+      "image": "/data/images/characters/byomkesh-thus-spoke-poet-kalidasa/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "The narrator and close companion of Byomkesh, chronicling the events of the investigation."
+      "description": "The narrator and close companion of Byomkesh, chronicling the events of the investigation.",
+      "image": "/data/images/characters/byomkesh-thus-spoke-poet-kalidasa/ajit.webp"
     },
     "Phanish": {
       "type": "character",
@@ -26,7 +28,8 @@
     },
     "Gagan Mitra": {
       "type": "character",
-      "description": "Alias used by Byomkesh during the investigation."
+      "description": "Alias used by Byomkesh during the investigation.",
+      "image": "/data/images/characters/byomkesh-thus-spoke-poet-kalidasa/gagan-mitra.webp"
     },
     "Sujit Bandyopadhyay": {
       "type": "character",
@@ -42,11 +45,13 @@
     },
     "Dr. Jatindra Ghosh": {
       "type": "character",
-      "description": "The physician at the mine's dispensary and hospital, a contemporary of Byomkesh and Ajit."
+      "description": "The physician at the mine's dispensary and hospital, a contemporary of Byomkesh and Ajit.",
+      "image": "/data/images/characters/byomkesh-thus-spoke-poet-kalidasa/dr-jatindra-ghosh.webp"
     },
     "Aravinda": {
       "type": "character",
-      "description": "Gobinda Halder's younger brother and business partner, notorious for his vices and bad reputation."
+      "description": "Gobinda Halder's younger brother and business partner, notorious for his vices and bad reputation.",
+      "image": "/data/images/characters/byomkesh-thus-spoke-poet-kalidasa/aravinda.webp"
     },
     "Mrigendra Moulik": {
       "type": "character",
@@ -70,7 +75,8 @@
     },
     "Bikash": {
       "type": "character",
-      "description": "A clever young man known to Byomkesh, summoned to work as a compounder at the colliery dispensary."
+      "description": "A clever young man known to Byomkesh, summoned to work as a compounder at the colliery dispensary.",
+      "image": "/data/images/characters/byomkesh-thus-spoke-poet-kalidasa/bikash.webp"
     },
     "Calcutta": {
       "type": "place",
@@ -180,42 +186,92 @@
       "Phanish",
       "Indira",
       "Manish Babu",
-      "Gobinda Halder",
       "Gagan Mitra",
       "Sujit Bandyopadhyay",
       "Surapati Ghatak",
       "Tarapada Babu",
-      "Dr. Jatindra Ghosh",
       "Aravinda",
       "Mrigendra Moulik",
       "Madhumoy Sur",
       "Pranahari Poddar",
       "Mohini",
-      "Promod Barat",
-      "Bikash",
       "Calcutta",
       "swadeshi",
       "Uludanga",
-      "Dhupipota",
       "Shimulia",
       "Cuttack",
       "Orissa",
       "Coal Club",
       "Uludanga Khoni Road",
-      "Fuljhuri Colliery",
+      "Yale lock",
+      "babu",
+      "Mahashay",
+      "panjabi",
+      "para"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Phanish",
+      "Indira",
+      "Manish Babu",
+      "Gagan Mitra",
+      "Surapati Ghatak",
+      "Aravinda",
+      "Pranahari Poddar",
+      "Mohini",
+      "Promod Barat",
+      "Bikash",
+      "Uludanga",
+      "Cuttack",
+      "Orissa",
+      "Coal Club",
       "Golap Colony",
-      "Doropani",
       "Yale lock",
       "thana",
       "babu",
-      "Mahashay",
-      "daroga-babu",
-      "dhuti",
       "panjabi",
       "para",
-      "baithak-khana",
       "compounder",
       "PM report"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Ajit",
+      "Phanish",
+      "Indira",
+      "Manish Babu",
+      "Aravinda",
+      "Madhumoy Sur",
+      "Pranahari Poddar",
+      "Mohini",
+      "Bikash",
+      "Calcutta",
+      "Cuttack",
+      "Coal Club",
+      "thana",
+      "babu",
+      "panjabi",
+      "para",
+      "baithak-khana"
+    ],
+    "ch-4": [
+      "Byomkesh",
+      "Ajit",
+      "Phanish",
+      "Indira",
+      "Manish Babu",
+      "Surapati Ghatak",
+      "Madhumoy Sur",
+      "Pranahari Poddar",
+      "Mohini",
+      "Bikash",
+      "Calcutta",
+      "Cuttack",
+      "Orissa",
+      "Coal Club",
+      "thana",
+      "babu",
+      "para"
     ]
   }
 }

@@ -6,11 +6,13 @@
     },
     "Gunadhar": {
       "type": "character",
-      "description": "Uniformed bearer at Nirupama Hotel, efficient and attentive to the guests' needs."
+      "description": "Uniformed bearer at Nirupama Hotel, efficient and attentive to the guests' needs.",
+      "image": "/data/images/characters/byomkesh-room-number-two/gunadhar.webp"
     },
     "Byomkesh Bakshi": {
       "type": "character",
-      "description": "The famous detective, known as the Truth Seeker, who investigates the murder at Nirupama Hotel."
+      "description": "The famous detective, known as the Truth Seeker, who investigates the murder at Nirupama Hotel.",
+      "image": "/data/images/characters/byomkesh-room-number-two/byomkesh-bakshi.webp"
     },
     "Rakhal Sarkar": {
       "type": "character",
@@ -22,7 +24,8 @@
     },
     "Dr. Shobhona Roy": {
       "type": "character",
-      "description": "Dr. Shobhona Roy is a lady doctor staying in Room Number One at Nirupama Hotel, later revealed as the mother-in-law of the victim, and sometimes referred to as Dr. Roy."
+      "description": "Dr. Shobhona Roy is a lady doctor staying in Room Number One at Nirupama Hotel, later revealed as the mother-in-law of the victim, and sometimes referred to as Dr. Roy.",
+      "image": "/data/images/characters/byomkesh-room-number-two/dr-shobhona-roy.webp"
     },
     "Rampirit Singh": {
       "type": "character",
@@ -34,7 +37,8 @@
     },
     "Bhagaban Mohanti": {
       "type": "character",
-      "description": "A hardened criminal and fugitive who appears in the victim's diary under the alias Jagabandhu Patra."
+      "description": "A hardened criminal and fugitive who appears in the victim's diary under the alias Jagabandhu Patra.",
+      "image": "/data/images/characters/byomkesh-room-number-two/bhagaban-mohanti.webp"
     },
     "Mohanlal Kumar": {
       "type": "character",
@@ -54,11 +58,13 @@
     },
     "Dutta": {
       "type": "character",
-      "description": "A sub-inspector assisting Rakhal Sarkar in the investigation."
+      "description": "A sub-inspector assisting Rakhal Sarkar in the investigation.",
+      "image": "/data/images/characters/byomkesh-room-number-two/dutta.webp"
     },
     "Ghose": {
       "type": "character",
-      "description": "Another sub-inspector involved in the investigation."
+      "description": "Another sub-inspector involved in the investigation.",
+      "image": "/data/images/characters/byomkesh-room-number-two/ghose.webp"
     },
     "Nirupama Hotel": {
       "type": "proper_noun",

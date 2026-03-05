@@ -2,11 +2,13 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "The protagonist and sharp detective known as a 'truth-seeker' or 'satyanweshi' who solves mysteries using keen observation and logic."
+      "description": "The protagonist and sharp detective known as a 'truth-seeker' or 'satyanweshi' who solves mysteries using keen observation and logic.",
+      "image": "/data/images/characters/byomkesh-the-deadly-diamond/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "The narrator and close friend of Byomkesh, who documents their adventures and assists in investigations."
+      "description": "The narrator and close friend of Byomkesh, who documents their adventures and assists in investigations.",
+      "image": "/data/images/characters/byomkesh-the-deadly-diamond/ajit.webp"
     },
     "Ramanath Neogi": {
       "type": "character",
@@ -14,19 +16,23 @@
     },
     "Maharaja Ramendra Sinha": {
       "type": "character",
-      "description": "A wealthy and benevolent aristocrat, owner of the stolen blue diamond, who seeks Byomkesh's help after his secretary's murder."
+      "description": "A wealthy and benevolent aristocrat, owner of the stolen blue diamond, who seeks Byomkesh's help after his secretary's murder.",
+      "image": "/data/images/characters/byomkesh-the-deadly-diamond/maharaja-ramendra-sinha.webp"
     },
     "Haripada Rakshit": {
       "type": "character",
-      "description": "The Maharaja's secretary, a reformed criminal with a history of imprisonment, whose murder is the focus of the investigation."
+      "description": "The Maharaja's secretary, a reformed criminal with a history of imprisonment, whose murder is the focus of the investigation.",
+      "image": "/data/images/characters/byomkesh-the-deadly-diamond/haripada-rakshit.webp"
     },
     "Nirmal babu": {
       "type": "character",
-      "description": "A retired and intelligent police detective who previously investigated the theft of the blue diamond."
+      "description": "A retired and intelligent police detective who previously investigated the theft of the blue diamond.",
+      "image": "/data/images/characters/byomkesh-the-deadly-diamond/nirmal-babu.webp"
     },
     "Bidhu babu": {
       "type": "character",
-      "description": "A police inspector involved in the current investigation, sometimes referred to by the variant name Buddhu babu."
+      "description": "A police inspector involved in the current investigation, sometimes referred to by the variant name Buddhu babu.",
+      "image": "/data/images/characters/byomkesh-the-deadly-diamond/bidhu-babu.webp"
     },
     "Purna babu": {
       "type": "character",
@@ -104,7 +110,6 @@
       "Bidhu babu",
       "Purna babu",
       "Putiram",
-      "Raktamukhi Neela",
       "Saratchandra",
       "Charitraheen",
       "Alipur",

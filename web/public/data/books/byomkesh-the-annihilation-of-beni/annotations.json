@@ -18,19 +18,23 @@
     },
     "Byomkesh": {
       "type": "character",
-      "description": "The central detective figure, known as a 'truth-seeker', who investigates the murders."
+      "description": "The central detective figure, known as a 'truth-seeker', who investigates the murders.",
+      "image": "/data/images/characters/byomkesh-the-annihilation-of-beni/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, present during the investigation."
+      "description": "Byomkesh's close friend and chronicler, present during the investigation.",
+      "image": "/data/images/characters/byomkesh-the-annihilation-of-beni/ajit.webp"
     },
     "Debashis": {
       "type": "character",
-      "description": "A young man who owns a house in South Calcutta, later married to Deepa."
+      "description": "A young man who owns a house in South Calcutta, later married to Deepa.",
+      "image": "/data/images/characters/byomkesh-the-annihilation-of-beni/debashis.webp"
     },
     "Deepa": {
       "type": "character",
-      "description": "Debashis's wife, a young woman from an aristocratic, orthodox family, struggling with her marriage."
+      "description": "Debashis's wife, a young woman from an aristocratic, orthodox family, struggling with her marriage.",
+      "image": "/data/images/characters/byomkesh-the-annihilation-of-beni/deepa.webp"
     },
     "Nakulesh": {
       "type": "character",
@@ -50,7 +54,8 @@
     },
     "Bijoyamadhab": {
       "type": "character",
-      "description": "Deepa's elder brother, an M.A. in Sanskrit, actively involved in arranging her marriage."
+      "description": "Deepa's elder brother, an M.A. in Sanskrit, actively involved in arranging her marriage.",
+      "image": "/data/images/characters/byomkesh-the-annihilation-of-beni/bijoyamadhab.webp"
     },
     "Probal": {
       "type": "character",
@@ -74,7 +79,8 @@
     },
     "Deepankari": {
       "type": "character",
-      "description": "A name used by Udayamadhab for Deepa, reflecting affection and tradition."
+      "description": "A name used by Udayamadhab for Deepa, reflecting affection and tradition.",
+      "image": "/data/images/characters/byomkesh-the-annihilation-of-beni/deepankari.webp"
     },
     "Garia": {
       "type": "place",
@@ -243,65 +249,34 @@
   },
   "chapters": {
     "ch-1": [
-      "Mongolram",
-      "Gunomoy Das",
-      "Gunomoy Babu",
-      "Rakhalbabu",
       "Byomkesh",
       "Ajit",
-      "Debashis",
-      "Deepa",
-      "Nakulesh",
-      "Nripati Laha",
-      "Neelamadhab",
-      "Udayamadhab Mukherjee",
-      "Bijoyamadhab",
-      "Probal",
-      "Kapil Bose",
-      "Kharga Bahadur",
-      "Sujan Mitra",
-      "Shubhashis Babu",
-      "Deepankari",
       "Garia",
       "Rabindra Sarobar",
       "Calcutta",
       "Keyatala",
-      "South Calcutta Improvement Trust",
-      "Chaitra",
-      "Poush",
-      "Senior Cambridge",
-      "Ballygunge",
-      "Delhi University",
-      "Prajapati Cosmetics",
-      "Barujje",
-      "Shandilya gotra",
-      "Kestonagar",
-      "Utapala Cinema",
-      "Gita",
-      "Lord Krishna",
-      "Barendra",
-      "Kathmandu",
-      "Nepal",
-      "babu",
       "panjabi",
-      "baithak-khana",
       "adda",
       "boudi",
-      "dada-babu",
-      "luchi",
-      "alur dom",
-      "sandesh",
-      "dhoti",
-      "anchal",
-      "bou-bhaat",
-      "takht",
-      "harmonium",
-      "kukri",
-      "gotra",
-      "palti",
-      "varna",
-      "ashrama",
-      "purdah"
+      "sandesh"
+    ],
+    "ch-2": [
+      "Rakhalbabu",
+      "Byomkesh",
+      "Calcutta",
+      "babu",
+      "baithak-khana"
+    ],
+    "ch-3": [
+      "Rakhalbabu",
+      "Byomkesh",
+      "babu",
+      "anchal"
+    ],
+    "ch-4": [
+      "Rakhalbabu",
+      "Byomkesh",
+      "babu"
     ]
   }
 }

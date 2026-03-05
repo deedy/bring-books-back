@@ -1088,7 +1088,7 @@ _register(BookConfig(
 
 _register(BookConfig(
     id="byomkesh",
-    title="The Complete Adventures of Byomkesh Bakshi",
+    title="The Adventures of Byomkesh Bakshi",
     transliterated_title="Byomkesh Samagra",
     original_title="ব্যোমকেশ সমগ্র",
     author_id="sharadindu-bandyopadhyay",
@@ -1118,7 +1118,7 @@ _register(BookConfig(
     ),
     annotation_prompt=(
         'You are a literary analyst helping annotate an English translation of '
-        '"The Complete Adventures of Byomkesh Bakshi", '
+        '"The Adventures of Byomkesh Bakshi", '
         "a Bengali detective fiction anthology by Sharadindu Bandyopadhyay featuring "
         "truth-seeker Byomkesh Bakshi and his friend/narrator Ajit.\n\n"
         "For the given chapter text, extract three categories of terms:\n\n"
@@ -1174,7 +1174,7 @@ _register(BookConfig(
 
 _register(BookConfig(
     id="feluda",
-    title="The Complete Adventures of Feluda",
+    title="The Adventures of Feluda",
     transliterated_title="Feluda Samagra",
     original_title="ফেলুদা সমগ্র",
     author_id="satyajit-ray",
@@ -1195,7 +1195,7 @@ _register(BookConfig(
     type="anthology",
     annotation_prompt=(
         'You are a literary analyst helping annotate an English translation of '
-        '"The Complete Adventures of Feluda", '
+        '"The Adventures of Feluda", '
         "a Bengali detective fiction anthology by Satyajit Ray featuring private investigator "
         "Prodosh C. Mitter (Feluda), his cousin Tapesh (Topshe), and thriller writer "
         "Lalmohan Ganguly (Jatayu).\n\n"
@@ -1242,6 +1242,92 @@ _register(BookConfig(
         "A moody Calcutta street scene at dusk — colonial-era buildings with ornate balconies, "
         "a yellow Ambassador taxi, old bookshops, narrow lanes with long shadows, "
         "a magnifying glass resting on a stack of old notebooks on a wooden desk in the foreground. "
+        "NO people, NO figures. Pure atmospheric scenery. "
+        "Bright, vivid, saturated colors. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+))
+
+
+# ── Samskara ──────────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="samskara",
+    title="Samskara",
+    transliterated_title="Samskara",
+    original_title="ಸಂಸ್ಕಾರ",
+    author_id="u-r-ananthamurthy",
+    author_name="U.R. Ananthamurthy",
+    author_years="1932–2014",
+    original_language="Kannada",
+    original_script="Kannada",
+    original_year=1965,
+    genre=["Literary Fiction", "Social Criticism"],
+    accent_color="#8B4513",
+    style_context=(
+        "A groundbreaking Kannada novel about Praneshacharya, a devout Brahmin scholar "
+        "in an agrahara (Brahmin settlement) in rural Karnataka. When Naranappa, a rebellious "
+        "Brahmin who defied caste norms, dies, the community faces a crisis — no one will "
+        "perform his funeral rites (samskara). Praneshacharya's quest for an answer unravels "
+        "his own beliefs. A searing critique of orthodoxy, caste, and moral hypocrisy. "
+        "Considered a masterpiece of the Navya literary movement."
+    ),
+    translation_prompt=(
+        "You are translating a Kannada novel 'Samskara' (1965) by U.R. Ananthamurthy. "
+        "This is a landmark of modern Indian literature about a Brahmin community's moral "
+        "crisis when a rebellious member dies. The novel explores caste rigidity, religious "
+        "orthodoxy, and individual conscience in a South Indian agrahara (Brahmin settlement). "
+        "Preserve Kannada/Sanskrit proper nouns, honorifics, and cultural/religious terms "
+        "(agrahara, samskara, acharya, etc.). Translate into fluent, literary English. "
+        "Maintain the introspective, philosophical tone. "
+        "Output ONLY the English translation, no commentary."
+    ),
+    chapter_context=(
+        "Novel about a Brahmin community's crisis in rural Karnataka. "
+        "May have numbered chapters or sections."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate an English translation of "Samskara" (1965), '
+        "a Kannada novel by U.R. Ananthamurthy about a Brahmin community's moral crisis.\n\n"
+        "For the given chapter text, extract three categories of terms:\n\n"
+        '1. **Characters** — Recurring named people. 1-2 sentence description.\n'
+        '2. **Proper nouns** — Place names, religious terms, caste terms, cultural references. Brief explanation.\n'
+        '3. **Vocabulary** — Kannada/Sanskrit words, religious/ritual terms, archaic terms. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Kannada, Sanskrit, or Indian-origin terms specific to Brahminical and South Indian culture.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of Mysore traditional painting — "
+        "rich gold, deep red, earthy brown, temple art aesthetic. "
+        "The composition should feel like a classical South Indian painting — "
+        "detailed, ornate, atmospheric. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Rural Karnataka setting — agrahara, temple, coconut groves, Western Ghats.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Praneshacharya: devout Brahmin scholar, middle-aged, ascetic appearance\n"
+        "- Naranappa: rebellious Brahmin who defied caste norms, now deceased\n"
+        "- Chandri: Naranappa's low-caste companion, beautiful and devoted\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of Mysore traditional painting — "
+        "rich gold, deep red, earthy brown, temple art aesthetic. "
+        "Atmospheric character portrait in classical South Indian style. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Rural Karnataka setting.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in Mysore traditional painting style — "
+        "rich gold, deep red, earthy brown palette. "
+        "A South Indian agrahara (Brahmin settlement) at dawn — "
+        "tiled-roof houses along a river, a stone temple with gopuram, "
+        "coconut palms, morning mist over the Western Ghats, "
+        "brass oil lamps glowing, sacred tulsi plant in a courtyard. "
         "NO people, NO figures. Pure atmospheric scenery. "
         "Bright, vivid, saturated colors. 16:9 cinematic landscape ratio. "
         "NO text, NO border, NO frame."

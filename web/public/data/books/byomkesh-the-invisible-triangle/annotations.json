@@ -2,11 +2,13 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "A renowned detective and truth-seeker known for his sharp intellect and investigative skills who solves complex cases."
+      "description": "A renowned detective and truth-seeker known for his sharp intellect and investigative skills who solves complex cases.",
+      "image": "/data/images/characters/byomkesh-the-invisible-triangle/byomkesh.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "The narrator of the story and Byomkesh's close friend and chronicler. He documents Byomkesh's adventures and assists in investigations."
+      "description": "The narrator of the story and Byomkesh's close friend and chronicler. He documents Byomkesh's adventures and assists in investigations.",
+      "image": "/data/images/characters/byomkesh-the-invisible-triangle/ajit.webp"
     },
     "Ramani Mohan Sanyal": {
       "type": "character",
@@ -22,7 +24,8 @@
     },
     "Anna": {
       "type": "character",
-      "description": "The old woman servant in Sunil and Reba's house, responsible for all housework and cooking. She is considered trustworthy by Reba."
+      "description": "The old woman servant in Sunil and Reba's house, responsible for all housework and cooking. She is considered trustworthy by Reba.",
+      "image": "/data/images/characters/byomkesh-the-invisible-triangle/anna.webp"
     },
     "Shiva Prasad Sarkar": {
       "type": "character",
@@ -30,15 +33,18 @@
     },
     "Hukum Singh": {
       "type": "character",
-      "description": "A strong young goon and wrestler hired by Sunil to kill Reba, who is eventually killed by his employer."
+      "description": "A strong young goon and wrestler hired by Sunil to kill Reba, who is eventually killed by his employer.",
+      "image": "/data/images/characters/byomkesh-the-invisible-triangle/hukum-singh.webp"
     },
     "Mukund Singh": {
       "type": "character",
-      "description": "Hukum Singh's brother, a goon and wrestler who avenges his brother's death by killing Sunil."
+      "description": "Hukum Singh's brother, a goon and wrestler who avenges his brother's death by killing Sunil.",
+      "image": "/data/images/characters/byomkesh-the-invisible-triangle/mukund-singh.webp"
     },
     "Biren": {
       "type": "character",
-      "description": "A young policeman and radio operator who sets up the tape-recorder for Byomkesh and Ramani Babu."
+      "description": "A young policeman and radio operator who sets up the tape-recorder for Byomkesh and Ramani Babu.",
+      "image": "/data/images/characters/byomkesh-the-invisible-triangle/biren.webp"
     },
     "Adrishya Trikon": {
       "type": "proper_noun",
@@ -101,7 +107,6 @@
       "Hukum Singh",
       "Mukund Singh",
       "Biren",
-      "Adrishya Trikon",
       "Dak bungalow",
       "Fiat",
       "Bengali",

@@ -3,11 +3,11 @@
     {
       "id": "ch-1",
       "number": 1,
-      "title": "Byomkesh and Barada",
+      "title": "An Unexpected Summons",
       "part": null,
       "partName": null,
       "image": "/data/images/chapters/byomkesh-byomkesh-and-barada/pNone_chapter_1.webp",
-      "wordCount": 16052,
+      "wordCount": 4728,
       "paragraphs": [
         "It wasn’t so very long ago that Barada-babu, the ghost-seeker, had run into Byomkesh, the truth-seeker. Byomkesh was by nature opposed to the outdoors; he preferred to spin his spider’s web in a corner of the room. But on that occasion he had surprised everyone with a journey of three hundred miles.",
         "A childhood friend of Byomkesh’s was employed as Deputy Superintendent of Police in the state of Bihar. He had been transferred to Munger some time earlier and had begun to hurl letters at Byomkesh at regular intervals. There must have been a hidden motive behind his cordial invitations; for the mind refuses to imagine that a DSP would want to revive an ancient, half-forgotten friendship without any reason.",
@@ -119,7 +119,19 @@
         "‘I cannot tell which one is more absurd—your murder story or Barada-babu’s ghost story.’",
         "‘What was so absurd about my murder story?’",
         "‘How else should I describe a murder that cannot be solved even in six months? Are you sure Baikuntha-babu was murdered? He did not have a heart attack, did he?’",
-        "‘What do you mean? The doctor’s postmortem report clearly said he was strangled to death. There were subcutaneous abrasions on this throat …’",
+        "‘What do you mean? The doctor’s postmortem report clearly said he was strangled to death. There were subcutaneous abrasions on this throat …’"
+      ],
+      "summary": "Byomkesh and Ajit visit Munger at the DSP's request, where he hints at a mysterious ghost and an unsolved murder."
+    },
+    {
+      "id": "ch-2",
+      "number": 2,
+      "title": "The Miser's Tale",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-byomkesh-and-barada/pNone_chapter_2.webp",
+      "wordCount": 3078,
+      "paragraphs": [
         "‘And yet the murderer had left no sign, not even a fingerprint. To call it absurd is putting it mildly. Barada-babu at least has a ghost he saw himself, you don’t even have that.’ Rising to his feet, Byomkesh said, stretching, ‘Up, Ajit, let us have our baths. I didn’t sleep a wink on the train; I cannot be myself without a peaceful afternoon nap.’",
         "Barada-babu arrived in the evening. Tarashankar-babu had acquiesced; although he was rather unfavourably disposed towards such unnecessary intrusions into the life of a grieving lady.",
         "We left with Barada-babu. Shashanka-babu was unable to accompany us, as he had suddenly been summoned by a senior officer.",
@@ -239,7 +251,19 @@
         "‘I shall not go.’ An unyielding obduracy appeared on Kailash-babu’s face. ‘Why should I? Have I done anything wrong to flee like a criminal? If my own son wants me to die, very well, I shall die. I do not wish to continue living as the father of an evil son who is not afraid to kill his father.’",
         "Arguing in the face of rage and obstinacy is wasted. It was late. We rose to leave; after assurances of returning the next morning, we went downstairs.",
         "There was no conversation on the way back. Barada-babu attempted to speak once or twice, but Byomkesh paid no attention. Barada-babu walked back with us all the way to our house.",
-        "Shashanka-babu had returned meanwhile. ‘Well, what happened?’ he asked as soon as we entered.",
+        "Shashanka-babu had returned meanwhile. ‘Well, what happened?’ he asked as soon as we entered."
+      ],
+      "summary": "Byomkesh and Barada visit the sharp lawyer Tarashankar-babu and then confront the obstinate Kailash-babu."
+    },
+    {
+      "id": "ch-3",
+      "number": 3,
+      "title": "A Ghostly Encounter",
+      "part": null,
+      "partName": null,
+      "image": "/data/images/chapters/byomkesh-byomkesh-and-barada/pNone_chapter_3.webp",
+      "wordCount": 8246,
+      "paragraphs": [
         "Lying back in an easy chair, Byomkesh replied, ‘The ghost made an appearance.’ Sighing, he added, as though talking to himself, ‘But Barada-babu’s ghost and Kailash-babu’s ghoul have joined hands to make the whole thing exceedingly complicated.’",
         "The following day was Sunday. As soon as he had awakened in the morning, Byomkesh told Shashanka-babu, ‘Let us pay a visit to Kailash-babu.’",
         "‘Do you want to see the ghost again?’ asked Shashanka-babu. ‘But what use is it visiting in daylight? The formless one can be seen only at night.’",
@@ -494,7 +518,8 @@
         "‘ Mouktikangnagajegaje ,’ replied Barada-babu. ‘Not finding the pearl on a single elephant’s head does not mean it does not exist.’",
         "‘I have never searched the head of an elephant,’ responded Amulya-babu, ‘but all of us know perfectly well what lies in yours.’",
         "‘My seventeen minutes have passed,’ said Byomkesh, rising to his feet. ‘I shall take your leave now. I have said goodbye to Tarashankar-babu already—his is a generous soul. Convey my respectful greetings to him once more. Come along, Ajit.’"
-      ]
+      ],
+      "summary": "Byomkesh finds a torn handbill in a discarded lantern chimney, revealing a material clue."
     }
   ]
 }

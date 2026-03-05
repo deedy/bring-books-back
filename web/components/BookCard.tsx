@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Book, Author } from "@/lib/types";
 import { readingTime, displayYear } from "@/lib/utils";
 import OfflineBadge from "@/components/OfflineBadge";
+import CoverProgress from "@/components/CoverProgress";
 
 interface BookCardProps {
   book: Book;
@@ -22,6 +23,7 @@ export default function BookCard({ book, author }: BookCardProps) {
           loading="lazy"
           className="w-full h-full object-cover"
         />
+        <CoverProgress bookId={book.id} totalChapters={book.totalChapters} accentColor={book.accentColor} />
       </div>
       <div className="mt-3">
         <h3 className="text-sm font-semibold text-white line-clamp-2 leading-snug">

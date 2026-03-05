@@ -2,11 +2,13 @@
   "glossary": {
     "Byomkesh Bakshi": {
       "type": "character",
-      "description": "The protagonist and 'truth seeker' (satyanweshi), a detective known for his logical and practical approach to mysteries."
+      "description": "The protagonist and 'truth seeker' (satyanweshi), a detective known for his logical and practical approach to mysteries.",
+      "image": "/data/images/characters/byomkesh-the-phantom-client/byomkesh-bakshi.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "Byomkesh's close friend and chronicler, often assisting in investigations and narrating the stories."
+      "description": "Byomkesh's close friend and chronicler, often assisting in investigations and narrating the stories.",
+      "image": "/data/images/characters/byomkesh-the-phantom-client/ajit.webp"
     },
     "Mr. Vishu Vinayak Apte": {
       "type": "character",
@@ -18,19 +20,23 @@
     },
     "Manek Mehta": {
       "type": "character",
-      "description": "A Gujarati businessman with a criminal background, initially believed to be the murderer but later revealed as the victim."
+      "description": "A Gujarati businessman with a criminal background, initially believed to be the murderer but later revealed as the victim.",
+      "image": "/data/images/characters/byomkesh-the-phantom-client/manek-mehta.webp"
     },
     "Bijoy Biswas": {
       "type": "character",
-      "description": "A Bengali hotelier and partner to Mehta who disguises himself as the servant Mahesh at Haimabati's house to conceal his involvement in a murder conspiracy."
+      "description": "A Bengali hotelier and partner to Mehta who disguises himself as the servant Mahesh at Haimabati's house to conceal his involvement in a murder conspiracy.",
+      "image": "/data/images/characters/byomkesh-the-phantom-client/bijoy-biswas.webp"
     },
     "Haimabati": {
       "type": "character",
-      "description": "Bijoy Biswas's wife, described as attractive and dignified, later revealed to be complicit in the murder."
+      "description": "Bijoy Biswas's wife, described as attractive and dignified, later revealed to be complicit in the murder.",
+      "image": "/data/images/characters/byomkesh-the-phantom-client/haimabati.webp"
     },
     "Bikash Dutta": {
       "type": "character",
-      "description": "Ajit and Byomkesh's assistant, who helps Ajit during the investigation in Calcutta."
+      "description": "Ajit and Byomkesh's assistant, who helps Ajit during the investigation in Calcutta.",
+      "image": "/data/images/characters/byomkesh-the-phantom-client/bikash-dutta.webp"
     },
     "Shailarahasya": {
       "type": "proper_noun",
@@ -127,7 +133,6 @@
       "Bijoy Biswas",
       "Haimabati",
       "Bikash Dutta",
-      "Shailarahasya",
       "Shayahadri Hotel",
       "Mahabaleshwar",
       "Pune",

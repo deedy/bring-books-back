@@ -2,11 +2,13 @@
   "glossary": {
     "Byomkesh Bakshi": {
       "type": "character",
-      "description": "A highly intelligent private detective and 'Seeker of Truth' who goes undercover as Atul Chandra Mitra, a young man seeking employment, to solve complex cases."
+      "description": "A highly intelligent private detective and 'Seeker of Truth' who goes undercover as Atul Chandra Mitra, a young man seeking employment, to solve complex cases.",
+      "image": "/data/images/characters/byomkesh-the-inquisitor/byomkesh-bakshi.webp"
     },
     "Ajit": {
       "type": "character",
-      "description": "The narrator of the story and a literary-minded bachelor who becomes Byomkesh's close friend and chronicler of his adventures."
+      "description": "The narrator of the story and a literary-minded bachelor who becomes Byomkesh's close friend and chronicler of his adventures.",
+      "image": "/data/images/characters/byomkesh-the-inquisitor/ajit.webp"
     },
     "Sheikh Abdul Gaffoor": {
       "type": "character",
@@ -14,7 +16,8 @@
     },
     "Putiram": {
       "type": "character",
-      "description": "Byomkesh Bakshi's domestic help at his residence on Harrison Road."
+      "description": "Byomkesh Bakshi's domestic help at his residence on Harrison Road.",
+      "image": "/data/images/characters/byomkesh-the-inquisitor/putiram.webp"
     },
     "Calcutta": {
       "type": "proper_noun",
@@ -82,21 +85,33 @@
       "Byomkesh Bakshi",
       "Ajit",
       "Sheikh Abdul Gaffoor",
-      "Putiram",
       "Calcutta",
       "Bengal",
       "Chinese",
       "Daily Kalketu",
       "Yale",
       "Burdwan",
-      "Eric and Ha veil",
-      "CID",
-      "Harrison Road",
       "paan",
       "mess",
       "dhoti",
       "beedis",
       "cheroot",
+      "babu"
+    ],
+    "ch-2": [
+      "Byomkesh Bakshi",
+      "Ajit",
+      "Eric and Ha veil",
+      "CID",
+      "Harrison Road",
+      "mess",
+      "cheroot",
+      "babu"
+    ],
+    "ch-3": [
+      "Putiram",
+      "Bengal",
+      "mess",
       "babu"
     ]
   }

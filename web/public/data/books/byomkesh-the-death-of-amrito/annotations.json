@@ -2,7 +2,8 @@
   "glossary": {
     "Byomkesh": {
       "type": "character",
-      "description": "A renowned detective known as a 'truth-seeker' who investigates crimes with keen observation, accompanied by his close friend and chronicler who narrates their stories."
+      "description": "A renowned detective known as a 'truth-seeker' who investigates crimes with keen observation, accompanied by his close friend and chronicler who narrates their stories.",
+      "image": "/data/images/characters/byomkesh-the-death-of-amrito/byomkesh.webp"
     },
     "Sadananda Sur": {
       "type": "character",
@@ -10,7 +11,8 @@
     },
     "Amrito": {
       "type": "character",
-      "description": "A young, eccentric, and talkative orphan in Baghmari who is ultimately murdered; he lived with his uncle, a simple villager who hosts the investigation."
+      "description": "A young, eccentric, and talkative orphan in Baghmari who is ultimately murdered; he lived with his uncle, a simple villager who hosts the investigation.",
+      "image": "/data/images/characters/byomkesh-the-death-of-amrito/amrito.webp"
     },
     "Patal": {
       "type": "character",
@@ -18,11 +20,13 @@
     },
     "Dashu": {
       "type": "character",
-      "description": "Another young man from Baghmari, part of Amrito's circle and involved in the events surrounding the murder."
+      "description": "Another young man from Baghmari, part of Amrito's circle and involved in the events surrounding the murder.",
+      "image": "/data/images/characters/byomkesh-the-death-of-amrito/dashu.webp"
     },
     "Gopal": {
       "type": "character",
-      "description": "A young man from Baghmari, friend of Amrito, who participates in the investigation."
+      "description": "A young man from Baghmari, friend of Amrito, who participates in the investigation.",
+      "image": "/data/images/characters/byomkesh-the-death-of-amrito/gopal.webp"
     },
     "Nadu": {
       "type": "character",
@@ -38,11 +42,13 @@
     },
     "Bhagabati-babu": {
       "type": "character",
-      "description": "A trader in Santalgola who once employed Amrito."
+      "description": "A trader in Santalgola who once employed Amrito.",
+      "image": "/data/images/characters/byomkesh-the-death-of-amrito/bhagabati-babu.webp"
     },
     "Bishwanath Mallik": {
       "type": "character",
-      "description": "The owner of a rice mill and illegal arms dealer revealed as a murderer, served by his loyal chief accountant Nilkantha Adhikari."
+      "description": "The owner of a rice mill and illegal arms dealer revealed as a murderer, served by his loyal chief accountant Nilkantha Adhikari.",
+      "image": "/data/images/characters/byomkesh-the-death-of-amrito/bishwanath-mallik.webp"
     },
     "Monotosh": {
       "type": "character",
@@ -177,24 +183,11 @@
       "Hiru",
       "Inspector Sukhamay Samanta",
       "Bhagabati-babu",
-      "Bishwanath Mallik",
-      "Monotosh",
-      "Haribilash-babu",
-      "Rakhal Das",
       "Jamnadas Gangaram",
-      "Nafar Kundu",
       "Baghmari",
       "Santalgola",
-      "Calcutta",
-      "Kailashpur",
-      "Ramdihi Junction",
       "Marwari",
       "Hindustanis",
-      "Gurkha",
-      "Ayurvedic",
-      "Jamnadas Gangaram",
-      "Badridas Giridharilal",
-      "Bishwanath Rice Mill",
       "Independence",
       "American soldiers",
       "babu",
@@ -202,11 +195,86 @@
       "rest house",
       "paddy",
       "jalebis",
+      "postmortem"
+    ],
+    "ch-2": [
+      "Byomkesh",
+      "Sadananda Sur",
+      "Amrito",
+      "Patal",
+      "Nadu",
+      "Hiru",
+      "Bishwanath Mallik",
+      "Monotosh",
+      "Haribilash-babu",
+      "Nafar Kundu",
+      "Baghmari",
+      "Santalgola",
+      "Calcutta",
+      "Kailashpur",
+      "Ramdihi Junction",
+      "Gurkha",
+      "Ayurvedic",
+      "Bishwanath Rice Mill",
+      "American soldiers",
+      "babu",
+      "da",
+      "paddy",
       "postmortem",
+      "booby trap",
+      "kurta",
+      "shawl",
+      "trolley"
+    ],
+    "ch-3": [
+      "Byomkesh",
+      "Sadananda Sur",
+      "Amrito",
+      "Patal",
+      "Dashu",
+      "Gopal",
+      "Bishwanath Mallik",
+      "Monotosh",
+      "Haribilash-babu",
+      "Rakhal Das",
+      "Nafar Kundu",
+      "Baghmari",
+      "Santalgola",
+      "Calcutta",
+      "Ramdihi Junction",
+      "Marwari",
+      "Gurkha",
+      "Ayurvedic",
+      "Badridas Giridharilal",
+      "American soldiers",
+      "babu",
+      "da",
+      "rest house",
+      "hand grenade",
+      "trolley"
+    ],
+    "ch-4": [
+      "Byomkesh",
+      "Sadananda Sur",
+      "Amrito",
+      "Patal",
+      "Dashu",
+      "Gopal",
+      "Inspector Sukhamay Samanta",
+      "Bishwanath Mallik",
+      "Jamnadas Gangaram",
+      "Nafar Kundu",
+      "Baghmari",
+      "Santalgola",
+      "Calcutta",
+      "Marwari",
+      "Ayurvedic",
+      "babu",
+      "da",
+      "rest house",
       "hand grenade",
       "booby trap",
       "sari",
-      "kurta",
       "shawl",
       "trolley"
     ]
