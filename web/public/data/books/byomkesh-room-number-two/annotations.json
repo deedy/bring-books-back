@@ -1,0 +1,213 @@
+{
+  "glossary": {
+    "Harishchandra Hore": {
+      "type": "character",
+      "description": "Manager of Nirupama Hotel, a responsible and alert man in his mid-forties who discovers the murder."
+    },
+    "Gunadhar": {
+      "type": "character",
+      "description": "Uniformed bearer at Nirupama Hotel, efficient and attentive to the guests' needs."
+    },
+    "Byomkesh Bakshi": {
+      "type": "character",
+      "description": "The famous detective, known as the Truth Seeker, who investigates the murder at Nirupama Hotel."
+    },
+    "Rakhal Sarkar": {
+      "type": "character",
+      "description": "The police inspector in charge of the murder case and a friend of Byomkesh Bakshi, often referred to simply as Sarkar."
+    },
+    "Shachitosh Sanyal": {
+      "type": "character",
+      "description": "Boarder in Room Number Three, unwell during the events, questioned by police."
+    },
+    "Dr. Shobhona Roy": {
+      "type": "character",
+      "description": "Dr. Shobhona Roy is a lady doctor staying in Room Number One at Nirupama Hotel, later revealed as the mother-in-law of the victim, and sometimes referred to as Dr. Roy."
+    },
+    "Rampirit Singh": {
+      "type": "character",
+      "description": "The Bhojpuri gatekeeper of Nirupama Hotel, nicknamed General Singh for his military-like appearance."
+    },
+    "Sukanto Som": {
+      "type": "character",
+      "description": "A former filmstar turned blackmailer who was murdered while staying at the Nirupama Hotel under the alias Rajkumar Basu."
+    },
+    "Bhagaban Mohanti": {
+      "type": "character",
+      "description": "A hardened criminal and fugitive who appears in the victim's diary under the alias Jagabandhu Patra."
+    },
+    "Mohanlal Kumar": {
+      "type": "character",
+      "description": "A person listed in the diary, absent during the investigation."
+    },
+    "Shyamakanta Lahiri": {
+      "type": "character",
+      "description": "Another person listed in the diary, works in the Port Commissioner's office."
+    },
+    "Latika Choudhury": {
+      "type": "character",
+      "description": "A woman blackmailed by Sukanto Som, with a past romantic involvement with him."
+    },
+    "Tarakumar Choudhury": {
+      "type": "character",
+      "description": "Latika Choudhury's husband, a railway engineer."
+    },
+    "Dutta": {
+      "type": "character",
+      "description": "A sub-inspector assisting Rakhal Sarkar in the investigation."
+    },
+    "Ghose": {
+      "type": "character",
+      "description": "Another sub-inspector involved in the investigation."
+    },
+    "Nirupama Hotel": {
+      "type": "proper_noun",
+      "description": "A westernised hotel in Calcutta where the murder takes place."
+    },
+    "Rashbehari Avenue": {
+      "type": "proper_noun",
+      "description": "A major road in Calcutta, location of Nirupama Hotel."
+    },
+    "Gariahat Square": {
+      "type": "proper_noun",
+      "description": "A well-known intersection in Calcutta, near the hotel."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The city (now Kolkata) where the story is set."
+    },
+    "Beharampur": {
+      "type": "proper_noun",
+      "description": "A town in West Bengal where Dr. Shobhona Roy practices."
+    },
+    "Seva Sadan": {
+      "type": "proper_noun",
+      "description": "An institution in Calcutta with which Dr. Roy is contracted."
+    },
+    "Adampur": {
+      "type": "proper_noun",
+      "description": "A locality in Patna, Bihar, listed as Rajkumar Basu's home address."
+    },
+    "Patna": {
+      "type": "proper_noun",
+      "description": "Capital city of Bihar, India, associated with the victim's alias."
+    },
+    "Bihar": {
+      "type": "proper_noun",
+      "description": "An Indian state, referenced as Rajkumar Basu's home state."
+    },
+    "Bhagalpur": {
+      "type": "proper_noun",
+      "description": "A city in Bihar, home of Shachitosh Sanyal."
+    },
+    "Ganguram": {
+      "type": "proper_noun",
+      "description": "A famous chain of sweet shops in Calcutta."
+    },
+    "Orissa": {
+      "type": "proper_noun",
+      "description": "Now Odisha, an Indian state, mentioned as Jagabandhu Patra's origin."
+    },
+    "Benares": {
+      "type": "proper_noun",
+      "description": "Also known as Varanasi, a city in Uttar Pradesh, India."
+    },
+    "Port Commissioner's office": {
+      "type": "proper_noun",
+      "description": "A government office in Calcutta where Shyamakanta Lahiri works."
+    },
+    "Kalketu": {
+      "type": "proper_noun",
+      "description": "The name of a newspaper whose archives Byomkesh consults."
+    },
+    "Burdwan": {
+      "type": "proper_noun",
+      "description": "A city in West Bengal, where Dr. Roy previously practiced."
+    },
+    "Midnapore": {
+      "type": "proper_noun",
+      "description": "A district in West Bengal, where Bhagaban Mohanti committed a crime."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country in which all the events take place."
+    },
+    "bed-tea": {
+      "type": "vocabulary",
+      "description": "Morning tea served to guests in their rooms, a common practice in Indian hotels."
+    },
+    "lungi": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn around the waist, common in South Asia."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional men's garment, a long piece of cloth wrapped around the waist and legs."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in South Asia."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful term for a gentleman, often used as a suffix to names."
+    },
+    "boarder": {
+      "type": "vocabulary",
+      "description": "A person who rents a room in a hotel or boarding house."
+    },
+    "sub-inspector": {
+      "type": "vocabulary",
+      "description": "A rank in the Indian police force, below inspector."
+    },
+    "tout": {
+      "type": "vocabulary",
+      "description": "A person who solicits business or acts as an agent, often with a negative connotation in India."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Harishchandra Hore",
+      "Gunadhar",
+      "Byomkesh Bakshi",
+      "Rakhal Sarkar",
+      "Shachitosh Sanyal",
+      "Dr. Shobhona Roy",
+      "Rampirit Singh",
+      "Sukanto Som",
+      "Bhagaban Mohanti",
+      "Mohanlal Kumar",
+      "Shyamakanta Lahiri",
+      "Latika Choudhury",
+      "Tarakumar Choudhury",
+      "Dutta",
+      "Ghose",
+      "Nirupama Hotel",
+      "Rashbehari Avenue",
+      "Gariahat Square",
+      "Calcutta",
+      "Beharampur",
+      "Seva Sadan",
+      "Adampur",
+      "Patna",
+      "Bihar",
+      "Bhagalpur",
+      "Ganguram",
+      "Orissa",
+      "Benares",
+      "Port Commissioner's office",
+      "Kalketu",
+      "Burdwan",
+      "Midnapore",
+      "India",
+      "bed-tea",
+      "lungi",
+      "dhoti",
+      "kurta",
+      "babu",
+      "boarder",
+      "sub-inspector",
+      "tout"
+    ]
+  }
+}

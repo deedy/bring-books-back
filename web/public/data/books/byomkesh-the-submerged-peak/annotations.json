@@ -1,0 +1,161 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist, a sharp and observant detective known as a 'truth-seeker' (satyanweshi), who solves mysteries with logical reasoning."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, who narrates their adventures and assists in investigations."
+    },
+    "Satyabati": {
+      "type": "character",
+      "description": "Ajit's wife, known for her wit and strong opinions; she often participates in household discussions."
+    },
+    "Shrichintamani Kundu": {
+      "type": "character",
+      "description": "An elderly, paralyzed landlord who seeks Byomkesh's help after being implicated in a murder case involving his tenant."
+    },
+    "Ramadhin": {
+      "type": "character",
+      "description": "Chintamani Kundu's loyal Hindustani servant who assists with household tasks."
+    },
+    "Tapan Sen": {
+      "type": "character",
+      "description": "Supposedly a young man who rents a house from Chintamani Kundu, later revealed to be an alias of Promila Pal."
+    },
+    "Shanta": {
+      "type": "character",
+      "description": "Presented as Tapan Sen's wife, later revealed to be the same person as Tapan Sen, actually Promila Pal in disguise."
+    },
+    "Bijoy Bhaduri": {
+      "type": "character",
+      "description": "A senior police inspector, diligent and suspicious by nature, involved in the murder investigation."
+    },
+    "Bidhubhushan Aich": {
+      "type": "character",
+      "description": "A Burdwan police employee who is murdered in front of the twin houses."
+    },
+    "Promila Pal": {
+      "type": "character",
+      "description": "The true identity of Tapan Sen/Shanta, a fugitive and murderer who disguises herself as both man and woman."
+    },
+    "Nengti Dutta": {
+      "type": "character",
+      "description": "A precocious and cheeky youth who befriends Byomkesh and is fascinated by detective work."
+    },
+    "Byomkesh Samagra": {
+      "type": "place",
+      "description": "The title of the complete collection of Byomkesh Bakshi stories."
+    },
+    "Bankimchandra": {
+      "type": "place",
+      "description": "Refers to Bankimchandra Chattopadhyay, a renowned Bengali novelist and author of 'Devi Chowdhurani'."
+    },
+    "Devi Chowdhurani": {
+      "type": "place",
+      "description": "A famous novel by Bankimchandra Chattopadhyay featuring a female bandit leader."
+    },
+    "zenana ward": {
+      "type": "place",
+      "description": "A section of a jail reserved for female prisoners."
+    },
+    "Burdwan": {
+      "type": "place",
+      "description": "A district in West Bengal, referenced here as the origin of the murdered police employee and the jail."
+    },
+    "Calcutta": {
+      "type": "place",
+      "description": "Now known as Kolkata, the capital city of West Bengal and the main setting of the story."
+    },
+    "Chetla": {
+      "type": "place",
+      "description": "A neighborhood in southeastern Calcutta, mentioned as the location of the girls' school."
+    },
+    "Madrasi": {
+      "type": "place",
+      "description": "A term used to refer to people from the southern Indian region of Madras (now Chennai)."
+    },
+    "Hindustani": {
+      "type": "place",
+      "description": "Refers to people or things associated with northern India or the Hindi-speaking region."
+    },
+    "Khotta": {
+      "type": "place",
+      "description": "A term referring to a community or group, often of North Indian Muslim origin, used here for a servant."
+    },
+    "Jemadar": {
+      "type": "place",
+      "description": "A police or military rank in India, typically denoting a junior officer or sergeant."
+    },
+    "Ardhanarishvara": {
+      "type": "place",
+      "description": "A composite form of the Hindu god Shiva and goddess Parvati, symbolizing the synthesis of masculine and feminine energies."
+    },
+    "Magnamainak": {
+      "type": "place",
+      "description": "Appears as a heading or section title, possibly a reference to a mythological or literary figure."
+    },
+    "boti": {
+      "type": "term",
+      "description": "A traditional Bengali curved blade used for cutting vegetables, often operated with the foot."
+    },
+    "para": {
+      "type": "term",
+      "description": "A Bengali term for a neighborhood or locality."
+    },
+    "taktaposh": {
+      "type": "term",
+      "description": "A wooden cot or daybed commonly found in Bengali households."
+    },
+    "attaché case": {
+      "type": "term",
+      "description": "A small, flat suitcase used for carrying documents, popular in urban India."
+    },
+    "mashima": {
+      "type": "term",
+      "description": "A Bengali term meaning 'aunt', used for an elder woman."
+    },
+    "mesomoshai": {
+      "type": "term",
+      "description": "A Bengali term for 'uncle', specifically mother's sister's husband."
+    },
+    "mem": {
+      "type": "term",
+      "description": "A colloquial term derived from 'madam', used in India to refer to European or Anglo-Indian women."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Satyabati",
+      "Shrichintamani Kundu",
+      "Ramadhin",
+      "Tapan Sen",
+      "Shanta",
+      "Bijoy Bhaduri",
+      "Bidhubhushan Aich",
+      "Promila Pal",
+      "Nengti Dutta",
+      "Byomkesh Samagra",
+      "Bankimchandra",
+      "Devi Chowdhurani",
+      "zenana ward",
+      "Burdwan",
+      "Calcutta",
+      "Chetla",
+      "Madrasi",
+      "Hindustani",
+      "Khotta",
+      "Jemadar",
+      "Ardhanarishvara",
+      "Magnamainak",
+      "boti",
+      "para",
+      "taktaposh",
+      "attaché case",
+      "mem"
+    ]
+  }
+}

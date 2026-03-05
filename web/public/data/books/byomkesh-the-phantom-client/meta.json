@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-phantom-client",
+  "title": "The Phantom Client",
+  "transliteratedTitle": "Shailo Rahasya",
+  "subtitle": "A Chilling Mystery Amidst Hill Station Shadows",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-phantom-client.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "শৈল রহস্য",
+  "originalYear": 1959,
+  "totalChapters": 1,
+  "wordCount": 7521,
+  "summary": "When a renowned detective pens a letter shrouded in fear and uncertainty, the line between the rational and the supernatural begins to blur. Alone in a cold, shadowy hotel room, he faces a case that defies his love of truth—beckoning readers into a world where every flicker of candlelight could reveal a secret. Dare to follow Byomkesh Bakshi as he unravels the enigma of the phantom client.",
+  "anthologyId": "byomkesh"
+}

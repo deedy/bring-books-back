@@ -1,0 +1,307 @@
+{
+  "glossary": {
+    "Mongolram": {
+      "type": "character",
+      "description": "A laborer with no fixed abode, who becomes a murder victim early in the narrative."
+    },
+    "Gunomoy Das": {
+      "type": "character",
+      "description": "A middle-aged, unhappy shopkeeper with a quarrelsome wife, who is murdered with a porcupine quill."
+    },
+    "Gunomoy Babu": {
+      "type": "character",
+      "description": "Another reference to Gunomoy Das, highlighting his social status."
+    },
+    "Rakhalbabu": {
+      "type": "character",
+      "description": "A police inspector involved in the investigation of the murders, who consults Byomkesh."
+    },
+    "Byomkesh": {
+      "type": "character",
+      "description": "The central detective figure, known as a 'truth-seeker', who investigates the murders."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, present during the investigation."
+    },
+    "Debashis": {
+      "type": "character",
+      "description": "A young man who owns a house in South Calcutta, later married to Deepa."
+    },
+    "Deepa": {
+      "type": "character",
+      "description": "Debashis's wife, a young woman from an aristocratic, orthodox family, struggling with her marriage."
+    },
+    "Nakulesh": {
+      "type": "character",
+      "description": "The long-serving servant and cook in Debashis's household."
+    },
+    "Nripati Laha": {
+      "type": "character",
+      "description": "A well-educated, wealthy bachelor who hosts social gatherings (adda) and acts as a matchmaker."
+    },
+    "Neelamadhab": {
+      "type": "character",
+      "description": "Deepa's father, a college professor and a man of strong will."
+    },
+    "Udayamadhab Mukherjee": {
+      "type": "character",
+      "description": "Deepa's authoritative grandfather, a retired college principal who rules the family."
+    },
+    "Bijoyamadhab": {
+      "type": "character",
+      "description": "Deepa's elder brother, an M.A. in Sanskrit, actively involved in arranging her marriage."
+    },
+    "Probal": {
+      "type": "character",
+      "description": "A sensitive musician and singer, formerly a friend of Debashis, now living in reduced circumstances."
+    },
+    "Kapil Bose": {
+      "type": "character",
+      "description": "A wealthy, well-educated young man, friend of Nripati, known for his discerning nature."
+    },
+    "Kharga Bahadur": {
+      "type": "character",
+      "description": "A renowned Nepali-Bengali football player, humble despite his fame."
+    },
+    "Sujan Mitra": {
+      "type": "character",
+      "description": "A rising film star, known for his versatility and modesty, part of the adda group."
+    },
+    "Shubhashis Babu": {
+      "type": "character",
+      "description": "Debashis's deceased father, former owner of Prajapati Cosmetics."
+    },
+    "Deepankari": {
+      "type": "character",
+      "description": "A name used by Udayamadhab for Deepa, reflecting affection and tradition."
+    },
+    "Garia": {
+      "type": "place",
+      "description": "A neighborhood in South Calcutta where Gunomoy Babu's home is located."
+    },
+    "Rabindra Sarobar": {
+      "type": "place",
+      "description": "A prominent lake and park area in South Calcutta, known for its scenic beauty."
+    },
+    "Calcutta": {
+      "type": "place",
+      "description": "The former name of Kolkata, a major city in eastern India and the setting for much of the story."
+    },
+    "Keyatala": {
+      "type": "place",
+      "description": "A locality in South Calcutta where Byomkesh resides."
+    },
+    "South Calcutta Improvement Trust": {
+      "type": "place",
+      "description": "A civic body responsible for urban development in South Calcutta."
+    },
+    "Chaitra": {
+      "type": "place",
+      "description": "A month in the Bengali calendar, corresponding to March-April."
+    },
+    "Poush": {
+      "type": "place",
+      "description": "A winter month in the Bengali calendar, roughly December-January."
+    },
+    "Senior Cambridge": {
+      "type": "place",
+      "description": "A British school-leaving examination, indicating Deepa's level of education."
+    },
+    "Ballygunge": {
+      "type": "place",
+      "description": "A well-known, upscale neighborhood in South Calcutta."
+    },
+    "Delhi University": {
+      "type": "place",
+      "description": "A prestigious university in India's capital, where Debashis studied."
+    },
+    "Prajapati Cosmetics": {
+      "type": "place",
+      "description": "A fictional cosmetics factory founded by Debashis's father."
+    },
+    "Barujje": {
+      "type": "place",
+      "description": "A colloquial Bengali term for 'Bandyopadhyay', a Brahmin surname."
+    },
+    "Shandilya gotra": {
+      "type": "place",
+      "description": "A Brahmin lineage or clan, significant in Hindu caste identity."
+    },
+    "Kestonagar": {
+      "type": "place",
+      "description": "A locality known for its clay idol makers, referenced to describe Sujan's features."
+    },
+    "Utapala Cinema": {
+      "type": "place",
+      "description": "A cinema hall in Calcutta, mentioned as a local entertainment venue."
+    },
+    "Gita": {
+      "type": "place",
+      "description": "A sacred Hindu scripture, referenced in a conversation about caste."
+    },
+    "Lord Krishna": {
+      "type": "place",
+      "description": "A major Hindu deity, quoted in context of the Gita and caste discussion."
+    },
+    "Barendra": {
+      "type": "place",
+      "description": "A Brahmin sub-group, referenced in the context of marriage customs."
+    },
+    "Chatterjee, Banerjee, Ganguly, Ghoshal": {
+      "type": "place",
+      "description": "Common Bengali Brahmin surnames, indicating caste and family lineage."
+    },
+    "Kathmandu": {
+      "type": "place",
+      "description": "The capital of Nepal, mentioned as the site of Kharga Bahadur's postponed wedding."
+    },
+    "Nepal": {
+      "type": "place",
+      "description": "A neighboring country to India, home to Kharga Bahadur's family."
+    },
+    "babu": {
+      "type": "term",
+      "description": "A respectful term for a gentleman, often used after a name."
+    },
+    "panjabi": {
+      "type": "term",
+      "description": "A traditional knee-length tunic worn by Bengali men."
+    },
+    "baithak-khana": {
+      "type": "term",
+      "description": "A drawing room or formal sitting room in a Bengali household."
+    },
+    "adda": {
+      "type": "term",
+      "description": "An informal gathering for conversation, often among friends."
+    },
+    "boudi": {
+      "type": "term",
+      "description": "A term for elder brother's wife; sister-in-law."
+    },
+    "dada-babu": {
+      "type": "term",
+      "description": "A respectful way to address the master of the house, combining 'elder brother' and 'sir'."
+    },
+    "luchi": {
+      "type": "term",
+      "description": "A deep-fried, puffed Bengali bread made from refined flour."
+    },
+    "alur dom": {
+      "type": "term",
+      "description": "A Bengali dish of spiced potatoes, often served with luchi."
+    },
+    "sandesh": {
+      "type": "term",
+      "description": "A Bengali sweet made from fresh paneer or chhena."
+    },
+    "dhoti": {
+      "type": "term",
+      "description": "A traditional Indian garment, a long piece of cloth wrapped around the waist and legs."
+    },
+    "anchal": {
+      "type": "term",
+      "description": "The loose end of a sari, often draped over the shoulder."
+    },
+    "bou-bhaat": {
+      "type": "term",
+      "description": "A post-wedding ritual in Bengali culture, where the bride is formally welcomed into the groom's house."
+    },
+    "takht": {
+      "type": "term",
+      "description": "A low wooden platform or cot, often used for seating in traditional Bengali homes."
+    },
+    "harmonium": {
+      "type": "term",
+      "description": "A hand-pumped keyboard instrument commonly used in Indian music."
+    },
+    "kukri": {
+      "type": "term",
+      "description": "A traditional curved knife from Nepal, often used as a gift or symbol."
+    },
+    "gotra": {
+      "type": "term",
+      "description": "A Hindu lineage or clan, important in marriage arrangements."
+    },
+    "palti": {
+      "type": "term",
+      "description": "A term denoting a particular family or lineage, significant in Bengali caste and marriage customs."
+    },
+    "varna": {
+      "type": "term",
+      "description": "The Hindu concept of social order or caste."
+    },
+    "ashrama": {
+      "type": "term",
+      "description": "A stage of life in Hindu philosophy, or sometimes a hermitage."
+    },
+    "purdah": {
+      "type": "term",
+      "description": "A practice of female seclusion prevalent in some Indian communities."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Mongolram",
+      "Gunomoy Das",
+      "Gunomoy Babu",
+      "Rakhalbabu",
+      "Byomkesh",
+      "Ajit",
+      "Debashis",
+      "Deepa",
+      "Nakulesh",
+      "Nripati Laha",
+      "Neelamadhab",
+      "Udayamadhab Mukherjee",
+      "Bijoyamadhab",
+      "Probal",
+      "Kapil Bose",
+      "Kharga Bahadur",
+      "Sujan Mitra",
+      "Shubhashis Babu",
+      "Deepankari",
+      "Garia",
+      "Rabindra Sarobar",
+      "Calcutta",
+      "Keyatala",
+      "South Calcutta Improvement Trust",
+      "Chaitra",
+      "Poush",
+      "Senior Cambridge",
+      "Ballygunge",
+      "Delhi University",
+      "Prajapati Cosmetics",
+      "Barujje",
+      "Shandilya gotra",
+      "Kestonagar",
+      "Utapala Cinema",
+      "Gita",
+      "Lord Krishna",
+      "Barendra",
+      "Kathmandu",
+      "Nepal",
+      "babu",
+      "panjabi",
+      "baithak-khana",
+      "adda",
+      "boudi",
+      "dada-babu",
+      "luchi",
+      "alur dom",
+      "sandesh",
+      "dhoti",
+      "anchal",
+      "bou-bhaat",
+      "takht",
+      "harmonium",
+      "kukri",
+      "gotra",
+      "palti",
+      "varna",
+      "ashrama",
+      "purdah"
+    ]
+  }
+}

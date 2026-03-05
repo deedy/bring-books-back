@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-byomkesh-and-barada",
+  "title": "Byomkesh and Barada",
+  "transliteratedTitle": "Byomkesh O Boroda",
+  "subtitle": "A Haunted Encounter in Munger Fort",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-byomkesh-and-barada.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "ব্যোমকেশ ও বরদা",
+  "originalYear": 1936,
+  "totalChapters": 1,
+  "wordCount": 16052,
+  "summary": "When Byomkesh Bakshi, the master of deduction, receives an insistent invitation from an old friend turned police officer, he reluctantly leaves his comfort zone for the mysterious town of Munger. What begins as a simple visit soon entangles Byomkesh in a web of secrets and intrigue lurking within the ancient fort. Can the legendary detective unravel the truth behind the ghostly rumors and hidden motives before danger closes in?",
+  "anthologyId": "byomkesh"
+}

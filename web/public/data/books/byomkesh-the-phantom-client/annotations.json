@@ -1,0 +1,153 @@
+{
+  "glossary": {
+    "Byomkesh Bakshi": {
+      "type": "character",
+      "description": "The protagonist and 'truth seeker' (satyanweshi), a detective known for his logical and practical approach to mysteries."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, often assisting in investigations and narrating the stories."
+    },
+    "Mr. Vishu Vinayak Apte": {
+      "type": "character",
+      "description": "A Maharashtrian police official who befriends Byomkesh and introduces him to Poona and Mahabaleshwar."
+    },
+    "Shorab Homji": {
+      "type": "character",
+      "description": "The Parsi owner of Shayahadri Hotel in Mahabaleshwar, previously a regular guest and now a key informant in the case."
+    },
+    "Manek Mehta": {
+      "type": "character",
+      "description": "A Gujarati businessman with a criminal background, initially believed to be the murderer but later revealed as the victim."
+    },
+    "Bijoy Biswas": {
+      "type": "character",
+      "description": "A Bengali hotelier and partner to Mehta who disguises himself as the servant Mahesh at Haimabati's house to conceal his involvement in a murder conspiracy."
+    },
+    "Haimabati": {
+      "type": "character",
+      "description": "Bijoy Biswas's wife, described as attractive and dignified, later revealed to be complicit in the murder."
+    },
+    "Bikash Dutta": {
+      "type": "character",
+      "description": "Ajit and Byomkesh's assistant, who helps Ajit during the investigation in Calcutta."
+    },
+    "Shailarahasya": {
+      "type": "proper_noun",
+      "description": "The Bengali title of the story, meaning 'The Phantom Client' or 'The Mystery of the Phantom'."
+    },
+    "Shayahadri Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel in Mahabaleshwar, central to the story's events."
+    },
+    "Mahabaleshwar": {
+      "type": "proper_noun",
+      "description": "A hill station in Maharashtra, known for its scenic beauty and as the main setting of the mystery."
+    },
+    "Pune": {
+      "type": "proper_noun",
+      "description": "A major city in Maharashtra, also referred to as Poona, visited by Byomkesh."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "Now known as Mumbai, a major Indian city where Byomkesh completes some work."
+    },
+    "Singh Garh": {
+      "type": "proper_noun",
+      "description": "A historic fort near Pune, also known as Sinhagad."
+    },
+    "Bhabani Mandir": {
+      "type": "proper_noun",
+      "description": "A temple mentioned as a tourist site in Poona."
+    },
+    "Western Ghats": {
+      "type": "proper_noun",
+      "description": "A mountain range in western India, through which Byomkesh travels."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A famous hill station in West Bengal, compared to Mahabaleshwar in the story."
+    },
+    "Maharastra": {
+      "type": "proper_noun",
+      "description": "The Indian state where much of the story takes place, including Mahabaleshwar and Pune."
+    },
+    "Goa": {
+      "type": "proper_noun",
+      "description": "A coastal state in western India, mentioned as one of Mehta's residences."
+    },
+    "Ahmedabad": {
+      "type": "proper_noun",
+      "description": "A major city in Gujarat, India, where Bijoy and Haimabati previously ran a hotel."
+    },
+    "Pakistan": {
+      "type": "proper_noun",
+      "description": "A neighboring country, referenced in connection with gold smuggling."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "Now Kolkata, a major city in West Bengal and home to Byomkesh and Ajit."
+    },
+    "Faridpur": {
+      "type": "proper_noun",
+      "description": "A district in East Bengal (now Bangladesh), the servant Mahesh's place of origin."
+    },
+    "East Bengal": {
+      "type": "proper_noun",
+      "description": "A region now part of Bangladesh, referenced for Mahesh's background."
+    },
+    "Arther's Seat": {
+      "type": "proper_noun",
+      "description": "A famous viewpoint in Mahabaleshwar."
+    },
+    "Pratap Ghar Fort": {
+      "type": "proper_noun",
+      "description": "A historic fort near Mahabaleshwar, also known as Pratapgad."
+    },
+    "Bombay Point": {
+      "type": "proper_noun",
+      "description": "A popular sunset point in Mahabaleshwar."
+    },
+    "saree": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by women, consisting of a long piece of cloth draped around the body."
+    },
+    "vermilion": {
+      "type": "vocabulary",
+      "description": "A red powder (sindoor) traditionally applied by married Hindu women in the parting of their hair."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh Bakshi",
+      "Ajit",
+      "Mr. Vishu Vinayak Apte",
+      "Shorab Homji",
+      "Manek Mehta",
+      "Bijoy Biswas",
+      "Haimabati",
+      "Bikash Dutta",
+      "Shailarahasya",
+      "Shayahadri Hotel",
+      "Mahabaleshwar",
+      "Pune",
+      "Bombay",
+      "Singh Garh",
+      "Bhabani Mandir",
+      "Western Ghats",
+      "Darjeeling",
+      "Maharastra",
+      "Goa",
+      "Ahmedabad",
+      "Pakistan",
+      "Calcutta",
+      "Faridpur",
+      "East Bengal",
+      "Arther's Seat",
+      "Pratap Ghar Fort",
+      "Bombay Point",
+      "saree",
+      "vermilion"
+    ]
+  }
+}

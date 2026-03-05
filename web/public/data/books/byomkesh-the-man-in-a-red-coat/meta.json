@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-man-in-a-red-coat",
+  "title": "The Man in a Red Coat",
+  "transliteratedTitle": "Cholonar Chhondo",
+  "subtitle": "A Deadly Attempt and a Curious Clue",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-man-in-a-red-coat.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "চোলনার ছন্দ",
+  "originalYear": 1965,
+  "totalChapters": 1,
+  "wordCount": 5275,
+  "summary": "When a mysterious shooting lands a man in the hospital, detective Byomkesh Bakshi is called to unravel the bizarre tale behind the crime. As secrets begin to surface, every detail—especially the victim's striking red coat—could be the key to solving the case. Dive into a web of suspense where nothing is quite as it seems.",
+  "anthologyId": "byomkesh"
+}

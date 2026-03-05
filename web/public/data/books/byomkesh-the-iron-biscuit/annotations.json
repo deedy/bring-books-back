@@ -1,0 +1,108 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The main detective, known as a 'truth-seeker', who investigates and solves mysteries."
+    },
+    "Kamal Babu": {
+      "type": "character",
+      "description": "A bank cashier who rents a room in Akshay Mondal's house and seeks Byomkesh's help; 'babu' is a respectful term for a gentleman or elder."
+    },
+    "Akshay Mondal": {
+      "type": "character",
+      "description": "The landlord of the house, later revealed to be a gold smuggler and murderer."
+    },
+    "Harihar Singh": {
+      "type": "character",
+      "description": "A hardened criminal and associate of Akshay Mondal, found murdered in the house."
+    },
+    "Rakhal Sarkar": {
+      "type": "character",
+      "description": "The police officer who assists Byomkesh in the investigation, respectfully addressed as Darogababu."
+    },
+    "Satyawati": {
+      "type": "character",
+      "description": "Byomkesh's wife, who asks him about his activities after the case is solved."
+    },
+    "Khuku": {
+      "type": "character",
+      "description": "Kamal Babu's ten-year-old daughter."
+    },
+    "Bhuto": {
+      "type": "character",
+      "description": "Kamal Babu's fierce mountain dog, used to guard the house."
+    },
+    "Lohar Biscuit": {
+      "type": "proper_noun",
+      "description": "The Bengali title of the story, meaning 'Iron Biscuit', referring to the iron cases used to hide gold."
+    },
+    "Hindustan Park": {
+      "type": "proper_noun",
+      "description": "A neighborhood in Calcutta (Kolkata), indicating the story's urban setting."
+    },
+    "Keyatala": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta where Byomkesh resides."
+    },
+    "Central Bank of India": {
+      "type": "proper_noun",
+      "description": "A major Indian bank where Kamal Babu works as a cashier."
+    },
+    "Purulia": {
+      "type": "proper_noun",
+      "description": "A district in West Bengal, India, from where Kamal Babu and his family hail."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, the capital of West Bengal and the main setting of the story."
+    },
+    "Haridwar": {
+      "type": "proper_noun",
+      "description": "A holy city in Uttarakhand, India, known for Hindu pilgrimages."
+    },
+    "Hrishikesh": {
+      "type": "proper_noun",
+      "description": "A sacred town in Uttarakhand, India, popular for pilgrimages and yoga."
+    },
+    "Kundu Special": {
+      "type": "proper_noun",
+      "description": "A reference to a special pilgrimage tour package, likely run by the Kundu travel agency."
+    },
+    "muga": {
+      "type": "vocabulary",
+      "description": "A type of silk produced in Assam, India, here referring to strong thread used to wrap the iron staff."
+    },
+    "poppadum": {
+      "type": "vocabulary",
+      "description": "A thin, crisp, disc-shaped Indian snack made from seasoned dough."
+    },
+    "aubergines": {
+      "type": "vocabulary",
+      "description": "Eggplants, commonly used in Indian cuisine and referred to as 'begun' in Bengali."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Kamal Babu",
+      "Akshay Mondal",
+      "Harihar Singh",
+      "Rakhal Sarkar",
+      "Satyawati",
+      "Khuku",
+      "Bhuto",
+      "Lohar Biscuit",
+      "Hindustan Park",
+      "Keyatala",
+      "Central Bank of India",
+      "Purulia",
+      "Calcutta",
+      "Haridwar",
+      "Hrishikesh",
+      "Kundu Special",
+      "muga",
+      "poppadum",
+      "aubergines"
+    ]
+  }
+}

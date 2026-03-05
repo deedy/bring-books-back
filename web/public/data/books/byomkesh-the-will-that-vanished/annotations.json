@@ -1,0 +1,163 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist, a renowned detective known for his sharp intellect and sense of justice; often referred to as a 'truth-seeker.'"
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "The narrator and close companion of Byomkesh, who documents their adventures and assists in investigations."
+    },
+    "Rameswarbabu": {
+      "type": "character",
+      "description": "A wealthy, humorous elderly man whose mysterious will is central to the story; 'babu' is a respectful suffix used for men."
+    },
+    "Kumudini": {
+      "type": "character",
+      "description": "Rameswarbabu’s second wife, described as obese and childless, with eccentric habits."
+    },
+    "Kusheswar": {
+      "type": "character",
+      "description": "Rameswarbabu’s son from his first marriage, depicted as effete and henpecked."
+    },
+    "Nalini": {
+      "type": "character",
+      "description": "Rameswarbabu’s daughter from his first marriage, estranged from the family after marrying against their wishes."
+    },
+    "Labanya": {
+      "type": "character",
+      "description": "Kusheswar’s wife, who dominates the household and is antagonistic towards Nalini."
+    },
+    "Dr Ashim Sen": {
+      "type": "character",
+      "description": "The family physician and friend, who has attended to Rameswarbabu for decades and acts as a witness to the will."
+    },
+    "Devnath": {
+      "type": "character",
+      "description": "Nalini’s husband, a middle-class man with a modest income."
+    },
+    "Inspector Halder": {
+      "type": "character",
+      "description": "The local police inspector who assists Byomkesh in searching for the will."
+    },
+    "Putiram": {
+      "type": "character",
+      "description": "The domestic help in Byomkesh’s household, responsible for cleaning and errands."
+    },
+    "Bengali New Year": {
+      "type": "proper_noun",
+      "description": "A major festival marking the start of the Bengali calendar year, celebrated with greetings and gifts."
+    },
+    "Dussehra": {
+      "type": "proper_noun",
+      "description": "A Hindu festival celebrating the victory of good over evil, observed across India."
+    },
+    "Lakshmi": {
+      "type": "proper_noun",
+      "description": "The Hindu goddess of wealth and prosperity, often referenced in connection with fortune."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "One of the two great Indian epics, chronicling the Kurukshetra war and the fate of the Kaurava and Pandava princes."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic narrating the life of Prince Rama, his exile, and the rescue of his wife Sita."
+    },
+    "Grandfather Bheeshma": {
+      "type": "proper_noun",
+      "description": "A revered elder and warrior from the Mahabharata, known for his wisdom and vow of celibacy."
+    },
+    "Dasaratha": {
+      "type": "proper_noun",
+      "description": "The king of Ayodhya and father of Rama in the Ramayana, known for his tragic old age."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "Calcutta, now officially known as Kolkata, is a major city in eastern India and the primary setting for the story."
+    },
+    "Vivekananda Road": {
+      "type": "proper_noun",
+      "description": "A prominent road in Kolkata, named after the spiritual leader Swami Vivekananda."
+    },
+    "Bagbazaar": {
+      "type": "proper_noun",
+      "description": "A historic neighborhood in north Kolkata, referenced as the location of Rameswarbabu’s residence."
+    },
+    "Shyamdhan Mitra Lane": {
+      "type": "proper_noun",
+      "description": "A street in Kolkata, given as Rameswarbabu's address."
+    },
+    "Harrison Road": {
+      "type": "proper_noun",
+      "description": "A major thoroughfare in Kolkata (now Mahatma Gandhi Road), mentioned as the location of one of Rameswarbabu’s houses."
+    },
+    "Shyampukur": {
+      "type": "proper_noun",
+      "description": "A locality in north Kolkata, referenced as the site of Rameswarbabu’s residence."
+    },
+    "Durga Puja": {
+      "type": "proper_noun",
+      "description": "The most significant festival in Bengal, celebrating the goddess Durga."
+    },
+    "betel leaf": {
+      "type": "vocabulary",
+      "description": "A leaf from the betel plant, commonly chewed in India with areca nut and other ingredients as a mild stimulant."
+    },
+    "Baisakh": {
+      "type": "vocabulary",
+      "description": "The first month of the Bengali calendar, during which the Bengali New Year is celebrated."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The official currency of India."
+    },
+    "monogrammed": {
+      "type": "vocabulary",
+      "description": "Bearing a design composed of one or more letters, typically the initials of a name, used as an identifying mark."
+    },
+    "will": {
+      "type": "vocabulary",
+      "description": "A legal document expressing a person's wishes regarding the distribution of their property after death."
+    },
+    "intestate": {
+      "type": "vocabulary",
+      "description": "A term for dying without having made a legal will."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Rameswarbabu",
+      "Kumudini",
+      "Kusheswar",
+      "Nalini",
+      "Labanya",
+      "Dr Ashim Sen",
+      "Devnath",
+      "Inspector Halder",
+      "Putiram",
+      "Bengali New Year",
+      "Dussehra",
+      "Lakshmi",
+      "Mahabharata",
+      "Ramayana",
+      "Grandfather Bheeshma",
+      "Dasaratha",
+      "Calcutta",
+      "Vivekananda Road",
+      "Bagbazaar",
+      "Shyamdhan Mitra Lane",
+      "Harrison Road",
+      "Shyampukur",
+      "Durga Puja",
+      "betel leaf",
+      "Baisakh",
+      "rupees",
+      "monogrammed",
+      "will",
+      "intestate"
+    ]
+  }
+}

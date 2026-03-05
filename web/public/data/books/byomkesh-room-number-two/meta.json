@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-room-number-two",
+  "title": "Room Number Two",
+  "transliteratedTitle": "Room Nombor Dui",
+  "subtitle": "A Silent Room Hides a Deadly Secret",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-room-number-two.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "রুম নম্বর দুই",
+  "originalYear": 1964,
+  "totalChapters": 1,
+  "wordCount": 7522,
+  "summary": "When a guest in Room Number Two fails to respond to his morning tea, the tranquil Nirupama Hotel is thrust into an unexpected mystery. As suspicions mount and routines unravel, Byomkesh Bakshi is called upon to peel back layers of deception lurking behind closed doors. Step inside if you dare—every clue may be a trap.",
+  "anthologyId": "byomkesh"
+}

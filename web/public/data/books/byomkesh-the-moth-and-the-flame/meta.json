@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-moth-and-the-flame",
+  "title": "The Moth and the Flame",
+  "transliteratedTitle": "Banhi-Patanga",
+  "subtitle": "Dark Deceptions in the Shadows of Calcutta",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-moth-and-the-flame.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "বহ্নি-পতঙ্গ",
+  "originalYear": 1956,
+  "totalChapters": 1,
+  "wordCount": 24922,
+  "summary": "When a casual conversation unveils the sinister underbelly of poisonings and secret crimes, master detective Byomkesh Bakshi senses a deeper, more chilling mystery lurking beneath the surface. As the veneer of civility slowly cracks, the hunt for a hidden predator begins—where even the gentlest face might conceal a deadly intent. Dive into a world where every word and gesture could be a clue.",
+  "anthologyId": "byomkesh"
+}

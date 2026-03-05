@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-crooked-circle",
+  "title": "The Crooked Circle",
+  "transliteratedTitle": "Dushtochokro",
+  "subtitle": "A Sinister Scheme Unfolds in Calcutta",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-crooked-circle.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "দুষ্টচক্র",
+  "originalYear": 1963,
+  "totalChapters": 1,
+  "wordCount": 7841,
+  "summary": "When a desperate doctor seeks Byomkesh Bakshi’s help for a gravely ill patient, a web of mystery and intrigue begins to unravel. Reluctant yet intrigued, Byomkesh is drawn into a case where nothing is as it seems, and danger lurks beneath the surface. Will his razor-sharp intellect uncover the truth before it’s too late?",
+  "anthologyId": "byomkesh"
+}

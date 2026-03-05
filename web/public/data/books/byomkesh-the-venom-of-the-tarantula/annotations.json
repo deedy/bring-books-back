@@ -1,0 +1,94 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "A brilliant and analytical detective known as a 'truth-seeker' who is often engrossed in solving complex mysteries."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "The narrator and chronicler of Byomkesh's adventures, serving as his close friend and investigative partner."
+    },
+    "Mohan": {
+      "type": "character",
+      "description": "A doctor and old friend of Ajit, currently serving as the family-physician to Nandadulalbabu's household."
+    },
+    "Nandadulalbabu": {
+      "type": "character",
+      "description": "A wealthy, ailing, and cantankerous old man addicted to tarantula venom who is the central figure in the mystery and father to Arun and Abhay."
+    },
+    "Arun": {
+      "type": "character",
+      "description": "Nandadulalbabu's eldest son, who helps guard his father and is involved in the investigation."
+    },
+    "Abhay": {
+      "type": "character",
+      "description": "Likely Arun's younger brother and another son of Nandadulalbabu, also helps in keeping vigil over his father."
+    },
+    "Rebecca Light": {
+      "type": "character",
+      "description": "A woman residing in Calcutta, who sends registered letters containing blank sheets to Nandadulalbabu and receives money from him."
+    },
+    "Putiram": {
+      "type": "character",
+      "description": "Mentioned as someone who announces dinner, presumably a servant in Byomkesh and Ajit's household."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in India, now known as Kolkata, serving as the primary setting for the story."
+    },
+    "Circular Road": {
+      "type": "proper_noun",
+      "description": "A notable road in Calcutta, indicating the location of Nandadulalbabu's house."
+    },
+    "Spain": {
+      "type": "proper_noun",
+      "description": "A European country referenced in relation to the 'tarantula dance' and the effects of the spider's venom."
+    },
+    "South America": {
+      "type": "proper_noun",
+      "description": "A continent mentioned as the region where the use of tarantula extract is prevalent among certain tribes."
+    },
+    "Emile Zola": {
+      "type": "proper_noun",
+      "description": "A famous French writer, referenced here to emphasize the shocking nature of Nandadulalbabu's writing."
+    },
+    "Parker": {
+      "type": "proper_noun",
+      "description": "A well-known brand of fountain pens, used by Nandadulalbabu for writing and underlining."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful or familiar suffix in Bengali and Hindi, used here as part of names like 'Byomkeshbabu' and 'Nandadulalbabu'."
+    },
+    "almirah": {
+      "type": "vocabulary",
+      "description": "A freestanding cupboard or wardrobe, commonly used in Indian households."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A type of cigar, typically open at both ends, popular in India and Southeast Asia."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Mohan",
+      "Nandadulalbabu",
+      "Arun",
+      "Abhay",
+      "Rebecca Light",
+      "Putiram",
+      "Calcutta",
+      "Circular Road",
+      "Spain",
+      "South America",
+      "Emile Zola",
+      "Parker",
+      "Rebecca Light",
+      "babu",
+      "almirah",
+      "cheroot"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-mystery-of-the-fortress",
+  "title": "The Mystery of the Fortress",
+  "transliteratedTitle": "Durgo Rahasya",
+  "subtitle": "Ancestral Gold, Hidden Secrets, Looming Danger",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-mystery-of-the-fortress.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "দুর্গরহস্য",
+  "originalYear": 1952,
+  "totalChapters": 1,
+  "wordCount": 30793,
+  "summary": "As the fires of the Sepoy Mutiny sweep across the land, the descendants of Janakirama must defend their fortune and fortress against encroaching chaos. With plunderers closing in and the old fort barely holding, a web of fear and hidden intentions emerges. Will their cleverness and courage be enough to protect their legacy from both enemies and the shadows within?",
+  "anthologyId": "byomkesh"
+}

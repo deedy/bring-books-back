@@ -1,0 +1,103 @@
+{
+  "glossary": {
+    "Byomkesh Bakshi": {
+      "type": "character",
+      "description": "A highly intelligent private detective and 'Seeker of Truth' who goes undercover as Atul Chandra Mitra, a young man seeking employment, to solve complex cases."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "The narrator of the story and a literary-minded bachelor who becomes Byomkesh's close friend and chronicler of his adventures."
+    },
+    "Sheikh Abdul Gaffoor": {
+      "type": "character",
+      "description": "A leather merchant whose house is raided by the police on suspicion of cocaine trafficking."
+    },
+    "Putiram": {
+      "type": "character",
+      "description": "Byomkesh Bakshi's domestic help at his residence on Harrison Road."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The capital city of West Bengal, India, known for its rich cultural and historical heritage."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "Bengal is a region in eastern India, of which Calcutta is the capital; its people are known as Bengalis, who are associated with a rich tradition of literature, arts, and intellectual pursuits."
+    },
+    "Chinese": {
+      "type": "proper_noun",
+      "description": "Refers to the Chinese community living in Calcutta, particularly in certain neighborhoods."
+    },
+    "Daily Kalketu": {
+      "type": "proper_noun",
+      "description": "A fictional or lesser-known newspaper mentioned as a source of news in the story."
+    },
+    "Yale": {
+      "type": "proper_noun",
+      "description": "A well-known brand of locks, here referring to the latch-lock on Ashwinibabu's door."
+    },
+    "Burdwan": {
+      "type": "proper_noun",
+      "description": "Burdwan is a district in West Bengal, India, known for its agricultural and historical significance; Hariharpur is a village in Burdwan, mentioned as Ashwinibabu's native place."
+    },
+    "Eric and Ha veil": {
+      "type": "proper_noun",
+      "description": "A foreign manufacturer of homeopathic medicines, referenced for their quality products."
+    },
+    "CID": {
+      "type": "proper_noun",
+      "description": "Criminal Investigation Department, the specialized branch of the Indian police responsible for investigating serious crimes."
+    },
+    "Harrison Road": {
+      "type": "proper_noun",
+      "description": "A major thoroughfare in Calcutta, where Byomkesh Bakshi resides."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation combining betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects."
+    },
+    "mess": {
+      "type": "vocabulary",
+      "description": "A shared boarding-house or lodging, commonly used in India to refer to communal living arrangements for bachelors."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "beedis": {
+      "type": "vocabulary",
+      "description": "Thin, hand-rolled cigarettes made from tobacco wrapped in a tendu leaf, popular in India."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A type of cigar with both ends clipped during manufacture, commonly smoked in India."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "'Babu' is a respectful suffix or form of address in Bengali and other Indian languages, often attached to a man's name (e.g., Ajitbabu, Atulbabu, Anukulbabu, Ashwinibabu, Ghanashyambabu) to show respect."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh Bakshi",
+      "Ajit",
+      "Sheikh Abdul Gaffoor",
+      "Putiram",
+      "Calcutta",
+      "Bengal",
+      "Chinese",
+      "Daily Kalketu",
+      "Yale",
+      "Burdwan",
+      "Eric and Ha veil",
+      "CID",
+      "Harrison Road",
+      "paan",
+      "mess",
+      "dhoti",
+      "beedis",
+      "cheroot",
+      "babu"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-jewel-case",
+  "title": "The Jewel Case",
+  "transliteratedTitle": "Monimondon",
+  "subtitle": "A Stolen Necklace and a Master Sleuth",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-jewel-case.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "মণিমন্দন",
+  "originalYear": 1958,
+  "totalChapters": 1,
+  "wordCount": 8202,
+  "summary": "When a renowned jeweller's priceless necklace vanishes without a trace, the ingenious Byomkesh Bakshi is called upon to solve the baffling crime. As secrets unravel and suspects emerge, will Byomkesh uncover the elusive truth behind the jewel case? Dive into a classic mystery where every clue counts.",
+  "anthologyId": "byomkesh"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "byomkesh-the-will-that-vanished",
+  "title": "The Will That Vanished",
+  "transliteratedTitle": "Khuji Khuji Nari",
+  "subtitle": "A Fortune Lost, A Mystery Unfolds",
+  "authorId": "sharadindu-bandyopadhyay",
+  "coverImage": "/data/images/covers/byomkesh-the-will-that-vanished.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Detective Fiction",
+    "Mystery"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "খুঁজি খুঁজি নারি",
+  "originalYear": 1961,
+  "totalChapters": 1,
+  "wordCount": 6203,
+  "summary": "When Rameswarbabu, a wealthy and witty patriarch, pulls off what may be his last great joke, Byomkesh Bakshi is drawn into a web of intrigue surrounding a missing will. As old friendships and deeper secrets surface, the search for the vanished document becomes a race against time—and a puzzle only Byomkesh can hope to solve.",
+  "anthologyId": "byomkesh"
+}

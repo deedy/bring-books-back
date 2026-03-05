@@ -1,0 +1,183 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "A renowned detective and truth-seeker who investigates mysteries with keen observation and logic."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "The narrator and chronicler of Byomkesh's adventures, he is Byomkesh's close friend and often assists in investigations."
+    },
+    "Bhupesh Chatterjee": {
+      "type": "character",
+      "description": "A middle-aged, refined insurance company employee and recent resident of the boarding house, who is deeply fond of bridge."
+    },
+    "Satyabati": {
+      "type": "character",
+      "description": "Byomkesh's wife, who manages the household and shares a warm relationship with her husband."
+    },
+    "Ramchandra Roy": {
+      "type": "character",
+      "description": "A grave and taciturn bank employee, later revealed to be Rashbehari Biswas."
+    },
+    "Banamali Chanda": {
+      "type": "character",
+      "description": "A reticent bank employee with an Eastern Bengali accent, later revealed to be Banabehari Biswas."
+    },
+    "Natabar Nashkar": {
+      "type": "character",
+      "description": "A solitary boarder on the ground floor, later revealed to have been a blackmailer, whose murder is central to the story."
+    },
+    "Shibkali Chakraborty": {
+      "type": "character",
+      "description": "The manager of the boarding house, a bachelor who has run the establishment for twenty-five years."
+    },
+    "Pranab Guha": {
+      "type": "character",
+      "description": "The local police inspector, competent but not fond of Byomkesh, who investigates Natabar Nashkar's murder."
+    },
+    "Haripada": {
+      "type": "character",
+      "description": "The servant in the boarding house, who provides a potentially significant observation about Natabar's last visitor."
+    },
+    "Suren-babu": {
+      "type": "character",
+      "description": "A first-floor resident who sends Haripada to buy snacks and provides a time reference for the investigation."
+    },
+    "Swami Pranabananda": {
+      "type": "character",
+      "description": "Mentioned as someone Byomkesh suggests visiting, though not directly involved in the main plot."
+    },
+    "Cuttack": {
+      "type": "proper_noun",
+      "description": "A city in Odisha, India, where Byomkesh and Ajit travel for official work."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "Now known as Kolkata, a major city in West Bengal, India, and the primary setting of the story."
+    },
+    "Dhaka": {
+      "type": "proper_noun",
+      "description": "The capital of Bangladesh, referenced as the former home of several characters before the Partition."
+    },
+    "Partition": {
+      "type": "proper_noun",
+      "description": "Refers to the 1947 division of British India into India and Pakistan, causing mass migrations and communal violence."
+    },
+    "Godfrey-Brown": {
+      "type": "proper_noun",
+      "description": "A large British firm with offices in Dhaka and Calcutta, where Ram-babu and Banamali-babu formerly worked."
+    },
+    "West Bengal": {
+      "type": "proper_noun",
+      "description": "An Indian state, referenced as the destination for refugees from Dhaka after the Partition."
+    },
+    "Rabindranath Tagore": {
+      "type": "proper_noun",
+      "description": "A renowned Bengali poet and Nobel laureate, quoted by Bhupesh-babu."
+    },
+    "Sarat Chandra Chattopadhyay": {
+      "type": "proper_noun",
+      "description": "A famous Bengali novelist, referenced by Byomkesh in the conclusion."
+    },
+    "Marwari store": {
+      "type": "proper_noun",
+      "description": "A shop run by members of the Marwari community, known for their business acumen, from which snacks are bought."
+    },
+    "American army pistol": {
+      "type": "proper_noun",
+      "description": "A type of firearm mentioned as the murder weapon, available on the black market."
+    },
+    "Commissioner": {
+      "type": "proper_noun",
+      "description": "Refers to the police commissioner, the senior-most police official in the city."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful suffix or form of address for men in Bengali and other Indian languages, similar to 'Mr.'"
+    },
+    "churidar": {
+      "type": "vocabulary",
+      "description": "A type of close-fitting trousers worn in South Asia, often paired with a kurta or jacket."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, consisting of a long piece of cloth wrapped around the waist and legs."
+    },
+    "addicted to bridge": {
+      "type": "vocabulary",
+      "description": "Refers to a strong fondness for the card game bridge, which is culturally popular among some Indian communities."
+    },
+    "kayastha": {
+      "type": "vocabulary",
+      "description": "A Hindu caste traditionally associated with scribes and administrators in Bengal and other parts of India."
+    },
+    "vaidya": {
+      "type": "vocabulary",
+      "description": "A traditional practitioner of Ayurvedic medicine, also a caste in Bengal."
+    },
+    "anna": {
+      "type": "vocabulary",
+      "description": "A former Indian currency unit, equal to 1/16 of a rupee, used before decimalization."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A large piece of fabric worn over the shoulders or head, commonly used in Indian attire, especially in winter."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn by women in India, consisting of a long piece of cloth draped around the body."
+    },
+    "rubber": {
+      "type": "vocabulary",
+      "description": "In the context of card games, a set of games (usually three) that determines the overall winner."
+    },
+    "passbook": {
+      "type": "vocabulary",
+      "description": "A small book used to record banking transactions, commonly used in India."
+    },
+    "godown": {
+      "type": "vocabulary",
+      "description": "A warehouse or storage facility, a term commonly used in India and Southeast Asia."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Bhupesh Chatterjee",
+      "Satyabati",
+      "Ramchandra Roy",
+      "Banamali Chanda",
+      "Natabar Nashkar",
+      "Shibkali Chakraborty",
+      "Pranab Guha",
+      "Haripada",
+      "Suren-babu",
+      "Swami Pranabananda",
+      "Cuttack",
+      "Calcutta",
+      "Dhaka",
+      "Partition",
+      "Godfrey-Brown",
+      "West Bengal",
+      "Rabindranath Tagore",
+      "Sarat Chandra Chattopadhyay",
+      "Marwari store",
+      "American army pistol",
+      "Commissioner",
+      "babu",
+      "churidar",
+      "dhoti",
+      "addicted to bridge",
+      "kayastha",
+      "vaidya",
+      "anna",
+      "shawl",
+      "sari",
+      "rubber",
+      "passbook",
+      "godown"
+    ]
+  }
+}

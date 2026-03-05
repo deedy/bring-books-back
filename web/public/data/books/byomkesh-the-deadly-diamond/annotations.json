@@ -1,0 +1,123 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist and sharp detective known as a 'truth-seeker' or 'satyanweshi' who solves mysteries using keen observation and logic."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "The narrator and close friend of Byomkesh, who documents their adventures and assists in investigations."
+    },
+    "Ramanath Neogi": {
+      "type": "character",
+      "description": "A notorious jewel thief, recently released from jail, whose past crime and actions are central to the mystery."
+    },
+    "Maharaja Ramendra Sinha": {
+      "type": "character",
+      "description": "A wealthy and benevolent aristocrat, owner of the stolen blue diamond, who seeks Byomkesh's help after his secretary's murder."
+    },
+    "Haripada Rakshit": {
+      "type": "character",
+      "description": "The Maharaja's secretary, a reformed criminal with a history of imprisonment, whose murder is the focus of the investigation."
+    },
+    "Nirmal babu": {
+      "type": "character",
+      "description": "A retired and intelligent police detective who previously investigated the theft of the blue diamond."
+    },
+    "Bidhu babu": {
+      "type": "character",
+      "description": "A police inspector involved in the current investigation, sometimes referred to by the variant name Buddhu babu."
+    },
+    "Purna babu": {
+      "type": "character",
+      "description": "The police officer in charge of the murder investigation of Haripada Rakshit."
+    },
+    "Putiram": {
+      "type": "character",
+      "description": "A servant or helper in Byomkesh's household, who assists with household tasks."
+    },
+    "Raktamukhi Neela": {
+      "type": "proper_noun",
+      "description": "The Bengali title of the story, translating to 'The Deadly Diamond', referring to the central object of the mystery."
+    },
+    "Saratchandra": {
+      "type": "proper_noun",
+      "description": "Refers to Sarat Chandra Chattopadhyay, a famous Bengali novelist, whose work 'Charitraheen' is mentioned."
+    },
+    "Charitraheen": {
+      "type": "proper_noun",
+      "description": "A well-known novel by Saratchandra Chattopadhyay, referenced here as being shown in cinema halls."
+    },
+    "Alipur": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta (now Kolkata), known for its jail, which plays a role in the story."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, a major city in India where the events of the story take place."
+    },
+    "Jawaharlal Hiralal": {
+      "type": "proper_noun",
+      "description": "A jeweller or jewellery shop in Calcutta, mentioned as a victim of theft."
+    },
+    "Dutta jewellers": {
+      "type": "proper_noun",
+      "description": "Another jewellery shop in Calcutta, also burgled during the spate of thefts."
+    },
+    "Marwari": {
+      "type": "proper_noun",
+      "description": "An Indian ethnic group, often associated with business and trade, referenced here in the context of buying diamonds."
+    },
+    "Saturn": {
+      "type": "proper_noun",
+      "description": "The planet, referenced in Indian astrology as being associated with blue diamonds and their supposed powers."
+    },
+    "Rolls Royce": {
+      "type": "proper_noun",
+      "description": "A luxury British car, symbolizing the wealth and status of Maharaja Ramendra Sinha."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful term used in Bengal and other parts of India to address men, often appended to names or titles."
+    },
+    "lakhs": {
+      "type": "vocabulary",
+      "description": "A unit in the Indian numbering system equal to one hundred thousand (100,000)."
+    },
+    "jailbird": {
+      "type": "vocabulary",
+      "description": "A colloquial term for someone who has spent a significant amount of time in jail, often used in Indian English."
+    },
+    "matinee": {
+      "type": "vocabulary",
+      "description": "A term used in India for an afternoon cinema show or performance, here used metaphorically for a dramatic event."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Ramanath Neogi",
+      "Maharaja Ramendra Sinha",
+      "Haripada Rakshit",
+      "Nirmal babu",
+      "Bidhu babu",
+      "Purna babu",
+      "Putiram",
+      "Raktamukhi Neela",
+      "Saratchandra",
+      "Charitraheen",
+      "Alipur",
+      "Calcutta",
+      "Jawaharlal Hiralal",
+      "Dutta jewellers",
+      "Marwari",
+      "Saturn",
+      "Rolls Royce",
+      "babu",
+      "lakhs",
+      "jailbird",
+      "matinee"
+    ]
+  }
+}

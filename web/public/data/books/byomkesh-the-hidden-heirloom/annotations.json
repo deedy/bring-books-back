@@ -1,0 +1,138 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist and brilliant detective known for his keen observation skills and dedication to uncovering the truth."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend, assistant, and the narrator of the stories who aspires to document Byomkesh's cases."
+    },
+    "Kumar Tridib Narayan Roy": {
+      "type": "character",
+      "description": "A wealthy young man from North Bengal who seeks Byomkesh's help in recovering his family's stolen diamond."
+    },
+    "Sir Digindra Narayan Roy": {
+      "type": "character",
+      "description": "A wealthy, eccentric genius known for his artistic and scientific pursuits who is suspected of stealing a family diamond."
+    },
+    "Ujre Singh": {
+      "type": "character",
+      "description": "A loyal Nepali servant and chawkidar (watchman) at Sir Digindra's house, known for his vigilance."
+    },
+    "Putiram": {
+      "type": "character",
+      "description": "Ajit and Byomkesh's servant, who assists with household matters and delivers messages."
+    },
+    "Seemanta Heera": {
+      "type": "proper_noun",
+      "description": "The name of the chapter, referring to the legendary family diamond at the center of the mystery."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "A region in eastern India, referenced as the setting for the story."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The capital city of West Bengal, now known as Kolkata; a major urban center in the story."
+    },
+    "North Bengal": {
+      "type": "proper_noun",
+      "description": "A geographic region in the northern part of West Bengal, India, where Kumar's estate is located."
+    },
+    "Baroda": {
+      "type": "proper_noun",
+      "description": "A princely state in western India, referenced as one of the royal families displaying jewels at the exhibition."
+    },
+    "Hyderabad": {
+      "type": "proper_noun",
+      "description": "A former princely state in southern India, also referenced for its royal jewels."
+    },
+    "Patiala": {
+      "type": "proper_noun",
+      "description": "A princely state in Punjab, India, mentioned in the context of the exhibition of royal jewels."
+    },
+    "Moghuls": {
+      "type": "proper_noun",
+      "description": "The Mughal dynasty, historical rulers of much of India, during whose reign Kumar's ancestors received their land."
+    },
+    "Paris": {
+      "type": "proper_noun",
+      "description": "The capital of France, where Sir Digindra's statue was exhibited and acclaimed."
+    },
+    "Louvre": {
+      "type": "proper_noun",
+      "description": "The famous art museum in Paris, where the original Nataraj statue is kept."
+    },
+    "Grand Hotel": {
+      "type": "proper_noun",
+      "description": "A well-known hotel in Calcutta where Kumar stays during his visit."
+    },
+    "National Library": {
+      "type": "proper_noun",
+      "description": "A major library in Calcutta, visited by Byomkesh for research."
+    },
+    "Calcutta University": {
+      "type": "proper_noun",
+      "description": "A prestigious university in Calcutta, referenced during the job interview scene."
+    },
+    "Nataraj": {
+      "type": "proper_noun",
+      "description": "A depiction of Lord Shiva as the cosmic dancer, central to the mystery as a statue; the Nataraj statue represents Lord Shiva in his cosmic dance form."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful term of address for men, often used in Bengal."
+    },
+    "Bahadur": {
+      "type": "vocabulary",
+      "description": "An honorific title, often used to denote respect or nobility."
+    },
+    "Dewan": {
+      "type": "vocabulary",
+      "description": "A steward or manager, especially of finances, in a wealthy household."
+    },
+    "chawkidar": {
+      "type": "vocabulary",
+      "description": "A watchman or guard, commonly employed for security."
+    },
+    "almirah": {
+      "type": "vocabulary",
+      "description": "A wardrobe or cupboard, used for storing valuables or clothes."
+    },
+    "phiran": {
+      "type": "vocabulary",
+      "description": "A traditional loose cloak worn in Kashmir, referenced as Sir Digindra's attire."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Kumar Tridib Narayan Roy",
+      "Sir Digindra Narayan Roy",
+      "Ujre Singh",
+      "Putiram",
+      "Seemanta Heera",
+      "Bengal",
+      "Calcutta",
+      "North Bengal",
+      "Baroda",
+      "Hyderabad",
+      "Patiala",
+      "Moghuls",
+      "Paris",
+      "Louvre",
+      "Grand Hotel",
+      "National Library",
+      "Calcutta University",
+      "Nataraj",
+      "babu",
+      "Bahadur",
+      "Dewan",
+      "chawkidar",
+      "almirah",
+      "phiran"
+    ]
+  }
+}

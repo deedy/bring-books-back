@@ -1,0 +1,325 @@
+{
+  "chapters": [
+    {
+      "part": 1,
+      "part_name": "The Inquisitor",
+      "chapter": 1,
+      "title": "The Inquisitor",
+      "page": 1,
+      "year": 1932,
+      "original_name": "সত্যান্বেষী",
+      "transliterated_name": "Satyanweshi"
+    },
+    {
+      "part": 2,
+      "part_name": "The Gramophone Pin Mystery",
+      "chapter": 1,
+      "title": "The Gramophone Pin Mystery",
+      "page": 23,
+      "year": 1932,
+      "original_name": "পথের কাঁটা",
+      "transliterated_name": "Pother Kanta"
+    },
+    {
+      "part": 3,
+      "part_name": "The Hidden Heirloom",
+      "chapter": 1,
+      "title": "The Hidden Heirloom",
+      "page": 57,
+      "year": 1932,
+      "original_name": "সীমন্ত-হীরা",
+      "transliterated_name": "Seemanto-Heera"
+    },
+    {
+      "part": 4,
+      "part_name": "The Venom of the Tarantula",
+      "chapter": 1,
+      "title": "The Venom of the Tarantula",
+      "page": 77,
+      "year": 1933,
+      "original_name": "মকরশার রস",
+      "transliterated_name": "Makorshar Rosh"
+    },
+    {
+      "part": 5,
+      "part_name": "Where There's a Will",
+      "chapter": 1,
+      "title": "Where There's a Will",
+      "page": 91,
+      "year": 1933,
+      "original_name": "অর্থমনর্থম",
+      "transliterated_name": "Arthamanartham"
+    },
+    {
+      "part": 6,
+      "part_name": "Quicksand",
+      "chapter": 1,
+      "title": "Quicksand",
+      "page": 120,
+      "year": 1933,
+      "original_name": "চোরাবালি",
+      "transliterated_name": "Chorabali"
+    },
+    {
+      "part": 7,
+      "part_name": "Calamity Strikes",
+      "chapter": 1,
+      "title": "Calamity Strikes",
+      "page": 151,
+      "year": 1935,
+      "original_name": "অগ্নিবাণ",
+      "transliterated_name": "Agnibaan"
+    },
+    {
+      "part": 8,
+      "part_name": "An Encore for Byomkesh",
+      "chapter": 1,
+      "title": "An Encore for Byomkesh",
+      "page": 177,
+      "year": 1935,
+      "original_name": "উপসংহার",
+      "transliterated_name": "Uposonghaar"
+    },
+    {
+      "part": 9,
+      "part_name": "The Deadly Diamond",
+      "chapter": 1,
+      "title": "The Deadly Diamond",
+      "page": 202,
+      "year": 1936,
+      "original_name": "রক্তমুখী নীলা",
+      "transliterated_name": "Raktomukhi Neela"
+    },
+    {
+      "part": 10,
+      "part_name": "Byomkesh and Barada",
+      "chapter": 1,
+      "title": "Byomkesh and Barada",
+      "page": 213,
+      "year": 1936,
+      "original_name": "ব্যোমকেশ ও বরদা",
+      "transliterated_name": "Byomkesh O Boroda"
+    },
+    {
+      "part": 11,
+      "part_name": "Picture Imperfect",
+      "chapter": 1,
+      "title": "Picture Imperfect",
+      "page": 248,
+      "year": 1951,
+      "original_name": "চিত্রচোর",
+      "transliterated_name": "Chitrochor"
+    },
+    {
+      "part": 12,
+      "part_name": "The Menagerie",
+      "chapter": 1,
+      "title": "The Menagerie",
+      "page": 288,
+      "year": 1953,
+      "original_name": "চিড়িয়াখানা",
+      "transliterated_name": "Chiriyakhana"
+    },
+    {
+      "part": 13,
+      "part_name": "The Jewel Case",
+      "chapter": 1,
+      "title": "The Jewel Case",
+      "page": 391,
+      "year": 1958,
+      "original_name": "মণিমন্দন",
+      "transliterated_name": "Monimondon"
+    },
+    {
+      "part": 14,
+      "part_name": "The Death of Amrito",
+      "chapter": 1,
+      "title": "The Death of Amrito",
+      "page": 409,
+      "year": 1959,
+      "original_name": "অমৃতের মৃত্যু",
+      "transliterated_name": "Amriter Mrityu"
+    },
+    {
+      "part": 15,
+      "part_name": "The Phantom Client",
+      "chapter": 1,
+      "title": "The Phantom Client",
+      "page": 449,
+      "year": 1959,
+      "original_name": "শৈল রহস্য",
+      "transliterated_name": "Shailo Rahasya"
+    },
+    {
+      "part": 16,
+      "part_name": "The Avenger",
+      "chapter": 1,
+      "title": "The Avenger",
+      "page": 465,
+      "year": 1960,
+      "original_name": "অচিন পাখী",
+      "transliterated_name": "Achin Pakhi"
+    },
+    {
+      "part": 17,
+      "part_name": "The Invisible Triangle",
+      "chapter": 1,
+      "title": "The Invisible Triangle",
+      "page": 477,
+      "year": 1961,
+      "original_name": "অদৃশ্য ত্রিকোণ",
+      "transliterated_name": "Adrishya Trikon"
+    },
+    {
+      "part": 18,
+      "part_name": "The Will That Vanished",
+      "chapter": 1,
+      "title": "The Will That Vanished",
+      "page": 493,
+      "year": 1961,
+      "original_name": "খুঁজি খুঁজি নারি",
+      "transliterated_name": "Khuji Khuji Nari"
+    },
+    {
+      "part": 19,
+      "part_name": "Adwitiya",
+      "chapter": 1,
+      "title": "Adwitiya",
+      "page": 507,
+      "year": 1961,
+      "original_name": "অদ্বিতীয়",
+      "transliterated_name": "Adwitiyo"
+    },
+    {
+      "part": 20,
+      "part_name": "The Crooked Circle",
+      "chapter": 1,
+      "title": "The Crooked Circle",
+      "page": 522,
+      "year": 1963,
+      "original_name": "দুষ্টচক্র",
+      "transliterated_name": "Dushtochokro"
+    },
+    {
+      "part": 21,
+      "part_name": "The Rhythm of Riddles",
+      "chapter": 1,
+      "title": "The Rhythm of Riddles",
+      "page": 539,
+      "year": 1964,
+      "original_name": "হেঁয়ালির ছন্দ",
+      "transliterated_name": "Henyalir Chhondo"
+    },
+    {
+      "part": 22,
+      "part_name": "Room Number Two",
+      "chapter": 1,
+      "title": "Room Number Two",
+      "page": 558,
+      "year": 1964,
+      "original_name": "রুম নম্বর দুই",
+      "transliterated_name": "Room Nombor Dui"
+    },
+    {
+      "part": 23,
+      "part_name": "The Man in a Red Coat",
+      "chapter": 1,
+      "title": "The Man in a Red Coat",
+      "page": 574,
+      "year": 1965,
+      "original_name": "চোলনার ছন্দ",
+      "transliterated_name": "Cholonar Chhondo"
+    },
+    {
+      "part": 24,
+      "part_name": "The Quills of the Porcupine",
+      "chapter": 1,
+      "title": "The Quills of the Porcupine",
+      "page": 585,
+      "year": 1967,
+      "original_name": "শজারুর কাঁটা",
+      "transliterated_name": "Shajarur Kanta"
+    },
+    {
+      "part": 25,
+      "part_name": "The Iron Biscuit",
+      "chapter": 1,
+      "title": "The Iron Biscuit",
+      "page": 664,
+      "year": 1969,
+      "original_name": "লোহার বিস্কুট",
+      "transliterated_name": "Lohar Biscuit"
+    },
+    {
+      "part": 27,
+      "part_name": "The Mystery of the Fortress",
+      "chapter": 1,
+      "title": "The Mystery of the Fortress",
+      "page": 674,
+      "year": 1952,
+      "original_name": "দুর্গরহস্য",
+      "transliterated_name": "Durgo Rahasya"
+    },
+    {
+      "part": 28,
+      "part_name": "The Primal Enemy",
+      "chapter": 1,
+      "title": "The Primal Enemy",
+      "page": 736,
+      "year": 1955,
+      "original_name": "আদিম রিপু",
+      "transliterated_name": "Adim Ripu"
+    },
+    {
+      "part": 29,
+      "part_name": "The Moth and the Flame",
+      "chapter": 1,
+      "title": "The Moth and the Flame",
+      "page": 814,
+      "year": 1956,
+      "original_name": "বহ্নি-পতঙ্গ",
+      "transliterated_name": "Banhi-Patanga"
+    },
+    {
+      "part": 26,
+      "part_name": "The Arrow of Fire",
+      "chapter": 1,
+      "title": "The Arrow of Fire",
+      "page": 863,
+      "year": 1956,
+      "original_name": "রক্তের দাগ",
+      "transliterated_name": "Rokter Daag"
+    },
+    {
+      "part": 30,
+      "part_name": "Thus Spoke Poet Kalidasa",
+      "chapter": 1,
+      "title": "Thus Spoke Poet Kalidasa",
+      "page": 893,
+      "year": 1961,
+      "original_name": "কহেন কবি কালিদাস",
+      "transliterated_name": "Kohen Kobi Kalidas"
+    },
+    {
+      "part": 31,
+      "part_name": "The Submerged Peak",
+      "chapter": 1,
+      "title": "The Submerged Peak",
+      "page": 935,
+      "year": 1963,
+      "original_name": "মগ্নমৈনাক",
+      "transliterated_name": "Mognomoinak"
+    },
+    {
+      "part": 32,
+      "part_name": "The Annihilation of Beni",
+      "chapter": 1,
+      "title": "The Annihilation of Beni",
+      "page": 983,
+      "year": 1968,
+      "original_name": "বেণীসংহার",
+      "transliterated_name": "Benishonghar"
+    }
+  ],
+  "use_title_markers": true
+}

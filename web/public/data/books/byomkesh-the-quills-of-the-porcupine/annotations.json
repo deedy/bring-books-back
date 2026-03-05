@@ -1,0 +1,373 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The central detective of the story, known as a 'truth-seeker' or 'satyanweshi', who investigates the porcupine quill murders."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "Byomkesh's close friend and chronicler, often present during investigations."
+    },
+    "Rakhalbabu": {
+      "type": "character",
+      "description": "A police inspector who collaborates with Byomkesh on the murder cases."
+    },
+    "Debashish": {
+      "type": "character",
+      "description": "Owner of Butterfly Cosmetics, recently married to Dipa, and a target of the porcupine quill attacks."
+    },
+    "Dipa": {
+      "type": "character",
+      "description": "Debashish's young wife, previously in love with another man, caught in a difficult marriage."
+    },
+    "Nakul": {
+      "type": "character",
+      "description": "The loyal cook and servant in Debashish's household, privy to the family's daily life."
+    },
+    "Nripati": {
+      "type": "character",
+      "description": "A well-educated widower who hosts regular tea and chat sessions for local young men."
+    },
+    "Bijoy": {
+      "type": "character",
+      "description": "Dipa's older brother, involved in arranging her marriage and protective of family honor."
+    },
+    "Nil Madhav": {
+      "type": "character",
+      "description": "Dipa's father, a college professor, upholding traditional family values."
+    },
+    "Uday Madhav Mukherjee": {
+      "type": "character",
+      "description": "Dipa's grandfather, former college principal and family patriarch, paralyzed and authoritative."
+    },
+    "Probal": {
+      "type": "character",
+      "description": "A musician, singer, and childhood acquaintance of Debashish, later revealed as the murderer."
+    },
+    "Kapil": {
+      "type": "character",
+      "description": "A wealthy, educated bachelor with an interest in astronomy and part of Nripati's circle."
+    },
+    "Kharga Bahadur": {
+      "type": "character",
+      "description": "A famous football player of Nepali-Bengali heritage, member of the tea session group."
+    },
+    "Sujan Mitra": {
+      "type": "character",
+      "description": "A rising film actor, known for his good looks and level-headedness, part of the friend group."
+    },
+    "Shubhra": {
+      "type": "character",
+      "description": "Dipa's close friend, a jovial and married woman who visits her after the wedding."
+    },
+    "Padmalochan": {
+      "type": "character",
+      "description": "The elderly gardener hired to help Dipa with her new garden."
+    },
+    "Dr Ramprasad Dutta": {
+      "type": "character",
+      "description": "The seniormost chemist at Butterfly Cosmetics, respected by Dipa and Debashish."
+    },
+    "Dr Gupta": {
+      "type": "character",
+      "description": "The hospital doctor who treats Debashish after the porcupine quill attack."
+    },
+    "Dinanath": {
+      "type": "character",
+      "description": "Nripati’s loyal valet, also called Dinu, who assists with household affairs and is trusted by the family."
+    },
+    "Ratan Singh": {
+      "type": "character",
+      "description": "Kharga Bahadur’s valet and cook, responsible for preparing kebabs."
+    },
+    "Ramola": {
+      "type": "character",
+      "description": "Kapil’s sister-in-law, who manages the household and is known for her sharp temperament."
+    },
+    "Ashoka": {
+      "type": "character",
+      "description": "Kapil’s elder sister, married to Sailenbabu, with a son at boarding school."
+    },
+    "Sailenbabu": {
+      "type": "character",
+      "description": "Kapil’s brother-in-law, a talkative and argumentative man."
+    },
+    "Dr Surit Sen": {
+      "type": "character",
+      "description": "The physician who attends Dipa’s family and treats Debashish during his illness."
+    },
+    "Satyaboti": {
+      "type": "character",
+      "description": "Appears in the epilogue as a listener to Byomkesh’s explanation."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The city in which the story is set, now known as Kolkata."
+    },
+    "Gol Park": {
+      "type": "proper_noun",
+      "description": "A well-known landmark and traffic circle in south Calcutta."
+    },
+    "Rabindra Sarobar": {
+      "type": "proper_noun",
+      "description": "A large lake and park area in south Calcutta, site of several murders."
+    },
+    "Garia": {
+      "type": "proper_noun",
+      "description": "A neighborhood in south Calcutta, where Gunamoybabu lives."
+    },
+    "Keyatala": {
+      "type": "proper_noun",
+      "description": "A locality in south Calcutta where Byomkesh resides."
+    },
+    "Utpala theatre": {
+      "type": "proper_noun",
+      "description": "A cinema hall in Calcutta mentioned as showing a film."
+    },
+    "Butterfly Cosmetics": {
+      "type": "proper_noun",
+      "description": "The cosmetics factory owned by Debashish."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, where Debashish studied."
+    },
+    "University of Delhi": {
+      "type": "proper_noun",
+      "description": "A prestigious university where Debashish stayed with a professor."
+    },
+    "Sandilya": {
+      "type": "proper_noun",
+      "description": "A Brahmin gotra (clan lineage) mentioned in the context of Debashish's sacred thread ceremony."
+    },
+    "Banerjee": {
+      "type": "proper_noun",
+      "description": "A common Bengali Brahmin surname, also used as a gotra reference."
+    },
+    "Chatterjee": {
+      "type": "proper_noun",
+      "description": "A Bengali Brahmin surname, mentioned in the context of caste."
+    },
+    "Ganguly": {
+      "type": "proper_noun",
+      "description": "Another Bengali Brahmin surname."
+    },
+    "Ghoshal": {
+      "type": "proper_noun",
+      "description": "A Bengali Brahmin surname."
+    },
+    "Ballygunge": {
+      "type": "proper_noun",
+      "description": "A prominent neighborhood in south Calcutta."
+    },
+    "Maiden": {
+      "type": "proper_noun",
+      "description": "Refers to the Maidan, a large urban park in central Calcutta."
+    },
+    "New Market": {
+      "type": "proper_noun",
+      "description": "A famous shopping area in central Calcutta."
+    },
+    "Dum Dum": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta, mentioned as a site for music recording."
+    },
+    "Southern Avenue": {
+      "type": "proper_noun",
+      "description": "A major road in south Calcutta, bordering Rabindra Sarobar."
+    },
+    "Bangalore": {
+      "type": "proper_noun",
+      "description": "A major city in southern India, mentioned as a travel destination."
+    },
+    "Kathmandu": {
+      "type": "proper_noun",
+      "description": "The capital of Nepal, referenced in connection with Kharga Bahadur's postponed marriage."
+    },
+    "Nepal": {
+      "type": "proper_noun",
+      "description": "Country of origin for Kharga Bahadur's family."
+    },
+    "Sindhi": {
+      "type": "proper_noun",
+      "description": "An ethnic group from Sindh, referenced as one of Kharga Bahadur’s guests."
+    },
+    "Punjabi": {
+      "type": "proper_noun",
+      "description": "An ethnic group from Punjab, referenced as one of Kharga Bahadur’s guests."
+    },
+    "Parsi": {
+      "type": "proper_noun",
+      "description": "A Zoroastrian community in India, referenced as one of Kharga Bahadur’s guests."
+    },
+    "Darjeeling": {
+      "type": "proper_noun",
+      "description": "A hill station in West Bengal, where Kapil’s sister and her husband live."
+    },
+    "Rashbehari Hospital": {
+      "type": "proper_noun",
+      "description": "The hospital where Debashish is taken after the attack."
+    },
+    "Shojarur Kanta": {
+      "type": "proper_noun",
+      "description": "The original Bengali title of the story, meaning 'The Quills of the Porcupine'."
+    },
+    "Gita": {
+      "type": "proper_noun",
+      "description": "Refers to the Bhagavad Gita, a sacred Hindu scripture."
+    },
+    "Rabindranath Tagore": {
+      "type": "proper_noun",
+      "description": "A Nobel laureate Bengali poet and composer, whose songs are performed in the story."
+    },
+    "D.L. Roy": {
+      "type": "proper_noun",
+      "description": "A Bengali poet and composer, referenced in Dipa’s bookshelf."
+    },
+    "Nazrul": {
+      "type": "proper_noun",
+      "description": "Refers to Kazi Nazrul Islam, a renowned Bengali poet and musician."
+    },
+    "Bankim Chandra Chatterjee": {
+      "type": "proper_noun",
+      "description": "A famous Bengali novelist, referenced by Byomkesh."
+    },
+    "Govinda Das": {
+      "type": "proper_noun",
+      "description": "A Bengali poet, quoted by Shubhra."
+    },
+    "Krishna": {
+      "type": "proper_noun",
+      "description": "A Hindu deity, referenced in a poetic couplet."
+    },
+    "Saraswati": {
+      "type": "proper_noun",
+      "description": "The Hindu goddess of knowledge and arts, represented by a silver idol gifted to Dipa."
+    },
+    "Agfa": {
+      "type": "proper_noun",
+      "description": "A brand of photographic film and envelopes, used to store Sujan’s photograph."
+    },
+    "Ovaltine": {
+      "type": "proper_noun",
+      "description": "A malted drink, given to Debashish in the hospital."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for men, a long piece of cloth wrapped around the waist and legs."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A traditional Indian long shirt worn by men."
+    },
+    "puri": {
+      "type": "vocabulary",
+      "description": "A deep-fried Indian bread, often served with curry."
+    },
+    "kachori": {
+      "type": "vocabulary",
+      "description": "A deep-fried snack filled with spiced lentils or vegetables."
+    },
+    "dal pakora": {
+      "type": "vocabulary",
+      "description": "A fried snack made from lentil batter."
+    },
+    "kukri": {
+      "type": "vocabulary",
+      "description": "A traditional curved Nepalese dagger."
+    },
+    "esraj": {
+      "type": "vocabulary",
+      "description": "A stringed musical instrument from Bengal, played with a bow."
+    },
+    "gotra": {
+      "type": "vocabulary",
+      "description": "A Hindu lineage or clan assigned at birth."
+    },
+    "horoscope": {
+      "type": "vocabulary",
+      "description": "An astrological chart used in Indian matchmaking."
+    },
+    "purdah": {
+      "type": "vocabulary",
+      "description": "The practice of secluding women from public observation, common in traditional Indian families."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Rakhalbabu",
+      "Debashish",
+      "Dipa",
+      "Nakul",
+      "Nripati",
+      "Bijoy",
+      "Nil Madhav",
+      "Uday Madhav Mukherjee",
+      "Probal",
+      "Kapil",
+      "Kharga Bahadur",
+      "Sujan Mitra",
+      "Shubhra",
+      "Padmalochan",
+      "Dr Ramprasad Dutta",
+      "Dr Gupta",
+      "Dinanath",
+      "Ratan Singh",
+      "Ramola",
+      "Ashoka",
+      "Sailenbabu",
+      "Dr Surit Sen",
+      "Satyaboti",
+      "Calcutta",
+      "Gol Park",
+      "Rabindra Sarobar",
+      "Garia",
+      "Keyatala",
+      "Utpala theatre",
+      "Butterfly Cosmetics",
+      "Delhi",
+      "University of Delhi",
+      "Sandilya",
+      "Banerjee",
+      "Chatterjee",
+      "Ganguly",
+      "Ghoshal",
+      "Ballygunge",
+      "Maiden",
+      "New Market",
+      "Dum Dum",
+      "Southern Avenue",
+      "Bangalore",
+      "Kathmandu",
+      "Nepal",
+      "Sindhi",
+      "Punjabi",
+      "Parsi",
+      "Darjeeling",
+      "Rashbehari Hospital",
+      "Shojarur Kanta",
+      "Gita",
+      "Rabindranath Tagore",
+      "D.L. Roy",
+      "Nazrul",
+      "Bankim Chandra Chatterjee",
+      "Govinda Das",
+      "Krishna",
+      "Saraswati",
+      "Agfa",
+      "Ovaltine",
+      "dhoti",
+      "kurta",
+      "puri",
+      "kachori",
+      "dal pakora",
+      "kukri",
+      "esraj",
+      "gotra",
+      "horoscope",
+      "purdah"
+    ]
+  }
+}

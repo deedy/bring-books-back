@@ -1,0 +1,93 @@
+{
+  "glossary": {
+    "Byomkesh Bakshi": {
+      "type": "character",
+      "description": "The protagonist and sharp detective known as a 'truth-seeker' who investigates complex cases with keen observation."
+    },
+    "Ajit Bandyopadhyay": {
+      "type": "character",
+      "description": "The narrator and close companion of Byomkesh, who documents their adventures and assists in investigations."
+    },
+    "Doctor Suresh Rakshit": {
+      "type": "character",
+      "description": "A family physician and tenant of Bishu Pal, involved in the central plot and later revealed as an accomplice."
+    },
+    "Bishu Pal": {
+      "type": "character",
+      "description": "A wealthy moneylender who fakes paralysis to plot a murder, central to the story's mystery."
+    },
+    "Abhay Ghosal": {
+      "type": "character",
+      "description": "A notorious debtor of Bishu Pal, accused of multiple crimes and ultimately the murder victim."
+    },
+    "Rama Pati babu": {
+      "type": "character",
+      "description": "A diligent and hardworking police officer investigating Abhay Ghosal’s murder."
+    },
+    "Sushil babu": {
+      "type": "character",
+      "description": "The police surgeon responsible for examining Bishu Pal to verify his claims of paralysis."
+    },
+    "Dr. Asim Sen": {
+      "type": "character",
+      "description": "A senior doctor and acquaintance of Byomkesh, consulted for medical expertise regarding paralysis."
+    },
+    "Dustu Chakra": {
+      "type": "proper_noun",
+      "description": "Bengali for 'Wicked Plan', the title of the chapter."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The former name of Kolkata, the city where the story is set."
+    },
+    "Amherst Street": {
+      "type": "proper_noun",
+      "description": "A well-known street in Calcutta, serving as a key location in the narrative."
+    },
+    "Marwaris": {
+      "type": "proper_noun",
+      "description": "An Indian ethnic group traditionally known for their business acumen, referenced in the context of moneylending."
+    },
+    "Gurkha": {
+      "type": "proper_noun",
+      "description": "A member of a Nepalese ethnic group, often employed as security guards in India for their reputation of bravery."
+    },
+    "reserve bank": {
+      "type": "proper_noun",
+      "description": "Refers to the Reserve Bank of India, the country's central banking institution."
+    },
+    "gaddi": {
+      "type": "vocabulary",
+      "description": "A low mattress or seat used by traders or moneylenders in their offices, especially among Marwaris."
+    },
+    "compounder": {
+      "type": "vocabulary",
+      "description": "A medical assistant who prepares and dispenses medicines in a doctor's dispensary."
+    },
+    "dewan": {
+      "type": "vocabulary",
+      "description": "A long, backless couch or mattress commonly used for lounging in Indian homes."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh Bakshi",
+      "Ajit Bandyopadhyay",
+      "Doctor Suresh Rakshit",
+      "Bishu Pal",
+      "Abhay Ghosal",
+      "Rama Pati babu",
+      "Sushil babu",
+      "Dr. Asim Sen",
+      "Dustu Chakra",
+      "Calcutta",
+      "Amherst Street",
+      "Marwaris",
+      "Gurkha",
+      "reserve bank",
+      "gaddi",
+      "compounder",
+      "dewan"
+    ]
+  }
+}

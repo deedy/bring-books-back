@@ -1,0 +1,242 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "The protagonist, a detective known for his keen observation and logical reasoning; often referred to as a 'truth-seeker' or 'satyanweshi.'"
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "The narrator and close companion of Byomkesh, who chronicles their adventures and assists in investigations."
+    },
+    "Batul": {
+      "type": "character",
+      "description": "A recurring character who acts as a local informant and sometimes tries to sell firearms to Byomkesh and Ajit."
+    },
+    "Miss Nanibala Ray": {
+      "type": "character",
+      "description": "A formidable, retired midwife from Patna Medical College Hospital who raised Prabhat as her own son."
+    },
+    "Prabhat Ray": {
+      "type": "character",
+      "description": "The adopted son of Nanibala, later known as Prabhat Haldar after being adopted by Anadi Halder; runs the Jiban-Prabhat bookshop."
+    },
+    "Anadi Halder": {
+      "type": "character",
+      "description": "A wealthy, brusque businessman who adopts Prabhat as his foster son and is later found murdered."
+    },
+    "Nimai": {
+      "type": "character",
+      "description": "One of Anadi Halder’s nephews, described as cunning and potentially dangerous."
+    },
+    "Nitai": {
+      "type": "character",
+      "description": "The other nephew of Anadi Halder, similar in character to Nimai."
+    },
+    "Napa": {
+      "type": "character",
+      "description": "Anadi Halder’s secretary and steward, known for his English skills and for handling household affairs."
+    },
+    "Kesto Babu": {
+      "type": "character",
+      "description": "A long-time friend of Anadi Halder, dependent on him for sustenance and alcohol; also called Keshto Das."
+    },
+    "Shasthibabu": {
+      "type": "character",
+      "description": "An elderly, irritable tenant living on the ground floor of Anadi Halder’s house, often seen with a hookah."
+    },
+    "Gurudutt Singh": {
+      "type": "character",
+      "description": "The Sikh contractor overseeing the construction of Anadi Halder’s new house near Bowbazar."
+    },
+    "BYOMKESH SAMAGRA": {
+      "type": "place",
+      "description": "The title of the collected works of Byomkesh Bakshi, indicating the anthology from which the story is drawn."
+    },
+    "Patna Medical College Hospital": {
+      "type": "place",
+      "description": "A well-known hospital in Patna, Bihar, where Nanibala worked as a midwife."
+    },
+    "Patna": {
+      "type": "place",
+      "description": "A city in Bihar, India, significant as the place where Nanibala and Prabhat lived before moving to Calcutta."
+    },
+    "Calcutta": {
+      "type": "place",
+      "description": "The primary setting of the story, now known as Kolkata, a major city in eastern India."
+    },
+    "Bowbazar": {
+      "type": "place",
+      "description": "A historic neighborhood in central Calcutta where Anadi Halder’s family resides."
+    },
+    "College Street": {
+      "type": "place",
+      "description": "A famous street in Calcutta known for its concentration of bookshops, including Prabhat’s shop."
+    },
+    "Jiban-Prabhat": {
+      "type": "place",
+      "description": "The name of Prabhat’s bookshop located near Gol Dighi."
+    },
+    "Gol Dighi": {
+      "type": "place",
+      "description": "A landmark pond in Calcutta, near which Prabhat’s bookshop is situated."
+    },
+    "East Bengal": {
+      "type": "place",
+      "description": "A region from which the refugee girl Prabhat admires hails; now part of Bangladesh."
+    },
+    "Second World War": {
+      "type": "place",
+      "description": "A historical reference to the global conflict, marking the post-war period in which the story is set."
+    },
+    "Madhu Baral Lane": {
+      "type": "place",
+      "description": "A lane in Calcutta where Nimai and Nitai live."
+    },
+    "Job Charnock": {
+      "type": "place",
+      "description": "The British administrator traditionally credited as the founder of Calcutta."
+    },
+    "Sealdah": {
+      "type": "place",
+      "description": "A locality and major railway hub in Calcutta, mentioned as a direction in Bowbazar."
+    },
+    "Kali Puja": {
+      "type": "place",
+      "description": "A major Hindu festival dedicated to the goddess Kali, celebrated with fireworks and rituals in Bengal."
+    },
+    "Mother Kali": {
+      "type": "place",
+      "description": "A Hindu goddess worshipped during Kali Puja, symbolizing power and destruction."
+    },
+    "Shakti": {
+      "type": "place",
+      "description": "The divine feminine power in Hinduism, of which Kali is a manifestation."
+    },
+    "Sharadiya": {
+      "type": "place",
+      "description": "Refers to the autumnal festive season in Bengal, often associated with special magazine issues."
+    },
+    "Punjabi": {
+      "type": "place",
+      "description": "An ethnic and linguistic group from the Punjab region, referenced in relation to Gurudutt Singh."
+    },
+    "Sardarji": {
+      "type": "place",
+      "description": "A respectful term for a Sikh man, used here for Gurudutt Singh."
+    },
+    "bhetki": {
+      "type": "place",
+      "description": "A type of fish (barramundi) common in Bengal, used metaphorically to describe a character’s face."
+    },
+    "babu": {
+      "type": "term",
+      "description": "A term of respect or endearment for a man, commonly used in Bengal and northern India."
+    },
+    "para": {
+      "type": "term",
+      "description": "A Bengali word for neighborhood or locality."
+    },
+    "sari": {
+      "type": "term",
+      "description": "A traditional Indian garment worn by women, consisting of a long piece of cloth draped around the body."
+    },
+    "zenana": {
+      "type": "term",
+      "description": "A part of the house reserved for women in traditional South Asian households."
+    },
+    "Gurkha": {
+      "type": "term",
+      "description": "A member of an ethnic group from Nepal, often employed as guards or soldiers in India."
+    },
+    "kukri": {
+      "type": "term",
+      "description": "A curved Nepalese knife, traditionally carried by Gurkhas."
+    },
+    "panjabi": {
+      "type": "term",
+      "description": "A loose, long-sleeved shirt worn by men in Bengal and northern India."
+    },
+    "lungi": {
+      "type": "term",
+      "description": "A traditional garment, a piece of cloth wrapped around the waist, worn by men in South Asia."
+    },
+    "fatua": {
+      "type": "term",
+      "description": "A short, loose-fitting shirt commonly worn by Bengali men."
+    },
+    "adda": {
+      "type": "term",
+      "description": "An informal gathering or meeting for conversation, often among friends."
+    },
+    "hookah": {
+      "type": "term",
+      "description": "A traditional water pipe used for smoking tobacco, common in South Asia."
+    },
+    "paisa": {
+      "type": "term",
+      "description": "A small unit of Indian currency, one-hundredth of a rupee."
+    },
+    "Shreeharish Sharanam": {
+      "type": "term",
+      "description": "A religious invocation or salutation, often used at the beginning of letters."
+    },
+    "tubri": {
+      "type": "term",
+      "description": "A type of firework popular during Bengali festivals."
+    },
+    "satyanweshi": {
+      "type": "term",
+      "description": "A Bengali term meaning 'truth-seeker,' used to describe Byomkesh’s approach to detective work."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Batul",
+      "Miss Nanibala Ray",
+      "Prabhat Ray",
+      "Anadi Halder",
+      "Nimai",
+      "Nitai",
+      "Napa",
+      "Kesto Babu",
+      "Shasthibabu",
+      "Gurudutt Singh",
+      "BYOMKESH SAMAGRA",
+      "Patna Medical College Hospital",
+      "Patna",
+      "Calcutta",
+      "Bowbazar",
+      "College Street",
+      "Jiban-Prabhat",
+      "Gol Dighi",
+      "East Bengal",
+      "Second World War",
+      "Madhu Baral Lane",
+      "Job Charnock",
+      "Sealdah",
+      "Kali Puja",
+      "Mother Kali",
+      "Shakti",
+      "Sharadiya",
+      "Punjabi",
+      "Sardarji",
+      "bhetki",
+      "babu",
+      "para",
+      "sari",
+      "zenana",
+      "Gurkha",
+      "kukri",
+      "panjabi",
+      "lungi",
+      "fatua",
+      "adda",
+      "hookah",
+      "paisa",
+      "Shreeharish Sharanam",
+      "tubri"
+    ]
+  }
+}

@@ -118,20 +118,27 @@ def _find_markers_by_page(full_text, pages, page_nums, chapters, use_title_marke
             prefix_len += len(pages[pn]) + 2
 
         search_start = max(0, prefix_len - 200)
-        search_region = full_text[search_start:]
+        search_end = min(len(full_text), prefix_len + 5000)
+        search_region = full_text[search_start:search_end]
 
         if use_title_markers:
-            title = ch["title"]
-            pattern = re.compile(
-                re.escape(title) + r'\s*\n(?:\s*\n)*(?:\d+\s*\n(?:\s*\n)*)?',
-                re.IGNORECASE
-            )
-            m = pattern.search(search_region)
-            if m:
-                content_start = search_start + m.end()
-                title_start = search_start + m.start()
-                marker_positions.append((content_start, title_start))
-            else:
+            titles_to_try = [ch["title"]]
+            if ch.get("transliterated_name"):
+                titles_to_try.append(ch["transliterated_name"])
+            found = False
+            for title in titles_to_try:
+                pattern = re.compile(
+                    re.escape(title) + r'[) \t\d]*\n(?:\s*\n)*(?:\([^)]*\)\s*\n(?:\s*\n)*)?(?:\d+\s*\n(?:\s*\n)*)?',
+                    re.IGNORECASE
+                )
+                m = pattern.search(search_region)
+                if m:
+                    content_start = search_start + m.end()
+                    title_start = search_start + m.start()
+                    marker_positions.append((content_start, title_start))
+                    found = True
+                    break
+            if not found:
                 marker_positions.append((prefix_len, prefix_len))
         else:
             num_str = str(ch_num)
@@ -185,7 +192,7 @@ def extract_chapters(pages, chapters_def, running_headers=None):
         part = ch.get("part") or 1
         part_name = ch.get("part_name") or ""
 
-        result.append({
+        entry = {
             "id": f"ch-{part}-{ch_num}" if part else f"ch-{ch_num}",
             "number": ch_num,
             "title": ch["title"],
@@ -194,7 +201,11 @@ def extract_chapters(pages, chapters_def, running_headers=None):
             "image": "",
             "wordCount": wc,
             "paragraphs": paras,
-        })
+        }
+        for extra_key in ("year", "original_name", "transliterated_name"):
+            if ch.get(extra_key):
+                entry[extra_key] = ch[extra_key]
+        result.append(entry)
 
     return result
 
@@ -357,7 +368,13 @@ def run_anthology(book_id, chapters_data, cfg, force=False):
     for ch in chapters_data:
         part = ch["part"]
         if part not in stories:
-            stories[part] = {"partName": ch["partName"], "chapters": []}
+            stories[part] = {
+                "partName": ch["partName"],
+                "chapters": [],
+                "year": ch.get("year"),
+                "original_name": ch.get("original_name"),
+                "transliterated_name": ch.get("transliterated_name"),
+            }
         stories[part]["chapters"].append(ch)
 
     catalog_path = str(WEB_DATA_DIR / "catalog.json")
@@ -372,10 +389,15 @@ def run_anthology(book_id, chapters_data, cfg, force=False):
 
     story_book_ids = []
 
-    for part_num in sorted(stories.keys()):
+    # Sort stories by year (chronological), then by part number as tiebreaker
+    sorted_parts = sorted(stories.keys(), key=lambda p: (stories[p].get("year") or 9999, p))
+    for part_num in sorted_parts:
         story = stories[part_num]
         story_chapters = story["chapters"]
         story_name = story["partName"]
+        story_year = story.get("year") or cfg.original_year
+        story_original_name = story.get("original_name") or cfg.original_title
+        story_transliterated_name = story.get("transliterated_name") or story_name
         story_slug = re.sub(r"[^a-z0-9]+", "-", story_name.lower()).strip("-")
         story_book_id = f"{book_id}-{story_slug}"
         story_book_ids.append(story_book_id)
@@ -402,13 +424,22 @@ def run_anthology(book_id, chapters_data, cfg, force=False):
         # Flatten chapters: remove part, renumber from 1
         flat_chapters = []
         for i, ch in enumerate(story_chapters):
+            # Check for existing chapter image in web dir
+            ch_image = ch.get("image", "")
+            if not ch_image:
+                img_key = f"pNone_chapter_{i+1}"
+                img_dir = WEB_DATA_DIR / "images" / "chapters" / story_book_id
+                for ext in ("webp", "png"):
+                    if (img_dir / f"{img_key}.{ext}").exists():
+                        ch_image = f"/data/images/chapters/{story_book_id}/{img_key}.{ext}"
+                        break
             flat_chapters.append({
                 "id": f"ch-{i+1}",
                 "number": i + 1,
                 "title": ch["title"],
                 "part": None,
                 "partName": None,
-                "image": ch.get("image", ""),
+                "image": ch_image,
                 "wordCount": ch["wordCount"],
                 "paragraphs": ch["paragraphs"],
             })
@@ -428,15 +459,15 @@ def run_anthology(book_id, chapters_data, cfg, force=False):
         story_meta = {
             "id": story_book_id,
             "title": story_name,
-            "transliteratedTitle": story_name,
+            "transliteratedTitle": story_transliterated_name,
             "subtitle": summary_data["subtitle"],
             "authorId": cfg.author_id,
-            "coverImage": f"/data/images/covers/{book_id}.webp",
+            "coverImage": f"/data/images/covers/{story_book_id}.webp",
             "accentColor": cfg.accent_color,
             "genre": cfg.genre,
             "originalLanguage": cfg.original_language,
-            "originalTitle": cfg.original_title,
-            "originalYear": cfg.original_year,
+            "originalTitle": story_original_name,
+            "originalYear": story_year,
             "totalChapters": len(flat_chapters),
             "wordCount": word_count,
             "summary": summary_data["summary"],

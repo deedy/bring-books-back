@@ -1,0 +1,143 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "Byomkesh is the protagonist, a sharp and thoughtful detective known for his keen observation and logical reasoning. He is often called the detective and is central to the investigations in the story."
+    },
+    "Ajit": {
+      "type": "character",
+      "description": "The narrator and close friend of Byomkesh, who assists him in his investigations and documents their adventures."
+    },
+    "Habul": {
+      "type": "character",
+      "description": "Debkumarbabu's son, a college student who admires Byomkesh and becomes distraught after the sudden death of his sister."
+    },
+    "Rekha": {
+      "type": "character",
+      "description": "Habul's younger sister, whose mysterious and sudden death is the catalyst for the investigation."
+    },
+    "Dr Rudra": {
+      "type": "character",
+      "description": "A renowned but ill-tempered physician in Calcutta, notorious for his rudeness and questionable ethics; he is the father of Nontu."
+    },
+    "Putiram": {
+      "type": "character",
+      "description": "The servant in Byomkesh and Ajit's household, who serves them tea and assists with household tasks."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The capital city of West Bengal, India, and the main setting for the story."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital of India, where Debkumarbabu attends the All India Science Congress."
+    },
+    "All India Science Congress": {
+      "type": "proper_noun",
+      "description": "A major scientific convention held in Delhi, attended by scientists from across India."
+    },
+    "College Square": {
+      "type": "proper_noun",
+      "description": "A prominent area in Calcutta known for its student population and educational institutions."
+    },
+    "Patna": {
+      "type": "proper_noun",
+      "description": "A city in Bihar, India, where Debkumarbabu is scheduled to deliver a lecture."
+    },
+    "Bangla": {
+      "type": "proper_noun",
+      "description": "Refers to the Bengali language; here, it describes the books in Rekha's room."
+    },
+    "Kali": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess, often depicted with her tongue out; her image is mentioned as being in the stepmother's room."
+    },
+    "Punjab Mail": {
+      "type": "proper_noun",
+      "description": "A famous express train in India, used metaphorically to describe Byomkesh's mental speed."
+    },
+    "Germany": {
+      "type": "proper_noun",
+      "description": "A European country, referenced as a potential nation interested in Debkumarbabu's invention."
+    },
+    "Japan": {
+      "type": "proper_noun",
+      "description": "A country in East Asia, also referenced as a potential nation interested in the invention."
+    },
+    "France": {
+      "type": "proper_noun",
+      "description": "A European country, mentioned alongside Germany and Japan in the context of scientific espionage."
+    },
+    "Brahma": {
+      "type": "proper_noun",
+      "description": "A Hindu god, referenced in a metaphor about the dangers of human invention."
+    },
+    "Frankenstein": {
+      "type": "proper_noun",
+      "description": "A reference to the fictional monster created by Mary Shelley, used as a metaphor for inventions turning against their creators."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A cylindrical cigar with both ends clipped during manufacture, commonly smoked in India."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "‘Babu’ is a respectful suffix or title used in Bengali and other Indian languages to address men, often indicating respect or social status. It is commonly attached to names such as Birenbabu and Debkumarbabu."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn by women in India, consisting of a long piece of cloth wrapped around the body."
+    },
+    "bangles": {
+      "type": "vocabulary",
+      "description": "Traditional rigid bracelets, usually made from metal, glass, or plastic, worn by women in South Asia."
+    },
+    "rupees": {
+      "type": "vocabulary",
+      "description": "The currency of India."
+    },
+    "post-mortem": {
+      "type": "vocabulary",
+      "description": "An examination of a dead body to determine the cause of death; also known as an autopsy."
+    },
+    "dowry": {
+      "type": "vocabulary",
+      "description": "Money, goods, or estate that a woman brings to her husband in marriage, a traditional practice in India."
+    },
+    "joint policy": {
+      "type": "vocabulary",
+      "description": "An insurance policy that covers two people, typically spouses, with benefits paid upon the death of one."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Ajit",
+      "Habul",
+      "Rekha",
+      "Dr Rudra",
+      "Putiram",
+      "Calcutta",
+      "Delhi",
+      "All India Science Congress",
+      "College Square",
+      "Patna",
+      "Bangla",
+      "Kali",
+      "Punjab Mail",
+      "Germany",
+      "Japan",
+      "France",
+      "Brahma",
+      "Frankenstein",
+      "cheroot",
+      "babu",
+      "sari",
+      "bangles",
+      "rupees",
+      "post-mortem",
+      "dowry",
+      "joint policy"
+    ]
+  }
+}

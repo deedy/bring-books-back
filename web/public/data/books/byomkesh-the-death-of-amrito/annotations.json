@@ -1,0 +1,214 @@
+{
+  "glossary": {
+    "Byomkesh": {
+      "type": "character",
+      "description": "A renowned detective known as a 'truth-seeker' who investigates crimes with keen observation, accompanied by his close friend and chronicler who narrates their stories."
+    },
+    "Sadananda Sur": {
+      "type": "character",
+      "description": "An elderly, secretive resident of Baghmari whose mysterious death is central to the case; his family includes his sister Sushila and her husband Prankeshta Pal, a railway line-inspector."
+    },
+    "Amrito": {
+      "type": "character",
+      "description": "A young, eccentric, and talkative orphan in Baghmari who is ultimately murdered; he lived with his uncle, a simple villager who hosts the investigation."
+    },
+    "Patal": {
+      "type": "character",
+      "description": "One of the young men from Baghmari, a friend of Amrito, who helps Byomkesh with the investigation."
+    },
+    "Dashu": {
+      "type": "character",
+      "description": "Another young man from Baghmari, part of Amrito's circle and involved in the events surrounding the murder."
+    },
+    "Gopal": {
+      "type": "character",
+      "description": "A young man from Baghmari, friend of Amrito, who participates in the investigation."
+    },
+    "Nadu": {
+      "type": "character",
+      "description": "A young villager who chases Amrito to defend the honor of his wife, Papia, after she is insulted and embarrassed by Amrito's antics."
+    },
+    "Hiru": {
+      "type": "character",
+      "description": "The elderly headman of Baghmari village, who interacts with Sadananda Sur."
+    },
+    "Inspector Sukhamay Samanta": {
+      "type": "character",
+      "description": "The local police inspector in Santalgola, outwardly cooperative but secretly resentful of Byomkesh."
+    },
+    "Bhagabati-babu": {
+      "type": "character",
+      "description": "A trader in Santalgola who once employed Amrito."
+    },
+    "Bishwanath Mallik": {
+      "type": "character",
+      "description": "The owner of a rice mill and illegal arms dealer revealed as a murderer, served by his loyal chief accountant Nilkantha Adhikari."
+    },
+    "Monotosh": {
+      "type": "character",
+      "description": "The ticket-checker at Santalgola station, quick-witted and talkative."
+    },
+    "Haribilash-babu": {
+      "type": "character",
+      "description": "The grave and taciturn stationmaster at Santalgola."
+    },
+    "Rakhal Das": {
+      "type": "character",
+      "description": "A Bengali employee at Badridas' mill, dismissed and eager to provide information against his employer."
+    },
+    "Jamnadas Gangaram": {
+      "type": "character",
+      "description": "A prominent local dealer who receives an anonymous letter from Byomkesh."
+    },
+    "Nafar Kundu": {
+      "type": "character",
+      "description": "A local warehouse owner who becomes a suspect after opium is found in his rice consignment."
+    },
+    "Baghmari": {
+      "type": "proper_noun",
+      "description": "A village near Santalgola, central to the story's events and the site of the murders."
+    },
+    "Santalgola": {
+      "type": "proper_noun",
+      "description": "A large railway station and small town near Baghmari, where much of the investigation takes place."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city (now Kolkata), referenced as the destination for Sadananda Sur's trip."
+    },
+    "Kailashpur": {
+      "type": "proper_noun",
+      "description": "The village where Nadu's wife's parents live, a few stations from Santalgola."
+    },
+    "Ramdihi Junction": {
+      "type": "proper_noun",
+      "description": "A railway junction where Prankeshta Pal is stationed and where Sadananda Sur's trunk is deposited."
+    },
+    "Marwari": {
+      "type": "proper_noun",
+      "description": "An Indian ethnic and business community, often associated with trade and commerce."
+    },
+    "Hindustanis": {
+      "type": "proper_noun",
+      "description": "People from the Hindi-speaking regions of northern India, referenced as part of the local population."
+    },
+    "Gurkha": {
+      "type": "proper_noun",
+      "description": "A member of a group of soldiers of Nepalese origin, often employed as guards."
+    },
+    "Ayurvedic": {
+      "type": "proper_noun",
+      "description": "Referring to Ayurveda, the traditional Indian system of medicine."
+    },
+    "Badridas Giridharilal": {
+      "type": "proper_noun",
+      "description": "Badridas Giridharilal is a Marwari owner of a rice mill in Santalgola, suspected due to his black horse and evasive answers."
+    },
+    "Bishwanath Rice Mill": {
+      "type": "proper_noun",
+      "description": "A large rice mill in Santalgola owned by Bishwanath Mallik."
+    },
+    "Independence": {
+      "type": "proper_noun",
+      "description": "Refers to Indian Independence in 1947, after which the country faced new challenges."
+    },
+    "American soldiers": {
+      "type": "proper_noun",
+      "description": "Refers to US military personnel who camped in the area during World War II."
+    },
+    "babu": {
+      "type": "vocabulary",
+      "description": "A respectful term for a man, often used for gentlemen or officials in Bengal."
+    },
+    "da": {
+      "type": "vocabulary",
+      "description": "A Bengali suffix meaning 'elder brother', used as a form of address for older males."
+    },
+    "rest house": {
+      "type": "vocabulary",
+      "description": "A government-run guesthouse for officials or travelers, common in India."
+    },
+    "paddy": {
+      "type": "vocabulary",
+      "description": "Unhusked rice, a staple crop in Bengal and much of India."
+    },
+    "jalebis": {
+      "type": "vocabulary",
+      "description": "A popular Indian sweet made by deep-frying batter in circular shapes and soaking in syrup."
+    },
+    "postmortem": {
+      "type": "vocabulary",
+      "description": "An autopsy; the medical examination of a body after death to determine the cause."
+    },
+    "hand grenade": {
+      "type": "vocabulary",
+      "description": "A small bomb thrown by hand, referenced as a weapon in the story."
+    },
+    "booby trap": {
+      "type": "vocabulary",
+      "description": "A concealed or disguised device intended to cause harm when triggered."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment for women, consisting of a long piece of cloth draped around the body."
+    },
+    "kurta": {
+      "type": "vocabulary",
+      "description": "A loose, collarless shirt worn in South Asia, often by men."
+    },
+    "shawl": {
+      "type": "vocabulary",
+      "description": "A piece of fabric worn over the shoulders, common in Indian attire."
+    },
+    "trolley": {
+      "type": "vocabulary",
+      "description": "A small railway vehicle used for inspection or maintenance of tracks."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Byomkesh",
+      "Sadananda Sur",
+      "Amrito",
+      "Patal",
+      "Dashu",
+      "Gopal",
+      "Nadu",
+      "Hiru",
+      "Inspector Sukhamay Samanta",
+      "Bhagabati-babu",
+      "Bishwanath Mallik",
+      "Monotosh",
+      "Haribilash-babu",
+      "Rakhal Das",
+      "Jamnadas Gangaram",
+      "Nafar Kundu",
+      "Baghmari",
+      "Santalgola",
+      "Calcutta",
+      "Kailashpur",
+      "Ramdihi Junction",
+      "Marwari",
+      "Hindustanis",
+      "Gurkha",
+      "Ayurvedic",
+      "Jamnadas Gangaram",
+      "Badridas Giridharilal",
+      "Bishwanath Rice Mill",
+      "Independence",
+      "American soldiers",
+      "babu",
+      "da",
+      "rest house",
+      "paddy",
+      "jalebis",
+      "postmortem",
+      "hand grenade",
+      "booby trap",
+      "sari",
+      "kurta",
+      "shawl",
+      "trolley"
+    ]
+  }
+}
