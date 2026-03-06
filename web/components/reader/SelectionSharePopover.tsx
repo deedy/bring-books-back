@@ -119,8 +119,7 @@ export default function SelectionSharePopover({
     if (navigator.share) {
       try {
         const shareData: ShareData = {
-          text: `\u201C${q.text.slice(0, 200)}${q.text.length > 200 ? "\u2026" : ""}\u201D\n\u2014 ${bookTitle}`,
-          url,
+          text: `\u201C${q.text.slice(0, 200)}${q.text.length > 200 ? "\u2026" : ""}\u201D\n\u2014 ${bookTitle}\n${url}`,
         };
         if (file && navigator.canShare?.({ files: [file] })) {
           shareData.files = [file];
