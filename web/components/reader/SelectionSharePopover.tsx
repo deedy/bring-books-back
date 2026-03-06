@@ -105,7 +105,7 @@ export default function SelectionSharePopover({
     // Generate quote card image and copy both image + URL to clipboard
     try {
       const blob = await generateQuoteImage(
-        q.text, bookTitle, authorName, accentColor, coverImage, originalYear, chapterTitle
+        q.text, bookTitle, authorName, accentColor, coverImage, originalYear, chapterTitle, url
       );
       if (blob) {
         await navigator.clipboard.write([

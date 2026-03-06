@@ -9,7 +9,8 @@ export async function generateQuoteImage(
   accentColor: string,
   coverImageUrl: string,
   originalYear: number,
-  chapterTitle: string
+  chapterTitle: string,
+  shareUrl?: string
 ): Promise<Blob | null> {
   const canvas = document.createElement("canvas");
   const W = 1200;
@@ -153,11 +154,22 @@ export async function generateQuoteImage(
   }
   ctx.fillText(metaText, textLeftEdge, footerTop + 58);
 
-  // Watermark: grandoldbooks.com bottom-right
+  // Deep link URL or watermark — bottom-right
   ctx.font = "13px -apple-system, BlinkMacSystemFont, sans-serif";
-  ctx.fillStyle = "#ffffff35";
+  ctx.fillStyle = "#ffffff50";
   ctx.textAlign = "right";
-  ctx.fillText("grandoldbooks.com", W - 40, H - 20);
+  if (shareUrl) {
+    // Show the deep link (strip protocol for cleaner look)
+    const displayUrl = shareUrl.replace(/^https?:\/\//, "");
+    // Truncate if too wide
+    let urlText = displayUrl;
+    while (ctx.measureText(urlText).width > W - 80 && urlText.length > 20) {
+      urlText = urlText.slice(0, -4) + "\u2026";
+    }
+    ctx.fillText(urlText, W - 40, H - 20);
+  } else {
+    ctx.fillText("grandoldbooks.com", W - 40, H - 20);
+  }
   ctx.textAlign = "left";
 
   return new Promise((resolve) => {
