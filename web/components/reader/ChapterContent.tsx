@@ -24,6 +24,7 @@ interface ChapterContentProps {
   glossary?: Record<string, Annotation>;
   hideImage?: boolean;
   hideChapterHeading?: boolean;
+  overlapsImage?: boolean;
   quoteHighlight?: QuoteHighlight;
   onHighlightRef?: (el: HTMLElement | null) => void;
   languageScript?: string;
@@ -167,6 +168,7 @@ export default function ChapterContent({
   glossary,
   hideImage,
   hideChapterHeading,
+  overlapsImage,
   quoteHighlight,
   onHighlightRef,
   languageScript,
@@ -212,29 +214,43 @@ export default function ChapterContent({
       <div
         ref={(el) => registerRef(chapterIndex, el)}
         data-chapter={chapterIndex}
-        className="text-center pt-12 pb-8 max-w-[720px] mx-auto px-5 sm:px-6"
+        className="text-center pt-12 pb-8 max-w-[720px] mx-auto px-5 sm:px-6 relative z-10"
       >
-        {!hideChapterHeading && (
+        {hideChapterHeading ? (
           <p
             className={`text-xs tracking-[0.25em] uppercase ${
-              darkMode ? "text-white/30" : "text-black/30"
+              darkMode ? "text-white/50" : "text-black/30"
             }`}
+            style={overlapsImage ? { textShadow: "0 0 6px rgba(0,0,0,1), 0 0 20px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.7)" } : undefined}
+          >
+            Short Story
+          </p>
+        ) : (
+          <p
+            className={`text-xs tracking-[0.25em] uppercase ${
+              darkMode ? "text-white/50" : "text-black/30"
+            }`}
+            style={overlapsImage ? { textShadow: "0 0 6px rgba(0,0,0,1), 0 0 20px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.7)" } : undefined}
           >
             Chapter {chapter.number}
           </p>
         )}
         <h2
-          className={`text-2xl sm:text-3xl font-bold ${hideChapterHeading ? "" : "mt-2"} ${
-            darkMode ? "text-white/90" : "text-black/90"
+          className={`text-2xl sm:text-3xl font-bold mt-2 ${
+            darkMode ? "text-white" : "text-black/90"
           }`}
-          style={{ fontFamily: "var(--font-serif)" }}
+          style={{
+            fontFamily: "var(--font-serif)",
+            ...(overlapsImage ? { textShadow: "0 2px 20px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.6)" } : {}),
+          }}
         >
           {chapter.title}
         </h2>
         <p
           className={`text-[11px] mt-3 tracking-wide ${
-            darkMode ? "text-white/20" : "text-black/20"
+            darkMode ? "text-white/50" : "text-black/20"
           }`}
+          style={overlapsImage ? { textShadow: "0 0 6px rgba(0,0,0,1), 0 0 20px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.7)" } : undefined}
         >
           {chapter.wordCount >= 1000
             ? `${(chapter.wordCount / 1000).toFixed(1)}k`

@@ -15,6 +15,7 @@ interface ReaderHeaderProps {
   onChangeFontSize: (size: "small" | "medium" | "large") => void;
   scrollMode: "paginated" | "infinite";
   onToggleScrollMode: () => void;
+  hideChaptersButton?: boolean;
 }
 
 const fontSizes: Array<"small" | "medium" | "large"> = ["small", "medium", "large"];
@@ -31,6 +32,7 @@ export default function ReaderHeader({
   onChangeFontSize,
   scrollMode,
   onToggleScrollMode,
+  hideChaptersButton,
 }: ReaderHeaderProps) {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -141,13 +143,15 @@ export default function ReaderHeader({
                 </svg>
               )}
             </button>
-            <button
-              onClick={onTogglePicker}
-              className={buttonClass}
-              aria-label="Toggle table of contents"
-            >
-              Chapters
-            </button>
+            {!hideChaptersButton && (
+              <button
+                onClick={onTogglePicker}
+                className={buttonClass}
+                aria-label="Toggle table of contents"
+              >
+                Chapters
+              </button>
+            )}
           </div>
 
           {/* Mobile: settings gear + chapters */}
@@ -164,13 +168,15 @@ export default function ReaderHeader({
                 <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
               </svg>
             </button>
-            <button
-              onClick={onTogglePicker}
-              className={buttonClass}
-              aria-label="Toggle table of contents"
-            >
-              Chapters
-            </button>
+            {!hideChaptersButton && (
+              <button
+                onClick={onTogglePicker}
+                className={buttonClass}
+                aria-label="Toggle table of contents"
+              >
+                Chapters
+              </button>
+            )}
 
             {/* Dropdown menu */}
             {settingsOpen && (

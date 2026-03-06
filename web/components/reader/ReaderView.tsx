@@ -511,6 +511,7 @@ export default function ReaderView({
         onChangeFontSize={setFontSize}
         scrollMode={scrollMode}
         onToggleScrollMode={handleToggleScrollMode}
+        hideChaptersButton={isSingleChapter}
       />
 
       <ChapterPicker
@@ -602,12 +603,12 @@ export default function ReaderView({
         <>
           {/* Banner image + nav */}
           {isSingleChapter ? (
-            /* Single-chapter: show cover image as banner, no pagination */
+            /* Single-chapter: show chapter image (or cover) as banner, no pagination */
             <div className="pt-12">
-              <ChapterImage src={coverImage} alt={bookTitle} />
+              <ChapterImage src={chapter?.image || coverImage} alt={chapter?.title || bookTitle} />
             </div>
           ) : chapter?.image ? (
-            <div className="relative">
+            <div className="relative chapter-image-banner">
               <div className="pt-12">
                 <ChapterImage src={chapter.image} alt={chapter.title} />
               </div>
@@ -699,7 +700,7 @@ export default function ReaderView({
             </div>
           )}
 
-          <div className="pb-32">
+          <div className={`pb-32 relative z-10 ${chapter?.image ? "chapter-heading-overlap" : ""}`}>
             {chapter && (
               <ChapterContent
                 key={chapter.id}
@@ -713,6 +714,7 @@ export default function ReaderView({
                 isFirst={false}
                 hideImage
                 hideChapterHeading={isSingleChapter}
+                overlapsImage={!!chapter?.image}
                 chapterTerms={isOriginalActive ? undefined : annotations?.chapters[chapter.id]}
                 glossary={isOriginalActive ? undefined : annotations?.glossary}
                 quoteHighlight={isOriginalActive ? undefined : quoteHighlight ?? undefined}

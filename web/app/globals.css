@@ -60,3 +60,10 @@ body {
   overflow-wrap: break-word;
   letter-spacing: normal;
 }
+
+/* On desktop, pull chapter heading up into the image fade zone */
+@media (min-width: 768px) {
+  .chapter-heading-overlap {
+    margin-top: -35vh;
+  }
+}
