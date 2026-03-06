@@ -1418,3 +1418,77 @@ _register(BookConfig(
         "NO text, NO border, NO frame."
     ),
 ))
+
+# ── Autobiography of a Yogi ─────────────────────────────────────────────
+
+_register(BookConfig(
+    id="autobiography-of-a-yogi",
+    title="Autobiography of a Yogi",
+    transliterated_title="Autobiography of a Yogi",
+    original_title="Autobiography of a Yogi",
+    author_id="paramahansa-yogananda",
+    author_name="Paramahansa Yogananda",
+    author_years="1893–1952",
+    original_language="English",
+    original_script="Latin",
+    original_year=1946,
+    genre=["Spiritual", "Autobiography", "Philosophy"],
+    accent_color="#C77D2A",
+    style_context=(
+        "A spiritual classic by Paramahansa Yogananda, founder of Self-Realization Fellowship. "
+        "Chronicles his life from childhood in India through his years with his guru Sri Yukteswar, "
+        "encounters with saints and yogis, founding of yoga schools, and his mission to bring "
+        "yoga and meditation to the West. Blends personal narrative with Hindu philosophy, "
+        "miracles, and the science of Kriya Yoga. One of the most influential spiritual books "
+        "of the 20th century."
+    ),
+    translation_prompt="",
+    chapter_context=(
+        "Spiritual autobiography with 48 numbered chapters. "
+        "Chapters have descriptive titles."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate "Autobiography of a Yogi" (1946), '
+        "a spiritual autobiography by Paramahansa Yogananda.\n\n"
+        "For the given chapter text, extract three categories of terms:\n\n"
+        '1. **Characters** — Recurring named people (saints, gurus, historical figures). 1-2 sentence description.\n'
+        '2. **Proper nouns** — Places, ashrams, organizations, scriptures, spiritual concepts. Brief explanation.\n'
+        '3. **Vocabulary** — Sanskrit/Hindi/Bengali spiritual terms, yoga terminology. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Indian spiritual, philosophical, and yogic terms.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of classical Indian spiritual art — "
+        "soft golden light, warm saffron and ochre tones, ethereal atmosphere. "
+        "The composition should feel serene, mystical, and transcendent. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Settings: Indian ashrams, Himalayan landscapes, meditation halls, temples.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Paramahansa Yogananda: young Indian spiritual seeker, later a monk with long dark hair\n"
+        "- Sri Yukteswar: Yogananda's guru, elderly Bengali sage with serene expression\n"
+        "- Lahiri Mahasaya: revered 19th century yogi, householder-saint\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of classical Indian spiritual art — "
+        "soft golden light, warm saffron and ochre tones, ethereal atmosphere. "
+        "Serene character portrait with mystical quality. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in classical Indian spiritual art style — "
+        "soft golden light, warm saffron, ochre, and deep blue palette. "
+        "A peaceful Indian ashram at sunrise — "
+        "whitewashed buildings with arched doorways, a meditation garden with lotus pond, "
+        "Himalayan peaks in the distance, morning mist, sacred banyan tree, "
+        "oil lamps glowing softly, marigold garlands. "
+        "NO people, NO figures. Pure atmospheric scenery. "
+        "Ethereal, mystical, serene. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+))

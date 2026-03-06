@@ -1,0 +1,5627 @@
+{
+  "glossary": {
+    "Mukunda Lal Ghosh": {
+      "type": "character",
+      "description": "The author and narrator of the autobiography, a spiritual seeker who becomes a world-renowned yogi and founder of the Self-Realization Fellowship.",
+      "image": "/data/images/characters/autobiography-of-a-yogi/mukunda-lal-ghosh.png"
+    },
+    "Bhagabati Charan Ghosh": {
+      "type": "character",
+      "description": "Yogananda's father, a disciplined railway executive and devout disciple of Lahiri Mahasaya who became both father and mother to his children.",
+      "image": "/data/images/characters/autobiography-of-a-yogi/bhagabati-charan-ghosh.png"
+    },
+    "Mother": {
+      "type": "character",
+      "description": "Yogananda's mother, remembered for her loving, charitable nature and deep devotion to Lahiri Mahasaya."
+    },
+    "Lahiri Mahasaya": {
+      "type": "character",
+      "description": "A revered spiritual master from Benares and the central figure in the modern revival of Kriya Yoga, known for his miraculous powers and saintly life.",
+      "image": "/data/images/characters/autobiography-of-a-yogi/lahiri-mahasaya.png"
+    },
+    "Abinash Babu": {
+      "type": "character",
+      "description": "An employee in the Gorakhpur office of the Bengal-Nagpur Railway and disciple of Lahiri Mahasaya, who introduced Yogananda's father to the guru."
+    },
+    "Roma": {
+      "type": "character",
+      "description": "Yogananda's eldest sister, to whom their mother confides about her spiritual relationship with her husband."
+    },
+    "Kali Kumar Roy": {
+      "type": "character",
+      "description": "A brother disciple of Yogananda's father and devotee of Lahiri Mahasaya, who recounts the story of the guru's photograph."
+    },
+    "Ganga Dhar Babu": {
+      "type": "character",
+      "description": "A student and expert photographer who attempts to photograph Lahiri Mahasaya."
+    },
+    "Uma": {
+      "type": "character",
+      "description": "Yogananda's elder sister, involved in childhood incidents that reveal Yogananda's willpower and spiritual inclinations."
+    },
+    "Babylon": {
+      "type": "proper_noun",
+      "description": "An ancient civilization referenced as a contrast to India's spiritual heritage."
+    },
+    "Egypt": {
+      "type": "proper_noun",
+      "description": "Another ancient civilization mentioned alongside Babylon to highlight India's enduring spiritual wealth."
+    },
+    "Himalayan": {
+      "type": "proper_noun",
+      "description": "Refers to the Himalayan mountains, often associated with yogis and spiritual retreats in Indian tradition."
+    },
+    "Bengali": {
+      "type": "proper_noun",
+      "description": "Relating to Bengal, the region and language of Yogananda's family."
+    },
+    "Kshatriya": {
+      "type": "proper_noun",
+      "description": "A caste in Hindu society traditionally associated with warriors and rulers."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "One of the two major Sanskrit epics of ancient India, often cited for its spiritual and moral teachings."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic narrating the life of Lord Rama, used by Yogananda's mother for moral instruction."
+    },
+    "Bengal-Nagpur Railway": {
+      "type": "proper_noun",
+      "description": "A major railway company in India where Yogananda's father worked."
+    },
+    "Calcutta Urban Bank": {
+      "type": "proper_noun",
+      "description": "A civic banking institution organized by Yogananda's father."
+    },
+    "United Provinces": {
+      "type": "proper_noun",
+      "description": "A region in northeastern India, now known as Uttar Pradesh, where Gorakhpur is located."
+    },
+    "Gorakhpur": {
+      "type": "proper_noun",
+      "description": "Yogananda's birthplace and early childhood home in northeastern India."
+    },
+    "Benares": {
+      "type": "proper_noun",
+      "description": "Benares, also known as Kasi or Varanasi, is a sacred city in India, central to the lives of Lahiri Mahasaya and other spiritual figures in the narrative."
+    },
+    "Ichapur": {
+      "type": "proper_noun",
+      "description": "A location in Bengal where Yogananda experienced a miraculous healing."
+    },
+    "Lahore": {
+      "type": "proper_noun",
+      "description": "A city in Punjab where Yogananda's family later lived."
+    },
+    "Punjab": {
+      "type": "proper_noun",
+      "description": "A region in northwestern India, where Lahore is located."
+    },
+    "Divine Mother": {
+      "type": "proper_noun",
+      "description": "A form of the goddess worshipped by Yogananda, particularly as Kali."
+    },
+    "Goddess Kali": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess representing the Divine Mother, worshipped by Yogananda in his childhood shrine."
+    },
+    "Kriya Yoga": {
+      "type": "proper_noun",
+      "description": "A spiritual practice and meditation technique taught by Lahiri Mahasaya."
+    },
+    "guru": {
+      "type": "vocabulary",
+      "description": "A spiritual teacher or guide in Indian tradition."
+    },
+    "yogi": {
+      "type": "vocabulary",
+      "description": "A practitioner of yoga, often associated with spiritual discipline and meditation."
+    },
+    "incarnation": {
+      "type": "vocabulary",
+      "description": "The embodiment of a soul in a physical body, often referring to rebirth."
+    },
+    "egoity": {
+      "type": "vocabulary",
+      "description": "The sense of individual self or ego."
+    },
+    "prophets": {
+      "type": "vocabulary",
+      "description": "Spiritual teachers or seers who convey divine truths."
+    },
+    "asana": {
+      "type": "vocabulary",
+      "description": "A posture or seat, often used in meditation or yoga practice."
+    },
+    "lotus posture": {
+      "type": "vocabulary",
+      "description": "A cross-legged sitting posture (padmasana) used in meditation."
+    },
+    "Iswara": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term for God or Supreme Being."
+    },
+    "Ananta": {
+      "type": "character",
+      "description": "The elder brother of the narrator (Mukunda), whose marriage is a central event in the chapter and who is entrusted with the mystic amulet after their mother's death."
+    },
+    "Dwarka Prasad": {
+      "type": "character",
+      "description": "The young son of the landlord in Bareilly and Mukunda's childhood companion."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "A major city in India where the family gathers for Ananta's wedding and where Mukunda's mother dies."
+    },
+    "Bareilly": {
+      "type": "proper_noun",
+      "description": "A city in northern India where Mukunda and his father live and from which they travel to Calcutta."
+    },
+    "50 Amherst Street": {
+      "type": "proper_noun",
+      "description": "The address of the family's house in Calcutta where wedding preparations take place."
+    },
+    "Naini Tal": {
+      "type": "proper_noun",
+      "description": "A town in the Himalayan foothills to which Mukunda attempts to flee in pursuit of spiritual longing."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "The mountain range in northern India, regarded as a holy place and abode of yogis and swamis."
+    },
+    "swami": {
+      "type": "vocabulary",
+      "description": "A Hindu religious teacher or monk, often a member of a monastic order."
+    },
+    "sadhu": {
+      "type": "vocabulary",
+      "description": "A holy man, ascetic, or wandering monk in Hinduism."
+    },
+    "talisman": {
+      "type": "vocabulary",
+      "description": "An object believed to have magical or spiritual powers of protection or luck."
+    },
+    "ashram": {
+      "type": "vocabulary",
+      "description": "A spiritual hermitage or monastery (mentioned in the context of ashrams in the Himalayas)."
+    },
+    "disciple": {
+      "type": "vocabulary",
+      "description": "A devoted follower or student of a spiritual teacher or guru."
+    },
+    "meditation": {
+      "type": "vocabulary",
+      "description": "A practice of focused attention and contemplation, often for spiritual purposes."
+    },
+    "alms": {
+      "type": "vocabulary",
+      "description": "Charitable offerings, typically given to holy men or those in need."
+    },
+    "Cosmic Mother": {
+      "type": "vocabulary",
+      "description": "A spiritual concept referring to the divine feminine or universal motherly aspect of God."
+    },
+    "Kedar Nath Babu": {
+      "type": "character",
+      "description": "A friend of the narrator's father, whom the narrator is tasked to meet in Benares."
+    },
+    "Swami Pranabananda": {
+      "type": "character",
+      "description": "A saintly yogi known as 'The Saint with Two Bodies,' a disciple of Lahiri Mahasaya with reputed spiritual powers."
+    },
+    "Sri Yukteswar": {
+      "type": "character",
+      "description": "The revered guru of Paramahansa Yogananda and a disciple of Lahiri Mahasaya, known for his wisdom, discipline, and mastery of Kriya Yoga.",
+      "image": "/data/images/characters/autobiography-of-a-yogi/sri-yukteswar.png"
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "A holy river in India, considered sacred and often used for ritual bathing."
+    },
+    "ghat": {
+      "type": "proper_noun",
+      "description": "A series of steps leading down to a river, especially used for bathing or religious rituals in India."
+    },
+    "renunciation": {
+      "type": "vocabulary",
+      "description": "The act of giving up worldly attachments and desires for spiritual purposes."
+    },
+    "pension": {
+      "type": "vocabulary",
+      "description": "In this context, a metaphor for spiritual reward or peace received through deep meditation and divine grace."
+    },
+    "Brahma": {
+      "type": "vocabulary",
+      "description": "The Creator aspect of God in Hinduism, invoked here as the divine source of spiritual blessings."
+    },
+    "Amar Mitter": {
+      "type": "character",
+      "description": "A high school friend of the narrator who plans to accompany him on his journey to the Himalayas."
+    },
+    "Jotin Ghosh": {
+      "type": "character",
+      "description": "The narrator's cousin who initially joined the journey to the Himalayas but abandoned it early on."
+    },
+    "Swami Kebalananda": {
+      "type": "character",
+      "description": "A saintly pundit and Yogananda's Sanskrit tutor, who was an exalted disciple of Lahiri Mahasaya."
+    },
+    "Ramu": {
+      "type": "character",
+      "description": "A blind disciple of Lahiri Mahasaya who is miraculously healed by the guru."
+    },
+    "Arjuna": {
+      "type": "character",
+      "description": "A disciple of Krishna, referenced in a quote from the Bhagavad Gita."
+    },
+    "Krishna": {
+      "type": "character",
+      "description": "The Hindu deity and divine teacher whose words in the Bhagavad Gita serve as a primary spiritual authority.",
+      "image": "/data/images/characters/autobiography-of-a-yogi/krishna.png"
+    },
+    "Gurpar Road": {
+      "type": "proper_noun",
+      "description": "The street address of the narrator's family home in Calcutta."
+    },
+    "Chadni Chowk": {
+      "type": "proper_noun",
+      "description": "A merchandise center visited by the narrator and his friends."
+    },
+    "Burdwan": {
+      "type": "proper_noun",
+      "description": "A city where the narrator and his companions transfer trains."
+    },
+    "Hardwar": {
+      "type": "proper_noun",
+      "description": "A city in the Himalayan foothills, a destination for spiritual seekers."
+    },
+    "Moghul Serai": {
+      "type": "proper_noun",
+      "description": "A railway station where the narrator changes trains en route to Hardwar."
+    },
+    "Rishikesh": {
+      "type": "proper_noun",
+      "description": "A holy city north of Hardwar, known for its spiritual significance."
+    },
+    "Howrah Station": {
+      "type": "proper_noun",
+      "description": "Howrah Station, also known as Howrah or Howrah railway station, is a major railway station in Calcutta, serving as a key location in the narrative."
+    },
+    "Serampore": {
+      "type": "proper_noun",
+      "description": "The location of Sri Yukteswar's hermitage."
+    },
+    "Bhagavad Gita": {
+      "type": "proper_noun",
+      "description": "A sacred Hindu scripture, carried by the narrator."
+    },
+    "Vedas": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu scriptures referenced by Kebalananda."
+    },
+    "sannyasi": {
+      "type": "proper_noun",
+      "description": "A renunciate or monk in the Hindu tradition."
+    },
+    "tiffin": {
+      "type": "vocabulary",
+      "description": "A light meal or lunch, commonly used in India."
+    },
+    "karma": {
+      "type": "vocabulary",
+      "description": "The law of cause and effect governing actions and their consequences."
+    },
+    "renunciate": {
+      "type": "vocabulary",
+      "description": "One who has renounced worldly life for spiritual pursuits."
+    },
+    "pundit": {
+      "type": "vocabulary",
+      "description": "A learned scholar, especially of Sanskrit and Hindu scriptures."
+    },
+    "rishi": {
+      "type": "vocabulary",
+      "description": "An illumined sage or seer in Hindu tradition."
+    },
+    "shastras": {
+      "type": "vocabulary",
+      "description": "Sacred scriptures or authoritative texts in Hinduism."
+    },
+    "Kriya": {
+      "type": "vocabulary",
+      "description": "A specific yogic technique for spiritual advancement."
+    },
+    "ecstasies": {
+      "type": "vocabulary",
+      "description": "States of intense spiritual joy or trance."
+    },
+    "mantra": {
+      "type": "vocabulary",
+      "description": "A sacred word or phrase chanted during spiritual practice."
+    },
+    "punkha": {
+      "type": "vocabulary",
+      "description": "A hand-held fan, often used in India."
+    },
+    "Amar": {
+      "type": "character",
+      "description": "A companion of the narrator who accompanied him on a previous journey toward the Himalayas."
+    },
+    "Nagendra Nath Bhaduri": {
+      "type": "character",
+      "description": "A sage encountered by the narrator during his quest for spiritual guidance."
+    },
+    "Master Mahasaya": {
+      "type": "character",
+      "description": "Another sage the narrator met in his search for spiritual truth."
+    },
+    "Jagadis Chandra Bose": {
+      "type": "character",
+      "description": "A famous Bengali scientist mentioned among the notable people the narrator met."
+    },
+    "Gandha Baba": {
+      "type": "character",
+      "description": "A yogi reputed for his miraculous ability to materialize various scents and objects from the air."
+    },
+    "Alakananda": {
+      "type": "character",
+      "description": "A friend of the narrator who recounts an experience with Gandha Baba."
+    },
+    "Abu Said": {
+      "type": "character",
+      "description": "A Persian mystic cited for his views on miraculous powers and the religious life."
+    },
+    "Kalighat Temple": {
+      "type": "proper_noun",
+      "description": "A famous temple in Calcutta dedicated to the goddess Kali."
+    },
+    "Kali": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess representing both benign and terrible aspects of nature."
+    },
+    "Thebes": {
+      "type": "proper_noun",
+      "description": "An ancient city referenced metaphorically in the text."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country where the events of the chapter take place and the spiritual traditions discussed originate."
+    },
+    "Vedic": {
+      "type": "proper_noun",
+      "description": "Relating to the Vedas, the ancient scriptures of India."
+    },
+    "Tibet": {
+      "type": "proper_noun",
+      "description": "A region in Asia, referenced as the place where Gandha Baba's master resided."
+    },
+    "Asia": {
+      "type": "proper_noun",
+      "description": "A continent referenced in relation to the starving millions."
+    },
+    "Europe": {
+      "type": "proper_noun",
+      "description": "A continent referenced alongside Asia regarding hunger."
+    },
+    "Persian": {
+      "type": "proper_noun",
+      "description": "Relating to Persia (modern-day Iran), referenced in connection with the mystic Abu Said."
+    },
+    "maya": {
+      "type": "vocabulary",
+      "description": "The illusion or appearance of the phenomenal world."
+    },
+    "rishis": {
+      "type": "vocabulary",
+      "description": "Ancient sages or seers who composed the Vedic scriptures."
+    },
+    "devotees": {
+      "type": "vocabulary",
+      "description": "Individuals who are devoted to a deity or spiritual practice."
+    },
+    "clairvoyant": {
+      "type": "vocabulary",
+      "description": "Having the ability to perceive events or information beyond normal sensory contact."
+    },
+    "Orientwise": {
+      "type": "vocabulary",
+      "description": "Sitting in the manner customary in Eastern cultures, usually cross-legged on the floor."
+    },
+    "luchis": {
+      "type": "vocabulary",
+      "description": "A type of deep-fried bread popular in Bengali cuisine."
+    },
+    "lifetrons": {
+      "type": "vocabulary",
+      "description": "A term used by Yogananda to describe subtle life forces or energies finer than atoms."
+    },
+    "Chandi": {
+      "type": "character",
+      "description": "A high school friend of the narrator who accompanies him to visit the Tiger Swami."
+    },
+    "Sohong Swami": {
+      "type": "character",
+      "description": "A famous swami known for his immense physical strength and his past as a tiger tamer before his spiritual transformation."
+    },
+    "Prince of Cooch Behar": {
+      "type": "character",
+      "description": "A royal figure who challenges the Tiger Swami to fight a wild tiger in his city."
+    },
+    "Raja Begum": {
+      "type": "character",
+      "description": "The newly-caught royal Bengal tiger that the Tiger Swami is challenged to fight."
+    },
+    "Bhowanipur": {
+      "type": "proper_noun",
+      "description": "A locality outside Calcutta where the Tiger Swami's house is located."
+    },
+    "Cooch Behar": {
+      "type": "proper_noun",
+      "description": "A capital city and territory in India where the Tiger Swami is invited to fight a tiger."
+    },
+    "West": {
+      "type": "proper_noun",
+      "description": "A reference to Western countries, used in comparison to Indian customs."
+    },
+    "Bengal": {
+      "type": "vocabulary",
+      "description": "Refers to the royal Bengal tiger, a species native to the Indian subcontinent."
+    },
+    "yoga": {
+      "type": "vocabulary",
+      "description": "A spiritual discipline involving physical, mental, and meditative practices aimed at self-realization."
+    },
+    "Upendra Mohun Chowdhury": {
+      "type": "character",
+      "description": "A friend of the narrator who shares news about the levitating yogi and often visits him."
+    },
+    "Bhaduri Mahasaya": {
+      "type": "character",
+      "description": "A renowned yogi and saint of Upper Circular Road, known for his mastery of pranayama and levitation, and for living in seclusion."
+    },
+    "Mirabai": {
+      "type": "character",
+      "description": "A medieval Rajputani princess and saint-poetess who renounced royal life to seek God and the company of sadhus."
+    },
+    "Upper Circular Road": {
+      "type": "proper_noun",
+      "description": "A location in Calcutta where Bhaduri Mahasaya resides."
+    },
+    "America": {
+      "type": "proper_noun",
+      "description": "Referenced as a distant land where interest in yoga is growing and where the narrator is later sent."
+    },
+    "Ram Mohan Roy Road": {
+      "type": "proper_noun",
+      "description": "The street to which Bhaduri Mahasaya later moves."
+    },
+    "Nagendra Math": {
+      "type": "proper_noun",
+      "description": "The hermitage built for Bhaduri Mahasaya by his disciples."
+    },
+    "pranayamas": {
+      "type": "vocabulary",
+      "description": "Breathing exercises or techniques in yoga used to control and expand prana (life energy)."
+    },
+    "Patanjali": {
+      "type": "vocabulary",
+      "description": "An ancient Indian sage who codified the eightfold path of yoga in the Yoga Sutras."
+    },
+    "Bhastrika Pranayama": {
+      "type": "vocabulary",
+      "description": "A vigorous yogic breathing technique known as 'bellows breath.'"
+    },
+    "superconsciousness": {
+      "type": "vocabulary",
+      "description": "A heightened state of awareness or spiritual consciousness beyond ordinary waking consciousness."
+    },
+    "saint": {
+      "type": "vocabulary",
+      "description": "A spiritually advanced person, often revered for holiness and miracles."
+    },
+    "Maharishi": {
+      "type": "vocabulary",
+      "description": "A title meaning 'great sage' or 'great seer.'"
+    },
+    "Omnipresence": {
+      "type": "vocabulary",
+      "description": "The quality of being present everywhere, often attributed to God."
+    },
+    "anubhava": {
+      "type": "vocabulary",
+      "description": "Direct personal experience or realization, especially of the divine."
+    },
+    "Jala Yoga": {
+      "type": "vocabulary",
+      "description": "A humorous term here, meaning 'union with food.'"
+    },
+    "Dhyana Yoga": {
+      "type": "vocabulary",
+      "description": "The yoga of meditation or union with God through meditative absorption."
+    },
+    "sadhus": {
+      "type": "vocabulary",
+      "description": "Holy men or ascetics who have renounced worldly life in pursuit of spiritual goals."
+    },
+    "Rabindranath Tagore": {
+      "type": "character",
+      "description": "Rabindranath Tagore was a celebrated Bengali poet, Nobel laureate, and composer, whose works and educational vision influenced Indian culture and Yogananda's circle."
+    },
+    "Marconi": {
+      "type": "character",
+      "description": "An Italian inventor known for his work on wireless telegraphy, referenced in comparison to Bose’s earlier inventions."
+    },
+    "Presidency College": {
+      "type": "proper_noun",
+      "description": "A prestigious educational institution in Calcutta where Bose taught as a professor."
+    },
+    "Cambridge": {
+      "type": "proper_noun",
+      "description": "The University of Cambridge in England, where Bose received part of his education."
+    },
+    "Bose Institute": {
+      "type": "proper_noun",
+      "description": "A research center in Calcutta founded by Jagadis Chandra Bose for scientific investigations."
+    },
+    "Royal Society": {
+      "type": "proper_noun",
+      "description": "A prominent scientific society in London where Bose presented his research findings."
+    },
+    "Nalanda": {
+      "type": "proper_noun",
+      "description": "An ancient Indian university renowned for attracting scholars from all over the world."
+    },
+    "Taxila": {
+      "type": "proper_noun",
+      "description": "An ancient center of learning in India, mentioned as a historical example of India’s scholarly tradition."
+    },
+    "Columbia University": {
+      "type": "proper_noun",
+      "description": "A major American university where later research on plant physiology supported Bose’s findings."
+    },
+    "The New York Times": {
+      "type": "proper_noun",
+      "description": "An American newspaper that reported on scientific research related to Bose’s discoveries."
+    },
+    "Sama": {
+      "type": "proper_noun",
+      "description": "An ancient hymn referenced in Tagore’s poem."
+    },
+    "Bose laboratory": {
+      "type": "proper_noun",
+      "description": "The laboratory established by Jagadis Chandra Bose for his scientific experiments."
+    },
+    "crescograph": {
+      "type": "vocabulary",
+      "description": "A scientific instrument invented by Bose to measure and magnify plant growth and responses."
+    },
+    "Noumenon": {
+      "type": "vocabulary",
+      "description": "A philosophical term referring to the ultimate reality beyond observable phenomena."
+    },
+    "shastric": {
+      "type": "vocabulary",
+      "description": "Related to shastras, the ancient Indian scriptures or authoritative texts."
+    },
+    "Sri Ramakrishna Paramhansa": {
+      "type": "character",
+      "description": "A renowned Christlike master and spiritual teacher, revered as the guru of Master Mahasaya and a central figure in the Bengal Renaissance."
+    },
+    "Dakshineswar Temple": {
+      "type": "proper_noun",
+      "description": "A famous temple complex near Calcutta, dedicated to the goddess Kali and closely associated with Sri Ramakrishna."
+    },
+    "Temple of Kali": {
+      "type": "proper_noun",
+      "description": "A temple within Dakshineswar dedicated to the goddess Kali, an aspect of the Divine Mother."
+    },
+    "Shiva": {
+      "type": "proper_noun",
+      "description": "A principal deity in Hinduism, often depicted alongside the Divine Mother in temples."
+    },
+    "Calcutta University": {
+      "type": "proper_noun",
+      "description": "A major educational institution in Calcutta, where part of the chapter's events take place."
+    },
+    "goldighi": {
+      "type": "proper_noun",
+      "description": "A pond or water body, referenced as a place for meditation near Calcutta University."
+    },
+    "gurudeva": {
+      "type": "vocabulary",
+      "description": "A respectful term for one's guru, meaning 'divine teacher.'"
+    },
+    "devotion": {
+      "type": "vocabulary",
+      "description": "A deep love and dedication to God or a spiritual ideal, often expressed through worship or service."
+    },
+    "chant": {
+      "type": "vocabulary",
+      "description": "A repetitive recitation of sacred names or phrases, used as a spiritual practice."
+    },
+    "Nantu": {
+      "type": "character",
+      "description": "Mukunda's brilliant classmate who helps him prepare for his final examinations."
+    },
+    "Sananda": {
+      "type": "character",
+      "description": "Mukunda's younger brother, for whom he feels special affection after their mother's death."
+    },
+    "Dyananda": {
+      "type": "character",
+      "description": "The young head swami of the Mahamandal hermitage in Benares, known for his discipline and composure."
+    },
+    "Habu": {
+      "type": "character",
+      "description": "A young priest at the hermitage who calls Mukunda for errands."
+    },
+    "Hindu High School": {
+      "type": "proper_noun",
+      "description": "The school where Mukunda is preparing for his final examinations."
+    },
+    "Mahamandal": {
+      "type": "proper_noun",
+      "description": "A hermitage or spiritual organization in Benares where Mukunda seeks discipline and spiritual practice."
+    },
+    "Rai Ghat Lane": {
+      "type": "proper_noun",
+      "description": "The location of Sri Yukteswar's main hermitage in Serampore."
+    },
+    "Rana Mahal": {
+      "type": "proper_noun",
+      "description": "A section of Benares where Sri Yukteswar is temporarily residing."
+    },
+    "Bombay": {
+      "type": "proper_noun",
+      "description": "A major Indian city mentioned as the destination of Dyananda for a conference."
+    },
+    "Buddha": {
+      "type": "proper_noun",
+      "description": "The founder of Buddhism, whose feet are said to have blessed the soil of Benares."
+    },
+    "Shankaracharya": {
+      "type": "proper_noun",
+      "description": "A revered Indian philosopher and spiritual leader whose presence sanctified Benares."
+    },
+    "ghats": {
+      "type": "vocabulary",
+      "description": "Steps leading down to a river, especially used for bathing or cremation in India."
+    },
+    "sadhana": {
+      "type": "vocabulary",
+      "description": "Spiritual practice or discipline undertaken to achieve spiritual goals."
+    },
+    "Gurudeva": {
+      "type": "vocabulary",
+      "description": "A respectful term for one's guru, meaning 'divine teacher.'"
+    },
+    "Jitendra": {
+      "type": "character",
+      "description": "A close friend and companion of Mukunda who accompanied him on various spiritual quests and 'penniless tests'."
+    },
+    "Gauri Ma": {
+      "type": "character",
+      "description": "A dignified elderly woman who hosts Mukunda and Jitendra at her hermitage in Brindaban."
+    },
+    "Pratap Chatterji": {
+      "type": "character",
+      "description": "A young devotee in Brindaban who recognizes Mukunda from a vision and becomes his disciple."
+    },
+    "Babaji": {
+      "type": "character",
+      "description": "A legendary immortal yogi residing in the Himalayas, responsible for reintroducing Kriya Yoga to the world through Lahiri Mahasaya.",
+      "image": "/data/images/characters/autobiography-of-a-yogi/babaji.png"
+    },
+    "Ananda Mohan Lahiri": {
+      "type": "character",
+      "description": "A grandson of Lahiri Mahasaya, mentioned as visiting Babaji's cave."
+    },
+    "Ananda Moyi Ma": {
+      "type": "character",
+      "description": "A renowned Bengali woman saint revered for her intense sanctity, spiritual realization, and joyful presence."
+    },
+    "Brindaban": {
+      "type": "proper_noun",
+      "description": "A sacred city in India associated with Lord Krishna, where the chapter's main events occur."
+    },
+    "Agra": {
+      "type": "proper_noun",
+      "description": "A historic city in India, home to the Taj Mahal and Ananta's residence."
+    },
+    "Taj Mahal": {
+      "type": "proper_noun",
+      "description": "A world-famous white marble mausoleum in Agra, visited by Mukunda and Jitendra."
+    },
+    "Drongiri Mountains": {
+      "type": "proper_noun",
+      "description": "The Drongiri Mountains, also referred to as Drongiri Mountain, are a Himalayan range near Ranikhet, associated with Babaji and Lahiri Mahasaya's spiritual encounters."
+    },
+    "Ranikhet": {
+      "type": "proper_noun",
+      "description": "A hill station in the Himalayas near the Drongiri Mountains."
+    },
+    "Madanamohana Temple": {
+      "type": "proper_noun",
+      "description": "A Krishna temple in Brindaban visited by Mukunda and companions."
+    },
+    "Hindu scriptures": {
+      "type": "proper_noun",
+      "description": "Sacred texts of Hinduism referenced for teachings on spiritual evolution."
+    },
+    "Guru of all gurus": {
+      "type": "proper_noun",
+      "description": "A phrase referring to the ultimate spiritual teacher or God."
+    },
+    "Taj": {
+      "type": "proper_noun",
+      "description": "Short for Taj Mahal, referenced as a sight in Agra."
+    },
+    "Jyanavatar": {
+      "type": "proper_noun",
+      "description": "A title meaning 'incarnation of wisdom,' used for Mukunda's guru."
+    },
+    "hermitage": {
+      "type": "vocabulary",
+      "description": "A secluded residence for spiritual retreat and practice."
+    },
+    "dhoti": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by men, consisting of a long cloth wrapped around the waist and legs."
+    },
+    "chintamani": {
+      "type": "vocabulary",
+      "description": "A wish-fulfilling jewel in Hindu and Buddhist traditions, here used metaphorically for Kriya Yoga."
+    },
+    "diksha": {
+      "type": "vocabulary",
+      "description": "A spiritual initiation or rite of passage, often involving the transmission of a mantra or technique."
+    },
+    "ego": {
+      "type": "vocabulary",
+      "description": "The individual self or sense of personal identity, often seen as an obstacle to spiritual realization."
+    },
+    "sandesh": {
+      "type": "vocabulary",
+      "description": "A Bengali sweet made from fresh cheese, mentioned as a treat in the chapter."
+    },
+    "Kumar": {
+      "type": "character",
+      "description": "A young disciple accepted for hermitage training, who briefly becomes supervisor before being asked to leave due to misconduct."
+    },
+    "Prafulla": {
+      "type": "character",
+      "description": "A young disciple who witnessed Sri Yukteswar's encounter with a cobra."
+    },
+    "Dabru Ballav": {
+      "type": "character",
+      "description": "A renowned teacher in eastern Bengal known for his intensive scriptural teaching methods."
+    },
+    "Shankara": {
+      "type": "character",
+      "description": "The ancient philosopher and founder of the Swami Order, revered for his spiritual achievements and reorganization of monastic life."
+    },
+    "Kanai": {
+      "type": "character",
+      "description": "A disciple present during an incident with a court deputy at the Serampore ashram."
+    },
+    "Durgapuja": {
+      "type": "proper_noun",
+      "description": "An annual Hindu festival celebrating the goddess Durga, observed at the hermitage."
+    },
+    "Scottish Church College": {
+      "type": "proper_noun",
+      "description": "The college in Calcutta where the narrator resumes his formal studies."
+    },
+    "Ranchi": {
+      "type": "proper_noun",
+      "description": "The location of the narrator's future boys' yoga school."
+    },
+    "Mount Washington Estates": {
+      "type": "proper_noun",
+      "description": "The site of the American headquarters for the Self-Realization Fellowship in Los Angeles."
+    },
+    "Self-Realization Fellowship": {
+      "type": "proper_noun",
+      "description": "The spiritual organization founded by the narrator to spread yoga teachings."
+    },
+    "Self-Realization Church of All Religions": {
+      "type": "proper_noun",
+      "description": "A spiritual center in Hollywood, California, associated with the narrator's work."
+    },
+    "Los Angeles": {
+      "type": "proper_noun",
+      "description": "The American city where the narrator establishes his headquarters."
+    },
+    "Puri": {
+      "type": "proper_noun",
+      "description": "A city on the Bay of Bengal where Sri Yukteswar has a second hermitage."
+    },
+    "Bay of Bengal": {
+      "type": "proper_noun",
+      "description": "A large bay in the northeastern Indian Ocean, near Puri."
+    },
+    "Swami Order": {
+      "type": "proper_noun",
+      "description": "A monastic order in Hinduism, which Sri Yukteswar joined after his wife's death."
+    },
+    "Upanishads": {
+      "type": "proper_noun",
+      "description": "Philosophical Hindu scriptures, referenced in scholarly discussion."
+    },
+    "bhasyas": {
+      "type": "proper_noun",
+      "description": "Commentaries, particularly those by Shankara, on Hindu scriptures."
+    },
+    "Guruji": {
+      "type": "vocabulary",
+      "description": "A respectful term for one's guru or spiritual teacher."
+    },
+    "samadhi": {
+      "type": "vocabulary",
+      "description": "A deep yogic state of meditative absorption and union with the divine."
+    },
+    "chela": {
+      "type": "vocabulary",
+      "description": "A disciple or student of a spiritual teacher."
+    },
+    "jnana": {
+      "type": "vocabulary",
+      "description": "Spiritual knowledge or wisdom, especially of the highest, non-dual kind."
+    },
+    "bhakti": {
+      "type": "vocabulary",
+      "description": "Devotion or love for God, a path of spiritual realization."
+    },
+    "ahimsa": {
+      "type": "vocabulary",
+      "description": "The principle of non-violence or harmlessness toward all living beings."
+    },
+    "channa": {
+      "type": "vocabulary",
+      "description": "A type of chickpea, often used in Indian cuisine."
+    },
+    "dhal": {
+      "type": "vocabulary",
+      "description": "A dish made from lentils, a staple in Indian vegetarian meals."
+    },
+    "ghee": {
+      "type": "vocabulary",
+      "description": "Clarified butter commonly used in Indian cooking and rituals."
+    },
+    "Behari Pundit": {
+      "type": "character",
+      "description": "The narrator's Sanskrit professor at Scottish Church College who introduces him to Ram Gopal Muzumdar."
+    },
+    "Ram Gopal Muzumdar": {
+      "type": "character",
+      "description": "Known as the 'sleepless saint,' a yogi who has attained high states of consciousness through long meditation."
+    },
+    "Ranbajpur": {
+      "type": "proper_noun",
+      "description": "A village near Tarakeswar, home of Ram Gopal Muzumdar."
+    },
+    "Tarakeswar": {
+      "type": "proper_noun",
+      "description": "A town known for its famous Hindu shrine, regarded as a center of spiritual power."
+    },
+    "Lourdes": {
+      "type": "proper_noun",
+      "description": "A sanctuary in France, referenced for its healing miracles, similar to Tarakeswar."
+    },
+    "Hindus": {
+      "type": "vocabulary",
+      "description": "Followers of Hinduism, a major religion of India."
+    },
+    "mridangas": {
+      "type": "vocabulary",
+      "description": "Traditional Indian double-headed drums used in devotional music."
+    },
+    "cosmic energy": {
+      "type": "vocabulary",
+      "description": "A spiritual force believed to animate the universe and living beings."
+    },
+    "krosha": {
+      "type": "vocabulary",
+      "description": "A traditional Indian unit of distance, approximately two miles."
+    },
+    "Rai Ghat Road": {
+      "type": "proper_noun",
+      "description": "A street referenced in the chapter, located near the ashram where Yogananda has his experience."
+    },
+    "Aum": {
+      "type": "vocabulary",
+      "description": "A sacred sound and spiritual symbol in Indian religions, representing the cosmic vibration or the divine."
+    },
+    "turia": {
+      "type": "vocabulary",
+      "description": "A reference to 'turiya,' the fourth state of consciousness beyond waking, dreaming, and deep sleep, representing pure awareness."
+    },
+    "rasa": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning 'essence' or 'flavor,' here referring to the divine bliss described in the Upanishads."
+    },
+    "Vishnu": {
+      "type": "character",
+      "description": "A member of the Hindu Trinity, associated with preservation and music, often shown with a drum."
+    },
+    "Saraswati": {
+      "type": "character",
+      "description": "The Hindu goddess of wisdom, symbolized as playing the vina, the mother of all stringed instruments."
+    },
+    "Miyan Tan Sen": {
+      "type": "character",
+      "description": "A legendary sixteenth-century court musician for Akbar the Great, known for his mastery of Indian classical music."
+    },
+    "Akbar the Great": {
+      "type": "character",
+      "description": "A Mughal emperor who patronized the musician Miyan Tan Sen."
+    },
+    "Charles Robert Richet": {
+      "type": "character",
+      "description": "A Nobel Prize-winning physiologist quoted in the chapter regarding scientific phenomena."
+    },
+    "London": {
+      "type": "proper_noun",
+      "description": "The capital city of England, mentioned in the context of radio communication."
+    },
+    "Sat-Sanga": {
+      "type": "proper_noun",
+      "description": "A spiritual organization or fellowship founded by Sri Yukteswar, mentioned in the context of a procession."
+    },
+    "Sama Veda": {
+      "type": "proper_noun",
+      "description": "One of the four Vedas, the earliest Hindu scriptures, containing ancient writings on musical science."
+    },
+    "Hindole Raga": {
+      "type": "proper_noun",
+      "description": "A specific melodic scale in Indian classical music, associated with dawn in spring."
+    },
+    "Deepaka Raga": {
+      "type": "proper_noun",
+      "description": "A raga played during summer evenings to evoke compassion."
+    },
+    "Megha Raga": {
+      "type": "proper_noun",
+      "description": "A raga for midday in the rainy season, intended to summon courage."
+    },
+    "Bhairava Raga": {
+      "type": "proper_noun",
+      "description": "A raga played in the mornings of late summer and early autumn to achieve tranquillity."
+    },
+    "Sri Raga": {
+      "type": "proper_noun",
+      "description": "A raga reserved for autumn twilights, associated with pure love."
+    },
+    "Malkounsa Raga": {
+      "type": "proper_noun",
+      "description": "A raga heard at midnight in winter, associated with valor."
+    },
+    "Bharata": {
+      "type": "proper_noun",
+      "description": "The traditional founder of Hindu music, credited with isolating various talas."
+    },
+    "intuition": {
+      "type": "vocabulary",
+      "description": "Soul guidance or inner knowing, especially when the mind is calm."
+    },
+    "vina": {
+      "type": "vocabulary",
+      "description": "A traditional Indian stringed musical instrument, associated with Saraswati."
+    },
+    "srutis": {
+      "type": "vocabulary",
+      "description": "Microtonal intervals in Indian music, dividing the octave into 22 parts."
+    },
+    "ragas": {
+      "type": "vocabulary",
+      "description": "Fixed melodic scales in Indian classical music, each with specific moods and associations."
+    },
+    "raginis": {
+      "type": "vocabulary",
+      "description": "Derivative scales or 'wives' of the main ragas in Indian music."
+    },
+    "putras": {
+      "type": "vocabulary",
+      "description": "Sons or further derivatives of the main ragas."
+    },
+    "vadi": {
+      "type": "vocabulary",
+      "description": "The leading or king note in a raga."
+    },
+    "samavadi": {
+      "type": "vocabulary",
+      "description": "The secondary or prime minister note in a raga."
+    },
+    "anuvadi": {
+      "type": "vocabulary",
+      "description": "Helping or attendant notes in a raga."
+    },
+    "vivadi": {
+      "type": "vocabulary",
+      "description": "A dissonant or enemy note in a raga."
+    },
+    "mridanga": {
+      "type": "vocabulary",
+      "description": "A type of Indian drum, often used in devotional music."
+    },
+    "bhagavathar": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning 'one who sings the praises of God.'"
+    },
+    "khichuri": {
+      "type": "vocabulary",
+      "description": "A dish of rice and lentils, commonly served at Indian religious gatherings."
+    },
+    "khol": {
+      "type": "vocabulary",
+      "description": "A traditional Indian drum used in devotional music."
+    },
+    "kartal": {
+      "type": "vocabulary",
+      "description": "Handheld cymbals used in Indian devotional music."
+    },
+    "tala": {
+      "type": "vocabulary",
+      "description": "A rhythmic pattern or cycle in Indian classical music."
+    },
+    "Oversoul": {
+      "type": "vocabulary",
+      "description": "A term referring to the universal spirit or supreme soul."
+    },
+    "Kali Yuga": {
+      "type": "proper_noun",
+      "description": "The Iron Age in Hindu cosmology, characterized by materialism and spiritual decline."
+    },
+    "Dwapara Yuga": {
+      "type": "proper_noun",
+      "description": "The Bronze Age in Hindu cosmology, associated with developments in energy and communication."
+    },
+    "Treta Yuga": {
+      "type": "proper_noun",
+      "description": "The Silver Age in Hindu cosmology, marked by telepathic abilities and higher consciousness."
+    },
+    "Satya Yuga": {
+      "type": "proper_noun",
+      "description": "The Golden Age in Hindu cosmology, representing truth, harmony, and spiritual enlightenment."
+    },
+    "Sankhya": {
+      "type": "proper_noun",
+      "description": "An ancient Indian philosophical system focusing on enumeration and categorization of reality."
+    },
+    "Bible": {
+      "type": "proper_noun",
+      "description": "The Christian holy scripture, referenced for comparative spiritual teachings."
+    },
+    "Genesis": {
+      "type": "proper_noun",
+      "description": "The first book of the Bible, containing the story of Adam and Eve."
+    },
+    "yogis": {
+      "type": "vocabulary",
+      "description": "Practitioners of yoga who seek spiritual realization."
+    },
+    "devotee": {
+      "type": "vocabulary",
+      "description": "A person dedicated to spiritual practice or a spiritual teacher."
+    },
+    "darshan": {
+      "type": "vocabulary",
+      "description": "A spiritual audience or sight of a holy person, considered a blessing."
+    },
+    "nasikagram": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning 'origin of the nose,' referring to the point between the eyebrows, the seat of spiritual vision."
+    },
+    "Iswar-ashidha": {
+      "type": "vocabulary",
+      "description": "A Sankhya aphorism meaning 'A Lord of Creation cannot be deduced' or 'God is not proved.'"
+    },
+    "Dr. Narayan Chunder Roy": {
+      "type": "character",
+      "description": "A veterinary surgeon and agnostic who is skeptical of spiritual practices; he is healed by Sri Yukteswar after wearing an astrological bangle."
+    },
+    "Santosh": {
+      "type": "character",
+      "description": "The young son of Dr. Roy who implores the narrator to help his father meet Sri Yukteswar."
+    },
+    "Sasi": {
+      "type": "character",
+      "description": "A college friend of the narrator whose wild lifestyle leads to illness; he is healed by Sri Yukteswar after a test of faith."
+    },
+    "Naren Babu": {
+      "type": "character",
+      "description": "A disciple of Sri Yukteswar in whose Calcutta home a significant event with Sasi takes place."
+    },
+    "Professor Howells": {
+      "type": "character",
+      "description": "President of Serampore College who arranges for the college to offer a four-year A.B. degree course."
+    },
+    "Intermediate Arts": {
+      "type": "proper_noun",
+      "description": "A diploma awarded after two years of college study in India."
+    },
+    "Serampore College": {
+      "type": "proper_noun",
+      "description": "An institution of higher learning in Serampore, later affiliated with the University of Calcutta."
+    },
+    "University of Calcutta": {
+      "type": "proper_noun",
+      "description": "A major university in Calcutta, India, with which Serampore College becomes affiliated."
+    },
+    "A.B.": {
+      "type": "proper_noun",
+      "description": "Bachelor of Arts, a university degree."
+    },
+    "proselyter": {
+      "type": "vocabulary",
+      "description": "One who seeks to convert others to a particular belief or faith."
+    },
+    "astrological bangle": {
+      "type": "vocabulary",
+      "description": "A metal armlet believed to offer astrological and spiritual protection."
+    },
+    "guruji": {
+      "type": "vocabulary",
+      "description": "A respectful term for one's guru, meaning 'revered teacher.'"
+    },
+    "Afzal Khan": {
+      "type": "character",
+      "description": "A Mohammedan fakir who gained supernatural powers from a Hindu yogi and became known for his miraculous but morally questionable acts."
+    },
+    "Hazrat": {
+      "type": "character",
+      "description": "The disembodied spirit or astral being who assisted Afzal Khan in performing his miracles."
+    },
+    "Babu": {
+      "type": "character",
+      "description": "A friend of Sri Yukteswar and a witness to Afzal Khan's miracles, who temporarily loses his gold watch and chain to the fakir."
+    },
+    "Panthi": {
+      "type": "proper_noun",
+      "description": "The name of the boardinghouse where Yogananda stayed, and where Afzal Khan performed miracles."
+    },
+    "fakir": {
+      "type": "vocabulary",
+      "description": "A Muslim ascetic or wonder-worker known for performing miraculous feats."
+    },
+    "Dijen Babu": {
+      "type": "character",
+      "description": "Dijen Babu is the narrator's roommate at the Panthi boardinghouse, a student at Serampore College who struggles with spiritual doubts but is drawn to the teachings of Sri Yukteswar."
+    },
+    "Jesus": {
+      "type": "character",
+      "description": "Jesus is referenced as a spiritual figure from ancient times, drawing a parallel to Sri Yukteswar's miraculous appearance."
+    },
+    "Panthi boardinghouse": {
+      "type": "proper_noun",
+      "description": "Panthi boardinghouse is the residence where the narrator and Dijen live as students."
+    },
+    "aura": {
+      "type": "vocabulary",
+      "description": "A subtle, luminous energy field believed to surround a person, especially a spiritually advanced individual."
+    },
+    "Spirit": {
+      "type": "vocabulary",
+      "description": "Refers to the true, divine self or soul within each person."
+    },
+    "Taba asi": {
+      "type": "vocabulary",
+      "description": "A phrase used by Sri Yukteswar at the end of his blessing, possibly a benediction or farewell."
+    },
+    "Rajendra Nath Mitra": {
+      "type": "character",
+      "description": "One of the narrator's friends invited to join the trip to Kashmir."
+    },
+    "Jotin Auddy": {
+      "type": "character",
+      "description": "Another friend invited on the trip, later visits the narrator after his illness."
+    },
+    "Behari": {
+      "type": "character",
+      "description": "A former servant of the narrator's family, now employed by a schoolmaster in Serampore."
+    },
+    "Lal Dhari": {
+      "type": "character",
+      "description": "The servant of the narrator's uncle, whom the narrator tries to enlist for the trip."
+    },
+    "Sarada Ghosh": {
+      "type": "character",
+      "description": "Mukunda's paternal uncle, a government attorney in Serampore and father of Prabhas Chandra Ghose."
+    },
+    "Kashmir": {
+      "type": "proper_noun",
+      "description": "A region in the northern part of the Indian subcontinent, renowned for its scenic beauty and spiritual significance."
+    },
+    "Christian church": {
+      "type": "proper_noun",
+      "description": "A church near the Serampore Courthouse, mentioned as a landmark."
+    },
+    "Serampore Courthouse": {
+      "type": "proper_noun",
+      "description": "A courthouse in Serampore, where the narrator meets his uncle."
+    },
+    "Divine Mercy": {
+      "type": "proper_noun",
+      "description": "A reference to the protective grace of the divine, invoked by Sri Yukteswar."
+    },
+    "Goddess Parvati": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess, consort of Lord Shiva, associated with the Himalayas and spiritual blessings."
+    },
+    "Auddy": {
+      "type": "character",
+      "description": "A member of the travel party, known for his humorous desire for cigarettes during the journey."
+    },
+    "Mrs. Alice T. Hasey (Sister Yogmata)": {
+      "type": "character",
+      "description": "Yogananda's American hostess in Massachusetts who fulfills Sri Yukteswar's prophecy about strawberries."
+    },
+    "Rajendra": {
+      "type": "character",
+      "description": "A young companion who joins Yogananda in horse riding adventures in Kashmir."
+    },
+    "Jehangir": {
+      "type": "character",
+      "description": "The Emperor of India who created the famous pleasure gardens at Shalimar and Nishat Bagh in Kashmir."
+    },
+    "Baber": {
+      "type": "character",
+      "description": "The founder of the Mogul empire in India, known for his deep faith and sacrifice for his son Humayun."
+    },
+    "Humayun": {
+      "type": "character",
+      "description": "Son of Baber, who recovered from a mortal illness after his father prayed to take on his sickness."
+    },
+    "St. Francis of Assisi": {
+      "type": "character",
+      "description": "A Christian saint mentioned as an example of a holy person who healed others despite his own illnesses."
+    },
+    "St. Francis de Sales": {
+      "type": "character",
+      "description": "A Christian saint quoted for his saying about the importance of joy in sainthood."
+    },
+    "Simla": {
+      "type": "proper_noun",
+      "description": "A city in the Himalayan hills, known for its picturesque views and as a stop on the journey to Kashmir."
+    },
+    "West Somerville, Massachusetts": {
+      "type": "proper_noun",
+      "description": "The location in America where Yogananda experiences the predicted strawberry event."
+    },
+    "Rawalpindi": {
+      "type": "proper_noun",
+      "description": "A city in northern India (now in Pakistan), where the party hires a carriage to continue to Kashmir."
+    },
+    "Srinagar": {
+      "type": "proper_noun",
+      "description": "The capital city of Kashmir, known for its temples, lakes, and gardens."
+    },
+    "Jhelum River": {
+      "type": "proper_noun",
+      "description": "A major river flowing through Kashmir, mentioned for its many bridges."
+    },
+    "Swami Shankara": {
+      "type": "proper_noun",
+      "description": "Refers to the temple and ashram dedicated to the philosopher Shankara in Srinagar."
+    },
+    "Mount Washington": {
+      "type": "proper_noun",
+      "description": "The location in Los Angeles where the Self-Realization Fellowship headquarters is established."
+    },
+    "Gulmarg": {
+      "type": "proper_noun",
+      "description": "A mountain resort in Kashmir, meaning 'mountain paths of flowers,' visited by Yogananda."
+    },
+    "Khilanmarg": {
+      "type": "proper_noun",
+      "description": "A steep, forested path near Gulmarg, known for its challenging terrain."
+    },
+    "Shalimar": {
+      "type": "proper_noun",
+      "description": "One of the famous Mughal pleasure gardens in Kashmir, created by Emperor Jehangir."
+    },
+    "Nishat Bagh": {
+      "type": "proper_noun",
+      "description": "Another renowned Mughal garden in Kashmir, noted for its palace and terraces."
+    },
+    "Kabul": {
+      "type": "proper_noun",
+      "description": "The capital of Afghanistan, mentioned as a source of sweet grapes."
+    },
+    "Dal Lake": {
+      "type": "proper_noun",
+      "description": "A famous lake in Srinagar, known for its houseboats and floating gardens."
+    },
+    "Xochimilco": {
+      "type": "proper_noun",
+      "description": "A scenic area in Mexico, compared to Kashmir for its beauty."
+    },
+    "Yellowstone National Park": {
+      "type": "proper_noun",
+      "description": "A national park in the United States, noted for its geysers and natural wonders."
+    },
+    "Grand Canyon of the Colorado": {
+      "type": "proper_noun",
+      "description": "A famous canyon in the United States, referenced for its awe-inspiring landscape."
+    },
+    "Alaska": {
+      "type": "proper_noun",
+      "description": "A U.S. state, mentioned for its rugged grandeur."
+    },
+    "Yosemite": {
+      "type": "proper_noun",
+      "description": "A national park in the United States, known for its majestic redwoods."
+    },
+    "Niagara": {
+      "type": "proper_noun",
+      "description": "The famous waterfall near the Canadian border."
+    },
+    "Mammoth Caves": {
+      "type": "proper_noun",
+      "description": "A cave system in Kentucky, USA, known for its underground formations."
+    },
+    "Carlsbad Caverns": {
+      "type": "proper_noun",
+      "description": "A cave system in New Mexico, USA, noted for its stalactites."
+    },
+    "Hindustan": {
+      "type": "proper_noun",
+      "description": "A historical name for India, referenced in the context of Baber and Humayun."
+    },
+    "nirbikalpa": {
+      "type": "vocabulary",
+      "description": "A form of samadhi characterized by complete nonduality and absence of mental modifications."
+    },
+    "Ekam sat": {
+      "type": "vocabulary",
+      "description": "A Sanskrit phrase meaning 'Only One exists,' expressing the principle of nonduality."
+    },
+    "ganjis": {
+      "type": "vocabulary",
+      "description": "Indian undershirts, mentioned humorously by Sri Yukteswar."
+    },
+    "rabri": {
+      "type": "vocabulary",
+      "description": "A sweet, condensed milk dessert popular in India."
+    },
+    "Satish Chandra Bose": {
+      "type": "character",
+      "description": "Mukunda's brother-in-law, initially skeptical and materialistic, who undergoes a spiritual transformation after a visit to Dakshineswar."
+    },
+    "Nalini": {
+      "type": "character",
+      "description": "Mukunda's sister, mentioned briefly in a photograph caption."
+    },
+    "Girish Vidyaratna Lane": {
+      "type": "proper_noun",
+      "description": "The street in Calcutta where Roma's home is located."
+    },
+    "Dakshineswar": {
+      "type": "proper_noun",
+      "description": "A holy place near Calcutta, famous for its Kali temple and association with Sri Ramakrishna."
+    },
+    "San Diego, California": {
+      "type": "proper_noun",
+      "description": "A city in the United States where the Self-Realization Church of All Religions is located."
+    },
+    "Ganges River": {
+      "type": "proper_noun",
+      "description": "A sacred river in India, visible from the Dakshineswar temple."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, where Satish later lived."
+    },
+    "bel tree": {
+      "type": "vocabulary",
+      "description": "A sacred tree in Hinduism, often associated with temples and religious rituals."
+    },
+    "self-realization": {
+      "type": "vocabulary",
+      "description": "The realization of one's true spiritual nature or unity with the divine."
+    },
+    "devi": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term for 'goddess,' used here as a term of endearment for Roma."
+    },
+    "Prabhas Chandra Ghose": {
+      "type": "character",
+      "description": "Mukunda's dear friend and cousin who helps coach him for his final tests; son of Uncle Sarada."
+    },
+    "Romesh Chandra Dutt": {
+      "type": "character",
+      "description": "A scholarly classmate and the honor man of Mukunda's class who helps him prepare for examinations."
+    },
+    "Vidyasagar": {
+      "type": "character",
+      "description": "A renowned philanthropist from Bengal, referenced in the Bengali examination as a subject of literary questions."
+    },
+    "Childe Harold": {
+      "type": "proper_noun",
+      "description": "A reference to Byron’s poem 'Childe Harold’s Pilgrimage,' which is part of the English literature syllabus."
+    },
+    "English literature": {
+      "type": "proper_noun",
+      "description": "A subject in Mukunda's university examinations, involving the study of English literary works."
+    },
+    "Dr. C. G. Jung": {
+      "type": "character",
+      "description": "A famous Swiss psychologist who wrote appreciatively about yoga."
+    },
+    "Giri": {
+      "type": "proper_noun",
+      "description": "One of the ten subdivisions (dasananzis) of the Swami Order, meaning 'mountain'."
+    },
+    "Sagar": {
+      "type": "proper_noun",
+      "description": "A branch of the Swami Order, meaning 'sea'."
+    },
+    "Bharati": {
+      "type": "proper_noun",
+      "description": "A branch of the Swami Order, meaning 'land'."
+    },
+    "Aranya": {
+      "type": "proper_noun",
+      "description": "A branch of the Swami Order, meaning 'forest'."
+    },
+    "Tirtha": {
+      "type": "proper_noun",
+      "description": "A branch of the Swami Order, meaning 'place of pilgrimage'."
+    },
+    "Order of Swamis": {
+      "type": "proper_noun",
+      "description": "Another term for the Swami Order, emphasizing its formal structure."
+    },
+    "Catholic Christian monastic orders": {
+      "type": "proper_noun",
+      "description": "Western religious orders compared to the Swami Order for their vows and structure."
+    },
+    "Swa": {
+      "type": "proper_noun",
+      "description": "Means 'Self', the divine essence that swamis seek union with."
+    },
+    "Yogi-Christs": {
+      "type": "proper_noun",
+      "description": "A term used to describe spiritually liberated yogis, likened to Christ-like figures."
+    },
+    "Yoga Sutras": {
+      "type": "proper_noun",
+      "description": "Foundational scriptures of yoga philosophy authored by Patanjali."
+    },
+    "Eightfold Path": {
+      "type": "proper_noun",
+      "description": "The eight-step system of yoga practice as outlined by Patanjali."
+    },
+    "Kaivalya": {
+      "type": "proper_noun",
+      "description": "The final goal of yoga, meaning Absoluteness or realization of Truth beyond intellectual apprehension."
+    },
+    "Atomic Age": {
+      "type": "proper_noun",
+      "description": "A reference to the modern era, emphasizing the need for inner self-control alongside scientific advancement."
+    },
+    "swamiship": {
+      "type": "vocabulary",
+      "description": "The state or condition of being a swami, or monk, in the Swami Order."
+    },
+    "bidwat": {
+      "type": "vocabulary",
+      "description": "A non-ceremonious manner, especially in the context of swami initiation."
+    },
+    "bibidisa": {
+      "type": "vocabulary",
+      "description": "An elaborate initiation ceremony into swamiship, including symbolic funeral rites."
+    },
+    "atma": {
+      "type": "vocabulary",
+      "description": "The soul or true self in Hindu philosophy."
+    },
+    "ananda": {
+      "type": "vocabulary",
+      "description": "Bliss; spiritual joy or supreme happiness."
+    },
+    "dasananzis": {
+      "type": "vocabulary",
+      "description": "The ten subdivisions or agnomens of the Swami Order, each indicating a spiritual lineage."
+    },
+    "prana": {
+      "type": "vocabulary",
+      "description": "The vital life force or energy that sustains the body and mind."
+    },
+    "yama": {
+      "type": "vocabulary",
+      "description": "The first step of the Eightfold Path, involving moral restraints or ethical disciplines."
+    },
+    "niyama": {
+      "type": "vocabulary",
+      "description": "The second step of the Eightfold Path, involving positive duties or observances."
+    },
+    "pranayama": {
+      "type": "vocabulary",
+      "description": "Breath control; regulation of prana through specific breathing techniques."
+    },
+    "pratyahara": {
+      "type": "vocabulary",
+      "description": "Withdrawal of the senses from external objects."
+    },
+    "dharana": {
+      "type": "vocabulary",
+      "description": "Concentration; holding the mind to one point or idea."
+    },
+    "dhyana": {
+      "type": "vocabulary",
+      "description": "Meditation; uninterrupted flow of concentration."
+    },
+    "Dr. Misra": {
+      "type": "character",
+      "description": "The ship’s physician who accompanies Yogananda during his travels to Japan and Shanghai."
+    },
+    "Panchanon Bose": {
+      "type": "character",
+      "description": "Nalini's husband, a Calcutta physician who becomes close to Yogananda and the family."
+    },
+    "Burma": {
+      "type": "proper_noun",
+      "description": "A country the ship passes en route to Japan."
+    },
+    "China Sea": {
+      "type": "proper_noun",
+      "description": "The sea traversed by Yogananda's ship on his journey to Japan."
+    },
+    "Japan": {
+      "type": "proper_noun",
+      "description": "A country visited by Yogananda during his travels."
+    },
+    "Kobe": {
+      "type": "proper_noun",
+      "description": "A Japanese city where Yogananda briefly stays."
+    },
+    "Shanghai": {
+      "type": "proper_noun",
+      "description": "A Chinese city where Yogananda purchases souvenirs and senses Ananta's passing."
+    },
+    "Bose home": {
+      "type": "proper_noun",
+      "description": "The residence of Nalini and Dr. Bose in Calcutta."
+    },
+    "God-realization": {
+      "type": "vocabulary",
+      "description": "The attainment of direct, experiential knowledge of the divine."
+    },
+    "prayer": {
+      "type": "vocabulary",
+      "description": "A spiritual practice of communicating with or petitioning the divine."
+    },
+    "prostrated": {
+      "type": "vocabulary",
+      "description": "The act of bowing down or lying flat in reverence, often before a guru or deity."
+    },
+    "astrology": {
+      "type": "vocabulary",
+      "description": "The study of celestial influences on human affairs, referenced here in both conventional and spiritual senses."
+    },
+    "Elijah": {
+      "type": "character",
+      "description": "A biblical prophet identified as a master of spiritual techniques and the previous incarnation of John the Baptist."
+    },
+    "Kabir": {
+      "type": "character",
+      "description": "A renowned Indian mystic and poet, cited as a master of Kriya or similar spiritual practices."
+    },
+    "St. John": {
+      "type": "character",
+      "description": "A disciple of Christ, mentioned as one who knew the science of Kriya Yoga or similar techniques."
+    },
+    "St. Paul": {
+      "type": "character",
+      "description": "A disciple of Christ, referenced as having knowledge of Kriya Yoga or a similar technique, which enabled him to 'die daily.'"
+    },
+    "Vivasvat": {
+      "type": "character",
+      "description": "An ancient illuminato to whom Krishna communicated the indestructible yoga in a former incarnation."
+    },
+    "Manu": {
+      "type": "character",
+      "description": "The great legislator in Indian tradition, who received yoga teachings from Vivasvat."
+    },
+    "Ikshwaku": {
+      "type": "character",
+      "description": "The father of India’s solar warrior dynasty, instructed in yoga by Manu."
+    },
+    "Dark Ages": {
+      "type": "proper_noun",
+      "description": "A historical period referenced as the time when the technique of Kriya Yoga was lost."
+    },
+    "Christ": {
+      "type": "proper_noun",
+      "description": "A reference to Jesus Christ and the Christ consciousness, associated with spiritual union and bliss."
+    },
+    "sabikalpa samadhi": {
+      "type": "proper_noun",
+      "description": "A state of God-contact in which the devotee’s consciousness merges with the Cosmic Spirit, with the body appearing motionless."
+    },
+    "nirbikalpa samadhi": {
+      "type": "proper_noun",
+      "description": "A higher state of spiritual realization in which the yogi communes with God without bodily fixation."
+    },
+    "Cosmic Man": {
+      "type": "proper_noun",
+      "description": "A symbolic representation of the human astral system, relating the spinal centers to the twelve zodiacal signs."
+    },
+    "zodiac": {
+      "type": "proper_noun",
+      "description": "The twelve astrological signs, symbolically linked to the spinal centers in yogic teachings."
+    },
+    "scriptures": {
+      "type": "proper_noun",
+      "description": "Sacred texts that declare the spiritual truths referenced in the chapter."
+    },
+    "Century of Verses": {
+      "type": "proper_noun",
+      "description": "A philosophical work by Shankara, emphasizing spiritual inquiry."
+    },
+    "Jnana Yoga": {
+      "type": "proper_noun",
+      "description": "The path of wisdom or knowledge in the yogic tradition."
+    },
+    "Karma Yoga": {
+      "type": "proper_noun",
+      "description": "The path of action or selfless service in the yogic tradition."
+    },
+    "Kriyaban": {
+      "type": "vocabulary",
+      "description": "A practitioner of Kriya Yoga who has been formally initiated into the technique."
+    },
+    "Kriya Yogi": {
+      "type": "vocabulary",
+      "description": "A person who practices Kriya Yoga."
+    },
+    "apan": {
+      "type": "vocabulary",
+      "description": "The eliminating current or life force responsible for removing decay and waste from the body."
+    },
+    "Bishnu Charan Ghosh": {
+      "type": "character",
+      "description": "Bishnu Charan Ghosh is Yogananda's youngest brother, who joined the Ranchi school and became a renowned physical culturist."
+    },
+    "Sanandan": {
+      "type": "character",
+      "description": "A close disciple of Swami Pranabananda who witnessed his master's passing."
+    },
+    "Swami Keshabananda": {
+      "type": "character",
+      "description": "An advanced disciple of Lahiri Mahasaya who witnessed his resurrection and later informed Yogananda about Swami Pranabananda."
+    },
+    "Dihika": {
+      "type": "proper_noun",
+      "description": "A small country site in Bengal where Yogananda first started his school with seven children."
+    },
+    "Kasimbazar": {
+      "type": "proper_noun",
+      "description": "A town in Bengal, associated with the Maharaja who supported Yogananda's school."
+    },
+    "Bihar": {
+      "type": "proper_noun",
+      "description": "An Indian state where Ranchi is located."
+    },
+    "Kasimbazar Palace": {
+      "type": "proper_noun",
+      "description": "The palace in Ranchi that became the headquarters for Yogananda's school."
+    },
+    "Brahmacharya Vidyalaya": {
+      "type": "proper_noun",
+      "description": "The name of the school founded by Yogananda at Ranchi, based on rishi educational ideals."
+    },
+    "Yogoda": {
+      "type": "proper_noun",
+      "description": "A unique system of physical and spiritual development created by Yogananda."
+    },
+    "Yogoda Math": {
+      "type": "proper_noun",
+      "description": "A hermitage of the Self-Realization Fellowship at Dakshineswar, founded as a yoga retreat."
+    },
+    "Yogoda Sat-Sanga Brahmacharya Vidyalaya": {
+      "type": "proper_noun",
+      "description": "The full name of the Ranchi school, emphasizing its yogic and educational mission."
+    },
+    "Lahiri Mahasaya Mission": {
+      "type": "proper_noun",
+      "description": "A philanthropic organization connected with the Ranchi school."
+    },
+    "Midnapore": {
+      "type": "proper_noun",
+      "description": "A location in India where a branch of Yogoda Sat-Sanga was established."
+    },
+    "Lakshmanpur": {
+      "type": "proper_noun",
+      "description": "Another location with a Yogoda Sat-Sanga branch school."
+    },
+    "Vidyalaya": {
+      "type": "proper_noun",
+      "description": "Refers to the Ranchi school, often used in the context of its activities and departments."
+    },
+    "Badrinarayan": {
+      "type": "proper_noun",
+      "description": "A sacred place in the Himalayas where Pranabananda joined Babaji's group of saints."
+    },
+    "God-contact": {
+      "type": "vocabulary",
+      "description": "Spiritual communion or direct experience of God."
+    },
+    "Cosmic Beloved": {
+      "type": "vocabulary",
+      "description": "A term for God as the ultimate object of spiritual love."
+    },
+    "ashrams": {
+      "type": "vocabulary",
+      "description": "Hermitages or spiritual retreats, traditionally centers of learning and meditation."
+    },
+    "life force": {
+      "type": "vocabulary",
+      "description": "The vital energy believed to animate living beings; often equated with prana."
+    },
+    "medulla oblongata": {
+      "type": "vocabulary",
+      "description": "A part of the brainstem, referenced as the center of life force in yogic physiology."
+    },
+    "unattachment": {
+      "type": "vocabulary",
+      "description": "A state of non-attachment or detachment from worldly things."
+    },
+    "God-union": {
+      "type": "vocabulary",
+      "description": "The state of oneness or communion with God."
+    },
+    "spiritual eye": {
+      "type": "vocabulary",
+      "description": "The inner point of spiritual vision, often identified with the 'third eye' in yogic tradition."
+    },
+    "Kashi": {
+      "type": "character",
+      "description": "A young Ranchi student beloved by all, whose death and subsequent rebirth become the focus of Yogananda's spiritual search."
+    },
+    "Motilal Mukherji": {
+      "type": "character",
+      "description": "A highly advanced disciple of Sri Yukteswar from Serampore, mentioned as part of Yogananda's circle."
+    },
+    "Tulsi Narayan Bose": {
+      "type": "character",
+      "description": "A friend or associate of Yogananda, included in the group connected to the Ranchi school."
+    },
+    "Swami Satyananda": {
+      "type": "character",
+      "description": "A swami associated with Ranchi, mentioned among Yogananda's acquaintances."
+    },
+    "Prokash Das": {
+      "type": "character",
+      "description": "A friend who accompanies Yogananda during his search for the reborn Kashi."
+    },
+    "Kashi’s father": {
+      "type": "character",
+      "description": "The father of Kashi, who takes his son from the school, inadvertently leading to Kashi's death."
+    },
+    "Rev. Clay MacCauley": {
+      "type": "character",
+      "description": "A delegate at the 1920 International Congress of Religious Liberals in Boston."
+    },
+    "Rev. T. Rhondda Williams": {
+      "type": "character",
+      "description": "A delegate at the 1920 International Congress of Religious Liberals in Boston."
+    },
+    "Prof. S. Ushigasaki": {
+      "type": "character",
+      "description": "A delegate at the 1920 International Congress of Religious Liberals in Boston."
+    },
+    "Rev. Jabez T. Sunderland": {
+      "type": "character",
+      "description": "A delegate at the 1920 International Congress of Religious Liberals in Boston."
+    },
+    "Rev. Chas. W. Wendte": {
+      "type": "character",
+      "description": "A delegate at the 1920 International Congress of Religious Liberals in Boston."
+    },
+    "Rev. Samuel A. Eliot": {
+      "type": "character",
+      "description": "A delegate at the 1920 International Congress of Religious Liberals in Boston."
+    },
+    "Rev. Basil Martin": {
+      "type": "character",
+      "description": "A delegate at the 1920 International Congress of Religious Liberals in Boston."
+    },
+    "Rev. Christopher J. Street": {
+      "type": "character",
+      "description": "A delegate at the 1920 International Congress of Religious Liberals in Boston."
+    },
+    "Rev. Samuel M. Crothers": {
+      "type": "character",
+      "description": "A delegate at the 1920 International Congress of Religious Liberals in Boston."
+    },
+    "Howrah bridge": {
+      "type": "proper_noun",
+      "description": "A famous bridge over the Ganges River in Calcutta."
+    },
+    "Bowbazar": {
+      "type": "proper_noun",
+      "description": "A crowded section of Calcutta where Yogananda senses Kashi's rebirth."
+    },
+    "Serpentine Lane": {
+      "type": "proper_noun",
+      "description": "A lane in Calcutta where Yogananda locates the house of Kashi's rebirth."
+    },
+    "International Congress of Religious Liberals": {
+      "type": "proper_noun",
+      "description": "A 1920 conference in Boston where Yogananda gave his first speech in America."
+    },
+    "occult": {
+      "type": "vocabulary",
+      "description": "Refers to mystical, supernatural, or hidden spiritual knowledge or phenomena."
+    },
+    "astral": {
+      "type": "vocabulary",
+      "description": "Relating to the non-physical, subtle body or plane of existence beyond the material world."
+    },
+    "Bhola Nath": {
+      "type": "character",
+      "description": "A fourteen-year-old student at the Ranchi school, known for his melodious singing and former student of Santiniketan."
+    },
+    "Mr. C. F. Andrews": {
+      "type": "character",
+      "description": "Rabindranath Tagore's secretary, described as simply attired in a Bengali dhoti, who introduced the narrator to Tagore."
+    },
+    "Devendranath": {
+      "type": "character",
+      "description": "Rabindranath Tagore's father, known as 'Maharishi', who inspired the founding of Santiniketan and spent years in meditation in the Himalayas."
+    },
+    "Dwarkanath Tagore": {
+      "type": "character",
+      "description": "Rabindranath Tagore's grandfather, celebrated in Bengal for his public benefactions."
+    },
+    "Gogonendra": {
+      "type": "character",
+      "description": "Rabindranath Tagore's brother, recognized as one of India's foremost artists."
+    },
+    "Abanindra": {
+      "type": "character",
+      "description": "Another brother of Rabindranath Tagore, also among India's foremost artists."
+    },
+    "Dwijendra": {
+      "type": "character",
+      "description": "Rabindranath Tagore's brother, described as a deep-seeing philosopher."
+    },
+    "Santiniketan": {
+      "type": "proper_noun",
+      "description": "The school and ashram established by Rabindranath Tagore, meaning 'Haven of Peace', located at Bolpur."
+    },
+    "Bolpur": {
+      "type": "proper_noun",
+      "description": "The town where Santiniketan is situated."
+    },
+    "Gitanjali": {
+      "type": "proper_noun",
+      "description": "A collection of poems by Rabindranath Tagore, translated into English as 'Song Offerings', which won him the Nobel Prize."
+    },
+    "Viswa-Bharati": {
+      "type": "proper_noun",
+      "description": "The international university that grew out of Santiniketan, welcoming scholars from around the world."
+    },
+    "Leo Tolstoy": {
+      "type": "character",
+      "description": "A great novelist referenced for his story 'The Three Hermits,' illustrating the power of simple faith and miracles."
+    },
+    "Nicholas Roerich": {
+      "type": "character",
+      "description": "A friend of Tolstoy who summarized the story of 'The Three Hermits.'"
+    },
+    "Newton": {
+      "type": "character",
+      "description": "Refers to Sir Isaac Newton, the scientist whose law of motion is discussed in the context of maya."
+    },
+    "Ezekiel": {
+      "type": "character",
+      "description": "A prophet from the Old Testament, quoted to illustrate the perception of divine glory."
+    },
+    "Sir Arthur Stanley Eddington": {
+      "type": "character",
+      "description": "A physicist quoted for his views on the mind-stuff nature of the universe."
+    },
+    "Drs. Clinton J. Davisson": {
+      "type": "character",
+      "description": "A scientist credited with discovering the wave-particle duality of the electron."
+    },
+    "Lester H. Germer": {
+      "type": "character",
+      "description": "A scientist who, with Davisson, discovered the wave-particle duality of the electron."
+    },
+    "De Broglie": {
+      "type": "character",
+      "description": "A French Nobel Prize-winning physicist who predicted the wave nature of electrons."
+    },
+    "Sir James Jeans": {
+      "type": "character",
+      "description": "A scientist quoted for his philosophical view that the universe is more like a thought than a machine."
+    },
+    "Dr. L. T. Troland": {
+      "type": "character",
+      "description": "A Harvard scientist referenced for his explanation of optical images."
+    },
+    "The Three Hermits": {
+      "type": "proper_noun",
+      "description": "A story by Leo Tolstoy illustrating the simplicity and power of faith."
+    },
+    "Old Testament": {
+      "type": "proper_noun",
+      "description": "The first part of the Christian Bible, referenced for its prophetic visions."
+    },
+    "God of Israel": {
+      "type": "proper_noun",
+      "description": "A biblical reference to the deity worshipped in Judaism and Christianity."
+    },
+    "Theory of Relativity": {
+      "type": "proper_noun",
+      "description": "Einstein's scientific theory that revolutionized the understanding of time, space, and light."
+    },
+    "Unified Field Theory": {
+      "type": "proper_noun",
+      "description": "Einstein's later theory attempting to unify the laws of gravitation and electromagnetism."
+    },
+    "The Nature of the Physical World": {
+      "type": "proper_noun",
+      "description": "A book by Sir Arthur Stanley Eddington discussing the philosophical implications of modern physics."
+    },
+    "American Association for the Advancement of Science": {
+      "type": "proper_noun",
+      "description": "A scientific organization mentioned in the context of the electron microscope demonstration."
+    },
+    "Bell Telephone Laboratories": {
+      "type": "proper_noun",
+      "description": "A research organization where Davisson and Germer made their discovery."
+    },
+    "The Mysterious Universe": {
+      "type": "proper_noun",
+      "description": "A book by Sir James Jeans exploring the philosophical implications of scientific discoveries."
+    },
+    "World War I": {
+      "type": "proper_noun",
+      "description": "A global conflict referenced as the historical context for the author's vision."
+    },
+    "France": {
+      "type": "proper_noun",
+      "description": "A country mentioned as the location of World War I battlefields."
+    },
+    "Cosmic Director": {
+      "type": "proper_noun",
+      "description": "A metaphorical reference to God as the creator and orchestrator of the universe."
+    },
+    "avidya": {
+      "type": "vocabulary",
+      "description": "Ignorance or delusion; the individual aspect of maya."
+    },
+    "Ducouri Lahiri": {
+      "type": "character",
+      "description": "One of the saintly sons of Lahiri Mahasaya."
+    },
+    "Abhoya": {
+      "type": "character",
+      "description": "A woman disciple of Lahiri Mahasaya, known for experiencing miracles through his intervention."
+    },
+    "Swami Trailanga": {
+      "type": "character",
+      "description": "A legendary yogi of Benares reputed for his miracles, longevity, and spiritual powers."
+    },
+    "Shankari Mai Jiew": {
+      "type": "character",
+      "description": "A woman saint and disciple of Trailanga, known for her long life and ascetic practices in the Himalayas."
+    },
+    "Garudeswar Mohulla": {
+      "type": "proper_noun",
+      "description": "A section of Benares where the Lahiri homestead is located."
+    },
+    "Lahiri homestead": {
+      "type": "proper_noun",
+      "description": "The family home of Lahiri Mahasaya in Benares."
+    },
+    "Badrinath": {
+      "type": "proper_noun",
+      "description": "A holy Himalayan pilgrimage site where Shankari Mai Jiew lived in seclusion."
+    },
+    "Kedarnath": {
+      "type": "proper_noun",
+      "description": "Another sacred Himalayan site associated with Shankari Mai Jiew's ascetic life."
+    },
+    "Amarnath": {
+      "type": "proper_noun",
+      "description": "A holy cave and pilgrimage destination in the Himalayas, also linked to Shankari Mai Jiew."
+    },
+    "Pasupatinath": {
+      "type": "proper_noun",
+      "description": "A famous Hindu temple and pilgrimage site in Nepal, mentioned in relation to Shankari Mai Jiew."
+    },
+    "Barackpur": {
+      "type": "proper_noun",
+      "description": "A locality near Calcutta where Babaji appeared to Lahiri Mahasaya and Shankari Mai Jiew."
+    },
+    "initiation": {
+      "type": "vocabulary",
+      "description": "The formal introduction or transmission of a spiritual technique or path by a guru to a disciple."
+    },
+    "mela": {
+      "type": "vocabulary",
+      "description": "A religious fair or gathering, often held at sacred sites."
+    },
+    "brahmacharini": {
+      "type": "vocabulary",
+      "description": "A woman ascetic who practices celibacy and spiritual discipline."
+    },
+    "Rama": {
+      "type": "character",
+      "description": "Sri Yukteswar's close friend who was resurrected from death through the intervention of Lahiri Mahasaya."
+    },
+    "Gaur Mohan Lahiri": {
+      "type": "character",
+      "description": "Father of Lahiri Mahasaya, a devout Brahmin who established Shiva temples."
+    },
+    "Muktakashi": {
+      "type": "character",
+      "description": "Second wife of Gaur Mohan Lahiri and mother of Lahiri Mahasaya, known for her devotion to Lord Shiva."
+    },
+    "Kashi Moni": {
+      "type": "character",
+      "description": "Kashi Moni, wife of Lahiri Mahasaya, was revered as the Sacred Mother and received Kriya Yoga initiation from her husband."
+    },
+    "Tincouri": {
+      "type": "character",
+      "description": "One of the two saintly sons of Lahiri Mahasaya."
+    },
+    "Debnarayan Sanyal": {
+      "type": "character",
+      "description": "Father of Kashi Moni, Lahiri Mahasaya's wife."
+    },
+    "Joy Narayan Ghosal": {
+      "type": "character",
+      "description": "Teacher at the school attended by Lahiri Mahasaya in Benares."
+    },
+    "Nag-Bhatta": {
+      "type": "character",
+      "description": "A Marhatta pundit who participated in scriptural discussions attended by Lahiri Mahasaya."
+    },
+    "Abraham": {
+      "type": "character",
+      "description": "Biblical patriarch referenced in relation to the story of Sodom."
+    },
+    "Yama": {
+      "type": "character",
+      "description": "The Hindu god of death, mentioned humorously by Lahiri Mahasaya."
+    },
+    "Lazarus": {
+      "type": "proper_noun",
+      "description": "A man in the Christian scriptures whom Jesus raised from the dead."
+    },
+    "Asiatic cholera": {
+      "type": "proper_noun",
+      "description": "A deadly disease that afflicted Rama."
+    },
+    "Paramatman": {
+      "type": "proper_noun",
+      "description": "The Supreme Soul or Universal Spirit in Hindu philosophy."
+    },
+    "League of Nations": {
+      "type": "proper_noun",
+      "description": "An international organization referenced as a metaphor for global brotherhood."
+    },
+    "Ghurni": {
+      "type": "proper_noun",
+      "description": "The village in Nadia district where Lahiri Mahasaya was born."
+    },
+    "Nadia": {
+      "type": "proper_noun",
+      "description": "A district in Bengal, location of Lahiri Mahasaya's birthplace."
+    },
+    "Krishnagar": {
+      "type": "proper_noun",
+      "description": "A city near Lahiri Mahasaya's birthplace."
+    },
+    "Jalangi River": {
+      "type": "proper_noun",
+      "description": "A river that changed course and destroyed the Lahiri estate."
+    },
+    "Ghurni Shiva Site": {
+      "type": "proper_noun",
+      "description": "The temple where the rescued image of Lord Shiva was placed."
+    },
+    "Hindi": {
+      "type": "proper_noun",
+      "description": "An Indian language studied by Lahiri Mahasaya."
+    },
+    "Urdu": {
+      "type": "proper_noun",
+      "description": "Another language studied by Lahiri Mahasaya."
+    },
+    "Sanskrit": {
+      "type": "proper_noun",
+      "description": "The ancient language of Hindu scriptures, studied by Lahiri Mahasaya."
+    },
+    "French": {
+      "type": "proper_noun",
+      "description": "A language studied by Lahiri Mahasaya."
+    },
+    "English": {
+      "type": "proper_noun",
+      "description": "A language studied by Lahiri Mahasaya."
+    },
+    "Brahmin": {
+      "type": "proper_noun",
+      "description": "The priestly caste in Hindu society, to which Lahiri Mahasaya belonged."
+    },
+    "Military Engineering Department": {
+      "type": "proper_noun",
+      "description": "The English government department where Lahiri Mahasaya worked."
+    },
+    "Gazipur": {
+      "type": "proper_noun",
+      "description": "A city where Lahiri Mahasaya was posted."
+    },
+    "Mirjapur": {
+      "type": "proper_noun",
+      "description": "Another city where Lahiri Mahasaya was posted."
+    },
+    "Danapur": {
+      "type": "proper_noun",
+      "description": "A location where Lahiri Mahasaya was posted."
+    },
+    "Mother Ganges": {
+      "type": "proper_noun",
+      "description": "A personification of the Ganges river in Hindu legend."
+    },
+    "Bhagirath": {
+      "type": "proper_noun",
+      "description": "A devotee in Hindu legend who brought the Ganges to earth."
+    },
+    "nimbus": {
+      "type": "vocabulary",
+      "description": "A halo or aura, symbolizing spiritual glory around saints' heads."
+    },
+    "acharya": {
+      "type": "vocabulary",
+      "description": "A spiritual preceptor or teacher."
+    },
+    "Lord Shiva": {
+      "type": "vocabulary",
+      "description": "A principal Hindu deity, revered as the 'King of Yogis.'"
+    },
+    "householder": {
+      "type": "vocabulary",
+      "description": "A person who leads a family life, as opposed to a renunciant."
+    },
+    "Omar Khayyam": {
+      "type": "character",
+      "description": "A Persian poet and seer referenced for his mystical poetry about spiritual liberation."
+    },
+    "Agastya": {
+      "type": "character",
+      "description": "A South Indian avatar and sage, credited with miracles and spiritual teachings."
+    },
+    "Mataji": {
+      "type": "character",
+      "description": "The sister of Babaji, a spiritually advanced woman saint who appears in the narrative."
+    },
+    "Matthew": {
+      "type": "character",
+      "description": "One of the four disciples of Jesus who recorded his life."
+    },
+    "Mark": {
+      "type": "character",
+      "description": "One of the four disciples of Jesus who recorded his life."
+    },
+    "Luke": {
+      "type": "character",
+      "description": "One of the four disciples of Jesus who recorded his life."
+    },
+    "Rubaiyat": {
+      "type": "proper_noun",
+      "description": "A collection of mystical verses by Omar Khayyam."
+    },
+    "Tamil": {
+      "type": "proper_noun",
+      "description": "A South Indian language and culture with a poetic literature about Agastya."
+    },
+    "Mahavatar": {
+      "type": "proper_noun",
+      "description": "A title meaning 'Great Avatar,' used for Babaji."
+    },
+    "Western civilization": {
+      "type": "proper_noun",
+      "description": "Refers to the cultures and societies of the West, mentioned in the context of spreading yoga."
+    },
+    "Dasasamedh": {
+      "type": "proper_noun",
+      "description": "A famous bathing ghat in Benares (Varanasi), where Ram Gopal met Mataji."
+    },
+    "avatara": {
+      "type": "vocabulary",
+      "description": "A Sanskrit term meaning 'descent,' referring to the incarnation of Divinity in flesh."
+    },
+    "avatar": {
+      "type": "vocabulary",
+      "description": "A divinely appointed being who incarnates to bless the world."
+    },
+    "siddha": {
+      "type": "vocabulary",
+      "description": "A perfected being who has attained spiritual realization."
+    },
+    "jivanmukta": {
+      "type": "vocabulary",
+      "description": "A liberated soul who is freed while still living."
+    },
+    "paramukta": {
+      "type": "vocabulary",
+      "description": "A supremely free being with full power over death."
+    },
+    "mayic": {
+      "type": "vocabulary",
+      "description": "Relating to maya, the cosmic illusion that binds souls to the material world."
+    },
+    "danda": {
+      "type": "vocabulary",
+      "description": "A bamboo staff, often carried by ascetics as a symbol."
+    },
+    "Dera danda uthao": {
+      "type": "vocabulary",
+      "description": "A Hindi phrase meaning 'Let us lift our camp and staff,' used by Babaji to signal moving."
+    },
+    "Maitra": {
+      "type": "character",
+      "description": "A member of the group at Moradabad who witnesses Babaji's materialization and expresses reverence for the guru."
+    },
+    "Gogash River": {
+      "type": "proper_noun",
+      "description": "A river near the site of Lahiri Mahasaya's meeting with Babaji."
+    },
+    "Moradabad": {
+      "type": "proper_noun",
+      "description": "A city in India where Lahiri Mahasaya stays with a Bengali family and demonstrates Babaji's materialization."
+    },
+    "Kumbha Mela": {
+      "type": "proper_noun",
+      "description": "A major Hindu religious festival and gathering of monks and sadhus, held at holy sites like Allahabad."
+    },
+    "Allahabad": {
+      "type": "proper_noun",
+      "description": "A city in India where Lahiri Mahasaya meets Babaji again during the Kumbha Mela."
+    },
+    "kamandulus": {
+      "type": "vocabulary",
+      "description": "Begging bowls traditionally used by ascetics and monks."
+    },
+    "chelas": {
+      "type": "vocabulary",
+      "description": "Disciples or students of a spiritual teacher."
+    },
+    "homa": {
+      "type": "vocabulary",
+      "description": "A Vedic fire ritual or sacrificial ceremony."
+    },
+    "yogi-householder": {
+      "type": "vocabulary",
+      "description": "A practitioner of yoga who maintains family and worldly responsibilities."
+    },
+    "Swalpamasya dharmasya, trayata mahato bhoyat": {
+      "type": "vocabulary",
+      "description": "A Sanskrit verse from the Bhagavad Gita meaning 'Even a little bit of the practice of this religion will save you from dire fears and colossal sufferings.'"
+    },
+    "halua": {
+      "type": "vocabulary",
+      "description": "A type of sweet porridge prepared as an offering or food."
+    },
+    "John the Baptist": {
+      "type": "character",
+      "description": "The biblical figure identified as the guru of Jesus and the reincarnation of Elijah."
+    },
+    "Elisha": {
+      "type": "character",
+      "description": "Disciple of Elijah in the Old Testament, considered the previous incarnation of Jesus."
+    },
+    "Zacharias": {
+      "type": "character",
+      "description": "Father of John the Baptist, who received angelic prophecy about his son's birth."
+    },
+    "Elisabeth": {
+      "type": "character",
+      "description": "Mother of John the Baptist."
+    },
+    "Moses": {
+      "type": "character",
+      "description": "Old Testament prophet who appeared with Elias during the transfiguration of Jesus."
+    },
+    "Abdul Gufoor Khan": {
+      "type": "character",
+      "description": "A highly advanced Mohammedan disciple of Lahiri Mahasaya."
+    },
+    "Brinda Bhagat": {
+      "type": "character",
+      "description": "A humble Benares postman and disciple of Lahiri Mahasaya, known for his spiritual progress through Kriya."
+    },
+    "Panchanon Bhattacharya": {
+      "type": "character",
+      "description": "Disciple of Lahiri Mahasaya who opened the Arya Mission Institution in Calcutta."
+    },
+    "Sri Ananda Mohan Lahiri": {
+      "type": "character",
+      "description": "Grandson of Lahiri Mahasaya and author of a booklet on Kriya."
+    },
+    "Swami Vhaskarananda Saraswati": {
+      "type": "character",
+      "description": "An illustrious saint of Benares who received Kriya from Lahiri Mahasaya."
+    },
+    "Balananda Brahmachari": {
+      "type": "character",
+      "description": "A Deogarh ascetic and recipient of Kriya initiation from Lahiri Mahasaya."
+    },
+    "Maharaja Iswari Narayan Sinha Bahadur": {
+      "type": "character",
+      "description": "A maharaja of Benares whose son was tutored by Lahiri Mahasaya."
+    },
+    "Maharaja Jotindra Mohan Thakur": {
+      "type": "character",
+      "description": "A maharaja who sought Kriya initiation from Lahiri Mahasaya."
+    },
+    "New Testament": {
+      "type": "proper_noun",
+      "description": "The second part of the Christian Bible, chronicling the life and teachings of Jesus."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "Country referenced as the home of the English office superintendent's wife."
+    },
+    "Bengalitola": {
+      "type": "proper_noun",
+      "description": "A section of Benares where Lahiri Mahasaya supported a high school."
+    },
+    "Gita Assembly": {
+      "type": "proper_noun",
+      "description": "Regular discourses on the Bhagavad Gita led by Lahiri Mahasaya."
+    },
+    "Arya Mission Institution": {
+      "type": "proper_noun",
+      "description": "An organization in Calcutta for spreading Kriya Yoga and herbal medicine."
+    },
+    "Bishnupur": {
+      "type": "proper_noun",
+      "description": "Another district in Bengal with Kriya practitioners."
+    },
+    "Deogarh": {
+      "type": "proper_noun",
+      "description": "Location associated with the ascetic Balananda Brahmachari."
+    },
+    "Jnanavatar": {
+      "type": "proper_noun",
+      "description": "Incarnation of Wisdom, title given to Sri Yukteswar."
+    },
+    "Sambhabi Mudra": {
+      "type": "vocabulary",
+      "description": "A yogic technique involving a state of calmness and unblinking eyelids."
+    },
+    "Bhakti": {
+      "type": "vocabulary",
+      "description": "The path of devotion in yoga."
+    },
+    "Karma": {
+      "type": "vocabulary",
+      "description": "The path of action or selfless service in yoga."
+    },
+    "Jnana": {
+      "type": "vocabulary",
+      "description": "The path of wisdom or knowledge in yoga."
+    },
+    "Raja": {
+      "type": "vocabulary",
+      "description": "The royal or complete path of yoga, emphasizing meditation."
+    },
+    "Yogas": {
+      "type": "vocabulary",
+      "description": "Plural of yoga, referring to the different spiritual paths."
+    },
+    "namaj": {
+      "type": "vocabulary",
+      "description": "Islamic ritual prayer, performed several times daily."
+    },
+    "monkhood": {
+      "type": "vocabulary",
+      "description": "The formal path of becoming a monk, involving renunciation."
+    },
+    "Christian": {
+      "type": "proper_noun",
+      "description": "Refers to the Christian religion and its scriptures, which Babaji asks to be compared with Hindu teachings."
+    },
+    "Hindu": {
+      "type": "proper_noun",
+      "description": "Pertains to Hinduism, the ancient religion of India."
+    },
+    "Sanatan Dharma": {
+      "type": "proper_noun",
+      "description": "A term for the eternal and universal spiritual path, often synonymous with Hinduism."
+    },
+    "Sadhusambad": {
+      "type": "proper_noun",
+      "description": "A journal in which Sri Yukteswar's scriptural writings first appeared."
+    },
+    "Kidderpore": {
+      "type": "proper_noun",
+      "description": "A locality in Calcutta, mentioned as the residence of one of Sri Yukteswar's disciples."
+    },
+    "Rai Ghat": {
+      "type": "proper_noun",
+      "description": "A bathing ghat on the Ganges in Serampore, where Sri Yukteswar encountered Babaji."
+    },
+    "Manikarnika Ghat": {
+      "type": "proper_noun",
+      "description": "A famous cremation ghat on the Ganges in Benares, where Lahiri Mahasaya's body was cremated."
+    },
+    "ascetics": {
+      "type": "vocabulary",
+      "description": "Individuals who practice severe self-discipline and abstention from worldly pleasures for spiritual reasons."
+    },
+    "Orient": {
+      "type": "vocabulary",
+      "description": "Refers to the Eastern world, especially Asia and India."
+    },
+    "Occident": {
+      "type": "vocabulary",
+      "description": "Refers to the Western world, especially Europe and America."
+    },
+    "Param-Guru-Maharaj": {
+      "type": "vocabulary",
+      "description": "A reverential title meaning 'supreme guru and great king', used for a highly revered spiritual master."
+    },
+    "maha-samadhi": {
+      "type": "vocabulary",
+      "description": "The conscious, final exit from the body by a realized yogi at the time of physical death."
+    },
+    "omnipresence": {
+      "type": "vocabulary",
+      "description": "The quality of being present everywhere simultaneously."
+    },
+    "Bimal": {
+      "type": "character",
+      "description": "A young student at the Ranchi school who discovers Yogananda's hiding place and is the first to hear about his plans to go to America."
+    },
+    "Dr. Frederick B. Robinson": {
+      "type": "character",
+      "description": "President of the College of the City of New York, who wrote the preface to Yogananda's book 'Songs of the Soul'."
+    },
+    "Amelita Galli-Curci": {
+      "type": "character",
+      "description": "Wrote the preface to Yogananda's book 'Whispers From Eternity'."
+    },
+    "Boston": {
+      "type": "proper_noun",
+      "description": "The city where the religious congress is held and where Yogananda gives his first speech in America."
+    },
+    "American Unitarian Association": {
+      "type": "proper_noun",
+      "description": "The organization under whose auspices the congress is convened."
+    },
+    "United States": {
+      "type": "proper_noun",
+      "description": "The country where Yogananda establishes his spiritual mission."
+    },
+    "The City of Sparta": {
+      "type": "proper_noun",
+      "description": "The passenger boat on which Yogananda travels to America."
+    },
+    "Washington, D.C.": {
+      "type": "proper_noun",
+      "description": "The city where Yogananda holds a large yoga class."
+    },
+    "Brahmacharya Ashram of Ranchi": {
+      "type": "proper_noun",
+      "description": "The spiritual institution in Ranchi represented by Yogananda at the congress."
+    },
+    "College of the City of New York": {
+      "type": "proper_noun",
+      "description": "The institution where Dr. Frederick B. Robinson is president."
+    },
+    "Songs of the Soul": {
+      "type": "proper_noun",
+      "description": "A book of poems written by Yogananda."
+    },
+    "Whispers From Eternity": {
+      "type": "proper_noun",
+      "description": "A book of prayer thoughts written by Yogananda."
+    },
+    "Emma Lazarus": {
+      "type": "proper_noun",
+      "description": "The poet whose lines are inscribed at the base of the Statue of Liberty."
+    },
+    "Statue of Liberty": {
+      "type": "proper_noun",
+      "description": "A symbol of welcome in America, referenced by Yogananda."
+    },
+    "cosmic consciousness": {
+      "type": "vocabulary",
+      "description": "A state of awareness of the infinite and divine nature of reality."
+    },
+    "Luther Burbank": {
+      "type": "character",
+      "description": "A renowned American horticulturist known for his plant breeding innovations and spiritual outlook; he is the central figure of this chapter, described as a saintly soul and friend of the author."
+    },
+    "Henry Ford": {
+      "type": "character",
+      "description": "An American industrialist and friend of Luther Burbank, mentioned as a believer in reincarnation."
+    },
+    "Santa Rosa": {
+      "type": "proper_noun",
+      "description": "A city in California where Luther Burbank's famous garden is located."
+    },
+    "East-West": {
+      "type": "proper_noun",
+      "description": "The magazine founded by the author to present spiritual teachings from both Eastern and Western traditions."
+    },
+    "New York": {
+      "type": "proper_noun",
+      "description": "The city where the author was staying when he learned of Burbank's passing."
+    },
+    "Lebanon cedar": {
+      "type": "proper_noun",
+      "description": "A type of tree under which Luther Burbank is buried in his Santa Rosa garden."
+    },
+    "Webster’s New International Dictionary": {
+      "type": "proper_noun",
+      "description": "A well-known English dictionary cited for its definition of 'burbank' as a verb."
+    },
+    "millennium": {
+      "type": "vocabulary",
+      "description": "In spiritual context, refers to a hoped-for future era of peace and enlightenment."
+    },
+    "rite": {
+      "type": "vocabulary",
+      "description": "A ceremonial act or procedure, especially in a religious context."
+    },
+    "Therese Neumann": {
+      "type": "character",
+      "description": "A famous Catholic stigmatist from Konnersreuth, Bavaria, known for her mystical experiences and miraculous abstinence from food."
+    },
+    "Mr. C. Richard Wright": {
+      "type": "character",
+      "description": "Yogananda's secretary who accompanied him on his European and Indian travels, documenting many spiritual encounters."
+    },
+    "Miss Ettie Bletch": {
+      "type": "character",
+      "description": "Miss Ettie Bletch, an elderly lady from Cincinnati, was a companion of Yogananda during his travels and arrival in India."
+    },
+    "Sir Francis Younghusband": {
+      "type": "character",
+      "description": "A British figure who introduces Yogananda at a London meeting."
+    },
+    "Sir Harry Lauder": {
+      "type": "character",
+      "description": "A host in Scotland who entertains Yogananda's party."
+    },
+    "St. Teresa": {
+      "type": "character",
+      "description": "Referred to as 'The Little Flower,' a Catholic saint to whom Therese Neumann prayed for healing."
+    },
+    "Dr. Fritz Gerlick": {
+      "type": "character",
+      "description": "Editor of a Protestant German newspaper who investigated and wrote about Therese Neumann."
+    },
+    "Professor Wurz": {
+      "type": "character",
+      "description": "A seminary master from Eichstatt who hosts Therese Neumann and Yogananda."
+    },
+    "Ferdinand": {
+      "type": "character",
+      "description": "Therese Neumann's brother who explains her spiritual practices and powers."
+    },
+    "St. Francis": {
+      "type": "character",
+      "description": "The apostle of humility, honored by Yogananda during his visit to Assisi."
+    },
+    "Socrates": {
+      "type": "character",
+      "description": "The Greek philosopher referenced during Yogananda's visit to Athens."
+    },
+    "Mt. Washington": {
+      "type": "proper_noun",
+      "description": "The location of Yogananda's headquarters in America."
+    },
+    "California": {
+      "type": "proper_noun",
+      "description": "The U.S. state where the Self-Realization Fellowship was chartered."
+    },
+    "Europa": {
+      "type": "proper_noun",
+      "description": "The ship on which Yogananda travels to Europe."
+    },
+    "Caxton Hall": {
+      "type": "proper_noun",
+      "description": "The venue in London where Yogananda addresses an audience."
+    },
+    "Scotland": {
+      "type": "proper_noun",
+      "description": "The country where Yogananda visits Sir Harry Lauder."
+    },
+    "English Channel": {
+      "type": "proper_noun",
+      "description": "The body of water crossed by Yogananda's party to reach the continent."
+    },
+    "Bavaria": {
+      "type": "proper_noun",
+      "description": "The German region where Konnersreuth is located."
+    },
+    "Konnersreuth": {
+      "type": "proper_noun",
+      "description": "The Bavarian village home to Therese Neumann."
+    },
+    "Eichstatt": {
+      "type": "proper_noun",
+      "description": "A village in Bavaria where Professor Wurz resides and Therese Neumann visits."
+    },
+    "Germany": {
+      "type": "proper_noun",
+      "description": "The country where much of Yogananda's pilgrimage takes place."
+    },
+    "Aramaic": {
+      "type": "proper_noun",
+      "description": "An ancient language spoken by Therese Neumann during her trances."
+    },
+    "Hebrew": {
+      "type": "proper_noun",
+      "description": "A language Therese Neumann speaks during her mystical visions."
+    },
+    "Greek": {
+      "type": "proper_noun",
+      "description": "Another ancient language spoken by Therese Neumann in trance."
+    },
+    "Church": {
+      "type": "proper_noun",
+      "description": "Refers to the Catholic Church, which regulates visits to Therese Neumann."
+    },
+    "Ford": {
+      "type": "proper_noun",
+      "description": "The automobile used by Yogananda's party during their European travels."
+    },
+    "Holland": {
+      "type": "proper_noun",
+      "description": "A country visited by Yogananda during his European tour."
+    },
+    "Swiss Alps": {
+      "type": "proper_noun",
+      "description": "The mountain range traversed during Yogananda's European journey."
+    },
+    "Italy": {
+      "type": "proper_noun",
+      "description": "The country where Yogananda visits Assisi."
+    },
+    "Assisi": {
+      "type": "proper_noun",
+      "description": "The Italian town associated with St. Francis."
+    },
+    "Greece": {
+      "type": "proper_noun",
+      "description": "The country where Yogananda visits Athenian temples and Socrates' prison."
+    },
+    "Athenian": {
+      "type": "proper_noun",
+      "description": "Refers to Athens, the capital of Greece."
+    },
+    "Palestine": {
+      "type": "proper_noun",
+      "description": "The Holy Land, where Yogananda visits sites associated with Christ."
+    },
+    "Bethlehem": {
+      "type": "proper_noun",
+      "description": "A holy city in Palestine, the birthplace of Jesus."
+    },
+    "Gethsemane": {
+      "type": "proper_noun",
+      "description": "The garden in Palestine associated with Jesus' agony before his crucifixion."
+    },
+    "Calvary": {
+      "type": "proper_noun",
+      "description": "The site of Jesus' crucifixion in Palestine."
+    },
+    "Mount of Olives": {
+      "type": "proper_noun",
+      "description": "A sacred hill in Palestine linked to Jesus' life."
+    },
+    "River Jordan": {
+      "type": "proper_noun",
+      "description": "A river in Palestine significant in biblical history."
+    },
+    "Sea of Galilee": {
+      "type": "proper_noun",
+      "description": "A lake in Palestine associated with Jesus' ministry."
+    },
+    "Birth Manger": {
+      "type": "proper_noun",
+      "description": "The traditional site of Jesus' birth in Bethlehem."
+    },
+    "Joseph’s carpenter shop": {
+      "type": "proper_noun",
+      "description": "A site in Bethlehem associated with Jesus' earthly father."
+    },
+    "Martha and Mary": {
+      "type": "proper_noun",
+      "description": "Biblical sisters whose house Yogananda visits."
+    },
+    "Last Supper": {
+      "type": "proper_noun",
+      "description": "The site of Jesus' final meal with his disciples."
+    },
+    "Cairo": {
+      "type": "proper_noun",
+      "description": "The capital of Egypt, visited by Yogananda."
+    },
+    "Red Sea": {
+      "type": "proper_noun",
+      "description": "The body of water Yogananda crosses en route to India."
+    },
+    "Arabian Sea": {
+      "type": "proper_noun",
+      "description": "The sea crossed by Yogananda on his return to India."
+    },
+    "yogic": {
+      "type": "vocabulary",
+      "description": "Pertaining to yoga, the ancient Indian discipline of spiritual and physical practices."
+    },
+    "trance": {
+      "type": "vocabulary",
+      "description": "A state of altered consciousness often associated with deep meditation or mystical experience."
+    },
+    "Maharaja of Kasimbazar": {
+      "type": "character",
+      "description": "A generous nobleman who donated his palace and land in Ranchi for Yogananda's school."
+    },
+    "Rajputana": {
+      "type": "proper_noun",
+      "description": "The ship on which Yogananda returned to India."
+    },
+    "Taj Mahal Hotel": {
+      "type": "proper_noun",
+      "description": "A famous hotel in Bombay where Yogananda stayed."
+    },
+    "Congress of Religions": {
+      "type": "proper_noun",
+      "description": "A gathering of religious delegates, referenced in a photo."
+    },
+    "Shyama Charan Lahiri Mahasaya Mission": {
+      "type": "proper_noun",
+      "description": "An organization named after Lahiri Mahasaya, conducting humanitarian activities at Ranchi."
+    },
+    "Kols": {
+      "type": "proper_noun",
+      "description": "An aboriginal tribe of the province served by the Ranchi school."
+    },
+    "Santals": {
+      "type": "proper_noun",
+      "description": "Another aboriginal tribe served by the Ranchi school."
+    },
+    "Mundas": {
+      "type": "proper_noun",
+      "description": "A third aboriginal tribe served by the Ranchi school."
+    },
+    "Gita": {
+      "type": "proper_noun",
+      "description": "Refers to the Bhagavad Gita, a sacred Hindu scripture chanted by the boys."
+    },
+    "Shiva temple": {
+      "type": "proper_noun",
+      "description": "A temple dedicated to Lord Shiva, located in the Ranchi orchard."
+    },
+    "Yogoda Sat-Sanga Vidyapith": {
+      "type": "proper_noun",
+      "description": "A branch boys' school at Lakshmanpur in Bihar."
+    },
+    "Yogoda Sat-Sanga High School": {
+      "type": "proper_noun",
+      "description": "A branch school and hermitage at Ejmalichak in Midnapore."
+    },
+    "Ejmalichak": {
+      "type": "proper_noun",
+      "description": "A location in Midnapore where a Yogoda school is established."
+    },
+    "Swamijis": {
+      "type": "vocabulary",
+      "description": "Plural of Swamiji, an honorific for a swami or spiritual teacher."
+    },
+    "ocher": {
+      "type": "vocabulary",
+      "description": "A natural earth pigment, often used to dye the robes of monks and ascetics."
+    },
+    "pronam": {
+      "type": "vocabulary",
+      "description": "A gesture of respectful salutation or bowing, often to a guru."
+    },
+    "asanas": {
+      "type": "vocabulary",
+      "description": "Physical postures practiced in yoga."
+    },
+    "lathi": {
+      "type": "vocabulary",
+      "description": "A traditional Indian stick used for exercise or self-defense."
+    },
+    "charkas": {
+      "type": "vocabulary",
+      "description": "Spinning wheels used to spin thread or yarn, often associated with self-sufficiency."
+    },
+    "Brahmacharya": {
+      "type": "vocabulary",
+      "description": "The spiritual discipline of celibacy or self-restraint, especially for students."
+    },
+    "Math": {
+      "type": "vocabulary",
+      "description": "A monastery or spiritual center, often used in the context of Hindu religious orders."
+    },
+    "Goddess Chamundi": {
+      "type": "character",
+      "description": "The patron deity of the Mysore royal family, worshipped at the Chamundi Temple."
+    },
+    "Maharaja": {
+      "type": "character",
+      "description": "H.H. Sri Krishnaraja Wadiyar IV, the ruler of Mysore, known for his devotion and progressive rule."
+    },
+    "Mirza Ismail": {
+      "type": "character",
+      "description": "The Dewan (Premier) of Mysore, a Mohammedan empowered by the Maharaja."
+    },
+    "H.H. the Yuvaraja, Sir Sri Krishna Narasingharaj Wadiyar": {
+      "type": "character",
+      "description": "Heir to the Maharaja of Mysore, who invites Yogananda and Mr. Wright to visit."
+    },
+    "King Vishnuvardhana": {
+      "type": "character",
+      "description": "An eleventh-century king under whose reign the temple at Belur was completed."
+    },
+    "King Asoka": {
+      "type": "character",
+      "description": "A Mauryan emperor renowned for his wisdom and nonviolent conquests, who left religious inscriptions."
+    },
+    "Chandragupta Maurya": {
+      "type": "character",
+      "description": "Grandfather of Asoka, founder of the Maurya dynasty, who met Alexander the Great."
+    },
+    "Alexander the Great": {
+      "type": "character",
+      "description": "Macedonian conqueror who invaded India and interacted with Indian yogis and philosophers."
+    },
+    "Megasthenes": {
+      "type": "character",
+      "description": "Hellenic ambassador to Chandragupta Maurya's court."
+    },
+    "Arrian": {
+      "type": "character",
+      "description": "Greek historian who wrote about Alexander's expedition in India."
+    },
+    "Diodoros": {
+      "type": "character",
+      "description": "Greek historian who recorded narratives about India."
+    },
+    "Plutarch": {
+      "type": "character",
+      "description": "Greek historian who documented Alexander's encounters with Indian philosophers."
+    },
+    "Strabo": {
+      "type": "character",
+      "description": "Greek geographer who wrote about ancient India."
+    },
+    "Dr. J. W. M’Crindle": {
+      "type": "character",
+      "description": "Translator of Greek historical texts about India."
+    },
+    "Onesikritos": {
+      "type": "character",
+      "description": "Disciple of Diogenes, sent by Alexander to invite the yogi Dandamis."
+    },
+    "Dandamis": {
+      "type": "character",
+      "description": "A great sannyasi of Taxila, known for his wisdom and fearless response to Alexander."
+    },
+    "Diogenes": {
+      "type": "character",
+      "description": "Greek philosopher, founder of the Cynic school, mentioned as Onesikritos' teacher."
+    },
+    "Comateswara": {
+      "type": "character",
+      "description": "Jain saint honored by a large statue at Sravanabelagola."
+    },
+    "Thayumanavar": {
+      "type": "character",
+      "description": "A South Indian saint and poet known for his challenging spiritual verses."
+    },
+    "Mahatma Gandhi": {
+      "type": "character",
+      "description": "Indian leader and reformer, who advanced nonviolent ideals and temple reforms."
+    },
+    "Sir C. V. Raman": {
+      "type": "character",
+      "description": "President of the Indian Academy of Sciences, Nobel laureate for the 'Raman Effect.'"
+    },
+    "Sadasiva Brahman": {
+      "type": "character",
+      "description": "An eighteenth-century South Indian saint known for miracles and spiritual wisdom."
+    },
+    "Chamundi Temple": {
+      "type": "proper_noun",
+      "description": "A temple in the hills overlooking Mysore, dedicated to Goddess Chamundi."
+    },
+    "Mysore": {
+      "type": "proper_noun",
+      "description": "A state and city in southern India, known for its cultural and historical significance."
+    },
+    "State of Mysore": {
+      "type": "proper_noun",
+      "description": "The princely state in southern India governed by the Wadiyar dynasty."
+    },
+    "Town Hall": {
+      "type": "proper_noun",
+      "description": "A public venue in Mysore where Yogananda addressed citizens."
+    },
+    "Maharajah’s College": {
+      "type": "proper_noun",
+      "description": "An educational institution in Mysore."
+    },
+    "University Medical School": {
+      "type": "proper_noun",
+      "description": "A medical school in Mysore."
+    },
+    "Bangalore": {
+      "type": "proper_noun",
+      "description": "A major city in Mysore State, now the capital of Karnataka."
+    },
+    "National High School": {
+      "type": "proper_noun",
+      "description": "A school in Bangalore where Yogananda spoke."
+    },
+    "Intermediate College": {
+      "type": "proper_noun",
+      "description": "An educational institution in Bangalore."
+    },
+    "Chetty Town Hall": {
+      "type": "proper_noun",
+      "description": "A public hall in Bangalore."
+    },
+    "Krishnaraja Sagar Dam": {
+      "type": "proper_noun",
+      "description": "A large dam and artificial lake near Mysore."
+    },
+    "Chicago World’s Fair": {
+      "type": "proper_noun",
+      "description": "A reference to the famous exposition, used for comparison."
+    },
+    "Hyderabad": {
+      "type": "proper_noun",
+      "description": "The largest native state in India, north of Mysore, with a rich history."
+    },
+    "Godavari River": {
+      "type": "proper_noun",
+      "description": "A major river flowing through Hyderabad."
+    },
+    "Nilgiris": {
+      "type": "proper_noun",
+      "description": "Also known as the 'Blue Mountains,' a mountain range in southern India."
+    },
+    "Ellora": {
+      "type": "proper_noun",
+      "description": "Site of ancient rock-sculptured caves and temples in Hyderabad."
+    },
+    "Ajanta": {
+      "type": "proper_noun",
+      "description": "Location of ancient monasteries and cathedrals with frescoed pillars."
+    },
+    "Kailasa": {
+      "type": "proper_noun",
+      "description": "A huge monolithic temple at Ellora."
+    },
+    "Osmania University": {
+      "type": "proper_noun",
+      "description": "A university in Hyderabad."
+    },
+    "Mecca Masjid Mosque": {
+      "type": "proper_noun",
+      "description": "A large mosque in Hyderabad where thousands gather for prayer."
+    },
+    "Belur": {
+      "type": "proper_noun",
+      "description": "A town in Mysore State, home to an eleventh-century temple."
+    },
+    "Maurya dynasty": {
+      "type": "proper_noun",
+      "description": "The ruling dynasty in India during Asoka and Chandragupta's time."
+    },
+    "Afghanistan": {
+      "type": "proper_noun",
+      "description": "A region included in Asoka's empire."
+    },
+    "Baluchistan": {
+      "type": "proper_noun",
+      "description": "A region included in Asoka's empire."
+    },
+    "Sandrocottus": {
+      "type": "proper_noun",
+      "description": "Greek name for Chandragupta Maurya."
+    },
+    "Alexander": {
+      "type": "proper_noun",
+      "description": "Refers to Alexander the Great."
+    },
+    "Patna": {
+      "type": "proper_noun",
+      "description": "City where Chandragupta held court."
+    },
+    "Hades": {
+      "type": "proper_noun",
+      "description": "Greek underworld, mentioned in Dandamis' discourse."
+    },
+    "Susa": {
+      "type": "proper_noun",
+      "description": "A city in Persia where Kalanos entered the funeral pyre."
+    },
+    "Kshatriyas": {
+      "type": "proper_noun",
+      "description": "The warrior caste in Hindu society."
+    },
+    "Sravanabelagola": {
+      "type": "proper_noun",
+      "description": "A Mysore shrine where Chandragupta spent his last years."
+    },
+    "Jains": {
+      "type": "proper_noun",
+      "description": "Followers of Jainism, who built the statue of Comateswara."
+    },
+    "Travancore": {
+      "type": "proper_noun",
+      "description": "A state in the extreme south of India."
+    },
+    "lakshadipam": {
+      "type": "proper_noun",
+      "description": "An illumination ceremony with a hundred thousand lights."
+    },
+    "Indra": {
+      "type": "proper_noun",
+      "description": "Vedic deity, lord of the gods."
+    },
+    "Varuna": {
+      "type": "proper_noun",
+      "description": "Vedic deity of sky and wind."
+    },
+    "Madras Presidency": {
+      "type": "proper_noun",
+      "description": "A former administrative division on the southeast coast of India."
+    },
+    "Madras": {
+      "type": "proper_noun",
+      "description": "A major city in southern India, now Chennai."
+    },
+    "Conjeeveram": {
+      "type": "proper_noun",
+      "description": "The Golden City, capital of the Pallava dynasty."
+    },
+    "Pallava dynasty": {
+      "type": "proper_noun",
+      "description": "A dynasty that ruled parts of southern India."
+    },
+    "Gandhi caps": {
+      "type": "proper_noun",
+      "description": "White caps worn as a symbol of Gandhi's movement."
+    },
+    "Indian Philosophical Congress": {
+      "type": "proper_noun",
+      "description": "A scholarly gathering on Indian philosophy."
+    },
+    "Indian Academy of Sciences": {
+      "type": "proper_noun",
+      "description": "A scientific institution in India."
+    },
+    "Raman Effect": {
+      "type": "proper_noun",
+      "description": "The phenomenon of light diffusion discovered by C. V. Raman."
+    },
+    "Nerur": {
+      "type": "proper_noun",
+      "description": "A pilgrimage site with a Sadasiva shrine."
+    },
+    "Raja of Pudukkottai": {
+      "type": "proper_noun",
+      "description": "A ruler who erected the Sadasiva shrine at Nerur."
+    },
+    "Kaveri River": {
+      "type": "proper_noun",
+      "description": "A major river in South India."
+    },
+    "Madura": {
+      "type": "proper_noun",
+      "description": "A city in South India, known for its religious festival."
+    },
+    "maharaja": {
+      "type": "vocabulary",
+      "description": "A Hindu prince or king."
+    },
+    "Dewan": {
+      "type": "vocabulary",
+      "description": "A chief minister or premier in a princely state."
+    },
+    "Yuvaraja": {
+      "type": "vocabulary",
+      "description": "The crown prince or heir apparent in Indian royalty."
+    },
+    "Brahmins": {
+      "type": "vocabulary",
+      "description": "The priestly caste in Hindu society."
+    },
+    "Sudras": {
+      "type": "vocabulary",
+      "description": "The laborer or servant caste in Hindu society."
+    },
+    "Vaisyas": {
+      "type": "vocabulary",
+      "description": "The merchant and business caste in Hindu society."
+    },
+    "Maharaja of Santosh": {
+      "type": "character",
+      "description": "A royal figure who sits beside Sri Yukteswar and Yogananda during a public address."
+    },
+    "Mayor of Calcutta": {
+      "type": "character",
+      "description": "A civic leader present at Yogananda's speech at Albert Hall."
+    },
+    "Dr. Ghoshal": {
+      "type": "character",
+      "description": "A stern philosophy professor at Serampore College who initially doubted Mukunda but later reconciled with him."
+    },
+    "Kristo-da": {
+      "type": "character",
+      "description": "A disciple of Sri Yukteswar known for his devotional singing."
+    },
+    "Swami Sebananda": {
+      "type": "character",
+      "description": "A disciple summoned by Yogananda to take charge of the Puri ashram."
+    },
+    "Amulaya Babu": {
+      "type": "character",
+      "description": "A brother disciple who informs Yogananda about Sri Yukteswar's missed visit to Kidderpore."
+    },
+    "Swami Benoyananda": {
+      "type": "character",
+      "description": "A director of the Ranchi yoga school, pictured at the Hardwar Kumbha Mela."
+    },
+    "Krishnananda": {
+      "type": "character",
+      "description": "A swami at the Allahabad Kumbha Mela, known for his tame vegetarian lioness."
+    },
+    "Pragla Chakshu": {
+      "type": "character",
+      "description": "A blind sadhu, learned in the shastras and revered by many sects."
+    },
+    "Kara Patri": {
+      "type": "character",
+      "description": "A young, wandering sadhu known for his intelligence and renunciation."
+    },
+    "Ravidas": {
+      "type": "character",
+      "description": "A medieval saint and cobbler, brother disciple of Kabir, known for his spiritual poetry."
+    },
+    "Rani of Chitor": {
+      "type": "character",
+      "description": "A queen and disciple of Ravidas, known for hosting a feast in his honor."
+    },
+    "Atul Chandra Roy Chowdhry": {
+      "type": "character",
+      "description": "A chela (disciple) in Calcutta who receives a telegram about Sri Yukteswar."
+    },
+    "Albert Hall": {
+      "type": "proper_noun",
+      "description": "A prominent venue in Calcutta where Yogananda gives a public address."
+    },
+    "Winter Solstice Festival": {
+      "type": "proper_noun",
+      "description": "A devotional festival celebrated at the Serampore hermitage."
+    },
+    "Trailanga Swami": {
+      "type": "proper_noun",
+      "description": "A legendary yogi and spiritual master of Bengal."
+    },
+    "Vedanta": {
+      "type": "proper_noun",
+      "description": "A major school of Indian philosophy, subject of Yogananda's discourse."
+    },
+    "Benares University": {
+      "type": "proper_noun",
+      "description": "A prominent university in Benares, where Kara Patri earned his degrees."
+    },
+    "Katayani Peith Ashram": {
+      "type": "proper_noun",
+      "description": "Swami Keshabananda's ashram in Brindaban."
+    },
+    "Jumna": {
+      "type": "proper_noun",
+      "description": "A major river in northern India, also known as Yamuna."
+    },
+    "Yogoda Sat-Sanga": {
+      "type": "proper_noun",
+      "description": "Organization founded by Sri Yukteswar, also known as Self-Realization Fellowship."
+    },
+    "Sadhu Sabha": {
+      "type": "proper_noun",
+      "description": "Society of Saints, an organization established by Sri Yukteswar to promote unity among faiths."
+    },
+    "Amrita Bazar Patrika": {
+      "type": "proper_noun",
+      "description": "A leading newspaper in Calcutta."
+    },
+    "Chitor": {
+      "type": "proper_noun",
+      "description": "A region in Rajasthan, associated with the Rani of Chitor."
+    },
+    "sankirtans": {
+      "type": "vocabulary",
+      "description": "Devotional group chanting or singing of sacred hymns."
+    },
+    "Paramhansa": {
+      "type": "vocabulary",
+      "description": "A high monastic title meaning 'supreme swan,' denoting spiritual realization."
+    },
+    "monastic": {
+      "type": "vocabulary",
+      "description": "Pertaining to monks or monastic life."
+    },
+    "swamis": {
+      "type": "vocabulary",
+      "description": "Plural of swami; Hindu monks."
+    },
+    "brahmacharis": {
+      "type": "vocabulary",
+      "description": "Celibate students or monks in the first stage of Hindu monastic life."
+    },
+    "dais": {
+      "type": "vocabulary",
+      "description": "A raised platform, often used for seating honored persons."
+    },
+    "Shastri": {
+      "type": "vocabulary",
+      "description": "A title meaning 'master of scriptures.'"
+    },
+    "lilas": {
+      "type": "vocabulary",
+      "description": "Divine plays or pastimes, especially those of Krishna."
+    },
+    "gopis": {
+      "type": "vocabulary",
+      "description": "The milkmaids devoted to Krishna."
+    },
+    "Bhandara": {
+      "type": "vocabulary",
+      "description": "A religious feast or ceremony."
+    },
+    "Regent Hotel": {
+      "type": "proper_noun",
+      "description": "A hotel in Bombay where Yogananda stayed and experienced the vision of Lord Krishna and the resurrection of Sri Yukteswar."
+    },
+    "Hiranyaloka": {
+      "type": "proper_noun",
+      "description": "Described as the 'Illumined Astral Planet,' an advanced astral world where Sri Yukteswar serves as a savior."
+    },
+    "Puri ashram": {
+      "type": "proper_noun",
+      "description": "Sri Yukteswar's spiritual hermitage in Puri, referenced as the place of his burial and spiritual activities."
+    },
+    "rebirths": {
+      "type": "vocabulary",
+      "description": "The process of reincarnation, or being born again in different bodies."
+    },
+    "lila": {
+      "type": "vocabulary",
+      "description": "The divine play or creative sport of God."
+    },
+    "mantric": {
+      "type": "vocabulary",
+      "description": "Relating to mantras, sacred sounds or phrases used in spiritual practice."
+    },
+    "sushumna": {
+      "type": "vocabulary",
+      "description": "The central channel in the subtle body through which spiritual energy flows."
+    },
+    "lotus": {
+      "type": "vocabulary",
+      "description": "A symbol of spiritual awakening; here, refers to the thousand-petaled lotus at the top of the head (sahasrara chakra)."
+    },
+    "Vedantic": {
+      "type": "vocabulary",
+      "description": "Relating to Vedanta, a school of Hindu philosophy emphasizing the ultimate unity of all existence."
+    },
+    "Mahadev Desai": {
+      "type": "character",
+      "description": "Secretary to Mahatma Gandhi, he assists and accompanies visitors at the Wardha ashram."
+    },
+    "Babasaheb Deshmukh": {
+      "type": "character",
+      "description": "A companion of Mr. Desai who helps host Yogananda's group at Wardha."
+    },
+    "Dr. Pingale": {
+      "type": "character",
+      "description": "A companion of Mr. Desai and participant in the Kriya Yoga instruction."
+    },
+    "Miss Madeleine Slade": {
+      "type": "character",
+      "description": "An English disciple of Mahatma Gandhi dedicated to rural reconstruction and ashram service."
+    },
+    "Kasturabai": {
+      "type": "character",
+      "description": "Mahatma Gandhi's wife, known for her devotion, sacrifice, and role as treasurer of Gandhi's public funds."
+    },
+    "Tulsidas": {
+      "type": "character",
+      "description": "The poet-saint who authored the Ramayana, mentioned by Gandhi as a source of spiritual solace."
+    },
+    "Wardha": {
+      "type": "proper_noun",
+      "description": "A town in India where Gandhi's ashram, Maganvadi, is located."
+    },
+    "Maganvadi": {
+      "type": "proper_noun",
+      "description": "The ashram of Mahatma Gandhi in Wardha, serving as the center for his spiritual and political activities."
+    },
+    "Jain": {
+      "type": "proper_noun",
+      "description": "Refers to the Jain religion, whose scriptures influenced Gandhi's nonviolent philosophy."
+    },
+    "Tolstoy": {
+      "type": "proper_noun",
+      "description": "Refers to Leo Tolstoy, whose sociological writings influenced Gandhi."
+    },
+    "Koran": {
+      "type": "proper_noun",
+      "description": "The holy scripture of Islam, recognized by Gandhi as divinely inspired."
+    },
+    "Zend-Avesta": {
+      "type": "proper_noun",
+      "description": "The sacred scripture of Zoroastrianism, acknowledged by Gandhi."
+    },
+    "Hinduism": {
+      "type": "proper_noun",
+      "description": "The major religion of India, described by Gandhi as inclusive and tolerant."
+    },
+    "Satyagraha": {
+      "type": "proper_noun",
+      "description": "Gandhi's philosophy and movement of nonviolent resistance."
+    },
+    "Satyagraha movement": {
+      "type": "proper_noun",
+      "description": "The organized campaign led by Gandhi based on nonviolent principles."
+    },
+    "Swadeshi": {
+      "type": "proper_noun",
+      "description": "The principle of using home-manufactured goods, part of Gandhi's vows."
+    },
+    "Bhuta Yajna": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual offering food to animals, symbolizing compassion for all creatures."
+    },
+    "Pitri Yajna": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual offering oblations to ancestors, acknowledging debt to the past."
+    },
+    "Nri Yajna": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual offering food to strangers or the poor, symbolizing social responsibility."
+    },
+    "Gandhiji": {
+      "type": "proper_noun",
+      "description": "A respectful form of address for Mahatma Gandhi."
+    },
+    "Pennsylvania": {
+      "type": "proper_noun",
+      "description": "Referenced as the site of William Penn's successful nonviolent experiment."
+    },
+    "Quakers": {
+      "type": "proper_noun",
+      "description": "A Christian group known for their nonviolent principles, cited as an example by Yogananda."
+    },
+    "Great War": {
+      "type": "proper_noun",
+      "description": "Refers to World War I, mentioned in the context of the failure of violence."
+    },
+    "khaddar": {
+      "type": "vocabulary",
+      "description": "Homespun cotton cloth promoted by Gandhi as a symbol of self-reliance."
+    },
+    "satyagrahi": {
+      "type": "vocabulary",
+      "description": "An adherent of Satyagraha, committed to nonviolent resistance and strict vows."
+    },
+    "chapatis": {
+      "type": "vocabulary",
+      "description": "Unleavened whole-wheat flatbread, a staple in Indian cuisine."
+    },
+    "talsari": {
+      "type": "vocabulary",
+      "description": "A dish of boiled and diced vegetables."
+    },
+    "neem": {
+      "type": "vocabulary",
+      "description": "A bitter medicinal leaf used for its cleansing properties."
+    },
+    "charka": {
+      "type": "vocabulary",
+      "description": "A spinning wheel, symbolizing self-sufficiency and used for spinning khaddar."
+    },
+    "brahmacharya": {
+      "type": "vocabulary",
+      "description": "The practice of celibacy and self-control, especially in the spiritual context."
+    },
+    "yajna": {
+      "type": "vocabulary",
+      "description": "A Vedic ritual or sacrifice, often involving offerings to deities or beings."
+    },
+    "dharma": {
+      "type": "vocabulary",
+      "description": "Righteous duty or the moral law governing individual conduct."
+    },
+    "pariah": {
+      "type": "vocabulary",
+      "description": "A member of a low caste, often considered an outcast in Indian society."
+    },
+    "Amiyo Bose": {
+      "type": "character",
+      "description": "The niece of the narrator, who urges him to meet Ananda Moyi Ma and shares her experiences with the saint."
+    },
+    "Jamshedpur": {
+      "type": "proper_noun",
+      "description": "A city in India where Ananda Moyi Ma recently visited, according to Amiyo Bose."
+    },
+    "Ranchi Vidyalaya": {
+      "type": "proper_noun",
+      "description": "The narrator's school in Ranchi, which hosts Ananda Moyi Ma during her visit."
+    },
+    "Dehra Dun": {
+      "type": "proper_noun",
+      "description": "A city in northern India where disciples have built a hermitage for Ananda Moyi Ma."
+    },
+    "caste": {
+      "type": "vocabulary",
+      "description": "A traditional social stratification system in India, often referenced in spiritual contexts to emphasize transcendence of social divisions."
+    },
+    "celibate": {
+      "type": "vocabulary",
+      "description": "Practicing abstention from marriage and sexual relations, often for spiritual reasons."
+    },
+    "Giri Bala": {
+      "type": "character",
+      "description": "A renowned woman yogi from Bengal, famous for living without food or drink for over fifty years through yogic techniques."
+    },
+    "Sthiti Lal Nundy": {
+      "type": "character",
+      "description": "A scholarly gentleman who was Giri Bala's neighbor in Nawabganj and reported her abilities to Yogananda."
+    },
+    "Maharaja of Burdwan": {
+      "type": "character",
+      "description": "A royal figure who conducted investigations into Giri Bala's non-eating state by inviting her to his palace for observation."
+    },
+    "Lambadar Dey": {
+      "type": "character",
+      "description": "Giri Bala's brother, a lawyer residing in Purulia, who provides information about his sister to Yogananda and his party."
+    },
+    "Sailesh Mazumdar": {
+      "type": "character",
+      "description": "One of Yogananda's Bengali students, who travels with him to meet Giri Bala."
+    },
+    "Nawabganj": {
+      "type": "proper_noun",
+      "description": "A town in Bengal where Giri Bala lived with her husband's family and where her spiritual transformation began."
+    },
+    "Purulia": {
+      "type": "proper_noun",
+      "description": "A town in Bengal where Giri Bala's brother lives and where the party stops en route to Biur."
+    },
+    "Biur": {
+      "type": "proper_noun",
+      "description": "A remote village in Bengal, the ancestral home of Giri Bala and the destination of Yogananda's pilgrimage."
+    },
+    "Bankura District": {
+      "type": "proper_noun",
+      "description": "A district in Bengal where Biur is located, noted for its rural and forested landscape."
+    },
+    "Ganesh": {
+      "type": "proper_noun",
+      "description": "A Hindu deity, invoked humorously by Lambadar Dey for good luck on the journey."
+    },
+    "yogini": {
+      "type": "vocabulary",
+      "description": "A female practitioner of yoga, especially one who has achieved spiritual mastery."
+    },
+    "kria": {
+      "type": "vocabulary",
+      "description": "A yogic technique or action, often involving specific breathing or meditation practices."
+    },
+    "Baba": {
+      "type": "vocabulary",
+      "description": "A term of respect meaning 'father' or 'holy man', used for spiritual figures."
+    },
+    "Sister Gyanamata": {
+      "type": "character",
+      "description": "A saintly American lady and advanced disciple who managed the Mt. Washington center during Yogananda's absence."
+    },
+    "Mr. Dickinson": {
+      "type": "character",
+      "description": "A devoted disciple of Yogananda in Los Angeles, whose spiritual journey is marked by a prophetic encounter with Swami Vivekananda and the symbolic gift of a silver cup."
+    },
+    "Swami Vivekananda": {
+      "type": "character",
+      "description": "A renowned Indian monk and spiritual teacher, who appears in Mr. Dickinson's visions and gives him a prophetic message."
+    },
+    "Grosvenor House": {
+      "type": "proper_noun",
+      "description": "A notable residence in London where Yogananda stayed."
+    },
+    "British National Council of the World Fellowship of Faiths": {
+      "type": "proper_noun",
+      "description": "An organization that arranged Yogananda's lecture in London."
+    },
+    "Whitefield’s Congregational Church": {
+      "type": "proper_noun",
+      "description": "The venue in London where Yogananda gave a significant lecture."
+    },
+    "Windsor House": {
+      "type": "proper_noun",
+      "description": "An auditorium in London used for overflow crowds during Yogananda's lectures."
+    },
+    "Southampton": {
+      "type": "proper_noun",
+      "description": "The port city in England from which Yogananda sailed to America."
+    },
+    "Bremen": {
+      "type": "proper_noun",
+      "description": "The ship on which Yogananda and his party sailed from England to America."
+    },
+    "Belgium": {
+      "type": "proper_noun",
+      "description": "A country mentioned as a source of gifts."
+    },
+    "Central Provinces": {
+      "type": "proper_noun",
+      "description": "A region in India, source of Shiva “bull’s eye” stones."
+    },
+    "Chicago": {
+      "type": "proper_noun",
+      "description": "The American city where Mr. Dickinson met Swami Vivekananda at the World Parliament of Religions."
+    },
+    "World Parliament of Religions": {
+      "type": "proper_noun",
+      "description": "A historic interfaith event held in Chicago in 1893, where Swami Vivekananda spoke."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional Indian garment worn by women."
+    },
+    "rasagulla": {
+      "type": "vocabulary",
+      "description": "A popular Indian sweet made from ball-shaped dumplings of chhena and semolina in syrup."
+    },
+    "papar": {
+      "type": "vocabulary",
+      "description": "A thin, crisp Indian wafer or cracker, often served as an accompaniment to meals."
+    },
+    "keora": {
+      "type": "vocabulary",
+      "description": "An aromatic extract from the pandanus flower, used in Indian cuisine and desserts."
+    },
+    "swadeshi": {
+      "type": "vocabulary",
+      "description": "Referring to goods produced in one's own country, often associated with Indian self-sufficiency."
+    },
+    "Swami Premananda": {
+      "type": "character",
+      "description": "A disciple educated at Ranchi school and Calcutta University, leader of the Washington Self-Realization Fellowship center."
+    },
+    "Dr. M. W. Lewis": {
+      "type": "character",
+      "description": "The leader of the Boston Self-Realization Fellowship center and the first Kriya Yogi in America."
+    },
+    "Dr. Lloyd Kennell": {
+      "type": "character",
+      "description": "Leader of the San Diego Self-Realization Fellowship center, who converses with Yogananda about his experiences in America."
+    },
+    "Confucius": {
+      "type": "character",
+      "description": "A Chinese philosopher whose teachings emphasized morality and social harmony."
+    },
+    "Dr. L. Cranmer Byng": {
+      "type": "character",
+      "description": "Editor of The Wisdom of the East Series, who writes to Yogananda from war-torn England."
+    },
+    "Mr. Hunsicker": {
+      "type": "character",
+      "description": "An American student who expresses doubts about the reception of Hindu chants at a public lecture."
+    },
+    "Encinitas": {
+      "type": "proper_noun",
+      "description": "A coastal town in California where Yogananda's hermitage and ashram are located."
+    },
+    "Pacific": {
+      "type": "proper_noun",
+      "description": "Refers to the Pacific Ocean, visible from the Encinitas ashram."
+    },
+    "Carnegie Hall": {
+      "type": "proper_noun",
+      "description": "A famous concert venue in New York where Yogananda gave a lecture."
+    },
+    "San Diego": {
+      "type": "proper_noun",
+      "description": "A city in California with a Self-Realization Church of All Religions."
+    },
+    "San Diego Bay": {
+      "type": "proper_noun",
+      "description": "A bay in San Diego, visible from the hilltop temple."
+    },
+    "Hollywood": {
+      "type": "proper_noun",
+      "description": "A district in Los Angeles, location of a Self-Realization Church of All Religions."
+    },
+    "Olive Hill": {
+      "type": "proper_noun",
+      "description": "A hill in Hollywood, near the Self-Realization Church."
+    },
+    "Los Angeles Planetarium": {
+      "type": "proper_noun",
+      "description": "A landmark near the Hollywood church."
+    },
+    "Philippines": {
+      "type": "proper_noun",
+      "description": "A country mentioned as part of Yogananda's vision of world brotherhood."
+    },
+    "Africa": {
+      "type": "proper_noun",
+      "description": "A continent referenced in the context of global unity."
+    },
+    "China": {
+      "type": "proper_noun",
+      "description": "A country mentioned in the context of the Pacific Ocean's reach."
+    },
+    "Yoga Institute": {
+      "type": "proper_noun",
+      "description": "A planned educational center at Encinitas for teaching yoga."
+    },
+    "Peace Conference": {
+      "type": "proper_noun",
+      "description": "Refers to the 1945 San Francisco conference for post-war peace."
+    },
+    "The Wisdom of the East Series": {
+      "type": "proper_noun",
+      "description": "A literary series edited by Dr. L. Cranmer Byng."
+    },
+    "Cosmic Chants": {
+      "type": "proper_noun",
+      "description": "A collection of spiritual songs composed and adapted by Yogananda."
+    },
+    "altar": {
+      "type": "vocabulary",
+      "description": "A sacred table or platform for religious offerings and worship."
+    },
+    "Sunrise Services": {
+      "type": "vocabulary",
+      "description": "Spiritual gatherings held at dawn, often for prayer and meditation."
+    },
+    "Self-Realization": {
+      "type": "vocabulary",
+      "description": "The realization of one's true spiritual nature or unity with the divine."
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Mukunda Lal Ghosh",
+      "Bhagabati Charan Ghosh",
+      "Mother",
+      "Lahiri Mahasaya",
+      "Abinash Babu",
+      "Roma",
+      "Kali Kumar Roy",
+      "Ganga Dhar Babu",
+      "Uma",
+      "Babylon",
+      "Egypt",
+      "Himalayan",
+      "Bengali",
+      "Kshatriya",
+      "Mahabharata",
+      "Ramayana",
+      "Bengal-Nagpur Railway",
+      "Calcutta Urban Bank",
+      "United Provinces",
+      "Gorakhpur",
+      "Benares",
+      "Ichapur",
+      "Lahore",
+      "Punjab",
+      "Divine Mother",
+      "Goddess Kali",
+      "Kriya Yoga",
+      "guru",
+      "yogi",
+      "incarnation",
+      "egoity",
+      "prophets",
+      "lotus posture",
+      "Iswara",
+      "Bishnu Charan Ghosh"
+    ],
+    "ch-1-2": [
+      "Ananta",
+      "Mother",
+      "Roma",
+      "Uma",
+      "Dwarka Prasad",
+      "Lahiri Mahasaya",
+      "Calcutta",
+      "Bareilly",
+      "Lahore",
+      "50 Amherst Street",
+      "Naini Tal",
+      "Himalayas",
+      "Benares",
+      "Punjab",
+      "Kriya Yoga",
+      "swami",
+      "yogi",
+      "guru",
+      "sadhu",
+      "talisman",
+      "disciple",
+      "meditation",
+      "alms",
+      "Cosmic Mother",
+      "Divine Mother",
+      "Mukunda Lal Ghosh",
+      "Bhagabati Charan Ghosh"
+    ],
+    "ch-1-3": [
+      "Kedar Nath Babu",
+      "Swami Pranabananda",
+      "Lahiri Mahasaya",
+      "Sri Yukteswar",
+      "Benares",
+      "Bareilly",
+      "Calcutta",
+      "Ganges",
+      "ghat",
+      "Swami Pranabananda",
+      "Lahiri Mahasaya",
+      "yogi",
+      "guru",
+      "meditation",
+      "renunciation",
+      "pension",
+      "lotus posture",
+      "Brahma",
+      "Bhagabati Charan Ghosh"
+    ],
+    "ch-1-4": [
+      "Amar Mitter",
+      "Ananta",
+      "Jotin Ghosh",
+      "Dwarka Prasad",
+      "Swami Kebalananda",
+      "Lahiri Mahasaya",
+      "Ramu",
+      "Sri Yukteswar",
+      "Arjuna",
+      "Krishna",
+      "Himalayas",
+      "Calcutta",
+      "Gurpar Road",
+      "Chadni Chowk",
+      "Burdwan",
+      "Hardwar",
+      "Bareilly",
+      "Moghul Serai",
+      "Rishikesh",
+      "Ganges",
+      "Benares",
+      "Howrah Station",
+      "Serampore",
+      "Bhagavad Gita",
+      "Vedas",
+      "Kriya Yoga",
+      "sannyasi",
+      "tiffin",
+      "sadhu",
+      "karma",
+      "renunciate",
+      "pundit",
+      "rishi",
+      "shastras",
+      "lotus posture",
+      "Kriya",
+      "ecstasies",
+      "meditation",
+      "punkha",
+      "Bhagabati Charan Ghosh"
+    ],
+    "ch-1-5": [
+      "Amar",
+      "Sri Yukteswar",
+      "Nagendra Nath Bhaduri",
+      "Master Mahasaya",
+      "Jagadis Chandra Bose",
+      "Gandha Baba",
+      "Alakananda",
+      "Uma",
+      "Abu Said",
+      "Himalayas",
+      "Calcutta",
+      "Kalighat Temple",
+      "Kali",
+      "Thebes",
+      "India",
+      "Vedic",
+      "Gurpar Road",
+      "Burdwan",
+      "Tibet",
+      "Asia",
+      "Europe",
+      "Persian",
+      "guru",
+      "sadhu",
+      "maya",
+      "rishis",
+      "yogi",
+      "devotees",
+      "clairvoyant",
+      "Orientwise",
+      "luchis",
+      "lifetrons",
+      "Sohong Swami"
+    ],
+    "ch-1-6": [
+      "Chandi",
+      "Sohong Swami",
+      "Prince of Cooch Behar",
+      "Raja Begum",
+      "guru",
+      "Bhowanipur",
+      "Calcutta",
+      "India",
+      "Cooch Behar",
+      "West",
+      "Himalayas",
+      "swami",
+      "Bengal",
+      "yoga",
+      "Bhagabati Charan Ghosh"
+    ],
+    "ch-1-7": [
+      "Upendra Mohun Chowdhury",
+      "Bhaduri Mahasaya",
+      "Mirabai",
+      "Upper Circular Road",
+      "America",
+      "India",
+      "Ram Mohan Roy Road",
+      "Gurpar Road",
+      "Nagendra Math",
+      "Bengali",
+      "yogi",
+      "pranayamas",
+      "yoga",
+      "Patanjali",
+      "Bhastrika Pranayama",
+      "superconsciousness",
+      "saint",
+      "guru",
+      "Maharishi",
+      "lotus posture",
+      "rishi",
+      "Omnipresence",
+      "anubhava",
+      "Jala Yoga",
+      "Dhyana Yoga",
+      "rishis",
+      "maya",
+      "sadhus",
+      "sannyasi",
+      "Mukunda Lal Ghosh"
+    ],
+    "ch-1-8": [
+      "Rabindranath Tagore",
+      "Marconi",
+      "Presidency College",
+      "Gurpar Road",
+      "Cambridge",
+      "Bose Institute",
+      "Calcutta",
+      "Royal Society",
+      "Nalanda",
+      "Taxila",
+      "Columbia University",
+      "The New York Times",
+      "Sama",
+      "Bose laboratory",
+      "crescograph",
+      "rishis",
+      "Noumenon",
+      "shastric"
+    ],
+    "ch-1-9": [
+      "Master Mahasaya",
+      "Sri Ramakrishna Paramhansa",
+      "Divine Mother",
+      "50 Amherst Street",
+      "Gurpar Road",
+      "Dakshineswar Temple",
+      "Ganges",
+      "Temple of Kali",
+      "Shiva",
+      "Calcutta University",
+      "goldighi",
+      "guru",
+      "gurudeva",
+      "devotion",
+      "chant",
+      "Howrah Station"
+    ],
+    "ch-1-10": [
+      "Sri Yukteswar",
+      "Nantu",
+      "Sananda",
+      "Dyananda",
+      "Habu",
+      "Mother",
+      "Ananta",
+      "Swami Pranabananda",
+      "Calcutta",
+      "Gurpar Road",
+      "Hindu High School",
+      "Benares",
+      "Mahamandal",
+      "Ganges",
+      "Serampore",
+      "Rai Ghat Lane",
+      "Rana Mahal",
+      "Lahiri Mahasaya",
+      "Bombay",
+      "Buddha",
+      "Shankaracharya",
+      "ghats",
+      "yogi",
+      "sadhana",
+      "ashram",
+      "swami",
+      "shastric",
+      "sadhu",
+      "guru",
+      "Gurudeva",
+      "maya",
+      "Mukunda Lal Ghosh",
+      "Bishnu Charan Ghosh",
+      "Jitendra",
+      "Bhagabati Charan Ghosh"
+    ],
+    "ch-1-11": [
+      "Ananta",
+      "Jitendra",
+      "Gauri Ma",
+      "Pratap Chatterji",
+      "Lahiri Mahasaya",
+      "Babaji",
+      "Ananda Mohan Lahiri",
+      "Swami Kebalananda",
+      "Ananda Moyi Ma",
+      "Brindaban",
+      "Agra",
+      "Calcutta",
+      "Bengal-Nagpur Railway",
+      "Benares",
+      "Taj Mahal",
+      "Serampore",
+      "Lahore",
+      "Drongiri Mountains",
+      "Ranikhet",
+      "Madanamohana Temple",
+      "Krishna",
+      "Kriya Yoga",
+      "Jagadis Chandra Bose",
+      "Hindu scriptures",
+      "Guru of all gurus",
+      "Taj",
+      "Bengal",
+      "Rai Ghat Lane",
+      "Jyanavatar",
+      "guru",
+      "hermitage",
+      "sadhu",
+      "Divine Mother",
+      "Master Mahasaya",
+      "disciple",
+      "ashram",
+      "dhoti",
+      "pundit",
+      "chintamani",
+      "maya",
+      "diksha",
+      "Kriya",
+      "yogi",
+      "ego",
+      "sandesh",
+      "Mukunda Lal Ghosh"
+    ],
+    "ch-1-12": [
+      "Sri Yukteswar",
+      "Lahiri Mahasaya",
+      "Swami Kebalananda",
+      "Kumar",
+      "Ananta",
+      "Prafulla",
+      "Dabru Ballav",
+      "Shankara",
+      "Kanai",
+      "Calcutta",
+      "Serampore",
+      "West",
+      "Ganges",
+      "Durgapuja",
+      "Scottish Church College",
+      "Kriya Yoga",
+      "Ranchi",
+      "Mount Washington Estates",
+      "Self-Realization Fellowship",
+      "Self-Realization Church of All Religions",
+      "Los Angeles",
+      "Puri",
+      "Bay of Bengal",
+      "Benares",
+      "Swami Order",
+      "Rana Mahal",
+      "Vedas",
+      "Mahabharata",
+      "Upanishads",
+      "bhasyas",
+      "Bhagavad Gita",
+      "Vedic",
+      "Guruji",
+      "hermitage",
+      "ashram",
+      "samadhi",
+      "yogi",
+      "sadhana",
+      "chela",
+      "maya",
+      "pundit",
+      "jnana",
+      "bhakti",
+      "ahimsa",
+      "channa",
+      "dhal",
+      "ghee",
+      "shastric",
+      "rishis",
+      "Bhagabati Charan Ghosh"
+    ],
+    "ch-1-13": [
+      "Sri Yukteswar",
+      "Behari Pundit",
+      "Lahiri Mahasaya",
+      "Ram Gopal Muzumdar",
+      "Babaji",
+      "Himalayas",
+      "Calcutta",
+      "Scottish Church College",
+      "Ranbajpur",
+      "Tarakeswar",
+      "Lourdes",
+      "Benares",
+      "India",
+      "Tibet",
+      "guru",
+      "Kriya Yoga",
+      "Hindus",
+      "mridangas",
+      "dhal",
+      "yogi",
+      "samadhi",
+      "superconsciousness",
+      "cosmic energy",
+      "lotus posture",
+      "krosha"
+    ],
+    "ch-1-14": [
+      "Sri Yukteswar",
+      "Rai Ghat Road",
+      "Ganges",
+      "Upanishads",
+      "Kriya Yoga",
+      "ashram",
+      "Aum",
+      "samadhi",
+      "maya",
+      "turia",
+      "bhakti",
+      "rasa",
+      "Mukunda Lal Ghosh"
+    ],
+    "ch-1-15": [
+      "Sri Yukteswar",
+      "Krishna",
+      "Brahma",
+      "Vishnu",
+      "Shiva",
+      "Saraswati",
+      "Miyan Tan Sen",
+      "Akbar the Great",
+      "Charles Robert Richet",
+      "Puri",
+      "Bay of Bengal",
+      "hermitage",
+      "ashram",
+      "London",
+      "Calcutta",
+      "Sat-Sanga",
+      "Serampore",
+      "Sama Veda",
+      "Hindole Raga",
+      "Deepaka Raga",
+      "Megha Raga",
+      "Bhairava Raga",
+      "Sri Raga",
+      "Malkounsa Raga",
+      "Aum",
+      "Miyan Tan Sen",
+      "Akbar the Great",
+      "Bharata",
+      "Kriya Yoga",
+      "guru",
+      "disciple",
+      "intuition",
+      "maya",
+      "vina",
+      "mantra",
+      "srutis",
+      "ragas",
+      "raginis",
+      "putras",
+      "vadi",
+      "samavadi",
+      "anuvadi",
+      "vivadi",
+      "mridanga",
+      "bhagavathar",
+      "khichuri",
+      "channa",
+      "khol",
+      "kartal",
+      "tala",
+      "rishi",
+      "yoga",
+      "Oversoul",
+      "Mukunda Lal Ghosh"
+    ],
+    "ch-1-16": [
+      "Sri Yukteswar",
+      "Ananta",
+      "Serampore",
+      "Benares",
+      "Ganges",
+      "Himalayas",
+      "Kali Yuga",
+      "Dwapara Yuga",
+      "Treta Yuga",
+      "Satya Yuga",
+      "Bhagavad Gita",
+      "Sankhya",
+      "Bible",
+      "Genesis",
+      "karma",
+      "yoga",
+      "rishis",
+      "yogis",
+      "devotee",
+      "darshan",
+      "nasikagram",
+      "Iswar-ashidha",
+      "maya",
+      "Mukunda Lal Ghosh"
+    ],
+    "ch-1-17": [
+      "Dr. Narayan Chunder Roy",
+      "Santosh",
+      "Sri Yukteswar",
+      "Sasi",
+      "Naren Babu",
+      "Professor Howells",
+      "Serampore",
+      "Calcutta",
+      "ashram",
+      "Gurpar Road",
+      "Scottish Church College",
+      "Intermediate Arts",
+      "Puri",
+      "Serampore College",
+      "University of Calcutta",
+      "A.B.",
+      "proselyter",
+      "guru",
+      "astrological bangle",
+      "guruji",
+      "devotee",
+      "Mukunda Lal Ghosh"
+    ],
+    "ch-1-18": [
+      "Sri Yukteswar",
+      "Afzal Khan",
+      "Hazrat",
+      "Babu",
+      "Serampore College",
+      "Panthi",
+      "Ganges",
+      "Calcutta",
+      "Bengal",
+      "fakir",
+      "sannyasi",
+      "karma",
+      "yogi",
+      "yoga",
+      "luchis"
+    ],
+    "ch-1-19": [
+      "Dijen Babu",
+      "Sri Yukteswar",
+      "Kanai",
+      "Jesus",
+      "Calcutta",
+      "Serampore",
+      "Panthi boardinghouse",
+      "Kriya Yoga",
+      "Serampore College",
+      "ashram",
+      "hermitage",
+      "guru",
+      "swami",
+      "aura",
+      "Spirit",
+      "intuition",
+      "Taba asi"
+    ],
+    "ch-1-20": [
+      "Sri Yukteswar",
+      "Kanai",
+      "Rajendra Nath Mitra",
+      "Jotin Auddy",
+      "Behari",
+      "Lal Dhari",
+      "Sarada Ghosh",
+      "Kashmir",
+      "Himalayan",
+      "Calcutta",
+      "Serampore",
+      "Christian church",
+      "Serampore Courthouse",
+      "Divine Mercy",
+      "Goddess Parvati",
+      "guru",
+      "ashram",
+      "hermitage",
+      "Guruji",
+      "Mukunda Lal Ghosh",
+      "Bhagabati Charan Ghosh"
+    ],
+    "ch-1-21": [
+      "Sri Yukteswar",
+      "Kanai",
+      "Auddy",
+      "Mrs. Alice T. Hasey (Sister Yogmata)",
+      "Rajendra",
+      "Jehangir",
+      "Baber",
+      "Humayun",
+      "Shankara",
+      "St. Francis of Assisi",
+      "St. Francis de Sales",
+      "Kashmir",
+      "Simla",
+      "America",
+      "West Somerville, Massachusetts",
+      "Rawalpindi",
+      "Srinagar",
+      "Himalayas",
+      "Jhelum River",
+      "Swami Shankara",
+      "Self-Realization Fellowship",
+      "Los Angeles",
+      "Mount Washington",
+      "Gulmarg",
+      "Khilanmarg",
+      "Shalimar",
+      "Nishat Bagh",
+      "Calcutta",
+      "Kabul",
+      "Dal Lake",
+      "Xochimilco",
+      "Yellowstone National Park",
+      "Grand Canyon of the Colorado",
+      "Alaska",
+      "Yosemite",
+      "Niagara",
+      "Mammoth Caves",
+      "Carlsbad Caverns",
+      "Serampore College",
+      "Bengal",
+      "Hindustan",
+      "Vedas",
+      "ashram",
+      "karma",
+      "yogi",
+      "guru",
+      "samadhi",
+      "nirbikalpa",
+      "maya",
+      "Ekam sat",
+      "ganjis",
+      "rabri"
+    ],
+    "ch-1-22": [
+      "Roma",
+      "Satish Chandra Bose",
+      "Sri Ramakrishna Paramhansa",
+      "Uma",
+      "Nalini",
+      "Jesus",
+      "Krishna",
+      "Calcutta",
+      "Girish Vidyaratna Lane",
+      "Kriya Yoga",
+      "Dakshineswar",
+      "Upper Circular Road",
+      "Self-Realization Church of All Religions",
+      "San Diego, California",
+      "Ganges River",
+      "Kali",
+      "Divine Mother",
+      "Delhi",
+      "sadhu",
+      "lotus posture",
+      "devotee",
+      "bel tree",
+      "self-realization",
+      "devi",
+      "Mukunda Lal Ghosh",
+      "Bishnu Charan Ghosh"
+    ],
+    "ch-1-23": [
+      "Prabhas Chandra Ghose",
+      "Sri Yukteswar",
+      "Romesh Chandra Dutt",
+      "Vidyasagar",
+      "Serampore College",
+      "Calcutta University",
+      "Panthi",
+      "A.B.",
+      "Childe Harold",
+      "Bengali",
+      "English literature",
+      "guru",
+      "ashram",
+      "hermitage",
+      "Mukunda Lal Ghosh",
+      "Bhagabati Charan Ghosh",
+      "Sarada Ghosh",
+      "Dr. Ghoshal"
+    ],
+    "ch-1-24": [
+      "Sri Yukteswar",
+      "Lahiri Mahasaya",
+      "Shankara",
+      "Mukunda Lal Ghosh",
+      "Shiva",
+      "Patanjali",
+      "Krishna",
+      "Dr. C. G. Jung",
+      "Bengal-Nagpur Railway",
+      "Swami Order",
+      "Serampore",
+      "West",
+      "India",
+      "Giri",
+      "Sagar",
+      "Bharati",
+      "Aranya",
+      "Puri",
+      "Tirtha",
+      "Saraswati",
+      "Order of Swamis",
+      "Catholic Christian monastic orders",
+      "Spirit",
+      "Swa",
+      "Yogi-Christs",
+      "maya",
+      "Yoga Sutras",
+      "Upanishads",
+      "Eightfold Path",
+      "Kaivalya",
+      "Bhagavad Gita",
+      "Atomic Age",
+      "swamiship",
+      "renunciate",
+      "bidwat",
+      "bibidisa",
+      "atma",
+      "Brahma",
+      "ananda",
+      "yoga",
+      "dasananzis",
+      "yogi",
+      "rishis",
+      "maya",
+      "prana",
+      "yama",
+      "niyama",
+      "asana",
+      "pranayama",
+      "pratyahara",
+      "dharana",
+      "dhyana",
+      "samadhi",
+      "Kaivalya"
+    ],
+    "ch-1-25": [
+      "Ananta",
+      "Dr. Misra",
+      "Sri Yukteswar",
+      "Nalini",
+      "Panchanon Bose",
+      "Mother",
+      "Gorakhpur",
+      "India",
+      "Burma",
+      "China Sea",
+      "Japan",
+      "Kobe",
+      "Shanghai",
+      "Calcutta",
+      "Gurpar Road",
+      "Bose home",
+      "Serampore",
+      "Swami Order",
+      "Kriya Yoga",
+      "karma",
+      "guru",
+      "God-realization",
+      "disciple",
+      "yoga",
+      "prayer",
+      "prostrated",
+      "astrology",
+      "Bishnu Charan Ghosh",
+      "Bhagabati Charan Ghosh"
+    ],
+    "ch-1-26": [
+      "Lahiri Mahasaya",
+      "Babaji",
+      "Krishna",
+      "Arjuna",
+      "Patanjali",
+      "Jesus",
+      "Elijah",
+      "Kabir",
+      "St. John",
+      "St. Paul",
+      "Vivasvat",
+      "Manu",
+      "Ikshwaku",
+      "Sri Yukteswar",
+      "Shankara",
+      "Kriya Yoga",
+      "India",
+      "Dark Ages",
+      "Bhagavad Gita",
+      "Aum",
+      "Christ",
+      "maya",
+      "sabikalpa samadhi",
+      "nirbikalpa samadhi",
+      "Cosmic Man",
+      "zodiac",
+      "scriptures",
+      "Century of Verses",
+      "Jnana Yoga",
+      "Karma Yoga",
+      "Kriya",
+      "karma",
+      "Kriyaban",
+      "Kriya Yogi",
+      "yogi",
+      "apan",
+      "rishis",
+      "pranayama",
+      "samadhi",
+      "sabikalpa samadhi",
+      "nirbikalpa samadhi",
+      "devotee",
+      "guru",
+      "yoga",
+      "Jnana Yoga",
+      "Karma Yoga"
+    ],
+    "ch-1-27": [
+      "Sri Yukteswar",
+      "Bishnu Charan Ghosh",
+      "Swami Pranabananda",
+      "Lahiri Mahasaya",
+      "Sanandan",
+      "Swami Keshabananda",
+      "Babaji",
+      "Ranchi",
+      "Dihika",
+      "Bengal",
+      "Kasimbazar",
+      "Bihar",
+      "Calcutta",
+      "Kasimbazar Palace",
+      "Brahmacharya Vidyalaya",
+      "Yogoda",
+      "Columbia University",
+      "Yogoda Math",
+      "Self-Realization Fellowship",
+      "Dakshineswar",
+      "Ganges",
+      "Yogoda Sat-Sanga Brahmacharya Vidyalaya",
+      "Lahiri Mahasaya Mission",
+      "Midnapore",
+      "Lakshmanpur",
+      "Puri",
+      "Vidyalaya",
+      "Benares",
+      "Rishikesh",
+      "Himalayas",
+      "Badrinarayan",
+      "channa",
+      "God-contact",
+      "Cosmic Beloved",
+      "rishis",
+      "ashrams",
+      "yoga",
+      "meditation",
+      "life force",
+      "medulla oblongata",
+      "karma",
+      "unattachment",
+      "devotee",
+      "Kriya Yoga",
+      "Swami Order",
+      "God-union",
+      "spiritual eye",
+      "lotus posture",
+      "Maharaja of Kasimbazar",
+      "Bhagabati Charan Ghosh"
+    ],
+    "ch-1-28": [
+      "Kashi",
+      "Motilal Mukherji",
+      "Sri Yukteswar",
+      "Tulsi Narayan Bose",
+      "Swami Satyananda",
+      "Prokash Das",
+      "Kashi’s father",
+      "Rev. Clay MacCauley",
+      "Rev. T. Rhondda Williams",
+      "Prof. S. Ushigasaki",
+      "Rev. Jabez T. Sunderland",
+      "Rev. Chas. W. Wendte",
+      "Rev. Samuel A. Eliot",
+      "Rev. Basil Martin",
+      "Rev. Christopher J. Street",
+      "Rev. Samuel M. Crothers",
+      "Ranchi",
+      "Calcutta",
+      "Serampore",
+      "Howrah bridge",
+      "Ganges",
+      "Bowbazar",
+      "Serpentine Lane",
+      "America",
+      "Himalayan",
+      "International Congress of Religious Liberals",
+      "renunciation",
+      "occult",
+      "spiritual eye",
+      "swami",
+      "astral",
+      "yoga",
+      "Bishnu Charan Ghosh",
+      "Bhagabati Charan Ghosh",
+      "Mr. C. Richard Wright"
+    ],
+    "ch-1-29": [
+      "Rabindranath Tagore",
+      "Bhola Nath",
+      "Mr. C. F. Andrews",
+      "Devendranath",
+      "Dwarkanath Tagore",
+      "Gogonendra",
+      "Abanindra",
+      "Dwijendra",
+      "Ranchi",
+      "Santiniketan",
+      "Bolpur",
+      "Bengal",
+      "Gitanjali",
+      "Calcutta",
+      "Vidyalaya",
+      "Yogoda",
+      "Himalayas",
+      "Viswa-Bharati",
+      "dhoti",
+      "gurudeva"
+    ],
+    "ch-1-30": [
+      "Leo Tolstoy",
+      "Nicholas Roerich",
+      "Christ",
+      "Lahiri Mahasaya",
+      "Sri Yukteswar",
+      "Newton",
+      "Ezekiel",
+      "Sir Arthur Stanley Eddington",
+      "Drs. Clinton J. Davisson",
+      "Lester H. Germer",
+      "De Broglie",
+      "Sir James Jeans",
+      "Dr. L. T. Troland",
+      "Elijah",
+      "The Three Hermits",
+      "Vedic",
+      "Old Testament",
+      "God of Israel",
+      "Aum",
+      "Theory of Relativity",
+      "Unified Field Theory",
+      "The Nature of the Physical World",
+      "American Association for the Advancement of Science",
+      "Bell Telephone Laboratories",
+      "The Mysterious Universe",
+      "Genesis",
+      "Swami Order",
+      "Gurpar Road",
+      "World War I",
+      "France",
+      "Europe",
+      "Cosmic Director",
+      "maya",
+      "rishis",
+      "guru",
+      "disciple",
+      "nirbikalpa samadhi",
+      "yogi",
+      "avidya",
+      "samadhi",
+      "astral",
+      "lotus posture",
+      "lifetrons"
+    ],
+    "ch-1-31": [
+      "Lahiri Mahasaya",
+      "Ducouri Lahiri",
+      "Abhoya",
+      "Kali Kumar Roy",
+      "Swami Trailanga",
+      "Shankari Mai Jiew",
+      "Babaji",
+      "Benares",
+      "Garudeswar Mohulla",
+      "Lahiri homestead",
+      "Kriya Yoga",
+      "Calcutta",
+      "Ganges",
+      "Bhagavad Gita",
+      "Badrinath",
+      "Kedarnath",
+      "Amarnath",
+      "Pasupatinath",
+      "Barackpur",
+      "Himalayan",
+      "India",
+      "guru",
+      "lotus posture",
+      "karma",
+      "spiritual eye",
+      "chela",
+      "initiation",
+      "yogi",
+      "swami",
+      "mela",
+      "brahmacharini",
+      "Sri Yukteswar",
+      "Kashi Moni",
+      "Howrah Station"
+    ],
+    "ch-1-32": [
+      "Sri Yukteswar",
+      "Jesus",
+      "Lahiri Mahasaya",
+      "Rama",
+      "Swami Satyananda",
+      "Gaur Mohan Lahiri",
+      "Muktakashi",
+      "Kashi Moni",
+      "Babaji",
+      "Tincouri",
+      "Debnarayan Sanyal",
+      "Joy Narayan Ghosal",
+      "Nag-Bhatta",
+      "Abraham",
+      "Yama",
+      "Lazarus",
+      "Serampore",
+      "Ranchi",
+      "Asiatic cholera",
+      "Paramatman",
+      "League of Nations",
+      "India",
+      "Babylon",
+      "Egypt",
+      "Bengal",
+      "Ghurni",
+      "Nadia",
+      "Krishnagar",
+      "Jalangi River",
+      "Ganges",
+      "Ghurni Shiva Site",
+      "Benares",
+      "Shiva",
+      "Vedic",
+      "Hindi",
+      "Urdu",
+      "Sanskrit",
+      "French",
+      "English",
+      "Vedas",
+      "Brahmin",
+      "Military Engineering Department",
+      "Gazipur",
+      "Mirjapur",
+      "Danapur",
+      "Naini Tal",
+      "Garudeswar Mohulla",
+      "Ranikhet",
+      "Kriya Yoga",
+      "Mother Ganges",
+      "Bhagirath",
+      "Himalayas",
+      "Vidyalaya",
+      "Christ",
+      "nimbus",
+      "samadhi",
+      "guru",
+      "disciple",
+      "Paramatman",
+      "yoga",
+      "yogi",
+      "Kriya",
+      "acharya",
+      "Brahmin",
+      "Lord Shiva",
+      "householder",
+      "Vedic",
+      "pundit",
+      "Mukunda Lal Ghosh",
+      "Ducouri Lahiri"
+    ],
+    "ch-1-33": [
+      "Babaji",
+      "Lahiri Mahasaya",
+      "Sri Yukteswar",
+      "Omar Khayyam",
+      "Christ",
+      "Krishna",
+      "Rama",
+      "Buddha",
+      "Patanjali",
+      "Agastya",
+      "Shankara",
+      "Kabir",
+      "Swami Kebalananda",
+      "Ram Gopal Muzumdar",
+      "Mataji",
+      "Matthew",
+      "Mark",
+      "Luke",
+      "Badrinarayan",
+      "Upanishads",
+      "Rubaiyat",
+      "Tamil",
+      "Swami Order",
+      "Kriya",
+      "Mahavatar",
+      "Western civilization",
+      "Hindi",
+      "Dasasamedh",
+      "Ganges",
+      "Ranbajpur",
+      "Benares",
+      "avatara",
+      "avatar",
+      "siddha",
+      "jivanmukta",
+      "paramukta",
+      "mayic",
+      "karma",
+      "chela",
+      "danda",
+      "Dera danda uthao",
+      "Vedic",
+      "yoga",
+      "initiation",
+      "John the Baptist"
+    ],
+    "ch-1-34": [
+      "Babaji",
+      "Lahiri Mahasaya",
+      "Swami Kebalananda",
+      "Sri Yukteswar",
+      "Maitra",
+      "Danapur",
+      "Ranikhet",
+      "Military Engineering Department",
+      "Gogash River",
+      "Nadia",
+      "Kriya Yoga",
+      "Moradabad",
+      "Bhagavad Gita",
+      "Kumbha Mela",
+      "Allahabad",
+      "asana",
+      "kamandulus",
+      "karma",
+      "lotus posture",
+      "chelas",
+      "homa",
+      "nirbikalpa samadhi",
+      "yogi-householder",
+      "Swalpamasya dharmasya, trayata mahato bhoyat",
+      "halua",
+      "sadhus",
+      "renunciate",
+      "Drongiri Mountains"
+    ],
+    "ch-1-35": [
+      "Lahiri Mahasaya",
+      "Babaji",
+      "Sri Yukteswar",
+      "Jesus",
+      "John the Baptist",
+      "Elijah",
+      "Elisha",
+      "Zacharias",
+      "Elisabeth",
+      "Moses",
+      "Abdul Gufoor Khan",
+      "Brinda Bhagat",
+      "Swami Satyananda",
+      "Panchanon Bhattacharya",
+      "Sri Ananda Mohan Lahiri",
+      "Swami Vhaskarananda Saraswati",
+      "Balananda Brahmachari",
+      "Maharaja Iswari Narayan Sinha Bahadur",
+      "Maharaja Jotindra Mohan Thakur",
+      "Bible",
+      "Old Testament",
+      "New Testament",
+      "Benares",
+      "India",
+      "England",
+      "London",
+      "Bengalitola",
+      "Gita Assembly",
+      "Kriya",
+      "Arya Mission Institution",
+      "Calcutta",
+      "Bhagavad Gita",
+      "Japan",
+      "Krishnagar",
+      "Bishnupur",
+      "Deogarh",
+      "Mahabharata",
+      "Vedic",
+      "Kriya Yoga",
+      "Mahavatar",
+      "Jnanavatar",
+      "guru",
+      "chela",
+      "Kriya",
+      "darshan",
+      "Sambhabi Mudra",
+      "Bhakti",
+      "Karma",
+      "Jnana",
+      "Raja",
+      "Yogas",
+      "namaj",
+      "monkhood",
+      "avatar",
+      "Mahavatar",
+      "Jnanavatar"
+    ],
+    "ch-1-36": [
+      "Babaji",
+      "Sri Yukteswar",
+      "Lahiri Mahasaya",
+      "Panchanon Bhattacharya",
+      "Swami Pranabananda",
+      "Serampore",
+      "Allahabad",
+      "Kumbha Mela",
+      "Ganges",
+      "Europe",
+      "America",
+      "Bhagavad Gita",
+      "Christian",
+      "Hindu",
+      "Bible",
+      "Sanatan Dharma",
+      "Vedas",
+      "Sadhusambad",
+      "Kidderpore",
+      "Rai Ghat",
+      "Benares",
+      "Manikarnika Ghat",
+      "Hardwar",
+      "Calcutta",
+      "Arya Mission Institution",
+      "Ranchi",
+      "Himalayas",
+      "Kabir",
+      "guru",
+      "swami",
+      "Kriya",
+      "initiation",
+      "sadhus",
+      "yogis",
+      "ascetics",
+      "sannyasi",
+      "chelas",
+      "mela",
+      "God-realization",
+      "Orient",
+      "Occident",
+      "yoga",
+      "Param-Guru-Maharaj",
+      "ghat",
+      "lotus posture",
+      "maha-samadhi",
+      "karma",
+      "samadhi",
+      "omnipresence",
+      "Swami Keshabananda"
+    ],
+    "ch-1-37": [
+      "Bimal",
+      "Lahiri Mahasaya",
+      "Sri Yukteswar",
+      "Babaji",
+      "Ananta",
+      "Dr. Frederick B. Robinson",
+      "Amelita Galli-Curci",
+      "America",
+      "Ranchi",
+      "Calcutta",
+      "International Congress of Religious Liberals",
+      "Boston",
+      "American Unitarian Association",
+      "Serampore",
+      "India",
+      "Agra",
+      "Kumbha Mela",
+      "Gurpar Road",
+      "United States",
+      "Hindu",
+      "The City of Sparta",
+      "World War I",
+      "Washington, D.C.",
+      "Brahmacharya Ashram of Ranchi",
+      "College of the City of New York",
+      "Songs of the Soul",
+      "Mount Washington Estates",
+      "Kashmir",
+      "Los Angeles",
+      "Whispers From Eternity",
+      "Emma Lazarus",
+      "Statue of Liberty",
+      "Kriya Yoga",
+      "guru",
+      "guruji",
+      "yoga",
+      "renunciate",
+      "cosmic consciousness",
+      "initiation",
+      "chant",
+      "Mukunda Lal Ghosh",
+      "Bhagabati Charan Ghosh"
+    ],
+    "ch-1-38": [
+      "Luther Burbank",
+      "Henry Ford",
+      "Santa Rosa",
+      "Mount Washington",
+      "Ranchi",
+      "East-West",
+      "New York",
+      "Vedic",
+      "Lebanon cedar",
+      "Webster’s New International Dictionary",
+      "swami",
+      "Kriya",
+      "yoga",
+      "millennium",
+      "rite",
+      "Mukunda Lal Ghosh"
+    ],
+    "ch-1-39": [
+      "Sri Yukteswar",
+      "Babaji",
+      "Therese Neumann",
+      "Mr. C. Richard Wright",
+      "Miss Ettie Bletch",
+      "Sir Francis Younghusband",
+      "Sir Harry Lauder",
+      "St. Teresa",
+      "Dr. Fritz Gerlick",
+      "Professor Wurz",
+      "Ferdinand",
+      "Jesus",
+      "St. Francis",
+      "Socrates",
+      "Mt. Washington",
+      "America",
+      "Kriya Yoga",
+      "Mount Washington",
+      "Self-Realization Fellowship",
+      "California",
+      "Los Angeles",
+      "New York",
+      "Europa",
+      "London",
+      "Caxton Hall",
+      "Scotland",
+      "English Channel",
+      "Bavaria",
+      "Konnersreuth",
+      "Eichstatt",
+      "Germany",
+      "Aramaic",
+      "Hebrew",
+      "Greek",
+      "Orient",
+      "New Testament",
+      "Church",
+      "Ford",
+      "Holland",
+      "France",
+      "Swiss Alps",
+      "Italy",
+      "Assisi",
+      "Greece",
+      "Athenian",
+      "Palestine",
+      "Bethlehem",
+      "Gethsemane",
+      "Calvary",
+      "Mount of Olives",
+      "River Jordan",
+      "Sea of Galilee",
+      "Birth Manger",
+      "Joseph’s carpenter shop",
+      "Lazarus",
+      "Martha and Mary",
+      "Last Supper",
+      "Egypt",
+      "Cairo",
+      "Red Sea",
+      "Arabian Sea",
+      "India",
+      "Kriya Yoga",
+      "guru",
+      "yogic",
+      "trance",
+      "Mukunda Lal Ghosh"
+    ],
+    "ch-1-40": [
+      "Sri Yukteswar",
+      "Maharaja of Kasimbazar",
+      "Prafulla",
+      "Lahiri Mahasaya",
+      "Rajputana",
+      "Bombay",
+      "Taj Mahal Hotel",
+      "Ford",
+      "Calcutta",
+      "Howrah Station",
+      "Serampore",
+      "ashram",
+      "hermitage",
+      "Bengali",
+      "Boston",
+      "Congress of Religions",
+      "Germany",
+      "Ranchi",
+      "Kasimbazar Palace",
+      "Shyama Charan Lahiri Mahasaya Mission",
+      "Yogoda Sat-Sanga Brahmacharya Vidyalaya",
+      "Kols",
+      "Santals",
+      "Mundas",
+      "Gita",
+      "Shiva temple",
+      "Yogoda Sat-Sanga Vidyapith",
+      "Lakshmanpur",
+      "Bihar",
+      "Yogoda Sat-Sanga High School",
+      "Ejmalichak",
+      "Midnapore",
+      "Yogoda Math",
+      "Dakshineswar",
+      "Ganges",
+      "Self-Realization Fellowship",
+      "guru",
+      "Swamijis",
+      "dhoti",
+      "ocher",
+      "pronam",
+      "asanas",
+      "lathi",
+      "Kriya Yoga",
+      "charkas",
+      "Brahmacharya",
+      "hermitage",
+      "Math",
+      "Bishnu Charan Ghosh",
+      "Miss Ettie Bletch",
+      "Mr. C. Richard Wright"
+    ],
+    "ch-1-41": [
+      "Goddess Chamundi",
+      "Maharaja",
+      "Mirza Ismail",
+      "H.H. the Yuvaraja, Sir Sri Krishna Narasingharaj Wadiyar",
+      "King Vishnuvardhana",
+      "King Asoka",
+      "Chandragupta Maurya",
+      "Alexander the Great",
+      "Megasthenes",
+      "Arrian",
+      "Diodoros",
+      "Plutarch",
+      "Strabo",
+      "Dr. J. W. M’Crindle",
+      "Onesikritos",
+      "Dandamis",
+      "Diogenes",
+      "Comateswara",
+      "Thayumanavar",
+      "Mahatma Gandhi",
+      "Manu",
+      "Sir C. V. Raman",
+      "Sadasiva Brahman",
+      "Chamundi Temple",
+      "Mysore",
+      "State of Mysore",
+      "Town Hall",
+      "Maharajah’s College",
+      "University Medical School",
+      "Bangalore",
+      "National High School",
+      "Intermediate College",
+      "Chetty Town Hall",
+      "Krishnaraja Sagar Dam",
+      "Chicago World’s Fair",
+      "Hyderabad",
+      "Godavari River",
+      "Nilgiris",
+      "Ellora",
+      "Ajanta",
+      "Kailasa",
+      "Osmania University",
+      "Mecca Masjid Mosque",
+      "Belur",
+      "Maurya dynasty",
+      "Afghanistan",
+      "Baluchistan",
+      "Taj Mahal",
+      "Agra",
+      "Sandrocottus",
+      "Alexander",
+      "Punjab",
+      "Patna",
+      "Taxila",
+      "Hades",
+      "Ganges River",
+      "Susa",
+      "Babylon",
+      "Kshatriyas",
+      "Sravanabelagola",
+      "Jains",
+      "Travancore",
+      "Vedic",
+      "lakshadipam",
+      "Indra",
+      "Yama",
+      "Varuna",
+      "Madras Presidency",
+      "Madras",
+      "Conjeeveram",
+      "Pallava dynasty",
+      "Gandhi caps",
+      "Mahabharata",
+      "Calcutta University",
+      "Indian Philosophical Congress",
+      "Indian Academy of Sciences",
+      "Raman Effect",
+      "Nerur",
+      "Raja of Pudukkottai",
+      "Kaveri River",
+      "Madura",
+      "maharaja",
+      "Dewan",
+      "Yuvaraja",
+      "sannyasi",
+      "samadhi",
+      "Brahmins",
+      "Sudras",
+      "Vaisyas",
+      "Kshatriyas",
+      "karma",
+      "Mr. C. Richard Wright"
+    ],
+    "ch-1-42": [
+      "Sri Yukteswar",
+      "Maharaja of Santosh",
+      "Mayor of Calcutta",
+      "Dr. Ghoshal",
+      "Kristo-da",
+      "Swami Sebananda",
+      "Amulaya Babu",
+      "Babaji",
+      "Shankari Mai Jiew",
+      "Swami Benoyananda",
+      "Krishnananda",
+      "Pragla Chakshu",
+      "Kara Patri",
+      "Jitendra",
+      "Swami Keshabananda",
+      "Lahiri Mahasaya",
+      "Panchanon Bhattacharya",
+      "Rabindranath Tagore",
+      "Ravidas",
+      "Kabir",
+      "Rani of Chitor",
+      "Atul Chandra Roy Chowdhry",
+      "Prafulla",
+      "Serampore",
+      "Albert Hall",
+      "Calcutta",
+      "Serampore College",
+      "Winter Solstice Festival",
+      "America",
+      "Puri",
+      "Ranchi",
+      "Kidderpore",
+      "Kumbha Mela",
+      "Allahabad",
+      "Bengali",
+      "Trailanga Swami",
+      "Hardwar",
+      "Bihar",
+      "Rajputana",
+      "Giri",
+      "Swami Order",
+      "Vedanta",
+      "Ford",
+      "Ganges",
+      "Benares University",
+      "Benares",
+      "Brindaban",
+      "Katayani Peith Ashram",
+      "Himalayan",
+      "Himalayas",
+      "Badrinarayan",
+      "Jumna",
+      "Taj Mahal",
+      "Agra",
+      "Bhagavad Gita",
+      "Yogoda Sat-Sanga",
+      "Self-Realization Fellowship",
+      "Sadhu Sabha",
+      "Bombay",
+      "Amrita Bazar Patrika",
+      "Chitor",
+      "Guruji",
+      "ashram",
+      "sankirtans",
+      "Paramhansa",
+      "swami",
+      "monastic",
+      "chela",
+      "mela",
+      "yogi",
+      "sadhus",
+      "spiritual eye",
+      "swamis",
+      "renunciate",
+      "brahmacharis",
+      "shastras",
+      "dais",
+      "sadhu",
+      "Aum",
+      "Vedas",
+      "Shastri",
+      "prostrated",
+      "lilas",
+      "gopis",
+      "sadhana",
+      "Jnanavatar",
+      "Bhandara",
+      "Mukunda Lal Ghosh",
+      "Miss Ettie Bletch",
+      "Mr. C. Richard Wright"
+    ],
+    "ch-1-43": [
+      "Sri Yukteswar",
+      "Babaji",
+      "Swami Sebananda",
+      "Regent Hotel",
+      "Bombay",
+      "Bengal",
+      "Kumbha Mela",
+      "Puri",
+      "Hiranyaloka",
+      "Bhagavad Gita",
+      "Puri ashram",
+      "avatar",
+      "karma",
+      "astral",
+      "rebirths",
+      "samadhi",
+      "sabikalpa samadhi",
+      "nirbikalpa samadhi",
+      "maya",
+      "lila",
+      "guru",
+      "ashram",
+      "chelas",
+      "mantric",
+      "sushumna",
+      "lotus",
+      "lifetrons",
+      "intuition",
+      "Gurudeva",
+      "nirbikalpa",
+      "Vedantic",
+      "Mukunda Lal Ghosh",
+      "Mother",
+      "Krishna"
+    ],
+    "ch-1-44": [
+      "Mahatma Gandhi",
+      "Mahadev Desai",
+      "Babasaheb Deshmukh",
+      "Dr. Pingale",
+      "Miss Madeleine Slade",
+      "Mirabai",
+      "Kasturabai",
+      "Sri Yukteswar",
+      "Lahiri Mahasaya",
+      "Jesus",
+      "Tulsidas",
+      "Wardha",
+      "Maganvadi",
+      "Ranchi",
+      "Town Hall",
+      "Gita",
+      "Kriya Yoga",
+      "Yogoda",
+      "Jain",
+      "Bible",
+      "New Testament",
+      "Tolstoy",
+      "Koran",
+      "Zend-Avesta",
+      "Vedas",
+      "Ramayana",
+      "Hinduism",
+      "Satyagraha",
+      "Satyagraha movement",
+      "Swadeshi",
+      "Bhuta Yajna",
+      "Pitri Yajna",
+      "Nri Yajna",
+      "Gandhiji",
+      "Mahabharata",
+      "Pennsylvania",
+      "Quakers",
+      "Great War",
+      "India",
+      "khaddar",
+      "ashram",
+      "Hindi",
+      "satyagrahi",
+      "chapatis",
+      "ghee",
+      "talsari",
+      "neem",
+      "charka",
+      "ahimsa",
+      "brahmacharya",
+      "guru",
+      "yajna",
+      "dharma",
+      "pariah",
+      "Miss Ettie Bletch",
+      "Mr. C. Richard Wright"
+    ],
+    "ch-1-45": [
+      "Ananda Moyi Ma",
+      "Amiyo Bose",
+      "Christ",
+      "Jamshedpur",
+      "Bhowanipur",
+      "Calcutta",
+      "America",
+      "Ranchi",
+      "Ranchi Vidyalaya",
+      "Serampore",
+      "Himalayas",
+      "Dehra Dun",
+      "East-West",
+      "God-realization",
+      "samadhi",
+      "chela",
+      "Brahmin",
+      "caste",
+      "celibate",
+      "guru",
+      "mridanga",
+      "Omnipresence",
+      "Divine Mother",
+      "Mr. C. Richard Wright"
+    ],
+    "ch-1-46": [
+      "Giri Bala",
+      "Sthiti Lal Nundy",
+      "Maharaja of Burdwan",
+      "Lambadar Dey",
+      "Sailesh Mazumdar",
+      "Bengal",
+      "Ranchi",
+      "Gurpar Road",
+      "Nawabganj",
+      "Ichapur",
+      "Burdwan",
+      "Purulia",
+      "Biur",
+      "Bankura District",
+      "America",
+      "West",
+      "Ford",
+      "Ganesh",
+      "Ganges",
+      "Benares",
+      "yogi",
+      "yogini",
+      "karma",
+      "ghat",
+      "guru",
+      "Vedic",
+      "mantra",
+      "kria",
+      "Baba",
+      "Mukunda Lal Ghosh",
+      "Mr. C. Richard Wright"
+    ],
+    "ch-1-47": [
+      "Sister Gyanamata",
+      "Mr. Dickinson",
+      "Sri Yukteswar",
+      "Swami Vivekananda",
+      "India",
+      "America",
+      "England",
+      "London",
+      "Grosvenor House",
+      "British National Council of the World Fellowship of Faiths",
+      "Whitefield’s Congregational Church",
+      "Caxton Hall",
+      "Windsor House",
+      "Self-Realization Fellowship",
+      "Southampton",
+      "Bremen",
+      "Statue of Liberty",
+      "New York",
+      "California",
+      "Mount Washington",
+      "Los Angeles",
+      "Kashmir",
+      "Calcutta",
+      "Kasimbazar",
+      "Kasimbazar Palace",
+      "Ranchi",
+      "Palestine",
+      "Egypt",
+      "France",
+      "Italy",
+      "Belgium",
+      "Holland",
+      "Mysore",
+      "Central Provinces",
+      "Chicago",
+      "World Parliament of Religions",
+      "Mt. Washington",
+      "yoga",
+      "meditation",
+      "guru",
+      "Kriya Yoga",
+      "sari",
+      "rasagulla",
+      "papar",
+      "keora",
+      "swadeshi",
+      "Maharaja of Kasimbazar",
+      "Mr. C. Richard Wright"
+    ],
+    "ch-1-48": [
+      "Sister Gyanamata",
+      "Lahiri Mahasaya",
+      "Sri Yukteswar",
+      "Swami Premananda",
+      "Dr. M. W. Lewis",
+      "Dr. Lloyd Kennell",
+      "Babaji",
+      "Krishna",
+      "Buddha",
+      "Confucius",
+      "St. Francis",
+      "Christ",
+      "Dr. L. Cranmer Byng",
+      "Mr. Hunsicker",
+      "Encinitas",
+      "Self-Realization Fellowship",
+      "Kriya Yoga",
+      "India",
+      "Europe",
+      "California",
+      "Pacific",
+      "Carnegie Hall",
+      "New York",
+      "Los Angeles",
+      "East-West",
+      "Washington, D.C.",
+      "Ranchi",
+      "Calcutta University",
+      "Boston",
+      "London",
+      "San Diego",
+      "San Diego Bay",
+      "Hollywood",
+      "Olive Hill",
+      "Los Angeles Planetarium",
+      "Atomic Age",
+      "Philippines",
+      "Africa",
+      "China",
+      "Yoga Institute",
+      "Peace Conference",
+      "The Wisdom of the East Series",
+      "Cosmic Chants",
+      "ashram",
+      "hermitage",
+      "altar",
+      "Zend-Avesta",
+      "Kriya",
+      "Sunrise Services",
+      "chant",
+      "Sanskrit",
+      "Bengali",
+      "devotee",
+      "yoga",
+      "Self-Realization",
+      "lotus posture",
+      "Rabindranath Tagore"
+    ]
+  }
+}

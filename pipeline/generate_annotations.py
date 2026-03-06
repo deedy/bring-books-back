@@ -431,12 +431,15 @@ async def _run_async(book_id, force=False):
         print(f"\n[{book_id}] Generating chapter summaries...")
         summary_map = await generate_summaries(chapters, cfg.title, book_id)
 
-        for ch in chapters:
+        # Re-read chapters.json to avoid clobbering fields set by other stages
+        with open(chapters_path) as f:
+            fresh_data = json.load(f)
+        for ch in fresh_data["chapters"]:
             if summary_map.get(ch["id"]):
                 ch["summary"] = summary_map[ch["id"]]
 
         with open(chapters_path, "w") as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
+            json.dump(fresh_data, f, indent=2, ensure_ascii=False)
         print(f"[{book_id}] Updated {chapters_path} with summaries")
     else:
         print(f"[{book_id}] Chapter summaries already present, skipping (use --force to re-run)")
