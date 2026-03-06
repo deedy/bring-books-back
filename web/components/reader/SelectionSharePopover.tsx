@@ -102,24 +102,52 @@ export default function SelectionSharePopover({
     if (!q) return;
     const url = buildShareUrl(q.paragraphIndex, q.startOffset, q.endOffset);
 
-    // Generate quote card image and copy both image + URL to clipboard
+    // Generate quote card image
+    let file: File | undefined;
     try {
       const blob = await generateQuoteImage(
-        q.text, bookTitle, authorName, accentColor, coverImage, originalYear, chapterTitle, url
+        q.text, bookTitle, authorName, accentColor, coverImage, originalYear, chapterTitle
       );
       if (blob) {
+        file = new File([blob], "quote.png", { type: "image/png" });
+      }
+    } catch {
+      // Continue without image
+    }
+
+    // Use native share API if available — it properly handles file + URL together
+    if (navigator.share) {
+      try {
+        const shareData: ShareData = {
+          text: `\u201C${q.text.slice(0, 200)}${q.text.length > 200 ? "\u2026" : ""}\u201D\n\u2014 ${bookTitle}`,
+          url,
+        };
+        if (file && navigator.canShare?.({ files: [file] })) {
+          shareData.files = [file];
+        }
+        await navigator.share(shareData);
+        dismiss();
+        return;
+      } catch {
+        // User cancelled or share failed — fall back to clipboard
+      }
+    }
+
+    // Fallback: copy image to clipboard + URL as text
+    if (file) {
+      try {
         await navigator.clipboard.write([
           new ClipboardItem({
-            "image/png": blob,
+            "image/png": file,
             "text/plain": new Blob([url], { type: "text/plain" }),
           }),
         ]);
         setCopied("link");
         setTimeout(dismiss, 1200);
         return;
+      } catch {
+        // Fall through
       }
-    } catch {
-      // Fall back to text-only copy
     }
 
     await navigator.clipboard.writeText(url);
