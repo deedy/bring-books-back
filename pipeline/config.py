@@ -55,6 +55,9 @@ class BookConfig:
     # ── Book type ────────────────────────────────────────────────────────
     type: str = "book"  # "book" or "anthology"
 
+    # ── Verse detection ───────────────────────────────────────────────────
+    verse_detection: bool = False  # Mark numbered verses vs prose commentary
+
     # ── Derived paths ─────────────────────────────────────────────────────
     @property
     def book_dir(self) -> Path:
@@ -1490,5 +1493,233 @@ _register(BookConfig(
         "NO people, NO figures. Pure atmospheric scenery. "
         "Ethereal, mystical, serene. 16:9 cinematic landscape ratio. "
         "NO text, NO border, NO frame."
+    ),
+))
+
+# ── The Discovery of India ────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="discovery-of-india",
+    title="The Discovery of India",
+    transliterated_title="The Discovery of India",
+    original_title="The Discovery of India",
+    author_id="jawaharlal-nehru",
+    author_name="Jawaharlal Nehru",
+    author_years="1889–1964",
+    original_language="English",
+    original_script="Latin",
+    original_year=1946,
+    genre=["History", "Philosophy", "Autobiography"],
+    accent_color="#2E5A4C",
+    style_context=(
+        "A sweeping historical and philosophical work written by Jawaharlal Nehru "
+        "during his imprisonment at Ahmadnagar Fort (1942–1946). The book traces India's "
+        "history from the Indus Valley Civilization through the struggle for independence, "
+        "weaving together personal memoir, political philosophy, cultural analysis, and "
+        "historical narrative. Nehru explores Indian civilization, its continuity and change, "
+        "its encounters with other cultures, and the rise of the nationalist movement. "
+        "Written in elegant, reflective English prose."
+    ),
+    translation_prompt="",
+    chapter_context=(
+        "Historical-philosophical work with 10 numbered chapters, each with many sub-sections. "
+        "Chapters have titles like 'Ahmadnagar Fort', 'The Discovery of India', 'Through the Ages'. "
+        "Sub-sections within chapters cover specific topics (e.g., 'The Indus Valley Civilization', "
+        "'The Vedas', 'Buddha's Teaching'). Written in prison during 1942-1946."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate "The Discovery of India" (1946), '
+        "a historical and philosophical work by Jawaharlal Nehru.\n\n"
+        "For the given chapter text, extract three categories of terms:\n\n"
+        '1. **Characters** — Historical figures, political leaders, scholars mentioned. 1-2 sentence description.\n'
+        '2. **Proper nouns** — Places, kingdoms, empires, texts, cultural concepts, political movements. Brief explanation.\n'
+        '3. **Vocabulary** — Sanskrit/Hindi/Urdu terms, historical terminology, philosophical concepts. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Indian historical, cultural, philosophical, and political terms.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of Indian modernist art — "
+        "reminiscent of Amrita Sher-Gil and Nandalal Bose, with warm earth tones, "
+        "deep saffron, terracotta, forest green, and indigo. "
+        "The composition should feel historically evocative, dignified, and contemplative. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Settings: ancient Indian cities, Mughal courts, temples, prison cells, "
+        "freedom struggle scenes, village life, landscapes of India.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Jawaharlal Nehru: the narrator, Indian freedom fighter and intellectual, middle-aged, refined, in prison garb or Indian formal wear\n"
+        "- Mahatma Gandhi: elderly Indian leader, thin, bald, in white dhoti, iconic round spectacles\n"
+        "- Kamala Nehru: Nehru's wife, young Indian woman, delicate features, traditional sari\n"
+        "- Indira: Nehru's daughter, young Indian woman\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of Indian modernist art — "
+        "warm earth tones, deep saffron, terracotta, forest green, and indigo. "
+        "Dignified, historically evocative character portrait. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in Indian modernist art style — "
+        "warm earth tones, deep saffron, terracotta, forest green, and indigo palette. "
+        "Ahmadnagar Fort at twilight — massive stone walls and battlements, "
+        "a writing desk by a barred window overlooking vast Indian plains, "
+        "scattered books and manuscripts, an oil lamp casting warm light, "
+        "distant view of ancient temples and village silhouettes against a dramatic sunset sky. "
+        "NO people, NO figures. Pure interior/landscape scenery. "
+        "Historically evocative, contemplative, dignified. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+))
+
+
+# ── Bhagavad Gita (Chinmayananda) ────────────────────────────────────────
+
+_register(BookConfig(
+    id="bhagavad-gita",
+    title="Bhagavad Gita",
+    transliterated_title="Bhagavad Gita",
+    original_title="The Holy Geeta",
+    author_id="swami-chinmayananda",
+    author_name="Swami Chinmayananda",
+    author_years="1916–1993",
+    original_language="Sanskrit",
+    original_script="Devanagari",
+    original_year=1969,
+    genre=["Philosophy", "Spirituality", "Commentary"],
+    accent_color="#B8860B",
+    verse_detection=True,
+    style_context=(
+        "A comprehensive commentary on the Bhagavad Gita by Swami Chinmayananda, "
+        "one of the most influential Vedanta teachers of the 20th century. "
+        "The text alternates between translated Sanskrit verses of the Gita and "
+        "extensive philosophical commentary explaining each verse. "
+        "Set on the battlefield of Kurukshetra, the dialogue between Lord Krishna "
+        "and the warrior Arjuna covers duty, devotion, knowledge, and liberation."
+    ),
+    translation_prompt="",
+    chapter_context=(
+        "The Bhagavad Gita has 18 chapters, each called a 'Yoga'. "
+        "Chapter titles include: Arjuna Vishada Yoga, Sankhya Yoga, Karma Yoga, "
+        "Jnana Karma Sanyasa Yoga, etc. Each chapter contains numbered verses "
+        "with speaker attributions (The Blessed Lord said, Arjuna said, Sanjaya said) "
+        "followed by philosophical commentary."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate "The Holy Geeta" (1969), '
+        "a commentary on the Bhagavad Gita by Swami Chinmayananda.\n\n"
+        "For the given chapter text, extract three categories of terms:\n\n"
+        '1. **Characters** — Figures from the Mahabharata mentioned (Krishna, Arjuna, Dhritarashtra, etc.). 1-2 sentence description.\n'
+        '2. **Proper nouns** — Places, texts, philosophical schools, dynasties. Brief explanation.\n'
+        '3. **Vocabulary** — Sanskrit philosophical terms (dharma, karma, yoga, atman, brahman, etc.) and other Indian terms. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Sanskrit, Vedantic, and Indian philosophical terminology.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "A fusion of Japanese ukiyo-e woodblock print aesthetics with Rajput painting — "
+        "dramatic flat color planes, strong compositional diagonals, stylized clouds and waves "
+        "reimagined as Indian motifs, bold outlines with subtle color gradients, theatrical staging "
+        "of mythological figures. No text. No frame-within-frame, no inset panels, single unified scene only."
+        "\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Lord Krishna: blue-skinned, wearing golden crown and yellow robes, serene and wise\n"
+        "- Arjuna: warrior prince, athletic, wielding the Gandiva bow\n"
+        "- Sanjaya: royal narrator, elderly, dignified\n"
+        "- Dhritarashtra: blind old king, white-haired, anxious expression\n"
+    ),
+    character_style_prefix=(
+        "A fusion of Japanese ukiyo-e woodblock print aesthetics with Rajput painting — "
+        "dramatic flat color planes, bold outlines with subtle color gradients. "
+        "Ornate, devotional character portrait. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "A fusion of Japanese ukiyo-e woodblock print aesthetics with Rajput painting — "
+        "dramatic flat color planes, strong compositional diagonals, bold outlines with subtle color gradients. "
+        "A sweeping panoramic view of the battlefield of Kurukshetra at dawn — "
+        "two vast armies facing each other across a wide plain, elephants and warriors in formation, "
+        "golden sunrise illuminating the scene with dramatic rays of light, "
+        "distant mountains and a sacred river, divine cosmic energy in the sky. "
+        "NO text, NO border, NO frame. 16:9 cinematic landscape ratio."
+    ),
+))
+
+# ── Panchatantra ─────────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="panchatantra",
+    title="The Panchatantra",
+    transliterated_title="Panchatantra",
+    original_title="पञ्चतन्त्र",
+    author_id="vishnu-sharma",
+    author_name="Vishnu Sharma",
+    author_years="c. 300 BCE",
+    original_language="Sanskrit",
+    original_year=-300,
+    genre=["Fables", "Philosophy", "Folklore"],
+    accent_color="#C4872F",
+    style_context=(
+        "Ancient Indian fable anthology — 87 animal fables and moral tales across five books, "
+        "attributed to the scholar Vishnu Sharma. The stories use nested narratives with talking "
+        "animals to teach political wisdom (niti) and practical conduct. Arthur Ryder's 1925 "
+        "English verse-and-prose translation."
+    ),
+    type="anthology",
+    annotation_prompt=(
+        'You are a literary analyst helping annotate an English translation of '
+        '"The Panchatantra", an ancient Sanskrit collection of animal fables '
+        "attributed to Vishnu Sharma (c. 300 BCE). Arthur Ryder's translation.\n\n"
+        "For the given chapter text, extract three categories of terms:\n\n"
+        '1. **Characters** — Named characters (animals or humans). 1-2 sentence description.\n'
+        '2. **Proper nouns** — Place names, kingdom names, Sanskrit terms, Indian cultural references. Brief explanation.\n'
+        '3. **Vocabulary** — Archaic English, Sanskrit-origin, or culturally-specific words/phrases. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Sanskrit, Indian-origin, or archaic terms.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of a traditional Indian miniature painting — "
+        "vivid jewel-toned gouache colors, gold accents, intricate patterning, "
+        "flat perspective with layered composition. "
+        "Lush Indian forest and palace settings with ornate architectural details. "
+        "Animals should be expressive and anthropomorphized in the Indian folk art tradition. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Ancient India setting with tropical forests, lotus ponds, and sandstone palaces.\n\nScene: "
+    ),
+    characters_description=(
+        "Key recurring characters (vary by story):\n"
+        "- Various talking animals: lions, jackals, crows, owls, mice, turtles, deer, monkeys\n"
+        "- Brahmans: traditional Indian scholars in white dhoti, sacred thread\n"
+        "- Kings: ornate Indian royal attire, crowns, seated on thrones\n"
+        "- Merchants: prosperous Indian traders in fine cotton garments\n"
+    ),
+    character_style_prefix=(
+        "A traditional Indian miniature painting portrait — "
+        "vivid jewel-toned gouache, gold leaf accents, ornate decorative border. "
+        "Expressive character portrait in the Rajput/Mughal miniature tradition. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "A traditional Indian miniature painting — vivid jewel-toned gouache colors, "
+        "gold leaf accents, intricate floral borders. "
+        "A sweeping panoramic scene of an ancient Indian forest clearing — "
+        "a wise old Brahman scholar seated under a grand banyan tree, surrounded by "
+        "attentive animal listeners: a lion, a jackal, a crow, a turtle, and a deer. "
+        "Lush tropical vegetation, lotus pond, distant sandstone palace. "
+        "Warm golden light filtering through the canopy. "
+        "NO text, NO border, NO frame. 16:9 cinematic landscape ratio."
     ),
 ))

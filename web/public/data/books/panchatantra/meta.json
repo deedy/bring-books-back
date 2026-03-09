@@ -1,0 +1,23 @@
+{
+  "id": "panchatantra",
+  "title": "The Panchatantra",
+  "transliteratedTitle": "Panchatantra",
+  "subtitle": "Ancient Animal Tales of Wisdom and Wit",
+  "authorId": "vishnu-sharma",
+  "coverImage": "/data/images/covers/panchatantra.webp",
+  "accentColor": "#C4872F",
+  "genre": [
+    "Fables",
+    "Philosophy",
+    "Folklore"
+  ],
+  "originalLanguage": "Sanskrit",
+  "originalTitle": "पञ्चतन्त्र",
+  "originalYear": -300,
+  "totalChapters": 87,
+  "wordCount": 92269,
+  "summary": "The Panchatantra — from the Sanskrit ‘pancha’ (five) and ‘tantra’ (treatises) — is a timeless collection of animal fables organized into five books, each built around a central story of survival and statecraft. Cunning jackals, noble lions, and playful monkeys reveal practical lessons in friendship, leadership, and navigating life’s challenges. Each tale, layered with humor and keen observation, offers universal truths wrapped in unforgettable adventures — making this ancient Indian masterwork both a source of entertainment and ageless wisdom.",
+  "type": "anthology",
+  "totalStories": 5,
+  "heroImage": "/data/images/heroes/panchatantra.webp"
+}

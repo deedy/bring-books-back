@@ -25,6 +25,7 @@ STAGES = [
     "images",
     "characters",
     "heroes",
+    "authors",
 ]
 
 
@@ -37,7 +38,10 @@ def check_stage(book_id, stage):
         "chapters": lambda: os.path.exists(str(cfg.chapters_def_json)),
         "json": lambda: os.path.exists(str(cfg.web_chapters_json)),
         "original_json": lambda: os.path.exists(str(cfg.web_original_chapters_json)),
-        "annotations": lambda: os.path.exists(str(cfg.web_annotations_json)),
+        "annotations": lambda: (
+            _check_anthology_annotations(cfg) if cfg.type == "anthology"
+            else os.path.exists(str(cfg.web_annotations_json))
+        ),
         "images": lambda: (
             os.path.exists(str(cfg.images_dir))
             and any(f.endswith("_web.png") for f in os.listdir(str(cfg.images_dir)))
@@ -50,8 +54,29 @@ def check_stage(book_id, stage):
         "heroes": lambda: os.path.exists(
             str(cfg.web_book_dir.parent.parent / "images" / "heroes" / f"{book_id}.webp")
         ),
+        "authors": lambda: os.path.exists(
+            str(cfg.web_book_dir.parent.parent / "images" / "authors" / f"{cfg.author_id}.webp")
+        ),
     }
     return checks.get(stage, lambda: False)()
+
+
+def _check_anthology_annotations(cfg):
+    """Check if all sub-books have annotations."""
+    import json
+    anthology_path = cfg.web_book_dir / "anthology.json"
+    if not anthology_path.exists():
+        return False
+    with open(anthology_path) as f:
+        anthology = json.load(f)
+    story_ids = anthology.get("storyBookIds", [])
+    if not story_ids:
+        return False
+    from pipeline.config import WEB_DATA_DIR
+    return all(
+        os.path.exists(str(WEB_DATA_DIR / "books" / sid / "annotations.json"))
+        for sid in story_ids
+    )
 
 
 def _has_character_images(book_id):
@@ -94,6 +119,9 @@ def run_stage(book_id, stage, force=False):
         return run(book_id, force=force)
     elif stage == "heroes":
         from pipeline.generate_heroes import run
+        return run(book_id, force=force)
+    elif stage == "authors":
+        from pipeline.generate_authors import run
         return run(book_id, force=force)
     else:
         print(f"Unknown stage: {stage}")

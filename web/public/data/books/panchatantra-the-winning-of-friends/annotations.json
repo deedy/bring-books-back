@@ -1,0 +1,957 @@
+{
+  "glossary": {
+    "Vishnushaman": {
+      "type": "character",
+      "description": "The narrator who tells the story to the princes."
+    },
+    "Swift": {
+      "type": "character",
+      "description": "A wise and cautious crow who lives in the banyan tree and is a friend to the other animal characters.",
+      "image": "/data/images/characters/panchatantra-the-winning-of-friends/swift.png"
+    },
+    "Gay-Neck": {
+      "type": "character",
+      "description": "A dove-king who leads a flock of doves and is caught in the hunter's snare."
+    },
+    "Ravan": {
+      "type": "character",
+      "description": "A figure from the Indian epic Ramayana, known for abducting Sita."
+    },
+    "Rama": {
+      "type": "character",
+      "description": "A hero of the Ramayana, husband of Sita, and slayer of Ravan."
+    },
+    "Yudhishthir": {
+      "type": "character",
+      "description": "A principal character from the Mahabharata, known for his righteousness but also for his weakness for gambling."
+    },
+    "Book II": {
+      "type": "proper_noun",
+      "description": "The second book of the Panchatantra, titled 'The Winning of Friends,' focusing on friendship and cooperation."
+    },
+    "Maidens’ Delight": {
+      "type": "proper_noun",
+      "description": "A city in the southern country where part of the story takes place."
+    },
+    "banyan tree": {
+      "type": "proper_noun",
+      "description": "A large, sacred fig tree native to India, known for its aerial roots and cultural significance."
+    },
+    "Bharunda": {
+      "type": "proper_noun",
+      "description": "A mythical bird with two necks and a single belly, symbolizing the dangers of disunity; its story illustrates the importance of unity."
+    },
+    "snare": {
+      "type": "vocabulary",
+      "description": "A trap for catching birds or animals, typically made of a noose of wire or cord."
+    },
+    "club": {
+      "type": "vocabulary",
+      "description": "A heavy stick used as a weapon."
+    },
+    "noose": {
+      "type": "vocabulary",
+      "description": "A loop with a running knot, tightening as the rope or wire is pulled, used for trapping."
+    },
+    "incarnation": {
+      "type": "vocabulary",
+      "description": "The embodiment of a deity or spirit in earthly form, often used in Indian religious context."
+    },
+    "unrighteousness": {
+      "type": "vocabulary",
+      "description": "Lack of moral virtue or justice; wickedness."
+    },
+    "mesh": {
+      "type": "vocabulary",
+      "description": "The netting or network of a snare or trap."
+    },
+    "dissuasion": {
+      "type": "vocabulary",
+      "description": "The act of advising against something."
+    },
+    "Gold": {
+      "type": "character",
+      "description": "A mouse skilled in social ethics, who helps free the doves and becomes friends with Swift.",
+      "image": "/data/images/characters/panchatantra-the-winning-of-friends/gold.png"
+    },
+    "Slow": {
+      "type": "character",
+      "description": "A turtle living by a lake in the jungle, an old friend of Swift the crow.",
+      "image": "/data/images/characters/panchatantra-the-winning-of-friends/slow.png"
+    },
+    "Indra": {
+      "type": "proper_noun",
+      "description": "King of the gods in Hindu mythology, referenced in proverbs about oaths and enmity."
+    },
+    "Diti": {
+      "type": "proper_noun",
+      "description": "A figure in Hindu mythology, mother of demons, referenced in a proverb about Indra."
+    },
+    "Panini": {
+      "type": "proper_noun",
+      "description": "A legendary Sanskrit grammarian, referenced as an example of a scholar killed by a beast."
+    },
+    "Jaimini": {
+      "type": "proper_noun",
+      "description": "A sage and philosopher in Indian tradition, referenced as a victim of a mad elephant."
+    },
+    "Pingal": {
+      "type": "proper_noun",
+      "description": "An ancient Indian scholar of prosody, referenced as being killed by a crocodile."
+    },
+    "dhak-blossom": {
+      "type": "proper_noun",
+      "description": "A bright red flower (Butea monosperma) native to India, used as a simile for the color of meat."
+    },
+    "Arcturus": {
+      "type": "proper_noun",
+      "description": "A bright star, referenced in a proverb about the ocean waiting for its contribution."
+    },
+    "retinue": {
+      "type": "vocabulary",
+      "description": "A group of attendants or followers accompanying an important person."
+    },
+    "fortress-den": {
+      "type": "vocabulary",
+      "description": "A fortified or well-protected animal burrow or home."
+    },
+    "qui vive": {
+      "type": "vocabulary",
+      "description": "An archaic phrase meaning 'on the alert' or 'watchful.'"
+    },
+    "servants": {
+      "type": "vocabulary",
+      "description": "Those who serve a master; in this context, animal followers."
+    },
+    "tyrants": {
+      "type": "vocabulary",
+      "description": "Cruel or oppressive rulers."
+    },
+    "toothache": {
+      "type": "vocabulary",
+      "description": "A sudden pain in a tooth, here used humorously as a possible interruption."
+    },
+    "triple world": {
+      "type": "vocabulary",
+      "description": "A concept from Indian cosmology referring to the three realms: heaven, earth, and the underworld."
+    },
+    "sedulous": {
+      "type": "vocabulary",
+      "description": "Showing dedication and diligence."
+    },
+    "bosom friend": {
+      "type": "vocabulary",
+      "description": "A very close and dear friend."
+    },
+    "twing": {
+      "type": "vocabulary",
+      "description": "Likely a variant or archaic spelling of 'twig,' a small branch."
+    },
+    "Full-Flight": {
+      "type": "vocabulary",
+      "description": "A named type of bird flight, part of a list of eight flight types."
+    },
+    "Crop-Ear": {
+      "type": "character",
+      "description": "A hermit living near a shrine to Shiva who struggles to protect his food hoard from a clever mouse, whom he views as a villain."
+    },
+    "Wide-Bottom": {
+      "type": "character",
+      "description": "A holy man and guest of Crop-Ear, known for his pious tales and forthright manner."
+    },
+    "Mother Shandilee": {
+      "type": "character",
+      "description": "A character representing practical wisdom in a proverb about sesame grain, whose identity is confirmed by Kamandaki, the son of a householder."
+    },
+    "Shiva": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, worshipped as the destroyer and transformer within the Trimurti."
+    },
+    "alms-bowl": {
+      "type": "vocabulary",
+      "description": "A bowl used by hermits or monks to collect food given as charity."
+    },
+    "dainties": {
+      "type": "vocabulary",
+      "description": "Delicate or choice foods, often sweet or specially prepared."
+    },
+    "treacle": {
+      "type": "vocabulary",
+      "description": "A thick, sweet syrup made during the refining of sugar; similar to molasses."
+    },
+    "ordinance": {
+      "type": "vocabulary",
+      "description": "A prescribed religious or moral rule or practice."
+    },
+    "contrition": {
+      "type": "vocabulary",
+      "description": "Sincere remorse or penitence for wrongdoing."
+    },
+    "chaplain": {
+      "type": "vocabulary",
+      "description": "A clergy member attached to a private chapel, institution, or group."
+    },
+    "abbot": {
+      "type": "vocabulary",
+      "description": "The head of a monastery or community of monks."
+    },
+    "recompense": {
+      "type": "vocabulary",
+      "description": "Compensation or reward given for loss or effort."
+    },
+    "bamboo": {
+      "type": "vocabulary",
+      "description": "A fast-growing woody grass, often used in India for tools and construction."
+    },
+    "hulled": {
+      "type": "vocabulary",
+      "description": "With the outer covering or husk removed, especially referring to grains."
+    },
+    "unhulled": {
+      "type": "vocabulary",
+      "description": "With the outer covering or husk still present, especially referring to grains."
+    },
+    "mouse-hole": {
+      "type": "vocabulary",
+      "description": "The hole or burrow where a mouse lives, often used metaphorically for a hiding place."
+    },
+    "Brahman": {
+      "type": "character",
+      "description": "A pious man and his skeptical wife who discuss the merits of charitable giving and the struggles of their poverty.",
+      "image": "/data/images/characters/panchatantra-the-winning-of-friends/brahman.png"
+    },
+    "Scriptures": {
+      "type": "proper_noun",
+      "description": "Sacred Hindu texts that provide moral and religious guidance."
+    },
+    "betimes": {
+      "type": "vocabulary",
+      "description": "An archaic English word meaning early or at an early hour."
+    },
+    "mite": {
+      "type": "vocabulary",
+      "description": "A small amount, often used to refer to a tiny contribution or offering."
+    },
+    "solstice": {
+      "type": "vocabulary",
+      "description": "The time when the sun is at its greatest distance from the celestial equator, marking the change of seasons."
+    },
+    "pious": {
+      "type": "vocabulary",
+      "description": "Devoutly religious or showing reverence for religious duties."
+    },
+    "hillman": {
+      "type": "character",
+      "description": "A hunter who attempts to kill a boar and is killed in turn; his body, along with the boar's, is later found by a starving jackal and his wife who die due to their own greed.",
+      "image": "/data/images/characters/panchatantra-the-winning-of-friends/hillman.png"
+    },
+    "boar": {
+      "type": "character",
+      "description": "A wild animal that is hunted by the hillman and kills him before dying from an arrow wound."
+    },
+    "cat": {
+      "type": "character",
+      "description": "A predatory animal that attacks the pack of mice."
+    },
+    "mice": {
+      "type": "character",
+      "description": "Followers of the narrator, who suffer losses from the cat and later abandon their leader."
+    },
+    "Sooty Mountain": {
+      "type": "proper_noun",
+      "description": "A mountain referenced to describe the appearance of the boar."
+    },
+    "Himalaya": {
+      "type": "proper_noun",
+      "description": "A famous mountain range in India, mentioned in a proverb about danger."
+    },
+    "shaft": {
+      "type": "vocabulary",
+      "description": "An archaic term for an arrow."
+    },
+    "bow-string": {
+      "type": "vocabulary",
+      "description": "The string of a bow, used to shoot arrows."
+    },
+    "sinew": {
+      "type": "vocabulary",
+      "description": "A tendon, often used for binding or as a string in traditional bows."
+    },
+    "elixir": {
+      "type": "vocabulary",
+      "description": "A magical or medicinal potion, often believed to grant health or immortality."
+    },
+    "dowrl": {
+      "type": "vocabulary",
+      "description": "An archaic or possibly misprinted word, likely meant to be 'dowrl' or 'dowry', referring to a precious drink or item."
+    },
+    "topknot": {
+      "type": "vocabulary",
+      "description": "A tuft of hair or ornament worn on the top of the head."
+    },
+    "preachment": {
+      "type": "vocabulary",
+      "description": "A sermon or moral lecture."
+    },
+    "sesame": {
+      "type": "vocabulary",
+      "description": "An oilseed crop, often used in Indian cuisine and rituals."
+    },
+    "alms": {
+      "type": "vocabulary",
+      "description": "Charitable donations, usually of food or money, given to the poor or holy men."
+    },
+    "pickaxe": {
+      "type": "vocabulary",
+      "description": "A tool with a heavy metal head used for digging."
+    },
+    "prodigious": {
+      "type": "vocabulary",
+      "description": "Remarkably or impressively great in extent, size, or degree."
+    },
+    "hobbling": {
+      "type": "vocabulary",
+      "description": "Limping or walking with difficulty."
+    },
+    "uncouth": {
+      "type": "vocabulary",
+      "description": "Strange or clumsy in appearance or manner; uncivilized."
+    },
+    "tufted": {
+      "type": "vocabulary",
+      "description": "Having or adorned with a tuft or tufts."
+    },
+    "dole": {
+      "type": "vocabulary",
+      "description": "A charitable gift of food, money, or clothing."
+    },
+    "scamp": {
+      "type": "vocabulary",
+      "description": "A mischievous or dishonest person."
+    },
+    "tramp": {
+      "type": "vocabulary",
+      "description": "A person who travels from place to place on foot, often in search of work or as a vagrant."
+    },
+    "moneybag": {
+      "type": "vocabulary",
+      "description": "A bag for holding money; here, used metaphorically for wealth."
+    },
+    "rills": {
+      "type": "vocabulary",
+      "description": "Small streams or rivulets."
+    },
+    "crow-barley": {
+      "type": "vocabulary",
+      "description": "A type of wild barley, often considered of little value."
+    },
+    "buffets": {
+      "type": "vocabulary",
+      "description": "Blows or strikes, especially with the hand."
+    },
+    "cars of heaven": {
+      "type": "vocabulary",
+      "description": "Mythological reference to divine chariots or vehicles."
+    },
+    "frazzled": {
+      "type": "vocabulary",
+      "description": "Worn out or frayed."
+    },
+    "mincing": {
+      "type": "vocabulary",
+      "description": "Walking with short, dainty steps."
+    },
+    "beggar": {
+      "type": "vocabulary",
+      "description": "A person who lives by asking for charity."
+    },
+    "monk": {
+      "type": "vocabulary",
+      "description": "A member of a religious community, often living in poverty and chastity."
+    },
+    "Mister Duly": {
+      "type": "character",
+      "description": "The son of a merchant named Ocean, he is known for his repetitive phrase 'What’s duly his, a man receives' and mistakenly marries Naughty."
+    },
+    "Moonlight": {
+      "type": "character",
+      "description": "A princess in the story, young and beautiful, who falls in love at first sight with a prince."
+    },
+    "Fine-Fame": {
+      "type": "character",
+      "description": "A bridegroom from another district who arrives for his wedding but flees when an elephant runs amuck."
+    },
+    "Naughty": {
+      "type": "character",
+      "description": "The policeman’s daughter, a young and beautiful girl who mistakenly marries Mister Duly in the darkness."
+    },
+    "rupees": {
+      "type": "proper_noun",
+      "description": "The currency of India, used here to indicate the price paid for the book."
+    },
+    "Brahman-slayer": {
+      "type": "proper_noun",
+      "description": "A Sanskrit cultural reference to someone who commits the grave sin of killing a Brahmin, considered one of the worst sins."
+    },
+    "Vishnu": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, referenced here as the universal lord."
+    },
+    "Mount Meru": {
+      "type": "proper_noun",
+      "description": "A sacred mountain in Hindu, Jain, and Buddhist cosmology, considered the center of all physical, metaphysical, and spiritual universes."
+    },
+    "thanatophidian": {
+      "type": "proper_noun",
+      "description": "A scientific term referring to venomous snakes, derived from Greek but used in Indian context here."
+    },
+    "lord of seven continents": {
+      "type": "proper_noun",
+      "description": "A reference to the ancient Indian cosmological concept of a ruler who controls all the world's continents."
+    },
+    "wigging": {
+      "type": "vocabulary",
+      "description": "An archaic English term meaning a scolding or reprimand."
+    },
+    "stucco": {
+      "type": "vocabulary",
+      "description": "A fine plaster used for coating wall surfaces or molding into architectural decorations."
+    },
+    "sang-froid": {
+      "type": "vocabulary",
+      "description": "A French-origin term meaning composure or coolness, sometimes excessive, as shown in danger or under trying circumstances."
+    },
+    "tomtoms": {
+      "type": "vocabulary",
+      "description": "Indian drums used in processions and celebrations."
+    },
+    "amuck": {
+      "type": "vocabulary",
+      "description": "A term of Malay origin meaning to behave uncontrollably and disruptively."
+    },
+    "ablossom": {
+      "type": "vocabulary",
+      "description": "An archaic or poetic term meaning in full bloom or blossoming."
+    },
+    "date": {
+      "type": "vocabulary",
+      "description": "In this context, an appointment or meeting, especially of a romantic nature."
+    },
+    "finery": {
+      "type": "vocabulary",
+      "description": "Expensive or ostentatious clothes or decoration, especially for a special occasion."
+    },
+    "crown prince": {
+      "type": "vocabulary",
+      "description": "The male heir apparent to the throne."
+    },
+    "leagues": {
+      "type": "vocabulary",
+      "description": "An old unit of distance, roughly three miles."
+    },
+    "draughts": {
+      "type": "vocabulary",
+      "description": "An archaic term for drinks or doses of liquid."
+    },
+    "continent": {
+      "type": "vocabulary",
+      "description": "In this context, refers to the large landmasses of the world, but also used in Indian cosmology."
+    },
+    "charity": {
+      "type": "vocabulary",
+      "description": "The voluntary giving of help, typically in the form of money, to those in need."
+    },
+    "Soft": {
+      "type": "character",
+      "description": "A weaver who struggles to earn more than food and clothes, despite his skill and efforts."
+    },
+    "Doer": {
+      "type": "character",
+      "description": "A supernatural figure representing the agent of actions or fate, who debates with Deed about Soft's fortune."
+    },
+    "Deed": {
+      "type": "character",
+      "description": "A supernatural figure representing the consequences of actions, who interacts with Doer regarding Soft's fate."
+    },
+    "Growing City": {
+      "type": "proper_noun",
+      "description": "A city to which Soft moves in hopes of earning more money."
+    },
+    "cowrie": {
+      "type": "proper_noun",
+      "description": "A type of shell historically used as currency in India and other parts of Asia."
+    },
+    "kine": {
+      "type": "vocabulary",
+      "description": "An archaic plural of 'cow'."
+    },
+    "fiendish": {
+      "type": "vocabulary",
+      "description": "Having the qualities of a fiend; extremely wicked or cruel."
+    },
+    "spear-grass": {
+      "type": "vocabulary",
+      "description": "A type of tough grass, often used for making ropes in India."
+    },
+    "capital": {
+      "type": "vocabulary",
+      "description": "Wealth in the form of money or assets."
+    },
+    "base-born": {
+      "type": "vocabulary",
+      "description": "Of low or humble birth; not noble."
+    },
+    "forlorn": {
+      "type": "vocabulary",
+      "description": "Pitifully sad and abandoned or lonely."
+    },
+    "Hang-Ball": {
+      "type": "character",
+      "description": "A bull who, due to excess male vigor, leaves his herd and lives wildly in the forest."
+    },
+    "Greedy": {
+      "type": "character",
+      "description": "A jackal living in the forest with his wife, who becomes obsessed with the idea of obtaining the bull's testicles."
+    },
+    "Penny-Hide": {
+      "type": "character",
+      "description": "Two merchant sons in Growing City who represent the extremes of miserliness and generosity toward guests."
+    },
+    "Spot": {
+      "type": "character",
+      "description": "A deer who joins the group of friends after fleeing from hunters and becomes a central character in the story.",
+      "image": "/data/images/characters/panchatantra-the-winning-of-friends/spot.png"
+    },
+    "Himalayan": {
+      "type": "proper_noun",
+      "description": "Refers to the Himalayan mountains, symbolizing great strength or hardness."
+    },
+    "Lord of All": {
+      "type": "proper_noun",
+      "description": "A reference to the supreme deity or God, invoked as the granter of fate and fortune."
+    },
+    "king-swans": {
+      "type": "proper_noun",
+      "description": "A reference to the regal swans, often symbolic in Indian literature."
+    },
+    "emerald-tipped": {
+      "type": "vocabulary",
+      "description": "Describes grass with tips as green as emeralds; poetic imagery."
+    },
+    "fool’s errand": {
+      "type": "vocabulary",
+      "description": "An idiom meaning a pointless or hopeless task."
+    },
+    "indolence": {
+      "type": "vocabulary",
+      "description": "Laziness or avoidance of activity."
+    },
+    "plover": {
+      "type": "vocabulary",
+      "description": "A type of wading bird, referenced in a proverb."
+    },
+    "mouse-flesh": {
+      "type": "vocabulary",
+      "description": "Meat of a mouse, indicating the jackal's usual food."
+    },
+    "cholera": {
+      "type": "vocabulary",
+      "description": "An infectious disease, here indicating Penny-Hide's illness."
+    },
+    "courtyard": {
+      "type": "vocabulary",
+      "description": "An open space surrounded by buildings, common in Indian homes."
+    },
+    "penance": {
+      "type": "vocabulary",
+      "description": "A religious or spiritual act of self-discipline or repentance."
+    },
+    "asylum": {
+      "type": "vocabulary",
+      "description": "A place of safety or refuge."
+    },
+    "league": {
+      "type": "vocabulary",
+      "description": "An old measure of distance, roughly three miles."
+    },
+    "grooms": {
+      "type": "vocabulary",
+      "description": "Servants who take care of horses, common in royal or wealthy households."
+    },
+    "self-prostration": {
+      "type": "vocabulary",
+      "description": "The act of humbling oneself completely, often in a physical or spiritual sense."
+    },
+    "nectar-draught": {
+      "type": "vocabulary",
+      "description": "A poetic phrase for a drink of nectar, symbolizing supreme satisfaction."
+    },
+    "virtue": {
+      "type": "vocabulary",
+      "description": "Moral excellence or goodness."
+    },
+    "suppliant": {
+      "type": "vocabulary",
+      "description": "A person making a humble plea to someone in power or authority."
+    },
+    "vow": {
+      "type": "vocabulary",
+      "description": "A solemn promise or commitment, often religious."
+    },
+    "desiderating": {
+      "type": "vocabulary",
+      "description": "Desiring or longing for something."
+    },
+    "fructify": {
+      "type": "vocabulary",
+      "description": "To bear fruit or produce results."
+    },
+    "particolored": {
+      "type": "vocabulary",
+      "description": "Having various or different colors."
+    },
+    "elephant-king": {
+      "type": "character",
+      "description": "The leader of an elephant herd and his retinue who interact with the mice, moving from a position of threat to one of friendship and rescue."
+    },
+    "acacia-wood": {
+      "type": "proper_noun",
+      "description": "Wood from the acacia tree, native to India and commonly referenced in Indian literature."
+    },
+    "fettered": {
+      "type": "vocabulary",
+      "description": "Bound or chained, typically referring to being restrained."
+    },
+    "dunderheads": {
+      "type": "vocabulary",
+      "description": "Foolish or stupid people; an archaic English insult."
+    },
+    "willy-nilly": {
+      "type": "vocabulary",
+      "description": "Whether one likes it or not; without choice, or in a disorganized manner."
+    },
+    "trap": {
+      "type": "vocabulary",
+      "description": "A device or enclosure used for capturing animals, here specifically for elephants and Spot."
+    },
+    "guy-ropes": {
+      "type": "vocabulary",
+      "description": "Ropes used to secure or stabilize something, such as a trap or tent."
+    },
+    "prince": {
+      "type": "character",
+      "description": "A royal figure and ruler who commands elephant-trappers and later receives Spot the deer as a pet, becoming astonished by the animal's speech."
+    },
+    "holy man": {
+      "type": "character",
+      "description": "A compassionate figure who understands Spot's plight and persuades the prince to release him."
+    },
+    "Jump-Up": {
+      "type": "proper_noun",
+      "description": "One of the two gaits of deer mentioned in the story, used to avoid snares."
+    },
+    "Straightaway": {
+      "type": "proper_noun",
+      "description": "The other gait of deer, which Spot knows but is less useful for avoiding traps."
+    },
+    "gambol": {
+      "type": "vocabulary",
+      "description": "To skip or jump about playfully."
+    },
+    "palatable": {
+      "type": "vocabulary",
+      "description": "Acceptable or pleasant to taste."
+    },
+    "cudgels": {
+      "type": "vocabulary",
+      "description": "Short, thick sticks used as weapons."
+    },
+    "malady": {
+      "type": "vocabulary",
+      "description": "A disease or ailment."
+    },
+    "sorcerers": {
+      "type": "vocabulary",
+      "description": "People who claim to have magical powers; magicians."
+    },
+    "conjurer": {
+      "type": "vocabulary",
+      "description": "A person who performs magic tricks or illusions."
+    },
+    "fortress": {
+      "type": "vocabulary",
+      "description": "A stronghold or place of defense, here used metaphorically for a place of safety."
+    },
+    "prodigy": {
+      "type": "vocabulary",
+      "description": "An extraordinary or marvelous event; here, the prince refers to the talking deer as a prodigy."
+    },
+    "predestined": {
+      "type": "vocabulary",
+      "description": "Determined in advance by fate or destiny."
+    },
+    "ointment": {
+      "type": "vocabulary",
+      "description": "A smooth substance applied to the skin for healing or soothing."
+    },
+    "salves": {
+      "type": "vocabulary",
+      "description": "Healing ointments used to soothe the skin."
+    },
+    "brace": {
+      "type": "vocabulary",
+      "description": "To prepare oneself for something difficult or unpleasant."
+    },
+    "wits": {
+      "type": "vocabulary",
+      "description": "Mental faculties; intelligence."
+    },
+    "brittleness": {
+      "type": "vocabulary",
+      "description": "Fragility or tendency to break easily, used metaphorically for the world."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Vishnushaman",
+      "Swift",
+      "Gay-Neck",
+      "Ravan",
+      "Rama",
+      "Yudhishthir",
+      "Book II",
+      "Maidens’ Delight",
+      "banyan tree",
+      "Bharunda",
+      "snare",
+      "club",
+      "noose",
+      "incarnation",
+      "unrighteousness",
+      "mesh",
+      "dissuasion"
+    ],
+    "ch-2": [
+      "Gay-Neck",
+      "Swift",
+      "Gold",
+      "Slow",
+      "Maidens’ Delight",
+      "Indra",
+      "Diti",
+      "Panini",
+      "Jaimini",
+      "Pingal",
+      "dhak-blossom",
+      "Arcturus",
+      "snare",
+      "retinue",
+      "fortress-den",
+      "qui vive",
+      "servants",
+      "tyrants",
+      "toothache",
+      "triple world",
+      "sedulous",
+      "bosom friend",
+      "twing",
+      "Full-Flight",
+      "Bharunda",
+      "hillman"
+    ],
+    "ch-3": [
+      "Crop-Ear",
+      "Wide-Bottom",
+      "Mother Shandilee",
+      "Maidens’ Delight",
+      "Shiva",
+      "Mother Shandilee",
+      "alms-bowl",
+      "dainties",
+      "treacle",
+      "ordinance",
+      "contrition",
+      "chaplain",
+      "abbot",
+      "recompense",
+      "bamboo",
+      "hulled",
+      "unhulled",
+      "mouse-hole",
+      "servants"
+    ],
+    "ch-4": [
+      "Brahman",
+      "Brahman",
+      "Scriptures",
+      "betimes",
+      "mite",
+      "solstice",
+      "pious"
+    ],
+    "ch-5": [
+      "hillman",
+      "boar",
+      "Brahman",
+      "Mother Shandilee",
+      "Wide-Bottom",
+      "Crop-Ear",
+      "cat",
+      "mice",
+      "Sooty Mountain",
+      "Himalaya",
+      "Brahman",
+      "hillman",
+      "shaft",
+      "bow-string",
+      "sinew",
+      "elixir",
+      "dowrl",
+      "topknot",
+      "preachment",
+      "sesame",
+      "alms",
+      "pickaxe",
+      "prodigious",
+      "hobbling",
+      "uncouth",
+      "tufted",
+      "dole",
+      "scamp",
+      "tramp",
+      "moneybag",
+      "rills",
+      "crow-barley",
+      "buffets",
+      "cars of heaven",
+      "frazzled",
+      "mincing",
+      "beggar",
+      "monk"
+    ],
+    "ch-6": [
+      "Mister Duly",
+      "Moonlight",
+      "Fine-Fame",
+      "Naughty",
+      "Gold",
+      "Swift",
+      "Slow",
+      "rupees",
+      "Brahman-slayer",
+      "Vishnu",
+      "Mount Meru",
+      "Himalaya",
+      "thanatophidian",
+      "lord of seven continents",
+      "wigging",
+      "stucco",
+      "sang-froid",
+      "tomtoms",
+      "amuck",
+      "ablossom",
+      "date",
+      "finery",
+      "crown prince",
+      "leagues",
+      "draughts",
+      "alms",
+      "continent",
+      "charity"
+    ],
+    "ch-7": [
+      "Soft",
+      "Doer",
+      "Deed",
+      "Growing City",
+      "banyan tree",
+      "cowrie",
+      "kine",
+      "fiendish",
+      "spear-grass",
+      "noose",
+      "capital",
+      "base-born",
+      "forlorn"
+    ],
+    "ch-8": [
+      "Hang-Ball",
+      "Greedy",
+      "Penny-Hide",
+      "Soft",
+      "Doer",
+      "Deed",
+      "Gold",
+      "Swift",
+      "Slow",
+      "Spot",
+      "Growing City",
+      "Himalayan",
+      "Lord of All",
+      "Scriptures",
+      "king-swans",
+      "emerald-tipped",
+      "fool’s errand",
+      "indolence",
+      "plover",
+      "mouse-flesh",
+      "cholera",
+      "courtyard",
+      "penance",
+      "asylum",
+      "league",
+      "grooms",
+      "self-prostration",
+      "nectar-draught",
+      "virtue",
+      "suppliant",
+      "vow",
+      "desiderating",
+      "fructify",
+      "particolored",
+      "hillman"
+    ],
+    "ch-9": [
+      "Slow",
+      "Gold",
+      "Spot",
+      "Swift",
+      "elephant-king",
+      "acacia-wood",
+      "retinue",
+      "fettered",
+      "dunderheads",
+      "willy-nilly",
+      "trap",
+      "guy-ropes",
+      "prince"
+    ],
+    "ch-10": [
+      "Spot",
+      "Gold",
+      "Swift",
+      "Slow",
+      "prince",
+      "holy man",
+      "Jump-Up",
+      "Straightaway",
+      "Book II",
+      "gambol",
+      "snare",
+      "palatable",
+      "cudgels",
+      "malady",
+      "sorcerers",
+      "conjurer",
+      "fortress",
+      "prodigy",
+      "predestined",
+      "ointment",
+      "salves",
+      "brace",
+      "wits",
+      "brittleness",
+      "hillman"
+    ]
+  }
+}

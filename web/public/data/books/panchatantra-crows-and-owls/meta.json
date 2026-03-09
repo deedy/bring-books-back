@@ -1,0 +1,22 @@
+{
+  "id": "panchatantra-crows-and-owls",
+  "title": "Crows and Owls",
+  "transliteratedTitle": "Crows and Owls",
+  "subtitle": "Warring Wings and Woodland Wisdom Collide",
+  "authorId": "vishnu-sharma",
+  "coverImage": "/data/images/covers/panchatantra-crows-and-owls.webp",
+  "accentColor": "#C4872F",
+  "genre": [
+    "Fables",
+    "Philosophy",
+    "Folklore"
+  ],
+  "originalLanguage": "Sanskrit",
+  "originalTitle": "पञ्चतन्त्र",
+  "originalYear": -300,
+  "totalChapters": 18,
+  "wordCount": 17915,
+  "summary": "Dive into a world where clever birds and cunning beasts wage battles of wit and will. 'Crows and Owls' weaves fables of unlikely alliances, treacherous enemies, and the delicate balance between peace and war in the animal kingdom. Each chapter reveals surprising strategies and philosophical lessons that leave you questioning trust, loyalty, and the true meaning of leadership.",
+  "anthologyId": "panchatantra",
+  "heroImage": "/data/images/heroes/panchatantra.webp"
+}

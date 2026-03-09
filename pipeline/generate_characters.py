@@ -108,10 +108,11 @@ def get_top_characters(book_id, n=6):
     return characters[:n]
 
 
-def get_first_paragraphs(book_id, character_name, n_paragraphs=3):
-    cfg = get_book(book_id)
-    ann_path = str(cfg.web_annotations_json)
-    ch_path = str(cfg.web_chapters_json)
+def get_first_paragraphs(book_id, character_name, n_paragraphs=3, ann_path=None, ch_path=None):
+    if ann_path is None or ch_path is None:
+        cfg = get_book(book_id)
+        ann_path = ann_path or str(cfg.web_annotations_json)
+        ch_path = ch_path or str(cfg.web_chapters_json)
 
     if not os.path.exists(ann_path) or not os.path.exists(ch_path):
         return []
@@ -125,11 +126,11 @@ def get_first_paragraphs(book_id, character_name, n_paragraphs=3):
     return []
 
 
-def build_portrait_prompt(book_id, character):
+def build_portrait_prompt(book_id, character, ann_path=None, ch_path=None):
     name = character["name"]
     description = character["description"]
-    paragraphs = get_first_paragraphs(book_id, name)
-    context_text = "\n".join(paragraphs) if paragraphs else ""
+    paragraphs = get_first_paragraphs(book_id, name, ann_path=ann_path, ch_path=ch_path)
+    context_text = "\n".join(p["text"] if isinstance(p, dict) else p for p in paragraphs) if paragraphs else ""
 
     system_prompt = (
         "You are an art director creating portrait image prompts for AI image generation. "
@@ -158,7 +159,8 @@ def build_portrait_prompt(book_id, character):
     return response.choices[0].message.content.strip()
 
 
-def build_all_prompts(tasks, state):
+def build_all_prompts(tasks, state, path_overrides=None):
+    """Build portrait prompts. path_overrides: dict of book_id -> (ann_path, ch_path)."""
     prompts = {}
 
     need_prompts = []
@@ -178,7 +180,10 @@ def build_all_prompts(tasks, state):
     with ThreadPoolExecutor(max_workers=15) as executor:
         futures = {}
         for book_id, char, key in need_prompts:
-            f = executor.submit(build_portrait_prompt, book_id, char)
+            kwargs = {}
+            if path_overrides and book_id in path_overrides:
+                kwargs["ann_path"], kwargs["ch_path"] = path_overrides[book_id]
+            f = executor.submit(build_portrait_prompt, book_id, char, **kwargs)
             futures[f] = (book_id, char["name"], key)
 
         done = len(tasks) - len(need_prompts)
@@ -198,10 +203,11 @@ def build_all_prompts(tasks, state):
     return prompts
 
 
-def generate_single_image(book_id, slug, prompt_text, retries=3):
-    cfg = get_book(book_id)
+def generate_single_image(book_id, slug, prompt_text, retries=3, style_prefix=None):
+    if style_prefix is None:
+        cfg = get_book(book_id)
+        style_prefix = cfg.character_style_prefix
     client = genai.Client(api_key=GEMINI_API_KEY)
-    style_prefix = cfg.character_style_prefix
 
     full_prompt = (
         "A character portrait, head and upper body, facing slightly to the side. "
@@ -256,7 +262,7 @@ def generate_single_image(book_id, slug, prompt_text, retries=3):
             raise RuntimeError(f"API error: {e}")
 
 
-def generate_all_images(tasks, prompts, state):
+def generate_all_images(tasks, prompts, state, style_prefix=None):
     need_images = []
     for book_id, char in tasks:
         key = f"{book_id}/{slugify(char['name'])}"
@@ -276,7 +282,8 @@ def generate_all_images(tasks, prompts, state):
         futures = {}
         for book_id, char, key in need_images:
             slug = slugify(char["name"])
-            f = executor.submit(generate_single_image, book_id, slug, prompts[key])
+            f = executor.submit(generate_single_image, book_id, slug, prompts[key],
+                                style_prefix=style_prefix)
             futures[f] = (book_id, char["name"], key)
 
         done = len(tasks) - len(need_images)
@@ -303,20 +310,21 @@ def update_annotations(book_id, characters):
     for char in characters:
         name = char["name"]
         slug = slugify(name)
-        web_path = os.path.join(WEB_DIR, book_id, f"{slug}.png")
-        if os.path.exists(web_path) and name in annotations["glossary"]:
-            annotations["glossary"][name]["image"] = f"/data/images/characters/{book_id}/{slug}.png"
+        web_path_webp = os.path.join(WEB_DIR, book_id, f"{slug}.webp")
+        web_path_png = os.path.join(WEB_DIR, book_id, f"{slug}.png")
+        has_webp = os.path.exists(web_path_webp)
+        has_png = os.path.exists(web_path_png)
+        if name in annotations["glossary"] and (has_webp or has_png):
+            ext = "webp" if has_webp else "png"
+            annotations["glossary"][name]["image"] = f"/data/images/characters/{book_id}/{slug}.{ext}"
 
     save_json(ann_path, annotations)
     print(f"  Updated annotations for {book_id}")
 
 
-def run(book_id, force=False):
-    """Run character image generation for a single book. Returns True on success."""
+def _run_for_book(book_id, force=False):
+    """Run character image generation for a single book (non-anthology)."""
     cfg = get_book(book_id)
-    if not cfg.character_style_prefix:
-        print(f"[{book_id}] No character style prefix configured")
-        return False
 
     os.makedirs(os.path.dirname(CHECKPOINT_PATH), exist_ok=True)
     if os.path.exists(CHECKPOINT_PATH):
@@ -351,6 +359,104 @@ def run(book_id, force=False):
 
     print(f"\n--- Phase 3: Update annotations ---")
     update_annotations(book_id, chars)
+
+    return True
+
+
+def _get_top_characters_from_paths(ann_path, ch_path, n=6):
+    """Get top characters from explicit annotation/chapter paths."""
+    if not os.path.exists(ann_path) or not os.path.exists(ch_path):
+        return []
+    annotations = load_json(ann_path)
+    chapters_data = load_json(ch_path)
+    chapter_ids = [ch["id"] for ch in chapters_data["chapters"]]
+    characters = []
+    for name, entry in annotations["glossary"].items():
+        if entry["type"] != "character":
+            continue
+        count = 0
+        for ch_id in chapter_ids:
+            ch_terms = annotations.get("chapters", {}).get(ch_id, [])
+            if name in ch_terms:
+                count += 1
+        characters.append({
+            "name": name,
+            "description": entry["description"],
+            "count": count,
+        })
+    characters.sort(key=lambda x: (-x["count"], x["name"]))
+    return characters[:n]
+
+
+def run(book_id, force=False):
+    """Run character image generation for a single book. Returns True on success."""
+    cfg = get_book(book_id)
+    if not cfg.character_style_prefix:
+        print(f"[{book_id}] No character style prefix configured")
+        return False
+
+    if cfg.type == "anthology":
+        return _run_anthology_characters(book_id, cfg, force)
+    return _run_for_book(book_id, force)
+
+
+def _run_anthology_characters(book_id, cfg, force=False):
+    """Run character images for each sub-book in an anthology."""
+    from pipeline.config import WEB_DATA_DIR
+    anthology_path = cfg.web_book_dir / "anthology.json"
+    if not anthology_path.exists():
+        print(f"[{book_id}] anthology.json not found")
+        return False
+    with open(anthology_path) as f:
+        anthology = json.load(f)
+    story_ids = anthology.get("storyBookIds", [])
+    print(f"[{book_id}] Generating characters for {len(story_ids)} story-books")
+
+    os.makedirs(os.path.dirname(CHECKPOINT_PATH), exist_ok=True)
+    if os.path.exists(CHECKPOINT_PATH):
+        state = load_json(CHECKPOINT_PATH)
+    else:
+        state = {"completed": [], "prompts": {}}
+
+    for story_id in story_ids:
+        story_dir = WEB_DATA_DIR / "books" / story_id
+        ann_path = str(story_dir / "annotations.json")
+        ch_path = str(story_dir / "chapters.json")
+
+        chars = _get_top_characters_from_paths(ann_path, ch_path, n=6)
+        if not chars:
+            print(f"  [{story_id}] No characters found, skipping")
+            continue
+
+        print(f"\n  [{story_id}] Top characters: {', '.join(c['name'] for c in chars)}")
+        tasks = [(story_id, c) for c in chars]
+
+        remaining = [
+            (bid, c) for bid, c in tasks
+            if f"{bid}/{slugify(c['name'])}" not in state["completed"]
+        ]
+
+        if not remaining and not force:
+            print(f"  [{story_id}] All character images complete!")
+        else:
+            path_overrides = {story_id: (ann_path, ch_path)}
+            prompts = build_all_prompts(tasks, state, path_overrides=path_overrides)
+            generate_all_images(tasks, prompts, state, style_prefix=cfg.character_style_prefix)
+
+        # Update annotations for this sub-book
+        annotations = load_json(ann_path)
+        for char in chars:
+            name = char["name"]
+            slug = slugify(name)
+            web_path_webp = os.path.join(WEB_DIR, story_id, f"{slug}.webp")
+            web_path_png = os.path.join(WEB_DIR, story_id, f"{slug}.png")
+            has_webp = os.path.exists(web_path_webp)
+            has_png = os.path.exists(web_path_png)
+            if name in annotations["glossary"] and (has_webp or has_png):
+                ext = "webp" if has_webp else "png"
+                annotations["glossary"][name]["image"] = f"/data/images/characters/{story_id}/{slug}.{ext}"
+        save_json(ann_path, annotations)
+        print(f"  [{story_id}] Updated annotations")
 
     return True
 

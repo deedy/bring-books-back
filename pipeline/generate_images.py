@@ -70,26 +70,62 @@ def crop_to_ratio(path, target_ratio):
     img.save(path)
 
 
+_CHAR_ALIAS_MAP = {"Krishna": ["Blessed Lord"], "Arjuna": ["Partha", "Dhananjaya"]}
+
+
+def _extract_char_aliases(line):
+    """Extract character name + common aliases from a character description line like '- Lord Krishna: ...'"""
+    name_part = line.strip().lstrip("- ").split(":")[0].strip()
+    aliases = [name_part]
+    # Add individual words as aliases (e.g. "Lord Krishna" -> also match "Krishna")
+    words = name_part.split()
+    if len(words) > 1:
+        aliases.extend(words)
+    # Common aliases
+    for key, extras in _CHAR_ALIAS_MAP.items():
+        if key in name_part:
+            aliases.extend(extras)
+    return aliases
+
+
 def generate_scene_prompt(chapter, cfg, prompt_cache):
     key = f"p{chapter['part']}_chapter_{chapter['number']}"
     if key in prompt_cache:
         return prompt_cache[key]
 
-    text = "\n\n".join(chapter["paragraphs"][:5])
+    text = "\n\n".join(p["text"] if isinstance(p, dict) else p for p in chapter["paragraphs"][:5])
     excerpt = text[:1500] + "..." if len(text) > 1500 else text
+
+    # Filter characters_description to only include characters mentioned in this chapter
+    char_block = cfg.characters_description
+    if char_block:
+        lines = char_block.strip().split("\n")
+        header_lines = [l for l in lines if not l.strip().startswith("- ")]
+        char_lines = [l for l in lines if l.strip().startswith("- ")]
+        text_lower = excerpt.lower()
+        matched = [l for l in char_lines if any(
+            alias.lower() in text_lower
+            for alias in _extract_char_aliases(l)
+        )]
+        if matched:
+            char_block = "\n".join(header_lines + matched)
+        # If no matches, fall back to full list
 
     system = (
         "You are creating vivid scene descriptions for AI image generation of book chapter illustrations. "
         "Given a chapter excerpt and character info, write a 3-5 sentence scene description. "
         "Focus on: visual setting, character positioning, lighting/mood, key action. "
+        "Create a UNIQUE scene specific to this chapter's content. DO NOT repeat generic scenes. "
+        "Focus on what actually happens and is discussed in THIS chapter. "
         "Do NOT include any text/lettering instructions. "
+        "Do NOT use frame-within-frame, inset panels, or picture-in-picture compositions. "
         "Use neutral language — avoid words like 'desperate', 'tears', 'blood', 'death', 'kill'. "
         "Output ONLY the scene description, nothing else."
     )
 
     user_prompt = (
         f"Chapter {chapter['number']}: \"{chapter['title']}\"\n\n"
-        f"{cfg.characters_description}\n"
+        f"{char_block}\n"
         f"Chapter excerpt:\n{excerpt}"
     )
 
@@ -163,12 +199,23 @@ def generate_cover(book_id, cfg, retries=3):
         print(f"  [{book_id}] Cover already exists")
         return
 
+    # Include character descriptions so covers feature recognizable figures
+    character_info = ""
+    if cfg.characters_description:
+        character_info = (
+            "Feature one or more of the story's main characters prominently in the scene. "
+            + cfg.characters_description + "\n"
+        )
+
     cover_prompt = (
         "Edge-to-edge illustration filling the entire frame. "
         "No border, no frame, no margin, no vignette, no white space. "
         "A bright, colorful, vibrant book cover illustration. "
         + cfg.image_style_prefix.replace("Scene: ", "")
-        + "A sweeping panoramic scene that captures the essence of the entire story. "
+        + character_info
+        + f'Title: "{cfg.title}". {cfg.style_context}\n'
+        "A sweeping panoramic scene that captures the essence of the entire story, "
+        "with a central character figure. "
         "Bright, inviting colors. No text, no lettering."
     )
 
@@ -204,14 +251,14 @@ def generate_cover(book_id, cfg, retries=3):
             print(f"  [{book_id}] Cover FAILED: {e}")
 
 
-def process_chapter(chapter, cfg, state, prompt_cache, book_id):
+def process_chapter(chapter, cfg, state, prompt_cache, book_id, overrides=None):
     key = f"p{chapter['part']}_chapter_{chapter['number']}"
     web_key = f"{key}_web"
 
     if web_key in state.get("completed", []):
         return f"{key}: cached"
 
-    output_dir = str(cfg.images_dir)
+    output_dir = overrides.get("images_dir", str(cfg.images_dir)) if overrides else str(cfg.images_dir)
     os.makedirs(output_dir, exist_ok=True)
 
     try:
@@ -219,40 +266,34 @@ def process_chapter(chapter, cfg, state, prompt_cache, book_id):
     except Exception as e:
         return f"{key}: prompt FAILED ({e})"
 
+    prompts_path = overrides.get("prompts_path", str(cfg.image_prompts_json)) if overrides else str(cfg.image_prompts_json)
     with checkpoint_lock:
-        save_json(str(cfg.image_prompts_json), prompt_cache)
+        save_json(prompts_path, prompt_cache)
 
     web_path = os.path.join(output_dir, f"{key}_web.png")
+    checkpoint_path = overrides.get("checkpoint_path", str(cfg.images_checkpoint)) if overrides else str(cfg.images_checkpoint)
     try:
         generate_image(web_path, cfg.image_style_prefix, prompt_text)
         with checkpoint_lock:
             state.setdefault("completed", []).append(web_key)
-            save_json(str(cfg.images_checkpoint), state)
+            save_json(checkpoint_path, state)
         return f"{key}: OK"
     except Exception as e:
         return f"{key}: FAILED ({e})"
 
 
-def run(book_id, force=False):
-    """Run image generation for a book. Returns True on success."""
-    cfg = get_book(book_id)
-    chapters_path = str(cfg.web_chapters_json)
-
-    if not cfg.image_style_prefix:
-        print(f"[{book_id}] No image style prefix configured")
-        return False
-
-    if not os.path.exists(chapters_path):
-        print(f"[{book_id}] chapters.json not found at {chapters_path}, skipping")
-        return False
-
+def _run_single_book(book_id, cfg, chapters_path, images_dir, web_img_dir, force=False,
+                     checkpoint_path=None, prompts_path=None, skip_cover=False):
+    """Run image generation for a single book/sub-book."""
     with open(chapters_path) as f:
         chapters_data = json.load(f)["chapters"]
 
-    state = load_json(str(cfg.images_checkpoint), {"completed": []})
+    checkpoint_path = checkpoint_path or str(cfg.images_checkpoint)
+    prompts_path = prompts_path or str(cfg.image_prompts_json)
+    state = load_json(checkpoint_path, {"completed": []})
     if force:
         state = {"completed": []}
-    prompt_cache = load_json(str(cfg.image_prompts_json), {})
+    prompt_cache = load_json(prompts_path, {})
     total = len(chapters_data)
 
     remaining = []
@@ -266,12 +307,14 @@ def run(book_id, force=False):
     if not remaining:
         print(f"[{book_id}] All chapters complete!")
     else:
-        generate_cover(book_id, cfg)
+        if not skip_cover:
+            generate_cover(book_id, cfg)
 
         done = total - len(remaining)
+        overrides = {"images_dir": images_dir, "checkpoint_path": checkpoint_path, "prompts_path": prompts_path}
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             futures = {
-                executor.submit(process_chapter, ch, cfg, state, prompt_cache, book_id): ch
+                executor.submit(process_chapter, ch, cfg, state, prompt_cache, book_id, overrides): ch
                 for ch in remaining
             }
             for future in as_completed(futures):
@@ -283,10 +326,8 @@ def run(book_id, force=False):
                     print(f"  [{book_id}] [{done}/{total}] ERROR: {e}")
 
     # Copy images to web directory
-    web_img_dir = str(cfg.web_chapter_images_dir)
     os.makedirs(web_img_dir, exist_ok=True)
     count = 0
-    images_dir = str(cfg.images_dir)
     if os.path.exists(images_dir):
         for fname in os.listdir(images_dir):
             if fname.endswith("_web.png") and fname.startswith("p"):
@@ -303,6 +344,115 @@ def run(book_id, force=False):
         cover_dst = str(cfg.web_cover_path)
         os.makedirs(os.path.dirname(cover_dst), exist_ok=True)
         shutil.copy2(cover_src, cover_dst)
+
+
+def run(book_id, force=False):
+    """Run image generation for a book. For anthologies, iterates sub-books."""
+    cfg = get_book(book_id)
+
+    if not cfg.image_style_prefix:
+        print(f"[{book_id}] No image style prefix configured")
+        return False
+
+    if cfg.type == "anthology":
+        return _run_anthology_images(book_id, cfg, force)
+
+    chapters_path = str(cfg.web_chapters_json)
+    if not os.path.exists(chapters_path):
+        print(f"[{book_id}] chapters.json not found at {chapters_path}, skipping")
+        return False
+
+    _run_single_book(
+        book_id, cfg, chapters_path,
+        str(cfg.images_dir), str(cfg.web_chapter_images_dir), force
+    )
+    return True
+
+
+def _run_anthology_images(book_id, cfg, force=False):
+    """Run image generation for each sub-book in an anthology."""
+    from pipeline.config import WEB_DATA_DIR
+    anthology_path = cfg.web_book_dir / "anthology.json"
+    if not anthology_path.exists():
+        print(f"[{book_id}] anthology.json not found")
+        return False
+    with open(anthology_path) as f:
+        anthology = json.load(f)
+    story_ids = anthology.get("storyBookIds", [])
+    print(f"[{book_id}] Anthology with {len(story_ids)} story-books")
+
+    # Generate cover for the anthology itself
+    generate_cover(book_id, cfg)
+    cover_src = os.path.join(str(cfg.images_dir), "cover.png")
+    if os.path.exists(cover_src):
+        cover_dst = str(cfg.web_cover_path)
+        os.makedirs(os.path.dirname(cover_dst), exist_ok=True)
+        shutil.copy2(cover_src, cover_dst)
+
+    for story_id in story_ids:
+        story_dir = WEB_DATA_DIR / "books" / story_id
+        chapters_path = str(story_dir / "chapters.json")
+        if not os.path.exists(chapters_path):
+            print(f"  [{story_id}] chapters.json not found, skipping")
+            continue
+        web_img_dir = str(WEB_DATA_DIR / "images" / "chapters" / story_id)
+        images_dir = str(cfg.images_dir / story_id)
+        os.makedirs(images_dir, exist_ok=True)
+
+        # Per-sub-book checkpoint and prompts to avoid collisions
+        checkpoint_path = os.path.join(images_dir, "images_checkpoint.json")
+        prompts_path = os.path.join(images_dir, "image_prompts.json")
+        _run_single_book(story_id, cfg, chapters_path, images_dir, web_img_dir, force,
+                         checkpoint_path=checkpoint_path, prompts_path=prompts_path,
+                         skip_cover=True)
+
+        # Generate a cover for this sub-book
+        story_cover_dst = str(WEB_DATA_DIR / "images" / "covers" / f"{story_id}.png")
+        if not os.path.exists(story_cover_dst):
+            # Read meta.json to get the story title for the cover prompt
+            meta_path = story_dir / "meta.json"
+            story_title = story_id
+            story_summary = ""
+            if meta_path.exists():
+                with open(meta_path) as f:
+                    meta = json.load(f)
+                story_title = meta.get("title", story_id)
+                story_summary = meta.get("summary", "")
+            cover_prompt = (
+                "Edge-to-edge illustration filling the entire frame. "
+                "No border, no frame, no margin, no vignette, no white space. "
+                "A bright, colorful, vibrant book cover illustration. "
+                + cfg.image_style_prefix.replace("Scene: ", "")
+                + (cfg.characters_description + "\n" if cfg.characters_description else "")
+                + f'Title: "{story_title}". {story_summary}\n'
+                "A sweeping panoramic scene that captures the essence of the story. "
+                "Bright, inviting colors. No text, no lettering."
+            )
+            client = genai.Client(api_key=GEMINI_API_KEY)
+            for attempt in range(3):
+                try:
+                    response = client.models.generate_content(
+                        model=IMAGE_MODEL,
+                        contents=cover_prompt,
+                        config=types.GenerateContentConfig(
+                            response_modalities=["IMAGE", "TEXT"],
+                            image_config=types.ImageConfig(aspect_ratio="3:4"),
+                        ),
+                    )
+                    if response.parts:
+                        for part in response.parts:
+                            if part.inline_data is not None:
+                                img = part.as_image()
+                                os.makedirs(os.path.dirname(story_cover_dst), exist_ok=True)
+                                img.save(story_cover_dst)
+                                print(f"  [{story_id}] Cover generated -> {story_cover_dst}")
+                                break
+                        break
+                except Exception as e:
+                    if attempt < 2:
+                        time.sleep(3)
+                    else:
+                        print(f"  [{story_id}] Cover FAILED: {e}")
 
     return True
 

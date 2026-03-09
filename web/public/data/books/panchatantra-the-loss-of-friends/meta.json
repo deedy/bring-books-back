@@ -1,0 +1,22 @@
+{
+  "id": "panchatantra-the-loss-of-friends",
+  "title": "The Loss of Friends",
+  "transliteratedTitle": "The Loss of Friends",
+  "subtitle": "Schemes and Betrayals in the Animal Kingdom",
+  "authorId": "vishnu-sharma",
+  "coverImage": "/data/images/covers/panchatantra-the-loss-of-friends.webp",
+  "accentColor": "#C4872F",
+  "genre": [
+    "Fables",
+    "Philosophy",
+    "Folklore"
+  ],
+  "originalLanguage": "Sanskrit",
+  "originalTitle": "पञ्चतन्त्र",
+  "originalYear": -300,
+  "totalChapters": 34,
+  "wordCount": 39740,
+  "summary": "When a cunning jackal sows discord between a mighty lion and a trusting bull, the bonds of friendship are tested in unexpected ways. Through fables rich with wit, wisdom, and animal intrigue, 'The Loss of Friends' explores how greed and clever manipulation can unravel the strongest alliances. Dive into these timeless tales where every creature has a lesson to teach—and a secret to keep.",
+  "anthologyId": "panchatantra",
+  "heroImage": "/data/images/heroes/panchatantra.webp"
+}

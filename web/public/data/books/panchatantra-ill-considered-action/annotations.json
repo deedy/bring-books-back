@@ -1,0 +1,773 @@
+{
+  "glossary": {
+    "Vishnusharman": {
+      "type": "character",
+      "description": "The narrator and teacher who tells the story to the princes."
+    },
+    "Jewel": {
+      "type": "character",
+      "description": "A merchant in the city of Trumpet-Flower who loses his fortune and encounters a Jain monk in a dream."
+    },
+    "barber": {
+      "type": "character",
+      "description": "A barber who, after witnessing Jewel's fortune, tries to replicate his success with disastrous results.",
+      "image": "/data/images/characters/panchatantra-ill-considered-action/barber.png"
+    },
+    "Jain monk": {
+      "type": "character",
+      "description": "A monk who appears in Jewel's dream and later in reality, turning into gold when struck."
+    },
+    "abbot": {
+      "type": "character",
+      "description": "The head of the Jain monastery whom the barber approaches with his request."
+    },
+    "princes": {
+      "type": "character",
+      "description": "The audience to whom Vishnusharman narrates the story."
+    },
+    "Book V": {
+      "type": "proper_noun",
+      "description": "The fifth book of the Panchatantra, titled 'Ill-considered Action.'"
+    },
+    "Trumpet-Flower": {
+      "type": "proper_noun",
+      "description": "A city in the southern country where the story takes place."
+    },
+    "Jain": {
+      "type": "proper_noun",
+      "description": "Refers to Jainism, an ancient Indian religion emphasizing non-violence and asceticism."
+    },
+    "Brahmans": {
+      "type": "proper_noun",
+      "description": "Brahmans are members of the priestly caste in Hindu society, often associated with religious rituals and scholarship; the term 'Brahman' is also used generically for an individual member."
+    },
+    "decree of fate": {
+      "type": "vocabulary",
+      "description": "A phrase referring to destiny or predetermined events."
+    },
+    "salvation": {
+      "type": "vocabulary",
+      "description": "Spiritual liberation or deliverance, often used in Indian religious contexts."
+    },
+    "despondency": {
+      "type": "vocabulary",
+      "description": "A state of low spirits or hopelessness."
+    },
+    "self-starvation": {
+      "type": "vocabulary",
+      "description": "The act of intentionally refusing to eat, often as a form of suicide or ascetic practice."
+    },
+    "manicure": {
+      "type": "vocabulary",
+      "description": "To trim, clean, and care for the nails, especially of the hands."
+    },
+    "obeisance": {
+      "type": "vocabulary",
+      "description": "A gesture expressing respect or submission, such as a bow."
+    },
+    "benediction": {
+      "type": "vocabulary",
+      "description": "A blessing, especially one given by a religious figure."
+    },
+    "celibacy": {
+      "type": "vocabulary",
+      "description": "The state of abstaining from marriage and sexual relations, often for religious reasons."
+    },
+    "neophyte": {
+      "type": "vocabulary",
+      "description": "A new convert or novice, especially in a religious context."
+    },
+    "cudgels": {
+      "type": "vocabulary",
+      "description": "Short, thick sticks used as weapons."
+    },
+    "acacia wood": {
+      "type": "vocabulary",
+      "description": "Wood from the acacia tree, commonly used in India."
+    },
+    "citadel": {
+      "type": "vocabulary",
+      "description": "A fortress protecting a city, often the strongest part of the city."
+    },
+    "summonser": {
+      "type": "vocabulary",
+      "description": "An official who delivers a summons or legal notice."
+    },
+    "impaled": {
+      "type": "vocabulary",
+      "description": "Executed by being pierced with a sharp stake, a form of capital punishment."
+    },
+    "Godly": {
+      "type": "character",
+      "description": "A Brahman living in a certain town, husband to the mother and father of the baby boy, who raises a mongoose alongside his son.",
+      "image": "/data/images/characters/panchatantra-ill-considered-action/godly.png"
+    },
+    "mungoose": {
+      "type": "character",
+      "description": "A pet mongoose raised alongside the Brahman's son, ultimately killed by the mother after saving the child."
+    },
+    "black snake": {
+      "type": "character",
+      "description": "A venomous serpent that threatens the Brahman's baby and is killed by the mungoose."
+    },
+    "salves": {
+      "type": "vocabulary",
+      "description": "Ointments used to promote healing of the skin or as protection."
+    },
+    "gruel": {
+      "type": "vocabulary",
+      "description": "A thin liquid food of oatmeal or other meal boiled in milk or water."
+    },
+    "benefactor": {
+      "type": "vocabulary",
+      "description": "One who does good or provides help, especially by giving money or assistance."
+    },
+    "lamenting": {
+      "type": "vocabulary",
+      "description": "Expressing grief or sorrow, often in a demonstrative way."
+    },
+    "Terror-Joy": {
+      "type": "character",
+      "description": "A master-magician whom the Brahmans meet on their journey; he provides them with magic quills."
+    },
+    "Shiva": {
+      "type": "character",
+      "description": "The great god worshipped by the Brahmans during their travels."
+    },
+    "King Vinavatsa": {
+      "type": "character",
+      "description": "The king mentioned as reigning at the time of the events."
+    },
+    "Rama": {
+      "type": "character",
+      "description": "A legendary king referenced in the story, indicating a time long past."
+    },
+    "Avanti": {
+      "type": "proper_noun",
+      "description": "A historical region in ancient India, visited by the Brahmans."
+    },
+    "Sipra": {
+      "type": "proper_noun",
+      "description": "A river in the Avanti country where the Brahmans bathe."
+    },
+    "Himalaya Mountains": {
+      "type": "proper_noun",
+      "description": "The famous mountain range in northern India, where the Brahmans are instructed to go."
+    },
+    "Vishnu": {
+      "type": "proper_noun",
+      "description": "A major Hindu deity, mentioned in a proverb about effort and fate."
+    },
+    "flunkeyism": {
+      "type": "vocabulary",
+      "description": "Obsequious behavior, especially as a servant in a royal court."
+    },
+    "pawnshop": {
+      "type": "vocabulary",
+      "description": "A place where personal items are left as security for a loan."
+    },
+    "usury": {
+      "type": "vocabulary",
+      "description": "The practice of lending money at unreasonably high interest rates."
+    },
+    "capitalist": {
+      "type": "vocabulary",
+      "description": "A person who invests capital, especially in business ventures."
+    },
+    "magician": {
+      "type": "vocabulary",
+      "description": "A person who practices magic or sorcery."
+    },
+    "quill": {
+      "type": "vocabulary",
+      "description": "A feather used as a writing instrument or, in this context, a magical object."
+    },
+    "graveyard": {
+      "type": "vocabulary",
+      "description": "A burial ground; cemetery."
+    },
+    "kinsmen": {
+      "type": "vocabulary",
+      "description": "Relatives or family members."
+    },
+    "decrepitude": {
+      "type": "vocabulary",
+      "description": "The state of being worn out or weakened by old age."
+    },
+    "subaqueous": {
+      "type": "vocabulary",
+      "description": "Existing, formed, or taking place underwater."
+    },
+    "lion": {
+      "type": "character",
+      "description": "A dead lion whose bones are found in the forest and is brought back to life by the Brahmans' scholarship."
+    },
+    "man of sense": {
+      "type": "character",
+      "description": "The fourth Brahman, who lacks scholarship but possesses practical wisdom and survives by his prudence."
+    },
+    "wheel-bearer": {
+      "type": "character",
+      "description": "A character who listens to the story and argues that fate, not sense, determines survival.",
+      "image": "/data/images/characters/panchatantra-ill-considered-action/wheel-bearer.png"
+    },
+    "gold-finder": {
+      "type": "character",
+      "description": "A character who asks the wheel-bearer to explain his reasoning.",
+      "image": "/data/images/characters/panchatantra-ill-considered-action/gold-finder.png"
+    },
+    "scholarship": {
+      "type": "vocabulary",
+      "description": "In this context, refers to learned knowledge or academic attainment, especially in religious or classical studies."
+    },
+    "dullard": {
+      "type": "vocabulary",
+      "description": "An archaic English term meaning a slow or stupid person."
+    },
+    "nullity": {
+      "type": "vocabulary",
+      "description": "An archaic term meaning nothingness or the state of being null."
+    },
+    "stanza": {
+      "type": "vocabulary",
+      "description": "A grouped set of lines in a poem, often set off from others by a blank line or indentation."
+    },
+    "Hundred-Wit": {
+      "type": "character",
+      "description": "A fish living in the pond, known for his intelligence and resourcefulness."
+    },
+    "Thousand-Wit": {
+      "type": "character",
+      "description": "Another fish, considered even more clever than Hundred-Wit, confident in his ability to escape danger."
+    },
+    "Single-Wit": {
+      "type": "character",
+      "description": "A frog who is friends with the two fishes, cautious and guided by simple wisdom."
+    },
+    "Death": {
+      "type": "character",
+      "description": "A personified force and its agents symbolizing inevitable fate and the end of life."
+    },
+    "cistern": {
+      "type": "proper_noun",
+      "description": "A water storage tank or reservoir, often used in Indian settings for storing water."
+    },
+    "witticism": {
+      "type": "vocabulary",
+      "description": "A clever or witty remark."
+    },
+    "inclosed": {
+      "type": "vocabulary",
+      "description": "An archaic spelling of 'enclosed', meaning surrounded or shut in."
+    },
+    "padling": {
+      "type": "vocabulary",
+      "description": "An archaic or variant spelling of 'paddling', meaning moving through water with short movements."
+    },
+    "dissuasion": {
+      "type": "vocabulary",
+      "description": "The act of advising against something; discouragement."
+    },
+    "Prig": {
+      "type": "character",
+      "description": "A donkey who carries laundry by day and roams freely at night; he is egotistical and wishes to sing."
+    },
+    "jackal": {
+      "type": "character",
+      "description": "A cunning animal who befriends Prig and tries to dissuade him from singing while stealing cucumbers."
+    },
+    "comestible": {
+      "type": "vocabulary",
+      "description": "An archaic term meaning something edible or fit to be eaten."
+    },
+    "provender": {
+      "type": "vocabulary",
+      "description": "An old-fashioned word for food or fodder, especially for livestock."
+    },
+    "conch-shell": {
+      "type": "vocabulary",
+      "description": "A large spiral shell from the Indian Ocean, often used as a musical instrument in Indian culture."
+    },
+    "hobbled": {
+      "type": "vocabulary",
+      "description": "To tie an animal's legs together to restrict movement; here, refers to the donkey being restrained."
+    },
+    "mortar": {
+      "type": "vocabulary",
+      "description": "A heavy bowl used for grinding substances; in the story, it is fastened to the donkey's neck as punishment."
+    },
+    "Slow": {
+      "type": "character",
+      "description": "A weaver living in a certain town whose search for wood leads to an encounter with a fairy and a wish for extra limbs.",
+      "image": "/data/images/characters/panchatantra-ill-considered-action/slow.png"
+    },
+    "fairy": {
+      "type": "character",
+      "description": "A supernatural being residing in the sissoo tree who offers to grant Slow a wish if he spares the tree."
+    },
+    "wife": {
+      "type": "character",
+      "description": "The weaver's spouse who counsels him to ask for extra arms and a head instead of a kingdom."
+    },
+    "sissoo": {
+      "type": "proper_noun",
+      "description": "A type of tree native to the Indian subcontinent, also known as Dalbergia sissoo."
+    },
+    "Moon-Lord": {
+      "type": "proper_noun",
+      "description": "A poetic reference to the Hindu moon god, Chandra, often used in Indian literature."
+    },
+    "loom": {
+      "type": "vocabulary",
+      "description": "A device used for weaving cloth."
+    },
+    "apparatus": {
+      "type": "vocabulary",
+      "description": "Equipment or tools needed for a specific purpose, here referring to weaving tools."
+    },
+    "entrenchment": {
+      "type": "vocabulary",
+      "description": "A defensive military position, used here metaphorically for the difficulties of kingship."
+    },
+    "duplicity": {
+      "type": "vocabulary",
+      "description": "Deceitfulness or double-dealing, especially in the context of political affairs."
+    },
+    "bard": {
+      "type": "vocabulary",
+      "description": "A poet or singer, often one who composes and recites verses celebrating legendary events."
+    },
+    "hermit": {
+      "type": "vocabulary",
+      "description": "A person living in solitude, often for religious reasons."
+    },
+    "fiend": {
+      "type": "vocabulary",
+      "description": "An evil spirit or demon; used here to describe the weaver's frightening appearance after his wish is granted."
+    },
+    "sage": {
+      "type": "vocabulary",
+      "description": "A wise person, often referenced in ancient Indian literature as a source of proverbs or teachings."
+    },
+    "Seedy": {
+      "type": "character",
+      "description": "A Brahman who dreams of future riches and prosperity after acquiring some barley-meal, only to lose everything due to his daydreaming."
+    },
+    "cot": {
+      "type": "vocabulary",
+      "description": "A simple, light bed, often used in India."
+    },
+    "barley-meal": {
+      "type": "vocabulary",
+      "description": "Ground barley, used as a food staple."
+    },
+    "dowry": {
+      "type": "vocabulary",
+      "description": "Property or money brought by a bride to her husband upon marriage."
+    },
+    "mares": {
+      "type": "vocabulary",
+      "description": "Adult female horses."
+    },
+    "reverie": {
+      "type": "vocabulary",
+      "description": "A state of being pleasantly lost in one's thoughts; a daydream."
+    },
+    "Moon": {
+      "type": "character",
+      "description": "A ruler in a certain city who keeps monkeys and a ram for his son's amusement.",
+      "image": "/data/images/characters/panchatantra-ill-considered-action/moon.png"
+    },
+    "chief of the monkeys": {
+      "type": "character",
+      "description": "The wise leader of the monkey pack who warns his followers of danger and ultimately escapes the king's city."
+    },
+    "ram": {
+      "type": "character",
+      "description": "A member of the herd kept for the prince's amusement, known for his gluttony and causing trouble in the kitchen."
+    },
+    "cooks": {
+      "type": "character",
+      "description": "The kitchen staff who are frequently angered by the ram's behavior."
+    },
+    "retinue": {
+      "type": "character",
+      "description": "The king's attendants who accompany him and are devoured by the fiend."
+    },
+    "Sunday": {
+      "type": "proper_noun",
+      "description": "A day of the week, referenced as auspicious for bathing in the magical lake."
+    },
+    "Twilight": {
+      "type": "proper_noun",
+      "description": "Personified as a being who catches the monkey, possibly a metaphor for death or fate."
+    },
+    "pabulum": {
+      "type": "vocabulary",
+      "description": "Nourishment or food."
+    },
+    "fire brand": {
+      "type": "vocabulary",
+      "description": "A piece of burning wood."
+    },
+    "veterinary": {
+      "type": "vocabulary",
+      "description": "Relating to the medical care of animals."
+    },
+    "monkeys-fat": {
+      "type": "vocabulary",
+      "description": "Fat derived from monkeys, prescribed in the story as a remedy for burns on horses."
+    },
+    "halters": {
+      "type": "vocabulary",
+      "description": "Straps or ropes used for leading or tying animals."
+    },
+    "palanquin": {
+      "type": "vocabulary",
+      "description": "A covered litter for one passenger, carried on poles by several bearers."
+    },
+    "lakh": {
+      "type": "vocabulary",
+      "description": "A unit in the Indian numbering system equal to one hundred thousand."
+    },
+    "myriads": {
+      "type": "vocabulary",
+      "description": "Countless or extremely great numbers."
+    },
+    "bosom": {
+      "type": "vocabulary",
+      "description": "The chest or breast, often used to signify affection or closeness."
+    },
+    "dainties": {
+      "type": "vocabulary",
+      "description": "Delicacies or tasty foods."
+    },
+    "proverb": {
+      "type": "vocabulary",
+      "description": "A short, well-known saying expressing a general truth."
+    },
+    "palace-roofs": {
+      "type": "vocabulary",
+      "description": "The roofs of palaces, referenced as places where the monkey is seen."
+    },
+    "lotuses": {
+      "type": "vocabulary",
+      "description": "Aquatic plants with large, showy flowers, significant in Indian culture."
+    },
+    "lotus-stalk": {
+      "type": "vocabulary",
+      "description": "The stem of a lotus plant, used by the monkey to drink water safely."
+    },
+    "Fine-Army": {
+      "type": "character",
+      "description": "A king who rules a certain city and is the father of Pearl."
+    },
+    "Pearl": {
+      "type": "character",
+      "description": "The daughter of King Fine-Army, renowned for her perfect beauty and protected by magic."
+    },
+    "horse-thief": {
+      "type": "character",
+      "description": "A thief who attempts to steal the fiend in horse form and ultimately escapes him."
+    },
+    "monkey": {
+      "type": "character",
+      "description": "A monkey living in the banyan tree who interacts with the fiend and the horse-thief."
+    },
+    "banyan": {
+      "type": "proper_noun",
+      "description": "A type of large, sacred fig tree native to India, under which part of the story takes place."
+    },
+    "magic circle": {
+      "type": "vocabulary",
+      "description": "A protective circle drawn for magical or ritualistic purposes, believed to ward off evil."
+    },
+    "waywardness": {
+      "type": "vocabulary",
+      "description": "The quality of being willful, unpredictable, or disobedient."
+    },
+    "prudence": {
+      "type": "vocabulary",
+      "description": "Cautiousness or wisdom in practical affairs."
+    },
+    "fate’s decree": {
+      "type": "vocabulary",
+      "description": "A phrase referring to destiny or the will of fate determining events."
+    },
+    "Honey-Host": {
+      "type": "character",
+      "description": "King of Honey-Town, father of the three-breasted princess."
+    },
+    "chamberlain": {
+      "type": "character",
+      "description": "A royal official who advises King Honey-Host regarding the fate of the three-breasted princess."
+    },
+    "Honey-Town": {
+      "type": "proper_noun",
+      "description": "A city in the north country where King Honey-Host rules."
+    },
+    "ken": {
+      "type": "vocabulary",
+      "description": "Range of knowledge or understanding."
+    },
+    "divine": {
+      "type": "vocabulary",
+      "description": "Relating to the gods or the sacred, often used in the context of religious law."
+    },
+    "Cruel": {
+      "type": "character",
+      "description": "A fiend living in the forest who forces a Brahman to carry him, bound by a vow not to touch the ground with unwashed feet."
+    },
+    "blind man": {
+      "type": "character",
+      "description": "A poor man who marries the three-breasted princess and later regains his sight."
+    },
+    "three-breasted princess": {
+      "type": "character",
+      "description": "The daughter of King Honey-Host born with a physical deformity believed to be a bad omen, who later marries a blind man."
+    },
+    "lotus-heart": {
+      "type": "vocabulary",
+      "description": "The soft, tender center of a lotus flower, used metaphorically to describe softness."
+    },
+    "vow": {
+      "type": "vocabulary",
+      "description": "A solemn promise or oath, often of religious significance."
+    },
+    "proclamation": {
+      "type": "vocabulary",
+      "description": "An official public announcement."
+    },
+    "hundred thousand gold-pieces": {
+      "type": "vocabulary",
+      "description": "A large sum of money, indicating wealth or a reward."
+    },
+    "belly-pot": {
+      "type": "vocabulary",
+      "description": "An archaic phrase meaning the stomach or belly."
+    },
+    "tidbits": {
+      "type": "vocabulary",
+      "description": "Small, tasty pieces of food."
+    },
+    "kettle": {
+      "type": "vocabulary",
+      "description": "A metal pot used for cooking or boiling."
+    },
+    "butter-milk": {
+      "type": "vocabulary",
+      "description": "A fermented dairy product, commonly used in Indian cuisine."
+    },
+    "fate": {
+      "type": "vocabulary",
+      "description": "The development of events beyond a person's control, regarded as predetermined."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Vishnusharman",
+      "Jewel",
+      "barber",
+      "Jain monk",
+      "abbot",
+      "princes",
+      "Book V",
+      "Trumpet-Flower",
+      "Jain",
+      "Brahmans",
+      "decree of fate",
+      "salvation",
+      "despondency",
+      "self-starvation",
+      "manicure",
+      "obeisance",
+      "benediction",
+      "celibacy",
+      "neophyte",
+      "cudgels",
+      "acacia wood",
+      "citadel",
+      "summonser",
+      "impaled"
+    ],
+    "ch-2": [
+      "Godly",
+      "mungoose",
+      "black snake",
+      "mungoose",
+      "salves",
+      "gruel",
+      "benefactor",
+      "lamenting"
+    ],
+    "ch-3": [
+      "Brahmans",
+      "Terror-Joy",
+      "Shiva",
+      "King Vinavatsa",
+      "Rama",
+      "Avanti",
+      "Sipra",
+      "Himalaya Mountains",
+      "Vishnu",
+      "Brahmans",
+      "flunkeyism",
+      "pawnshop",
+      "usury",
+      "capitalist",
+      "magician",
+      "quill",
+      "graveyard",
+      "kinsmen",
+      "decrepitude",
+      "subaqueous"
+    ],
+    "ch-4": [
+      "Brahmans",
+      "lion",
+      "man of sense",
+      "wheel-bearer",
+      "gold-finder",
+      "Brahmans",
+      "scholarship",
+      "dullard",
+      "nullity",
+      "stanza"
+    ],
+    "ch-5": [
+      "Hundred-Wit",
+      "Thousand-Wit",
+      "Single-Wit",
+      "Death",
+      "gold-finder",
+      "wheel-bearer",
+      "cistern",
+      "witticism",
+      "inclosed",
+      "padling",
+      "stanza",
+      "dissuasion"
+    ],
+    "ch-6": [
+      "Prig",
+      "jackal",
+      "wheel-bearer",
+      "gold-finder",
+      "comestible",
+      "provender",
+      "conch-shell",
+      "cudgels",
+      "hobbled",
+      "mortar",
+      "Slow"
+    ],
+    "ch-7": [
+      "Slow",
+      "fairy",
+      "barber",
+      "wife",
+      "sissoo",
+      "Moon-Lord",
+      "loom",
+      "apparatus",
+      "entrenchment",
+      "duplicity",
+      "bard",
+      "hermit",
+      "fiend",
+      "sage"
+    ],
+    "ch-8": [
+      "Seedy",
+      "Moon-Lord",
+      "gold-finder",
+      "wheel-bearer",
+      "cot",
+      "barley-meal",
+      "dowry",
+      "mares",
+      "reverie",
+      "Godly",
+      "Moon"
+    ],
+    "ch-9": [
+      "Moon",
+      "chief of the monkeys",
+      "ram",
+      "cooks",
+      "fiend",
+      "retinue",
+      "gold-finder",
+      "wheel-bearer",
+      "Sunday",
+      "Twilight",
+      "provender",
+      "pabulum",
+      "fire brand",
+      "veterinary",
+      "monkeys-fat",
+      "halters",
+      "palanquin",
+      "lakh",
+      "myriads",
+      "bosom",
+      "dainties",
+      "retinue",
+      "proverb",
+      "fiend",
+      "palace-roofs",
+      "lotuses",
+      "lotus-stalk"
+    ],
+    "ch-10": [
+      "Fine-Army",
+      "Pearl",
+      "fiend",
+      "horse-thief",
+      "monkey",
+      "gold-finder",
+      "wheel-bearer",
+      "Twilight",
+      "banyan",
+      "fiend",
+      "magic circle",
+      "stanza",
+      "waywardness",
+      "prudence",
+      "fate’s decree"
+    ],
+    "ch-11": [
+      "Honey-Host",
+      "chamberlain",
+      "Honey-Town",
+      "Brahmans",
+      "ken",
+      "fiend",
+      "divine"
+    ],
+    "ch-12": [
+      "Cruel",
+      "Brahmans",
+      "blind man",
+      "Slow",
+      "three-breasted princess",
+      "gold-finder",
+      "Book V",
+      "fiend",
+      "lotus-heart",
+      "vow",
+      "proclamation",
+      "hundred thousand gold-pieces",
+      "belly-pot",
+      "tidbits",
+      "kettle",
+      "butter-milk",
+      "bosom",
+      "fate",
+      "prudence",
+      "barber",
+      "Godly",
+      "Moon"
+    ]
+  }
+}

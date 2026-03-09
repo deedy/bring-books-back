@@ -1,0 +1,22 @@
+{
+  "id": "panchatantra-loss-of-gains",
+  "title": "Loss of Gains",
+  "transliteratedTitle": "Loss of Gains",
+  "subtitle": "Cunning Creatures, Costly Consequences",
+  "authorId": "vishnu-sharma",
+  "coverImage": "/data/images/covers/panchatantra-loss-of-gains.webp",
+  "accentColor": "#C4872F",
+  "genre": [
+    "Fables",
+    "Philosophy",
+    "Folklore"
+  ],
+  "originalLanguage": "Sanskrit",
+  "originalTitle": "पञ्चतन्त्र",
+  "originalYear": -300,
+  "totalChapters": 13,
+  "wordCount": 9344,
+  "summary": "Step into a world where animals outwit, deceive, and learn hard lessons about trust and betrayal. Each tale in 'Loss of Gains' unravels the clever schemes and unexpected twists that come from misplaced confidence and tempting temptations. Discover how wisdom—or folly—shapes fate in these timeless fables.",
+  "anthologyId": "panchatantra",
+  "heroImage": "/data/images/heroes/panchatantra.webp"
+}

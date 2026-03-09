@@ -1,0 +1,22 @@
+{
+  "id": "panchatantra-ill-considered-action",
+  "title": "Ill-Considered Action",
+  "transliteratedTitle": "Ill-Considered Action",
+  "subtitle": "Fateful Choices and the Wisdom of Folly",
+  "authorId": "vishnu-sharma",
+  "coverImage": "/data/images/covers/panchatantra-ill-considered-action.webp",
+  "accentColor": "#C4872F",
+  "genre": [
+    "Fables",
+    "Philosophy",
+    "Folklore"
+  ],
+  "originalLanguage": "Sanskrit",
+  "originalTitle": "पञ्चतन्त्र",
+  "originalYear": -300,
+  "totalChapters": 12,
+  "wordCount": 9622,
+  "summary": "Step into a world where every action—no matter how small—can tip the balance between fortune and disaster. In these timeless fables, quick judgments and ill-placed trust set the stage for suspense, irony, and hard-earned lessons. Discover what happens when the line between loyalty and suspicion blurs, and when desperate friends chase treasures with more at stake than gold.",
+  "anthologyId": "panchatantra",
+  "heroImage": "/data/images/heroes/panchatantra.webp"
+}

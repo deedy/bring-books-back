@@ -50,7 +50,7 @@ Return a JSON object with this exact structure:
 
 async def extract_chapter_terms(sem, chapter, system_prompt, book_id):
     async with sem:
-        text = "\n\n".join(chapter["paragraphs"])
+        text = "\n\n".join(p["text"] if isinstance(p, dict) else p for p in chapter["paragraphs"])
         prompt = USER_PROMPT_TEMPLATE.format(
             number=chapter["number"],
             title=chapter["title"],
@@ -95,7 +95,7 @@ def reduce_results(results, book_id):
                     glossary[name] = {"type": type_label, "description": desc}
                 terms_in_chapter.append(name)
 
-        text = "\n".join(chapter["paragraphs"])
+        text = "\n".join(p["text"] if isinstance(p, dict) else p for p in chapter["paragraphs"])
         verified = [t for t in terms_in_chapter if t in text]
         chapter_terms[ch_id] = verified
 
@@ -320,7 +320,7 @@ def _trim_summary(text: str, max_words: int = 25) -> str:
 def _generate_chapter_summary_sync(chapter, book_title, book_id):
     """Generate a 20-25 word summary for a single chapter using Gemini Flash via OpenRouter."""
     paras = chapter["paragraphs"]
-    text = "\n\n".join(paras)
+    text = "\n\n".join(p["text"] if isinstance(p, dict) else p for p in paras)
     if len(text) > 12000:
         text = text[:10000] + "\n\n[...]\n\n" + text[-2000:]
 
@@ -448,8 +448,86 @@ async def _run_async(book_id, force=False):
 
 
 def run(book_id, force=False):
-    """Run annotation generation for a book. Returns True if output exists after run."""
+    """Run annotation generation for a book. For anthologies, iterates over sub-books."""
+    cfg = get_book(book_id)
+    if cfg.type == "anthology":
+        return asyncio.run(_run_anthology_async(book_id, force=force))
     return asyncio.run(_run_async(book_id, force=force))
+
+
+async def _run_anthology_async(book_id, force=False):
+    """Run annotations for each sub-book in an anthology."""
+    from pipeline.config import WEB_DATA_DIR
+    cfg = get_book(book_id)
+    anthology_path = cfg.web_book_dir / "anthology.json"
+    if not anthology_path.exists():
+        print(f"[{book_id}] anthology.json not found: {anthology_path}")
+        return False
+    with open(anthology_path) as f:
+        anthology = json.load(f)
+    story_ids = anthology.get("storyBookIds", [])
+    print(f"[{book_id}] Anthology with {len(story_ids)} story-books")
+    all_ok = True
+    for story_id in story_ids:
+        story_dir = WEB_DATA_DIR / "books" / story_id
+        chapters_path = story_dir / "chapters.json"
+        annotations_path = story_dir / "annotations.json"
+        if not chapters_path.exists():
+            print(f"  [{story_id}] chapters.json not found, skipping")
+            continue
+        if not force and annotations_path.exists():
+            print(f"  [{story_id}] Annotations exist, skipping")
+            # Still check summaries
+            with open(chapters_path) as f:
+                data = json.load(f)
+            has_summaries = all(ch.get("summary") for ch in data["chapters"])
+            if not has_summaries:
+                print(f"  [{story_id}] Generating chapter summaries...")
+                summary_map = await generate_summaries(data["chapters"], cfg.title, story_id)
+                with open(chapters_path) as f:
+                    fresh = json.load(f)
+                for ch in fresh["chapters"]:
+                    if summary_map.get(ch["id"]):
+                        ch["summary"] = summary_map[ch["id"]]
+                with open(chapters_path, "w") as f:
+                    json.dump(fresh, f, indent=2, ensure_ascii=False)
+            continue
+        # Run annotations for this sub-book
+        with open(chapters_path) as f:
+            data = json.load(f)
+        chapters = data["chapters"]
+        system_prompt = cfg.annotation_prompt
+        print(f"  [{story_id}] {len(chapters)} chapters, generating annotations...")
+        sem = asyncio.Semaphore(MAX_CONCURRENT)
+        tasks = [extract_chapter_terms(sem, ch, system_prompt, story_id) for ch in chapters]
+        results = await asyncio.gather(*tasks)
+
+        def sort_key(r):
+            parts = r[0].replace("ch-", "").split("-")
+            return tuple(int(p) for p in parts)
+        results.sort(key=sort_key)
+        output = reduce_results(results, story_id)
+        output = await deduplicate_glossary(output, story_id)
+        output = await reconcile_characters(output, story_id)
+        with open(annotations_path, "w") as f:
+            json.dump(output, f, indent=2, ensure_ascii=False)
+        g = output["glossary"]
+        chars = sum(1 for v in g.values() if v["type"] == "character")
+        print(f"  [{story_id}] Done! {len(g)} entries ({chars} characters)")
+
+        # Chapter summaries
+        has_summaries = all(ch.get("summary") for ch in chapters)
+        if force or not has_summaries:
+            print(f"  [{story_id}] Generating chapter summaries...")
+            summary_map = await generate_summaries(chapters, cfg.title, story_id)
+            with open(chapters_path) as f:
+                fresh = json.load(f)
+            for ch in fresh["chapters"]:
+                if summary_map.get(ch["id"]):
+                    ch["summary"] = summary_map[ch["id"]]
+            with open(chapters_path, "w") as f:
+                json.dump(fresh, f, indent=2, ensure_ascii=False)
+    return all_ok
 
 
 async def _run_reconcile(book_id):

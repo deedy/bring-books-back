@@ -1,0 +1,22 @@
+{
+  "id": "panchatantra-the-winning-of-friends",
+  "title": "The Winning of Friends",
+  "transliteratedTitle": "The Winning of Friends",
+  "subtitle": "Clever Creatures and the Power of Unity",
+  "authorId": "vishnu-sharma",
+  "coverImage": "/data/images/covers/panchatantra-the-winning-of-friends.webp",
+  "accentColor": "#C4872F",
+  "genre": [
+    "Fables",
+    "Philosophy",
+    "Folklore"
+  ],
+  "originalLanguage": "Sanskrit",
+  "originalTitle": "पञ्चतन्त्र",
+  "originalYear": -300,
+  "totalChapters": 10,
+  "wordCount": 15648,
+  "summary": "Enter a world where a mouse, a turtle, a deer, and a crow band together, proving that wit and friendship can triumph over adversity. Through fables both heartwarming and cautionary, ‘The Winning of Friends’ reveals how unlikely alliances and clever thinking can outmaneuver even the toughest challenges. Discover the enchanting tales that teach the true value of unity and wisdom.",
+  "anthologyId": "panchatantra",
+  "heroImage": "/data/images/heroes/panchatantra.webp"
+}

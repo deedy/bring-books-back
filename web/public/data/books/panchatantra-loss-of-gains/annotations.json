@@ -1,0 +1,722 @@
+{
+  "glossary": {
+    "Vishnusharman": {
+      "type": "character",
+      "description": "The narrator and storyteller of the Panchatantra, traditionally credited as the author and teacher of the princes."
+    },
+    "Book IV": {
+      "type": "proper_noun",
+      "description": "The fourth book or section of the Panchatantra, titled 'Loss of Gains.'"
+    },
+    "blandishments": {
+      "type": "vocabulary",
+      "description": "Flattering or coaxing speech or actions intended to persuade someone gently."
+    },
+    "guile": {
+      "type": "vocabulary",
+      "description": "Cunning, deceit, or sly intelligence."
+    },
+    "Red-Face": {
+      "type": "character",
+      "description": "A clever monkey who lives in a rose-apple tree and uses his wits to escape the treachery of his friend the crocodile.",
+      "image": "/data/images/characters/panchatantra-loss-of-gains/red-face.png"
+    },
+    "Ugly-Mug": {
+      "type": "character",
+      "description": "A crocodile who befriends Red-Face the monkey but is later persuaded by his wife to attempt to kill his friend.",
+      "image": "/data/images/characters/panchatantra-loss-of-gains/ugly-mug.png"
+    },
+    "Brahman": {
+      "type": "proper_noun",
+      "description": "A member of the priestly caste in Hindu society; here, refers both to an individual who has committed a grave sin and, in plural, to the priestly class known for self-denial."
+    },
+    "nectar": {
+      "type": "vocabulary",
+      "description": "In Indian and classical literature, refers to a sweet, divine drink or substance, often symbolizing immortality."
+    },
+    "lawbook": {
+      "type": "vocabulary",
+      "description": "Refers to ancient Hindu texts prescribing rules of conduct, such as the Manusmriti."
+    },
+    "expiation": {
+      "type": "vocabulary",
+      "description": "The act of making amends or reparation for guilt or wrongdoing."
+    },
+    "garlands": {
+      "type": "vocabulary",
+      "description": "Decorative wreaths of flowers, commonly used in Indian culture for welcoming guests or during celebrations."
+    },
+    "rebirthday": {
+      "type": "vocabulary",
+      "description": "A figurative term meaning a new lease on life or a second chance at living, often after escaping danger."
+    },
+    "Theodore": {
+      "type": "character",
+      "description": "A frog-king who lives in a well and seeks revenge on his relatives by enlisting the help of a black snake named Handsome."
+    },
+    "Handsome": {
+      "type": "character",
+      "description": "A black snake who is persuaded by Theodore to enter the well and eat Theodore's relatives."
+    },
+    "Theodosius": {
+      "type": "character",
+      "description": "The son of Theodore, who is eventually eaten by Handsome."
+    },
+    "Flop-Ear": {
+      "type": "character",
+      "description": "A character mentioned by the monkey as an example of someone who perished by entering danger.",
+      "image": "/data/images/characters/panchatantra-loss-of-gains/flop-ear.png"
+    },
+    "the lizard": {
+      "type": "character",
+      "description": "A lizard who lives in the well and is asked by Handsome to find Theodore and deliver a message."
+    },
+    "cistern": {
+      "type": "vocabulary",
+      "description": "A tank for storing water, often used in Indian and ancient contexts."
+    },
+    "tank": {
+      "type": "vocabulary",
+      "description": "A large artificial pool or reservoir for water, commonly found in India."
+    },
+    "proverb": {
+      "type": "vocabulary",
+      "description": "A short, well-known saying that expresses a general truth or piece of advice."
+    },
+    "carpet-slippery": {
+      "type": "vocabulary",
+      "description": "A phrase indicating a life of ease or comfort, often used in older English."
+    },
+    "subaqueous": {
+      "type": "vocabulary",
+      "description": "Existing, formed, or taking place underwater."
+    },
+    "saw": {
+      "type": "vocabulary",
+      "description": "An old saying or maxim; a proverb."
+    },
+    "rascally": {
+      "type": "vocabulary",
+      "description": "Mischievous or dishonest, often used in older English."
+    },
+    "hapless": {
+      "type": "vocabulary",
+      "description": "Unfortunate or unlucky, used in archaic or literary English."
+    },
+    "Fierce-Mane": {
+      "type": "character",
+      "description": "A male lion living in the forest, husband to the lioness and father to the twins, who adopts a jackal cub.",
+      "image": "/data/images/characters/panchatantra-loss-of-gains/fierce-mane.png"
+    },
+    "drudge": {
+      "type": "vocabulary",
+      "description": "A person or animal who does hard, menial, or dull work."
+    },
+    "laundryman": {
+      "type": "vocabulary",
+      "description": "A person whose occupation is washing and ironing clothes, often using animals like donkeys for transport."
+    },
+    "fodder": {
+      "type": "vocabulary",
+      "description": "Food, especially dried hay or straw, for cattle and other livestock."
+    },
+    "she-donkey": {
+      "type": "vocabulary",
+      "description": "A female donkey."
+    },
+    "monks": {
+      "type": "vocabulary",
+      "description": "Religious ascetics who renounce worldly life, often referenced in Indian traditions."
+    },
+    "frowsy": {
+      "type": "vocabulary",
+      "description": "Having a musty or stale appearance; unkempt, often used in older English."
+    },
+    "irrevocate": {
+      "type": "vocabulary",
+      "description": "An archaic form of 'irrevocable,' meaning unable to be changed or reversed."
+    },
+    "prayers": {
+      "type": "vocabulary",
+      "description": "Religious invocations or rituals, often performed after bathing in Indian tradition."
+    },
+    "potter": {
+      "type": "character",
+      "description": "A man who works with clay and becomes known as Fight-Firm after the king misinterprets a scar on his forehead as a battle wound.",
+      "image": "/data/images/characters/panchatantra-loss-of-gains/potter.png"
+    },
+    "king": {
+      "type": "character",
+      "description": "The ruler of the country where the potter becomes a life-guard; he misinterprets the potter's scar as a battle wound."
+    },
+    "princes": {
+      "type": "character",
+      "description": "The sons or noblemen of the king's court who become jealous of the favor shown to the potter."
+    },
+    "Your Majesty": {
+      "type": "proper_noun",
+      "description": "A formal address used for a king or queen, indicating respect and royal status."
+    },
+    "cicatrized": {
+      "type": "vocabulary",
+      "description": "Healed by the formation of scar tissue."
+    },
+    "potsherd": {
+      "type": "vocabulary",
+      "description": "A broken piece of ceramic material, especially from a pot."
+    },
+    "cicatrice": {
+      "type": "vocabulary",
+      "description": "A scar left by the formation of new tissue over a healing wound."
+    },
+    "accountered": {
+      "type": "vocabulary",
+      "description": "Equipped or outfitted, especially in reference to soldiers or animals for battle."
+    },
+    "caparisoned": {
+      "type": "vocabulary",
+      "description": "Dressed in rich decorative coverings, especially referring to horses."
+    },
+    "adroitness": {
+      "type": "vocabulary",
+      "description": "Skill or cleverness in using the hands or mind."
+    },
+    "cuffing": {
+      "type": "vocabulary",
+      "description": "A blow or slap, usually with the open hand."
+    },
+    "lioness": {
+      "type": "character",
+      "description": "The wife of the lion, mother to the twins, and foster mother to the jackal cub."
+    },
+    "twins": {
+      "type": "character",
+      "description": "The two lion cubs born to the lion and lioness, raised with the jackal cub."
+    },
+    "elephant": {
+      "type": "character",
+      "description": "A wild elephant who enters the forest, considered an enemy by the lion cubs."
+    },
+    "Scripture": {
+      "type": "proper_noun",
+      "description": "A reference to sacred or religious texts, likely alluding to Hindu scriptures."
+    },
+    "death-god": {
+      "type": "proper_noun",
+      "description": "A reference to Yama, the Hindu god of death, symbolizing fate or destiny."
+    },
+    "hermit": {
+      "type": "vocabulary",
+      "description": "A person living in solitude, often for religious reasons; here, refers to someone who should not be harmed."
+    },
+    "clergyman": {
+      "type": "vocabulary",
+      "description": "A member of the religious clergy; used in the proverb to indicate someone who should not be harmed."
+    },
+    "blighter": {
+      "type": "vocabulary",
+      "description": "An archaic English term for a contemptible or unlucky person."
+    },
+    "pluck": {
+      "type": "vocabulary",
+      "description": "Courage or spirited determination."
+    },
+    "routed": {
+      "type": "vocabulary",
+      "description": "Defeated and driven away in disorder."
+    },
+    "blossom-lip": {
+      "type": "vocabulary",
+      "description": "A poetic phrase describing the jackal's lips, suggesting youth or beauty."
+    },
+    "admonished": {
+      "type": "vocabulary",
+      "description": "Warned or reprimanded firmly."
+    },
+    "decamp": {
+      "type": "vocabulary",
+      "description": "To depart suddenly or secretly, especially to avoid trouble."
+    },
+    "absconded": {
+      "type": "vocabulary",
+      "description": "Left hurriedly and secretly, typically to avoid detection or arrest."
+    },
+    "anecdote": {
+      "type": "vocabulary",
+      "description": "A short, amusing or interesting story about a real incident or person."
+    },
+    "cripple": {
+      "type": "character",
+      "description": "A disabled man with a heavenly singing voice, whom the Brahman's wife falls in love with and marries."
+    },
+    "policemen": {
+      "type": "character",
+      "description": "City officials who discover the cripple in a basket and bring him before the king."
+    },
+    "holy man": {
+      "type": "character",
+      "description": "A spiritual figure who rescues the Brahman from the well."
+    },
+    "squabbled": {
+      "type": "vocabulary",
+      "description": "Argued noisily over trivial matters."
+    },
+    "lamented": {
+      "type": "vocabulary",
+      "description": "Expressed grief or sorrow."
+    },
+    "ceremony of purification": {
+      "type": "vocabulary",
+      "description": "A ritual act intended to cleanse a person spiritually or ritually."
+    },
+    "forest-fruits": {
+      "type": "vocabulary",
+      "description": "Fruits gathered from the wild forest, often referenced in Indian fables."
+    },
+    "invalid": {
+      "type": "vocabulary",
+      "description": "A person weakened or disabled by illness or injury."
+    },
+    "basket": {
+      "type": "vocabulary",
+      "description": "A woven container, often used in Indian stories for carrying people or goods."
+    },
+    "weeping and wailing": {
+      "type": "vocabulary",
+      "description": "Crying loudly and showing great distress."
+    },
+    "shorn": {
+      "type": "vocabulary",
+      "description": "Cut or shaved off, often used in reference to hair or wool."
+    },
+    "Joy": {
+      "type": "character",
+      "description": "A king, lord of the sea-girdled earth, renowned for his power and manliness."
+    },
+    "Splendor": {
+      "type": "character",
+      "description": "The secretary of King Joy, learned in all scientific text-books, who faces a lovers’ quarrel with his wife."
+    },
+    "sea-girdled": {
+      "type": "vocabulary",
+      "description": "Surrounded by the sea; often used in ancient texts to describe the earth."
+    },
+    "diadems": {
+      "type": "vocabulary",
+      "description": "Jeweled crowns or headbands worn as symbols of sovereignty."
+    },
+    "footstool": {
+      "type": "vocabulary",
+      "description": "A low stool for resting the feet, here symbolizing the subjugation of princes."
+    },
+    "henpecked": {
+      "type": "vocabulary",
+      "description": "A term describing a man dominated by his wife."
+    },
+    "grackle": {
+      "type": "vocabulary",
+      "description": "A type of bird, referenced in the proverb."
+    },
+    "scot-free": {
+      "type": "vocabulary",
+      "description": "Without suffering any punishment or harm."
+    },
+    "ass": {
+      "type": "vocabulary",
+      "description": "An archaic term for a donkey."
+    },
+    "Clean-Cloth": {
+      "type": "character",
+      "description": "A laundryman who owns a single donkey and devises a plan to disguise it in a tiger-skin."
+    },
+    "tiger-skin": {
+      "type": "proper_noun",
+      "description": "The hide of a tiger, used by Clean-Cloth to disguise his donkey."
+    },
+    "barley": {
+      "type": "proper_noun",
+      "description": "A type of grain that the disguised donkey eats in the fields."
+    },
+    "bray": {
+      "type": "vocabulary",
+      "description": "The loud, harsh cry of a donkey."
+    },
+    "leading-strings": {
+      "type": "vocabulary",
+      "description": "A phrase meaning under the control or guidance of someone else, often used to describe someone dominated by another."
+    },
+    "dunderhead": {
+      "type": "vocabulary",
+      "description": "An old-fashioned insult meaning a stupid or slow-witted person."
+    },
+    "calamities": {
+      "type": "vocabulary",
+      "description": "Great misfortunes or disasters."
+    },
+    "farmer": {
+      "type": "character",
+      "description": "An old man whose wife is discontented and ultimately betrayed by her."
+    },
+    "wife": {
+      "type": "character",
+      "description": "The discontented wife of an old farmer who conspires with a rogue to steal her husband's money and seek other lovers."
+    },
+    "rogue": {
+      "type": "character",
+      "description": "A thief who deceives the farmer's wife, steals her money and garments, and abandons her."
+    },
+    "she-jackal": {
+      "type": "character",
+      "description": "A female jackal who loses both her meat and a fish, and exchanges words with the farmer's wife."
+    },
+    "vulture": {
+      "type": "character",
+      "description": "A bird that swoops down and steals the meat from the she-jackal."
+    },
+    "fish": {
+      "type": "character",
+      "description": "A fish that is stranded on the bank but escapes back into the river."
+    },
+    "rose-apple tree": {
+      "type": "proper_noun",
+      "description": "A tropical fruit tree native to South and Southeast Asia, known for its fragrant fruit; it is the specific tree where the monkey resides."
+    },
+    "league": {
+      "type": "vocabulary",
+      "description": "An old unit of distance, approximately three miles."
+    },
+    "rendezvous": {
+      "type": "vocabulary",
+      "description": "A meeting place, especially one arranged beforehand."
+    },
+    "woebegone": {
+      "type": "vocabulary",
+      "description": "Looking sorrowful or miserable."
+    },
+    "conciliation": {
+      "type": "vocabulary",
+      "description": "The action of stopping someone from being angry; placation."
+    },
+    "intrigue": {
+      "type": "vocabulary",
+      "description": "The use of secret planning or plotting, often to achieve an objective."
+    },
+    "bribery": {
+      "type": "vocabulary",
+      "description": "Offering something, often money, to persuade someone to act in one's favor."
+    },
+    "wretch": {
+      "type": "vocabulary",
+      "description": "An unfortunate or unhappy person."
+    },
+    "counsel": {
+      "type": "vocabulary",
+      "description": "Advice, especially formally given."
+    },
+    "sparrow": {
+      "type": "character",
+      "description": "A bird who, along with his wife, built a nest on a tree branch; one of the main characters in this fable."
+    },
+    "hen-sparrow": {
+      "type": "character",
+      "description": "The sparrow's wife, known for her outspoken and 'pert' nature; she offers advice to the monkey."
+    },
+    "February": {
+      "type": "proper_noun",
+      "description": "A month in the Gregorian calendar, referenced here to indicate the time of the story."
+    },
+    "heaven": {
+      "type": "proper_noun",
+      "description": "A spiritual or divine realm, often referenced in Indian and other religious traditions."
+    },
+    "paltry": {
+      "type": "vocabulary",
+      "description": "Insignificant or of little value; used here to belittle the hen-sparrow."
+    },
+    "plover": {
+      "type": "vocabulary",
+      "description": "A type of wading bird, referenced in a proverb."
+    },
+    "slut": {
+      "type": "vocabulary",
+      "description": "An archaic insult, used here as a term of abuse."
+    },
+    "wench": {
+      "type": "vocabulary",
+      "description": "An archaic term for a woman, often used insultingly."
+    },
+    "obeisance": {
+      "type": "vocabulary",
+      "description": "A gesture of respect or submission, such as a bow."
+    },
+    "flunkeys": {
+      "type": "vocabulary",
+      "description": "Servants or people of low status who are obsequious to those in power."
+    },
+    "saintlihood": {
+      "type": "vocabulary",
+      "description": "The state or quality of being saintly or virtuous."
+    },
+    "recompensing": {
+      "type": "vocabulary",
+      "description": "Repaying or compensating, especially in the context of returning good or evil."
+    },
+    "Supersmart": {
+      "type": "character",
+      "description": "A clever jackal raised by the lion and lioness as their third son; he devises schemes to eat an elephant and outwits other predators.",
+      "image": "/data/images/characters/panchatantra-loss-of-gains/supersmart.png"
+    },
+    "tiger": {
+      "type": "character",
+      "description": "A fearful animal who is tricked by Supersmart into leaving the elephant carcass."
+    },
+    "leopard": {
+      "type": "character",
+      "description": "A hungry leopard with strong teeth who is persuaded by the jackal to cut open an elephant hide."
+    },
+    "second jackal": {
+      "type": "character",
+      "description": "Another jackal who challenges Supersmart for the elephant meat but is driven away."
+    },
+    "cudgel-bearer": {
+      "type": "vocabulary",
+      "description": "One who carries a cudgel (a short, thick stick used as a weapon), here meaning a guard or servant."
+    },
+    "deign": {
+      "type": "vocabulary",
+      "description": "To do something considered beneath one's dignity; to condescend."
+    },
+    "leavings": {
+      "type": "vocabulary",
+      "description": "Remnants or leftovers, especially of food."
+    },
+    "subsistence": {
+      "type": "vocabulary",
+      "description": "Means of supporting life; livelihood."
+    },
+    "self-denial": {
+      "type": "vocabulary",
+      "description": "The act of restraining oneself from indulging in desires, often for religious reasons."
+    },
+    "fickle": {
+      "type": "vocabulary",
+      "description": "Likely to change frequently, especially in loyalty or affection."
+    },
+    "kinsmen": {
+      "type": "vocabulary",
+      "description": "Relatives or family members."
+    },
+    "ruffian": {
+      "type": "character",
+      "description": "A desperate intruder who forces his way into the crocodile's home and is ultimately defeated."
+    },
+    "bill of fare": {
+      "type": "vocabulary",
+      "description": "An old-fashioned term for a menu or selection of food."
+    },
+    "sobriety": {
+      "type": "vocabulary",
+      "description": "Seriousness or moderation, here implying self-control or restraint."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Vishnusharman",
+      "Book IV",
+      "blandishments",
+      "guile",
+      "Red-Face",
+      "Ugly-Mug"
+    ],
+    "ch-2": [
+      "Red-Face",
+      "Ugly-Mug",
+      "Brahman",
+      "nectar",
+      "lawbook",
+      "expiation",
+      "garlands",
+      "rebirthday",
+      "rose-apple tree"
+    ],
+    "ch-3": [
+      "Theodore",
+      "Handsome",
+      "Theodosius",
+      "Flop-Ear",
+      "the lizard",
+      "cistern",
+      "tank",
+      "proverb",
+      "carpet-slippery",
+      "subaqueous",
+      "saw",
+      "rascally",
+      "hapless",
+      "Red-Face",
+      "Ugly-Mug"
+    ],
+    "ch-4": [
+      "Fierce-Mane",
+      "Flop-Ear",
+      "drudge",
+      "tank",
+      "laundryman",
+      "fodder",
+      "she-donkey",
+      "proverb",
+      "nectar",
+      "monks",
+      "frowsy",
+      "irrevocate",
+      "prayers",
+      "potter",
+      "Supersmart"
+    ],
+    "ch-5": [
+      "potter",
+      "king",
+      "princes",
+      "Your Majesty",
+      "cicatrized",
+      "potsherd",
+      "cicatrice",
+      "accountered",
+      "caparisoned",
+      "adroitness",
+      "cuffing"
+    ],
+    "ch-6": [
+      "lioness",
+      "twins",
+      "elephant",
+      "potter",
+      "Scripture",
+      "death-god",
+      "hermit",
+      "clergyman",
+      "blighter",
+      "pluck",
+      "routed",
+      "blossom-lip",
+      "admonished",
+      "decamp",
+      "absconded",
+      "anecdote",
+      "Fierce-Mane",
+      "Supersmart",
+      "Red-Face",
+      "Ugly-Mug"
+    ],
+    "ch-7": [
+      "Brahman",
+      "cripple",
+      "king",
+      "policemen",
+      "holy man",
+      "Brahman",
+      "squabbled",
+      "lamented",
+      "ceremony of purification",
+      "forest-fruits",
+      "invalid",
+      "basket",
+      "weeping and wailing",
+      "Your Majesty",
+      "shorn",
+      "Red-Face",
+      "Ugly-Mug"
+    ],
+    "ch-8": [
+      "Joy",
+      "Splendor",
+      "Joy",
+      "Splendor",
+      "sea-girdled",
+      "diadems",
+      "footstool",
+      "shorn",
+      "henpecked",
+      "grackle",
+      "scot-free",
+      "ass"
+    ],
+    "ch-9": [
+      "Clean-Cloth",
+      "tiger-skin",
+      "barley",
+      "fodder",
+      "bray",
+      "henpecked",
+      "leading-strings",
+      "dunderhead",
+      "calamities",
+      "Red-Face",
+      "Ugly-Mug"
+    ],
+    "ch-10": [
+      "farmer",
+      "wife",
+      "rogue",
+      "she-jackal",
+      "vulture",
+      "fish",
+      "rose-apple tree",
+      "league",
+      "rendezvous",
+      "woebegone",
+      "conciliation",
+      "intrigue",
+      "bribery",
+      "wretch",
+      "counsel",
+      "Red-Face",
+      "Ugly-Mug"
+    ],
+    "ch-11": [
+      "sparrow",
+      "hen-sparrow",
+      "February",
+      "heaven",
+      "woebegone",
+      "paltry",
+      "plover",
+      "slut",
+      "wench",
+      "obeisance",
+      "flunkeys",
+      "saintlihood",
+      "recompensing",
+      "Red-Face",
+      "Ugly-Mug"
+    ],
+    "ch-12": [
+      "Supersmart",
+      "tiger",
+      "leopard",
+      "second jackal",
+      "obeisance",
+      "cudgel-bearer",
+      "deign",
+      "leavings",
+      "subsistence",
+      "self-denial",
+      "fickle",
+      "kinsmen",
+      "Fierce-Mane",
+      "Brahman"
+    ],
+    "ch-13": [
+      "ruffian",
+      "Book IV",
+      "bill of fare",
+      "kinsmen",
+      "sobriety",
+      "blandishments",
+      "guile",
+      "Red-Face",
+      "Ugly-Mug",
+      "leopard"
+    ]
+  }
+}

@@ -1,0 +1,1481 @@
+{
+  "glossary": {
+    "Vishnusharman": {
+      "type": "character",
+      "description": "The narrator and teacher who tells the stories to the princes."
+    },
+    "Cloudy": {
+      "type": "character",
+      "description": "Cloudy, the crow-king, leads the crows and seeks counsel on how to deal with the owl enemy.",
+      "image": "/data/images/characters/panchatantra-crows-and-owls/cloudy.png"
+    },
+    "Foe-Crusher": {
+      "type": "character",
+      "description": "Foe-Crusher, the owl-king, is the leader of the owls, rival of Cloudy, and wages war against the crows.",
+      "image": "/data/images/characters/panchatantra-crows-and-owls/foe-crusher.png"
+    },
+    "Live-Again": {
+      "type": "character",
+      "description": "One of Cloudy's five ancestral counselors, advocates for making peace with the enemy."
+    },
+    "Live-Well": {
+      "type": "character",
+      "description": "One of Cloudy's counselors, advises fighting against the enemy."
+    },
+    "Live-Along": {
+      "type": "character",
+      "description": "One of Cloudy's counselors, recommends a change of base rather than peace or war."
+    },
+    "Live-On": {
+      "type": "character",
+      "description": "One of Cloudy's counselors, suggests entrenchment and defense within the fortress."
+    },
+    "LiveLong": {
+      "type": "character",
+      "description": "One of Cloudy's counselors who recommends forming alliances or changing bases."
+    },
+    "Live-Strong": {
+      "type": "character",
+      "description": "An ancient and farsighted counselor of Cloudy's race, advocates duplicity and the use of spies.",
+      "image": "/data/images/characters/panchatantra-crows-and-owls/live-strong.png"
+    },
+    "Narada": {
+      "type": "character",
+      "description": "A sage referenced by Live-Strong as a source of knowledge about royal functionaries."
+    },
+    "Fight-Firm": {
+      "type": "character",
+      "description": "A king mentioned in a proverb and as a recipient of Narada's advice."
+    },
+    "Bhima": {
+      "type": "character",
+      "description": "A legendary hero from the Mahabharata who defeated his foe Kichaka through deception."
+    },
+    "Book III": {
+      "type": "proper_noun",
+      "description": "The third book of the Panchatantra, titled 'Crows and Owls.'"
+    },
+    "Earth-Base": {
+      "type": "proper_noun",
+      "description": "A city in the southern country where the story is set."
+    },
+    "banyan": {
+      "type": "proper_noun",
+      "description": "A large, sacred fig tree native to India, often associated with longevity and shelter."
+    },
+    "April": {
+      "type": "proper_noun",
+      "description": "A month mentioned as a suitable time for invasion according to the text."
+    },
+    "November": {
+      "type": "proper_noun",
+      "description": "A month mentioned as a suitable time for invasion according to the text."
+    },
+    "retinue": {
+      "type": "vocabulary",
+      "description": "A group of attendants or followers accompanying an important person."
+    },
+    "habitation": {
+      "type": "vocabulary",
+      "description": "A place of residence or dwelling."
+    },
+    "entrenchment": {
+      "type": "vocabulary",
+      "description": "The act of fortifying or defending a position, often by digging trenches."
+    },
+    "duplicity": {
+      "type": "vocabulary",
+      "description": "Deceitfulness or double-dealing in speech or conduct."
+    },
+    "foemen": {
+      "type": "vocabulary",
+      "description": "Archaic term for enemies or foes."
+    },
+    "gyneceum": {
+      "type": "vocabulary",
+      "description": "The women's quarters in a palace or large household."
+    },
+    "superintendent": {
+      "type": "vocabulary",
+      "description": "A person who manages or oversees a particular department or operation."
+    },
+    "concierge": {
+      "type": "vocabulary",
+      "description": "An attendant or caretaker, especially in a palace or large household."
+    },
+    "star-gazer": {
+      "type": "vocabulary",
+      "description": "An astrologer or astronomer, often consulted for omens or advice."
+    },
+    "quartermaster": {
+      "type": "vocabulary",
+      "description": "An officer responsible for the supply of food, equipment, and accommodations."
+    },
+    "geisha": {
+      "type": "vocabulary",
+      "description": "A female entertainer, though in this context likely refers to a court performer or attendant."
+    },
+    "purveyor": {
+      "type": "vocabulary",
+      "description": "A supplier, especially of food or provisions."
+    },
+    "professor": {
+      "type": "vocabulary",
+      "description": "A learned person or teacher, especially in a royal court."
+    },
+    "life-guard": {
+      "type": "vocabulary",
+      "description": "A bodyguard or protector, especially for a king or important person."
+    },
+    "counselor": {
+      "type": "vocabulary",
+      "description": "An advisor, especially to a king or leader."
+    },
+    "functionary": {
+      "type": "vocabulary",
+      "description": "An official who performs a specific function or duty, often in government or administration."
+    },
+    "doggerel": {
+      "type": "vocabulary",
+      "description": "Comic or irregular verse, often used for mnemonic or illustrative purposes."
+    },
+    "moat": {
+      "type": "vocabulary",
+      "description": "A deep, wide ditch surrounding a fortress, typically filled with water for defense."
+    },
+    "shaft": {
+      "type": "vocabulary",
+      "description": "An arrow or spear; in this context, a weapon for defense."
+    },
+    "sally": {
+      "type": "vocabulary",
+      "description": "A sudden charge out of a besieged place against the enemy."
+    },
+    "Garuda": {
+      "type": "character",
+      "description": "A mythical bird and king of the birds, traditionally the mount of Vishnu; here, he is described as inattentive to the birds' needs."
+    },
+    "Vishnu": {
+      "type": "character",
+      "description": "A major Hindu deity; King Prithu is considered an incarnation of this preserver god."
+    },
+    "owl": {
+      "type": "character",
+      "description": "Owl (or owls) refers to the bird proposed by the bird-clans as their new king due to his venerable appearance, one of whom is chosen as king."
+    },
+    "crow": {
+      "type": "character",
+      "description": "A clever and shrewd bird who interrupts the coronation and questions the wisdom of making the owl king."
+    },
+    "swans": {
+      "type": "character",
+      "description": "A type of bird mentioned among the bird-clans, regarded as eminent."
+    },
+    "cranes": {
+      "type": "character",
+      "description": "A type of bird present at the gathering."
+    },
+    "nightingales": {
+      "type": "character",
+      "description": "Birds known for their song, included among the bird-clans."
+    },
+    "peacocks": {
+      "type": "character",
+      "description": "Colorful birds present at the assembly."
+    },
+    "plovers": {
+      "type": "character",
+      "description": "A type of bird mentioned in the gathering."
+    },
+    "doves": {
+      "type": "character",
+      "description": "Birds present at the gathering."
+    },
+    "pigeons": {
+      "type": "character",
+      "description": "Birds present at the gathering."
+    },
+    "partridges": {
+      "type": "character",
+      "description": "Birds present at the gathering."
+    },
+    "bluejays": {
+      "type": "character",
+      "description": "Birds present at the gathering."
+    },
+    "vultures": {
+      "type": "character",
+      "description": "Birds present at the gathering."
+    },
+    "skylarks": {
+      "type": "character",
+      "description": "Birds present at the gathering."
+    },
+    "demoiselles": {
+      "type": "character",
+      "description": "A type of crane, present at the gathering."
+    },
+    "cuckoos": {
+      "type": "character",
+      "description": "Birds present at the gathering."
+    },
+    "woodpeckers": {
+      "type": "character",
+      "description": "Birds present at the gathering."
+    },
+    "sheldrakes": {
+      "type": "character",
+      "description": "A type of waterfowl mentioned by the crow as eminent."
+    },
+    "lion-throne": {
+      "type": "character",
+      "description": "A ceremonial throne prepared for the coronation of the bird king."
+    },
+    "White-Robe": {
+      "type": "proper_noun",
+      "description": "A reference to a particular class or group of priests, possibly Jain monks, known for their white attire."
+    },
+    "anointing": {
+      "type": "vocabulary",
+      "description": "The ritual act of applying oil or other substances to a person, especially during a coronation."
+    },
+    "oblation": {
+      "type": "vocabulary",
+      "description": "A religious offering, often of food or grain, made as part of a ritual."
+    },
+    "lustration": {
+      "type": "vocabulary",
+      "description": "A ceremonial purification by means of water or other substances."
+    },
+    "parched grain": {
+      "type": "vocabulary",
+      "description": "Grain that has been roasted or dried, often used in rituals."
+    },
+    "potash": {
+      "type": "vocabulary",
+      "description": "A substance (potassium carbonate) used in rituals to purify or consecrate a space."
+    },
+    "consecrated": {
+      "type": "vocabulary",
+      "description": "Made or declared sacred, especially through a religious ceremony."
+    },
+    "mustard": {
+      "type": "vocabulary",
+      "description": "White mustard seeds, commonly used in Indian rituals for purification."
+    },
+    "caw": {
+      "type": "vocabulary",
+      "description": "The harsh cry of a crow."
+    },
+    "monarch": {
+      "type": "vocabulary",
+      "description": "A king or supreme ruler, used here for the bird chosen as king."
+    },
+    "holiday drums": {
+      "type": "vocabulary",
+      "description": "Drums played during festivals or ceremonial occasions."
+    },
+    "wreaths": {
+      "type": "vocabulary",
+      "description": "Garlands of flowers used for decoration or ritual purposes."
+    },
+    "twigs": {
+      "type": "vocabulary",
+      "description": "Small branches, often used in rituals."
+    },
+    "Four-Tusk": {
+      "type": "character",
+      "description": "The elephant-king who leads and protects his herd during a time of drought."
+    },
+    "Victory": {
+      "type": "character",
+      "description": "A clever rabbit who devises the plan to save the rabbits from the elephants."
+    },
+    "Block-Snout": {
+      "type": "character",
+      "description": "The rabbit-king who trusts Victory to act as envoy to the elephants."
+    },
+    "Moon": {
+      "type": "character",
+      "description": "Referred to as the 'blessed Moon,' a deity who is said to protect the rabbits and whose lake is threatened by the elephants."
+    },
+    "Lake of the Moon": {
+      "type": "proper_noun",
+      "description": "A beautiful lake near a hermitage, sacred to the Moon and home to many rabbits."
+    },
+    "Seven Sages": {
+      "type": "proper_noun",
+      "description": "A reference to the constellation of the seven great sages (Saptarishi) in Indian astronomy, seen reflected in the lake."
+    },
+    "hermitage": {
+      "type": "vocabulary",
+      "description": "A secluded residence, often for religious retreat or ascetic living."
+    },
+    "ichor-juice": {
+      "type": "vocabulary",
+      "description": "A mythical or poetic term for the fragrant liquid that oozes from the temples of elephants."
+    },
+    "bosom": {
+      "type": "vocabulary",
+      "description": "An archaic term for the chest or heart, often used figuratively for protection or affection."
+    },
+    "peradventure": {
+      "type": "vocabulary",
+      "description": "An archaic word meaning 'perhaps' or 'by chance.'"
+    },
+    "nuncio": {
+      "type": "vocabulary",
+      "description": "An envoy or messenger, especially one representing a sovereign or religious authority."
+    },
+    "envoy": {
+      "type": "vocabulary",
+      "description": "A representative or messenger, often sent on a diplomatic mission."
+    },
+    "obeisance": {
+      "type": "vocabulary",
+      "description": "A gesture or act of respect or submission, such as a bow."
+    },
+    "digits": {
+      "type": "vocabulary",
+      "description": "In this context, refers to the divisions or phases of the moon."
+    },
+    "umpire": {
+      "type": "vocabulary",
+      "description": "A person chosen to settle disputes; in this context, a judge or arbitrator."
+    },
+    "Speedy": {
+      "type": "character",
+      "description": "A rabbit who occupies the partridge's old nest and becomes involved in a dispute over its ownership."
+    },
+    "Curd-Ear": {
+      "type": "character",
+      "description": "A tomcat who pretends to be a holy ascetic and is chosen to judge the dispute between the rabbit and the partridge."
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "A sacred river in India, often referenced in Hindu tradition and literature."
+    },
+    "Brahman": {
+      "type": "proper_noun",
+      "description": "Brahman (plural: Brahmans) refers to a member of the priestly caste in Hindu society, often depicted as a learned and pious individual, worthy of straightforward conduct."
+    },
+    "partridge": {
+      "type": "vocabulary",
+      "description": "A type of bird, often featured in Indian fables."
+    },
+    "cisterns": {
+      "type": "vocabulary",
+      "description": "Large storage tanks for water, commonly used in Indian villages."
+    },
+    "conundrums": {
+      "type": "vocabulary",
+      "description": "Riddles or puzzles, often used in storytelling."
+    },
+    "consecrated tradition": {
+      "type": "vocabulary",
+      "description": "A phrase referring to established religious or legal customs."
+    },
+    "dictum": {
+      "type": "vocabulary",
+      "description": "An authoritative statement or pronouncement."
+    },
+    "penance": {
+      "type": "vocabulary",
+      "description": "Voluntary self-punishment or religious discipline to express repentance."
+    },
+    "self-denial": {
+      "type": "vocabulary",
+      "description": "The act of denying oneself pleasures or desires, often for religious reasons."
+    },
+    "pharisaic": {
+      "type": "vocabulary",
+      "description": "Hypocritically self-righteous or sanctimonious, originally referring to the Pharisees."
+    },
+    "hermeneutic": {
+      "type": "vocabulary",
+      "description": "Related to the interpretation of sacred texts."
+    },
+    "exegesis": {
+      "type": "vocabulary",
+      "description": "Critical explanation or interpretation of a text, especially scripture."
+    },
+    "regal anointing": {
+      "type": "vocabulary",
+      "description": "A ceremonial act of crowning or consecrating a king."
+    },
+    "vituperates": {
+      "type": "vocabulary",
+      "description": "Speaks abusively or harshly."
+    },
+    "expedients": {
+      "type": "vocabulary",
+      "description": "Means or methods used to achieve a particular end, often with a sense of cleverness or resourcefulness."
+    },
+    "Friendly": {
+      "type": "character",
+      "description": "A Brahman who maintains the sacred fire and is the main character of the story, tricked by three rogues."
+    },
+    "three rogues": {
+      "type": "character",
+      "description": "A group of three cunning men who trick the Brahman into abandoning his goat."
+    },
+    "sacred fire": {
+      "type": "vocabulary",
+      "description": "A ritual fire maintained by Brahmans for religious ceremonies."
+    },
+    "sacrificer": {
+      "type": "vocabulary",
+      "description": "One who performs or sponsors a religious sacrifice."
+    },
+    "victim": {
+      "type": "vocabulary",
+      "description": "An animal offered as a sacrifice in a religious ritual."
+    },
+    "offering": {
+      "type": "vocabulary",
+      "description": "A ritual gift, often food or an animal, presented to a deity."
+    },
+    "new moon": {
+      "type": "vocabulary",
+      "description": "A lunar phase significant in Hindu ritual timing."
+    },
+    "plump": {
+      "type": "vocabulary",
+      "description": "Well-fed or fat; in this context, refers to the goat's suitability for sacrifice."
+    },
+    "pious": {
+      "type": "vocabulary",
+      "description": "Devoutly religious or observant."
+    },
+    "unconventional": {
+      "type": "vocabulary",
+      "description": "Not conforming to established customs or practices."
+    },
+    "defile": {
+      "type": "vocabulary",
+      "description": "To make unclean or impure, especially in a ritual sense."
+    },
+    "impute": {
+      "type": "vocabulary",
+      "description": "To attribute or ascribe, especially something undesirable."
+    },
+    "pet": {
+      "type": "vocabulary",
+      "description": "A domesticated animal kept for companionship; here, used to refer to a calf."
+    },
+    "lunar fast": {
+      "type": "vocabulary",
+      "description": "A religious fast observed according to the lunar calendar."
+    },
+    "purify": {
+      "type": "vocabulary",
+      "description": "To cleanse from ritual or spiritual impurity."
+    },
+    "ass": {
+      "type": "vocabulary",
+      "description": "An archaic term for a donkey."
+    },
+    "quarrel": {
+      "type": "vocabulary",
+      "description": "A heated argument or dispute."
+    },
+    "populace": {
+      "type": "vocabulary",
+      "description": "The general public or common people."
+    },
+    "rascals": {
+      "type": "vocabulary",
+      "description": "Mischievous or dishonest people."
+    },
+    "roguish": {
+      "type": "vocabulary",
+      "description": "Characteristic of a rogue; playfully mischievous or deceitful."
+    },
+    "Haughty": {
+      "type": "character",
+      "description": "A prodigious black snake living in an ant-hill who is attacked and killed by ants after being wounded."
+    },
+    "Red-Eye": {
+      "type": "character",
+      "description": "One of Foe-Crusher's five counselors, known for giving advice in critical situations.",
+      "image": "/data/images/characters/panchatantra-crows-and-owls/red-eye.png"
+    },
+    "Fierce-Eye": {
+      "type": "character",
+      "description": "One of Foe-Crusher's five counselors."
+    },
+    "Flame-Eye": {
+      "type": "character",
+      "description": "One of Foe-Crusher's five counselors."
+    },
+    "Hook-Nose": {
+      "type": "character",
+      "description": "One of Foe-Crusher's five counselors."
+    },
+    "Wall-Ear": {
+      "type": "character",
+      "description": "One of Foe-Crusher's five counselors."
+    },
+    "Antelope Mountain": {
+      "type": "proper_noun",
+      "description": "A place where Cloudy and his retinue are instructed to hide as part of their plan."
+    },
+    "banyan tree": {
+      "type": "proper_noun",
+      "description": "A large, sacred fig tree native to India, serving as a landmark in the story."
+    },
+    "ant-hill": {
+      "type": "vocabulary",
+      "description": "A mound built by ants as their nest."
+    },
+    "phalanx": {
+      "type": "vocabulary",
+      "description": "A compact or close-knit body of people or animals, here referring to the massed ants."
+    },
+    "egress": {
+      "type": "vocabulary",
+      "description": "An exit or a way out, especially from a fort or enclosure."
+    },
+    "fortress": {
+      "type": "vocabulary",
+      "description": "A heavily protected and impenetrable building or place."
+    },
+    "balk": {
+      "type": "vocabulary",
+      "description": "To hesitate or refuse to proceed or to do something."
+    },
+    "chastisement": {
+      "type": "vocabulary",
+      "description": "Severe criticism or punishment."
+    },
+    "consort": {
+      "type": "vocabulary",
+      "description": "The spouse or companion of a reigning monarch, here referring to the owl-king's mate."
+    },
+    "prime minister": {
+      "type": "vocabulary",
+      "description": "The chief adviser or minister to a king."
+    },
+    "counselors": {
+      "type": "vocabulary",
+      "description": "Advisers to a king or ruler."
+    },
+    "funeral pile": {
+      "type": "vocabulary",
+      "description": "A pyre, a pile of wood for burning a dead body as part of a funeral rite."
+    },
+    "snake": {
+      "type": "character",
+      "description": "Snake refers to various serpents in the stories, including the terrifying serpent believed to be the guardian deity of the field, the snake living in an ant-hill, and the snake residing in the prince's belly.",
+      "image": "/data/images/characters/panchatantra-crows-and-owls/snake.png"
+    },
+    "Brahman’s boy": {
+      "type": "character",
+      "description": "The son of the Brahman who attempts to kill the snake for its gold and is killed in return."
+    },
+    "dinar": {
+      "type": "proper_noun",
+      "description": "An ancient gold coin historically used in India and other regions."
+    },
+    "cudgel": {
+      "type": "vocabulary",
+      "description": "A short, thick stick used as a weapon."
+    },
+    "cremated": {
+      "type": "vocabulary",
+      "description": "Burned a dead body to ashes, a common Hindu funerary practice."
+    },
+    "lotus": {
+      "type": "vocabulary",
+      "description": "A sacred flower in Indian culture, symbolizing purity and spiritual awakening."
+    },
+    "Gay-Chariot": {
+      "type": "character",
+      "description": "A king who owns Lotus Lake and must decide a dispute among the golden swans and a great bird."
+    },
+    "Lotus Lake": {
+      "type": "proper_noun",
+      "description": "A lake owned by King Gay-Chariot, inhabited by golden swans."
+    },
+    "kinsmen": {
+      "type": "vocabulary",
+      "description": "Relatives or members of the same group; used here for the birds addressing each other."
+    },
+    "suppliant": {
+      "type": "vocabulary",
+      "description": "One who humbly petitions or begs, especially to someone in authority."
+    },
+    "foeman": {
+      "type": "vocabulary",
+      "description": "An archaic term for an enemy or adversary."
+    },
+    "fowler": {
+      "type": "character",
+      "description": "A bird-catcher who brings harm to forest creatures and is central to the story's events."
+    },
+    "dove": {
+      "type": "character",
+      "description": "A self-sacrificing male dove who welcomes the fowler as a guest and ultimately sacrifices himself."
+    },
+    "female dove": {
+      "type": "character",
+      "description": "The wife of the dove, who is captured by the fowler and later sacrifices herself to join her husband."
+    },
+    "gyves": {
+      "type": "vocabulary",
+      "description": "Shackles or fetters used to restrain prisoners."
+    },
+    "amain": {
+      "type": "vocabulary",
+      "description": "With full force; at full speed."
+    },
+    "chariot": {
+      "type": "vocabulary",
+      "description": "A vehicle, often horse-drawn, used in ancient India and associated with gods or royalty."
+    },
+    "car divine": {
+      "type": "vocabulary",
+      "description": "A divine or heavenly chariot, symbolizing ascension to heaven."
+    },
+    "lamenting": {
+      "type": "vocabulary",
+      "description": "Expressing grief or sorrow."
+    },
+    "brood": {
+      "type": "vocabulary",
+      "description": "Offspring or young of an animal, especially birds."
+    },
+    "widowhood": {
+      "type": "vocabulary",
+      "description": "The state of having lost one's spouse by death."
+    },
+    "Lovelorn": {
+      "type": "character",
+      "description": "An aged merchant whose reason was clouded by love; he marries a young woman after his wife's death."
+    },
+    "Hangman’s Well": {
+      "type": "proper_noun",
+      "description": "A specific well referenced in a simile, associated with pain and death, likely a cultural or legendary location."
+    },
+    "maiden": {
+      "type": "vocabulary",
+      "description": "An archaic term for a young, unmarried woman."
+    },
+    "sue": {
+      "type": "vocabulary",
+      "description": "An archaic term meaning to plead or beg."
+    },
+    "fain": {
+      "type": "vocabulary",
+      "description": "An archaic word meaning gladly or willingly."
+    },
+    "bleaching": {
+      "type": "vocabulary",
+      "description": "In this context, refers to bones becoming white from exposure, often used in older literature."
+    },
+    "driveling": {
+      "type": "vocabulary",
+      "description": "Drooling or slobbering, especially as a sign of old age; archaic usage."
+    },
+    "doddering": {
+      "type": "vocabulary",
+      "description": "Trembling or tottering, typically due to old age."
+    },
+    "benefactor": {
+      "type": "vocabulary",
+      "description": "Someone who gives help or advantage, often used in moral or didactic tales."
+    },
+    "thief": {
+      "type": "character",
+      "description": "A man who plans to steal the Brahman's two cows and becomes entangled with a ghost."
+    },
+    "ghost": {
+      "type": "character",
+      "description": "A supernatural being named Truthful who wishes to eat the Brahman."
+    },
+    "king": {
+      "type": "character",
+      "description": "A ruler who seeks advice from Wall-Ear."
+    },
+    "Truthful": {
+      "type": "proper_noun",
+      "description": "The name of the ghost character in this story."
+    },
+    "Scriptures": {
+      "type": "proper_noun",
+      "description": "Scriptures (including the Vedas and Sacred Word) refer to the sacred Hindu texts that provide religious and moral guidance, often cited as authority in the narrative."
+    },
+    "Shibi": {
+      "type": "proper_noun",
+      "description": "A legendary king in Indian mythology known for his self-sacrifice."
+    },
+    "ointment": {
+      "type": "vocabulary",
+      "description": "A smooth substance applied to the skin for medicinal or cosmetic purposes."
+    },
+    "betel-gum": {
+      "type": "vocabulary",
+      "description": "A preparation made from betel leaves and areca nut, chewed as a stimulant in South Asia."
+    },
+    "sacrificial": {
+      "type": "vocabulary",
+      "description": "Relating to the act of offering something as a sacrifice, often in a religious context."
+    },
+    "ransom": {
+      "type": "vocabulary",
+      "description": "A payment made to release someone or something from captivity."
+    },
+    "club": {
+      "type": "vocabulary",
+      "description": "A heavy stick used as a weapon."
+    },
+    "God-like": {
+      "type": "character",
+      "description": "A king in a certain city, father of the prince afflicted by a snake in his belly."
+    },
+    "Gift": {
+      "type": "character",
+      "description": "A king in another city who has two daughters and becomes angry at one for her manner of greeting."
+    },
+    "prince": {
+      "type": "character",
+      "description": "The son of King God-like, afflicted by a snake living in his belly and later marries a princess."
+    },
+    "princess": {
+      "type": "character",
+      "description": "Daughter of King Gift, given in marriage to the prince and helps cure him."
+    },
+    "tank": {
+      "type": "proper_noun",
+      "description": "An Indian term for a large artificial pond or reservoir, often found near temples or in cities."
+    },
+    "alms": {
+      "type": "vocabulary",
+      "description": "Charitable donations, usually food or money, given to the poor."
+    },
+    "maid-servants": {
+      "type": "vocabulary",
+      "description": "Female domestic workers or attendants."
+    },
+    "bemire": {
+      "type": "vocabulary",
+      "description": "To soil or dirty, often used metaphorically."
+    },
+    "deserts": {
+      "type": "vocabulary",
+      "description": "A term meaning what one deserves, often in the phrase 'just deserts.'"
+    },
+    "carpenter": {
+      "type": "character",
+      "description": "A gullible man or Brahman whose wife deceives him through elaborate tricks and infidelity."
+    },
+    "wife": {
+      "type": "character",
+      "description": "The unfaithful wife of the carpenter or Brahman who cleverly deceives her husband with stories of goddesses and cakes."
+    },
+    "Gauri": {
+      "type": "character",
+      "description": "A divine figure and goddess whose shrine and remedy are invoked in the carpenter's wife's fabricated story."
+    },
+    "old lover": {
+      "type": "character",
+      "description": "The wife's former lover, whom she invites to her house while her husband is supposedly away."
+    },
+    "whore": {
+      "type": "vocabulary",
+      "description": "An archaic and pejorative term for a woman who engages in sexual activity for payment or is considered promiscuous."
+    },
+    "proverb": {
+      "type": "vocabulary",
+      "description": "A short, commonly known saying that expresses a general truth or piece of advice."
+    },
+    "rascal": {
+      "type": "vocabulary",
+      "description": "An old-fashioned term for a mischievous or dishonest person."
+    },
+    "shrine": {
+      "type": "vocabulary",
+      "description": "A place regarded as holy because of its associations with a divinity or a sacred person."
+    },
+    "calamity": {
+      "type": "vocabulary",
+      "description": "A great misfortune or disaster."
+    },
+    "untimely": {
+      "type": "vocabulary",
+      "description": "Happening or done at an unsuitable time; premature."
+    },
+    "embrace": {
+      "type": "vocabulary",
+      "description": "To hold closely in one's arms, especially as a sign of affection."
+    },
+    "falsified": {
+      "type": "vocabulary",
+      "description": "To make false or incorrect, especially so as to deceive."
+    },
+    "uprooted": {
+      "type": "vocabulary",
+      "description": "Removed from one's home or usual environment."
+    },
+    "corvine": {
+      "type": "vocabulary",
+      "description": "Relating to or resembling a crow or raven."
+    },
+    "provenience": {
+      "type": "vocabulary",
+      "description": "Place of origin or earliest known history of something."
+    },
+    "mouse-maid": {
+      "type": "vocabulary",
+      "description": "A maiden who is transformed into a mouse, referenced in a fable."
+    },
+    "Yajnavalkya": {
+      "type": "character",
+      "description": "The father of the hermitage, a holy man who transforms a mouse into a girl and later arranges her marriage."
+    },
+    "sun": {
+      "type": "proper_noun",
+      "description": "Personified as a deity and considered for marriage in the story."
+    },
+    "cloud": {
+      "type": "proper_noun",
+      "description": "Personified as a potential suitor and considered superior to the sun."
+    },
+    "wind": {
+      "type": "proper_noun",
+      "description": "Personified as a suitor, considered superior to the cloud."
+    },
+    "mountain": {
+      "type": "proper_noun",
+      "description": "Personified as a suitor, considered superior to the wind."
+    },
+    "sacred rites": {
+      "type": "vocabulary",
+      "description": "Religious ceremonies or rituals performed for spiritual purposes."
+    },
+    "loin-cloth": {
+      "type": "vocabulary",
+      "description": "A simple garment worn around the hips, often by ascetics."
+    },
+    "raiment": {
+      "type": "vocabulary",
+      "description": "An archaic word for clothing or garments."
+    },
+    "ceremony of purification": {
+      "type": "vocabulary",
+      "description": "A ritual act intended to cleanse a person of spiritual or physical impurities."
+    },
+    "nubility": {
+      "type": "vocabulary",
+      "description": "The condition of being of marriageable age or suitable for marriage."
+    },
+    "spinster": {
+      "type": "vocabulary",
+      "description": "An archaic term for an unmarried woman, often used pejoratively."
+    },
+    "homage": {
+      "type": "vocabulary",
+      "description": "Respect or reverence paid, often in a formal or ritual manner."
+    },
+    "viands": {
+      "type": "vocabulary",
+      "description": "An archaic word for food or provisions."
+    },
+    "hunter": {
+      "type": "character",
+      "description": "A man who traps birds and discovers the bird whose dung turns to gold."
+    },
+    "lotus eyes": {
+      "type": "vocabulary",
+      "description": "A poetic phrase referring to eyes shaped or beautiful like a lotus, often used in Indian literature to describe beauty."
+    },
+    "adherents": {
+      "type": "vocabulary",
+      "description": "Followers or supporters, often used in the context of a leader and their loyal companions."
+    },
+    "dunderhead": {
+      "type": "vocabulary",
+      "description": "An archaic English term for a fool or simpleton."
+    },
+    "Rough-Claw": {
+      "type": "character",
+      "description": "A lion who, driven by hunger, hides in a cave to catch prey."
+    },
+    "Curd-Face": {
+      "type": "character",
+      "description": "A jackal who owns the cave and cleverly avoids being caught by the lion."
+    },
+    "Yudhishthir King": {
+      "type": "character",
+      "description": "The eldest of the Pandava brothers (Pandus), known for his righteousness in the Mahabharata."
+    },
+    "Arjun": {
+      "type": "character",
+      "description": "One of the Pandava brothers and a great archer in the Mahabharata, famed for his skill and virtue.",
+      "image": "/data/images/characters/panchatantra-crows-and-owls/arjun.png"
+    },
+    "Kunti": {
+      "type": "character",
+      "description": "Mother of the Pandavas in the Mahabharata."
+    },
+    "Draupadi": {
+      "type": "character",
+      "description": "Wife of the Pandavas, renowned for her beauty and dignity."
+    },
+    "Pot-baking Hell": {
+      "type": "proper_noun",
+      "description": "A metaphorical or mythological place of torment, referencing Indian concepts of hell."
+    },
+    "Mastya land": {
+      "type": "proper_noun",
+      "description": "A reference to the Matsya kingdom from the Mahabharata, where the Pandavas spent time in disguise."
+    },
+    "Matsya’s royal court": {
+      "type": "proper_noun",
+      "description": "The court of the Matsya kingdom, significant in the Mahabharata."
+    },
+    "Virata’s court": {
+      "type": "proper_noun",
+      "description": "The court of King Virata, where the Pandavas lived incognito during their exile."
+    },
+    "fagot": {
+      "type": "vocabulary",
+      "description": "An archaic English term for a bundle of sticks or twigs used for fuel."
+    },
+    "pelf": {
+      "type": "vocabulary",
+      "description": "Archaic term for money or wealth, often with a negative connotation."
+    },
+    "savoir faire": {
+      "type": "vocabulary",
+      "description": "French phrase meaning the ability to act appropriately in social situations; here, used to denote social skill."
+    },
+    "fawner": {
+      "type": "vocabulary",
+      "description": "A person who seeks favor by excessive flattery or obsequious behavior."
+    },
+    "Slow-Poison": {
+      "type": "character",
+      "description": "An elderly black snake who devises a cunning plan to make frogs his food by pretending to be cursed and serving as their vehicle."
+    },
+    "Water-Foot": {
+      "type": "character",
+      "description": "The frog-king who, along with his counselors and other frogs, rides on Slow-Poison's back, unaware of the snake's true intentions."
+    },
+    "palanquin": {
+      "type": "vocabulary",
+      "description": "A covered litter for one passenger, carried on poles on the shoulders of several men, used chiefly in eastern Asia."
+    },
+    "plebeian": {
+      "type": "vocabulary",
+      "description": "Belonging to the common people; lower-class or ordinary, often used in contrast to nobility or elite."
+    },
+    "befooled": {
+      "type": "vocabulary",
+      "description": "To be deceived or tricked; made a fool of."
+    },
+    "plausibilities": {
+      "type": "vocabulary",
+      "description": "Statements or actions that seem reasonable or probable, often used to describe deceptive reasoning."
+    },
+    "Rama": {
+      "type": "character",
+      "description": "A legendary prince and hero from the Indian epic Ramayana, known for his virtue and exile."
+    },
+    "Nala": {
+      "type": "character",
+      "description": "A king from Indian epic literature, known for his misfortunes and adventures."
+    },
+    "Bali": {
+      "type": "character",
+      "description": "A mythological king, often associated with the story of Vamana in Hindu mythology."
+    },
+    "Lanka’s monster-monarch": {
+      "type": "character",
+      "description": "The demon king of Lanka in the Ramayana, also known as the monster-monarch."
+    },
+    "Dasharath": {
+      "type": "character",
+      "description": "The father of Rama in the Ramayana, who became king of heaven after his death."
+    },
+    "King Sagar": {
+      "type": "character",
+      "description": "A legendary king in Hindu mythology, known for his attempt to bind the ocean."
+    },
+    "Manu": {
+      "type": "character",
+      "description": "The progenitor of mankind in Hindu tradition, sometimes identified with the king Satyavrat."
+    },
+    "Mandhatar": {
+      "type": "character",
+      "description": "A legendary king in Hindu mythology, known for his conquests."
+    },
+    "Nahush": {
+      "type": "character",
+      "description": "A legendary king who was temporarily king of the gods in Hindu mythology."
+    },
+    "Keshav": {
+      "type": "character",
+      "description": "A major deity in Hinduism and leader of the Vrishni clan, also known as Keshav."
+    },
+    "kingdom": {
+      "type": "proper_noun",
+      "description": "A realm or territory ruled by a king."
+    },
+    "bandar-log": {
+      "type": "proper_noun",
+      "description": "A term from Indian literature meaning 'monkey people,' popularized by Rudyard Kipling's 'The Jungle Book.'"
+    },
+    "Lanka": {
+      "type": "proper_noun",
+      "description": "The island kingdom ruled by Ravana in the Ramayana."
+    },
+    "impudence": {
+      "type": "vocabulary",
+      "description": "Bold or disrespectful behavior."
+    },
+    "laving": {
+      "type": "vocabulary",
+      "description": "Washing or bathing, especially as part of a ritual."
+    },
+    "rite": {
+      "type": "vocabulary",
+      "description": "A religious or ceremonial act."
+    },
+    "valor": {
+      "type": "vocabulary",
+      "description": "Courage or bravery, especially in battle."
+    },
+    "consummation": {
+      "type": "vocabulary",
+      "description": "The point at which something is completed or fulfilled."
+    },
+    "prudence": {
+      "type": "vocabulary",
+      "description": "Wisdom or good judgment in practical matters."
+    },
+    "virtue": {
+      "type": "vocabulary",
+      "description": "Moral excellence or righteousness."
+    },
+    "pennons": {
+      "type": "vocabulary",
+      "description": "Flags or streamers, especially those carried on a lance."
+    },
+    "umbrella": {
+      "type": "vocabulary",
+      "description": "A symbol of royalty and protection in Indian culture."
+    },
+    "Fate": {
+      "type": "vocabulary",
+      "description": "A concept referring to destiny or the predetermined course of events."
+    },
+    "cars": {
+      "type": "vocabulary",
+      "description": "Archaic term for chariots or vehicles, especially in epic or poetic contexts."
+    }
+  },
+  "chapters": {
+    "ch-1": [
+      "Vishnusharman",
+      "Cloudy",
+      "Foe-Crusher",
+      "Live-Again",
+      "Live-Well",
+      "Live-Along",
+      "Live-On",
+      "LiveLong",
+      "Live-Strong",
+      "Narada",
+      "Fight-Firm",
+      "Bhima",
+      "Book III",
+      "Earth-Base",
+      "banyan",
+      "April",
+      "November",
+      "Narada",
+      "Fight-Firm",
+      "Bhima",
+      "retinue",
+      "habitation",
+      "entrenchment",
+      "duplicity",
+      "foemen",
+      "gyneceum",
+      "superintendent",
+      "concierge",
+      "star-gazer",
+      "quartermaster",
+      "geisha",
+      "purveyor",
+      "professor",
+      "life-guard",
+      "counselor",
+      "functionary",
+      "doggerel",
+      "moat",
+      "shaft",
+      "sally",
+      "Brahman"
+    ],
+    "ch-2": [
+      "Garuda",
+      "Vishnu",
+      "owl",
+      "crow",
+      "swans",
+      "cranes",
+      "nightingales",
+      "peacocks",
+      "plovers",
+      "doves",
+      "pigeons",
+      "partridges",
+      "bluejays",
+      "vultures",
+      "skylarks",
+      "demoiselles",
+      "cuckoos",
+      "woodpeckers",
+      "sheldrakes",
+      "lion-throne",
+      "Garuda",
+      "Vishnu",
+      "White-Robe",
+      "anointing",
+      "oblation",
+      "lustration",
+      "parched grain",
+      "potash",
+      "consecrated",
+      "mustard",
+      "caw",
+      "monarch",
+      "holiday drums",
+      "wreaths",
+      "twigs",
+      "Brahman",
+      "Scriptures"
+    ],
+    "ch-3": [
+      "Four-Tusk",
+      "Victory",
+      "Block-Snout",
+      "Moon",
+      "Lake of the Moon",
+      "Seven Sages",
+      "retinue",
+      "hermitage",
+      "ichor-juice",
+      "bosom",
+      "peradventure",
+      "nuncio",
+      "envoy",
+      "obeisance",
+      "digits",
+      "umpire",
+      "Scriptures"
+    ],
+    "ch-4": [
+      "Speedy",
+      "Curd-Ear",
+      "Narada",
+      "Cloudy",
+      "Live-Strong",
+      "Ganges",
+      "Brahman",
+      "partridge",
+      "cisterns",
+      "conundrums",
+      "consecrated tradition",
+      "dictum",
+      "penance",
+      "self-denial",
+      "pharisaic",
+      "hermeneutic",
+      "exegesis",
+      "regal anointing",
+      "vituperates",
+      "expedients"
+    ],
+    "ch-5": [
+      "Friendly",
+      "Cloudy",
+      "Live-Strong",
+      "three rogues",
+      "Brahman",
+      "sacred fire",
+      "sacrificer",
+      "victim",
+      "offering",
+      "new moon",
+      "plump",
+      "pious",
+      "unconventional",
+      "defile",
+      "impute",
+      "pet",
+      "lunar fast",
+      "purify",
+      "ass",
+      "quarrel",
+      "populace",
+      "rascals",
+      "roguish",
+      "Scriptures"
+    ],
+    "ch-6": [
+      "Haughty",
+      "Cloudy",
+      "Live-Strong",
+      "Foe-Crusher",
+      "Red-Eye",
+      "Fierce-Eye",
+      "Flame-Eye",
+      "Hook-Nose",
+      "Wall-Ear",
+      "Antelope Mountain",
+      "banyan tree",
+      "ant-hill",
+      "phalanx",
+      "retinue",
+      "egress",
+      "fortress",
+      "balk",
+      "chastisement",
+      "consort",
+      "prime minister",
+      "counselors",
+      "funeral pile"
+    ],
+    "ch-7": [
+      "Brahman",
+      "snake",
+      "Brahman’s boy",
+      "Brahman",
+      "dinar",
+      "ant-hill",
+      "cudgel",
+      "cremated",
+      "swans",
+      "lotus"
+    ],
+    "ch-8": [
+      "Gay-Chariot",
+      "Fierce-Eye",
+      "Foe-Crusher",
+      "Brahman",
+      "snake",
+      "Lotus Lake",
+      "Brahman",
+      "kinsmen",
+      "suppliant",
+      "foeman",
+      "funeral pile"
+    ],
+    "ch-9": [
+      "Foe-Crusher",
+      "Flame-Eye",
+      "fowler",
+      "dove",
+      "female dove",
+      "fowler",
+      "gyves",
+      "amain",
+      "chariot",
+      "car divine",
+      "lamenting",
+      "brood",
+      "widowhood",
+      "Scriptures"
+    ],
+    "ch-10": [
+      "Lovelorn",
+      "Foe-Crusher",
+      "Hook-Nose",
+      "Hangman’s Well",
+      "maiden",
+      "sue",
+      "fain",
+      "bleaching",
+      "driveling",
+      "doddering",
+      "suppliant",
+      "benefactor"
+    ],
+    "ch-11": [
+      "Brahman",
+      "thief",
+      "ghost",
+      "Wall-Ear",
+      "Foe-Crusher",
+      "king",
+      "Brahman",
+      "Truthful",
+      "Scriptures",
+      "Shibi",
+      "Wall-Ear",
+      "Foe-Crusher",
+      "ointment",
+      "betel-gum",
+      "suppliant",
+      "sacrificial",
+      "ransom",
+      "club"
+    ],
+    "ch-12": [
+      "God-like",
+      "Gift",
+      "Foe-Crusher",
+      "prince",
+      "princess",
+      "counselors",
+      "ant-hill",
+      "tank",
+      "alms",
+      "maid-servants",
+      "bemire",
+      "deserts",
+      "Red-Eye",
+      "snake"
+    ],
+    "ch-13": [
+      "carpenter",
+      "wife",
+      "Gauri",
+      "old lover",
+      "Gauri",
+      "whore",
+      "proverb",
+      "rascal",
+      "shrine",
+      "calamity",
+      "untimely",
+      "embrace",
+      "falsified",
+      "uprooted",
+      "corvine",
+      "provenience",
+      "mouse-maid",
+      "Scriptures"
+    ],
+    "ch-14": [
+      "Yajnavalkya",
+      "Live-Strong",
+      "Red-Eye",
+      "Foe-Crusher",
+      "Ganges",
+      "banyan",
+      "sun",
+      "cloud",
+      "wind",
+      "mountain",
+      "hermitage",
+      "sacred rites",
+      "loin-cloth",
+      "raiment",
+      "ceremony of purification",
+      "nubility",
+      "maiden",
+      "spinster",
+      "homage",
+      "viands"
+    ],
+    "ch-15": [
+      "hunter",
+      "king",
+      "counselor",
+      "Red-Eye",
+      "Live-Strong",
+      "Red-Eye",
+      "Live-Strong",
+      "lotus eyes",
+      "viands",
+      "adherents",
+      "dunderhead"
+    ],
+    "ch-16": [
+      "Rough-Claw",
+      "Curd-Face",
+      "Red-Eye",
+      "Live-Strong",
+      "Cloudy",
+      "Yudhishthir King",
+      "Arjun",
+      "Bhima",
+      "Kunti",
+      "Draupadi",
+      "Pot-baking Hell",
+      "Mastya land",
+      "Matsya’s royal court",
+      "Virata’s court",
+      "banyan tree",
+      "fagot",
+      "retinue",
+      "counselors",
+      "foeman",
+      "pelf",
+      "savoir faire",
+      "fawner"
+    ],
+    "ch-17": [
+      "Slow-Poison",
+      "Water-Foot",
+      "Brahman",
+      "palanquin",
+      "plebeian",
+      "befooled",
+      "plausibilities"
+    ],
+    "ch-18": [
+      "Slow-Poison",
+      "Water-Foot",
+      "Cloudy",
+      "Live-Strong",
+      "Foe-Crusher",
+      "Rama",
+      "Nala",
+      "Bali",
+      "Lanka’s monster-monarch",
+      "Dasharath",
+      "King Sagar",
+      "Manu",
+      "Mandhatar",
+      "Nahush",
+      "Keshav",
+      "Brahman",
+      "shrine",
+      "kingdom",
+      "bandar-log",
+      "Lanka",
+      "Dasharath",
+      "King Sagar",
+      "Manu",
+      "Mandhatar",
+      "Nahush",
+      "Keshav",
+      "impudence",
+      "laving",
+      "anointing",
+      "rite",
+      "offering",
+      "retinue",
+      "expedients",
+      "foeman",
+      "valor",
+      "consummation",
+      "prudence",
+      "virtue",
+      "pennons",
+      "umbrella",
+      "Fate",
+      "cars",
+      "Arjun",
+      "Yudhishthir King",
+      "Vishnu",
+      "Gauri",
+      "carpenter"
+    ]
+  }
+}
