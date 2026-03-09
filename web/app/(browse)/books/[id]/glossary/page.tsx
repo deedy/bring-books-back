@@ -23,6 +23,7 @@ export async function generateMetadata({
   return {
     title: `Glossary - ${book.title}`,
     description: `Characters, places, and vocabulary from ${book.title}`,
+    alternates: { canonical: `/books/${id}/glossary` },
   };
 }
 
@@ -85,6 +86,7 @@ export default async function GlossaryPage({
       <div className="mb-8">
         <Link
           href={`/read/${id}`}
+          scroll={false}
           className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors"
         >
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

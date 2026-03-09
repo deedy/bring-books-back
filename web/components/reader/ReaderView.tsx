@@ -14,6 +14,12 @@ import { decodeQuoteHash } from "@/lib/quote";
 import type { QuoteHighlight } from "./ChapterContent";
 import SelectionSharePopover from "./SelectionSharePopover";
 
+// Module-level scroll tracking — survives React strict mode double-mount
+// where each instance gets its own useRef, causing the save cleanup to read
+// a stale ref (always 0) from the wrong instance.
+let _latestScrollPercent = 0;
+let _hasRestoredScroll = false;
+
 interface ReaderViewProps {
   bookId: string;
   bookTitle: string;
@@ -54,7 +60,7 @@ export default function ReaderView({
   // so it's available on the very first render (no flicker).
   const originalChapterMap = useMemo(() => {
     if (!initialOriginalData) return null;
-    const map = new Map<string, { paragraphs: string[]; title?: string }>();
+    const map = new Map<string, { paragraphs: (string | { text: string; type: "verse" })[]; title?: string }>();
     for (const ch of initialOriginalData.chapters) {
       map.set(ch.id, { paragraphs: ch.paragraphs, title: ch.title });
     }
@@ -78,13 +84,23 @@ export default function ReaderView({
     return Math.min(stored, chapters.length - 1);
   });
   const [showPicker, setShowPicker] = useState(false);
+  const [scrollRestored, setScrollRestored] = useState(false);
   const [headerVisible, setHeaderVisible] = useState(true);
   const [darkMode, setDarkMode] = useState(true);
   const [fontSize, setFontSize] = useState<"small" | "medium" | "large">("medium");
   const [chapterProgress, setChapterProgress] = useState(0);
   const lastScrollY = useRef(0);
-  const hasRestoredRef = useRef(false);
-  const latestScrollPercentRef = useRef(0);
+  // Reset module-level state on fresh mount (new book or new navigation)
+  // useRef as a flag to run this only once per component instance
+  const didInitRef = useRef(false);
+  if (!didInitRef.current) {
+    didInitRef.current = true;
+    // Only reset _hasRestoredScroll — NOT _latestScrollPercent.
+    // React renders the new component BEFORE cleaning up the old one,
+    // so the old component's save cleanup would read the reset value (0)
+    // instead of the real scroll position.
+    _hasRestoredScroll = false;
+  }
   // Capture the initial hash synchronously during render (before effects run),
   // because the URL-sync effect will strip the hash via replaceState.
   const initialHashRef = useRef(
@@ -192,7 +208,7 @@ export default function ReaderView({
     if (!stored || stored.currentChapter === currentIndex) return;
     // User changed chapters — save new chapter and reset scroll to top
     updateProgress(bookId, { currentChapter: currentIndex, scrollPercent: 0 });
-    latestScrollPercentRef.current = 0;
+    _latestScrollPercent = 0;
   }, [bookId, currentIndex, updateProgress, chapterUrl]);
 
   // Track chapter start for analytics
@@ -264,7 +280,7 @@ export default function ReaderView({
           const chapterHeight = chapterBottom - chapterTop;
           if (chapterHeight > 0) {
             const pct = Math.max(0, Math.min(100, ((y - chapterTop) / chapterHeight) * 100));
-            latestScrollPercentRef.current = pct;
+            _latestScrollPercent = pct;
             // UI progress bar uses a visual offset
             setChapterProgress(Math.max(0, Math.min(100, ((y - chapterTop + window.innerHeight * 0.3) / chapterHeight) * 100)));
           }
@@ -274,7 +290,7 @@ export default function ReaderView({
         const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
         if (scrollHeight > 0) {
           const pct = Math.min(100, (y / scrollHeight) * 100);
-          latestScrollPercentRef.current = pct;
+          _latestScrollPercent = pct;
           setChapterProgress(pct);
         }
       }
@@ -285,50 +301,67 @@ export default function ReaderView({
     return () => window.removeEventListener("scroll", handleScroll);
   }, [scrollMode, currentIndex]);
 
-  // One-time restore of exact scroll position on initial mount
-  // Skip if a quote deep-link hash is present — the quote highlight effect handles scrolling instead.
+  // One-time restore of exact scroll position on initial mount.
+  // Content is hidden (opacity:0) until restoration completes — no visible flicker.
+  // Uses a short delay to ensure Zustand hydrates + DOM is laid out before scrolling.
   useEffect(() => {
-    if (hasRestoredRef.current) return;
+    if (_hasRestoredScroll) return;
 
-    // Delay: 300ms lets Zustand hydrate + content render + infinite chapter-scroll (50ms) settle
+    // If there's a quote hash, skip scroll restore — let the quote highlight effect handle it
+    if (isQuoteLinkRef.current) {
+      _hasRestoredScroll = true;
+      setScrollRestored(true);
+      return;
+    }
+
+    // 300ms lets Zustand persist hydrate + DOM lay out + Next.js scroll-to-top settle.
+    // Content is hidden (opacity:0) during this wait so there's no visible flicker.
     const timer = setTimeout(() => {
-      if (hasRestoredRef.current) return;
-      hasRestoredRef.current = true;
+      if (_hasRestoredScroll) return;
+      _hasRestoredScroll = true;
 
-      // If there's a quote hash, skip scroll restore — let the quote highlight effect handle it
-      if (isQuoteLinkRef.current) return;
-
-      // Read directly from store (not render closure) to guarantee hydrated state
       const state = useReadingStore.getState();
       const progress = state.progress[bookId];
       const pct = progress?.scrollPercent;
-      if (!pct || pct <= 0) return;
+      if (!pct || pct <= 0) { setScrollRestored(true); return; }
+      if (progress.currentChapter !== currentIndex) { setScrollRestored(true); return; }
 
-      // Only restore if displayed chapter matches saved chapter
-      if (progress.currentChapter !== currentIndex) return;
+      let targetY = 0;
 
       if (state.scrollMode === "infinite") {
-        // Infinite: scroll to within-chapter offset
         const headingEl = chapterHeadingRefs.current.get(currentIndex);
-        const nextHeadingEl = chapterHeadingRefs.current.get(currentIndex + 1);
         if (headingEl) {
+          const nextHeadingEl = chapterHeadingRefs.current.get(currentIndex + 1);
           const chapterTop = headingEl.getBoundingClientRect().top + window.scrollY;
           const chapterBottom = nextHeadingEl
             ? nextHeadingEl.getBoundingClientRect().top + window.scrollY
             : document.documentElement.scrollHeight;
           const chapterHeight = chapterBottom - chapterTop;
           if (chapterHeight > 0) {
+            targetY = chapterTop + (pct / 100) * chapterHeight - 60;
             suppressObserverRef.current = true;
-            window.scrollTo({ top: chapterTop + (pct / 100) * chapterHeight - 60, behavior: "auto" });
+            window.scrollTo({ top: targetY, behavior: "auto" });
             setTimeout(() => { suppressObserverRef.current = false; }, 200);
           }
         }
       } else {
-        // Paginated: within-chapter percent = whole-page percent
         const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
         if (scrollHeight > 0) {
-          window.scrollTo({ top: (pct / 100) * scrollHeight, behavior: "auto" });
+          targetY = (pct / 100) * scrollHeight;
+          window.scrollTo({ top: targetY, behavior: "auto" });
         }
+      }
+
+      // Retry after a frame — guards against anything (e.g. Next.js) resetting scroll
+      if (targetY > 0) {
+        requestAnimationFrame(() => {
+          if (Math.abs(window.scrollY - targetY) > 10) {
+            window.scrollTo({ top: targetY, behavior: "auto" });
+          }
+          setScrollRestored(true);
+        });
+      } else {
+        setScrollRestored(true);
       }
     }, 300);
     return () => clearTimeout(timer);
@@ -341,7 +374,9 @@ export default function ReaderView({
   useEffect(() => {
     const savePosition = () => {
       if (isQuoteLinkRef.current) return; // Don't overwrite saved position on quote links
-      updateProgress(bookId, { scrollPercent: latestScrollPercentRef.current });
+      // Don't save if scroll restoration hasn't completed yet
+      if (!_hasRestoredScroll) return;
+      updateProgress(bookId, { scrollPercent: _latestScrollPercent });
     };
     const handleVisibilityChange = () => {
       if (document.visibilityState === "hidden") savePosition();
@@ -491,7 +526,7 @@ export default function ReaderView({
       ref={contentContainerRef}
       id={selectionStyleId}
       className="min-h-screen transition-colors duration-200"
-      style={{ backgroundColor: bgColor, color: textColor, "--reader-bg": bgColor } as React.CSSProperties}
+      style={{ backgroundColor: bgColor, color: textColor, "--reader-bg": bgColor, opacity: scrollRestored ? 1 : 0 } as React.CSSProperties}
     >
       {/* Text selection color using book's accent */}
       <style>{`#${selectionStyleId} ::selection { background-color: ${accentColor}40; color: inherit; }`}</style>

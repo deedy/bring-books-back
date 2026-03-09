@@ -3,8 +3,9 @@
 import { useState, useEffect, useCallback, useRef, useMemo } from "react";
 import Link from "next/link";
 import { Book, Author } from "@/lib/types";
-import { readingTime, displayYear } from "@/lib/utils";
+import { readingTime, readingTimeClock, displayYear, getNewBookIds, pageCount } from "@/lib/utils";
 import CoverProgress from "@/components/CoverProgress";
+import { useReadingStore } from "@/lib/store";
 
 type SortField = "default" | "year" | "length";
 type SortDir = "asc" | "desc";
@@ -95,15 +96,22 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
   const [sortDir, setSortDir] = useState<SortDir>("asc");
   const [langFilter, setLangFilter] = useState<string>("all");
 
-  const languages = useMemo(() => {
-    const langs = new Set(books.map((b) => b.originalLanguage));
-    return Array.from(langs).sort();
-  }, [books]);
-
-  const langCounts = useMemo(() => {
+  const { languages, langCounts } = useMemo(() => {
     const counts: Record<string, number> = {};
     for (const b of books) counts[b.originalLanguage] = (counts[b.originalLanguage] || 0) + 1;
-    return counts;
+    const sorted = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+    return { languages: sorted, langCounts: counts };
+  }, [books]);
+
+  const newBookIds = useMemo(() => getNewBookIds(books), [books]);
+
+  const { totalWorks, totalHours } = useMemo(() => {
+    let works = 0, words = 0;
+    for (const b of books) {
+      works += b.type === "anthology" && b.totalStories ? b.totalStories : 1;
+      words += b.wordCount;
+    }
+    return { totalWorks: works, totalHours: Math.round(words / 230 / 60) };
   }, [books]);
 
   const displayBooks = useMemo(() => {
@@ -176,6 +184,8 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
 
   const book = books.find((b) => b.id === activeBookId) ?? books[0];
   const author = authors.find((a) => a.id === book.authorId)!;
+  const bookProgress = useReadingStore((s) => s.progress[book.id]);
+  const isInProgress = bookProgress && bookProgress.currentChapter > 0 && !bookProgress.finished;
 
   return (
     <>
@@ -205,7 +215,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-10 -mt-32 relative z-10">
         <div className="w-48 md:w-56 flex-shrink-0 mx-auto md:mx-0">
           <div
-            className="aspect-[2/3] rounded-lg overflow-hidden"
+            className="relative aspect-[2/3] rounded-lg overflow-hidden"
             style={{
               boxShadow:
                 "0 8px 30px rgba(0,0,0,0.5), 0 2px 8px rgba(0,0,0,0.3), 0 0 60px rgba(0,0,0,0.25)",
@@ -216,6 +226,16 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
               alt={book.title}
               className="w-full h-full object-cover"
             />
+            {book.type === "anthology" && book.totalStories && (
+              <span className="absolute top-2.5 left-2.5 px-2 py-0.5 text-[10px] font-semibold rounded bg-black/60 text-white/80 backdrop-blur-sm">
+                {book.totalStories} stories
+              </span>
+            )}
+            {newBookIds.has(book.id) && (
+              <span className="absolute top-2.5 right-2.5 px-2 py-0.5 text-[10px] font-bold rounded bg-emerald-500/90 text-white backdrop-blur-sm uppercase tracking-wide">
+                New
+              </span>
+            )}
           </div>
         </div>
         <div className="flex-1 min-w-0 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
@@ -267,6 +287,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
                 : book.wordCount}{" "}
               words
             </span>
+            <span>{pageCount(book.wordCount)} pages</span>
             <span>{readingTime(book.wordCount)} read</span>
           </div>
 
@@ -296,12 +317,54 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
 
           <Link
             href={book.type === "anthology" ? `/books/${book.id}` : `/read/${book.id}`}
+            scroll={false}
             className="inline-block mt-5 px-6 py-3 rounded-lg font-medium text-white transition-opacity hover:opacity-90"
             style={{ backgroundColor: book.accentColor }}
           >
-            {book.type === "anthology" ? "Explore Collection" : "Start Reading"}
+            {book.type === "anthology" ? "Explore Collection" : isInProgress ? "Continue Reading" : "Start Reading"}
           </Link>
         </div>
+      </div>
+
+      {/* Stats strip */}
+      <div className="max-w-6xl mx-auto px-6 mt-12">
+        <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-[13px] text-white/40">
+          <span>{totalWorks} Books</span>
+          <span className="text-white/20">&middot;</span>
+          <span>{languages.length} Languages</span>
+          <span className="text-white/20">&middot;</span>
+          <span>{totalHours}+ Hours of Reading</span>
+          <span className="text-white/20">&middot;</span>
+          <span>100% Free</span>
+        </div>
+      </div>
+
+      {/* Feature strip */}
+      <div className="flex flex-wrap justify-center gap-2 mt-8 px-6">
+        {[
+          { label: "Bilingual reading", image: "/data/images/features/bilingual.webp" },
+          { label: "AI illustrations", image: "/data/images/features/illustrations.webp" },
+          { label: "Phone-friendly", image: "/data/images/features/mobile.webp" },
+          { label: "Easy explainers", image: "/data/images/features/annotations.webp" },
+        ].map((feature) => (
+          <div key={feature.label} className="relative group">
+            <span className="px-2.5 py-1 text-[11px] font-medium rounded-full bg-white/5 text-white/40 md:hover:bg-white/10 transition-colors md:cursor-pointer inline-block">
+              {feature.label}
+            </span>
+            {/* Desktop hover popover */}
+            <div className="hidden md:block absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5 opacity-0 scale-95 pointer-events-none group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto transition-all duration-200 z-50">
+              <div className="rounded-xl overflow-hidden shadow-2xl border border-white/10 bg-[#1a1a1b]">
+                <img
+                  src={feature.image}
+                  alt={feature.label}
+                  loading="lazy"
+                  className="block max-w-[280px]"
+                />
+              </div>
+              <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-px w-3 h-3 rotate-45 bg-[#1a1a1b] border-r border-b border-white/10" />
+            </div>
+          </div>
+        ))}
       </div>
 
       {/* Our Books — hover to feature */}
@@ -368,7 +431,17 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
                       {b.totalStories} stories
                     </span>
                   )}
-                  <CoverProgress bookId={b.id} totalChapters={b.totalChapters} accentColor={b.accentColor} />
+                  {newBookIds.has(b.id) && (
+                    <span className="absolute top-2 right-2 px-1.5 py-0.5 text-[10px] font-bold rounded bg-emerald-500/90 text-white backdrop-blur-sm uppercase tracking-wide">
+                      New
+                    </span>
+                  )}
+                  <span className="absolute bottom-2 right-2 px-1.5 py-0.5 text-[10px] font-medium rounded bg-black/70 text-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                    {readingTimeClock(b.wordCount)}
+                  </span>
+                  {b.type !== "anthology" && (
+                    <CoverProgress bookId={b.id} totalChapters={b.totalChapters} accentColor={b.accentColor} />
+                  )}
                   {isActive && (
                     <div
                       className="absolute inset-0 border-2 rounded-lg pointer-events-none"
@@ -388,6 +461,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
                       <><span className="italic">{b.transliteratedTitle}</span> &middot; </>
                     )}
                     {b.originalLanguage} &middot; {displayYear(b.originalYear, b.yearEnd)} &middot;{" "}
+                    {pageCount(b.wordCount)} pp &middot;{" "}
                     {readingTime(b.wordCount)}
                   </p>
                 </div>

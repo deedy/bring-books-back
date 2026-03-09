@@ -36,7 +36,7 @@ export default function ReadButton({ bookId, accentColor, totalChapters, languag
   }
 
   return (
-    <Link href={href} className={className} style={{ backgroundColor: accentColor }}>
+    <Link href={href} scroll={false} className={className} style={{ backgroundColor: accentColor }}>
       {label}
     </Link>
   );
