@@ -53,10 +53,13 @@ export default function CharacterGrid({ characters }: { characters: Character[] 
       {selected && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-4"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="character-modal-title"
           onClick={close}
         >
           {/* Backdrop */}
-          <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
+          <div className="absolute inset-0 bg-black/70 backdrop-blur-sm" aria-hidden="true" />
 
           {/* Modal content */}
           <div
@@ -66,6 +69,7 @@ export default function CharacterGrid({ characters }: { characters: Character[] 
             {/* Close button */}
             <button
               onClick={close}
+              aria-label="Close"
               className="absolute top-3 right-3 text-white/40 hover:text-white/80 transition-colors"
             >
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -81,7 +85,7 @@ export default function CharacterGrid({ characters }: { characters: Character[] 
                 className="w-40 h-40 rounded-full object-cover shadow-lg"
               />
             )}
-            <h3 className="text-xl font-bold text-white mt-4">{selected.name}</h3>
+            <h3 id="character-modal-title" className="text-xl font-bold text-white mt-4">{selected.name}</h3>
             <p className="text-sm text-white/55 mt-2 leading-relaxed">
               {selected.description}
             </p>

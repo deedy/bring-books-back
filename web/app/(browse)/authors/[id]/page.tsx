@@ -50,11 +50,24 @@ export default async function AuthorPage({
     description: bioParagraphs[0],
   };
 
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://grandoldbooks.com/" },
+      { "@type": "ListItem", position: 2, name: author.name, item: `https://grandoldbooks.com/authors/${author.id}` },
+    ],
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-6 pb-12">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
       {/* Back bar */}
       <div className="sticky top-16 z-10 -mx-6 px-6 py-2 bg-[#0a0a0b]/80 backdrop-blur-md">

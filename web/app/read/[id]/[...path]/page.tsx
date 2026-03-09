@@ -39,6 +39,7 @@ export async function generateMetadata({
   return {
     title,
     description,
+    alternates: { canonical: `/read/${id}/${path.join("/")}` },
     openGraph: {
       title,
       description,

@@ -1,4 +1,5 @@
-export interface Book {
+/** Shared fields between Book (catalog) and BookMeta (per-book meta.json). */
+interface BookBase {
   id: string;
   title: string;
   transliteratedTitle: string;
@@ -14,14 +15,34 @@ export interface Book {
   totalChapters: number;
   wordCount: number;
   summary: string;
-  previewText: string;
   type?: "book" | "anthology";
   totalStories?: number;
   anthologyId?: string;
   storyNumber?: number;
   hasOriginalText?: boolean;
   originalScript?: string;
+}
+
+export interface Book extends BookBase {
+  previewText: string;
   addedDate?: string;
+}
+
+export type ChapterParagraph = string | { text: string; type: "verse" };
+
+export type ChapterAccessMode = "full" | "preview" | "locked";
+
+export interface ResumeTarget {
+  chapterId: string;
+  paragraphIndex: number;
+  wordOffset: number;
+}
+
+export interface ReaderGate {
+  previewWords: number;
+  paragraphIndex: number;
+  wordOffset: number;
+  anchorId: string;
 }
 
 export interface Author {
@@ -46,38 +67,18 @@ export interface Chapter {
   partName: string | null;
   image: string;
   wordCount: number;
-  paragraphs: (string | { text: string; type: "verse" })[];
+  paragraphs: ChapterParagraph[];
   subtitle?: string;
   summary?: string;
+  accessMode?: ChapterAccessMode;
+  gate?: ReaderGate | null;
 }
 
 export interface ChaptersData {
   chapters: Chapter[];
 }
 
-export interface BookMeta {
-  id: string;
-  title: string;
-  transliteratedTitle: string;
-  subtitle: string;
-  authorId: string;
-  coverImage: string;
-  accentColor: string;
-  genre: string[];
-  originalLanguage: string;
-  originalTitle: string;
-  originalYear: number;
-  yearEnd?: number;
-  totalChapters: number;
-  wordCount: number;
-  summary: string;
-  type?: "book" | "anthology";
-  totalStories?: number;
-  anthologyId?: string;
-  storyNumber?: number;
-  hasOriginalText?: boolean;
-  originalScript?: string;
-}
+export type BookMeta = BookBase;
 
 export interface ReadingProgress {
   currentChapter: number;
@@ -104,7 +105,7 @@ export interface AnthologyData {
 export interface OriginalChapter {
   id: string;
   title?: string;
-  paragraphs: (string | { text: string; type: "verse" })[];
+  paragraphs: ChapterParagraph[];
 }
 
 export interface OriginalChaptersData {

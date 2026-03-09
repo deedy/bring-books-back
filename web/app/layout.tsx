@@ -21,7 +21,8 @@ export const metadata: Metadata = {
     template: "%s | Grand Old Books",
   },
   description: "Reviving forgotten literary treasures from India with AI translation and illustration",
-  icons: { icon: "/favicon.png" },
+  icons: { icon: "/favicon.png", apple: "/favicon.png" },
+  manifest: "/manifest.json",
   metadataBase: new URL("https://grandoldbooks.com"),
   alternates: {
     canonical: "/",
