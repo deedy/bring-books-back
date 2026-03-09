@@ -1,0 +1,83 @@
+{
+  "chapters": [
+    {
+      "page": 13,
+      "chapter": 1,
+      "title": "Ahmadnagar Fort",
+      "part": null,
+      "part_name": null
+    },
+    {
+      "page": 32,
+      "chapter": 2,
+      "title": "Badenweiler, Lausanne",
+      "part": null,
+      "part_name": null
+    },
+    {
+      "page": 39,
+      "chapter": 3,
+      "title": "The Quest",
+      "part": null,
+      "part_name": null
+    },
+    {
+      "page": 55,
+      "chapter": 4,
+      "title": "The Discovery of India",
+      "part": null,
+      "part_name": null
+    },
+    {
+      "page": 107,
+      "chapter": 5,
+      "title": "Through the Ages",
+      "part": null,
+      "part_name": null
+    },
+    {
+      "page": 178,
+      "chapter": 6,
+      "title": "New Problems",
+      "part": null,
+      "part_name": null
+    },
+    {
+      "page": 225,
+      "chapter": 7,
+      "title": "The Last Phase (1): Consolidation of British Rule",
+      "part": null,
+      "part_name": null
+    },
+    {
+      "page": 277,
+      "chapter": 8,
+      "title": "The Last Phase (2): Nationalism Versus Imperialism",
+      "part": null,
+      "part_name": null
+    },
+    {
+      "page": 324,
+      "chapter": 9,
+      "title": "The Last Phase (3): World War II",
+      "part": null,
+      "part_name": null
+    },
+    {
+      "page": 374,
+      "chapter": 10,
+      "title": "Ahmadnagar Fort Again",
+      "part": null,
+      "part_name": null
+    }
+  ],
+  "running_headers": [
+    "The Discovery of India",
+    "Jawaharlal Nehru"
+  ],
+  "notes": [
+    "Manually corrected chapter definitions from EPUB table of contents.",
+    "Book originally written in English - no translation needed.",
+    "Pages are synthetic (~3000 chars each) from EPUB extraction."
+  ]
+}

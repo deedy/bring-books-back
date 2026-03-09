@@ -1,0 +1,3276 @@
+{
+  "glossary": {
+    "Dhritarashtra": {
+      "type": "character",
+      "description": "The blind old king of the Kauravas, father of Duryodhana, who asks Sanjaya to narrate the events of the Kurukshetra war.",
+      "image": "/data/images/characters/bhagavad-gita/dhritarashtra.png"
+    },
+    "Sanjaya": {
+      "type": "character",
+      "description": "Dhritarashtra's minister and charioteer, granted divine vision by Vyasa to narrate the events of the battlefield.",
+      "image": "/data/images/characters/bhagavad-gita/sanjaya.png"
+    },
+    "Arjuna": {
+      "type": "character",
+      "description": "Arjuna is a principal Pandava prince and the main hero of the Bhagavad Geeta, addressed by many epithets denoting his lineage, valor, and relationship to his mother Kunti.",
+      "image": "/data/images/characters/bhagavad-gita/arjuna.png"
+    },
+    "Krishna": {
+      "type": "character",
+      "description": "The Supreme Being and charioteer of Arjuna, also known by his clan name Vrishni and as the slayer of the demon Keshi.",
+      "image": "/data/images/characters/bhagavad-gita/krishna.png"
+    },
+    "Duryodhana": {
+      "type": "character",
+      "description": "The eldest son of Dhritarashtra and leader of the Kauravas, depicted as a tyrant and the main antagonist."
+    },
+    "Drona": {
+      "type": "character",
+      "description": "The teacher of both Pandavas and Kauravas and a key commander in the Kaurava army."
+    },
+    "Bhishma": {
+      "type": "character",
+      "description": "Bhishma is the grandsire of both Pandavas and Kauravas, a revered elder and commander of the Kaurava forces in the Mahabharata.",
+      "image": "/data/images/characters/bhagavad-gita/bhishma.png"
+    },
+    "Bhima": {
+      "type": "character",
+      "description": "One of the Pandava brothers, known for his immense strength and valor."
+    },
+    "Virata": {
+      "type": "character",
+      "description": "A king allied with the Pandavas, commander in their army."
+    },
+    "Drupada": {
+      "type": "character",
+      "description": "King of Panchala, father of Draupadi and Dhristadyumna, and an ally of the Pandavas."
+    },
+    "Dhrishtaketu": {
+      "type": "character",
+      "description": "A warrior allied with the Pandavas."
+    },
+    "Chekitana": {
+      "type": "character",
+      "description": "A notable warrior in the Pandava army."
+    },
+    "Kashi": {
+      "type": "character",
+      "description": "Refers to the king of Kashi, an archer allied with the Pandavas."
+    },
+    "Purujit": {
+      "type": "character",
+      "description": "A commander in the Pandava army."
+    },
+    "Kuntibhoja": {
+      "type": "character",
+      "description": "A king allied with the Pandavas."
+    },
+    "Saibya": {
+      "type": "character",
+      "description": "A warrior allied with the Pandavas."
+    },
+    "Yudhamanyu": {
+      "type": "character",
+      "description": "A strong warrior in the Pandava army."
+    },
+    "Uttamaujas": {
+      "type": "character",
+      "description": "A brave commander in the Pandava army."
+    },
+    "Subhadra": {
+      "type": "character",
+      "description": "Mother of Abhimanyu, Arjuna's wife."
+    },
+    "Draupadi": {
+      "type": "character",
+      "description": "Wife of the Pandavas, whose sons fight in the war."
+    },
+    "Karna": {
+      "type": "character",
+      "description": "A great warrior and ally of the Kauravas."
+    },
+    "Kripa": {
+      "type": "character",
+      "description": "A teacher and warrior fighting for the Kauravas."
+    },
+    "Aswatthama": {
+      "type": "character",
+      "description": "Son of Drona, a formidable warrior on the Kaurava side."
+    },
+    "Vikarna": {
+      "type": "character",
+      "description": "A Kaurava prince and brother of Duryodhana."
+    },
+    "Somadatta": {
+      "type": "character",
+      "description": "Father of Bhurishrava, a warrior in the Kaurava army."
+    },
+    "Yudhisthira": {
+      "type": "character",
+      "description": "Eldest of the Pandava brothers, known for his righteousness."
+    },
+    "Nakula": {
+      "type": "character",
+      "description": "One of the Pandava twins, renowned for his skills."
+    },
+    "Sahadeva": {
+      "type": "character",
+      "description": "The other Pandava twin, skilled in warfare."
+    },
+    "Shikhandi": {
+      "type": "character",
+      "description": "A commander in the Pandava army, instrumental in Bhishma's fall."
+    },
+    "Satyaki": {
+      "type": "character",
+      "description": "A hero, charioteer, and commander in the Pandava army, also known as Yuyudhana."
+    },
+    "Hanuman": {
+      "type": "character",
+      "description": "The monkey-god, whose symbol is Arjuna's chariot ensign."
+    },
+    "Pandu": {
+      "type": "proper_noun",
+      "description": "Father of the Pandavas, the five brothers who are central to the Mahabharata."
+    },
+    "Pandavas": {
+      "type": "proper_noun",
+      "description": "The Pandavas are the five sons of Pandu, protagonists in the Mahabharata."
+    },
+    "Kurukshetra": {
+      "type": "proper_noun",
+      "description": "The holy battlefield where the Mahabharata war takes place."
+    },
+    "Vyasa": {
+      "type": "proper_noun",
+      "description": "Vyasa, also known as Veda Vyasa, is the sage who composed the Mahabharata and the Bhagavad Gita and compiled the Vedas."
+    },
+    "Hastinapura": {
+      "type": "proper_noun",
+      "description": "The capital city of the Kauravas and Pandavas."
+    },
+    "Kauravas": {
+      "type": "proper_noun",
+      "description": "The sons of Dhritarashtra, antagonists in the Mahabharata."
+    },
+    "Aryan": {
+      "type": "proper_noun",
+      "description": "Refers to the ancient Indo-Aryan culture and people."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "The great Indian epic that contains the Bhagavad Geeta."
+    },
+    "Bhagawad Geeta": {
+      "type": "proper_noun",
+      "description": "The Bhagavad Geeta is a sacred Hindu scripture, part of the Mahabharata, consisting of a dialogue between Krishna and Arjuna on spiritual and ethical matters."
+    },
+    "Hindu": {
+      "type": "proper_noun",
+      "description": "Pertaining to the religious, cultural, and philosophical traditions of India."
+    },
+    "Brahmana": {
+      "type": "proper_noun",
+      "description": "Brahmana (or Brahmin) refers to a member of the priestly class in the traditional Hindu caste system, known as the 'twice-born' due to their spiritual initiation."
+    },
+    "Shastra": {
+      "type": "proper_noun",
+      "description": "Shastra refers to scriptural texts or treatises in Hindu tradition, providing authoritative teachings and guidance."
+    },
+    "Artha Shastra": {
+      "type": "proper_noun",
+      "description": "An ancient Indian treatise on statecraft, politics, and economics."
+    },
+    "Vrishni-clan": {
+      "type": "proper_noun",
+      "description": "The lineage or clan to which Krishna belongs."
+    },
+    "Upanishads": {
+      "type": "proper_noun",
+      "description": "The Upanishads are ancient Hindu philosophical texts exploring spiritual knowledge and the nature of reality."
+    },
+    "Brahman": {
+      "type": "proper_noun",
+      "description": "Brahman is the ultimate, all-pervading, unchanging reality or God-principle in Vedanta philosophy."
+    },
+    "Brahma-Vidya": {
+      "type": "proper_noun",
+      "description": "Knowledge of Brahman, the Supreme Reality."
+    },
+    "Yoga Shastra": {
+      "type": "proper_noun",
+      "description": "The science or scripture of Yoga, outlining its philosophy and practice."
+    },
+    "Rishis": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu sages and seers."
+    },
+    "Sankalpa Vakya": {
+      "type": "proper_noun",
+      "description": "A traditional epilogue or concluding statement marking the end of a chapter in Hindu scriptures."
+    },
+    "Aryan-culture": {
+      "type": "proper_noun",
+      "description": "The cultural and spiritual heritage of the ancient Aryans."
+    },
+    "Yoga": {
+      "type": "vocabulary",
+      "description": "A spiritual discipline or path aiming at union with the Divine or Self-realization."
+    },
+    "maharathas": {
+      "type": "vocabulary",
+      "description": "Great warriors capable of fighting multiple opponents, often commanding large divisions."
+    },
+    "acharya": {
+      "type": "vocabulary",
+      "description": "A respected teacher or preceptor, especially in spiritual or scriptural matters."
+    },
+    "Atatayinah": {
+      "type": "vocabulary",
+      "description": "Felons or aggressors deserving punishment according to ancient law."
+    },
+    "Dharma": {
+      "type": "vocabulary",
+      "description": "Righteousness, duty, or the moral law governing individual conduct."
+    },
+    "Kula-Dharma": {
+      "type": "vocabulary",
+      "description": "The specific duties and traditions of a family."
+    },
+    "Kshatriyas": {
+      "type": "vocabulary",
+      "description": "The warrior and ruling class in the traditional Hindu social order."
+    },
+    "Vaishyas": {
+      "type": "vocabulary",
+      "description": "The merchant and agricultural class in the traditional Hindu social order."
+    },
+    "Shudras": {
+      "type": "vocabulary",
+      "description": "The laborer and service class in the traditional Hindu social order."
+    },
+    "Moksha": {
+      "type": "vocabulary",
+      "description": "Spiritual liberation or Self-realization, the ultimate goal in Hindu philosophy."
+    },
+    "Kshema": {
+      "type": "vocabulary",
+      "description": "Material and physical well-being or security."
+    },
+    "Sadhana": {
+      "type": "vocabulary",
+      "description": "Spiritual practice or discipline undertaken to achieve a goal."
+    },
+    "Mantra": {
+      "type": "vocabulary",
+      "description": "A sacred utterance, sound, or phrase used in spiritual practice."
+    },
+    "Sankalpa": {
+      "type": "vocabulary",
+      "description": "A resolve or intention, often recited as a formal statement in rituals."
+    },
+    "Kunti": {
+      "type": "character",
+      "description": "The mother of Arjuna and the Pandavas, also known as Pritha."
+    },
+    "Muni": {
+      "type": "character",
+      "description": "A term for a sage or silent wise man, used to describe the realized person."
+    },
+    "Hindus": {
+      "type": "proper_noun",
+      "description": "Followers of Hinduism, the religious tradition to which the Gita belongs."
+    },
+    "Hinduism": {
+      "type": "proper_noun",
+      "description": "The major Indian religious tradition, whose philosophy and practices are discussed in the Gita."
+    },
+    "Sanatana Dharma": {
+      "type": "proper_noun",
+      "description": "A term meaning 'eternal law', referring to the eternal and universal principles of Hinduism."
+    },
+    "Veera-Swarga": {
+      "type": "proper_noun",
+      "description": "The 'Heaven of the Heroes', a celestial realm attained by those who die heroically in battle."
+    },
+    "Vedanta": {
+      "type": "proper_noun",
+      "description": "Vedanta is a major school of Hindu philosophy based on the teachings of the Upanishads, with followers known as Vedantins."
+    },
+    "Karma Kanda": {
+      "type": "proper_noun",
+      "description": "The ritualistic portion of the Vedas, focused on prescribed actions and rituals."
+    },
+    "Samadhi": {
+      "type": "proper_noun",
+      "description": "A state of deep meditative absorption or superconsciousness."
+    },
+    "Sankhya": {
+      "type": "proper_noun",
+      "description": "Sankhya is a classical Indian philosophical system explaining reality through dual principles of Purusha (spirit) and Prakriti (matter), with followers known as Sankhyans."
+    },
+    "Karma Yoga": {
+      "type": "proper_noun",
+      "description": "Karma Yoga is the path of selfless action, performing one's duties without attachment to results as a means to spiritual realization."
+    },
+    "Brahmi-sthitih": {
+      "type": "proper_noun",
+      "description": "The state of being established in Brahman, or Self-realization."
+    },
+    "Adharma": {
+      "type": "vocabulary",
+      "description": "Unrighteousness; actions or qualities contrary to Dharma."
+    },
+    "Swadharma": {
+      "type": "vocabulary",
+      "description": "One's own duty or personal call-of-character, according to one's nature and position."
+    },
+    "Manava Dharma": {
+      "type": "vocabulary",
+      "description": "The essential duty or law of human beings, emphasizing their divine nature."
+    },
+    "Atman": {
+      "type": "vocabulary",
+      "description": "Atman is the individual Self or soul, the innermost essence of a being, also referred to as the Self in Vedanta philosophy."
+    },
+    "Vasanas": {
+      "type": "vocabulary",
+      "description": "Vasanas are mental impressions or tendencies formed by past actions and desires, driving future behavior."
+    },
+    "Viveka": {
+      "type": "vocabulary",
+      "description": "Discrimination or discernment, especially between the real and the unreal."
+    },
+    "Indriyas": {
+      "type": "vocabulary",
+      "description": "The sense-organs or faculties of perception and action."
+    },
+    "Karma": {
+      "type": "vocabulary",
+      "description": "Karma refers to action or deed and its resulting effects, embodying the law of cause and effect governing all actions."
+    },
+    "Karma-phala": {
+      "type": "vocabulary",
+      "description": "The fruits or results of actions."
+    },
+    "Buddhi": {
+      "type": "vocabulary",
+      "description": "Intellect or discriminative faculty."
+    },
+    "Buddhi yoga": {
+      "type": "vocabulary",
+      "description": "The yoga of wisdom or devotion through the intellect; acting with a steady, discriminative mind."
+    },
+    "Gunas": {
+      "type": "vocabulary",
+      "description": "The gunas are the three fundamental qualities—Sattwa (purity), Rajas (activity), and Tamas (inertia)—that constitute nature and influence all beings."
+    },
+    "Sattwa": {
+      "type": "vocabulary",
+      "description": "The quality of purity, harmony, and balance."
+    },
+    "Rajas": {
+      "type": "vocabulary",
+      "description": "The quality of activity, passion, and restlessness."
+    },
+    "Tamas": {
+      "type": "vocabulary",
+      "description": "The quality of inertia, darkness, and ignorance."
+    },
+    "Dwandwas": {
+      "type": "vocabulary",
+      "description": "Pairs of opposites, such as pleasure and pain, success and failure."
+    },
+    "Pratyahara": {
+      "type": "vocabulary",
+      "description": "Withdrawal of the senses from their objects, a yogic practice."
+    },
+    "Pranayama": {
+      "type": "vocabulary",
+      "description": "Control of the breath, a yogic discipline."
+    },
+    "Uparati": {
+      "type": "vocabulary",
+      "description": "Withdrawal or cessation from worldly activities; inner quietude."
+    },
+    "Maya": {
+      "type": "vocabulary",
+      "description": "The cosmic illusion that veils the true nature of reality."
+    },
+    "Avarana-Shakti": {
+      "type": "vocabulary",
+      "description": "The veiling power of Maya, which obscures the Self."
+    },
+    "Vikshepa-Shakti": {
+      "type": "vocabulary",
+      "description": "The projecting power of Maya, which creates the appearance of the world."
+    },
+    "Prasada": {
+      "type": "vocabulary",
+      "description": "Prasada refers to mental peace, tranquility, or clarity resulting from self-control and purity of mind."
+    },
+    "Nishkama": {
+      "type": "vocabulary",
+      "description": "Without desire; acting without selfish motives."
+    },
+    "Shrutam": {
+      "type": "vocabulary",
+      "description": "That which has been heard; scriptural or traditional knowledge."
+    },
+    "Shrotavyam": {
+      "type": "vocabulary",
+      "description": "That which is yet to be heard; future knowledge or experiences."
+    },
+    "Sthita-Prajna": {
+      "type": "vocabulary",
+      "description": "One of steady wisdom; a person established in Self-knowledge."
+    },
+    "Samnyasin": {
+      "type": "vocabulary",
+      "description": "A renunciate; one who has given up worldly attachments and desires."
+    },
+    "Janaka": {
+      "type": "character",
+      "description": "A wise king cited as an example of one who attained perfection through action (Karma Yoga)."
+    },
+    "Ashwapati": {
+      "type": "character",
+      "description": "Another ancient king mentioned as an exemplar of attaining perfection through right action."
+    },
+    "Prajapati": {
+      "type": "character",
+      "description": "The Creator deity in Hindu cosmology, said to have created mankind and sacrifice together."
+    },
+    "Vrindavana": {
+      "type": "proper_noun",
+      "description": "A town associated with Krishna's early life and divine play."
+    },
+    "gopis": {
+      "type": "proper_noun",
+      "description": "The cowherd maidens of Vrindavana, devotees of Krishna."
+    },
+    "Kamadhuk": {
+      "type": "proper_noun",
+      "description": "The mythological wish-fulfilling cow, also called Kamadhenu, symbolizing abundance."
+    },
+    "Kamadhenu": {
+      "type": "proper_noun",
+      "description": "A mythological cow said to grant all desires, referenced as a symbol of infinite potential."
+    },
+    "Devas": {
+      "type": "proper_noun",
+      "description": "The gods or divine forces in Hindu cosmology, representing various aspects of the universal power."
+    },
+    "Mother India": {
+      "type": "proper_noun",
+      "description": "A personification of India as a nurturing mother, symbolizing the nation's productive potential."
+    },
+    "Shankara": {
+      "type": "proper_noun",
+      "description": "Adi Shankaracharya, a renowned Vedantic philosopher and commentator."
+    },
+    "Bharatas": {
+      "type": "proper_noun",
+      "description": "A term referring to the descendants of King Bharata, often used for Arjuna and his kin."
+    },
+    "Varna": {
+      "type": "proper_noun",
+      "description": "The term for caste or class in Hindu society, based on individual temperament and duties."
+    },
+    "Loka-sangraha": {
+      "type": "proper_noun",
+      "description": "A Sanskrit term meaning 'welfare of the world', used to describe selfless action for the greater good."
+    },
+    "Tattwavit": {
+      "type": "proper_noun",
+      "description": "A knower of the Reality or Truth, an epithet for the wise or enlightened person."
+    },
+    "Buddha": {
+      "type": "proper_noun",
+      "description": "Here, refers to an enlightened being or sage, not specifically Gautama Buddha."
+    },
+    "YOGA": {
+      "type": "proper_noun",
+      "description": "A spiritual discipline or path, especially as systematized in the Gita."
+    },
+    "Jnana Yoga": {
+      "type": "proper_noun",
+      "description": "Jnana Yoga is the path of knowledge, focusing on the realization of the Self through wisdom, discrimination, and contemplation."
+    },
+    "Prakriti": {
+      "type": "vocabulary",
+      "description": "Nature or the fundamental creative energy, consisting of the three gunas."
+    },
+    "Niyatam Karma": {
+      "type": "vocabulary",
+      "description": "Obligatory or prescribed duty, actions one is bound to perform."
+    },
+    "Yajna": {
+      "type": "vocabulary",
+      "description": "Yajna is sacrifice or ritual offering, often symbolizing selfless action and dedication in spiritual practice."
+    },
+    "Seva": {
+      "type": "vocabulary",
+      "description": "Seva is selfless service, often performed as an act of devotion or for the welfare of others."
+    },
+    "Annam": {
+      "type": "vocabulary",
+      "description": "Food; that which nourishes living beings."
+    },
+    "Shraddha": {
+      "type": "vocabulary",
+      "description": "Shraddha is faith or conviction, considered the guiding force behind actions and spiritual progress."
+    },
+    "Anasuyantah": {
+      "type": "vocabulary",
+      "description": "Without cavilling or fault-finding; accepting teachings without negative criticism."
+    },
+    "Jnana": {
+      "type": "vocabulary",
+      "description": "Knowledge, especially spiritual wisdom or discrimination."
+    },
+    "Adhyatma Chetasa": {
+      "type": "vocabulary",
+      "description": "Mind absorbed in the Self; spiritual consciousness."
+    },
+    "Jwara": {
+      "type": "vocabulary",
+      "description": "Mental fever; agitation or anxiety."
+    },
+    "Karya": {
+      "type": "vocabulary",
+      "description": "Effect or result, especially of action."
+    },
+    "Prarabdha": {
+      "type": "vocabulary",
+      "description": "The portion of past karma that is responsible for the present birth and circumstances."
+    },
+    "Mukta": {
+      "type": "vocabulary",
+      "description": "A liberated soul, free from bondage."
+    },
+    "Matam": {
+      "type": "vocabulary",
+      "description": "Opinion or doctrine, especially in a religious or philosophical context."
+    },
+    "Vivasvan": {
+      "type": "character",
+      "description": "The Sun-god, to whom Krishna says he first imparted the ancient Yoga at the beginning of creation."
+    },
+    "Manu": {
+      "type": "character",
+      "description": "The ancient law-giver of India, son of Vivasvan, who received the knowledge of Yoga from his father."
+    },
+    "Ikshvaku": {
+      "type": "character",
+      "description": "The ancestor of the Solar-dynasty, who received the knowledge from Manu."
+    },
+    "Ayodhya": {
+      "type": "proper_noun",
+      "description": "An ancient city in India, historically ruled by the Solar-dynasty."
+    },
+    "Pauranic": {
+      "type": "proper_noun",
+      "description": "Relating to the Puranas, ancient Hindu texts that elaborate on mythology and philosophy."
+    },
+    "Gokula": {
+      "type": "proper_noun",
+      "description": "The village associated with Krishna's childhood."
+    },
+    "Solar-dynasty": {
+      "type": "proper_noun",
+      "description": "A royal lineage in ancient India, said to descend from the Sun-god."
+    },
+    "Dravya-Yajna": {
+      "type": "proper_noun",
+      "description": "Sacrifice involving material offerings."
+    },
+    "Tapo-yajna": {
+      "type": "proper_noun",
+      "description": "Sacrifice in the form of austerity or penance."
+    },
+    "Yoga-yajna": {
+      "type": "proper_noun",
+      "description": "Sacrifice in the form of spiritual discipline or Yoga."
+    },
+    "Swadhyaya-yajna": {
+      "type": "proper_noun",
+      "description": "Sacrifice in the form of scriptural study."
+    },
+    "Deva-Yajna": {
+      "type": "proper_noun",
+      "description": "Sacrifice offered to the gods."
+    },
+    "Brahma-Yajna": {
+      "type": "proper_noun",
+      "description": "Sacrifice offered to Brahman, or the pursuit of spiritual knowledge."
+    },
+    "Achirena": {
+      "type": "proper_noun",
+      "description": "A Sanskrit term meaning 'ere long' or 'soon,' indicating the quick attainment of the goal."
+    },
+    "Param Shantim": {
+      "type": "proper_noun",
+      "description": "Sanskrit for 'Supreme Peace,' the ultimate goal described in the Gita."
+    },
+    "Avatara": {
+      "type": "vocabulary",
+      "description": "Divine incarnation; the descent of God into a physical form."
+    },
+    "Kshatriya": {
+      "type": "vocabulary",
+      "description": "The warrior or ruler class in the varna system."
+    },
+    "Shudra": {
+      "type": "vocabulary",
+      "description": "The servant or laborer class in the varna system."
+    },
+    "Avidya": {
+      "type": "vocabulary",
+      "description": "Avidya is ignorance, particularly of the true nature of the Self."
+    },
+    "Saguna": {
+      "type": "vocabulary",
+      "description": "With attributes or qualities; refers to worship of God with form."
+    },
+    "Nirguna": {
+      "type": "vocabulary",
+      "description": "Without attributes or qualities; refers to worship of the formless absolute."
+    },
+    "Amaratva": {
+      "type": "vocabulary",
+      "description": "State of immortality or deathlessness."
+    },
+    "Ajah": {
+      "type": "vocabulary",
+      "description": "Unborn; a term for the eternal, birthless reality."
+    },
+    "Kavi": {
+      "type": "vocabulary",
+      "description": "A seer or poet, especially one with spiritual insight."
+    },
+    "Jnana Tapas": {
+      "type": "vocabulary",
+      "description": "Austerity or discipline of knowledge."
+    },
+    "Prana": {
+      "type": "vocabulary",
+      "description": "Prana is the vital energy or life-force that sustains the body and its functions."
+    },
+    "Puraka": {
+      "type": "vocabulary",
+      "description": "The inhalation phase in pranayama."
+    },
+    "Rechaka": {
+      "type": "vocabulary",
+      "description": "The exhalation phase in pranayama."
+    },
+    "Kumbhaka": {
+      "type": "vocabulary",
+      "description": "The retention or holding of breath in pranayama."
+    },
+    "Dravya": {
+      "type": "vocabulary",
+      "description": "Material substance or wealth."
+    },
+    "Tapas": {
+      "type": "vocabulary",
+      "description": "Austerity or self-discipline."
+    },
+    "Swadhyaya": {
+      "type": "vocabulary",
+      "description": "Self-study, especially of scriptures."
+    },
+    "Tatparah": {
+      "type": "vocabulary",
+      "description": "Devoted to or intent on (the spiritual goal)."
+    },
+    "Samshaya-atma": {
+      "type": "vocabulary",
+      "description": "The doubting self; one who is afflicted by doubt."
+    },
+    "Atmavantah": {
+      "type": "vocabulary",
+      "description": "One who is poised in the Self."
+    },
+    "Advaita": {
+      "type": "proper_noun",
+      "description": "A non-dualistic school of Vedanta philosophy that teaches the oneness of Atman and Brahman."
+    },
+    "Patanjali Yoga-Sutra": {
+      "type": "proper_noun",
+      "description": "A classical text on Yoga philosophy, outlining the eightfold path of Yoga."
+    },
+    "Goutama-Smriti": {
+      "type": "proper_noun",
+      "description": "An ancient Hindu legal and ethical text, quoted by Shankara in his commentary."
+    },
+    "Maheshwara": {
+      "type": "proper_noun",
+      "description": "A title meaning 'Great Lord,' often referring to the Supreme Being or Shiva."
+    },
+    "Sarva-Loka-Maheshwarah": {
+      "type": "proper_noun",
+      "description": "A Sanskrit epithet meaning 'Great Lord of all worlds,' used for the Supreme Self in the Gita."
+    },
+    "Karma-Samnyasa-Yoga": {
+      "type": "vocabulary",
+      "description": "The Yoga of renunciation of action, involving giving up the sense of doership."
+    },
+    "Sakshibhava": {
+      "type": "vocabulary",
+      "description": "The witness-attitude; observing one's actions and thoughts with detachment."
+    },
+    "Swabhava": {
+      "type": "vocabulary",
+      "description": "Swabhava is one's own nature or inherent disposition, determining character and actions."
+    },
+    "Dwaitins": {
+      "type": "vocabulary",
+      "description": "Followers of the Dvaita (dualistic) school of Vedanta philosophy."
+    },
+    "Ishwara": {
+      "type": "vocabulary",
+      "description": "The Lord or Supreme Controller, often referring to God as the ruler of the universe."
+    },
+    "Paramatman": {
+      "type": "vocabulary",
+      "description": "The Supreme Self, the universal consciousness underlying all beings."
+    },
+    "Samattwam": {
+      "type": "vocabulary",
+      "description": "Equanimity or mental evenness, a key quality in spiritual realization."
+    },
+    "Sama-darshin": {
+      "type": "vocabulary",
+      "description": "One who sees with equal vision; a sage who perceives the same Self in all beings."
+    },
+    "Dhyana Yoga": {
+      "type": "vocabulary",
+      "description": "The path of meditation, leading to steady contemplation and realization of the Self."
+    },
+    "Rama Tirtha": {
+      "type": "character",
+      "description": "A Hindu saint referenced for his teachings on the consequences of sin."
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "A sacred river in India, often associated with spiritual purification and meditation."
+    },
+    "Jamuna": {
+      "type": "proper_noun",
+      "description": "A river in India, also known as Yamuna, associated with Krishna's pastimes."
+    },
+    "Kusha": {
+      "type": "proper_noun",
+      "description": "A type of sacred grass traditionally used in Vedic rituals and for meditation seats."
+    },
+    "Asana": {
+      "type": "proper_noun",
+      "description": "A physical posture or seat, especially for meditation."
+    },
+    "Pariah": {
+      "type": "proper_noun",
+      "description": "A term for an outcaste or someone of low social status in traditional Indian society."
+    },
+    "Prasthana Traya": {
+      "type": "proper_noun",
+      "description": "The collective term for the three foundational texts of Vedanta: the Upanishads, Brahmasutra, and Bhagavad Gita."
+    },
+    "Yogi": {
+      "type": "vocabulary",
+      "description": "A Yogi or Yogin is one who practices Yoga and seeks spiritual realization; Yogins are practitioners of Yoga."
+    },
+    "Arurukshah": {
+      "type": "vocabulary",
+      "description": "A seeker who desires to ascend the path of Yoga."
+    },
+    "Yoga-Arudhah": {
+      "type": "vocabulary",
+      "description": "One who has attained mastery in Yoga; established in meditation."
+    },
+    "Shama": {
+      "type": "vocabulary",
+      "description": "Quiescence or mental tranquillity; control of the mind."
+    },
+    "Vritti": {
+      "type": "vocabulary",
+      "description": "A mental modification or thought-wave."
+    },
+    "Vijnana": {
+      "type": "vocabulary",
+      "description": "Direct experiential knowledge or realisation."
+    },
+    "Kootasthah": {
+      "type": "vocabulary",
+      "description": "The immutable, changeless Self; literally 'anvil-like'."
+    },
+    "Rahasi": {
+      "type": "vocabulary",
+      "description": "In solitude or secrecy."
+    },
+    "Ekaki": {
+      "type": "vocabulary",
+      "description": "Alone; solitary."
+    },
+    "Nirashih": {
+      "type": "vocabulary",
+      "description": "Free from hope or expectation."
+    },
+    "Aparigraha": {
+      "type": "vocabulary",
+      "description": "Non-possessiveness; freedom from hoarding or attachment to possessions."
+    },
+    "Sthiram": {
+      "type": "vocabulary",
+      "description": "Steady or firm, especially in posture."
+    },
+    "Prashanta": {
+      "type": "vocabulary",
+      "description": "Serene or peaceful."
+    },
+    "Brahmacharya": {
+      "type": "vocabulary",
+      "description": "Celibacy or self-control, especially in relation to sense impulses."
+    },
+    "Nirvana": {
+      "type": "vocabulary",
+      "description": "Liberation; the state of ultimate freedom from suffering."
+    },
+    "Shantam": {
+      "type": "vocabulary",
+      "description": "Peaceful; the state of absolute peace."
+    },
+    "Swapna": {
+      "type": "vocabulary",
+      "description": "Dream; also refers to the state of conscious experience."
+    },
+    "Avabodha": {
+      "type": "vocabulary",
+      "description": "Awakening or knowledge; often denotes spiritual realisation."
+    },
+    "Yuktah": {
+      "type": "vocabulary",
+      "description": "Steadfast or integrated; united in Yoga."
+    },
+    "Brahmakara Vritti": {
+      "type": "vocabulary",
+      "description": "A mental modification taking the form of Brahman; continuous contemplation of the Absolute."
+    },
+    "Ati-indriyah": {
+      "type": "vocabulary",
+      "description": "Beyond the senses."
+    },
+    "Shanaih-Shanaih": {
+      "type": "vocabulary",
+      "description": "Little by little; gradually."
+    },
+    "Purushartha": {
+      "type": "vocabulary",
+      "description": "Deliberate, conscious effort or action; also refers to the four aims of human life."
+    },
+    "Chanchala": {
+      "type": "vocabulary",
+      "description": "Restless; unsteady."
+    },
+    "A-sthira": {
+      "type": "vocabulary",
+      "description": "Unsteady; not firm."
+    },
+    "A-kalmasham": {
+      "type": "vocabulary",
+      "description": "Freed from taint or impurity."
+    },
+    "Shanta-rajasam": {
+      "type": "vocabulary",
+      "description": "One whose passions (rajas) are quietened."
+    },
+    "Brahma-bhootam": {
+      "type": "vocabulary",
+      "description": "One who has become Brahman; Self-realised."
+    },
+    "Shabda-brahman": {
+      "type": "vocabulary",
+      "description": "The Vedic word or ritualistic portion of the Vedas."
+    },
+    "Tapaswins": {
+      "type": "vocabulary",
+      "description": "Ascetics; those who practice austerities."
+    },
+    "Jnanis": {
+      "type": "vocabulary",
+      "description": "Men of knowledge; scholars or philosophers."
+    },
+    "Karmis": {
+      "type": "vocabulary",
+      "description": "Men of action; those who perform works or rituals."
+    },
+    "Antahkarana": {
+      "type": "vocabulary",
+      "description": "The inner instrument; the mind-intellect complex."
+    },
+    "Bhajana": {
+      "type": "vocabulary",
+      "description": "Devotional worship or contemplation, especially of the Self."
+    },
+    "Christ": {
+      "type": "character",
+      "description": "Referenced as Lord Christ, he is used as a comparative figure to illustrate spiritual truths."
+    },
+    "Rama": {
+      "type": "character",
+      "description": "Mentioned as an example of a divine incarnation or sage who realized the Self."
+    },
+    "Mohammed": {
+      "type": "character",
+      "description": "Cited as one of the great prophets who realized and lived in the Self."
+    },
+    "Mahavira": {
+      "type": "character",
+      "description": "Referenced as a realized sage in the context of spiritual perfection."
+    },
+    "India": {
+      "type": "proper_noun",
+      "description": "The country of origin for the Bhagavad Gita and the philosophical schools discussed."
+    },
+    "Jagat": {
+      "type": "proper_noun",
+      "description": "A Sanskrit term meaning the world or the universe, especially as experienced through the senses, mind, and intellect."
+    },
+    "Akasa": {
+      "type": "proper_noun",
+      "description": "Sanskrit for 'ether' or 'space,' considered one of the five great elements in Indian philosophy."
+    },
+    "Sad-Guru": {
+      "type": "proper_noun",
+      "description": "A true spiritual teacher or enlightened master."
+    },
+    "Devata": {
+      "type": "proper_noun",
+      "description": "A deity or divine force invoked in worship or ritual."
+    },
+    "Adhibhuta": {
+      "type": "proper_noun",
+      "description": "Refers to the physical elements or the world of objects."
+    },
+    "Adhidaiva": {
+      "type": "proper_noun",
+      "description": "Pertains to the divine or the gods, often associated with the sense-organs."
+    },
+    "Adhiyajna": {
+      "type": "proper_noun",
+      "description": "Relates to sacrifice, particularly the principle presiding over all sacrifices or perceptions."
+    },
+    "Upasaka": {
+      "type": "proper_noun",
+      "description": "A devotee or worshipper, especially one engaged in spiritual practice."
+    },
+    "Purusha": {
+      "type": "vocabulary",
+      "description": "The spiritual principle or pure consciousness that enlivens matter."
+    },
+    "Kama": {
+      "type": "vocabulary",
+      "description": "Desire, especially for what is not present."
+    },
+    "Raga": {
+      "type": "vocabulary",
+      "description": "Attachment or affection for what one already possesses."
+    },
+    "Balam": {
+      "type": "vocabulary",
+      "description": "Strength or might, especially when devoid of desire and attachment."
+    },
+    "Sadhaka": {
+      "type": "vocabulary",
+      "description": "A spiritual aspirant or practitioner striving for realization."
+    },
+    "A-dharma": {
+      "type": "vocabulary",
+      "description": "Unrighteousness; actions or thoughts contrary to one's essential divine nature."
+    },
+    "Eka bhaktih": {
+      "type": "vocabulary",
+      "description": "Single-pointed devotion; unwavering focus on the Divine."
+    },
+    "Upasya": {
+      "type": "vocabulary",
+      "description": "The object of concentration or worship in spiritual practice."
+    },
+    "Vikshepa": {
+      "type": "vocabulary",
+      "description": "Mental agitation or distraction, caused by Rajas."
+    },
+    "Avarana": {
+      "type": "vocabulary",
+      "description": "Veiling or obscuration, caused by Tamas, which hides the Self."
+    },
+    "punya": {
+      "type": "vocabulary",
+      "description": "Merit; positive or virtuous actions that purify the mind."
+    },
+    "papa": {
+      "type": "vocabulary",
+      "description": "Sin; negative actions that create impurity and suffering."
+    },
+    "ADHYATMA": {
+      "type": "proper_noun",
+      "description": "The essential Self or the principle of Self-knowledge within an individual."
+    },
+    "ADHIBHUTA": {
+      "type": "proper_noun",
+      "description": "The perishable elements or the world of matter and phenomena."
+    },
+    "ADHIDAIVA": {
+      "type": "proper_noun",
+      "description": "The Indweller or presiding deity/faculty over the sense organs and mind."
+    },
+    "ADHIYAJNA": {
+      "type": "proper_noun",
+      "description": "The principle of sacrifice or the Self as the presiding factor in all acts of offering."
+    },
+    "Puranas": {
+      "type": "proper_noun",
+      "description": "Ancient Hindu texts containing mythological stories, traditions, and teachings."
+    },
+    "Brahma-loka": {
+      "type": "proper_noun",
+      "description": "The highest realm or world of Brahma, the Creator, attainable by souls through ritual and meditation."
+    },
+    "Prashnopanishad": {
+      "type": "proper_noun",
+      "description": "An Upanishadic text that discusses philosophical questions about creation and the nature of reality."
+    },
+    "Pitrus": {
+      "type": "proper_noun",
+      "description": "The ancestors; refers to the realm or world of the departed ancestors in Hindu belief."
+    },
+    "YUGAS": {
+      "type": "proper_noun",
+      "description": "Epochs or ages in Hindu cosmology, used to measure vast periods of time."
+    },
+    "upasana": {
+      "type": "vocabulary",
+      "description": "Upasana is devotional worship or meditative contemplation, especially on a chosen ideal or deity."
+    },
+    "samsara": {
+      "type": "vocabulary",
+      "description": "Samsara is the cycle of birth, death, and rebirth governed by karma."
+    },
+    "OM": {
+      "type": "vocabulary",
+      "description": "The sacred syllable symbolizing the Absolute, Brahman."
+    },
+    "Krama Mukti": {
+      "type": "vocabulary",
+      "description": "Gradual liberation; the doctrine that souls may attain liberation in stages."
+    },
+    "Devayana": {
+      "type": "vocabulary",
+      "description": "The 'Path of the gods'; the route taken by souls who attain gradual liberation."
+    },
+    "Pitryana": {
+      "type": "vocabulary",
+      "description": "The 'Path of the ancestors'; the route taken by souls who return to rebirth after enjoying heavenly realms."
+    },
+    "Pralaya": {
+      "type": "vocabulary",
+      "description": "Dissolution; the period when the manifest world returns to an unmanifest state."
+    },
+    "Yoga-dharanam": {
+      "type": "vocabulary",
+      "description": "Practice of concentration; the discipline of steadying the mind in meditation."
+    },
+    "Adwaitins": {
+      "type": "proper_noun",
+      "description": "Followers of Advaita Vedanta, the non-dualistic school of Indian philosophy."
+    },
+    "Shrimad Bhagavata": {
+      "type": "proper_noun",
+      "description": "A revered Purana that narrates the life and teachings of Krishna."
+    },
+    "Omkara": {
+      "type": "proper_noun",
+      "description": "The sacred syllable 'Om,' symbolizing the Absolute and the essence of the Vedas."
+    },
+    "Turiya": {
+      "type": "proper_noun",
+      "description": "The 'fourth' state of consciousness described in the Upanishads, beyond waking, dreaming, and deep sleep."
+    },
+    "Soma": {
+      "type": "proper_noun",
+      "description": "A ritual drink used in Vedic sacrifices, also personified as a deity."
+    },
+    "Pitris": {
+      "type": "proper_noun",
+      "description": "The ancestral spirits revered in Hindu rituals."
+    },
+    "Bhutas": {
+      "type": "proper_noun",
+      "description": "Elemental spirits or the five great elements in Indian cosmology."
+    },
+    "Mundakopanishad": {
+      "type": "proper_noun",
+      "description": "One of the principal Upanishads, known for its teachings on knowledge and liberation."
+    },
+    "Samsarins": {
+      "type": "vocabulary",
+      "description": "Beings caught in the cycle of birth, death, and rebirth (samsara)."
+    },
+    "Samsarin": {
+      "type": "vocabulary",
+      "description": "An individual bound by samsara, the cycle of birth and death."
+    },
+    "Samashti": {
+      "type": "vocabulary",
+      "description": "The macrocosm, or the totality of creation."
+    },
+    "Vyashti": {
+      "type": "vocabulary",
+      "description": "The microcosm, or the individual being."
+    },
+    "Dvesha": {
+      "type": "vocabulary",
+      "description": "Aversion or hatred."
+    },
+    "Kratu": {
+      "type": "vocabulary",
+      "description": "A Vedic ritual or sacrifice."
+    },
+    "Ajya": {
+      "type": "vocabulary",
+      "description": "Clarified butter (ghee) used as an offering in rituals."
+    },
+    "Agni": {
+      "type": "vocabulary",
+      "description": "Fire, both as an element and as the Vedic fire deity."
+    },
+    "Hutam": {
+      "type": "vocabulary",
+      "description": "Oblation or offering made into the sacred fire."
+    },
+    "Om": {
+      "type": "vocabulary",
+      "description": "The primordial sound and symbol of the Absolute."
+    },
+    "Sama": {
+      "type": "vocabulary",
+      "description": "The Sama Veda, or its chants."
+    },
+    "Gati": {
+      "type": "vocabulary",
+      "description": "Goal or destination."
+    },
+    "Bharta": {
+      "type": "vocabulary",
+      "description": "Supporter or sustainer."
+    },
+    "Prabhu": {
+      "type": "vocabulary",
+      "description": "Lord or master."
+    },
+    "Sakshi": {
+      "type": "vocabulary",
+      "description": "Witness; the observing consciousness."
+    },
+    "Nivasah": {
+      "type": "vocabulary",
+      "description": "Abode or dwelling place."
+    },
+    "Sharanam": {
+      "type": "vocabulary",
+      "description": "Refuge or shelter."
+    },
+    "Suhrit": {
+      "type": "vocabulary",
+      "description": "Friend or well-wisher."
+    },
+    "Beejam Avyayam": {
+      "type": "vocabulary",
+      "description": "The imperishable seed; the unchanging source of all."
+    },
+    "Sat": {
+      "type": "vocabulary",
+      "description": "Existence or being; the real."
+    },
+    "Asat": {
+      "type": "vocabulary",
+      "description": "Non-existence or the unreal; also, the effect."
+    },
+    "Kirtana": {
+      "type": "vocabulary",
+      "description": "Singing or chanting the glories of the Divine."
+    },
+    "Dhridha-Vratah": {
+      "type": "vocabulary",
+      "description": "One who is firm in vows or resolute."
+    },
+    "Jnana Yajna": {
+      "type": "vocabulary",
+      "description": "Jnana Yajna is the 'sacrifice of wisdom,' referring to the study, pursuit, and dissemination of spiritual knowledge."
+    },
+    "Ishwara Darshana": {
+      "type": "vocabulary",
+      "description": "Vision or realization of the Lord."
+    },
+    "Atma Darshana": {
+      "type": "vocabulary",
+      "description": "Vision or realization of the Self."
+    },
+    "Sannyasa": {
+      "type": "vocabulary",
+      "description": "Sannyasa is the path or state of renunciation, involving giving up worldly attachments, ego, and the fruits of actions."
+    },
+    "Ananya": {
+      "type": "vocabulary",
+      "description": "Undivided or single-pointed (as in devotion)."
+    },
+    "Dharmatma": {
+      "type": "vocabulary",
+      "description": "One whose nature is righteousness or who is established in dharma."
+    },
+    "Striyah": {
+      "type": "vocabulary",
+      "description": "Women; also used to indicate a feminine or emotional mind."
+    },
+    "Varnashrama Dharma": {
+      "type": "vocabulary",
+      "description": "The duties associated with one's class and stage of life."
+    },
+    "Bhrigu": {
+      "type": "character",
+      "description": "One of the Seven great Rishis, regarded as a chief sage in Hindu tradition."
+    },
+    "Narada": {
+      "type": "character",
+      "description": "A Deva-Rishi, renowned as a celestial sage and devotee, known for his wisdom and missionary zeal."
+    },
+    "Kapila": {
+      "type": "character",
+      "description": "A Muni and the founder of the Sankhya philosophy, recognized as a perfected thinker."
+    },
+    "Prahlada": {
+      "type": "character",
+      "description": "A Daitya prince celebrated for his unwavering devotion to Vishnu despite persecution by his father."
+    },
+    "Ushana": {
+      "type": "character",
+      "description": "A great seer and preceptor of the Daityas, sometimes identified as Shukra."
+    },
+    "Kubera": {
+      "type": "character",
+      "description": "The lord of wealth, associated with Yakshas and Rakshasas."
+    },
+    "Yama": {
+      "type": "character",
+      "description": "The mythical Lord of Death and controller of life and death."
+    },
+    "Indra": {
+      "type": "character",
+      "description": "The king of the gods and ruler of heaven, also referred to as Vasava."
+    },
+    "Vishnu": {
+      "type": "character",
+      "description": "One of the twelve Adityas, a principal deity representing preservation."
+    },
+    "Chitraratha": {
+      "type": "character",
+      "description": "A Gandharva, known as the chief among celestial musicians."
+    },
+    "Vasuki": {
+      "type": "character",
+      "description": "A serpent king, used as the churning rope in the myth of the milky ocean."
+    },
+    "Varuna": {
+      "type": "character",
+      "description": "Vedic deity governing the waters and oceans."
+    },
+    "Aryama": {
+      "type": "character",
+      "description": "A ruler among the ancestors (Pitris)."
+    },
+    "Vainateya": {
+      "type": "character",
+      "description": "The king of birds and vehicle of Vishnu, also known as Vainateya."
+    },
+    "Sama-Veda": {
+      "type": "proper_noun",
+      "description": "One of the four Vedas, distinguished by its musical chants."
+    },
+    "Rig-Veda": {
+      "type": "proper_noun",
+      "description": "The oldest of the four Vedas, consisting mainly of hymns."
+    },
+    "Chandogya Upanishad": {
+      "type": "proper_noun",
+      "description": "A principal Upanishad, part of the Sama-Veda, known for its philosophical teachings."
+    },
+    "Vrishnis": {
+      "type": "proper_noun",
+      "description": "A clan or tribe descended from Vrishni, to which Krishna belonged."
+    },
+    "Yadavas": {
+      "type": "proper_noun",
+      "description": "A dynasty or clan to which Krishna belonged."
+    },
+    "Kurus": {
+      "type": "proper_noun",
+      "description": "The ruling dynasty of the Mahabharata era, including both Pandavas and Kauravas."
+    },
+    "Jambu-dweepa": {
+      "type": "proper_noun",
+      "description": "A term from ancient Hindu cosmology referring to the central continent of the world."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "The great mountain range in northern India, revered as sacred."
+    },
+    "Meru": {
+      "type": "proper_noun",
+      "description": "A mythological mountain considered the center of the universe in Hindu cosmology."
+    },
+    "Ashwattha": {
+      "type": "proper_noun",
+      "description": "The Ashwattha is the sacred fig tree (Ficus Religiosa), used as an allegory for the Tree-of-life and symbolizing the universe or samsara."
+    },
+    "Gayatri": {
+      "type": "proper_noun",
+      "description": "A sacred Vedic metre and mantra, highly revered in Hindu tradition."
+    },
+    "Airavata": {
+      "type": "proper_noun",
+      "description": "The divine white elephant, mount of Indra."
+    },
+    "Brihaspati": {
+      "type": "proper_noun",
+      "description": "The spiritual teacher of the gods, associated with the planet Jupiter."
+    },
+    "Marichi": {
+      "type": "proper_noun",
+      "description": "Chief among the Maruts, wind deities."
+    },
+    "Maruts": {
+      "type": "proper_noun",
+      "description": "Storm deities, sons of Rudra."
+    },
+    "Adityas": {
+      "type": "proper_noun",
+      "description": "A group of solar deities, traditionally twelve in number."
+    },
+    "Nakshatras": {
+      "type": "proper_noun",
+      "description": "The lunar asterisms or constellations in Indian astronomy."
+    },
+    "Vasus": {
+      "type": "proper_noun",
+      "description": "Eight Vedic deities associated with natural phenomena."
+    },
+    "Yakshas": {
+      "type": "proper_noun",
+      "description": "Nature spirits associated with wealth and treasures."
+    },
+    "Rakshasas": {
+      "type": "proper_noun",
+      "description": "Mythical beings, often depicted as demons."
+    },
+    "Gandharvas": {
+      "type": "proper_noun",
+      "description": "Celestial musicians and singers."
+    },
+    "Siddhas": {
+      "type": "proper_noun",
+      "description": "Perfected beings or accomplished sages."
+    },
+    "Danavas": {
+      "type": "proper_noun",
+      "description": "A race of demons, sons of Danu, often opposing the Devas."
+    },
+    "Daityas": {
+      "type": "proper_noun",
+      "description": "A class of demons, descendants of Diti."
+    },
+    "Vibhuti": {
+      "type": "proper_noun",
+      "description": "Divine manifestations or glories of the Lord."
+    },
+    "Jalpa": {
+      "type": "proper_noun",
+      "description": "A type of argument aimed at defeating an opponent."
+    },
+    "Vitanda": {
+      "type": "proper_noun",
+      "description": "A type of argument focused on refuting the opponent without establishing one's own position."
+    },
+    "Vaada": {
+      "type": "proper_noun",
+      "description": "A logical, truth-seeking form of argument or debate."
+    },
+    "Vishvato-mukhah": {
+      "type": "proper_noun",
+      "description": "A term meaning 'facing all directions,' indicating omnipresence."
+    },
+    "Hiranyagarbha": {
+      "type": "proper_noun",
+      "description": "The 'cosmic womb' or golden egg, representing the source of creation."
+    },
+    "Savitru": {
+      "type": "proper_noun",
+      "description": "The Sun, especially as invoked in the Gayatri mantra."
+    },
+    "Mahat": {
+      "type": "vocabulary",
+      "description": "The cosmic intellect, the first principle of creation in Sankhya philosophy."
+    },
+    "Ahamkara": {
+      "type": "vocabulary",
+      "description": "The ego principle, the sense of individuality."
+    },
+    "Sarva-loka-maheshwarah": {
+      "type": "vocabulary",
+      "description": "Lord of all worlds; the Supreme Self ruling over all fields of experience."
+    },
+    "Loka": {
+      "type": "vocabulary",
+      "description": "A world or realm of experience."
+    },
+    "Purushottama": {
+      "type": "vocabulary",
+      "description": "The Supreme Purusha, or highest Self."
+    },
+    "Bhaava samanvitah": {
+      "type": "vocabulary",
+      "description": "Endowed with loving consciousness or attitude."
+    },
+    "Mat-chittah": {
+      "type": "vocabulary",
+      "description": "One whose mind is wholly absorbed in the Lord."
+    },
+    "Savikalpa": {
+      "type": "vocabulary",
+      "description": "A state of samadhi where some duality or distinction remains."
+    },
+    "Nirvikalpa": {
+      "type": "vocabulary",
+      "description": "A state of samadhi where all distinctions and dualities are transcended."
+    },
+    "Tattwatah": {
+      "type": "vocabulary",
+      "description": "In reality or in essence."
+    },
+    "Jijnasa": {
+      "type": "vocabulary",
+      "description": "The desire to know or inquire."
+    },
+    "Satsanga": {
+      "type": "vocabulary",
+      "description": "Association with the wise or with spiritual company."
+    },
+    "Nagas": {
+      "type": "vocabulary",
+      "description": "Many-hooded serpents in Hindu mythology."
+    },
+    "Japa": {
+      "type": "vocabulary",
+      "description": "Repetition of a mantra as a spiritual practice."
+    },
+    "Chit": {
+      "type": "vocabulary",
+      "description": "Consciousness or awareness."
+    },
+    "Sadhya": {
+      "type": "vocabulary",
+      "description": "The goal or that which is to be achieved."
+    },
+    "Jayadratha": {
+      "type": "character",
+      "description": "A warrior chief allied with the Kauravas, mentioned among those already doomed."
+    },
+    "Brahma": {
+      "type": "character",
+      "description": "Brahma is the Creator god in Hinduism, depicted as the Lord of Creation and source of all action and creation.",
+      "image": "/data/images/characters/bhagavad-gita/brahma.png"
+    },
+    "Shiva": {
+      "type": "character",
+      "description": "The Annihilator and part of the divine trinity, also called Isham, seen in the Cosmic Form."
+    },
+    "Ashwins": {
+      "type": "character",
+      "description": "The twin horsemen, divine beings associated with healing and service, seen in the Universal Form."
+    },
+    "Kaurava": {
+      "type": "proper_noun",
+      "description": "The dynasty of Dhritarashtra's sons, opposed to the Pandavas."
+    },
+    "Badrinath": {
+      "type": "proper_noun",
+      "description": "A sacred Himalayan location associated with Vyasa and spiritual practice."
+    },
+    "Vishwaroopa": {
+      "type": "proper_noun",
+      "description": "The Universal Form of the Lord, as revealed to Arjuna in this chapter."
+    },
+    "Yadava": {
+      "type": "proper_noun",
+      "description": "A term referring to Krishna's clan or lineage."
+    },
+    "Rishi": {
+      "type": "proper_noun",
+      "description": "A sage or seer, often referenced as witnessing or praising the Universal Form."
+    },
+    "Siddha": {
+      "type": "proper_noun",
+      "description": "A perfected being, spiritually advanced and present in the cosmic vision."
+    },
+    "Gandharva": {
+      "type": "proper_noun",
+      "description": "Celestial musicians in Hindu mythology, present in the Universal Form."
+    },
+    "Yaksha": {
+      "type": "proper_noun",
+      "description": "Nature spirits or guardians of wealth, included among the beings witnessing the vision."
+    },
+    "Asura": {
+      "type": "proper_noun",
+      "description": "Asuras are a class of powerful beings or demons opposed to the gods, representing demonic or devilish qualities contrary to divine virtues."
+    },
+    "Vishwe-devas": {
+      "type": "proper_noun",
+      "description": "A group of universal deities in Vedic tradition."
+    },
+    "Ushmapa": {
+      "type": "proper_noun",
+      "description": "A class of ancestral spirits or beings associated with ritual offerings."
+    },
+    "Marut": {
+      "type": "proper_noun",
+      "description": "Storm deities, part of the divine hosts seen in the Universal Form."
+    },
+    "Aditya": {
+      "type": "proper_noun",
+      "description": "Solar deities, sons of Aditi, referenced as part of the cosmic vision."
+    },
+    "Vasu": {
+      "type": "proper_noun",
+      "description": "Elemental deities representing natural forces, included in the Universal Form."
+    },
+    "Bhakti": {
+      "type": "vocabulary",
+      "description": "Devotion; loving worship or surrender to the Divine."
+    },
+    "Vishwa": {
+      "type": "vocabulary",
+      "description": "The totality of experience; the universe as perceived through body, mind, and intellect."
+    },
+    "Kaala-chakra": {
+      "type": "vocabulary",
+      "description": "The wheel of time; the cyclical nature of creation and destruction."
+    },
+    "Mahavakya": {
+      "type": "vocabulary",
+      "description": "A 'great saying' from the Upanishads, expressing the identity of the individual Self with the Absolute."
+    },
+    "avyakta": {
+      "type": "vocabulary",
+      "description": "Avyakta is the unmanifested; that which is not yet manifest as name and form."
+    },
+    "indriya-agocaram": {
+      "type": "vocabulary",
+      "description": "That which is beyond the range of the sense organs."
+    },
+    "vyakta": {
+      "type": "vocabulary",
+      "description": "Vyakta is the manifest; that which is perceptible to the senses."
+    },
+    "Akshara": {
+      "type": "vocabulary",
+      "description": "The imperishable; that which does not perish or decay."
+    },
+    "Anirdeshyam": {
+      "type": "vocabulary",
+      "description": "The indefinable; that which cannot be defined or described."
+    },
+    "sarvatra-gam": {
+      "type": "vocabulary",
+      "description": "All-pervading; existing everywhere."
+    },
+    "Achintyam": {
+      "type": "vocabulary",
+      "description": "Unthinkable or inconceivable; beyond the capacity of thought."
+    },
+    "Achalam": {
+      "type": "vocabulary",
+      "description": "Immovable; that which does not move or change position."
+    },
+    "Dhruvam": {
+      "type": "vocabulary",
+      "description": "Eternal; that which is constant and unchanging over time."
+    },
+    "Dhyana": {
+      "type": "vocabulary",
+      "description": "Meditation; focused contemplation on a spiritual object or truth."
+    },
+    "Abhyasa-Yoga": {
+      "type": "vocabulary",
+      "description": "The Yoga of constant practice; repeated effort to steady the mind."
+    },
+    "Aarambha": {
+      "type": "vocabulary",
+      "description": "Beginning; the start of an undertaking or action."
+    },
+    "Anapekshah": {
+      "type": "vocabulary",
+      "description": "Free from dependence; not relying on external objects or circumstances."
+    },
+    "Shuchih": {
+      "type": "vocabulary",
+      "description": "Pure; clean in body, mind, and surroundings."
+    },
+    "Dakshah": {
+      "type": "vocabulary",
+      "description": "Alert; efficient and skillful in action."
+    },
+    "Udaseenah": {
+      "type": "vocabulary",
+      "description": "Unconcerned; maintaining indifference to minor disturbances."
+    },
+    "Mouna": {
+      "type": "vocabulary",
+      "description": "Silence; both external and internal quietude."
+    },
+    "Acharyas": {
+      "type": "proper_noun",
+      "description": "Respected teachers or preceptors in Indian philosophical traditions."
+    },
+    "Hindu Scriptures": {
+      "type": "proper_noun",
+      "description": "Sacred texts of Hinduism, including the Vedas, Upanishads, and the Bhagavad Geeta."
+    },
+    "RISHIS": {
+      "type": "proper_noun",
+      "description": "Ancient sages or seers who composed the hymns and philosophical texts of Hinduism."
+    },
+    "Moola-Prakriti": {
+      "type": "proper_noun",
+      "description": "The primordial, unmanifested matter or root nature in Sankhya philosophy."
+    },
+    "Yogarudha": {
+      "type": "proper_noun",
+      "description": "A state of yogic integration or realization."
+    },
+    "Purusha Sooktam": {
+      "type": "proper_noun",
+      "description": "A hymn from the Rig Veda describing the cosmic being, Purusha."
+    },
+    "Rig Veda": {
+      "type": "proper_noun",
+      "description": "One of the oldest Hindu scriptures, containing hymns and philosophical teachings."
+    },
+    "Sankhya Yoga": {
+      "type": "proper_noun",
+      "description": "The path of knowledge and discrimination as taught in the Sankhya philosophy."
+    },
+    "PARAMATMAN": {
+      "type": "proper_noun",
+      "description": "The Supreme Self or Universal Spirit in Vedanta."
+    },
+    "Parameshwara": {
+      "type": "proper_noun",
+      "description": "The Supreme Lord, the ultimate reality underlying all existence."
+    },
+    "Kshetra": {
+      "type": "vocabulary",
+      "description": "The Field; refers to the body or the realm of matter."
+    },
+    "Kshetrajna": {
+      "type": "vocabulary",
+      "description": "The Knower-of-the-Field; the conscious principle that knows the Field."
+    },
+    "Tattwas": {
+      "type": "vocabulary",
+      "description": "Principles or elements; fundamental categories in Sankhya philosophy."
+    },
+    "Samghata": {
+      "type": "vocabulary",
+      "description": "Aggregate; the assemblage of body and its components."
+    },
+    "Vairagya": {
+      "type": "vocabulary",
+      "description": "Dispassion or detachment from sense objects."
+    },
+    "Jnana-gamyam": {
+      "type": "vocabulary",
+      "description": "That which is to be reached by knowledge."
+    },
+    "Jneyam": {
+      "type": "vocabulary",
+      "description": "That which is to be known."
+    },
+    "Bhoktri": {
+      "type": "vocabulary",
+      "description": "The enjoyer; the one who experiences pleasure and pain."
+    },
+    "Sattwic": {
+      "type": "vocabulary",
+      "description": "Of the quality of sattva; pure, harmonious, and balanced."
+    },
+    "Kutasthah": {
+      "type": "vocabulary",
+      "description": "The changeless substratum; the unchanging Self."
+    },
+    "Shri Shankaracharya": {
+      "type": "character",
+      "description": "A renowned Advaita Vedanta philosopher and commentator on the Bhagavad Gita."
+    },
+    "Brahmaloka": {
+      "type": "proper_noun",
+      "description": "The highest realm of existence, associated with Brahma and supreme joy, as per Hindu cosmology."
+    },
+    "Agamas": {
+      "type": "proper_noun",
+      "description": "Scriptural texts in Hinduism that provide instructions on rituals, temple construction, and philosophy."
+    },
+    "Kuru": {
+      "type": "proper_noun",
+      "description": "A reference to the Kuru dynasty, to which Arjuna belongs."
+    },
+    "Jivatman": {
+      "type": "proper_noun",
+      "description": "The individual soul or embodied self, distinct from the Supreme Self."
+    },
+    "Anatman": {
+      "type": "proper_noun",
+      "description": "That which is not the Self; the non-self or material aspect."
+    },
+    "jiva": {
+      "type": "vocabulary",
+      "description": "Jiva is the individual soul or embodied self, subject to birth and death."
+    },
+    "nir-upadhika": {
+      "type": "vocabulary",
+      "description": "Without attributes or conditioning; the unconditioned Absolute."
+    },
+    "sa-upadhika": {
+      "type": "vocabulary",
+      "description": "With attributes or conditioning; the conditioned aspect of Brahman."
+    },
+    "muni": {
+      "type": "vocabulary",
+      "description": "A sage or contemplative, one who reflects deeply."
+    },
+    "Anandagiri": {
+      "type": "character",
+      "description": "A commentator referenced for his explanation of the symbolism of the Ashwattha tree."
+    },
+    "Kathopanishad": {
+      "type": "proper_noun",
+      "description": "An Upanishad referenced for its allegorical use of the Peepal-tree."
+    },
+    "PURUSHA": {
+      "type": "proper_noun",
+      "description": "A term for the cosmic spirit or Self; used here for both the perishable and imperishable principles."
+    },
+    "KOOTASTHAH": {
+      "type": "proper_noun",
+      "description": "The immutable, imperishable Self that remains unchanged amidst change."
+    },
+    "PURUSHOTTAMA": {
+      "type": "proper_noun",
+      "description": "The Supreme Spirit, the highest Self, transcending both the perishable and imperishable."
+    },
+    "Veda": {
+      "type": "vocabulary",
+      "description": "The Vedas are the ancient sacred scriptures of Hinduism, regarded as the source of spiritual knowledge."
+    },
+    "Samskaras": {
+      "type": "vocabulary",
+      "description": "Mental impressions or conditioning formed by past actions."
+    },
+    "Vidya": {
+      "type": "vocabulary",
+      "description": "Knowledge, especially spiritual wisdom."
+    },
+    "Antah-karana": {
+      "type": "vocabulary",
+      "description": "The inner instrument; the mind-intellect equipment."
+    },
+    "Vaishvaanara": {
+      "type": "vocabulary",
+      "description": "The digestive fire; the aspect of the Divine that digests food in living beings."
+    },
+    "Apana": {
+      "type": "vocabulary",
+      "description": "The vital force responsible for excretion and downward movement in the body."
+    },
+    "Kshara": {
+      "type": "vocabulary",
+      "description": "The perishable aspect of reality; that which is subject to change."
+    },
+    "Sarvavit": {
+      "type": "vocabulary",
+      "description": "All-knower; one who knows everything."
+    },
+    "Brahma-vidya": {
+      "type": "vocabulary",
+      "description": "The science or knowledge of Brahman, the ultimate reality."
+    },
+    "Bhakti-Yoga": {
+      "type": "vocabulary",
+      "description": "The path of devotion as a means to spiritual realization."
+    },
+    "Vedic": {
+      "type": "proper_noun",
+      "description": "Pertaining to the Vedas, the ancient sacred texts of Hinduism."
+    },
+    "Charvakas": {
+      "type": "proper_noun",
+      "description": "A school of ancient Indian materialist and atheist philosophy, emphasizing direct perception and denial of afterlife."
+    },
+    "Abhayam": {
+      "type": "vocabulary",
+      "description": "Fearlessness; the absence of fear, considered a divine quality."
+    },
+    "Daana": {
+      "type": "vocabulary",
+      "description": "Charity or alms-giving; the act of giving to others selflessly."
+    },
+    "dama": {
+      "type": "vocabulary",
+      "description": "Control of the senses; self-restraint in relation to sensory pleasures."
+    },
+    "Swaadhyaaya": {
+      "type": "vocabulary",
+      "description": "Study of the scriptures; self-study or recitation of sacred texts."
+    },
+    "Arjavam": {
+      "type": "vocabulary",
+      "description": "Uprightness; honesty and straightforwardness in thought, word, and deed."
+    },
+    "Ahimsa": {
+      "type": "vocabulary",
+      "description": "Non-violence; harmlessness towards all beings in thought, word, and action."
+    },
+    "Satyam": {
+      "type": "vocabulary",
+      "description": "Truth; adherence to truthfulness and honesty."
+    },
+    "Akrodha": {
+      "type": "vocabulary",
+      "description": "Absence of anger; maintaining an even temper and self-control."
+    },
+    "Tyaga": {
+      "type": "vocabulary",
+      "description": "Renunciation; the spirit of letting go of attachments and desires."
+    },
+    "Shanti": {
+      "type": "vocabulary",
+      "description": "Peacefulness; inner tranquility and calmness."
+    },
+    "Apaishunam": {
+      "type": "vocabulary",
+      "description": "Absence of malice; refraining from slander or malicious speech."
+    },
+    "Aloluptvam": {
+      "type": "vocabulary",
+      "description": "Non-covetousness; freedom from greed and desire for others' possessions."
+    },
+    "Achaapalam": {
+      "type": "vocabulary",
+      "description": "Absence of fickleness; steadiness and restraint in physical movements."
+    },
+    "Tejas": {
+      "type": "vocabulary",
+      "description": "Vigour; spiritual brilliance or inner radiance."
+    },
+    "Kshamaa": {
+      "type": "vocabulary",
+      "description": "Forgiveness; patience and the ability to forgive others."
+    },
+    "Dhriti": {
+      "type": "vocabulary",
+      "description": "Fortitude; perseverance and steadfastness in the face of challenges."
+    },
+    "Shoucham": {
+      "type": "vocabulary",
+      "description": "Purity; cleanliness of body, mind, and environment."
+    },
+    "Adroha": {
+      "type": "vocabulary",
+      "description": "Absence of hatred; non-injury and goodwill towards all."
+    },
+    "Na-ati-maanitaa": {
+      "type": "vocabulary",
+      "description": "Absence of over-pride; humility and lack of excessive self-importance."
+    },
+    "Dambha": {
+      "type": "vocabulary",
+      "description": "Hypocrisy or ostentation; pretension of virtue without sincerity."
+    },
+    "Darpa": {
+      "type": "vocabulary",
+      "description": "Arrogance; pride and haughtiness."
+    },
+    "Abhimanah": {
+      "type": "vocabulary",
+      "description": "Self-conceit; excessive pride in oneself."
+    },
+    "Krodha": {
+      "type": "vocabulary",
+      "description": "Anger; intense displeasure or wrath."
+    },
+    "Parushya": {
+      "type": "vocabulary",
+      "description": "Harshness; roughness or cruelty in speech or action."
+    },
+    "ajnanam": {
+      "type": "vocabulary",
+      "description": "Ignorance; lack of spiritual knowledge or awareness."
+    },
+    "Daivic": {
+      "type": "vocabulary",
+      "description": "Divine; pertaining to godly or virtuous qualities."
+    },
+    "Rakshasic": {
+      "type": "vocabulary",
+      "description": "Incorrigibly indifferent; a type of being characterized by ignorance and inertia."
+    },
+    "Achara": {
+      "type": "vocabulary",
+      "description": "Right conduct; proper behavior in accordance with dharma."
+    },
+    "Asatyam": {
+      "type": "vocabulary",
+      "description": "Untruth; falsehood or lack of adherence to truth."
+    },
+    "An-Ishwaram": {
+      "type": "vocabulary",
+      "description": "Without a Lord; denial of a supreme governing principle or God."
+    },
+    "Shreyas": {
+      "type": "vocabulary",
+      "description": "The highest good; that which leads to ultimate well-being and liberation."
+    },
+    "Prakarana": {
+      "type": "vocabulary",
+      "description": "Subsidiary texts; explanatory treatises that clarify scriptural teachings."
+    },
+    "Nishtha": {
+      "type": "vocabulary",
+      "description": "Steadfastness or firm resolve, especially in spiritual practice."
+    },
+    "Pretas": {
+      "type": "vocabulary",
+      "description": "Ghosts or spirits of the dead, invoked by tamasic individuals."
+    },
+    "Tapaswin": {
+      "type": "vocabulary",
+      "description": "One who practices austerity or self-discipline."
+    },
+    "Dakshina": {
+      "type": "vocabulary",
+      "description": "A gift or offering, often given to priests or teachers as part of a ritual."
+    },
+    "Dwija": {
+      "type": "vocabulary",
+      "description": "Literally 'twice-born,' referring to those who have undergone a spiritual initiation, especially Brahmins."
+    },
+    "Shaareeram Tapas": {
+      "type": "vocabulary",
+      "description": "Austerity of the body, involving physical purity and discipline."
+    },
+    "Aayuh": {
+      "type": "vocabulary",
+      "description": "Vitality or longevity."
+    },
+    "Veerya": {
+      "type": "vocabulary",
+      "description": "Energy or vigour."
+    },
+    "Bala": {
+      "type": "vocabulary",
+      "description": "Strength, both physical and spiritual."
+    },
+    "Aarogya": {
+      "type": "vocabulary",
+      "description": "Health or freedom from disease."
+    },
+    "Preeti": {
+      "type": "vocabulary",
+      "description": "Joy or affection."
+    },
+    "Sukha": {
+      "type": "vocabulary",
+      "description": "Happiness or pleasure."
+    },
+    "Yaama": {
+      "type": "vocabulary",
+      "description": "A unit of time, traditionally three hours; used in the context of food freshness."
+    },
+    "Ucchishtam": {
+      "type": "vocabulary",
+      "description": "Refuse or leftover food."
+    },
+    "Amedhyam": {
+      "type": "vocabulary",
+      "description": "Impure or unclean, especially in the context of food."
+    },
+    "Kamya": {
+      "type": "vocabulary",
+      "description": "Desire-motivated actions."
+    },
+    "Nishiddha": {
+      "type": "vocabulary",
+      "description": "Forbidden actions, prohibited by the scriptures."
+    },
+    "Nitya": {
+      "type": "vocabulary",
+      "description": "Daily obligatory duties."
+    },
+    "Naimittika": {
+      "type": "vocabulary",
+      "description": "Occasional duties, performed on special occasions."
+    },
+    "Anuroopa": {
+      "type": "vocabulary",
+      "description": "According to or in conformity with (one's nature)."
+    },
+    "Tat": {
+      "type": "vocabulary",
+      "description": "That; used to indicate the universal truth or the ultimate reality."
+    },
+    "Om Tat Sat": {
+      "type": "vocabulary",
+      "description": "A triple designation of Brahman, symbolizing the Absolute, the Universal Truth, and Existence."
+    },
+    "Kumbhakarna": {
+      "type": "character",
+      "description": "A character from Lanka, symbolic of a Tamasic 'doer,' known for sleeping six months and eating the rest."
+    },
+    "Kapila's Saankhya Yoga": {
+      "type": "proper_noun",
+      "description": "The system of yoga and philosophy attributed to sage Kapila, focusing on the three gunas."
+    },
+    "Lanka": {
+      "type": "proper_noun",
+      "description": "The kingdom ruled by Ravana in the Ramayana, referenced here for its characters."
+    },
+    "Ashta-vasu": {
+      "type": "proper_noun",
+      "description": "The eight Vasus, elemental deities presiding over Time."
+    },
+    "Ishaavasya Upanishad": {
+      "type": "proper_noun",
+      "description": "A principal Upanishad emphasizing the pervasiveness of the Divine."
+    },
+    "Tyaaga": {
+      "type": "vocabulary",
+      "description": "Another spelling of Tyaga, denoting abandonment."
+    },
+    "Rajasic": {
+      "type": "vocabulary",
+      "description": "Passionate; relating to the guna of activity, desire, and restlessness."
+    },
+    "Tamasic": {
+      "type": "vocabulary",
+      "description": "Dull; relating to the guna of inertia, ignorance, and darkness."
+    },
+    "Karma Phala": {
+      "type": "vocabulary",
+      "description": "The fruits or results of actions."
+    },
+    "Karma-Chodanaa": {
+      "type": "vocabulary",
+      "description": "Impulse to action."
+    },
+    "Karma-Sangraha": {
+      "type": "vocabulary",
+      "description": "Basis or assembly of action."
+    },
+    "Karanam": {
+      "type": "vocabulary",
+      "description": "Instrument or means of action."
+    },
+    "Kartaa": {
+      "type": "vocabulary",
+      "description": "Doer or agent of action."
+    },
+    "Cheshtaa": {
+      "type": "vocabulary",
+      "description": "Function; activity or effort."
+    },
+    "Adhishthaanam": {
+      "type": "vocabulary",
+      "description": "Seat; the body as the basis of action."
+    },
+    "Triputi": {
+      "type": "vocabulary",
+      "description": "The triad of knower, known, and knowledge."
+    },
+    "Niyatam": {
+      "type": "vocabulary",
+      "description": "Obligatory or prescribed (as in obligatory action)."
+    },
+    "Bandham": {
+      "type": "vocabulary",
+      "description": "Bondage; the state of being bound by ignorance or attachment."
+    },
+    "Moksham": {
+      "type": "vocabulary",
+      "description": "Liberation; freedom from bondage."
+    },
+    "Pravritti": {
+      "type": "vocabulary",
+      "description": "Action or engagement in worldly pursuits."
+    },
+    "Nivritti": {
+      "type": "vocabulary",
+      "description": "Withdrawal or renunciation from worldly pursuits."
+    },
+    "Bhaya": {
+      "type": "vocabulary",
+      "description": "Fear."
+    },
+    "Jnaanam": {
+      "type": "vocabulary",
+      "description": "Knowledge; especially spiritual or higher knowledge."
+    },
+    "Parijnaataa": {
+      "type": "vocabulary",
+      "description": "The knower; the subject or experiencer."
+    },
+    "Bhoktritwa": {
+      "type": "vocabulary",
+      "description": "The sense of enjoyership."
+    },
+    "Kartritwa": {
+      "type": "vocabulary",
+      "description": "The sense of doership."
+    },
+    "Vairaagya": {
+      "type": "vocabulary",
+      "description": "Dispassion; detachment from sense objects."
+    },
+    "Nidraa": {
+      "type": "vocabulary",
+      "description": "Sleep; also used philosophically as non-apprehension of Reality."
+    },
+    "Aalasya": {
+      "type": "vocabulary",
+      "description": "Indolence or laziness."
+    },
+    "Pramaada": {
+      "type": "vocabulary",
+      "description": "Heedlessness or carelessness."
+    },
+    "Ahamkaara": {
+      "type": "vocabulary",
+      "description": "Egoism; the sense of individuality."
+    },
+    "Brahma-Bhootah": {
+      "type": "vocabulary",
+      "description": "One who has realized or become identified with Brahman."
+    },
+    "Naishkarmya": {
+      "type": "vocabulary",
+      "description": "Actionlessness; the state of being free from the sense of doership."
+    },
+    "Naishkarmya-Siddhi": {
+      "type": "vocabulary",
+      "description": "The state of perfection in actionlessness."
+    },
+    "Shraddhaavaan": {
+      "type": "vocabulary",
+      "description": "One who possesses faith."
+    },
+    "Anasooyah": {
+      "type": "vocabulary",
+      "description": "One who is free from malice."
+    },
+    "Mad-bhakteshu": {
+      "type": "vocabulary",
+      "description": "Among My devotees."
+    },
+    "Prasannaatmaa": {
+      "type": "vocabulary",
+      "description": "One with a tranquil or serene mind."
+    },
+    "Mam-ekam Sharanam Vraja": {
+      "type": "vocabulary",
+      "description": "Take refuge in Me alone."
+    },
+    "Sarva-bhaavena": {
+      "type": "vocabulary",
+      "description": "With all one's being."
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Dhritarashtra",
+      "Sanjaya",
+      "Arjuna",
+      "Krishna",
+      "Duryodhana",
+      "Drona",
+      "Bhishma",
+      "Bhima",
+      "Virata",
+      "Drupada",
+      "Dhrishtaketu",
+      "Chekitana",
+      "Kashi",
+      "Purujit",
+      "Kuntibhoja",
+      "Saibya",
+      "Yudhamanyu",
+      "Uttamaujas",
+      "Subhadra",
+      "Draupadi",
+      "Karna",
+      "Kripa",
+      "Aswatthama",
+      "Vikarna",
+      "Somadatta",
+      "Yudhisthira",
+      "Nakula",
+      "Sahadeva",
+      "Shikhandi",
+      "Satyaki",
+      "Hanuman",
+      "Pandu",
+      "Pandavas",
+      "Kurukshetra",
+      "Vyasa",
+      "Hastinapura",
+      "Kauravas",
+      "Drupada",
+      "Kashi",
+      "Aryan",
+      "Mahabharata",
+      "Bhagawad Geeta",
+      "Hindu",
+      "Brahmana",
+      "Shastra",
+      "Artha Shastra",
+      "Vrishni-clan",
+      "Upanishads",
+      "Brahman",
+      "Brahma-Vidya",
+      "Yoga Shastra",
+      "Rishis",
+      "Sankalpa Vakya",
+      "Aryan-culture",
+      "Yoga",
+      "maharathas",
+      "acharya",
+      "Brahmana",
+      "Atatayinah",
+      "Shastra",
+      "Dharma",
+      "Kula-Dharma",
+      "Kshatriyas",
+      "Vaishyas",
+      "Shudras",
+      "Moksha",
+      "Kshema",
+      "Sadhana",
+      "Mantra",
+      "Sankalpa",
+      "Yoga Shastra",
+      "Kunti"
+    ],
+    "ch-1-2": [
+      "Sanjaya",
+      "Arjuna",
+      "Krishna",
+      "Bhishma",
+      "Drona",
+      "Dhritarashtra",
+      "Vyasa",
+      "Kauravas",
+      "Pandavas",
+      "Kunti",
+      "Muni",
+      "Mahabharata",
+      "Upanishads",
+      "Kurukshetra",
+      "Hindus",
+      "Hinduism",
+      "Sanatana Dharma",
+      "Aryan",
+      "Veera-Swarga",
+      "Vedanta",
+      "Karma Kanda",
+      "Brahmana",
+      "Brahman",
+      "Samadhi",
+      "Yoga",
+      "Sankhya",
+      "Karma Yoga",
+      "Brahmi-sthitih",
+      "Dharma",
+      "Adharma",
+      "Swadharma",
+      "Manava Dharma",
+      "Atman",
+      "Brahman",
+      "Vasanas",
+      "Viveka",
+      "Indriyas",
+      "Sankhya",
+      "Yoga",
+      "Karma",
+      "Karma-phala",
+      "Karma Yoga",
+      "Buddhi",
+      "Buddhi yoga",
+      "Samadhi",
+      "Sattwa",
+      "Rajas",
+      "Tamas",
+      "Dwandwas",
+      "Pratyahara",
+      "Pranayama",
+      "Uparati",
+      "Maya",
+      "Avarana-Shakti",
+      "Vikshepa-Shakti",
+      "Prasada",
+      "Brahmi-sthitih",
+      "Nishkama",
+      "Shrutam",
+      "Shrotavyam",
+      "Sthita-Prajna",
+      "Samnyasin",
+      "Bhagawad Geeta",
+      "Sannyasa",
+      "Veda"
+    ],
+    "ch-1-3": [
+      "Arjuna",
+      "Krishna",
+      "Janaka",
+      "Ashwapati",
+      "Pandavas",
+      "Mahabharata",
+      "Hinduism",
+      "Vrindavana",
+      "gopis",
+      "Kamadhenu",
+      "Devas",
+      "Mother India",
+      "Kurukshetra",
+      "Shankara",
+      "Upanishads",
+      "Bhagawad Geeta",
+      "Bharatas",
+      "Varna",
+      "Loka-sangraha",
+      "Tattwavit",
+      "Buddha",
+      "YOGA",
+      "Karma Yoga",
+      "Jnana Yoga",
+      "Karma Yoga",
+      "Jnana Yoga",
+      "Sattwa",
+      "Rajas",
+      "Tamas",
+      "Niyatam Karma",
+      "Yajna",
+      "Seva",
+      "Annam",
+      "Atman",
+      "Swadharma",
+      "Dharma",
+      "Shraddha",
+      "Anasuyantah",
+      "Jnana",
+      "Adhyatma Chetasa",
+      "Jwara",
+      "Indriyas",
+      "Karya",
+      "Prarabdha",
+      "Tattwavit",
+      "Mukta",
+      "Matam",
+      "Yoga",
+      "Brahma",
+      "Brahman",
+      "Gunas",
+      "Sankhya",
+      "Sannyasa",
+      "Vasanas",
+      "Veda",
+      "Yogi"
+    ],
+    "ch-1-4": [
+      "Krishna",
+      "Arjuna",
+      "Vivasvan",
+      "Manu",
+      "Ikshvaku",
+      "Vyasa",
+      "YOGA",
+      "Ayodhya",
+      "Brahma-Vidya",
+      "Mahabharata",
+      "Pauranic",
+      "Vedanta",
+      "Gokula",
+      "Upanishads",
+      "Hinduism",
+      "Yoga Shastra",
+      "Solar-dynasty",
+      "Devas",
+      "Brahman",
+      "Atman",
+      "Yajna",
+      "Dravya-Yajna",
+      "Tapo-yajna",
+      "Yoga-yajna",
+      "Swadhyaya-yajna",
+      "Deva-Yajna",
+      "Brahma-Yajna",
+      "Achirena",
+      "Param Shantim",
+      "Jnana",
+      "Karma",
+      "Atman",
+      "Brahman",
+      "Maya",
+      "Dharma",
+      "Avatara",
+      "Sattwa",
+      "Rajas",
+      "Tamas",
+      "Varna",
+      "Brahmana",
+      "Kshatriya",
+      "Shudra",
+      "Karma Yoga",
+      "Avidya",
+      "Saguna",
+      "Nirguna",
+      "Amaratva",
+      "Ajah",
+      "Kavi",
+      "Karma-phala",
+      "Jnana Tapas",
+      "Yajna",
+      "Indriyas",
+      "Prana",
+      "Pranayama",
+      "Puraka",
+      "Rechaka",
+      "Kumbhaka",
+      "Dravya",
+      "Tapas",
+      "Swadhyaya",
+      "Shraddha",
+      "Tatparah",
+      "Samshaya-atma",
+      "Atmavantah",
+      "Achirena",
+      "Param Shantim",
+      "Jnana Yajna",
+      "Shastra",
+      "Veda",
+      "upasana"
+    ],
+    "ch-1-5": [
+      "Arjuna",
+      "Krishna",
+      "Sankhya",
+      "Yoga",
+      "Upanishads",
+      "Advaita",
+      "Patanjali Yoga-Sutra",
+      "Goutama-Smriti",
+      "Shankara",
+      "Maheshwara",
+      "Sarva-Loka-Maheshwarah",
+      "Karma",
+      "Karma Yoga",
+      "Karma-Samnyasa-Yoga",
+      "Jnana",
+      "Atman",
+      "Brahman",
+      "Sankhya",
+      "Yajna",
+      "Muni",
+      "Sakshibhava",
+      "Avidya",
+      "Swabhava",
+      "Maya",
+      "Brahmana",
+      "Rishis",
+      "Dwaitins",
+      "Brahma-Vidya",
+      "Tapas",
+      "Ishwara",
+      "Paramatman",
+      "Samattwam",
+      "Sama-darshin",
+      "Bhagawad Geeta",
+      "Veda",
+      "Yogi",
+      "jiva"
+    ],
+    "ch-1-6": [
+      "Krishna",
+      "Arjuna",
+      "Vyasa",
+      "Rama Tirtha",
+      "Ganges",
+      "Jamuna",
+      "Mahabharata",
+      "Vedanta",
+      "Upanishads",
+      "Shastra",
+      "Kusha",
+      "Asana",
+      "Brahmana",
+      "Pariah",
+      "Vrindavana",
+      "Prasthana Traya",
+      "Yoga",
+      "Yogi",
+      "Sankalpa",
+      "Dhyana Yoga",
+      "Yajna",
+      "Arurukshah",
+      "Yoga-Arudhah",
+      "Shama",
+      "Atman",
+      "Vritti",
+      "Vedanta",
+      "Jnana",
+      "Vijnana",
+      "Kootasthah",
+      "Rahasi",
+      "Ekaki",
+      "Nirashih",
+      "Aparigraha",
+      "Sthiram",
+      "Asana",
+      "Prashanta",
+      "Brahmacharya",
+      "Achirena",
+      "Nirvana",
+      "Shantam",
+      "Swapna",
+      "Avabodha",
+      "Yuktah",
+      "Brahmakara Vritti",
+      "Ati-indriyah",
+      "Indriyas",
+      "Shanaih-Shanaih",
+      "Purushartha",
+      "Chanchala",
+      "A-sthira",
+      "A-kalmasham",
+      "Shanta-rajasam",
+      "Brahma-bhootam",
+      "Brahman",
+      "Shraddha",
+      "Shabda-brahman",
+      "Tapaswins",
+      "Jnanis",
+      "Karmis",
+      "Antahkarana",
+      "Bhajana",
+      "Bhagawad Geeta",
+      "Sannyasa",
+      "jiva",
+      "upasana"
+    ],
+    "ch-1-7": [
+      "Krishna",
+      "Arjuna",
+      "Shankara",
+      "Christ",
+      "Rama",
+      "Mohammed",
+      "Buddha",
+      "Mahavira",
+      "Vedanta",
+      "Shastra",
+      "Upanishads",
+      "Rishis",
+      "India",
+      "Jagat",
+      "Akasa",
+      "Sad-Guru",
+      "Bharatas",
+      "Devata",
+      "Adhibhuta",
+      "Adhidaiva",
+      "Adhiyajna",
+      "Upasaka",
+      "Bhagawad Geeta",
+      "YOGA",
+      "YOGA",
+      "Jnana",
+      "Vijnana",
+      "Prakriti",
+      "Purusha",
+      "Maya",
+      "Sattwa",
+      "Rajas",
+      "Tamas",
+      "Dharma",
+      "Kama",
+      "Raga",
+      "Balam",
+      "Sadhaka",
+      "A-dharma",
+      "Bhajana",
+      "Jnanis",
+      "Eka bhaktih",
+      "Upasya",
+      "Avidya",
+      "Vikshepa",
+      "Avarana",
+      "punya",
+      "papa",
+      "Atman",
+      "Brahman",
+      "Upanishads",
+      "Shastra",
+      "Yajna",
+      "Gunas",
+      "Sankhya",
+      "Vasanas",
+      "Veda",
+      "Vyasa",
+      "jiva"
+    ],
+    "ch-1-8": [
+      "Arjuna",
+      "Krishna",
+      "Vyasa",
+      "Bharatas",
+      "ADHYATMA",
+      "ADHIBHUTA",
+      "ADHIDAIVA",
+      "ADHIYAJNA",
+      "Upanishads",
+      "Puranas",
+      "Brahma-loka",
+      "Prashnopanishad",
+      "Pitrus",
+      "YUGAS",
+      "upasana",
+      "samsara",
+      "OM",
+      "Krama Mukti",
+      "Devayana",
+      "Pitryana",
+      "Pralaya",
+      "Avidya",
+      "Yoga-dharanam",
+      "Brahman",
+      "Bhagawad Geeta",
+      "Karma",
+      "Prana",
+      "Vasanas",
+      "Veda",
+      "Yajna"
+    ],
+    "ch-1-9": [
+      "Krishna",
+      "Arjuna",
+      "Vedanta",
+      "Vrindavana",
+      "Adwaitins",
+      "Rishis",
+      "Upanishads",
+      "Mahabharata",
+      "Shrimad Bhagavata",
+      "Omkara",
+      "Turiya",
+      "Soma",
+      "Devas",
+      "Pitris",
+      "Bhutas",
+      "Mundakopanishad",
+      "Yoga",
+      "Dharma",
+      "Samsarins",
+      "Shraddha",
+      "Dravya",
+      "Prakriti",
+      "Vasanas",
+      "Samsarin",
+      "Maya",
+      "Samashti",
+      "Vyashti",
+      "Raga",
+      "Dvesha",
+      "Purusha",
+      "Kratu",
+      "Pitris",
+      "Ajya",
+      "Agni",
+      "Hutam",
+      "Om",
+      "Sama",
+      "Gati",
+      "Bharta",
+      "Prabhu",
+      "Sakshi",
+      "Nivasah",
+      "Sharanam",
+      "Suhrit",
+      "Beejam Avyayam",
+      "Sat",
+      "Asat",
+      "Jnana",
+      "Vijnana",
+      "Yajna",
+      "Kirtana",
+      "Bhajana",
+      "Dhridha-Vratah",
+      "Jnana Yajna",
+      "Ishwara Darshana",
+      "Atma Darshana",
+      "Sannyasa",
+      "Kshema",
+      "Ananya",
+      "Dharmatma",
+      "Striyah",
+      "Vaishyas",
+      "Shudras",
+      "Varnashrama Dharma",
+      "Sadhana",
+      "Brahma-Vidya",
+      "Veda",
+      "samsara",
+      "upasana"
+    ],
+    "ch-1-10": [
+      "Arjuna",
+      "Krishna",
+      "Vyasa",
+      "Bhrigu",
+      "Narada",
+      "Kapila",
+      "Prahlada",
+      "Rama",
+      "Ushana",
+      "Kubera",
+      "Yama",
+      "Indra",
+      "Vishnu",
+      "Shankara",
+      "Chitraratha",
+      "Vasuki",
+      "Varuna",
+      "Aryama",
+      "Vainateya",
+      "Vedanta",
+      "Hinduism",
+      "Mahabharata",
+      "Puranas",
+      "Upanishads",
+      "Sama-Veda",
+      "Rig-Veda",
+      "Chandogya Upanishad",
+      "Sankhya",
+      "Vrishnis",
+      "Pandavas",
+      "Yadavas",
+      "Kurus",
+      "Jambu-dweepa",
+      "Ganges",
+      "Himalayas",
+      "Meru",
+      "Ashwattha",
+      "Gayatri",
+      "Kamadhuk",
+      "Airavata",
+      "Brihaspati",
+      "Kubera",
+      "Marichi",
+      "Maruts",
+      "Adityas",
+      "Nakshatras",
+      "Vasus",
+      "Yakshas",
+      "Rakshasas",
+      "Gandharvas",
+      "Siddhas",
+      "Devas",
+      "Danavas",
+      "Daityas",
+      "Kavi",
+      "Vibhuti",
+      "Yoga",
+      "Buddhi yoga",
+      "Jalpa",
+      "Vitanda",
+      "Vaada",
+      "Vishvato-mukhah",
+      "Hiranyagarbha",
+      "Savitru",
+      "Rishis",
+      "Devas",
+      "Mahat",
+      "Ahamkara",
+      "Atman",
+      "Sarva-loka-maheshwarah",
+      "Loka",
+      "Brahma-Vidya",
+      "Brahman",
+      "Purusha",
+      "Purushottama",
+      "Ishwara",
+      "Bhaava samanvitah",
+      "Mat-chittah",
+      "Prana",
+      "Sadhana",
+      "Samadhi",
+      "Vikshepa",
+      "Avarana",
+      "Savikalpa",
+      "Nirvikalpa",
+      "Paramatman",
+      "Vibhuti",
+      "Yoga",
+      "Tattwatah",
+      "Jijnasa",
+      "Satsanga",
+      "Adityas",
+      "Maruts",
+      "Nakshatras",
+      "Sama-Veda",
+      "Vasus",
+      "Yakshas",
+      "Rakshasas",
+      "Gandharvas",
+      "Siddhas",
+      "Ashwattha",
+      "Kamadhuk",
+      "Nagas",
+      "Daityas",
+      "Vrishnis",
+      "Pandavas",
+      "Japa",
+      "Yajna",
+      "Gayatri",
+      "Vaada",
+      "Jalpa",
+      "Vitanda",
+      "Vishvato-mukhah",
+      "Hiranyagarbha",
+      "Sankalpa",
+      "Antahkarana",
+      "Chit",
+      "Samashti",
+      "Vyashti",
+      "Sadhya",
+      "Muni",
+      "Kavi",
+      "Savitru",
+      "Bhagawad Geeta",
+      "jiva"
+    ],
+    "ch-1-11": [
+      "Arjuna",
+      "Krishna",
+      "Vyasa",
+      "Sanjaya",
+      "Dhritarashtra",
+      "Bhishma",
+      "Drona",
+      "Karna",
+      "Jayadratha",
+      "Duryodhana",
+      "Brahma",
+      "Shiva",
+      "Vishnu",
+      "Ashwins",
+      "Mahabharata",
+      "Kurukshetra",
+      "Kaurava",
+      "Upanishads",
+      "Vedanta",
+      "Badrinath",
+      "Vishwaroopa",
+      "Virata",
+      "Yadava",
+      "Rishi",
+      "Siddha",
+      "Gandharva",
+      "Yaksha",
+      "Asura",
+      "Sadhya",
+      "Vishwe-devas",
+      "Ushmapa",
+      "Marut",
+      "Aditya",
+      "Vasu",
+      "Prajapati",
+      "Yoga",
+      "Ishwara",
+      "Bhakti",
+      "Dharma",
+      "Purusha",
+      "Vishwa",
+      "Atman",
+      "Kaala-chakra",
+      "Sadhana",
+      "Mahavakya",
+      "Upasaka",
+      "Upasya",
+      "Veda"
+    ],
+    "ch-1-12": [
+      "Krishna",
+      "Arjuna",
+      "Upanishads",
+      "Mahabharata",
+      "Sanatana Dharma",
+      "YOGA",
+      "Bhakti",
+      "avyakta",
+      "indriya-agocaram",
+      "vyakta",
+      "Shraddha",
+      "Akshara",
+      "Anirdeshyam",
+      "sarvatra-gam",
+      "Achintyam",
+      "Kootasthah",
+      "Achalam",
+      "Dhruvam",
+      "Dhyana",
+      "Abhyasa-Yoga",
+      "Vasanas",
+      "Sannyasa",
+      "Aarambha",
+      "Anapekshah",
+      "Shuchih",
+      "Dakshah",
+      "Udaseenah",
+      "Mouna",
+      "Dharma",
+      "Bhagawad Geeta",
+      "Shastra",
+      "upasana"
+    ],
+    "ch-1-13": [
+      "Arjuna",
+      "Krishna",
+      "Acharyas",
+      "Hindu Scriptures",
+      "Upanishads",
+      "RISHIS",
+      "Moola-Prakriti",
+      "Maya",
+      "Avidya",
+      "Yogarudha",
+      "Shankara",
+      "Purusha Sooktam",
+      "Rig Veda",
+      "Ishwara",
+      "Maheshwara",
+      "Sankhya Yoga",
+      "Karma Yoga",
+      "YOGA",
+      "PARAMATMAN",
+      "Parameshwara",
+      "Prakriti",
+      "Purusha",
+      "Kshetra",
+      "Kshetrajna",
+      "Moola-Prakriti",
+      "Ahamkara",
+      "Buddhi",
+      "Tattwas",
+      "Samghata",
+      "Vairagya",
+      "Jnana",
+      "Jnana-gamyam",
+      "Jneyam",
+      "Sat",
+      "Asat",
+      "Bhoktri",
+      "Antahkarana",
+      "Dhyana",
+      "Sattwic",
+      "Paramatman",
+      "Atman",
+      "Kutasthah",
+      "Yajna",
+      "Brahman",
+      "Bhagawad Geeta",
+      "Sankhya",
+      "Shastra",
+      "Vedanta",
+      "jiva",
+      "avyakta"
+    ],
+    "ch-1-14": [
+      "Krishna",
+      "Arjuna",
+      "Vyasa",
+      "Shri Shankaracharya",
+      "Upanishads",
+      "Vedanta",
+      "Brahmaloka",
+      "Agamas",
+      "Hinduism",
+      "Kuru",
+      "Brahmana",
+      "Hindu",
+      "Mahat",
+      "Brahma",
+      "Ishwara",
+      "Paramatman",
+      "Jivatman",
+      "Anatman",
+      "Maya",
+      "Ishwara",
+      "jiva",
+      "samsara",
+      "nir-upadhika",
+      "sa-upadhika",
+      "muni",
+      "acharya",
+      "Atman",
+      "Bhagawad Geeta",
+      "Gunas",
+      "Seva",
+      "Avidya"
+    ],
+    "ch-1-15": [
+      "Krishna",
+      "Arjuna",
+      "Vyasa",
+      "Anandagiri",
+      "Kathopanishad",
+      "Ishwara",
+      "PURUSHA",
+      "KOOTASTHAH",
+      "PURUSHOTTAMA",
+      "Veda",
+      "Samskaras",
+      "Avidya",
+      "Vidya",
+      "Purusha",
+      "Antah-karana",
+      "Vaishvaanara",
+      "Prana",
+      "Apana",
+      "Paramatman",
+      "Kshara",
+      "Akshara",
+      "Sarvavit",
+      "Brahma-vidya",
+      "Yoga",
+      "Bhakti-Yoga",
+      "Ashwattha",
+      "Bhagawad Geeta",
+      "Karma Yoga",
+      "Vasanas",
+      "Vedanta",
+      "jiva",
+      "samsara"
+    ],
+    "ch-1-16": [
+      "Krishna",
+      "Arjuna",
+      "Shankara",
+      "Hinduism",
+      "Vedic",
+      "Charvakas",
+      "Puranas",
+      "Vedanta",
+      "YOGA",
+      "Abhayam",
+      "Avidya",
+      "Daana",
+      "dama",
+      "Yajna",
+      "Swaadhyaaya",
+      "Tapas",
+      "Arjavam",
+      "Ahimsa",
+      "Satyam",
+      "Akrodha",
+      "Tyaga",
+      "Shanti",
+      "Apaishunam",
+      "Aloluptvam",
+      "Achaapalam",
+      "Tejas",
+      "Kshamaa",
+      "Dhriti",
+      "Shoucham",
+      "Adroha",
+      "Na-ati-maanitaa",
+      "Dambha",
+      "Darpa",
+      "Abhimanah",
+      "Krodha",
+      "Parushya",
+      "ajnanam",
+      "Daivic",
+      "Rakshasic",
+      "Achara",
+      "Asatyam",
+      "An-Ishwaram",
+      "Yoga",
+      "Kshema",
+      "Shreyas",
+      "Brahma-Vidya",
+      "Prakarana",
+      "Paramatman",
+      "Asura",
+      "Bhagawad Geeta",
+      "Jnana Yoga",
+      "Karma Yoga",
+      "Shastra",
+      "jiva"
+    ],
+    "ch-1-17": [
+      "Arjuna",
+      "Krishna",
+      "Shastra",
+      "Puranas",
+      "Upanishads",
+      "Sattwa",
+      "Rajas",
+      "Tamas",
+      "Yajna",
+      "Nishtha",
+      "Yakshas",
+      "Rakshasas",
+      "Pretas",
+      "Bhutas",
+      "Tapas",
+      "Tapaswin",
+      "Dakshina",
+      "Dwija",
+      "Brahmacharya",
+      "Shaareeram Tapas",
+      "Swadhyaya",
+      "Mouna",
+      "Aayuh",
+      "Veerya",
+      "Bala",
+      "Aarogya",
+      "Preeti",
+      "Sukha",
+      "Yaama",
+      "Ucchishtam",
+      "Amedhyam",
+      "Kamya",
+      "Nishiddha",
+      "Nitya",
+      "Naimittika",
+      "Anuroopa",
+      "Sat",
+      "Asat",
+      "Om",
+      "Tat",
+      "Om Tat Sat",
+      "Bhagawad Geeta",
+      "Shraddha",
+      "Veda"
+    ],
+    "ch-1-18": [
+      "Arjuna",
+      "Krishna",
+      "Dhritarashtra",
+      "Sanjaya",
+      "Vyasa",
+      "Kumbhakarna",
+      "Kapila",
+      "Vedic",
+      "Sankhya",
+      "Vedanta",
+      "Kapila's Saankhya Yoga",
+      "Sanatana Dharma",
+      "Bharatas",
+      "Kshatriyas",
+      "Vaishyas",
+      "Shudras",
+      "Kurukshetra",
+      "Lanka",
+      "Ashta-vasu",
+      "Ishaavasya Upanishad",
+      "Moksha",
+      "Tyaga",
+      "Tyaaga",
+      "Yajna",
+      "Daana",
+      "Tapas",
+      "Sadhana",
+      "Sattwic",
+      "Rajasic",
+      "Tamasic",
+      "Karma",
+      "Karma Phala",
+      "Karma-Chodanaa",
+      "Karma-Sangraha",
+      "Karanam",
+      "Kartaa",
+      "Cheshtaa",
+      "Adhishthaanam",
+      "Triputi",
+      "Gunas",
+      "Prakriti",
+      "Maya",
+      "Swadharma",
+      "Niyatam",
+      "Raga",
+      "Dvesha",
+      "Dhriti",
+      "Buddhi",
+      "Bandham",
+      "Moksham",
+      "Pravritti",
+      "Nivritti",
+      "Dharma",
+      "Adharma",
+      "Bhaya",
+      "Jnaanam",
+      "Jneyam",
+      "Parijnaataa",
+      "Bhoktritwa",
+      "Kartritwa",
+      "Ahamkara",
+      "Vairaagya",
+      "Nidraa",
+      "Aalasya",
+      "Pramaada",
+      "Ahamkaara",
+      "Sattwa",
+      "Rajas",
+      "Tamas",
+      "Brahma-Bhootah",
+      "Naishkarmya",
+      "Naishkarmya-Siddhi",
+      "Shraddhaavaan",
+      "Anasooyah",
+      "Mad-bhakteshu",
+      "Prasannaatmaa",
+      "Mam-ekam Sharanam Vraja",
+      "Sarva-bhaavena",
+      "Ishwara",
+      "Vishwaroopa",
+      "YOGA",
+      "Brahmana",
+      "Bhagawad Geeta",
+      "Jnana Yajna",
+      "Prasada",
+      "Sannyasa",
+      "Shraddha",
+      "Swabhava",
+      "Upanishads",
+      "jiva"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "chapters": [
+    {"page": 11, "chapter": 0, "title": "Part One", "part": 1, "part_name": "Part One"},
+    {"page": 13, "chapter": 1, "title": "Chapter One", "part": 1, "part_name": "Part One"},
+    {"page": 26, "chapter": 2, "title": "Chapter Two", "part": 1, "part_name": "Part One"},
+    {"page": 32, "chapter": 3, "title": "Chapter Three", "part": 1, "part_name": "Part One"},
+    {"page": 38, "chapter": 4, "title": "Chapter Four", "part": 1, "part_name": "Part One"},
+    {"page": 48, "chapter": 5, "title": "Chapter Five", "part": 1, "part_name": "Part One"},
+    {"page": 54, "chapter": 6, "title": "Chapter Six", "part": 1, "part_name": "Part One"},
+    {"page": 63, "chapter": 7, "title": "Chapter Seven", "part": 1, "part_name": "Part One"},
+    {"page": 68, "chapter": 8, "title": "Chapter Eight", "part": 1, "part_name": "Part One"},
+    {"page": 71, "chapter": 9, "title": "Chapter Nine", "part": 1, "part_name": "Part One"},
+    {"page": 76, "chapter": 10, "title": "Chapter Ten", "part": 1, "part_name": "Part One"},
+    {"page": 81, "chapter": 0, "title": "Part Two", "part": 2, "part_name": "Part Two"},
+    {"page": 83, "chapter": 1, "title": "Chapter One", "part": 2, "part_name": "Part Two"},
+    {"page": 86, "chapter": 2, "title": "Chapter Two", "part": 2, "part_name": "Part Two"},
+    {"page": 90, "chapter": 3, "title": "Chapter Three", "part": 2, "part_name": "Part Two"},
+    {"page": 96, "chapter": 4, "title": "Chapter Four", "part": 2, "part_name": "Part Two"},
+    {"page": 97, "chapter": 5, "title": "Chapter Five", "part": 2, "part_name": "Part Two"},
+    {"page": 102, "chapter": 6, "title": "Chapter Six", "part": 2, "part_name": "Part Two"},
+    {"page": 105, "chapter": 0, "title": "Part Three", "part": 3, "part_name": "Part Three"}
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "running_headers": ["দেবদাস"],
+  "chapters": [
+    {"page": 5, "chapter": 1, "title": "Chapter One", "part": null, "part_name": null},
+    {"page": 12, "chapter": 2, "title": "Chapter Two", "part": null, "part_name": null},
+    {"page": 16, "chapter": 3, "title": "Chapter Three", "part": null, "part_name": null},
+    {"page": 20, "chapter": 4, "title": "Chapter Four", "part": null, "part_name": null},
+    {"page": 23, "chapter": 5, "title": "Chapter Five", "part": null, "part_name": null},
+    {"page": 32, "chapter": 6, "title": "Chapter Six", "part": null, "part_name": null},
+    {"page": 35, "chapter": 7, "title": "Chapter Seven", "part": null, "part_name": null},
+    {"page": 41, "chapter": 8, "title": "Chapter Eight", "part": null, "part_name": null},
+    {"page": 47, "chapter": 9, "title": "Chapter Nine", "part": null, "part_name": null},
+    {"page": 54, "chapter": 10, "title": "Chapter Ten", "part": null, "part_name": null},
+    {"page": 60, "chapter": 11, "title": "Chapter Eleven", "part": null, "part_name": null},
+    {"page": 63, "chapter": 12, "title": "Chapter Twelve", "part": null, "part_name": null},
+    {"page": 72, "chapter": 13, "title": "Chapter Thirteen", "part": null, "part_name": null},
+    {"page": 82, "chapter": 14, "title": "Chapter Fourteen", "part": null, "part_name": null},
+    {"page": 89, "chapter": 15, "title": "Chapter Fifteen", "part": null, "part_name": null},
+    {"page": 100, "chapter": 16, "title": "Chapter Sixteen", "part": null, "part_name": null}
+  ]
+}

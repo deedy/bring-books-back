@@ -1,0 +1,22 @@
+{
+  "id": "devdas",
+  "title": "Devdas",
+  "transliteratedTitle": "Devdas",
+  "subtitle": "A Heartbreaking Tale of Love and Destiny",
+  "authorId": "sarat-chandra-chattopadhyay",
+  "coverImage": "/data/images/covers/devdas.webp",
+  "accentColor": "#8B0000",
+  "genre": [
+    "Literary Fiction",
+    "Romance",
+    "Tragedy"
+  ],
+  "originalLanguage": "Bengali",
+  "originalTitle": "দেবদাস",
+  "originalYear": 1917,
+  "totalChapters": 16,
+  "wordCount": 27215,
+  "summary": "Devdas, a passionate young man from a privileged Bengali family, is bound from childhood to Parvati, his spirited neighbor and closest friend. But when societal pride and rigid caste traditions tear them apart, Devdas is cast adrift, unable to reconcile his yearning heart with the world’s harsh realities. As he spirals into self-destruction, comforted only by the luminous Chandramukhi, a courtesan who sees the nobility within his brokenness, Devdas becomes an enduring symbol of lost love and the tragic costs of pride. Set against the evocative backdrop of early 20th-century Bengal, Sarat Chandra Chattopadhyay’s masterpiece interweaves romance, tragedy, and social critique, inviting readers into a world where the heart’s desires often collide with fate.",
+  "hasOriginalText": true,
+  "originalScript": "Bengali"
+}

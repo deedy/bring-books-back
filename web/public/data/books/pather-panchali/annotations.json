@@ -1,0 +1,5104 @@
+{
+  "glossary": {
+    "Harihar Ray": {
+      "type": "character",
+      "description": "A man of modest means and a scholar who manages his family's affairs in Nischindipur; father of Apu and Durga.",
+      "image": "/data/images/characters/pather-panchali/harihar-ray.webp"
+    },
+    "Indir Thakrun": {
+      "type": "character",
+      "description": "Harihar's distant elderly cousin-sister, a widow who lives in the household and is affectionately called aunt by the children.",
+      "image": "/data/images/characters/pather-panchali/indir-thakrun.webp"
+    },
+    "Bishweshwari": {
+      "type": "character",
+      "description": "Indir Thakrun's deceased daughter, who died young after marriage."
+    },
+    "Patiram Mukherjee": {
+      "type": "character",
+      "description": "A villager whose house hosted dice game gatherings attended by Ramchand."
+    },
+    "Brajo Chakkotti": {
+      "type": "character",
+      "description": "A villager mentioned for his rice granary, believed by Ramchand to be a source of sustenance."
+    },
+    "Seetanath Mukherjee": {
+      "type": "character",
+      "description": "A villager who planted a new orchard in the fields of the Chakrabortys."
+    },
+    "Golok Chakraborty": {
+      "type": "character",
+      "description": "A member of the Chakraborty family, mentioned as one of the many who have passed away."
+    },
+    "Braj Chakraborty": {
+      "type": "character",
+      "description": "Another member of the Chakraborty family, whose land is now overgrown."
+    },
+    "Nabin": {
+      "type": "character",
+      "description": "A name called out by Indir Thakrun, possibly a villager or relative."
+    },
+    "Behari": {
+      "type": "character",
+      "description": "Another name called out by Indir Thakrun, possibly a villager or relative."
+    },
+    "Raju": {
+      "type": "character",
+      "description": "A name called out by Indir Thakrun, possibly a villager or relative."
+    },
+    "Bishnuram Ray": {
+      "type": "character",
+      "description": "Harihar's ancestor, one of the Brahmins settled in Yashra-Bishnupur."
+    },
+    "Biru Ray": {
+      "type": "character",
+      "description": "Son of Bishnuram Ray, infamous for leading a band of thugs."
+    },
+    "Chowdhurys": {
+      "type": "character",
+      "description": "The wealthy family of Yashra-Bishnupur who settled Brahmin families in the village."
+    },
+    "Nischindipur": {
+      "type": "proper_noun",
+      "description": "The village where Harihar Ray and his family live."
+    },
+    "Ekadashi": {
+      "type": "proper_noun",
+      "description": "A sacred fasting day in the Hindu lunar calendar."
+    },
+    "Yashra-Bishnupur": {
+      "type": "proper_noun",
+      "description": "The neighboring village that was the original home of Harihar Ray's ancestors."
+    },
+    "Ichhamati": {
+      "type": "proper_noun",
+      "description": "A river mentioned as running alongside the village, symbolizing the passage of time."
+    },
+    "Kojagari Lakshmi Purnima": {
+      "type": "proper_noun",
+      "description": "A Hindu festival night dedicated to the goddess Lakshmi, celebrated with feasts."
+    },
+    "Chandimandap": {
+      "type": "proper_noun",
+      "description": "A pavilion or hall in the village used for gatherings and rituals."
+    },
+    "Poush Parbon": {
+      "type": "proper_noun",
+      "description": "A Bengali winter festival celebrated in the month of Poush with special foods."
+    },
+    "Bhadra": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar, marking the end of the rainy season."
+    },
+    "Chuadanga": {
+      "type": "proper_noun",
+      "description": "A place from which the dirt road to Nischindipur originates."
+    },
+    "Nawabganj": {
+      "type": "proper_noun",
+      "description": "A town through which the road to Nischindipur passes."
+    },
+    "Taki": {
+      "type": "proper_noun",
+      "description": "A town further along the road from Nischindipur."
+    },
+    "Sonadanga": {
+      "type": "proper_noun",
+      "description": "A vast field north of Nischindipur, location of Thakurjhi Pukur."
+    },
+    "Thakurjhi Pukur": {
+      "type": "proper_noun",
+      "description": "An old, large pond near Sonadanga, associated with local legends of thugs."
+    },
+    "Haridaspur": {
+      "type": "proper_noun",
+      "description": "A market town mentioned as a stop for travelers."
+    },
+    "Kartik": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar, associated with the story of the Brahmin traveler."
+    },
+    "Nawabganj bazaar": {
+      "type": "proper_noun",
+      "description": "A marketplace where travelers intended to spend the night."
+    },
+    "Taki-Sripura": {
+      "type": "proper_noun",
+      "description": "A region beyond Taki, mentioned as the Brahmin's homeland."
+    },
+    "Kaliganj": {
+      "type": "proper_noun",
+      "description": "A region from which the Brahmin was returning."
+    },
+    "pisi": {
+      "type": "vocabulary",
+      "description": "Paternal aunt, specifically father's sister in Bengali kinship."
+    },
+    "beeche-kola": {
+      "type": "vocabulary",
+      "description": "A variety of banana popular in Bengal."
+    },
+    "pitima": {
+      "type": "vocabulary",
+      "description": "Grandmother, a term of endearment for an elderly female relative."
+    },
+    "pishima": {
+      "type": "vocabulary",
+      "description": "Father's elder sister, a term of respect and affection."
+    },
+    "dheki-shala": {
+      "type": "vocabulary",
+      "description": "A shed where rice is pounded using a traditional wooden device called a dheki."
+    },
+    "Poush pitha": {
+      "type": "vocabulary",
+      "description": "Traditional rice cakes made during the Bengali month of Poush."
+    },
+    "lathi": {
+      "type": "vocabulary",
+      "description": "A long, heavy stick used as a weapon or walking aid."
+    },
+    "sorki": {
+      "type": "vocabulary",
+      "description": "A pointed iron rod or spike used as a weapon."
+    },
+    "chaak-ka": {
+      "type": "vocabulary",
+      "description": "A traditional dice game played in rural Bengal."
+    },
+    "panjuri": {
+      "type": "vocabulary",
+      "description": "Another traditional dice game or variation thereof."
+    },
+    "kulin": {
+      "type": "vocabulary",
+      "description": "A member of a high-caste Brahmin family, often with special marriage privileges."
+    },
+    "zamindar": {
+      "type": "vocabulary",
+      "description": "A landowner, often hereditary, who collected taxes from peasants during British rule."
+    },
+    "lota": {
+      "type": "vocabulary",
+      "description": "A round brass or metal water pot commonly used in Bengali households."
+    },
+    "maund": {
+      "type": "vocabulary",
+      "description": "A traditional unit of weight, roughly equal to 37 kilograms."
+    },
+    "jaggery": {
+      "type": "vocabulary",
+      "description": "Unrefined sugar made from the sap of date palm or sugarcane, used in Bengali sweets."
+    },
+    "tol": {
+      "type": "vocabulary",
+      "description": "A traditional Sanskrit school in Bengal."
+    },
+    "dacoits": {
+      "type": "vocabulary",
+      "description": "Armed bandits or robbers, often operating in rural areas."
+    },
+    "Kuruni’s mother": {
+      "type": "character",
+      "description": "A neighbor woman who assists during childbirth and informs Khuki about her new brother."
+    },
+    "Harihar Ray’s mother": {
+      "type": "character",
+      "description": "She goes on a pilgrimage to Tarakeshwar and receives an amulet to protect her family."
+    },
+    "Nera’s thakuma": {
+      "type": "character",
+      "description": "Grandmother of Nera, who helps during the birth of Khuki’s brother."
+    },
+    "Asiya": {
+      "type": "character",
+      "description": "Hari Palit’s daughter, who notices the old woman and informs her mother."
+    },
+    "Hari Palit": {
+      "type": "character",
+      "description": "A local man whose house is a gathering place for the women of the neighborhood."
+    },
+    "Durga": {
+      "type": "character",
+      "description": "Apu's elder sister, a spirited girl who loves exploring the outdoors and shares a deep bond with her brother.",
+      "image": "/data/images/characters/pather-panchali/durga.webp"
+    },
+    "Chakkotti moshai": {
+      "type": "character",
+      "description": "A man whose house the old woman visits after leaving home; a house in the village where the old woman sits after leaving home."
+    },
+    "Golok": {
+      "type": "character",
+      "description": "The old woman’s brother, who had died the previous year in her recollection."
+    },
+    "Braja-kaka": {
+      "type": "character",
+      "description": "The old woman’s uncle, whose Chandimandap is a site of village gatherings."
+    },
+    "Patit Ray": {
+      "type": "character",
+      "description": "A villager, whose brother Jadu Ray is mentioned in the old woman’s memories."
+    },
+    "Jadu Ray": {
+      "type": "character",
+      "description": "Patit Ray’s brother, present during the reading of a letter in the old woman’s recollection."
+    },
+    "Bhojohori": {
+      "type": "character",
+      "description": "A relation of Golok, present at the Chandimandap gathering."
+    },
+    "Sej jetha": {
+      "type": "character",
+      "description": "A relative who reads the letter aloud at the Chandimandap."
+    },
+    "Nibaran": {
+      "type": "character",
+      "description": "Braja Kaka’s son, who dies of a fever as a teenager."
+    },
+    "Ishan Kabiraj": {
+      "type": "character",
+      "description": "The village healer who forbids water to the dying Nibaran."
+    },
+    "Boro Khuri": {
+      "type": "character",
+      "description": "The elder aunt, wife of the old woman’s father’s elder brother, who grieves deeply for her son Nibaran."
+    },
+    "Ramchand Chakraborty": {
+      "type": "character",
+      "description": "Boro Khuri’s brother-in-law, who pleads with her to live after her son’s death."
+    },
+    "Hemanta": {
+      "type": "proper_noun",
+      "description": "A season in the Bengali calendar, corresponding to late autumn or early winter."
+    },
+    "Thakurjhi": {
+      "type": "proper_noun",
+      "description": "A pond mentioned as the burial site of the Brahmin and his son."
+    },
+    "Haludber": {
+      "type": "proper_noun",
+      "description": "The village where Biru Ray’s in-laws live."
+    },
+    "Nakipur": {
+      "type": "proper_noun",
+      "description": "A location near a salty canal crossed by Biru Ray’s family."
+    },
+    "Madhumati": {
+      "type": "proper_noun",
+      "description": "A river that Biru Ray’s family travels on their journey."
+    },
+    "Dakshin Sripur": {
+      "type": "proper_noun",
+      "description": "A village near the Ichhamati river."
+    },
+    "Taki bazaar": {
+      "type": "proper_noun",
+      "description": "The market in Taki where items for puja are purchased."
+    },
+    "Dhabalchit": {
+      "type": "proper_noun",
+      "description": "A large canal that meets the Ichhamati at a sandbank."
+    },
+    "Tarakeshwar": {
+      "type": "proper_noun",
+      "description": "A pilgrimage site visited by Harihar Ray’s mother."
+    },
+    "Kalpur": {
+      "type": "proper_noun",
+      "description": "A place with a shrine to the Pir, where sweets are promised in gratitude."
+    },
+    "Braja-kaka’s Chandimandap": {
+      "type": "proper_noun",
+      "description": "A pavilion or shrine associated with Braja-kaka, used for gatherings and rituals."
+    },
+    "Jagaddhatri": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess, invoked as a comparison for Boro Khuri’s beauty."
+    },
+    "Annapurna": {
+      "type": "proper_noun",
+      "description": "The Hindu goddess of nourishment, used as a metaphor for Boro Khuri’s generosity."
+    },
+    "Brahmin": {
+      "type": "vocabulary",
+      "description": "A member of the Hindu priestly caste, traditionally responsible for religious rituals."
+    },
+    "pinda-daan": {
+      "type": "vocabulary",
+      "description": "A Hindu ritual of offering rice balls to ancestors, ensuring their peace in the afterlife."
+    },
+    "tokapana": {
+      "type": "vocabulary",
+      "description": "A type of aquatic plant found in ponds."
+    },
+    "shyama grass": {
+      "type": "vocabulary",
+      "description": "A kind of grass that grows near water bodies."
+    },
+    "ghat": {
+      "type": "vocabulary",
+      "description": "A set of steps leading down to a river, used for bathing or religious purposes."
+    },
+    "kash grass": {
+      "type": "vocabulary",
+      "description": "Tall, white-flowered grass common in Bengal, especially on riverbanks and sandbars."
+    },
+    "sandbank": {
+      "type": "vocabulary",
+      "description": "A natural deposit of sand in a river, often exposed above water."
+    },
+    "midwife": {
+      "type": "vocabulary",
+      "description": "A woman who assists in childbirth."
+    },
+    "confinement room": {
+      "type": "vocabulary",
+      "description": "A room where a woman stays during and after childbirth, following traditional customs."
+    },
+    "khuri": {
+      "type": "vocabulary",
+      "description": "Aunt; specifically, father’s sister or sometimes used for any elder female relative."
+    },
+    "Ma": {
+      "type": "vocabulary",
+      "description": "Mother."
+    },
+    "Baba": {
+      "type": "vocabulary",
+      "description": "Father; a term of affection and respect."
+    },
+    "veranda": {
+      "type": "vocabulary",
+      "description": "A roofed platform along the outside of a house."
+    },
+    "Pir": {
+      "type": "vocabulary",
+      "description": "A Muslim saint or holy man, often venerated at shrines."
+    },
+    "date-palm leaves": {
+      "type": "vocabulary",
+      "description": "Leaves from the date-palm tree, used for making fences or walls."
+    },
+    "cow-dung cakes": {
+      "type": "vocabulary",
+      "description": "Dried cakes of cow dung, used as fuel for cooking fires."
+    },
+    "n’di": {
+      "type": "vocabulary",
+      "description": "Sister; a term of endearment or address for women."
+    },
+    "sheora": {
+      "type": "vocabulary",
+      "description": "A type of tree common in Bengal."
+    },
+    "taro": {
+      "type": "vocabulary",
+      "description": "A tropical plant grown for its edible starchy root and leaves."
+    },
+    "moshai": {
+      "type": "vocabulary",
+      "description": "A respectful term for an elder man, often used for Brahmins or teachers."
+    },
+    "Kabiraj": {
+      "type": "vocabulary",
+      "description": "A traditional healer or Ayurvedic doctor."
+    },
+    "jetha": {
+      "type": "vocabulary",
+      "description": "Father’s elder brother."
+    },
+    "kaka": {
+      "type": "vocabulary",
+      "description": "Father’s younger brother."
+    },
+    "camphor": {
+      "type": "vocabulary",
+      "description": "A white, aromatic substance used in Hindu rituals and as a metaphor for something that vanishes quickly."
+    },
+    "Sarbajaya": {
+      "type": "character",
+      "description": "Harihar's wife and the mother of Apu and Durga, who manages the household and cares for her children.",
+      "image": "/data/images/characters/pather-panchali/sarbajaya.webp"
+    },
+    "Chandra Majumdar": {
+      "type": "character",
+      "description": "Indir Thakrun's prosperous son-in-law in Bhandarhati, a respected elder whom Harihar often consults."
+    },
+    "Haimabati": {
+      "type": "character",
+      "description": "Chandra Majumdar's widowed daughter, who shows kindness to Indir Thakrun during her visit."
+    },
+    "Ram Ganguli": {
+      "type": "character",
+      "description": "An elderly man from the Ganguli house who gives Indir Thakrun a cotton shawl."
+    },
+    "Annada": {
+      "type": "character",
+      "description": "A woman mentioned as someone Indir Thakrun has asked for cloth but who has not given it."
+    },
+    "Kanai Bolai": {
+      "type": "character",
+      "description": "Names invoked by Indir Thakrun as a blessing when she receives the shawl."
+    },
+    "Akshay Pramai": {
+      "type": "character",
+      "description": "Another name invoked by Indir Thakrun as a blessing."
+    },
+    "Bina": {
+      "type": "character",
+      "description": "Sarbajaya's younger sister-in-law, whose marriage is discussed."
+    },
+    "Umi": {
+      "type": "character",
+      "description": "A child in the Majumdar household, mentioned during a meal."
+    },
+    "pishi": {
+      "type": "character",
+      "description": "Aunt, used affectionately for Indir Thakrun."
+    },
+    "Bhandarhati": {
+      "type": "proper_noun",
+      "description": "A village six krosh away where Chandra Majumdar lives and Indir Thakrun visits."
+    },
+    "Kushtia": {
+      "type": "proper_noun",
+      "description": "A place known for producing red-printed cotton shawls."
+    },
+    "Kurule Binodpur": {
+      "type": "proper_noun",
+      "description": "The village where Bina was married, located by the river Madhumati."
+    },
+    "Kashi": {
+      "type": "proper_noun",
+      "description": "A holy city in India, referenced as a distant place Harihar might travel to."
+    },
+    "Gaya": {
+      "type": "proper_noun",
+      "description": "Another holy city in India, referenced alongside Kashi."
+    },
+    "Nishchindipur": {
+      "type": "proper_noun",
+      "description": "The home village to which Harihar plans to take Sarbajaya."
+    },
+    "Bengal": {
+      "type": "proper_noun",
+      "description": "The region where the story is set, referenced in descriptions of the countryside."
+    },
+    "Lakshmi": {
+      "type": "proper_noun",
+      "description": "The Hindu goddess of fortune, mentioned as the provider of blessings for the family."
+    },
+    "anchal": {
+      "type": "vocabulary",
+      "description": "The loose end of a sari, often used for various household purposes."
+    },
+    "bangle": {
+      "type": "vocabulary",
+      "description": "A rigid bracelet, typically made of metal, worn by women."
+    },
+    "bamboo": {
+      "type": "vocabulary",
+      "description": "A tall, woody grass used for fencing and construction in rural Bengal."
+    },
+    "kajol": {
+      "type": "vocabulary",
+      "description": "Kohl, a black cosmetic applied around the eyes."
+    },
+    "harichacha bird": {
+      "type": "vocabulary",
+      "description": "A local bird known for its dark eyes, used metaphorically for Khoka."
+    },
+    "gamchha": {
+      "type": "vocabulary",
+      "description": "A thin cotton towel commonly used in Bengal."
+    },
+    "motka sari": {
+      "type": "vocabulary",
+      "description": "A type of sari, here described as red-bordered and preserved from poverty."
+    },
+    "lac bangles": {
+      "type": "vocabulary",
+      "description": "Bangles made from lac, a resinous substance, traditional in Bengal."
+    },
+    "krosh": {
+      "type": "vocabulary",
+      "description": "An old Indian unit of distance, roughly two miles."
+    },
+    "Mahashay": {
+      "type": "vocabulary",
+      "description": "An honorific title used for respected men."
+    },
+    "Didima": {
+      "type": "vocabulary",
+      "description": "Grandmother, used as a respectful term for an elderly woman."
+    },
+    "dal": {
+      "type": "vocabulary",
+      "description": "A dish made from lentils, a staple in Bengali cuisine."
+    },
+    "thakurji": {
+      "type": "vocabulary",
+      "description": "A respectful term for a female elder or mistress of the house."
+    },
+    "nôna": {
+      "type": "vocabulary",
+      "description": "A type of wild fruit found abundantly in the countryside."
+    },
+    "nanad": {
+      "type": "vocabulary",
+      "description": "Husband's younger sister."
+    },
+    "budi": {
+      "type": "vocabulary",
+      "description": "Old woman, used affectionately or descriptively."
+    },
+    "Nabin Ghoshal": {
+      "type": "character",
+      "description": "A villager whose house Indir budi seeks shelter in after leaving her original home."
+    },
+    "Nabin Ghoshal’s wife": {
+      "type": "character",
+      "description": "She offers Indir budi hospitality and urges her to stay."
+    },
+    "Tinkari Ghoshal": {
+      "type": "character",
+      "description": "Another villager who temporarily shelters Indir budi."
+    },
+    "Purna Chakraborty": {
+      "type": "character",
+      "description": "A villager who also gives Indir budi shelter for a short time."
+    },
+    "Raji": {
+      "type": "character",
+      "description": "Daughter of Behari Chakkatti, accompanies Khuki to visit Indir budi."
+    },
+    "Behari Chakkatti": {
+      "type": "character",
+      "description": "Raji's father, mentioned as a neighbor."
+    },
+    "Gopi Bostom’s wife": {
+      "type": "character",
+      "description": "A villager who speaks to Indir budi as she returns home."
+    },
+    "Braja Pishi": {
+      "type": "character",
+      "description": "Mentioned as having a homestead, likely a relative or neighbor."
+    },
+    "Thakuma": {
+      "type": "character",
+      "description": "Grandmother; a respectful term for an elderly woman.",
+      "image": "/data/images/characters/pather-panchali/thakuma.png"
+    },
+    "Dada-Thakur": {
+      "type": "character",
+      "description": "A respectful term for an elderly man, used in the context of seeking help for Indir Thakrun."
+    },
+    "Bishu Palit": {
+      "type": "character",
+      "description": "A villager who is present during Indir Thakrun's final moments."
+    },
+    "Dinuchakraborty’s eldest son, Phani": {
+      "type": "character",
+      "description": "A villager who gives Ganga water to Indir Thakrun as she is dying."
+    },
+    "Charak": {
+      "type": "proper_noun",
+      "description": "A Hindu festival celebrated at the end of the Bengali month of Chaitra, known for its rituals and fairs."
+    },
+    "Gosainpara": {
+      "type": "proper_noun",
+      "description": "A neighborhood or locality in the village where the Charak festival drums are heard."
+    },
+    "Palit family": {
+      "type": "proper_noun",
+      "description": "A family in the village whose granary becomes the place where Indir Thakrun collapses; a family who help Indir Thakrun when she collapses near their granary; a garden belonging to the Palit family, where Durga is said to eat fruits."
+    },
+    "Palit-para": {
+      "type": "proper_noun",
+      "description": "The neighborhood or area where the Palit family lives."
+    },
+    "Ganga": {
+      "type": "proper_noun",
+      "description": "The sacred river Ganges, water from which is used in Hindu rituals, especially at the time of death."
+    },
+    "Magh": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar, corresponding to January-February."
+    },
+    "Saraswati Puja": {
+      "type": "proper_noun",
+      "description": "A Hindu festival dedicated to the goddess Saraswati, celebrated in the month of Magh."
+    },
+    "nilkantha": {
+      "type": "proper_noun",
+      "description": "A blue-throated bird, considered auspicious to see during certain festivals."
+    },
+    "Bhushon": {
+      "type": "proper_noun",
+      "description": "A cowherd mentioned in the context of a banana grove."
+    },
+    "Ray household": {
+      "type": "proper_noun",
+      "description": "The family home of Harihar Ray."
+    },
+    "Chunar fort": {
+      "type": "proper_noun",
+      "description": "A historic fort, referenced in Harihar's memories."
+    },
+    "Kedarnath": {
+      "type": "proper_noun",
+      "description": "A holy town in the Himalayas, referenced in Harihar's memories."
+    },
+    "Shah Kasem Sulemani’s dargah": {
+      "type": "proper_noun",
+      "description": "A shrine mentioned in Harihar's recollections."
+    },
+    "Alakananda": {
+      "type": "proper_noun",
+      "description": "A river in the Himalayas, referenced in Harihar's memories."
+    },
+    "Dashashwamedh Ghat": {
+      "type": "proper_noun",
+      "description": "A famous ghat on the Ganges in Varanasi, referenced in Harihar's memories."
+    },
+    "Didi Thakurun": {
+      "type": "vocabulary",
+      "description": "Respectful term for an elderly woman, combining 'elder sister' and 'lady'."
+    },
+    "Pisimā": {
+      "type": "vocabulary",
+      "description": "Father's sister, a term for an elderly woman."
+    },
+    "murki": {
+      "type": "vocabulary",
+      "description": "A sweet made of puffed rice and jaggery."
+    },
+    "kadma": {
+      "type": "vocabulary",
+      "description": "A type of round, hard sugar candy."
+    },
+    "Chaitra": {
+      "type": "vocabulary",
+      "description": "The last month of the Bengali calendar, corresponding to March-April."
+    },
+    "sajne": {
+      "type": "vocabulary",
+      "description": "Drumstick tree (Moringa oleifera), common in Bengali villages."
+    },
+    "Nabin Palit": {
+      "type": "character",
+      "description": "A companion of Harihar, knowledgeable about fishing and local stories."
+    },
+    "Boyshar’s bil": {
+      "type": "proper_noun",
+      "description": "A large wetland mentioned as a good fishing spot."
+    },
+    "Nepal Parui": {
+      "type": "proper_noun",
+      "description": "A person from the east bank who allows fishing in Boyshar’s bil."
+    },
+    "Bengal Indigo Concern": {
+      "type": "proper_noun",
+      "description": "A colonial-era company that managed indigo factories in the region."
+    },
+    "John Larmer": {
+      "type": "proper_noun",
+      "description": "The manager of the Nishchindipur indigo factory, known for his authority."
+    },
+    "Larmer Sahib": {
+      "type": "proper_noun",
+      "description": "Another reference to John Larmer, the indigo planter."
+    },
+    "Moti Da": {
+      "type": "proper_noun",
+      "description": "A man from Nawabganj, mentioned as negotiating the sale of bricks from the kuthi."
+    },
+    "Kundu family": {
+      "type": "proper_noun",
+      "description": "A local family whose gol-dari shop burned down."
+    },
+    "Dinubabu Ganguli": {
+      "type": "proper_noun",
+      "description": "A villager whose daughter's wedding is discussed."
+    },
+    "Asharh": {
+      "type": "proper_noun",
+      "description": "The Bengali month marking the monsoon season."
+    },
+    "Boishakh": {
+      "type": "proper_noun",
+      "description": "A Bengali month in summer."
+    },
+    "Joishtho": {
+      "type": "proper_noun",
+      "description": "Another Bengali summer month."
+    },
+    "Arai-Banki river": {
+      "type": "proper_noun",
+      "description": "A river near Nishchindipur, mentioned for its strong winds."
+    },
+    "Edwin Lermor": {
+      "type": "proper_noun",
+      "description": "The young son of John & Mrs. Lermor, whose grave lies near the bungalow."
+    },
+    "Bengma": {
+      "type": "proper_noun",
+      "description": "A tree from a fairy-tale referenced in the boy's thoughts."
+    },
+    "Bengmi": {
+      "type": "proper_noun",
+      "description": "Another fairy-tale tree mentioned alongside Bengma."
+    },
+    "bil": {
+      "type": "vocabulary",
+      "description": "A large natural wetland or lake, common in Bengal."
+    },
+    "seer": {
+      "type": "vocabulary",
+      "description": "A traditional Indian unit of weight, about 0.93 kilograms."
+    },
+    "yakshi": {
+      "type": "vocabulary",
+      "description": "A supernatural being or spirit in South Asian folklore."
+    },
+    "vāt": {
+      "type": "vocabulary",
+      "description": "Vetiver grass, a fragrant grass found in Bengal."
+    },
+    "baichi": {
+      "type": "vocabulary",
+      "description": "A type of shrub found in Bengal."
+    },
+    "babla": {
+      "type": "vocabulary",
+      "description": "Acacia tree, common in rural Bengal."
+    },
+    "jiol": {
+      "type": "vocabulary",
+      "description": "Waterberry tree, found near rivers in Bengal."
+    },
+    "kuthi": {
+      "type": "vocabulary",
+      "description": "A colonial-era bungalow or factory house."
+    },
+    "gol-dari": {
+      "type": "vocabulary",
+      "description": "A type of shop, possibly a grocery or general store."
+    },
+    "kul": {
+      "type": "vocabulary",
+      "description": "Indian jujube fruit, commonly eaten in Bengal."
+    },
+    "natakanta": {
+      "type": "vocabulary",
+      "description": "A thorny plant found in rural Bengal."
+    },
+    "aparajita": {
+      "type": "vocabulary",
+      "description": "Butterfly pea flower, a blue-flowered vine."
+    },
+    "sōdal": {
+      "type": "vocabulary",
+      "description": "A type of tree with yellow flower clusters."
+    },
+    "alkushi": {
+      "type": "vocabulary",
+      "description": "A plant with itchy, stinging pods."
+    },
+    "Apu": {
+      "type": "character",
+      "description": "Harihar's young son, a playful and curious boy who is the central protagonist of the story.",
+      "image": "/data/images/characters/pather-panchali/apu.webp"
+    },
+    "Bhuban Mukherjee": {
+      "type": "character",
+      "description": "A wealthy householder and neighbor in Nischindipur, father of Ranu and host of significant village events."
+    },
+    "Annada Ray": {
+      "type": "character",
+      "description": "A village landowner and employer of Harihar who faces family property complications."
+    },
+    "Swarna": {
+      "type": "character",
+      "description": "The cowherd woman who comes to milk the family's cow."
+    },
+    "Radha Boshtom": {
+      "type": "character",
+      "description": "A villager whose wife pesters Sarbajaya for repayment."
+    },
+    "Sej Thakrun": {
+      "type": "character",
+      "description": "A stern neighborhood aunt and mother of Sunil who is often quick to accuse Durga of mischief."
+    },
+    "Dashghara": {
+      "type": "proper_noun",
+      "description": "A nearby village where Harihar goes to collect dues."
+    },
+    "Ray family": {
+      "type": "proper_noun",
+      "description": "A local family from whom Sarbajaya expects money."
+    },
+    "Sadgop": {
+      "type": "proper_noun",
+      "description": "A caste group in Bengal, mentioned as the family seeking mantras."
+    },
+    "Patolis": {
+      "type": "proper_noun",
+      "description": "A family or location near the kakurtali (cucumber trellis)."
+    },
+    "cowrie": {
+      "type": "vocabulary",
+      "description": "Small shells often used as currency or in rituals in rural Bengal."
+    },
+    "nataa": {
+      "type": "vocabulary",
+      "description": "A type of fruit found in Bengal."
+    },
+    "sindurkota": {
+      "type": "vocabulary",
+      "description": "A bush with red berries."
+    },
+    "kalmegh": {
+      "type": "vocabulary",
+      "description": "A medicinal plant commonly found in Bengal."
+    },
+    "boti": {
+      "type": "vocabulary",
+      "description": "A traditional curved blade used for cutting vegetables."
+    },
+    "chaler bhaja": {
+      "type": "vocabulary",
+      "description": "Puffed rice, a popular Bengali snack."
+    },
+    "bapu": {
+      "type": "vocabulary",
+      "description": "An affectionate term for a young boy or son."
+    },
+    "Bouma": {
+      "type": "vocabulary",
+      "description": "Daughter-in-law; a kinship term."
+    },
+    "kakurtali": {
+      "type": "vocabulary",
+      "description": "The base of a cucumber trellis, often a shady spot in rural Bengal."
+    },
+    "jamun": {
+      "type": "vocabulary",
+      "description": "A type of fruit (Indian blackberry) common in Bengal."
+    },
+    "sari": {
+      "type": "vocabulary",
+      "description": "A traditional garment worn by women in India and Bengal."
+    },
+    "Neelu": {
+      "type": "character",
+      "description": "A neighbor mentioned in passing, whose palm tree is a landmark for Apu."
+    },
+    "Karna": {
+      "type": "character",
+      "description": "A tragic hero from the Mahabharata, whom Apu feels a special affection for."
+    },
+    "Arjuna": {
+      "type": "character",
+      "description": "A great warrior from the Mahabharata, contrasted with Karna in Apu's imagination."
+    },
+    "Dronacharya": {
+      "type": "character",
+      "description": "A revered teacher and warrior from the Mahabharata, featured in Apu's play."
+    },
+    "Duryodhan": {
+      "type": "character",
+      "description": "A major antagonist from the Mahabharata, mentioned in Apu's imagined battles."
+    },
+    "Bhima": {
+      "type": "character",
+      "description": "A strong warrior from the Mahabharata, mentioned in Apu's play."
+    },
+    "Chinibas Moyra": {
+      "type": "character",
+      "description": "A village vendor and sweet-seller known for selling treats during festivals and passing by the neighborhood."
+    },
+    "younger bou": {
+      "type": "character",
+      "description": "Bhuban Mukherjee's younger brother's widow, the strict mistress of his household."
+    },
+    "Kashidasi Mahabharat": {
+      "type": "proper_noun",
+      "description": "A Bengali retelling of the Mahabharata by Kashidas, read aloud by Apu's mother."
+    },
+    "Annadamangal": {
+      "type": "proper_noun",
+      "description": "A Bengali literary text referenced in a story about Harihor."
+    },
+    "Sindhu": {
+      "type": "proper_noun",
+      "description": "A distant land mentioned in a story from the Mahabharata."
+    },
+    "Kurukshetra": {
+      "type": "proper_noun",
+      "description": "The battlefield where the Mahabharata war takes place."
+    },
+    "Baishakh": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar, marking the time of year."
+    },
+    "Dashahara": {
+      "type": "proper_noun",
+      "description": "A Hindu festival, also known as Dussehra, marking the victory of good over evil."
+    },
+    "jackfruit": {
+      "type": "vocabulary",
+      "description": "A large tropical fruit tree common in Bengal, bearing edible fruit."
+    },
+    "anchol": {
+      "type": "vocabulary",
+      "description": "The loose end of a sari, often used to carry small items."
+    },
+    "rãḍã": {
+      "type": "vocabulary",
+      "description": "A type of fruit whose seeds are collected and played with by children."
+    },
+    "rakshas": {
+      "type": "vocabulary",
+      "description": "A demon or ogre in Hindu mythology."
+    },
+    "aswattha": {
+      "type": "vocabulary",
+      "description": "The sacred fig tree, considered holy in Hindu tradition."
+    },
+    "shankhachil": {
+      "type": "vocabulary",
+      "description": "The brahminy kite, a bird often seen in rural Bengal."
+    },
+    "ka-kha": {
+      "type": "vocabulary",
+      "description": "The first two letters of the Bengali alphabet, used in early writing practice."
+    },
+    "paan": {
+      "type": "vocabulary",
+      "description": "A preparation of betel leaf and areca nut, often chewed after meals."
+    },
+    "catechu": {
+      "type": "vocabulary",
+      "description": "An astringent substance from the acacia tree, used in paan."
+    },
+    "ghetu": {
+      "type": "vocabulary",
+      "description": "A shrub or small tree common in Bengal."
+    },
+    "bakhari": {
+      "type": "vocabulary",
+      "description": "A type of stick, used here as a pretend weapon."
+    },
+    "ankushi": {
+      "type": "vocabulary",
+      "description": "A hooked stick used to pull down fruit from trees."
+    },
+    "nôlk": {
+      "type": "vocabulary",
+      "description": "A nose-ring made from flowers, worn for play."
+    },
+    "orkolmi": {
+      "type": "vocabulary",
+      "description": "Morning glory, a flowering vine with white buds."
+    },
+    "jam": {
+      "type": "vocabulary",
+      "description": "Black plum, a sweet and tangy fruit."
+    },
+    "amra": {
+      "type": "vocabulary",
+      "description": "Hog plum, a sour fruit eaten raw or in pickles."
+    },
+    "sindur": {
+      "type": "vocabulary",
+      "description": "Vermilion, a red powder used for marking the parting of a married woman's hair."
+    },
+    "dugdugi": {
+      "type": "vocabulary",
+      "description": "A small hand drum used by street performers."
+    },
+    "sandesh": {
+      "type": "vocabulary",
+      "description": "A Bengali sweet made from chhena (fresh cheese) and sugar."
+    },
+    "Sunil": {
+      "type": "character",
+      "description": "Sej-bou's son, who is given treats and told to eat on the veranda."
+    },
+    "Satu": {
+      "type": "character",
+      "description": "Rani's elder brother and Tunudi's cousin who often interacts with Apu and Durga."
+    },
+    "Ranu": {
+      "type": "character",
+      "description": "A neighborhood girl and daughter of Bhuban Mukherjee who is an affectionate and supportive friend to Apu."
+    },
+    "Potol": {
+      "type": "character",
+      "description": "A neighborhood child whose family garden is a frequent site for the village children."
+    },
+    "Rajkrishna Palit’s wife": {
+      "type": "character",
+      "description": "A woman from the neighborhood, referred to as Jethima by Apu."
+    },
+    "Bidhu": {
+      "type": "character",
+      "description": "A fisherwoman who sells fish in the neighborhood."
+    },
+    "Rath": {
+      "type": "proper_noun",
+      "description": "Short for Rath Yatra, a chariot festival dedicated to Lord Jagannath."
+    },
+    "Bhuban Mukherjee’s house": {
+      "type": "proper_noun",
+      "description": "A prominent household in the village, often a setting for communal activities."
+    },
+    "Manasa": {
+      "type": "proper_noun",
+      "description": "The snake goddess worshipped in Bengal, whose idol is immersed after rituals."
+    },
+    "para": {
+      "type": "proper_noun",
+      "description": "The neighborhood or locality in a Bengali village."
+    },
+    "Ray-kaka": {
+      "type": "proper_noun",
+      "description": "A neighbor, referred to as 'uncle' Ray."
+    },
+    "Sonamukhi": {
+      "type": "proper_noun",
+      "description": "A type of mango tree in the neighborhood."
+    },
+    "Nilmoni Ray": {
+      "type": "proper_noun",
+      "description": "A person whose abandoned homestead is mentioned as a landmark; cousin's son of Ramchand, who worked in the commissioner's office and eventually left the village with his mother."
+    },
+    "Ganga-Yamuna": {
+      "type": "proper_noun",
+      "description": "A children’s game named after two sacred rivers of India."
+    },
+    "Dule": {
+      "type": "proper_noun",
+      "description": "A community or caste group mentioned in comparison to Durga."
+    },
+    "Bagdi": {
+      "type": "proper_noun",
+      "description": "A scheduled caste community in Bengal."
+    },
+    "gôr-er pukur": {
+      "type": "proper_noun",
+      "description": "The pond of the fort, a local pond near the old Majumdar house."
+    },
+    "Ganguli house": {
+      "type": "proper_noun",
+      "description": "The house of the Ganguli family, where Harihar takes the found object for identification."
+    },
+    "Thakur": {
+      "type": "proper_noun",
+      "description": "A term for God or a deity, invoked in prayers; priest or deity."
+    },
+    "Dashurayer Panchali": {
+      "type": "proper_noun",
+      "description": "A folk ballad or text found in Apu’s schoolbag."
+    },
+    "1303": {
+      "type": "proper_noun",
+      "description": "A year in the Bengali calendar, referenced in an old almanac."
+    },
+    "batasha": {
+      "type": "vocabulary",
+      "description": "A type of crisp, airy sugar candy popular in Bengal."
+    },
+    "palta’r bara": {
+      "type": "vocabulary",
+      "description": "A kind of fried snack, possibly a local fritter."
+    },
+    "dudh-bhaat": {
+      "type": "vocabulary",
+      "description": "Rice mixed with milk, a simple and nourishing meal."
+    },
+    "monda": {
+      "type": "vocabulary",
+      "description": "A type of Bengali sweet, usually dense and made from milk."
+    },
+    "mithai": {
+      "type": "vocabulary",
+      "description": "General term for sweets or confections."
+    },
+    "shiyakul": {
+      "type": "vocabulary",
+      "description": "A type of sweet wild fruit."
+    },
+    "kantikari": {
+      "type": "vocabulary",
+      "description": "A thorny bush, also known as Solanum xanthocarpum, whose fruit is used in folk play."
+    },
+    "Ganga-Jamuna": {
+      "type": "vocabulary",
+      "description": "A children’s game, possibly involving targets or marbles."
+    },
+    "brata": {
+      "type": "vocabulary",
+      "description": "A religious or ritual vow, often performed by women and children."
+    },
+    "taktaposh": {
+      "type": "vocabulary",
+      "description": "A wooden bedstead common in rural Bengali homes."
+    },
+    "hookah": {
+      "type": "vocabulary",
+      "description": "A traditional smoking pipe used in rural India."
+    },
+    "Jethima": {
+      "type": "vocabulary",
+      "description": "Aunt; specifically, father's elder brother's wife."
+    },
+    "machatala": {
+      "type": "vocabulary",
+      "description": "A raised bamboo platform, often used for drying or sorting fish."
+    },
+    "bakul": {
+      "type": "vocabulary",
+      "description": "A fragrant flowering tree (Mimusops elengi), common in Bengal."
+    },
+    "bakultala": {
+      "type": "vocabulary",
+      "description": "The area under or around a bakul tree."
+    },
+    "gab": {
+      "type": "vocabulary",
+      "description": "A type of fruit tree (Diospyros peregrina), also called Indian persimmon."
+    },
+    "gabtala": {
+      "type": "vocabulary",
+      "description": "The area under or around a gab tree."
+    },
+    "shatim": {
+      "type": "vocabulary",
+      "description": "A tree (Alstonia scholaris), often found near cremation grounds."
+    },
+    "shatimtala": {
+      "type": "vocabulary",
+      "description": "The area under or near a shatim tree, here referring to the village cremation ground."
+    },
+    "Punyipukur": {
+      "type": "vocabulary",
+      "description": "A ritual or symbolic pond created for play or worship."
+    },
+    "pithuli": {
+      "type": "vocabulary",
+      "description": "A type of grain used for decorative patterns in rituals."
+    },
+    "mynakanta": {
+      "type": "vocabulary",
+      "description": "A bush or plant, possibly with thorns, referenced for its association with birds."
+    },
+    "Ganguli Mashai": {
+      "type": "character",
+      "description": "A respected elder in the village, whose son-in-law identifies the glass object."
+    },
+    "Satyababu": {
+      "type": "character",
+      "description": "Ganguli Mashai’s son-in-law from Calcutta, who identifies the Belwari glass."
+    },
+    "Atrur Majhi": {
+      "type": "character",
+      "description": "A fisherman from the village who rows his dinghy and sets fish traps in the river."
+    },
+    "Lakshman Mahajan": {
+      "type": "character",
+      "description": "A prosperous farmer and disciple of Harihar who hosts Apu and his father."
+    },
+    "Amala": {
+      "type": "character",
+      "description": "A girl from a Brahmin neighbor’s house, about Durga's age, who befriends Apu and cares for him."
+    },
+    "Bishu": {
+      "type": "character",
+      "description": "A mischievous, quick-footed boy who is good at games and becomes Amala’s favored playmate."
+    },
+    "Narugopal": {
+      "type": "character",
+      "description": "The blacksmith’s son who invites Apu to play in the afternoon."
+    },
+    "Ramchand Tarkalankar": {
+      "type": "character",
+      "description": "Apu and Durga's grandfather, a scholar who settled in Nischindipur and left behind palm-leaf manuscripts."
+    },
+    "Dinu Chatujje": {
+      "type": "character",
+      "description": "An elder who praises Durga’s reading skills and compares her to his own grandson."
+    },
+    "Panchananda Thakur": {
+      "type": "character",
+      "description": "The present village deity, worshipped in place of Vishalakshi."
+    },
+    "Bishalakshi Devi": {
+      "type": "character",
+      "description": "The presiding goddess of the village associated with old legends and local worship."
+    },
+    "Bhishmadev": {
+      "type": "character",
+      "description": "A legendary hero from the Mahabharata, referenced in a story about the village."
+    },
+    "King Dasharath": {
+      "type": "character",
+      "description": "A character from the Ramayana, referenced in a story about the village pond."
+    },
+    "Jethamashai": {
+      "type": "character",
+      "description": "Apu and Durga's paternal uncle, whose homestead is mentioned."
+    },
+    "Rajidi": {
+      "type": "character",
+      "description": "A girl in the village who tricks Apu into tasting poppy seeds."
+    },
+    "Calcutta": {
+      "type": "proper_noun",
+      "description": "The major city from which Satyababu arrives, representing urban sophistication."
+    },
+    "Gosai’s orchard": {
+      "type": "proper_noun",
+      "description": "An orchard in the village, part of Apu’s familiar surroundings."
+    },
+    "Ashadhu-Durgapur": {
+      "type": "proper_noun",
+      "description": "A neighboring village or locality connected by a dirt road."
+    },
+    "Durgapur": {
+      "type": "proper_noun",
+      "description": "A village near Apu’s own, reached by the road from Nawabganj."
+    },
+    "Ashadhu": {
+      "type": "proper_noun",
+      "description": "A locality or market town mentioned as a destination for bullock carts."
+    },
+    "Amdoba": {
+      "type": "proper_noun",
+      "description": "A small hamlet of peasant folk that Apu passes through on his journey."
+    },
+    "Khalsemari": {
+      "type": "proper_noun",
+      "description": "A wetland area near the village, lush with paddy fields and water birds."
+    },
+    "Gangulibari Chandimandap": {
+      "type": "proper_noun",
+      "description": "The ceremonial pavilion at the Ganguli family’s house, used for worship and gatherings."
+    },
+    "Ramayana": {
+      "type": "proper_noun",
+      "description": "An ancient Indian epic, read aloud by Durga at village gatherings."
+    },
+    "Mahabharata": {
+      "type": "proper_noun",
+      "description": "Another ancient Indian epic, referenced in Durga’s reading and village stories."
+    },
+    "Barnaparichay": {
+      "type": "proper_noun",
+      "description": "A Bengali primer for learning the alphabet, mentioned in comparison to Durga’s skills."
+    },
+    "Kashidas’s Mahabharata": {
+      "type": "proper_noun",
+      "description": "A Bengali retelling of the Mahabharata, read by Durga."
+    },
+    "Panchanand Tala": {
+      "type": "proper_noun",
+      "description": "A sacred site in the village where Kali Puja is performed."
+    },
+    "Vishalakshi": {
+      "type": "proper_noun",
+      "description": "The former tutelary goddess of the Majumdar family, now abandoned."
+    },
+    "Majumdar family": {
+      "type": "proper_noun",
+      "description": "A prominent family in the village formerly associated with the goddess Vishalakshi; a formerly wealthy family whose old homestead and moat are village landmarks."
+    },
+    "Dvaipayana Lake": {
+      "type": "proper_noun",
+      "description": "A reference to a lake from the Mahabharata, imagined in the village landscape."
+    },
+    "Birangana Kavya": {
+      "type": "proper_noun",
+      "description": "A book of epic poetry about heroines, treasured by Durga."
+    },
+    "Shuvankari’s Arya": {
+      "type": "proper_noun",
+      "description": "A text or poem Durga is required to memorize."
+    },
+    "Snan Yatra": {
+      "type": "proper_noun",
+      "description": "A religious festival in Kaliganj where toys are bought."
+    },
+    "Ramnavami Dol": {
+      "type": "proper_noun",
+      "description": "A spring festival in the Bengali calendar, celebrated with feasts."
+    },
+    "Baisakh": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar, associated with festivals."
+    },
+    "Kojagari Purnima": {
+      "type": "proper_noun",
+      "description": "A full moon festival in autumn, associated with Lakshmi Puja."
+    },
+    "Lakshmi Puja": {
+      "type": "proper_noun",
+      "description": "A religious festival honoring the goddess of wealth."
+    },
+    "Chaturdashi": {
+      "type": "proper_noun",
+      "description": "The fourteenth lunar day, an auspicious time for Kali Puja."
+    },
+    "Binti": {
+      "type": "proper_noun",
+      "description": "A card in the Bengali deck, referenced in the card games."
+    },
+    "Shyamlanka": {
+      "type": "proper_noun",
+      "description": "A mythical or fairy-tale land mentioned in the boy's imagination; a character or story referenced in a rhyme recited by Apu."
+    },
+    "Sarayu": {
+      "type": "proper_noun",
+      "description": "A river from the Ramayana, referenced in a village story."
+    },
+    "Kaluichondi brata": {
+      "type": "proper_noun",
+      "description": "A religious observance or ritual involving a picnic by a pond."
+    },
+    "Belwari glass": {
+      "type": "vocabulary",
+      "description": "A type of decorative glass, often used in chandeliers."
+    },
+    "Jyoishtho": {
+      "type": "vocabulary",
+      "description": "The second month of the Bengali calendar, also a summer month."
+    },
+    "shimul": {
+      "type": "vocabulary",
+      "description": "The silk cotton tree, known for its large, red flowers."
+    },
+    "dinghy": {
+      "type": "vocabulary",
+      "description": "A small boat, here used for fishing."
+    },
+    "rangī": {
+      "type": "vocabulary",
+      "description": "Reddish-brown, used to describe the color of a cow."
+    },
+    "Poush": {
+      "type": "vocabulary",
+      "description": "A winter month in the Bengali calendar."
+    },
+    "kalai": {
+      "type": "vocabulary",
+      "description": "Black gram, a type of lentil plant."
+    },
+    "bullock carts": {
+      "type": "vocabulary",
+      "description": "Traditional carts pulled by oxen, used for transporting goods."
+    },
+    "date-palm jaggery": {
+      "type": "vocabulary",
+      "description": "A sweetener made from the sap of date palms."
+    },
+    "marsh": {
+      "type": "vocabulary",
+      "description": "A wetland area, often with reeds and aquatic plants."
+    },
+    "hogla": {
+      "type": "vocabulary",
+      "description": "A type of reed found in marshes, used for weaving mats."
+    },
+    "shola": {
+      "type": "vocabulary",
+      "description": "A spongy plant used for making crafts and decorations."
+    },
+    "sodali": {
+      "type": "vocabulary",
+      "description": "A type of flower or tree, often found in fields."
+    },
+    "aus paddy": {
+      "type": "vocabulary",
+      "description": "A variety of rice grown in the monsoon season."
+    },
+    "khoka": {
+      "type": "vocabulary",
+      "description": "Little boy; a term of endearment for young boys."
+    },
+    "Bottakurs": {
+      "type": "vocabulary",
+      "description": "A family or lineage, here referring to the household Apu is visiting."
+    },
+    "gurumoshai": {
+      "type": "vocabulary",
+      "description": "Spiritual teacher or preceptor."
+    },
+    "cowrie shells": {
+      "type": "vocabulary",
+      "description": "Small shells used as currency or for decoration."
+    },
+    "mohanbhog": {
+      "type": "vocabulary",
+      "description": "A sweet dish made from semolina and ghee, often served at religious events."
+    },
+    "ghee": {
+      "type": "vocabulary",
+      "description": "Clarified butter, used in Indian cooking."
+    },
+    "chondropuli": {
+      "type": "vocabulary",
+      "description": "A sweet rice cake made with coconut and jaggery."
+    },
+    "pathorkuchi": {
+      "type": "vocabulary",
+      "description": "A medicinal succulent plant used for healing wounds."
+    },
+    "boudi": {
+      "type": "vocabulary",
+      "description": "Sister-in-law; the wife of an elder brother."
+    },
+    "almirah": {
+      "type": "vocabulary",
+      "description": "A cabinet or wardrobe for storing clothes or valuables."
+    },
+    "mem-puppet": {
+      "type": "vocabulary",
+      "description": "A European-style doll, often with glass or porcelain features."
+    },
+    "khanjani": {
+      "type": "vocabulary",
+      "description": "A small tambourine used in folk music."
+    },
+    "tekka": {
+      "type": "vocabulary",
+      "description": "The ace card in Bengali card games."
+    },
+    "Golam": {
+      "type": "vocabulary",
+      "description": "The jack card in Bengali card games."
+    },
+    "Saheb": {
+      "type": "vocabulary",
+      "description": "The king card in Bengali card games."
+    },
+    "Bibi": {
+      "type": "vocabulary",
+      "description": "The queen card in Bengali card games."
+    },
+    "gandhabhadali": {
+      "type": "vocabulary",
+      "description": "A fragrant creeper plant."
+    },
+    "luchi": {
+      "type": "vocabulary",
+      "description": "A deep-fried, puffy flatbread made from wheat flour."
+    },
+    "ol’er daata chachchari": {
+      "type": "vocabulary",
+      "description": "A curry made from the stems of yam plants."
+    },
+    "lau chhenchki": {
+      "type": "vocabulary",
+      "description": "A dry curry made from grated bottle gourd."
+    },
+    "kadai": {
+      "type": "vocabulary",
+      "description": "A deep, round-bottomed cooking pot or wok."
+    },
+    "natmandir": {
+      "type": "vocabulary",
+      "description": "A temple pavilion or stage used for religious performances."
+    },
+    "noaguno": {
+      "type": "vocabulary",
+      "description": "Steam engine; the locomotive of a train."
+    },
+    "jatra": {
+      "type": "vocabulary",
+      "description": "A traditional Bengali folk theater performance."
+    },
+    "gulancha": {
+      "type": "vocabulary",
+      "description": "A type of climbing vine, also known as Tinospora cordifolia."
+    },
+    "pomelo": {
+      "type": "vocabulary",
+      "description": "A large citrus fruit, similar to grapefruit."
+    },
+    "makal": {
+      "type": "vocabulary",
+      "description": "A type of wild gourd or fruit."
+    },
+    "nakuṭo": {
+      "type": "vocabulary",
+      "description": "A ceremonial gift given during engagements or weddings."
+    },
+    "chotka": {
+      "type": "vocabulary",
+      "description": "A type of tree, possibly a local wild fruit tree."
+    },
+    "patalkochu": {
+      "type": "vocabulary",
+      "description": "Taro leaves, used as a vegetable."
+    },
+    "chatim": {
+      "type": "vocabulary",
+      "description": "Alstonia scholaris, a fragrant tree."
+    },
+    "Jethamoshai": {
+      "type": "vocabulary",
+      "description": "Paternal uncle; literally 'elder uncle.'"
+    },
+    "patal-kerai": {
+      "type": "vocabulary",
+      "description": "A curry made from pointed gourd and beans."
+    },
+    "alta": {
+      "type": "vocabulary",
+      "description": "Red dye used to decorate women's feet during festivals."
+    },
+    "khoi": {
+      "type": "vocabulary",
+      "description": "Puffed rice, often used as a snack or offering."
+    },
+    "naivedya": {
+      "type": "vocabulary",
+      "description": "Food offered to deities during worship."
+    },
+    "sheuli": {
+      "type": "vocabulary",
+      "description": "Night-flowering jasmine, associated with autumn and Puja."
+    },
+    "snehadal": {
+      "type": "vocabulary",
+      "description": "A type of tree or plant, possibly with soft leaves."
+    },
+    "telakucha": {
+      "type": "vocabulary",
+      "description": "A creeping plant, also known as ivy gourd."
+    },
+    "natkan": {
+      "type": "vocabulary",
+      "description": "A type of flower or plant, possibly wild."
+    },
+    "puyo": {
+      "type": "vocabulary",
+      "description": "A type of flower, possibly aquatic."
+    },
+    "tun-tuni": {
+      "type": "vocabulary",
+      "description": "A small bird, the tailorbird."
+    },
+    "bhat-sheora": {
+      "type": "vocabulary",
+      "description": "A type of tree, possibly Streblus asper."
+    },
+    "bon-chalta": {
+      "type": "vocabulary",
+      "description": "Wild elephant apple tree."
+    },
+    "holud": {
+      "type": "vocabulary",
+      "description": "Turmeric plant."
+    },
+    "bon-kochu": {
+      "type": "vocabulary",
+      "description": "Wild taro plant."
+    },
+    "kattu-ol": {
+      "type": "vocabulary",
+      "description": "A variety of yam."
+    },
+    "bon-kolmi": {
+      "type": "vocabulary",
+      "description": "Wild morning glory vine."
+    },
+    "nata-kanta": {
+      "type": "vocabulary",
+      "description": "A type of flowering plant or creeper."
+    },
+    "moyna": {
+      "type": "vocabulary",
+      "description": "A type of bush or tree, possibly associated with the myna bird."
+    },
+    "dhundhul": {
+      "type": "vocabulary",
+      "description": "Sponge gourd vine."
+    },
+    "shirish": {
+      "type": "vocabulary",
+      "description": "Albizia lebbeck, a large tree with feathery leaves."
+    },
+    "Swaroop Chakraborty": {
+      "type": "character",
+      "description": "A villager noted in local lore for having seen a vision of the goddess or the Lady of the Forest."
+    },
+    "Ram": {
+      "type": "character",
+      "description": "A villager who has been enjoying Shyam’s land as his own."
+    },
+    "Shyam": {
+      "type": "character",
+      "description": "A villager whose land has been used by Ram."
+    },
+    "Jadu": {
+      "type": "character",
+      "description": "A villager who has been quietly occupying more land than he pays tax for."
+    },
+    "Tamaraj": {
+      "type": "character",
+      "description": "A recently deceased villager whose wife is now struggling to reclaim her granary."
+    },
+    "Tamaraj’s wife": {
+      "type": "character",
+      "description": "A young farmer’s widow trying to pay off her debt to reclaim her granary and feed her family."
+    },
+    "Bhoda Sekra": {
+      "type": "character",
+      "description": "A shopkeeper who buys a silver coin from Tamaraj’s wife."
+    },
+    "Dinu Bhattacharya": {
+      "type": "character",
+      "description": "An elderly villager with poor eyesight who inquires about Tamaraj’s wife."
+    },
+    "Gokul’s wife": {
+      "type": "character",
+      "description": "A young bride in the household, referred to as khurima and boudi, who assists with chores and interacts with Durga."
+    },
+    "Gokul-kaka": {
+      "type": "character",
+      "description": "Gokul, referred to as uncle, who is said to have hit his wife."
+    },
+    "Rai-jethi": {
+      "type": "character",
+      "description": "The elder aunt who questions khurima at the ghat."
+    },
+    "Sanno": {
+      "type": "character",
+      "description": "A low-caste girl, referred to as the cremation-ground girl, who is asked to fetch the water pot."
+    },
+    "Sakhi Thakrun": {
+      "type": "character",
+      "description": "The elderly lady of the house, feared by Gokul’s wife, who is strict about household purity."
+    },
+    "Mother Rakshakali": {
+      "type": "character",
+      "description": "A goddess invoked for protection by Sakhi Thakrun."
+    },
+    "Kali temple": {
+      "type": "proper_noun",
+      "description": "A local temple dedicated to the goddess Kali, toward which Sakhi Thakrun prays."
+    },
+    "Kabuli": {
+      "type": "proper_noun",
+      "description": "Refers to a quilt-seller from Kabul, Afghanistan, who sells quilts in Bengal."
+    },
+    "Puja": {
+      "type": "proper_noun",
+      "description": "A Hindu religious festival, during which Gokul’s wife’s brother visited; also a Hindu religious ceremony or worship ritual."
+    },
+    "chandi-mandap": {
+      "type": "vocabulary",
+      "description": "A pavilion or platform used for worship, especially during Hindu rituals."
+    },
+    "granary": {
+      "type": "vocabulary",
+      "description": "A storage place for grain, crucial for rural households."
+    },
+    "nimphol": {
+      "type": "vocabulary",
+      "description": "A small silver coin, often kept as a child’s keepsake."
+    },
+    "thakurpo": {
+      "type": "vocabulary",
+      "description": "A term for younger brother-in-law."
+    },
+    "boudidi": {
+      "type": "vocabulary",
+      "description": "Elder sister-in-law; an affectionate term for elder sister-in-law."
+    },
+    "khurima": {
+      "type": "vocabulary",
+      "description": "Father’s younger brother’s wife; aunt."
+    },
+    "chire": {
+      "type": "vocabulary",
+      "description": "Flattened rice, a common Bengali snack or meal."
+    },
+    "pituli tree": {
+      "type": "vocabulary",
+      "description": "A specific tree in the courtyard, used as a landmark for tying calves."
+    },
+    "naru": {
+      "type": "vocabulary",
+      "description": "Sweet balls made of coconut and jaggery, a popular Bengali confection."
+    },
+    "dhinki": {
+      "type": "vocabulary",
+      "description": "A term for a gawky, awkward girl."
+    },
+    "shelis": {
+      "type": "vocabulary",
+      "description": "A small measure of paddy (unhusked rice)."
+    },
+    "Niren": {
+      "type": "character",
+      "description": "A college student from Calcutta and kinsman of Annada Ray who becomes a potential suitor for Durga."
+    },
+    "Teen-kori": {
+      "type": "character",
+      "description": "A fisherman in the village, father of Bonka."
+    },
+    "Bonka": {
+      "type": "character",
+      "description": "Teen-kori’s son, a boy from the fishermen’s quarter, friend of Apu."
+    },
+    "Ramcharan": {
+      "type": "character",
+      "description": "A fisherman, father of Hriday, lives in the village."
+    },
+    "Hriday": {
+      "type": "character",
+      "description": "Ramcharan’s son, Apu seeks him out to play shells."
+    },
+    "Baburam": {
+      "type": "character",
+      "description": "A sparrow-catcher whose house is near the tamarind grove."
+    },
+    "Prasanna Gurumoshai": {
+      "type": "character",
+      "description": "The respected and sometimes cheerful village schoolteacher who runs the pathshala."
+    },
+    "Chibas": {
+      "type": "character",
+      "description": "Mentioned as someone Patu begged for his shell pouch."
+    },
+    "Leela-di": {
+      "type": "character",
+      "description": "A girl whose wedding sari is discussed by Apu and Durga."
+    },
+    "Narottam Das Babaji": {
+      "type": "character",
+      "description": "A respected village elder and Vaishnava ascetic, friend and confidant to Apu."
+    },
+    "Sadananda": {
+      "type": "character",
+      "description": "An old man, pride of Ganguli Para, lives in a thatched hut."
+    },
+    "Seetanath": {
+      "type": "character",
+      "description": "A famous drum player (rasunchouki) booked for the wedding."
+    },
+    "Mator’s Ma": {
+      "type": "character",
+      "description": "A widow who gathers firewood and sells flowers, mother of Mator."
+    },
+    "Bini": {
+      "type": "character",
+      "description": "A poor Brahmin girl, daughter of Kalinath Chakkatti, joins Durga and Apu’s picnic."
+    },
+    "Nitam pisi": {
+      "type": "character",
+      "description": "Apu and Durga’s father’s younger sister, who married far away and never returned."
+    },
+    "Tuni": {
+      "type": "character",
+      "description": "A girl from the neighborhood and daughter of the mistress of Bhuban Mukherjee’s house, friend to Durga."
+    },
+    "Tuni’s mother": {
+      "type": "character",
+      "description": "Mother of Tuni, loses her sindur box and tries to defend Durga."
+    },
+    "Tenpi": {
+      "type": "character",
+      "description": "Sej Thakrun’s younger daughter."
+    },
+    "Tepi": {
+      "type": "character",
+      "description": "A girl who helps during the commotion about the missing box."
+    },
+    "Ranur ma": {
+      "type": "character",
+      "description": "Ranu’s mother, intervenes when Durga is accused and beaten."
+    },
+    "Baidyanath Majumdar": {
+      "type": "character",
+      "description": "A villager collecting subscriptions for the Barowari Charak Puja."
+    },
+    "Mahesh Sakar": {
+      "type": "character",
+      "description": "Leader of a boys’ kirtan troupe."
+    },
+    "Ajay": {
+      "type": "character",
+      "description": "A boy actor from the jatra troupe, becomes Apu’s close friend."
+    },
+    "Adhikari": {
+      "type": "character",
+      "description": "Manager and jester of the jatra troupe, strict with the boys."
+    },
+    "Bishtu Teli": {
+      "type": "character",
+      "description": "A boy in the jatra troupe, a good dancer but quarrelsome."
+    },
+    "Dashu Ray": {
+      "type": "character",
+      "description": "A poet whose panchali (narrative song) Apu sings."
+    },
+    "Basumati": {
+      "type": "character",
+      "description": "Mother of prince Ajay in the jatra play."
+    },
+    "Indulekha": {
+      "type": "character",
+      "description": "Princess in the jatra play, whose story moves Apu deeply."
+    },
+    "Kalingaraj": {
+      "type": "character",
+      "description": "King in the jatra play."
+    },
+    "Bichitraketu": {
+      "type": "character",
+      "description": "General in the jatra play."
+    },
+    "Juri": {
+      "type": "character",
+      "description": "Character in the jatra play."
+    },
+    "Ashutosh Pal": {
+      "type": "character",
+      "description": "Leader of another jatra troupe, mentioned by Ajay."
+    },
+    "Harish the Yogi": {
+      "type": "character",
+      "description": "Village shopkeeper who sells cheroots."
+    },
+    "Rakhāl": {
+      "type": "character",
+      "description": "Cowherd boy who sells Apu supposed vulture’s eggs."
+    },
+    "Nilu": {
+      "type": "character",
+      "description": "A neighborhood boy."
+    },
+    "Kinu": {
+      "type": "character",
+      "description": "A neighborhood boy."
+    },
+    "Patal": {
+      "type": "character",
+      "description": "A neighborhood boy."
+    },
+    "Nera": {
+      "type": "character",
+      "description": "A neighborhood boy."
+    },
+    "Jugir Bamun": {
+      "type": "character",
+      "description": "A Brahmin considered an outsider, mentioned in the context of drinking water."
+    },
+    "Mator": {
+      "type": "character",
+      "description": "Son of Mator’s Ma."
+    },
+    "Kalinath Chakkatti": {
+      "type": "character",
+      "description": "Bini’s father, a yogi Brahmin."
+    },
+    "Chandidas": {
+      "type": "character",
+      "description": "Renowned historical poet, referenced by Narottam Das Babaji."
+    },
+    "Ganguli Para": {
+      "type": "proper_noun",
+      "description": "A neighborhood or locality in the village, home to several characters."
+    },
+    "Raypara": {
+      "type": "proper_noun",
+      "description": "A neighborhood or locality in the village, mentioned in the context of the ghat."
+    },
+    "Kolkata": {
+      "type": "proper_noun",
+      "description": "The major city (formerly Calcutta), referenced as a distant urban center."
+    },
+    "Bangladesh": {
+      "type": "proper_noun",
+      "description": "Region referenced to contrast local climate with 'out west.'"
+    },
+    "Majherpara": {
+      "type": "proper_noun",
+      "description": "A railway station near the village."
+    },
+    "Mecca": {
+      "type": "proper_noun",
+      "description": "The holy city in Islam, referenced humorously."
+    },
+    "Aranghata": {
+      "type": "proper_noun",
+      "description": "A place where Jugalkishore’s fair is held."
+    },
+    "Jugalkishore’s fair": {
+      "type": "proper_noun",
+      "description": "A local fair or festival at Aranghata."
+    },
+    "Phul Dole": {
+      "type": "proper_noun",
+      "description": "Spring swing festival, celebrated with fireworks."
+    },
+    "Sonadangar": {
+      "type": "proper_noun",
+      "description": "Golden fields near the village, mentioned as a landscape feature."
+    },
+    "Murshidabad": {
+      "type": "proper_noun",
+      "description": "A district in West Bengal, where Nitom pisi was married off."
+    },
+    "Goylapara": {
+      "type": "proper_noun",
+      "description": "A locality or cowshed quarter in the village from where a cart is called."
+    },
+    "Palpara": {
+      "type": "proper_noun",
+      "description": "A market area where kirtan troupes perform."
+    },
+    "Nilpuja": {
+      "type": "proper_noun",
+      "description": "A ritual/festival associated with the Charak festival."
+    },
+    "Charak Puja": {
+      "type": "proper_noun",
+      "description": "A major spring festival involving ascetic rituals and communal celebration."
+    },
+    "charaktala": {
+      "type": "proper_noun",
+      "description": "The field or ground where the Charak festival is held."
+    },
+    "Panchanan Tala": {
+      "type": "proper_noun",
+      "description": "A place in the village where Apu plays and where the jatra is staged."
+    },
+    "Baroaritola": {
+      "type": "proper_noun",
+      "description": "The community gathering place, especially for the jatra."
+    },
+    "Goshtabihar": {
+      "type": "proper_noun",
+      "description": "A place where festival dolls are displayed or a fair/festival attended by villagers."
+    },
+    "Dashu the potter": {
+      "type": "proper_noun",
+      "description": "A potter who makes dolls for the festival."
+    },
+    "Rath Yatra": {
+      "type": "proper_noun",
+      "description": "The chariot festival, referenced during the jatra."
+    },
+    "Sarva-Darshan-Sangraha": {
+      "type": "proper_noun",
+      "description": "A philosophical text found by Apu in his father's box."
+    },
+    "Prembhakti-Chandrika": {
+      "type": "proper_noun",
+      "description": "A devotional book cherished by Narottam Das Babaji."
+    },
+    "Madhukhali": {
+      "type": "proper_noun",
+      "description": "A pond near which buincha flowers are gathered."
+    },
+    "Sylhet": {
+      "type": "proper_noun",
+      "description": "A place name Apu is asked to write by his father."
+    },
+    "Parashuramer Darp-Sanghar": {
+      "type": "proper_noun",
+      "description": "A play performed by the jatra troupe."
+    },
+    "pathshala": {
+      "type": "vocabulary",
+      "description": "Traditional village school."
+    },
+    "shiuli": {
+      "type": "vocabulary",
+      "description": "A fragrant night-flowering jasmine tree."
+    },
+    "dalna": {
+      "type": "vocabulary",
+      "description": "A Bengali spiced curry, often with vegetables."
+    },
+    "shuktoni": {
+      "type": "vocabulary",
+      "description": "A Bengali mixed vegetable dish, usually with bitter gourd."
+    },
+    "thor’er ghonto": {
+      "type": "vocabulary",
+      "description": "A curry made from banana stem."
+    },
+    "chingri mach’er jhol": {
+      "type": "vocabulary",
+      "description": "Prawn stew, a Bengali delicacy."
+    },
+    "payesh": {
+      "type": "vocabulary",
+      "description": "Rice pudding, a traditional Bengali dessert."
+    },
+    "mocha’r ghonto": {
+      "type": "vocabulary",
+      "description": "Banana blossom curry."
+    },
+    "shil-nora": {
+      "type": "vocabulary",
+      "description": "Grinding stone used in Indian kitchens."
+    },
+    "pishashashuri": {
+      "type": "vocabulary",
+      "description": "Husband’s paternal aunt-in-law."
+    },
+    "makri": {
+      "type": "vocabulary",
+      "description": "Homemade Bengali sweets."
+    },
+    "fulot bashi": {
+      "type": "vocabulary",
+      "description": "A type of flute, possibly a Western flute."
+    },
+    "mete alu": {
+      "type": "vocabulary",
+      "description": "Wild potatoes, not typically eaten."
+    },
+    "natphal": {
+      "type": "vocabulary",
+      "description": "Seeds used as playthings or in rituals."
+    },
+    "dao": {
+      "type": "vocabulary",
+      "description": "A curved village knife used for cutting."
+    },
+    "patali": {
+      "type": "vocabulary",
+      "description": "Solidified date palm jaggery."
+    },
+    "puffed rice": {
+      "type": "vocabulary",
+      "description": "Light, airy rice used as a snack or in picnics."
+    },
+    "begun bhaja": {
+      "type": "vocabulary",
+      "description": "Fried eggplant, a Bengali dish."
+    },
+    "choruibhati": {
+      "type": "vocabulary",
+      "description": "Children’s picnic where everyone brings food to share."
+    },
+    "bel": {
+      "type": "vocabulary",
+      "description": "Wood apple tree."
+    },
+    "cheroot": {
+      "type": "vocabulary",
+      "description": "A thin cigar."
+    },
+    "kutumbini": {
+      "type": "vocabulary",
+      "description": "Female relative by marriage."
+    },
+    "taka": {
+      "type": "vocabulary",
+      "description": "Currency unit in Bengal."
+    },
+    "sannyasi": {
+      "type": "vocabulary",
+      "description": "Ascetic or holy man, especially one participating in festivals."
+    },
+    "mandap": {
+      "type": "vocabulary",
+      "description": "A pavilion or temporary structure for rituals."
+    },
+    "chik": {
+      "type": "vocabulary",
+      "description": "Bamboo screen or mat."
+    },
+    "nichu": {
+      "type": "vocabulary",
+      "description": "Wild berries, often bright red."
+    },
+    "boshtom": {
+      "type": "vocabulary",
+      "description": "Vaishnavi mendicants."
+    },
+    "macha": {
+      "type": "vocabulary",
+      "description": "Raised platform, often for sitting or gathering."
+    },
+    "gandhabhedali": {
+      "type": "vocabulary",
+      "description": "A medicinal plant with fragrant leaves."
+    },
+    "panchali": {
+      "type": "vocabulary",
+      "description": "A narrative song or ballad."
+    },
+    "dholak": {
+      "type": "vocabulary",
+      "description": "A two-headed hand drum."
+    },
+    "mandira": {
+      "type": "vocabulary",
+      "description": "Small metallic cymbals used in devotional music."
+    },
+    "muri": {
+      "type": "vocabulary",
+      "description": "Puffed rice, a common Bengali snack."
+    },
+    "sheyakul": {
+      "type": "vocabulary",
+      "description": "A type of wild berry."
+    },
+    "shālik": {
+      "type": "vocabulary",
+      "description": "A type of myna bird."
+    },
+    "shaora": {
+      "type": "vocabulary",
+      "description": "A type of tree, possibly Indian Elm."
+    },
+    "durba grass": {
+      "type": "vocabulary",
+      "description": "A type of tough grass, often used in rituals."
+    },
+    "muchukund-champa": {
+      "type": "vocabulary",
+      "description": "A fragrant flower."
+    },
+    "rasunchouki": {
+      "type": "vocabulary",
+      "description": "A type of drum used in folk music."
+    },
+    "charak-tala": {
+      "type": "vocabulary",
+      "description": "The ground or field where Charak festival is held."
+    },
+    "gajan": {
+      "type": "vocabulary",
+      "description": "A festival associated with Charak Puja, involving ascetic practices."
+    },
+    "Neel Puja": {
+      "type": "vocabulary",
+      "description": "A ritual worship of Shiva, associated with the Charak festival."
+    },
+    "dadu": {
+      "type": "vocabulary",
+      "description": "Grandfather or affectionate term for an old man."
+    },
+    "dadu bhai": {
+      "type": "vocabulary",
+      "description": "Dear grandson."
+    },
+    "khuki": {
+      "type": "vocabulary",
+      "description": "Affectionate term for a little girl."
+    },
+    "thakuron": {
+      "type": "vocabulary",
+      "description": "Respectful address for a woman."
+    },
+    "Rajyeshwar Babu": {
+      "type": "character",
+      "description": "Nirendra's father, an elder to whom Harihar writes regarding marriage prospects for Durga."
+    },
+    "Senjuti": {
+      "type": "character",
+      "description": "A person associated with drawing ritual patterns, possibly a neighbor or family acquaintance."
+    },
+    "Jibon Chowdhury": {
+      "type": "character",
+      "description": "Owner of the house where the old Muslim magician performs his show."
+    },
+    "Amba": {
+      "type": "character",
+      "description": "A fictional princess in Apu's play, who is revived or married off in the story."
+    },
+    "Nilambar": {
+      "type": "character",
+      "description": "A fictional prince in Apu's play, who faces adversity."
+    },
+    "Jibanketu": {
+      "type": "character",
+      "description": "A loyal general in Apu's play, who may marry the princess Amba."
+    },
+    "Narada": {
+      "type": "character",
+      "description": "A mythological sage whose boon revives the princess Amba in Apu's play."
+    },
+    "Taj Bibika": {
+      "type": "proper_noun",
+      "description": "Refers to the Taj Mahal, called the 'Taj Queen's tomb' in the magic show."
+    },
+    "Arabian": {
+      "type": "proper_noun",
+      "description": "Refers to Arabian tales or stories, evoking magical and fantastical elements."
+    },
+    "pandit": {
+      "type": "vocabulary",
+      "description": "A learned scholar, especially in Sanskrit and Hindu law or philosophy."
+    },
+    "drumstick": {
+      "type": "vocabulary",
+      "description": "Refers to the moringa tree, whose long, slender seed pods are used as a vegetable."
+    },
+    "in-laws": {
+      "type": "vocabulary",
+      "description": "Refers to the family one joins through marriage."
+    },
+    "roti": {
+      "type": "vocabulary",
+      "description": "A type of unleavened flatbread, staple in Indian and Bengali cuisine."
+    },
+    "babui": {
+      "type": "vocabulary",
+      "description": "The weaverbird, known for its intricately woven nests."
+    },
+    "shyama": {
+      "type": "vocabulary",
+      "description": "The magpie-robin, a small songbird common in Bengal."
+    },
+    "bel-kanta": {
+      "type": "vocabulary",
+      "description": "Thorny branches, often used as a barrier or protection for gardens."
+    },
+    "poisha": {
+      "type": "vocabulary",
+      "description": "A small unit of currency in Bengal, similar to a paisa."
+    },
+    "betel": {
+      "type": "vocabulary",
+      "description": "A leaf from the betel plant, often chewed with areca nut and catechu in South Asia."
+    },
+    "cowries": {
+      "type": "vocabulary",
+      "description": "Small shells historically used as currency or for decorative purposes in Bengal."
+    },
+    "satchel": {
+      "type": "vocabulary",
+      "description": "A bag, often used by students to carry books and supplies."
+    },
+    "Nilmoni Mukherjee": {
+      "type": "character",
+      "description": "A respected neighbor and his son who assist Harihar's family during times of illness and crisis."
+    },
+    "Puti": {
+      "type": "character",
+      "description": "A village child who receives and brings letters and newspapers, mentioned as a peer of Apu."
+    },
+    "Dinu Chowdhury": {
+      "type": "character",
+      "description": "A villager who discusses astrology and the Bhrigu-Samhita during gatherings."
+    },
+    "Rammo": {
+      "type": "character",
+      "description": "A villager who warns others during the storm at the Chandimandap."
+    },
+    "Sadhu": {
+      "type": "character",
+      "description": "The village blacksmith, whose shed is mentioned as a place where pigeons shelter."
+    },
+    "Bototakur": {
+      "type": "character",
+      "description": "The village priest whom Sarbajaya calls for help when Durga falls seriously ill."
+    },
+    "Dr. Sharat": {
+      "type": "character",
+      "description": "A doctor from Nababganj who attends to Durga during her illness."
+    },
+    "Atasi": {
+      "type": "character",
+      "description": "Nilmoni Ray's daughter, about fourteen, described as comely and well-dressed."
+    },
+    "Suresh": {
+      "type": "character",
+      "description": "Nilmoni Ray's eldest son, a student in Calcutta, who is Apu's peer but does not befriend him."
+    },
+    "Potu": {
+      "type": "character",
+      "description": "A Brahmin boy from the fishermen's quarter who is Apu's close friend and skilled at the shell game."
+    },
+    "Sunayani": {
+      "type": "character",
+      "description": "The daughter of the Ganguli family, seen at the festival."
+    },
+    "Bhombol": {
+      "type": "character",
+      "description": "Dinu Bhattacharya's son, noted as a ganja-smoker and unfit to succeed his father."
+    },
+    "Kandarpo Majumdar": {
+      "type": "character",
+      "description": "A Brahmin mentioned during the adyashraddha feast dispute."
+    },
+    "Bishweshwar Bhattacharya": {
+      "type": "character",
+      "description": "Apu's father, mentioned in the context of the adyashraddha feast."
+    },
+    "Rakkhit Mahashay": {
+      "type": "character",
+      "description": "A timber merchant who helps Harihar find employment."
+    },
+    "Ganguli": {
+      "type": "character",
+      "description": "A prominent village family, hosts of the annual puja."
+    },
+    "Dinuda": {
+      "type": "character",
+      "description": "A shehnai player from Anshmali who plays at the Ganguli family's festival."
+    },
+    "Ma Siddheshwari": {
+      "type": "character",
+      "description": "The goddess of the local temple to whom the villagers and Sarbajaya pray for protection and good news."
+    },
+    "Bauri": {
+      "type": "character",
+      "description": "A community who gather lotus blooms for the festival."
+    },
+    "Chhoto Kaka": {
+      "type": "character",
+      "description": "Satu's younger uncle, owner of some books."
+    },
+    "Mejdi": {
+      "type": "character",
+      "description": "Second eldest sister, mentioned in Sarbajaya's hopes for Apu."
+    },
+    "Charitmala": {
+      "type": "proper_noun",
+      "description": "A book written by Ishwar Chandra Vidyasagar, read by Apu."
+    },
+    "Ishwar Chandra Vidyasagar": {
+      "type": "proper_noun",
+      "description": "A renowned Bengali reformer and writer, author of Charitmala."
+    },
+    "Shubhonkari": {
+      "type": "proper_noun",
+      "description": "A traditional Bengali math primer mentioned as unappealing to Apu."
+    },
+    "Puri": {
+      "type": "proper_noun",
+      "description": "A famous pilgrimage city in Odisha, India, mentioned in tales; also a deep-fried wheat bread."
+    },
+    "Bhrigu-Samhita": {
+      "type": "proper_noun",
+      "description": "An ancient astrological text said to predict past and future."
+    },
+    "Arya": {
+      "type": "proper_noun",
+      "description": "A reference to a counting book or primer for coins."
+    },
+    "Mukherjee": {
+      "type": "proper_noun",
+      "description": "A prominent family in the village, referenced multiple times."
+    },
+    "Khottas": {
+      "type": "proper_noun",
+      "description": "A community or group known for lime boats."
+    },
+    "Barase": {
+      "type": "proper_noun",
+      "description": "A marsh area from where lotus blooms are gathered for the festival."
+    },
+    "Anshmali": {
+      "type": "proper_noun",
+      "description": "Home village of Dinuda, the shehnai player."
+    },
+    "Goari Krishnanagar": {
+      "type": "proper_noun",
+      "description": "A town where Harihar seeks work."
+    },
+    "Chandi": {
+      "type": "proper_noun",
+      "description": "A sacred Hindu text recited by Brahmins for worship."
+    },
+    "Harisabha": {
+      "type": "proper_noun",
+      "description": "A religious community center where Harihar seeks shelter."
+    },
+    "Khore": {
+      "type": "proper_noun",
+      "description": "A river where Harihar washes up and reflects."
+    },
+    "Padmapuran": {
+      "type": "proper_noun",
+      "description": "A Hindu scripture, much desired by Apu."
+    },
+    "Bat-tala": {
+      "type": "proper_noun",
+      "description": "A Kolkata area known for cheap, mass-produced books."
+    },
+    "Yugipara": {
+      "type": "proper_noun",
+      "description": "A place from which Harihar borrows the Padmapuran."
+    },
+    "Kuchuni Para": {
+      "type": "proper_noun",
+      "description": "A location in a story from the Padmapuran."
+    },
+    "Krishnanagar": {
+      "type": "proper_noun",
+      "description": "A town where Harihar finds employment."
+    },
+    "Churnighat": {
+      "type": "proper_noun",
+      "description": "A ferry point where travelers board boats."
+    },
+    "Ranaghat": {
+      "type": "proper_noun",
+      "description": "A bazaar town where Harihar shops for his family."
+    },
+    "Shantipur": {
+      "type": "proper_noun",
+      "description": "A town whose businessmen travel to Calcutta for cloth."
+    },
+    "Chitrita Chandi-Mahatmya": {
+      "type": "proper_noun",
+      "description": "An illustrated book purchased by Harihar for Apu."
+    },
+    "Kalketu": {
+      "type": "proper_noun",
+      "description": "A character in the Chandi-Mahatmya tale."
+    },
+    "shefali": {
+      "type": "proper_noun",
+      "description": "A flower associated with autumn and festivals."
+    },
+    "Himalayas": {
+      "type": "proper_noun",
+      "description": "The mountain range referenced as the origin of migratory birds."
+    },
+    "Lahore": {
+      "type": "proper_noun",
+      "description": "A city in the western provinces, where Nilmoni Ray's family lived."
+    },
+    "Patna": {
+      "type": "proper_noun",
+      "description": "A city where Suresh's cousin is a barrister."
+    },
+    "Ramnath Ganguli": {
+      "type": "proper_noun",
+      "description": "A classmate of Suresh, from the Ganguli family."
+    },
+    "Bangabasi": {
+      "type": "proper_noun",
+      "description": "A Bengali newspaper, treasured by Apu and his father."
+    },
+    "Manasa Puja": {
+      "type": "proper_noun",
+      "description": "A ritual worship of the snake goddess Manasa."
+    },
+    "Phagun": {
+      "type": "proper_noun",
+      "description": "The Bengali month corresponding to spring, mentioned in context of ceremonies."
+    },
+    "Satyanarayan puja": {
+      "type": "proper_noun",
+      "description": "A Hindu ritual worship for prosperity."
+    },
+    "Jelekha": {
+      "type": "proper_noun",
+      "description": "A river mentioned in Apu's imaginative adventures."
+    },
+    "Grace Darling": {
+      "type": "proper_noun",
+      "description": "A historical English heroine, referenced in Apu's readings."
+    },
+    "Zutphen": {
+      "type": "proper_noun",
+      "description": "A place in the story of Sir Philip Sidney, referenced by Suresh."
+    },
+    "Martinique": {
+      "type": "proper_noun",
+      "description": "An island referenced in Bangabasi stories."
+    },
+    "Mount Pelée": {
+      "type": "proper_noun",
+      "description": "A volcano on Martinique, referenced in Bangabasi stories."
+    },
+    "Batgar": {
+      "type": "proper_noun",
+      "description": "A place associated with the golden-skinned magician in stories."
+    },
+    "Lorraine": {
+      "type": "proper_noun",
+      "description": "A province in France, home of Joan of Arc in Apu's readings."
+    },
+    "Joan": {
+      "type": "proper_noun",
+      "description": "Refers to Joan of Arc, the French heroine."
+    },
+    "Sagar Island": {
+      "type": "proper_noun",
+      "description": "An island at the mouth of the Bay of Bengal, referenced in Apu's imagined voyage."
+    },
+    "Ceylonese": {
+      "type": "proper_noun",
+      "description": "Relating to Ceylon (now Sri Lanka), referenced in Apu's imagined travels."
+    },
+    "Aden": {
+      "type": "proper_noun",
+      "description": "A port city in Yemen, referenced in Apu's imagined travels."
+    },
+    "Bilat": {
+      "type": "proper_noun",
+      "description": "A colloquial Bengali term for England."
+    },
+    "Japan": {
+      "type": "proper_noun",
+      "description": "A country Apu dreams of visiting."
+    },
+    "China Sea": {
+      "type": "proper_noun",
+      "description": "A sea referenced in Apu's imagined adventures."
+    },
+    "Bunas": {
+      "type": "proper_noun",
+      "description": "A river referenced in the tales of Rajputana."
+    },
+    "Bari": {
+      "type": "proper_noun",
+      "description": "Another river referenced in the tales of Rajputana."
+    },
+    "Dewar": {
+      "type": "proper_noun",
+      "description": "A battlefield in the tales of Rajput valor."
+    },
+    "Haldighat": {
+      "type": "proper_noun",
+      "description": "A historic battlefield in Rajasthan, referenced in Apu's readings."
+    },
+    "Aravalli": {
+      "type": "proper_noun",
+      "description": "A mountain range in Rajasthan, referenced in Apu's readings."
+    },
+    "Mewar": {
+      "type": "proper_noun",
+      "description": "A region in Rajasthan, referenced in Apu's readings."
+    },
+    "Delhi": {
+      "type": "proper_noun",
+      "description": "The capital city of India, referenced in historical tales."
+    },
+    "Agra": {
+      "type": "proper_noun",
+      "description": "A city in India, referenced in historical tales."
+    },
+    "Pune": {
+      "type": "proper_noun",
+      "description": "A city in Maharashtra, referenced in tales about Shivaji."
+    },
+    "Aurangzeb": {
+      "type": "proper_noun",
+      "description": "A Mughal emperor, referenced in tales about Shivaji."
+    },
+    "Shivaji": {
+      "type": "proper_noun",
+      "description": "A legendary Maratha king, featured in Apu's readings."
+    },
+    "Pratap Singh": {
+      "type": "proper_noun",
+      "description": "A Rajput hero, featured in Apu's readings."
+    },
+    "Amarsingh": {
+      "type": "proper_noun",
+      "description": "A Rajput ruler, referenced in Apu's readings."
+    },
+    "Tej Singh": {
+      "type": "proper_noun",
+      "description": "A Rajput warrior, referenced in Apu's readings."
+    },
+    "Noorjahan": {
+      "type": "proper_noun",
+      "description": "A Mughal empress, referenced in Apu's readings."
+    },
+    "Pushpakumari": {
+      "type": "proper_noun",
+      "description": "A character in the tales Apu reads."
+    },
+    "Chittor": {
+      "type": "proper_noun",
+      "description": "A historic fort city in Rajasthan, referenced in Apu's readings."
+    },
+    "Bhil": {
+      "type": "proper_noun",
+      "description": "An indigenous community of central and western India, featured in tales."
+    },
+    "Magro": {
+      "type": "proper_noun",
+      "description": "A place in the Bhil lands, referenced in Apu's readings."
+    },
+    "Komolmir": {
+      "type": "proper_noun",
+      "description": "A place referenced in Rajput tales."
+    },
+    "Surjagarh": {
+      "type": "proper_noun",
+      "description": "A battlefield referenced in Rajput tales."
+    },
+    "Shahbaz Khan": {
+      "type": "proper_noun",
+      "description": "A general in the Rajput tales."
+    },
+    "Chenar": {
+      "type": "proper_noun",
+      "description": "A type of tree, referenced in the tales."
+    },
+    "Mibar-Lakshmi": {
+      "type": "proper_noun",
+      "description": "A goddess referenced in the tales."
+    },
+    "Alaka": {
+      "type": "proper_noun",
+      "description": "A mythical city, referenced in Apu's imagination."
+    },
+    "Bhuban-kaka": {
+      "type": "proper_noun",
+      "description": "A relative or elder, mentioned in the context of the bamboo grove."
+    },
+    "Madhabpur": {
+      "type": "proper_noun",
+      "description": "A neighboring village, visible from the riverbank."
+    },
+    "Kanchikata": {
+      "type": "proper_noun",
+      "description": "A canal meeting the Ichhamati river."
+    },
+    "Kadamtala": {
+      "type": "proper_noun",
+      "description": "A ghat (river landing) where boats are moored."
+    },
+    "Chaltipota": {
+      "type": "proper_noun",
+      "description": "A bend in the river, visible from the boat."
+    },
+    "La-Bhanga": {
+      "type": "proper_noun",
+      "description": "A wide bend in the river, reached by boat."
+    },
+    "Ma-thakrun": {
+      "type": "vocabulary",
+      "description": "Another term for an elderly woman, used by a villager; a respectful term for an elderly woman, often grandmother or matriarch."
+    },
+    "vaidya": {
+      "type": "vocabulary",
+      "description": "A traditional Ayurvedic doctor."
+    },
+    "Bhadrā": {
+      "type": "vocabulary",
+      "description": "A Bengali month, corresponding to August-September."
+    },
+    "Raktabeej": {
+      "type": "vocabulary",
+      "description": "A demon from Hindu mythology whose spilled blood creates more demons."
+    },
+    "koi fish": {
+      "type": "vocabulary",
+      "description": "A type of walking catfish found in Bengal, known for surviving in low water."
+    },
+    "neem": {
+      "type": "vocabulary",
+      "description": "A medicinal tree, leaves used for their healing properties."
+    },
+    "paisa": {
+      "type": "vocabulary",
+      "description": "A small coin, a subunit of the rupee."
+    },
+    "sago": {
+      "type": "vocabulary",
+      "description": "Starch extracted from tropical palms, used in Indian fasting foods."
+    },
+    "Bhim Bhairav": {
+      "type": "vocabulary",
+      "description": "A fierce form of Shiva, invoked as a symbol of destruction."
+    },
+    "pantua": {
+      "type": "vocabulary",
+      "description": "A Bengali sweet, similar to gulab jamun, made from deep-fried balls soaked in syrup."
+    },
+    "gaja": {
+      "type": "vocabulary",
+      "description": "A Bengali sweet, deep-fried and syrup-soaked."
+    },
+    "gamcha": {
+      "type": "vocabulary",
+      "description": "A thin cotton towel, commonly used in Bengal."
+    },
+    "chhada": {
+      "type": "vocabulary",
+      "description": "A ritual offering or share of food distributed at religious feasts."
+    },
+    "adyashraddha": {
+      "type": "vocabulary",
+      "description": "A ritual feast in memory of ancestors."
+    },
+    "mansabdar": {
+      "type": "vocabulary",
+      "description": "A military rank or nobleman in Mughal India."
+    },
+    "orna": {
+      "type": "vocabulary",
+      "description": "A long scarf or veil, part of women's attire."
+    },
+    "peshwaz": {
+      "type": "vocabulary",
+      "description": "A traditional long gown worn by women."
+    },
+    "aheriya": {
+      "type": "vocabulary",
+      "description": "A festival or ritual, possibly related to hunting or spring."
+    },
+    "bajra": {
+      "type": "vocabulary",
+      "description": "Pearl millet, a staple grain in parts of India."
+    },
+    "jowar": {
+      "type": "vocabulary",
+      "description": "Sorghum, a staple grain."
+    },
+    "alakta": {
+      "type": "vocabulary",
+      "description": "A red dye applied to women's feet, similar to alta."
+    },
+    "golpata": {
+      "type": "vocabulary",
+      "description": "Nipa palm leaves, used for thatching."
+    },
+    "majhi": {
+      "type": "vocabulary",
+      "description": "Boatman."
+    },
+    "kolmi-shak": {
+      "type": "vocabulary",
+      "description": "Water spinach, an edible leafy plant."
+    },
+    "gangshalik": {
+      "type": "vocabulary",
+      "description": "River myna, a type of bird."
+    },
+    "akanda": {
+      "type": "vocabulary",
+      "description": "Milkweed, a plant whose seeds are dispersed by wind."
+    },
+    "jali-boat": {
+      "type": "vocabulary",
+      "description": "A small fishing boat."
+    },
+    "gugli-snails": {
+      "type": "vocabulary",
+      "description": "Freshwater snails, often eaten as food."
+    },
+    "saibaba": {
+      "type": "vocabulary",
+      "description": "A tree species, possibly Albizia or similar."
+    },
+    "kadam": {
+      "type": "vocabulary",
+      "description": "A tropical tree with round, fragrant flowers."
+    },
+    "ulubon": {
+      "type": "vocabulary",
+      "description": "Wild grass found in Bengal."
+    },
+    "kash": {
+      "type": "vocabulary",
+      "description": "Tall, white-flowered grass, blooms in autumn."
+    },
+    "zhena fish": {
+      "type": "vocabulary",
+      "description": "A small, common river fish."
+    },
+    "sarputi": {
+      "type": "vocabulary",
+      "description": "A small river fish, prized in Bengali cuisine."
+    },
+    "shehnai": {
+      "type": "vocabulary",
+      "description": "A traditional North Indian wind instrument, played at ceremonies."
+    },
+    "rasonchouki": {
+      "type": "vocabulary",
+      "description": "A musical performance or session, often at festivals."
+    },
+    "Agomoni": {
+      "type": "vocabulary",
+      "description": "Songs welcoming the goddess Durga during autumn festivals."
+    },
+    "prasad": {
+      "type": "vocabulary",
+      "description": "Food offered to a deity and then distributed as a blessing."
+    },
+    "Didi": {
+      "type": "vocabulary",
+      "description": "Elder sister."
+    },
+    "Bou": {
+      "type": "vocabulary",
+      "description": "Daughter-in-law or wife, used as a respectful address for a married woman."
+    },
+    "Atosidi": {
+      "type": "vocabulary",
+      "description": "Elder sister Atasi."
+    },
+    "pisima": {
+      "type": "character",
+      "description": "Another term for Apu's father's sister."
+    },
+    "pishemoshai": {
+      "type": "character",
+      "description": "Apu's uncle by marriage, husband of his pishi."
+    },
+    "Gulki": {
+      "type": "character",
+      "description": "An orphan girl living in Ganganandpur, befriended by Apu."
+    },
+    "Rajib": {
+      "type": "character",
+      "description": "A boy mentioned in comparison to Apu's pishi's age."
+    },
+    "Nibaran Mukherjee": {
+      "type": "character",
+      "description": "A villager whose wife is a distant relative of Gulki."
+    },
+    "Kunj Chakraborty": {
+      "type": "character",
+      "description": "Apu's uncle by marriage in Ganganandpur."
+    },
+    "Aturi budi": {
+      "type": "character",
+      "description": "An old woman of the village, once feared as a witch, who dies during the Charak festival."
+    },
+    "Panchu": {
+      "type": "character",
+      "description": "The fisherman’s son who finds Aturi budi's body."
+    },
+    "Bhulo": {
+      "type": "character",
+      "description": "The stray dog that belonged to Apu's family."
+    },
+    "Hiru": {
+      "type": "character",
+      "description": "The cart-driver who helps the family move."
+    },
+    "Rajkrishna Bhattacharya": {
+      "type": "character",
+      "description": "A village elder who invites Apu's family for Savitri Brata."
+    },
+    "Neelmoni jetha": {
+      "type": "character",
+      "description": "Apu's elder uncle or a village elder associated with the troupe and local homesteads."
+    },
+    "Bostom dadu": {
+      "type": "character",
+      "description": "An elderly Baul or wandering minstrel known for singing."
+    },
+    "Haran Mal": {
+      "type": "character",
+      "description": "The village flute-seller from Malpara, known to Apu as an uncle figure."
+    },
+    "Khotta bou": {
+      "type": "character",
+      "description": "The upstairs neighbor in Kashi, a married woman from a particular community."
+    },
+    "Poltu": {
+      "type": "character",
+      "description": "A boy Apu befriends in Kashi."
+    },
+    "Poltu’s dada": {
+      "type": "character",
+      "description": "Poltu’s elder brother, who discusses his family's background with Apu."
+    },
+    "Kathak Thakur": {
+      "type": "character",
+      "description": "A storyteller and acquaintance of Harihar in Kashi."
+    },
+    "Ganganandpur": {
+      "type": "proper_noun",
+      "description": "A village where Apu's pishima lives and where he performs worship."
+    },
+    "Siddheshwari Thakur-bari": {
+      "type": "proper_noun",
+      "description": "A temple-house in Ganganandpur where Sarbajaya has a vow to fulfill."
+    },
+    "Natidanga": {
+      "type": "proper_noun",
+      "description": "A village with a baor (oxbow lake) where people fish."
+    },
+    "Harishpur": {
+      "type": "proper_noun",
+      "description": "A village Apu passes through on his journey."
+    },
+    "Bamunpara": {
+      "type": "proper_noun",
+      "description": "A locality Apu passes through with Gulki."
+    },
+    "Ashadhu Bazaar": {
+      "type": "proper_noun",
+      "description": "A market where Apu's family crosses the Betroboti river."
+    },
+    "Betroboti": {
+      "type": "proper_noun",
+      "description": "A river crossed by ferry during the family's move."
+    },
+    "Barase-Madhukhali bil": {
+      "type": "proper_noun",
+      "description": "A large wetland or lake along the journey."
+    },
+    "Dhonche-Polashgachi": {
+      "type": "proper_noun",
+      "description": "A distant village mentioned by Harihar."
+    },
+    "Natabere": {
+      "type": "proper_noun",
+      "description": "A village near Dhonche-Polashgachi, known for its fair."
+    },
+    "Bonbibi": {
+      "type": "proper_noun",
+      "description": "A shrine under a banyan tree near Natabere."
+    },
+    "Shraban": {
+      "type": "proper_noun",
+      "description": "A month in the Bengali calendar (July-August) when fairs are held."
+    },
+    "Asharu": {
+      "type": "proper_noun",
+      "description": "The world beyond the village, reached after leaving Sonadanga."
+    },
+    "Chandranath": {
+      "type": "proper_noun",
+      "description": "A pilgrimage destination mentioned by Rajkrishna Bhattacharya."
+    },
+    "Rath fair": {
+      "type": "proper_noun",
+      "description": "A local fair where Aturi budi sold amchur."
+    },
+    "Malpara": {
+      "type": "proper_noun",
+      "description": "The neighborhood of the flute-seller Haran Mal."
+    },
+    "Chataker Maath": {
+      "type": "proper_noun",
+      "description": "A field named after the chatak bird."
+    },
+    "Barowari": {
+      "type": "proper_noun",
+      "description": "A community festival or event; community event, often for worship or performance."
+    },
+    "Kurulgachhi": {
+      "type": "proper_noun",
+      "description": "A railway station on Apu's journey."
+    },
+    "Govindpur": {
+      "type": "proper_noun",
+      "description": "A railway station on Apu's journey."
+    },
+    "Banpur": {
+      "type": "proper_noun",
+      "description": "A railway station on Apu's journey."
+    },
+    "Jagannathpur": {
+      "type": "proper_noun",
+      "description": "A railway station where Sarbajaya buys sweets."
+    },
+    "Naihati": {
+      "type": "proper_noun",
+      "description": "A railway station where the family changes trains."
+    },
+    "Banshfotka Lane": {
+      "type": "proper_noun",
+      "description": "The street in Kashi where Apu's family rents a house."
+    },
+    "Vishwanath": {
+      "type": "proper_noun",
+      "description": "The main temple of Shiva in Kashi."
+    },
+    "Jugalkishore Thakur": {
+      "type": "proper_noun",
+      "description": "A deity at a temple in Aranghata visited by Sarbajaya."
+    },
+    "Vishweshwar Lane": {
+      "type": "proper_noun",
+      "description": "A street in Kashi where Ramgopal Sahu lives."
+    },
+    "Shasthi temple": {
+      "type": "proper_noun",
+      "description": "A temple in Kashi where Harihar performs."
+    },
+    "Kashikhanda": {
+      "type": "proper_noun",
+      "description": "A religious text recited by Harihar."
+    },
+    "Bishweshwar’s alley": {
+      "type": "proper_noun",
+      "description": "A location in Kashi known for its sweets."
+    },
+    "Naradghat": {
+      "type": "proper_noun",
+      "description": "A ghat in Kashi with a Kali temple."
+    },
+    "Mandhata": {
+      "type": "proper_noun",
+      "description": "A legendary king, referenced in folk songs."
+    },
+    "Sindhu-Sauvira": {
+      "type": "proper_noun",
+      "description": "A kingdom mentioned in the story of Rajarshi Bharat."
+    },
+    "Patna City": {
+      "type": "proper_noun",
+      "description": "A major railway station on the journey to Kashi."
+    },
+    "Satkhira": {
+      "type": "proper_noun",
+      "description": "A place near Shitalkathi, home of Kathak Thakur."
+    },
+    "Shitalkathi": {
+      "type": "proper_noun",
+      "description": "A village near Satkhira, home of the Chakkatti family."
+    },
+    "chira": {
+      "type": "vocabulary",
+      "description": "Flattened rice, a common snack."
+    },
+    "nadu": {
+      "type": "vocabulary",
+      "description": "Sweet coconut balls."
+    },
+    "jethima": {
+      "type": "vocabulary",
+      "description": "Father’s elder brother’s wife (aunt)."
+    },
+    "kaibichi": {
+      "type": "vocabulary",
+      "description": "A kind of wild berry."
+    },
+    "goala": {
+      "type": "vocabulary",
+      "description": "Cowherd caste/community."
+    },
+    "sadgop": {
+      "type": "vocabulary",
+      "description": "A farming caste/community."
+    },
+    "poysha": {
+      "type": "vocabulary",
+      "description": "A small coin, currency unit."
+    },
+    "dakshina": {
+      "type": "vocabulary",
+      "description": "Monetary offering to a priest."
+    },
+    "anna": {
+      "type": "vocabulary",
+      "description": "A larger coin, 1/16 of a rupee."
+    },
+    "bel leaves": {
+      "type": "vocabulary",
+      "description": "Leaves of the bael tree, sacred in Hindu worship."
+    },
+    "baor": {
+      "type": "vocabulary",
+      "description": "An oxbow lake."
+    },
+    "ektara": {
+      "type": "vocabulary",
+      "description": "A single-stringed musical instrument."
+    },
+    "kalmi": {
+      "type": "vocabulary",
+      "description": "A kind of wild creeper or water spinach."
+    },
+    "babul": {
+      "type": "vocabulary",
+      "description": "A type of tree (Acacia)."
+    },
+    "sōndali": {
+      "type": "vocabulary",
+      "description": "A type of wildflower."
+    },
+    "bou-kotha-kao": {
+      "type": "vocabulary",
+      "description": "A bird, the Indian cuckoo."
+    },
+    "papia": {
+      "type": "vocabulary",
+      "description": "A bird, the Indian cuckoo."
+    },
+    "ulughash": {
+      "type": "vocabulary",
+      "description": "Wild grass."
+    },
+    "ulukhud": {
+      "type": "vocabulary",
+      "description": "Reeds and wild grass."
+    },
+    "ghunghat": {
+      "type": "vocabulary",
+      "description": "A veil worn by women."
+    },
+    "khalasi": {
+      "type": "vocabulary",
+      "description": "Railway porter."
+    },
+    "muri’r moa": {
+      "type": "vocabulary",
+      "description": "A sweet made from puffed rice and jaggery."
+    },
+    "bouthans": {
+      "type": "vocabulary",
+      "description": "Sisters-in-law."
+    },
+    "arati": {
+      "type": "vocabulary",
+      "description": "A ritual of waving lamps before a deity."
+    },
+    "dhuno": {
+      "type": "vocabulary",
+      "description": "Incense or resin burned in rituals."
+    },
+    "mantra": {
+      "type": "vocabulary",
+      "description": "A sacred chant or prayer."
+    },
+    "Banarasi sari": {
+      "type": "vocabulary",
+      "description": "A fine silk sari from Varanasi, often with gold embroidery."
+    },
+    "jilipi": {
+      "type": "vocabulary",
+      "description": "A sweet, also known as jalebi."
+    },
+    "barqosh": {
+      "type": "vocabulary",
+      "description": "A large, woven bamboo basket."
+    },
+    "jhi": {
+      "type": "vocabulary",
+      "description": "Maidservant."
+    },
+    "Baichifol": {
+      "type": "vocabulary",
+      "description": "A traditional folk tale."
+    },
+    "Jarabharata": {
+      "type": "vocabulary",
+      "description": "A character from Indian epic tales."
+    },
+    "Shuk-Sari": {
+      "type": "vocabulary",
+      "description": "Traditional folk song duels, named after the parrot and the mynah."
+    },
+    "kabir": {
+      "type": "vocabulary",
+      "description": "Folk singer or bard."
+    },
+    "zamindari": {
+      "type": "vocabulary",
+      "description": "Landholding or estate."
+    },
+    "shishya-bari": {
+      "type": "vocabulary",
+      "description": "Disciples’ homes."
+    },
+    "pala": {
+      "type": "vocabulary",
+      "description": "A dramatic folk performance or script."
+    },
+    "patali gur": {
+      "type": "vocabulary",
+      "description": "A type of jaggery made from date palm sap."
+    },
+    "bigha": {
+      "type": "vocabulary",
+      "description": "A traditional unit of land measurement."
+    },
+    "chatak": {
+      "type": "vocabulary",
+      "description": "A bird, the pied crested cuckoo."
+    },
+    "amchur": {
+      "type": "vocabulary",
+      "description": "Dried mango slices, used as a tangy spice."
+    },
+    "Savitri Brata": {
+      "type": "vocabulary",
+      "description": "A ritual fast observed by married women for their husbands' longevity."
+    },
+    "Dol festival": {
+      "type": "vocabulary",
+      "description": "A festival of colors, similar to Holi."
+    },
+    "fuluri": {
+      "type": "vocabulary",
+      "description": "A fried snack made from gram flour."
+    },
+    "orkalam": {
+      "type": "vocabulary",
+      "description": "A local wildflower."
+    },
+    "rajnigandha": {
+      "type": "vocabulary",
+      "description": "Tuberose flower."
+    },
+    "Sita-haran": {
+      "type": "vocabulary",
+      "description": "Depiction of Sita's abduction from the Ramayana."
+    },
+    "Ram-Ravana": {
+      "type": "vocabulary",
+      "description": "Refers to the battle between Rama and Ravana from the Ramayana."
+    },
+    "tithi": {
+      "type": "vocabulary",
+      "description": "A lunar day in the Hindu calendar."
+    },
+    "baba re": {
+      "type": "vocabulary",
+      "description": "Exclamation meaning 'oh father!' or 'oh dear!'."
+    },
+    "Nandababu": {
+      "type": "character",
+      "description": "The upstairs neighbor in Kashi, younger than Harihar, who befriends Apu and becomes inappropriately familiar with Sarbajaya."
+    },
+    "Leela": {
+      "type": "character",
+      "description": "Daughter of Mejo Bou-rani, becomes Apu's friend and confidante in the new household."
+    },
+    "Mejo Bou-rani": {
+      "type": "character",
+      "description": "The middle daughter-in-law of the wealthy household, recently widowed, known for her beauty and kindness to Apu."
+    },
+    "Surajkuari": {
+      "type": "character",
+      "description": "The Punjabi woman living upstairs in Kashi, wife of Jalim Singh, who supports Sarbajaya during her troubles."
+    },
+    "Jalim Singh": {
+      "type": "character",
+      "description": "Punjabi railway overseer, husband of Surajkuari, helps Sarbajaya after Harihar's death."
+    },
+    "Girish Sarkar": {
+      "type": "character",
+      "description": "The gomosta (estate manager) in the wealthy household, stern and critical, especially of Apu."
+    },
+    "Chhutu": {
+      "type": "character",
+      "description": "The young khansama (household steward) in the wealthy house, sometimes scolds Apu."
+    },
+    "Bamni mashi": {
+      "type": "character",
+      "description": "An elderly Brahmin widow in the household, a relative of the babus, often converses with Sarbajaya."
+    },
+    "Mokshada": {
+      "type": "character",
+      "description": "A Brahmin cook in the wealthy household, sometimes mocks Sarbajaya."
+    },
+    "Sujata": {
+      "type": "character",
+      "description": "Daughter of the wealthy house, admired by Apu for her beauty and charm."
+    },
+    "Sadu jhi": {
+      "type": "character",
+      "description": "A maid or helper in the wealthy household, involved in kitchen gossip."
+    },
+    "Romen": {
+      "type": "character",
+      "description": "One of the boys in the wealthy household, sometimes plays with and sometimes excludes Apu."
+    },
+    "Tabu": {
+      "type": "character",
+      "description": "A younger boy in the household, gets into a scuffle with Apu."
+    },
+    "Santu": {
+      "type": "character",
+      "description": "Another boy in the wealthy household, part of the group that interacts with Apu."
+    },
+    "Manager-babu": {
+      "type": "character",
+      "description": "A senior official in the household, involved in disciplining Apu."
+    },
+    "Barobabu": {
+      "type": "character",
+      "description": "The head of the wealthy household, disciplines Apu after a quarrel."
+    },
+    "Dhirenbabu": {
+      "type": "character",
+      "description": "A household elder who comments on Apu's behavior."
+    },
+    "Biru Gomosta": {
+      "type": "character",
+      "description": "A clerk or assistant present at Apu's upanayan ceremony."
+    },
+    "Dinu Khatanji": {
+      "type": "character",
+      "description": "A respected outsider invited to Apu's upanayan ceremony."
+    },
+    "Mastermoshai": {
+      "type": "character",
+      "description": "The tutor of Leela and the other children in the wealthy household."
+    },
+    "Subir": {
+      "type": "character",
+      "description": "Another boy from Apu's earlier circle of friends."
+    },
+    "Gulu": {
+      "type": "character",
+      "description": "Another boy from Apu's earlier circle of friends."
+    },
+    "Tinu": {
+      "type": "character",
+      "description": "A village boy from Nishchindipur."
+    },
+    "Bhola": {
+      "type": "character",
+      "description": "A village boy from Nishchindipur."
+    },
+    "Ramnihor Singh": {
+      "type": "character",
+      "description": "The doorman in the wealthy household."
+    },
+    "Biru Muhuri": {
+      "type": "character",
+      "description": "The scribe in the accounts office."
+    },
+    "Ramdayal": {
+      "type": "character",
+      "description": "An office worker in the accounts office."
+    },
+    "Kshemijhi": {
+      "type": "character",
+      "description": "A maid in the wealthy household."
+    },
+    "Chhoto Mokshada": {
+      "type": "character",
+      "description": "A young maid in the wealthy household."
+    },
+    "Patuli": {
+      "type": "proper_noun",
+      "description": "A village mentioned in a story about Harihar's past."
+    },
+    "Bishwanath": {
+      "type": "proper_noun",
+      "description": "Refers to the Kashi Vishwanath Temple or area in Kashi."
+    },
+    "Mahesh Sadhukhan": {
+      "type": "proper_noun",
+      "description": "A villager mentioned in Harihar's story."
+    },
+    "Agrahayan": {
+      "type": "proper_noun",
+      "description": "A Bengali month, corresponding to late autumn."
+    },
+    "Kothakthakur": {
+      "type": "proper_noun",
+      "description": "A storyteller and friend to Apu and Harihar in Kashi."
+    },
+    "Kumure": {
+      "type": "proper_noun",
+      "description": "A village mentioned as Kothakthakur's native place."
+    },
+    "Ramgopal Chokkatti": {
+      "type": "proper_noun",
+      "description": "A scholar from Kumure village, associated with a land gift."
+    },
+    "Jaladhar": {
+      "type": "proper_noun",
+      "description": "A religious text or recitation, source of Kothakthakur's earnings."
+    },
+    "Maghi Purnima": {
+      "type": "proper_noun",
+      "description": "A full moon festival in the month of Magh, significant for rituals."
+    },
+    "Teota": {
+      "type": "proper_noun",
+      "description": "A location near the Manmandir in Kashi."
+    },
+    "Manmandir": {
+      "type": "proper_noun",
+      "description": "A notable building or palace in Kashi."
+    },
+    "Rani of Searsole": {
+      "type": "proper_noun",
+      "description": "A royal patron mentioned in connection with religious recitals."
+    },
+    "Musammat Kunta": {
+      "type": "proper_noun",
+      "description": "A household mentioned in Kothakthakur's accounts."
+    },
+    "Dharak Lalji Dobe": {
+      "type": "proper_noun",
+      "description": "A person mentioned in Kothakthakur's accounts."
+    },
+    "Shashthi": {
+      "type": "proper_noun",
+      "description": "A Hindu goddess, with a temple mentioned in the text."
+    },
+    "Bhagavat": {
+      "type": "proper_noun",
+      "description": "Refers to the Bhagavata Purana, a Hindu scripture often recited."
+    },
+    "Thakur-bari": {
+      "type": "proper_noun",
+      "description": "The house of the local zamindar or deity, site of religious readings."
+    },
+    "Godhuliya": {
+      "type": "proper_noun",
+      "description": "A crossing or area in Kashi."
+    },
+    "Rajghat": {
+      "type": "proper_noun",
+      "description": "A railway station in Kashi, site of departures and arrivals."
+    },
+    "Punjabi": {
+      "type": "proper_noun",
+      "description": "Refers to people from Punjab, specifically the woman Surajkuari."
+    },
+    "Roalsar": {
+      "type": "proper_noun",
+      "description": "A district in Punjab, home of Surajkuari and her husband."
+    },
+    "Manikarnika Ghat": {
+      "type": "proper_noun",
+      "description": "The main cremation ghat in Kashi."
+    },
+    "Ramakrishna Mission": {
+      "type": "proper_noun",
+      "description": "A philanthropic and religious organization active in Kashi."
+    },
+    "Kedar Ghat": {
+      "type": "proper_noun",
+      "description": "Another ghat in Kashi, associated with the mission office."
+    },
+    "Bandel Station": {
+      "type": "proper_noun",
+      "description": "A major railway station in Bengal where the family changes trains."
+    },
+    "Bakulbagan": {
+      "type": "proper_noun",
+      "description": "A locality in Kolkata, mentioned in conversation."
+    },
+    "Etowa": {
+      "type": "proper_noun",
+      "description": "A place from which relatives arrive."
+    },
+    "Munger": {
+      "type": "proper_noun",
+      "description": "A city in Bihar, India, from where relatives arrive."
+    },
+    "Allahabad": {
+      "type": "proper_noun",
+      "description": "A city in Uttar Pradesh, India, from where relatives arrive."
+    },
+    "Chandannagar": {
+      "type": "proper_noun",
+      "description": "A city in West Bengal, mentioned as the origin of some guests."
+    },
+    "Yashra-Nishchindipur": {
+      "type": "proper_noun",
+      "description": "A route or locality near Apu's ancestral village."
+    },
+    "Betrobati": {
+      "type": "proper_noun",
+      "description": "A river near Nishchindipur."
+    },
+    "Shankharipukur": {
+      "type": "proper_noun",
+      "description": "A pond in Nishchindipur."
+    },
+    "Betrabati": {
+      "type": "proper_noun",
+      "description": "A ferry crossing near Nishchindipur."
+    },
+    "Mukul": {
+      "type": "proper_noun",
+      "description": "A Bengali children's magazine."
+    },
+    "Sakha-Sathi": {
+      "type": "proper_noun",
+      "description": "A Bengali children's magazine."
+    },
+    "Jagannath": {
+      "type": "proper_noun",
+      "description": "A Hindu deity, referenced in a rhyme."
+    },
+    "Porto Plata": {
+      "type": "proper_noun",
+      "description": "A location mentioned in a story about a sunken treasure ship."
+    },
+    "Multani": {
+      "type": "proper_noun",
+      "description": "Refers to the breed of cow, known for rich milk."
+    },
+    "Shrotriya": {
+      "type": "vocabulary",
+      "description": "A Brahmin lineage known for learning and ritual purity."
+    },
+    "dowry": {
+      "type": "vocabulary",
+      "description": "Property or money brought by a bride to her husband on marriage."
+    },
+    "deed of gift": {
+      "type": "vocabulary",
+      "description": "A legal document transferring property as a gift."
+    },
+    "Purnima": {
+      "type": "vocabulary",
+      "description": "Full moon day in the lunar calendar."
+    },
+    "uttariya": {
+      "type": "vocabulary",
+      "description": "A traditional upper cloth or scarf worn during rituals."
+    },
+    "sal leaves": {
+      "type": "vocabulary",
+      "description": "Leaves from the sal tree, used as plates in rural India."
+    },
+    "ghonto": {
+      "type": "vocabulary",
+      "description": "A Bengali mixed vegetable or single-vegetable curry."
+    },
+    "laddu": {
+      "type": "vocabulary",
+      "description": "A round sweet made of flour, sugar, and ghee."
+    },
+    "bou-thakrun": {
+      "type": "vocabulary",
+      "description": "A respectful term for the lady of the house; married woman."
+    },
+    "chun": {
+      "type": "vocabulary",
+      "description": "Lime paste, used in preparing paan."
+    },
+    "ghomta": {
+      "type": "vocabulary",
+      "description": "The veil or end of a sari drawn over the head."
+    },
+    "marigold": {
+      "type": "vocabulary",
+      "description": "A type of flowering plant, often used in rituals."
+    },
+    "seers": {
+      "type": "vocabulary",
+      "description": "A traditional unit of weight, about 0.93 kg."
+    },
+    "chhattar": {
+      "type": "vocabulary",
+      "description": "A community dining hall, especially in Kashi."
+    },
+    "punya": {
+      "type": "vocabulary",
+      "description": "Spiritual merit gained through good deeds or rituals."
+    },
+    "sattr": {
+      "type": "vocabulary",
+      "description": "A community kitchen or charitable feeding place."
+    },
+    "arhar dal": {
+      "type": "vocabulary",
+      "description": "Split pigeon peas, a staple lentil in Bengali cuisine."
+    },
+    "berto": {
+      "type": "vocabulary",
+      "description": "Leftover food."
+    },
+    "Kuluichandi": {
+      "type": "vocabulary",
+      "description": "A ritual fast observed by women."
+    },
+    "kantha": {
+      "type": "vocabulary",
+      "description": "A traditional Bengali quilt made from old saris."
+    },
+    "didimoni": {
+      "type": "vocabulary",
+      "description": "A respectful term for an elder sister."
+    },
+    "khansama": {
+      "type": "vocabulary",
+      "description": "A household steward or head servant, especially in large homes."
+    },
+    "gomosta": {
+      "type": "vocabulary",
+      "description": "An estate manager or clerk."
+    },
+    "masima": {
+      "type": "vocabulary",
+      "description": "Aunt; mother's sister or a respectful term for an older woman."
+    },
+    "babus": {
+      "type": "vocabulary",
+      "description": "Gentlemen or members of the landlord's family."
+    },
+    "polao": {
+      "type": "vocabulary",
+      "description": "A rice dish cooked with spices, vegetables, or meat."
+    },
+    "panwala": {
+      "type": "vocabulary",
+      "description": "A vendor who sells paan (betel leaf parcels)."
+    },
+    "pehlwan": {
+      "type": "vocabulary",
+      "description": "A wrestler or wrestling master."
+    },
+    "dhuti": {
+      "type": "vocabulary",
+      "description": "A traditional men's garment, a long cloth wrapped around the waist."
+    },
+    "chador": {
+      "type": "vocabulary",
+      "description": "A shawl or upper cloth."
+    },
+    "panjabi": {
+      "type": "vocabulary",
+      "description": "A long tunic worn by men."
+    },
+    "poitey": {
+      "type": "vocabulary",
+      "description": "The sacred thread worn by Brahmin boys after upanayan."
+    },
+    "upanayan": {
+      "type": "vocabulary",
+      "description": "The sacred thread ceremony marking a Brahmin boy's initiation into study."
+    },
+    "thakur-dalan": {
+      "type": "vocabulary",
+      "description": "The family shrine or courtyard used for religious ceremonies."
+    },
+    "bhuja-wala": {
+      "type": "vocabulary",
+      "description": "A street vendor selling roasted snacks."
+    },
+    "khata-nji": {
+      "type": "vocabulary",
+      "description": "Ledger-keeper or bookkeeper."
+    },
+    "syce": {
+      "type": "vocabulary",
+      "description": "A stable hand or groom who looks after horses."
+    },
+    "amalki": {
+      "type": "vocabulary",
+      "description": "Indian gooseberry tree."
+    },
+    "or-kalmi": {
+      "type": "vocabulary",
+      "description": "A type of wild flower, possibly water spinach."
+    },
+    "kul-nona": {
+      "type": "vocabulary",
+      "description": "A type of wild fruit."
+    },
+    "jagdumur": {
+      "type": "vocabulary",
+      "description": "A type of tree, possibly associated with owls."
+    },
+    "kheer": {
+      "type": "vocabulary",
+      "description": "A sweet rice pudding."
+    },
+    "kanchan": {
+      "type": "vocabulary",
+      "description": "A golden-yellow flower, also refers to gold."
+    },
+    "champa": {
+      "type": "vocabulary",
+      "description": "A fragrant flower, often used as a color descriptor."
+    },
+    "carrom": {
+      "type": "vocabulary",
+      "description": "A tabletop game popular in South Asia."
+    },
+    "bhuja": {
+      "type": "vocabulary",
+      "description": "Roasted or puffed grains/snacks."
+    },
+    "chola-bhaja": {
+      "type": "vocabulary",
+      "description": "Spiced roasted chickpeas."
+    },
+    "bird’s eye": {
+      "type": "vocabulary",
+      "description": "A type of sweet or snack, possibly referring to a small candy."
+    },
+    "pranam": {
+      "type": "vocabulary",
+      "description": "A gesture of respectful greeting or obeisance."
+    },
+    "tilak": {
+      "type": "vocabulary",
+      "description": "A sacred mark applied to the forehead."
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Harihar Ray",
+      "Indir Thakrun",
+      "Bishweshwari",
+      "Patiram Mukherjee",
+      "Brajo Chakkotti",
+      "Seetanath Mukherjee",
+      "Golok Chakraborty",
+      "Braj Chakraborty",
+      "Nabin",
+      "Behari",
+      "Raju",
+      "Bishnuram Ray",
+      "Biru Ray",
+      "Chowdhurys",
+      "Nischindipur",
+      "Ekadashi",
+      "Yashra-Bishnupur",
+      "Ichhamati",
+      "Kojagari Lakshmi Purnima",
+      "Chandimandap",
+      "Poush Parbon",
+      "Bhadra",
+      "Chuadanga",
+      "Nawabganj",
+      "Taki",
+      "Sonadanga",
+      "Thakurjhi Pukur",
+      "Haridaspur",
+      "Kartik",
+      "Nawabganj bazaar",
+      "Taki-Sripura",
+      "Kaliganj",
+      "pisi",
+      "beeche-kola",
+      "pitima",
+      "pishima",
+      "dheki-shala",
+      "Poush pitha",
+      "lathi",
+      "sorki",
+      "chaak-ka",
+      "panjuri",
+      "kulin",
+      "zamindar",
+      "lota",
+      "maund",
+      "jaggery",
+      "tol",
+      "dacoits",
+      "Sarbajaya",
+      "Nilmoni Ray",
+      "Bou",
+      "Ramchand Tarkalankar"
+    ],
+    "ch-1-2": [
+      "Biru Ray",
+      "pishima",
+      "Kuruni’s mother",
+      "Harihar Ray",
+      "Harihar Ray’s mother",
+      "Nera’s thakuma",
+      "Asiya",
+      "Hari Palit",
+      "Durga",
+      "Chakkotti moshai",
+      "Indir Thakrun",
+      "Bishweshwari",
+      "Golok",
+      "Braja-kaka",
+      "Patit Ray",
+      "Jadu Ray",
+      "Bhojohori",
+      "Sej jetha",
+      "Nibaran",
+      "Ishan Kabiraj",
+      "Boro Khuri",
+      "Ramchand Chakraborty",
+      "Hemanta",
+      "Thakurjhi",
+      "Haludber",
+      "Nakipur",
+      "Madhumati",
+      "Ichhamati",
+      "Dakshin Sripur",
+      "Taki",
+      "Taki bazaar",
+      "Dhabalchit",
+      "Tarakeshwar",
+      "Kalpur",
+      "Braja-kaka’s Chandimandap",
+      "Patit Ray",
+      "Jagaddhatri",
+      "Annapurna",
+      "dacoits",
+      "Brahmin",
+      "pinda-daan",
+      "tokapana",
+      "shyama grass",
+      "ghat",
+      "kash grass",
+      "sandbank",
+      "midwife",
+      "confinement room",
+      "khuri",
+      "Ma",
+      "Baba",
+      "pishima",
+      "veranda",
+      "Pir",
+      "date-palm leaves",
+      "cow-dung cakes",
+      "n’di",
+      "sheora",
+      "taro",
+      "moshai",
+      "Kabiraj",
+      "jetha",
+      "kaka",
+      "Boro Khuri",
+      "camphor",
+      "Puja",
+      "Thakuma"
+    ],
+    "ch-1-3": [
+      "Sarbajaya",
+      "Indir Thakrun",
+      "Chandra Majumdar",
+      "Haimabati",
+      "Ram Ganguli",
+      "Durga",
+      "Annada",
+      "Kanai Bolai",
+      "Akshay Pramai",
+      "Bina",
+      "Umi",
+      "Thakurjhi",
+      "pishi",
+      "pitima",
+      "Bhandarhati",
+      "Chandimandap",
+      "Kushtia",
+      "Nawabganj",
+      "Kurule Binodpur",
+      "Madhumati",
+      "Kashi",
+      "Gaya",
+      "Nishchindipur",
+      "Bengal",
+      "Lakshmi",
+      "anchal",
+      "bangle",
+      "bamboo",
+      "ghat",
+      "kajol",
+      "harichacha bird",
+      "gamchha",
+      "motka sari",
+      "lac bangles",
+      "krosh",
+      "Mahashay",
+      "Didima",
+      "dal",
+      "pishi",
+      "thakurji",
+      "nôna",
+      "nanad",
+      "budi",
+      "pitima",
+      "Apu",
+      "Harihar Ray",
+      "Bou",
+      "Thakuma",
+      "Ramchand Tarkalankar"
+    ],
+    "ch-1-4": [
+      "Sarbajaya",
+      "Nabin Ghoshal",
+      "Nabin Ghoshal’s wife",
+      "Tinkari Ghoshal",
+      "Purna Chakraborty",
+      "Durga",
+      "Raji",
+      "Behari Chakkatti",
+      "Gopi Bostom’s wife",
+      "Braja Pishi",
+      "Thakuma",
+      "Dada-Thakur",
+      "Bishu Palit",
+      "Dinuchakraborty’s eldest son, Phani",
+      "Charak",
+      "Gosainpara",
+      "Palit family",
+      "Chandimandap",
+      "Palit-para",
+      "Ganga",
+      "Nischindipur",
+      "Magh",
+      "Saraswati Puja",
+      "nilkantha",
+      "Bhushon",
+      "Ray household",
+      "Chunar fort",
+      "Kedarnath",
+      "Shah Kasem Sulemani’s dargah",
+      "Alakananda",
+      "Dashashwamedh Ghat",
+      "pisi",
+      "budi",
+      "khuri",
+      "Didi Thakurun",
+      "Pisimā",
+      "murki",
+      "kadma",
+      "gamchha",
+      "Thakuma",
+      "Dada-Thakur",
+      "Chaitra",
+      "sajne",
+      "Apu",
+      "Indir Thakrun",
+      "Harihar Ray",
+      "Ma-thakrun",
+      "Gokul’s wife",
+      "Bou"
+    ],
+    "ch-1-5": [
+      "Nabin Palit",
+      "Sarbajaya",
+      "Boyshar’s bil",
+      "Nepal Parui",
+      "Nishchindipur",
+      "Bengal Indigo Concern",
+      "John Larmer",
+      "Larmer Sahib",
+      "Moti Da",
+      "Nawabganj",
+      "Kundu family",
+      "Dinubabu Ganguli",
+      "Asharh",
+      "Boishakh",
+      "Joishtho",
+      "Arai-Banki river",
+      "Edwin Lermor",
+      "Bengma",
+      "Bengmi",
+      "bil",
+      "maund",
+      "seer",
+      "yakshi",
+      "vāt",
+      "baichi",
+      "babla",
+      "jiol",
+      "kuthi",
+      "gol-dari",
+      "ghat",
+      "kul",
+      "nilkantha",
+      "natakanta",
+      "aparajita",
+      "sōdal",
+      "alkushi",
+      "Ma",
+      "Apu",
+      "Harihar Ray",
+      "Shyamlanka",
+      "Didi"
+    ],
+    "ch-1-6": [
+      "Apu",
+      "Durga",
+      "Sarbajaya",
+      "Bhuban Mukherjee",
+      "Annada Ray",
+      "Swarna",
+      "Radha Boshtom",
+      "Sej Thakrun",
+      "Lakshmi",
+      "Dashghara",
+      "Ray family",
+      "Sadgop",
+      "Patolis",
+      "Chaitra",
+      "cowrie",
+      "nataa",
+      "ghat",
+      "sindurkota",
+      "kalmegh",
+      "boti",
+      "chaler bhaja",
+      "bapu",
+      "Bouma",
+      "kakurtali",
+      "jamun",
+      "sari",
+      "jaggery",
+      "Nilmoni Ray",
+      "Harihar Ray",
+      "Potol",
+      "Didi",
+      "Puja",
+      "Chandra Majumdar"
+    ],
+    "ch-1-7": [
+      "Apu",
+      "Durga",
+      "Ma",
+      "Neelu",
+      "Karna",
+      "Arjuna",
+      "Dronacharya",
+      "Duryodhan",
+      "Bhima",
+      "Chinibas Moyra",
+      "Bhuban Mukherjee",
+      "Annada Ray",
+      "younger bou",
+      "Kashidasi Mahabharat",
+      "Annadamangal",
+      "Sindhu",
+      "Kurukshetra",
+      "Baishakh",
+      "Dashahara",
+      "Bhuban Mukherjee",
+      "Annada Ray",
+      "jackfruit",
+      "anchol",
+      "rãḍã",
+      "rakshas",
+      "aswattha",
+      "veranda",
+      "shankhachil",
+      "ka-kha",
+      "paan",
+      "catechu",
+      "sheora",
+      "ghetu",
+      "bakhari",
+      "nôna",
+      "ankushi",
+      "nôlk",
+      "orkolmi",
+      "kul",
+      "jam",
+      "amra",
+      "sindur",
+      "dugdugi",
+      "murki",
+      "sandesh",
+      "Nilmoni Ray",
+      "Harihar Ray",
+      "Didi",
+      "Bou"
+    ],
+    "ch-1-8": [
+      "Bhuban Mukherjee",
+      "Sunil",
+      "Apu",
+      "Durga",
+      "Sarbajaya",
+      "Baba",
+      "Satu",
+      "Ranu",
+      "Potol",
+      "Raji",
+      "Rajkrishna Palit’s wife",
+      "Bidhu",
+      "Dashahara",
+      "Rath",
+      "Bhuban Mukherjee’s house",
+      "Manasa",
+      "para",
+      "Ray-kaka",
+      "Sonamukhi",
+      "Nilmoni Ray",
+      "aswattha",
+      "Ganga-Yamuna",
+      "Boishakh",
+      "Dule",
+      "Bagdi",
+      "gôr-er pukur",
+      "Ganguli house",
+      "Thakur",
+      "Dashurayer Panchali",
+      "1303",
+      "murki",
+      "sandesh",
+      "batasha",
+      "bapu",
+      "ghat",
+      "anchal",
+      "palta’r bara",
+      "dudh-bhaat",
+      "monda",
+      "mithai",
+      "Lakshmi",
+      "baichi",
+      "shiyakul",
+      "kantikari",
+      "Ganga-Jamuna",
+      "para",
+      "brata",
+      "taktaposh",
+      "hookah",
+      "Jethima",
+      "machatala",
+      "bakul",
+      "bakultala",
+      "gab",
+      "gabtala",
+      "shatim",
+      "shatimtala",
+      "pishi",
+      "Punyipukur",
+      "pithuli",
+      "sheora",
+      "mynakanta",
+      "gôr-er pukur",
+      "dal",
+      "Sej Thakrun",
+      "Harihar Ray",
+      "Palit family",
+      "Majumdar family",
+      "Didi",
+      "Puja",
+      "Thakuma",
+      "Chinibas Moyra",
+      "Tuni"
+    ],
+    "ch-1-9": [
+      "Apu",
+      "Durga",
+      "Sarbajaya",
+      "Ganguli Mashai",
+      "Satyababu",
+      "Atrur Majhi",
+      "Lakshman Mahajan",
+      "Amala",
+      "Bishu",
+      "Narugopal",
+      "Satu",
+      "Ranu",
+      "Ramchand Tarkalankar",
+      "Dinu Chatujje",
+      "Panchananda Thakur",
+      "Bishalakshi Devi",
+      "Bhishmadev",
+      "Arjuna",
+      "King Dasharath",
+      "Jethamashai",
+      "Rajidi",
+      "Sej Thakrun",
+      "Biru Ray",
+      "Calcutta",
+      "bakultala",
+      "Gosai’s orchard",
+      "Nawabganj",
+      "Ashadhu-Durgapur",
+      "Durgapur",
+      "Ashadhu",
+      "Amdoba",
+      "Khalsemari",
+      "Bhadra",
+      "Ichhamati",
+      "Gangulibari Chandimandap",
+      "Ramayana",
+      "Mahabharata",
+      "Barnaparichay",
+      "Kashidas’s Mahabharata",
+      "Panchanand Tala",
+      "Vishalakshi",
+      "Majumdar family",
+      "Panchananda Thakur",
+      "Dvaipayana Lake",
+      "Birangana Kavya",
+      "Shuvankari’s Arya",
+      "Jethamashai",
+      "Snan Yatra",
+      "Kaliganj",
+      "Ramnavami Dol",
+      "Chaitra",
+      "Baisakh",
+      "Kojagari Purnima",
+      "Lakshmi Puja",
+      "Chaturdashi",
+      "Binti",
+      "Shyamlanka",
+      "Sarayu",
+      "Kaluichondi brata",
+      "Belwari glass",
+      "bakultala",
+      "ghat",
+      "Baisakh",
+      "Jyoishtho",
+      "babla",
+      "shimul",
+      "dinghy",
+      "rangī",
+      "Poush",
+      "kalai",
+      "bullock carts",
+      "date-palm jaggery",
+      "marsh",
+      "hogla",
+      "shola",
+      "sodali",
+      "aus paddy",
+      "khoka",
+      "Bottakurs",
+      "gurumoshai",
+      "cowrie shells",
+      "mohanbhog",
+      "ghee",
+      "chondropuli",
+      "pathorkuchi",
+      "boudi",
+      "almirah",
+      "mem-puppet",
+      "khanjani",
+      "sindur",
+      "tekka",
+      "Golam",
+      "Saheb",
+      "Bibi",
+      "Binti",
+      "gandhabhadali",
+      "kalmegh",
+      "luchi",
+      "ol’er daata chachchari",
+      "lau chhenchki",
+      "gamchha",
+      "kadai",
+      "natmandir",
+      "batasha",
+      "noaguno",
+      "jatra",
+      "gulancha",
+      "pomelo",
+      "makal",
+      "maund",
+      "nakuṭo",
+      "gabtala",
+      "chotka",
+      "patalkochu",
+      "anchal",
+      "chatim",
+      "Jethamoshai",
+      "patal-kerai",
+      "boti",
+      "alta",
+      "khoi",
+      "naivedya",
+      "Hemanta",
+      "sheuli",
+      "snehadal",
+      "telakucha",
+      "natkan",
+      "puyo",
+      "tun-tuni",
+      "bhat-sheora",
+      "bon-chalta",
+      "holud",
+      "bon-kochu",
+      "kattu-ol",
+      "bon-kolmi",
+      "nata-kanta",
+      "moyna",
+      "dhundhul",
+      "shirish",
+      "pithuli",
+      "Neelmoni jetha",
+      "Harihar Ray",
+      "Palit family",
+      "Baba",
+      "Didi",
+      "Bou",
+      "Thakuma",
+      "Prasanna Gurumoshai",
+      "Swaroop Chakraborty"
+    ],
+    "ch-1-10": [
+      "Swaroop Chakraborty",
+      "Ram",
+      "Shyam",
+      "Jadu",
+      "Tamaraj",
+      "Tamaraj’s wife",
+      "Bhoda Sekra",
+      "Dinu Bhattacharya",
+      "Gokul’s wife",
+      "Durga",
+      "Bidhu",
+      "Gokul-kaka",
+      "Swarna",
+      "Rai-jethi",
+      "Apu",
+      "Sanno",
+      "Sakhi Thakrun",
+      "Mother Rakshakali",
+      "Calcutta",
+      "Kali temple",
+      "Mother Rakshakali",
+      "Kabuli",
+      "Puja",
+      "chandi-mandap",
+      "anchal",
+      "granary",
+      "nimphol",
+      "boudi",
+      "thakurpo",
+      "boudidi",
+      "khurima",
+      "Gokul-kaka",
+      "Rai-jethi",
+      "Bouma",
+      "chire",
+      "ghat",
+      "pituli tree",
+      "naru",
+      "dhinki",
+      "shelis",
+      "Harihar Ray",
+      "Didima",
+      "Bou",
+      "Indir Thakrun",
+      "Niren",
+      "Annada Ray",
+      "Ma Siddheshwari"
+    ],
+    "ch-2-11": [
+      "Apu",
+      "Durga",
+      "Sarbajaya",
+      "Niren",
+      "Teen-kori",
+      "Bonka",
+      "Ramcharan",
+      "Hriday",
+      "Baburam",
+      "Prasanna Gurumoshai",
+      "Gokul’s wife",
+      "Chibas",
+      "Ranu",
+      "Leela-di",
+      "Narottam Das Babaji",
+      "Annada Ray",
+      "Sadananda",
+      "Seetanath",
+      "Mator’s Ma",
+      "Bini",
+      "Nitam pisi",
+      "Sej Thakrun",
+      "Tuni",
+      "Tuni’s mother",
+      "Tenpi",
+      "Tepi",
+      "Ranur ma",
+      "Baidyanath Majumdar",
+      "Mahesh Sakar",
+      "Ajay",
+      "Adhikari",
+      "Bishtu Teli",
+      "Dashu Ray",
+      "Basumati",
+      "Indulekha",
+      "Kalingaraj",
+      "Bichitraketu",
+      "Juri",
+      "Ashutosh Pal",
+      "Harish the Yogi",
+      "Rakhāl",
+      "Satu",
+      "Nilu",
+      "Kinu",
+      "Patal",
+      "Nera",
+      "Jugir Bamun",
+      "Mator",
+      "Kalinath Chakkatti",
+      "Chandidas",
+      "Ganguli Para",
+      "Chandimandap",
+      "Raypara",
+      "Kolkata",
+      "Bangladesh",
+      "Majherpara",
+      "Gaya",
+      "Kashi",
+      "Mecca",
+      "Aranghata",
+      "Jugalkishore’s fair",
+      "Phul Dole",
+      "Sonadangar",
+      "Murshidabad",
+      "Goylapara",
+      "Palpara",
+      "Nishchindipur",
+      "Nilpuja",
+      "Charak Puja",
+      "charaktala",
+      "Panchanan Tala",
+      "Baroaritola",
+      "Ganga-Yamuna",
+      "Goshtabihar",
+      "Dashu the potter",
+      "Rath Yatra",
+      "Sarva-Darshan-Sangraha",
+      "Prembhakti-Chandrika",
+      "Madhukhali",
+      "Sylhet",
+      "Ajay",
+      "Parashuramer Darp-Sanghar",
+      "Ashutosh Pal",
+      "pathshala",
+      "hookah",
+      "veranda",
+      "shiuli",
+      "dalna",
+      "shuktoni",
+      "thor’er ghonto",
+      "chingri mach’er jhol",
+      "payesh",
+      "mocha’r ghonto",
+      "anchal",
+      "shil-nora",
+      "boudi",
+      "thakurpo",
+      "pishashashuri",
+      "pisi",
+      "makri",
+      "fulot bashi",
+      "mete alu",
+      "alta",
+      "natphal",
+      "brata",
+      "dao",
+      "baichi",
+      "patali",
+      "jaggery",
+      "ghetu",
+      "gabtala",
+      "puffed rice",
+      "begun bhaja",
+      "choruibhati",
+      "kul",
+      "bel",
+      "cheroot",
+      "para",
+      "kutumbini",
+      "ghat",
+      "taka",
+      "sannyasi",
+      "mandap",
+      "naivedya",
+      "jatra",
+      "chik",
+      "murki",
+      "nichu",
+      "boshtom",
+      "macha",
+      "sindur",
+      "gandhabhedali",
+      "panchali",
+      "dholak",
+      "mandira",
+      "muri",
+      "luchi",
+      "sheyakul",
+      "shālik",
+      "amra",
+      "shaora",
+      "durba grass",
+      "sheora",
+      "pomelo",
+      "muchukund-champa",
+      "rasunchouki",
+      "charak-tala",
+      "shatimtala",
+      "gajan",
+      "Neel Puja",
+      "bapu",
+      "dadu",
+      "dadu bhai",
+      "khoka",
+      "thakuron",
+      "Nilmoni Ray",
+      "Bhuban Mukherjee",
+      "Didi",
+      "Bou",
+      "Potu",
+      "Neelmoni jetha"
+    ],
+    "ch-2-12": [
+      "Sarbajaya",
+      "Durga",
+      "Apu",
+      "Rajyeshwar Babu",
+      "Senjuti",
+      "Satu",
+      "Sej Thakrun",
+      "Jibon Chowdhury",
+      "Amba",
+      "Nilambar",
+      "Jibanketu",
+      "Narada",
+      "Kashi",
+      "Baishakh",
+      "Taj Bibika",
+      "Arabian",
+      "Nilambar",
+      "Amba",
+      "Jibanketu",
+      "Narada",
+      "pandit",
+      "jamun",
+      "drumstick",
+      "alta",
+      "in-laws",
+      "taro",
+      "roti",
+      "babui",
+      "nilkantha",
+      "shyama",
+      "bel-kanta",
+      "khuki",
+      "poisha",
+      "catechu",
+      "betel",
+      "jatra",
+      "cowries",
+      "satchel",
+      "Harihar Ray",
+      "Niren"
+    ],
+    "ch-2-13": [
+      "Apu",
+      "Durga",
+      "Sarbajaya",
+      "Nilmoni Mukherjee",
+      "Puti",
+      "Dinu Chowdhury",
+      "Rammo",
+      "Sadhu",
+      "Bototakur",
+      "Dr. Sharat",
+      "Sunil",
+      "Atasi",
+      "Suresh",
+      "Satu",
+      "Bhuban Mukherjee",
+      "Potu",
+      "Sunayani",
+      "Dinu Bhattacharya",
+      "Bhombol",
+      "Kandarpo Majumdar",
+      "Bishweshwar Bhattacharya",
+      "Rakkhit Mahashay",
+      "Ganguli",
+      "Dinuda",
+      "Ma Siddheshwari",
+      "Shyamlanka",
+      "Bauri",
+      "Ranu",
+      "Jethima",
+      "Jethamashai",
+      "Chhoto Kaka",
+      "Mejdi",
+      "Thakuma",
+      "Charitmala",
+      "Ishwar Chandra Vidyasagar",
+      "Shubhonkari",
+      "Annada Ray",
+      "Chandimandap",
+      "Puri",
+      "Bhrigu-Samhita",
+      "Arya",
+      "Nawabganj",
+      "Mukherjee",
+      "Khottas",
+      "Barase",
+      "Madhukhali",
+      "Anshmali",
+      "Goari Krishnanagar",
+      "Chandi",
+      "Harisabha",
+      "Khore",
+      "Padmapuran",
+      "Bat-tala",
+      "Yugipara",
+      "Kuchuni Para",
+      "alta",
+      "Rakkhit Mahashay",
+      "Krishnanagar",
+      "Churnighat",
+      "Ranaghat",
+      "Shantipur",
+      "Calcutta",
+      "Chitrita Chandi-Mahatmya",
+      "Kalketu",
+      "Ganguli",
+      "Hemanta",
+      "shefali",
+      "Himalayas",
+      "Lahore",
+      "Patna",
+      "Ramnavami Dol",
+      "Ramnath Ganguli",
+      "Birangana Kavya",
+      "Mahabharata",
+      "Bangabasi",
+      "Manasa Puja",
+      "Lakshmi Puja",
+      "Ma Siddheshwari",
+      "Phagun",
+      "Satyanarayan puja",
+      "Jelekha",
+      "Sarayu",
+      "Grace Darling",
+      "Zutphen",
+      "Martinique",
+      "Mount Pelée",
+      "Batgar",
+      "Lorraine",
+      "Joan",
+      "Sagar Island",
+      "Ceylonese",
+      "Aden",
+      "Bilat",
+      "Japan",
+      "China Sea",
+      "Bunas",
+      "Bari",
+      "Dewar",
+      "Haldighat",
+      "Aravalli",
+      "Mewar",
+      "Delhi",
+      "Agra",
+      "Pune",
+      "Aurangzeb",
+      "Shivaji",
+      "Pratap Singh",
+      "Amarsingh",
+      "Tej Singh",
+      "Noorjahan",
+      "Pushpakumari",
+      "Chittor",
+      "Bhil",
+      "Magro",
+      "Komolmir",
+      "Surjagarh",
+      "Shahbaz Khan",
+      "Chenar",
+      "Mibar-Lakshmi",
+      "Alaka",
+      "Bhuban-kaka",
+      "Madhabpur",
+      "Sonadanga",
+      "Ichhamati",
+      "Kanchikata",
+      "Kadamtala",
+      "Chaltipota",
+      "La-Bhanga",
+      "maund",
+      "ghat",
+      "anchal",
+      "Ma-thakrun",
+      "vaidya",
+      "Bhadrā",
+      "Raktabeej",
+      "Thakur",
+      "koi fish",
+      "neem",
+      "paisa",
+      "sago",
+      "Bhim Bhairav",
+      "krosh",
+      "luchi",
+      "pantua",
+      "gaja",
+      "gamcha",
+      "chhada",
+      "jatra",
+      "adyashraddha",
+      "shaora",
+      "baichi",
+      "mansabdar",
+      "orna",
+      "peshwaz",
+      "aheriya",
+      "bajra",
+      "jowar",
+      "alakta",
+      "golpata",
+      "majhi",
+      "kolmi-shak",
+      "gangshalik",
+      "akanda",
+      "jali-boat",
+      "gugli-snails",
+      "chatim",
+      "babla",
+      "saibaba",
+      "shimul",
+      "kadam",
+      "ulubon",
+      "kash",
+      "zhena fish",
+      "sarputi",
+      "shehnai",
+      "rasonchouki",
+      "Agomoni",
+      "shyama",
+      "prasad",
+      "sandesh",
+      "khuri",
+      "Thakuma",
+      "Mejdi",
+      "Jethima",
+      "Jethamashai",
+      "Chhoto Kaka",
+      "Didi",
+      "Bouma",
+      "Bou",
+      "Ma",
+      "Baba",
+      "Atosidi",
+      "Harihar Ray",
+      "Gokul’s wife",
+      "Niren"
+    ],
+    "ch-3-14": [
+      "Apu",
+      "Potu",
+      "Sarbajaya",
+      "pishima",
+      "pishi",
+      "pisima",
+      "pishemoshai",
+      "Gulki",
+      "Rajib",
+      "Nibaran Mukherjee",
+      "Kunj Chakraborty",
+      "Jethima",
+      "Aturi budi",
+      "Panchu",
+      "Bhulo",
+      "Hiru",
+      "Rajkrishna Bhattacharya",
+      "Neelmoni jetha",
+      "Sej Thakrun",
+      "Kartik",
+      "Bostom dadu",
+      "Haran Mal",
+      "Ma",
+      "Baba",
+      "Khotta bou",
+      "Poltu",
+      "Poltu’s dada",
+      "Kathak Thakur",
+      "Kashi",
+      "Ganganandpur",
+      "Siddheshwari Thakur-bari",
+      "Sonadanga",
+      "Ichhamati",
+      "Natidanga",
+      "Harishpur",
+      "Madhabpur",
+      "Nishchindipur",
+      "Majherpara",
+      "Bamunpara",
+      "Ashadhu Bazaar",
+      "Betroboti",
+      "Barase-Madhukhali bil",
+      "Dhonche-Polashgachi",
+      "Natabere",
+      "Bonbibi",
+      "Shraban",
+      "Asharu",
+      "Kadamtala",
+      "Chaitra",
+      "Boishakh",
+      "Bhadra",
+      "Chandranath",
+      "Rath fair",
+      "Charak",
+      "Malpara",
+      "Chataker Maath",
+      "Barowari",
+      "Ranaghat",
+      "Kurulgachhi",
+      "Govindpur",
+      "Banpur",
+      "Jagannathpur",
+      "Naihati",
+      "Ganga",
+      "Banshfotka Lane",
+      "Dashashwamedh Ghat",
+      "Vishwanath",
+      "Annapurna",
+      "Jugalkishore Thakur",
+      "Aranghata",
+      "Vishweshwar Lane",
+      "Shasthi temple",
+      "Kashikhanda",
+      "Bishweshwar’s alley",
+      "Naradghat",
+      "Mandhata",
+      "Sindhu-Sauvira",
+      "Patna City",
+      "Satkhira",
+      "Shitalkathi",
+      "dinghy",
+      "krosh",
+      "pishima",
+      "pishi",
+      "pisima",
+      "pishemoshai",
+      "gamchha",
+      "chira",
+      "muri",
+      "nadu",
+      "sandesh",
+      "mocha’r ghonto",
+      "dal",
+      "jethima",
+      "anchal",
+      "bakul",
+      "khuki",
+      "kaibichi",
+      "goala",
+      "sadgop",
+      "poysha",
+      "dakshina",
+      "anna",
+      "prasad",
+      "bel leaves",
+      "sindur",
+      "baor",
+      "ektara",
+      "pathshala",
+      "gurumoshai",
+      "baichi",
+      "alkushi",
+      "kalmi",
+      "aparajita",
+      "babul",
+      "shimul",
+      "sōndali",
+      "bou-kotha-kao",
+      "papia",
+      "bil",
+      "jamun",
+      "ulughash",
+      "ulukhud",
+      "ghat",
+      "ghunghat",
+      "khalasi",
+      "muri’r moa",
+      "bouthans",
+      "arati",
+      "dhuno",
+      "mantra",
+      "Banarasi sari",
+      "natmandir",
+      "jilipi",
+      "barqosh",
+      "jhi",
+      "Baichifol",
+      "Jarabharata",
+      "Shuk-Sari",
+      "kabir",
+      "zamindari",
+      "shishya-bari",
+      "pala",
+      "jatra",
+      "patali gur",
+      "bigha",
+      "chatak",
+      "amchur",
+      "Savitri Brata",
+      "Charak Puja",
+      "Dol festival",
+      "fuluri",
+      "orkalam",
+      "rajnigandha",
+      "Sita-haran",
+      "Ram-Ravana",
+      "shankhachil",
+      "Boishakh",
+      "tithi",
+      "baba re",
+      "Goylapara",
+      "Goshtabihar",
+      "Bandel Station",
+      "Ranu",
+      "Harihar Ray",
+      "Gokul’s wife",
+      "Didi",
+      "Puja",
+      "Thakur",
+      "Prasanna Gurumoshai",
+      "Ma Siddheshwari"
+    ],
+    "ch-3-15": [
+      "Apu",
+      "Sarbajaya",
+      "Nandababu",
+      "Leela",
+      "Mejo Bou-rani",
+      "Surajkuari",
+      "Jalim Singh",
+      "Girish Sarkar",
+      "Chhutu",
+      "Bamni mashi",
+      "Mokshada",
+      "Sujata",
+      "Sadu jhi",
+      "Romen",
+      "Tabu",
+      "Santu",
+      "Manager-babu",
+      "Barobabu",
+      "Dhirenbabu",
+      "Biru Gomosta",
+      "Dinu Khatanji",
+      "Mastermoshai",
+      "Indir Thakrun",
+      "Poltu",
+      "Subir",
+      "Gulu",
+      "Patal",
+      "Neelu",
+      "Tinu",
+      "Bhola",
+      "Ramnihor Singh",
+      "Biru Muhuri",
+      "Ramdayal",
+      "Kshemijhi",
+      "Chhoto Mokshada",
+      "Phagun",
+      "Nischindipur",
+      "Kashi",
+      "Patuli",
+      "Dashashwamedh Ghat",
+      "Bishwanath",
+      "Mahesh Sadhukhan",
+      "Agrahayan",
+      "Prasanna Gurumoshai",
+      "Kothakthakur",
+      "Kumure",
+      "Ramgopal Chokkatti",
+      "Jaladhar",
+      "Maghi Purnima",
+      "Teota",
+      "Manmandir",
+      "Rani of Searsole",
+      "Musammat Kunta",
+      "Dharak Lalji Dobe",
+      "Ganga",
+      "Shashthi",
+      "Bhagavat",
+      "Thakur-bari",
+      "Godhuliya",
+      "Rajghat",
+      "Punjabi",
+      "Roalsar",
+      "Manikarnika Ghat",
+      "Ramakrishna Mission",
+      "Kedar Ghat",
+      "Bandel Station",
+      "Patna City",
+      "Bakulbagan",
+      "Kolkata",
+      "Etowa",
+      "Gaya",
+      "Munger",
+      "Allahabad",
+      "Chandannagar",
+      "Majherpara",
+      "Yashra-Nishchindipur",
+      "Betrobati",
+      "Shankharipukur",
+      "Sonadanga",
+      "Kadamtala",
+      "Ichhamati",
+      "Madhukhali",
+      "Betrabati",
+      "Mukul",
+      "Sakha-Sathi",
+      "Jagannath",
+      "Mecca",
+      "Porto Plata",
+      "Multani",
+      "moshai",
+      "Shrotriya",
+      "bigha",
+      "dowry",
+      "ghat",
+      "Baba",
+      "pathshala",
+      "Magh",
+      "deed of gift",
+      "Purnima",
+      "uttariya",
+      "lota",
+      "sal leaves",
+      "ghonto",
+      "laddu",
+      "bou-thakrun",
+      "paan",
+      "chun",
+      "ghomta",
+      "anchal",
+      "marigold",
+      "taka",
+      "seers",
+      "chhattar",
+      "punya",
+      "sattr",
+      "arhar dal",
+      "berto",
+      "Kuluichandi",
+      "kantha",
+      "jhi",
+      "didimoni",
+      "khansama",
+      "gomosta",
+      "masima",
+      "babus",
+      "polao",
+      "alta",
+      "panwala",
+      "boudi",
+      "jatra",
+      "pehlwan",
+      "dhuti",
+      "chador",
+      "panjabi",
+      "poitey",
+      "upanayan",
+      "naru",
+      "thakur-dalan",
+      "bhuja-wala",
+      "khata-nji",
+      "syce",
+      "amalki",
+      "kalmegh",
+      "or-kalmi",
+      "kul-nona",
+      "jagdumur",
+      "kheer",
+      "kanchan",
+      "champa",
+      "maund",
+      "carrom",
+      "bhuja",
+      "chola-bhaja",
+      "bird’s eye",
+      "pranam",
+      "tilak",
+      "Bishalakshi Devi",
+      "Ranu",
+      "Harihar Ray",
+      "Puri",
+      "Potu"
+    ]
+  }
+}

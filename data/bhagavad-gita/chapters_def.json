@@ -1,0 +1,24 @@
+{
+  "use_title_markers": true,
+  "running_headers": ["Holy Geeta by Swami Chinmayananda"],
+  "chapters": [
+    {"chapter": 1, "page": 13, "title": "Arjuna Vishada Yoga", "subtitle": "The Yoga of Despondency of Arjuna"},
+    {"chapter": 2, "page": 50, "title": "Sankhya Yoga", "subtitle": "The Yoga of Knowledge"},
+    {"chapter": 3, "page": 185, "title": "Karma Yoga", "subtitle": "The Yoga of Action"},
+    {"chapter": 4, "page": 256, "title": "Jnana Karma Sanyasa Yoga", "subtitle": "The Yoga of Renunciation of Action with Knowledge"},
+    {"chapter": 5, "page": 340, "title": "Karma Sanyasa Yoga", "subtitle": "The Yoga of Renunciation of Action"},
+    {"chapter": 6, "page": 398, "title": "Dhyana Yoga", "subtitle": "The Yoga of Meditation"},
+    {"chapter": 7, "page": 503, "title": "Jnana Vijnana Yoga", "subtitle": "The Yoga of Wisdom and Knowledge"},
+    {"chapter": 8, "page": 563, "title": "Akshara Brahma Yoga", "subtitle": "The Yoga of Imperishable Brahman"},
+    {"chapter": 9, "page": 621, "title": "Raja Vidya Raja Guhya Yoga", "subtitle": "The Yoga of Royal Knowledge and Royal Secret"},
+    {"chapter": 10, "page": 701, "title": "Vibhooti Yoga", "subtitle": "The Yoga of Divine Manifestation"},
+    {"chapter": 11, "page": 786, "title": "Vishwa Roopa Darshana Yoga", "subtitle": "The Yoga of the Vision of the Universal Form"},
+    {"chapter": 12, "page": 867, "title": "Bhakti Yoga", "subtitle": "The Yoga of Devotion"},
+    {"chapter": 13, "page": 914, "title": "Kshetra Kshetrajna Vibhaga Yoga", "subtitle": "The Yoga of the Field and the Knower of the Field"},
+    {"chapter": 14, "page": 988, "title": "Gunatraya Vibhaga Yoga", "subtitle": "The Yoga of the Three Gunas"},
+    {"chapter": 15, "page": 1059, "title": "Purushothama Yoga", "subtitle": "The Yoga of the Supreme Spirit"},
+    {"chapter": 16, "page": 1104, "title": "Daivasura Sampad Vibhaga Yoga", "subtitle": "The Yoga of Divine and Devilish Estates"},
+    {"chapter": 17, "page": 1153, "title": "Shraddha Traya Vibhaga Yoga", "subtitle": "The Yoga of Threefold Faith"},
+    {"chapter": 18, "page": 1194, "title": "Moksha Sanyasa Yoga", "subtitle": "The Yoga of Liberation Through Renunciation"}
+  ]
+}
