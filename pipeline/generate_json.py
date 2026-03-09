@@ -51,20 +51,154 @@ def text_to_paragraphs(body_text, running_headers=None):
         lines = [l.strip() for l in block.split("\n") if l.strip()]
         merged = []
         current = []
+        current_is_verse = False
         for line in lines:
-            if re.match(r"^\d+\s*$", line):
+            # Strip standalone page numbers (digits only, not inside <v> tags)
+            stripped = line.replace("<v>", "").replace("</v>", "").strip()
+            if re.match(r"^\d+\s*$", stripped) and not line.strip().startswith("<v>"):
                 continue
             if running_headers and any(h.lower() in line.lower() for h in running_headers):
                 continue
-            if line.startswith('"') and current:
+            line_is_verse = line.startswith("<v>")
+            # Break paragraph at verse/prose boundary
+            if current and line_is_verse != current_is_verse:
                 merged.append(" ".join(current))
                 current = [line]
+                current_is_verse = line_is_verse
+            elif line.startswith('"') and current and not line_is_verse:
+                merged.append(" ".join(current))
+                current = [line]
+                current_is_verse = line_is_verse
             else:
                 current.append(line)
         if current:
             merged.append(" ".join(current))
         paragraphs.extend(merged)
     return paragraphs
+
+
+_VERSE_TAG_RE = re.compile(r"<v>(.*?)</v>", re.DOTALL)
+
+
+def _para_text(p):
+    """Extract plain text from a paragraph (string or verse dict)."""
+    return p["text"] if isinstance(p, dict) else p
+
+
+def _strip_verse_tags(text):
+    """Remove <v>...</v> tags from text, returning plain text."""
+    return _VERSE_TAG_RE.sub(r"\1", text)
+
+
+_VERSE_NUM_SPLIT_RE = re.compile(r"(?<=\s)(?=\d{1,2}[\.\)]\s)")
+
+
+def _split_verse_numbers(text):
+    """Split a verse block containing multiple numbered verses (e.g. '4. ... 5. ... 6. ...')
+    into separate verse strings."""
+    parts = _VERSE_NUM_SPLIT_RE.split(text)
+    parts = [p.strip() for p in parts if p.strip()]
+    if len(parts) <= 1:
+        return [text]
+    # If the first part doesn't start with a number, it's a speaker attribution — attach to first verse
+    if parts and not re.match(r"\d{1,2}[\.\)]\s", parts[0]):
+        if len(parts) > 1:
+            parts[1] = parts[0] + " " + parts[1]
+            parts = parts[1:]
+    return parts
+
+
+def detect_verses(paragraphs):
+    """Tag paragraphs as verse or prose for books with verse_detection enabled.
+
+    Uses <v>...</v> markers embedded during PDF extraction (based on italic font detection)
+    to identify verse lines. Each numbered verse becomes its own paragraph.
+
+    Returns a list of strings (prose) and {"text": ..., "type": "verse"} dicts.
+    """
+    result = []
+
+    for p in paragraphs:
+        # Check if this paragraph contains <v> tags
+        if "<v>" not in p:
+            # Pure prose — strip any stray tags just in case
+            result.append(_strip_verse_tags(p))
+            continue
+
+        # Split paragraph into verse and non-verse segments
+        parts = _VERSE_TAG_RE.split(p)
+        # parts alternates: [before, tagged_content, between, tagged_content, after, ...]
+
+        for i, part in enumerate(parts):
+            part = part.strip()
+            if not part:
+                continue
+            if i % 2 == 1:
+                # This is verse content (was inside <v>...</v>)
+                # Merge with previous verse text if consecutive (same italic block)
+                if result and isinstance(result[-1], dict) and result[-1]["type"] == "verse":
+                    result[-1]["text"] += " " + part
+                else:
+                    result.append({"text": part, "type": "verse"})
+            else:
+                # Non-verse text
+                result.append(part)
+
+    # Now split any verse paragraphs that contain multiple numbered verses
+    final = []
+    for p in result:
+        if isinstance(p, dict) and p["type"] == "verse":
+            sub_verses = _split_verse_numbers(p["text"])
+            for sv in sub_verses:
+                final.append({"text": sv, "type": "verse"})
+        else:
+            final.append(p)
+
+    # Merge paragraphs that start with lowercase into the previous paragraph
+    # (caused by page breaks splitting a sentence across pages)
+    merged = []
+    for p in final:
+        if not merged:
+            merged.append(p)
+            continue
+        text = p["text"] if isinstance(p, dict) else p
+        if text and text[0].islower():
+            prev = merged[-1]
+            if isinstance(prev, dict) and isinstance(p, dict):
+                prev["text"] += " " + text
+            elif isinstance(prev, str) and isinstance(p, str):
+                merged[-1] = prev + " " + text
+            elif isinstance(prev, dict) and isinstance(p, str):
+                # Verse followed by lowercase prose = page break split the verse+commentary
+                merged[-1]["text"] += " " + text
+            else:
+                merged.append(p)
+        else:
+            merged.append(p)
+
+    # Strip trailing "Chapter N" / "Om Om Om" paragraphs
+    while merged:
+        last = _para_text(merged[-1]).strip()
+        if re.match(r"^(Chapter \d+|Om[\s Om]+)$", last, re.IGNORECASE):
+            merged.pop()
+        else:
+            break
+
+    return merged
+
+
+def _merge_existing_chapters(chapters, json_path):
+    """Preserve fields from a prior chapters.json (e.g. summaries, images) that aren't in the new data."""
+    if not os.path.exists(json_path):
+        return
+    with open(json_path) as f:
+        existing = {ch["id"]: ch for ch in json.load(f).get("chapters", [])}
+    for ch in chapters:
+        old = existing.get(ch.get("id"))
+        if old:
+            for key, val in old.items():
+                if key not in ch or not ch[key]:
+                    ch[key] = val
 
 
 def _find_markers_by_regex(full_text, chapters, chapter_regex):
@@ -156,7 +290,7 @@ def _find_markers_by_page(full_text, pages, page_nums, chapters, use_title_marke
     return marker_positions
 
 
-def extract_chapters(pages, chapters_def, running_headers=None):
+def extract_chapters(pages, chapters_def, running_headers=None, verse_detection=False):
     chapters = chapters_def.get("chapters", [])
     use_title_markers = chapters_def.get("use_title_markers", False)
     chapter_regex = chapters_def.get("chapter_regex", None)
@@ -179,6 +313,7 @@ def extract_chapters(pages, chapters_def, running_headers=None):
 
         ch_num = ch["chapter"]
         ch_title = ch["title"]
+        ch_subtitle = ch.get("subtitle", "")
         if paras:
             first = paras[0].strip().replace("\u2019", "'")
             norm_title = ch_title.replace("\u2019", "'")
@@ -187,7 +322,21 @@ def extract_chapters(pages, chapters_def, running_headers=None):
             elif first.lower() == norm_title.lower():
                 paras.pop(0)
 
+        # Strip subtitle from first paragraph if it appears there
+        if ch_subtitle and paras:
+            first = _strip_verse_tags(paras[0]).strip() if verse_detection else paras[0].strip()
+            if first.lower().startswith(ch_subtitle.lower()):
+                remainder = first[len(ch_subtitle):].strip()
+                if remainder:
+                    paras[0] = remainder
+                else:
+                    paras.pop(0)
+
         wc = sum(len(p.split()) for p in paras)
+
+        # Apply verse detection if enabled
+        if verse_detection:
+            paras = detect_verses(paras)
 
         part = ch.get("part") or 1
         part_name = ch.get("part_name") or ""
@@ -202,6 +351,8 @@ def extract_chapters(pages, chapters_def, running_headers=None):
             "wordCount": wc,
             "paragraphs": paras,
         }
+        if ch_subtitle:
+            entry["subtitle"] = ch_subtitle
         for extra_key in ("year", "original_name", "transliterated_name"):
             if ch.get(extra_key):
                 entry[extra_key] = ch[extra_key]
@@ -214,7 +365,7 @@ def generate_summary(book_id, chapters_data, cfg):
     sample = ""
     for ch in chapters_data[:3]:
         sample += f"\n\nChapter {ch['number']}: {ch['title']}\n"
-        sample += "\n".join(ch["paragraphs"][:5])
+        sample += "\n".join(_para_text(p) for p in ch["paragraphs"][:5])
 
     response = client.chat.completions.create(
         model="openai/gpt-4.1",
@@ -324,7 +475,7 @@ def generate_story_summary(story_name, story_chapters, cfg):
     sample = ""
     for ch in story_chapters[:3]:
         sample += f"\nChapter {ch['number']}: {ch['title']}\n"
-        sample += "\n".join(ch["paragraphs"][:5])
+        sample += "\n".join(_para_text(p) for p in ch["paragraphs"][:5])
 
     response = client.chat.completions.create(
         model="openai/gpt-4.1",
@@ -417,7 +568,7 @@ def run_anthology(book_id, chapters_data, cfg, force=False):
                     existing_ch = json.load(f)
                 preview = ""
                 if existing_ch["chapters"] and existing_ch["chapters"][0]["paragraphs"]:
-                    preview = " ".join(existing_ch["chapters"][0]["paragraphs"][:3])[:1200]
+                    preview = " ".join(_para_text(p) for p in existing_ch["chapters"][0]["paragraphs"][:3])[:1200]
                 catalog["books"].append({**existing_meta, "previewText": preview})
             continue
 
@@ -446,8 +597,9 @@ def run_anthology(book_id, chapters_data, cfg, force=False):
 
         word_count = sum(ch["wordCount"] for ch in flat_chapters)
 
-        # Write chapters.json
+        # Write chapters.json — preserve fields from prior stages (e.g. summaries)
         os.makedirs(story_book_dir, exist_ok=True)
+        _merge_existing_chapters(flat_chapters, story_chapters_json)
         with open(story_chapters_json, "w") as f:
             json.dump({"chapters": flat_chapters}, f, ensure_ascii=False, indent=2)
 
@@ -481,7 +633,7 @@ def run_anthology(book_id, chapters_data, cfg, force=False):
         # Add to catalog
         preview = ""
         if flat_chapters and flat_chapters[0]["paragraphs"]:
-            preview = " ".join(flat_chapters[0]["paragraphs"][:3])[:1200]
+            preview = " ".join(_para_text(p) for p in flat_chapters[0]["paragraphs"][:3])[:1200]
         catalog["books"].append({**story_meta, "previewText": preview})
 
         print(f"  [{story_book_id}] Done")
@@ -581,12 +733,13 @@ def run(book_id, force=False):
     running_headers = chapters_def.get("running_headers", [])
 
     # Extract chapters
-    chapters_data = extract_chapters(pages, chapters_def, running_headers)
+    verse_detection = cfg.verse_detection
+    chapters_data = extract_chapters(pages, chapters_def, running_headers, verse_detection=verse_detection)
     total_words = sum(ch["wordCount"] for ch in chapters_data)
     print(f"Extracted {len(chapters_data)} chapters, {total_words:,} words")
 
     # Anthology: split into individual story-books
-    is_anthology = getattr(cfg, "type", "book") == "anthology"
+    is_anthology = cfg.type == "anthology"
     if is_anthology:
         return run_anthology(book_id, chapters_data, cfg, force=force)
 
@@ -595,8 +748,9 @@ def run(book_id, force=False):
     update_images(book_id, chapters_data, images_dir)
     copy_cover(book_id, images_dir)
 
-    # Write chapters.json
+    # Write chapters.json — preserve fields from prior stages (e.g. summaries from annotations)
     os.makedirs(book_dir, exist_ok=True)
+    _merge_existing_chapters(chapters_data, chapters_json_path)
     with open(chapters_json_path, "w") as f:
         json.dump({"chapters": chapters_data}, f, ensure_ascii=False, indent=2)
     print(f"Wrote {chapters_json_path}")
@@ -637,7 +791,7 @@ def run(book_id, force=False):
 
     preview = ""
     if chapters_data and chapters_data[0]["paragraphs"]:
-        preview = " ".join(chapters_data[0]["paragraphs"][:3])[:1200]
+        preview = " ".join(_para_text(p) for p in chapters_data[0]["paragraphs"][:3])[:1200]
 
     catalog["books"].append({
         **book_meta,

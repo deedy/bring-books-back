@@ -27,9 +27,9 @@ SYSTEM_PROMPT = (
 )
 
 
-def get_first_n_words(paragraphs: list[str], n: int = 1000) -> str:
+def get_first_n_words(paragraphs: list, n: int = 1000) -> str:
     """Get approximately the first n words from paragraphs."""
-    text = " ".join(paragraphs)
+    text = " ".join(p["text"] if isinstance(p, dict) else p for p in paragraphs)
     words = text.split()
     return " ".join(words[:n])
 

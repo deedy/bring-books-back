@@ -1422,6 +1422,88 @@ _register(BookConfig(
     ),
 ))
 
+# ── Devdas ──────────────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="devdas",
+    title="Devdas",
+    transliterated_title="Devdas",
+    original_title="দেবদাস",
+    author_id="sarat-chandra-chattopadhyay",
+    author_name="Sarat Chandra Chattopadhyay",
+    author_years="1876–1938",
+    original_language="Bengali",
+    original_script="Bengali",
+    original_year=1917,
+    genre=["Literary Fiction", "Romance", "Tragedy"],
+    accent_color="#8B0000",
+    style_context=(
+        "Sarat Chandra Chattopadhyay's classic Bengali novella about Devdas, a young man from "
+        "a wealthy rural Bengali family who is in love with his childhood friend Parvati (Paro). "
+        "When his family refuses the match due to caste differences, Devdas spirals into "
+        "alcoholism and self-destruction. He befriends Chandramukhi, a courtesan with a heart "
+        "of gold. The story is a tragic meditation on love, class, and self-destructive pride. "
+        "Set in early 20th century rural and urban Bengal."
+    ),
+    translation_prompt=(
+        "You are translating a Bengali novella 'Devdas' (1917) by Sarat Chandra Chattopadhyay. "
+        "This is a classic tragic love story about Devdas, a wealthy young man, and his childhood "
+        "love Parvati (Paro). The story follows his descent into alcoholism after family opposes "
+        "the match. Preserve Bengali proper nouns, honorifics, and cultural references "
+        "(babu, didi, thakur, zamindar, etc.). Translate into fluent, literary English. "
+        "Maintain the melancholic, introspective tone. "
+        "Output ONLY the English translation, no commentary."
+    ),
+    chapter_context=(
+        "Short Bengali novella about tragic love. "
+        "Has numbered chapters (likely 10-15 short chapters). No parts."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate an English translation of "Devdas" (1917), '
+        "a Bengali novella by Sarat Chandra Chattopadhyay about tragic love and self-destruction.\n\n"
+        "For the given chapter text, extract three categories of terms:\n\n"
+        '1. **Characters** — Recurring named people. 1-2 sentence description.\n'
+        '2. **Proper nouns** — Place names, Bengali cultural terms, colonial-era references. Brief explanation.\n'
+        '3. **Vocabulary** — Bengali words, honorifics, cultural terms, archaic terms. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Bengali or Indian-origin terms specific to the cultural setting.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of Bengal School watercolor painting — "
+        "soft washes, muted earth tones, sepia undertones, atmospheric and melancholic. "
+        "Evokes the work of Abanindranath Tagore and Nandalal Bose. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Early 20th century Bengal setting — colonial mansions, village paths, monsoon skies.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Devdas: handsome young Bengali man from wealthy zamindar family, brooding, self-destructive\n"
+        "- Parvati (Paro): beautiful, spirited village girl, Devdas's childhood love\n"
+        "- Chandramukhi: courtesan, compassionate, devoted to Devdas\n"
+    ),
+    character_style_prefix=(
+        "A Bengal School watercolor portrait — soft washes, muted earth tones, "
+        "sepia undertones, atmospheric and melancholic. "
+        "Evokes early 20th century Bengali art tradition. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in Bengal School watercolor style — "
+        "soft washes, muted earth tones, sepia and indigo palette. "
+        "A Bengal village at dusk — "
+        "a colonial-era mansion with pillared veranda, a path lined with palm trees, "
+        "monsoon clouds gathering over rice paddies, a river in the distance, "
+        "oil lamps glowing in the twilight, fireflies in the evening air. "
+        "NO people, NO figures. Pure atmospheric scenery. "
+        "Moody, melancholic, romantic atmosphere. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+))
+
 # ── Autobiography of a Yogi ─────────────────────────────────────────────
 
 _register(BookConfig(
@@ -1721,5 +1803,94 @@ _register(BookConfig(
         "Lush tropical vegetation, lotus pond, distant sandstone palace. "
         "Warm golden light filtering through the canopy. "
         "NO text, NO border, NO frame. 16:9 cinematic landscape ratio."
+    ),
+))
+
+
+# ── Pather Panchali (Bibhutibhushan Bandyopadhyay) ──────────────────────
+_register(BookConfig(
+    id="pather-panchali",
+    title="Pather Panchali",
+    transliterated_title="Pather Panchali",
+    original_title="পথের পাঁচালী",
+    author_id="bibhutibhushan-bandyopadhyay",
+    author_name="Bibhutibhushan Bandyopadhyay",
+    author_years="1894–1950",
+    original_language="Bengali",
+    original_script="Bengali",
+    original_year=1929,
+    genre=["Novel", "Coming-of-age", "Literary Fiction"],
+    accent_color="#4A7C59",
+    style_context=(
+        "A Bengali novel set in rural Bengal in the early 20th century. "
+        "The story follows young Apu and his family — his sister Durga, his mother Sarbajaya, "
+        "and his father Horihor, a poor Brahmin priest — through their daily struggles, "
+        "joys, and sorrows in the village of Nishchindipur. Rich in nature imagery, "
+        "childhood wonder, and the textures of village life. "
+        "Made iconic by Satyajit Ray's 1955 film adaptation."
+    ),
+    translation_prompt=(
+        "Translate from Bengali to English. Maintain the lyrical, evocative prose style "
+        "of the original. Preserve the sense of childhood wonder, the vivid descriptions "
+        "of rural Bengal's nature and seasons. Keep Bengali terms of address "
+        "(didi, dada, mashi, etc.) and cultural terms with brief context where needed. "
+        "Do NOT omit, summarize, or merge any content."
+    ),
+    chapter_context=(
+        "Bengali novel with 35 chapters (পরিচ্ছেদ). Chapters are numbered in Bengali ordinals: "
+        "প্রথম পরিচ্ছেদ (1st chapter), দ্বিতীয় পরিচ্ছেদ (2nd), etc. "
+        "The novel is divided into three parts: "
+        "বল্লালী-বালাই (Ballali Balai — childhood/Durga's section), "
+        "আম-আঁটির ভেঁপু (Aam Aantir Bhenpu — Apu's section), "
+        "and অক্রূর সংবাদ (Akrur Sambad — departure)."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate "Pather Panchali" (1929), '
+        "a Bengali novel by Bibhutibhushan Bandyopadhyay.\n\n"
+        "For the given chapter text, extract three categories of terms:\n\n"
+        '1. **Characters** — People mentioned (Apu, Durga, Sarbajaya, Horihor, Indir Thakrun, etc.). 1-2 sentence description.\n'
+        '2. **Proper nouns** — Villages, rivers, places, festivals, texts mentioned. Brief explanation.\n'
+        '3. **Vocabulary** — Bengali cultural terms, food items, plants, rituals, kinship terms. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Bengali cultural, social, and natural world terms.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate a warm, hand-drawn watercolor-style illustration. "
+        "Soft colored pencil and ink wash look with earthy greens, warm ochres, "
+        "terracotta browns, and gentle sky blues. "
+        "Lush Bengal countryside setting — thatched huts, bamboo groves, "
+        "ponds, rice paddies, banana trees, and wild flowers. "
+        "Evocative, nostalgic, storybook quality. NOT photorealistic, NOT black-and-white. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Edge-to-edge, no border, no frame, no margin.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Apu (Apurba): young Bengali boy, curious wide eyes, thin, wearing simple dhoti, eager innocent face\n"
+        "- Durga: Apu's older sister, wild-haired Bengali girl, mischievous smile, thin, wearing simple sari\n"
+        "- Sarbajaya: their mother, careworn Bengali woman, thin face, in white cotton sari, stern but loving\n"
+        "- Horihor: their father, gentle Bengali Brahmin, thin, sacred thread, simple dhoti-kurta, kind eyes\n"
+        "- Indir Thakrun: elderly great-aunt, very old and frail, hunched, in tattered white sari\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of Satyajit Ray's cinema — "
+        "soft natural light, earthy tones, contemplative mood. "
+        "Realistic character portrait set in rural Bengal. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in the style of Satyajit Ray's Pather Panchali — "
+        "soft golden afternoon light filtering through a bamboo grove in rural Bengal. "
+        "A narrow dirt path winds through lush green vegetation — banana trees, "
+        "wild flowers, a shimmering pond with water lilies in the background. "
+        "Thatched mud huts visible through the trees. Monsoon clouds gathering. "
+        "The textures of village Bengal — earthy, verdant, alive with nature. "
+        "NO people, NO figures. Pure landscape/setting. "
+        "Poetic, contemplative, nostalgic. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
     ),
 ))

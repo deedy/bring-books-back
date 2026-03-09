@@ -132,7 +132,7 @@ def build_portrait_prompt(book_id, character):
     name = character["name"]
     description = character["description"]
     paragraphs = get_first_paragraphs(book_id, name)
-    context_text = "\n".join(paragraphs) if paragraphs else ""
+    context_text = "\n".join(p["text"] if isinstance(p, dict) else p for p in paragraphs) if paragraphs else ""
 
     system_prompt = (
         "You are an art director creating portrait image prompts for AI image generation. "
