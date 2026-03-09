@@ -2012,7 +2012,56 @@
       "summary": "The Panchatantra — from the Sanskrit ‘pancha’ (five) and ‘tantra’ (treatises) — is a timeless collection of animal fables organized into five books, each built around a central story of survival and statecraft. Cunning jackals, noble lions, and playful monkeys reveal practical lessons in friendship, leadership, and navigating life’s challenges. Each tale, layered with humor and keen observation, offers universal truths wrapped in unforgettable adventures — making this ancient Indian masterwork both a source of entertainment and ageless wisdom.",
       "type": "anthology",
       "totalStories": 5,
-      "previewText": ""
+      "previewText": "",
+      "addedDate": "2026-03-08"
+    },
+    {
+      "id": "devdas",
+      "title": "Devdas",
+      "transliteratedTitle": "Devdas",
+      "subtitle": "A Heartbreaking Tale of Love and Destiny",
+      "authorId": "sarat-chandra-chattopadhyay",
+      "coverImage": "/data/images/covers/devdas.webp",
+      "accentColor": "#8B0000",
+      "genre": [
+        "Literary Fiction",
+        "Romance",
+        "Tragedy"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "দেবদাস",
+      "originalYear": 1917,
+      "totalChapters": 16,
+      "wordCount": 27215,
+      "summary": "Devdas, a passionate young man from a privileged Bengali family, is bound from childhood to Parvati, his spirited neighbor and closest friend. But when societal pride and rigid caste traditions tear them apart, Devdas is cast adrift, unable to reconcile his yearning heart with the world’s harsh realities. As he spirals into self-destruction, comforted only by the luminous Chandramukhi, a courtesan who sees the nobility within his brokenness, Devdas becomes an enduring symbol of lost love and the tragic costs of pride. Set against the evocative backdrop of early 20th-century Bengal, Sarat Chandra Chattopadhyay’s masterpiece interweaves romance, tragedy, and social critique, inviting readers into a world where the heart’s desires often collide with fate.",
+      "previewText": "It was the summer month of Baishakh, the hour was two in the afternoon, and the sunshine was dazzling. Devdas Mukherjee, sitting in a corner of the village schoolroom, gazing thoughtfully at the sunny world outside, decided that he simply had to be outside somewhere. Recess was almost over. All the children were playing noisily in the school grounds, yelling, shrieking, chasing one another in and around the giant banyan trees. All , except Devdas, and Parvati. Devdas was not allowed out for recess. Schoolmaster Govind Pandit, had found that once Devdas was let out of the classroom, it was impossible to get him back inside. Devdas’s father, Narayan Mukherjee, had agreed to this imprisonment, he had forbidden Devdas to leave the schoolhouse until classes were over.",
+      "hasOriginalText": true,
+      "originalScript": "Bengali",
+      "addedDate": "2026-03-09"
+    },
+    {
+      "id": "pather-panchali",
+      "title": "Pather Panchali",
+      "transliteratedTitle": "Pather Panchali",
+      "subtitle": "A Childhood Unfolds Amid Rural Bengal's Beauty",
+      "authorId": "bibhutibhushan-bandyopadhyay",
+      "coverImage": "/data/images/covers/pather-panchali.webp",
+      "accentColor": "#4A7C59",
+      "genre": [
+        "Novel",
+        "Coming-of-age",
+        "Literary Fiction"
+      ],
+      "originalLanguage": "Bengali",
+      "originalTitle": "পথের পাঁচালী",
+      "originalYear": 1929,
+      "totalChapters": 35,
+      "wordCount": 142105,
+      "summary": "Step into the vibrant heart of rural Bengal with Pather Panchali, where the joys and hardships of daily life are etched into every moment. Follow young Apu, his spirited sister Durga, and their resilient parents as they navigate the shifting fortunes and small wonders of their ancestral village. Through lush descriptions and heartfelt scenes—like a child's delight over a shared banana—the novel invites readers to experience the innocence, longing, and resilience that define family bonds. Bibhutibhushan Bandyopadhyay's masterpiece offers a poetic window into a vanishing world, alive with nature, tradition, and the bittersweet pulse of growing up.",
+      "previewText": "HORIHOR ROY’S TINY ancestral home marked the easternmost border of the Abode of Contentment. A few acres of inherited land and annual tokens of respect sent by his disciples were his only income, and cracks were beginning to show in the family’s budget. Indir Thakrun was demolishing a bowl of puffed rice in the veranda. The previous day had been Aekadoshi, and the mandatory fasting had left the elderly widow ravenous. Horihor’s little girl, Durga, sat close by, her wistful eyes watching as each fistful travelled from the old metal bowl to her paternal aunt’s mouth—a hopeless chasm of no return. Once or twice it seemed like she was about to say something, but each time, she swallowed her words at the last minute. When the bowl was finally empty, Indir Thakrun looked up and immediately saw the longing in her niece’s eyes. ‘Will you look at me!’ she exclaimed. ‘A whole bowl of puffed rice, and I didn’t even save a little bit for my little girl!’",
+      "hasOriginalText": true,
+      "originalScript": "Bengali",
+      "addedDate": "2026-03-09"
     }
   ],
   "authors": [
@@ -2214,6 +2263,26 @@
       "bio": "Vishnu Sharma, believed to have lived around 300 BCE, is traditionally credited as the author of the celebrated Sanskrit work, The Panchatantra. While concrete details about his life remain elusive, legend holds that Sharma was a learned scholar and teacher in ancient India. He is said to have been entrusted by a king to educate his unruly sons in the principles of wise governance and practical life skills, a task he accomplished through the innovative use of engaging animal stories. The Panchatantra thus stands as both a pedagogical tool and a literary achievement, reflecting the intellectual milieu of ancient India.\n\nThe Panchatantra is Vishnu Sharma's enduring legacy, acclaimed for its inventive use of fables to impart moral and political lessons. Comprising 87 tales organized into five books, the anthology employs a sophisticated structure of nested narratives and talking animals to explore themes of strategy, ethics, and human nature. Its influence extends far beyond its Sanskrit origins, as the work has been translated into numerous languages and has inspired countless adaptations across cultures. The version featured on this site is Arthur Ryder's 1925 English translation, which introduced the wit and wisdom of The Panchatantra to a global audience. Sharma's work remains a cornerstone of world literature, celebrated for its insight, narrative artistry, and timeless relevance.",
       "bookIds": [
         "panchatantra"
+      ]
+    },
+    {
+      "id": "sarat-chandra-chattopadhyay",
+      "name": "Sarat Chandra Chattopadhyay",
+      "image": "/data/images/authors/sarat-chandra-chattopadhyay.webp",
+      "years": "1876–1938",
+      "bio": "Sarat Chandra Chattopadhyay (1876–1938) was a celebrated Indian novelist and short story writer, born in Debanandapur, Bengal Presidency, British India. Raised in a modest family, Chattopadhyay experienced financial hardship during his youth, which influenced his empathetic portrayal of society’s marginalized members. He pursued his education in Hooghly and later in Calcutta, though he faced interruptions due to economic challenges. Chattopadhyay spent part of his life in Burma (now Myanmar), where he worked as a government clerk before returning to Bengal. His personal experiences, including his observations of social customs and class divisions, deeply informed his writing and contributed to his nuanced characterizations.\n\nSarat Chandra Chattopadhyay is regarded as one of the most influential Bengali authors of the early 20th century. His works are celebrated for their vivid depiction of rural Bengal, sensitive portrayal of women, and exploration of complex social issues. Among his many acclaimed novels, 'Devdas' (1917) stands out as a seminal work, offering a poignant narrative of love, class, and tragedy. Chattopadhyay’s literary legacy endures through numerous adaptations of his stories into films and plays, shaping modern Indian literature and culture. 'Devdas' remains a timeless classic, resonating with readers for its universal themes and its evocative depiction of early 20th-century Bengal.",
+      "bookIds": [
+        "devdas"
+      ]
+    },
+    {
+      "id": "bibhutibhushan-bandyopadhyay",
+      "name": "Bibhutibhushan Bandyopadhyay",
+      "image": "/data/images/authors/bibhutibhushan-bandyopadhyay.webp",
+      "years": "1894–1950",
+      "bio": "Bibhutibhushan Bandyopadhyay (1894–1950) was a renowned Bengali novelist and writer, born in the village of Muratipur in what is now West Bengal, India. Raised in modest circumstances, he pursued his education at Bongaon High School and later earned a degree from Surendranath College in Kolkata. Bandyopadhyay worked as a teacher and briefly as a government clerk before devoting himself to writing. His deep connection to rural Bengal, shaped by his upbringing and personal experiences, profoundly influenced his literary work. Despite financial hardships, he remained committed to depicting the realities and beauty of village life, which became a hallmark of his storytelling.\n\nBandyopadhyay holds a distinguished place in Bengali and Indian literature for his evocative prose and sensitive portrayal of rural existence. His most celebrated novel, 'Pather Panchali' (1929), featured on this site, is widely regarded as a masterpiece of coming-of-age fiction. The novel's vivid depiction of young Apu's life, familial bonds, and the landscape of early 20th-century Bengal has resonated with generations of readers. 'Pather Panchali' not only inspired sequels and other literary works but also achieved international recognition through Satyajit Ray's acclaimed film adaptation. Bandyopadhyay's legacy endures through his enduring characters, rich natural imagery, and his profound influence on South Asian literature.",
+      "bookIds": [
+        "pather-panchali"
       ]
     }
   ]
