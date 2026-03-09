@@ -26,7 +26,7 @@ export default function BookPreview({ bookId, accentColor, previewText }: BookPr
         setTotalChapters(data.chapters.length);
         const ch = data.chapters[savedProgress.currentChapter];
         if (!ch) return;
-        const full = ch.paragraphs.join("\n\n");
+        const full = ch.paragraphs.map((p: string | { text: string; type: string }) => typeof p === "string" ? p : p.text).join("\n\n");
         setText(full.slice(0, 800));
         const chLabel = ch.partName
           ? `${ch.partName} · Ch. ${ch.number}: ${ch.title}`

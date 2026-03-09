@@ -87,12 +87,28 @@ export async function generateStaticParams() {
   return params;
 }
 
+function BreadcrumbScript({ bookId, bookTitle, chapterTitle, path }: { bookId: string; bookTitle: string; chapterTitle: string; path: string[] }) {
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://grandoldbooks.com/" },
+      { "@type": "ListItem", position: 2, name: bookTitle, item: `https://grandoldbooks.com/books/${bookId}` },
+      { "@type": "ListItem", position: 3, name: chapterTitle, item: `https://grandoldbooks.com/read/${bookId}/${path.join("/")}` },
+    ],
+  };
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />;
+}
+
 export default async function ChapterRoutePage({
   params,
 }: {
   params: Promise<{ id: string; path: string[] }>;
 }) {
   const { id, path } = await params;
+  const catalog = getCatalog();
+  const book = catalog.books.find((b) => b.id === id);
+  const bookTitle = book?.title ?? id;
   const { chapters } = getChapters(id);
 
   // 1 segment → redirect shorthand (sequential index)
@@ -112,14 +128,18 @@ export default async function ChapterRoutePage({
   if (path.length === 2) {
     const num = parseInt(path[0], 10);
     const initialChapter = isNaN(num) ? 1 : num;
+    const ch = chapters[isNaN(num) ? 0 : num - 1];
     return (
-      <Suspense fallback={
-        <div className="fixed inset-0 bg-[#1a1a1a] flex items-center justify-center">
-          <div className="w-8 h-8 border-2 border-white/20 border-t-white/60 rounded-full animate-spin" />
-        </div>
-      }>
-        <ReaderLoader bookId={id} initialChapter={initialChapter} />
-      </Suspense>
+      <>
+        <BreadcrumbScript bookId={id} bookTitle={bookTitle} chapterTitle={ch?.title ?? `Chapter ${num}`} path={path} />
+        <Suspense fallback={
+          <div className="fixed inset-0 bg-[#1a1a1a] flex items-center justify-center">
+            <div className="w-8 h-8 border-2 border-white/20 border-t-white/60 rounded-full animate-spin" />
+          </div>
+        }>
+          <ReaderLoader bookId={id} initialChapter={initialChapter} />
+        </Suspense>
+      </>
     );
   }
 
@@ -131,14 +151,18 @@ export default async function ChapterRoutePage({
       (ch) => ch.part === partNum && ch.number === chapterNum,
     );
     const initialChapter = idx >= 0 ? idx + 1 : 1;
+    const ch = idx >= 0 ? chapters[idx] : chapters[0];
     return (
-      <Suspense fallback={
-        <div className="fixed inset-0 bg-[#1a1a1a] flex items-center justify-center">
-          <div className="w-8 h-8 border-2 border-white/20 border-t-white/60 rounded-full animate-spin" />
-        </div>
-      }>
-        <ReaderLoader bookId={id} initialChapter={initialChapter} />
-      </Suspense>
+      <>
+        <BreadcrumbScript bookId={id} bookTitle={bookTitle} chapterTitle={ch?.title ?? `Chapter ${chapterNum}`} path={path} />
+        <Suspense fallback={
+          <div className="fixed inset-0 bg-[#1a1a1a] flex items-center justify-center">
+            <div className="w-8 h-8 border-2 border-white/20 border-t-white/60 rounded-full animate-spin" />
+          </div>
+        }>
+          <ReaderLoader bookId={id} initialChapter={initialChapter} />
+        </Suspense>
+      </>
     );
   }
 

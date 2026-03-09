@@ -1,7 +1,7 @@
 "use client";
 
 import { Chapter, Annotation } from "@/lib/types";
-import { readingTime } from "@/lib/utils";
+import { readingTimeExact, pageCount } from "@/lib/utils";
 import { SCRIPT_CONFIG } from "@/lib/scripts";
 import ChapterImage from "./ChapterImage";
 import AnnotatedTerm from "./AnnotatedTerm";
@@ -246,16 +246,27 @@ export default function ChapterContent({
         >
           {chapter.title}
         </h2>
+        {chapter.subtitle && (
+          <p
+            className={`text-[15px] mt-2 italic ${
+              darkMode ? "text-white/60" : "text-black/50"
+            }`}
+            style={{
+              fontFamily: "var(--font-serif)",
+              letterSpacing: "0.02em",
+              ...(overlapsImage ? { textShadow: "0 1px 12px rgba(0,0,0,0.9), 0 0 30px rgba(0,0,0,0.7)" } : {}),
+            }}
+          >
+            {chapter.subtitle}
+          </p>
+        )}
         <p
           className={`text-[11px] mt-3 tracking-wide ${
             darkMode ? "text-white/50" : "text-black/20"
           }`}
           style={overlapsImage ? { textShadow: "0 0 6px rgba(0,0,0,1), 0 0 20px rgba(0,0,0,0.9), 0 0 40px rgba(0,0,0,0.7)" } : undefined}
         >
-          {chapter.wordCount >= 1000
-            ? `${(chapter.wordCount / 1000).toFixed(1)}k`
-            : chapter.wordCount}{" "}
-          words &middot; {readingTime(chapter.wordCount)} read
+          {readingTimeExact(chapter.wordCount)} read &middot; {pageCount(chapter.wordCount)} pages
         </p>
       </div>
 
@@ -267,17 +278,27 @@ export default function ChapterContent({
           ...(isIndicScript && config ? { lineHeight: config.lineHeight } : {}),
         }}
       >
-        {chapter.paragraphs.map((p, i) => {
+        {chapter.paragraphs.map((rawP, i) => {
+          const isVerse = typeof rawP === "object" && rawP.type === "verse";
+          const p = typeof rawP === "string" ? rawP : rawP.text;
           const isHighlighted = !languageScript && quoteHighlight?.paragraphIndex === i;
           return (
             <p
               key={i}
               data-p={i}
               ref={isHighlighted ? onHighlightRef : undefined}
-              className={i > 0 ? "indent-[1.5em]" : ""}
+              className={i > 0 && !isVerse ? "indent-[1.5em]" : ""}
               style={{
-                marginBottom: 0,
-                marginTop: 0,
+                marginBottom: isVerse ? "0.8em" : 0,
+                marginTop: isVerse ? "0.8em" : 0,
+                ...(isVerse
+                  ? {
+                      fontStyle: "italic",
+                      paddingLeft: "1.5em",
+                      borderLeft: `2px solid ${darkMode ? "rgba(255,255,255,0.15)" : "rgba(0,0,0,0.12)"}`,
+                      opacity: 0.88,
+                    }
+                  : {}),
                 ...(isHighlighted
                   ? {
                       backgroundColor: quoteHighlight!.accentColor + "18",

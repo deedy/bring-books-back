@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getCatalog } from "@/lib/data";
 import BookCard from "@/components/BookCard";
@@ -6,6 +7,27 @@ import BackButton from "@/components/BackButton";
 export function generateStaticParams() {
   const catalog = getCatalog();
   return catalog.authors.map((author) => ({ id: author.id }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const catalog = getCatalog();
+  const author = catalog.authors.find((a) => a.id === id);
+  if (!author) return {};
+  const title = `${author.name} — Author`;
+  const description = author.bio.split("\n\n")[0].slice(0, 155);
+  const ogImage = `https://storage.googleapis.com/grandoldbooks-assets${author.image}`;
+  return {
+    title,
+    description,
+    alternates: { canonical: `/authors/${id}` },
+    openGraph: { title: author.name, description, images: [{ url: ogImage }] },
+    twitter: { card: "summary", title: author.name, description, images: [ogImage] },
+  };
 }
 
 export default async function AuthorPage({
@@ -19,8 +41,21 @@ export default async function AuthorPage({
   const books = catalog.books.filter((b) => b.authorId === author.id);
   const bioParagraphs = author.bio.split("\n\n");
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: author.name,
+    image: `https://grandoldbooks.com${author.image}`,
+    url: `https://grandoldbooks.com/authors/${author.id}`,
+    description: bioParagraphs[0],
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-6 pb-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Back bar */}
       <div className="sticky top-16 z-10 -mx-6 px-6 py-2 bg-[#0a0a0b]/80 backdrop-blur-md">
         <BackButton />

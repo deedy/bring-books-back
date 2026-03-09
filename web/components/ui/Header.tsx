@@ -16,8 +16,14 @@ export default function Header() {
               href="/"
               className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-xs font-medium tracking-wide border border-white/20 text-white/70 hover:bg-white/10 transition-colors"
             >
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <polyline points="15 18 9 12 15 6" />
+              <svg width="12" height="12" viewBox="0 0 16 16" fill="none" className="shrink-0">
+                <path
+                  d="M10 12L6 8l4-4"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
               </svg>
               All Books
             </Link>
@@ -25,7 +31,7 @@ export default function Header() {
         </div>
         <Link href="/" className="absolute left-1/2 -translate-x-1/2 flex items-center gap-2.5 text-lg font-semibold tracking-tight text-white pointer-events-auto" style={{ fontFamily: "var(--font-serif)" }}>
           <img src="/logo.png" alt="" className="w-7 h-7 rounded" />
-          Grand Old Books
+          <span className={isSubPage ? "hidden sm:inline" : ""}>Grand Old Books</span>
         </Link>
         <div />
       </nav>

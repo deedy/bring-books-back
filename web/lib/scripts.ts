@@ -18,6 +18,7 @@ export const SCRIPT_CONFIG: Record<string, ScriptInfo> = {
 };
 
 export const LANGUAGE_LABELS: Record<string, string> = {
+  Sanskrit: "संस्कृत",
   Hindi: "हिंदी",
   Marathi: "मराठी",
   Bengali: "বাংলা",

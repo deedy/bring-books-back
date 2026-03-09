@@ -9,7 +9,7 @@ import CharacterGrid from "@/components/CharacterGrid";
 import ChapterList from "@/components/ChapterList";
 import StoryGrid from "@/components/StoryGrid";
 import AnnotatedSummary from "@/components/AnnotatedSummary";
-import { readingTime, displayYear } from "@/lib/utils";
+import { readingTime, displayYear, getNewBookIds, pageCount } from "@/lib/utils";
 
 export function generateStaticParams() {
   const catalog = getCatalog();
@@ -28,7 +28,7 @@ export async function generateMetadata({
   const author = catalog.authors.find((a) => a.id === book.authorId);
   const title = `${book.title} by ${author?.name ?? "Unknown"}`;
   const description = book.summary.slice(0, 160);
-  const ogImage = `https://storage.googleapis.com/grandoldbooks-assets${book.coverImage.replace(".webp", ".png")}`;
+  const ogImage = `https://storage.googleapis.com/grandoldbooks-assets${book.coverImage}`;
   return {
     title,
     description,
@@ -60,6 +60,8 @@ export default async function BookPage({
   const author = catalog.authors.find((a) => a.id === book.authorId)!;
 
   const isAnthology = book.type === "anthology";
+
+  const isNew = getNewBookIds(catalog.books).has(book.id);
 
   // For anthologies: load story-books from catalog
   const anthologyData = isAnthology ? getAnthologyData(id) : null;
@@ -151,11 +153,24 @@ export default async function BookPage({
     publisher: { "@type": "Organization", name: "Grand Old Books" },
   };
 
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://grandoldbooks.com/" },
+      { "@type": "ListItem", position: 2, name: book.title, item: `https://grandoldbooks.com/books/${book.id}` },
+    ],
+  };
+
   return (
     <div className="pb-12">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       {/* Hero Banner — fades into page background */}
@@ -182,7 +197,7 @@ export default async function BookPage({
       <div className="max-w-4xl mx-auto px-6 flex flex-col md:flex-row gap-10 -mt-32 relative z-10">
         <div className="w-64 flex-shrink-0 mx-auto md:mx-0">
           <div
-            className="aspect-[2/3] rounded-lg overflow-hidden"
+            className="relative aspect-[2/3] rounded-lg overflow-hidden"
             style={{
               boxShadow:
                 "0 8px 30px rgba(0,0,0,0.5), 0 2px 8px rgba(0,0,0,0.3), 0 0 60px rgba(0,0,0,0.25)",
@@ -194,6 +209,16 @@ export default async function BookPage({
               loading="lazy"
               className="w-full h-full object-cover"
             />
+            {isAnthology && book.totalStories && (
+              <span className="absolute top-3 left-3 px-2.5 py-0.5 text-[11px] font-semibold rounded bg-black/60 text-white/80 backdrop-blur-sm">
+                {book.totalStories} stories
+              </span>
+            )}
+            {isNew && (
+              <span className="absolute top-3 right-3 px-2.5 py-0.5 text-[11px] font-bold rounded bg-emerald-500/90 text-white backdrop-blur-sm uppercase tracking-wide">
+                New
+              </span>
+            )}
           </div>
         </div>
         <div className="flex-1 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
@@ -269,7 +294,7 @@ export default async function BookPage({
                   : `${book.totalChapters} chapters`}
               </span>
             )}
-            <span>{Math.round(book.wordCount / 1000)}k words</span>
+            <span>{pageCount(book.wordCount)} pages</span>
             <span>{readingTime(book.wordCount)} read</span>
           </div>
 

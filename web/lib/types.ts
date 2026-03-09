@@ -21,6 +21,7 @@ export interface Book {
   storyNumber?: number;
   hasOriginalText?: boolean;
   originalScript?: string;
+  addedDate?: string;
 }
 
 export interface Author {
@@ -45,7 +46,8 @@ export interface Chapter {
   partName: string | null;
   image: string;
   wordCount: number;
-  paragraphs: string[];
+  paragraphs: (string | { text: string; type: "verse" })[];
+  subtitle?: string;
   summary?: string;
 }
 
@@ -102,7 +104,7 @@ export interface AnthologyData {
 export interface OriginalChapter {
   id: string;
   title?: string;
-  paragraphs: string[];
+  paragraphs: (string | { text: string; type: "verse" })[];
 }
 
 export interface OriginalChaptersData {

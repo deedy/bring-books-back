@@ -25,7 +25,7 @@ export default function SelectionSharePopover({
 }: SelectionSharePopoverProps) {
   const [visible, setVisible] = useState(false);
   const [pos, setPos] = useState({ x: 0, y: 0, flip: false });
-  const [copied, setCopied] = useState<"text" | "link" | null>(null);
+  const [copied, setCopied] = useState<"text" | "link" | "quote" | null>(null);
   const quoteRef = useRef<ReturnType<typeof getSelectionQuote>>(null);
   const popoverRef = useRef<HTMLDivElement>(null);
   const hideTimer = useRef<ReturnType<typeof setTimeout>>(undefined);
@@ -61,7 +61,8 @@ export default function SelectionSharePopover({
     const container = containerRef.current;
     if (!container) return;
 
-    const onMouseUp = () => {
+    const onMouseUp = (e: MouseEvent | TouchEvent) => {
+      if (popoverRef.current && popoverRef.current.contains(e.target as Node)) return;
       clearTimeout(hideTimer.current);
       hideTimer.current = setTimeout(handleSelectionChange, 10);
     };
@@ -91,13 +92,22 @@ export default function SelectionSharePopover({
   const handleCopyText = useCallback(async () => {
     const q = quoteRef.current;
     if (!q) return;
-    const text = `\u201C${q.text}\u201D\n\u2014 ${bookTitle}`;
+    const text = `\u201C${q.text}\u201D\n\u2014 ${bookTitle} (grandoldbooks.com)`;
     await navigator.clipboard.writeText(text);
     setCopied("text");
     setTimeout(dismiss, 1200);
   }, [bookTitle, dismiss]);
 
-  const handleShareLink = useCallback(async () => {
+  const handleCopyLink = useCallback(async () => {
+    const q = quoteRef.current;
+    if (!q) return;
+    const url = buildShareUrl(q.paragraphIndex, q.startOffset, q.endOffset);
+    await navigator.clipboard.writeText(url);
+    setCopied("link");
+    setTimeout(dismiss, 1200);
+  }, [dismiss]);
+
+  const handleShareQuote = useCallback(async () => {
     const q = quoteRef.current;
     if (!q) return;
     const url = buildShareUrl(q.paragraphIndex, q.startOffset, q.endOffset);
@@ -115,7 +125,7 @@ export default function SelectionSharePopover({
       // Continue without image
     }
 
-    // Use native share API if available — it properly handles file + URL together
+    // Use native share API if available
     if (navigator.share) {
       try {
         const shareData: ShareData = {
@@ -141,7 +151,7 @@ export default function SelectionSharePopover({
             "text/plain": new Blob([url], { type: "text/plain" }),
           }),
         ]);
-        setCopied("link");
+        setCopied("quote");
         setTimeout(dismiss, 1200);
         return;
       } catch {
@@ -150,7 +160,7 @@ export default function SelectionSharePopover({
     }
 
     await navigator.clipboard.writeText(url);
-    setCopied("link");
+    setCopied("quote");
     setTimeout(dismiss, 1200);
   }, [bookTitle, authorName, accentColor, coverImage, originalYear, chapterTitle, dismiss]);
 
@@ -173,16 +183,23 @@ export default function SelectionSharePopover({
       >
         <button
           onClick={handleCopyText}
-          className="px-3 py-1.5 text-[13px] font-medium text-white rounded-lg hover:bg-white/20 transition-colors whitespace-nowrap"
+          className="px-2.5 py-1.5 text-[13px] font-medium text-white rounded-lg hover:bg-white/20 transition-colors whitespace-nowrap"
         >
           {copied === "text" ? "Copied!" : "Copy Text"}
         </button>
         <div className="w-px h-4 bg-white/30" />
         <button
-          onClick={handleShareLink}
-          className="px-3 py-1.5 text-[13px] font-medium text-white rounded-lg hover:bg-white/20 transition-colors whitespace-nowrap"
+          onClick={handleCopyLink}
+          className="px-2.5 py-1.5 text-[13px] font-medium text-white rounded-lg hover:bg-white/20 transition-colors whitespace-nowrap"
         >
-          {copied === "link" ? "Copied!" : "Share Link"}
+          {copied === "link" ? "Copied!" : "Copy Link"}
+        </button>
+        <div className="w-px h-4 bg-white/30" />
+        <button
+          onClick={handleShareQuote}
+          className="px-2.5 py-1.5 text-[13px] font-medium text-white rounded-lg hover:bg-white/20 transition-colors whitespace-nowrap"
+        >
+          {copied === "quote" ? "Shared!" : "Share Quote"}
         </button>
       </div>
       {/* Arrow */}

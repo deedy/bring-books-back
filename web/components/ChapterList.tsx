@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import type { Chapter } from "@/lib/types";
 import { useReadingStore } from "@/lib/store";
-import { readingTime, chapterPath } from "@/lib/utils";
+import { readingTimeExact, pageCount, chapterPath } from "@/lib/utils";
 
 /** Hook that returns the stored language param for a book (reactive to store changes). */
 function useBookLanguageParam(bookId: string): string | undefined {
@@ -24,11 +24,11 @@ interface ChapterListProps {
 
 /** Compute the initial visible range based on reading progress. */
 function initialRange(total: number, currentIdx: number | null): { start: number; end: number } | null {
-  if (currentIdx === null || total <= 3) return null;
-  if (currentIdx <= 1) return { start: 0, end: Math.min(3, total) };
-  if (currentIdx >= total - 2) return { start: Math.max(0, total - 3), end: total };
+  if (currentIdx === null || total <= 4) return null;
+  if (currentIdx <= 1) return { start: 0, end: Math.min(4, total) };
+  if (currentIdx >= total - 2) return { start: Math.max(0, total - 4), end: total };
   const start = Math.max(0, currentIdx - 1);
-  const end = Math.min(total, currentIdx + 2); // exclusive
+  const end = Math.min(total, currentIdx + 3); // exclusive
   return { start, end };
 }
 
@@ -41,6 +41,29 @@ export default function ChapterList({ chapters, bookId, accentColor }: ChapterLi
   const range = initialRange(chapters.length, currentIdx);
 
   const [expanded, setExpanded] = useState(false);
+
+  // Show skeleton cards until client mount so we know reading progress
+  // without flickering between default and progress-based range.
+  if (!mounted) {
+    return (
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {Array.from({ length: Math.min(4, chapters.length) }, (_, i) => (
+          <div key={i} className="flex flex-col gap-3 p-3 rounded-lg border border-white/[0.06] bg-white/[0.04] animate-pulse">
+            <div className="w-full aspect-video rounded-t bg-white/[0.06] -mx-3 -mt-3" style={{ width: "calc(100% + 1.5rem)" }} />
+            <div className="flex flex-col gap-2 py-0.5">
+              <div className="flex justify-between">
+                <div className="h-3 w-16 rounded bg-white/[0.06]" />
+                <div className="h-3 w-24 rounded bg-white/[0.06]" />
+              </div>
+              <div className="h-4 w-3/4 rounded bg-white/[0.08]" />
+              <div className="h-3 w-full rounded bg-white/[0.06]" />
+              <div className="h-3 w-2/3 rounded bg-white/[0.06]" />
+            </div>
+          </div>
+        ))}
+      </div>
+    );
+  }
 
   const distinctParts = new Set(chapters.map((ch) => ch.part).filter((p) => p != null));
   const hasParts = distinctParts.size > 1;
@@ -59,12 +82,15 @@ export default function ChapterList({ chapters, bookId, accentColor }: ChapterLi
     }
 
     return (
-      <div className="space-y-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {groups.map((group) => {
+          let isFirstVisible = true;
           const groupCards = group.chapters.map((ch, i) => {
             const gi = group.globalIndices[i];
-            const visible = expanded || (range ? gi >= range.start && gi < range.end : gi < 3);
+            const visible = expanded || (range ? gi >= range.start && gi < range.end : gi < 4);
             if (!visible) return null;
+            const showPartLabel = isFirstVisible;
+            isFirstVisible = false;
             return (
               <ChapterCard
                 key={ch.id}
@@ -74,25 +100,19 @@ export default function ChapterList({ chapters, bookId, accentColor }: ChapterLi
                 isCurrent={gi === currentIdx}
                 accentColor={accentColor}
                 languageParam={languageParam}
+                partLabel={showPartLabel ? `Part ${group.part} — ${group.partName}` : ""}
               />
             );
           });
 
           if (!expanded && groupCards.every((c) => c === null)) return null;
 
-          return (
-            <div key={group.part}>
-              <h3 className="text-sm font-semibold text-white/40 uppercase tracking-wider mb-3">
-                Part {group.part} — {group.partName}
-              </h3>
-              <div className="space-y-2">{groupCards}</div>
-            </div>
-          );
+          return groupCards;
         })}
-        {!expanded && chapters.length > (range ? range.end - range.start : 3) && (
+        {!expanded && chapters.length > (range ? range.end - range.start : 4) && (
           <button
             onClick={() => setExpanded(true)}
-            className="text-sm font-medium transition-colors cursor-pointer"
+            className="col-span-1 sm:col-span-2 text-sm font-medium transition-colors cursor-pointer"
             style={{ color: accentColor }}
           >
             Show all {chapters.length} chapters
@@ -107,10 +127,10 @@ export default function ChapterList({ chapters, bookId, accentColor }: ChapterLi
     ? chapters
     : range
       ? chapters.slice(range.start, range.end)
-      : chapters.slice(0, 3);
+      : chapters.slice(0, 4);
 
   return (
-    <div className="space-y-2">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
       {visibleChapters.map((ch) => {
         const gi = chapters.indexOf(ch);
         return (
@@ -128,7 +148,7 @@ export default function ChapterList({ chapters, bookId, accentColor }: ChapterLi
       {!expanded && chapters.length > visibleChapters.length && (
         <button
           onClick={() => setExpanded(true)}
-          className="text-sm font-medium transition-colors mt-4 cursor-pointer"
+          className="col-span-1 sm:col-span-2 text-sm font-medium transition-colors cursor-pointer"
           style={{ color: accentColor }}
         >
           Show all {chapters.length} chapters
@@ -145,6 +165,7 @@ function ChapterCard({
   isCurrent,
   accentColor,
   languageParam,
+  partLabel,
 }: {
   chapter: ChapterSummary;
   index: number;
@@ -152,15 +173,21 @@ function ChapterCard({
   isCurrent: boolean;
   accentColor: string;
   languageParam?: string;
+  partLabel?: string;
 }) {
   const base = `/read/${bookId}/${chapterPath(chapter, index)}`;
   const href = languageParam ? `${base}?language=${languageParam}` : base;
-  const time = readingTime(chapter.wordCount);
-
+  const hasPartSlot = partLabel != null;
   return (
+    <div className="flex flex-col">
+      {hasPartSlot && (
+        <h3 className="text-sm font-semibold text-white/40 uppercase tracking-wider mb-2 min-h-[1.25rem]">
+          {partLabel || "\u00A0"}
+        </h3>
+      )}
     <Link
       href={href}
-      className={`flex flex-col sm:flex-row gap-3 sm:gap-4 items-start p-3 rounded-lg border transition-colors group ${
+      className={`flex flex-col gap-3 p-3 rounded-lg border transition-colors group ${
         isCurrent
           ? "bg-white/[0.08] border-white/[0.15]"
           : "bg-white/[0.04] border-white/[0.06] hover:bg-white/[0.07]"
@@ -168,7 +195,7 @@ function ChapterCard({
       style={isCurrent ? { borderColor: `${accentColor}66` } : undefined}
     >
       {/* Thumbnail */}
-      <div className="w-full sm:w-[120px] flex-shrink-0 aspect-video rounded overflow-hidden bg-white/[0.06]">
+      <div className="w-full aspect-video rounded-t overflow-hidden bg-white/[0.06] -mx-3 -mt-3" style={{ width: "calc(100% + 1.5rem)" }}>
         {chapter.image && (
           <img
             src={chapter.image}
@@ -180,8 +207,8 @@ function ChapterCard({
       </div>
 
       {/* Info */}
-      <div className="flex-1 min-w-0 py-0.5">
-        <div className="flex items-center justify-between gap-2">
+      <div className="flex-1 min-w-0 py-0.5 flex flex-col">
+        <div className="flex items-center justify-between">
           <span className="text-xs text-white/40">
             Chapter {chapter.number}
             {isCurrent && (
@@ -190,17 +217,18 @@ function ChapterCard({
               </span>
             )}
           </span>
-          <span className="text-xs text-white/30 flex-shrink-0">{time}</span>
+          <span className="text-xs text-white/30">{readingTimeExact(chapter.wordCount)} · {pageCount(chapter.wordCount)} pages</span>
         </div>
         <p className="text-sm font-semibold text-white mt-0.5 group-hover:text-white/90 transition-colors">
           {chapter.title}
         </p>
         {chapter.summary && (
-          <p className="text-xs text-white/40 mt-1 sm:line-clamp-2 leading-relaxed">
+          <p className="text-xs text-white/40 mt-1 line-clamp-3 leading-relaxed">
             {chapter.summary}
           </p>
         )}
       </div>
     </Link>
+    </div>
   );
 }

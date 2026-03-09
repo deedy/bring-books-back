@@ -141,9 +141,10 @@ export async function generateQuoteImage(
   ctx.fillText(bookTitle, textLeftEdge, footerTop + 32);
 
   // Author · Year · Chapter
+  const yearStr = originalYear < 0 ? `${Math.abs(originalYear)} BC` : String(originalYear);
   const metaLine = chapterTitle
-    ? `by ${authorName}  \u00B7  ${originalYear}  \u00B7  ${chapterTitle}`
-    : `by ${authorName}  \u00B7  ${originalYear}`;
+    ? `by ${authorName}  \u00B7  ${yearStr}  \u00B7  ${chapterTitle}`
+    : `by ${authorName}  \u00B7  ${yearStr}`;
   ctx.font = "14px -apple-system, BlinkMacSystemFont, sans-serif";
   ctx.fillStyle = "#ffffff70";
   // Truncate if too long
