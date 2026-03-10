@@ -48,7 +48,7 @@ export default function ContinueReading({ books, authors }: ContinueReadingProps
         {inProgressBooks.map(({ book, author, progress: p, pct }) => (
           <Link
             key={book.id}
-            href={`/read/${book.id}`}
+            href={`/read/${book.id}/${p.currentChapter + 1}`}
             className="flex-shrink-0 group flex gap-3 bg-white/[0.04] hover:bg-white/[0.08] rounded-xl p-3 transition-colors"
             style={{ width: "min(320px, 80vw)" }}
           >

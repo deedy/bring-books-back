@@ -317,7 +317,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
           </p>
 
           <Link
-            href={book.type === "anthology" ? `/books/${book.id}` : `/read/${book.id}`}
+            href={book.type === "anthology" ? `/books/${book.id}` : isInProgress ? `/read/${book.id}/${bookProgress!.currentChapter + 1}` : `/read/${book.id}`}
             scroll={false}
             className="inline-block mt-5 px-6 py-3 rounded-lg font-medium text-white transition-opacity hover:opacity-90"
             style={{ backgroundColor: book.accentColor }}

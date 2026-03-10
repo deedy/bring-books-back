@@ -7,6 +7,8 @@ FROM node:20-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+# Publishable key is public (embedded in client JS) — safe to bake in
+ENV NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_live_Y2xlcmsuZ3JhbmRvbGRib29rcy5jb20k
 RUN npm run build
 
 FROM node:20-alpine AS runner

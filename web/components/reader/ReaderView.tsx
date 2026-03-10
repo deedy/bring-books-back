@@ -144,8 +144,9 @@ export default function ReaderView({
       if (idx < 0 || idx >= chapters.length) return;
       setShowPicker(false);
 
-      if (!isAuthenticated && idx !== currentIndex) {
-        window.location.assign(chapterUrl(idx));
+      if (!isAuthenticated && chapters[idx]?.accessMode === "locked") {
+        // Full reload so the server builds a preview for this chapter
+        window.location.href = chapterUrl(idx);
         return;
       }
 
@@ -211,15 +212,14 @@ export default function ReaderView({
     const hash = isQuoteLinkRef.current ? initialHashRef.current : "";
     window.history.replaceState({}, "", chapterUrl(currentIndex) + hash);
     if (isQuoteLinkRef.current) return; // Don't overwrite saved position on quote links
-    // Don't save chapter changes until scroll restoration is done — otherwise the
-    // initial mount with currentIndex=0 (SSR default) would overwrite the real
-    // stored progress before the chapter restore effect has run.
-    if (!_hasRestoredScroll) return;
-    // Check stored chapter — skip write on initial mount to avoid corrupting
-    // scrollPercent before Zustand persist has hydrated from localStorage
+    // When no initialChapter (organic visit), wait for scroll restore before saving —
+    // otherwise the SSR default currentIndex=0 would overwrite stored progress.
+    // When initialChapter IS set (URL-driven nav), we know the chapter is correct.
+    if (!_hasRestoredScroll && initialChapter === undefined) return;
+    // Skip write if already on this chapter — avoid corrupting scrollPercent
     const stored = useReadingStore.getState().progress[bookId];
-    if (!stored || stored.currentChapter === currentIndex) return;
-    // User changed chapters — save new chapter and reset scroll to top
+    if (stored?.currentChapter === currentIndex) return;
+    // Save chapter (creates entry on first visit, resets scroll on chapter change)
     updateProgress(bookId, { currentChapter: currentIndex, scrollPercent: 0 });
     _latestScrollPercent = 0;
   }, [bookId, currentIndex, updateProgress, chapterUrl]);
@@ -366,9 +366,11 @@ export default function ReaderView({
       const progress = state.progress[bookId];
       const pct = progress?.scrollPercent;
       if (!pct || pct <= 0) { setScrollRestored(true); return; }
-      // Use stored chapter directly — currentIndex from closure may be stale
-      // when chapter was restored from Zustand after mount
-      const restoredChapter = progress.currentChapter ?? currentIndex;
+      // When initialChapter is set (URL-driven navigation), trust it over the
+      // stored chapter — otherwise the store overwrites the URL-requested chapter.
+      const restoredChapter = initialChapter !== undefined
+        ? currentIndex
+        : (progress.currentChapter ?? currentIndex);
       let targetY = 0;
 
       if (state.scrollMode === "infinite") {
@@ -406,7 +408,8 @@ export default function ReaderView({
           // overlay shows the correct chapter info (not stale index 0)
           setCurrentIndex(restoredChapter);
           // Show chapter reminder when restoring to a mid-chapter position
-          if (pct && pct > 3) {
+          // but not if we're near the top of the page
+          if (pct && pct > 3 && window.scrollY > 300) {
             setShowChapterReminder(true);
             reminderScrollStart.current = window.scrollY;
           }
@@ -574,7 +577,8 @@ export default function ReaderView({
       paragraphIndex: targetChapter.gate?.paragraphIndex ?? 0,
       wordOffset: targetChapter.gate?.wordOffset ?? 0,
     };
-    const redirectUrl = new URL(baseReturnUrl, window.location.origin);
+    const origin = typeof window !== "undefined" ? window.location.origin : "https://grandoldbooks.com";
+    const redirectUrl = new URL(baseReturnUrl, origin);
     redirectUrl.searchParams.set("resume", encodeResumeTarget(target));
     const returnUrl = `${redirectUrl.pathname}${redirectUrl.search}`;
     const encoded = encodeURIComponent(returnUrl);
@@ -587,6 +591,7 @@ export default function ReaderView({
 
   const overallProgress = scrollMode === "infinite"
     ? (() => {
+        if (typeof window === "undefined") return 0;
         const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
         return scrollHeight > 0 ? Math.min(100, (lastScrollY.current / scrollHeight) * 100) : 0;
       })()

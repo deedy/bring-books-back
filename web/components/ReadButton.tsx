@@ -23,7 +23,8 @@ export default function ReadButton({ bookId, accentColor, totalChapters, languag
   }
 
   const langSuffix = languageParam ? `?language=${languageParam}` : "";
-  const href = `/read/${bookId}${langSuffix}`;
+  const chapterSegment = progress && !progress.finished ? `/${progress.currentChapter + 1}` : "";
+  const href = `/read/${bookId}${chapterSegment}${langSuffix}`;
   const className = "inline-block px-8 py-3 rounded-lg font-semibold text-white text-lg transition-opacity hover:opacity-90";
 
   // Always use <a> (full page load) instead of Next.js Link to ensure

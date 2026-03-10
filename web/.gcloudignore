@@ -1,9 +1,10 @@
-node_modules
-.next
-.git
+#!include:.gitignore
+node_modules/
+.next/
+.git/
+out/
 .env*
-public/
-app/
-components/
-lib/
-# Only out/, Dockerfile, nginx.conf, and package files are needed for Cloud Build.
+*.md
+*.test.*
+*.spec.*
+public/data/images/

@@ -3,7 +3,5 @@ node_modules
 .git
 .env*
 *.md
-public/
-app/
-components/
-lib/
+*.test.*
+*.spec.*

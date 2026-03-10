@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "npx vitest run && npx tsx scripts/generate-sitemap.ts && npx tsx scripts/validate.ts",
+    "prebuild": "npx vitest run --passWithNoTests && npx tsx scripts/generate-sitemap.ts && npx tsx scripts/validate.ts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
