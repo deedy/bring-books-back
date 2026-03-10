@@ -8,7 +8,8 @@ import fs from "fs";
 import path from "path";
 
 const BASE = "https://grandoldbooks.com";
-const DATA_DIR = path.join(__dirname, "..", "public", "data");
+const PUBLIC_DATA_DIR = path.join(__dirname, "..", "public", "data");
+const SERVER_DATA_DIR = path.join(__dirname, "..", "server-data");
 
 function slugify(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
@@ -26,7 +27,7 @@ function loadJson(filePath: string) {
 }
 
 function main() {
-  const catalog = loadJson(path.join(DATA_DIR, "catalog.json"));
+  const catalog = loadJson(path.join(PUBLIC_DATA_DIR, "catalog.json"));
   const urls: { loc: string; priority: number }[] = [];
 
   // Static pages
@@ -44,14 +45,14 @@ function main() {
     urls.push({ loc: `/books/${book.id}`, priority: 0.8 });
 
     // Glossary
-    const annPath = path.join(DATA_DIR, "books", book.id, "annotations.json");
+    const annPath = path.join(PUBLIC_DATA_DIR, "books", book.id, "annotations.json");
     if (fs.existsSync(annPath)) {
       urls.push({ loc: `/books/${book.id}/glossary`, priority: 0.5 });
     }
 
     // Reader chapter URLs (skip anthologies)
     if (book.type === "anthology") continue;
-    const chaptersPath = path.join(DATA_DIR, "books", book.id, "chapters.json");
+    const chaptersPath = path.join(SERVER_DATA_DIR, "books", book.id, "chapters.json");
     if (!fs.existsSync(chaptersPath)) continue;
     const { chapters } = loadJson(chaptersPath);
     chapters.forEach((ch: any, idx: number) => {

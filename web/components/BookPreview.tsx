@@ -1,8 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useMemo } from "react";
 import { useReadingStore } from "@/lib/store";
-import { ChaptersData } from "@/lib/types";
 import ReadButton from "./ReadButton";
 
 interface BookPreviewProps {
@@ -13,28 +12,10 @@ interface BookPreviewProps {
 
 export default function BookPreview({ bookId, accentColor, previewText }: BookPreviewProps) {
   const savedProgress = useReadingStore((s) => s.getProgress(bookId));
-  const [text, setText] = useState(previewText);
-  const [label, setLabel] = useState("Preview");
-  const [totalChapters, setTotalChapters] = useState<number | undefined>(undefined);
-
-  useEffect(() => {
-    if (!savedProgress) return;
-
-    fetch(`/data/books/${bookId}/chapters.json`)
-      .then((r) => r.json())
-      .then((data: ChaptersData) => {
-        setTotalChapters(data.chapters.length);
-        const ch = data.chapters[savedProgress.currentChapter];
-        if (!ch) return;
-        const full = ch.paragraphs.map((p: string | { text: string; type: string }) => typeof p === "string" ? p : p.text).join("\n\n");
-        setText(full.slice(0, 800));
-        const chLabel = ch.partName
-          ? `${ch.partName} · Ch. ${ch.number}: ${ch.title}`
-          : `Ch. ${ch.number}: ${ch.title}`;
-        setLabel(`Continue Reading · ${chLabel}`);
-      })
-      .catch(() => {});
-  }, [bookId, savedProgress]);
+  const label = useMemo(() => {
+    if (!savedProgress) return "Preview";
+    return savedProgress.finished ? "Read Again" : "Continue Reading";
+  }, [savedProgress]);
 
   return (
     <section className="mt-16">
@@ -44,12 +25,12 @@ export default function BookPreview({ bookId, accentColor, previewText }: BookPr
           className="text-white/50 leading-relaxed"
           style={{ fontFamily: "var(--font-serif)" }}
         >
-          {text}
+          {previewText}
         </p>
         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#0a0a0a] to-transparent" />
       </div>
       <div className="mt-6">
-        <ReadButton bookId={bookId} accentColor={accentColor} totalChapters={totalChapters} />
+        <ReadButton bookId={bookId} accentColor={accentColor} progress={savedProgress} />
       </div>
     </section>
   );

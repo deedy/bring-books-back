@@ -1,11 +1,11 @@
 "use client";
 
+import { useAuth } from "@clerk/nextjs";
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
 
 interface ReaderHeaderProps {
   bookTitle: string;
-  chapterLabel: string;
   visible: boolean;
   onTogglePicker: () => void;
   bookId: string;
@@ -16,13 +16,13 @@ interface ReaderHeaderProps {
   scrollMode: "paginated" | "infinite";
   onToggleScrollMode: () => void;
   hideChaptersButton?: boolean;
+  signInUrl?: string;
 }
 
 const fontSizes: Array<"small" | "medium" | "large"> = ["small", "medium", "large"];
 
 export default function ReaderHeader({
   bookTitle,
-  chapterLabel,
   visible,
   onTogglePicker,
   bookId,
@@ -33,7 +33,9 @@ export default function ReaderHeader({
   scrollMode,
   onToggleScrollMode,
   hideChaptersButton,
+  signInUrl = "/sign-in",
 }: ReaderHeaderProps) {
+  const { isLoaded, userId } = useAuth();
   const [settingsOpen, setSettingsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const nextSize = fontSizes[(fontSizes.indexOf(fontSize) + 1) % fontSizes.length];
@@ -94,6 +96,11 @@ export default function ReaderHeader({
 
           {/* Desktop: show all buttons inline */}
           <div className="hidden sm:flex items-center gap-2">
+            {(!isLoaded || !userId) && (
+              <Link href={signInUrl} className={buttonClass}>
+                Sign in
+              </Link>
+            )}
             <button
               onClick={onToggleScrollMode}
               className={`p-2 rounded-lg transition-colors ${

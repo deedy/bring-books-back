@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { getCatalog, getChapters } from "@/lib/data";
+import { getReaderPayload } from "@/lib/readerData";
 import { slugify, chapterPath } from "@/lib/utils";
 import { redirect } from "next/navigation";
 import ReaderLoader from "@/components/reader/ReaderLoader";
+
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
@@ -103,14 +106,23 @@ function BreadcrumbScript({ bookId, bookTitle, chapterTitle, path }: { bookId: s
 
 export default async function ChapterRoutePage({
   params,
+  searchParams,
 }: {
   params: Promise<{ id: string; path: string[] }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }) {
   const { id, path } = await params;
+  const resolvedSearchParams = await searchParams;
   const catalog = getCatalog();
   const book = catalog.books.find((b) => b.id === id);
   const bookTitle = book?.title ?? id;
   const { chapters } = getChapters(id);
+  const languageParam = typeof resolvedSearchParams.language === "string"
+    ? resolvedSearchParams.language
+    : undefined;
+  const resumeParam = typeof resolvedSearchParams.resume === "string"
+    ? resolvedSearchParams.resume
+    : undefined;
 
   // 1 segment → redirect shorthand (sequential index)
   if (path.length === 1) {
@@ -130,6 +142,7 @@ export default async function ChapterRoutePage({
     const num = parseInt(path[0], 10);
     const initialChapter = isNaN(num) ? 1 : num;
     const ch = chapters[isNaN(num) ? 0 : num - 1];
+    const payload = await getReaderPayload(id, initialChapter - 1, languageParam, resumeParam);
     return (
       <>
         <BreadcrumbScript bookId={id} bookTitle={bookTitle} chapterTitle={ch?.title ?? `Chapter ${num}`} path={path} />
@@ -138,7 +151,22 @@ export default async function ChapterRoutePage({
             <div className="w-8 h-8 border-2 border-white/20 border-t-white/60 rounded-full animate-spin" />
           </div>
         }>
-          <ReaderLoader bookId={id} initialChapter={initialChapter} />
+          <ReaderLoader
+            accentColor={payload.accentColor}
+            annotations={payload.annotations}
+            authorName={payload.authorName}
+            bookId={payload.bookId}
+            bookTitle={payload.bookTitle}
+            chapters={payload.chapters}
+            coverImage={payload.coverImage}
+            initialChapter={payload.requestedChapterIndex + 1}
+            isAuthenticated={payload.isAuthenticated}
+            isOriginalActive={payload.isOriginalActive}
+            originalScript={payload.originalScript}
+            originalYear={payload.originalYear}
+            resumeTarget={payload.resumeTarget}
+            totalChapters={payload.totalChapters}
+          />
         </Suspense>
       </>
     );
@@ -153,6 +181,7 @@ export default async function ChapterRoutePage({
     );
     const initialChapter = idx >= 0 ? idx + 1 : 1;
     const ch = idx >= 0 ? chapters[idx] : chapters[0];
+    const payload = await getReaderPayload(id, initialChapter - 1, languageParam, resumeParam);
     return (
       <>
         <BreadcrumbScript bookId={id} bookTitle={bookTitle} chapterTitle={ch?.title ?? `Chapter ${chapterNum}`} path={path} />
@@ -161,7 +190,22 @@ export default async function ChapterRoutePage({
             <div className="w-8 h-8 border-2 border-white/20 border-t-white/60 rounded-full animate-spin" />
           </div>
         }>
-          <ReaderLoader bookId={id} initialChapter={initialChapter} />
+          <ReaderLoader
+            accentColor={payload.accentColor}
+            annotations={payload.annotations}
+            authorName={payload.authorName}
+            bookId={payload.bookId}
+            bookTitle={payload.bookTitle}
+            chapters={payload.chapters}
+            coverImage={payload.coverImage}
+            initialChapter={payload.requestedChapterIndex + 1}
+            isAuthenticated={payload.isAuthenticated}
+            isOriginalActive={payload.isOriginalActive}
+            originalScript={payload.originalScript}
+            originalYear={payload.originalYear}
+            resumeTarget={payload.resumeTarget}
+            totalChapters={payload.totalChapters}
+          />
         </Suspense>
       </>
     );

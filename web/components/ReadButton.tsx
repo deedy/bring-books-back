@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { ReadingProgress } from "@/lib/types";
 
 interface ReadButtonProps {
@@ -27,17 +26,11 @@ export default function ReadButton({ bookId, accentColor, totalChapters, languag
   const href = `/read/${bookId}${langSuffix}`;
   const className = "inline-block px-8 py-3 rounded-lg font-semibold text-white text-lg transition-opacity hover:opacity-90";
 
-  if (languageParam) {
-    return (
-      <a href={href} className={className} style={{ backgroundColor: accentColor }}>
-        {label}
-      </a>
-    );
-  }
-
+  // Always use <a> (full page load) instead of Next.js Link to ensure
+  // ReaderView fully remounts and restores scroll position from Zustand.
   return (
-    <Link href={href} scroll={false} className={className} style={{ backgroundColor: accentColor }}>
+    <a href={href} className={className} style={{ backgroundColor: accentColor }}>
       {label}
-    </Link>
+    </a>
   );
 }

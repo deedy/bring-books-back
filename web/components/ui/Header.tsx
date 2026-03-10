@@ -1,9 +1,12 @@
 "use client";
 
+import { UserButton, useAuth, useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export default function Header() {
+  const { isLoaded, userId } = useAuth();
+  const { user } = useUser();
   const pathname = usePathname();
   const isSubPage = pathname !== "/";
 
@@ -33,7 +36,35 @@ export default function Header() {
           <img src="/logo.png" alt="" className="w-7 h-7 rounded" />
           <span className={isSubPage ? "hidden sm:inline" : ""}>Grand Old Books</span>
         </Link>
-        <div />
+        <div className="flex items-center gap-2">
+          {!isLoaded ? (
+            <div className="w-7 h-7" />
+          ) : !userId ? (
+            <>
+            <Link
+              href="/sign-in"
+              className="hidden sm:inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium tracking-wide border border-white/15 text-white/70 hover:bg-white/10 transition-colors"
+            >
+              Sign in
+            </Link>
+            <Link
+              href="/sign-up"
+              className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium tracking-wide bg-white text-black hover:opacity-90 transition-opacity"
+            >
+              Sign up
+            </Link>
+            </>
+          ) : (
+            <div className="flex items-center gap-2 bg-white/[0.06] rounded-full pl-1 pr-3 py-1">
+              <UserButton />
+              {user?.firstName && (
+                <span className="text-xs font-medium text-white/70">
+                  {user.firstName}
+                </span>
+              )}
+            </div>
+          )}
+        </div>
       </nav>
     </header>
   );

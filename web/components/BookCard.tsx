@@ -15,7 +15,7 @@ export default function BookCard({ book, author }: BookCardProps) {
       href={`/books/${book.id}`}
       className="group block"
     >
-      <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg transition-all duration-200 group-hover:scale-[1.03] group-hover:shadow-2xl">
+      <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg transition-all duration-200 group-hover:scale-[1.03] group-hover:shadow-2xl bg-white/[0.06]">
         <OfflineBadge bookId={book.id} />
         <img
           src={book.coverImage}

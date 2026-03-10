@@ -1,13 +1,14 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback, useMemo } from "react";
-import { Chapter, AnnotationsData, OriginalChaptersData } from "@/lib/types";
+import { useEffect, useRef, useState, useCallback } from "react";
+import { Chapter, AnnotationsData, ResumeTarget } from "@/lib/types";
 import { useReadingStore } from "@/lib/store";
 import ReaderHeader from "./ReaderHeader";
 import ProgressBar from "./ProgressBar";
 import ChapterContent from "./ChapterContent";
 import ChapterImage from "./ChapterImage";
 import ChapterPicker from "./ChapterPicker";
+import { createResumeAnchorId, encodeResumeTarget } from "@/lib/readerAccess";
 import { chapterPath } from "@/lib/utils";
 import { trackEvent } from "@/lib/analytics";
 import { decodeQuoteHash } from "@/lib/quote";
@@ -31,10 +32,10 @@ interface ReaderViewProps {
   totalChapters: number;
   initialChapter?: number;
   annotations?: AnnotationsData;
-  hasOriginalText?: boolean;
+  isAuthenticated: boolean;
   originalScript?: string;
-  initialOriginalData?: OriginalChaptersData | null;
   isOriginalActive: boolean;
+  resumeTarget: ResumeTarget | null;
 }
 
 export default function ReaderView({
@@ -48,46 +49,44 @@ export default function ReaderView({
   totalChapters,
   initialChapter,
   annotations,
+  isAuthenticated,
   originalScript,
-  initialOriginalData,
   isOriginalActive,
+  resumeTarget,
 }: ReaderViewProps) {
   const updateProgress = useReadingStore((s) => s.updateProgress);
   const scrollMode = useReadingStore((s) => s.scrollMode);
   const setScrollMode = useReadingStore((s) => s.setScrollMode);
-
-  // Original-language chapter map — built synchronously via useMemo
-  // so it's available on the very first render (no flicker).
-  const originalChapterMap = useMemo(() => {
-    if (!initialOriginalData) return null;
-    const map = new Map<string, { paragraphs: (string | { text: string; type: "verse" })[]; title?: string }>();
-    for (const ch of initialOriginalData.chapters) {
-      map.set(ch.id, { paragraphs: ch.paragraphs, title: ch.title });
-    }
-    return map;
-  }, [initialOriginalData]);
-
-  // Font loading is handled by ReaderLoader (waits for font before rendering)
-
-  const resolvedChapters = useMemo(() => chapters.map((ch) => {
-    if (!isOriginalActive || !originalChapterMap) return ch;
-    const orig = originalChapterMap.get(ch.id);
-    if (!orig) return ch;
-    return { ...ch, paragraphs: orig.paragraphs, ...(orig.title ? { title: orig.title } : {}) };
-  }), [chapters, isOriginalActive, originalChapterMap]);
-
   const [currentIndex, setCurrentIndex] = useState(() => {
     if (initialChapter !== undefined && initialChapter >= 1 && initialChapter <= chapters.length) {
       return initialChapter - 1;
     }
-    const stored = useReadingStore.getState().progress[bookId]?.currentChapter ?? 0;
-    return Math.min(stored, chapters.length - 1);
+    // When no initialChapter, default to 0 for SSR agreement.
+    // Zustand restore happens in the effect below.
+    return 0;
   });
+
+  // Restore chapter from Zustand after mount (avoids hydration mismatch)
+  const didRestoreChapter = useRef(false);
+  useEffect(() => {
+    if (didRestoreChapter.current) return;
+    if (initialChapter !== undefined) { didRestoreChapter.current = true; return; }
+    didRestoreChapter.current = true;
+    const progress = useReadingStore.getState().progress[bookId];
+    const stored = progress?.currentChapter ?? 0;
+    const idx = Math.min(stored, chapters.length - 1);
+    if (idx !== 0) setCurrentIndex(idx);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
   const [showPicker, setShowPicker] = useState(false);
   const [scrollRestored, setScrollRestored] = useState(false);
+  const [showChapterReminder, setShowChapterReminder] = useState(false);
+  const [reminderOpacity, setReminderOpacity] = useState(1);
+  const reminderScrollStart = useRef<number | null>(null);
   const [headerVisible, setHeaderVisible] = useState(true);
-  const [darkMode, setDarkMode] = useState(true);
-  const [fontSize, setFontSize] = useState<"small" | "medium" | "large">("medium");
+  const darkMode = useReadingStore((s) => s.readerPrefs.darkMode);
+  const fontSize = useReadingStore((s) => s.readerPrefs.fontSize);
+  const setReaderPrefs = useReadingStore((s) => s.setReaderPrefs);
   const [chapterProgress, setChapterProgress] = useState(0);
   const lastScrollY = useRef(0);
   // Reset module-level state on fresh mount (new book or new navigation)
@@ -121,8 +120,8 @@ export default function ReaderView({
   // Suppress observer updates while programmatically scrolling
   const suppressObserverRef = useRef(false);
 
-  const chapter = resolvedChapters[currentIndex];
-  const prevChapter = currentIndex > 0 ? resolvedChapters[currentIndex - 1] : null;
+  const chapter = chapters[currentIndex];
+  const prevChapter = currentIndex > 0 ? chapters[currentIndex - 1] : null;
 
   // Build chapter URL path
   const chapterUrl = useCallback(
@@ -130,10 +129,11 @@ export default function ReaderView({
       const clampedIdx = Math.max(0, Math.min(idx, chapters.length - 1));
       const ch = chapters[clampedIdx];
       const base = `/read/${bookId}/${chapterPath(ch, clampedIdx + 1)}`;
-      // Read query string directly from window.location — not from
-      // searchParams which can go stale after pushState/replaceState.
-      const qs = typeof window !== "undefined" ? window.location.search : "";
-      return `${base}${qs}`;
+      if (typeof window === "undefined") return base;
+      const params = new URLSearchParams(window.location.search);
+      params.delete("resume");
+      const query = params.toString();
+      return query ? `${base}?${query}` : base;
     },
     [bookId, chapters]
   );
@@ -143,6 +143,11 @@ export default function ReaderView({
     (idx: number) => {
       if (idx < 0 || idx >= chapters.length) return;
       setShowPicker(false);
+
+      if (!isAuthenticated && idx !== currentIndex) {
+        window.location.assign(chapterUrl(idx));
+        return;
+      }
 
       if (scrollMode === "infinite") {
         // Scroll to the chapter's position
@@ -162,7 +167,7 @@ export default function ReaderView({
         window.history.pushState({}, "", chapterUrl(idx));
       }
     },
-    [chapters.length, chapterUrl, scrollMode]
+    [chapterUrl, chapters.length, currentIndex, isAuthenticated, scrollMode]
   );
 
   // Toggle scroll mode
@@ -178,8 +183,12 @@ export default function ReaderView({
     }
   }, [scrollMode, setScrollMode]);
 
-  // After switching to infinite mode, scroll to the current chapter
+  // After the user toggles to infinite mode, scroll to the current chapter.
+  // Skip until scroll restoration is done — the scroll-restore effect handles
+  // initial positioning, and Zustand hydration may flip scrollMode from default
+  // to "infinite" before that, which would incorrectly scroll to chapter 0.
   useEffect(() => {
+    if (!_hasRestoredScroll) return;
     if (scrollMode === "infinite") {
       // Small delay to let all chapters render
       const timer = setTimeout(() => {
@@ -202,6 +211,10 @@ export default function ReaderView({
     const hash = isQuoteLinkRef.current ? initialHashRef.current : "";
     window.history.replaceState({}, "", chapterUrl(currentIndex) + hash);
     if (isQuoteLinkRef.current) return; // Don't overwrite saved position on quote links
+    // Don't save chapter changes until scroll restoration is done — otherwise the
+    // initial mount with currentIndex=0 (SSR default) would overwrite the real
+    // stored progress before the chapter restore effect has run.
+    if (!_hasRestoredScroll) return;
     // Check stored chapter — skip write on initial mount to avoid corrupting
     // scrollPercent before Zustand persist has hydrated from localStorage
     const stored = useReadingStore.getState().progress[bookId];
@@ -280,7 +293,9 @@ export default function ReaderView({
           const chapterHeight = chapterBottom - chapterTop;
           if (chapterHeight > 0) {
             const pct = Math.max(0, Math.min(100, ((y - chapterTop) / chapterHeight) * 100));
-            _latestScrollPercent = pct;
+            if (pct > 0 || _latestScrollPercent < 1) {
+              _latestScrollPercent = pct;
+            }
             // UI progress bar uses a visual offset
             setChapterProgress(Math.max(0, Math.min(100, ((y - chapterTop + window.innerHeight * 0.3) / chapterHeight) * 100)));
           }
@@ -290,7 +305,13 @@ export default function ReaderView({
         const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
         if (scrollHeight > 0) {
           const pct = Math.min(100, (y / scrollHeight) * 100);
-          _latestScrollPercent = pct;
+          // Don't zero out scroll percent on navigation-triggered scroll-to-top.
+          // When navigating away, the browser resets scroll to 0 before cleanup
+          // runs, which would wipe the saved position. Real user scrolls to top
+          // are gradual and go through intermediate values first.
+          if (pct > 0 || _latestScrollPercent < 1) {
+            _latestScrollPercent = pct;
+          }
           setChapterProgress(pct);
         }
       }
@@ -320,18 +341,40 @@ export default function ReaderView({
       if (_hasRestoredScroll) return;
       _hasRestoredScroll = true;
 
+      if (resumeTarget) {
+        const anchor = document.getElementById(
+          createResumeAnchorId(
+            resumeTarget.chapterId,
+            resumeTarget.paragraphIndex,
+            resumeTarget.wordOffset,
+          )
+        );
+        if (anchor) {
+          anchor.scrollIntoView({ behavior: "auto", block: "start" });
+          window.scrollBy(0, -84);
+        }
+        const params = new URLSearchParams(window.location.search);
+        params.delete("resume");
+        const nextSearch = params.toString();
+        const nextUrl = `${window.location.pathname}${nextSearch ? `?${nextSearch}` : ""}${window.location.hash}`;
+        window.history.replaceState({}, "", nextUrl);
+        setScrollRestored(true);
+        return;
+      }
+
       const state = useReadingStore.getState();
       const progress = state.progress[bookId];
       const pct = progress?.scrollPercent;
       if (!pct || pct <= 0) { setScrollRestored(true); return; }
-      if (progress.currentChapter !== currentIndex) { setScrollRestored(true); return; }
-
+      // Use stored chapter directly — currentIndex from closure may be stale
+      // when chapter was restored from Zustand after mount
+      const restoredChapter = progress.currentChapter ?? currentIndex;
       let targetY = 0;
 
       if (state.scrollMode === "infinite") {
-        const headingEl = chapterHeadingRefs.current.get(currentIndex);
+        const headingEl = chapterHeadingRefs.current.get(restoredChapter);
         if (headingEl) {
-          const nextHeadingEl = chapterHeadingRefs.current.get(currentIndex + 1);
+          const nextHeadingEl = chapterHeadingRefs.current.get(restoredChapter + 1);
           const chapterTop = headingEl.getBoundingClientRect().top + window.scrollY;
           const chapterBottom = nextHeadingEl
             ? nextHeadingEl.getBoundingClientRect().top + window.scrollY
@@ -359,6 +402,14 @@ export default function ReaderView({
             window.scrollTo({ top: targetY, behavior: "auto" });
           }
           setScrollRestored(true);
+          // Ensure currentIndex matches the restored chapter so the reminder
+          // overlay shows the correct chapter info (not stale index 0)
+          setCurrentIndex(restoredChapter);
+          // Show chapter reminder when restoring to a mid-chapter position
+          if (pct && pct > 3) {
+            setShowChapterReminder(true);
+            reminderScrollStart.current = window.scrollY;
+          }
         });
       } else {
         setScrollRestored(true);
@@ -366,7 +417,27 @@ export default function ReaderView({
     }, 300);
     return () => clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [bookId]);
+  }, [bookId, resumeTarget]);
+
+  // Fade out chapter reminder on scroll (any direction)
+  useEffect(() => {
+    if (!showChapterReminder) return;
+    const FADE_DISTANCE = 120; // pixels of scroll to fully fade
+
+    const handleReminderScroll = () => {
+      if (reminderScrollStart.current === null) {
+        reminderScrollStart.current = window.scrollY;
+      }
+      const delta = Math.abs(window.scrollY - reminderScrollStart.current);
+      const opacity = Math.max(0, 1 - delta / FADE_DISTANCE);
+      setReminderOpacity(opacity);
+      if (opacity <= 0) {
+        setShowChapterReminder(false);
+      }
+    };
+    window.addEventListener("scroll", handleReminderScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleReminderScroll);
+  }, [showChapterReminder]);
 
   // Flush scroll position to store on page hide, beforeunload, and component unmount
   // (beforeunload covers tab close; visibilitychange covers mobile tab switch;
@@ -490,6 +561,30 @@ export default function ReaderView({
     }
   }, []);
 
+  const rememberAuthReturnUrl = useCallback((returnUrl: string) => {
+    if (typeof window === "undefined") return;
+    window.sessionStorage.setItem("gob-auth-return-url", returnUrl);
+  }, []);
+
+  const buildAuthUrls = useCallback((idx: number) => {
+    const targetChapter = chapters[idx];
+    const baseReturnUrl = chapterUrl(idx);
+    const target = {
+      chapterId: targetChapter.id,
+      paragraphIndex: targetChapter.gate?.paragraphIndex ?? 0,
+      wordOffset: targetChapter.gate?.wordOffset ?? 0,
+    };
+    const redirectUrl = new URL(baseReturnUrl, window.location.origin);
+    redirectUrl.searchParams.set("resume", encodeResumeTarget(target));
+    const returnUrl = `${redirectUrl.pathname}${redirectUrl.search}`;
+    const encoded = encodeURIComponent(returnUrl);
+    return {
+      returnUrl,
+      signInUrl: `/sign-in?redirect_url=${encoded}`,
+      signUpUrl: `/sign-up?redirect_url=${encoded}`,
+    };
+  }, [chapterUrl, chapters]);
+
   const overallProgress = scrollMode === "infinite"
     ? (() => {
         const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
@@ -497,8 +592,8 @@ export default function ReaderView({
       })()
     : ((currentIndex + chapterProgress / 100) / totalChapters) * 100;
 
-  const nextChapter = currentIndex < resolvedChapters.length - 1 ? resolvedChapters[currentIndex + 1] : null;
-  const isSingleChapter = resolvedChapters.length === 1;
+  const nextChapter = currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null;
+  const isSingleChapter = chapters.length === 1;
 
   const bgColor = darkMode ? "#1a1a1a" : "#fafafa";
   const textColor = darkMode ? "#e5e5e5" : "#1a1a1a";
@@ -510,6 +605,7 @@ export default function ReaderView({
         ? `Pt ${chapter.part}: ${chapter.partName} · Ch. ${chapter.number}: ${chapter.title}`
         : `Ch. ${chapter.number}: ${chapter.title}`
     : "";
+  const currentAuthLinks = !isAuthenticated && chapter ? buildAuthUrls(currentIndex) : undefined;
 
   // Determine which chapters show part dividers
   const showPartDividerForChapter = (idx: number) => {
@@ -536,21 +632,21 @@ export default function ReaderView({
 
       <ReaderHeader
         bookTitle={bookTitle}
-        chapterLabel={chapterLabel}
         visible={headerVisible}
         onTogglePicker={() => setShowPicker(!showPicker)}
         bookId={bookId}
         darkMode={darkMode}
-        onToggleDarkMode={() => setDarkMode(!darkMode)}
+        onToggleDarkMode={() => setReaderPrefs({ darkMode: !darkMode })}
         fontSize={fontSize}
-        onChangeFontSize={setFontSize}
+        onChangeFontSize={(size) => setReaderPrefs({ fontSize: size })}
         scrollMode={scrollMode}
         onToggleScrollMode={handleToggleScrollMode}
         hideChaptersButton={isSingleChapter}
+        signInUrl={currentAuthLinks?.signInUrl}
       />
 
       <ChapterPicker
-        chapters={resolvedChapters}
+        chapters={chapters}
         currentChapter={currentIndex}
         accentColor={accentColor}
         open={showPicker}
@@ -607,15 +703,56 @@ export default function ReaderView({
         containerRef={contentContainerRef}
       />
 
+      {/* Chapter reminder overlay — shown when resuming mid-chapter */}
+      {showChapterReminder && chapter && (
+        <div
+          className="fixed inset-x-0 top-0 z-40 pointer-events-none"
+          style={{ opacity: reminderOpacity }}
+        >
+          {/* Image backdrop */}
+          <div className="relative h-[220px] sm:h-[260px] overflow-hidden">
+            <img
+              src={chapter.image || coverImage}
+              alt=""
+              className="absolute inset-0 w-full h-full object-cover"
+            />
+            {/* Gradient fade to reader bg */}
+            <div
+              className="absolute inset-0"
+              style={{
+                background: `linear-gradient(to bottom, ${bgColor}00 0%, ${bgColor}40 40%, ${bgColor}cc 75%, ${bgColor} 100%)`,
+              }}
+            />
+            {/* Chapter info at bottom of image */}
+            <div className="absolute bottom-0 inset-x-0 px-5 pb-5 sm:px-8 max-w-[720px] mx-auto">
+              <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-white/50">
+                {isSingleChapter
+                  ? bookTitle
+                  : chapter.partName
+                    ? `Part ${chapter.part}: ${chapter.partName} · Chapter ${chapter.number}`
+                    : `Chapter ${chapter.number} of ${totalChapters}`}
+              </p>
+              <h2
+                className="mt-1.5 text-xl sm:text-2xl font-semibold text-white tracking-tight line-clamp-2 drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]"
+                style={{ fontFamily: "var(--font-serif)" }}
+              >
+                {chapter.title}
+              </h2>
+            </div>
+          </div>
+        </div>
+      )}
+
       {scrollMode === "infinite" ? (
         /* Infinite scroll: render all chapters */
         <div className="pb-32">
-          {resolvedChapters.map((ch, idx) => (
+          {chapters.map((ch, idx) => (
             <div
               key={ch.id}
               style={{ contentVisibility: "auto", containIntrinsicSize: "auto 800px" }}
             >
               <ChapterContent
+                authLinks={!isAuthenticated ? buildAuthUrls(idx) : undefined}
                 chapter={ch}
                 chapterIndex={idx}
                 showPartDivider={showPartDividerForChapter(idx)}
@@ -626,9 +763,12 @@ export default function ReaderView({
                 isFirst={idx === 0}
                 chapterTerms={isOriginalActive ? undefined : annotations?.chapters[ch.id]}
                 glossary={isOriginalActive ? undefined : annotations?.glossary}
+                onAuthIntent={rememberAuthReturnUrl}
                 quoteHighlight={isOriginalActive ? undefined : quoteHighlight ?? undefined}
+                resumeTarget={resumeTarget}
                 onHighlightRef={isOriginalActive ? undefined : onHighlightRef}
                 languageScript={isOriginalActive ? originalScript : undefined}
+                accentColor={accentColor}
               />
             </div>
           ))}
@@ -735,9 +875,10 @@ export default function ReaderView({
             </div>
           )}
 
-          <div className={`pb-32 relative z-10 ${chapter?.image ? "chapter-heading-overlap" : ""}`}>
+          <div className={`relative z-10 ${chapter?.image ? "chapter-heading-overlap" : ""}`}>
             {chapter && (
               <ChapterContent
+                authLinks={currentAuthLinks}
                 key={chapter.id}
                 chapter={chapter}
                 chapterIndex={currentIndex}
@@ -752,9 +893,12 @@ export default function ReaderView({
                 overlapsImage={!!chapter?.image}
                 chapterTerms={isOriginalActive ? undefined : annotations?.chapters[chapter.id]}
                 glossary={isOriginalActive ? undefined : annotations?.glossary}
+                onAuthIntent={rememberAuthReturnUrl}
                 quoteHighlight={isOriginalActive ? undefined : quoteHighlight ?? undefined}
+                resumeTarget={resumeTarget}
                 onHighlightRef={isOriginalActive ? undefined : onHighlightRef}
                 languageScript={isOriginalActive ? originalScript : undefined}
+                accentColor={accentColor}
               />
             )}
           </div>

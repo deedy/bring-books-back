@@ -19,7 +19,7 @@ export default function CoverProgress({
     totalChapters > 0
       ? Math.min(
           100,
-          ((progress.currentChapter - 1 + progress.scrollPercent / 100) /
+          ((progress.currentChapter + progress.scrollPercent / 100) /
             totalChapters) *
             100
         )

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Source_Serif_4, Inter } from "next/font/google";
 import "./globals.css";
 import SWRegister from "@/components/SWRegister";
+import Providers from "@/components/Providers";
 
 const sourceSerif = Source_Serif_4({
   variable: "--font-serif",
@@ -50,6 +51,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <Providers>
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
@@ -67,10 +69,12 @@ export default function RootLayout({
       </head>
       <body
         className={`${inter.variable} ${sourceSerif.variable} font-sans antialiased`}
+        suppressHydrationWarning
       >
         <SWRegister />
         {children}
       </body>
     </html>
+    </Providers>
   );
 }

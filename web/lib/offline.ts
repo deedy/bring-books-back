@@ -41,23 +41,13 @@ async function buildBookUrls(bookId: string): Promise<string[]> {
   const base = `/data/books/${bookId}`;
   const urls: string[] = [];
 
-  // JSON data files
-  urls.push(`${base}/chapters.json`);
+  // Public JSON data files
   urls.push(`${base}/meta.json`);
   urls.push(`${base}/annotations.json`);
 
   // Cover and hero images
   urls.push(`/data/images/covers/${bookId}.webp`);
   urls.push(`/data/images/heroes/${bookId}.webp`);
-
-  // Chapter images — fetch chapters.json to discover them
-  const chaptersRes = await fetch(`${base}/chapters.json`);
-  if (chaptersRes.ok) {
-    const chaptersData = await chaptersRes.json();
-    for (const ch of chaptersData.chapters) {
-      if (ch.image) urls.push(ch.image);
-    }
-  }
 
   // Character portrait images — fetch annotations.json to discover them
   try {

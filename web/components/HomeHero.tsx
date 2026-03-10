@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Book, Author } from "@/lib/types";
 import { readingTime, readingTimeClock, displayYear, getNewBookIds, pageCount } from "@/lib/utils";
 import CoverProgress from "@/components/CoverProgress";
+import ContinueReading from "@/components/ContinueReading";
 import { useReadingStore } from "@/lib/store";
 
 type SortField = "default" | "year" | "length";
@@ -215,7 +216,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-10 -mt-32 relative z-10">
         <div className="w-48 md:w-56 flex-shrink-0 mx-auto md:mx-0">
           <div
-            className="relative aspect-[2/3] rounded-lg overflow-hidden"
+            className="relative aspect-[2/3] rounded-lg overflow-hidden bg-white/[0.06]"
             style={{
               boxShadow:
                 "0 8px 30px rgba(0,0,0,0.5), 0 2px 8px rgba(0,0,0,0.3), 0 0 60px rgba(0,0,0,0.25)",
@@ -367,6 +368,9 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
         ))}
       </div>
 
+      {/* Continue Reading */}
+      <ContinueReading books={books} authors={authors} />
+
       {/* Our Books — hover to feature */}
       <section className="max-w-6xl mx-auto px-6 py-16">
         <div className="flex flex-wrap items-center gap-2 mb-8">
@@ -410,7 +414,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
                 onMouseEnter={() => selectBook(b.id)}
               >
                 <div
-                  className={`relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg transition-all duration-200 group-hover:scale-[1.03] group-hover:shadow-2xl ${
+                  className={`relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg transition-all duration-200 group-hover:scale-[1.03] group-hover:shadow-2xl bg-white/[0.06] ${
                     isActive
                       ? "ring-2 ring-offset-2 ring-offset-[#0a0a0a]"
                       : ""

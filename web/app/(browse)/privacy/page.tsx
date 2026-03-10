@@ -11,7 +11,7 @@ export default function PrivacyPage() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-16">
       <h1 className="text-3xl font-bold text-white">Privacy Policy</h1>
-      <p className="text-xs text-white/30 mt-2">Last updated: February 28, 2026</p>
+      <p className="text-xs text-white/30 mt-2">Last updated: March 9, 2026</p>
 
       <div className="mt-8 space-y-6 text-white/60 leading-relaxed">
         <section>
@@ -19,8 +19,8 @@ export default function PrivacyPage() {
           <p>
             Grand Old Books uses Google Analytics 4 (GA4) to collect anonymous
             usage data such as pages visited, time on site, and general device
-            and browser information. This helps us understand which books readers
-            enjoy and improve the site.
+            and browser information. If you create an account, we also collect
+            the email address you provide for authentication and verification.
           </p>
         </section>
 
@@ -35,11 +35,12 @@ export default function PrivacyPage() {
         </section>
 
         <section>
-          <h2 className="text-lg font-semibold text-white mb-2">No Personal Data</h2>
+          <h2 className="text-lg font-semibold text-white mb-2">Accounts and Email Addresses</h2>
           <p>
-            Grand Old Books does not require user accounts, collect email
-            addresses, or store any personally identifiable information. There
-            are no sign-ups, no logins, and no forms that collect personal data.
+            Grand Old Books now offers optional reader accounts. If you sign up
+            or sign in, we collect your email address so we can authenticate
+            you, verify ownership of the address, and let you continue reading
+            locked chapter content.
           </p>
         </section>
 
@@ -47,9 +48,19 @@ export default function PrivacyPage() {
           <h2 className="text-lg font-semibold text-white mb-2">Third-Party Services</h2>
           <p>
             Images and static assets may be served from Google Cloud Storage.
-            Google Analytics data is processed by Google under their{" "}
+            Authentication and email verification are handled by Clerk. Google
+            Analytics data is processed by Google under their{" "}
             <a
               href="https://policies.google.com/privacy"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-white/80"
+            >
+              privacy policy
+            </a>
+            , and Clerk processes account data under their{" "}
+            <a
+              href="https://clerk.com/legal/privacy"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-white/80"

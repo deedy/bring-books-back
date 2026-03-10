@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 interface ChapterImageProps {
   src: string;
@@ -9,6 +9,18 @@ interface ChapterImageProps {
 
 export default function ChapterImage({ src, alt }: ChapterImageProps) {
   const [loaded, setLoaded] = useState(false);
+  const imgRef = useRef<HTMLImageElement | null>(null);
+
+  useEffect(() => {
+    setLoaded(false);
+  }, [src]);
+
+  useEffect(() => {
+    const img = imgRef.current;
+    if (img && img.complete && img.naturalWidth > 0) {
+      setLoaded(true);
+    }
+  }, [src]);
 
   return (
     <div
@@ -20,10 +32,12 @@ export default function ChapterImage({ src, alt }: ChapterImageProps) {
         <div className="absolute inset-0 bg-white/[0.04] animate-pulse" />
       )}
       <img
+        ref={imgRef}
         src={src}
         alt={alt}
         loading="lazy"
         onLoad={() => setLoaded(true)}
+        onError={() => setLoaded(true)}
         className={`w-full h-full object-cover object-top transition-opacity duration-500 ${
           loaded ? "opacity-100" : "opacity-0"
         }`}

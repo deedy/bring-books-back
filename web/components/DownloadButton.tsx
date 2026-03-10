@@ -1,5 +1,6 @@
 "use client";
 
+import { useAuth } from "@clerk/nextjs";
 import { useState, useEffect, useCallback } from "react";
 import { isDownloaded, downloadBook, removeBook } from "@/lib/offline";
 
@@ -12,6 +13,7 @@ interface DownloadButtonProps {
 type State = "idle" | "downloading" | "downloaded" | "error";
 
 export default function DownloadButton({ bookId }: DownloadButtonProps) {
+  const { isSignedIn } = useAuth();
   const [state, setState] = useState<State>("idle");
   const [progress, setProgress] = useState(0);
   const [supported, setSupported] = useState(true);
@@ -43,7 +45,7 @@ export default function DownloadButton({ bookId }: DownloadButtonProps) {
     setProgress(0);
   }, [bookId]);
 
-  if (!OFFLINE_ENABLED || !supported) return null;
+  if (!OFFLINE_ENABLED || !supported || !isSignedIn) return null;
 
   if (state === "downloading") {
     return (

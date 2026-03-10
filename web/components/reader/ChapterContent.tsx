@@ -1,6 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import { Chapter, Annotation } from "@/lib/types";
+import type { ResumeTarget } from "@/lib/types";
 import { readingTimeExact, pageCount } from "@/lib/utils";
 import { SCRIPT_CONFIG } from "@/lib/scripts";
 import ChapterImage from "./ChapterImage";
@@ -12,6 +14,11 @@ export interface QuoteHighlight {
 }
 
 interface ChapterContentProps {
+  authLinks?: {
+    returnUrl: string;
+    signInUrl: string;
+    signUpUrl: string;
+  };
   chapter: Chapter;
   chapterIndex: number;
   showPartDivider: boolean;
@@ -25,9 +32,12 @@ interface ChapterContentProps {
   hideImage?: boolean;
   hideChapterHeading?: boolean;
   overlapsImage?: boolean;
+  onAuthIntent?: (returnUrl: string) => void;
   quoteHighlight?: QuoteHighlight;
+  resumeTarget?: ResumeTarget | null;
   onHighlightRef?: (el: HTMLElement | null) => void;
   languageScript?: string;
+  accentColor?: string;
 }
 
 /** Split text on quoted segments and style them differently. */
@@ -169,13 +179,19 @@ export default function ChapterContent({
   hideImage,
   hideChapterHeading,
   overlapsImage,
+  authLinks,
+  onAuthIntent,
   quoteHighlight,
+  resumeTarget,
   onHighlightRef,
   languageScript,
+  accentColor,
 }: ChapterContentProps) {
   const isIndicScript = !!languageScript && languageScript !== "Latin";
   const config = languageScript ? SCRIPT_CONFIG[languageScript] : undefined;
   const fontClass = config?.fontClass ?? "";
+  const isPreviewChapter = chapter.accessMode === "preview";
+  const isLockedChapter = chapter.accessMode === "locked";
   return (
     <article className={`mb-16 ${isFirst ? "pt-16" : ""}`}>
       {/* Part divider */}
@@ -283,41 +299,92 @@ export default function ChapterContent({
           const p = typeof rawP === "string" ? rawP : rawP.text;
           const isHighlighted = !languageScript && quoteHighlight?.paragraphIndex === i;
           return (
-            <p
-              key={i}
-              data-p={i}
-              ref={isHighlighted ? onHighlightRef : undefined}
-              className={i > 0 && !isVerse ? "indent-[1.5em]" : ""}
-              style={{
-                marginBottom: isVerse ? "0.8em" : 0,
-                marginTop: isVerse ? "0.8em" : 0,
-                ...(isVerse
-                  ? {
-                      fontStyle: "italic",
-                      paddingLeft: "1.5em",
-                      borderLeft: `2px solid ${darkMode ? "rgba(255,255,255,0.15)" : "rgba(0,0,0,0.12)"}`,
-                      opacity: 0.88,
-                    }
-                  : {}),
-                ...(isHighlighted
-                  ? {
-                      backgroundColor: quoteHighlight!.accentColor + "18",
-                      borderLeft: `3px solid ${quoteHighlight!.accentColor}`,
-                      paddingLeft: "1em",
-                      paddingTop: "0.3em",
-                      paddingBottom: "0.3em",
-                      marginLeft: "-1.2em",
-                      borderRadius: "0 4px 4px 0",
-                    }
-                  : undefined),
-              }}
-            >
-              {chapterTerms && glossary
-                ? renderAnnotatedText(p, darkMode, chapterTerms, glossary)
-                : renderWithQuotes(p, darkMode)}
-            </p>
+            <div key={i}>
+              {resumeTarget?.chapterId === chapter.id && resumeTarget.paragraphIndex === i && (
+                <div
+                  id={`resume-${resumeTarget.chapterId}-${resumeTarget.paragraphIndex}-${resumeTarget.wordOffset}`}
+                  className="h-0"
+                />
+              )}
+              <p
+                data-p={i}
+                ref={isHighlighted ? onHighlightRef : undefined}
+                className={i > 0 && !isVerse ? "indent-[1.5em]" : ""}
+                style={{
+                  marginBottom: isVerse ? "0.8em" : 0,
+                  marginTop: isVerse ? "0.8em" : 0,
+                  ...(isVerse
+                    ? {
+                        fontStyle: "italic",
+                        paddingLeft: "1.5em",
+                        borderLeft: `2px solid ${darkMode ? "rgba(255,255,255,0.15)" : "rgba(0,0,0,0.12)"}`,
+                        opacity: 0.88,
+                      }
+                    : {}),
+                  ...(isHighlighted
+                    ? {
+                        backgroundColor: quoteHighlight!.accentColor + "18",
+                        borderLeft: `3px solid ${quoteHighlight!.accentColor}`,
+                        paddingLeft: "1em",
+                        paddingTop: "0.3em",
+                        paddingBottom: "0.3em",
+                        marginLeft: "-1.2em",
+                        borderRadius: "0 4px 4px 0",
+                      }
+                    : undefined),
+                }}
+              >
+                {chapterTerms && glossary
+                  ? renderAnnotatedText(p, darkMode, chapterTerms, glossary)
+                  : renderWithQuotes(p, darkMode)}
+              </p>
+            </div>
           );
         })}
+
+        {authLinks && (isPreviewChapter || isLockedChapter) && (
+          <>
+            {/* Fade overlay on last visible text */}
+            {isPreviewChapter && (
+              <div
+                className="relative -mt-80 h-80 pointer-events-none"
+                style={{
+                  background: `linear-gradient(to bottom, transparent 0%, ${darkMode ? "#1a1a1a" : "#fafafa"}30 35%, ${darkMode ? "#1a1a1a" : "#fafafa"}90 65%, ${darkMode ? "#1a1a1a" : "#fafafa"} 100%)`,
+                }}
+              />
+            )}
+
+            {/* Sign-in CTA */}
+            <div
+              id={chapter.gate?.anchorId}
+              className={`text-center ${isPreviewChapter ? "mt-0" : "mt-6"} py-3`}
+            >
+              <div className="flex items-center justify-center gap-3">
+                <Link
+                  href={authLinks.signUpUrl}
+                  onClick={() => onAuthIntent?.(authLinks.returnUrl)}
+                  className="inline-flex items-center justify-center rounded-lg px-6 py-3 text-sm font-semibold transition-opacity hover:opacity-90 bg-[#22c55e] text-white"
+                >
+                  Sign up to read for free
+                </Link>
+                <Link
+                  href={authLinks.signInUrl}
+                  onClick={() => onAuthIntent?.(authLinks.returnUrl)}
+                  className={`inline-flex items-center justify-center rounded-lg px-6 py-3 text-sm font-semibold transition-colors border ${
+                    darkMode
+                      ? "border-white/20 text-white/70 hover:bg-white/10"
+                      : "border-black/15 text-black/60 hover:bg-black/5"
+                  }`}
+                >
+                  Sign in
+                </Link>
+              </div>
+              <p className={`mt-4 text-xs leading-relaxed max-w-xs mx-auto ${darkMode ? "text-white/40" : "text-black/35"}`}>
+                Signing up only takes 17 seconds. Don't let that stop you from reading.
+              </p>
+            </div>
+          </>
+        )}
       </div>
     </article>
   );
