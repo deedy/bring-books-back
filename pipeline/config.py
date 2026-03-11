@@ -60,6 +60,13 @@ class BookConfig:
     # ── Verse detection ───────────────────────────────────────────────────
     verse_detection: bool = False  # Mark numbered verses vs prose commentary
 
+    # ── Section markers ──────────────────────────────────────────────────
+    has_sections: bool = False
+    section_pattern: str = ""  # regex with capture group for section number
+
+    # ── Character portraits ──────────────────────────────────────────────
+    num_character_portraits: int = 6  # Number of character portraits to generate
+
     # ── Derived paths ─────────────────────────────────────────────────────
     @property
     def book_dir(self) -> Path:
@@ -1981,6 +1988,89 @@ _register(BookConfig(
 
 # ── The Brothers Karamazov ───────────────────────────────────────────────
 
+# ── Ramayana ──────────────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="ramayana",
+    title="Ramayana",
+    transliterated_title="Ramayana",
+    original_title="रामायण",
+    author_id="valmiki",
+    author_name="Valmiki",
+    author_years="c. 5th century BCE",
+    original_language="Sanskrit",
+    original_year=-500,
+    genre=["Epic Poetry", "Mythology"],
+    accent_color="#D4451A",
+    has_sections=True,
+    section_pattern=r"^SECTION\s+([IVXLCDM]+)\.?$",
+    style_context=(
+        "The Ramayana is an ancient Indian epic poem attributed to the sage Valmiki. "
+        "It narrates the life of Prince Rama of Ayodhya — his exile to the forest, "
+        "the abduction of his wife Sita by the demon king Ravana, and the great war to rescue her. "
+        "This is the Ralph T.H. Griffith English verse translation (1870-1874). "
+        "Seven Kandas (books): Bālakāndam, Ayodhyākāndam, Āranyakāndam, Kishkindhākāndam, "
+        "Sundarakāndam, Yuddhakāndam, Uttarakāndam. 656 sections total. "
+        "Archaic Victorian English verse, Sanskrit names and terms throughout."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate an English translation of the Ramayana, '
+        "the ancient Sanskrit epic by Valmiki, translated into English verse by Ralph T.H. Griffith.\n\n"
+        "For the given chapter text, extract three categories of terms that a modern English reader might want explained:\n\n"
+        '1. **Characters** — Named people, gods, demons, sages, animals. Give a 1-2 sentence description of who they are and their role.\n'
+        '2. **Proper nouns** — Place names, kingdoms, weapons, celestial objects, mythological references. Brief explanation.\n'
+        '3. **Vocabulary** — Sanskrit terms, archaic English words, Vedic/Hindu religious terms that might be unfamiliar. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Sanskrit names, mythological references, weapons, places, and archaic terms.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image blending classical Indian miniature painting with epic cinematic grandeur — "
+        "rich jewel tones (deep royal blue, burnished gold, fiery orange-red, emerald green), "
+        "gold leaf accents, ornate architecture, lush tropical landscapes. "
+        "Dramatic cinematic lighting with god-rays, volumetric light, and epic scale. "
+        "Hyper-detailed, mythological, awe-inspiring — like a scene from a massive blockbuster epic. "
+        "Settings: royal palaces, dense forests, mythological battlefields, sacred rivers, celestial realms. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Edge-to-edge, no border, no frame, no margin.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Rama: Prince of Ayodhya, dark-skinned, noble bearing, carries divine bow, wears royal garments and crown\n"
+        "- Sita: Rama's wife, beautiful, graceful, traditional Indian jewelry and silk garments\n"
+        "- Lakshmana: Rama's loyal younger brother, fair-skinned, warrior build, always by Rama's side\n"
+        "- Hanuman: Vanara (monkey) warrior, powerful muscular build, devoted to Rama, carries mace\n"
+        "- Ravana: Demon king of Lanka, ten heads, twenty arms, dark imposing figure, ornate demonic crown\n"
+        "- Dasaratha: King of Ayodhya, Rama's father, elderly, regal, white beard, royal robes\n"
+        "- Sugriva: Vanara king, golden-furred monkey warrior\n"
+        "- Vibhishana: Ravana's righteous brother, noble demon, joins Rama's side\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of classical Indian miniature painting — "
+        "rich jewel tones, gold accents, ornate details. "
+        "Realistic character portrait from the ancient Indian epic Ramayana. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in classical Indian miniature painting style — "
+        "a majestic view of the ancient city of Ayodhya at golden hour. "
+        "Grand white marble palaces with golden domes, ornate pillars, "
+        "the sacred Sarayu river flowing past, lush tropical gardens, "
+        "distant mountains, warm golden sky with dramatic clouds. "
+        "Atmospheric, mythological, vast Indian landscape. "
+        "NO people, NO figures. Pure atmospheric landscape. "
+        "Rich, jewel-toned, sacred. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+    type="book",
+    verse_detection=True,
+    num_character_portraits=14,
+))
+
+
 _register(BookConfig(
     id="brothers-karamazov",
     title="The Brothers Karamazov",
@@ -2052,4 +2142,83 @@ _register(BookConfig(
         "Dark, brooding, spiritual. 16:9 cinematic landscape ratio. "
         "NO text, NO border, NO frame."
     ),
+))
+
+
+# ── The Mahabharata ──────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="mahabharata",
+    title="Mahabharata",
+    transliterated_title="Mahabharata",
+    original_title="महाभारत",
+    author_id="vyasa",
+    author_name="Vyasa (tr. Kisari Mohan Ganguli)",
+    author_years="c. 4th century BCE",
+    original_language="Sanskrit",
+    original_year=-400,
+    genre=["Epic Poetry", "Mythology"],
+    accent_color="#8B4513",
+    has_sections=True,
+    section_pattern=r"^Section\s+(\d+)$",
+    style_context=(
+        "The Mahabharata is the longest epic poem ever written, attributed to the sage Vyasa. "
+        "It narrates the great Kurukshetra war between the Pandavas and Kauravas, "
+        "encompassing vast philosophical, religious, and moral teachings. "
+        "This is Kisari Mohan Ganguli's English prose translation (1883-1896). "
+        "18 Parvas (books): Adi, Sabha, Vana, Virata, Udyoga, Bhishma, Drona, Karna, Shalya, "
+        "Sauptika, Stri, Santi, Anusasana, Aswamedha, Asramavasika, Mausala, Mahaprasthanika, "
+        "Svargarohanika. ~2.5 million words. Victorian-era English prose, Sanskrit names and terms throughout."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate an English translation of the Mahabharata, '
+        "the ancient Sanskrit epic by Vyasa, translated into English prose by Kisari Mohan Ganguli.\n\n"
+        "For the given chapter text, extract three categories of terms that a modern English reader might want explained:\n\n"
+        '1. **Characters** — Named people, gods, demons, sages, warriors. Give a 1-2 sentence description of who they are and their role.\n'
+        '2. **Proper nouns** — Place names, kingdoms, weapons (astras), celestial objects, mythological references. Brief explanation.\n'
+        '3. **Vocabulary** — Sanskrit terms, archaic English words, Vedic/Hindu religious terms that might be unfamiliar. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Sanskrit names, mythological references, weapons, places, and archaic terms.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of classical Indian miniature painting — "
+        "rich jewel tones, gold accents, epic battle scenes, ornate palaces, sacred rivers. "
+        "Settings: royal courts, vast battlefields, forest hermitages, divine realms. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Edge-to-edge, no border, no frame, no margin.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Krishna: Divine charioteer and guide, dark-skinned, peacock feather crown, yellow silk garments, serene smile\n"
+        "- Arjuna: Greatest warrior among the Pandavas, handsome, athletic, divine bow Gandiva, royal armor\n"
+        "- Bhima: Strongest of the Pandavas, massive powerful build, fierce expression, carries a mace\n"
+        "- Yudhishthira: Eldest Pandava, calm dignified bearing, white robes, embodiment of dharma\n"
+        "- Draupadi: Queen of the Pandavas, strikingly beautiful, dark hair, regal bearing, ornate jewelry\n"
+        "- Duryodhana: Crown prince of the Kauravas, arrogant bearing, heavy golden armor, mace warrior\n"
+        "- Bhishma: Grand patriarch, elderly but powerful, white hair and beard, celestial armor, carries a bow\n"
+        "- Karna: Tragic hero, golden earrings and armor (kavach-kundal), noble bearing, sun-like radiance\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of classical Indian miniature painting — "
+        "rich jewel tones, gold accents, ornate details. "
+        "Realistic character portrait from the ancient Indian epic Mahabharata. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in classical Indian miniature painting style — "
+        "a majestic panoramic view of the Kurukshetra battlefield at dawn. "
+        "Vast plains stretching to the horizon, two massive armies facing each other, "
+        "war elephants, chariots with fluttering banners, golden morning light, "
+        "dramatic clouds in an orange-purple sky, distant mountains. "
+        "Atmospheric, mythological, vast Indian epic landscape. "
+        "NO people in foreground, NO close-up figures. Pure atmospheric landscape. "
+        "Rich, jewel-toned, epic. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+    type="book",
+    num_character_portraits=12,
 ))

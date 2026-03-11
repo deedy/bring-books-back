@@ -19,6 +19,7 @@ import SelectionSharePopover from "./SelectionSharePopover";
 // where each instance gets its own useRef, causing the save cleanup to read
 // a stale ref (always 0) from the wrong instance.
 let _latestScrollPercent = 0;
+let _latestSection: number | null = null;
 let _hasRestoredScroll = false;
 
 interface ReaderViewProps {
@@ -88,6 +89,7 @@ export default function ReaderView({
   const fontSize = useReadingStore((s) => s.readerPrefs.fontSize);
   const setReaderPrefs = useReadingStore((s) => s.setReaderPrefs);
   const [chapterProgress, setChapterProgress] = useState(0);
+  const [currentSection, setCurrentSection] = useState<number | null>(null);
   const lastScrollY = useRef(0);
   // Reset module-level state on fresh mount (new book or new navigation)
   // useRef as a flag to run this only once per component instance
@@ -171,6 +173,65 @@ export default function ReaderView({
     [chapterUrl, chapters.length, currentIndex, isAuthenticated, scrollMode]
   );
 
+  // Navigate to a specific section within a chapter
+  const goToSection = useCallback(
+    (chapterIdx: number, sectionNumber: number, _paragraphIndex: number) => {
+
+      const scrollToSection = () => {
+        // In infinite mode, scope query to the correct chapter container
+        // to avoid matching same section number in a different chapter.
+        // In paginated mode only one chapter is rendered so document query is fine.
+        let scope: ParentNode = document;
+        if (scrollMode === "infinite") {
+          const chapterHeading = chapterHeadingRefs.current.get(chapterIdx);
+          if (chapterHeading) {
+            // The chapter heading's grandparent is the chapter wrapper div
+            const wrapper = chapterHeading.closest("[data-chapter-wrapper]");
+            if (wrapper) scope = wrapper;
+          }
+        }
+        const el = scope.querySelector(`[data-section="${sectionNumber}"]`);
+        if (el) {
+          // Force contentVisibility on ancestor wrappers so element is laid out
+          let parent: HTMLElement | null = el.parentElement;
+          while (parent) {
+            if ((parent as HTMLElement).style?.contentVisibility === "auto") {
+              (parent as HTMLElement).style.contentVisibility = "visible";
+            }
+            parent = parent.parentElement;
+          }
+          // Use instant scroll + manual offset so the header doesn't cover the target
+          el.scrollIntoView({ behavior: "auto", block: "start" });
+          window.scrollBy(0, -60);
+          setCurrentSection(sectionNumber);
+        }
+      };
+
+      if (scrollMode === "infinite") {
+        suppressObserverRef.current = true;
+        if (chapterIdx !== currentIndex) {
+          setCurrentIndex(chapterIdx);
+        }
+        // Allow render + contentVisibility to settle
+        setTimeout(() => {
+          scrollToSection();
+          setTimeout(() => { suppressObserverRef.current = false; }, 200);
+        }, 150);
+      } else {
+        // In paginated mode, switch chapter first if needed
+        if (chapterIdx !== currentIndex) {
+          setCurrentIndex(chapterIdx);
+          window.history.pushState({}, "", chapterUrl(chapterIdx));
+          // Wait for the new chapter to render
+          setTimeout(scrollToSection, 200);
+        } else {
+          scrollToSection();
+        }
+      }
+    },
+    [chapterUrl, currentIndex, scrollMode]
+  );
+
   // Toggle scroll mode
   const handleToggleScrollMode = useCallback(() => {
     const newMode = scrollMode === "paginated" ? "infinite" : "paginated";
@@ -220,8 +281,9 @@ export default function ReaderView({
     const stored = useReadingStore.getState().progress[bookId];
     if (stored?.currentChapter === currentIndex) return;
     // Save chapter (creates entry on first visit, resets scroll on chapter change)
-    updateProgress(bookId, { currentChapter: currentIndex, scrollPercent: 0 });
+    updateProgress(bookId, { currentChapter: currentIndex, scrollPercent: 0, currentSection: null });
     _latestScrollPercent = 0;
+    _latestSection = null;
   }, [bookId, currentIndex, updateProgress, chapterUrl]);
 
   // Track chapter start for analytics
@@ -281,6 +343,25 @@ export default function ReaderView({
       setHeaderVisible(y < 50 || y < lastScrollY.current);
       lastScrollY.current = y;
 
+      // Track current section (find last [data-section] above viewport)
+      const sectionEls = document.querySelectorAll("[data-section]");
+      let foundSection: number | null = null;
+      for (let i = sectionEls.length - 1; i >= 0; i--) {
+        const rect = sectionEls[i].getBoundingClientRect();
+        if (rect.top <= 100) {
+          foundSection = Number(sectionEls[i].getAttribute("data-section"));
+          break;
+        }
+      }
+      if (foundSection !== _latestSection) {
+        _latestSection = foundSection;
+        setCurrentSection(foundSection);
+        // Eagerly persist section to store so it's available on the book page
+        if (_hasRestoredScroll && !isQuoteLinkRef.current) {
+          updateProgress(bookId, { currentSection: foundSection });
+        }
+      }
+
       if (scrollMode === "infinite") {
         // Chapter progress: track within the current chapter heading element
         const headingEl = chapterHeadingRefs.current.get(currentIndex);
@@ -320,7 +401,7 @@ export default function ReaderView({
 
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [scrollMode, currentIndex]);
+  }, [scrollMode, currentIndex, bookId, updateProgress]);
 
   // One-time restore of exact scroll position on initial mount.
   // Content is hidden (opacity:0) until restoration completes — no visible flicker.
@@ -365,7 +446,14 @@ export default function ReaderView({
       const state = useReadingStore.getState();
       const progress = state.progress[bookId];
       const pct = progress?.scrollPercent;
-      if (!pct || pct <= 0) { setScrollRestored(true); return; }
+      if (!pct || pct <= 0) {
+        if (progress?.currentSection != null) {
+          setCurrentSection(progress.currentSection);
+          _latestSection = progress.currentSection;
+        }
+        setScrollRestored(true);
+        return;
+      }
       // When initialChapter is set (URL-driven navigation), trust it over the
       // stored chapter — otherwise the store overwrites the URL-requested chapter.
       const restoredChapter = initialChapter !== undefined
@@ -402,6 +490,11 @@ export default function ReaderView({
         requestAnimationFrame(() => {
           if (Math.abs(window.scrollY - targetY) > 10) {
             window.scrollTo({ top: targetY, behavior: "auto" });
+          }
+          // Restore saved section
+          if (progress?.currentSection != null) {
+            setCurrentSection(progress.currentSection);
+            _latestSection = progress.currentSection;
           }
           setScrollRestored(true);
           // Ensure currentIndex matches the restored chapter so the reminder
@@ -450,7 +543,7 @@ export default function ReaderView({
       if (isQuoteLinkRef.current) return; // Don't overwrite saved position on quote links
       // Don't save if scroll restoration hasn't completed yet
       if (!_hasRestoredScroll) return;
-      updateProgress(bookId, { scrollPercent: _latestScrollPercent });
+      updateProgress(bookId, { scrollPercent: _latestScrollPercent, currentSection: _latestSection });
     };
     const handleVisibilityChange = () => {
       if (document.visibilityState === "hidden") savePosition();
@@ -657,8 +750,10 @@ export default function ReaderView({
         open={showPicker}
         onClose={() => setShowPicker(false)}
         onSelectChapter={goToChapter}
+        onSelectSection={goToSection}
         readChapters={currentIndex}
         glossaryUrl={annotations ? `/books/${bookId}/glossary` : undefined}
+        currentSection={currentSection}
       />
 
       {/* Thin collapsed bar — visible when header is hidden */}
@@ -680,7 +775,7 @@ export default function ReaderView({
               darkMode ? "text-white/50" : "text-black/50"
             }`}
           >
-            {bookTitle} &middot; {chapterLabel}
+            {bookTitle} &middot; {chapterLabel}{currentSection != null ? ` · Sec. ${currentSection}` : ""}
           </span>
         </div>
       </button>
@@ -754,6 +849,7 @@ export default function ReaderView({
           {chapters.map((ch, idx) => (
             <div
               key={ch.id}
+              data-chapter-wrapper={idx}
               style={{ contentVisibility: "auto", containIntrinsicSize: "auto 800px" }}
             >
               <ChapterContent

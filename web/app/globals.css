@@ -22,6 +22,15 @@ body {
   color: inherit;
 }
 
+/* Hide scrollbar completely */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* Subtle scrollbar for dark UI panels */
 .scrollbar-thin {
   scrollbar-width: thin;

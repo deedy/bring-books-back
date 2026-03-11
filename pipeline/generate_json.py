@@ -188,6 +188,43 @@ def detect_verses(paragraphs):
     return merged
 
 
+def roman_to_int(s):
+    """Convert a Roman numeral string to an integer."""
+    vals = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+    result = 0
+    for i, c in enumerate(s):
+        if i + 1 < len(s) and vals[c] < vals[s[i + 1]]:
+            result -= vals[c]
+        else:
+            result += vals[c]
+    return result
+
+
+def extract_sections(paragraphs, section_pattern):
+    """Scan paragraphs for section markers and return a sections list.
+
+    Returns list of {"number": int, "label": str, "paragraphIndex": int}.
+    """
+    pattern = re.compile(section_pattern)
+    sections = []
+    for i, p in enumerate(paragraphs):
+        text = p["text"] if isinstance(p, dict) else p
+        m = pattern.match(text)
+        if m:
+            raw = m.group(1)
+            # Determine if it's a Roman numeral or Arabic number
+            try:
+                num = int(raw)
+            except ValueError:
+                num = roman_to_int(raw)
+            sections.append({
+                "number": num,
+                "label": text,
+                "paragraphIndex": i,
+            })
+    return sections
+
+
 def _merge_existing_chapters(chapters, json_path):
     """Preserve fields from a prior chapters.json (e.g. summaries, images) that aren't in the new data."""
     if not os.path.exists(json_path):
@@ -758,6 +795,16 @@ def run(book_id, force=False):
     if is_anthology:
         return run_anthology(book_id, chapters_data, cfg, force=force)
 
+    # Extract sections if configured
+    if cfg.has_sections and cfg.section_pattern:
+        total_sections = 0
+        for ch in chapters_data:
+            sections = extract_sections(ch["paragraphs"], cfg.section_pattern)
+            if sections:
+                ch["sections"] = sections
+                total_sections += len(sections)
+        print(f"Extracted {total_sections} sections across {len(chapters_data)} chapters")
+
     # Update images
     images_dir = str(cfg.images_dir)
     update_images(book_id, chapters_data, images_dir)
@@ -798,6 +845,8 @@ def run(book_id, force=False):
         "wordCount": total_words,
         "summary": summary_data["summary"],
     }
+    if cfg.has_sections:
+        book_meta["hasSections"] = True
 
     meta_path = os.path.join(book_dir, "meta.json")
     with open(meta_path, "w") as f:

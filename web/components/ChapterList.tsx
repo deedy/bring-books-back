@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import type { Chapter } from "@/lib/types";
+import type { Chapter, SectionInfo } from "@/lib/types";
 import { useReadingStore } from "@/lib/store";
 import { readingTimeExact, pageCount, chapterPath } from "@/lib/utils";
 
@@ -165,6 +165,76 @@ export default function ChapterList({ chapters, bookId, accentColor }: ChapterLi
   );
 }
 
+function SectionGridBookView({
+  sections,
+  bookId,
+  chapterIndex,
+  accentColor,
+  languageParam,
+}: {
+  sections: SectionInfo[];
+  bookId: string;
+  chapterIndex: number;
+  accentColor: string;
+  languageParam?: string;
+}) {
+  const [jumpInput, setJumpInput] = useState("");
+  const showJumpInput = sections.length >= 50;
+
+  const sectionHref = (sec: SectionInfo) => {
+    const base = `/read/${bookId}/${chapterIndex}#section-${sec.number}`;
+    return languageParam ? `${base}?language=${languageParam}` : base;
+  };
+
+  const handleJump = () => {
+    const num = parseInt(jumpInput, 10);
+    if (isNaN(num)) return;
+    const sec = sections.find((s) => s.number === num);
+    if (sec) {
+      window.location.href = sectionHref(sec);
+    }
+  };
+
+  return (
+    <div className="mt-2 pt-2 border-t border-white/[0.06]">
+      {showJumpInput && (
+        <div className="flex items-center gap-2 mb-2">
+          <input
+            type="number"
+            min={sections[0]?.number ?? 1}
+            max={sections[sections.length - 1]?.number}
+            placeholder="Jump to section..."
+            value={jumpInput}
+            onChange={(e) => setJumpInput(e.target.value)}
+            onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); handleJump(); } }}
+            onClick={(e) => e.preventDefault()}
+            className="flex-1 text-xs bg-white/5 border border-white/10 rounded px-2 py-1.5 text-white/70 placeholder-white/20 outline-none focus:border-white/20"
+          />
+          <button
+            onClick={(e) => { e.preventDefault(); handleJump(); }}
+            className="text-xs px-2 py-1.5 rounded bg-white/10 text-white/50 hover:text-white/80 hover:bg-white/15 transition-colors"
+          >
+            Go
+          </button>
+        </div>
+      )}
+      <div className="grid grid-cols-8 gap-1 max-h-[160px] overflow-y-auto scrollbar-thin">
+        {sections.map((sec) => (
+          <a
+            key={sec.paragraphIndex}
+            href={sectionHref(sec)}
+            onClick={(e) => e.stopPropagation()}
+            className="text-[11px] py-1 rounded text-center transition-colors tabular-nums text-white/40 hover:text-white/70 hover:bg-white/10"
+            title={sec.label}
+          >
+            {sec.number}
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function ChapterCard({
   chapter,
   index,
@@ -180,11 +250,13 @@ function ChapterCard({
   accentColor: string;
   languageParam?: string;
 }) {
+  const [sectionsExpanded, setSectionsExpanded] = useState(false);
+  const hasSections = !!chapter.sections && chapter.sections.length > 0;
+
   const base = `/read/${bookId}/${chapterPath(chapter, index)}`;
   const href = languageParam ? `${base}?language=${languageParam}` : base;
   return (
-    <Link
-      href={href}
+    <div
       className={`flex flex-col gap-3 p-3 rounded-lg border transition-colors group ${
         isCurrent
           ? "bg-white/[0.08] border-white/[0.15]"
@@ -192,40 +264,74 @@ function ChapterCard({
       }`}
       style={isCurrent ? { borderColor: `${accentColor}66` } : undefined}
     >
-      {/* Thumbnail */}
-      <div className="w-full aspect-video rounded-t overflow-hidden bg-white/[0.06] -mx-3 -mt-3" style={{ width: "calc(100% + 1.5rem)" }}>
-        {chapter.image && (
-          <img
-            src={chapter.image}
-            alt=""
-            loading="lazy"
-            className="w-full h-full object-cover"
-          />
-        )}
-      </div>
-
-      {/* Info */}
-      <div className="flex-1 min-w-0 py-0.5 flex flex-col">
-        <div className="flex items-center justify-between">
-          <span className="text-xs text-white/40">
-            Chapter {chapter.number}
-            {isCurrent && (
-              <span className="ml-2 text-[10px] font-semibold uppercase tracking-wider" style={{ color: accentColor }}>
-                Reading
-              </span>
-            )}
-          </span>
-          <span className="text-xs text-white/30">{readingTimeExact(chapter.wordCount)} · {pageCount(chapter.wordCount)} pages</span>
+      <Link href={href} className="flex flex-col gap-3">
+        {/* Thumbnail */}
+        <div className="w-full aspect-video rounded-t overflow-hidden bg-white/[0.06] -mx-3 -mt-3" style={{ width: "calc(100% + 1.5rem)" }}>
+          {chapter.image && (
+            <img
+              src={chapter.image}
+              alt=""
+              loading="lazy"
+              className="w-full h-full object-cover"
+            />
+          )}
         </div>
-        <p className="text-sm font-semibold text-white mt-0.5 group-hover:text-white/90 transition-colors">
-          {chapter.title}
-        </p>
-        {chapter.summary && (
-          <p className="text-xs text-white/40 mt-1 line-clamp-3 leading-relaxed">
-            {chapter.summary}
+
+        {/* Info */}
+        <div className="flex-1 min-w-0 py-0.5 flex flex-col">
+          <div className="flex items-center justify-between">
+            <span className="text-xs text-white/40">
+              Chapter {chapter.number}
+              {isCurrent && (
+                <span className="ml-2 text-[10px] font-semibold uppercase tracking-wider" style={{ color: accentColor }}>
+                  Reading
+                </span>
+              )}
+            </span>
+            <span className="text-xs text-white/30">{readingTimeExact(chapter.wordCount)} · {pageCount(chapter.wordCount)} pages</span>
+          </div>
+          <p className="text-sm font-semibold text-white mt-0.5 group-hover:text-white/90 transition-colors">
+            {chapter.title}
           </p>
-        )}
-      </div>
-    </Link>
+          {chapter.summary && (
+            <p className="text-xs text-white/40 mt-1 line-clamp-3 leading-relaxed">
+              {chapter.summary}
+            </p>
+          )}
+        </div>
+      </Link>
+
+      {/* Section toggle + grid */}
+      {hasSections && (
+        <>
+          <button
+            onClick={() => setSectionsExpanded(!sectionsExpanded)}
+            className="flex items-center gap-1.5 text-[11px] text-white/30 hover:text-white/60 transition-colors self-start"
+          >
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              className={`transition-transform ${sectionsExpanded ? "rotate-90" : ""}`}
+            >
+              <polyline points="9 18 15 12 9 6" />
+            </svg>
+            {sectionsExpanded ? "Hide sections" : `${chapter.sections!.length} sections`}
+          </button>
+          {sectionsExpanded && (
+            <SectionGridBookView
+              sections={chapter.sections!}
+              bookId={bookId}
+              chapterIndex={index}
+              accentColor={accentColor}
+              languageParam={languageParam}
+            />
+          )}
+        </>
+      )}
+    </div>
   );
 }

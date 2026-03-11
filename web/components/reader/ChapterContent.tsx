@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { Chapter, Annotation, resolveGlossary } from "@/lib/types";
+import { Chapter, Annotation, SectionInfo, resolveGlossary } from "@/lib/types";
 import type { ResumeTarget } from "@/lib/types";
 import { readingTimeExact, pageCount } from "@/lib/utils";
 import { SCRIPT_CONFIG } from "@/lib/scripts";
@@ -244,6 +244,17 @@ export default function ChapterContent({
   const config = languageScript ? SCRIPT_CONFIG[languageScript] : undefined;
   const fontClass = config?.fontClass ?? "";
   const resolvedGlossary = glossary ? resolveGlossary(glossary) : undefined;
+
+  // Build section index map for fast lookup
+  const sectionMap = useMemo(() => {
+    const map = new Map<number, SectionInfo>();
+    if (chapter.sections) {
+      for (const sec of chapter.sections) {
+        map.set(sec.paragraphIndex, sec);
+      }
+    }
+    return map;
+  }, [chapter.sections]);
   const isPreviewChapter = chapter.accessMode === "preview";
   const isLockedChapter = chapter.accessMode === "locked";
   return (
@@ -349,6 +360,35 @@ export default function ChapterContent({
         }}
       >
         {chapter.paragraphs.map((rawP, i) => {
+          // Section marker: render as styled divider
+          const section = sectionMap.get(i);
+          if (section) {
+            return (
+              <div
+                key={i}
+                id={`section-${section.number}`}
+                data-section={section.number}
+                data-p={i}
+                className="my-10 text-center"
+              >
+                <div
+                  className={`inline-block border-t border-b py-2 px-6 ${
+                    darkMode ? "border-white/15" : "border-black/10"
+                  }`}
+                >
+                  <span
+                    className={`text-xs tracking-[0.2em] uppercase ${
+                      darkMode ? "text-white/40" : "text-black/35"
+                    }`}
+                    style={{ fontVariant: "small-caps", letterSpacing: "0.15em" }}
+                  >
+                    {section.label}
+                  </span>
+                </div>
+              </div>
+            );
+          }
+
           const isVerse = typeof rawP === "object" && rawP.type === "verse";
           const p = typeof rawP === "string" ? rawP : rawP.text;
           const isHighlighted = !languageScript && quoteHighlight?.paragraphIndex === i;

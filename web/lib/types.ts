@@ -61,6 +61,12 @@ export interface Catalog {
   authors: Author[];
 }
 
+export interface SectionInfo {
+  number: number;
+  label: string;
+  paragraphIndex: number;
+}
+
 export interface Chapter {
   id: string;
   number: number;
@@ -76,6 +82,7 @@ export interface Chapter {
   summary?: string;
   accessMode?: ChapterAccessMode;
   gate?: ReaderGate | null;
+  sections?: SectionInfo[];
 }
 
 export interface ChaptersData {
@@ -89,6 +96,7 @@ export interface ReadingProgress {
   scrollPercent: number;
   lastReadAt: string;
   finished: boolean;
+  currentSection?: number | null;
 }
 
 export interface Annotation {

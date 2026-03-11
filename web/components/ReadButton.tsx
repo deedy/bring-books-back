@@ -17,6 +17,8 @@ export default function ReadButton({ bookId, accentColor, totalChapters, languag
       label = "Read Again";
     } else if (totalChapters === 1) {
       label = "Continue Reading";
+    } else if (progress.currentSection != null) {
+      label = `Continue Reading (Ch. ${progress.currentChapter + 1}, Sec. ${progress.currentSection})`;
     } else {
       label = `Continue Reading (Ch. ${progress.currentChapter + 1})`;
     }
