@@ -346,6 +346,28 @@ def _run_single_book(book_id, cfg, chapters_path, images_dir, web_img_dir, force
                 count += 1
     print(f"  [{book_id}] Copied {count} chapter images (PNG+WebP) -> {web_img_dir}")
 
+    # Update chapters.json with image paths (both public and server-data)
+    if count > 0:
+        with open(chapters_path) as f:
+            ch_data = json.load(f)
+        existing_webps = set(os.listdir(web_img_dir)) if os.path.exists(web_img_dir) else set()
+        updated = 0
+        for ch in ch_data["chapters"]:
+            fname = f"p{ch['part']}_chapter_{ch['number']}.webp"
+            if fname in existing_webps and not ch.get("image"):
+                ch["image"] = f"/data/images/chapters/{book_id}/{fname}"
+                updated += 1
+        if updated:
+            with open(chapters_path, "w") as f:
+                json.dump(ch_data, f, ensure_ascii=False)
+            # Also update server-data copy
+            from pipeline.config import SERVER_DATA_DIR
+            server_path = str(SERVER_DATA_DIR / "books" / book_id / "chapters.json")
+            if os.path.exists(server_path):
+                with open(server_path, "w") as f:
+                    json.dump(ch_data, f, ensure_ascii=False)
+            print(f"  [{book_id}] Linked {updated} chapter images in chapters.json")
+
     # Copy cover
     cover_src = os.path.join(images_dir, "cover.png")
     if os.path.exists(cover_src):

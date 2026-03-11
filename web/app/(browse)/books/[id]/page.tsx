@@ -235,7 +235,7 @@ export default async function BookPage({
               </span>
             )}
             {isNew && (
-              <span className="absolute top-3 right-3 px-2.5 py-0.5 text-[11px] font-bold rounded bg-emerald-500/90 text-white backdrop-blur-sm uppercase tracking-wide">
+              <span className="absolute top-3 right-3 px-2.5 py-0.5 text-[11px] font-bold rounded bg-amber-400 text-black backdrop-blur-sm uppercase tracking-wide shadow-lg shadow-amber-400/30">
                 New
               </span>
             )}

@@ -9,6 +9,7 @@ import json
 import os
 import re
 import shutil
+from datetime import date
 from PIL import Image
 from openai import OpenAI
 from dotenv import load_dotenv
@@ -686,7 +687,7 @@ def run_anthology(book_id, chapters_data, cfg, force=False):
         preview = ""
         if flat_chapters and flat_chapters[0]["paragraphs"]:
             preview = " ".join(_para_text(p) for p in flat_chapters[0]["paragraphs"][:3])[:1200]
-        catalog["books"].append({**story_meta, "previewText": preview})
+        catalog["books"].append({**story_meta, "previewText": preview, "addedDate": story_meta.get("addedDate", date.today().isoformat())})
 
         print(f"  [{story_book_id}] Done")
 
@@ -712,7 +713,7 @@ def run_anthology(book_id, chapters_data, cfg, force=False):
         "type": "anthology",
         "totalStories": len(story_book_ids),
     }
-    catalog["books"].append({**anthology_meta, "previewText": ""})
+    catalog["books"].append({**anthology_meta, "previewText": "", "addedDate": date.today().isoformat()})
 
     # Write anthology meta.json (parent)
     parent_book_dir = str(cfg.web_book_dir)
@@ -858,6 +859,9 @@ def run(book_id, force=False):
     with open(catalog_path) as f:
         catalog = json.load(f)
 
+    # Preserve existing addedDate if re-running
+    existing_entry = next((b for b in catalog["books"] if b["id"] == book_id), None)
+    existing_added_date = existing_entry.get("addedDate") if existing_entry else None
     catalog["books"] = [b for b in catalog["books"] if b["id"] != book_id]
 
     preview = ""
@@ -867,6 +871,7 @@ def run(book_id, force=False):
     catalog["books"].append({
         **book_meta,
         "previewText": preview,
+        "addedDate": existing_added_date or date.today().isoformat(),
     })
 
     author_id = cfg.author_id

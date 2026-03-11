@@ -2145,6 +2145,81 @@ _register(BookConfig(
 ))
 
 
+# ── Anna Karenina ────────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="anna-karenina",
+    title="Anna Karenina",
+    transliterated_title="Anna Karenina",
+    original_title="Анна Каренина",
+    author_id="leo-tolstoy",
+    author_name="Leo Tolstoy",
+    author_years="1828–1910",
+    original_language="Russian",
+    original_year=1878,
+    genre=["Novel", "Realist Fiction"],
+    accent_color="#8B4513",
+    style_context=(
+        "A sweeping novel of Russian high society in the 1870s. Two intertwined stories: "
+        "Anna Karenina's passionate, doomed affair with Count Vronsky, and Konstantin Levin's "
+        "search for meaning through love, farming, and faith. "
+        "Louise & Aylmer Maude English translation (1918). 8 parts, 239 chapters. "
+        "Russian names with patronymics, aristocratic customs, salons, horse races, railways, country estates."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate an English translation of Anna Karenina '
+        "by Leo Tolstoy, translated by Louise & Aylmer Maude.\n\n"
+        "For the given chapter text, extract three categories of terms that a modern English reader might want explained:\n\n"
+        '1. **Characters** — Named people, including their various name forms (full name, patronymic, diminutive/nickname). '
+        'Note: Russian characters have multiple name forms (full name, patronymic, diminutive). Group these together.\n'
+        '2. **Proper nouns** — Place names (Moscow, Petersburg, country estates), institutions, '
+        'Russian cultural terms, aristocratic customs, etc. Brief explanation.\n'
+        '3. **Vocabulary** — Russian/archaic/culturally-specific words or phrases that might be unfamiliar. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Russian names, places, aristocratic customs, 19th-century terms, and cultural references.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of 19th-century Russian realist painting (Repin, Kramskoi) — "
+        "warm golden light, rich textures, elegant interiors and vast Russian landscapes. "
+        "Settings: aristocratic salons, Moscow ballrooms, horse races, railway stations, country estates, snowy streets. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Edge-to-edge, no border, no frame, no margin.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Anna Karenina: beautiful aristocratic woman, early 30s, dark curly hair, brilliant grey eyes, elegant ball gowns, passionate expression\n"
+        "- Count Alexei Vronsky: handsome military officer, late 20s, strong build, dark hair, well-groomed mustache, military uniform or elegant suits\n"
+        "- Alexei Alexandrovitch Karenin: Anna's husband, senior government official, tall thin figure, cold formal bearing, spectacles, high starched collar\n"
+        "- Konstantin Levin: country landowner, early 30s, broad-shouldered, brown hair, earnest face, simple country clothes\n"
+        "- Princess Kitty Shcherbatsky: young beautiful debutante, 18-20, fair-haired, innocent expression, white ball gowns\n"
+        "- Prince Stepan Oblonsky (Stiva): Anna's brother, plump handsome man, jovial expression, well-dressed, rosy cheeks\n"
+        "- Dolly Oblonskaya: Stiva's wife, careworn but dignified, thin face, mother of many children\n"
+        "- Princess Betsy Tverskaya: fashionable society woman, elegant, knowing smile, expensive gowns and jewels\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of 19th-century Russian realist painting (Repin, Kramskoi) — "
+        "warm golden light, rich textures, dramatic lighting. "
+        "Realistic character portrait set in 1870s Russian aristocratic society. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in 19th-century Russian realist painting style — "
+        "a moody atmospheric view of a Russian railway station at dusk in winter. "
+        "Steam locomotive, iron platform canopy, snow falling, gas lamps casting golden light, "
+        "elegant passengers in fur coats, vast grey sky, birch trees in the distance. "
+        "Atmospheric, melancholic, cinematic. "
+        "NO people in focus, NO figures. Pure atmospheric landscape. "
+        "Dark, brooding, romantic. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+    num_character_portraits=8,
+))
+
+
 # ── The Mahabharata ──────────────────────────────────────────────────────
 
 _register(BookConfig(

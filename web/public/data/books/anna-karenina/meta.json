@@ -1,0 +1,19 @@
+{
+  "id": "anna-karenina",
+  "title": "Anna Karenina",
+  "transliteratedTitle": "Anna Karenina",
+  "subtitle": "Passion and Fate Amid Russian Aristocracy",
+  "authorId": "leo-tolstoy",
+  "coverImage": "/data/images/covers/anna-karenina.webp",
+  "accentColor": "#8B4513",
+  "genre": [
+    "Novel",
+    "Realist Fiction"
+  ],
+  "originalLanguage": "Russian",
+  "originalTitle": "Анна Каренина",
+  "originalYear": 1878,
+  "totalChapters": 239,
+  "wordCount": 349489,
+  "summary": "Enter the glittering salons and windswept country estates of 19th-century Russia, where love, ambition, and honor collide. Anna Karenina is a sweeping tale of two intertwining lives: Anna, whose forbidden romance with the dashing Count Vronsky threatens to upend her world, and Levin, a soulful landowner searching for purpose in family, faith, and the rhythms of rural life. Tolstoy masterfully weaves together scandal, heartbreak, and philosophical inquiry, painting a vivid portrait of high society and human longing. With unforgettable characters and sumptuous detail, this novel explores the price of desire and the search for happiness in an era of strict social codes."
+}

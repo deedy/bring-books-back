@@ -169,11 +169,14 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
   }, [paused, activeBookId]);
 
   const toggleSort = (field: HomeSortField) => {
-    if (field === "default") {
-      setSortField("default");
-      setSortDir("asc");
-    } else if (sortField === field) {
-      setSortDir((d) => (d === "asc" ? "desc" : "asc"));
+    if (sortField === field) {
+      // Clicking the active sort again: toggle direction, or go back to default for recent
+      if (field === "recent") {
+        setSortField("default");
+        setSortDir("asc");
+      } else {
+        setSortDir((d) => (d === "asc" ? "desc" : "asc"));
+      }
     } else {
       setSortField(field);
       setSortDir(field === "length" ? "desc" : "asc");
@@ -182,7 +185,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
 
   const arrow = (field: HomeSortField) => {
     if (sortField !== field) return "";
-    if (field === "default") return "";
+    if (field === "recent") return "";
     return sortDir === "asc" ? " \u2191" : " \u2193";
   };
 
@@ -229,7 +232,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
             </span>
           )}
           {newBookIds.has(b.id) && (
-            <span className="absolute top-2 right-2 px-1.5 py-0.5 text-[10px] font-bold rounded bg-emerald-500/90 text-white backdrop-blur-sm uppercase tracking-wide">
+            <span className="absolute top-2 right-2 px-1.5 py-0.5 text-[10px] font-bold rounded bg-amber-400 text-black backdrop-blur-sm uppercase tracking-wide shadow-lg shadow-amber-400/30">
               New
             </span>
           )}
@@ -311,7 +314,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
               </span>
             )}
             {newBookIds.has(book.id) && (
-              <span className="absolute top-2.5 right-2.5 px-2 py-0.5 text-[10px] font-bold rounded bg-emerald-500/90 text-white backdrop-blur-sm uppercase tracking-wide">
+              <span className="absolute top-2.5 right-2.5 px-2 py-0.5 text-[10px] font-bold rounded bg-amber-400 text-black backdrop-blur-sm uppercase tracking-wide shadow-lg shadow-amber-400/30">
                 New
               </span>
             )}
@@ -464,17 +467,19 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
           />
 
           {/* Sort buttons */}
-          {(["default", "year", "length"] as HomeSortField[]).map((field) => (
+          {(["recent", "year", "length"] as HomeSortField[]).map((field) => (
             <button
               key={field}
               onClick={() => toggleSort(field)}
               className={`px-2.5 py-1 text-[11px] font-medium rounded-full transition-colors ${
                 sortField === field
                   ? "bg-white/15 text-white/80"
-                  : "bg-white/5 text-white/40 hover:bg-white/10"
+                  : sortField === "default" && field === "recent"
+                    ? "bg-white/5 text-white/40 hover:bg-white/10"
+                    : "bg-white/5 text-white/40 hover:bg-white/10"
               }`}
             >
-              {field === "default" ? "Default" : field === "year" ? "Year" : "Length"}
+              {field === "recent" ? "Recent" : field === "year" ? "Year" : "Length"}
               {arrow(field)}
             </button>
           ))}
