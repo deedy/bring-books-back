@@ -4,7 +4,7 @@ import HomeHero from "@/components/HomeHero";
 export default function HomePage() {
   const catalog = getCatalog();
   // Only show top-level books + anthologies on home (not anthology members)
-  const topLevelBooks = catalog.books.filter((b) => !b.anthologyId).reverse();
+  const topLevelBooks = catalog.books.filter((b) => !b.anthologyId);
 
   return (
     <div>

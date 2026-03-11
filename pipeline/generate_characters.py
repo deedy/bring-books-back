@@ -151,21 +151,7 @@ def get_top_characters(book_id, n=6):
     for ch_id in chapter_ids:
         all_chapter_terms.update(annotations.get("chapters", {}).get(ch_id, []))
 
-    # For terms not in alias_map, try substring matching against character names
     char_names = {name for name, entry in glossary.items() if entry.get("type") == "character"}
-    for term in all_chapter_terms:
-        if term in alias_map:
-            continue
-        # Check if term is a substring of any character name or vice versa
-        matches = []
-        for canon in char_names:
-            if term.lower() in canon.lower() or canon.lower() in term.lower():
-                matches.append(canon)
-        if len(matches) == 1:
-            alias_map[term] = matches[0]
-        elif matches:
-            # Pick the longest (most specific) match
-            alias_map[term] = max(matches, key=len)
 
     # Count chapters per canonical character name
     char_counts = {}  # canonical name -> {count, first_chapter_idx}
@@ -398,6 +384,14 @@ def update_annotations(book_id, characters):
         return
     annotations = load_json(ann_path)
 
+    # Clear all existing character images first to remove stale references
+    char_names_in_batch = {c["name"] for c in characters}
+    for name, entry in annotations["glossary"].items():
+        if entry.get("type") == "character" and "image" in entry:
+            if name not in char_names_in_batch:
+                del entry["image"]
+
+    # Set images for the current batch
     for char in characters:
         name = char["name"]
         slug = slugify(name)
@@ -423,12 +417,13 @@ def _run_for_book(book_id, force=False):
     else:
         state = {"completed": [], "prompts": {}}
 
-    chars = get_top_characters(book_id, n=6)
+    n_chars = getattr(cfg, 'num_character_portraits', 6)
+    chars = get_top_characters(book_id, n=n_chars)
     if not chars:
         print(f"[{book_id}] No characters found (annotations missing?)")
         return False
 
-    print(f"\n[{book_id}] Top 6 characters:")
+    print(f"\n[{book_id}] Top {n_chars} characters:")
     for c in chars:
         print(f"  {c['name']} ({c['count']} chapters)")
 

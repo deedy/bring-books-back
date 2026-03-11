@@ -23,6 +23,8 @@ interface BookBase {
   hasModernText?: boolean;
   hasKidText?: boolean;
   originalScript?: string;
+  /** When the original text language differs from originalLanguage (e.g. Hindi text for a Sanskrit original) */
+  originalTextLanguage?: string;
 }
 
 export interface Book extends BookBase {

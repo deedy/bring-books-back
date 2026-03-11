@@ -825,6 +825,9 @@ export default function ReaderView({
             />
             {/* Chapter info at bottom of image */}
             <div className="absolute bottom-0 inset-x-0 px-5 pb-5 sm:px-8 max-w-[720px] mx-auto">
+              <p className="text-[10px] italic text-white/35 mb-1.5">
+                Picking up where you left off
+              </p>
               <p className="text-[11px] font-medium uppercase tracking-[0.12em] text-white/50">
                 {isSingleChapter
                   ? bookTitle

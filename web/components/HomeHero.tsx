@@ -2,14 +2,12 @@
 
 import { useState, useEffect, useCallback, useRef, useMemo } from "react";
 import Link from "next/link";
-import { Book, Author } from "@/lib/types";
+import type { Book, Author } from "@/lib/types";
+import { buildHomeBrowseModel, type HomeSortField, type HomeSortDir } from "@/lib/homeCatalog";
 import { readingTime, readingTimeClock, displayYear, getNewBookIds, pageCount } from "@/lib/utils";
 import CoverProgress from "@/components/CoverProgress";
 import ContinueReading from "@/components/ContinueReading";
 import { useReadingStore } from "@/lib/store";
-
-type SortField = "default" | "year" | "length";
-type SortDir = "asc" | "desc";
 
 interface HomeHeroProps {
   books: Book[];
@@ -88,13 +86,13 @@ function LangDropdown({
 }
 
 export default function HomeHero({ books, authors }: HomeHeroProps) {
-  const [activeBookId, setActiveBookId] = useState(books[0]?.id);
+  const [activeBookId, setActiveBookId] = useState<string | undefined>(books[0]?.id);
   const [paused, setPaused] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   // Sort & filter state
-  const [sortField, setSortField] = useState<SortField>("default");
-  const [sortDir, setSortDir] = useState<SortDir>("asc");
+  const [sortField, setSortField] = useState<HomeSortField>("default");
+  const [sortDir, setSortDir] = useState<HomeSortDir>("asc");
   const [langFilter, setLangFilter] = useState<string>("all");
 
   const { languages, langCounts } = useMemo(() => {
@@ -115,43 +113,48 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
     return { totalWorks: works, totalHours: Math.round(words / 230 / 60) };
   }, [books]);
 
-  const displayBooks = useMemo(() => {
-    let arr = langFilter === "all" ? [...books] : books.filter((b) => b.originalLanguage === langFilter);
-    if (sortField === "year") {
-      arr.sort((a, b) => {
-        const val = a.originalYear - b.originalYear;
-        return sortDir === "asc" ? val : -val;
-      });
-    } else if (sortField === "length") {
-      arr.sort((a, b) => {
-        const val = a.wordCount - b.wordCount;
-        return sortDir === "asc" ? val : -val;
-      });
-    }
-    return arr;
+  const browseModel = useMemo(() => {
+    return buildHomeBrowseModel({
+      books,
+      langFilter,
+      sortField,
+      sortDir,
+    });
   }, [books, sortField, sortDir, langFilter]);
 
-  // Randomize on client after hydration
+  const visibleBooks = browseModel.mode === "sectioned" ? browseModel.flatBooks : browseModel.books;
+
+  // Pick a visible featured book on first render and whenever the visible set changes.
   useEffect(() => {
-    const idx = Math.floor(Math.random() * books.length);
-    setActiveBookId(books[idx]?.id);
-  }, [books]);
+    if (visibleBooks.length === 0) {
+      setActiveBookId(undefined);
+      return;
+    }
+
+    setActiveBookId((current) => {
+      if (current && visibleBooks.some((book) => book.id === current)) return current;
+      const idx = Math.floor(Math.random() * visibleBooks.length);
+      return visibleBooks[idx]?.id ?? visibleBooks[0]?.id;
+    });
+  }, [visibleBooks]);
 
   const advance = useCallback(() => {
+    if (visibleBooks.length === 0) return;
+
     setActiveBookId((prev) => {
-      const idx = displayBooks.findIndex((b) => b.id === prev);
-      const next = (idx + 1) % displayBooks.length;
-      return displayBooks[next]?.id ?? displayBooks[0]?.id;
+      const idx = visibleBooks.findIndex((b) => b.id === prev);
+      const next = (idx + 1) % visibleBooks.length;
+      return visibleBooks[next]?.id ?? visibleBooks[0]?.id;
     });
-  }, [displayBooks]);
+  }, [visibleBooks]);
 
   useEffect(() => {
-    if (paused) return;
+    if (paused || visibleBooks.length <= 1) return;
     timerRef.current = setInterval(advance, 5000);
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [paused, advance]);
+  }, [paused, advance, visibleBooks.length]);
 
   const selectBook = useCallback((id: string) => {
     setActiveBookId(id);
@@ -165,7 +168,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
     return () => clearTimeout(t);
   }, [paused, activeBookId]);
 
-  const toggleSort = (field: SortField) => {
+  const toggleSort = (field: HomeSortField) => {
     if (field === "default") {
       setSortField("default");
       setSortDir("asc");
@@ -177,23 +180,98 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
     }
   };
 
-  const arrow = (field: SortField) => {
+  const arrow = (field: HomeSortField) => {
     if (sortField !== field) return "";
     if (field === "default") return "";
     return sortDir === "asc" ? " \u2191" : " \u2193";
   };
 
-  const book = books.find((b) => b.id === activeBookId) ?? books[0];
-  const author = authors.find((a) => a.id === book.authorId)!;
-  const bookProgress = useReadingStore((s) => s.progress[book.id]);
+  const book = visibleBooks.find((b) => b.id === activeBookId) ?? visibleBooks[0];
+  const author = book ? authors.find((a) => a.id === book.authorId) : undefined;
+  const bookProgress = useReadingStore((s) => (book ? s.progress[book.id] : undefined));
   const isInProgress = bookProgress && bookProgress.currentChapter > 0 && !bookProgress.finished;
+
+  if (!book || !author) return null;
+
+  const renderBookCard = (b: Book) => {
+    const bookAuthor = authors.find((a) => a.id === b.authorId);
+    if (!bookAuthor) return null;
+
+    const isActive = b.id === activeBookId;
+
+    return (
+      <Link
+        key={b.id}
+        href={`/books/${b.id}`}
+        className="group block"
+        onMouseEnter={() => selectBook(b.id)}
+      >
+        <div
+          className={`relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg transition-all duration-200 group-hover:scale-[1.03] group-hover:shadow-2xl bg-white/[0.06] ${
+            isActive
+              ? "ring-2 ring-offset-2 ring-offset-[#0a0a0a]"
+              : ""
+          }`}
+          style={
+            isActive
+              ? ({ ringColor: b.accentColor } as React.CSSProperties)
+              : undefined
+          }
+        >
+          <img
+            src={b.coverImage}
+            alt={b.title}
+            className="w-full h-full object-cover"
+          />
+          {b.type === "anthology" && b.totalStories && (
+            <span className="absolute top-2 left-2 px-1.5 py-0.5 text-[10px] font-semibold rounded bg-black/60 text-white/70 backdrop-blur-sm">
+              {b.totalStories} stories
+            </span>
+          )}
+          {newBookIds.has(b.id) && (
+            <span className="absolute top-2 right-2 px-1.5 py-0.5 text-[10px] font-bold rounded bg-emerald-500/90 text-white backdrop-blur-sm uppercase tracking-wide">
+              New
+            </span>
+          )}
+          <span className="absolute bottom-2 right-2 px-1.5 py-0.5 text-[10px] font-medium rounded bg-black/70 text-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity">
+            {readingTimeClock(b.wordCount)}
+          </span>
+          {b.type !== "anthology" && (
+            <CoverProgress bookId={b.id} totalChapters={b.totalChapters} accentColor={b.accentColor} />
+          )}
+          {isActive && (
+            <div
+              className="absolute inset-0 border-2 rounded-lg pointer-events-none"
+              style={{ borderColor: b.accentColor }}
+            />
+          )}
+        </div>
+        <div className="mt-3">
+          <h3 className="text-sm font-semibold text-white line-clamp-2 leading-snug">
+            {b.title}
+          </h3>
+          <p className="text-xs text-white/50 mt-0.5">
+            {bookAuthor.name}
+          </p>
+          <p className="text-[11px] text-white/30 mt-0.5">
+            {b.type !== "anthology" && b.transliteratedTitle && b.transliteratedTitle !== b.title && (
+              <><span className="italic">{b.transliteratedTitle}</span> &middot; </>
+            )}
+            {b.originalLanguage} &middot; {displayYear(b.originalYear, b.yearEnd)} &middot;{" "}
+            {pageCount(b.wordCount)} pp &middot;{" "}
+            {readingTime(b.wordCount)}
+          </p>
+        </div>
+      </Link>
+    );
+  };
 
   return (
     <>
       {/* Hero banner — overlaps behind the fixed header */}
       <div className="relative w-full h-[350px] -mt-16">
         {/* All hero images stacked for instant crossfade */}
-        {books.map((b) => (
+        {visibleBooks.map((b) => (
           <img
             key={b.id}
             src={`/data/images/heroes/${b.id}.webp`}
@@ -386,7 +464,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
           />
 
           {/* Sort buttons */}
-          {(["default", "year", "length"] as SortField[]).map((field) => (
+          {(["default", "year", "length"] as HomeSortField[]).map((field) => (
             <button
               key={field}
               onClick={() => toggleSort(field)}
@@ -402,77 +480,27 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
           ))}
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-          {displayBooks.map((b) => {
-            const bookAuthor = authors.find((a) => a.id === b.authorId)!;
-            const isActive = b.id === activeBookId;
-            return (
-              <Link
-                key={b.id}
-                href={`/books/${b.id}`}
-                className="group block"
-                onMouseEnter={() => selectBook(b.id)}
-              >
-                <div
-                  className={`relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg transition-all duration-200 group-hover:scale-[1.03] group-hover:shadow-2xl bg-white/[0.06] ${
-                    isActive
-                      ? "ring-2 ring-offset-2 ring-offset-[#0a0a0a]"
-                      : ""
-                  }`}
-                  style={
-                    isActive
-                      ? ({ ringColor: b.accentColor } as React.CSSProperties)
-                      : undefined
-                  }
-                >
-                  <img
-                    src={b.coverImage}
-                    alt={b.title}
-                    className="w-full h-full object-cover"
-                  />
-                  {b.type === "anthology" && b.totalStories && (
-                    <span className="absolute top-2 left-2 px-1.5 py-0.5 text-[10px] font-semibold rounded bg-black/60 text-white/70 backdrop-blur-sm">
-                      {b.totalStories} stories
-                    </span>
-                  )}
-                  {newBookIds.has(b.id) && (
-                    <span className="absolute top-2 right-2 px-1.5 py-0.5 text-[10px] font-bold rounded bg-emerald-500/90 text-white backdrop-blur-sm uppercase tracking-wide">
-                      New
-                    </span>
-                  )}
-                  <span className="absolute bottom-2 right-2 px-1.5 py-0.5 text-[10px] font-medium rounded bg-black/70 text-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity">
-                    {readingTimeClock(b.wordCount)}
-                  </span>
-                  {b.type !== "anthology" && (
-                    <CoverProgress bookId={b.id} totalChapters={b.totalChapters} accentColor={b.accentColor} />
-                  )}
-                  {isActive && (
-                    <div
-                      className="absolute inset-0 border-2 rounded-lg pointer-events-none"
-                      style={{ borderColor: b.accentColor }}
-                    />
+        {browseModel.mode === "sectioned" ? (
+          <div className="space-y-14">
+            {browseModel.sections.map((section) => (
+              <div key={section.id}>
+                <div className="mb-5">
+                  <h3 className="text-lg font-semibold text-white">{section.title}</h3>
+                  {section.description && (
+                    <p className="text-sm text-white/40 mt-1">{section.description}</p>
                   )}
                 </div>
-                <div className="mt-3">
-                  <h3 className="text-sm font-semibold text-white line-clamp-2 leading-snug">
-                    {b.title}
-                  </h3>
-                  <p className="text-xs text-white/50 mt-0.5">
-                    {bookAuthor.name}
-                  </p>
-                  <p className="text-[11px] text-white/30 mt-0.5">
-                    {b.type !== "anthology" && b.transliteratedTitle && b.transliteratedTitle !== b.title && (
-                      <><span className="italic">{b.transliteratedTitle}</span> &middot; </>
-                    )}
-                    {b.originalLanguage} &middot; {displayYear(b.originalYear, b.yearEnd)} &middot;{" "}
-                    {pageCount(b.wordCount)} pp &middot;{" "}
-                    {readingTime(b.wordCount)}
-                  </p>
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+                  {section.books.map(renderBookCard)}
                 </div>
-              </Link>
-            );
-          })}
-        </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            {browseModel.books.map(renderBookCard)}
+          </div>
+        )}
       </section>
     </>
   );

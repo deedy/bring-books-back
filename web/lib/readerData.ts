@@ -31,6 +31,8 @@ function mergeOriginalChapter(base: Chapter, original: OriginalChapter | undefin
     ...base,
     ...(original.title ? { title: original.title, slugTitle: base.title } : {}),
     paragraphs: original.paragraphs,
+    // Clear English sections — paragraph indices don't match alternate language text
+    sections: undefined,
   };
 }
 

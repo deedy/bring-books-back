@@ -251,7 +251,8 @@ function ChapterCard({
   languageParam?: string;
 }) {
   const [sectionsExpanded, setSectionsExpanded] = useState(false);
-  const hasSections = !!chapter.sections && chapter.sections.length > 0;
+  const isAltLanguage = !!languageParam && languageParam !== "english";
+  const hasSections = !isAltLanguage && !!chapter.sections && chapter.sections.length > 0;
 
   const base = `/read/${bookId}/${chapterPath(chapter, index)}`;
   const href = languageParam ? `${base}?language=${languageParam}` : base;

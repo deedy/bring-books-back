@@ -16,6 +16,7 @@ interface ReadActionsProps {
   hasKidText?: boolean;
   originalLanguage?: string;
   originalScript?: string;
+  originalTextLanguage?: string;
 }
 
 export default function ReadActions({
@@ -27,6 +28,7 @@ export default function ReadActions({
   hasKidText,
   originalLanguage,
   originalScript,
+  originalTextLanguage,
 }: ReadActionsProps) {
   const setBookLanguage = useReadingStore((s) => s.setBookLanguage);
   const storedLang = useReadingStore((s) => s.bookLanguages[bookId]);
@@ -48,7 +50,7 @@ export default function ReadActions({
 
   const handleLanguageChange = (lang: LanguageOption) => {
     if (lang === "original" && originalLanguage) {
-      setBookLanguage(bookId, originalLanguage.toLowerCase());
+      setBookLanguage(bookId, (originalTextLanguage ?? originalLanguage).toLowerCase());
     } else if (lang === "modern") {
       setBookLanguage(bookId, "modern");
     } else if (lang === "child") {
@@ -85,7 +87,7 @@ export default function ReadActions({
         <div className="mt-3">
           <p className="text-xs text-white/30 mb-1.5">Read in</p>
           <LanguageToggle
-            originalLanguage={originalLanguage}
+            originalLanguage={originalTextLanguage ?? originalLanguage}
             originalScript={originalScript}
             accentColor={accentColor}
             active={active}

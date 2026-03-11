@@ -135,8 +135,15 @@ export default async function BookPage({
         }
         return { name, description: a.description, image: a.image, count };
       });
-      withCount.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
-      return { items: withCount.slice(0, 6), total: withCount.length };
+      // Sort: characters with images first (by count), then without (by count)
+      withCount.sort((a, b) => {
+        const ai = a.image ? 1 : 0;
+        const bi = b.image ? 1 : 0;
+        return bi - ai || b.count - a.count || a.name.localeCompare(b.name);
+      });
+      const withImages = withCount.filter((c) => c.image).length;
+      const limit = Math.max(6, withImages);
+      return { items: withCount.slice(0, limit), total: withCount.length };
     }
 
     const chars = byFrequency("character");
@@ -323,6 +330,7 @@ export default async function BookPage({
                 hasKidText={book.hasKidText}
                 originalLanguage={book.originalLanguage}
                 originalScript={book.originalScript}
+                originalTextLanguage={book.originalTextLanguage}
               />
               <BookOpenTracker bookId={book.id} />
             </>

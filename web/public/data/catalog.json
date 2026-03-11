@@ -2184,6 +2184,50 @@
       "originalScript": "Cyrillic",
       "hasModernText": true,
       "hasKidText": true
+    },
+    {
+      "id": "mahabharata",
+      "title": "Mahabharata",
+      "transliteratedTitle": "Mahabharata",
+      "subtitle": "The Great Epic of Ancient India",
+      "authorId": "vyasa",
+      "coverImage": "/data/images/covers/mahabharata.webp",
+      "accentColor": "#8B4513",
+      "genre": [
+        "Epic Poetry",
+        "Mythology"
+      ],
+      "originalLanguage": "Sanskrit",
+      "originalTitle": "महाभारत",
+      "originalYear": -400,
+      "totalChapters": 18,
+      "wordCount": 2550340,
+      "summary": "Enter the vast world of the Mahabharata, the longest epic poem ever composed and one of the foundational texts of world literature. At its heart lies the devastating Kurukshetra war between two branches of a royal family — the righteous Pandavas and the ambitious Kauravas — but its scope encompasses the entire cosmos, from the birth of dynasties to the twilight of an age. Within its pages unfold tales of divine warriors, cunning stratagems, impossible vows, and the eternal struggle between dharma and desire. Here you will find the Bhagavad Gita, the dice game that doomed a kingdom, the exile of heroes, and the greatest battle the world has ever known. This monumental English prose translation by Kisari Mohan Ganguli brings every shade of Vyasa's vision to the modern reader.",
+      "previewText": "Ugrasrava, the son of Lomaharshana, surnamed Sauti, well-versed in the Puranas, bending with humility, one day approached the great sages of rigid vows, sitting at their ease, who had attended the twelve years' sacrifice of Saunaka, surnamed Kulapati, in the forest of Naimisha. Those ascetics, wishing to hear his wonderful narrations, presently began to address him who had thus arrived at that recluse abode of the inhabitants of the forest of Naimisha. Having been entertained with due respect by those holy men, he saluted those Munis (sages) with joined palms, even all of them, and inquired about the progress of their asceticism. Then all the ascetics being again seated, the son of Lomaharshana humbly occupied the seat that was assigned to him. Seeing that he was comfortably seated, and recovered from fatigue, one of the Rishis beginning the conversation, asked him, 'Whence comest thou, O lotus-eyed Sauti, and where hast thou spent the time? Tell me, who ask thee, in detail.' Accomplished in speech, Sauti, thus questioned, gave in the midst of that big assemblage of contemplative Munis a full and proper answer in words consonant with their mode of life.",
+      "addedDate": "2026-03-11"
+    },
+    {
+      "id": "ramayana",
+      "title": "Ramayana",
+      "transliteratedTitle": "Ramayana",
+      "subtitle": "An Epic Tale of Duty, Adventure, and Love",
+      "authorId": "valmiki",
+      "coverImage": "/data/images/covers/ramayana.webp",
+      "accentColor": "#D4451A",
+      "genre": [
+        "Epic Poetry",
+        "Mythology"
+      ],
+      "originalLanguage": "Sanskrit",
+      "originalTitle": "रामायण",
+      "originalYear": -500,
+      "totalChapters": 7,
+      "wordCount": 561636,
+      "hasOriginalText": true,
+      "originalTextLanguage": "Hindi",
+      "summary": "Journey into the heart of ancient India with the Ramayana, Valmiki’s timeless epic that weaves together heroism, devotion, and the eternal struggle between good and evil. Follow the noble Prince Rama as he faces exile, braves enchanted forests, and battles powerful demons to rescue his beloved Sita from the sinister Ravana. Set against a backdrop of divine beings, legendary creatures, and dazzling palaces, this sweeping saga explores themes of honor, sacrifice, and the triumph of virtue. Ralph T.H. Griffith’s Victorian verse translation brings the splendor and depth of Sanskrit poetry to life, inviting you into a world where gods walk among mortals and every choice echoes through eternity.",
+      "previewText": "SECTION I The ascetic Vālmiki asked that best of sages and foremost of those conversant with words, ever engaged in austerities and Vaidika studies, Nārada saying,—\"Who at present in this world is alike crowned with qualities, and endued with prowess, knowing duty, and grateful, and truthful, and firm in vow,—who is qualified by virtue of his character, and who is ever studious of the welfare of all creatures? Who is learned, hath studied society, and knoweth the art of pleasing his subjects? And who alone is ever lovely to behold? Who hath subdued his heart, and controlled his anger, is endowed with personal grace, and devoid of malice; and whom, enraged in battle, do even the gods, fear? Great is my curiosity to hear of such a person. Thou canst, O Maharshi1 tell me of a man of this description.\" Hearing Valmiki’s words, Nārada, cognizant of the three worlds, said with alacrity,—\"Do thou listen! Rare as are the qualities mentioned by thee, I will, O sage, having duly considered, describe unto thee a person endued with them. There is one sprung from the line of Ikshwāku, known by the name of Rāma. He is of subdued soul and exceeding prowess; effulgent; endowed with patience; havin",
+      "addedDate": "2026-03-11"
     }
   ],
   "authors": [
@@ -2415,6 +2459,26 @@
       "bio": "Fyodor Dostoevsky was born in Moscow, Russia, in 1821 to a physician father and a devoutly religious mother. He began his education at a private school and later attended the Nikolayev Military Engineering Institute in St. Petersburg. After a brief career as an engineer, Dostoevsky turned to writing, publishing his first novel in 1846. His life was marked by political turmoil; in 1849, he was arrested for involvement with a group of utopian socialists and spent several years in Siberian exile, an experience that profoundly influenced his later work. After his return, Dostoevsky struggled with financial hardship, health issues, and a tumultuous personal life, yet he remained a prolific writer until his death in 1881.\n\nDostoevsky is recognized as one of the most important figures in world literature, renowned for his profound psychological insight and exploration of philosophical themes. His major works include 'The Brothers Karamazov,' 'The Idiot,' and 'Demons,' but he is perhaps best known for 'Crime and Punishment.' Published in 1866, this novel delves into the mind of Raskolnikov, an impoverished ex-student who commits murder and wrestles with guilt and redemption. Dostoevsky's dense prose and vivid portrayal of St. Petersburg society have made 'Crime and Punishment' a cornerstone of psychological fiction, influencing generations of writers and thinkers. His legacy endures in the continued study and translation of his works, including the acclaimed English version by Constance Garnett.",
       "bookIds": [
         "crime-and-punishment"
+      ]
+    },
+    {
+      "id": "valmiki",
+      "name": "Valmiki",
+      "image": "/data/images/authors/valmiki.webp",
+      "years": "c. 5th century BCE",
+      "bio": "Valmiki, regarded as the Adikavi or 'first poet' of Sanskrit literature, is traditionally believed to have lived around the 5th century BCE in ancient India. Little is known with certainty about his early life, but later accounts describe him as a sage who achieved spiritual transformation through devotion and penance. Valmiki is reputed to have been a contemporary of the events he narrated, and his ashram (hermitage) is often cited as the place where he composed his magnum opus. Despite the legendary nature of many biographical details, Valmiki’s association with the Ramayana has been central to Indian cultural and religious history for millennia.\n\nValmiki’s chief literary contribution is the Ramayana, one of the two great Sanskrit epics of ancient India. The Ramayana, featured on this site in Ralph T.H. Griffith’s English verse translation, spans over 24,000 verses divided into seven books (Kandas). It recounts the life and trials of Prince Rama and has shaped the religious and moral imagination of South Asia and beyond. Valmiki’s work is celebrated not only for its storytelling and poetic mastery but also for its enduring influence on art, performance, and literature throughout Asia. The Ramayana’s themes of dharma (righteousness), devotion, and heroism have secured Valmiki’s legacy as a foundational figure in classical world literature.",
+      "bookIds": [
+        "ramayana"
+      ]
+    },
+    {
+      "id": "vyasa",
+      "name": "Vyasa",
+      "image": "/data/images/authors/vyasa.webp",
+      "years": "c. 4th century BCE",
+      "bio": "Vyasa, also known as Krishna Dvaipayana or Veda Vyasa, is the legendary sage traditionally credited with composing the Mahabharata, one of the two great Sanskrit epics of ancient India. According to tradition, he was born on an island in the Yamuna river and was the son of the sage Parashara and the fisherwoman Satyavati. Vyasa is also attributed with compiling and arranging the four Vedas into their current form, earning the title 'Veda Vyasa' or 'splitter of the Vedas.' He plays a unique dual role as both the author and a character within the Mahabharata, appearing at critical moments in the narrative.\n\nThe Mahabharata, featured on this site in Kisari Mohan Ganguli's English prose translation (1883-1896), is the longest epic poem ever written, spanning over 200,000 verses (shlokas) organized into 18 books (Parvas). It tells the story of the great Kurukshetra war between the Pandavas and Kauravas, but encompasses a vast range of philosophical, religious, and moral teachings — including the Bhagavad Gita, one of the most influential spiritual texts in history. Vyasa's work has shaped the religious, cultural, and literary imagination of South Asia and beyond for over two millennia.",
+      "bookIds": [
+        "mahabharata"
       ]
     }
   ]
