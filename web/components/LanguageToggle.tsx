@@ -2,7 +2,7 @@
 
 import { LANGUAGE_LABELS } from "@/lib/scripts";
 
-export type LanguageOption = "english" | "modern" | "original";
+export type LanguageOption = "english" | "modern" | "child" | "original";
 
 interface LanguageToggleProps {
   originalLanguage?: string;
@@ -11,6 +11,7 @@ interface LanguageToggleProps {
   active: LanguageOption;
   hasOriginal?: boolean;
   hasModern?: boolean;
+  hasKid?: boolean;
   onLanguageChange?: (lang: LanguageOption) => void;
 }
 
@@ -20,6 +21,7 @@ export default function LanguageToggle({
   active,
   hasOriginal,
   hasModern,
+  hasKid,
   onLanguageChange,
 }: LanguageToggleProps) {
   const nativeLabel = originalLanguage
@@ -30,6 +32,7 @@ export default function LanguageToggle({
     { key: "english", label: "English" },
   ];
   if (hasModern) options.push({ key: "modern", label: "Modern" });
+  if (hasKid) options.push({ key: "child", label: "Child" });
   if (hasOriginal && nativeLabel) options.push({ key: "original", label: nativeLabel });
 
   if (options.length <= 1) return null;

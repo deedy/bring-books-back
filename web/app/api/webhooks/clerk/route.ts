@@ -15,6 +15,44 @@ interface ClerkUserEvent {
   type: string;
 }
 
+function logNewUserJoined({
+  userId,
+  email,
+  name,
+  createdAt,
+  webhookId,
+}: {
+  userId: string;
+  email: string;
+  name: string | null;
+  createdAt: string;
+  webhookId: string;
+}) {
+  // Emit one-line structured JSON so Cloud Logging can match on
+  // jsonPayload.event="new_user_joined".
+  console.info(
+    JSON.stringify({
+      severity: "NOTICE",
+      event: "new_user_joined",
+      source: "clerk_webhook",
+      message: "New user joined",
+      clerkUserId: userId,
+      email,
+      name,
+      createdAt,
+      webhookId,
+    }),
+  );
+
+  // Emit a plain-text marker too, so Logs Explorer can match on textPayload
+  // if structured parsing doesn't occur in the deployed environment.
+  console.info(
+    `NEW_USER_JOINED clerkUserId=${userId} email=${email} createdAt=${createdAt} webhookId=${webhookId}${
+      name ? ` name=${JSON.stringify(name)}` : ""
+    }`,
+  );
+}
+
 export async function POST(req: Request) {
   const secret = process.env.CLERK_WEBHOOK_SECRET;
   if (!secret) {
@@ -50,6 +88,7 @@ export async function POST(req: Request) {
     const { id, email_addresses, first_name, last_name, image_url, created_at } = event.data;
     const email = email_addresses[0]?.email_address ?? "";
     const name = [first_name, last_name].filter(Boolean).join(" ") || null;
+    const createdAt = new Date(created_at).toISOString();
 
     // Merge with existing doc (preserve reading progress)
     const existing = await getUserData(id);
@@ -63,9 +102,19 @@ export async function POST(req: Request) {
         email,
         name,
         imageUrl: image_url,
-        createdAt: new Date(created_at).toISOString(),
+        createdAt,
       },
     });
+
+    if (event.type === "user.created") {
+      logNewUserJoined({
+        userId: id,
+        email,
+        name,
+        createdAt,
+        webhookId: svixId,
+      });
+    }
   }
 
   return NextResponse.json({ ok: true });

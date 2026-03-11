@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "prebuild": "npx vitest run --passWithNoTests && npx tsx scripts/generate-sitemap.ts && npx tsx scripts/validate.ts",
+    "dev": "npm run search:index && next dev",
+    "search:index": "npx tsx scripts/generate-search-index.ts",
+    "prebuild": "npm run search:index && npx vitest run --passWithNoTests && npx tsx scripts/generate-sitemap.ts && npx tsx scripts/validate.ts",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",

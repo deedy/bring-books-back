@@ -28,3 +28,6 @@ legacy/
 # OS junk
 .DS_Store
 *.swp
+
+# Generated web search index
+web/public/data/search/

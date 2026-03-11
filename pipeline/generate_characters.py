@@ -73,6 +73,64 @@ def crop_to_square(path):
     img.save(path)
 
 
+def _build_alias_map(glossary):
+    """Build a mapping from chapter-level term → canonical glossary name.
+
+    Handles aliases like "Alyosha" mapping to "Alexey Fyodorovitch Karamazov".
+    Strategy:
+      1. Exact glossary name match.
+      2. Individual words (≥3 chars) of the glossary name.
+      3. Names/aliases mentioned in the character description (e.g. "also known as Alyosha").
+      4. Multi-word subsets of the glossary name (e.g. "Alexey Fyodorovitch").
+    When multiple glossary names match, pick the longest (most specific) one.
+    """
+    char_names = {name for name, entry in glossary.items() if entry.get("type") == "character"}
+    alias_map = {}  # term -> canonical name
+
+    def _set_alias(term, canon):
+        """Set alias only if not already claimed by a more specific name."""
+        if term not in alias_map or len(canon) > len(alias_map[term]):
+            alias_map[term] = canon
+
+    for canon in char_names:
+        alias_map[canon] = canon  # exact match always works
+        parts = canon.split()
+
+        # Map individual name parts
+        for part in parts:
+            if len(part) < 3 or part.lower() in ("the", "and", "von", "van", "de"):
+                continue
+            _set_alias(part, canon)
+
+        # Map contiguous multi-word subsets (e.g. "Alexey Fyodorovitch" from
+        # "Alexey Fyodorovitch Karamazov")
+        for start in range(len(parts)):
+            for end in range(start + 2, len(parts) + 1):
+                subset = " ".join(parts[start:end])
+                if subset != canon:
+                    _set_alias(subset, canon)
+
+        # Use explicit aliases field if present
+        entry = glossary[canon]
+        for alias in entry.get("aliases", []):
+            _set_alias(alias, canon)
+
+        # Extract aliases/diminutives from the description text.
+        desc = entry.get("description", "")
+        import re
+        # Parenthetical aliases in the glossary name itself or description
+        paren_names = re.findall(r'\(([A-Z][a-z]+(?:\s+[A-Z][a-z]+)*)\)', canon + " " + desc)
+        for alias in paren_names:
+            _set_alias(alias, canon)
+        # "also known as X", "called X", "nicknamed X"
+        for pattern in [r'(?:also )?(?:known|called|nicknamed) (?:as )?([A-Z][a-z]+)',
+                        r'diminutive[:\s]+([A-Z][a-z]+)']:
+            for match in re.finditer(pattern, desc):
+                _set_alias(match.group(1), canon)
+
+    return alias_map
+
+
 def get_top_characters(book_id, n=6):
     cfg = get_book(book_id)
     ann_path = str(cfg.web_annotations_json)
@@ -85,23 +143,53 @@ def get_top_characters(book_id, n=6):
     chapters_data = load_json(ch_path)
     chapter_ids = [ch["id"] for ch in chapters_data["chapters"]]
 
-    characters = []
-    for name, entry in annotations["glossary"].items():
-        if entry["type"] != "character":
+    glossary = annotations.get("glossary", {})
+    alias_map = _build_alias_map(glossary)
+
+    # Collect all unique chapter terms and try to resolve unmatched ones
+    all_chapter_terms = set()
+    for ch_id in chapter_ids:
+        all_chapter_terms.update(annotations.get("chapters", {}).get(ch_id, []))
+
+    # For terms not in alias_map, try substring matching against character names
+    char_names = {name for name, entry in glossary.items() if entry.get("type") == "character"}
+    for term in all_chapter_terms:
+        if term in alias_map:
             continue
-        count = 0
-        first_chapter_idx = None
-        for i, ch_id in enumerate(chapter_ids):
-            ch_terms = annotations.get("chapters", {}).get(ch_id, [])
-            if name in ch_terms:
-                count += 1
-                if first_chapter_idx is None:
-                    first_chapter_idx = i
+        # Check if term is a substring of any character name or vice versa
+        matches = []
+        for canon in char_names:
+            if term.lower() in canon.lower() or canon.lower() in term.lower():
+                matches.append(canon)
+        if len(matches) == 1:
+            alias_map[term] = matches[0]
+        elif matches:
+            # Pick the longest (most specific) match
+            alias_map[term] = max(matches, key=len)
+
+    # Count chapters per canonical character name
+    char_counts = {}  # canonical name -> {count, first_chapter_idx}
+    for i, ch_id in enumerate(chapter_ids):
+        ch_terms = annotations.get("chapters", {}).get(ch_id, [])
+        seen_in_chapter = set()  # avoid double-counting aliases in same chapter
+        for term in ch_terms:
+            canon = alias_map.get(term)
+            if not canon or canon not in char_names:
+                continue
+            if canon in seen_in_chapter:
+                continue
+            seen_in_chapter.add(canon)
+            if canon not in char_counts:
+                char_counts[canon] = {"count": 0, "first_chapter_idx": i}
+            char_counts[canon]["count"] += 1
+
+    characters = []
+    for name, info in char_counts.items():
         characters.append({
             "name": name,
-            "description": entry["description"],
-            "count": count,
-            "first_chapter_idx": first_chapter_idx if first_chapter_idx is not None else len(chapter_ids),
+            "description": glossary[name]["description"],
+            "count": info["count"],
+            "first_chapter_idx": info["first_chapter_idx"],
         })
 
     characters.sort(key=lambda x: (-x["count"], x["name"]))

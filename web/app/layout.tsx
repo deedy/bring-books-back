@@ -56,6 +56,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
         <link rel="preconnect" href="https://storage.googleapis.com" />
+        <link rel="prefetch" href="/data/search/index.json" as="fetch" crossOrigin="anonymous" />
         {GA_ID && (
           <>
             <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} />

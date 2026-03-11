@@ -21,6 +21,7 @@ interface BookBase {
   storyNumber?: number;
   hasOriginalText?: boolean;
   hasModernText?: boolean;
+  hasKidText?: boolean;
   originalScript?: string;
 }
 

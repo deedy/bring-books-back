@@ -32,6 +32,7 @@ export interface GlossaryTerm {
   type: "character" | "proper_noun" | "vocabulary";
   description: string;
   image?: string;
+  aliases?: string[];
   firstChapterIndex: number;
   appearanceCount: number;
 }
@@ -57,14 +58,28 @@ export default async function GlossaryPage({
   const chaptersData = getChapters(id);
   const chapterIds = chaptersData.chapters.map((ch) => ch.id);
 
-  // Pre-compute sort keys for each term
+  // Build reverse alias map: chapter term → canonical glossary name
+  // so "Alyosha" counts toward "Alexey Fyodorovitch Karamazov", etc.
+  const aliasToCanon: Record<string, string> = {};
+  for (const [name, annotation] of Object.entries(annotations.glossary)) {
+    aliasToCanon[name] = name;
+    if (annotation.aliases) {
+      for (const alias of annotation.aliases) {
+        aliasToCanon[alias] = name;
+      }
+    }
+  }
+
+  // Pre-compute sort keys for each term (alias-aware counting)
   const terms: GlossaryTerm[] = Object.entries(annotations.glossary).map(
     ([name, annotation]) => {
       let firstChapterIndex = chapterIds.length;
       let appearanceCount = 0;
       for (let i = 0; i < chapterIds.length; i++) {
         const chTerms = annotations.chapters[chapterIds[i]];
-        if (chTerms?.includes(name)) {
+        if (!chTerms) continue;
+        const found = chTerms.some((t) => aliasToCanon[t] === name);
+        if (found) {
           if (firstChapterIndex === chapterIds.length) firstChapterIndex = i;
           appearanceCount++;
         }
@@ -74,6 +89,7 @@ export default async function GlossaryPage({
         type: annotation.type,
         description: annotation.description,
         image: annotation.image,
+        aliases: annotation.aliases,
         firstChapterIndex,
         appearanceCount,
       };

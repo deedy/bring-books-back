@@ -13,6 +13,7 @@ interface ReadActionsProps {
   totalChapters: number;
   hasOriginalText?: boolean;
   hasModernText?: boolean;
+  hasKidText?: boolean;
   originalLanguage?: string;
   originalScript?: string;
 }
@@ -23,6 +24,7 @@ export default function ReadActions({
   totalChapters,
   hasOriginalText,
   hasModernText,
+  hasKidText,
   originalLanguage,
   originalScript,
 }: ReadActionsProps) {
@@ -49,6 +51,8 @@ export default function ReadActions({
       setBookLanguage(bookId, originalLanguage.toLowerCase());
     } else if (lang === "modern") {
       setBookLanguage(bookId, "modern");
+    } else if (lang === "child") {
+      setBookLanguage(bookId, "child");
     } else {
       setBookLanguage(bookId, undefined);
     }
@@ -58,9 +62,11 @@ export default function ReadActions({
     ? "english"
     : languageParam === "modern"
       ? "modern"
-      : "original";
+      : languageParam === "child"
+        ? "child"
+        : "original";
 
-  const showToggle = hasOriginalText || hasModernText;
+  const showToggle = hasOriginalText || hasModernText || hasKidText;
 
   // Reserve layout space but hide content until hydrated to avoid flicker
   return (
@@ -85,6 +91,7 @@ export default function ReadActions({
             active={active}
             hasOriginal={hasOriginalText}
             hasModern={hasModernText}
+            hasKid={hasKidText}
             onLanguageChange={handleLanguageChange}
           />
         </div>

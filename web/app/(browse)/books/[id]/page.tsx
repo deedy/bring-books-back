@@ -320,6 +320,7 @@ export default async function BookPage({
                 totalChapters={book.totalChapters}
                 hasOriginalText={book.hasOriginalText}
                 hasModernText={book.hasModernText}
+                hasKidText={book.hasKidText}
                 originalLanguage={book.originalLanguage}
                 originalScript={book.originalScript}
               />

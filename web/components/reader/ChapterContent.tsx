@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { Chapter, Annotation, resolveGlossary } from "@/lib/types";
 import type { ResumeTarget } from "@/lib/types";
@@ -38,6 +39,8 @@ interface ChapterContentProps {
   onHighlightRef?: (el: HTMLElement | null) => void;
   languageScript?: string;
   accentColor?: string;
+  bookTitle?: string;
+  allGlossary?: Record<string, Annotation>;
 }
 
 /** Split text on quoted segments and style them differently. */
@@ -165,6 +168,54 @@ const fontSizeMap = {
   large: "text-[19px] leading-[1.8] sm:text-[20px]",
 };
 
+function CtaTagline({
+  darkMode,
+  bookTitle,
+  allGlossary,
+}: {
+  darkMode: boolean;
+  bookTitle?: string;
+  allGlossary?: Record<string, Annotation>;
+}) {
+  const [character, setCharacter] = useState<{ name: string; image: string } | null>(null);
+  const [seconds, setSeconds] = useState("3.5");
+  useEffect(() => {
+    setSeconds((Math.floor(Math.random() * 31 + 20) / 10).toFixed(1));
+    if (allGlossary) {
+      const chars = Object.entries(allGlossary)
+        .filter(([, a]) => a.type === "character" && a.image)
+        .slice(0, 6);
+      if (chars.length > 0) {
+        const pick = chars[Math.floor(Math.random() * chars.length)];
+        setCharacter({ name: pick[0], image: pick[1].image! });
+      }
+    }
+  }, [allGlossary]);
+
+  const colorClass = darkMode ? "text-white/40" : "text-black/35";
+
+  return (
+    <div className={`mt-4 max-w-sm mx-auto text-center`}>
+      <p className={`text-sm leading-relaxed ${colorClass}`}>
+        Logging in only takes {seconds} seconds. It lets you save progress and highlight.
+        {character && bookTitle && (
+          <>
+            {" "}<span className={darkMode ? "text-white/60" : "text-black/50"}>{character.name}</span> from{" "}
+            <span className={`italic ${darkMode ? "text-white/60" : "text-black/50"}`}>{bookTitle}</span> is waiting.
+          </>
+        )}
+      </p>
+      {character && (
+        <img
+          src={character.image}
+          alt={character.name}
+          className="max-w-[200px] rounded-lg mx-auto mt-3 border border-white/10"
+        />
+      )}
+    </div>
+  );
+}
+
 export default function ChapterContent({
   chapter,
   chapterIndex,
@@ -186,6 +237,8 @@ export default function ChapterContent({
   onHighlightRef,
   languageScript,
   accentColor,
+  bookTitle,
+  allGlossary,
 }: ChapterContentProps) {
   const isIndicScript = !!languageScript && languageScript !== "Latin";
   const config = languageScript ? SCRIPT_CONFIG[languageScript] : undefined;
@@ -358,31 +411,18 @@ export default function ChapterContent({
             {/* Sign-in CTA */}
             <div
               id={chapter.gate?.anchorId}
-              className={`text-center ${isPreviewChapter ? "mt-0" : "mt-6"} py-3`}
+              className={`text-center ${isPreviewChapter ? "mt-0" : "mt-6"} py-6`}
             >
-              <div className="flex items-center justify-center gap-3">
-                <Link
-                  href={authLinks.signUpUrl}
-                  onClick={() => onAuthIntent?.(authLinks.returnUrl)}
-                  className="inline-flex items-center justify-center rounded-lg px-6 py-3 text-sm font-semibold transition-opacity hover:opacity-90 bg-[#22c55e] text-white"
-                >
-                  Sign up to read for free
-                </Link>
+              <CtaTagline darkMode={darkMode} bookTitle={bookTitle} allGlossary={allGlossary} />
+              <div className="flex items-center justify-center mt-5">
                 <Link
                   href={authLinks.signInUrl}
                   onClick={() => onAuthIntent?.(authLinks.returnUrl)}
-                  className={`inline-flex items-center justify-center rounded-lg px-6 py-3 text-sm font-semibold transition-colors border ${
-                    darkMode
-                      ? "border-white/20 text-white/70 hover:bg-white/10"
-                      : "border-black/15 text-black/60 hover:bg-black/5"
-                  }`}
+                  className="inline-flex items-center justify-center rounded-xl px-10 py-4 text-base font-bold transition-all hover:scale-[1.02] hover:shadow-lg bg-[#22c55e] text-white shadow-md shadow-green-500/20"
                 >
-                  Sign in
+                  Sign in to read for free
                 </Link>
               </div>
-              <p className={`mt-4 text-xs leading-relaxed max-w-xs mx-auto ${darkMode ? "text-white/40" : "text-black/35"}`}>
-                Signing up only takes 17 seconds. Don't let that stop you from reading.
-              </p>
             </div>
           </>
         )}

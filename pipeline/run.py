@@ -158,6 +158,8 @@ def main():
     parser.add_argument("--stage", choices=STAGES, help="Run a single stage")
     parser.add_argument("--from", dest="from_stage", choices=STAGES, help="Resume from this stage onwards")
     parser.add_argument("--force", action="store_true", help="Force re-run even if output exists")
+    parser.add_argument("--modern", action="store_true", help="Generate modern English rewrite")
+    parser.add_argument("--kid", action="store_true", help="Generate kid-friendly rewrite (age 10 and below)")
     parser.add_argument("--status", action="store_true", help="Print status table")
     parser.add_argument("--list-books", action="store_true", help="List available book IDs")
     args = parser.parse_args()
@@ -181,6 +183,16 @@ def main():
         print(f"Unknown book: {book_id}")
         print(f"Available: {', '.join(sorted(BOOKS.keys()))}")
         sys.exit(1)
+
+    if args.modern:
+        from pipeline.generate_modern import run as run_modern
+        ok = run_modern(book_id, force=args.force)
+        sys.exit(0 if ok else 1)
+
+    if args.kid:
+        from pipeline.generate_kid import run as run_kid
+        ok = run_kid(book_id, force=args.force)
+        sys.exit(0 if ok else 1)
 
     # Determine which stages to run
     if args.stage:

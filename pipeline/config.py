@@ -51,6 +51,7 @@ class BookConfig:
     hero_prompt: str = ""
 
     # ── Original text ──────────────────────────────────────────────────
+    has_original_text: bool = False
     original_script: str = ""  # e.g., "Devanagari", "Bengali", "Tamil"
 
     # ── Book type ────────────────────────────────────────────────────────

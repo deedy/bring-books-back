@@ -2157,7 +2157,8 @@
       "hasOriginalText": true,
       "originalScript": "Cyrillic",
       "addedDate": "2026-03-10",
-      "hasModernText": true
+      "hasModernText": true,
+      "hasKidText": true
     },
     {
       "id": "brothers-karamazov",
@@ -2181,7 +2182,8 @@
       "hasOriginalText": true,
       "addedDate": "2026-03-10",
       "originalScript": "Cyrillic",
-      "hasModernText": true
+      "hasModernText": true,
+      "hasKidText": true
     }
   ],
   "authors": [

@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
+import { normalizeForSearch } from "@/lib/search";
 import type { GlossaryTerm } from "@/app/(browse)/books/[id]/glossary/page";
 
 interface GlossaryContentProps {
@@ -23,12 +24,14 @@ const VALID_FILTERS = new Set<string>(["all", "character", "proper_noun", "vocab
 export default function GlossaryContent({ terms }: GlossaryContentProps) {
   const searchParams = useSearchParams();
   const typeParam = searchParams.get("type") ?? "";
+  const queryParam = searchParams.get("q") ?? "";
   const initialFilter: TypeFilter = VALID_FILTERS.has(typeParam)
     ? (typeParam as TypeFilter)
     : "all";
 
   const [filter, setFilter] = useState<TypeFilter>(initialFilter);
   const [sort, setSort] = useState<SortMode>("frequency");
+  const [query, setQuery] = useState(queryParam);
 
   const counts = useMemo(() => {
     const c = { all: terms.length, character: 0, proper_noun: 0, vocabulary: 0 };
@@ -38,17 +41,32 @@ export default function GlossaryContent({ terms }: GlossaryContentProps) {
 
   const filtered = useMemo(() => {
     const list = filter === "all" ? terms : terms.filter((t) => t.type === filter);
-    return [...list].sort((a, b) =>
+    const normalizedQuery = normalizeForSearch(query);
+    const searched = normalizedQuery
+      ? list.filter((term) =>
+          normalizeForSearch(`${term.name} ${term.description}`).includes(normalizedQuery)
+        )
+      : list;
+
+    return [...searched].sort((a, b) =>
       sort === "chronological"
         ? a.firstChapterIndex - b.firstChapterIndex || a.name.localeCompare(b.name)
         : b.appearanceCount - a.appearanceCount || a.name.localeCompare(b.name)
     );
-  }, [terms, filter, sort]);
+  }, [terms, filter, query, sort]);
 
   return (
     <div>
       {/* Controls */}
       <div className="flex flex-wrap items-center gap-3 mb-8">
+        <input
+          type="text"
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="Search glossary terms"
+          className="min-w-[220px] flex-1 rounded-lg border border-white/10 bg-white/[0.04] px-3 py-2 text-sm text-white outline-none placeholder:text-white/30 focus:border-white/20"
+        />
+
         {/* Type filters */}
         <div className="flex gap-1 p-1 bg-white/[0.06] rounded-lg">
           {TYPE_LABELS.map(({ value, label }) => (
@@ -94,6 +112,9 @@ export default function GlossaryContent({ terms }: GlossaryContentProps) {
 
       {/* Term list */}
       <div className="space-y-3">
+        {filtered.length === 0 && (
+          <p className="text-sm text-white/40">No glossary entries match this search.</p>
+        )}
         {filtered.map((t) => (
           <div key={t.name} className={`py-2 ${t.image && t.type === "character" ? "flex items-start gap-4" : ""}`}>
             {t.image && t.type === "character" && (

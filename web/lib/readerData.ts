@@ -18,6 +18,7 @@ import {
   getBookMeta,
   getCatalog,
   getChapters,
+  getKidChapters,
   getModernChapters,
   getOriginalChapters,
 } from "./data";
@@ -71,6 +72,7 @@ export interface ReaderPayload {
   chapters: ChaptersData["chapters"];
   coverImage: string;
   isAuthenticated: boolean;
+  isKidActive: boolean;
   isModernActive: boolean;
   isOriginalActive: boolean;
   originalScript?: string;
@@ -92,23 +94,27 @@ export async function getReaderPayload(
   const annotations = getAnnotations(bookId);
   const originalData = getOriginalChapters(bookId);
   const modernData = getModernChapters(bookId);
+  const kidData = getKidChapters(bookId);
   const { userId } = await auth();
 
   const requestedChapterIndex = Math.max(0, Math.min(initialChapterIndex, chaptersData.chapters.length - 1));
   const langLower = languageParam?.toLowerCase();
-  const wantsOriginal = !!langLower && langLower !== "english" && langLower !== "modern";
+  const wantsOriginal = !!langLower && langLower !== "english" && langLower !== "modern" && langLower !== "child";
   const wantsModern = langLower === "modern";
+  const wantsKid = langLower === "child";
 
   const book = catalog.books.find((entry) => entry.id === bookId);
   const author = book
     ? catalog.authors.find((entry) => entry.id === book.authorId)
     : null;
 
-  const altChapterData = wantsModern && modernData
-    ? modernData
-    : wantsOriginal && originalData
-      ? originalData
-      : null;
+  const altChapterData = wantsKid && kidData
+    ? kidData
+    : wantsModern && modernData
+      ? modernData
+      : wantsOriginal && originalData
+        ? originalData
+        : null;
 
   const altChapterMap = altChapterData
     ? new Map(altChapterData.chapters.map((chapter) => [chapter.id, chapter]))
@@ -116,7 +122,7 @@ export async function getReaderPayload(
 
   const resolvedChapters = chaptersData.chapters.map((chapter) => {
     const alt = altChapterMap?.get(chapter.id);
-    if (!alt && wantsModern) {
+    if (!alt && (wantsModern || wantsKid)) {
       return { ...chapter, paragraphs: [] };
     }
     return mergeOriginalChapter(chapter, alt);
@@ -138,6 +144,7 @@ export async function getReaderPayload(
   return {
     accentColor: bookMeta.accentColor,
     annotations: wantsOriginal ? undefined : annotations ?? undefined,
+    isKidActive: wantsKid && !!kidData,
     authorName: author?.name ?? "Unknown",
     bookId,
     bookTitle: bookMeta.title,

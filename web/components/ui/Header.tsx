@@ -3,6 +3,7 @@
 import { UserButton, useAuth, useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import SiteSearch from "@/components/search/SiteSearch";
 
 export default function Header() {
   const { isLoaded, userId } = useAuth();
@@ -31,6 +32,7 @@ export default function Header() {
               All Books
             </Link>
           )}
+          <SiteSearch />
         </div>
         <Link href="/" className="absolute left-1/2 -translate-x-1/2 flex items-center gap-2.5 text-lg font-semibold tracking-tight text-white pointer-events-auto" style={{ fontFamily: "var(--font-serif)" }}>
           <img src="/logo.png" alt="" className="w-7 h-7 rounded" />
@@ -40,20 +42,12 @@ export default function Header() {
           {!isLoaded ? (
             <div className="w-7 h-7" />
           ) : !userId ? (
-            <>
             <Link
               href="/sign-in"
-              className="hidden sm:inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium tracking-wide border border-white/15 text-white/70 hover:bg-white/10 transition-colors"
+              className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium tracking-wide bg-white text-black hover:opacity-90 transition-opacity"
             >
               Sign in
             </Link>
-            <Link
-              href="/sign-up"
-              className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium tracking-wide bg-white text-black hover:opacity-90 transition-opacity"
-            >
-              Sign up
-            </Link>
-            </>
           ) : (
             <div
               className="flex items-center gap-2 bg-white/[0.06] hover:bg-white/[0.1] rounded-full pl-1 pr-3 py-1 cursor-pointer transition-colors"

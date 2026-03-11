@@ -774,6 +774,8 @@ export default function ReaderView({
                 onHighlightRef={isOriginalActive ? undefined : onHighlightRef}
                 languageScript={isOriginalActive ? originalScript : undefined}
                 accentColor={accentColor}
+                bookTitle={bookTitle}
+                allGlossary={annotations?.glossary}
               />
             </div>
           ))}
@@ -904,6 +906,8 @@ export default function ReaderView({
                 onHighlightRef={isOriginalActive ? undefined : onHighlightRef}
                 languageScript={isOriginalActive ? originalScript : undefined}
                 accentColor={accentColor}
+                bookTitle={bookTitle}
+                allGlossary={annotations?.glossary}
               />
             )}
           </div>

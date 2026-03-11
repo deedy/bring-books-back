@@ -20,7 +20,7 @@ echo ""
 
 gcloud config set project "${PROJECT_ID}" --quiet
 
-echo "==> [Step 1/5] Converting new PNGs to WebP..."
+echo "==> [Step 1/6] Converting new PNGs to WebP..."
 TO_CONVERT=$(find "$IMG_DIR" -name "*.png" | while read -r png; do
   webp="${png%.png}.webp"
   [ ! -f "$webp" ] && echo "$png"
@@ -34,7 +34,7 @@ else
   echo "  No new images"
 fi
 
-echo "==> [Step 2/5] Ensuring JSON references use .webp..."
+echo "==> [Step 2/6] Ensuring JSON references use .webp..."
 if grep -rq '\.png"' "$DATA_DIR"/*.json "$DATA_DIR"/books/*/meta.json "$DATA_DIR"/books/*/annotations.json 2>/dev/null; then
   find "$DATA_DIR" -name "*.json" -exec sed -i '' 's/\.png"/.webp"/g' {} +
   echo "  Updated JSON references"
@@ -42,11 +42,15 @@ else
   echo "  Already up to date"
 fi
 
+echo "==> [Step 3/6] Rebuilding search index..."
+npm --prefix web run search:index
+echo "  Search index rebuilt"
+
 SYNC_PID=""
 if [ -f "$MARKER" ] && [ -z "$(find "$IMG_DIR" -newer "$MARKER" -name '*.webp' -print -quit)" ]; then
-  echo "==> [Step 3/5] Skipping GCS sync (no image changes)"
+  echo "==> [Step 4/6] Skipping GCS sync (no image changes)"
 else
-  echo "==> [Step 3/5] Syncing images to GCS (background)..."
+  echo "==> [Step 4/6] Syncing images to GCS (background)..."
   (gcloud storage rsync -r "$IMG_DIR" "${BUCKET}/data/images" \
     --cache-control='public, max-age=2592000' \
     --project="${PROJECT_ID}" \
@@ -55,7 +59,7 @@ else
   SYNC_PID=$!
 fi
 
-echo "==> [Step 4/5] Packaging server image via Cloud Build..."
+echo "==> [Step 5/6] Packaging server image via Cloud Build..."
 step_time
 gcloud builds submit web/ \
   --tag "${IMAGE}" \
@@ -70,7 +74,7 @@ wait "$BUILD_PID" || { echo "ERROR: Cloud Build failed"; exit 1; }
 echo "  Build done"
 step_time
 
-echo "==> [Step 5/5] Deploying to Cloud Run..."
+echo "==> [Step 6/6] Deploying to Cloud Run..."
 gcloud run deploy "${SERVICE_NAME}" \
   --image "${IMAGE}" \
   --region "${REGION}" \
