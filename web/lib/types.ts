@@ -63,6 +63,8 @@ export interface Chapter {
   id: string;
   number: number;
   title: string;
+  /** English title preserved for URL slugs when reading in original language. */
+  slugTitle?: string;
   part: number | null;
   partName: string | null;
   image: string;
@@ -91,11 +93,27 @@ export interface Annotation {
   type: "character" | "proper_noun" | "vocabulary";
   description: string;
   image?: string;
+  aliases?: string[];
 }
 
 export interface AnnotationsData {
   glossary: Record<string, Annotation>;
   chapters: Record<string, string[]>;
+}
+
+/** Build a glossary that includes alias keys pointing to their canonical entry. */
+export function resolveGlossary(glossary: Record<string, Annotation>): Record<string, Annotation> {
+  const resolved: Record<string, Annotation> = { ...glossary };
+  for (const entry of Object.values(glossary)) {
+    if (entry.aliases) {
+      for (const alias of entry.aliases) {
+        if (!(alias in resolved)) {
+          resolved[alias] = entry;
+        }
+      }
+    }
+  }
+  return resolved;
 }
 
 export interface AnthologyData {

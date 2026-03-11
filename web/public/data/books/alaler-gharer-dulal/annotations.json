@@ -3,12 +3,12 @@
     "Baburam Babu": {
       "type": "character",
       "description": "A wealthy and ambitious patriarch of Baidyabati, known for his dealings in the courts and for amassing great fortune; he is the father of Motilal and two daughters.",
-      "image": "/data/images/characters/alaler-gharer-dulal/baburam-babu.png"
+      "image": "/data/images/characters/alaler-gharer-dulal/baburam-babu.webp"
     },
     "Motilal": {
       "type": "character",
       "description": "Baburam Babu's only son, pampered and mischievous, who resists formal education and plays tricks on his tutors.",
-      "image": "/data/images/characters/alaler-gharer-dulal/motilal.png"
+      "image": "/data/images/characters/alaler-gharer-dulal/motilal.webp"
     },
     "the tutor": {
       "type": "character",
@@ -213,7 +213,7 @@
     "Benibabu": {
       "type": "character",
       "description": "A responsible and learned man from Bali, tasked with overseeing Motilal's education and behavior.",
-      "image": "/data/images/characters/alaler-gharer-dulal/benibabu.png"
+      "image": "/data/images/characters/alaler-gharer-dulal/benibabu.webp"
     },
     "Pelaram": {
       "type": "character",
@@ -494,7 +494,7 @@
     "Becharam Babu": {
       "type": "character",
       "description": "A resident of Bahubazar, childless and bitter about the younger generation's misdeeds.",
-      "image": "/data/images/characters/alaler-gharer-dulal/becharam-babu.png"
+      "image": "/data/images/characters/alaler-gharer-dulal/becharam-babu.webp"
     },
     "Hala": {
       "type": "character",
@@ -611,7 +611,7 @@
     "Baburam": {
       "type": "character",
       "description": "A character discussed by Becharam and Benibabu, implied to be in trouble and associated with questionable company.",
-      "image": "/data/images/characters/alaler-gharer-dulal/baburam.png"
+      "image": "/data/images/characters/alaler-gharer-dulal/baburam.webp"
     },
     "Bakreshwar": {
       "type": "character",
@@ -688,7 +688,7 @@
     "Thakchacha": {
       "type": "character",
       "description": "Baburam Babu's cunning and resourceful uncle, known for his trickery and ability to manipulate situations in court.",
-      "image": "/data/images/characters/alaler-gharer-dulal/thakchacha.png"
+      "image": "/data/images/characters/alaler-gharer-dulal/thakchacha.webp"
     },
     "Mr. Blacquire": {
       "type": "character",

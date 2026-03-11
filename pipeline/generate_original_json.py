@@ -305,6 +305,12 @@ def run(book_id, force=False):
         json.dump(original_data, f, ensure_ascii=False, indent=2)
     print(f"[{book_id}] Wrote {output_path}")
 
+    # Also write to server-data
+    server_path = str(cfg.server_original_chapters_json)
+    os.makedirs(os.path.dirname(server_path), exist_ok=True)
+    with open(server_path, "w") as f:
+        json.dump(original_data, f, ensure_ascii=False, indent=2)
+
     # Only set hasOriginalText if quality checks pass
     meta_path = os.path.join(str(cfg.web_book_dir), "meta.json")
     if os.path.exists(meta_path):

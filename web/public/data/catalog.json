@@ -1937,7 +1937,7 @@
         "Spirituality",
         "Commentary"
       ],
-      "originalLanguage": "Sanskrit",
+      "originalLanguage": "Hindi",
       "originalTitle": "The Holy Geeta",
       "originalYear": 1969,
       "totalChapters": 18,
@@ -2134,6 +2134,28 @@
       "hasOriginalText": true,
       "originalScript": "Bengali",
       "addedDate": "2026-03-09"
+    },
+    {
+      "id": "crime-and-punishment",
+      "title": "Crime and Punishment",
+      "transliteratedTitle": "Crime and Punishment",
+      "subtitle": "A Descent Into Guilt and Redemption",
+      "authorId": "fyodor-dostoevsky",
+      "coverImage": "/data/images/covers/crime-and-punishment.webp",
+      "accentColor": "#4A3728",
+      "genre": [
+        "Psychological Fiction",
+        "Novel"
+      ],
+      "originalLanguage": "Russian",
+      "originalTitle": "Преступление и наказание",
+      "originalYear": 1866,
+      "totalChapters": 40,
+      "wordCount": 202700,
+      "summary": "Step into the fevered streets of 1860s St. Petersburg, where young ex-student Raskolnikov prowls the city, tormented by poverty and grand philosophical ideas. In a world teetering between desperate squalor and intellectual obsession, Raskolnikov’s inner turmoil propels him toward a shocking act that will shatter his life and force him to confront the darkest corners of his conscience. Fyodor Dostoevsky’s masterpiece, Crime and Punishment, is a gripping psychological drama—an intense exploration of guilt, morality, and the possibility of redemption. With its unforgettable characters and haunting atmosphere, this novel will grip you from the first page and linger in your thoughts long after the final sentence.",
+      "previewText": "CHAPTER I On an exceptionally hot evening early in July a young man came out of the garret in which he lodged in S. Place and walked slowly, as though in hesitation, towards K. bridge. He had successfully avoided meeting his landlady on the staircase. His garret was under the roof of a high, five-storied house and was more like a cupboard than a room. The landlady who provided him with garret, dinners, and attendance, lived on the floor below, and every time he went out he was obliged to pass her kitchen, the door of which invariably stood open. And each time he passed, the young man had a sick, frightened feeling, which made him scowl and feel ashamed. He was hopelessly in debt to his landlady, and was afraid of meeting her. This was not because he was cowardly and abject, quite the contrary; but for some time past he had been in an overstrained irritable condition, verging on hypochondria. He had become so completely absorbed in himself, and isolated from his fellows that he dreaded meeting, not only his landlady, but anyone at all. He was crushed by poverty, but the anxieties of his position had of late ceased to weigh upon him. He had given up attending to matters of practical ",
+      "hasOriginalText": true,
+      "originalScript": "Cyrillic"
     }
   ],
   "authors": [
@@ -2355,6 +2377,16 @@
       "bio": "Bibhutibhushan Bandyopadhyay (1894–1950) was a renowned Bengali novelist and writer, born in the village of Muratipur in what is now West Bengal, India. Raised in modest circumstances, he pursued his education at Bongaon High School and later earned a degree from Surendranath College in Kolkata. Bandyopadhyay worked as a teacher and briefly as a government clerk before devoting himself to writing. His deep connection to rural Bengal, shaped by his upbringing and personal experiences, profoundly influenced his literary work. Despite financial hardships, he remained committed to depicting the realities and beauty of village life, which became a hallmark of his storytelling.\n\nBandyopadhyay holds a distinguished place in Bengali and Indian literature for his evocative prose and sensitive portrayal of rural existence. His most celebrated novel, 'Pather Panchali' (1929), featured on this site, is widely regarded as a masterpiece of coming-of-age fiction. The novel's vivid depiction of young Apu's life, familial bonds, and the landscape of early 20th-century Bengal has resonated with generations of readers. 'Pather Panchali' not only inspired sequels and other literary works but also achieved international recognition through Satyajit Ray's acclaimed film adaptation. Bandyopadhyay's legacy endures through his enduring characters, rich natural imagery, and his profound influence on South Asian literature.",
       "bookIds": [
         "pather-panchali"
+      ]
+    },
+    {
+      "id": "fyodor-dostoevsky",
+      "name": "Fyodor Dostoevsky",
+      "image": "/data/images/authors/fyodor-dostoevsky.webp",
+      "years": "1821–1881",
+      "bio": "Fyodor Dostoevsky was born in Moscow, Russia, in 1821 to a physician father and a devoutly religious mother. He began his education at a private school and later attended the Nikolayev Military Engineering Institute in St. Petersburg. After a brief career as an engineer, Dostoevsky turned to writing, publishing his first novel in 1846. His life was marked by political turmoil; in 1849, he was arrested for involvement with a group of utopian socialists and spent several years in Siberian exile, an experience that profoundly influenced his later work. After his return, Dostoevsky struggled with financial hardship, health issues, and a tumultuous personal life, yet he remained a prolific writer until his death in 1881.\n\nDostoevsky is recognized as one of the most important figures in world literature, renowned for his profound psychological insight and exploration of philosophical themes. His major works include 'The Brothers Karamazov,' 'The Idiot,' and 'Demons,' but he is perhaps best known for 'Crime and Punishment.' Published in 1866, this novel delves into the mind of Raskolnikov, an impoverished ex-student who commits murder and wrestles with guilt and redemption. Dostoevsky's dense prose and vivid portrayal of St. Petersburg society have made 'Crime and Punishment' a cornerstone of psychological fiction, influencing generations of writers and thinkers. His legacy endures in the continued study and translation of his works, including the acclaimed English version by Constance Garnett.",
+      "bookIds": [
+        "crime-and-punishment"
       ]
     }
   ]

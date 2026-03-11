@@ -9,6 +9,7 @@ import json
 import os
 import re
 import shutil
+from PIL import Image
 from openai import OpenAI
 from dotenv import load_dotenv
 
@@ -453,12 +454,15 @@ def update_images(book_id, chapters_data, images_dir):
 
         web_src = os.path.join(images_dir, f"{key}_web.png")
         if os.path.exists(web_src):
-            dst = os.path.join(web_img_dir, f"{key}.png")
-            shutil.copy2(web_src, dst)
+            dst_png = os.path.join(web_img_dir, f"{key}.png")
+            shutil.copy2(web_src, dst_png)
+            # Convert to WebP alongside the PNG
+            dst_webp = os.path.join(web_img_dir, f"{key}.webp")
+            Image.open(dst_png).save(dst_webp, "WEBP", quality=85)
             ch["image"] = f"/data/images/chapters/{book_id}/{key}.webp"
             count += 1
 
-    print(f"  Copied {count} chapter images -> {web_img_dir}")
+    print(f"  Copied {count} chapter images (PNG+WebP) -> {web_img_dir}")
 
 
 def copy_cover(book_id, images_dir):
@@ -467,7 +471,10 @@ def copy_cover(book_id, images_dir):
         cover_dst = str(WEB_DATA_DIR / "images" / "covers" / f"{book_id}.png")
         os.makedirs(os.path.dirname(cover_dst), exist_ok=True)
         shutil.copy2(cover_src, cover_dst)
-        print(f"  Copied cover -> {cover_dst}")
+        # Convert to WebP alongside the PNG
+        webp_dst = str(WEB_DATA_DIR / "images" / "covers" / f"{book_id}.webp")
+        Image.open(cover_dst).save(webp_dst, "WEBP", quality=85)
+        print(f"  Copied cover (PNG+WebP) -> {cover_dst}")
 
 
 def generate_story_summary(story_name, story_chapters, cfg):
@@ -600,8 +607,16 @@ def run_anthology(book_id, chapters_data, cfg, force=False):
         # Write chapters.json — preserve fields from prior stages (e.g. summaries)
         os.makedirs(story_book_dir, exist_ok=True)
         _merge_existing_chapters(flat_chapters, story_chapters_json)
+        story_payload = {"chapters": flat_chapters}
         with open(story_chapters_json, "w") as f:
-            json.dump({"chapters": flat_chapters}, f, ensure_ascii=False, indent=2)
+            json.dump(story_payload, f, ensure_ascii=False, indent=2)
+
+        # Also write to server-data
+        from pipeline.config import SERVER_DATA_DIR
+        server_story_dir = str(SERVER_DATA_DIR / "books" / story_book_id)
+        os.makedirs(server_story_dir, exist_ok=True)
+        with open(os.path.join(server_story_dir, "chapters.json"), "w") as f:
+            json.dump(story_payload, f, ensure_ascii=False, indent=2)
 
         # Generate summary
         print(f"  [{story_book_id}] Generating summary ({len(flat_chapters)} ch, {word_count:,} words)...")
@@ -751,9 +766,16 @@ def run(book_id, force=False):
     # Write chapters.json — preserve fields from prior stages (e.g. summaries from annotations)
     os.makedirs(book_dir, exist_ok=True)
     _merge_existing_chapters(chapters_data, chapters_json_path)
+    chapters_payload = {"chapters": chapters_data}
     with open(chapters_json_path, "w") as f:
-        json.dump({"chapters": chapters_data}, f, ensure_ascii=False, indent=2)
+        json.dump(chapters_payload, f, ensure_ascii=False, indent=2)
     print(f"Wrote {chapters_json_path}")
+
+    # Also write to server-data (Next.js reads chapters from here at runtime)
+    server_chapters_path = str(cfg.server_chapters_json)
+    os.makedirs(os.path.dirname(server_chapters_path), exist_ok=True)
+    with open(server_chapters_path, "w") as f:
+        json.dump(chapters_payload, f, ensure_ascii=False, indent=2)
 
     # Generate summary
     print("Generating summary...")

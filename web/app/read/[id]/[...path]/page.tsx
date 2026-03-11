@@ -134,7 +134,8 @@ export default async function ChapterRoutePage({
         ? 1
         : num;
     const ch = chapters[clamped - 1];
-    redirect(`/read/${id}/${chapterPath(ch, clamped)}`);
+    const qs = languageParam ? `?language=${encodeURIComponent(languageParam)}` : "";
+    redirect(`/read/${id}/${chapterPath(ch, clamped)}${qs}`);
   }
 
   // 2 segments → non-part book: [chapterId, chapterSlug]

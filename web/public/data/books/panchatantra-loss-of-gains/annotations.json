@@ -19,12 +19,12 @@
     "Red-Face": {
       "type": "character",
       "description": "A clever monkey who lives in a rose-apple tree and uses his wits to escape the treachery of his friend the crocodile.",
-      "image": "/data/images/characters/panchatantra-loss-of-gains/red-face.png"
+      "image": "/data/images/characters/panchatantra-loss-of-gains/red-face.webp"
     },
     "Ugly-Mug": {
       "type": "character",
       "description": "A crocodile who befriends Red-Face the monkey but is later persuaded by his wife to attempt to kill his friend.",
-      "image": "/data/images/characters/panchatantra-loss-of-gains/ugly-mug.png"
+      "image": "/data/images/characters/panchatantra-loss-of-gains/ugly-mug.webp"
     },
     "Brahman": {
       "type": "proper_noun",
@@ -65,7 +65,7 @@
     "Flop-Ear": {
       "type": "character",
       "description": "A character mentioned by the monkey as an example of someone who perished by entering danger.",
-      "image": "/data/images/characters/panchatantra-loss-of-gains/flop-ear.png"
+      "image": "/data/images/characters/panchatantra-loss-of-gains/flop-ear.webp"
     },
     "the lizard": {
       "type": "character",
@@ -106,7 +106,7 @@
     "Fierce-Mane": {
       "type": "character",
       "description": "A male lion living in the forest, husband to the lioness and father to the twins, who adopts a jackal cub.",
-      "image": "/data/images/characters/panchatantra-loss-of-gains/fierce-mane.png"
+      "image": "/data/images/characters/panchatantra-loss-of-gains/fierce-mane.webp"
     },
     "drudge": {
       "type": "vocabulary",
@@ -143,7 +143,7 @@
     "potter": {
       "type": "character",
       "description": "A man who works with clay and becomes known as Fight-Firm after the king misinterprets a scar on his forehead as a battle wound.",
-      "image": "/data/images/characters/panchatantra-loss-of-gains/potter.png"
+      "image": "/data/images/characters/panchatantra-loss-of-gains/potter.webp"
     },
     "king": {
       "type": "character",
@@ -464,7 +464,7 @@
     "Supersmart": {
       "type": "character",
       "description": "A clever jackal raised by the lion and lioness as their third son; he devises schemes to eat an elephant and outwits other predators.",
-      "image": "/data/images/characters/panchatantra-loss-of-gains/supersmart.png"
+      "image": "/data/images/characters/panchatantra-loss-of-gains/supersmart.webp"
     },
     "tiger": {
       "type": "character",

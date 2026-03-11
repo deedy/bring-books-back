@@ -7,7 +7,7 @@
     "Virendra Singh": {
       "type": "character",
       "description": "Son of Surendra Singh and King of Chunar. Husband of Chandrakanta, father of Indrajit Singh and Anand Singh. A just and powerful ruler waging war against Shivdutt.",
-      "image": "/data/images/characters/chandrakanta/virendra-singh.png"
+      "image": "/data/images/characters/chandrakanta/virendra-singh.webp"
     },
     "Chandrakanta": {
       "type": "character",
@@ -52,7 +52,7 @@
     "Anand Singh": {
       "type": "character",
       "description": "Younger son of Virendra Singh and Chandrakanta; accompanies Indrajeet Singh on adventures.",
-      "image": "/data/images/characters/chandrakanta/anand-singh.png"
+      "image": "/data/images/characters/chandrakanta/anand-singh.webp"
     },
     "Bhairon Singh": {
       "type": "character",
@@ -183,7 +183,7 @@
     "Indrajit Singh": {
       "type": "character",
       "description": "The elder son of Raja Virendra Singh and Chandrakanta, a brave and handsome prince (Kunwar). He is the central hero of the story, skilled in warfare and deeply in love with Kishori.",
-      "image": "/data/images/characters/chandrakanta/indrajit-singh.png"
+      "image": "/data/images/characters/chandrakanta/indrajit-singh.webp"
     },
     "Vindhya": {
       "type": "proper_noun",
@@ -500,7 +500,7 @@
     "Kishori": {
       "type": "character",
       "description": "Kishori is the fifteen-year-old daughter of Maharaj Shivdatt, currently sent away to her maternal grandparents' home due to her father's displeasure.",
-      "image": "/data/images/characters/chandrakanta/kishori.png"
+      "image": "/data/images/characters/chandrakanta/kishori.webp"
     },
     "Bakr Ali": {
       "type": "character",
@@ -585,7 +585,7 @@
     "Madhavi": {
       "type": "character",
       "description": "A woman skilled in disguise, who deceives others by taking on Kishori's appearance and is implicated in the abduction of Indrajit Singh.",
-      "image": "/data/images/characters/chandrakanta/madhavi.png"
+      "image": "/data/images/characters/chandrakanta/madhavi.webp"
     },
     "Vaikunth": {
       "type": "proper_noun",
@@ -1686,7 +1686,7 @@
     "Kunwar Indrajit Singh": {
       "type": "character",
       "description": "The elder son of Raja Virendra Singh and Chandrakanta, a brave and handsome prince (Kunwar). He is the central hero of the story, skilled in warfare and deeply in love with Kishori.",
-      "image": "/data/images/characters/chandrakanta/kunwar-indrajit-singh.png"
+      "image": "/data/images/characters/chandrakanta/kunwar-indrajit-singh.webp"
     },
     "Raja Virendra Singh": {
       "type": "character",

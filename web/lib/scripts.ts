@@ -15,6 +15,7 @@ export const SCRIPT_CONFIG: Record<string, ScriptInfo> = {
   Odia:       { fontClass: "font-odia",       lineHeight: 1.9, googleFontFamilies: ["Noto+Serif+Oriya"], primaryFont: "Noto Serif Oriya" },
   Telugu:     { fontClass: "font-telugu",     lineHeight: 1.9, googleFontFamilies: ["Tiro+Telugu", "Noto+Serif+Telugu"], primaryFont: "Tiro Telugu" },
   Kannada:    { fontClass: "font-kannada",    lineHeight: 1.9, googleFontFamilies: ["Tiro+Kannada", "Noto+Serif+Kannada"], primaryFont: "Tiro Kannada" },
+  Cyrillic:   { fontClass: "font-cyrillic",  lineHeight: 1.8, googleFontFamilies: ["Noto+Serif"], primaryFont: "Noto Serif" },
 };
 
 export const LANGUAGE_LABELS: Record<string, string> = {
@@ -27,4 +28,5 @@ export const LANGUAGE_LABELS: Record<string, string> = {
   Odia: "ଓଡ଼ିଆ",
   Telugu: "తెలుగు",
   Kannada: "ಕನ್ನಡ",
+  Russian: "Русский",
 };

@@ -3,12 +3,12 @@
     "Bimala": {
       "type": "character",
       "description": "Bimala is the central female character and narrator, wife of Nikhilesh, addressed by various affectionate and respectful terms such as Chhoto Rani, Rani Ma, Ranima, and metaphorically as Queen of the Bees/queen bee; she is also called Chhutu, Makhhi, Makhi, Mokshi, and second queen by different characters.",
-      "image": "/data/images/characters/ghare-baire/bimala.png"
+      "image": "/data/images/characters/ghare-baire/bimala.webp"
     },
     "Nikhilesh": {
       "type": "character",
       "description": "Nikhilesh (Nikhil) is Bimala's husband, an idealistic and liberal-minded landlord who values reason and ethical conduct over politics; he is referred to as 'my husband' by Bimala.",
-      "image": "/data/images/characters/ghare-baire/nikhilesh.png"
+      "image": "/data/images/characters/ghare-baire/nikhilesh.webp"
     },
     "Miss Gilby": {
       "type": "character",
@@ -17,7 +17,7 @@
     "Chandranath Babu": {
       "type": "character",
       "description": "Chandranath Babu is Nikhilesh's respected teacher or mentor, an elderly and serene figure symbolizing asceticism and renunciation, also addressed as Chandrababu, Chandramaster, or Mastermoshai.",
-      "image": "/data/images/characters/ghare-baire/chandranath-babu.png"
+      "image": "/data/images/characters/ghare-baire/chandranath-babu.webp"
     },
     "Noren": {
       "type": "character",
@@ -146,7 +146,7 @@
     "Sandip": {
       "type": "character",
       "description": "Sandip is a fiery nationalist and friend of Nikhilesh, charismatic and passionate about the Swadeshi movement; he is also referred to respectfully as Sandipbabu.",
-      "image": "/data/images/characters/ghare-baire/sandip.png"
+      "image": "/data/images/characters/ghare-baire/sandip.webp"
     },
     "God": {
       "type": "proper_noun",
@@ -371,7 +371,7 @@
     "Majorani": {
       "type": "character",
       "description": "Majorani, also known as Mejo-rani or Mejorani, is the middle sister-in-law in Bimala's family, involved in household affairs and sometimes called Mejoranididi or Mejo Rani; she is the middle sister-in-law.",
-      "image": "/data/images/characters/ghare-baire/majorani.png"
+      "image": "/data/images/characters/ghare-baire/majorani.webp"
     },
     "Nonu": {
       "type": "character",
@@ -744,7 +744,7 @@
     "Amulya": {
       "type": "character",
       "description": "Amulya is a devoted young follower of Sandip, involved in Swadeshi activism and often tasked with carrying out Sandip's orders; he is sometimes addressed respectfully as Amulyababu or by his full name, Amulya Charan.",
-      "image": "/data/images/characters/ghare-baire/amulya.png"
+      "image": "/data/images/characters/ghare-baire/amulya.webp"
     },
     "Kulada": {
       "type": "character",

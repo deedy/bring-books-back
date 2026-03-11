@@ -96,11 +96,6 @@ export default function ReaderHeader({
 
           {/* Desktop: show all buttons inline */}
           <div className="hidden sm:flex items-center gap-2">
-            {(!isLoaded || !userId) && (
-              <Link href={signInUrl} className={buttonClass}>
-                Sign in
-              </Link>
-            )}
             <button
               onClick={onToggleScrollMode}
               className={`p-2 rounded-lg transition-colors ${
@@ -158,6 +153,14 @@ export default function ReaderHeader({
               >
                 Chapters
               </button>
+            )}
+            {isLoaded && !userId && (
+              <Link
+                href={signInUrl}
+                className="px-3 py-1 rounded-md text-xs font-medium tracking-wide bg-white text-black hover:opacity-90 transition-opacity"
+              >
+                Sign in
+              </Link>
             )}
           </div>
 

@@ -3,7 +3,7 @@
     "Shyam": {
       "type": "character",
       "description": "The protagonist and narrator of the story, a young boy whose character is shaped by his mother's teachings and experiences growing up.",
-      "image": "/data/images/characters/shyamchi-aai/shyam.png"
+      "image": "/data/images/characters/shyamchi-aai/shyam.webp"
     },
     "Palovan": {
       "type": "proper_noun",
@@ -80,7 +80,7 @@
     "Bapu": {
       "type": "character",
       "description": "Shyam's father, a devout and hardworking village headman (khot) who performs daily rituals and manages family affairs.",
-      "image": "/data/images/characters/shyamchi-aai/bhau.png"
+      "image": "/data/images/characters/shyamchi-aai/bhau.webp"
     },
     "Ganapati": {
       "type": "proper_noun",
@@ -101,7 +101,7 @@
     "Purushottam": {
       "type": "character",
       "description": "One of Shyam’s brothers, mentioned as part of the family but not central to the events of this chapter.",
-      "image": "/data/images/characters/shyamchi-aai/purushottam.png"
+      "image": "/data/images/characters/shyamchi-aai/purushottam.webp"
     },
     "Sadanand": {
       "type": "character",
@@ -550,7 +550,7 @@
     "Yashoda": {
       "type": "character",
       "description": "The protagonist's mother and the moral heart of the story, known for her compassion, selflessness, and deep influence on her children's values.",
-      "image": "/data/images/characters/shyamchi-aai/aai.png"
+      "image": "/data/images/characters/shyamchi-aai/aai.webp"
     },
     "Vatan": {
       "type": "character",

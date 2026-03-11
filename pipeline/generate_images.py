@@ -54,6 +54,13 @@ def save_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+def _save_webp(png_path):
+    """Convert a PNG file to WebP alongside it (same name, .webp extension)."""
+    webp_path = png_path.rsplit(".", 1)[0] + ".webp"
+    Image.open(png_path).save(webp_path, "WEBP", quality=85)
+    return webp_path
+
+
 def crop_to_ratio(path, target_ratio):
     img = Image.open(path)
     w, h = img.size
@@ -335,8 +342,9 @@ def _run_single_book(book_id, cfg, chapters_path, images_dir, web_img_dir, force
                 dst_name = fname.replace("_web.png", ".png")
                 dst = os.path.join(web_img_dir, dst_name)
                 shutil.copy2(src, dst)
+                _save_webp(dst)
                 count += 1
-    print(f"  [{book_id}] Copied {count} chapter images -> {web_img_dir}")
+    print(f"  [{book_id}] Copied {count} chapter images (PNG+WebP) -> {web_img_dir}")
 
     # Copy cover
     cover_src = os.path.join(images_dir, "cover.png")
@@ -344,6 +352,7 @@ def _run_single_book(book_id, cfg, chapters_path, images_dir, web_img_dir, force
         cover_dst = str(cfg.web_cover_path)
         os.makedirs(os.path.dirname(cover_dst), exist_ok=True)
         shutil.copy2(cover_src, cover_dst)
+        _save_webp(cover_dst)
 
 
 def run(book_id, force=False):
@@ -388,6 +397,7 @@ def _run_anthology_images(book_id, cfg, force=False):
         cover_dst = str(cfg.web_cover_path)
         os.makedirs(os.path.dirname(cover_dst), exist_ok=True)
         shutil.copy2(cover_src, cover_dst)
+        _save_webp(cover_dst)
 
     for story_id in story_ids:
         story_dir = WEB_DATA_DIR / "books" / story_id
@@ -445,6 +455,7 @@ def _run_anthology_images(book_id, cfg, force=False):
                                 img = part.as_image()
                                 os.makedirs(os.path.dirname(story_cover_dst), exist_ok=True)
                                 img.save(story_cover_dst)
+                                _save_webp(story_cover_dst)
                                 print(f"  [{story_id}] Cover generated -> {story_cover_dst}")
                                 break
                         break

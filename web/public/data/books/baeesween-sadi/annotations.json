@@ -23,7 +23,7 @@
     "Sumedh": {
       "type": "character",
       "description": "A gentleman who welcomes Vishwabandhu, facilitates his integration into the group, and leads the proceedings; he is a central figure in the community.",
-      "image": "/data/images/characters/baeesween-sadi/sumedh.png"
+      "image": "/data/images/characters/baeesween-sadi/sumedh.webp"
     },
     "Sumitra": {
       "type": "character",
@@ -64,7 +64,7 @@
     "Devmitra": {
       "type": "character",
       "description": "The village chief (head of the village council) who welcomes the narrator and communicates via advanced technology.",
-      "image": "/data/images/characters/baeesween-sadi/devmitra.png"
+      "image": "/data/images/characters/baeesween-sadi/devmitra.webp"
     },
     "Vishvabandhu": {
       "type": "character",
@@ -73,12 +73,12 @@
     "Vishwamitra": {
       "type": "character",
       "description": "A professor of history at Nalanda University and author of 'The History of Universal National Organization,' who meets the narrator.",
-      "image": "/data/images/characters/baeesween-sadi/vishwamitra.png"
+      "image": "/data/images/characters/baeesween-sadi/vishwamitra.webp"
     },
     "Dev": {
       "type": "character",
       "description": "A village resident who assists with guest arrangements and amenities.",
-      "image": "/data/images/characters/baeesween-sadi/dev.png"
+      "image": "/data/images/characters/baeesween-sadi/dev.webp"
     },
     "Vashishtha": {
       "type": "character",
@@ -351,12 +351,12 @@
     "Ismail": {
       "type": "character",
       "description": "A respected elder, former head of the village and president of the Nepal Republic, who presides over the assembly and is noted for his wisdom and lineage.",
-      "image": "/data/images/characters/baeesween-sadi/ismail.png"
+      "image": "/data/images/characters/baeesween-sadi/ismail.webp"
     },
     "Priyamvada": {
       "type": "character",
       "description": "Ismail’s wife, who assists the narrator in understanding village matters.",
-      "image": "/data/images/characters/baeesween-sadi/priyamvada.png"
+      "image": "/data/images/characters/baeesween-sadi/priyamvada.webp"
     },
     "Arjan": {
       "type": "character",

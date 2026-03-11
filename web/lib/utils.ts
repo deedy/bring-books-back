@@ -78,11 +78,12 @@ export function slugify(text: string): string {
  * - Non-part books: {sequentialIndex}/{chapterSlug}
  */
 export function chapterPath(
-  ch: { title: string; number: number; part: number | null; partName: string | null },
+  ch: { title: string; slugTitle?: string; number: number; part: number | null; partName: string | null },
   sequentialIndex: number,
 ): string {
+  const titleForSlug = ch.slugTitle ?? ch.title;
   if (ch.part != null && ch.partName) {
-    return `${ch.part}/${slugify(ch.partName)}/${ch.number}/${slugify(ch.title)}`;
+    return `${ch.part}/${slugify(ch.partName)}/${ch.number}/${slugify(titleForSlug)}`;
   }
-  return `${sequentialIndex}/${slugify(ch.title)}`;
+  return `${sequentialIndex}/${slugify(titleForSlug)}`;
 }

@@ -160,18 +160,24 @@ async def deduplicate_glossary(data, book_id):
         if merged_desc:
             glossary[canonical]["description"] = merged_desc
 
+        # Collect all alias names that existed in the glossary
+        alias_names = []
         for alias in aliases:
             if alias == canonical or alias not in glossary:
                 continue
 
-            for ch_id, terms in chapter_terms.items():
-                if alias in terms:
-                    terms.remove(alias)
-                    if canonical not in terms:
-                        terms.append(canonical)
+            alias_names.append(alias)
+
+            # Keep aliases in chapter term lists (don't replace with canonical)
+            # so the frontend regex can match the short forms in the text.
 
             del glossary[alias]
             merged_count += 1
+
+        # Store aliases on the canonical entry (frontend builds reverse lookup)
+        if alias_names:
+            existing = glossary[canonical].get("aliases", [])
+            glossary[canonical]["aliases"] = existing + alias_names
 
     print(f"  [{book_id}] Merged {merged_count} duplicate entries across {len(groups)} groups")
     return {"glossary": glossary, "chapters": chapter_terms}
@@ -254,32 +260,38 @@ async def reconcile_characters(data, book_id):
         if merged_desc:
             glossary[canonical]["description"] = merged_desc
 
+        alias_names = []
         for alias in aliases:
             if alias == canonical:
                 continue
 
-            # Always clean up chapter references, even if alias was already
-            # removed from glossary by a previous group in this pass
-            for ch_id, terms in chapter_terms.items():
-                if alias in terms:
-                    terms.remove(alias)
-                    if canonical not in terms:
-                        terms.append(canonical)
+            # Keep aliases in chapter term lists so the frontend regex matches them.
 
             # Only delete from glossary if still present
             if alias in glossary:
                 if glossary[alias].get("image") and not glossary[canonical].get("image"):
                     glossary[canonical]["image"] = glossary[alias]["image"]
+                alias_names.append(alias)
                 del glossary[alias]
                 merged_count += 1
 
+        # Store aliases on the canonical entry (frontend builds reverse lookup)
+        if alias_names:
+            existing = glossary[canonical].get("aliases", [])
+            glossary[canonical]["aliases"] = existing + alias_names
+
     print(f"  [{book_id}] Reconciled {merged_count} character aliases across {len(groups)} groups")
 
-    # Clean up orphan chapter references (terms in chapters but not in glossary)
+    # Clean up orphan chapter references (terms in chapters but not in glossary or aliases)
     glossary_keys = set(glossary.keys())
+    alias_set = set()
+    for entry in glossary.values():
+        for a in entry.get("aliases", []):
+            alias_set.add(a)
+    valid_terms = glossary_keys | alias_set
     orphan_count = 0
     for ch_id, terms in chapter_terms.items():
-        orphans = [t for t in terms if t not in glossary_keys]
+        orphans = [t for t in terms if t not in valid_terms]
         for o in orphans:
             terms.remove(o)
             orphan_count += 1
@@ -440,6 +452,12 @@ async def _run_async(book_id, force=False):
 
         with open(chapters_path, "w") as f:
             json.dump(fresh_data, f, indent=2, ensure_ascii=False)
+
+        # Also update server-data copy
+        server_chapters_path = str(cfg.server_chapters_json)
+        if os.path.exists(os.path.dirname(server_chapters_path)):
+            with open(server_chapters_path, "w") as f:
+                json.dump(fresh_data, f, indent=2, ensure_ascii=False)
         print(f"[{book_id}] Updated {chapters_path} with summaries")
     else:
         print(f"[{book_id}] Chapter summaries already present, skipping (use --force to re-run)")

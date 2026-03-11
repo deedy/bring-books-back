@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <p className="text-sm font-medium text-white/60">Grand Old Books</p>
             <p className="text-xs text-white/40 mt-1">
-              Reviving forgotten literary treasures with AI
+              The greatest books you've never read.
             </p>
           </div>
 

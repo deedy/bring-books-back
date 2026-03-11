@@ -3,12 +3,12 @@
     "Parvateesam": {
       "type": "character",
       "description": "The protagonist and narrator, a naive and endearing young Brahmin from rural Andhra Pradesh who travels to England to become a barrister. His innocent misadventures and cultural misunderstandings form the comic heart of the novel.",
-      "image": "/data/images/characters/barrister-parvateesam/parvateesam.png"
+      "image": "/data/images/characters/barrister-parvateesam/parvateesam.webp"
     },
     "Mokkapati Narasimha Shastri": {
       "type": "character",
       "description": "The author and narrator of the novel, who provides commentary and context about Parvateesam and the writing of the book.",
-      "image": "/data/images/characters/barrister-parvateesam/mokkapati-narasimha-shastri.png"
+      "image": "/data/images/characters/barrister-parvateesam/mokkapati-narasimha-shastri.webp"
     },
     "Subbarayudu": {
       "type": "character",
@@ -305,7 +305,7 @@
     "Ravana Rao": {
       "type": "character",
       "description": "A middle-aged lawyer and local leader in Narsapuram who mentors Parvateesam, encouraging him to join political meetings and the independence movement. He arranges fundraising for Parvateesam's journey to England.",
-      "image": "/data/images/characters/barrister-parvateesam/ravana-rao.png"
+      "image": "/data/images/characters/barrister-parvateesam/ravana-rao.webp"
     },
     "Narayanarao Pantulu": {
       "type": "character",
@@ -906,7 +906,7 @@
     "Raju": {
       "type": "character",
       "description": "A Telugu-speaking man in Edinburgh who becomes Parvateesam's close companion and guide, teaching him local customs and helping him navigate boarding house life in Scotland.",
-      "image": "/data/images/characters/barrister-parvateesam/raju.png"
+      "image": "/data/images/characters/barrister-parvateesam/raju.webp"
     },
     "Indian Association": {
       "type": "proper_noun",
@@ -2123,7 +2123,7 @@
     "Achyutaramaiah": {
       "type": "character",
       "description": "A Brahmin lawyer from Mogalturru, introduced as a potential father-in-law, whose eldest daughter becomes a marriage prospect for Parvateesam.",
-      "image": "/data/images/characters/barrister-parvateesam/achyutaramaiah.png"
+      "image": "/data/images/characters/barrister-parvateesam/achyutaramaiah.webp"
     },
     "Surya Narayana Shastri": {
       "type": "character",
@@ -2672,7 +2672,7 @@
     "Parvateesam's Mother": {
       "type": "character",
       "description": "A loving, nurturing presence who advocates for Parvateesam's education, eagerly awaits his return from England, and plays a central role in arranging his marriage.",
-      "image": "/data/images/characters/barrister-parvateesam/parvateesams-mother.png"
+      "image": "/data/images/characters/barrister-parvateesam/parvateesams-mother.webp"
     },
     "Uncle": {
       "type": "character",

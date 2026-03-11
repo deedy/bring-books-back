@@ -3,7 +3,7 @@
     "Gobar": {
       "type": "character",
       "description": "Hori's son, a devoted but sometimes rebellious family member who struggles with poverty and his relationship with Jhuniya.",
-      "image": "/data/images/characters/godan/gobar.png"
+      "image": "/data/images/characters/godan/gobar.webp"
     },
     "Sona": {
       "type": "character",
@@ -20,7 +20,7 @@
     "Rai Sahib": {
       "type": "character",
       "description": "A landlord of high social standing involved in organizing events and enforcing orders through his stewards; he faces financial and political challenges.",
-      "image": "/data/images/characters/godan/rai-sahib.png"
+      "image": "/data/images/characters/godan/rai-sahib.webp"
     },
     "zamindar": {
       "type": "proper_noun",
@@ -85,7 +85,7 @@
     "Hori": {
       "type": "character",
       "description": "A poor, deeply moral peasant and the protagonist of the novel who struggles to survive while maintaining his dignity despite heavy debts to moneylenders.",
-      "image": "/data/images/characters/godan/hori.png"
+      "image": "/data/images/characters/godan/hori.webp"
     },
     "Raja Janak": {
       "type": "character",
@@ -194,7 +194,7 @@
     "Dhania": {
       "type": "character",
       "description": "Hori's wife, practical and strong-willed, managing the household and supporting her family through hardship.",
-      "image": "/data/images/characters/godan/dhania.png"
+      "image": "/data/images/characters/godan/dhania.webp"
     },
     "Govind": {
       "type": "character",
@@ -447,7 +447,7 @@
     "Datadin": {
       "type": "character",
       "description": "A village Brahmin and influential figure, often mediating disputes and involved in village affairs, also a moneylender owed money by Hori.",
-      "image": "/data/images/characters/godan/datadin.png"
+      "image": "/data/images/characters/godan/datadin.webp"
     },
     "Panditain": {
       "type": "character",
@@ -864,7 +864,7 @@
     "Jhuniya": {
       "type": "character",
       "description": "Bhola's daughter who becomes romantically involved with Gobar; she is often mistreated by her family and faces social scandal.",
-      "image": "/data/images/characters/godan/jhuniya.png"
+      "image": "/data/images/characters/godan/jhuniya.webp"
     },
     "Bhagga": {
       "type": "character",

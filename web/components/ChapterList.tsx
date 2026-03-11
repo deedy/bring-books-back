@@ -84,14 +84,22 @@ export default function ChapterList({ chapters, bookId, accentColor }: ChapterLi
     return (
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {groups.map((group) => {
-          let isFirstVisible = true;
-          const groupCards = group.chapters.map((ch, i) => {
+          const visibleCards: React.ReactNode[] = [];
+          group.chapters.forEach((ch, i) => {
             const gi = group.globalIndices[i];
             const visible = expanded || (range ? gi >= range.start && gi < range.end : gi < 4);
-            if (!visible) return null;
-            const showPartLabel = isFirstVisible;
-            isFirstVisible = false;
-            return (
+            if (!visible) return;
+            if (expanded && visibleCards.length === 0) {
+              visibleCards.push(
+                <h3
+                  key={`part-${group.part}`}
+                  className="col-span-1 sm:col-span-2 text-sm font-semibold text-white/40 uppercase tracking-wider mt-3 first:mt-0"
+                >
+                  {group.partName}
+                </h3>
+              );
+            }
+            visibleCards.push(
               <ChapterCard
                 key={ch.id}
                 chapter={ch}
@@ -100,14 +108,13 @@ export default function ChapterList({ chapters, bookId, accentColor }: ChapterLi
                 isCurrent={gi === currentIdx}
                 accentColor={accentColor}
                 languageParam={languageParam}
-                partLabel={showPartLabel ? `Part ${group.part} — ${group.partName}` : ""}
               />
             );
           });
 
-          if (!expanded && groupCards.every((c) => c === null)) return null;
+          if (visibleCards.length === 0) return null;
 
-          return groupCards;
+          return visibleCards;
         })}
         {!expanded && chapters.length > (range ? range.end - range.start : 4) && (
           <button
@@ -165,7 +172,6 @@ function ChapterCard({
   isCurrent,
   accentColor,
   languageParam,
-  partLabel,
 }: {
   chapter: ChapterSummary;
   index: number;
@@ -173,18 +179,10 @@ function ChapterCard({
   isCurrent: boolean;
   accentColor: string;
   languageParam?: string;
-  partLabel?: string;
 }) {
   const base = `/read/${bookId}/${chapterPath(chapter, index)}`;
   const href = languageParam ? `${base}?language=${languageParam}` : base;
-  const hasPartSlot = partLabel != null;
   return (
-    <div className="flex flex-col">
-      {hasPartSlot && (
-        <h3 className="text-sm font-semibold text-white/40 uppercase tracking-wider mb-2 min-h-[1.25rem]">
-          {partLabel || "\u00A0"}
-        </h3>
-      )}
     <Link
       href={href}
       className={`flex flex-col gap-3 p-3 rounded-lg border transition-colors group ${
@@ -229,6 +227,5 @@ function ChapterCard({
         )}
       </div>
     </Link>
-    </div>
   );
 }

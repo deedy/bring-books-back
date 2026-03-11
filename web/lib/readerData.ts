@@ -27,6 +27,7 @@ function mergeOriginalChapter(base: Chapter, original: OriginalChapter | undefin
   if (!original) return base;
   return {
     ...base,
+    ...(original.title ? { title: original.title, slugTitle: base.title } : {}),
     paragraphs: original.paragraphs,
   };
 }

@@ -11,7 +11,7 @@
     "Pradhan": {
       "type": "character",
       "description": "Refers to the head of the village or a prominent family; in this context, it is Shama Pradhan.",
-      "image": "/data/images/characters/matira-manisha/pradhan.png"
+      "image": "/data/images/characters/matira-manisha/pradhan.webp"
     },
     "Sharaghaboda": {
       "type": "character",
@@ -24,12 +24,12 @@
     "Baraju": {
       "type": "character",
       "description": "One of the old woman's sons, referred to as the elder son; called 'Shashukhia' by his mother.",
-      "image": "/data/images/characters/matira-manisha/baraju.png"
+      "image": "/data/images/characters/matira-manisha/baraju.webp"
     },
     "Chakada": {
       "type": "character",
       "description": "The younger son of the old woman; called 'Chagalpa' by his mother.",
-      "image": "/data/images/characters/matira-manisha/chakada.png"
+      "image": "/data/images/characters/matira-manisha/chakada.webp"
     },
     "Adhe": {
       "type": "character",
@@ -226,7 +226,7 @@
     "Har Mishra": {
       "type": "character",
       "description": "A wealthy and cunning villager, known for amassing land and property through questionable means; he is also the president of the panchayat.",
-      "image": "/data/images/characters/matira-manisha/har-mishra.png"
+      "image": "/data/images/characters/matira-manisha/har-mishra.webp"
     },
     "Padhaan": {
       "type": "character",
@@ -423,7 +423,7 @@
     "Chhakada": {
       "type": "character",
       "description": "A man involved in household chores and family disputes, possibly a younger brother or son.",
-      "image": "/data/images/characters/matira-manisha/chhakada.png"
+      "image": "/data/images/characters/matira-manisha/chhakada.webp"
     },
     "Pakaila": {
       "type": "character",
@@ -464,7 +464,7 @@
     "Nebamani": {
       "type": "character",
       "description": "A woman who commands her husband to attend to guests during festivities.",
-      "image": "/data/images/characters/matira-manisha/nebamani.png"
+      "image": "/data/images/characters/matira-manisha/nebamani.webp"
     },
     "Nandi Pandi’s wife": {
       "type": "character",

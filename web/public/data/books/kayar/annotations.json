@@ -59,7 +59,7 @@
     "Kochupillai": {
       "type": "character",
       "description": "The Classifier, a land surveyor, described as handsome and married to Kunjulakshmi.",
-      "image": "/data/images/characters/kayar/kochupillai.png"
+      "image": "/data/images/characters/kayar/kochupillai.webp"
     },
     "Kunjulakshmi": {
       "type": "character",
@@ -1492,12 +1492,12 @@
     "Manikandan": {
       "type": "character",
       "description": "Son of Chennadan and Kunjumalu Amma, a bright student and budding poet.",
-      "image": "/data/images/characters/kayar/manikandan.png"
+      "image": "/data/images/characters/kayar/manikandan.webp"
     },
     "Viswanathan": {
       "type": "character",
       "description": "Manikandan’s close friend, son of a school headmistress, and fellow student.",
-      "image": "/data/images/characters/kayar/viswanathan.png"
+      "image": "/data/images/characters/kayar/viswanathan.webp"
     },
     "Sarada": {
       "type": "character",
@@ -1506,7 +1506,7 @@
     "Surendran": {
       "type": "character",
       "description": "A friend of Manikandan, involved in labor organizing and trade union activities among Pulayars and Parayars.",
-      "image": "/data/images/characters/kayar/surendran.png"
+      "image": "/data/images/characters/kayar/surendran.webp"
     },
     "Ponnamma": {
       "type": "character",
@@ -1809,7 +1809,7 @@
     "Grigory": {
       "type": "character",
       "description": "A farmer and activist working for debt relief, involved in village politics.",
-      "image": "/data/images/characters/kayar/grigory.png"
+      "image": "/data/images/characters/kayar/grigory.webp"
     },
     "Diwanji": {
       "type": "character",
@@ -1882,7 +1882,7 @@
     "Gauriyamma": {
       "type": "character",
       "description": "A woman arrested during the Quit India movement.",
-      "image": "/data/images/characters/kayar/gauriyamma.png"
+      "image": "/data/images/characters/kayar/gauriyamma.webp"
     },
     "Thamas": {
       "type": "character",

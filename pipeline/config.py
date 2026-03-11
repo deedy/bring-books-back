@@ -10,6 +10,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 WEB_DATA_DIR = PROJECT_ROOT / "web" / "public" / "data"
+SERVER_DATA_DIR = PROJECT_ROOT / "web" / "server-data"
 
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
@@ -128,6 +129,19 @@ class BookConfig:
     @property
     def web_cover_path(self) -> Path:
         return WEB_DATA_DIR / "images" / "covers" / f"{self.id}.png"
+
+    # Server-data paths (for Next.js server-side reads)
+    @property
+    def server_book_dir(self) -> Path:
+        return SERVER_DATA_DIR / "books" / self.id
+
+    @property
+    def server_chapters_json(self) -> Path:
+        return self.server_book_dir / "chapters.json"
+
+    @property
+    def server_original_chapters_json(self) -> Path:
+        return self.server_book_dir / "chapters_original.json"
 
 
 # ══════════════════════════════════════════════════════════════════════════
@@ -1891,6 +1905,75 @@ _register(BookConfig(
         "The textures of village Bengal — earthy, verdant, alive with nature. "
         "NO people, NO figures. Pure landscape/setting. "
         "Poetic, contemplative, nostalgic. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+))
+
+# ── Crime and Punishment ─────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="crime-and-punishment",
+    title="Crime and Punishment",
+    transliterated_title="Crime and Punishment",
+    original_title="Преступление и наказание",
+    author_id="fyodor-dostoevsky",
+    author_name="Fyodor Dostoevsky",
+    author_years="1821–1881",
+    original_language="Russian",
+    original_year=1866,
+    genre=["Psychological Fiction", "Novel"],
+    accent_color="#4A3728",
+    style_context=(
+        "A psychological novel set in 1860s St. Petersburg, Russia. Follows impoverished ex-student "
+        "Raskolnikov who commits murder and grapples with guilt, morality, and redemption. "
+        "Constance Garnett English translation. Dense psychological prose, Russian names and patronymics."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate an English translation of "Crime and Punishment" (1866) '
+        "by Fyodor Dostoevsky, translated by Constance Garnett.\n\n"
+        "For the given chapter text, extract three categories of terms that a modern English reader might want explained:\n\n"
+        '1. **Characters** — Recurring named people. Give a 1-2 sentence description of who they are and their role. '
+        'Note: Russian characters have multiple name forms (full name, patronymic, diminutive). Group these together.\n'
+        '2. **Proper nouns** — Place names (streets, bridges, cities), institutions, Russian cultural terms, legal terms, etc. Brief explanation.\n'
+        '3. **Vocabulary** — Russian/archaic/culturally-specific words or phrases (e.g., "samovar", "kopeck", "verst") that might be unfamiliar. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Russian names, places, currency, social customs, and 19th-century terms.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of 19th-century Russian realist painting — "
+        "dark, moody atmosphere, muted earth tones, dramatic chiaroscuro lighting. "
+        "Settings: cramped St. Petersburg rooms, foggy streets, dim taverns, bridges over canals. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Edge-to-edge, no border, no frame, no margin.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Raskolnikov (Rodion Romanovich): gaunt young Russian man, pale, dark eyes, shabby student clothes, intense brooding expression\n"
+        "- Sonia (Sofya Semyonovna Marmeladov): young woman, thin, fair hair, gentle suffering face, modest simple dress\n"
+        "- Porfiry Petrovitch: middle-aged Russian detective, round face, shrewd intelligent eyes, slightly overweight\n"
+        "- Svidrigailov (Arkady Ivanovich): well-dressed older man, handsome but unsettling, cold blue eyes\n"
+        "- Razumihin (Dmitri Prokofych): tall strong young man, earnest open face, student clothes, warm-hearted\n"
+        "- Dounia (Avdotya Romanovna): Raskolnikov's sister, beautiful dark-haired young woman, proud bearing\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of 19th-century Russian realist painting — "
+        "dark moody atmosphere, muted earth tones, dramatic lighting. "
+        "Realistic character portrait set in 1860s St. Petersburg. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in 19th-century Russian realist painting style — "
+        "a moody view of 1860s St. Petersburg at dusk. "
+        "Narrow cobblestone streets, tall yellow-grey apartment buildings with peeling facades, "
+        "a canal with an arched stone bridge, gaslight lamps casting dim pools of light, "
+        "fog rolling in from the Neva river, grey overcast sky with hints of sunset. "
+        "Oppressive urban atmosphere, cramped and claustrophobic. "
+        "NO people, NO figures. Pure atmospheric cityscape. "
+        "Dark, brooding, intense. 16:9 cinematic landscape ratio. "
         "NO text, NO border, NO frame."
     ),
 ))

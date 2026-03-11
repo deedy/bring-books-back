@@ -3,12 +3,12 @@
     "Mukunda Lal Ghosh": {
       "type": "character",
       "description": "The author and narrator of the autobiography, a spiritual seeker who becomes a world-renowned yogi and founder of the Self-Realization Fellowship.",
-      "image": "/data/images/characters/autobiography-of-a-yogi/mukunda-lal-ghosh.png"
+      "image": "/data/images/characters/autobiography-of-a-yogi/mukunda-lal-ghosh.webp"
     },
     "Bhagabati Charan Ghosh": {
       "type": "character",
       "description": "Yogananda's father, a disciplined railway executive and devout disciple of Lahiri Mahasaya who became both father and mother to his children.",
-      "image": "/data/images/characters/autobiography-of-a-yogi/bhagabati-charan-ghosh.png"
+      "image": "/data/images/characters/autobiography-of-a-yogi/bhagabati-charan-ghosh.webp"
     },
     "Mother": {
       "type": "character",
@@ -17,7 +17,7 @@
     "Lahiri Mahasaya": {
       "type": "character",
       "description": "A revered spiritual master from Benares and the central figure in the modern revival of Kriya Yoga, known for his miraculous powers and saintly life.",
-      "image": "/data/images/characters/autobiography-of-a-yogi/lahiri-mahasaya.png"
+      "image": "/data/images/characters/autobiography-of-a-yogi/lahiri-mahasaya.webp"
     },
     "Abinash Babu": {
       "type": "character",
@@ -214,7 +214,7 @@
     "Sri Yukteswar": {
       "type": "character",
       "description": "The revered guru of Paramahansa Yogananda and a disciple of Lahiri Mahasaya, known for his wisdom, discipline, and mastery of Kriya Yoga.",
-      "image": "/data/images/characters/autobiography-of-a-yogi/sri-yukteswar.png"
+      "image": "/data/images/characters/autobiography-of-a-yogi/sri-yukteswar.webp"
     },
     "Ganges": {
       "type": "proper_noun",
@@ -259,7 +259,7 @@
     "Krishna": {
       "type": "character",
       "description": "The Hindu deity and divine teacher whose words in the Bhagavad Gita serve as a primary spiritual authority.",
-      "image": "/data/images/characters/autobiography-of-a-yogi/krishna.png"
+      "image": "/data/images/characters/autobiography-of-a-yogi/krishna.webp"
     },
     "Gurpar Road": {
       "type": "proper_noun",
@@ -712,7 +712,7 @@
     "Babaji": {
       "type": "character",
       "description": "A legendary immortal yogi residing in the Himalayas, responsible for reintroducing Kriya Yoga to the world through Lahiri Mahasaya.",
-      "image": "/data/images/characters/autobiography-of-a-yogi/babaji.png"
+      "image": "/data/images/characters/autobiography-of-a-yogi/babaji.webp"
     },
     "Ananda Mohan Lahiri": {
       "type": "character",

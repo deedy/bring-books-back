@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Chapter, Annotation } from "@/lib/types";
+import { Chapter, Annotation, resolveGlossary } from "@/lib/types";
 import type { ResumeTarget } from "@/lib/types";
 import { readingTimeExact, pageCount } from "@/lib/utils";
 import { SCRIPT_CONFIG } from "@/lib/scripts";
@@ -190,6 +190,7 @@ export default function ChapterContent({
   const isIndicScript = !!languageScript && languageScript !== "Latin";
   const config = languageScript ? SCRIPT_CONFIG[languageScript] : undefined;
   const fontClass = config?.fontClass ?? "";
+  const resolvedGlossary = glossary ? resolveGlossary(glossary) : undefined;
   const isPreviewChapter = chapter.accessMode === "preview";
   const isLockedChapter = chapter.accessMode === "locked";
   return (
@@ -334,8 +335,8 @@ export default function ChapterContent({
                     : undefined),
                 }}
               >
-                {chapterTerms && glossary
-                  ? renderAnnotatedText(p, darkMode, chapterTerms, glossary)
+                {chapterTerms && resolvedGlossary
+                  ? renderAnnotatedText(p, darkMode, chapterTerms, resolvedGlossary)
                   : renderWithQuotes(p, darkMode)}
               </p>
             </div>

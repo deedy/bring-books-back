@@ -3,22 +3,22 @@
     "Dhritarashtra": {
       "type": "character",
       "description": "The blind old king of the Kauravas, father of Duryodhana, who asks Sanjaya to narrate the events of the Kurukshetra war.",
-      "image": "/data/images/characters/bhagavad-gita/dhritarashtra.png"
+      "image": "/data/images/characters/bhagavad-gita/dhritarashtra.webp"
     },
     "Sanjaya": {
       "type": "character",
       "description": "Dhritarashtra's minister and charioteer, granted divine vision by Vyasa to narrate the events of the battlefield.",
-      "image": "/data/images/characters/bhagavad-gita/sanjaya.png"
+      "image": "/data/images/characters/bhagavad-gita/sanjaya.webp"
     },
     "Arjuna": {
       "type": "character",
       "description": "Arjuna is a principal Pandava prince and the main hero of the Bhagavad Geeta, addressed by many epithets denoting his lineage, valor, and relationship to his mother Kunti.",
-      "image": "/data/images/characters/bhagavad-gita/arjuna.png"
+      "image": "/data/images/characters/bhagavad-gita/arjuna.webp"
     },
     "Krishna": {
       "type": "character",
       "description": "The Supreme Being and charioteer of Arjuna, also known by his clan name Vrishni and as the slayer of the demon Keshi.",
-      "image": "/data/images/characters/bhagavad-gita/krishna.png"
+      "image": "/data/images/characters/bhagavad-gita/krishna.webp"
     },
     "Duryodhana": {
       "type": "character",
@@ -31,7 +31,7 @@
     "Bhishma": {
       "type": "character",
       "description": "Bhishma is the grandsire of both Pandavas and Kauravas, a revered elder and commander of the Kaurava forces in the Mahabharata.",
-      "image": "/data/images/characters/bhagavad-gita/bhishma.png"
+      "image": "/data/images/characters/bhagavad-gita/bhishma.webp"
     },
     "Bhima": {
       "type": "character",
@@ -1488,7 +1488,7 @@
     "Brahma": {
       "type": "character",
       "description": "Brahma is the Creator god in Hinduism, depicted as the Lord of Creation and source of all action and creation.",
-      "image": "/data/images/characters/bhagavad-gita/brahma.png"
+      "image": "/data/images/characters/bhagavad-gita/brahma.webp"
     },
     "Shiva": {
       "type": "character",

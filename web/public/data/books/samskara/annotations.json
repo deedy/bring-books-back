@@ -3,7 +3,7 @@
     "Praneshacharya": {
       "type": "character",
       "description": "A respected Brahmin scholar and religious leader in the agrahara, known for his ascetic lifestyle and devotion to ritual.",
-      "image": "/data/images/characters/samskara/praneshacharya.png"
+      "image": "/data/images/characters/samskara/praneshacharya.webp"
     },
     "agrahara": {
       "type": "proper_noun",
@@ -28,22 +28,22 @@
     "Chandri": {
       "type": "character",
       "description": "Narayanappa’s concubine, a woman of lower caste, whose presence and actions cause tension in the community.",
-      "image": "/data/images/characters/samskara/chandri.png"
+      "image": "/data/images/characters/samskara/chandri.webp"
     },
     "Narayanappa": {
       "type": "character",
       "description": "A Brahmin who defied religious norms, lived with Chandri, and whose death triggers the community's crisis.",
-      "image": "/data/images/characters/samskara/narayanappa.png"
+      "image": "/data/images/characters/samskara/narayanappa.webp"
     },
     "Garudacharya": {
       "type": "character",
       "description": "A prominent Brahmin of the agrahara and father of Shyama, known for his pride, involvement in community matters, and frequent complaints regarding Narayanappa's sacrilege.",
-      "image": "/data/images/characters/samskara/garudacharya.png"
+      "image": "/data/images/characters/samskara/garudacharya.webp"
     },
     "Dasacharya": {
       "type": "character",
       "description": "A poor Brahmin dependent on charity, eager for ritual merit and food.",
-      "image": "/data/images/characters/samskara/dasacharya.png"
+      "image": "/data/images/characters/samskara/dasacharya.webp"
     },
     "Padmanabhacharya": {
       "type": "character",
@@ -204,7 +204,7 @@
     "Lakshmanacharya": {
       "type": "character",
       "description": "A miserly Brahmin of the agrahara, husband of Anasuya and father-in-law to Shripati, who is often involved in debates regarding ritual and kinship.",
-      "image": "/data/images/characters/samskara/lakshmanacharya.png"
+      "image": "/data/images/characters/samskara/lakshmanacharya.webp"
     },
     "Bhimacharya": {
       "type": "character",

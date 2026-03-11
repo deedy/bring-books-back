@@ -245,7 +245,10 @@ def generate_single_image(book_id, slug, prompt_text, retries=3, style_prefix=No
 
                     web_book_dir = os.path.join(WEB_DIR, book_id)
                     os.makedirs(web_book_dir, exist_ok=True)
-                    shutil.copy2(output_path, os.path.join(web_book_dir, f"{slug}.png"))
+                    png_dst = os.path.join(web_book_dir, f"{slug}.png")
+                    shutil.copy2(output_path, png_dst)
+                    webp_dst = os.path.join(web_book_dir, f"{slug}.webp")
+                    Image.open(png_dst).save(webp_dst, "WEBP", quality=85)
                     return True
 
             if attempt < retries - 1:

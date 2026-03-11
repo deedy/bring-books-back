@@ -1,0 +1,21 @@
+{
+  "id": "crime-and-punishment",
+  "title": "Crime and Punishment",
+  "transliteratedTitle": "Crime and Punishment",
+  "subtitle": "A Descent Into Guilt and Redemption",
+  "authorId": "fyodor-dostoevsky",
+  "coverImage": "/data/images/covers/crime-and-punishment.webp",
+  "accentColor": "#4A3728",
+  "genre": [
+    "Psychological Fiction",
+    "Novel"
+  ],
+  "originalLanguage": "Russian",
+  "originalTitle": "Преступление и наказание",
+  "originalYear": 1866,
+  "totalChapters": 40,
+  "wordCount": 202700,
+  "summary": "In the sweltering summer heat of 1860s St. Petersburg, a desperate young ex-student named Raskolnikov commits a brutal murder to prove a terrifying theory — that extraordinary men stand above the moral law. What follows is one of literature’s most harrowing descents into guilt, as his brilliant mind turns against itself, spinning between defiance and confession while the gentle detective Porfiry circles ever closer. Threaded through the fog of madness are lives as vivid as his own: the drunkard Marmeladov and his proud, dying wife; the fierce devotion of Raskolnikov’s sister Dounia; and Sonia, whose quiet, unshakable faith offers the only light in his darkness. Dostoevsky’s masterpiece is less a crime novel than a fever dream about what it costs to believe you are above everyone else — and what it takes to find your way back to being human.",
+  "hasOriginalText": true,
+  "originalScript": "Cyrillic"
+}

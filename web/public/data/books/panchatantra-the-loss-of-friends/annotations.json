@@ -3,22 +3,22 @@
     "Increase": {
       "type": "character",
       "description": "A wealthy merchant from Maidens’ Delight who sets out on trading journeys with camels and bulls.",
-      "image": "/data/images/characters/panchatantra-the-loss-of-friends/increase.png"
+      "image": "/data/images/characters/panchatantra-the-loss-of-friends/increase.webp"
     },
     "Lively": {
       "type": "character",
       "description": "One of Increase's bulls, described as white, high-humped, and considered a good omen; he becomes separated from the group and thrives by the Jumna.",
-      "image": "/data/images/characters/panchatantra-the-loss-of-friends/lively.png"
+      "image": "/data/images/characters/panchatantra-the-loss-of-friends/lively.webp"
     },
     "Rusty": {
       "type": "character",
       "description": "The prideful and powerful lion king of the forest who rules over the animals, suffers from wounds or hunger, and is served by various counselors like jackals and leopards.",
-      "image": "/data/images/characters/panchatantra-the-loss-of-friends/rusty.png"
+      "image": "/data/images/characters/panchatantra-the-loss-of-friends/rusty.webp"
     },
     "Victor": {
       "type": "character",
       "description": "Cunning jackals and sons of counselors who serve the lion king Rusty, often conspiring together to manipulate forest politics.",
-      "image": "/data/images/characters/panchatantra-the-loss-of-friends/victor.png"
+      "image": "/data/images/characters/panchatantra-the-loss-of-friends/victor.webp"
     },
     "The Loss of Friends": {
       "type": "proper_noun",
@@ -547,7 +547,7 @@
     "Vishnu": {
       "type": "character",
       "description": "A principal Hindu deity, referenced in proverbs and stories; 'Vishnu’s heaven' refers to his celestial abode, Vaikuntha.",
-      "image": "/data/images/characters/panchatantra-the-loss-of-friends/vishnu.png"
+      "image": "/data/images/characters/panchatantra-the-loss-of-friends/vishnu.webp"
     },
     "Brahma": {
       "type": "character",
@@ -1388,7 +1388,7 @@
     "Fine-Chariot": {
       "type": "character",
       "description": "The monarch of the city Unassailable or the southern regions, known for his curiosity and whose court is involved in various forest affairs.",
-      "image": "/data/images/characters/panchatantra-the-loss-of-friends/fine-chariot.png"
+      "image": "/data/images/characters/panchatantra-the-loss-of-friends/fine-chariot.webp"
     },
     "Strong": {
       "type": "character",

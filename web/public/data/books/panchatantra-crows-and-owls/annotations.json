@@ -7,12 +7,12 @@
     "Cloudy": {
       "type": "character",
       "description": "Cloudy, the crow-king, leads the crows and seeks counsel on how to deal with the owl enemy.",
-      "image": "/data/images/characters/panchatantra-crows-and-owls/cloudy.png"
+      "image": "/data/images/characters/panchatantra-crows-and-owls/cloudy.webp"
     },
     "Foe-Crusher": {
       "type": "character",
       "description": "Foe-Crusher, the owl-king, is the leader of the owls, rival of Cloudy, and wages war against the crows.",
-      "image": "/data/images/characters/panchatantra-crows-and-owls/foe-crusher.png"
+      "image": "/data/images/characters/panchatantra-crows-and-owls/foe-crusher.webp"
     },
     "Live-Again": {
       "type": "character",
@@ -37,7 +37,7 @@
     "Live-Strong": {
       "type": "character",
       "description": "An ancient and farsighted counselor of Cloudy's race, advocates duplicity and the use of spies.",
-      "image": "/data/images/characters/panchatantra-crows-and-owls/live-strong.png"
+      "image": "/data/images/characters/panchatantra-crows-and-owls/live-strong.webp"
     },
     "Narada": {
       "type": "character",
@@ -498,7 +498,7 @@
     "Red-Eye": {
       "type": "character",
       "description": "One of Foe-Crusher's five counselors, known for giving advice in critical situations.",
-      "image": "/data/images/characters/panchatantra-crows-and-owls/red-eye.png"
+      "image": "/data/images/characters/panchatantra-crows-and-owls/red-eye.webp"
     },
     "Fierce-Eye": {
       "type": "character",
@@ -567,7 +567,7 @@
     "snake": {
       "type": "character",
       "description": "Snake refers to various serpents in the stories, including the terrifying serpent believed to be the guardian deity of the field, the snake living in an ant-hill, and the snake residing in the prince's belly.",
-      "image": "/data/images/characters/panchatantra-crows-and-owls/snake.png"
+      "image": "/data/images/characters/panchatantra-crows-and-owls/snake.webp"
     },
     "Brahman’s boy": {
       "type": "character",
@@ -912,7 +912,7 @@
     "Arjun": {
       "type": "character",
       "description": "One of the Pandava brothers and a great archer in the Mahabharata, famed for his skill and virtue.",
-      "image": "/data/images/characters/panchatantra-crows-and-owls/arjun.png"
+      "image": "/data/images/characters/panchatantra-crows-and-owls/arjun.webp"
     },
     "Kunti": {
       "type": "character",

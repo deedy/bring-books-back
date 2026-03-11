@@ -1,6 +1,6 @@
 "use client";
 
-import { Annotation } from "@/lib/types";
+import { Annotation, resolveGlossary } from "@/lib/types";
 import AnnotatedTerm from "@/components/reader/AnnotatedTerm";
 
 interface AnnotatedSummaryProps {
@@ -8,7 +8,8 @@ interface AnnotatedSummaryProps {
   glossary: Record<string, Annotation>;
 }
 
-export default function AnnotatedSummary({ summary, glossary }: AnnotatedSummaryProps) {
+export default function AnnotatedSummary({ summary, glossary: rawGlossary }: AnnotatedSummaryProps) {
+  const glossary = resolveGlossary(rawGlossary);
   const terms = Object.keys(glossary);
   if (terms.length === 0) {
     return <p className="text-white/60 leading-relaxed">{summary}</p>;

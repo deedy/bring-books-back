@@ -3,17 +3,17 @@
     "Hemchandra": {
       "type": "character",
       "description": "A young prince and warrior, son of a deposed king of Magadha, determined to reclaim his father's kingdom from the Yavana invaders.",
-      "image": "/data/images/characters/mrinalini/hemchandra.png"
+      "image": "/data/images/characters/mrinalini/hemchandra.webp"
     },
     "Madhavacharya": {
       "type": "character",
       "description": "A revered Brahmin and spiritual teacher (Acharya), mentor to Hemchandra, who guides him in both religious and political matters.",
-      "image": "/data/images/characters/mrinalini/madhavacharya.png"
+      "image": "/data/images/characters/mrinalini/madhavacharya.webp"
     },
     "Mrinalini": {
       "type": "character",
       "description": "A woman deeply loved by Hemchandra, whose whereabouts are kept secret by Madhavacharya to prevent her from distracting Hemchandra from his duties.",
-      "image": "/data/images/characters/mrinalini/mrinalini.png"
+      "image": "/data/images/characters/mrinalini/mrinalini.webp"
     },
     "Digvijay": {
       "type": "character",
@@ -118,7 +118,7 @@
     "Girijaya": {
       "type": "character",
       "description": "A sixteen-year-old beggar girl with a melodious voice who sings for alms and converses with Mrinalini.",
-      "image": "/data/images/characters/mrinalini/girijaya.png"
+      "image": "/data/images/characters/mrinalini/girijaya.webp"
     },
     "Vrindavan": {
       "type": "proper_noun",
@@ -235,7 +235,7 @@
     "Pashupati": {
       "type": "character",
       "description": "The chief minister of religion and religious authority in the court, often engaged in discussions about state and spiritual matters.",
-      "image": "/data/images/characters/mrinalini/pashupati.png"
+      "image": "/data/images/characters/mrinalini/pashupati.webp"
     },
     "Damodar": {
       "type": "character",
@@ -328,7 +328,7 @@
     "Manoroma": {
       "type": "character",
       "description": "A young woman, described as beautiful and gentle, who is the granddaughter of Janardana and helps communicate with him.",
-      "image": "/data/images/characters/mrinalini/manoroma.png"
+      "image": "/data/images/characters/mrinalini/manoroma.webp"
     },
     "Ganges": {
       "type": "proper_noun",

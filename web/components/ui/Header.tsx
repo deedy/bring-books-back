@@ -55,10 +55,19 @@ export default function Header() {
             </Link>
             </>
           ) : (
-            <div className="flex items-center gap-2 bg-white/[0.06] rounded-full pl-1 pr-3 py-1">
+            <div
+              className="flex items-center gap-2 bg-white/[0.06] hover:bg-white/[0.1] rounded-full pl-1 pr-3 py-1 cursor-pointer transition-colors"
+              onClick={(e) => {
+                // Click the Clerk UserButton avatar if the click wasn't directly on it
+                const btn = e.currentTarget.querySelector<HTMLButtonElement>("button");
+                if (btn && e.target !== btn && !btn.contains(e.target as Node)) {
+                  btn.click();
+                }
+              }}
+            >
               <UserButton />
               {user?.firstName && (
-                <span className="text-xs font-medium text-white/70">
+                <span className="text-xs font-medium text-white/70 select-none">
                   {user.firstName}
                 </span>
               )}

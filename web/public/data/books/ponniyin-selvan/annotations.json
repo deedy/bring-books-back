@@ -3,7 +3,7 @@
     "Vandiyathevan": {
       "type": "character",
       "description": "A young warrior of the Vaanar clan, Vandiyathevan is the protagonist of the story, entrusted with a secret mission by Prince Aditya Karikalan and known for his wit and bravery.",
-      "image": "/data/images/characters/ponniyin-selvan/vandiyathevan.png"
+      "image": "/data/images/characters/ponniyin-selvan/vandiyathevan.webp"
     },
     "Pazhuvettaraiyar": {
       "type": "character",
@@ -12,7 +12,7 @@
     "Aditya Karikalan": {
       "type": "character",
       "description": "The crown prince of the Chola Empire and Commander-in-Chief of the Northern Armies, Aditya Karikalan is Vandiyathevan's friend and the one who entrusts him with a secret mission.",
-      "image": "/data/images/characters/ponniyin-selvan/aditya-karikalan.png"
+      "image": "/data/images/characters/ponniyin-selvan/aditya-karikalan.webp"
     },
     "Thirumunaippadi": {
       "type": "proper_noun",
@@ -217,7 +217,7 @@
     "Kundavai": {
       "type": "character",
       "description": "The intelligent and influential princess of the Chola dynasty, daughter of Sundara Chola.",
-      "image": "/data/images/characters/ponniyin-selvan/kundavai.png"
+      "image": "/data/images/characters/ponniyin-selvan/kundavai.webp"
     },
     "Aditya": {
       "type": "character",
@@ -1478,7 +1478,7 @@
     "Nandini": {
       "type": "character",
       "description": "The beautiful and enigmatic young wife of Pazhuvettaraiyar, central to many of the novel's intrigues.",
-      "image": "/data/images/characters/ponniyin-selvan/nandini.png"
+      "image": "/data/images/characters/ponniyin-selvan/nandini.webp"
     },
     "Veerapandiyan": {
       "type": "character",
@@ -2399,7 +2399,7 @@
     "Poonguzhali": {
       "type": "character",
       "description": "Sendhan Amudhan's cousin, renowned for her beauty and enchanting singing voice; she plays a significant role later in the story.",
-      "image": "/data/images/characters/ponniyin-selvan/poonguzhali.png"
+      "image": "/data/images/characters/ponniyin-selvan/poonguzhali.webp"
     },
     "Sundaramurthi Swamigal": {
       "type": "proper_noun",
@@ -4432,7 +4432,7 @@
     "Ponniyin Selvan": {
       "type": "character",
       "description": "The affectionate title for Arulmozhi Varman, the younger son of Emperor Sundara Chola, renowned for his valor and beloved by the people. The letter Vandiyathevan carries is meant for him.",
-      "image": "/data/images/characters/ponniyin-selvan/ponniyin-selvan.png"
+      "image": "/data/images/characters/ponniyin-selvan/ponniyin-selvan.webp"
     },
     "Thiyagavidanga": {
       "type": "proper_noun",

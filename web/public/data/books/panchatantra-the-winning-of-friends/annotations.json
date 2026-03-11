@@ -7,7 +7,7 @@
     "Swift": {
       "type": "character",
       "description": "A wise and cautious crow who lives in the banyan tree and is a friend to the other animal characters.",
-      "image": "/data/images/characters/panchatantra-the-winning-of-friends/swift.png"
+      "image": "/data/images/characters/panchatantra-the-winning-of-friends/swift.webp"
     },
     "Gay-Neck": {
       "type": "character",
@@ -72,12 +72,12 @@
     "Gold": {
       "type": "character",
       "description": "A mouse skilled in social ethics, who helps free the doves and becomes friends with Swift.",
-      "image": "/data/images/characters/panchatantra-the-winning-of-friends/gold.png"
+      "image": "/data/images/characters/panchatantra-the-winning-of-friends/gold.webp"
     },
     "Slow": {
       "type": "character",
       "description": "A turtle living by a lake in the jungle, an old friend of Swift the crow.",
-      "image": "/data/images/characters/panchatantra-the-winning-of-friends/slow.png"
+      "image": "/data/images/characters/panchatantra-the-winning-of-friends/slow.webp"
     },
     "Indra": {
       "type": "proper_noun",
@@ -218,7 +218,7 @@
     "Brahman": {
       "type": "character",
       "description": "A pious man and his skeptical wife who discuss the merits of charitable giving and the struggles of their poverty.",
-      "image": "/data/images/characters/panchatantra-the-winning-of-friends/brahman.png"
+      "image": "/data/images/characters/panchatantra-the-winning-of-friends/brahman.webp"
     },
     "Scriptures": {
       "type": "proper_noun",
@@ -243,7 +243,7 @@
     "hillman": {
       "type": "character",
       "description": "A hunter who attempts to kill a boar and is killed in turn; his body, along with the boar's, is later found by a starving jackal and his wife who die due to their own greed.",
-      "image": "/data/images/characters/panchatantra-the-winning-of-friends/hillman.png"
+      "image": "/data/images/characters/panchatantra-the-winning-of-friends/hillman.webp"
     },
     "boar": {
       "type": "character",
@@ -520,7 +520,7 @@
     "Spot": {
       "type": "character",
       "description": "A deer who joins the group of friends after fleeing from hunters and becomes a central character in the story.",
-      "image": "/data/images/characters/panchatantra-the-winning-of-friends/spot.png"
+      "image": "/data/images/characters/panchatantra-the-winning-of-friends/spot.webp"
     },
     "Himalayan": {
       "type": "proper_noun",

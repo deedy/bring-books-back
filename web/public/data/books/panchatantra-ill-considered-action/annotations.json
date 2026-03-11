@@ -11,7 +11,7 @@
     "barber": {
       "type": "character",
       "description": "A barber who, after witnessing Jewel's fortune, tries to replicate his success with disastrous results.",
-      "image": "/data/images/characters/panchatantra-ill-considered-action/barber.png"
+      "image": "/data/images/characters/panchatantra-ill-considered-action/barber.webp"
     },
     "Jain monk": {
       "type": "character",
@@ -100,7 +100,7 @@
     "Godly": {
       "type": "character",
       "description": "A Brahman living in a certain town, husband to the mother and father of the baby boy, who raises a mongoose alongside his son.",
-      "image": "/data/images/characters/panchatantra-ill-considered-action/godly.png"
+      "image": "/data/images/characters/panchatantra-ill-considered-action/godly.webp"
     },
     "mungoose": {
       "type": "character",
@@ -209,12 +209,12 @@
     "wheel-bearer": {
       "type": "character",
       "description": "A character who listens to the story and argues that fate, not sense, determines survival.",
-      "image": "/data/images/characters/panchatantra-ill-considered-action/wheel-bearer.png"
+      "image": "/data/images/characters/panchatantra-ill-considered-action/wheel-bearer.webp"
     },
     "gold-finder": {
       "type": "character",
       "description": "A character who asks the wheel-bearer to explain his reasoning.",
-      "image": "/data/images/characters/panchatantra-ill-considered-action/gold-finder.png"
+      "image": "/data/images/characters/panchatantra-ill-considered-action/gold-finder.webp"
     },
     "scholarship": {
       "type": "vocabulary",
@@ -299,7 +299,7 @@
     "Slow": {
       "type": "character",
       "description": "A weaver living in a certain town whose search for wood leads to an encounter with a fairy and a wish for extra limbs.",
-      "image": "/data/images/characters/panchatantra-ill-considered-action/slow.png"
+      "image": "/data/images/characters/panchatantra-ill-considered-action/slow.webp"
     },
     "fairy": {
       "type": "character",
@@ -376,7 +376,7 @@
     "Moon": {
       "type": "character",
       "description": "A ruler in a certain city who keeps monkeys and a ram for his son's amusement.",
-      "image": "/data/images/characters/panchatantra-ill-considered-action/moon.png"
+      "image": "/data/images/characters/panchatantra-ill-considered-action/moon.webp"
     },
     "chief of the monkeys": {
       "type": "character",

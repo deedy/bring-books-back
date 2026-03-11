@@ -1,0 +1,3791 @@
+{
+  "glossary": {
+    "Raskolnikov": {
+      "type": "character",
+      "description": "The protagonist of the novel, a former student who commits a central murder and struggles with his conscience and legal consequences.",
+      "aliases": [
+        "Rodion",
+        "Rodion Raskolnikov",
+        "Rodion Romanovitch",
+        "Rodya"
+      ],
+      "image": "/data/images/characters/crime-and-punishment/rodion-romanovitch-raskolnikov.webp"
+    },
+    "Alyona Ivanovna": {
+      "type": "character",
+      "description": "The old pawnbroker with whom Raskolnikov does business; she is described as a suspicious, miserly woman and is the victim of the central murder."
+    },
+    "S. Place": {
+      "type": "proper_noun",
+      "description": "An abbreviated street or square name in St. Petersburg, typical of 19th-century Russian novels to obscure exact locations."
+    },
+    "K. bridge": {
+      "type": "proper_noun",
+      "description": "An abbreviated bridge name in St. Petersburg, following the convention of partial naming in Russian literature."
+    },
+    "Petersburg": {
+      "type": "proper_noun",
+      "description": "Short for St. Petersburg, the capital of imperial Russia at the time and the primary setting of the novel."
+    },
+    "Hay Market": {
+      "type": "proper_noun",
+      "description": "A well-known market area in St. Petersburg, associated with poverty, working-class life, and various establishments."
+    },
+    "civil service": {
+      "type": "proper_noun",
+      "description": "The government bureaucracy of imperial Russia, employing clerks and officials."
+    },
+    "ikon": {
+      "type": "proper_noun",
+      "description": "A religious image or painting, especially in the Russian Orthodox tradition, used for private devotion."
+    },
+    "garret": {
+      "type": "vocabulary",
+      "description": "A small, often cramped attic room, typically rented cheaply to poor tenants."
+    },
+    "pot-houses": {
+      "type": "vocabulary",
+      "description": "Cheap taverns or pubs where alcoholic drinks are served, often frequented by the lower classes."
+    },
+    "waggon": {
+      "type": "vocabulary",
+      "description": "A large, heavy cart used for transporting goods or people, typically drawn by horses."
+    },
+    "dray horse": {
+      "type": "vocabulary",
+      "description": "A strong horse used for pulling heavy loads, such as carts or wagons."
+    },
+    "tenement": {
+      "type": "vocabulary",
+      "description": "A building divided into small apartments or rooms, often rented by working-class or poor families."
+    },
+    "flat": {
+      "type": "vocabulary",
+      "description": "A British/Russian term for an apartment or set of rooms within a building."
+    },
+    "pledge": {
+      "type": "vocabulary",
+      "description": "An item left with a pawnbroker as security for a loan."
+    },
+    "rouble": {
+      "type": "vocabulary",
+      "description": "The basic unit of currency in Russia."
+    },
+    "copeck": {
+      "type": "vocabulary",
+      "description": "A subunit of the rouble; 100 copecks make one rouble."
+    },
+    "muslin": {
+      "type": "vocabulary",
+      "description": "A lightweight cotton fabric, often used for curtains or clothing."
+    },
+    "strong-box": {
+      "type": "vocabulary",
+      "description": "A sturdy, lockable box used for storing valuables or money."
+    },
+    "tavern": {
+      "type": "vocabulary",
+      "description": "An establishment where alcoholic drinks are served, similar to a pub or inn."
+    },
+    "concertina": {
+      "type": "vocabulary",
+      "description": "A small, accordion-like musical instrument popular in 19th-century Europe."
+    },
+    "Marmeladov": {
+      "type": "character",
+      "description": "A titular counsellor and alcoholic government clerk whose family lives in extreme poverty.",
+      "aliases": [
+        "Semyon Zaharovitch",
+        "Marmeladovs"
+      ]
+    },
+    "Katerina Ivanovna": {
+      "type": "character",
+      "description": "Marmeladov's wife, an educated woman and officer's daughter, suffering from illness and poverty.",
+      "image": "/data/images/characters/crime-and-punishment/katerina-ivanovna.webp"
+    },
+    "Darya Frantsovna": {
+      "type": "character",
+      "description": "A woman of ill repute, known to the police, who played a role in Sonia's downfall."
+    },
+    "Ivan Ivanitch Klopstock": {
+      "type": "character",
+      "description": "A civil counsellor who mistreats Sonia by not paying her for her sewing work."
+    },
+    "Amalia Fyodorovna Lippevechsel": {
+      "type": "character",
+      "description": "The Marmeladovs' landlady, a German woman who manages the crowded and chaotic lodging house, often quarrelsome and at odds with Katerina Ivanovna.",
+      "aliases": [
+        "Amalia Ivanovna",
+        "Amalia Ludwigovna",
+        "Madame Lippevechsel"
+      ]
+    },
+    "Kapernaumov": {
+      "type": "character",
+      "description": "A lame tailor with a cleft palate and his family, including his deaf wife, with whom Sonia lodges.",
+      "aliases": [
+        "Kapernaumovs",
+        "Madame de Kapernaumov"
+      ]
+    },
+    "Ivan Afanasyvitch": {
+      "type": "character",
+      "description": "A high-ranking official, referred to as 'his excellency,' who gives Marmeladov another chance in government service."
+    },
+    "Neva": {
+      "type": "proper_noun",
+      "description": "The main river running through St. Petersburg, Russia."
+    },
+    "England": {
+      "type": "proper_noun",
+      "description": "Referenced as a place where political economy and modern ideas influence social policy."
+    },
+    "Bedlam": {
+      "type": "proper_noun",
+      "description": "Originally a famous London mental asylum, here used to describe chaos and disorder."
+    },
+    "Lewes’ Physiology": {
+      "type": "proper_noun",
+      "description": "A reference to a scientific book by George Henry Lewes, an English philosopher and physiologist."
+    },
+    "Cyrus of Persia": {
+      "type": "proper_noun",
+      "description": "An ancient Persian king, mentioned as the point where Sonia's education ended."
+    },
+    "Kozel": {
+      "type": "proper_noun",
+      "description": "A cabinet-maker and owner of the house where the Marmeladovs live; the lodging house is referred to as Kozel’s house.",
+      "aliases": [
+        "Kozel’s house"
+      ]
+    },
+    "Egyptian bridge": {
+      "type": "proper_noun",
+      "description": "A well-known bridge in St. Petersburg, used here as a landmark."
+    },
+    "titular counsellor": {
+      "type": "vocabulary",
+      "description": "A low-ranking civil service title in Imperial Russia, part of the Table of Ranks."
+    },
+    "yellow passport": {
+      "type": "vocabulary",
+      "description": "A document issued to registered prostitutes in Tsarist Russia, marking their social status and legal permission for prostitution.",
+      "aliases": [
+        "yellow ticket"
+      ]
+    },
+    "drap de dames": {
+      "type": "vocabulary",
+      "description": "A type of fine woolen fabric, often used for women's shawls."
+    },
+    "chemise": {
+      "type": "vocabulary",
+      "description": "A simple, loose-fitting undergarment or dress."
+    },
+    "pelisse": {
+      "type": "vocabulary",
+      "description": "A long, often fur-lined coat or cloak, fashionable in the 19th century."
+    },
+    "pomatum": {
+      "type": "vocabulary",
+      "description": "A scented ointment or pomade used for styling hair."
+    },
+    "farthing": {
+      "type": "vocabulary",
+      "description": "A very small unit of currency, used here to indicate a trivial sum."
+    },
+    "cabinet-maker": {
+      "type": "vocabulary",
+      "description": "A skilled craftsman who makes fine furniture."
+    },
+    "tallow-candle": {
+      "type": "vocabulary",
+      "description": "A candle made from animal fat, common among the poor in the 19th century."
+    },
+    "American leather": {
+      "type": "vocabulary",
+      "description": "A type of imitation leather used for cheap furniture coverings."
+    },
+    "Nastasya": {
+      "type": "character",
+      "description": "Nastasya is the cook and only servant in Raskolnikov's lodging house, a talkative country peasant-woman who sometimes brings him food and cleans his room.",
+      "image": "/data/images/characters/crime-and-punishment/nastasya.webp"
+    },
+    "Praskovya Pavlovna": {
+      "type": "character",
+      "description": "Raskolnikov's landlady who is frustrated by his debt; she was once the mother of his deceased fiancée, Natalya Yegorovna.",
+      "aliases": [
+        "Pashenka",
+        "the landlady"
+      ]
+    },
+    "Vassilyevsky Prospect": {
+      "type": "proper_noun",
+      "description": "A major street or avenue on Vassilyevsky Island in St. Petersburg."
+    },
+    "Senate": {
+      "type": "proper_noun",
+      "description": "Refers to the Governing Senate, the highest judicial and administrative body in Imperial Russia."
+    },
+    "Our Lady": {
+      "type": "proper_noun",
+      "description": "A reference to the Virgin Mary, often invoked in Russian Orthodox prayers and religious observances."
+    },
+    "roubles": {
+      "type": "vocabulary",
+      "description": "The basic unit of currency in Russia."
+    },
+    "pension": {
+      "type": "vocabulary",
+      "description": "A regular payment made by the government to someone who is retired or otherwise eligible, often due to service or age."
+    },
+    "governess": {
+      "type": "vocabulary",
+      "description": "A woman employed to teach and care for children in a private household."
+    },
+    "regimental": {
+      "type": "vocabulary",
+      "description": "Relating to a military regiment; here, refers to Svidrigaïlov's old habits from his time in the army."
+    },
+    "Bacchus": {
+      "type": "vocabulary",
+      "description": "The Roman god of wine; used here to refer to drunkenness."
+    },
+    "versts": {
+      "type": "vocabulary",
+      "description": "A Russian unit of distance, approximately 1.07 kilometers or about two-thirds of a mile."
+    },
+    "third class": {
+      "type": "vocabulary",
+      "description": "The cheapest class of travel on Russian trains, with minimal comfort."
+    },
+    "bureau": {
+      "type": "vocabulary",
+      "description": "An office or agency, especially one dealing with legal or governmental matters."
+    },
+    "civil and commercial litigation": {
+      "type": "vocabulary",
+      "description": "Legal proceedings relating to non-criminal (civil) and business (commercial) disputes."
+    },
+    "landlady": {
+      "type": "vocabulary",
+      "description": "A woman who owns and rents out rooms or apartments to tenants."
+    },
+    "Svidrigaïlov": {
+      "type": "character",
+      "description": "Dounia's former employer, a morally ambiguous and mysterious figure who follows the Raskolnikov family to St. Petersburg.",
+      "aliases": [
+        "Arkady Ivanovitch Svidrigaïlov",
+        "Mr. Svidrigaïlov",
+        "Svidrigaïlovs"
+      ],
+      "image": "/data/images/characters/crime-and-punishment/arkady-ivanovitch-svidrigalov.webp"
+    },
+    "Razumihin": {
+      "type": "character",
+      "description": "Raskolnikov's loyal and good-natured friend from university who provides constant support to Raskolnikov and his family.",
+      "aliases": [
+        "Mr. Razumihin"
+      ],
+      "image": "/data/images/characters/crime-and-punishment/razumihin.webp"
+    },
+    "Holy Mother of Kazan": {
+      "type": "proper_noun",
+      "description": "An icon of the Virgin Mary, highly venerated in Russian Orthodoxy, often kept in homes for protection and prayer."
+    },
+    "Golgotha": {
+      "type": "proper_noun",
+      "description": "The hill outside Jerusalem where Jesus was crucified, used metaphorically for great suffering or sacrifice."
+    },
+    "Anna": {
+      "type": "proper_noun",
+      "description": "Refers to the Order of St. Anna, a Russian imperial honor awarded for civil or military merit."
+    },
+    "Schleswig-Holstein": {
+      "type": "proper_noun",
+      "description": "A region in northern Europe, referenced here as a symbol of something grand and unattainable."
+    },
+    "K—— Boulevard": {
+      "type": "proper_noun",
+      "description": "A partially anonymized street name, typical in Russian literature to indicate a real or fictional location in St. Petersburg."
+    },
+    "Darya Frantsovnas": {
+      "type": "proper_noun",
+      "description": "Refers to women like Darya Frantsovna, a common type of landlady or matron in Russian society, often associated with gossip and moral policing."
+    },
+    "university": {
+      "type": "proper_noun",
+      "description": "Refers to the institution of higher education attended by Raskolnikov and Razumihin, likely St. Petersburg University."
+    },
+    "post-haste": {
+      "type": "vocabulary",
+      "description": "With great speed; very quickly."
+    },
+    "express": {
+      "type": "vocabulary",
+      "description": "A fast means of travel, such as an express train or carriage."
+    },
+    "peasant’s cart": {
+      "type": "vocabulary",
+      "description": "A simple, horse-drawn vehicle used by Russian peasants for transportation."
+    },
+    "sacking": {
+      "type": "vocabulary",
+      "description": "Coarse woven material, such as burlap, used for covering or packing."
+    },
+    "verst": {
+      "type": "vocabulary",
+      "description": "A Russian unit of distance, approximately 1.07 kilometers or about two-thirds of a mile."
+    },
+    "paper ones": {
+      "type": "vocabulary",
+      "description": "Paper roubles, as opposed to silver coins; refers to paper currency."
+    },
+    "knits woollen shawls": {
+      "type": "vocabulary",
+      "description": "A reference to making woolen garments by hand, a common way for poor women to earn extra money."
+    },
+    "Schilleresque": {
+      "type": "vocabulary",
+      "description": "Resembling the idealism and noble sentimentality found in the works of German writer Friedrich Schiller."
+    },
+    "orders of merit": {
+      "type": "vocabulary",
+      "description": "Official honors or decorations awarded for distinguished service."
+    },
+    "buttonhole": {
+      "type": "vocabulary",
+      "description": "A slit in the lapel of a coat where a decoration or flower may be worn."
+    },
+    "nigger": {
+      "type": "vocabulary",
+      "description": "An offensive and outdated term for a Black person, reflecting the period's language and attitudes."
+    },
+    "Lett": {
+      "type": "vocabulary",
+      "description": "An archaic term for a Latvian person."
+    },
+    "concubine": {
+      "type": "vocabulary",
+      "description": "A woman who lives with a man but has lower status than his wife or wives."
+    },
+    "casuists": {
+      "type": "vocabulary",
+      "description": "People skilled in resolving moral problems by the application of theoretical rules."
+    },
+    "Jesuitical": {
+      "type": "vocabulary",
+      "description": "Subtly or excessively argumentative or scheming, often with a connotation of moral flexibility."
+    },
+    "copecks": {
+      "type": "vocabulary",
+      "description": "A small unit of Russian currency, one hundredth of a rouble."
+    },
+    "cab": {
+      "type": "vocabulary",
+      "description": "A horse-drawn carriage for hire, used for transportation in cities."
+    },
+    "gentlefolk": {
+      "type": "vocabulary",
+      "description": "People of good birth or social standing; gentry."
+    },
+    "percentage": {
+      "type": "vocabulary",
+      "description": "Here, used cynically to refer to a portion of people expected to fall into vice or ruin, as if it were a statistical inevitability."
+    },
+    "comrades": {
+      "type": "vocabulary",
+      "description": "Fellow students or colleagues, often used in Russian to denote friendship or solidarity."
+    },
+    "Pushkin": {
+      "type": "character",
+      "description": "Alexander Sergeyevich Pushkin was a famous Russian poet and writer, referenced here as a symbol of artistic genius."
+    },
+    "Turgenev": {
+      "type": "character",
+      "description": "Ivan Sergeyevich Turgenev was a renowned Russian novelist and playwright, mentioned as an example of an artist."
+    },
+    "Lizaveta Ivanovna": {
+      "type": "character",
+      "description": "Lizaveta Ivanovna is the meek, submissive, and much-abused younger (step)sister of Alyona Ivanovna, the pawnbroker, and is responsible for the cleanliness of Alyona's flat.",
+      "aliases": [
+        "Lizaveta"
+      ]
+    },
+    "Matvey": {
+      "type": "character",
+      "description": "Matvey is briefly mentioned as the driver of the bay horse, referenced by Mikolka in the dream."
+    },
+    "Lesser Neva": {
+      "type": "proper_noun",
+      "description": "A branch of the Neva River in St. Petersburg."
+    },
+    "Petrovsky Ostrov": {
+      "type": "proper_noun",
+      "description": "Another island in St. Petersburg, known for its greenery and summer villas."
+    },
+    "Ivanovna": {
+      "type": "proper_noun",
+      "description": "A Russian patronymic meaning 'daughter of Ivan,' used as part of formal address."
+    },
+    "vodka": {
+      "type": "vocabulary",
+      "description": "A traditional Russian distilled alcoholic beverage, clear and strong."
+    },
+    "balalaïka": {
+      "type": "vocabulary",
+      "description": "A traditional Russian stringed musical instrument with a triangular body, commonly used in folk music."
+    },
+    "cupola": {
+      "type": "vocabulary",
+      "description": "A small dome, often found atop Russian Orthodox churches."
+    },
+    "ikons": {
+      "type": "vocabulary",
+      "description": "Religious images or paintings, especially in the Eastern Orthodox tradition, used for veneration."
+    },
+    "mass": {
+      "type": "vocabulary",
+      "description": "A religious service, particularly in the Christian tradition; in Russia, refers to the Orthodox liturgy."
+    },
+    "huckster": {
+      "type": "vocabulary",
+      "description": "A small-scale vendor or peddler, often selling goods in the street or market."
+    },
+    "costermongers": {
+      "type": "vocabulary",
+      "description": "Street sellers of fruit, vegetables, or other goods, typically from a barrow or cart."
+    },
+    "barrows": {
+      "type": "vocabulary",
+      "description": "Handcarts used by street vendors to display and transport their goods."
+    },
+    "verandahs": {
+      "type": "vocabulary",
+      "description": "Roofed, open-air porches or galleries attached to the outside of a building."
+    },
+    "nag": {
+      "type": "vocabulary",
+      "description": "A term for a small, old, or worn-out horse, often used disparagingly."
+    },
+    "tambourine": {
+      "type": "vocabulary",
+      "description": "A small handheld percussion instrument with jingling metal disks, used in folk music."
+    },
+    "Pokorev": {
+      "type": "character",
+      "description": "A student acquaintance of Raskolnikov who previously gave him Alyona Ivanovna's address."
+    },
+    "the huckster": {
+      "type": "character",
+      "description": "A local dealer or trader who, along with his wife, employs Lizaveta to sell household goods."
+    },
+    "the officer": {
+      "type": "character",
+      "description": "A young officer who listens to the student's conversation about Alyona Ivanovna and Lizaveta in the tavern."
+    },
+    "the student": {
+      "type": "character",
+      "description": "An unnamed student who discusses Alyona Ivanovna and Lizaveta in the tavern, expressing radical ideas about morality and murder."
+    },
+    "the porter": {
+      "type": "character",
+      "description": "A man responsible for watching over the entrance and common areas of the building where Raskolnikov lives."
+    },
+    "Harkov": {
+      "type": "proper_noun",
+      "description": "A city in Ukraine (now spelled Kharkiv), referenced as the place where Pokorev has gone."
+    },
+    "monastery": {
+      "type": "proper_noun",
+      "description": "A religious institution where monks live; in this context, Alyona Ivanovna intends to leave her money to a monastery for prayers after her death."
+    },
+    "province of N——": {
+      "type": "proper_noun",
+      "description": "A purposely obscured location, typical in Russian literature, indicating an unspecified province."
+    },
+    "Lock hospitals": {
+      "type": "proper_noun",
+      "description": "Hospitals in 19th-century Russia (and Britain) specializing in the treatment of venereal diseases."
+    },
+    "summer garden": {
+      "type": "proper_noun",
+      "description": "A famous park in St. Petersburg, known for its fountains and statues."
+    },
+    "field of Mars": {
+      "type": "proper_noun",
+      "description": "A large open space in central St. Petersburg, historically used for military parades and public gatherings."
+    },
+    "Mihailovsky Palace": {
+      "type": "proper_noun",
+      "description": "A grand palace in St. Petersburg, now housing the Russian Museum."
+    },
+    "movables": {
+      "type": "vocabulary",
+      "description": "Personal property that can be moved, such as furniture."
+    },
+    "charwoman": {
+      "type": "vocabulary",
+      "description": "A woman employed to do cleaning or other menial work in someone else's house."
+    },
+    "noose": {
+      "type": "vocabulary",
+      "description": "A loop with a running knot, used here as a device to carry the axe discreetly."
+    },
+    "parti-coloured": {
+      "type": "vocabulary",
+      "description": "Having different colors; multicolored."
+    },
+    "porter": {
+      "type": "vocabulary",
+      "description": "A person employed to look after the entrance of a building and assist tenants or visitors."
+    },
+    "Koch": {
+      "type": "character",
+      "description": "Koch is a minor character, a man who comes to visit Alyona Ivanovna on business and later discovers something is wrong at her flat."
+    },
+    "Mitka": {
+      "type": "character",
+      "description": "Mitka is mentioned in a shouted warning; likely a workman or porter, though his role here is only as a name called out during the commotion."
+    },
+    "Gambrinus": {
+      "type": "proper_noun",
+      "description": "A billiard hall or tavern referenced as a place where Koch and the young man played billiards."
+    },
+    "Cyprus": {
+      "type": "proper_noun",
+      "description": "Refers to Cyprus wood, a material used for one of the crosses found on the old woman; Cyprus wood was considered special or sacred in Russian Orthodoxy."
+    },
+    "chamois": {
+      "type": "vocabulary",
+      "description": "A type of soft, pliable leather, often used for purses or cleaning cloths."
+    },
+    "filigree": {
+      "type": "vocabulary",
+      "description": "Delicate ornamental work made from fine gold or silver wire."
+    },
+    "gateway": {
+      "type": "vocabulary",
+      "description": "An entrance passage or archway into a courtyard or building, typical in Russian city architecture."
+    },
+    "Luise Ivanovna": {
+      "type": "character",
+      "description": "Luise Ivanovna is a gaily-dressed, stout woman with a German accent who appears at the police office, involved in a scandal at her lodging house."
+    },
+    "Ilya Petrovitch": {
+      "type": "character",
+      "description": "Ilya Petrovitch is the assistant superintendent at the police station, known for his explosive temper and brusque manner.",
+      "aliases": [
+        "Explosive Lieutenant"
+      ]
+    },
+    "Nikodim Fomitch": {
+      "type": "character",
+      "description": "The superintendent of the district police, described as friendly and civil despite his nickname."
+    },
+    "Alexandr Grigorievitch": {
+      "type": "character",
+      "description": "The head clerk at the police office who becomes suspicious of Raskolnikov's behavior.",
+      "aliases": [
+        "Mr. Zametov",
+        "Zametov"
+      ]
+    },
+    "Pestryakov": {
+      "type": "character",
+      "description": "Pestryakov is a student mentioned as a witness in the murder investigation, seen at the gate with friends."
+    },
+    "police office": {
+      "type": "proper_noun",
+      "description": "The government office where police business is conducted, including investigations and administrative matters."
+    },
+    "district police-station": {
+      "type": "proper_noun",
+      "description": "The local police headquarters responsible for law enforcement in a specific area of the city."
+    },
+    "district superintendent": {
+      "type": "proper_noun",
+      "description": "The chief officer in charge of a district police-station."
+    },
+    "the province of X": {
+      "type": "proper_noun",
+      "description": "A generic reference to a Russian province, used to anonymize the location of Raskolnikov's family."
+    },
+    "Noah’s Ark": {
+      "type": "proper_noun",
+      "description": "A biblical reference used metaphorically to describe a crowded, chaotic house with many different people."
+    },
+    "house of correction": {
+      "type": "proper_noun",
+      "description": "A detention facility or prison for minor offenders or those awaiting trial."
+    },
+    "regiment": {
+      "type": "proper_noun",
+      "description": "A military unit, here referring to Ilya Petrovitch's former service."
+    },
+    "taverns": {
+      "type": "vocabulary",
+      "description": "Drinking establishments or bars, common in 19th-century Russia."
+    },
+    "claspknife": {
+      "type": "vocabulary",
+      "description": "A folding pocketknife."
+    },
+    "mourning": {
+      "type": "vocabulary",
+      "description": "The practice of wearing black or somber clothing to signify grief after a death."
+    },
+    "curtsying": {
+      "type": "vocabulary",
+      "description": "A formal gesture of respect performed by women, involving a slight bending of the knees and lowering of the body."
+    },
+    "cockaded cap": {
+      "type": "vocabulary",
+      "description": "A hat decorated with a cockade, a knot of ribbons or similar ornament, often part of a uniform."
+    },
+    "I O U": {
+      "type": "vocabulary",
+      "description": "A written acknowledgment of debt, standing for 'I owe you.'",
+      "aliases": [
+        "I.O.U.",
+        "IOU"
+      ]
+    },
+    "writ": {
+      "type": "vocabulary",
+      "description": "A formal written order issued by a legal authority."
+    },
+    "lock-up": {
+      "type": "vocabulary",
+      "description": "A temporary holding cell or jail."
+    },
+    "cad": {
+      "type": "vocabulary",
+      "description": "A man who behaves dishonorably, especially toward women."
+    },
+    "pianoforte": {
+      "type": "vocabulary",
+      "description": "An early term for the piano."
+    },
+    "sein rock": {
+      "type": "vocabulary",
+      "description": "German for 'his coat'; used here in the context of a damaged garment."
+    },
+    "man muss": {
+      "type": "vocabulary",
+      "description": "German for 'one must.'"
+    },
+    "ganz": {
+      "type": "vocabulary",
+      "description": "German for 'completely' or 'entirely.'"
+    },
+    "thanksgiving service": {
+      "type": "vocabulary",
+      "description": "A religious service held to give thanks, often after a fortunate escape or event."
+    },
+    "crossing himself": {
+      "type": "vocabulary",
+      "description": "A Christian gesture of making the sign of the cross for protection or blessing."
+    },
+    "Heruvimov": {
+      "type": "character",
+      "description": "Heruvimov is a bookseller and publisher who employs Razumihin to translate works and pays him for his services."
+    },
+    "Ekaterininsky Canal": {
+      "type": "proper_noun",
+      "description": "A canal in St. Petersburg, Russia, often referenced in the novel as a location near Raskolnikov's lodgings."
+    },
+    "V—— Prospect": {
+      "type": "proper_noun",
+      "description": "A partially redacted name for a major avenue (prospect) in St. Petersburg, typical of Dostoevsky's style to obscure exact locations."
+    },
+    "Islands": {
+      "type": "proper_noun",
+      "description": "Refers to the group of islands in the Neva delta, a quieter, more remote part of St. Petersburg."
+    },
+    "Les Confessions": {
+      "type": "proper_noun",
+      "description": "A famous autobiographical work by Jean-Jacques Rousseau, referenced here as a source for translation."
+    },
+    "Radishchev": {
+      "type": "proper_noun",
+      "description": "Alexander Radishchev, a Russian writer and social critic, known for his radical ideas; mentioned as a comparison to Rousseau."
+    },
+    "Nikolaevsky Bridge": {
+      "type": "proper_noun",
+      "description": "A bridge in St. Petersburg crossing the Neva River, known today as the Annunciation Bridge."
+    },
+    "palace": {
+      "type": "proper_noun",
+      "description": "Refers to one of the grand palaces along the Neva, likely the Winter Palace, a symbol of imperial Russia."
+    },
+    "cathedral": {
+      "type": "proper_noun",
+      "description": "Refers to the main church in a Russian town or city, often the site of important religious ceremonies; most likely refers to St. Isaac's Cathedral, a prominent landmark in St. Petersburg.",
+      "aliases": [
+        "Cathedral"
+      ]
+    },
+    "signature": {
+      "type": "vocabulary",
+      "description": "In publishing, a 'signature' is a section of printed sheets folded together, often used as a unit for payment in translation or printing work."
+    },
+    "greatcoat": {
+      "type": "vocabulary",
+      "description": "A heavy overcoat, typically worn in 19th-century Russia for warmth."
+    },
+    "Zossimov": {
+      "type": "character",
+      "description": "A doctor and friend of Razumihin, who attends to Raskolnikov during his illness and testifies to his mental and physical condition.",
+      "aliases": [
+        "Dr. Zossimov"
+      ],
+      "image": "/data/images/characters/crime-and-punishment/zossimov.webp"
+    },
+    "messenger": {
+      "type": "character",
+      "description": "A young man from the office of the merchant Shelopaev, who brings Raskolnikov a remittance."
+    },
+    "Alexey Semyonovitch": {
+      "type": "character",
+      "description": "An employee at the office who previously delivered a remittance to Raskolnikov."
+    },
+    "Afanasy Ivanovitch Vahrushin": {
+      "type": "character",
+      "description": "A merchant from Raskolnikov's hometown who facilitates money transfers from Raskolnikov's mother.",
+      "aliases": [
+        "Afanasy Ivanovitch",
+        "Vassily Ivanovitch Vahrushin"
+      ]
+    },
+    "Semyon Semyonovitch": {
+      "type": "character",
+      "description": "An employee at the office who receives instructions from Vahrushin regarding the remittance."
+    },
+    "Natalya Yegorovna": {
+      "type": "character",
+      "description": "Praskovya Pavlovna's deceased daughter, once engaged to Raskolnikov."
+    },
+    "Mr. Tchebarov": {
+      "type": "character",
+      "description": "A businessman who acquired Raskolnikov's IOU and previously attempted to court Praskovya Pavlovna.",
+      "aliases": [
+        "Tchebarov"
+      ]
+    },
+    "Tolstyakov": {
+      "type": "character",
+      "description": "A friend of Razumihin, mentioned in an anecdote about hats."
+    },
+    "Five Corners": {
+      "type": "proper_noun",
+      "description": "A district or intersection in St. Petersburg known for its distinctive layout and buildings."
+    },
+    "Harlamov’s house": {
+      "type": "proper_noun",
+      "description": "A lodging house in the Five Corners area, previously associated with Raskolnikov."
+    },
+    "Buch’s": {
+      "type": "proper_noun",
+      "description": "Another lodging house, confused with Harlamov’s by Razumihin."
+    },
+    "address bureau": {
+      "type": "proper_noun",
+      "description": "A municipal office in St. Petersburg where residents' addresses are registered and can be looked up."
+    },
+    "General Kobelev": {
+      "type": "proper_noun",
+      "description": "A general mentioned as being untraceable at the address bureau, likely as an example."
+    },
+    "Krestovsky Island": {
+      "type": "proper_noun",
+      "description": "An island in St. Petersburg, referenced by Raskolnikov in his delirium."
+    },
+    "United States of America": {
+      "type": "proper_noun",
+      "description": "Mentioned humorously by Razumihin when discussing trousers, reflecting the period's awareness of America."
+    },
+    "English Embassy": {
+      "type": "proper_noun",
+      "description": "The diplomatic mission of England in St. Petersburg; Razumihin buys boots previously owned by its secretary."
+    },
+    "Fedyaev’s": {
+      "type": "proper_noun",
+      "description": "A shop known for selling second-hand clothing, mentioned by Razumihin."
+    },
+    "Sharmer’s": {
+      "type": "proper_noun",
+      "description": "A clothing shop referenced by Razumihin, likely known for overcoats."
+    },
+    "remittance": {
+      "type": "vocabulary",
+      "description": "A sum of money sent, especially by mail, as payment or a gift."
+    },
+    "faculty": {
+      "type": "vocabulary",
+      "description": "Used here to mean the medical faculty or doctors, referring to their permission or advice."
+    },
+    "linen": {
+      "type": "vocabulary",
+      "description": "Refers to underclothes or shirts, not just fabric."
+    },
+    "breeches": {
+      "type": "vocabulary",
+      "description": "Trousers, especially those reaching to the knee or just below."
+    },
+    "Palmerston": {
+      "type": "vocabulary",
+      "description": "A nickname for Raskolnikov's battered old hat, possibly referencing Lord Palmerston, a British statesman, as a joke."
+    },
+    "tryst": {
+      "type": "vocabulary",
+      "description": "A private, romantic rendezvous or meeting, used here humorously."
+    },
+    "bundle": {
+      "type": "vocabulary",
+      "description": "A package or parcel, often of clothing or belongings."
+    },
+    "Porfiry Petrovitch": {
+      "type": "character",
+      "description": "Porfiry Petrovitch is the head of the Investigation Department and a distant relation of Razumihin, involved in the investigation of the pawnbroker's murder.",
+      "aliases": [
+        "Porfiry",
+        "Porfiry’s"
+      ],
+      "image": "/data/images/characters/crime-and-punishment/porfiry-petrovitch.webp"
+    },
+    "Dushkin": {
+      "type": "character",
+      "description": "A peasant and pawnbroker who owns a dram-shop and brought the jeweller’s case to the police, suspecting Nikolay."
+    },
+    "Nikolay": {
+      "type": "character",
+      "description": "A journeyman house-painter who, out of fear and religious delirium, confesses to the murder he did not commit.",
+      "aliases": [
+        "Mikolka"
+      ]
+    },
+    "Dmitri": {
+      "type": "character",
+      "description": "A house-painter and coworker of Nikolay, present at the scene on the day of the murder."
+    },
+    "Afanasy Pavlovitch": {
+      "type": "character",
+      "description": "A man mentioned by Nikolay as the person from whom he first heard about the murder."
+    },
+    "Kryukov": {
+      "type": "character",
+      "description": "A man who was seen entering the building at the time of the murder, mentioned as a witness."
+    },
+    "Palais de Cristal": {
+      "type": "proper_noun",
+      "description": "A fashionable restaurant or entertainment venue in St. Petersburg, popular in the 19th century."
+    },
+    "Investigation Department": {
+      "type": "proper_noun",
+      "description": "The police department responsible for criminal investigations, headed by Porfiry Petrovitch."
+    },
+    "Zaraïsk": {
+      "type": "proper_noun",
+      "description": "A province and district in Russia, the home region of Dushkin and Nikolay."
+    },
+    "Ryazan": {
+      "type": "proper_noun",
+      "description": "A region in Russia from which Dushkin and Nikolay originate."
+    },
+    "Peski": {
+      "type": "proper_noun",
+      "description": "A district or area in St. Petersburg, mentioned as a place where Nikolay stayed."
+    },
+    "Kolomensky men": {
+      "type": "proper_noun",
+      "description": "Workmen from the Kolomna district of St. Petersburg, with whom Nikolay claims to have stayed."
+    },
+    "note": {
+      "type": "vocabulary",
+      "description": "A paper currency or banknote, here referring to a rouble note."
+    },
+    "pledges": {
+      "type": "vocabulary",
+      "description": "Items left with a pawnbroker as security for a loan."
+    },
+    "unredeemed pledges": {
+      "type": "vocabulary",
+      "description": "Items pawned but not reclaimed by their owners, often sold by pawnbrokers."
+    },
+    "dram-shop": {
+      "type": "vocabulary",
+      "description": "A small bar or tavern where alcoholic drinks are sold, especially cheap spirits, often associated with lower-class clientele.",
+      "aliases": [
+        "dram shops"
+      ]
+    },
+    "spree": {
+      "type": "vocabulary",
+      "description": "A period of unrestrained drinking or partying."
+    },
+    "entry": {
+      "type": "vocabulary",
+      "description": "The entrance or hallway of a building."
+    },
+    "jewel-case": {
+      "type": "vocabulary",
+      "description": "A small box for holding jewelry, central to the evidence in the murder case."
+    },
+    "prosecution": {
+      "type": "vocabulary",
+      "description": "The legal party responsible for presenting the case against the accused in a criminal trial."
+    },
+    "circumstantial evidence": {
+      "type": "vocabulary",
+      "description": "Evidence that relies on inference rather than direct observation, often used in legal contexts."
+    },
+    "Andrey Semyonovitch Lebeziatnikov": {
+      "type": "character",
+      "description": "A young clerk in the Ministry and Luzhin’s acquaintance who holds radical, modern ideas and lodges in the same house as the Marmeladovs.",
+      "aliases": [
+        "Lebeziatnikov",
+        "Mr. Lebeziatnikov"
+      ]
+    },
+    "Bakaleyev’s house": {
+      "type": "proper_noun",
+      "description": "A lodging house near Raskolnikov’s residence, where Luzhin has found rooms for Raskolnikov’s mother and sister; Pulcheria Alexandrovna and Dounia are staying there.",
+      "aliases": [
+        "Bakaleyev’s"
+      ]
+    },
+    "Voskresensky": {
+      "type": "proper_noun",
+      "description": "A district or street in Saint Petersburg, where Bakaleyev’s house is located."
+    },
+    "Yushin": {
+      "type": "proper_noun",
+      "description": "A merchant who owns and lets rooms in Bakaleyev’s house."
+    },
+    "Ministry": {
+      "type": "proper_noun",
+      "description": "Refers to a government department; Lebeziatnikov is a clerk in one of the ministries."
+    },
+    "Moscow": {
+      "type": "proper_noun",
+      "description": "The capital city of Russia, mentioned as the site of recent criminal activity."
+    },
+    "the police office": {
+      "type": "proper_noun",
+      "description": "Refers to the local police station or headquarters in Saint Petersburg."
+    },
+    "the provinces": {
+      "type": "proper_noun",
+      "description": "Refers to areas of Russia outside the capital, often considered less progressive or modern."
+    },
+    "fiancé": {
+      "type": "vocabulary",
+      "description": "A man engaged to be married."
+    },
+    "betrothed": {
+      "type": "vocabulary",
+      "description": "A person to whom one is engaged to be married."
+    },
+    "notes": {
+      "type": "vocabulary",
+      "description": "Paper money or banknotes."
+    },
+    "pawnbroker": {
+      "type": "vocabulary",
+      "description": "A person who lends money at interest in exchange for personal property left as security."
+    },
+    "trunks": {
+      "type": "vocabulary",
+      "description": "Large, sturdy boxes or chests used for storing clothes and personal belongings."
+    },
+    "lodging": {
+      "type": "vocabulary",
+      "description": "A rented room or rooms, typically in someone else's house."
+    },
+    "Duclida": {
+      "type": "character",
+      "description": "Duclida is a young street woman who interacts with Raskolnikov, asking him for money."
+    },
+    "Alyoshka": {
+      "type": "character",
+      "description": "Alyoshka is the younger of two workmen papering the walls in the murdered pawnbroker's flat."
+    },
+    "Afrosinya": {
+      "type": "character",
+      "description": "Afrosinya is a local woman who attempts suicide by drowning, recognized by a bystander."
+    },
+    "Potchinkov": {
+      "type": "character",
+      "description": "Potchinkov is the owner of the house where Razumihin is having his house-warming, referenced as a location."
+    },
+    "Babushkin": {
+      "type": "character",
+      "description": "Babushkin is the owner of the flat where Razumihin lives, mentioned as an address; the flat itself is referenced as Babushkin’s flat.",
+      "aliases": [
+        "Babushkin’s flat"
+      ]
+    },
+    "Sadovy Street": {
+      "type": "proper_noun",
+      "description": "A street in St. Petersburg, part of the district where Raskolnikov wanders."
+    },
+    "Moscow News": {
+      "type": "proper_noun",
+      "description": "A newspaper published in Moscow, referenced for news of crimes."
+    },
+    "Shil’s house": {
+      "type": "proper_noun",
+      "description": "The building where Raskolnikov lives, identified by the name of its owner."
+    },
+    "Potchinkov’s house": {
+      "type": "proper_noun",
+      "description": "The building where Razumihin lives and is hosting a house-warming party."
+    },
+    "X—— Bridge": {
+      "type": "proper_noun",
+      "description": "A bridge in St. Petersburg, the exact name obscured, where Raskolnikov witnesses a suicide attempt."
+    },
+    "gymnasium": {
+      "type": "proper_noun",
+      "description": "In Russia, a type of secondary school with a classical curriculum, indicating Zametov's level of education."
+    },
+    "samovar": {
+      "type": "vocabulary",
+      "description": "A traditional Russian metal urn used to boil water for tea."
+    },
+    "crinoline": {
+      "type": "vocabulary",
+      "description": "A stiffened or structured petticoat designed to hold out a woman's skirt, fashionable in the 19th century."
+    },
+    "mantle": {
+      "type": "vocabulary",
+      "description": "A loose, sleeveless cloak or shawl, worn as outer clothing."
+    },
+    "barrel organ": {
+      "type": "vocabulary",
+      "description": "A mechanical musical instrument that plays tunes by turning a handle, often used by street performers to collect money.",
+      "aliases": [
+        "barrel-organ"
+      ]
+    },
+    "corn chandler": {
+      "type": "vocabulary",
+      "description": "A dealer in corn or grain."
+    },
+    "district": {
+      "type": "vocabulary",
+      "description": "In the Russian context, a smaller administrative division within a province."
+    },
+    "eating-house": {
+      "type": "vocabulary",
+      "description": "A simple restaurant or tavern serving food and drink."
+    },
+    "saloon": {
+      "type": "vocabulary",
+      "description": "A public room or tavern for drinking and entertainment."
+    },
+    "fashion book": {
+      "type": "vocabulary",
+      "description": "A publication with illustrations of the latest clothing styles, used by tailors and dressmakers."
+    },
+    "spermaceti ointment": {
+      "type": "vocabulary",
+      "description": "A salve made from spermaceti, a waxy substance from whales, used for medicinal or cosmetic purposes."
+    },
+    "lymph": {
+      "type": "vocabulary",
+      "description": "A reference to the clear bodily fluid, here used metaphorically to suggest lack of vitality."
+    },
+    "storey": {
+      "type": "vocabulary",
+      "description": "A level or floor of a building."
+    },
+    "parapet": {
+      "type": "vocabulary",
+      "description": "A low protective wall along the edge of a roof, bridge, or balcony."
+    },
+    "Polenka": {
+      "type": "character",
+      "description": "The eldest daughter of Katerina Ivanovna and Marmeladov, a caring child who assists her mother."
+    },
+    "Lida": {
+      "type": "character",
+      "description": "The youngest daughter of Marmeladov and Katerina Ivanovna, described as a small, sickly girl."
+    },
+    "Pulcheria Alexandrovna Raskolnikov": {
+      "type": "character",
+      "description": "Pulcheria Alexandrovna Raskolnikov is Raskolnikov's devoted and emotional mother, deeply concerned for her son's well-being.",
+      "aliases": [
+        "Pulcheria Alexandrovna"
+      ]
+    },
+    "Princess Bezzemelny": {
+      "type": "proper_noun",
+      "description": "A noblewoman mentioned by Katerina Ivanovna as a figure from her past social life."
+    },
+    "Prince Schegolskoy": {
+      "type": "proper_noun",
+      "description": "A nobleman and kammerjunker mentioned by Katerina Ivanovna as a former suitor."
+    },
+    "kammerjunker": {
+      "type": "proper_noun",
+      "description": "A junior court title in Imperial Russia, roughly equivalent to a gentleman-in-waiting."
+    },
+    "Governor-General": {
+      "type": "proper_noun",
+      "description": "The highest civil authority in a Russian province, referenced as someone Katerina Ivanovna threatens to inform."
+    },
+    "samovars": {
+      "type": "vocabulary",
+      "description": "Traditional Russian metal urns used to boil water for tea."
+    },
+    "kerchief": {
+      "type": "vocabulary",
+      "description": "A square piece of cloth worn on the head or around the neck."
+    },
+    "Ave Maria": {
+      "type": "vocabulary",
+      "description": "A traditional Christian prayer addressed to the Virgin Mary, recited here by the children."
+    },
+    "Luzhin": {
+      "type": "character",
+      "description": "Dounia's wealthy, self-important, and manipulative suitor whose proposed marriage creates central conflict.",
+      "aliases": [
+        "Pyotr Petrovitch",
+        "Pyotr Petrovitch Luzhin",
+        "Mr. Luzhin"
+      ],
+      "image": "/data/images/characters/crime-and-punishment/luzhin.webp"
+    },
+    "Rubinstein": {
+      "type": "proper_noun",
+      "description": "Anton Rubinstein was a famous 19th-century Russian pianist and composer, used here as a reference to musical skill."
+    },
+    "Prussian House of Lords": {
+      "type": "proper_noun",
+      "description": "A legislative body in the Kingdom of Prussia, referenced humorously in conversation."
+    },
+    "Number 3": {
+      "type": "proper_noun",
+      "description": "Refers to a specific apartment or room number in the building, known for a previous scandal."
+    },
+    "lodgings": {
+      "type": "vocabulary",
+      "description": "Rented rooms or accommodations, often used by students and the poor in Russian cities."
+    },
+    "maître": {
+      "type": "vocabulary",
+      "description": "French for 'master,' used here to mean an accomplished performer or expert."
+    },
+    "powder": {
+      "type": "vocabulary",
+      "description": "A form of medicine, often administered in powdered form in 19th-century Russia."
+    },
+    "delirium": {
+      "type": "vocabulary",
+      "description": "A disturbed state of mind, often due to illness, characterized by confusion and agitation."
+    },
+    "monomania": {
+      "type": "vocabulary",
+      "description": "An obsession with a single idea or subject, considered a form of mental illness in the 19th century."
+    },
+    "integral calculus": {
+      "type": "vocabulary",
+      "description": "A branch of mathematics dealing with integrals, referenced humorously as a subject for teaching."
+    },
+    "feather bed": {
+      "type": "vocabulary",
+      "description": "A mattress filled with feathers, considered a luxury and symbolizing comfort."
+    },
+    "pailfuls": {
+      "type": "vocabulary",
+      "description": "Buckets full; a pail is a bucket, so 'pailfuls' means several buckets' worth."
+    },
+    "gutter": {
+      "type": "vocabulary",
+      "description": "A channel at the edge of a street for carrying off rainwater, often associated with dirt or lowliness."
+    },
+    "St. Petersburg": {
+      "type": "proper_noun",
+      "description": "The capital city of Imperial Russia at the time, where the events of the novel take place."
+    },
+    "Venetian": {
+      "type": "proper_noun",
+      "description": "Refers to Venice, Italy; here, a 'Venetian chain' describes a style of jewelry chain, indicating a foreign luxury item."
+    },
+    "levées": {
+      "type": "proper_noun",
+      "description": "Formal receptions or gatherings, often held by royalty or high society, where people pay their respects."
+    },
+    "pothouse": {
+      "type": "vocabulary",
+      "description": "A slang term for a cheap tavern or drinking establishment."
+    },
+    "monomaniac": {
+      "type": "vocabulary",
+      "description": "A person obsessed with a single idea or subject."
+    },
+    "hypochondriac": {
+      "type": "vocabulary",
+      "description": "A person excessively worried about their health, often imagining illnesses."
+    },
+    "circumstantial": {
+      "type": "vocabulary",
+      "description": "Detailed and specific, often referring to evidence or accounts."
+    },
+    "Vasya": {
+      "type": "character",
+      "description": "A messenger boy in Afanasy Ivanitch’s shop, mentioned in comparison to Raskolnikov’s attire."
+    },
+    "Afanasy Ivanitch": {
+      "type": "character",
+      "description": "Owner of a shop where Vasya, the messenger boy, works; mentioned in passing."
+    },
+    "Lieutenant Potanchikov": {
+      "type": "character",
+      "description": "A deceased friend of Raskolnikov’s father, referenced as a cautionary tale about illness."
+    },
+    "Marfa Petrovna Svidrigaïlov": {
+      "type": "character",
+      "description": "Marfa Petrovna Svidrigaïlov is the wife of Mr. Svidrigaïlov, whose sudden death is discussed and who initially blames Dounia for her husband's advances but later publicly vindicates her.",
+      "aliases": [
+        "Marfa Petrovna"
+      ]
+    },
+    "Afanasy Ivanitch’s shop": {
+      "type": "proper_noun",
+      "description": "A shop owned by Afanasy Ivanitch, referenced in relation to Vasya, the messenger boy."
+    },
+    "court-yard": {
+      "type": "proper_noun",
+      "description": "An open area within or adjacent to a building, common in Russian urban architecture."
+    },
+    "Pyotr Petrovitch’s letter": {
+      "type": "proper_noun",
+      "description": "A letter written by Pyotr Petrovitch Luzhin to Dounia and her mother, which becomes a point of discussion."
+    },
+    "the courts": {
+      "type": "proper_noun",
+      "description": "Refers to the Russian legal system and its formal, bureaucratic language."
+    },
+    "bath-house": {
+      "type": "proper_noun",
+      "description": "A public facility for bathing, common in Russian culture, sometimes used for medical treatments."
+    },
+    "consumption": {
+      "type": "vocabulary",
+      "description": "An old term for tuberculosis, a serious infectious disease affecting the lungs."
+    },
+    "alms": {
+      "type": "vocabulary",
+      "description": "Charitable donations, usually of money or food, given to the poor."
+    },
+    "nunnery": {
+      "type": "vocabulary",
+      "description": "A convent or religious community for women (nuns)."
+    },
+    "stroke": {
+      "type": "vocabulary",
+      "description": "A sudden medical condition where poor blood flow to the brain results in cell death, often leading to paralysis or death."
+    },
+    "crossing herself": {
+      "type": "vocabulary",
+      "description": "A gesture made by Orthodox Christians (and others), tracing the shape of a cross over the body as a sign of faith or to ward off evil."
+    },
+    "Crevez, chiens, si vous n’êtes pas contents": {
+      "type": "vocabulary",
+      "description": "French for 'Die, dogs, if you are not satisfied,' used here to express contempt for those dissatisfied with charity."
+    },
+    "legal jargon": {
+      "type": "vocabulary",
+      "description": "Specialized language used in legal documents and proceedings, often difficult for laypeople to understand."
+    },
+    "Sofya Semyonovna Marmeladov": {
+      "type": "character",
+      "description": "The daughter of Marmeladov, forced into prostitution to support her family, who becomes a central figure in Raskolnikov's spiritual redemption.",
+      "aliases": [
+        "Sofya Semyonovna",
+        "Sofya Ivanovna",
+        "Sonia",
+        "Sonia Marmeladov"
+      ],
+      "image": "/data/images/characters/crime-and-punishment/sofya-semyonovna-marmeladov.webp"
+    },
+    "Madame Resslich": {
+      "type": "character",
+      "description": "A foreign lodging-house keeper and moneylender in Petersburg associated with Svidrigaïlov.",
+      "aliases": [
+        "Resslich"
+      ]
+    },
+    "Mitrofanievsky": {
+      "type": "proper_noun",
+      "description": "Refers to the Mitrofanievsky church or cemetery, a location in St. Petersburg where funeral services are held."
+    },
+    "parasol": {
+      "type": "vocabulary",
+      "description": "A light umbrella used to provide shade from the sun, often carried by women in the 19th century."
+    },
+    "calumny": {
+      "type": "vocabulary",
+      "description": "A false and malicious statement meant to damage someone's reputation."
+    },
+    "funeral lunch": {
+      "type": "vocabulary",
+      "description": "A meal or gathering held after a funeral service, a common Russian custom to honor the deceased."
+    },
+    "Crown": {
+      "type": "proper_noun",
+      "description": "Refers to the Russian state or government, often used in legal or official contexts."
+    },
+    "Weekly Review": {
+      "type": "proper_noun",
+      "description": "A periodical publication to which Raskolnikov submitted his article; it later merged with the Periodical Review."
+    },
+    "Periodical Review": {
+      "type": "proper_noun",
+      "description": "A literary and scholarly journal in which Raskolnikov's article was published."
+    },
+    "Church of Ivan the Great": {
+      "type": "proper_noun",
+      "description": "A famous church in Moscow, known for its tall bell tower."
+    },
+    "Lycurgus": {
+      "type": "proper_noun",
+      "description": "An ancient Spartan lawgiver referenced as an example of a historical leader."
+    },
+    "Solon": {
+      "type": "proper_noun",
+      "description": "An ancient Athenian lawmaker and poet, cited as a historical example."
+    },
+    "Mahomet": {
+      "type": "proper_noun",
+      "description": "An archaic English spelling of Muhammad, the founder of Islam, referenced as a historical leader."
+    },
+    "Napoleon": {
+      "type": "proper_noun",
+      "description": "Napoleon Bonaparte, the French military leader and emperor, used here as an example of an 'extraordinary' man."
+    },
+    "New Jerusalem": {
+      "type": "proper_noun",
+      "description": "A biblical reference to the ideal or heavenly city, symbolizing a utopian future."
+    },
+    "Lazarus": {
+      "type": "proper_noun",
+      "description": "A biblical figure whom Jesus is said to have raised from the dead, referenced in a question about Raskolnikov's beliefs."
+    },
+    "Russia": {
+      "type": "proper_noun",
+      "description": "The country in which the novel is set."
+    },
+    "pecuniary": {
+      "type": "vocabulary",
+      "description": "Relating to or consisting of money."
+    },
+    "penal servitude": {
+      "type": "vocabulary",
+      "description": "A sentence of imprisonment with hard labor, used in 19th-century Russia."
+    },
+    "banishment": {
+      "type": "vocabulary",
+      "description": "Punishment by being sent away from a country or place as a legal penalty."
+    },
+    "phalanstery": {
+      "type": "vocabulary",
+      "description": "A type of communal living building or community, based on the ideas of French utopian socialist Charles Fourier."
+    },
+    "reading-room": {
+      "type": "vocabulary",
+      "description": "A public room where newspapers, periodicals, and books are available to read."
+    },
+    "retort": {
+      "type": "vocabulary",
+      "description": "A vessel or container used for chemical experiments, here used metaphorically."
+    },
+    "Reaumur": {
+      "type": "proper_noun",
+      "description": "A temperature scale formerly used in Russia, where 0° is the freezing point of water and 80° is the boiling point."
+    },
+    "V.": {
+      "type": "proper_noun",
+      "description": "An abbreviated reference to an unspecified town or city, a common device in Russian literature to anonymize locations."
+    },
+    "Toulon": {
+      "type": "proper_noun",
+      "description": "A French city, referenced here as a site of Napoleon's military exploits."
+    },
+    "Paris": {
+      "type": "proper_noun",
+      "description": "The capital of France, referenced in relation to Napoleon's actions."
+    },
+    "Egypt": {
+      "type": "proper_noun",
+      "description": "Referenced as the site of Napoleon's military campaign."
+    },
+    "Vilna": {
+      "type": "proper_noun",
+      "description": "A city (now Vilnius, Lithuania), referenced as part of Napoleon's retreat from Russia."
+    },
+    "Waterloo": {
+      "type": "proper_noun",
+      "description": "The site of Napoleon's final defeat in 1815."
+    },
+    "æsthetic": {
+      "type": "vocabulary",
+      "description": "Relating to beauty or artistic taste; here used in a self-mocking way."
+    },
+    "louse": {
+      "type": "vocabulary",
+      "description": "An insult meaning a despicable or insignificant person; also refers to the small parasitic insect."
+    },
+    "prophet": {
+      "type": "vocabulary",
+      "description": "Used here to refer to a religious or revolutionary leader who claims divine authority."
+    },
+    "sabre": {
+      "type": "vocabulary",
+      "description": "A curved sword, often associated with cavalry or military figures."
+    },
+    "battery": {
+      "type": "vocabulary",
+      "description": "A group of artillery guns; here, metaphorically, a display of force."
+    },
+    "Berg": {
+      "type": "character",
+      "description": "Berg is a minor character mentioned as someone planning a balloon ascent from the Yusupov Garden."
+    },
+    "Prince Svirbey": {
+      "type": "character",
+      "description": "Prince Svirbey is mentioned as a distant relation of Svidrigaïlov and a personage of some importance."
+    },
+    "Madam Prilukov": {
+      "type": "character",
+      "description": "Madam Prilukov is referenced as someone who owns an album in which Svidrigaïlov wrote."
+    },
+    "Aniska": {
+      "type": "character",
+      "description": "Aniska is a former serf girl and dressmaker in the country, trained in Moscow, mentioned by Svidrigaïlov."
+    },
+    "Filka": {
+      "type": "character",
+      "description": "Filka was a serf of Svidrigaïlov, whose ghost Svidrigaïlov claims to have seen."
+    },
+    "America": {
+      "type": "proper_noun",
+      "description": "A country mentioned as a possible destination for elopement, representing escape and new beginnings."
+    },
+    "Switzerland": {
+      "type": "proper_noun",
+      "description": "A European country mentioned as an alternative destination for elopement."
+    },
+    "Nezhin": {
+      "type": "proper_noun",
+      "description": "A town in Russia, mentioned as the origin of the Greek who caused Svidrigaïlov's imprisonment for debt."
+    },
+    "Yusupov Garden": {
+      "type": "proper_noun",
+      "description": "A public garden in St. Petersburg, named after the wealthy Yusupov family, mentioned as the site of a planned balloon ascent.",
+      "aliases": [
+        "Yusupov garden"
+      ]
+    },
+    "Malaya Vishera": {
+      "type": "proper_noun",
+      "description": "A station referenced as the place where Svidrigaïlov claims to have seen Marfa Petrovna's ghost."
+    },
+    "North Pole": {
+      "type": "proper_noun",
+      "description": "The northernmost point on Earth, mentioned humorously as a possible destination."
+    },
+    "The Egyptian Nights": {
+      "type": "proper_noun",
+      "description": "A reference to a famous public reading or event, possibly alluding to Pushkin's unfinished story or a cultural event in Russia."
+    },
+    "French": {
+      "type": "proper_noun",
+      "description": "Referenced in the phrase 'bonne guerre,' indicating a French expression."
+    },
+    "German": {
+      "type": "proper_noun",
+      "description": "Referenced in the story about a German woman who was thrashed by a nobleman."
+    },
+    "apoplexy": {
+      "type": "vocabulary",
+      "description": "A sudden loss of consciousness, often due to a stroke or cerebral hemorrhage."
+    },
+    "serf": {
+      "type": "vocabulary",
+      "description": "A peasant in 19th-century Russia who was legally bound to the land and the landowner."
+    },
+    "card-sharper": {
+      "type": "vocabulary",
+      "description": "A person who cheats at cards; a card cheat."
+    },
+    "wedlock": {
+      "type": "vocabulary",
+      "description": "The state of being married; marriage."
+    },
+    "cookshop": {
+      "type": "vocabulary",
+      "description": "A small restaurant or shop selling cooked food, often cheaply."
+    },
+    "name-day": {
+      "type": "vocabulary",
+      "description": "A celebration in Russian culture of the feast day of the saint after whom a person is named."
+    },
+    "pour vous plaire": {
+      "type": "vocabulary",
+      "description": "French for 'to please you' or 'for your pleasure.'"
+    },
+    "bonne guerre": {
+      "type": "vocabulary",
+      "description": "French for 'fair game,' meaning a legitimate or acceptable trick or ruse."
+    },
+    "Philip": {
+      "type": "character",
+      "description": "Philip is a former servant in Svidrigaïlov's household, whose death (by hanging) is discussed as possibly resulting from mistreatment."
+    },
+    "Mother Russia": {
+      "type": "proper_noun",
+      "description": "A personification of Russia, emphasizing its vastness and national character."
+    },
+    "Siberia": {
+      "type": "proper_noun",
+      "description": "A vast region in Russia, historically used as a place of exile and punishment for criminals."
+    },
+    "serfdom": {
+      "type": "proper_noun",
+      "description": "The system of agricultural servitude in Russia, abolished in 1861, under which peasants were tied to the land and their landlords."
+    },
+    "debtor’s prison": {
+      "type": "proper_noun",
+      "description": "A jail for people who could not pay their debts, common in 19th-century Russia and Europe.",
+      "aliases": [
+        "debtors’ prison"
+      ]
+    },
+    "conjugal": {
+      "type": "vocabulary",
+      "description": "Relating to marriage or the relationship between married partners."
+    },
+    "legacy": {
+      "type": "vocabulary",
+      "description": "Money or property left to someone in a will."
+    },
+    "Dmitri Prokofitch": {
+      "type": "proper_noun",
+      "description": "The full name of Razumihin, using the Russian patronymic form."
+    },
+    "schwach": {
+      "type": "vocabulary",
+      "description": "A German word meaning 'weak'; used here to refer to Razumihin's supposed weakness in the German language."
+    },
+    "pawn": {
+      "type": "vocabulary",
+      "description": "To deposit an item as security for a loan, with the item to be forfeited if the loan is not repaid."
+    },
+    "canal": {
+      "type": "proper_noun",
+      "description": "Refers to the St. Petersburg canal, a common feature of the city's geography and often associated with poverty and despair in the novel."
+    },
+    "New Testament": {
+      "type": "proper_noun",
+      "description": "The second part of the Christian Bible, containing the teachings of Jesus Christ and the story of his life; Sonia owns a Russian translation."
+    },
+    "St. John": {
+      "type": "proper_noun",
+      "description": "Refers to the Gospel of John, one of the four canonical gospels in the New Testament; the story of the raising of Lazarus is found here."
+    },
+    "Bethany": {
+      "type": "proper_noun",
+      "description": "A village near Jerusalem mentioned in the Bible as the home of Lazarus, Martha, and Mary."
+    },
+    "Jesus": {
+      "type": "proper_noun",
+      "description": "Central figure of Christianity, believed to be the Son of God; his miracle of raising Lazarus is recounted in this chapter."
+    },
+    "Martha": {
+      "type": "proper_noun",
+      "description": "A biblical character, sister of Lazarus and Mary, who appears in the story of the raising of Lazarus."
+    },
+    "Mary": {
+      "type": "proper_noun",
+      "description": "Another biblical character, sister of Lazarus and Martha, present at the miracle described in the Gospel of John."
+    },
+    "gallery": {
+      "type": "vocabulary",
+      "description": "A corridor or passage, often running along the side of a building or around a courtyard."
+    },
+    "bedstead": {
+      "type": "vocabulary",
+      "description": "The framework of a bed, typically without a mattress or bedding."
+    },
+    "deal": {
+      "type": "vocabulary",
+      "description": "A type of cheap, soft wood (usually pine or fir) commonly used for furniture in 19th-century Russia."
+    },
+    "rush-bottom chairs": {
+      "type": "vocabulary",
+      "description": "Chairs with seats woven from rushes (marsh plants), a common and inexpensive furniture style."
+    },
+    "house serf": {
+      "type": "vocabulary",
+      "description": "A domestic servant who was legally bound to serve a noble household in pre-emancipation Russia."
+    },
+    "requiem service": {
+      "type": "vocabulary",
+      "description": "A religious service in the Christian tradition held for the repose of the souls of the dead."
+    },
+    "pedlar": {
+      "type": "vocabulary",
+      "description": "A person who travels from place to place selling small goods, often door-to-door or in the streets."
+    },
+    "collars and cuffs": {
+      "type": "vocabulary",
+      "description": "Detachable shirt collars and wristbands, common in 19th-century fashion, often sold separately from shirts."
+    },
+    "graveclothes": {
+      "type": "vocabulary",
+      "description": "Cloth wrappings used to dress a body for burial, as mentioned in the biblical story of Lazarus."
+    },
+    "department of the investigation of criminal causes": {
+      "type": "proper_noun",
+      "description": "A governmental office responsible for investigating criminal cases in 19th-century Russia."
+    },
+    "Sevastopol": {
+      "type": "proper_noun",
+      "description": "A port city in Crimea, notable for its role in the Crimean War, referenced here in a military analogy."
+    },
+    "Alma": {
+      "type": "proper_noun",
+      "description": "A reference to the Battle of Alma, a significant battle during the Crimean War."
+    },
+    "High Court of Appeal": {
+      "type": "proper_noun",
+      "description": "A high-level judicial body in Russia that reviews and can overturn lower court decisions."
+    },
+    "Court of Appeal": {
+      "type": "proper_noun",
+      "description": "Another term for a high-level court that hears appeals from lower courts in the Russian legal system."
+    },
+    "General Mack": {
+      "type": "proper_noun",
+      "description": "An Austrian general known for his defeat and surrender to Napoleon at Ulm, referenced as a historical example."
+    },
+    "Austrian Hof-kriegsrath": {
+      "type": "proper_noun",
+      "description": "The Austrian Aulic Council of War, a military advisory body, referenced here as an example of theoretical planning."
+    },
+    "tout court": {
+      "type": "vocabulary",
+      "description": "A French phrase meaning 'simply' or 'plainly', used to indicate something without qualification."
+    },
+    "c’est de rigueur": {
+      "type": "vocabulary",
+      "description": "A French phrase meaning 'it is required' or 'it is the custom', especially in polite society."
+    },
+    "sedentary": {
+      "type": "vocabulary",
+      "description": "Describes a lifestyle or occupation involving much sitting and little physical activity."
+    },
+    "incognito": {
+      "type": "vocabulary",
+      "description": "A Latin term meaning 'in disguise' or 'with one's identity concealed'."
+    },
+    "punchinello": {
+      "type": "vocabulary",
+      "description": "A comical character from Italian puppet theater, used here as an insult meaning a ridiculous or buffoonish person."
+    },
+    "belfry": {
+      "type": "vocabulary",
+      "description": "A bell tower, either attached to a church or standing alone."
+    },
+    "decanter": {
+      "type": "vocabulary",
+      "description": "A vessel used to hold and pour liquids, typically wine or water."
+    },
+    "Gogol": {
+      "type": "proper_noun",
+      "description": "Nikolai Gogol was a famous Russian writer known for his satirical and comic works, referenced here as a comparison to Raskolnikov's wit."
+    },
+    "police station": {
+      "type": "proper_noun",
+      "description": "The local law enforcement office where suspects and witnesses are questioned; a key location in the investigation."
+    },
+    "detective department": {
+      "type": "proper_noun",
+      "description": "The branch of the police responsible for investigating crimes, headed by Porfiry Petrovitch in the novel."
+    },
+    "warder": {
+      "type": "vocabulary",
+      "description": "A prison guard or jailer responsible for overseeing prisoners."
+    },
+    "scaffold": {
+      "type": "vocabulary",
+      "description": "A raised platform used for executions, especially hangings; here, it symbolizes impending punishment."
+    },
+    "memorial dinner": {
+      "type": "vocabulary",
+      "description": "A traditional meal held after a funeral in Russian culture to honor the deceased."
+    },
+    "senate": {
+      "type": "proper_noun",
+      "description": "Refers to the Russian Senate, the highest judicial and administrative body in Imperial Russia."
+    },
+    "Knopp’s": {
+      "type": "proper_noun",
+      "description": "A fashionable shop in Petersburg, likely selling luxury goods and trousseau items."
+    },
+    "English shop": {
+      "type": "proper_noun",
+      "description": "A store in Petersburg known for selling imported English goods, considered prestigious."
+    },
+    "Fourier": {
+      "type": "proper_noun",
+      "description": "Charles Fourier, a French utopian socialist whose ideas about communal living influenced Russian radicals."
+    },
+    "Darwinian theory": {
+      "type": "proper_noun",
+      "description": "Refers to Charles Darwin's theory of evolution by natural selection, a topic of contemporary debate."
+    },
+    "Raphael": {
+      "type": "proper_noun",
+      "description": "Raffaello Sanzio da Urbino, an Italian Renaissance painter, symbolizing high art."
+    },
+    "France": {
+      "type": "proper_noun",
+      "description": "Mentioned in the context of workmen’s associations, referencing French socialist movements."
+    },
+    "Terebyeva": {
+      "type": "proper_noun",
+      "description": "A woman referenced as a member of the radical community, known for her free marriages."
+    },
+    "Varents": {
+      "type": "proper_noun",
+      "description": "A woman cited as having left her husband and children for ideological reasons, illustrating radical social ideas."
+    },
+    "trousseau": {
+      "type": "vocabulary",
+      "description": "A collection of clothes and personal possessions a bride brings to her marriage."
+    },
+    "lodgers": {
+      "type": "vocabulary",
+      "description": "People who rent rooms in someone else's house, a common arrangement in 19th-century Russia."
+    },
+    "commune": {
+      "type": "vocabulary",
+      "description": "A collective living arrangement based on socialist principles, popular among Russian radicals."
+    },
+    "nihilists": {
+      "type": "vocabulary",
+      "description": "Members of a Russian intellectual movement rejecting traditional values, religion, and authority."
+    },
+    "propaganda": {
+      "type": "vocabulary",
+      "description": "Efforts to spread particular ideas or doctrines, often with a political or social reform agenda."
+    },
+    "progressives": {
+      "type": "vocabulary",
+      "description": "People advocating for social reform and modern ideas, often associated with radicalism in 19th-century Russia."
+    },
+    "reckoning frame": {
+      "type": "vocabulary",
+      "description": "A counting device, also known as an abacus, used for calculations."
+    },
+    "five-per-cent bonds": {
+      "type": "vocabulary",
+      "description": "Government or financial bonds that pay 5% annual interest, used as a form of savings or inheritance.",
+      "aliases": [
+        "5-per-cent bonds",
+        "five-per-cent bond"
+      ]
+    },
+    "memorial dinners": {
+      "type": "vocabulary",
+      "description": "Feasts held in memory of the deceased, a Russian Orthodox custom."
+    },
+    "free marriage": {
+      "type": "vocabulary",
+      "description": "A relationship based on mutual consent without legal or religious sanction, advocated by radicals."
+    },
+    "subscription": {
+      "type": "vocabulary",
+      "description": "A collection of money from multiple people for a charitable cause."
+    },
+    "Jamaica rum": {
+      "type": "vocabulary",
+      "description": "A type of rum imported from Jamaica, considered a luxury."
+    },
+    "Madeira": {
+      "type": "vocabulary",
+      "description": "A fortified wine from the Madeira Islands, another luxury item."
+    },
+    "official": {
+      "type": "vocabulary",
+      "description": "A government employee or civil servant in Imperial Russia."
+    },
+    "patronage": {
+      "type": "vocabulary",
+      "description": "Support or sponsorship, often by someone in a position of power, necessary for securing government aid."
+    },
+    "temporary assistance": {
+      "type": "vocabulary",
+      "description": "Short-term financial support, often from the government or charitable sources."
+    },
+    "destitute widow": {
+      "type": "vocabulary",
+      "description": "A woman left in poverty after her husband’s death, often eligible for charity or state support."
+    },
+    "beads": {
+      "type": "vocabulary",
+      "description": "Refers to the beads on a reckoning frame (abacus) used for counting money."
+    },
+    "chastity": {
+      "type": "vocabulary",
+      "description": "The state of refraining from sexual relations, considered a virtue, especially for women."
+    },
+    "cesspool": {
+      "type": "vocabulary",
+      "description": "A pit for the disposal of liquid waste and sewage, here used metaphorically in a debate about honourable work."
+    },
+    "Kolya": {
+      "type": "character",
+      "description": "Katerina Ivanovna's young son, one of the children present at the dinner."
+    },
+    "Mangot": {
+      "type": "character",
+      "description": "A respectable old Frenchman who taught Katerina Ivanovna in her youth and is mentioned as a potential teacher for her future school."
+    },
+    "Karl from the chemist’s": {
+      "type": "character",
+      "description": "An acquaintance mentioned by Amalia Ivanovna in a story, supposedly involved in a cab incident."
+    },
+    "Johann": {
+      "type": "character",
+      "description": "Amalia Ivanovna's father, whom she claims was a burgomeister from Berlin."
+    },
+    "Lisbon wine": {
+      "type": "proper_noun",
+      "description": "Wine imported from Lisbon, Portugal, considered a foreign delicacy in Russia."
+    },
+    "bazaar": {
+      "type": "proper_noun",
+      "description": "A market or marketplace, often used in Russian cities for buying food and provisions."
+    },
+    "Pani": {
+      "type": "proper_noun",
+      "description": "A Polish term of respect for a woman, equivalent to 'Mrs.' or 'Madam.'"
+    },
+    "T——": {
+      "type": "proper_noun",
+      "description": "An unnamed provincial Russian town, referenced as Katerina Ivanovna's native place."
+    },
+    "boarding-school": {
+      "type": "proper_noun",
+      "description": "A school where students live as well as study, mentioned as Katerina Ivanovna's future plan."
+    },
+    "certificate of honour": {
+      "type": "proper_noun",
+      "description": "An official document attesting to someone's achievements or social standing, used by Katerina Ivanovna to prove her noble background."
+    },
+    "order": {
+      "type": "proper_noun",
+      "description": "A chivalric or honorary order, indicating a high social or military distinction in Russia."
+    },
+    "major": {
+      "type": "proper_noun",
+      "description": "A military rank, indicating Katerina Ivanovna's father's status."
+    },
+    "colonel": {
+      "type": "proper_noun",
+      "description": "A higher military rank, also referenced in relation to Katerina Ivanovna's family."
+    },
+    "commissariat department": {
+      "type": "proper_noun",
+      "description": "A government office responsible for supplying the army, often employing clerks in 19th-century Russia."
+    },
+    "governor": {
+      "type": "proper_noun",
+      "description": "A high-ranking official in charge of a province or city in Russia."
+    },
+    "burgomeister": {
+      "type": "proper_noun",
+      "description": "A German term for the mayor of a town or city, used by Amalia Ivanovna."
+    },
+    "pancakes": {
+      "type": "vocabulary",
+      "description": "In this context, likely refers to 'blini,' thin Russian pancakes often served at gatherings."
+    },
+    "rice and honey": {
+      "type": "vocabulary",
+      "description": "Traditional Russian dishes often served at memorial meals."
+    },
+    "dressing-gown": {
+      "type": "vocabulary",
+      "description": "A loose robe worn indoors, considered informal or inappropriate attire for a formal dinner."
+    },
+    "entrée": {
+      "type": "vocabulary",
+      "description": "A dish served as part of a formal meal, here likely referring to a cold appetizer with jelly."
+    },
+    "die Wäsche": {
+      "type": "vocabulary",
+      "description": "German for 'the laundry' or 'the linen,' referring to household linens or laundry duties."
+    },
+    "Vater aus Berlin": {
+      "type": "vocabulary",
+      "description": "German for 'father from Berlin,' used by Amalia Ivanovna to describe her father's origin."
+    },
+    "draggletails": {
+      "type": "vocabulary",
+      "description": "A derogatory term for slovenly or disreputable women."
+    },
+    "shawl dance": {
+      "type": "vocabulary",
+      "description": "A traditional Russian dance performed with a shawl, associated with social occasions or celebrations."
+    },
+    "Avdotya Romanovna Raskolnikov": {
+      "type": "character",
+      "description": "Raskolnikov's devoted younger sister, known for her strength of character and her complicated relationship with Luzhin and Svidrigaïlov.",
+      "aliases": [
+        "Avdotya Romanovna",
+        "Dounia"
+      ],
+      "image": "/data/images/characters/crime-and-punishment/avdotya-romanovna-raskolnikov.webp"
+    },
+    "governor-general": {
+      "type": "proper_noun",
+      "description": "A high-ranking official in the Russian imperial administration, often the head of a large region or city such as St. Petersburg."
+    },
+    "Sovereign": {
+      "type": "proper_noun",
+      "description": "A term referring to the Tsar, the autocratic ruler of Russia."
+    },
+    "Tsar": {
+      "type": "proper_noun",
+      "description": "The emperor of Russia, the supreme ruler at the time the novel is set."
+    },
+    "Madame Kobilatnikov": {
+      "type": "proper_noun",
+      "description": "A minor character referenced as someone Lebeziatnikov visits before coming to the scene; likely another lodger or acquaintance."
+    },
+    "General Treatise on the Positive Method": {
+      "type": "proper_noun",
+      "description": "A reference to a work on positivist philosophy, reflecting the intellectual trends among some characters."
+    },
+    "Piderit": {
+      "type": "proper_noun",
+      "description": "Likely a reference to a contemporary intellectual or author, cited by Lebeziatnikov."
+    },
+    "Wagner": {
+      "type": "proper_noun",
+      "description": "Likely a reference to a contemporary intellectual or author, mentioned by Lebeziatnikov."
+    },
+    "commissariat clerk": {
+      "type": "proper_noun",
+      "description": "A government official responsible for supplies or administration, present among the crowd."
+    },
+    "Poles": {
+      "type": "proper_noun",
+      "description": "Refers to Polish lodgers present in the scene, who react strongly against Luzhin."
+    },
+    "Prussian": {
+      "type": "proper_noun",
+      "description": "Refers to Amalia Ivanovna's German/Prussian background, used insultingly by Katerina Ivanovna."
+    },
+    "mademoiselle": {
+      "type": "vocabulary",
+      "description": "A French term for 'Miss', used here as a polite or formal address for an unmarried woman."
+    },
+    "pocket-book": {
+      "type": "vocabulary",
+      "description": "A small wallet or notebook used to carry money and notes."
+    },
+    "instalment": {
+      "type": "vocabulary",
+      "description": "A partial payment of a sum of money, to be paid in increments."
+    },
+    "passport": {
+      "type": "vocabulary",
+      "description": "In this context, refers to the 'yellow passport', a document given to registered prostitutes in imperial Russia."
+    },
+    "pettifogging": {
+      "type": "vocabulary",
+      "description": "Petty or trivial, especially in legal matters; used as an insult."
+    },
+    "pan": {
+      "type": "vocabulary",
+      "description": "A Polish honorific, equivalent to 'Mr.'"
+    },
+    "lajdak": {
+      "type": "vocabulary",
+      "description": "A Polish insult meaning 'scoundrel' or 'rascal'."
+    },
+    "bread and salt": {
+      "type": "vocabulary",
+      "description": "A traditional symbol of hospitality in Russian culture."
+    },
+    "harangue": {
+      "type": "vocabulary",
+      "description": "A lengthy and aggressive speech."
+    },
+    "atheists": {
+      "type": "vocabulary",
+      "description": "People who do not believe in the existence of God; used here as an insult or accusation."
+    },
+    "agitators": {
+      "type": "vocabulary",
+      "description": "People who stir up public feeling or incite others, especially for political reasons."
+    },
+    "Mont Blanc": {
+      "type": "proper_noun",
+      "description": "The highest mountain in the Alps; in this context, it references Napoleon's crossing of the Alps, symbolizing monumental achievements."
+    },
+    "the university": {
+      "type": "proper_noun",
+      "description": "Refers to the institution of higher education in St. Petersburg where Raskolnikov was a student."
+    },
+    "cross-roads": {
+      "type": "vocabulary",
+      "description": "A literal or symbolic place where one must make a significant decision, often used in Russian literature to denote a place of confession or repentance."
+    },
+    "cypress wood": {
+      "type": "vocabulary",
+      "description": "Wood from the cypress tree, often used in religious artifacts like crosses in Russia."
+    },
+    "Nevsky": {
+      "type": "proper_noun",
+      "description": "Short for Nevsky Prospect, the main street in St. Petersburg, known for its crowds and fashionable society."
+    },
+    "Dagestan": {
+      "type": "proper_noun",
+      "description": "A region in the Caucasus, referenced in a song Katerina Ivanovna tries to recall."
+    },
+    "Marlborough s’en va-t-en guerre": {
+      "type": "proper_noun",
+      "description": "A famous French folk song, often sung as a lullaby, referenced by Katerina Ivanovna."
+    },
+    "Cinq sous": {
+      "type": "proper_noun",
+      "description": "A French children's song, meaning 'Five sous', taught by Katerina Ivanovna to the children."
+    },
+    "My Village": {
+      "type": "proper_noun",
+      "description": "A Russian folk song, referenced as one of the songs the children know."
+    },
+    "An Hussar": {
+      "type": "proper_noun",
+      "description": "A reference to a song about a hussar, a type of light cavalryman, popular in Russian culture."
+    },
+    "Punch and Judy": {
+      "type": "proper_noun",
+      "description": "A traditional English puppet show, used here to contrast with the children's intended genteel performance."
+    },
+    "tin basin": {
+      "type": "vocabulary",
+      "description": "A metal washbasin, here used as a makeshift musical instrument for street performance."
+    },
+    "farthings": {
+      "type": "vocabulary",
+      "description": "A small denomination of currency; in Russia, this would correspond to kopecks, but 'farthing' is used in translation."
+    },
+    "tubercles": {
+      "type": "vocabulary",
+      "description": "Small nodules, especially those characteristic of tuberculosis infection."
+    },
+    "waiting-room": {
+      "type": "vocabulary",
+      "description": "A room where people wait, in this context likely at a government office."
+    },
+    "licence": {
+      "type": "vocabulary",
+      "description": "Official permission or permit, here referring to the legal requirement for street performers."
+    },
+    "certificate of merit": {
+      "type": "vocabulary",
+      "description": "An official document recognizing achievement or good conduct, often awarded in schools or institutions."
+    },
+    "pas de basque": {
+      "type": "vocabulary",
+      "description": "A ballet term for a particular dance step, used here as Katerina Ivanovna instructs the children."
+    },
+    "glissez": {
+      "type": "vocabulary",
+      "description": "French for 'slide', a dance instruction."
+    },
+    "menage": {
+      "type": "vocabulary",
+      "description": "French for 'household', used in the song 'Cinq sous'."
+    },
+    "Sonia’s lodging": {
+      "type": "proper_noun",
+      "description": "The place where Sonia lives, often visited by Raskolnikov and other characters."
+    },
+    "server": {
+      "type": "vocabulary",
+      "description": "An assistant to the priest during religious services, particularly in the Orthodox tradition."
+    },
+    "coffin": {
+      "type": "vocabulary",
+      "description": "A box in which a dead body is buried or cremated; in Russian custom, the body often lies in the coffin at home before burial."
+    },
+    "mourning dresses": {
+      "type": "vocabulary",
+      "description": "Clothing, typically black, worn to signify mourning after a death, following Russian and European customs."
+    },
+    "thoroughfares": {
+      "type": "vocabulary",
+      "description": "Main roads or streets in a city, often busy with traffic and people."
+    },
+    "drinking bout": {
+      "type": "vocabulary",
+      "description": "A session of heavy drinking, often used to describe Russian social or coping behavior."
+    },
+    "confession": {
+      "type": "vocabulary",
+      "description": "The act of admitting to a crime, particularly significant in the Russian legal and religious context."
+    },
+    "Dr. B——n": {
+      "type": "character",
+      "description": "A doctor whom Porfiry consults about his health; not a major character, but referenced as a medical authority."
+    },
+    "Old Believer": {
+      "type": "proper_noun",
+      "description": "A member of a religious sect that split from the Russian Orthodox Church in the 17th century, maintaining older rituals and beliefs."
+    },
+    "Wanderers": {
+      "type": "proper_noun",
+      "description": "A sect within the Old Believers who rejected settled life and wandered from place to place for religious reasons."
+    },
+    "Bible": {
+      "type": "proper_noun",
+      "description": "The Christian holy scripture, referenced as a source of comfort and obsession for certain characters."
+    },
+    "office": {
+      "type": "proper_noun",
+      "description": "Refers to the police or magistrate's office where official business and interrogations take place."
+    },
+    "journal": {
+      "type": "proper_noun",
+      "description": "A periodical publication; here, it refers to the publication in which Raskolnikov's article appeared."
+    },
+    "Morgenfrüh": {
+      "type": "proper_noun",
+      "description": "German for 'tomorrow morning'; used here as an interjection by Porfiry."
+    },
+    "God": {
+      "type": "proper_noun",
+      "description": "The Christian deity, invoked frequently in the context of morality, suffering, and redemption."
+    },
+    "Schiller": {
+      "type": "proper_noun",
+      "description": "Refers to Friedrich Schiller, a German poet and philosopher, often associated with idealism and lofty sentiments."
+    },
+    "elder": {
+      "type": "vocabulary",
+      "description": "A spiritual leader or advisor in Russian Orthodox and Old Believer communities."
+    },
+    "dissenter": {
+      "type": "vocabulary",
+      "description": "A person who separates from the established church, especially in reference to religious sects in Russia."
+    },
+    "trial": {
+      "type": "vocabulary",
+      "description": "A legal proceeding to determine guilt or innocence."
+    },
+    "mitigation of sentence": {
+      "type": "vocabulary",
+      "description": "A reduction in the severity of a criminal sentence, often due to confession or extenuating circumstances."
+    },
+    "bourgeois": {
+      "type": "vocabulary",
+      "description": "A term referring to the middle class, often used pejoratively in Russian literature to denote conventional or materialistic values."
+    },
+    "flunkey": {
+      "type": "vocabulary",
+      "description": "A servile person, especially one who behaves obsequiously to those in power."
+    },
+    "abjure": {
+      "type": "vocabulary",
+      "description": "To formally renounce or retract a previous statement or belief."
+    },
+    "prosecutor": {
+      "type": "vocabulary",
+      "description": "A legal official responsible for presenting the case against an accused person in a criminal trial."
+    },
+    "psychology": {
+      "type": "vocabulary",
+      "description": "The study of the mind and behavior; here, it refers to the use of psychological insight in criminal investigation."
+    },
+    "Katia": {
+      "type": "character",
+      "description": "Katia is a young singer, described as a healthy-looking girl of eighteen, who performs in the tavern and receives money from Svidrigaïlov."
+    },
+    "X. Prospect": {
+      "type": "proper_noun",
+      "description": "A partially anonymized street name (the 'X.' is a placeholder), typical in Russian literature to avoid specifying exact locations."
+    },
+    "Prospect": {
+      "type": "vocabulary",
+      "description": "A broad, major street or avenue in a Russian city."
+    },
+    "patriarchal footing": {
+      "type": "vocabulary",
+      "description": "Refers to a traditional, paternalistic way of managing relationships or households, often implying familiarity and authority."
+    },
+    "yellow note": {
+      "type": "vocabulary",
+      "description": "A colloquial term for a high-denomination Russian banknote, often yellow in color."
+    },
+    "contralto": {
+      "type": "vocabulary",
+      "description": "The lowest female singing voice."
+    },
+    "æsthetics": {
+      "type": "vocabulary",
+      "description": "The branch of philosophy dealing with beauty and artistic taste, often spelled 'aesthetics' in modern English."
+    },
+    "Parasha": {
+      "type": "character",
+      "description": "Parasha is a young, black-eyed maidservant who worked in Svidrigaïlov’s household and became involved in a scandal due to Svidrigaïlov’s behavior."
+    },
+    "Asia Minor": {
+      "type": "proper_noun",
+      "description": "A historical region in modern-day Turkey, referenced as an example of an ancient setting."
+    },
+    "Egyptian desert": {
+      "type": "proper_noun",
+      "description": "A reference to the deserts of Egypt, evoking the early Christian hermits and ascetics."
+    },
+    "Sistine Madonna": {
+      "type": "proper_noun",
+      "description": "A renowned painting by Raphael, used as a comparison for the young girl’s face."
+    },
+    "oraison funèbre": {
+      "type": "vocabulary",
+      "description": "French for 'funeral oration', a speech in praise of someone who has died."
+    },
+    "mamma": {
+      "type": "vocabulary",
+      "description": "An affectionate or childish term for mother."
+    },
+    "papa": {
+      "type": "vocabulary",
+      "description": "An affectionate or childish term for father."
+    },
+    "cancan": {
+      "type": "vocabulary",
+      "description": "A lively, high-kicking dance originating in France, considered risqué in the 19th century."
+    },
+    "den": {
+      "type": "vocabulary",
+      "description": "A slang term for a disreputable or low-class establishment."
+    },
+    "cher ami": {
+      "type": "vocabulary",
+      "description": "French for 'dear friend'."
+    },
+    "la nature et la vérité": {
+      "type": "vocabulary",
+      "description": "French for 'nature and truth', suggesting authenticity."
+    },
+    "assez causé": {
+      "type": "vocabulary",
+      "description": "French for 'enough talk' or 'that’s enough conversation'."
+    },
+    "adieu, mon plaisir": {
+      "type": "vocabulary",
+      "description": "French for 'farewell, my pleasure'."
+    },
+    "vis-à-vis": {
+      "type": "vocabulary",
+      "description": "French for 'face to face' or 'opposite', often used in dance to indicate partners."
+    },
+    "X. Hotel": {
+      "type": "proper_noun",
+      "description": "A placeholder name for a specific hotel, used to obscure the real or full name."
+    },
+    "X. Bridge": {
+      "type": "proper_noun",
+      "description": "A placeholder for a specific bridge in St. Petersburg, name intentionally obscured."
+    },
+    "patroness": {
+      "type": "vocabulary",
+      "description": "A woman who acts as a sponsor or benefactor, especially to charitable institutions."
+    },
+    "orphan asylums": {
+      "type": "vocabulary",
+      "description": "Institutions for the care and housing of orphaned children."
+    },
+    "chronicle": {
+      "type": "vocabulary",
+      "description": "A historical account of events arranged in chronological order."
+    },
+    "capsule": {
+      "type": "vocabulary",
+      "description": "In firearms, a small container holding the primer for igniting the gunpowder in a cartridge."
+    },
+    "charge": {
+      "type": "vocabulary",
+      "description": "A quantity of explosive or ammunition loaded into a firearm."
+    },
+    "Fedosya": {
+      "type": "character",
+      "description": "Fedosya is the cook in the household of Svidrigaïlov's betrothed's family."
+    },
+    "Achilles": {
+      "type": "character",
+      "description": "Achilles is a night watchman or gatekeeper, described as a little man in a soldier’s coat and helmet, who witnesses Svidrigaïlov's final act."
+    },
+    "Vauxhall": {
+      "type": "proper_noun",
+      "description": "A pleasure garden or entertainment venue, named after the famous Vauxhall Gardens in London, but here refers to a local Petersburg drinking-bar with music."
+    },
+    "Munich": {
+      "type": "proper_noun",
+      "description": "A city in Germany, referenced as the origin of the German clown performing in the pleasure garden."
+    },
+    "Third Street": {
+      "type": "proper_noun",
+      "description": "A street on Vassilyevsky Island in Petersburg, where Svidrigaïlov's betrothed's family lives."
+    },
+    "Vassilyevsky Island": {
+      "type": "proper_noun",
+      "description": "A large island in Saint Petersburg, known for its residential neighborhoods and institutions.",
+      "aliases": [
+        "Vassilyevsky Ostrov"
+      ]
+    },
+    "Little Neva": {
+      "type": "proper_noun",
+      "description": "A branch of the Neva River in Saint Petersburg, referenced as a geographical landmark."
+    },
+    "Y. Prospect": {
+      "type": "proper_noun",
+      "description": "An abbreviated or anonymized name for a major avenue (prospect) in Petersburg, a common device in Russian literature."
+    },
+    "Adrianople": {
+      "type": "proper_noun",
+      "description": "The name of a hotel Svidrigaïlov visits, likely named after the city of Adrianople (now Edirne in Turkey), reflecting the period's penchant for exotic names."
+    },
+    "Petrovsky Park": {
+      "type": "proper_noun",
+      "description": "A park in Saint Petersburg, also known as Petrovsky Island, associated with Svidrigaïlov's wanderings."
+    },
+    "Petrovsky Island": {
+      "type": "proper_noun",
+      "description": "An island in the Neva River, referenced as a location Svidrigaïlov thinks about visiting."
+    },
+    "Trinity day": {
+      "type": "proper_noun",
+      "description": "A major Russian Orthodox holiday, also known as Pentecost, associated with spring and family gatherings."
+    },
+    "organ-grinder": {
+      "type": "vocabulary",
+      "description": "A street musician who plays a barrel organ, common in 19th-century European cities."
+    },
+    "café chantant": {
+      "type": "vocabulary",
+      "description": "A French term for a café with musical entertainment, popular in 19th-century Europe."
+    },
+    "Achilles helmet": {
+      "type": "vocabulary",
+      "description": "A type of helmet resembling those worn by ancient Greek warriors, here part of the watchman's uniform."
+    },
+    "waistcoat": {
+      "type": "vocabulary",
+      "description": "A vest worn under a coat, part of men's formal attire in the 19th century."
+    },
+    "revolver": {
+      "type": "vocabulary",
+      "description": "A type of handgun with a revolving cylinder, used here as the means of Svidrigaïlov's suicide."
+    },
+    "Capitol": {
+      "type": "proper_noun",
+      "description": "A reference to the Capitoline Hill in Rome, symbolizing glory and honor bestowed upon conquerors."
+    },
+    "Russian": {
+      "type": "proper_noun",
+      "description": "Refers to the world of Russian thought and society, highlighting the national context of the novel."
+    },
+    "Academy": {
+      "type": "proper_noun",
+      "description": "Refers to an educational institution, likely the medical or women's academy in St. Petersburg."
+    },
+    "Livingstone’s Travels": {
+      "type": "proper_noun",
+      "description": "A reference to the published travel writings of David Livingstone, a famous British explorer."
+    },
+    "French style": {
+      "type": "proper_noun",
+      "description": "Refers to a manner or scandal considered fashionable or notorious in France, often implying decadence."
+    },
+    "Jerusalem": {
+      "type": "proper_noun",
+      "description": "Mentioned metaphorically as a destination for pilgrimage or penance."
+    },
+    "prison van": {
+      "type": "vocabulary",
+      "description": "A vehicle used to transport prisoners to and from jail or court."
+    },
+    "cross": {
+      "type": "vocabulary",
+      "description": "A Christian religious symbol, often worn as a pendant for protection or devotion."
+    },
+    "bowed down": {
+      "type": "vocabulary",
+      "description": "A gesture of deep respect, humility, or repentance, often involving kneeling and touching the ground."
+    },
+    "midwives": {
+      "type": "vocabulary",
+      "description": "Here used colloquially to refer to young women studying medicine, not just those assisting childbirth."
+    },
+    "crop-headed": {
+      "type": "vocabulary",
+      "description": "A term describing someone with very short-cropped hair, often used pejoratively for modern or radical women."
+    },
+    "Voznesensky Prospect": {
+      "type": "proper_noun",
+      "description": "A street in St. Petersburg, Russia, significant as the location where Raskolnikov hid the stolen items."
+    },
+    "Irtish": {
+      "type": "proper_noun",
+      "description": "A major river in Siberia, mentioned as a place where Raskolnikov works during his imprisonment."
+    },
+    "Lent": {
+      "type": "proper_noun",
+      "description": "A period of fasting and penitence in the Christian calendar leading up to Easter."
+    },
+    "Easter": {
+      "type": "proper_noun",
+      "description": "A major Christian holiday celebrating the resurrection of Jesus, marking a period of hope and renewal in the novel."
+    },
+    "Europe": {
+      "type": "proper_noun",
+      "description": "The continent referenced in Raskolnikov's feverish dream as the origin of a plague."
+    },
+    "Asia": {
+      "type": "proper_noun",
+      "description": "Referenced as the source of the symbolic plague in Raskolnikov's dream."
+    },
+    "second-class convict": {
+      "type": "vocabulary",
+      "description": "A category of prisoner in the Russian penal system, indicating a particular status and level of harshness in punishment."
+    },
+    "hypochondriacal": {
+      "type": "vocabulary",
+      "description": "Relating to hypochondria, a condition involving excessive worry about one's health."
+    },
+    "consumptive": {
+      "type": "vocabulary",
+      "description": "Suffering from consumption, an old term for tuberculosis."
+    },
+    "barracks": {
+      "type": "vocabulary",
+      "description": "Large buildings used to house groups of people, in this case, prisoners."
+    },
+    "plank bed": {
+      "type": "vocabulary",
+      "description": "A simple bed made from wooden planks, typical in prisons."
+    },
+    "seminarists": {
+      "type": "vocabulary",
+      "description": "Students in a seminary, training for the priesthood."
+    },
+    "gang": {
+      "type": "vocabulary",
+      "description": "A work group of convicts assigned to labor together."
+    },
+    "sacrament": {
+      "type": "vocabulary",
+      "description": "A religious ceremony, here referring to the Christian rite of communion."
+    },
+    "infidel": {
+      "type": "vocabulary",
+      "description": "A term used for someone who does not believe in the accepted religion, often used pejoratively."
+    },
+    "burnous": {
+      "type": "vocabulary",
+      "description": "A long, loose cloak with a hood, traditionally worn in North Africa but here used to describe Sonia's clothing."
+    },
+    "Testament": {
+      "type": "vocabulary",
+      "description": "Refers to the New Testament, the Christian scriptures."
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Raskolnikov",
+      "Alyona Ivanovna",
+      "Lizaveta",
+      "S. Place",
+      "K. bridge",
+      "Petersburg",
+      "Hay Market",
+      "civil service",
+      "ikon",
+      "garret",
+      "pot-houses",
+      "waggon",
+      "dray horse",
+      "tenement",
+      "flat",
+      "pledge",
+      "rouble",
+      "copeck",
+      "muslin",
+      "strong-box",
+      "tavern",
+      "concertina"
+    ],
+    "ch-1-2": [
+      "Raskolnikov",
+      "Marmeladov",
+      "Mr. Lebeziatnikov",
+      "Katerina Ivanovna",
+      "Sonia",
+      "Darya Frantsovna",
+      "Ivan Ivanitch Klopstock",
+      "Amalia Fyodorovna Lippevechsel",
+      "Kapernaumov",
+      "Ivan Afanasyvitch",
+      "Neva",
+      "England",
+      "Petersburg",
+      "Bedlam",
+      "Lewes’ Physiology",
+      "Cyrus of Persia",
+      "Kozel",
+      "Egyptian bridge",
+      "tavern",
+      "titular counsellor",
+      "yellow ticket",
+      "yellow passport",
+      "copeck",
+      "rouble",
+      "drap de dames",
+      "chemise",
+      "pelisse",
+      "pomatum",
+      "farthing",
+      "cabinet-maker",
+      "concertina",
+      "tallow-candle",
+      "American leather"
+    ],
+    "ch-1-3": [
+      "Raskolnikov",
+      "Nastasya",
+      "Praskovya Pavlovna",
+      "Dounia",
+      "Vassily Ivanovitch Vahrushin",
+      "Mr. Svidrigaïlov",
+      "Marfa Petrovna",
+      "Pyotr Petrovitch Luzhin",
+      "Afanasy Ivanovitch",
+      "Petersburg",
+      "Vassilyevsky Ostrov",
+      "Vassilyevsky Prospect",
+      "Senate",
+      "Our Lady",
+      "Cathedral",
+      "ikon",
+      "roubles",
+      "pension",
+      "governess",
+      "regimental",
+      "Bacchus",
+      "versts",
+      "third class",
+      "bureau",
+      "civil and commercial litigation",
+      "landlady"
+    ],
+    "ch-1-4": [
+      "Mr. Luzhin",
+      "Dounia",
+      "Rodya",
+      "Avdotya Romanovna",
+      "Afanasy Ivanovitch",
+      "Svidrigaïlov",
+      "Svidrigaïlovs",
+      "Marfa Petrovna",
+      "Sonia",
+      "Sonia Marmeladov",
+      "Marmeladov",
+      "Razumihin",
+      "Holy Mother of Kazan",
+      "Golgotha",
+      "Anna",
+      "Schleswig-Holstein",
+      "Petersburg",
+      "Vassilyevsky Ostrov",
+      "K—— Boulevard",
+      "Darya Frantsovnas",
+      "university",
+      "post-haste",
+      "express",
+      "peasant’s cart",
+      "sacking",
+      "verst",
+      "roubles",
+      "paper ones",
+      "pension",
+      "knits woollen shawls",
+      "Schilleresque",
+      "orders of merit",
+      "buttonhole",
+      "governess",
+      "nigger",
+      "Lett",
+      "concubine",
+      "casuists",
+      "Jesuitical",
+      "copecks",
+      "cab",
+      "gentlefolk",
+      "percentage",
+      "comrades"
+    ],
+    "ch-1-5": [
+      "Razumihin",
+      "Raskolnikov",
+      "Nastasya",
+      "Marmeladovs",
+      "Pushkin",
+      "Turgenev",
+      "Lizaveta Ivanovna",
+      "Alyona Ivanovna",
+      "Mikolka",
+      "Matvey",
+      "Vassilyevsky Ostrov",
+      "Lesser Neva",
+      "Petrovsky Ostrov",
+      "Neva",
+      "Hay Market",
+      "Ivanovna",
+      "Alyona Ivanovna",
+      "Lizaveta Ivanovna",
+      "farthing",
+      "copecks",
+      "vodka",
+      "balalaïka",
+      "cupola",
+      "ikons",
+      "mass",
+      "huckster",
+      "costermongers",
+      "barrows",
+      "verandahs",
+      "nag",
+      "tambourine"
+    ],
+    "ch-1-6": [
+      "Raskolnikov",
+      "Lizaveta",
+      "Alyona Ivanovna",
+      "Pokorev",
+      "Nastasya",
+      "the huckster",
+      "the officer",
+      "the student",
+      "the landlady",
+      "the porter",
+      "Harkov",
+      "Hay Market",
+      "monastery",
+      "province of N——",
+      "Lock hospitals",
+      "Yusupov garden",
+      "summer garden",
+      "field of Mars",
+      "Mihailovsky Palace",
+      "huckster",
+      "roubles",
+      "pledge",
+      "farthing",
+      "movables",
+      "charwoman",
+      "garret",
+      "noose",
+      "parti-coloured",
+      "landlady",
+      "porter"
+    ],
+    "ch-1-7": [
+      "Raskolnikov",
+      "Alyona Ivanovna",
+      "Lizaveta",
+      "Koch",
+      "Mitka",
+      "Gambrinus",
+      "Cyprus",
+      "pledge",
+      "noose",
+      "chamois",
+      "filigree",
+      "porter",
+      "flat",
+      "gateway"
+    ],
+    "ch-2-8": [
+      "Nastasya",
+      "Raskolnikov",
+      "the porter",
+      "Luise Ivanovna",
+      "Ilya Petrovitch",
+      "Nikodim Fomitch",
+      "Alexandr Grigorievitch",
+      "Koch",
+      "Pestryakov",
+      "police office",
+      "district police-station",
+      "district superintendent",
+      "the province of X",
+      "Noah’s Ark",
+      "house of correction",
+      "regiment",
+      "taverns",
+      "claspknife",
+      "landlady",
+      "mourning",
+      "curtsying",
+      "cockaded cap",
+      "I O U",
+      "roubles",
+      "writ",
+      "lock-up",
+      "cad",
+      "pianoforte",
+      "sein rock",
+      "man muss",
+      "ganz",
+      "thanksgiving service",
+      "crossing himself"
+    ],
+    "ch-2-9": [
+      "Nastasya",
+      "Ilya Petrovitch",
+      "Razumihin",
+      "Heruvimov",
+      "Raskolnikov",
+      "Ekaterininsky Canal",
+      "Neva",
+      "V—— Prospect",
+      "Islands",
+      "K—— Boulevard",
+      "Les Confessions",
+      "Radishchev",
+      "Nikolaevsky Bridge",
+      "Vassilyevsky Ostrov",
+      "palace",
+      "cathedral",
+      "copecks",
+      "rouble",
+      "signature",
+      "greatcoat",
+      "landlady",
+      "garret"
+    ],
+    "ch-2-10": [
+      "Nastasya",
+      "Raskolnikov",
+      "Razumihin",
+      "landlady",
+      "Pashenka",
+      "Zossimov",
+      "messenger",
+      "Alexey Semyonovitch",
+      "Afanasy Ivanovitch Vahrushin",
+      "Semyon Semyonovitch",
+      "Nikodim Fomitch",
+      "Ilya Petrovitch",
+      "Mr. Zametov",
+      "Natalya Yegorovna",
+      "Mr. Tchebarov",
+      "Luise Ivanovna",
+      "Tolstyakov",
+      "Five Corners",
+      "Harlamov’s house",
+      "Buch’s",
+      "address bureau",
+      "General Kobelev",
+      "police office",
+      "Krestovsky Island",
+      "United States of America",
+      "English Embassy",
+      "Fedyaev’s",
+      "Sharmer’s",
+      "roubles",
+      "copecks",
+      "I O U",
+      "remittance",
+      "faculty",
+      "linen",
+      "breeches",
+      "Palmerston",
+      "tryst",
+      "bundle"
+    ],
+    "ch-2-11": [
+      "Zossimov",
+      "Razumihin",
+      "Raskolnikov",
+      "Nastasya",
+      "Porfiry Petrovitch",
+      "Zametov",
+      "Lizaveta",
+      "Koch",
+      "Pestryakov",
+      "Dushkin",
+      "Nikolay",
+      "Dmitri",
+      "Afanasy Pavlovitch",
+      "Kryukov",
+      "Yusupov garden",
+      "Palais de Cristal",
+      "Petersburg",
+      "Investigation Department",
+      "Zaraïsk",
+      "Ryazan",
+      "Peski",
+      "Kolomensky men",
+      "linen",
+      "vodka",
+      "rouble",
+      "note",
+      "pledges",
+      "unredeemed pledges",
+      "dram-shop",
+      "spree",
+      "porter",
+      "flat",
+      "entry",
+      "jewel-case",
+      "prosecution",
+      "circumstantial evidence"
+    ],
+    "ch-2-12": [
+      "Raskolnikov",
+      "Razumihin",
+      "Zossimov",
+      "Pyotr Petrovitch Luzhin",
+      "Nastasya",
+      "Andrey Semyonovitch Lebeziatnikov",
+      "Madame Lippevechsel",
+      "Koch",
+      "Porfiry",
+      "Pashenka",
+      "Senate",
+      "Petersburg",
+      "Bakaleyev’s house",
+      "Voskresensky",
+      "Yushin",
+      "Ministry",
+      "Moscow",
+      "the police office",
+      "the provinces",
+      "fiancé",
+      "betrothed",
+      "roubles",
+      "notes",
+      "pledges",
+      "pawnbroker",
+      "trunks",
+      "flat",
+      "lodging"
+    ],
+    "ch-2-13": [
+      "Razumihin",
+      "Raskolnikov",
+      "Nastasya",
+      "Zametov",
+      "Zossimov",
+      "Lizaveta",
+      "Luise Ivanovna",
+      "Dmitri",
+      "Ilya Petrovitch",
+      "Duclida",
+      "Alyoshka",
+      "Afrosinya",
+      "Potchinkov",
+      "Babushkin",
+      "Hay Market",
+      "Sadovy Street",
+      "Palais de Cristal",
+      "Moscow News",
+      "Petersburg",
+      "Shil’s house",
+      "Potchinkov’s house",
+      "Babushkin’s flat",
+      "X—— Bridge",
+      "Peski",
+      "gymnasium",
+      "police office",
+      "samovar",
+      "roubles",
+      "copeck",
+      "crinoline",
+      "mantle",
+      "barrel organ",
+      "huckster",
+      "corn chandler",
+      "district",
+      "eating-house",
+      "dram shops",
+      "saloon",
+      "ikons",
+      "fashion book",
+      "porter",
+      "spermaceti ointment",
+      "lymph",
+      "storey",
+      "parapet"
+    ],
+    "ch-2-14": [
+      "Raskolnikov",
+      "Marmeladov",
+      "Katerina Ivanovna",
+      "Polenka",
+      "Lida",
+      "Sonia",
+      "Nikodim Fomitch",
+      "Amalia Ludwigovna",
+      "Mr. Lebeziatnikov",
+      "Razumihin",
+      "Zossimov",
+      "Zametov",
+      "Ilya Petrovitch",
+      "Porfiry",
+      "Pulcheria Alexandrovna Raskolnikov",
+      "Dounia",
+      "Kozel’s house",
+      "Petersburg",
+      "Princess Bezzemelny",
+      "Prince Schegolskoy",
+      "kammerjunker",
+      "Governor-General",
+      "Palais de Cristal",
+      "Luise Ivanovna",
+      "Potchinkov’s house",
+      "Madame Lippevechsel",
+      "roubles",
+      "samovars",
+      "crinoline",
+      "kerchief",
+      "Ave Maria",
+      "garret"
+    ],
+    "ch-3-15": [
+      "Raskolnikov",
+      "Razumihin",
+      "Pulcheria Alexandrovna",
+      "Avdotya Romanovna",
+      "Luzhin",
+      "Nastasya",
+      "Zossimov",
+      "Praskovya Pavlovna",
+      "Tchebarov",
+      "Petersburg",
+      "Rubinstein",
+      "Prussian House of Lords",
+      "Number 3",
+      "landlady",
+      "lodgings",
+      "betrothed",
+      "fiancé",
+      "maître",
+      "samovar",
+      "powder",
+      "delirium",
+      "monomania",
+      "integral calculus",
+      "feather bed",
+      "pailfuls",
+      "gutter"
+    ],
+    "ch-3-16": [
+      "Razumihin",
+      "Avdotya Romanovna",
+      "Nastasya",
+      "Praskovya Pavlovna",
+      "Zossimov",
+      "Raskolnikov",
+      "Zametov",
+      "Porfiry",
+      "Pulcheria Alexandrovna",
+      "Pyotr Petrovitch",
+      "Marfa Petrovna",
+      "Senate",
+      "Bakaleyev’s house",
+      "Venetian",
+      "levées",
+      "samovar",
+      "pothouse",
+      "monomaniac",
+      "hypochondriac",
+      "farthing",
+      "circumstantial",
+      "mantle"
+    ],
+    "ch-3-17": [
+      "Zossimov",
+      "Raskolnikov",
+      "Nastasya",
+      "Pulcheria Alexandrovna",
+      "Razumihin",
+      "Dounia",
+      "Avdotya Romanovna",
+      "Vasya",
+      "Afanasy Ivanitch",
+      "Lieutenant Potanchikov",
+      "Pyotr Petrovitch",
+      "Marfa Petrovna",
+      "Marfa Petrovna Svidrigaïlov",
+      "Svidrigaïlov",
+      "university",
+      "Petersburg",
+      "Afanasy Ivanitch’s shop",
+      "court-yard",
+      "Pyotr Petrovitch’s letter",
+      "the courts",
+      "bath-house",
+      "consumption",
+      "fiancé",
+      "alms",
+      "nunnery",
+      "delirium",
+      "stroke",
+      "crossing herself",
+      "lodging",
+      "Crevez, chiens, si vous n’êtes pas contents",
+      "legal jargon"
+    ],
+    "ch-3-18": [
+      "Raskolnikov",
+      "Sofya Semyonovna Marmeladov",
+      "Katerina Ivanovna",
+      "Razumihin",
+      "Pulcheria Alexandrovna",
+      "Dounia",
+      "Zossimov",
+      "Pyotr Petrovitch",
+      "Porfiry Petrovitch",
+      "Polenka",
+      "Kapernaumov",
+      "Madame Resslich",
+      "Mitrofanievsky",
+      "Petersburg",
+      "Porfiry",
+      "Polenka",
+      "Kapernaumov",
+      "Madame Resslich",
+      "parasol",
+      "calumny",
+      "funeral lunch",
+      "rouble",
+      "delirium",
+      "pomatum"
+    ],
+    "ch-3-19": [
+      "Raskolnikov",
+      "Razumihin",
+      "Porfiry Petrovitch",
+      "Zametov",
+      "Nikodim Fomitch",
+      "Alyona Ivanovna",
+      "Zossimov",
+      "Nikolay",
+      "Dmitri",
+      "Crown",
+      "Weekly Review",
+      "Periodical Review",
+      "Church of Ivan the Great",
+      "Lycurgus",
+      "Solon",
+      "Mahomet",
+      "Napoleon",
+      "New Jerusalem",
+      "Lazarus",
+      "Russia",
+      "rouble",
+      "pledges",
+      "pecuniary",
+      "flat",
+      "porter",
+      "penal servitude",
+      "banishment",
+      "phalanstery",
+      "reading-room",
+      "retort"
+    ],
+    "ch-3-20": [
+      "Razumihin",
+      "Raskolnikov",
+      "Pulcheria Alexandrovna",
+      "Dounia",
+      "Porfiry",
+      "Zametov",
+      "Tchebarov",
+      "Nastasya",
+      "Nikolay",
+      "Sonia",
+      "Lizaveta",
+      "Arkady Ivanovitch Svidrigaïlov",
+      "Bakaleyev’s",
+      "Reaumur",
+      "V.",
+      "Toulon",
+      "Paris",
+      "Egypt",
+      "Moscow",
+      "Vilna",
+      "Waterloo",
+      "Porfiry Petrovitch",
+      "I.O.U.",
+      "rouble",
+      "garret",
+      "noose",
+      "æsthetic",
+      "louse",
+      "prophet",
+      "sabre",
+      "battery",
+      "monastery",
+      "porter"
+    ],
+    "ch-4-21": [
+      "Raskolnikov",
+      "Svidrigaïlov",
+      "Avdotya Romanovna",
+      "Marfa Petrovna",
+      "Mr. Luzhin",
+      "Razumihin",
+      "Berg",
+      "Prince Svirbey",
+      "Madam Prilukov",
+      "Aniska",
+      "Filka",
+      "America",
+      "Switzerland",
+      "Moscow",
+      "Nezhin",
+      "Petersburg",
+      "Yusupov Garden",
+      "Malaya Vishera",
+      "Hay Market",
+      "North Pole",
+      "The Egyptian Nights",
+      "IOU",
+      "French",
+      "German",
+      "apoplexy",
+      "serf",
+      "card-sharper",
+      "wedlock",
+      "roubles",
+      "cookshop",
+      "name-day",
+      "pour vous plaire",
+      "bonne guerre"
+    ],
+    "ch-4-22": [
+      "Razumihin",
+      "Luzhin",
+      "Svidrigaïlov",
+      "Marfa Petrovna",
+      "Dounia",
+      "Raskolnikov",
+      "Pulcheria Alexandrovna",
+      "Porfiry",
+      "Zametov",
+      "Resslich",
+      "Philip",
+      "Bakaleyev’s",
+      "Petersburg",
+      "Mother Russia",
+      "Siberia",
+      "serfdom",
+      "debtor’s prison",
+      "samovar",
+      "roubles",
+      "conjugal",
+      "betrothed",
+      "legacy",
+      "hypochondriac",
+      "garret"
+    ],
+    "ch-4-23": [
+      "Pyotr Petrovitch",
+      "Dounia",
+      "Marfa Petrovna",
+      "Raskolnikov",
+      "Razumihin",
+      "Svidrigaïlov",
+      "Pulcheria Alexandrovna",
+      "Avdotya Romanovna",
+      "Petersburg",
+      "Luzhin",
+      "Rodion",
+      "Rodya",
+      "Dmitri Prokofitch",
+      "Avdotya Romanovna",
+      "roubles",
+      "schwach",
+      "pension",
+      "lodgings",
+      "pawn"
+    ],
+    "ch-4-24": [
+      "Raskolnikov",
+      "Sonia",
+      "Kapernaumov",
+      "Katerina Ivanovna",
+      "Polenka",
+      "Lida",
+      "Andrey Semyonovitch Lebeziatnikov",
+      "Lizaveta",
+      "Madame Resslich",
+      "Mr. Svidrigaïlov",
+      "canal",
+      "Hay Market",
+      "New Testament",
+      "St. John",
+      "Lazarus",
+      "Bethany",
+      "Jesus",
+      "Martha",
+      "Mary",
+      "porter",
+      "gallery",
+      "bedstead",
+      "deal",
+      "rush-bottom chairs",
+      "house serf",
+      "landlady",
+      "consumption",
+      "requiem service",
+      "pedlar",
+      "collars and cuffs",
+      "graveclothes"
+    ],
+    "ch-4-25": [
+      "Raskolnikov",
+      "Porfiry Petrovitch",
+      "Dmitri Prokofitch",
+      "Lizaveta",
+      "department of the investigation of criminal causes",
+      "Petersburg",
+      "Sevastopol",
+      "Alma",
+      "High Court of Appeal",
+      "Court of Appeal",
+      "Napoleon",
+      "General Mack",
+      "Austrian Hof-kriegsrath",
+      "tout court",
+      "c’est de rigueur",
+      "sedentary",
+      "incognito",
+      "punchinello",
+      "monomania",
+      "belfry",
+      "porter",
+      "decanter"
+    ],
+    "ch-4-26": [
+      "Raskolnikov",
+      "Porfiry Petrovitch",
+      "Nikolay",
+      "Alyona Ivanovna",
+      "Lizaveta Ivanovna",
+      "Mitka",
+      "Sonia",
+      "Katerina Ivanovna",
+      "Gogol",
+      "police station",
+      "detective department",
+      "warder",
+      "scaffold",
+      "memorial dinner",
+      "porter",
+      "flat"
+    ],
+    "ch-5-27": [
+      "Pyotr Petrovitch",
+      "Dounia",
+      "Andrey Semyonovitch Lebeziatnikov",
+      "Raskolnikov",
+      "Katerina Ivanovna",
+      "Madame Lippevechsel",
+      "Amalia Ivanovna",
+      "Sofya Semyonovna",
+      "senate",
+      "Petersburg",
+      "Knopp’s",
+      "English shop",
+      "Fourier",
+      "Darwinian theory",
+      "Raphael",
+      "Pushkin",
+      "France",
+      "Terebyeva",
+      "Varents",
+      "rouble",
+      "trousseau",
+      "lodgers",
+      "commune",
+      "nihilists",
+      "propaganda",
+      "progressives",
+      "reckoning frame",
+      "five-per-cent bonds",
+      "memorial dinners",
+      "free marriage",
+      "subscription",
+      "Jamaica rum",
+      "Madeira",
+      "official",
+      "patronage",
+      "temporary assistance",
+      "pension",
+      "destitute widow",
+      "beads",
+      "chastity",
+      "cesspool"
+    ],
+    "ch-5-28": [
+      "Katerina Ivanovna",
+      "Raskolnikov",
+      "Amalia Ivanovna",
+      "Sonia",
+      "Polenka",
+      "Pyotr Petrovitch Luzhin",
+      "Lebeziatnikov",
+      "Marmeladov",
+      "Kolya",
+      "Lida",
+      "Mangot",
+      "Karl from the chemist’s",
+      "Johann",
+      "Madeira",
+      "Lisbon wine",
+      "samovars",
+      "bazaar",
+      "Pani",
+      "Madame Lippevechsel",
+      "Petersburg",
+      "T——",
+      "gymnasium",
+      "boarding-school",
+      "certificate of honour",
+      "order",
+      "major",
+      "colonel",
+      "commissariat department",
+      "university",
+      "governor",
+      "burgomeister",
+      "roubles",
+      "vodka",
+      "pancakes",
+      "rice and honey",
+      "mourning",
+      "dressing-gown",
+      "entrée",
+      "yellow ticket",
+      "die Wäsche",
+      "Vater aus Berlin",
+      "draggletails",
+      "shawl dance"
+    ],
+    "ch-5-29": [
+      "Pyotr Petrovitch",
+      "Katerina Ivanovna",
+      "Amalia Ivanovna",
+      "Sofya Ivanovna",
+      "Lebeziatnikov",
+      "Raskolnikov",
+      "Luzhin",
+      "Rodion Romanovitch",
+      "Polenka",
+      "Avdotya Romanovna Raskolnikov",
+      "Marmeladov",
+      "Sofya Semyonovna",
+      "governor-general",
+      "Siberia",
+      "Sovereign",
+      "Tsar",
+      "Petersburg",
+      "Madame Kobilatnikov",
+      "General Treatise on the Positive Method",
+      "Piderit",
+      "Wagner",
+      "commissariat clerk",
+      "Poles",
+      "Prussian",
+      "rouble",
+      "mademoiselle",
+      "pocket-book",
+      "subscription",
+      "instalment",
+      "passport",
+      "betrothed",
+      "pettifogging",
+      "crinoline",
+      "lodgers",
+      "pan",
+      "lajdak",
+      "bread and salt",
+      "harangue",
+      "atheists",
+      "agitators",
+      "vodka"
+    ],
+    "ch-5-30": [
+      "Raskolnikov",
+      "Sonia",
+      "Luzhin",
+      "Lizaveta",
+      "Katerina Ivanovna",
+      "Amalia Ivanovna",
+      "Lebeziatnikov",
+      "Polenka",
+      "Razumihin",
+      "Nastasya",
+      "Siberia",
+      "V—— Prospect",
+      "Toulon",
+      "Egypt",
+      "Mont Blanc",
+      "Napoleon",
+      "the university",
+      "rouble",
+      "ikon",
+      "cross-roads",
+      "cypress wood",
+      "garret"
+    ],
+    "ch-5-31": [
+      "Lebeziatnikov",
+      "Sofya Semyonovna",
+      "Raskolnikov",
+      "Katerina Ivanovna",
+      "Sonia",
+      "Amalia Ivanovna",
+      "Lida",
+      "Polenka",
+      "Kolya",
+      "Dounia",
+      "Dmitri Prokofitch",
+      "Razumihin",
+      "Semyon Zaharovitch",
+      "Svidrigaïlov",
+      "Avdotya Romanovna",
+      "Madame Resslich",
+      "Kapernaumov",
+      "Paris",
+      "Nevsky",
+      "Petersburg",
+      "Tsar",
+      "Dagestan",
+      "Kapernaumovs",
+      "Marlborough s’en va-t-en guerre",
+      "Cinq sous",
+      "My Village",
+      "An Hussar",
+      "Punch and Judy",
+      "Semyon Zaharovitch",
+      "Madame Resslich",
+      "barrel-organ",
+      "tin basin",
+      "rouble",
+      "farthings",
+      "consumption",
+      "tubercles",
+      "waiting-room",
+      "licence",
+      "certificate of merit",
+      "pas de basque",
+      "glissez",
+      "menage"
+    ],
+    "ch-6-32": [
+      "Raskolnikov",
+      "Svidrigaïlov",
+      "Sonia",
+      "Katerina Ivanovna",
+      "Polenka",
+      "Nastasya",
+      "Razumihin",
+      "Avdotya Romanovna",
+      "Porfiry",
+      "Nikolay",
+      "Rodion Romanovitch",
+      "Sonia’s lodging",
+      "Krestovsky Island",
+      "Porfiry’s",
+      "Avdotya Romanovna",
+      "Sofya Semyonovna",
+      "Rodion Romanovitch",
+      "requiem service",
+      "server",
+      "coffin",
+      "mourning dresses",
+      "betrothed",
+      "porter",
+      "tavern",
+      "thoroughfares",
+      "drinking bout",
+      "confession"
+    ],
+    "ch-6-33": [
+      "Porfiry Petrovitch",
+      "Rodion Romanovitch",
+      "Raskolnikov",
+      "Dr. B——n",
+      "Nikolay",
+      "Razumihin",
+      "Zametov",
+      "Petersburg",
+      "Old Believer",
+      "Wanderers",
+      "Bible",
+      "office",
+      "journal",
+      "Morgenfrüh",
+      "God",
+      "Schiller",
+      "roubles",
+      "elder",
+      "dissenter",
+      "trial",
+      "mitigation of sentence",
+      "bourgeois",
+      "flunkey",
+      "abjure",
+      "prosecutor",
+      "psychology"
+    ],
+    "ch-6-34": [
+      "Svidrigaïlov",
+      "Porfiry",
+      "Sonia",
+      "Katerina Ivanovna",
+      "Dounia",
+      "Luzhin",
+      "Razumihin",
+      "Philip",
+      "Katia",
+      "Rodion Romanovitch",
+      "Petersburg",
+      "Hay Market",
+      "X. Prospect",
+      "Russia",
+      "Marfa Petrovna",
+      "Schiller",
+      "Prospect",
+      "patriarchal footing",
+      "yellow note",
+      "saloon",
+      "contralto",
+      "card-sharper",
+      "æsthetics"
+    ],
+    "ch-6-35": [
+      "Svidrigaïlov",
+      "Marfa Petrovna",
+      "Avdotya Romanovna",
+      "Raskolnikov",
+      "Luzhin",
+      "Philip",
+      "Parasha",
+      "Madame Resslich",
+      "Katerina Ivanovna",
+      "Razumihin",
+      "Petersburg",
+      "Asia Minor",
+      "Egyptian desert",
+      "Raphael",
+      "Sistine Madonna",
+      "Hay Market",
+      "French",
+      "Schiller",
+      "Philip",
+      "debtors’ prison",
+      "oraison funèbre",
+      "governess",
+      "roubles",
+      "betrothed",
+      "mamma",
+      "papa",
+      "muslin",
+      "saloon",
+      "cancan",
+      "den",
+      "cher ami",
+      "la nature et la vérité",
+      "assez causé",
+      "adieu, mon plaisir",
+      "vis-à-vis"
+    ],
+    "ch-6-36": [
+      "Raskolnikov",
+      "Svidrigaïlov",
+      "Dounia",
+      "Sofya Semyonovna",
+      "Katerina Ivanovna",
+      "Kapernaumov",
+      "Madame de Kapernaumov",
+      "Madame Resslich",
+      "Avdotya Romanovna",
+      "Marfa Petrovna",
+      "Razumihin",
+      "Lizaveta",
+      "Islands",
+      "Hay Market",
+      "X. Hotel",
+      "America",
+      "Sofya Semyonovna",
+      "Rodion Romanovitch",
+      "Avdotya Romanovna",
+      "Mr. Razumihin",
+      "Napoleon",
+      "X. Bridge",
+      "patroness",
+      "orphan asylums",
+      "flat",
+      "lodgings",
+      "bureau",
+      "five-per-cent bond",
+      "porter",
+      "chronicle",
+      "landlady",
+      "capsule",
+      "charge"
+    ],
+    "ch-6-37": [
+      "Svidrigaïlov",
+      "Katia",
+      "Sonia",
+      "Rodion Romanovitch",
+      "Amalia Ivanovna",
+      "Katerina Ivanovna",
+      "Mr. Razumihin",
+      "Dounia",
+      "Marfa Petrovna",
+      "Fedosya",
+      "Madame Resslich",
+      "Achilles",
+      "Vauxhall",
+      "Munich",
+      "America",
+      "Petersburg",
+      "Third Street",
+      "Vassilyevsky Island",
+      "Paris",
+      "Little Neva",
+      "Y. Prospect",
+      "Adrianople",
+      "Petrovsky Park",
+      "Petrovsky Island",
+      "Trinity day",
+      "organ-grinder",
+      "roubles",
+      "5-per-cent bonds",
+      "café chantant",
+      "muslin",
+      "Achilles helmet",
+      "greatcoat",
+      "waistcoat",
+      "revolver"
+    ],
+    "ch-6-38": [
+      "Raskolnikov",
+      "Pulcheria Alexandrovna",
+      "Dounia",
+      "Razumihin",
+      "Dmitri Prokofitch",
+      "Sofya Semyonovna",
+      "Nastasya",
+      "Porfiry",
+      "Bakaleyev’s house",
+      "Neva",
+      "Capitol",
+      "Russian",
+      "samovar",
+      "penal servitude"
+    ],
+    "ch-6-39": [
+      "Sonia",
+      "Dounia",
+      "Svidrigaïlov",
+      "Raskolnikov",
+      "Explosive Lieutenant",
+      "Ilya Petrovitch",
+      "Nikodim Fomitch",
+      "Zametov",
+      "Marmeladov",
+      "Lizaveta",
+      "Hay Market",
+      "St. Petersburg",
+      "Siberia",
+      "Academy",
+      "Livingstone’s Travels",
+      "police office",
+      "French style",
+      "Jerusalem",
+      "cross-roads",
+      "ikon",
+      "drap de dames",
+      "prison van",
+      "cross",
+      "bowed down",
+      "midwives",
+      "crop-headed"
+    ],
+    "ch-7-40": [
+      "Rodion Raskolnikov",
+      "Lizaveta",
+      "Koch",
+      "Nikolay",
+      "Dmitri",
+      "Porfiry Petrovitch",
+      "Dr. Zossimov",
+      "Razumihin",
+      "Dounia",
+      "Pulcheria Alexandrovna",
+      "Sonia",
+      "Svidrigaïlov",
+      "Sofya Semyonovna",
+      "Siberia",
+      "Russia",
+      "Voznesensky Prospect",
+      "Five Corners",
+      "Petersburg",
+      "Avdotya Romanovna",
+      "New Testament",
+      "Irtish",
+      "Lent",
+      "Easter",
+      "Europe",
+      "Asia",
+      "second-class convict",
+      "roubles",
+      "copecks",
+      "penal servitude",
+      "hypochondriacal",
+      "consumptive",
+      "barracks",
+      "plank bed",
+      "seminarists",
+      "gang",
+      "sacrament",
+      "infidel",
+      "burnous",
+      "Testament"
+    ]
+  }
+}
