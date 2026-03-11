@@ -113,6 +113,7 @@ function buildManifestEntry(payload: OfflineBookPayload): OfflineBookEntry {
     mode: payload.mode,
     languageParam: payload.languageParam,
     cachedAt: new Date().toISOString(),
+    estimatedSizeMB: payload.estimatedSizeMB,
   };
 }
 

@@ -4,6 +4,7 @@ import { UserButton, useAuth, useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import SiteSearch from "@/components/search/SiteSearch";
+import { useHeaderBack } from "@/lib/headerContext";
 
 const OFFLINE_ENABLED = process.env.NEXT_PUBLIC_ENABLE_OFFLINE === "true";
 
@@ -12,6 +13,10 @@ export default function Header() {
   const { user } = useUser();
   const pathname = usePathname();
   const isSubPage = pathname !== "/";
+  const backOverride = useHeaderBack();
+
+  const backLabel = backOverride?.label ?? "All Books";
+  const backHref = backOverride?.href ?? "/";
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#0a0a0a]/40 backdrop-blur-xl border-b border-white/[0.06]">
@@ -19,8 +24,8 @@ export default function Header() {
         <div className="flex items-center gap-2">
           {isSubPage && (
             <Link
-              href="/"
-              className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-xs font-medium tracking-wide border border-white/20 text-white/70 hover:bg-white/10 transition-colors"
+              href={backHref}
+              className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-xs font-medium tracking-wide border border-white/20 text-white/70 hover:bg-white/10 transition-colors max-w-[160px]"
             >
               <svg width="12" height="12" viewBox="0 0 16 16" fill="none" className="shrink-0">
                 <path
@@ -31,7 +36,7 @@ export default function Header() {
                   strokeLinejoin="round"
                 />
               </svg>
-              All Books
+              <span className="truncate">{backLabel}</span>
             </Link>
           )}
           <SiteSearch />
@@ -41,14 +46,6 @@ export default function Header() {
           <span className={isSubPage ? "hidden sm:inline" : ""}>Grand Old Books</span>
         </Link>
         <div className="flex items-center gap-2">
-          {OFFLINE_ENABLED && (
-            <Link
-              href="/downloads"
-              className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium tracking-wide border border-white/20 text-white/70 hover:bg-white/10 transition-colors"
-            >
-              Downloads
-            </Link>
-          )}
           {!isLoaded ? (
             <div className="w-7 h-7" />
           ) : !userId ? (
@@ -69,7 +66,17 @@ export default function Header() {
                 }
               }}
             >
-              <UserButton />
+              <UserButton>
+                {OFFLINE_ENABLED && (
+                  <UserButton.MenuItems>
+                    <UserButton.Link
+                      label="Downloads"
+                      labelIcon={<DownloadIcon />}
+                      href="/downloads"
+                    />
+                  </UserButton.MenuItems>
+                )}
+              </UserButton>
               {user?.firstName && (
                 <span className="text-xs font-medium text-white/70 select-none">
                   {user.firstName}
@@ -80,5 +87,13 @@ export default function Header() {
         </div>
       </nav>
     </header>
+  );
+}
+
+function DownloadIcon() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+      <path d="M8 2v8m0 0l-3-3m3 3l3-3M3 13h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
   );
 }

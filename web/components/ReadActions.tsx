@@ -11,6 +11,7 @@ interface ReadActionsProps {
   bookId: string;
   accentColor: string;
   totalChapters: number;
+  wordCount?: number;
   hasOriginalText?: boolean;
   hasModernText?: boolean;
   hasKidText?: boolean;
@@ -23,6 +24,7 @@ export default function ReadActions({
   bookId,
   accentColor,
   totalChapters,
+  wordCount,
   hasOriginalText,
   hasModernText,
   hasKidText,
@@ -46,7 +48,8 @@ export default function ReadActions({
     return unsub;
   }, []);
 
-  const languageParam = hydrated ? storedLang : undefined;
+  const showToggle = hasOriginalText || hasModernText || hasKidText;
+  const languageParam = hydrated && showToggle ? storedLang : undefined;
 
   const handleLanguageChange = (lang: LanguageOption) => {
     if (lang === "original" && originalLanguage) {
@@ -68,8 +71,6 @@ export default function ReadActions({
         ? "child"
         : "original";
 
-  const showToggle = hasOriginalText || hasModernText || hasKidText;
-
   // Reserve layout space but hide content until hydrated to avoid flicker
   return (
     <div style={{ visibility: hydrated ? "visible" : "hidden" }}>
@@ -81,7 +82,7 @@ export default function ReadActions({
           languageParam={languageParam}
           progress={hydrated ? progress : null}
         />
-        <DownloadButton bookId={bookId} languageParam={languageParam} />
+        <DownloadButton bookId={bookId} languageParam={languageParam} wordCount={wordCount} totalChapters={totalChapters} />
       </div>
       {showToggle && (
         <div className="mt-3">

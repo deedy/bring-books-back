@@ -5,6 +5,7 @@ import Link from "next/link";
 import type { Book, Author } from "@/lib/types";
 import { buildHomeBrowseModel, type HomeSortField, type HomeSortDir } from "@/lib/homeCatalog";
 import { readingTime, readingTimeClock, displayYear, getNewBookIds, pageCount } from "@/lib/utils";
+import CoverBadge from "@/components/CoverBadge";
 import CoverProgress from "@/components/CoverProgress";
 import ContinueReading from "@/components/ContinueReading";
 import { useReadingStore } from "@/lib/store";
@@ -231,11 +232,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
               {b.totalStories} stories
             </span>
           )}
-          {newBookIds.has(b.id) && (
-            <span className="absolute top-2 right-2 px-1.5 py-0.5 text-[10px] font-bold rounded bg-amber-400 text-black backdrop-blur-sm uppercase tracking-wide shadow-lg shadow-amber-400/30">
-              New
-            </span>
-          )}
+          <CoverBadge bookId={b.id} isNew={newBookIds.has(b.id)} isAnthology={b.type === "anthology"} />
           <span className="absolute bottom-2 right-2 px-1.5 py-0.5 text-[10px] font-medium rounded bg-black/70 text-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity">
             {readingTimeClock(b.wordCount)}
           </span>
@@ -313,11 +310,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
                 {book.totalStories} stories
               </span>
             )}
-            {newBookIds.has(book.id) && (
-              <span className="absolute top-2.5 right-2.5 px-2 py-0.5 text-[10px] font-bold rounded bg-amber-400 text-black backdrop-blur-sm uppercase tracking-wide shadow-lg shadow-amber-400/30">
-                New
-              </span>
-            )}
+            <CoverBadge bookId={book.id} isNew={newBookIds.has(book.id)} isAnthology={book.type === "anthology"} />
           </div>
         </div>
         <div className="flex-1 min-w-0 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">

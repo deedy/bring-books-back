@@ -454,7 +454,8 @@ export default function ReaderView({
 
       const state = useReadingStore.getState();
       const progress = state.progress[bookId];
-      const pct = progress?.scrollPercent;
+      // Only restore scroll position for signed-in users
+      const pct = isAuthenticated ? progress?.scrollPercent : undefined;
       if (!pct || pct <= 0) {
         if (progress?.currentSection != null) {
           setCurrentSection(progress.currentSection);
@@ -552,6 +553,8 @@ export default function ReaderView({
       if (isQuoteLinkRef.current) return; // Don't overwrite saved position on quote links
       // Don't save if scroll restoration hasn't completed yet
       if (!_hasRestoredScroll) return;
+      // Only save scroll position for signed-in users; chapter position is always saved
+      if (!isAuthenticated) return;
       updateProgress(bookId, { scrollPercent: _latestScrollPercent, currentSection: _latestSection });
     };
     const handleVisibilityChange = () => {

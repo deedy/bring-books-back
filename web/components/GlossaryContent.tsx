@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import { normalizeForSearch } from "@/lib/search";
+import { compareGlossaryFrequency } from "@/lib/utils";
 import type { GlossaryTerm } from "@/lib/types";
 
 interface GlossaryContentProps {
@@ -51,7 +52,7 @@ export default function GlossaryContent({ terms }: GlossaryContentProps) {
     return [...searched].sort((a, b) =>
       sort === "chronological"
         ? a.firstChapterIndex - b.firstChapterIndex || a.name.localeCompare(b.name)
-        : b.appearanceCount - a.appearanceCount || a.name.localeCompare(b.name)
+        : compareGlossaryFrequency(a, b)
     );
   }, [terms, filter, query, sort]);
 

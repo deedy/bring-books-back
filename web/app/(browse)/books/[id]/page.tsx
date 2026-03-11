@@ -7,10 +7,12 @@ import BookOpenTracker from "@/components/BookOpenTracker";
 import ReadActions from "@/components/ReadActions";
 import CharacterGrid from "@/components/CharacterGrid";
 import ChapterList from "@/components/ChapterList";
+import CoverBadge from "@/components/CoverBadge";
 import OfflineRouteRedirect from "@/components/OfflineRouteRedirect";
 import StoryGrid from "@/components/StoryGrid";
 import AnnotatedSummary from "@/components/AnnotatedSummary";
 import { buildGlossaryPreviewData } from "@/lib/bookDetails";
+import { HeaderBackProvider } from "@/lib/headerContext";
 import { readingTime, displayYear, getNewBookIds, pageCount } from "@/lib/utils";
 
 export function generateStaticParams() {
@@ -137,7 +139,11 @@ export default async function BookPage({
     ],
   };
 
-  return (
+  const anthologyParent = book.anthologyId
+    ? catalog.books.find((b) => b.id === book.anthologyId)
+    : null;
+
+  const content = (
     <div className="pb-12">
       {!isAnthology && <OfflineRouteRedirect bookId={book.id} kind="book" />}
       <script
@@ -190,11 +196,7 @@ export default async function BookPage({
                 {book.totalStories} stories
               </span>
             )}
-            {isNew && (
-              <span className="absolute top-3 right-3 px-2.5 py-0.5 text-[11px] font-bold rounded bg-amber-400 text-black backdrop-blur-sm uppercase tracking-wide shadow-lg shadow-amber-400/30">
-                New
-              </span>
-            )}
+            <CoverBadge bookId={book.id} isNew={isNew} isAnthology={isAnthology} />
           </div>
         </div>
         <div className="flex-1 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
@@ -281,6 +283,7 @@ export default async function BookPage({
                 bookId={book.id}
                 accentColor={book.accentColor}
                 totalChapters={book.totalChapters}
+                wordCount={book.wordCount}
                 hasOriginalText={book.hasOriginalText}
                 hasModernText={book.hasModernText}
                 hasKidText={book.hasKidText}
@@ -440,4 +443,14 @@ export default async function BookPage({
       )}
     </div>
   );
+
+  if (anthologyParent) {
+    return (
+      <HeaderBackProvider label="Collection" href={`/books/${anthologyParent.id}`}>
+        {content}
+      </HeaderBackProvider>
+    );
+  }
+
+  return content;
 }

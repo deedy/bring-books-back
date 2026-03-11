@@ -1,4 +1,4 @@
-import type { Book } from "@/lib/types";
+import type { Book, GlossaryTerm } from "@/lib/types";
 
 const WPM = 230;
 /** How many days a book is considered "new" after its addedDate. */
@@ -86,4 +86,15 @@ export function chapterPath(
     return `${ch.part}/${slugify(ch.partName)}/${ch.number}/${slugify(titleForSlug)}`;
   }
   return `${sequentialIndex}/${slugify(titleForSlug)}`;
+}
+
+/** Sort glossary terms: images first, then by appearance count desc, then name asc. */
+export function compareGlossaryFrequency(a: GlossaryTerm, b: GlossaryTerm): number {
+  const aHasImage = a.image ? 1 : 0;
+  const bHasImage = b.image ? 1 : 0;
+  return (
+    bHasImage - aHasImage ||
+    b.appearanceCount - a.appearanceCount ||
+    a.name.localeCompare(b.name)
+  );
 }

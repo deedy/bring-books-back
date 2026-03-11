@@ -46,8 +46,12 @@ export default function OfflineHeader() {
             <Link
               href="/downloads"
               className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium tracking-wide border border-white/20 text-white/70 hover:bg-white/10 transition-colors"
+              title="Downloads"
             >
-              Downloads
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" className="shrink-0 sm:mr-1">
+                <path d="M8 2v8m0 0l-3-3m3 3l3-3M3 13h10" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <span className="hidden sm:inline">Downloads</span>
             </Link>
           )}
         </div>

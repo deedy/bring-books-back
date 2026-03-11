@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { Book } from "@/lib/types";
 import { readingTime, readingTimeClock, displayYear, pageCount } from "@/lib/utils";
+import OfflineBadge from "@/components/OfflineBadge";
 
 type SortField = "chronology" | "length";
 type SortDir = "asc" | "desc";
@@ -76,6 +77,7 @@ export default function StoryGrid({ stories }: { stories: Book[] }) {
               <span className="absolute top-2 left-2 px-1.5 py-0.5 text-[10px] font-semibold rounded bg-black/60 text-white/70 backdrop-blur-sm">
                 #{sb.storyNumber ?? i + 1}
               </span>
+              <OfflineBadge bookId={sb.id} />
               <span className="absolute bottom-2 right-2 px-1.5 py-0.5 text-[10px] font-medium rounded bg-black/70 text-white/80 backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity">
                 {readingTimeClock(sb.wordCount)}
               </span>

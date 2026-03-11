@@ -4,6 +4,7 @@ import type {
   GlossaryPreviewCard,
   GlossaryTerm,
 } from "./types";
+import { compareGlossaryFrequency } from "./utils";
 
 export interface GlossaryPreviewData {
   characters: GlossaryPreviewCard[];
@@ -76,15 +77,7 @@ export function buildGlossaryPreviewData(
   ): { items: GlossaryPreviewCard[]; total: number } => {
     const matching = glossaryTerms
       .filter((term) => term.type === type)
-      .sort((a, b) => {
-        const aHasImage = a.image ? 1 : 0;
-        const bHasImage = b.image ? 1 : 0;
-        return (
-          bHasImage - aHasImage ||
-          b.appearanceCount - a.appearanceCount ||
-          a.name.localeCompare(b.name)
-        );
-      });
+      .sort(compareGlossaryFrequency);
 
     const withImages = matching.filter((term) => term.image).length;
     const limit = Math.max(6, withImages);

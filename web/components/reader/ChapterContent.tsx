@@ -463,6 +463,9 @@ export default function ChapterContent({
                   Sign in to read for free
                 </Link>
               </div>
+              <p className={`text-center text-sm mt-3 ${darkMode ? "text-white/40" : "text-black/40"}`}>
+                It lets you download books offline and save your reading progress.
+              </p>
             </div>
           </>
         )}

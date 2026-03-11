@@ -57,6 +57,30 @@ export async function GET(
   for (const entry of Object.values(bookAnnotations?.glossary ?? {})) {
     if (entry.image) assetUrls.add(entry.image);
   }
+  // Estimate download size using heuristics
+  let estimatedBytes = 0;
+  // Text payload: ~6 bytes per word (UTF-8 avg)
+  estimatedBytes += (bookMeta.wordCount ?? 0) * 6;
+  // Each asset URL: chapter images ~100KB, others ~150KB avg
+  for (const url of assetUrls) {
+    if (url.includes("/chapters/")) {
+      estimatedBytes += 100 * 1024;
+    } else if (url.includes("/heroes/")) {
+      estimatedBytes += 200 * 1024;
+    } else if (url.includes("/covers/")) {
+      estimatedBytes += 150 * 1024;
+    } else if (url.includes("/characters/")) {
+      estimatedBytes += 80 * 1024;
+    } else if (url.includes("/authors/")) {
+      estimatedBytes += 50 * 1024;
+    } else {
+      estimatedBytes += 100 * 1024;
+    }
+  }
+  // JSON overhead for annotations, metadata, etc. (~50KB base)
+  estimatedBytes += 50 * 1024;
+  const estimatedSizeMB = Math.round(estimatedBytes / (1024 * 1024));
+
   const offlinePayload: OfflineBookPayload = {
     bookId: id,
     title: bookMeta.title,
@@ -92,6 +116,7 @@ export async function GET(
     bookAnnotations: bookAnnotations ?? undefined,
     annotations: payload.annotations,
     assetUrls: Array.from(assetUrls),
+    estimatedSizeMB: Math.max(1, estimatedSizeMB),
   };
 
   return NextResponse.json(offlinePayload, {

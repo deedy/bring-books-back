@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 
 import AnnotatedSummary from "@/components/AnnotatedSummary";
@@ -10,13 +10,14 @@ import CharacterGrid from "@/components/CharacterGrid";
 import ChapterList from "@/components/ChapterList";
 import ShareButtons from "@/components/ShareButtons";
 import { buildGlossaryPreviewData } from "@/lib/bookDetails";
-import { loadOfflinePayload } from "@/lib/offline";
+import { loadOfflinePayload, removeBook } from "@/lib/offline";
 import {
   buildOfflineGlossaryUrl,
   buildOfflineReadUrl,
   describeOfflineMode,
 } from "@/lib/offlineUtils";
-import type { OfflineBookPayload } from "@/lib/types";
+import { useReadingStore } from "@/lib/store";
+import type { OfflineBookPayload, ReadingProgress } from "@/lib/types";
 import { displayYear, pageCount, readingTime } from "@/lib/utils";
 
 export default function OfflineBookPage() {
@@ -36,6 +37,16 @@ export default function OfflineBookPage() {
       cancelled = true;
     };
   }, [bookId]);
+
+  const progress = useReadingStore((s) => s.getProgress(bookId));
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => {
+    if (useReadingStore.persist.hasHydrated()) {
+      setHydrated(true);
+    } else {
+      useReadingStore.persist.onFinishHydration(() => setHydrated(true));
+    }
+  }, []);
 
   const glossaryData = useMemo(
     () => buildGlossaryPreviewData(payload?.bookAnnotations, payload?.chapters ?? []),
@@ -120,7 +131,7 @@ export default function OfflineBookPage() {
 
         <div className="flex-1 drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
           <p className="text-xs uppercase tracking-[0.18em] text-white/35 mb-2">
-            Offline · {describeOfflineMode(payload.mode, payload.languageParam)}
+            Offline{payload.mode !== "english" ? ` · ${describeOfflineMode(payload.mode, payload.languageParam)}` : ""}
           </p>
           <h1 className="text-3xl md:text-4xl font-bold text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">
             {payload.title}
@@ -160,20 +171,20 @@ export default function OfflineBookPage() {
             <span>{readingTime(payload.wordCount)} read</span>
           </div>
 
-          <div className="mt-6 flex flex-wrap items-center gap-3">
-            <Link
-              href={buildOfflineReadUrl(payload.bookId)}
-              className="inline-flex items-center px-5 py-3 rounded-lg text-white font-medium"
-              style={{ backgroundColor: payload.accentColor }}
-            >
-              Read offline
-            </Link>
+          <div className="mt-6 flex flex-wrap items-center gap-3" style={{ visibility: hydrated ? "visible" : "hidden" }}>
+            <OfflineReadButton
+              bookId={payload.bookId}
+              accentColor={payload.accentColor}
+              totalChapters={payload.totalChapters}
+              progress={hydrated ? progress : null}
+            />
             <Link
               href="/downloads"
               className="inline-flex items-center px-4 py-2 rounded-lg border border-white/10 text-sm font-medium text-white/55 hover:text-white/75 hover:bg-white/5 transition-colors"
             >
               Downloads
             </Link>
+            <DeleteOfflineButton bookId={payload.bookId} />
           </div>
 
           <div className="mt-4">
@@ -310,5 +321,70 @@ export default function OfflineBookPage() {
         </section>
       )}
     </div>
+  );
+}
+
+function OfflineReadButton({
+  bookId,
+  accentColor,
+  totalChapters,
+  progress,
+}: {
+  bookId: string;
+  accentColor: string;
+  totalChapters: number;
+  progress?: ReadingProgress | null;
+}) {
+  let label = "Start Reading";
+  if (progress) {
+    if (progress.finished) {
+      label = "Read Again";
+    } else if (totalChapters === 1) {
+      label = "Continue Reading";
+    } else if (progress.currentSection != null) {
+      label = `Continue Reading (Ch. ${progress.currentChapter + 1}, Sec. ${progress.currentSection})`;
+    } else if (progress.currentChapter > 0) {
+      label = `Continue Reading (Ch. ${progress.currentChapter + 1})`;
+    }
+  }
+
+  const chapterTarget =
+    progress && !progress.finished && progress.currentChapter > 0
+      ? `${progress.currentChapter + 1}`
+      : undefined;
+  const href = buildOfflineReadUrl(bookId, chapterTarget);
+
+  // Use <a> (full page load) to ensure ReaderView fully remounts and restores scroll position.
+  return (
+    <a
+      href={href}
+      className="inline-flex items-center px-5 py-3 rounded-lg text-white font-medium transition-opacity hover:opacity-90"
+      style={{ backgroundColor: accentColor }}
+    >
+      {label}
+    </a>
+  );
+}
+
+function DeleteOfflineButton({ bookId }: { bookId: string }) {
+  const router = useRouter();
+  const handleDelete = async () => {
+    await removeBook(bookId);
+    router.push("/downloads");
+  };
+
+  return (
+    <button
+      onClick={handleDelete}
+      className="p-2.5 rounded-lg border border-white/10 text-white/30 hover:text-red-400 hover:border-red-400/30 hover:bg-red-400/5 transition-colors"
+      title="Remove offline download"
+    >
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <polyline points="3 6 5 6 21 6" />
+        <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" />
+        <path d="M10 11v6" />
+        <path d="M14 11v6" />
+      </svg>
+    </button>
   );
 }

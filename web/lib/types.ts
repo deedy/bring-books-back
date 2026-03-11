@@ -173,6 +173,7 @@ export interface OfflineBookEntry {
   mode: OfflineMode;
   languageParam?: string;
   cachedAt: string;
+  estimatedSizeMB?: number;
 }
 
 export interface OfflineBookPayload {
@@ -203,4 +204,5 @@ export interface OfflineBookPayload {
   bookAnnotations?: AnnotationsData;
   annotations?: AnnotationsData;
   assetUrls: string[];
+  estimatedSizeMB?: number;
 }

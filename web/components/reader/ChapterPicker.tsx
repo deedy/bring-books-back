@@ -31,7 +31,15 @@ function SectionGrid({
   onSelect: (sectionNumber: number, paragraphIndex: number) => void;
 }) {
   const [jumpInput, setJumpInput] = useState("");
+  const activeRef = useRef<HTMLButtonElement>(null);
   const showJumpInput = sections.length >= 50;
+
+  // Scroll active section into view
+  useEffect(() => {
+    if (activeRef.current) {
+      activeRef.current.scrollIntoView({ block: "nearest", behavior: "auto" });
+    }
+  }, [currentSection]);
 
   const handleJump = () => {
     const num = parseInt(jumpInput, 10);
@@ -70,6 +78,7 @@ function SectionGrid({
           const isActive = currentSection === sec.number;
           return (
             <button
+              ref={isActive ? activeRef : undefined}
               key={sec.paragraphIndex}
               onClick={() => onSelect(sec.number, sec.paragraphIndex)}
               className={`text-[11px] py-1 rounded transition-colors tabular-nums ${
@@ -104,6 +113,16 @@ export default function ChapterPicker({
   const currentRef = useRef<HTMLButtonElement>(null);
   const [viewMode, setViewMode] = useState<"expanded" | "compact">("expanded");
   const [expandedChapter, setExpandedChapter] = useState<number | null>(null);
+
+  // Auto-expand current chapter's sections when drawer opens
+  useEffect(() => {
+    if (open) {
+      const currentCh = chapters[currentChapter];
+      if (currentCh?.sections && currentCh.sections.length > 0) {
+        setExpandedChapter(currentChapter);
+      }
+    }
+  }, [open, currentChapter, chapters]);
 
   // Scroll current chapter into view when drawer opens
   useEffect(() => {
