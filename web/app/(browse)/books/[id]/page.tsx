@@ -111,6 +111,18 @@ export default async function BookPage({
   if (annotations && chaptersData) {
     const chapterIds = chaptersData.chapters.map((ch) => ch.id);
 
+    // Build alias → canonical name map so "Alyosha" counts toward
+    // "Alexey Fyodorovitch Karamazov", etc.
+    const aliasToCanon: Record<string, string> = {};
+    for (const [name, entry] of Object.entries(annotations.glossary)) {
+      aliasToCanon[name] = name;
+      if (entry.aliases) {
+        for (const alias of entry.aliases) {
+          aliasToCanon[alias] = name;
+        }
+      }
+    }
+
     function byFrequency(type: string): { items: TermCard[]; total: number } {
       const entries = Object.entries(annotations!.glossary).filter(
         ([, a]) => a.type === type
@@ -118,7 +130,8 @@ export default async function BookPage({
       const withCount = entries.map(([name, a]) => {
         let count = 0;
         for (const chId of chapterIds) {
-          if (annotations!.chapters[chId]?.includes(name)) count++;
+          const terms = annotations!.chapters[chId];
+          if (terms?.some((t) => aliasToCanon[t] === name)) count++;
         }
         return { name, description: a.description, image: a.image, count };
       });
