@@ -37,22 +37,33 @@ export default function LanguageToggle({
 
   if (options.length <= 1) return null;
 
+  const subtitle = active === "modern"
+    ? "Rewritten with AI in modern English"
+    : active === "child"
+      ? "Rewritten with AI for a 10-year-old audience"
+      : null;
+
   return (
-    <div className="inline-flex items-center rounded-lg border border-white/15 overflow-hidden text-sm">
-      {options.map((opt) => (
-        <button
-          key={opt.key}
-          onClick={() => onLanguageChange?.(opt.key)}
-          className="px-4 py-2 font-medium transition-colors"
-          style={
-            active === opt.key
-              ? { backgroundColor: accentColor, color: "white" }
-              : { color: "rgba(255,255,255,0.5)" }
-          }
-        >
-          {opt.label}
-        </button>
-      ))}
+    <div>
+      <div className="inline-flex items-center rounded-lg border border-white/15 overflow-hidden text-sm">
+        {options.map((opt) => (
+          <button
+            key={opt.key}
+            onClick={() => onLanguageChange?.(opt.key)}
+            className="px-4 py-2 font-medium transition-colors"
+            style={
+              active === opt.key
+                ? { backgroundColor: accentColor, color: "white" }
+                : { color: "rgba(255,255,255,0.5)" }
+            }
+          >
+            {opt.label}
+          </button>
+        ))}
+      </div>
+      {subtitle && (
+        <p className="text-[11px] italic text-white/30 mt-1.5">{subtitle}</p>
+      )}
     </div>
   );
 }

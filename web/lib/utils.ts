@@ -32,13 +32,13 @@ export function readingTime(wordCount: number): string {
   return m > 0 ? `${wholeH}h ${m}min` : `${wholeH}h`;
 }
 
-/** Format word count as exact reading time, e.g. "2h 35min" or "52 min" — no rounding. */
+/** Format word count as exact reading time, e.g. "2 hrs 35 min" or "52 min" — no rounding. */
 export function readingTimeExact(wordCount: number): string {
   const totalMin = Math.max(1, Math.round(wordCount / WPM));
   if (totalMin < 60) return `${totalMin} min`;
   const h = Math.floor(totalMin / 60);
   const m = totalMin % 60;
-  return m > 0 ? `${h}h ${m}min` : `${h}h`;
+  return m > 0 ? `${h} hrs ${m} min` : `${h} hrs`;
 }
 
 /** Format word count as exact reading time in HH:MM, e.g. "2:35" or "0:12" */

@@ -136,6 +136,7 @@ export interface OriginalChapter {
   id: string;
   title?: string;
   paragraphs: ChapterParagraph[];
+  sections?: SectionInfo[];
 }
 
 export interface OriginalChaptersData {

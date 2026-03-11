@@ -1,0 +1,6334 @@
+{
+  "glossary": {
+    "Vālmiki": {
+      "type": "character",
+      "description": "The legendary sage and author of the Ramayana, depicted as an ascetic and poet who composes the epic after being inspired by the gods.",
+      "aliases": [
+        "Valmiki"
+      ]
+    },
+    "Nārada": {
+      "type": "character",
+      "description": "A divine sage known for his knowledge of the three worlds and his role as a messenger and advisor among gods and humans.",
+      "aliases": [
+        "Narada"
+      ]
+    },
+    "Ikshwāku": {
+      "type": "character",
+      "description": "The founder of the Ikshwāku dynasty, the royal lineage to which Rāma belongs.",
+      "aliases": [
+        "Ikshwaku"
+      ]
+    },
+    "Rāma": {
+      "type": "character",
+      "description": "The hero of the Ramayana and eldest son of Daçarātha, he is an incarnation of Vishnu and a descendant of the Raghu and Kakutstha lineages.",
+      "aliases": [
+        "Rāghava",
+        "Kākutstha",
+        "Rama",
+        "Raghava",
+        "Kakutstha"
+      ],
+      "image": "/data/images/characters/ramayana/rma.webp"
+    },
+    "Vishnu": {
+      "type": "proper_noun",
+      "description": "One of the principal Hindu deities and preserver of the universe who incarnates as Rāma to defeat evil.",
+      "aliases": [
+        "Hari",
+        "Upendra",
+        "Janārddana",
+        "Lokanātha"
+      ]
+    },
+    "Himavat": {
+      "type": "character",
+      "description": "The personification of the Himalaya mountains, often referenced for his patience and grandeur.",
+      "aliases": [
+        "Himavān"
+      ]
+    },
+    "Daçarātha": {
+      "type": "character",
+      "description": "The righteous King of Ayodhyā and father of Rāma, Bharata, Lakshmana, and Satrughna.",
+      "aliases": [
+        "Daçaratha",
+        "Dacaratha",
+        "Dasaratha",
+        "Dasharatha",
+        "Daśaratha"
+      ],
+      "image": "/data/images/characters/ramayana/daartha.webp"
+    },
+    "Kaikeyi": {
+      "type": "character",
+      "description": "One of Daçarātha's queens, mother of Bharata, whose request leads to Rāma's exile.",
+      "aliases": [
+        "Kaikayi",
+        "Kaikeyī"
+      ],
+      "image": "/data/images/characters/ramayana/kaikeyi.webp"
+    },
+    "Bharata": {
+      "type": "character",
+      "description": "Son of Daçarātha and Kaikeyi, younger brother of Rāma, known for his devotion to Rāma and refusal to accept the throne.",
+      "image": "/data/images/characters/ramayana/bharata.webp"
+    },
+    "Lakshmana": {
+      "type": "character",
+      "description": "Son of Daçarātha and Sumitrā, devoted brother and companion of Rāma.",
+      "aliases": [
+        "Sumitra's son",
+        "Saumitri"
+      ],
+      "image": "/data/images/characters/ramayana/lakshmana.webp"
+    },
+    "Rohini": {
+      "type": "proper_noun",
+      "description": "A star or celestial figure, here used in simile to describe Sita's devotion to Rāma."
+    },
+    "Janaka": {
+      "type": "character",
+      "description": "King of Mithilā, father of Sita, known for his wisdom and righteousness; Videha is his kingdom.",
+      "aliases": [
+        "Videha"
+      ],
+      "image": "/data/images/characters/ramayana/janaka.webp"
+    },
+    "Sitā": {
+      "type": "character",
+      "description": "Daughter of Janaka and wife of Rāma, she is an incarnation of divine power and the ideal of womanly virtue.",
+      "aliases": [
+        "Jānaki",
+        "Maithili",
+        "Vaidehi",
+        "Sita",
+        "Sītā",
+        "Janaki"
+      ],
+      "image": "/data/images/characters/ramayana/sit.webp"
+    },
+    "Guha": {
+      "type": "character",
+      "description": "King of the Nishādas, a tribal chief who befriends and assists Rāma during his exile; associated with the region/city Sringaverapura.",
+      "aliases": [
+        "Sringabera",
+        "Sringaverapura"
+      ]
+    },
+    "Chitrakuta": {
+      "type": "proper_noun",
+      "description": "A forested mountain region where Rāma, Sita, and Lakshmana reside during exile."
+    },
+    "Brāhmanas": {
+      "type": "proper_noun",
+      "description": "Members of the priestly class, often depicted as learned, virtuous, and engaged in sacred duties.",
+      "aliases": [
+        "Vipra",
+        "Vipras",
+        "Brahmanas"
+      ]
+    },
+    "Rākshasa": {
+      "type": "proper_noun",
+      "description": "A class or race of demons or night-rangers, often antagonists in the Ramayana; female Rakshasas are called Rākshasi.",
+      "aliases": [
+        "Rākshasas",
+        "Rākshasees",
+        "Rākshasi",
+        "Rākskasas",
+        "Rakshasa",
+        "Rakshasas",
+        "Rakshasi"
+      ]
+    },
+    "Virādha": {
+      "type": "character",
+      "description": "A Rākshasa slain by Rāma in the Dandaka forest.",
+      "aliases": [
+        "Viradha"
+      ]
+    },
+    "Sarabhanga": {
+      "type": "character",
+      "description": "A sage encountered by Rāma during his exile."
+    },
+    "Agastya": {
+      "type": "character",
+      "description": "A powerful sage who aids Rāma and gives him divine weapons.",
+      "image": "/data/images/characters/ramayana/agastya.webp"
+    },
+    "Surpanakhā": {
+      "type": "character",
+      "description": "A Rākshasi (female demon), sister of Rāvana, whose actions lead to the main conflict.",
+      "aliases": [
+        "Surpanakha"
+      ]
+    },
+    "Khara": {
+      "type": "character",
+      "description": "A Rākshasa, brother of Surpanakhā, slain by Rāma."
+    },
+    "Tricira": {
+      "type": "character",
+      "description": "A Rākshasa, ally of Khara, slain by Rāma."
+    },
+    "Dushana": {
+      "type": "character",
+      "description": "A Rākshasa, another ally of Khara, slain by Rāma."
+    },
+    "Rāvana": {
+      "type": "character",
+      "description": "The ten-headed king of Lankā, chief antagonist of the Ramayana, abductor of Sita.",
+      "image": "/data/images/characters/ramayana/rvana.webp",
+      "aliases": [
+        "Ravana"
+      ]
+    },
+    "Māricha": {
+      "type": "character",
+      "description": "A Rākshasa who assists Rāvana in abducting Sita.",
+      "aliases": [
+        "Maricha",
+        "Mārīcha"
+      ]
+    },
+    "Jatāyu": {
+      "type": "character",
+      "description": "A vulture who tries to rescue Sita from Rāvana and is mortally wounded.",
+      "aliases": [
+        "Yatāyu",
+        "Jatayu"
+      ]
+    },
+    "Savari": {
+      "type": "character",
+      "description": "A female ascetic who offers hospitality and guidance to Rāma."
+    },
+    "Hanumān": {
+      "type": "character",
+      "description": "The monkey-god, son of the Wind god, devoted servant of Rāma, famed for his strength and loyalty.",
+      "image": "/data/images/characters/ramayana/hanumn.webp",
+      "aliases": [
+        "Hanuman"
+      ]
+    },
+    "Sugriva": {
+      "type": "character",
+      "description": "King of the monkeys, ally of Rāma, aided by Hanumān.",
+      "image": "/data/images/characters/ramayana/sugriva.webp",
+      "aliases": [
+        "Sugrīva"
+      ]
+    },
+    "Vāli": {
+      "type": "character",
+      "description": "Brother of Sugriva, a powerful monkey king slain by Rāma.",
+      "aliases": [
+        "Vali"
+      ]
+    },
+    "Sampāti": {
+      "type": "character",
+      "description": "A vulture king and brother of Jatāyu who helps the monkeys locate Sitā in Lankā.",
+      "aliases": [
+        "Sampati"
+      ]
+    },
+    "Aksha": {
+      "type": "character",
+      "description": "A son of Rāvana, slain by Hanumān in Lankā."
+    },
+    "Indrajit": {
+      "type": "character",
+      "description": "The powerful son of Rāvana and Mandodari who famously bound Hanumān.",
+      "aliases": [
+        "Meghanāda",
+        "Meghanada"
+      ]
+    },
+    "Nala": {
+      "type": "character",
+      "description": "A monkey chief who constructs the bridge to Lankā."
+    },
+    "Pushpaka": {
+      "type": "character",
+      "description": "A magical aerial chariot used by Rāma to return to Ayodhyā."
+    },
+    "Kusi": {
+      "type": "character",
+      "description": "One of Rāma and Sita's twin sons, raised in Vālmiki's hermitage."
+    },
+    "Lava": {
+      "type": "character",
+      "description": "The other twin son of Rāma and Sita, also raised by Vālmiki."
+    },
+    "Paulastya": {
+      "type": "character",
+      "description": "A sage, ancestor of Rāvana."
+    },
+    "Brahmā": {
+      "type": "proper_noun",
+      "description": "The creator god and lord of creatures, often identified as the progenitor of the universe.",
+      "aliases": [
+        "Prajāpati",
+        "Dhātā",
+        "Vidhātā",
+        "Brahma",
+        "Prajapati",
+        "Brāhma"
+      ],
+      "image": "/data/images/characters/ramayana/brahm.webp"
+    },
+    "Manu": {
+      "type": "character",
+      "description": "The progenitor of mankind and founder of Ayodhyā."
+    },
+    "Sagara": {
+      "type": "character",
+      "description": "A legendary king, ancestor of Rāma, famed for digging the ocean.",
+      "aliases": [
+        "Sāgara"
+      ]
+    },
+    "Sataghnis": {
+      "type": "character",
+      "description": "War machines or weapons used for defense."
+    },
+    "Athiratha": {
+      "type": "character",
+      "description": "A title meaning a great chariot-warrior."
+    },
+    "Romapāda": {
+      "type": "character",
+      "description": "King of the Angas, friend of Daçarātha.",
+      "aliases": [
+        "Romapada"
+      ]
+    },
+    "Sanat Kumāra": {
+      "type": "character",
+      "description": "A divine sage, son of Brahmā, known for prophecy.",
+      "aliases": [
+        "Sanat Kumara"
+      ]
+    },
+    "Bibhāndaka": {
+      "type": "character",
+      "description": "A sage, father of Rhishyasringa.",
+      "aliases": [
+        "Bibhandaka"
+      ]
+    },
+    "Rhishyasringa": {
+      "type": "character",
+      "description": "A sage with mystical powers, son-in-law of Daçarātha, who performs the sacrifice for sons."
+    },
+    "Sāntā": {
+      "type": "character",
+      "description": "Daughter of Romapāda, wife of Rhishyasringa.",
+      "aliases": [
+        "Santa"
+      ]
+    },
+    "Vāmadeva": {
+      "type": "character",
+      "description": "A sage and royal priest.",
+      "aliases": [
+        "Vamadeva"
+      ]
+    },
+    "Jāvāli": {
+      "type": "character",
+      "description": "A Brāhmana and priest in Ayodhyā known for his skeptical views.",
+      "aliases": [
+        "Jāvali",
+        "Javali"
+      ]
+    },
+    "Gautama": {
+      "type": "character",
+      "description": "A sage, husband of Ahalyā."
+    },
+    "Markandeya": {
+      "type": "character",
+      "description": "A long-lived sage."
+    },
+    "Kātyāyana": {
+      "type": "character",
+      "description": "A sage and priest.",
+      "aliases": [
+        "Katyayana"
+      ]
+    },
+    "Sumantra": {
+      "type": "character",
+      "description": "Chief minister and charioteer of Daçarātha."
+    },
+    "Kosala": {
+      "type": "proper_noun",
+      "description": "The kingdom ruled by Daçarātha, with Ayodhyā as its capital.",
+      "aliases": [
+        "Koçala",
+        "Koçalas",
+        "Kocala"
+      ]
+    },
+    "Sarayu": {
+      "type": "proper_noun",
+      "description": "A sacred river flowing by Ayodhyā."
+    },
+    "Vedāngas": {
+      "type": "proper_noun",
+      "description": "Ancillary disciplines associated with the study and understanding of the Vedas.",
+      "aliases": [
+        "Vedangas"
+      ]
+    },
+    "Golden age": {
+      "type": "proper_noun",
+      "description": "A mythological era of prosperity and virtue, often referenced as an ideal time."
+    },
+    "Brāhmana": {
+      "type": "proper_noun",
+      "description": "A member of the priestly caste in Hindu society.",
+      "aliases": [
+        "Brahmana"
+      ]
+    },
+    "Kshatriya": {
+      "type": "proper_noun",
+      "description": "The warrior and ruling caste/class in Hindu society.",
+      "aliases": [
+        "Kshatriyas",
+        "Kshatryas"
+      ]
+    },
+    "Vaisya": {
+      "type": "proper_noun",
+      "description": "The merchant and agricultural caste in Hindu society."
+    },
+    "Sudra": {
+      "type": "proper_noun",
+      "description": "The laborer and service-providing caste in Hindu society."
+    },
+    "Tamasā": {
+      "type": "proper_noun",
+      "description": "A river near which Vālmiki's hermitage is situated.",
+      "aliases": [
+        "Tamasa"
+      ]
+    },
+    "Rāmāyana": {
+      "type": "proper_noun",
+      "description": "The epic poem composed by Vālmiki, narrating the story of Rāma.",
+      "aliases": [
+        "Ramayana"
+      ]
+    },
+    "Samasas": {
+      "type": "proper_noun",
+      "description": "Grammatical compounds in Sanskrit."
+    },
+    "Sandhis": {
+      "type": "proper_noun",
+      "description": "Euphonic combinations in Sanskrit grammar."
+    },
+    "Prakritas": {
+      "type": "proper_noun",
+      "description": "Vernacular languages derived from Sanskrit."
+    },
+    "Pratayas": {
+      "type": "proper_noun",
+      "description": "Suffixes in Sanskrit grammar."
+    },
+    "yoga": {
+      "type": "proper_noun",
+      "description": "A spiritual and meditative discipline for self-realization."
+    },
+    "Viswāmitra": {
+      "type": "proper_noun",
+      "description": "A renowned sage, formerly a king, who attained Brahmarshi status and plays a key role in Rāma's early adventures.",
+      "aliases": [
+        "Viçwamitra",
+        "Viswamitra",
+        "Viśwāmitra"
+      ]
+    },
+    "Parasurāma": {
+      "type": "proper_noun",
+      "description": "An avatar of Vishnu, known for his conflict with Rāma and for exterminating Kshatriyas.",
+      "aliases": [
+        "Paraçurāma",
+        "Parasurama",
+        "Paraśurāma"
+      ]
+    },
+    "Dandaka": {
+      "type": "proper_noun",
+      "description": "A vast forest where Rāma spends part of his exile.",
+      "aliases": [
+        "Dandaka forest"
+      ]
+    },
+    "Janasthāna": {
+      "type": "proper_noun",
+      "description": "A region in the Dandaka forest.",
+      "aliases": [
+        "Janasthana"
+      ]
+    },
+    "Sthana": {
+      "type": "proper_noun",
+      "description": "A term related to musical notes or positions."
+    },
+    "Murchhana": {
+      "type": "proper_noun",
+      "description": "A term related to musical scales or modes."
+    },
+    "saraja": {
+      "type": "proper_noun",
+      "description": "A musical note or mode."
+    },
+    "Mahārathas": {
+      "type": "proper_noun",
+      "description": "Great chariot-warriors, a title for elite fighters.",
+      "aliases": [
+        "Maharathas"
+      ]
+    },
+    "Kāmvoja": {
+      "type": "proper_noun",
+      "description": "A region famous for its horses.",
+      "aliases": [
+        "Kamvoja"
+      ]
+    },
+    "Vāhlika": {
+      "type": "proper_noun",
+      "description": "A region known for its horses.",
+      "aliases": [
+        "Vahlika"
+      ]
+    },
+    "Vanāyu": {
+      "type": "proper_noun",
+      "description": "A region known for horses.",
+      "aliases": [
+        "Vanayu"
+      ]
+    },
+    "Sindhu": {
+      "type": "proper_noun",
+      "description": "A river and region, the Indus."
+    },
+    "Vindha": {
+      "type": "proper_noun",
+      "description": "The Vindhya mountain range."
+    },
+    "Bhadra": {
+      "type": "proper_noun",
+      "description": "A breed of elephant."
+    },
+    "Mandra": {
+      "type": "proper_noun",
+      "description": "A breed of elephant."
+    },
+    "Mriga": {
+      "type": "proper_noun",
+      "description": "A breed of elephant."
+    },
+    "Airavata": {
+      "type": "proper_noun",
+      "description": "Indra's divine elephant, the mythological mount of Indra, king of the gods.",
+      "aliases": [
+        "Airavat",
+        "Airāvata"
+      ]
+    },
+    "Mahāpadma": {
+      "type": "proper_noun",
+      "description": "A breed of elephant.",
+      "aliases": [
+        "Mahapadma"
+      ]
+    },
+    "Anjana": {
+      "type": "proper_noun",
+      "description": "A breed of elephant.",
+      "aliases": [
+        "Anjanā"
+      ]
+    },
+    "Vāmana": {
+      "type": "proper_noun",
+      "description": "A breed of elephant.",
+      "aliases": [
+        "Vamana"
+      ]
+    },
+    "Angas": {
+      "type": "proper_noun",
+      "description": "A kingdom in eastern India."
+    },
+    "Sâmas": {
+      "type": "proper_noun",
+      "description": "Sacred chants from the Sāma Veda.",
+      "aliases": [
+        "Samas"
+      ]
+    },
+    "Yupas": {
+      "type": "proper_noun",
+      "description": "Sacrificial posts used in Vedic rituals."
+    },
+    "Vilwa": {
+      "type": "proper_noun",
+      "description": "A type of wood used for sacrificial posts."
+    },
+    "catechu": {
+      "type": "proper_noun",
+      "description": "A type of wood used for sacrificial posts."
+    },
+    "Palasa": {
+      "type": "proper_noun",
+      "description": "A type of wood used for sacrificial posts."
+    },
+    "Sleshmataka": {
+      "type": "proper_noun",
+      "description": "A type of wood used for sacrificial posts."
+    },
+    "Devadaru": {
+      "type": "proper_noun",
+      "description": "A type of wood used for sacrificial posts."
+    },
+    "Garura": {
+      "type": "proper_noun",
+      "description": "The divine eagle, vehicle of Vishnu."
+    },
+    "Hotâs": {
+      "type": "proper_noun",
+      "description": "Priests who recite the Rig Veda during sacrifices.",
+      "aliases": [
+        "Hotas"
+      ]
+    },
+    "Adhwaryus": {
+      "type": "proper_noun",
+      "description": "Priests who perform the physical aspects of Vedic rituals."
+    },
+    "Uâgatas": {
+      "type": "proper_noun",
+      "description": "Priests who sing the Sāma Veda during rituals.",
+      "aliases": [
+        "Uagatas"
+      ]
+    },
+    "Mahishi": {
+      "type": "proper_noun",
+      "description": "Chief queen or consort in a ritual context."
+    },
+    "Parivriti": {
+      "type": "proper_noun",
+      "description": "A secondary consort in a ritual context."
+    },
+    "Plaksha": {
+      "type": "proper_noun",
+      "description": "A type of tree, used for ritual implements."
+    },
+    "Kalpa Sutras": {
+      "type": "proper_noun",
+      "description": "Ancient texts prescribing ritual procedures."
+    },
+    "Chatushtoma": {
+      "type": "proper_noun",
+      "description": "A type of Vedic sacrifice."
+    },
+    "Uktha": {
+      "type": "proper_noun",
+      "description": "A type of Vedic sacrifice."
+    },
+    "Atiratra": {
+      "type": "proper_noun",
+      "description": "An overnight Vedic ritual."
+    },
+    "Jyotishtoma": {
+      "type": "proper_noun",
+      "description": "A Vedic ritual for attaining heaven."
+    },
+    "Ayushtoma": {
+      "type": "proper_noun",
+      "description": "A Vedic ritual for long life."
+    },
+    "Abhijit": {
+      "type": "proper_noun",
+      "description": "A Vedic ritual."
+    },
+    "Viswajit": {
+      "type": "proper_noun",
+      "description": "A Vedic ritual."
+    },
+    "Aptoryama": {
+      "type": "proper_noun",
+      "description": "A Vedic ritual."
+    },
+    "Sayambhu": {
+      "type": "proper_noun",
+      "description": "A name for Brahmā, the self-born creator."
+    },
+    "Koti": {
+      "type": "proper_noun",
+      "description": "A unit meaning ten million."
+    },
+    "lacs": {
+      "type": "proper_noun",
+      "description": "A unit meaning one hundred thousand."
+    },
+    "Atharva Veda": {
+      "type": "proper_noun",
+      "description": "One of the four Vedas, containing hymns and rituals."
+    },
+    "Siddhas": {
+      "type": "proper_noun",
+      "description": "Semi-divine beings known for their spiritual accomplishments."
+    },
+    "Madhu": {
+      "type": "proper_noun",
+      "description": "A demon slain by Vishnu."
+    },
+    "Vinatā": {
+      "type": "proper_noun",
+      "description": "Mother of Garura, the divine eagle.",
+      "aliases": [
+        "Vinata"
+      ]
+    },
+    "Keyuras": {
+      "type": "proper_noun",
+      "description": "Armlets or ornaments."
+    },
+    "Pāyasa": {
+      "type": "proper_noun",
+      "description": "A divine, sweet rice pudding given as a boon.",
+      "aliases": [
+        "Payasa"
+      ]
+    },
+    "Pampā": {
+      "type": "proper_noun",
+      "description": "A sacred lake or river associated with Hanumān.",
+      "aliases": [
+        "Pampa"
+      ]
+    },
+    "Rishyamukha": {
+      "type": "proper_noun",
+      "description": "A mountain where Sugriva takes refuge."
+    },
+    "Maināka": {
+      "type": "proper_noun",
+      "description": "A mountain that assists Hanumān during his leap to Lankā.",
+      "aliases": [
+        "Mainaka"
+      ]
+    },
+    "Trijata": {
+      "type": "proper_noun",
+      "description": "A Rākshasi who befriends Sita in Lankā; also a Brāhmana of the Garga lineage, recipient of Rāma's charity.",
+      "aliases": [
+        "Trijatā"
+      ]
+    },
+    "Asoka wood": {
+      "type": "proper_noun",
+      "description": "A grove in Lankā where Sita is kept."
+    },
+    "Kekaya": {
+      "type": "proper_noun",
+      "description": "A kingdom, home of Kaikeyi's family.",
+      "aliases": [
+        "Kekayas"
+      ]
+    },
+    "Magadha": {
+      "type": "proper_noun",
+      "description": "A kingdom in eastern India."
+    },
+    "Sauvira": {
+      "type": "proper_noun",
+      "description": "A kingdom in northwestern India."
+    },
+    "Saurashtra": {
+      "type": "proper_noun",
+      "description": "A region in western India."
+    },
+    "Yojana": {
+      "type": "proper_noun",
+      "description": "An ancient measure of distance, roughly 8-9 miles.",
+      "aliases": [
+        "yojana"
+      ]
+    },
+    "Vānaras": {
+      "type": "proper_noun",
+      "description": "Monkey warriors allied with Rāma.",
+      "aliases": [
+        "Vanaras"
+      ]
+    },
+    "Menā": {
+      "type": "proper_noun",
+      "description": "Mother of Gangā and Umā, wife of Himavat.",
+      "aliases": [
+        "Mena"
+      ]
+    },
+    "Uma": {
+      "type": "proper_noun",
+      "description": "Another name for the goddess Pārvatī, wife of Shiva.",
+      "aliases": [
+        "Umā"
+      ]
+    },
+    "Kārtikeya": {
+      "type": "proper_noun",
+      "description": "Son of Shiva and Parvati, general of the gods.",
+      "aliases": [
+        "Kartikeya"
+      ]
+    },
+    "Kirtikā": {
+      "type": "proper_noun",
+      "description": "The Pleiades, foster mothers of Kārtikeya.",
+      "aliases": [
+        "Kirtika"
+      ]
+    },
+    "Skanda": {
+      "type": "proper_noun",
+      "description": "Another name for Kārtikeya."
+    },
+    "Keçini": {
+      "type": "proper_noun",
+      "description": "Elder wife of Sagara.",
+      "aliases": [
+        "Kecini"
+      ]
+    },
+    "Sumati": {
+      "type": "proper_noun",
+      "description": "Second wife of Sagara."
+    },
+    "Suparna": {
+      "type": "proper_noun",
+      "description": "Another name for Garura, the divine bird."
+    },
+    "Kapila": {
+      "type": "proper_noun",
+      "description": "A sage, incarnation of Vishnu, who burns Sagara's sons."
+    },
+    "Bhagiratha": {
+      "type": "proper_noun",
+      "description": "A king, descendant of Sagara, who brings the Ganges (also called Bhāgirathi) to earth.",
+      "aliases": [
+        "Bhāgirathi",
+        "Bhagirathi"
+      ]
+    },
+    "Dilipa": {
+      "type": "proper_noun",
+      "description": "A king, ancestor of Rāma."
+    },
+    "Trisanku": {
+      "type": "proper_noun",
+      "description": "A king who seeks to ascend to heaven in his body."
+    },
+    "Viçāla": {
+      "type": "proper_noun",
+      "description": "A city visited by Rāma and Viçwāmitra.",
+      "aliases": [
+        "Vicala"
+      ]
+    },
+    "Diti": {
+      "type": "proper_noun",
+      "description": "Mother of the Asuras, rival of Aditi."
+    },
+    "Aditi": {
+      "type": "proper_noun",
+      "description": "Mother of the gods (Devas)."
+    },
+    "Vāsuki": {
+      "type": "proper_noun",
+      "description": "The serpent used as a churning rope in the churning of the ocean.",
+      "aliases": [
+        "Vasuki"
+      ]
+    },
+    "Mandara": {
+      "type": "proper_noun",
+      "description": "The mountain used as a churning stick in the churning of the ocean.",
+      "aliases": [
+        "Mandāra"
+      ]
+    },
+    "Dhanwantari": {
+      "type": "proper_noun",
+      "description": "The divine physician who emerges from the churning of the ocean."
+    },
+    "Vāruni": {
+      "type": "proper_noun",
+      "description": "Daughter of Varuna, goddess of wine.",
+      "aliases": [
+        "Varuni"
+      ]
+    },
+    "Uchhaiçravā": {
+      "type": "proper_noun",
+      "description": "A divine horse that emerges from the churning of the ocean.",
+      "aliases": [
+        "Uchhaicrava"
+      ]
+    },
+    "Kaustubha": {
+      "type": "proper_noun",
+      "description": "A divine jewel that emerges from the churning of the ocean."
+    },
+    "Sudhanwā": {
+      "type": "proper_noun",
+      "description": "A king who attacks Mithilā.",
+      "aliases": [
+        "Sudhanwa"
+      ]
+    },
+    "Kusādhwaja": {
+      "type": "proper_noun",
+      "description": "Brother of Janaka, king of Sānkāçyā.",
+      "aliases": [
+        "Kusadhwaja"
+      ]
+    },
+    "Sānkāçyā": {
+      "type": "proper_noun",
+      "description": "A city ruled by Kusādhwaja.",
+      "aliases": [
+        "Sankacya"
+      ]
+    },
+    "Ikshumati": {
+      "type": "proper_noun",
+      "description": "A river near Sānkāçyā."
+    },
+    "Vasishtha": {
+      "type": "proper_noun",
+      "description": "A revered sage and royal priest of the Ikshwāku dynasty.",
+      "aliases": [
+        "Vasistha"
+      ]
+    },
+    "Mārkandeya": {
+      "type": "proper_noun",
+      "description": "A long-lived sage.",
+      "aliases": [
+        "Markandeya"
+      ]
+    },
+    "Yudhājit": {
+      "type": "proper_noun",
+      "description": "Son of the king of the Kekayas, maternal uncle of Bharata.",
+      "aliases": [
+        "Yudhajit"
+      ]
+    },
+    "Mahendra": {
+      "type": "proper_noun",
+      "description": "A mountain associated with Paraçurāma."
+    },
+    "Jamadagni": {
+      "type": "proper_noun",
+      "description": "Father of Paraçurāma."
+    },
+    "Richika": {
+      "type": "proper_noun",
+      "description": "A sage, ancestor of Paraçurāma."
+    },
+    "Varuna": {
+      "type": "proper_noun",
+      "description": "God of the oceans."
+    },
+    "Vānaprastha": {
+      "type": "proper_noun",
+      "description": "The third stage of life in Hindu tradition, that of the forest-dweller or hermit.",
+      "aliases": [
+        "Vanaprastha"
+      ]
+    },
+    "Godana": {
+      "type": "proper_noun",
+      "description": "A ritual of gifting cows, especially at auspicious occasions."
+    },
+    "Bhaga": {
+      "type": "proper_noun",
+      "description": "A Vedic deity associated with fortune."
+    },
+    "Phālguna": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu lunar calendar.",
+      "aliases": [
+        "Phalguna"
+      ]
+    },
+    "Maghā": {
+      "type": "proper_noun",
+      "description": "A lunar mansion or nakshatra in Hindu astrology.",
+      "aliases": [
+        "Magha"
+      ]
+    },
+    "ascetic": {
+      "type": "vocabulary",
+      "description": "A person who practices severe self-discipline and abstention from worldly pleasures, often for religious reasons."
+    },
+    "Vaidika": {
+      "type": "vocabulary",
+      "description": "Pertaining to the Vedas or Vedic tradition."
+    },
+    "boons": {
+      "type": "vocabulary",
+      "description": "Blessings or favors granted, often by gods."
+    },
+    "installation": {
+      "type": "vocabulary",
+      "description": "The formal ceremony of placing someone in a position of authority, such as a king."
+    },
+    "hermitage": {
+      "type": "vocabulary",
+      "description": "A secluded dwelling or retreat, especially for religious ascetics."
+    },
+    "Arghya": {
+      "type": "vocabulary",
+      "description": "A ritual offering of water, flowers, or other items to a deity or honored guest."
+    },
+    "sloka": {
+      "type": "vocabulary",
+      "description": "A verse, especially in classical Sanskrit poetry."
+    },
+    "ayutas": {
+      "type": "vocabulary",
+      "description": "A unit of ten thousand."
+    },
+    "kotis": {
+      "type": "vocabulary",
+      "description": "A unit of ten million."
+    },
+    "kamandalu": {
+      "type": "vocabulary",
+      "description": "A water pot used by ascetics."
+    },
+    "maunja": {
+      "type": "vocabulary",
+      "description": "A girdle or belt made from sacred grass, worn by ascetics."
+    },
+    "vrishi": {
+      "type": "vocabulary",
+      "description": "A staff or stick, sometimes used by ascetics."
+    },
+    "kaupina": {
+      "type": "vocabulary",
+      "description": "A loincloth worn by ascetics."
+    },
+    "adumvari": {
+      "type": "vocabulary",
+      "description": "A type of seat made from the wood of the adumvara tree."
+    },
+    "Swasti": {
+      "type": "vocabulary",
+      "description": "A blessing or benediction meaning 'may it be well.'"
+    },
+    "Mahāratha": {
+      "type": "vocabulary",
+      "description": "A great chariot-warrior, an elite fighter.",
+      "aliases": [
+        "Maharatha"
+      ]
+    },
+    "Angadas": {
+      "type": "vocabulary",
+      "description": "Armlets or ornaments worn on the arms."
+    },
+    "Nishkas": {
+      "type": "vocabulary",
+      "description": "Gold coins or ornaments worn as jewelry."
+    },
+    "pravargya": {
+      "type": "vocabulary",
+      "description": "A Vedic ritual involving the offering of heated milk."
+    },
+    "upasada": {
+      "type": "vocabulary",
+      "description": "A Vedic ritual performed before the main sacrifice."
+    },
+    "Satrughna": {
+      "type": "character",
+      "description": "Youngest son of Daçarātha and Sumitrā, brother of Lakshmana, Bharata, and Rāma."
+    },
+    "Açwapati": {
+      "type": "character",
+      "description": "King of Kekaya, father of Kaikeyi and maternal grandfather of Bharata; he hosts Bharata and Satrughna during their stay in Kekaya.",
+      "aliases": [
+        "Acwapati"
+      ]
+    },
+    "Indra": {
+      "type": "proper_noun",
+      "description": "The King of the gods and a symbol of power, also referred to as Sachi's lord.",
+      "aliases": [
+        "Maghavan",
+        "Purandara",
+        "Sakra",
+        "Satakratu",
+        "Vasava",
+        "Vāsava",
+        "Sakra's banner",
+        "Śakra"
+      ],
+      "image": "/data/images/characters/ramayana/indra.webp"
+    },
+    "Vrihaspati": {
+      "type": "character",
+      "description": "Preceptor of the gods, associated with wisdom.",
+      "aliases": [
+        "Brihaspati",
+        "Bṛhaspati"
+      ]
+    },
+    "Sachi": {
+      "type": "character",
+      "description": "Wife of Indra, sometimes referenced as 'Sachi's lord' meaning Indra."
+    },
+    "Maruts": {
+      "type": "character",
+      "description": "Storm gods, attendants of Indra."
+    },
+    "Nahusha": {
+      "type": "character",
+      "description": "A legendary king in Hindu mythology, known for his temporary ascension to king of the gods."
+    },
+    "Yayāti": {
+      "type": "character",
+      "description": "A legendary king, known for his story of exchanging his old age with his son.",
+      "aliases": [
+        "Yayati"
+      ]
+    },
+    "Sujajna": {
+      "type": "character",
+      "description": "A Brāhmana sage and priest, son of Vasishtha, who received gifts from Rāma.",
+      "aliases": [
+        "Suyajna"
+      ]
+    },
+    "Chitraratha": {
+      "type": "character",
+      "description": "Charioteer and counsellor of Ayodhyā, recipient of gifts from Rāma."
+    },
+    "Garga": {
+      "type": "character",
+      "description": "A sage, ancestor of Trijatā."
+    },
+    "Satrunjaya": {
+      "type": "character",
+      "description": "Name of Rāma's elephant."
+    },
+    "Mantharā": {
+      "type": "character",
+      "description": "Hump-backed maidservant of Kaikeyi, instigator of Rāma's exile.",
+      "aliases": [
+        "Manthara"
+      ]
+    },
+    "Samvara": {
+      "type": "character",
+      "description": "A powerful Asura demon who was an enemy of the gods and fought Daçarātha.",
+      "aliases": [
+        "Timidhvaja"
+      ]
+    },
+    "Mlechas": {
+      "type": "character",
+      "description": "Term for non-Vedic, foreign or barbarian peoples."
+    },
+    "Arya": {
+      "type": "character",
+      "description": "Noble or Vedic peoples, as opposed to Mlechas."
+    },
+    "Yama": {
+      "type": "proper_noun",
+      "description": "God of death and justice in Hindu mythology."
+    },
+    "Punarvasu": {
+      "type": "character",
+      "description": "A lunar constellation (nakshatra)."
+    },
+    "Apsarā": {
+      "type": "proper_noun",
+      "description": "Celestial nymphs known for their beauty and dance, often associated with the gods.",
+      "aliases": [
+        "Apsarās",
+        "Apsara",
+        "Apsaras"
+      ]
+    },
+    "Kinnari": {
+      "type": "character",
+      "description": "Mythical female beings, half-woman, half-bird."
+    },
+    "Rāhu": {
+      "type": "character",
+      "description": "Demons or planetary portents associated with eclipses and swallowing the sun or moon.",
+      "aliases": [
+        "Swarbhānu",
+        "Ketu",
+        "Rahu"
+      ]
+    },
+    "Draviras": {
+      "type": "character",
+      "description": "A people or kingdom in southern India."
+    },
+    "Sindhus": {
+      "type": "character",
+      "description": "A people or region, the Indus valley."
+    },
+    "Sauviras": {
+      "type": "character",
+      "description": "An ancient kingdom or people."
+    },
+    "Shurashtras": {
+      "type": "character",
+      "description": "An ancient region, modern Saurashtra in Gujarat."
+    },
+    "Dakshinapathas": {
+      "type": "character",
+      "description": "Southern regions of India."
+    },
+    "Bangas": {
+      "type": "character",
+      "description": "Bengal region."
+    },
+    "Magadhas": {
+      "type": "character",
+      "description": "Ancient kingdom in eastern India."
+    },
+    "Matsyas": {
+      "type": "character",
+      "description": "Ancient kingdom in northwestern India."
+    },
+    "Kasis": {
+      "type": "character",
+      "description": "Ancient kingdom, centered around Varanasi."
+    },
+    "Matuli": {
+      "type": "character",
+      "description": "Charioteer of Indra."
+    },
+    "Dānavas": {
+      "type": "character",
+      "description": "A class of Asuras, enemies of the gods.",
+      "aliases": [
+        "Danavas"
+      ]
+    },
+    "Satvavān": {
+      "type": "character",
+      "description": "The husband of Sāvitri, a prince whose life was saved by his wife's devotion.",
+      "aliases": [
+        "Satyabāna",
+        "Satvavan"
+      ]
+    },
+    "Dumat Sen": {
+      "type": "character",
+      "description": "Father of Satvavān."
+    },
+    "Suvarchalā": {
+      "type": "character",
+      "description": "Wife of the Sun god.",
+      "aliases": [
+        "Suvarchala"
+      ]
+    },
+    "Aja": {
+      "type": "character",
+      "description": "Father of Daçarātha, grandfather of Rāma."
+    },
+    "Maudgalya": {
+      "type": "character",
+      "description": "A sage and courtier in Ayodhyā."
+    },
+    "Atri": {
+      "type": "character",
+      "description": "A great sage whose hermitage Rāma visits."
+    },
+    "Anasuyā": {
+      "type": "character",
+      "description": "Wife of Atri, renowned ascetic and benefactor to Sitā.",
+      "aliases": [
+        "Anasuya"
+      ]
+    },
+    "Chyavana": {
+      "type": "character",
+      "description": "A sage, son of Bhrigu, known for his asceticism and mystical powers.",
+      "aliases": [
+        "Chyabana"
+      ]
+    },
+    "Bhrigu": {
+      "type": "character",
+      "description": "A Vedic sage, ancestor of Chyavana."
+    },
+    "Ghritāchi": {
+      "type": "character",
+      "description": "A celestial nymph (Apsarā).",
+      "aliases": [
+        "Ghritachi"
+      ]
+    },
+    "Viçwāchi": {
+      "type": "character",
+      "description": "A celestial nymph (Apsarā).",
+      "aliases": [
+        "Vicwachi"
+      ]
+    },
+    "Miçrakeçi": {
+      "type": "character",
+      "description": "A celestial nymph (Apsarā).",
+      "aliases": [
+        "Micrakeci"
+      ]
+    },
+    "Alamvusha": {
+      "type": "character",
+      "description": "A celestial nymph (Apsarā)."
+    },
+    "Nāgadatta": {
+      "type": "character",
+      "description": "A celestial nymph (Apsarā).",
+      "aliases": [
+        "Nagadatta"
+      ]
+    },
+    "Hemā": {
+      "type": "character",
+      "description": "A celestial nymph (Apsarā).",
+      "aliases": [
+        "Hema"
+      ]
+    },
+    "Somā": {
+      "type": "character",
+      "description": "A celestial nymph (Apsarā).",
+      "aliases": [
+        "Soma"
+      ]
+    },
+    "Tumvuru": {
+      "type": "character",
+      "description": "A Gandharva, celestial musician."
+    },
+    "Nirada": {
+      "type": "character",
+      "description": "A Gandharva, celestial musician."
+    },
+    "Gopa": {
+      "type": "character",
+      "description": "A Gandharva, celestial musician."
+    },
+    "Pundarikā": {
+      "type": "character",
+      "description": "A celestial nymph (Apsarā).",
+      "aliases": [
+        "Pundarika"
+      ]
+    },
+    "Sukra": {
+      "type": "character",
+      "description": "The preceptor of the Asuras and the deity associated with the planet Venus.",
+      "aliases": [
+        "Uçanas"
+      ]
+    },
+    "Soma": {
+      "type": "proper_noun",
+      "description": "The moon god, also associated with the sacred drink."
+    },
+    "Kuvera": {
+      "type": "character",
+      "description": "The god of wealth and king of the Yakshas, also the half-brother of Rāvana.",
+      "aliases": [
+        "Vaisravana"
+      ]
+    },
+    "Sree": {
+      "type": "proper_noun",
+      "description": "Lakshmi, goddess of fortune and prosperity.",
+      "aliases": [
+        "Sree herself"
+      ]
+    },
+    "Kāma": {
+      "type": "proper_noun",
+      "description": "The god of love and desire whose influence is strongly felt in the spring.",
+      "aliases": [
+        "Cupid",
+        "Kandarpa",
+        "Madana",
+        "Kama"
+      ]
+    },
+    "Chaitra": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu lunar calendar, corresponding to March-April."
+    },
+    "Yamunā": {
+      "type": "proper_noun",
+      "description": "A sacred river in northern India, tributary of the Ganges.",
+      "aliases": [
+        "Yamuna"
+      ]
+    },
+    "Prayāga": {
+      "type": "proper_noun",
+      "description": "The confluence of the Ganges and Yamunā rivers, modern-day Allahabad.",
+      "aliases": [
+        "Prayaga"
+      ]
+    },
+    "Kālindi": {
+      "type": "proper_noun",
+      "description": "Another name for the Yamunā river.",
+      "aliases": [
+        "Kalindi"
+      ]
+    },
+    "Mandākini": {
+      "type": "proper_noun",
+      "description": "A river near Chitrakuta, associated with Rāma's exile.",
+      "aliases": [
+        "Mandakini"
+      ]
+    },
+    "Mithilā": {
+      "type": "proper_noun",
+      "description": "Kingdom ruled by Janaka, father of Sitā.",
+      "aliases": [
+        "Mithila"
+      ]
+    },
+    "Vatsas": {
+      "type": "proper_noun",
+      "description": "A region or people in ancient India."
+    },
+    "Sumeru": {
+      "type": "proper_noun",
+      "description": "A mythological sacred mountain, axis mundi in Hindu cosmology."
+    },
+    "Kailāsa": {
+      "type": "proper_noun",
+      "description": "The sacred mountain abode of Shiva.",
+      "aliases": [
+        "Kailāça",
+        "Kailaça",
+        "Kailasa"
+      ]
+    },
+    "Sudharmā": {
+      "type": "proper_noun",
+      "description": "The celestial assembly hall of the gods.",
+      "aliases": [
+        "Sudharma"
+      ]
+    },
+    "Nandana": {
+      "type": "proper_noun",
+      "description": "The celestial garden of Indra."
+    },
+    "Chaitya": {
+      "type": "proper_noun",
+      "description": "A sacred tree or shrine, often associated with Buddhist or Hindu worship."
+    },
+    "Saraju": {
+      "type": "proper_noun",
+      "description": "A river near Ayodhyā, another name for Sarayu."
+    },
+    "Vājapeya": {
+      "type": "proper_noun",
+      "description": "A Vedic sacrifice, associated with royal power.",
+      "aliases": [
+        "Vajapeya"
+      ]
+    },
+    "Saptarshi": {
+      "type": "proper_noun",
+      "description": "The seven great sages in Hindu tradition."
+    },
+    "Atiratha": {
+      "type": "vocabulary",
+      "description": "A warrior of the highest rank, capable of fighting many opponents simultaneously."
+    },
+    "Dakshina": {
+      "type": "vocabulary",
+      "description": "A religious offering or fee, often given to priests after a ritual.",
+      "aliases": [
+        "Dakshinas"
+      ]
+    },
+    "Swastivachana": {
+      "type": "vocabulary",
+      "description": "A Vedic ritual of auspicious invocation or benediction.",
+      "aliases": [
+        "Swastivāchana"
+      ]
+    },
+    "Dhupa": {
+      "type": "vocabulary",
+      "description": "Incense used in Hindu rituals."
+    },
+    "Sarvaushadhi": {
+      "type": "vocabulary",
+      "description": "All-healing herbs, used in rituals or medicine."
+    },
+    "Pitris": {
+      "type": "vocabulary",
+      "description": "The ancestral spirits, honored in Hindu rituals."
+    },
+    "Veda": {
+      "type": "vocabulary",
+      "description": "The ancient sacred scriptures of Hinduism, foundational texts of Vedic religion.",
+      "aliases": [
+        "Vedas"
+      ]
+    },
+    "Prākrit": {
+      "type": "vocabulary",
+      "description": "An ancient vernacular language of India, used alongside Sanskrit.",
+      "aliases": [
+        "Prakrit"
+      ]
+    },
+    "Mantra": {
+      "type": "vocabulary",
+      "description": "Sacred utterances, chants, or hymns used in spiritual practice and rituals.",
+      "aliases": [
+        "Mantras",
+        "mantras"
+      ]
+    },
+    "Pinda": {
+      "type": "vocabulary",
+      "description": "A ball of rice or food offered to ancestors during funeral rites."
+    },
+    "Yapa": {
+      "type": "vocabulary",
+      "description": "Repetition or chanting of sacred texts or mantras."
+    },
+    "Dharma": {
+      "type": "vocabulary",
+      "description": "Righteousness, duty, or moral law."
+    },
+    "Krosa": {
+      "type": "vocabulary",
+      "description": "A unit of distance, about 2 miles."
+    },
+    "Rājarshi": {
+      "type": "vocabulary",
+      "description": "A royal sage, a king who is also a sage.",
+      "aliases": [
+        "Rajarshi"
+      ]
+    },
+    "Sruti": {
+      "type": "vocabulary",
+      "description": "That which is heard; refers to the Vedas."
+    },
+    "Smriti": {
+      "type": "vocabulary",
+      "description": "That which is remembered; traditional texts derived from the Vedas."
+    },
+    "Lokapāla": {
+      "type": "vocabulary",
+      "description": "Guardian deity of a direction or region.",
+      "aliases": [
+        "Lokapala"
+      ]
+    },
+    "Lokapālas": {
+      "type": "vocabulary",
+      "description": "The eight guardian deities of the directions.",
+      "aliases": [
+        "Lokapalas"
+      ]
+    },
+    "Siddha": {
+      "type": "vocabulary",
+      "description": "A perfected being, often with supernatural powers."
+    },
+    "Mandala": {
+      "type": "vocabulary",
+      "description": "A circle or sphere of influence; in politics, a group of neighboring states."
+    },
+    "Prakriti": {
+      "type": "vocabulary",
+      "description": "Constituent elements or natures; in politics, refers to the elements of state."
+    },
+    "Swastika": {
+      "type": "vocabulary",
+      "description": "A type of boat, or an auspicious symbol."
+    },
+    "Maireya": {
+      "type": "vocabulary",
+      "description": "A type of alcoholic beverage."
+    },
+    "Payāca": {
+      "type": "vocabulary",
+      "description": "A type of rice pudding or sweet dish.",
+      "aliases": [
+        "Payaca"
+      ]
+    },
+    "Rasāla": {
+      "type": "vocabulary",
+      "description": "A sweet, often mango-based, drink or sauce.",
+      "aliases": [
+        "Rasala"
+      ]
+    },
+    "Kusa": {
+      "type": "vocabulary",
+      "description": "A type of sacred grass used in Hindu rituals.",
+      "aliases": [
+        "Kuça",
+        "kusa grass",
+        "Kuśa"
+      ]
+    },
+    "Sāla": {
+      "type": "vocabulary",
+      "description": "A type of tree (Shorea robusta), often referenced in Indian literature.",
+      "aliases": [
+        "Sala"
+      ]
+    },
+    "Ingudi": {
+      "type": "vocabulary",
+      "description": "A type of tree (Balanites aegyptiaca), whose fruit is used in rituals."
+    },
+    "Kata section": {
+      "type": "vocabulary",
+      "description": "A branch or recension of the Yajur Veda."
+    },
+    "Sāma": {
+      "type": "vocabulary",
+      "description": "A type of Vedic chant or melody.",
+      "aliases": [
+        "Sama"
+      ]
+    },
+    "Megha": {
+      "type": "vocabulary",
+      "description": "A type of drum or cloud; here, likely a drum."
+    },
+    "Mridanga": {
+      "type": "vocabulary",
+      "description": "A classical Indian percussion instrument."
+    },
+    "Japa": {
+      "type": "vocabulary",
+      "description": "Repetition or chanting of sacred texts or mantras."
+    },
+    "Homa": {
+      "type": "vocabulary",
+      "description": "A Vedic fire ritual involving offerings to the fire."
+    },
+    "Brahmācharya": {
+      "type": "vocabulary",
+      "description": "The student stage of life, characterized by celibacy and study.",
+      "aliases": [
+        "Brahmacharya"
+      ]
+    },
+    "Sutikshna": {
+      "type": "character",
+      "description": "A sage in the Dandaka forest who welcomes Rāma during his exile.",
+      "aliases": [
+        "Suitikshna"
+      ]
+    },
+    "Agastya's brother": {
+      "type": "character",
+      "description": "The brother of sage Agastya, also an ascetic living in the Dandaka forest."
+    },
+    "Rambhā": {
+      "type": "character",
+      "description": "A famous Apsara (celestial nymph) in Hindu mythology.",
+      "aliases": [
+        "Rambha"
+      ]
+    },
+    "Māndakarni": {
+      "type": "character",
+      "description": "An ascetic who creates the Panchāpsara tank and marries five Apsarās.",
+      "aliases": [
+        "Mandakarni"
+      ]
+    },
+    "Dharmabhrit": {
+      "type": "character",
+      "description": "An ascetic who explains the story of the Panchāpsara tank to Rāma."
+    },
+    "Maharshis": {
+      "type": "character",
+      "description": "A title for great sages or seers of high spiritual accomplishment.",
+      "aliases": [
+        "Maharshi"
+      ]
+    },
+    "Vaiçyānara": {
+      "type": "character",
+      "description": "An epithet for Agni, the fire god.",
+      "aliases": [
+        "Vaicyanara"
+      ]
+    },
+    "Triçira": {
+      "type": "character",
+      "description": "A Rākshasa general with three heads, ally of Khara.",
+      "aliases": [
+        "Tricira"
+      ]
+    },
+    "Kumbhakarna": {
+      "type": "character",
+      "description": "Rāvana's giant brother known for his massive appetite and long periods of sleep.",
+      "aliases": [
+        "Kumvakarna"
+      ]
+    },
+    "Bibhishana": {
+      "type": "character",
+      "description": "Rāvana's righteous brother who defects to Rāma's side and eventually becomes the king of Lankā.",
+      "aliases": [
+        "Bibhisana",
+        "Vibhishana"
+      ],
+      "image": "/data/images/characters/ramayana/bibhishana.webp"
+    },
+    "Ilwala": {
+      "type": "character",
+      "description": "A Rākshasa who, with his brother Vātāpi, kills Brāhmanas by trickery."
+    },
+    "Vātāpi": {
+      "type": "character",
+      "description": "A Rākshasa, brother of Ilwala, killed by sage Agastya.",
+      "aliases": [
+        "Vatapi"
+      ]
+    },
+    "Danu": {
+      "type": "character",
+      "description": "Mother of the Danavas, also refers to the demon class."
+    },
+    "Tamrā": {
+      "type": "character",
+      "description": "Mother of various birds, wife of Kaçyapa.",
+      "aliases": [
+        "Tamra"
+      ]
+    },
+    "Krodhavasā": {
+      "type": "character",
+      "description": "Mother of various animals, wife of Kaçyapa.",
+      "aliases": [
+        "Krodhavasa"
+      ]
+    },
+    "Analā": {
+      "type": "character",
+      "description": "Mother of trees, wife of Kaçyapa.",
+      "aliases": [
+        "Anala"
+      ]
+    },
+    "Kadru": {
+      "type": "character",
+      "description": "Mother of the Nāgas (serpents), wife of Kaçyapa."
+    },
+    "Suki": {
+      "type": "character",
+      "description": "Daughter of Tamrā, mother of Vinatā."
+    },
+    "Irāvati": {
+      "type": "character",
+      "description": "Daughter of Bhadramadā, mother of Airāvata the elephant.",
+      "aliases": [
+        "Iravati"
+      ]
+    },
+    "Garuda": {
+      "type": "character",
+      "description": "The divine eagle and vehicle of Vishnu, known for his enmity with serpents.",
+      "aliases": [
+        "Vainateya",
+        "Gāruda"
+      ]
+    },
+    "Aruna": {
+      "type": "character",
+      "description": "Brother of Garuda, charioteer of the Sun."
+    },
+    "Syeni": {
+      "type": "character",
+      "description": "Mother of Jatāyu and Sampāti."
+    },
+    "Vaiçyas": {
+      "type": "character",
+      "description": "The merchant and agricultural caste in Hindu society.",
+      "aliases": [
+        "Vaicyas"
+      ]
+    },
+    "Sudras": {
+      "type": "character",
+      "description": "The laborer caste in Hindu society."
+    },
+    "Akampana": {
+      "type": "character",
+      "description": "A Rākshasa who escapes the slaughter at Janasthāna and informs Rāvana."
+    },
+    "Namuchi": {
+      "type": "character",
+      "description": "A demon slain by Indra in Hindu mythology."
+    },
+    "Vritra": {
+      "type": "character",
+      "description": "A demon slain by Indra in a great celestial battle.",
+      "aliases": [
+        "Vitra"
+      ]
+    },
+    "Vala": {
+      "type": "character",
+      "description": "A demon slain by Indra."
+    },
+    "Andhaka": {
+      "type": "character",
+      "description": "A demon slain by Rudra (Shiva)."
+    },
+    "Nandi": {
+      "type": "character",
+      "description": "The bull attendant and vehicle of Shiva."
+    },
+    "Pulastya": {
+      "type": "character",
+      "description": "One of the mind-born sons of Brahmā, ancestor of Rāvana."
+    },
+    "Charanas": {
+      "type": "proper_noun",
+      "description": "Celestial bards and singers who witness and narrate great events.",
+      "aliases": [
+        "Chāranas"
+      ]
+    },
+    "Chaitraratha": {
+      "type": "character",
+      "description": "A celestial garden belonging to Kubera."
+    },
+    "Vāsaki": {
+      "type": "character",
+      "description": "King of the Nāgas (serpents).",
+      "aliases": [
+        "Vasaki"
+      ]
+    },
+    "Takshaka": {
+      "type": "character",
+      "description": "A Nāga king."
+    },
+    "Sani": {
+      "type": "character",
+      "description": "The planet Saturn, personified as a deity."
+    },
+    "Gāyatri": {
+      "type": "character",
+      "description": "A sacred Vedic meter personified as a goddess.",
+      "aliases": [
+        "Gayatri"
+      ]
+    },
+    "Vasus": {
+      "type": "character",
+      "description": "A group of eight Vedic deities."
+    },
+    "Vāyu": {
+      "type": "character",
+      "description": "The deity of wind and the father of Hanumān.",
+      "aliases": [
+        "Maruta",
+        "Wind-god",
+        "Vayu"
+      ]
+    },
+    "Vāruna": {
+      "type": "character",
+      "description": "The god of water.",
+      "aliases": [
+        "Varuna"
+      ]
+    },
+    "Arundhati": {
+      "type": "character",
+      "description": "The wife of sage Vashishtha and a symbol of marital fidelity and chastity.",
+      "aliases": [
+        "Arundhuti"
+      ]
+    },
+    "Godāvari": {
+      "type": "character",
+      "description": "A major river in southern India, near which Rāma builds his hermitage.",
+      "aliases": [
+        "Godāveri",
+        "Godaveri",
+        "Godavari"
+      ]
+    },
+    "Panchavati": {
+      "type": "character",
+      "description": "A sacred grove on the banks of the Godāvari, where Rāma, Lakshmana, and Sitā reside."
+    },
+    "Rishyamuka": {
+      "type": "character",
+      "description": "A mountain where Sugriva and the monkeys reside."
+    },
+    "Kavandha": {
+      "type": "character",
+      "description": "A headless Rākshasa encountered and slain by Rāma and Lakshmana in the forest.",
+      "aliases": [
+        "Kāvandha"
+      ]
+    },
+    "Matanga": {
+      "type": "character",
+      "description": "A sage whose hermitage is near Pampā."
+    },
+    "Sthulashira": {
+      "type": "character",
+      "description": "A sage who curses Kavandha."
+    },
+    "Suryya": {
+      "type": "character",
+      "description": "The sun god and father of Sugriva.",
+      "aliases": [
+        "Savitā",
+        "Vivaswat",
+        "Arka"
+      ]
+    },
+    "Rikshyaraja": {
+      "type": "character",
+      "description": "Father of Sugriva and Vāli, a monkey king."
+    },
+    "Lankā": {
+      "type": "proper_noun",
+      "description": "The island kingdom ruled by Rāvana, located across the ocean from the Indian mainland.",
+      "aliases": [
+        "Lanka"
+      ]
+    },
+    "Vindhya": {
+      "type": "proper_noun",
+      "description": "A mountain range in central India, significant in Hindu mythology."
+    },
+    "Matanga's wood": {
+      "type": "proper_noun",
+      "description": "The forest region associated with sage Matanga."
+    },
+    "Saptaparua": {
+      "type": "proper_noun",
+      "description": "A type of tree mentioned as growing near Pampā."
+    },
+    "Raktachandan": {
+      "type": "proper_noun",
+      "description": "Red sandalwood, a sacred and fragrant tree."
+    },
+    "Pāmpa": {
+      "type": "proper_noun",
+      "description": "Another spelling for Pampā, the lake or river near Rishyamuka.",
+      "aliases": [
+        "Pampa"
+      ]
+    },
+    "Vaitarani": {
+      "type": "proper_noun",
+      "description": "A mythical river in the underworld, associated with death."
+    },
+    "Meru": {
+      "type": "proper_noun",
+      "description": "A sacred mountain in Hindu cosmology."
+    },
+    "Panchāpsara": {
+      "type": "proper_noun",
+      "description": "A tank or pond created by the ascetic Māndakarni, inhabited by five Apsarās.",
+      "aliases": [
+        "Panchapsara"
+      ]
+    },
+    "Pippali": {
+      "type": "proper_noun",
+      "description": "A type of long pepper plant, mentioned as growing in the forest."
+    },
+    "Darva": {
+      "type": "proper_noun",
+      "description": "A type of sacred grass, often used in rituals."
+    },
+    "Matanga Sara": {
+      "type": "proper_noun",
+      "description": "A sacred part of the Pampā lake associated with sage Matanga."
+    },
+    "Asura": {
+      "type": "vocabulary",
+      "description": "A class of powerful beings, often considered demons or anti-gods, antagonistic to the Devas.",
+      "aliases": [
+        "Asuras"
+      ]
+    },
+    "Brahmacharya": {
+      "type": "vocabulary",
+      "description": "A stage of life or practice of celibacy and self-restraint, especially for ascetics."
+    },
+    "Parigha": {
+      "type": "vocabulary",
+      "description": "A type of heavy club or iron bar used as a weapon."
+    },
+    "Nāga": {
+      "type": "vocabulary",
+      "description": "A race of divine or semi-divine serpents or serpent deities.",
+      "aliases": [
+        "Nagas",
+        "Nāgas",
+        "Pannaga",
+        "Pannagas",
+        "Naga"
+      ]
+    },
+    "Nārācha": {
+      "type": "vocabulary",
+      "description": "A type of iron arrow or dart.",
+      "aliases": [
+        "Naracha"
+      ]
+    },
+    "Vajra": {
+      "type": "vocabulary",
+      "description": "The thunderbolt weapon, especially of Indra."
+    },
+    "Yoga": {
+      "type": "vocabulary",
+      "description": "A spiritual discipline or practice aiming at union with the divine."
+    },
+    "Agrayana": {
+      "type": "vocabulary",
+      "description": "A Vedic festival or ritual associated with the new rice harvest."
+    },
+    "Udaka": {
+      "type": "vocabulary",
+      "description": "Water, especially as used in funeral rites."
+    },
+    "Kārandavas": {
+      "type": "vocabulary",
+      "description": "A type of aquatic bird, possibly a coot or duck.",
+      "aliases": [
+        "Karandavas"
+      ]
+    },
+    "Chakravāka": {
+      "type": "vocabulary",
+      "description": "A type of waterfowl, often identified as a ruddy shelduck.",
+      "aliases": [
+        "Chakravaka"
+      ]
+    },
+    "Krauncha": {
+      "type": "vocabulary",
+      "description": "A type of crane or water bird; also refers to a pair of birds whose separation inspires Vālmiki's first verse.",
+      "aliases": [
+        "Chrauncha",
+        "Kraunchas"
+      ]
+    },
+    "Kinnara": {
+      "type": "vocabulary",
+      "description": "A mythical being, half-human and half-horse or bird, known for music."
+    },
+    "Sthandilaçāyis": {
+      "type": "vocabulary",
+      "description": "Ascetics who sleep on bare ground.",
+      "aliases": [
+        "Sthandilacayis"
+      ]
+    },
+    "Urddhavāsis": {
+      "type": "vocabulary",
+      "description": "Ascetics who practice standing upright as penance.",
+      "aliases": [
+        "Urddhavasis"
+      ]
+    },
+    "Ardrapattavāsas": {
+      "type": "vocabulary",
+      "description": "Ascetics who wear wet bark garments.",
+      "aliases": [
+        "Ardrapattavasas"
+      ]
+    },
+    "Salilāhāras": {
+      "type": "vocabulary",
+      "description": "Ascetics who subsist only on water.",
+      "aliases": [
+        "Salilaharas"
+      ]
+    },
+    "Vāyubhaksbas": {
+      "type": "vocabulary",
+      "description": "Ascetics who subsist only on air.",
+      "aliases": [
+        "Vayubhaksbas"
+      ]
+    },
+    "Akāçanilayas": {
+      "type": "vocabulary",
+      "description": "Ascetics who dwell in the open air.",
+      "aliases": [
+        "Akacanilayas"
+      ]
+    },
+    "Kāsa": {
+      "type": "vocabulary",
+      "description": "A type of grass, often used for making mats or thatching.",
+      "aliases": [
+        "Kasa"
+      ]
+    },
+    "Chandāla": {
+      "type": "vocabulary",
+      "description": "A member of a low caste, often associated with untouchability.",
+      "aliases": [
+        "Chandala"
+      ]
+    },
+    "Kārandava": {
+      "type": "vocabulary",
+      "description": "A type of aquatic bird, possibly a coot or duck.",
+      "aliases": [
+        "Karandava"
+      ]
+    },
+    "Tārā": {
+      "type": "character",
+      "description": "The wise wife of Vāli and later Sugriva, known for her counsel.",
+      "aliases": [
+        "Tāra",
+        "Tara"
+      ]
+    },
+    "Angada": {
+      "type": "character",
+      "description": "Son of Vāli and Tārā, a young monkey prince and key warrior in the search for Sitā."
+    },
+    "Rumā": {
+      "type": "character",
+      "description": "Sugriva's wife, taken by Vāli.",
+      "aliases": [
+        "Ruma"
+      ]
+    },
+    "Māyāvi": {
+      "type": "character",
+      "description": "A powerful asura, son of Dunduvi, enemy of Vāli.",
+      "aliases": [
+        "Mayavi"
+      ]
+    },
+    "Māndhāta": {
+      "type": "character",
+      "description": "An ancient king, ancestor of Rāma, known for upholding dharma.",
+      "aliases": [
+        "Mandhata"
+      ]
+    },
+    "Sayamprabhā": {
+      "type": "character",
+      "description": "Daughter of Merusāvarni, a female ascetic who helps the monkeys escape the cave.",
+      "aliases": [
+        "Sayamprabha"
+      ]
+    },
+    "Merusāvarni": {
+      "type": "character",
+      "description": "A sage, father of Sayamprabhā.",
+      "aliases": [
+        "Merusavarni"
+      ]
+    },
+    "Supārçwa": {
+      "type": "character",
+      "description": "Sampāti's son.",
+      "aliases": [
+        "Suparcwa"
+      ]
+    },
+    "Niçākara": {
+      "type": "character",
+      "description": "A sage who aids Sampāti.",
+      "aliases": [
+        "Nicakara"
+      ]
+    },
+    "Virochana": {
+      "type": "character",
+      "description": "A daitya king, father of Bali."
+    },
+    "Kāla": {
+      "type": "character",
+      "description": "Personification of Time or Death.",
+      "aliases": [
+        "Kala"
+      ]
+    },
+    "Jambavān": {
+      "type": "character",
+      "description": "The wise and elderly king of the bears, an advisor and leader among the monkey allies.",
+      "aliases": [
+        "Jāmbavān",
+        "Jāmbubāna",
+        "Jambavan"
+      ]
+    },
+    "Neela": {
+      "type": "character",
+      "description": "A monkey chief/general, commander in Sugriva's army.",
+      "aliases": [
+        "Nila"
+      ]
+    },
+    "Gaya": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Gavaksha": {
+      "type": "character",
+      "description": "A monkey chief.",
+      "aliases": [
+        "Gavāksha"
+      ]
+    },
+    "Gavaya": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Sarabha": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Gandhamādana": {
+      "type": "character",
+      "description": "A monkey chief.",
+      "aliases": [
+        "Gandhamadana"
+      ]
+    },
+    "Mainda": {
+      "type": "character",
+      "description": "A monkey chief, son of Ashvins."
+    },
+    "Dwivida": {
+      "type": "character",
+      "description": "A monkey chief, son of Ashvins."
+    },
+    "Sushena": {
+      "type": "character",
+      "description": "A monkey chief, father-in-law of Sugriva."
+    },
+    "Darimukha": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Indrajanu": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Rambha": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Durmukha": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Kumuda": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Vahni": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Rumana": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Satavali": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Dhumra": {
+      "type": "character",
+      "description": "A bear chief."
+    },
+    "Panama": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Golava": {
+      "type": "character",
+      "description": "A Gandharva king defeated by Vāli."
+    },
+    "Yaksha": {
+      "type": "proper_noun",
+      "description": "A class of nature spirits or demigods, sometimes ministers of Sugriva.",
+      "aliases": [
+        "Yakshas"
+      ]
+    },
+    "Pravaba": {
+      "type": "character",
+      "description": "A minister of Sugriva."
+    },
+    "Archishmat": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Archirmālyas": {
+      "type": "character",
+      "description": "Monkey chiefs, sons of Marichi.",
+      "aliases": [
+        "Archirmalyas"
+      ]
+    },
+    "Sārvabhauma": {
+      "type": "character",
+      "description": "Kuvera's elephant.",
+      "aliases": [
+        "Sarvabhauma"
+      ]
+    },
+    "Vālakhilya": {
+      "type": "character",
+      "description": "A class of tiny ascetic sages.",
+      "aliases": [
+        "Valakhilya"
+      ]
+    },
+    "Vaikhānasa": {
+      "type": "character",
+      "description": "A class of ascetic sages.",
+      "aliases": [
+        "Vaikhanasa"
+      ]
+    },
+    "Kinnaras": {
+      "type": "character",
+      "description": "Mythical beings, part human, part horse."
+    },
+    "Vidhutmali": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Suryaksha": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Beerabahu": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Subahu": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Sunetra": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Supātala": {
+      "type": "character",
+      "description": "A monkey chief.",
+      "aliases": [
+        "Supatala"
+      ]
+    },
+    "Dadhibaktra": {
+      "type": "character",
+      "description": "A monkey chief."
+    },
+    "Sumitra": {
+      "type": "character",
+      "description": "Mother of Lakshmana and Satrughna, another queen of Daçarātha.",
+      "aliases": [
+        "Sumitrā"
+      ],
+      "image": "/data/images/characters/ramayana/sumitra.webp"
+    },
+    "Kishkindhā": {
+      "type": "proper_noun",
+      "description": "The monkey kingdom ruled by Vāli and later Sugriva, located in southern India.",
+      "aliases": [
+        "Kishkindha"
+      ]
+    },
+    "Ayodhya": {
+      "type": "proper_noun",
+      "description": "The capital city of Kosala, Rāma's birthplace and kingdom.",
+      "aliases": [
+        "Ayodhyā"
+      ]
+    },
+    "Malaya": {
+      "type": "proper_noun",
+      "description": "A mountain range in southern India."
+    },
+    "Kanka": {
+      "type": "proper_noun",
+      "description": "A bird of prey; its feathers are used for fletching arrows."
+    },
+    "Asoka": {
+      "type": "proper_noun",
+      "description": "A flowering tree (Saraca asoca), symbolizing love and desire."
+    },
+    "Karnikara": {
+      "type": "proper_noun",
+      "description": "A yellow-flowered tree (Pterospermum acerifolium) mentioned in the forest.",
+      "aliases": [
+        "Karnikāras",
+        "Karnika"
+      ]
+    },
+    "Chakrabaka": {
+      "type": "proper_noun",
+      "description": "A type of waterfowl, often identified as the ruddy goose or Brahminy duck."
+    },
+    "Karandava": {
+      "type": "proper_noun",
+      "description": "A kind of waterfowl, often identified as a duck."
+    },
+    "Plaba": {
+      "type": "proper_noun",
+      "description": "A kind of water bird."
+    },
+    "Saugandhika": {
+      "type": "proper_noun",
+      "description": "A fragrant, celestial lotus or water lily."
+    },
+    "Mandāra": {
+      "type": "proper_noun",
+      "description": "A celestial tree or mountain; also refers to a mountain used in the churning of the ocean.",
+      "aliases": [
+        "Mandara"
+      ]
+    },
+    "Rājasuya": {
+      "type": "proper_noun",
+      "description": "A royal consecration sacrifice performed by kings.",
+      "aliases": [
+        "Rajasuya"
+      ]
+    },
+    "Agnishtoma": {
+      "type": "proper_noun",
+      "description": "A Vedic soma sacrifice."
+    },
+    "Yajur-veda": {
+      "type": "proper_noun",
+      "description": "One of the four Vedas, containing sacrificial formulas."
+    },
+    "Rig-veda": {
+      "type": "proper_noun",
+      "description": "The oldest of the four Vedas, consisting of hymns."
+    },
+    "Shyam-veda": {
+      "type": "proper_noun",
+      "description": "Likely a reference to the Sāma-veda, the Veda of chants."
+    },
+    "Ikshwākus": {
+      "type": "proper_noun",
+      "description": "The solar dynasty to which Rāma belongs.",
+      "aliases": [
+        "Ikshwakus"
+      ]
+    },
+    "Srābana": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu lunar calendar (July-August), marking the start of the rainy season.",
+      "aliases": [
+        "Srabana"
+      ]
+    },
+    "Kartika": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu lunar calendar (October-November), marking the end of the rainy season."
+    },
+    "Bhādra": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu calendar (August-September).",
+      "aliases": [
+        "Bhadra"
+      ]
+    },
+    "Ashara": {
+      "type": "proper_noun",
+      "description": "A month in the Hindu calendar (June-July), marking the start of the monsoon."
+    },
+    "Mānasa Saravara": {
+      "type": "proper_noun",
+      "description": "A sacred lake, often identified with Lake Manasarovar in Tibet.",
+      "aliases": [
+        "Manasa Saravara"
+      ]
+    },
+    "Trikuta": {
+      "type": "proper_noun",
+      "description": "A mountain with three peaks, sometimes identified with the site of Lanka."
+    },
+    "Prasrabana": {
+      "type": "proper_noun",
+      "description": "A hill near Kishkindhā where Rāma and Lakshmana stay during the rainy season."
+    },
+    "Padmachala": {
+      "type": "proper_noun",
+      "description": "A mountain, possibly mythical, associated with lotuses."
+    },
+    "Mahāçaila": {
+      "type": "proper_noun",
+      "description": "A great mountain.",
+      "aliases": [
+        "Mahacaila"
+      ]
+    },
+    "Mahāruna": {
+      "type": "proper_noun",
+      "description": "A mountain mentioned in the search for Sitā.",
+      "aliases": [
+        "Maharuna"
+      ]
+    },
+    "Saurāshtras": {
+      "type": "proper_noun",
+      "description": "A region in western India.",
+      "aliases": [
+        "Saurashtras"
+      ]
+    },
+    "Bāhlikas": {
+      "type": "proper_noun",
+      "description": "An ancient people, possibly in the northwest of India.",
+      "aliases": [
+        "Bahlikas"
+      ]
+    },
+    "Chandrachitras": {
+      "type": "proper_noun",
+      "description": "A region or people, possibly mythical."
+    },
+    "Kukshi": {
+      "type": "proper_noun",
+      "description": "A region or forest."
+    },
+    "Punnāgas": {
+      "type": "proper_noun",
+      "description": "A type of tree (Calophyllum inophyllum).",
+      "aliases": [
+        "Punnagas"
+      ]
+    },
+    "Vakulas": {
+      "type": "proper_noun",
+      "description": "A fragrant tree (Mimusops elengi)."
+    },
+    "Uddalakas": {
+      "type": "proper_noun",
+      "description": "A type of tree or region."
+    },
+    "Ketaka": {
+      "type": "proper_noun",
+      "description": "A fragrant screw-pine tree (Pandanus odorifer)."
+    },
+    "Tomālas": {
+      "type": "proper_noun",
+      "description": "A type of tree.",
+      "aliases": [
+        "Tomalas"
+      ]
+    },
+    "Murachipattana": {
+      "type": "proper_noun",
+      "description": "A city or region."
+    },
+    "Jatāpura": {
+      "type": "proper_noun",
+      "description": "A city or region.",
+      "aliases": [
+        "Jatapura"
+      ]
+    },
+    "Avanti": {
+      "type": "proper_noun",
+      "description": "An ancient kingdom in central India."
+    },
+    "Angalapā": {
+      "type": "proper_noun",
+      "description": "A city or region.",
+      "aliases": [
+        "Angalapa"
+      ]
+    },
+    "Alakshita": {
+      "type": "proper_noun",
+      "description": "A forest or region."
+    },
+    "Somagiri": {
+      "type": "proper_noun",
+      "description": "A golden mountain in the north."
+    },
+    "Pāriyātra": {
+      "type": "proper_noun",
+      "description": "A mountain range in western India.",
+      "aliases": [
+        "Pariyatra"
+      ]
+    },
+    "Chakravān": {
+      "type": "proper_noun",
+      "description": "A mountain where Viçwakarmā forged Vishnu's discus.",
+      "aliases": [
+        "Chakravan"
+      ]
+    },
+    "Varāha": {
+      "type": "proper_noun",
+      "description": "A mountain, also the boar incarnation of Vishnu.",
+      "aliases": [
+        "Varaha"
+      ]
+    },
+    "Prāgjyotisha": {
+      "type": "proper_noun",
+      "description": "A city of gold, ruled by the demon Naraka.",
+      "aliases": [
+        "Pragjyotisha"
+      ]
+    },
+    "Naraka": {
+      "type": "proper_noun",
+      "description": "A demon king, ruler of Prāgjyotisha."
+    },
+    "Sarvasauvarna": {
+      "type": "proper_noun",
+      "description": "A golden mountain."
+    },
+    "Viçwakarmā": {
+      "type": "proper_noun",
+      "description": "The divine architect of the gods.",
+      "aliases": [
+        "Vicwakarma"
+      ]
+    },
+    "Maya": {
+      "type": "proper_noun",
+      "description": "The asura architect, builder of magical structures.",
+      "aliases": [
+        "Māyā"
+      ]
+    },
+    "Sudarçana": {
+      "type": "proper_noun",
+      "description": "A mountain and also the name of Vishnu's discus.",
+      "aliases": [
+        "Sudarcana"
+      ]
+    },
+    "Devasakhā": {
+      "type": "proper_noun",
+      "description": "A mountain, abode of birds.",
+      "aliases": [
+        "Devasakha"
+      ]
+    },
+    "Kichaka": {
+      "type": "proper_noun",
+      "description": "A type of bamboo."
+    },
+    "Soma mountain": {
+      "type": "proper_noun",
+      "description": "A golden mountain in the north, abode of Shiva."
+    },
+    "Mahāmeru": {
+      "type": "proper_noun",
+      "description": "The great mythical mountain at the center of the world.",
+      "aliases": [
+        "Mahameru"
+      ]
+    },
+    "Baidurja": {
+      "type": "vocabulary",
+      "description": "A precious stone, likely beryl or lapis lazuli, used here to describe the clarity of water."
+    },
+    "vernal": {
+      "type": "vocabulary",
+      "description": "Relating to spring."
+    },
+    "ravishment": {
+      "type": "vocabulary",
+      "description": "Abduction or forcible carrying away, especially of a woman."
+    },
+    "asylum": {
+      "type": "vocabulary",
+      "description": "A hermitage or place of refuge, often used for a sage's dwelling."
+    },
+    "embryo": {
+      "type": "vocabulary",
+      "description": "Here, refers to the sin of killing the unborn, considered a grave sin."
+    },
+    "Brahmacharis": {
+      "type": "vocabulary",
+      "description": "Celibate students or ascetics."
+    },
+    "Rajarshis": {
+      "type": "vocabulary",
+      "description": "Royal sages, kings who have attained sagehood."
+    },
+    "Sastras": {
+      "type": "vocabulary",
+      "description": "Scriptures or treatises, often referring to law or religious texts."
+    },
+    "matted locks": {
+      "type": "vocabulary",
+      "description": "Hair worn in twisted or coiled locks, typical of ascetics."
+    },
+    "obsequies": {
+      "type": "vocabulary",
+      "description": "Funeral rites."
+    },
+    "muhurta": {
+      "type": "vocabulary",
+      "description": "A traditional Hindu unit of time, about 48 minutes."
+    },
+    "koti": {
+      "type": "vocabulary",
+      "description": "A crore, or ten million; used to denote large numbers."
+    },
+    "ayuta": {
+      "type": "vocabulary",
+      "description": "A unit of ten thousand."
+    },
+    "sankha": {
+      "type": "vocabulary",
+      "description": "A unit of one hundred thousand."
+    },
+    "arvuda": {
+      "type": "vocabulary",
+      "description": "A unit of one hundred million."
+    },
+    "padma": {
+      "type": "vocabulary",
+      "description": "A unit of one trillion.",
+      "aliases": [
+        "Padma"
+      ]
+    },
+    "samudra": {
+      "type": "vocabulary",
+      "description": "A unit of ten quadrillion."
+    },
+    "parārdha": {
+      "type": "vocabulary",
+      "description": "A unit of one hundred quadrillion.",
+      "aliases": [
+        "parardha"
+      ]
+    },
+    "madhya": {
+      "type": "vocabulary",
+      "description": "A unit of measurement, contextually a large number."
+    },
+    "antya": {
+      "type": "vocabulary",
+      "description": "A unit of measurement, contextually a large number."
+    },
+    "Nupurs": {
+      "type": "vocabulary",
+      "description": "Anklets or ankle bells worn by women."
+    },
+    "oshadhis": {
+      "type": "vocabulary",
+      "description": "Medicinal herbs or plants."
+    },
+    "Mridangas": {
+      "type": "vocabulary",
+      "description": "A type of classical Indian drum."
+    },
+    "Indragopas": {
+      "type": "vocabulary",
+      "description": "A type of red insect, often identified as a cochineal beetle."
+    },
+    "Saptachada": {
+      "type": "vocabulary",
+      "description": "A tree with seven branches or leaves, often identified as Alstonia scholaris."
+    },
+    "Priyangu": {
+      "type": "vocabulary",
+      "description": "A fragrant plant (Callicarpa macrophylla) used in rituals."
+    },
+    "Surasā": {
+      "type": "character",
+      "description": "Mother of the Nāgas (serpents), sent by the gods to test Hanumān's resolve during his journey.",
+      "aliases": [
+        "Surasa"
+      ]
+    },
+    "Sinhikā": {
+      "type": "character",
+      "description": "A demoness (Rākshasi) who tries to seize Hanumān by his shadow as he crosses the ocean.",
+      "aliases": [
+        "Sinhika"
+      ]
+    },
+    "Mandodari": {
+      "type": "character",
+      "description": "Rāvana's chief queen, renowned for her beauty and wisdom."
+    },
+    "Dadhimukha": {
+      "type": "character",
+      "description": "Sugriva's maternal uncle and guardian of the Madhuvana orchard."
+    },
+    "Bishravā": {
+      "type": "character",
+      "description": "The son of Pulastya and father of Rāvana, Kumbhakarna, Bibhishana, and Kubera.",
+      "aliases": [
+        "Vishravā",
+        "Bishrava"
+      ]
+    },
+    "Lopamudrā": {
+      "type": "character",
+      "description": "Wife of sage Agastya, noted for her virtue.",
+      "aliases": [
+        "Lopamudra"
+      ]
+    },
+    "Sukanya": {
+      "type": "character",
+      "description": "Wife of sage Chyavana, famed for her devotion."
+    },
+    "Sābitree": {
+      "type": "character",
+      "description": "A legendary woman renowned for her devotion to her husband Satyabāna.",
+      "aliases": [
+        "Sāvitri",
+        "Sabitree",
+        "Savitri"
+      ]
+    },
+    "Sreematee": {
+      "type": "character",
+      "description": "Wife of sage Kapila."
+    },
+    "Madayantee": {
+      "type": "character",
+      "description": "Wife of Sandasa."
+    },
+    "Keshinee": {
+      "type": "character",
+      "description": "Wife of Sagara."
+    },
+    "Damayanti": {
+      "type": "character",
+      "description": "Wife of king Nala, famed for her virtue."
+    },
+    "Ajāmukhee": {
+      "type": "character",
+      "description": "A Rākshasi who threatens Sitā.",
+      "aliases": [
+        "Ajamukhee"
+      ]
+    },
+    "Dhānyamalini": {
+      "type": "character",
+      "description": "A queen of Rāvana.",
+      "aliases": [
+        "Dhanyamalini"
+      ]
+    },
+    "Ekjatā": {
+      "type": "character",
+      "description": "A Rākshasi who threatens Sitā.",
+      "aliases": [
+        "Ekjata"
+      ]
+    },
+    "Harijatā": {
+      "type": "character",
+      "description": "A Rākshasi who threatens Sitā.",
+      "aliases": [
+        "Harijata"
+      ]
+    },
+    "Vikatā": {
+      "type": "character",
+      "description": "A Rākshasi who threatens Sitā.",
+      "aliases": [
+        "Vikata"
+      ]
+    },
+    "Durmukhee": {
+      "type": "character",
+      "description": "A Rākshasi who threatens Sitā."
+    },
+    "Chandodorā": {
+      "type": "character",
+      "description": "A Rākshasi who threatens Sitā.",
+      "aliases": [
+        "Chandodora"
+      ]
+    },
+    "Praghasā": {
+      "type": "character",
+      "description": "A Rākshasi who threatens Sitā.",
+      "aliases": [
+        "Praghasa"
+      ]
+    },
+    "Açwinis": {
+      "type": "character",
+      "description": "Twin gods.",
+      "aliases": [
+        "Acwinis"
+      ]
+    },
+    "Kesari": {
+      "type": "character",
+      "description": "Father of Hanumān, a monkey chief."
+    },
+    "Samvasādana": {
+      "type": "character",
+      "description": "An Asura slain by Kesari, Hanumān's father.",
+      "aliases": [
+        "Samvasadana"
+      ]
+    },
+    "Vāchaspati": {
+      "type": "character",
+      "description": "God of speech.",
+      "aliases": [
+        "Vachaspati"
+      ]
+    },
+    "Sumāla": {
+      "type": "character",
+      "description": "Rākshasa.",
+      "aliases": [
+        "Sumala"
+      ]
+    },
+    "Jambumāla": {
+      "type": "character",
+      "description": "A Rākshasa warrior.",
+      "aliases": [
+        "Jamvumāli",
+        "Jambumala",
+        "Jamvumali"
+      ]
+    },
+    "Vajrakāya": {
+      "type": "character",
+      "description": "Rākshasa.",
+      "aliases": [
+        "Vajrakaya"
+      ]
+    },
+    "Dhumrāksha": {
+      "type": "character",
+      "description": "Rākshasa.",
+      "aliases": [
+        "Dhumraksha"
+      ]
+    },
+    "Vidyujjibha": {
+      "type": "character",
+      "description": "A Rākshasa character associated with the forces of Lankā.",
+      "aliases": [
+        "Vidyujjibhwa"
+      ]
+    },
+    "Vidyunmālā": {
+      "type": "character",
+      "description": "Rākshasa.",
+      "aliases": [
+        "Vidyunmala"
+      ]
+    },
+    "Vahudanshtra": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Suka": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Sārana": {
+      "type": "character",
+      "description": "Rākshasa.",
+      "aliases": [
+        "Sarana"
+      ]
+    },
+    "Rashmiketu": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Suryyasachu": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Phana": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Vighana": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Sukanābha": {
+      "type": "character",
+      "description": "Rākshasa.",
+      "aliases": [
+        "Sukanabha"
+      ]
+    },
+    "Chakra": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Satha": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Kapatha": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Hraswakarna": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Danshtra": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Lomasa": {
+      "type": "character",
+      "description": "A Rākshasa character.",
+      "aliases": [
+        "Romaça"
+      ]
+    },
+    "Matta": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Dhwajagriva": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Vijibha": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Hastimukha": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Karāla": {
+      "type": "character",
+      "description": "Rākshasa.",
+      "aliases": [
+        "Karala"
+      ]
+    },
+    "Sonitāksha": {
+      "type": "character",
+      "description": "Rākshasa.",
+      "aliases": [
+        "Sonitaksha"
+      ]
+    },
+    "Yuddhonmattn": {
+      "type": "character",
+      "description": "A Rākshasa warrior.",
+      "aliases": [
+        "Yudhyonmatta"
+      ]
+    },
+    "Yajnaçatru": {
+      "type": "character",
+      "description": "Rākshasa.",
+      "aliases": [
+        "Yajnacatru"
+      ]
+    },
+    "Brahmaçatru": {
+      "type": "character",
+      "description": "Rākshasa.",
+      "aliases": [
+        "Brahmacatru"
+      ]
+    },
+    "Nikumbha": {
+      "type": "character",
+      "description": "Rākshasa."
+    },
+    "Mahāpārçwa": {
+      "type": "character",
+      "description": "Rākshasa.",
+      "aliases": [
+        "Mahaparcwa",
+        "Mahāpārcwa"
+      ]
+    },
+    "Prahasta": {
+      "type": "character",
+      "description": "Commander."
+    },
+    "Aristha": {
+      "type": "character",
+      "description": "Mountain."
+    },
+    "Prasravana": {
+      "type": "character",
+      "description": "Mountain."
+    },
+    "Gokarna": {
+      "type": "character",
+      "description": "Place."
+    },
+    "Madhuvana": {
+      "type": "character",
+      "description": "Orchard."
+    },
+    "Sinçapā": {
+      "type": "character",
+      "description": "Tree.",
+      "aliases": [
+        "Sincapa"
+      ]
+    },
+    "Pushpamaya": {
+      "type": "character",
+      "description": "Flower palace."
+    },
+    "Bhogavati": {
+      "type": "character",
+      "description": "Nāga city."
+    },
+    "Vaswokasāra": {
+      "type": "character",
+      "description": "Palace.",
+      "aliases": [
+        "Vaswokasara"
+      ]
+    },
+    "Sandasa": {
+      "type": "character",
+      "description": "Sage."
+    },
+    "Veema": {
+      "type": "character",
+      "description": "King."
+    },
+    "Parva": {
+      "type": "proper_noun",
+      "description": "A festival or sacred lunar phase, often marking important occasions."
+    },
+    "Sālas": {
+      "type": "proper_noun",
+      "description": "A type of large tree, Shorea robusta.",
+      "aliases": [
+        "Salas"
+      ]
+    },
+    "Saralas": {
+      "type": "proper_noun",
+      "description": "A type of tree."
+    },
+    "Piyālas": {
+      "type": "proper_noun",
+      "description": "A type of tree, Buchanania lanzan.",
+      "aliases": [
+        "Piyalas"
+      ]
+    },
+    "Muchulindas": {
+      "type": "proper_noun",
+      "description": "A type of tree."
+    },
+    "Kutajas": {
+      "type": "proper_noun",
+      "description": "A type of tree, Wrightia tinctoria."
+    },
+    "Ketakas": {
+      "type": "proper_noun",
+      "description": "A type of fragrant tree, Pandanus odorifer."
+    },
+    "Piyangus": {
+      "type": "proper_noun",
+      "description": "A type of tree, Cissampelos pareira."
+    },
+    "Nipas": {
+      "type": "proper_noun",
+      "description": "A type of tree."
+    },
+    "Saptachchhadas": {
+      "type": "proper_noun",
+      "description": "A type of tree, Alstonia scholaris."
+    },
+    "Asanas": {
+      "type": "proper_noun",
+      "description": "A type of tree, Terminalia tomentosa."
+    },
+    "Kovidāras": {
+      "type": "proper_noun",
+      "description": "A type of tree, Bauhinia variegata.",
+      "aliases": [
+        "Kovidaras"
+      ]
+    },
+    "Karaviras": {
+      "type": "proper_noun",
+      "description": "A type of tree, Nerium oleander."
+    },
+    "Vidyadharas": {
+      "type": "proper_noun",
+      "description": "Celestial beings with magical powers.",
+      "aliases": [
+        "Vidyādharas"
+      ]
+    },
+    "Kārttaswara": {
+      "type": "proper_noun",
+      "description": "A kind of gold or golden alloy.",
+      "aliases": [
+        "Karttaswara"
+      ]
+    },
+    "Hiranya": {
+      "type": "proper_noun",
+      "description": "Gold."
+    },
+    "Singsapa": {
+      "type": "proper_noun",
+      "description": "A type of tree, Dalbergia sissoo."
+    },
+    "Santāna": {
+      "type": "proper_noun",
+      "description": "A type of flower or tree.",
+      "aliases": [
+        "Santana"
+      ]
+    },
+    "Natyuhas": {
+      "type": "proper_noun",
+      "description": "A type of waterfowl."
+    },
+    "Sārasas": {
+      "type": "proper_noun",
+      "description": "A type of crane or water bird.",
+      "aliases": [
+        "Sarasas"
+      ]
+    },
+    "Raghu": {
+      "type": "character",
+      "description": "Ancestral king of Rāma’s dynasty; the Raghu race refers to Rāma’s royal lineage.",
+      "aliases": [
+        "Raghus",
+        "Ragu's line"
+      ]
+    },
+    "Dhruva": {
+      "type": "character",
+      "description": "A celestial figure, the pole star, symbolizing steadfastness."
+    },
+    "Rājarshi Triçanku": {
+      "type": "character",
+      "description": "A royal sage who attempted to ascend to heaven in his mortal body.",
+      "aliases": [
+        "Rajarshi Tricanku"
+      ]
+    },
+    "Visākhā": {
+      "type": "character",
+      "description": "A prominent star or constellation, considered auspicious.",
+      "aliases": [
+        "Visakha"
+      ]
+    },
+    "Nairita": {
+      "type": "character",
+      "description": "A direction (southwest) and also refers to the Rakshasa clan associated with that direction."
+    },
+    "Dhumketu": {
+      "type": "character",
+      "description": "A comet or a planetary portent, often considered inauspicious."
+    },
+    "Tāraka": {
+      "type": "character",
+      "description": "A demon slain by the gods, referenced as a symbol of a great battle.",
+      "aliases": [
+        "Taraka",
+        "Tārakā"
+      ]
+    },
+    "Siva": {
+      "type": "proper_noun",
+      "description": "The great destroyer god of the Hindu trinity, also known as Rudra.",
+      "aliases": [
+        "Mahādeva",
+        "Maheçwara",
+        "Māheçwara",
+        "Rudra",
+        "Mahadeva"
+      ]
+    },
+    "Kumbhinasi": {
+      "type": "character",
+      "description": "Rāvana's sister, married to the Dānava Madhu."
+    },
+    "Sankha": {
+      "type": "character",
+      "description": "A Naga (serpent) subdued by Rāvana."
+    },
+    "Jati": {
+      "type": "character",
+      "description": "A Naga (serpent) subdued by Rāvana."
+    },
+    "Kalakeyas": {
+      "type": "character",
+      "description": "A race of powerful Asura demons defeated by Rāvana."
+    },
+    "Vajradanshtra": {
+      "type": "character",
+      "description": "A Rakshasa warrior wielding a terrifying bludgeon."
+    },
+    "Vajrahanu": {
+      "type": "character",
+      "description": "A Rakshasa warrior, known for his immense strength."
+    },
+    "Triçirsha": {
+      "type": "character",
+      "description": "A Rakshasa warrior with three heads.",
+      "aliases": [
+        "Tricirsha"
+      ]
+    },
+    "Devāntaka": {
+      "type": "character",
+      "description": "A Rakshasa warrior, literally 'destroyer of the gods.'",
+      "aliases": [
+        "Devantaka"
+      ]
+    },
+    "Narantaka": {
+      "type": "character",
+      "description": "A Rakshasa warrior, literally 'destroyer of men.'",
+      "aliases": [
+        "Narāntaka"
+      ]
+    },
+    "Atikāya": {
+      "type": "character",
+      "description": "A giant Rakshasa warrior, son of Rāvana.",
+      "aliases": [
+        "Atikaya"
+      ]
+    },
+    "Sārdula": {
+      "type": "character",
+      "description": "A Rakshasa spy sent by Rāvana.",
+      "aliases": [
+        "Sardula"
+      ]
+    },
+    "Panasa": {
+      "type": "character",
+      "description": "A monkey warrior."
+    },
+    "Gaja": {
+      "type": "character",
+      "description": "A monkey warrior, not to be confused with the elephant Gaja."
+    },
+    "Vegadarçi": {
+      "type": "character",
+      "description": "A monkey warrior.",
+      "aliases": [
+        "Vegadarci"
+      ]
+    },
+    "Vālimukha": {
+      "type": "character",
+      "description": "A monkey warrior.",
+      "aliases": [
+        "Valimukha"
+      ]
+    },
+    "Prajangha": {
+      "type": "character",
+      "description": "A monkey warrior."
+    },
+    "Jambha": {
+      "type": "character",
+      "description": "A monkey warrior."
+    },
+    "Rabhasa": {
+      "type": "character",
+      "description": "A monkey warrior."
+    },
+    "Sahya": {
+      "type": "character",
+      "description": "A mountain, also the name of a monkey leader."
+    },
+    "Gandha": {
+      "type": "character",
+      "description": "A monkey warrior."
+    },
+    "Rishabha": {
+      "type": "character",
+      "description": "A monkey warrior in the army of Sugriva.",
+      "aliases": [
+        "Rishava"
+      ]
+    },
+    "Saramā": {
+      "type": "character",
+      "description": "A Rakshasi who befriends and comforts Sitā.",
+      "aliases": [
+        "Sarama"
+      ]
+    },
+    "Rakhas": {
+      "type": "proper_noun",
+      "description": "A variant spelling of Rakshasas, demons or night-rangers."
+    },
+    "Pisachas": {
+      "type": "proper_noun",
+      "description": "Flesh-eating demons or spirits in Hindu mythology.",
+      "aliases": [
+        "Pisācha"
+      ]
+    },
+    "Rasātala": {
+      "type": "proper_noun",
+      "description": "One of the seven netherworlds in Hindu cosmology.",
+      "aliases": [
+        "Rasatala"
+      ]
+    },
+    "Pātāla": {
+      "type": "proper_noun",
+      "description": "The netherworld or underworld in Hindu cosmology.",
+      "aliases": [
+        "Patala"
+      ]
+    },
+    "Nikumbhilā": {
+      "type": "proper_noun",
+      "description": "A sacred site near Lankā where Indrajit performs his rituals.",
+      "aliases": [
+        "Nikumbhila"
+      ]
+    },
+    "Setubandha": {
+      "type": "proper_noun",
+      "description": "The bridge constructed by Rāma's army to cross the ocean to Lankā."
+    },
+    "Nandigrām": {
+      "type": "proper_noun",
+      "description": "A village near Ayodhyā where Bharata stayed and ruled during Rāma's exile.",
+      "aliases": [
+        "Nandigrāma",
+        "Nandigram",
+        "Nandigrama"
+      ]
+    },
+    "Pushya": {
+      "type": "proper_noun",
+      "description": "A lunar asterism (star cluster/constellation), considered auspicious.",
+      "aliases": [
+        "Pushyā"
+      ]
+    },
+    "Açoka": {
+      "type": "proper_noun",
+      "description": "A type of flowering tree; also the name of the grove where Sitā was held captive.",
+      "aliases": [
+        "Acoka"
+      ]
+    },
+    "Brahmaçiras": {
+      "type": "proper_noun",
+      "description": "A powerful celestial weapon.",
+      "aliases": [
+        "Brahmaciras"
+      ]
+    },
+    "Gāndharva weapon": {
+      "type": "proper_noun",
+      "description": "A celestial weapon associated with the Gandharvas.",
+      "aliases": [
+        "Gandharva weapon"
+      ]
+    },
+    "Raudra weapon": {
+      "type": "proper_noun",
+      "description": "A weapon associated with Rudra (Siva), signifying destructive power."
+    },
+    "Aindra weapon": {
+      "type": "proper_noun",
+      "description": "A weapon associated with Indra, king of the gods."
+    },
+    "Agneya weapon": {
+      "type": "proper_noun",
+      "description": "A weapon associated with Agni, the fire god."
+    },
+    "Vāruna weapon": {
+      "type": "proper_noun",
+      "description": "A weapon associated with Varuna, god of the waters.",
+      "aliases": [
+        "Varuna weapon"
+      ]
+    },
+    "Açwakarna": {
+      "type": "proper_noun",
+      "description": "A type of tree, often used as a weapon.",
+      "aliases": [
+        "Acwakarna"
+      ]
+    },
+    "Musala": {
+      "type": "proper_noun",
+      "description": "A mace or club."
+    },
+    "Pattiça": {
+      "type": "proper_noun",
+      "description": "A type of spear or lance.",
+      "aliases": [
+        "Pattica"
+      ]
+    },
+    "Kshurapra": {
+      "type": "proper_noun",
+      "description": "A razor-headed arrow."
+    },
+    "Vatsadanta": {
+      "type": "proper_noun",
+      "description": "An arrow shaped like a calf's tooth."
+    },
+    "Ayuta": {
+      "type": "vocabulary",
+      "description": "A unit of number equal to 100,000."
+    },
+    "Sanku": {
+      "type": "vocabulary",
+      "description": "A large unit of number, 1,000,000,000 (one billion)."
+    },
+    "Mahāçanku": {
+      "type": "vocabulary",
+      "description": "A unit of number, 100,000,000,000 (one hundred billion).",
+      "aliases": [
+        "Mahacanku"
+      ]
+    },
+    "Vrinda": {
+      "type": "vocabulary",
+      "description": "A large unit of number, 10 trillion."
+    },
+    "Padma": {
+      "type": "vocabulary",
+      "description": "A large unit of number, 1 quadrillion."
+    },
+    "Kharva": {
+      "type": "vocabulary",
+      "description": "A unit of number, 10 quintillion."
+    },
+    "Samudra": {
+      "type": "vocabulary",
+      "description": "A unit of number, 1 sextillion."
+    },
+    "Mahaugha": {
+      "type": "vocabulary",
+      "description": "A unit of number, 100 sextillion."
+    },
+    "Hasta": {
+      "type": "vocabulary",
+      "description": "A lunar mansion (nakshatra), associated with the hand."
+    },
+    "Phālguni": {
+      "type": "vocabulary",
+      "description": "A lunar mansion (nakshatra), associated with the fruit of the fig tree.",
+      "aliases": [
+        "Phalguni"
+      ]
+    },
+    "Yātudhānas": {
+      "type": "vocabulary",
+      "description": "A class of demons or night-rangers.",
+      "aliases": [
+        "Yatudhanas"
+      ]
+    },
+    "Agnihotra": {
+      "type": "vocabulary",
+      "description": "A Vedic fire ritual or sacrifice."
+    },
+    "Rittigas": {
+      "type": "vocabulary",
+      "description": "Priests who perform rituals and sacrifices."
+    },
+    "Yajus": {
+      "type": "vocabulary",
+      "description": "One of the four Vedas, containing sacrificial formulas."
+    },
+    "Rik": {
+      "type": "vocabulary",
+      "description": "One of the four Vedas, containing hymns."
+    },
+    "Sāstras": {
+      "type": "vocabulary",
+      "description": "Sacred scriptures or treatises on various subjects.",
+      "aliases": [
+        "Sastras"
+      ]
+    },
+    "Açani": {
+      "type": "vocabulary",
+      "description": "Thunderbolt or lightning weapon.",
+      "aliases": [
+        "Acani"
+      ]
+    },
+    "Danda": {
+      "type": "vocabulary",
+      "description": "A rod or staff, also means punishment or authority."
+    },
+    "Golangulas": {
+      "type": "vocabulary",
+      "description": "A type of monkey, possibly with a long tail.",
+      "aliases": [
+        "Golāngulas"
+      ]
+    },
+    "Chowri": {
+      "type": "vocabulary",
+      "description": "A yak-tail fan, symbol of royalty."
+    },
+    "Keyura": {
+      "type": "vocabulary",
+      "description": "An armlet or bracelet worn on the upper arm."
+    },
+    "Kundala": {
+      "type": "vocabulary",
+      "description": "An earring or ear ornament."
+    },
+    "Nupura": {
+      "type": "vocabulary",
+      "description": "Ankle bells or anklets worn as ornaments."
+    },
+    "Modaka": {
+      "type": "vocabulary",
+      "description": "A type of sweet dumpling, often used in offerings."
+    },
+    "Akshata": {
+      "type": "vocabulary",
+      "description": "Unbroken rice grains, used in rituals for blessings."
+    },
+    "Vaidurja": {
+      "type": "vocabulary",
+      "description": "A precious stone, possibly cat's eye or lapis lazuli."
+    },
+    "Oshadhis": {
+      "type": "vocabulary",
+      "description": "Medicinal herbs or plants."
+    },
+    "Agnigarbha": {
+      "type": "vocabulary",
+      "description": "Fire-wombed, an epithet for the Sun or a weapon."
+    },
+    "Bharadwaja": {
+      "type": "character",
+      "description": "A great sage whose hermitage Rāma visits during his exile.",
+      "aliases": [
+        "Bharadwāja",
+        "Bharadwiya",
+        "Varadwāja"
+      ]
+    },
+    "Nrishadgu": {
+      "type": "character",
+      "description": "A sage mentioned among those visiting Rāma."
+    },
+    "Kauçika": {
+      "type": "character",
+      "description": "A great sage of the Kauçika lineage who guides Rāma in his youth.",
+      "aliases": [
+        "Kaucika"
+      ]
+    },
+    "Yavakrita": {
+      "type": "character",
+      "description": "A sage, son of Bharadwaja, known from other legends."
+    },
+    "Gārgya": {
+      "type": "character",
+      "description": "A sage, descendant of Garga.",
+      "aliases": [
+        "Gargya"
+      ]
+    },
+    "Gālava": {
+      "type": "character",
+      "description": "A sage, mentioned as a visitor.",
+      "aliases": [
+        "Galava"
+      ]
+    },
+    "Kanva": {
+      "type": "character",
+      "description": "A sage, son of Mādhālithi, known for raising Shakuntalā."
+    },
+    "Swastyāstreya": {
+      "type": "character",
+      "description": "A reverend sage mentioned among the visitors.",
+      "aliases": [
+        "Swastyastreya"
+      ]
+    },
+    "Pramuchi": {
+      "type": "character",
+      "description": "A sage."
+    },
+    "Sumukha": {
+      "type": "character",
+      "description": "A sage."
+    },
+    "Vimukha": {
+      "type": "character",
+      "description": "A sage."
+    },
+    "Kauçeya": {
+      "type": "character",
+      "description": "A mighty sage residing in the west.",
+      "aliases": [
+        "Kauceya"
+      ]
+    },
+    "Kahashi": {
+      "type": "character",
+      "description": "A sage."
+    },
+    "Dhaumya": {
+      "type": "character",
+      "description": "A sage."
+    },
+    "Kashyapa": {
+      "type": "character",
+      "description": "A sage, progenitor of many races including gods, demons, and birds.",
+      "aliases": [
+        "Kaçyapa",
+        "Kācyapa",
+        "Kāçyapa"
+      ]
+    },
+    "Trinavindu": {
+      "type": "character",
+      "description": "A king and sage, father-in-law of Pulastya."
+    },
+    "Devavarnini": {
+      "type": "character",
+      "description": "Daughter of Bharadwāja, wife of Viçravā."
+    },
+    "Pārvati": {
+      "type": "character",
+      "description": "The wife of Lord Shiva, also known as Umā.",
+      "aliases": [
+        "Parvati"
+      ]
+    },
+    "Saraswati": {
+      "type": "character",
+      "description": "The goddess of speech, learning, and wisdom.",
+      "aliases": [
+        "Vāni"
+      ]
+    },
+    "Sukeça": {
+      "type": "character",
+      "description": "A Rākshasa king, ancestor of Rāvana.",
+      "aliases": [
+        "Sukeca"
+      ]
+    },
+    "Malyavān": {
+      "type": "character",
+      "description": "Son of Sukeça, Rākshasa leader; also refers to a mountain near Kishkindhā.",
+      "aliases": [
+        "Mālyabana",
+        "Mālyabāna",
+        "Malyavan",
+        "Mālyavān"
+      ]
+    },
+    "Sumāli": {
+      "type": "character",
+      "description": "Son of Sukeça, Rākshasa leader, maternal grandfather of Rāvana.",
+      "aliases": [
+        "Sumali"
+      ]
+    },
+    "Māli": {
+      "type": "character",
+      "description": "Son of Sukeça, Rākshasa leader.",
+      "aliases": [
+        "Mali"
+      ]
+    },
+    "Grāmani": {
+      "type": "character",
+      "description": "A Gandharva, father of Devavati.",
+      "aliases": [
+        "Gramani"
+      ]
+    },
+    "Devavati": {
+      "type": "character",
+      "description": "Daughter of Grāmani, wife of Sukeça."
+    },
+    "Vajramusthi": {
+      "type": "character",
+      "description": "Son of Malyavān."
+    },
+    "Virupāksha": {
+      "type": "character",
+      "description": "Son of Malyavān, also a Rākshasa general.",
+      "aliases": [
+        "Virupaksha"
+      ]
+    },
+    "Burmukha": {
+      "type": "character",
+      "description": "Son of Malyavān."
+    },
+    "Suptaghna": {
+      "type": "character",
+      "description": "Son of Malyavān."
+    },
+    "Yajnakopa": {
+      "type": "character",
+      "description": "Son of Malyavān."
+    },
+    "Unmatta": {
+      "type": "character",
+      "description": "Son of Malyavān."
+    },
+    "Ketumati": {
+      "type": "character",
+      "description": "Wife of Sumāli."
+    },
+    "Kampana": {
+      "type": "character",
+      "description": "Son of Sumāli."
+    },
+    "Vikata": {
+      "type": "character",
+      "description": "Son of Sumāli."
+    },
+    "Kālikāmukha": {
+      "type": "character",
+      "description": "Son of Sumāli.",
+      "aliases": [
+        "Kalikamukha"
+      ]
+    },
+    "Supārcwa": {
+      "type": "character",
+      "description": "Son of Sumāli.",
+      "aliases": [
+        "Suparcwa"
+      ]
+    },
+    "Sanhrādi": {
+      "type": "character",
+      "description": "Son of Sumāli.",
+      "aliases": [
+        "Sanhradi"
+      ]
+    },
+    "Praghasa": {
+      "type": "character",
+      "description": "Son of Sumāli."
+    },
+    "Bhāsakarna": {
+      "type": "character",
+      "description": "Son of Sumāli.",
+      "aliases": [
+        "Bhasakarna"
+      ]
+    },
+    "Rākā": {
+      "type": "character",
+      "description": "Daughter of Sumāli.",
+      "aliases": [
+        "Raka"
+      ]
+    },
+    "Pashpotkatā": {
+      "type": "character",
+      "description": "Daughter of Sumāli.",
+      "aliases": [
+        "Pashpotkata"
+      ]
+    },
+    "Kaikasi": {
+      "type": "character",
+      "description": "Daughter of Sumāli, mother of Rāvana, Kumbhakarna, Bibhishana, and Surpanakhā."
+    },
+    "Sundari": {
+      "type": "character",
+      "description": "Wife of Malyavān."
+    },
+    "Anala": {
+      "type": "character",
+      "description": "Son of Māli."
+    },
+    "Dundubhi": {
+      "type": "character",
+      "description": "A mighty asura, father of Māyāvi, slain by Vāli; his corpse is used to demonstrate Rāma's strength.",
+      "aliases": [
+        "Dundabhi",
+        "Dunduvi"
+      ]
+    },
+    "Vajrajwālā": {
+      "type": "character",
+      "description": "Grand-daughter of Virochana, wife of Kumbhakarna.",
+      "aliases": [
+        "Vajrajwala"
+      ]
+    },
+    "Sailusha": {
+      "type": "character",
+      "description": "King of the Gandharvas, father of Saramā."
+    },
+    "Lavana": {
+      "type": "character",
+      "description": "Son of Madhu, a powerful Rākshasa slain by Satrughna."
+    },
+    "Nriga": {
+      "type": "character",
+      "description": "A king cursed to become a lizard for an error in giving charity."
+    },
+    "Nimi": {
+      "type": "character",
+      "description": "A king of the Ikshwāku dynasty, known for his sacrifice and curse with Vasishtha."
+    },
+    "Urvasi": {
+      "type": "character",
+      "description": "A celestial nymph (Apsarā), wife of King Pururavā."
+    },
+    "Pururavā": {
+      "type": "character",
+      "description": "Son of Budha and Ilā, ancestor of the lunar dynasty.",
+      "aliases": [
+        "Pururava"
+      ]
+    },
+    "Budha": {
+      "type": "character",
+      "description": "Son of the Moon, father of Pururavā."
+    },
+    "Ila": {
+      "type": "character",
+      "description": "A king who alternated between male and female forms due to a curse."
+    },
+    "Kardama": {
+      "type": "character",
+      "description": "Father of Ila."
+    },
+    "Taksha": {
+      "type": "character",
+      "description": "Son of Bharata, ruler of Takshasila."
+    },
+    "Pushkala": {
+      "type": "character",
+      "description": "Son of Bharata, ruler of Pushkalavati."
+    },
+    "Chandraketu": {
+      "type": "character",
+      "description": "Son of Lakshmana, ruler of Chandrakānti."
+    },
+    "Suvahu": {
+      "type": "character",
+      "description": "Son of Satrughna, ruler of Mathura.",
+      "aliases": [
+        "Suvāhu"
+      ]
+    },
+    "Satrughati": {
+      "type": "character",
+      "description": "Son of Satrughna, ruler of Vidisha."
+    },
+    "Gargya": {
+      "type": "character",
+      "description": "A Brahmin saint, messenger from Yudhajit."
+    },
+    "Yudhajit": {
+      "type": "character",
+      "description": "King of Kekaya, maternal uncle of Rāma."
+    },
+    "Chābanya": {
+      "type": "character",
+      "description": "A sage living on the banks of the Yamunā.",
+      "aliases": [
+        "Chabanya"
+      ]
+    },
+    "Durvāsā": {
+      "type": "character",
+      "description": "A great sage known for his temper and power.",
+      "aliases": [
+        "Durvasa"
+      ]
+    },
+    "Sambuka": {
+      "type": "character",
+      "description": "A Sudra ascetic slain by Rāma for performing penance forbidden to his caste."
+    },
+    "Sweta": {
+      "type": "character",
+      "description": "A king who performed penance and was cursed to eat his own corpse in heaven."
+    },
+    "Suratha": {
+      "type": "character",
+      "description": "Brother of Sweta."
+    },
+    "Saudāsa": {
+      "type": "character",
+      "description": "A king cursed to become a Rākshasa.",
+      "aliases": [
+        "Saudasa"
+      ]
+    },
+    "Rati": {
+      "type": "character",
+      "description": "Wife of Kāma, god of love."
+    },
+    "Nalakuvara": {
+      "type": "character",
+      "description": "Son of Kubera, husband of Rambhā."
+    },
+    "Kausalya": {
+      "type": "character",
+      "description": "Mother of Rāma and principal queen of Daçarātha, known for her devotion and virtue.",
+      "aliases": [
+        "Kaucalya",
+        "Kaucalyā",
+        "Kauçalya",
+        "Kauçalyā",
+        "Kauśalyā",
+        "Kauśalya",
+        "Kausalyā"
+      ],
+      "image": "/data/images/characters/ramayana/kausalya.webp"
+    },
+    "Vasatkāra": {
+      "type": "character",
+      "description": "A Vedic exclamation used in sacrifices.",
+      "aliases": [
+        "Vasatkara"
+      ]
+    },
+    "Omkāra": {
+      "type": "character",
+      "description": "The sacred syllable 'Om'.",
+      "aliases": [
+        "Omkara"
+      ]
+    },
+    "Naimisha forest": {
+      "type": "proper_noun",
+      "description": "A sacred forest where Rāma's horse-sacrifice is performed."
+    },
+    "Gandharva": {
+      "type": "proper_noun",
+      "description": "Celestial musicians and beings, often associated with beauty, music, and grace.",
+      "aliases": [
+        "Gandharvas",
+        "Gandharbhas",
+        "Gandharbas"
+      ]
+    },
+    "Saivala": {
+      "type": "proper_noun",
+      "description": "A mountain mentioned in the narrative."
+    },
+    "North Kosala": {
+      "type": "proper_noun",
+      "description": "A region given to Lava, son of Rāma."
+    },
+    "Mathura": {
+      "type": "proper_noun",
+      "description": "A city ruled by Satrughna's son Suvahu."
+    },
+    "Vidisha": {
+      "type": "proper_noun",
+      "description": "A city ruled by Satrughna's son Satrughati."
+    },
+    "Takshasila": {
+      "type": "proper_noun",
+      "description": "A city ruled by Bharata's son Taksha."
+    },
+    "Karupada": {
+      "type": "proper_noun",
+      "description": "A country given to Angada."
+    },
+    "Chandrakānti": {
+      "type": "proper_noun",
+      "description": "A city ruled by Chandraketu.",
+      "aliases": [
+        "Chandrakanti"
+      ]
+    },
+    "Kusavati": {
+      "type": "proper_noun",
+      "description": "A city founded for Kusa, son of Rāma."
+    },
+    "Sravanti": {
+      "type": "proper_noun",
+      "description": "A city founded for Lava, son of Rāma."
+    },
+    "Gomati": {
+      "type": "proper_noun",
+      "description": "A river near which Rāma's horse-sacrifice is performed."
+    },
+    "Ganges": {
+      "type": "proper_noun",
+      "description": "The sacred river of Hinduism, also called Bhāgirathi, revered as a goddess.",
+      "aliases": [
+        "Gangā",
+        "Jahnavi",
+        "Jāhnavi",
+        "Janhavi",
+        "Jānhavi",
+        "Ganga"
+      ]
+    },
+    "Vaitaraini": {
+      "type": "proper_noun",
+      "description": "A mythical river in the underworld, associated with punishment."
+    },
+    "Patāla": {
+      "type": "proper_noun",
+      "description": "The underworld or netherworld in Hindu cosmology.",
+      "aliases": [
+        "Patala"
+      ]
+    },
+    "Swetadwipa": {
+      "type": "proper_noun",
+      "description": "A mythical white island inhabited by devotees of Vishnu."
+    },
+    "Amaravati": {
+      "type": "proper_noun",
+      "description": "The city of Indra, king of the gods, in Hindu mythology.",
+      "aliases": [
+        "Amarāvati"
+      ]
+    },
+    "Ursa Major": {
+      "type": "proper_noun",
+      "description": "A constellation identified with the seven sages."
+    },
+    "Sleshmātaka wood": {
+      "type": "proper_noun",
+      "description": "A forest where Rāma's brothers dwell.",
+      "aliases": [
+        "Sleshmataka wood"
+      ]
+    },
+    "arghya": {
+      "type": "vocabulary",
+      "description": "A ritual offering of water or other substances in Hindu worship."
+    },
+    "anchoret": {
+      "type": "vocabulary",
+      "description": "An archaic term for a hermit or ascetic."
+    },
+    "Brahmarshi": {
+      "type": "vocabulary",
+      "description": "A sage of the highest order."
+    },
+    "Brahmana": {
+      "type": "vocabulary",
+      "description": "A member of the priestly class, or a Vedic scholar."
+    },
+    "Swastyāyana": {
+      "type": "vocabulary",
+      "description": "A religious ceremony for propitiation or warding off evil.",
+      "aliases": [
+        "Swastyayana"
+      ]
+    },
+    "Pāçupata": {
+      "type": "vocabulary",
+      "description": "A powerful weapon associated with Shiva.",
+      "aliases": [
+        "Pacupata"
+      ]
+    },
+    "Sārnga": {
+      "type": "vocabulary",
+      "description": "The bow of Vishnu.",
+      "aliases": [
+        "Sarnga"
+      ]
+    },
+    "Pānchajanya": {
+      "type": "vocabulary",
+      "description": "The conch of Vishnu.",
+      "aliases": [
+        "Panchajanya"
+      ]
+    },
+    "prānāyāma": {
+      "type": "vocabulary",
+      "description": "The yogic practice of breath control.",
+      "aliases": [
+        "pranayama"
+      ]
+    },
+    "Muni": {
+      "type": "vocabulary",
+      "description": "A sage or ascetic."
+    },
+    "Sraddha": {
+      "type": "vocabulary",
+      "description": "A ritual for honoring deceased ancestors.",
+      "aliases": [
+        "Srāddha",
+        "Śrāddha"
+      ]
+    },
+    "Dānava": {
+      "type": "vocabulary",
+      "description": "A race of demons, children of Danu.",
+      "aliases": [
+        "Danava"
+      ]
+    },
+    "Charana": {
+      "type": "vocabulary",
+      "description": "A class of celestial bards."
+    },
+    "Vidya": {
+      "type": "vocabulary",
+      "description": "Knowledge or learning."
+    },
+    "Krita age": {
+      "type": "vocabulary",
+      "description": "The first of the four Yugas, also called Satya Yuga."
+    },
+    "Tretā Yuga": {
+      "type": "vocabulary",
+      "description": "The second of the four Yugas.",
+      "aliases": [
+        "Treta Yuga"
+      ]
+    },
+    "Kali Yuga": {
+      "type": "vocabulary",
+      "description": "The fourth and current age in Hindu cosmology."
+    },
+    "Akshauhini": {
+      "type": "vocabulary",
+      "description": "A large military formation, a traditional unit of army."
+    },
+    "Bājapeya": {
+      "type": "vocabulary",
+      "description": "A type of Vedic sacrifice.",
+      "aliases": [
+        "Bajapeya"
+      ]
+    },
+    "Aswamedha": {
+      "type": "vocabulary",
+      "description": "The horse sacrifice, a royal ritual."
+    },
+    "Sribatsa": {
+      "type": "vocabulary",
+      "description": "A distinguishing mark (curl of hair) on Vishnu's chest.",
+      "aliases": [
+        "Sreebatsha"
+      ]
+    }
+  },
+  "chapters": {
+    "ch-1-1": [
+      "Vālmiki",
+      "Nārada",
+      "Maharshi",
+      "Ikshwāku",
+      "Rāma",
+      "Vishnu",
+      "Kaucalya",
+      "Himavat",
+      "Daçarātha",
+      "Kaikeyi",
+      "Bharata",
+      "Sumitrā",
+      "Lakshmana",
+      "Rohini",
+      "Janaka",
+      "Sitā",
+      "Guha",
+      "Bharadwāja",
+      "Chitrakuta",
+      "Gandharbhas",
+      "Brāhmanas",
+      "Vasistha",
+      "Rākshasa",
+      "Virādha",
+      "Sarabhanga",
+      "Suitikshna",
+      "Agastya",
+      "Surpanakhā",
+      "Khara",
+      "Tricira",
+      "Dushana",
+      "Rāvana",
+      "Māricha",
+      "Jatāyu",
+      "Kāvandha",
+      "Savari",
+      "Hanumān",
+      "Sugriva",
+      "Vāli",
+      "Dundabhi",
+      "Tāra",
+      "Sampāti",
+      "Aksha",
+      "Indrajit",
+      "Bibhisana",
+      "Nala",
+      "Pushpaka",
+      "Kusi",
+      "Lava",
+      "Paulastya",
+      "Kraunchas",
+      "Brahmā",
+      "Sakra",
+      "Vaisravana",
+      "Manu",
+      "Sagara",
+      "Sataghnis",
+      "Athiratha",
+      "Romapāda",
+      "Sanat Kumāra",
+      "Kācyapa",
+      "Bibhāndaka",
+      "Rhishyasringa",
+      "Sāntā",
+      "Vipras",
+      "Vāmadeva",
+      "Suyajna",
+      "Jāvāli",
+      "Gautama",
+      "Markandeya",
+      "Kātyāyana",
+      "Sumantra",
+      "Ayodhyā",
+      "Kosala",
+      "Sarayu",
+      "Vedas",
+      "Vedāngas",
+      "Golden age",
+      "Brāhmana",
+      "Kshatriya",
+      "Vaisya",
+      "Sudra",
+      "Jahnavi",
+      "Tamasā",
+      "Bharadwiya",
+      "Kraunchas",
+      "Brahmā",
+      "Rāmāyana",
+      "Samasas",
+      "Sandhis",
+      "Prakritas",
+      "Pratayas",
+      "kusa grass",
+      "yoga",
+      "Ragu's line",
+      "Viswāmitra",
+      "Jānaki",
+      "Parasurāma",
+      "Nandigrāma",
+      "Dandaka",
+      "Janasthāna",
+      "Videha",
+      "Pushpaka",
+      "Kusi",
+      "Lava",
+      "Paulastya",
+      "Gandharbas",
+      "Sthana",
+      "Murchhana",
+      "saraja",
+      "Sataghnis",
+      "Mahārathas",
+      "Athiratha",
+      "Kāmvoja",
+      "Vāhlika",
+      "Vanāyu",
+      "Sindhu",
+      "Hari",
+      "Vindha",
+      "Himavat",
+      "Bhadra",
+      "Mandra",
+      "Mriga",
+      "Airavata",
+      "Mahāpadma",
+      "Anjana",
+      "Vāmana",
+      "Sumantra",
+      "Sanat Kumāra",
+      "Kācyapa",
+      "Bibhāndaka",
+      "Rhishyasringa",
+      "Sāntā",
+      "Angas",
+      "Vipras",
+      "Romapāda",
+      "Suyajna",
+      "Vāmadeva",
+      "Jāvāli",
+      "Vasistha",
+      "mantras",
+      "Sâmas",
+      "Yupas",
+      "Vilwa",
+      "catechu",
+      "Palasa",
+      "Sleshmataka",
+      "Devadaru",
+      "Garura",
+      "Kaucalyā",
+      "Hotâs",
+      "Adhwaryus",
+      "Uâgatas",
+      "Mahishi",
+      "Parivriti",
+      "Plaksha",
+      "Kalpa Sutras",
+      "Brāhmanas",
+      "Chatushtoma",
+      "Uktha",
+      "Atiratra",
+      "Jyotishtoma",
+      "Ayushtoma",
+      "Abhijit",
+      "Viswajit",
+      "Aptoryama",
+      "Sayambhu",
+      "Dakshinas",
+      "Koti",
+      "lacs",
+      "Atharva Veda",
+      "Siddhas",
+      "Yakshas",
+      "Asuras",
+      "Apsarās",
+      "Madhu",
+      "Vinatā",
+      "Keyuras",
+      "Pāyasa",
+      "Pampā",
+      "Rishyamukha",
+      "Jāmbubāna",
+      "Maināka",
+      "Trijata",
+      "Asoka wood",
+      "Nala",
+      "Kekaya",
+      "Kocala",
+      "Magadha",
+      "Sauvira",
+      "Saurashtra",
+      "Yojana",
+      "Jāhnavi",
+      "Menā",
+      "Uma",
+      "Mahādeva",
+      "Kārtikeya",
+      "Kirtikā",
+      "Skanda",
+      "Sagara",
+      "Keçini",
+      "Sumati",
+      "Suparna",
+      "Kapila",
+      "Bhagiratha",
+      "Dilipa",
+      "Trisanku",
+      "Viçāla",
+      "Diti",
+      "Aditi",
+      "Vāsuki",
+      "Mandara",
+      "Dhanwantari",
+      "Vāruni",
+      "Uchhaiçravā",
+      "Kaustubha",
+      "Sudhanwā",
+      "Kusādhwaja",
+      "Sānkāçyā",
+      "Ikshumati",
+      "Vasishtha",
+      "Mārkandeya",
+      "Kātyāyana",
+      "Yudhājit",
+      "Kekayas",
+      "Mahendra",
+      "Paraçurāma",
+      "Jamadagni",
+      "Richika",
+      "Varuna",
+      "Srāddha",
+      "Godana",
+      "Bhaga",
+      "Phālguna",
+      "Maghā",
+      "ascetic",
+      "Vaidika",
+      "boons",
+      "installation",
+      "hermitage",
+      "Arghya",
+      "sloka",
+      "Brāhmana",
+      "Kshatriya",
+      "Vaisya",
+      "Sudra",
+      "ayutas",
+      "kotis",
+      "kamandalu",
+      "maunja",
+      "vrishi",
+      "kaupina",
+      "adumvari",
+      "Swasti",
+      "yojana",
+      "Mahāratha",
+      "Athiratha",
+      "Angadas",
+      "Nishkas",
+      "Bhadra",
+      "Mandra",
+      "Mriga",
+      "Airavata",
+      "Mahāpadma",
+      "Anjana",
+      "Vāmana",
+      "pravargya",
+      "upasada",
+      "mantras",
+      "Sâmas",
+      "Yupas",
+      "Vilwa",
+      "catechu",
+      "Palasa",
+      "Sleshmataka",
+      "Devadaru",
+      "Garura",
+      "Hotâs",
+      "Adhwaryus",
+      "Uâgatas",
+      "Mahishi",
+      "Parivriti",
+      "Plaksha",
+      "Kalpa Sutras",
+      "Brāhmanas",
+      "Chatushtoma",
+      "Uktha",
+      "Atiratra",
+      "Jyotishtoma",
+      "Ayushtoma",
+      "Abhijit",
+      "Viswajit",
+      "Aptoryama",
+      "Sayambhu",
+      "Dakshinas",
+      "Koti",
+      "lacs",
+      "Atharva Veda",
+      "Gandharbas",
+      "Siddhas",
+      "Yakshas",
+      "Asuras",
+      "Apsarās",
+      "Madhu",
+      "Vinatā",
+      "Keyuras",
+      "Pāyasa",
+      "Pampā",
+      "Rishyamukha",
+      "Jāmbubāna",
+      "Maināka",
+      "Trijata",
+      "Asoka wood",
+      "Nala",
+      "Kekaya",
+      "Kocala",
+      "Magadha",
+      "Sindhu",
+      "Sauvira",
+      "Saurashtra",
+      "Yojana",
+      "Dandaka",
+      "Janasthāna",
+      "Jāhnavi",
+      "Himavat",
+      "Menā",
+      "Uma",
+      "Mahādeva",
+      "Kārtikeya",
+      "Kirtikā",
+      "Skanda",
+      "Sagara",
+      "Keçini",
+      "Sumati",
+      "Suparna",
+      "Kapila",
+      "Bhagiratha",
+      "Dilipa",
+      "Trisanku",
+      "Viçāla",
+      "Diti",
+      "Aditi",
+      "Vāsuki",
+      "Mandara",
+      "Dhanwantari",
+      "Vāruni",
+      "Uchhaiçravā",
+      "Kaustubha",
+      "Sudhanwā",
+      "Kusādhwaja",
+      "Sānkāçyā",
+      "Ikshumati",
+      "Vasishtha",
+      "Vāmadeva",
+      "Jāvāli",
+      "Kācyapa",
+      "Mārkandeya",
+      "Kātyāyana",
+      "Sumantra",
+      "Yudhājit",
+      "Kekayas",
+      "Mahendra",
+      "Paraçurāma",
+      "Jamadagni",
+      "Richika",
+      "Varuna",
+      "Srāddha",
+      "Godana",
+      "Bhaga",
+      "Phālguna",
+      "Maghā"
+    ],
+    "ch-1-2": [
+      "Bharata",
+      "Satrughna",
+      "Açwapati",
+      "Daçarātha",
+      "Indra",
+      "Varuna",
+      "Rāma",
+      "Sayambhu",
+      "Rāvana",
+      "Vishnu",
+      "Kauçalyā",
+      "Aditi",
+      "Vrihaspati",
+      "Sachi",
+      "Lokanātha",
+      "Prajāpati",
+      "Janaka",
+      "Kekayas",
+      "Vasishtha",
+      "Vāmadeva",
+      "Sumantra",
+      "Vāsava",
+      "Maruts",
+      "Rāghava",
+      "Sumitrā",
+      "Lakshmana",
+      "Sitā",
+      "Vaidehi",
+      "Janārddana",
+      "Nahusha",
+      "Yayāti",
+      "Kākutstha",
+      "Vipra",
+      "Sujajna",
+      "Agastya",
+      "Viswāmitra",
+      "Chitraratha",
+      "Trijatā",
+      "Garga",
+      "Guha",
+      "Satrunjaya",
+      "Mantharā",
+      "Kaikeyi",
+      "Timidhvaja",
+      "Samvara",
+      "Rākshasas",
+      "Asuras",
+      "Mlechas",
+      "Arya",
+      "Sakra",
+      "Yama",
+      "Purandara",
+      "Pushyā",
+      "Punarvasu",
+      "Apsarā",
+      "Kinnari",
+      "Rāhu",
+      "Draviras",
+      "Sindhus",
+      "Sauviras",
+      "Shurashtras",
+      "Dakshinapathas",
+      "Bangas",
+      "Angas",
+      "Magadhas",
+      "Matsyas",
+      "Kasis",
+      "Koçalas",
+      "Matuli",
+      "Dānavas",
+      "Brahmā",
+      "Satvavān",
+      "Dumat Sen",
+      "Suvarchalā",
+      "Sāgara",
+      "Ikshwāku",
+      "Aja",
+      "Jāvali",
+      "Mārkandeya",
+      "Maudgalya",
+      "Kāçyapa",
+      "Kātyāyana",
+      "Gautama",
+      "Jāvāli",
+      "Yudhājit",
+      "Atri",
+      "Anasuyā",
+      "Chyavana",
+      "Bhrigu",
+      "Sāvitri",
+      "Rohini",
+      "Ghritāchi",
+      "Viçwāchi",
+      "Miçrakeçi",
+      "Alamvusha",
+      "Nāgadatta",
+      "Hemā",
+      "Somā",
+      "Tumvuru",
+      "Nirada",
+      "Gopa",
+      "Pundarikā",
+      "Vāmana",
+      "Sukra",
+      "Soma",
+      "Kuvera",
+      "Sree",
+      "Sree herself",
+      "Kāma",
+      "Ayodhyā",
+      "Koçala",
+      "Kekaya",
+      "Pushyā",
+      "Punarvasu",
+      "Chaitra",
+      "Gangā",
+      "Yamunā",
+      "Sarayu",
+      "Chitrakuta",
+      "Dandaka",
+      "Janasthāna",
+      "Sringaverapura",
+      "Prayāga",
+      "Kālindi",
+      "Mandākini",
+      "Mithilā",
+      "Videha",
+      "Vatsas",
+      "Himavat",
+      "Sumeru",
+      "Kailāsa",
+      "Sudharmā",
+      "Nandana",
+      "Nandigrāma",
+      "Chaitya",
+      "Saraju",
+      "Vājapeya",
+      "Bhāgirathi",
+      "Saptarshi",
+      "Satvavān",
+      "Dumat Sen",
+      "Suvarchalā",
+      "Sāgara",
+      "Ikshwāku",
+      "Aja",
+      "Sumantra",
+      "Jāvali",
+      "Vasishtha",
+      "Vāmadeva",
+      "Mārkandeya",
+      "Maudgalya",
+      "Kāçyapa",
+      "Kātyāyana",
+      "Gautama",
+      "Jāvāli",
+      "Yudhājit",
+      "Atri",
+      "Anasuyā",
+      "Chyavana",
+      "Bhrigu",
+      "Sāvitri",
+      "Rohini",
+      "Ghritāchi",
+      "Viçwāchi",
+      "Miçrakeçi",
+      "Alamvusha",
+      "Nāgadatta",
+      "Hemā",
+      "Somā",
+      "Tumvuru",
+      "Nirada",
+      "Gopa",
+      "Pundarikā",
+      "Vāmana",
+      "Sukra",
+      "Soma",
+      "Kuvera",
+      "Sree",
+      "Sree herself",
+      "Kāma",
+      "Satrunjaya",
+      "Satrughna",
+      "Atiratha",
+      "Brāhmana",
+      "Kshatriya",
+      "Dakshina",
+      "Swastivachana",
+      "Chaitya",
+      "Dhupa",
+      "Sarvaushadhi",
+      "Vipra",
+      "Swastivāchana",
+      "Pitris",
+      "Veda",
+      "Prākrit",
+      "Mantra",
+      "Pinda",
+      "Srāddha",
+      "Yapa",
+      "Vānaprastha",
+      "Dharma",
+      "Kāma",
+      "Yojana",
+      "Krosa",
+      "Rājarshi",
+      "Sruti",
+      "Smriti",
+      "Lokapāla",
+      "Lokapālas",
+      "Siddha",
+      "Mandala",
+      "Prakriti",
+      "Swastika",
+      "Maireya",
+      "Payāca",
+      "Rasāla",
+      "Kusa",
+      "Kuça",
+      "Sāla",
+      "Ingudi",
+      "Kata section",
+      "Sāma",
+      "Mridanga",
+      "Arghya",
+      "Japa",
+      "Homa",
+      "Brahmācharya"
+    ],
+    "ch-1-3": [
+      "Rāma",
+      "Lakshmana",
+      "Sitā",
+      "Rāghava",
+      "Vaidehi",
+      "Kākutstha",
+      "Sumitra's son",
+      "Janaka",
+      "Kaikeyi",
+      "Bharata",
+      "Satrughna",
+      "Daçaratha",
+      "Indra",
+      "Sakra",
+      "Sarabhanga",
+      "Sutikshna",
+      "Agastya",
+      "Agastya's brother",
+      "Jatāyu",
+      "Sampāti",
+      "Virādha",
+      "Rambhā",
+      "Apsarās",
+      "Māndakarni",
+      "Dharmabhrit",
+      "Maharshis",
+      "Brāhmanas",
+      "Brahmā",
+      "Vasava",
+      "Vaiçyānara",
+      "Vāli",
+      "Homa",
+      "Vipras",
+      "Rākshasa",
+      "Triçira",
+      "Khara",
+      "Dushana",
+      "Surpanakhā",
+      "Rāvana",
+      "Kumbhakarna",
+      "Bibhishana",
+      "Ilwala",
+      "Vātāpi",
+      "Mithilā",
+      "Kaçyapa",
+      "Aditi",
+      "Diti",
+      "Danu",
+      "Tamrā",
+      "Krodhavasā",
+      "Manu",
+      "Analā",
+      "Vinatā",
+      "Kadru",
+      "Suki",
+      "Irāvati",
+      "Garuda",
+      "Aruna",
+      "Syeni",
+      "Vaiçyas",
+      "Sudras",
+      "Yatāyu",
+      "Māricha",
+      "Akampana",
+      "Sachi",
+      "Maghavan",
+      "Vāsava",
+      "Namuchi",
+      "Vritra",
+      "Vala",
+      "Andhaka",
+      "Rudra",
+      "Nandi",
+      "Chāranas",
+      "Siddhas",
+      "Gandharbas",
+      "Yakshas",
+      "Nāgas",
+      "Pulastya",
+      "Swarbhānu",
+      "Satakratu",
+      "Charanas",
+      "Vishnu",
+      "Vishravā",
+      "Pushpaka",
+      "Chaitraratha",
+      "Nandana",
+      "Vāsaki",
+      "Takshaka",
+      "Kailaça",
+      "Sani",
+      "Rohini",
+      "Gāyatri",
+      "Vasus",
+      "Vāyu",
+      "Vāruna",
+      "Vivaswat",
+      "Soma",
+      "Bhaga",
+      "Dhātā",
+      "Vidhātā",
+      "Dharma",
+      "Arundhati",
+      "Chitrakuta",
+      "Janasthāna",
+      "Dandaka",
+      "Ayodhyā",
+      "Godāvari",
+      "Panchavati",
+      "Mandākini",
+      "Pampā",
+      "Rishyamuka",
+      "Sugriva",
+      "Kavandha",
+      "Savari",
+      "Matanga",
+      "Sthulashira",
+      "Suryya",
+      "Rikshyaraja",
+      "Yama",
+      "Rāhu",
+      "Kandarpa",
+      "Dandaka",
+      "Ayodhyā",
+      "Chitrakuta",
+      "Janasthāna",
+      "Godāvari",
+      "Panchavati",
+      "Mandākini",
+      "Pampā",
+      "Rishyamuka",
+      "Lankā",
+      "Mithilā",
+      "Vindhya",
+      "Matanga",
+      "Matanga's wood",
+      "Asoka wood",
+      "Pushpaka",
+      "Chaitraratha",
+      "Nandana",
+      "Kailaça",
+      "Saptaparua",
+      "Raktachandan",
+      "Pāmpa",
+      "Rohini",
+      "Vaitarani",
+      "Airāvata",
+      "Meru",
+      "Sakra",
+      "Maghavan",
+      "Satakratu",
+      "Vāsava",
+      "Namuchi",
+      "Vritra",
+      "Vala",
+      "Andhaka",
+      "Rudra",
+      "Nandi",
+      "Chāranas",
+      "Siddhas",
+      "Gandharbas",
+      "Yakshas",
+      "Nāgas",
+      "Pulastya",
+      "Swarbhānu",
+      "Charanas",
+      "Vishnu",
+      "Vishravā",
+      "Panchāpsara",
+      "Pippali",
+      "Kuça",
+      "Darva",
+      "Yojana",
+      "Karnika",
+      "Godaveri",
+      "Sarayu",
+      "Matanga Sara",
+      "Rākshasa",
+      "Rākshasi",
+      "Asura",
+      "Brahmacharya",
+      "Maharshi",
+      "Brāhmana",
+      "Vipra",
+      "Vānaprastha",
+      "Homa",
+      "Vāli",
+      "Kuça",
+      "Yojana",
+      "Nāga",
+      "Nārācha",
+      "Arghya",
+      "Mantra",
+      "Japa",
+      "Yoga",
+      "Agrayana",
+      "Pitris",
+      "Udaka",
+      "Kārandavas",
+      "Chakravāka",
+      "Krauncha",
+      "Kinnara",
+      "Gāyatri",
+      "Sthandilaçāyis",
+      "Urddhavāsis",
+      "Ardrapattavāsas",
+      "Salilāhāras",
+      "Vāyubhaksbas",
+      "Akāçanilayas",
+      "Kāsa",
+      "Kavandha",
+      "Yama",
+      "Chandāla",
+      "Kārandava"
+    ],
+    "ch-1-4": [
+      "Rāma",
+      "Lakshmana",
+      "Sitā",
+      "Saumitri",
+      "Bharata",
+      "Cupid",
+      "Rākshasa",
+      "Sugriva",
+      "Vāli",
+      "Hanumān",
+      "Maruta",
+      "Daçaratha",
+      "Jānaki",
+      "Danu",
+      "Diti",
+      "Jatāyu",
+      "Rāvana",
+      "Tārā",
+      "Angada",
+      "Rumā",
+      "Sree",
+      "Mahendra",
+      "Indra",
+      "Sakra",
+      "Matanga",
+      "Māyāvi",
+      "Dunduvi",
+      "Himavān",
+      "Namuchi",
+      "Vasava",
+      "Sakra's banner",
+      "Upendra",
+      "Yama",
+      "Māndhāta",
+      "Māyā",
+      "Hemā",
+      "Sayamprabhā",
+      "Merusāvarni",
+      "Sampāti",
+      "Supārçwa",
+      "Niçākara",
+      "Vainateya",
+      "Garuda",
+      "Vinatā",
+      "Virochana",
+      "Vishnu",
+      "Brahmā",
+      "Kāla",
+      "Uma",
+      "Jambavān",
+      "Nala",
+      "Neela",
+      "Gaya",
+      "Gavaksha",
+      "Gavaya",
+      "Sarabha",
+      "Gandhamādana",
+      "Mainda",
+      "Dwivida",
+      "Sushena",
+      "Darimukha",
+      "Indrajanu",
+      "Rambha",
+      "Durmukha",
+      "Kumuda",
+      "Vahni",
+      "Rumana",
+      "Satavali",
+      "Dhumra",
+      "Panama",
+      "Golava",
+      "Yaksha",
+      "Pravaba",
+      "Archishmat",
+      "Māricha",
+      "Archirmālyas",
+      "Soma",
+      "Kuvera",
+      "Sārvabhauma",
+      "Vāsuki",
+      "Vālakhilya",
+      "Vaikhānasa",
+      "Siddhas",
+      "Charanas",
+      "Kinnaras",
+      "Apsarās",
+      "Yakshas",
+      "Vidhutmali",
+      "Suryaksha",
+      "Beerabahu",
+      "Subahu",
+      "Sunetra",
+      "Supātala",
+      "Dadhibaktra",
+      "Kāma",
+      "Sumitra",
+      "Janaka",
+      "Kauçalya",
+      "Kaikeyi",
+      "Kishkindhā",
+      "Pampā",
+      "Ayodhya",
+      "Mandākini",
+      "Rishyamuka",
+      "Malaya",
+      "Vindhya",
+      "Meru",
+      "Matanga",
+      "Sāla",
+      "Kārtikeya",
+      "Kanka",
+      "Asoka",
+      "Karnikara",
+      "Chakrabaka",
+      "Karandava",
+      "Chrauncha",
+      "Plaba",
+      "Saugandhika",
+      "Mandāra",
+      "Rājasuya",
+      "Dakshina",
+      "Agnishtoma",
+      "Yajur-veda",
+      "Rig-veda",
+      "Shyam-veda",
+      "Ikshwākus",
+      "Rāghava",
+      "Kākutstha",
+      "Mithilā",
+      "Vaidehi",
+      "Maithili",
+      "Dandaka",
+      "Srābana",
+      "Kartika",
+      "Bhādra",
+      "Ashara",
+      "Saraju",
+      "Koçala",
+      "Mānasa Saravara",
+      "Janhavi",
+      "Trikuta",
+      "Prasrabana",
+      "Mālyabana",
+      "Mahendra",
+      "Himavat",
+      "Kailāça",
+      "Mandara",
+      "Padmachala",
+      "Anjana",
+      "Mahāçaila",
+      "Dhumra",
+      "Mahāruna",
+      "Maireya",
+      "Saurāshtras",
+      "Bāhlikas",
+      "Chandrachitras",
+      "Kukshi",
+      "Punnāgas",
+      "Vakulas",
+      "Uddalakas",
+      "Ketaka",
+      "Tomālas",
+      "Murachipattana",
+      "Jatāpura",
+      "Avanti",
+      "Angalapā",
+      "Alakshita",
+      "Somagiri",
+      "Pāriyātra",
+      "Chakravān",
+      "Varāha",
+      "Prāgjyotisha",
+      "Naraka",
+      "Sarvasauvarna",
+      "Megha",
+      "Viçwakarmā",
+      "Krauncha",
+      "Maināka",
+      "Maya",
+      "Soma",
+      "Kāla",
+      "Sudarçana",
+      "Devasakhā",
+      "Vaikhānasa",
+      "Kichaka",
+      "Soma mountain",
+      "Abhijit",
+      "Mahāmeru",
+      "Māheçwara",
+      "Baidurja",
+      "vernal",
+      "Cupid",
+      "ravishment",
+      "asylum",
+      "embryo",
+      "Apsarās",
+      "Rājasuya",
+      "Dakshina",
+      "Agnishtoma",
+      "Brahmacharis",
+      "Rajarshis",
+      "Brāhmanas",
+      "Kshatryas",
+      "Sastras",
+      "Kuça",
+      "matted locks",
+      "obsequies",
+      "Srābana",
+      "Kartika",
+      "Bhādra",
+      "Ashara",
+      "muhurta",
+      "koti",
+      "ayuta",
+      "sankha",
+      "arvuda",
+      "padma",
+      "samudra",
+      "parārdha",
+      "madhya",
+      "antya",
+      "Nupurs",
+      "oshadhis",
+      "Mridangas",
+      "Indragopas",
+      "Saptachada",
+      "Priyangu",
+      "Gaya",
+      "Gavaksha",
+      "Gavaya",
+      "Sarabha",
+      "Gandhamādana",
+      "Mainda",
+      "Dwivida",
+      "Sushena",
+      "Tāra",
+      "Darimukha",
+      "Indrajanu",
+      "Rambha",
+      "Durmukha",
+      "Kumuda",
+      "Vahni",
+      "Rumana",
+      "Satavali",
+      "Dhumra",
+      "Panama",
+      "Golava",
+      "Yaksha",
+      "Pravaba",
+      "Vinatā",
+      "Archishmat",
+      "Māricha",
+      "Archirmālyas",
+      "Merusāvarni",
+      "Soma",
+      "Kuvera",
+      "Sārvabhauma",
+      "Vāsuki",
+      "Vālakhilya",
+      "Vaikhānasa",
+      "Siddhas",
+      "Charanas",
+      "Kinnaras",
+      "Yakshas",
+      "Vidhutmali",
+      "Suryaksha",
+      "Beerabahu",
+      "Subahu",
+      "Sunetra",
+      "Supātala",
+      "Dadhibaktra",
+      "Sampāti",
+      "Jatāyu",
+      "Supārçwa",
+      "Niçākara",
+      "Sree",
+      "Kāma",
+      "Kāla",
+      "Vainateya",
+      "Garuda",
+      "Bharata",
+      "Sumitra",
+      "Janaka",
+      "Kauçalya",
+      "Kaikeyi",
+      "Māyā",
+      "Vasava",
+      "Sakra",
+      "Mahendra",
+      "Upendra"
+    ],
+    "ch-1-5": [
+      "Hanumān",
+      "Sitā",
+      "Rāvana",
+      "Rāma",
+      "Lakshmana",
+      "Sugriva",
+      "Angada",
+      "Jāmbavān",
+      "Vibhishana",
+      "Indrajit",
+      "Maināka",
+      "Surasā",
+      "Sinhikā",
+      "Trijatā",
+      "Mandodari",
+      "Dadhimukha",
+      "Daçaratha",
+      "Janaka",
+      "Sampati",
+      "Vāli",
+      "Bharata",
+      "Satrughna",
+      "Kauçalyā",
+      "Sumitrā",
+      "Kaikayi",
+      "Umā",
+      "Tārā",
+      "Sachi",
+      "Vasava",
+      "Pulastya",
+      "Bishravā",
+      "Kumvakarna",
+      "Aksha",
+      "Jānaki",
+      "Vaidehi",
+      "Maithili",
+      "Vasishtha",
+      "Arundhuti",
+      "Lopamudrā",
+      "Sukanya",
+      "Sābitree",
+      "Sreematee",
+      "Madayantee",
+      "Keshinee",
+      "Damayanti",
+      "Ajāmukhee",
+      "Surpanakhā",
+      "Dhānyamalini",
+      "Ekjatā",
+      "Harijatā",
+      "Vikatā",
+      "Durmukhee",
+      "Chandodorā",
+      "Praghasā",
+      "Vinatā",
+      "Garuda",
+      "Jambavān",
+      "Yama",
+      "Varuna",
+      "Vishnu",
+      "Brahmā",
+      "Indra",
+      "Rudra",
+      "Maruts",
+      "Açwinis",
+      "Soma",
+      "Kumuda",
+      "Nila",
+      "Mainda",
+      "Dwivida",
+      "Sampāti",
+      "Kesari",
+      "Samvasādana",
+      "Vāchaspati",
+      "Vāsava",
+      "Rākshasas",
+      "Rākshasees",
+      "Yakshas",
+      "Gandharvas",
+      "Kinnaras",
+      "Nāgas",
+      "Pannagas",
+      "Charanas",
+      "Siddhas",
+      "Maharshis",
+      "Chitrakuta",
+      "Sumāla",
+      "Jambumāla",
+      "Vajrakāya",
+      "Dhumrāksha",
+      "Vidyujjibha",
+      "Vidyunmālā",
+      "Vahudanshtra",
+      "Suka",
+      "Sārana",
+      "Rashmiketu",
+      "Suryyasachu",
+      "Phana",
+      "Vighana",
+      "Sukanābha",
+      "Chakra",
+      "Satha",
+      "Kapatha",
+      "Hraswakarna",
+      "Danshtra",
+      "Lomasa",
+      "Yudhyonmatta",
+      "Matta",
+      "Dhwajagriva",
+      "Vijibha",
+      "Hastimukha",
+      "Karāla",
+      "Viçāla",
+      "Sonitāksha",
+      "Romaça",
+      "Yuddhonmattn",
+      "Vidyujjibhwa",
+      "Yajnaçatru",
+      "Brahmaçatru",
+      "Nikumbha",
+      "Mahāpārçwa",
+      "Prahasta",
+      "Jamvumāli",
+      "Mahendra",
+      "Mandara",
+      "Meru",
+      "Malaya",
+      "Sumeru",
+      "Aristha",
+      "Prasravana",
+      "Gokarna",
+      "Mālyabāna",
+      "Kishkindhā",
+      "Ayodhyā",
+      "Lankā",
+      "Videha",
+      "Mithilā",
+      "Dandaka",
+      "Janasthāna",
+      "Madhuvana",
+      "Asoka wood",
+      "Sinçapā",
+      "Pushpaka",
+      "Pushpamaya",
+      "Amarāvati",
+      "Bhogavati",
+      "Kailāça",
+      "Nandana",
+      "Gandhamādana",
+      "Vaswokasāra",
+      "Agastya",
+      "Chyabana",
+      "Satyabāna",
+      "Kapila",
+      "Sandasa",
+      "Sagara",
+      "Veema",
+      "Nandi",
+      "Sakra",
+      "Vasus",
+      "Rāhu",
+      "Ketu",
+      "Rohini",
+      "Sree",
+      "Kāma",
+      "Madana",
+      "Chāranas",
+      "Nāgas",
+      "Yakshas",
+      "Kinnaras",
+      "Gandharvas",
+      "Pannagas",
+      "Mahendra",
+      "Parva",
+      "Varuna",
+      "Rāma",
+      "Rākshasa",
+      "Suparna",
+      "Garuda",
+      "Rāghava",
+      "Lankā",
+      "Janaka",
+      "Ikshwākus",
+      "Sagara",
+      "Maināka",
+      "Asuras",
+      "Raghus",
+      "Maruta",
+      "Mandara",
+      "Meru",
+      "Siddhas",
+      "Vidyādharas",
+      "Vasava",
+      "Sachi",
+      "Dandaka",
+      "Vaidehi",
+      "Mithilā",
+      "Hari",
+      "Sālas",
+      "Yojana",
+      "Amarāvati",
+      "Chitrakuta",
+      "Pushpamaya",
+      "Saralas",
+      "Karnikāras",
+      "Piyālas",
+      "Muchulindas",
+      "Kutajas",
+      "Ketakas",
+      "Piyangus",
+      "Nipas",
+      "Saptachchhadas",
+      "Asanas",
+      "Kovidāras",
+      "Karaviras",
+      "Kārandavas",
+      "Sataghnis",
+      "Viçwakarmā",
+      "Kailāça",
+      "Vidyadharas",
+      "Maharshis",
+      "Bhogavati",
+      "Vaswokasāra",
+      "Pushpaka",
+      "Kārttaswara",
+      "Hiranya",
+      "Sumeru",
+      "Chaitra",
+      "Nandana",
+      "Kuvera",
+      "Singsapa",
+      "Santāna",
+      "Gandhamādana",
+      "Rohini",
+      "Ketu",
+      "Rāhu",
+      "Kāma",
+      "Madana",
+      "Sree",
+      "Natyuhas",
+      "Sārasas",
+      "Vasishtha",
+      "Arundhuti",
+      "Lopamudrā",
+      "Sukanya",
+      "Sābitree",
+      "Sreematee",
+      "Madayantee",
+      "Keshinee",
+      "Damayanti",
+      "Veema",
+      "Nandi",
+      "Sakra",
+      "Soma",
+      "Yama",
+      "Vasus",
+      "Rudra",
+      "Açwinis",
+      "Maruts",
+      "Vishnu",
+      "Brahmā",
+      "Vāchaspati",
+      "Rākshasas",
+      "Charanas",
+      "Sumāla",
+      "Jambumāla",
+      "Vajrakāya",
+      "Dhumrāksha",
+      "Vidyujjibha",
+      "Vidyunmālā",
+      "Vahudanshtra",
+      "Suka",
+      "Sārana",
+      "Indrajit",
+      "Rashmiketu",
+      "Suryyasachu",
+      "Phana",
+      "Vighana",
+      "Sukanābha",
+      "Chakra",
+      "Satha",
+      "Kapatha",
+      "Hraswakarna",
+      "Danshtra",
+      "Lomasa",
+      "Yudhyonmatta",
+      "Matta",
+      "Dhwajagriva",
+      "Vijibha",
+      "Hastimukha",
+      "Karāla",
+      "Viçāla",
+      "Sonitāksha",
+      "Romaça",
+      "Yuddhonmattn",
+      "Vidyujjibhwa",
+      "Yajnaçatru",
+      "Brahmaçatru",
+      "Nikumbha",
+      "Mahāpārçwa",
+      "Prahasta",
+      "Jamvumāli",
+      "Malaya",
+      "Aristha",
+      "Prasravana",
+      "Gokarna",
+      "Mālyabāna",
+      "Kishkindhā",
+      "Ayodhyā",
+      "Videha",
+      "Janasthāna",
+      "Madhuvana",
+      "Asoka wood",
+      "Sinçapā",
+      "Chāranas",
+      "Nāgas",
+      "Yakshas",
+      "Kinnaras",
+      "Gandharvas",
+      "Pannagas",
+      "Mahendra",
+      "Parva",
+      "Varuna",
+      "Rāma",
+      "Rākshasa",
+      "Suparna",
+      "Garuda",
+      "Rāghava",
+      "Lankā",
+      "Janaka",
+      "Ikshwākus",
+      "Sagara",
+      "Maināka",
+      "Asuras",
+      "Raghus",
+      "Maruta",
+      "Mandara",
+      "Meru",
+      "Siddhas",
+      "Vidyādharas",
+      "Vasava",
+      "Sachi",
+      "Dandaka",
+      "Vaidehi",
+      "Mithilā",
+      "Hari",
+      "Sālas",
+      "Yojana",
+      "Amarāvati",
+      "Chitrakuta",
+      "Pushpamaya",
+      "Saralas",
+      "Karnikāras",
+      "Piyālas",
+      "Muchulindas",
+      "Kutajas",
+      "Ketakas",
+      "Piyangus",
+      "Nipas",
+      "Saptachchhadas",
+      "Asanas",
+      "Kovidāras",
+      "Karaviras",
+      "Kārandavas",
+      "Sataghnis",
+      "Viçwakarmā",
+      "Kailāça",
+      "Vidyadharas",
+      "Maharshis",
+      "Bhogavati",
+      "Vaswokasāra",
+      "Pushpaka",
+      "Kārttaswara",
+      "Hiranya",
+      "Sumeru",
+      "Chaitra",
+      "Nandana",
+      "Kuvera",
+      "Singsapa",
+      "Santāna",
+      "Gandhamādana",
+      "Rohini",
+      "Ketu",
+      "Rāhu",
+      "Kāma",
+      "Madana",
+      "Sree",
+      "Natyuhas",
+      "Sārasas",
+      "Vasishtha",
+      "Arundhuti",
+      "Lopamudrā",
+      "Sukanya",
+      "Sābitree",
+      "Sreematee",
+      "Madayantee",
+      "Keshinee",
+      "Damayanti",
+      "Veema",
+      "Nandi",
+      "Sakra",
+      "Soma",
+      "Yama",
+      "Vasus",
+      "Rudra",
+      "Açwinis",
+      "Maruts",
+      "Vishnu",
+      "Brahmā",
+      "Vāchaspati",
+      "Rākshasas",
+      "Charanas",
+      "Sumāla",
+      "Jambumāla",
+      "Vajrakāya",
+      "Dhumrāksha",
+      "Vidyujjibha",
+      "Vidyunmālā",
+      "Vahudanshtra",
+      "Suka",
+      "Sārana",
+      "Indrajit",
+      "Rashmiketu",
+      "Suryyasachu",
+      "Phana",
+      "Vighana",
+      "Sukanābha",
+      "Chakra",
+      "Satha",
+      "Kapatha",
+      "Hraswakarna",
+      "Danshtra",
+      "Lomasa",
+      "Yudhyonmatta",
+      "Matta",
+      "Dhwajagriva",
+      "Vijibha",
+      "Hastimukha",
+      "Karāla",
+      "Viçāla",
+      "Sonitāksha",
+      "Romaça",
+      "Yuddhonmattn",
+      "Vidyujjibhwa",
+      "Yajnaçatru",
+      "Brahmaçatru",
+      "Nikumbha",
+      "Mahāpārçwa",
+      "Prahasta",
+      "Jamvumāli",
+      "Malaya",
+      "Aristha",
+      "Prasravana",
+      "Gokarna",
+      "Mālyabāna",
+      "Kishkindhā",
+      "Ayodhyā",
+      "Videha",
+      "Janasthāna",
+      "Madhuvana",
+      "Asoka wood",
+      "Sinçapā"
+    ],
+    "ch-1-6": [
+      "Hanumān",
+      "Rāma",
+      "Gāruda",
+      "Wind-god",
+      "Sugriva",
+      "Vaidehi",
+      "Lakshmana",
+      "Raghu",
+      "Rākshasas",
+      "Rāvana",
+      "Sitā",
+      "Kākutstha",
+      "Daçaratha",
+      "Rāghava",
+      "Indra",
+      "Varuna",
+      "Asuras",
+      "Bhrigu",
+      "Uçanas",
+      "Dhruva",
+      "Ikshwākus",
+      "Rājarshi Triçanku",
+      "Visākhā",
+      "Nairita",
+      "Dhumketu",
+      "Tāraka",
+      "Sumitrā",
+      "Jānaki",
+      "Janaka",
+      "Rākshasees",
+      "Yatāyu",
+      "Siva",
+      "Maya",
+      "Kumbhinasi",
+      "Madhu",
+      "Vāsuki",
+      "Takshaka",
+      "Sankha",
+      "Jati",
+      "Kalakeyas",
+      "Samvara",
+      "Vritra",
+      "Prahasta",
+      "Durmukha",
+      "Vajradanshtra",
+      "Nikumbha",
+      "Vajrahanu",
+      "Indrajit",
+      "Mandodari",
+      "Kumbhakarna",
+      "Triçirsha",
+      "Devāntaka",
+      "Narantaka",
+      "Atikāya",
+      "Atiratha",
+      "Akampana",
+      "Vibhishana",
+      "Sārdula",
+      "Suka",
+      "Sārana",
+      "Nila",
+      "Angada",
+      "Dwivida",
+      "Mainda",
+      "Jāmbavān",
+      "Panasa",
+      "Nala",
+      "Gaja",
+      "Arka",
+      "Kesari",
+      "Vegadarçi",
+      "Satavali",
+      "Vālimukha",
+      "Prajangha",
+      "Jambha",
+      "Rabhasa",
+      "Sahya",
+      "Malaya",
+      "Rishava",
+      "Gandha",
+      "Gandhamādana",
+      "Gavaya",
+      "Gavaksha",
+      "Rishabha",
+      "Kumuda",
+      "Sushena",
+      "Bharata",
+      "Satrughna",
+      "Kauçalyā",
+      "Kaikeyi",
+      "Guha",
+      "Varadwāja",
+      "Vasishtha",
+      "Tārā",
+      "Saramā",
+      "Trijata",
+      "Lankā",
+      "Dānavas",
+      "Yakshas",
+      "Gandharbas",
+      "Rakhas",
+      "Trikuta",
+      "Varuna",
+      "Indra",
+      "Ayodhyā",
+      "Kshatriyas",
+      "Pisachas",
+      "Gāruda",
+      "Airāvata",
+      "Sārvabhauma",
+      "Siddhas",
+      "Charanas",
+      "Maharshis",
+      "Yojana",
+      "Nagas",
+      "Rasātala",
+      "Pātāla",
+      "Lokapālas",
+      "Sagara",
+      "Kishkindhā",
+      "Pushpaka",
+      "Nikumbhilā",
+      "Setubandha",
+      "Chitrakuta",
+      "Godāveri",
+      "Rishyamuka",
+      "Pampā",
+      "Sringabera",
+      "Nandigrām",
+      "Pushya",
+      "Brahmā",
+      "Mahendra",
+      "Mahādeva",
+      "Viçwakarmā",
+      "Vāsava",
+      "Savitā",
+      "Suryya",
+      "Rohini",
+      "Mandara",
+      "Himavān",
+      "Vindhya",
+      "Meru",
+      "Krauncha",
+      "Vāsuki",
+      "Kailāça",
+      "Amarāvati",
+      "Sāla",
+      "Açoka",
+      "Brahmaçiras",
+      "Gāndharva weapon",
+      "Raudra weapon",
+      "Aindra weapon",
+      "Agneya weapon",
+      "Vāruna weapon",
+      "Açwakarna",
+      "Parigha",
+      "Musala",
+      "Pattiça",
+      "Nārācha",
+      "Kshurapra",
+      "Vatsadanta",
+      "Chakra",
+      "Chāranas",
+      "Gandharvas",
+      "Apsarās",
+      "Ayuta",
+      "Koti",
+      "Sanku",
+      "Mahāçanku",
+      "Vrinda",
+      "Padma",
+      "Mahāpadma",
+      "Kharva",
+      "Samudra",
+      "Mahaugha",
+      "Hasta",
+      "Phālguni",
+      "Vaidehi",
+      "Maithili",
+      "Rājarshi",
+      "Rākskasas",
+      "Rākshasas",
+      "Yātudhānas",
+      "Pisācha",
+      "Vipras",
+      "Mantras",
+      "Kuça",
+      "Agnihotra",
+      "Rittigas",
+      "Arghya",
+      "Yajus",
+      "Sāma",
+      "Rik",
+      "Sāstras",
+      "Dharma",
+      "Pushpaka",
+      "Vajra",
+      "Açani",
+      "Danda",
+      "Golangulas",
+      "Chowri",
+      "Keyura",
+      "Angada",
+      "Kundala",
+      "Mandala",
+      "Nupura",
+      "Modaka",
+      "Akshata",
+      "Vaidurja",
+      "Sreebatsha",
+      "Oshadhis",
+      "Yama",
+      "Agnigarbha",
+      "Sankha",
+      "Chāranas",
+      "Siddhas",
+      "Gandharvas",
+      "Apsarās"
+    ],
+    "ch-1-7": [
+      "Rāma",
+      "Lakshmana",
+      "Sitā",
+      "Bharata",
+      "Satrughna",
+      "Agastya",
+      "Vālmiki",
+      "Hanumān",
+      "Sugriva",
+      "Bibhishana",
+      "Rāvana",
+      "Kumbhakarna",
+      "Indrajit",
+      "Vasishtha",
+      "Kaçyapa",
+      "Viçwamitra",
+      "Atri",
+      "Gautama",
+      "Jamadagni",
+      "Bharadwaja",
+      "Nrishadgu",
+      "Kauçika",
+      "Yavakrita",
+      "Gārgya",
+      "Gālava",
+      "Kanva",
+      "Swastyāstreya",
+      "Namuchi",
+      "Pramuchi",
+      "Sumukha",
+      "Vimukha",
+      "Kauçeya",
+      "Kahashi",
+      "Dhaumya",
+      "Kashyapa",
+      "Pulastya",
+      "Trinavindu",
+      "Devavarnini",
+      "Brahmā",
+      "Indra",
+      "Varuna",
+      "Yama",
+      "Vishnu",
+      "Maheçwara",
+      "Siva",
+      "Pārvati",
+      "Nandi",
+      "Kāla",
+      "Saraswati",
+      "Vāni",
+      "Sukeça",
+      "Malyavān",
+      "Sumāli",
+      "Māli",
+      "Grāmani",
+      "Devavati",
+      "Vajramusthi",
+      "Virupāksha",
+      "Burmukha",
+      "Suptaghna",
+      "Yajnakopa",
+      "Matta",
+      "Unmatta",
+      "Analā",
+      "Ketumati",
+      "Prahasta",
+      "Kampana",
+      "Vikata",
+      "Kālikāmukha",
+      "Dhumrāksha",
+      "Danda",
+      "Supārcwa",
+      "Sanhrādi",
+      "Praghasa",
+      "Bhāsakarna",
+      "Rākā",
+      "Pashpotkatā",
+      "Kaikasi",
+      "Kumbhinasi",
+      "Sundari",
+      "Nila",
+      "Anala",
+      "Sampāti",
+      "Surpanakhā",
+      "Mandodari",
+      "Meghanāda",
+      "Maya",
+      "Hemā",
+      "Māyāvi",
+      "Dundubhi",
+      "Vajrajwālā",
+      "Saramā",
+      "Sailusha",
+      "Khara",
+      "Dushana",
+      "Madhu",
+      "Lavana",
+      "Nriga",
+      "Nimi",
+      "Urvasi",
+      "Pururavā",
+      "Budha",
+      "Ila",
+      "Kardama",
+      "Taksha",
+      "Pushkala",
+      "Angada",
+      "Chandraketu",
+      "Suvahu",
+      "Satrughati",
+      "Kusa",
+      "Lava",
+      "Gargya",
+      "Yudhajit",
+      "Chābanya",
+      "Durvāsā",
+      "Pushpaka",
+      "Sumantra",
+      "Sambuka",
+      "Sweta",
+      "Suratha",
+      "Saudāsa",
+      "Vritra",
+      "Vitra",
+      "Sree",
+      "Rati",
+      "Nalakuvara",
+      "Rambhā",
+      "Rāhu",
+      "Airavat",
+      "Janaka",
+      "Kausalya",
+      "Kaikeyi",
+      "Sumitrā",
+      "Gayatri",
+      "Vasatkāra",
+      "Omkāra",
+      "Ayodhyā",
+      "Lankā",
+      "Madhuvana",
+      "Trikuta",
+      "Pushpaka",
+      "Naimisha forest",
+      "Gandharva",
+      "Kishkindhā",
+      "Dandaka forest",
+      "Vindhya",
+      "Saivala",
+      "Kosala",
+      "North Kosala",
+      "Mathura",
+      "Vidisha",
+      "Takshasila",
+      "Karupada",
+      "Chandrakānti",
+      "Kusavati",
+      "Sravanti",
+      "Saraju",
+      "Gomati",
+      "Ganges",
+      "Vaitaraini",
+      "Rasātala",
+      "Patāla",
+      "Swetadwipa",
+      "Amaravati",
+      "Kailāça",
+      "Mandākini",
+      "Nandana",
+      "Chitraratha",
+      "Sumeru",
+      "Meru",
+      "Himavān",
+      "Ursa Major",
+      "Sleshmātaka wood",
+      "Jānhavi",
+      "Srābana",
+      "Krauncha",
+      "Sārdula",
+      "Rākshasa",
+      "Rāghava",
+      "arghya",
+      "Kuça",
+      "Vedas",
+      "anchoret",
+      "Brahmarshi",
+      "Agnihotra",
+      "Yojana",
+      "Nairita",
+      "Lokapāla",
+      "Apsarā",
+      "Gandharva",
+      "Yaksha",
+      "Pannaga",
+      "Rājarshi",
+      "Brahmana",
+      "Kshatriya",
+      "Vaisya",
+      "Sudra",
+      "Brāhmana",
+      "Dharma",
+      "Swastyāyana",
+      "Pāçupata",
+      "Sārnga",
+      "Pānchajanya",
+      "prānāyāma",
+      "Muni",
+      "Soma",
+      "Sraddha",
+      "Kāla",
+      "Māyā",
+      "Pitris",
+      "Rāhu",
+      "Māndhāta",
+      "Asura",
+      "Dānava",
+      "Siddha",
+      "Charana",
+      "Vidya",
+      "Krita age",
+      "Tretā Yuga",
+      "Kali Yuga",
+      "Vānaras",
+      "Akshauhini",
+      "Vālmiki",
+      "Gayatri",
+      "Omkāra",
+      "Vasatkāra",
+      "Bājapeya",
+      "Aswamedha",
+      "Brahmā",
+      "Vishnu",
+      "Sribatsa"
+    ]
+  }
+}

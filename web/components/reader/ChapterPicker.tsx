@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Chapter, SectionInfo } from "@/lib/types";
+import { readingTimeExact, pageCount } from "@/lib/utils";
 
 interface ChapterPickerProps {
   chapters: Chapter[];
@@ -259,11 +260,6 @@ export default function ChapterPicker({
                   />
                 );
 
-                const sectionBadge = hasSections && !isChapterExpanded && (
-                  <span className="text-[10px] text-white/25 flex-shrink-0 tabular-nums">
-                    {ch.sections!.length} sec
-                  </span>
-                );
 
                 const toggleExpand = hasSections
                   ? (e: { stopPropagation: () => void }) => {
@@ -311,9 +307,8 @@ export default function ChapterPicker({
                               )}
                             </span>
                             <div className="flex items-center gap-1.5 flex-shrink-0">
-                              {sectionBadge}
                               <span className="text-xs text-white/30">
-                                {Math.max(1, Math.round(ch.wordCount / 230))}m
+                                {readingTimeExact(ch.wordCount)} · {pageCount(ch.wordCount)} pages
                               </span>
                               {isRead && (
                                 <svg
@@ -334,7 +329,7 @@ export default function ChapterPicker({
                             {ch.title}
                           </p>
                           {ch.summary && (
-                            <p className="text-xs text-white/40 mt-1 line-clamp-2 leading-relaxed">
+                            <p className="text-xs text-white/40 mt-1 line-clamp-3 leading-relaxed">
                               {ch.summary}
                             </p>
                           )}
@@ -404,11 +399,11 @@ export default function ChapterPicker({
                           >
                             <polyline points="9 18 15 12 9 6" />
                           </svg>
-                          {ch.sections!.length} sec
+                          §{ch.sections!.length}
                         </button>
                       )}
                       <span className="text-[10px] text-white/20 flex-shrink-0 tabular-nums">
-                        {Math.max(1, Math.round(ch.wordCount / 230))}m
+                        {readingTimeExact(ch.wordCount)} · {pageCount(ch.wordCount)} pg
                       </span>
                       {isRead && (
                         <svg
