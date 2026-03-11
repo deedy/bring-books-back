@@ -1,0 +1,4 @@
+web/public/data/images/**/*.png filter=lfs diff=lfs merge=lfs -text
+web/public/data/images/**/*.webp filter=lfs diff=lfs merge=lfs -text
+web/public/data/images/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+character_images/*.png filter=lfs diff=lfs merge=lfs -text
