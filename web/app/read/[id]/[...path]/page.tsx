@@ -4,6 +4,7 @@ import { getCatalog, getChapters } from "@/lib/data";
 import { getReaderPayload } from "@/lib/readerData";
 import { slugify, chapterPath } from "@/lib/utils";
 import { redirect } from "next/navigation";
+import OfflineRouteRedirect from "@/components/OfflineRouteRedirect";
 import ReaderLoader from "@/components/reader/ReaderLoader";
 
 export const dynamic = "force-dynamic";
@@ -146,6 +147,7 @@ export default async function ChapterRoutePage({
     const payload = await getReaderPayload(id, initialChapter - 1, languageParam, resumeParam);
     return (
       <>
+        <OfflineRouteRedirect bookId={id} kind="read" target={path.join("/")} />
         <BreadcrumbScript bookId={id} bookTitle={bookTitle} chapterTitle={ch?.title ?? `Chapter ${num}`} path={path} />
         <Suspense fallback={
           <div className="fixed inset-0 bg-[#1a1a1a] flex items-center justify-center">
@@ -185,6 +187,7 @@ export default async function ChapterRoutePage({
     const payload = await getReaderPayload(id, initialChapter - 1, languageParam, resumeParam);
     return (
       <>
+        <OfflineRouteRedirect bookId={id} kind="read" target={path.join("/")} />
         <BreadcrumbScript bookId={id} bookTitle={bookTitle} chapterTitle={ch?.title ?? `Chapter ${chapterNum}`} path={path} />
         <Suspense fallback={
           <div className="fixed inset-0 bg-[#1a1a1a] flex items-center justify-center">

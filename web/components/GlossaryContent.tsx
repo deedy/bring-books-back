@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import { normalizeForSearch } from "@/lib/search";
-import type { GlossaryTerm } from "@/app/(browse)/books/[id]/glossary/page";
+import type { GlossaryTerm } from "@/lib/types";
 
 interface GlossaryContentProps {
   terms: GlossaryTerm[];

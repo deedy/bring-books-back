@@ -3,6 +3,7 @@
 import { useAuth } from "@clerk/nextjs";
 import Link from "next/link";
 import { useState, useRef, useEffect } from "react";
+import { buildOfflineBookUrl } from "@/lib/offlineUtils";
 
 interface ReaderHeaderProps {
   bookTitle: string;
@@ -17,6 +18,7 @@ interface ReaderHeaderProps {
   onToggleScrollMode: () => void;
   hideChaptersButton?: boolean;
   signInUrl?: string;
+  offlineMode?: boolean;
 }
 
 const fontSizes: Array<"small" | "medium" | "large"> = ["small", "medium", "large"];
@@ -34,8 +36,126 @@ export default function ReaderHeader({
   onToggleScrollMode,
   hideChaptersButton,
   signInUrl = "/sign-in",
+  offlineMode = false,
+}: ReaderHeaderProps) {
+  if (offlineMode) {
+    return (
+      <OfflineReaderHeader
+        bookTitle={bookTitle}
+        visible={visible}
+        onTogglePicker={onTogglePicker}
+        bookId={bookId}
+        darkMode={darkMode}
+        onToggleDarkMode={onToggleDarkMode}
+        fontSize={fontSize}
+        onChangeFontSize={onChangeFontSize}
+        scrollMode={scrollMode}
+        onToggleScrollMode={onToggleScrollMode}
+        hideChaptersButton={hideChaptersButton}
+      />
+    );
+  }
+
+  return (
+    <AuthenticatedReaderHeader
+      bookTitle={bookTitle}
+      visible={visible}
+      onTogglePicker={onTogglePicker}
+      bookId={bookId}
+      darkMode={darkMode}
+      onToggleDarkMode={onToggleDarkMode}
+      fontSize={fontSize}
+      onChangeFontSize={onChangeFontSize}
+      scrollMode={scrollMode}
+      onToggleScrollMode={onToggleScrollMode}
+      hideChaptersButton={hideChaptersButton}
+      signInUrl={signInUrl}
+    />
+  );
+}
+
+function AuthenticatedReaderHeader({
+  bookTitle,
+  visible,
+  onTogglePicker,
+  bookId,
+  darkMode,
+  onToggleDarkMode,
+  fontSize,
+  onChangeFontSize,
+  scrollMode,
+  onToggleScrollMode,
+  hideChaptersButton,
+  signInUrl = "/sign-in",
 }: ReaderHeaderProps) {
   const { isLoaded, userId } = useAuth();
+
+  return (
+    <ReaderHeaderShell
+      bookTitle={bookTitle}
+      visible={visible}
+      onTogglePicker={onTogglePicker}
+      bookId={bookId}
+      darkMode={darkMode}
+      onToggleDarkMode={onToggleDarkMode}
+      fontSize={fontSize}
+      onChangeFontSize={onChangeFontSize}
+      scrollMode={scrollMode}
+      onToggleScrollMode={onToggleScrollMode}
+      hideChaptersButton={hideChaptersButton}
+      showSignIn={isLoaded && !userId}
+      signInUrl={signInUrl}
+    />
+  );
+}
+
+function OfflineReaderHeader({
+  bookTitle,
+  visible,
+  onTogglePicker,
+  bookId,
+  darkMode,
+  onToggleDarkMode,
+  fontSize,
+  onChangeFontSize,
+  scrollMode,
+  onToggleScrollMode,
+  hideChaptersButton,
+}: ReaderHeaderProps) {
+  return (
+    <ReaderHeaderShell
+      bookTitle={bookTitle}
+      visible={visible}
+      onTogglePicker={onTogglePicker}
+      bookId={bookId}
+      darkMode={darkMode}
+      onToggleDarkMode={onToggleDarkMode}
+      fontSize={fontSize}
+      onChangeFontSize={onChangeFontSize}
+      scrollMode={scrollMode}
+      onToggleScrollMode={onToggleScrollMode}
+      hideChaptersButton={hideChaptersButton}
+      showSignIn={false}
+    />
+  );
+}
+
+function ReaderHeaderShell({
+  bookTitle,
+  visible,
+  onTogglePicker,
+  bookId,
+  darkMode,
+  onToggleDarkMode,
+  fontSize,
+  onChangeFontSize,
+  scrollMode,
+  onToggleScrollMode,
+  hideChaptersButton,
+  signInUrl = "/sign-in",
+  showSignIn,
+  offlineMode = false,
+}: ReaderHeaderProps & { showSignIn: boolean }) {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
   const nextSize = fontSizes[(fontSizes.indexOf(fontSize) + 1) % fontSizes.length];
@@ -79,7 +199,7 @@ export default function ReaderHeader({
         <div className="max-w-4xl mx-auto px-4 h-12 flex items-center justify-between relative">
           <div className="flex items-center gap-2">
             <Link
-              href={`/books/${bookId}`}
+              href={offlineMode ? buildOfflineBookUrl(bookId) : `/books/${bookId}`}
               className={`${buttonClass} inline-flex items-center gap-1`}
               aria-label="Go back to book details"
             >
@@ -154,7 +274,7 @@ export default function ReaderHeader({
                 Chapters
               </button>
             )}
-            {isLoaded && !userId && (
+            {showSignIn && (
               <Link
                 href={signInUrl}
                 className="px-3 py-1 rounded-md text-xs font-medium tracking-wide bg-white text-black hover:opacity-90 transition-opacity"

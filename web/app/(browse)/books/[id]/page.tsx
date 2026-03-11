@@ -7,8 +7,10 @@ import BookOpenTracker from "@/components/BookOpenTracker";
 import ReadActions from "@/components/ReadActions";
 import CharacterGrid from "@/components/CharacterGrid";
 import ChapterList from "@/components/ChapterList";
+import OfflineRouteRedirect from "@/components/OfflineRouteRedirect";
 import StoryGrid from "@/components/StoryGrid";
 import AnnotatedSummary from "@/components/AnnotatedSummary";
+import { buildGlossaryPreviewData } from "@/lib/bookDetails";
 import { readingTime, displayYear, getNewBookIds, pageCount } from "@/lib/utils";
 
 export function generateStaticParams() {
@@ -100,62 +102,15 @@ export default async function BookPage({
         (b) => b.authorId === book.authorId && b.id !== book.id && !b.anthologyId
       );
 
-  // Build glossary lists sorted by frequency (most appearances first)
-  type TermCard = { name: string; description: string; image?: string };
-  let characters: TermCard[] = [];
-  let properNouns: TermCard[] = [];
-  let vocabulary: TermCard[] = [];
-  let totalCharacters = 0;
-  let totalProperNouns = 0;
-  let totalVocabulary = 0;
-  if (annotations && chaptersData) {
-    const chapterIds = chaptersData.chapters.map((ch) => ch.id);
-
-    // Build alias → canonical name map so "Alyosha" counts toward
-    // "Alexey Fyodorovitch Karamazov", etc.
-    const aliasToCanon: Record<string, string> = {};
-    for (const [name, entry] of Object.entries(annotations.glossary)) {
-      aliasToCanon[name] = name;
-      if (entry.aliases) {
-        for (const alias of entry.aliases) {
-          aliasToCanon[alias] = name;
-        }
-      }
-    }
-
-    function byFrequency(type: string): { items: TermCard[]; total: number } {
-      const entries = Object.entries(annotations!.glossary).filter(
-        ([, a]) => a.type === type
-      );
-      const withCount = entries.map(([name, a]) => {
-        let count = 0;
-        for (const chId of chapterIds) {
-          const terms = annotations!.chapters[chId];
-          if (terms?.some((t) => aliasToCanon[t] === name)) count++;
-        }
-        return { name, description: a.description, image: a.image, count };
-      });
-      // Sort: characters with images first (by count), then without (by count)
-      withCount.sort((a, b) => {
-        const ai = a.image ? 1 : 0;
-        const bi = b.image ? 1 : 0;
-        return bi - ai || b.count - a.count || a.name.localeCompare(b.name);
-      });
-      const withImages = withCount.filter((c) => c.image).length;
-      const limit = Math.max(6, withImages);
-      return { items: withCount.slice(0, limit), total: withCount.length };
-    }
-
-    const chars = byFrequency("character");
-    characters = chars.items;
-    totalCharacters = chars.total;
-    const nouns = byFrequency("proper_noun");
-    properNouns = nouns.items;
-    totalProperNouns = nouns.total;
-    const vocab = byFrequency("vocabulary");
-    vocabulary = vocab.items;
-    totalVocabulary = vocab.total;
-  }
+  const glossaryData = buildGlossaryPreviewData(annotations, chaptersData?.chapters ?? []);
+  const {
+    characters,
+    properNouns,
+    vocabulary,
+    totalCharacters,
+    totalProperNouns,
+    totalVocabulary,
+  } = glossaryData;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -184,6 +139,7 @@ export default async function BookPage({
 
   return (
     <div className="pb-12">
+      {!isAnthology && <OfflineRouteRedirect bookId={book.id} kind="book" />}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

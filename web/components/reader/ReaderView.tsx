@@ -12,6 +12,7 @@ import { createResumeAnchorId, encodeResumeTarget } from "@/lib/readerAccess";
 import { chapterPath } from "@/lib/utils";
 import { trackEvent } from "@/lib/analytics";
 import { decodeQuoteHash } from "@/lib/quote";
+import { buildOfflineGlossaryUrl, buildOfflineReadUrl } from "@/lib/offlineUtils";
 import type { QuoteHighlight } from "./ChapterContent";
 import SelectionSharePopover from "./SelectionSharePopover";
 
@@ -36,6 +37,7 @@ interface ReaderViewProps {
   isAuthenticated: boolean;
   originalScript?: string;
   isOriginalActive: boolean;
+  offlineMode?: boolean;
   resumeTarget: ResumeTarget | null;
 }
 
@@ -53,6 +55,7 @@ export default function ReaderView({
   isAuthenticated,
   originalScript,
   isOriginalActive,
+  offlineMode,
   resumeTarget,
 }: ReaderViewProps) {
   const updateProgress = useReadingStore((s) => s.updateProgress);
@@ -130,14 +133,20 @@ export default function ReaderView({
     (idx: number) => {
       const clampedIdx = Math.max(0, Math.min(idx, chapters.length - 1));
       const ch = chapters[clampedIdx];
-      const base = `/read/${bookId}/${chapterPath(ch, clampedIdx + 1)}`;
+      const targetPath = chapterPath(ch, clampedIdx + 1);
+      const base = offlineMode
+        ? buildOfflineReadUrl(bookId, targetPath)
+        : `/read/${bookId}/${targetPath}`;
       if (typeof window === "undefined") return base;
       const params = new URLSearchParams(window.location.search);
       params.delete("resume");
+      if (offlineMode) {
+        params.delete("target");
+      }
       const query = params.toString();
       return query ? `${base}?${query}` : base;
     },
-    [bookId, chapters]
+    [bookId, chapters, offlineMode]
   );
 
   // Navigate to chapter by index
@@ -740,6 +749,7 @@ export default function ReaderView({
         scrollMode={scrollMode}
         onToggleScrollMode={handleToggleScrollMode}
         hideChaptersButton={isSingleChapter}
+        offlineMode={offlineMode}
         signInUrl={currentAuthLinks?.signInUrl}
       />
 
@@ -752,7 +762,13 @@ export default function ReaderView({
         onSelectChapter={goToChapter}
         onSelectSection={goToSection}
         readChapters={currentIndex}
-        glossaryUrl={annotations ? `/books/${bookId}/glossary` : undefined}
+        glossaryUrl={
+          annotations
+            ? offlineMode
+              ? buildOfflineGlossaryUrl(bookId)
+              : `/books/${bookId}/glossary`
+            : undefined
+        }
         currentSection={currentSection}
       />
 
@@ -834,6 +850,11 @@ export default function ReaderView({
                   : chapter.partName
                     ? `Part ${chapter.part}: ${chapter.partName} · Chapter ${chapter.number}`
                     : `Chapter ${chapter.number} of ${totalChapters}`}
+                {currentSection != null && chapter.sections && chapter.sections.length > 0 && (
+                  <span className="ml-2 opacity-70">
+                    · Section {currentSection} of {chapter.sections.length}
+                  </span>
+                )}
               </p>
               <h2
                 className="mt-1.5 text-xl sm:text-2xl font-semibold text-white tracking-tight line-clamp-2 drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]"

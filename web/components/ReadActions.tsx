@@ -81,7 +81,7 @@ export default function ReadActions({
           languageParam={languageParam}
           progress={hydrated ? progress : null}
         />
-        <DownloadButton bookId={bookId} />
+        <DownloadButton bookId={bookId} languageParam={languageParam} />
       </div>
       {showToggle && (
         <div className="mt-3">

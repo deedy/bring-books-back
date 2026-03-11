@@ -113,6 +113,22 @@ export interface AnnotationsData {
   chapters: Record<string, string[]>;
 }
 
+export interface GlossaryPreviewCard {
+  name: string;
+  description: string;
+  image?: string;
+}
+
+export interface GlossaryTerm {
+  name: string;
+  type: Annotation["type"];
+  description: string;
+  image?: string;
+  aliases?: string[];
+  firstChapterIndex: number;
+  appearanceCount: number;
+}
+
 /** Build a glossary that includes alias keys pointing to their canonical entry. */
 export function resolveGlossary(glossary: Record<string, Annotation>): Record<string, Annotation> {
   const resolved: Record<string, Annotation> = { ...glossary };
@@ -143,4 +159,48 @@ export interface OriginalChaptersData {
   language: string;
   script: string;
   chapters: OriginalChapter[];
+}
+
+export type OfflineMode = "english" | "original" | "modern" | "child";
+
+export interface OfflineBookEntry {
+  bookId: string;
+  title: string;
+  authorName: string;
+  coverImage: string;
+  accentColor: string;
+  totalChapters: number;
+  mode: OfflineMode;
+  languageParam?: string;
+  cachedAt: string;
+}
+
+export interface OfflineBookPayload {
+  bookId: string;
+  title: string;
+  subtitle: string;
+  transliteratedTitle: string;
+  originalTitle: string;
+  summary: string;
+  genre: string[];
+  wordCount: number;
+  yearEnd?: number;
+  accentColor: string;
+  coverImage: string;
+  heroImage: string;
+  originalLanguage: string;
+  originalYear: number;
+  originalScript?: string;
+  totalChapters: number;
+  mode: OfflineMode;
+  languageParam?: string;
+  isNew: boolean;
+  author: Author;
+  authorName: string;
+  otherBooks: Book[];
+  isOriginalActive: boolean;
+  chapters: Chapter[];
+  bookAnnotations?: AnnotationsData;
+  annotations?: AnnotationsData;
+  assetUrls: string[];
 }

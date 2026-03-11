@@ -2,47 +2,74 @@
 
 import { useAuth } from "@clerk/nextjs";
 import { useState, useEffect, useCallback } from "react";
-import { isDownloaded, downloadBook, removeBook } from "@/lib/offline";
+import {
+  downloadBook,
+  getDownloadedBook,
+  isDownloaded,
+  removeBook,
+  subscribeOfflineBooks,
+} from "@/lib/offline";
+import { describeOfflineMode, resolveOfflineMode } from "@/lib/offlineUtils";
 
 const OFFLINE_ENABLED = process.env.NEXT_PUBLIC_ENABLE_OFFLINE === "true";
 
 interface DownloadButtonProps {
   bookId: string;
+  languageParam?: string;
 }
 
 type State = "idle" | "downloading" | "downloaded" | "error";
 
-export default function DownloadButton({ bookId }: DownloadButtonProps) {
+export default function DownloadButton({ bookId, languageParam }: DownloadButtonProps) {
   const { isSignedIn } = useAuth();
   const [state, setState] = useState<State>("idle");
   const [progress, setProgress] = useState(0);
   const [supported, setSupported] = useState(true);
+  const [existingLabel, setExistingLabel] = useState<string | null>(null);
+  const requestedMode = resolveOfflineMode(languageParam);
 
   useEffect(() => {
-    if (typeof window === "undefined" || !("serviceWorker" in navigator)) {
+    if (
+      typeof window === "undefined" ||
+      !("serviceWorker" in navigator) ||
+      !("caches" in window)
+    ) {
       setSupported(false);
       return;
     }
-    if (isDownloaded(bookId)) {
-      setState("downloaded");
-    }
-  }, [bookId]);
+
+    const refresh = () => {
+      const existing = getDownloadedBook(bookId);
+      if (existing && !isDownloaded(bookId, languageParam)) {
+        setExistingLabel(describeOfflineMode(existing.mode, existing.languageParam));
+      } else {
+        setExistingLabel(null);
+      }
+
+      setState(isDownloaded(bookId, languageParam) ? "downloaded" : "idle");
+    };
+
+    refresh();
+    return subscribeOfflineBooks(refresh);
+  }, [bookId, languageParam]);
 
   const handleDownload = useCallback(async () => {
     setState("downloading");
     setProgress(0);
     try {
-      await downloadBook(bookId, (pct) => setProgress(pct));
+      await downloadBook(bookId, languageParam, (pct) => setProgress(pct));
       setState("downloaded");
+      setExistingLabel(null);
     } catch {
       setState("error");
     }
-  }, [bookId]);
+  }, [bookId, languageParam]);
 
   const handleRemove = useCallback(async () => {
     await removeBook(bookId);
     setState("idle");
     setProgress(0);
+    setExistingLabel(null);
   }, [bookId]);
 
   if (!OFFLINE_ENABLED || !supported || !isSignedIn) return null;
@@ -123,6 +150,11 @@ export default function DownloadButton({ bookId }: DownloadButtonProps) {
     <button
       onClick={handleDownload}
       className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium border border-white/10 text-white/50 hover:text-white/70 hover:border-white/20 hover:bg-white/5 transition-colors"
+      title={
+        existingLabel
+          ? `Replace saved offline copy (${existingLabel}) with ${describeOfflineMode(requestedMode, languageParam)}`
+          : undefined
+      }
     >
       <svg
         width="16"
@@ -136,7 +168,7 @@ export default function DownloadButton({ bookId }: DownloadButtonProps) {
         <polyline points="7 10 12 15 17 10" />
         <line x1="12" y1="15" x2="12" y2="3" />
       </svg>
-      Save offline
+      {existingLabel ? `Replace ${existingLabel}` : "Save offline"}
     </button>
   );
 }
