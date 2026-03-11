@@ -20,6 +20,7 @@ interface BookBase {
   anthologyId?: string;
   storyNumber?: number;
   hasOriginalText?: boolean;
+  hasModernText?: boolean;
   originalScript?: string;
 }
 

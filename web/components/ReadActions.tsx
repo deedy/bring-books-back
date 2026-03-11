@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import ReadButton from "./ReadButton";
 import DownloadButton from "./DownloadButton";
 import LanguageToggle from "./LanguageToggle";
+import type { LanguageOption } from "./LanguageToggle";
 import { useReadingStore } from "@/lib/store";
 
 interface ReadActionsProps {
@@ -11,6 +12,7 @@ interface ReadActionsProps {
   accentColor: string;
   totalChapters: number;
   hasOriginalText?: boolean;
+  hasModernText?: boolean;
   originalLanguage?: string;
   originalScript?: string;
 }
@@ -20,6 +22,7 @@ export default function ReadActions({
   accentColor,
   totalChapters,
   hasOriginalText,
+  hasModernText,
   originalLanguage,
   originalScript,
 }: ReadActionsProps) {
@@ -41,12 +44,23 @@ export default function ReadActions({
 
   const languageParam = hydrated ? storedLang : undefined;
 
-  const handleLanguageChange = (lang: "english" | "original") => {
-    const param = lang === "original" && originalLanguage ? originalLanguage.toLowerCase() : undefined;
-    setBookLanguage(bookId, param);
+  const handleLanguageChange = (lang: LanguageOption) => {
+    if (lang === "original" && originalLanguage) {
+      setBookLanguage(bookId, originalLanguage.toLowerCase());
+    } else if (lang === "modern") {
+      setBookLanguage(bookId, "modern");
+    } else {
+      setBookLanguage(bookId, undefined);
+    }
   };
 
-  const isOriginal = hydrated && !!languageParam;
+  const active: LanguageOption = !hydrated || !languageParam
+    ? "english"
+    : languageParam === "modern"
+      ? "modern"
+      : "original";
+
+  const showToggle = hasOriginalText || hasModernText;
 
   // Reserve layout space but hide content until hydrated to avoid flicker
   return (
@@ -61,14 +75,16 @@ export default function ReadActions({
         />
         <DownloadButton bookId={bookId} />
       </div>
-      {hasOriginalText && originalScript && originalLanguage && (
+      {showToggle && (
         <div className="mt-3">
           <p className="text-xs text-white/30 mb-1.5">Read in</p>
           <LanguageToggle
             originalLanguage={originalLanguage}
             originalScript={originalScript}
             accentColor={accentColor}
-            isOriginal={isOriginal}
+            active={active}
+            hasOriginal={hasOriginalText}
+            hasModern={hasModernText}
             onLanguageChange={handleLanguageChange}
           />
         </div>

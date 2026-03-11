@@ -18,6 +18,7 @@ import {
   getBookMeta,
   getCatalog,
   getChapters,
+  getModernChapters,
   getOriginalChapters,
 } from "./data";
 
@@ -70,6 +71,7 @@ export interface ReaderPayload {
   chapters: ChaptersData["chapters"];
   coverImage: string;
   isAuthenticated: boolean;
+  isModernActive: boolean;
   isOriginalActive: boolean;
   originalScript?: string;
   originalYear: number;
@@ -89,23 +91,36 @@ export async function getReaderPayload(
   const bookMeta = getBookMeta(bookId);
   const annotations = getAnnotations(bookId);
   const originalData = getOriginalChapters(bookId);
+  const modernData = getModernChapters(bookId);
   const { userId } = await auth();
 
   const requestedChapterIndex = Math.max(0, Math.min(initialChapterIndex, chaptersData.chapters.length - 1));
-  const wantsOriginal = !!languageParam && languageParam.toLowerCase() !== "english";
+  const langLower = languageParam?.toLowerCase();
+  const wantsOriginal = !!langLower && langLower !== "english" && langLower !== "modern";
+  const wantsModern = langLower === "modern";
 
   const book = catalog.books.find((entry) => entry.id === bookId);
   const author = book
     ? catalog.authors.find((entry) => entry.id === book.authorId)
     : null;
 
-  const originalChapterMap = wantsOriginal && originalData
-    ? new Map(originalData.chapters.map((chapter) => [chapter.id, chapter]))
+  const altChapterData = wantsModern && modernData
+    ? modernData
+    : wantsOriginal && originalData
+      ? originalData
+      : null;
+
+  const altChapterMap = altChapterData
+    ? new Map(altChapterData.chapters.map((chapter) => [chapter.id, chapter]))
     : null;
 
-  const resolvedChapters = chaptersData.chapters.map((chapter) =>
-    mergeOriginalChapter(chapter, originalChapterMap?.get(chapter.id))
-  );
+  const resolvedChapters = chaptersData.chapters.map((chapter) => {
+    const alt = altChapterMap?.get(chapter.id);
+    if (!alt && wantsModern) {
+      return { ...chapter, paragraphs: [] };
+    }
+    return mergeOriginalChapter(chapter, alt);
+  });
 
   const FREE_BOOKS = new Set(["bhagavad-gita"]);
   const isAuthenticated = !!userId;
@@ -129,6 +144,7 @@ export async function getReaderPayload(
     chapters,
     coverImage: bookMeta.coverImage,
     isAuthenticated: isAuthenticated || isFreeBook,
+    isModernActive: wantsModern && !!modernData,
     isOriginalActive: wantsOriginal && !!originalData,
     originalScript: wantsOriginal && originalData ? originalData.script : undefined,
     originalYear: bookMeta.originalYear,

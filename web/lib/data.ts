@@ -51,3 +51,10 @@ export function getOriginalChapters(bookId: string): OriginalChaptersData | null
   const data = fs.readFileSync(filePath, "utf-8");
   return JSON.parse(data);
 }
+
+export function getModernChapters(bookId: string): OriginalChaptersData | null {
+  const filePath = path.join(serverDataDir, "books", bookId, "chapters_modern.json");
+  if (!fs.existsSync(filePath)) return null;
+  const data = fs.readFileSync(filePath, "utf-8");
+  return JSON.parse(data);
+}

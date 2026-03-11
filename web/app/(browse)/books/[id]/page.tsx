@@ -306,6 +306,7 @@ export default async function BookPage({
                 accentColor={book.accentColor}
                 totalChapters={book.totalChapters}
                 hasOriginalText={book.hasOriginalText}
+                hasModernText={book.hasModernText}
                 originalLanguage={book.originalLanguage}
                 originalScript={book.originalScript}
               />
