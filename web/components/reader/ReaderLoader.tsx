@@ -19,6 +19,7 @@ interface ReaderLoaderProps {
   initialChapter?: number;
   isAuthenticated: boolean;
   isOriginalActive: boolean;
+  offlineMode?: boolean;
   originalScript?: string;
   originalYear: number;
   resumeTarget: ResumeTarget | null;
@@ -36,6 +37,7 @@ export default function ReaderLoader({
   initialChapter,
   isAuthenticated,
   isOriginalActive,
+  offlineMode,
   originalScript,
   originalYear,
   resumeTarget,
@@ -118,6 +120,7 @@ export default function ReaderLoader({
       initialChapter={initialChapter}
       isAuthenticated={isAuthenticated}
       isOriginalActive={isOriginalActive}
+      offlineMode={offlineMode}
       originalScript={originalScript}
       originalYear={originalYear}
       resumeTarget={resumeTarget}

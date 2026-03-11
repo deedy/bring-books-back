@@ -1,15 +1,12 @@
 "use client";
 
-import { UserButton, useAuth, useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import SiteSearch from "@/components/search/SiteSearch";
 
 const OFFLINE_ENABLED = process.env.NEXT_PUBLIC_ENABLE_OFFLINE === "true";
 
-export default function Header() {
-  const { isLoaded, userId } = useAuth();
-  const { user } = useUser();
+export default function OfflineHeader() {
   const pathname = usePathname();
   const isSubPage = pathname !== "/";
 
@@ -36,7 +33,11 @@ export default function Header() {
           )}
           <SiteSearch />
         </div>
-        <Link href="/" className="absolute left-1/2 -translate-x-1/2 flex items-center gap-2.5 text-lg font-semibold tracking-tight text-white pointer-events-auto" style={{ fontFamily: "var(--font-serif)" }}>
+        <Link
+          href="/"
+          className="absolute left-1/2 -translate-x-1/2 flex items-center gap-2.5 text-lg font-semibold tracking-tight text-white pointer-events-auto"
+          style={{ fontFamily: "var(--font-serif)" }}
+        >
           <img src="/logo.png" alt="" className="w-7 h-7 rounded" />
           <span className={isSubPage ? "hidden sm:inline" : ""}>Grand Old Books</span>
         </Link>
@@ -48,34 +49,6 @@ export default function Header() {
             >
               Downloads
             </Link>
-          )}
-          {!isLoaded ? (
-            <div className="w-7 h-7" />
-          ) : !userId ? (
-            <Link
-              href="/sign-in"
-              className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium tracking-wide bg-white text-black hover:opacity-90 transition-opacity"
-            >
-              Sign in
-            </Link>
-          ) : (
-            <div
-              className="flex items-center gap-2 bg-white/[0.06] hover:bg-white/[0.1] rounded-full pl-1 pr-3 py-1 cursor-pointer transition-colors"
-              onClick={(e) => {
-                // Click the Clerk UserButton avatar if the click wasn't directly on it
-                const btn = e.currentTarget.querySelector<HTMLButtonElement>("button");
-                if (btn && e.target !== btn && !btn.contains(e.target as Node)) {
-                  btn.click();
-                }
-              }}
-            >
-              <UserButton />
-              {user?.firstName && (
-                <span className="text-xs font-medium text-white/70 select-none">
-                  {user.firstName}
-                </span>
-              )}
-            </div>
           )}
         </div>
       </nav>

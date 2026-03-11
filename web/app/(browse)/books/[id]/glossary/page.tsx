@@ -3,13 +3,8 @@ import Link from "next/link";
 import { Suspense } from "react";
 import { getCatalog, getAnnotations, getChapters } from "@/lib/data";
 import GlossaryContent from "@/components/GlossaryContent";
-
-export function generateStaticParams() {
-  const catalog = getCatalog();
-  return catalog.books
-    .filter((book) => getAnnotations(book.id) !== null)
-    .map((book) => ({ id: book.id }));
-}
+import OfflineRouteRedirect from "@/components/OfflineRouteRedirect";
+import { buildGlossaryPreviewData } from "@/lib/bookDetails";
 
 export async function generateMetadata({
   params,
@@ -27,14 +22,11 @@ export async function generateMetadata({
   };
 }
 
-export interface GlossaryTerm {
-  name: string;
-  type: "character" | "proper_noun" | "vocabulary";
-  description: string;
-  image?: string;
-  aliases?: string[];
-  firstChapterIndex: number;
-  appearanceCount: number;
+export function generateStaticParams() {
+  const catalog = getCatalog();
+  return catalog.books
+    .filter((book) => getAnnotations(book.id) !== null)
+    .map((book) => ({ id: book.id }));
 }
 
 export default async function GlossaryPage({
@@ -56,48 +48,11 @@ export default async function GlossaryPage({
   }
 
   const chaptersData = getChapters(id);
-  const chapterIds = chaptersData.chapters.map((ch) => ch.id);
-
-  // Build reverse alias map: chapter term → canonical glossary name
-  // so "Alyosha" counts toward "Alexey Fyodorovitch Karamazov", etc.
-  const aliasToCanon: Record<string, string> = {};
-  for (const [name, annotation] of Object.entries(annotations.glossary)) {
-    aliasToCanon[name] = name;
-    if (annotation.aliases) {
-      for (const alias of annotation.aliases) {
-        aliasToCanon[alias] = name;
-      }
-    }
-  }
-
-  // Pre-compute sort keys for each term (alias-aware counting)
-  const terms: GlossaryTerm[] = Object.entries(annotations.glossary).map(
-    ([name, annotation]) => {
-      let firstChapterIndex = chapterIds.length;
-      let appearanceCount = 0;
-      for (let i = 0; i < chapterIds.length; i++) {
-        const chTerms = annotations.chapters[chapterIds[i]];
-        if (!chTerms) continue;
-        const found = chTerms.some((t) => aliasToCanon[t] === name);
-        if (found) {
-          if (firstChapterIndex === chapterIds.length) firstChapterIndex = i;
-          appearanceCount++;
-        }
-      }
-      return {
-        name,
-        type: annotation.type,
-        description: annotation.description,
-        image: annotation.image,
-        aliases: annotation.aliases,
-        firstChapterIndex,
-        appearanceCount,
-      };
-    }
-  );
+  const { glossaryTerms: terms } = buildGlossaryPreviewData(annotations, chaptersData.chapters);
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-12">
+      <OfflineRouteRedirect bookId={id} kind="glossary" />
       {/* Breadcrumb — back to reader (restores saved position) */}
       <div className="mb-8">
         <Link

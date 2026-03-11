@@ -1,17 +1,16 @@
-import Header from "@/components/ui/Header";
 import Footer from "@/components/ui/Footer";
-import Providers from "@/components/Providers";
+import OfflineHeader from "@/components/ui/OfflineHeader";
 
-export default function BrowseLayout({
+export default function OfflineShellLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <Providers>
-      <Header />
+    <>
+      <OfflineHeader />
       <main className="pt-12 min-h-screen">{children}</main>
       <Footer />
-    </Providers>
+    </>
   );
 }

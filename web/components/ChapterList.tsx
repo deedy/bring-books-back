@@ -20,6 +20,7 @@ interface ChapterListProps {
   chapters: ChapterSummary[];
   bookId: string;
   accentColor: string;
+  buildHref?: (targetPath: string, languageParam?: string, hash?: string) => string;
 }
 
 /** Compute the initial visible range based on reading progress. */
@@ -32,7 +33,18 @@ function initialRange(total: number, currentIdx: number | null): { start: number
   return { start, end };
 }
 
-export default function ChapterList({ chapters, bookId, accentColor }: ChapterListProps) {
+function defaultChapterHrefBuilder(bookId: string, targetPath: string, languageParam?: string, hash?: string) {
+  const base = `/read/${bookId}/${targetPath}`;
+  const query = languageParam ? `?language=${encodeURIComponent(languageParam)}` : "";
+  return `${base}${query}${hash ?? ""}`;
+}
+
+export default function ChapterList({
+  chapters,
+  bookId,
+  accentColor,
+  buildHref,
+}: ChapterListProps) {
   const progress = useReadingStore((s) => s.getProgress(bookId));
   const languageParam = useBookLanguageParam(bookId);
   const [mounted, setMounted] = useState(false);
@@ -108,6 +120,7 @@ export default function ChapterList({ chapters, bookId, accentColor }: ChapterLi
                 isCurrent={gi === currentIdx}
                 accentColor={accentColor}
                 languageParam={languageParam}
+                buildHref={buildHref}
               />
             );
           });
@@ -149,6 +162,7 @@ export default function ChapterList({ chapters, bookId, accentColor }: ChapterLi
             isCurrent={gi === currentIdx}
             accentColor={accentColor}
             languageParam={languageParam}
+            buildHref={buildHref}
           />
         );
       })}
@@ -171,19 +185,25 @@ function SectionGridBookView({
   chapterIndex,
   accentColor,
   languageParam,
+  buildHref,
 }: {
   sections: SectionInfo[];
   bookId: string;
   chapterIndex: number;
   accentColor: string;
   languageParam?: string;
+  buildHref?: (targetPath: string, languageParam?: string, hash?: string) => string;
 }) {
   const [jumpInput, setJumpInput] = useState("");
   const showJumpInput = sections.length >= 50;
 
   const sectionHref = (sec: SectionInfo) => {
-    const base = `/read/${bookId}/${chapterIndex}#section-${sec.number}`;
-    return languageParam ? `${base}?language=${languageParam}` : base;
+    const targetPath = chapterIndex.toString();
+    return (buildHref ?? ((path, lang, hash) => defaultChapterHrefBuilder(bookId, path, lang, hash)))(
+      targetPath,
+      languageParam,
+      `#section-${sec.number}`,
+    );
   };
 
   const handleJump = () => {
@@ -242,6 +262,7 @@ function ChapterCard({
   isCurrent,
   accentColor,
   languageParam,
+  buildHref,
 }: {
   chapter: ChapterSummary;
   index: number;
@@ -249,12 +270,13 @@ function ChapterCard({
   isCurrent: boolean;
   accentColor: string;
   languageParam?: string;
+  buildHref?: (targetPath: string, languageParam?: string, hash?: string) => string;
 }) {
   const [sectionsExpanded, setSectionsExpanded] = useState(false);
   const hasSections = !!chapter.sections && chapter.sections.length > 0;
 
-  const base = `/read/${bookId}/${chapterPath(chapter, index)}`;
-  const href = languageParam ? `${base}?language=${languageParam}` : base;
+  const hrefBuilder = buildHref ?? ((targetPath, lang, hash) => defaultChapterHrefBuilder(bookId, targetPath, lang, hash));
+  const href = hrefBuilder(chapterPath(chapter, index), languageParam);
   return (
     <div
       className={`flex flex-col gap-3 p-3 rounded-lg border transition-colors group ${
@@ -328,6 +350,7 @@ function ChapterCard({
               chapterIndex={index}
               accentColor={accentColor}
               languageParam={languageParam}
+              buildHref={buildHref}
             />
           )}
         </>

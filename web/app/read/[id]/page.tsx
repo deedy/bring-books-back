@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { getCatalog } from "@/lib/data";
 import { getReaderPayload } from "@/lib/readerData";
+import OfflineRouteRedirect from "@/components/OfflineRouteRedirect";
 import ReaderLoader from "@/components/reader/ReaderLoader";
 
 export const dynamic = "force-dynamic";
@@ -64,6 +65,7 @@ export default async function ReadPage({
         <div className="w-8 h-8 border-2 border-white/20 border-t-white/60 rounded-full animate-spin" />
       </div>
     }>
+      <OfflineRouteRedirect bookId={id} kind="read" />
       <ReaderLoader
         accentColor={payload.accentColor}
         annotations={payload.annotations}
