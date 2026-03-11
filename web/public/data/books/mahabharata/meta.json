@@ -1,0 +1,20 @@
+{
+  "id": "mahabharata",
+  "title": "Mahabharata",
+  "transliteratedTitle": "Mahabharata",
+  "subtitle": "The Great Epic of Ancient India",
+  "authorId": "vyasa",
+  "coverImage": "/data/images/covers/mahabharata.webp",
+  "accentColor": "#8B4513",
+  "genre": [
+    "Epic Poetry",
+    "Mythology"
+  ],
+  "originalLanguage": "Sanskrit",
+  "originalTitle": "महाभारत",
+  "originalYear": -400,
+  "totalChapters": 18,
+  "wordCount": 2550340,
+  "summary": "Enter the vast world of the Mahabharata, the longest epic poem ever composed and one of the foundational texts of world literature. At its heart lies the devastating Kurukshetra war between two branches of a royal family — the righteous Pandavas and the ambitious Kauravas — but its scope encompasses the entire cosmos, from the birth of dynasties to the twilight of an age. Within its pages unfold tales of divine warriors, cunning stratagems, impossible vows, and the eternal struggle between dharma and desire. Here you will find the Bhagavad Gita, the dice game that doomed a kingdom, the exile of heroes, and the greatest battle the world has ever known. This monumental English prose translation by Kisari Mohan Ganguli brings every shade of Vyasa's vision to the modern reader.",
+  "hasSections": true
+}

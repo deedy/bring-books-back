@@ -1,0 +1,20 @@
+{
+  "id": "ramayana",
+  "title": "Ramayana",
+  "transliteratedTitle": "Ramayana",
+  "subtitle": "An Epic Tale of Duty, Adventure, and Love",
+  "authorId": "valmiki",
+  "coverImage": "/data/images/covers/ramayana.webp",
+  "accentColor": "#D4451A",
+  "genre": [
+    "Epic Poetry",
+    "Mythology"
+  ],
+  "originalLanguage": "Sanskrit",
+  "originalTitle": "रामायण",
+  "originalYear": -500,
+  "totalChapters": 7,
+  "wordCount": 561636,
+  "summary": "Journey into the heart of ancient India with the Ramayana, Valmiki’s timeless epic that weaves together heroism, devotion, and the eternal struggle between good and evil. Follow the noble Prince Rama as he faces exile, braves enchanted forests, and battles powerful demons to rescue his beloved Sita from the sinister Ravana. Set against a backdrop of divine beings, legendary creatures, and dazzling palaces, this sweeping saga explores themes of honor, sacrifice, and the triumph of virtue. Ralph T.H. Griffith’s Victorian verse translation brings the splendor and depth of Sanskrit poetry to life, inviting you into a world where gods walk among mortals and every choice echoes through eternity.",
+  "hasSections": true
+}
