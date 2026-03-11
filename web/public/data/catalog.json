@@ -2158,6 +2158,29 @@
       "originalScript": "Cyrillic",
       "addedDate": "2026-03-10",
       "hasModernText": true
+    },
+    {
+      "id": "brothers-karamazov",
+      "title": "The Brothers Karamazov",
+      "transliteratedTitle": "The Brothers Karamazov",
+      "subtitle": "A Family Torn Apart by Faith, Doubt, and Desire",
+      "authorId": "fyodor-dostoevsky",
+      "coverImage": "/data/images/covers/brothers-karamazov.webp",
+      "accentColor": "#3B2F2F",
+      "genre": [
+        "Philosophical Fiction",
+        "Novel"
+      ],
+      "originalLanguage": "Russian",
+      "originalTitle": "Братья Карамазовы",
+      "originalYear": 1880,
+      "totalChapters": 96,
+      "wordCount": 349825,
+      "summary": "In a provincial Russian town, the vulgar and wealthy Fyodor Pavlovitch Karamazov is locked in a bitter struggle with his three remarkable sons — the passionate, reckless Dmitri, the brilliant, tormented intellectual Ivan, and the gentle, spiritual Alyosha — each embodying a different answer to the question of how to live. When the old man is found murdered, suspicion falls on Dmitri, but the true guilt runs far deeper, entangling the household's illegitimate servant Smerdyakov and Ivan's own dangerous philosophy that 'everything is permitted.' Dostoevsky's final and greatest novel is a seismic exploration of faith and doubt, free will and moral responsibility, the existence of God and the problem of evil — all wrapped in a gripping murder mystery that builds to one of literature's most devastating courtroom scenes.",
+      "previewText": "Alexey Fyodorovitch Karamazov was the third son of Fyodor Pavlovitch Karamazov, a land owner well known in our district in his own day, and still remembered among us owing to his gloomy and tragic death, which happened thirteen years ago, and which I shall describe in its proper place. For the present I will only say that this “landowner”—for so we used to call him, although he hardly spent a day of his life on his own estate—was a strange type, yet one pretty frequently to be met with, a type abject and vicious and at the same time senseless. But he was one of those senseless persons who are ",
+      "hasOriginalText": true,
+      "addedDate": "2026-03-10",
+      "originalScript": "Cyrillic"
     }
   ],
   "authors": [

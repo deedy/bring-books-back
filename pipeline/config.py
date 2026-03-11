@@ -1977,3 +1977,78 @@ _register(BookConfig(
         "NO text, NO border, NO frame."
     ),
 ))
+
+# ── The Brothers Karamazov ───────────────────────────────────────────────
+
+_register(BookConfig(
+    id="brothers-karamazov",
+    title="The Brothers Karamazov",
+    transliterated_title="The Brothers Karamazov",
+    original_title="Братья Карамазовы",
+    author_id="fyodor-dostoevsky",
+    author_name="Fyodor Dostoevsky",
+    author_years="1821–1881",
+    original_language="Russian",
+    original_year=1880,
+    has_original_text=True,
+    original_script="Cyrillic",
+    genre=["Philosophical Fiction", "Novel"],
+    accent_color="#3B2F2F",
+    style_context=(
+        "A philosophical novel set in a provincial Russian town in the 1870s. "
+        "Three brothers — the passionate Dmitri, the intellectual Ivan, and the spiritual Alyosha — "
+        "are entangled in a murder mystery involving their dissolute father Fyodor Pavlovitch. "
+        "Constance Garnett English translation. Dense dialogues, Russian names and patronymics, "
+        "philosophical and theological debates."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate an English translation of "The Brothers Karamazov" (1880) '
+        "by Fyodor Dostoevsky, translated by Constance Garnett.\n\n"
+        "For the given chapter text, extract three categories of terms that a modern English reader might want explained:\n\n"
+        '1. **Characters** — Recurring named people. Give a 1-2 sentence description of who they are and their role. '
+        'Note: Russian characters have multiple name forms (full name, patronymic, diminutive). Group these together.\n'
+        '2. **Proper nouns** — Place names, institutions, Russian cultural terms, religious terms (monks, elders, monastery customs), legal terms, etc. Brief explanation.\n'
+        '3. **Vocabulary** — Russian/archaic/culturally-specific words or phrases that might be unfamiliar. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Russian names, places, currency, religious customs, and 19th-century terms.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of 19th-century Russian realist painting — "
+        "warm but somber atmosphere, muted earth tones and deep shadows. "
+        "Settings: Russian provincial town, monastery cells, grand drawing rooms, muddy country roads, taverns. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Edge-to-edge, no border, no frame, no margin.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Fyodor Pavlovitch Karamazov: old dissolute Russian landowner, coarse features, thin lips, small shrewd eyes, buffoonish\n"
+        "- Dmitri (Mitya) Karamazov: eldest son, 28, strong athletic build, dark-haired, passionate wild eyes, military bearing\n"
+        "- Ivan Karamazov: second son, 24, tall lean intellectual, pale, dark brooding eyes, well-dressed\n"
+        "- Alexey (Alyosha) Karamazov: youngest son, 20, handsome gentle face, dark eyes, modest monastic dress\n"
+        "- Smerdyakov: illegitimate son/servant, pale sickly face, thin lips, cunning calculating expression\n"
+        "- Grushenka (Agrafena Alexandrovna): beautiful young woman, full figure, dark curly hair, seductive eyes\n"
+        "- Katerina Ivanovna: proud beautiful woman, dark hair, fierce determined expression, elegant dress\n"
+        "- Father Zossima: elderly monk/elder, thin frail body, gentle wise eyes, monk's robes\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of 19th-century Russian realist painting — "
+        "warm somber atmosphere, muted earth tones, dramatic lighting. "
+        "Realistic character portrait set in a 1870s Russian provincial town. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in 19th-century Russian realist painting style — "
+        "a moody view of a Russian provincial monastery at dusk. "
+        "White stone walls, golden onion domes, old wooden buildings nearby, "
+        "birch trees with golden autumn leaves, a muddy road leading to the monastery gate, "
+        "grey overcast sky with hints of sunset, a few dim lanterns. "
+        "Atmospheric, contemplative, vast Russian landscape. "
+        "NO people, NO figures. Pure atmospheric landscape. "
+        "Dark, brooding, spiritual. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+))
