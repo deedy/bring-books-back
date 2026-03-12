@@ -1762,7 +1762,7 @@ _register(BookConfig(
 
 _register(BookConfig(
     id="panchatantra",
-    title="The Panchatantra",
+    title="Panchatantra",
     transliterated_title="Panchatantra",
     original_title="पञ्चतन्त्र",
     author_id="vishnu-sharma",
@@ -2217,6 +2217,84 @@ _register(BookConfig(
         "NO text, NO border, NO frame."
     ),
     num_character_portraits=8,
+))
+
+
+# ── War and Peace ────────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="war-and-peace",
+    title="War and Peace",
+    transliterated_title="War and Peace",
+    original_title="Война и мир",
+    author_id="leo-tolstoy",
+    author_name="Leo Tolstoy",
+    author_years="1828–1910",
+    original_language="Russian",
+    original_year=1869,
+    genre=["Novel", "Historical Fiction"],
+    accent_color="#6B4423",
+    style_context=(
+        "Tolstoy's monumental epic set during Napoleon's invasion of Russia (1805–1812). "
+        "Follows five aristocratic families — the Rostovs, Bolkonskys, Bezukhovs, Kuragins, and Drubetskoys — "
+        "through war, love, loss, and philosophical awakening. "
+        "Louise & Aylmer Maude English translation. 4 books (15 parts) + 2 epilogue parts, 365 chapters, ~560K words. "
+        "Napoleonic battles (Austerlitz, Borodino), Moscow society, country estates, Russian winter."
+    ),
+    annotation_prompt=(
+        'You are a literary analyst helping annotate an English translation of War and Peace '
+        "by Leo Tolstoy, translated by Louise & Aylmer Maude.\n\n"
+        "For the given chapter text, extract three categories of terms that a modern English reader might want explained:\n\n"
+        '1. **Characters** — Named people, including their various name forms (full name, patronymic, diminutive/nickname). '
+        'Note: Russian characters have multiple name forms. Group these together.\n'
+        '2. **Proper nouns** — Place names, battles, military terms, historical figures (Napoleon, Kutuzov, etc.), '
+        'Russian/French cultural terms, aristocratic customs, etc. Brief explanation.\n'
+        '3. **Vocabulary** — Russian/French/archaic/military words or phrases that might be unfamiliar. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text (exact spelling match).\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Russian/French names, places, military terms, Napoleonic-era customs, and cultural references.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of 19th-century Russian realist painting (Vereshchagin, Repin) — "
+        "dramatic lighting, rich textures, vast Russian landscapes and elegant interiors. "
+        "Settings: Napoleonic battlefields, Moscow ballrooms, country estates, military camps, "
+        "burning Moscow, snowy retreats, aristocratic salons, Orthodox churches. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Edge-to-edge, no border, no frame, no margin.\n\nScene: "
+    ),
+    characters_description=(
+        "Key characters:\n"
+        "- Prince Andrei Bolkonsky: slim handsome officer, late 20s, dark hair, serious intense expression, military uniform or civilian coat, proud bearing\n"
+        "- Pierre Bezukhov (Count Pyotr Kirillovich): large stout man, early 20s-30s, round face, spectacles, clumsy gentle bearing, well-dressed but disheveled\n"
+        "- Natasha Rostova: vivacious young woman, 13-20 across the story, dark eyes, animated face, simple Russian beauty, white dress\n"
+        "- Princess Marya Bolkonskaya: plain face, luminous beautiful eyes, modest dress, gentle devout expression, shawl\n"
+        "- Count Nikolai Rostov: young hussar officer, handsome, fair curly hair, military uniform, enthusiastic open face\n"
+        "- Prince Vasili Kuragin: elderly courtier, bald, cunning expression, elegant court dress\n"
+        "- Helene Kuragina: strikingly beautiful woman, marble-white shoulders, low-cut ball gown, cold classical beauty\n"
+        "- Old Prince Bolkonsky: small fierce old man, white powdered wig, sharp eyes, stern military bearing\n"
+        "- Field Marshal Kutuzov: old heavy-set general, one eye, weary wise expression, military greatcoat\n"
+        "- Napoleon Bonaparte: short stocky figure, famous bicorne hat, grey overcoat, imperious pose\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of 19th-century Russian realist painting (Repin, Vereshchagin) — "
+        "dramatic lighting, rich textures, period costumes. "
+        "Realistic character portrait set in Napoleonic-era Russia (1805-1812). "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in 19th-century Russian realist painting style — "
+        "a panoramic view of the Battle of Borodino at dawn. "
+        "Vast Russian countryside, smoke rising from cannon fire, distant formations of soldiers, "
+        "golden morning light breaking through clouds over green fields and birch forests. "
+        "Atmospheric, epic, cinematic. "
+        "NO people in focus, NO close-up figures. Pure atmospheric landscape. "
+        "Dark, dramatic, historical. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+    num_character_portraits=10,
 ))
 
 

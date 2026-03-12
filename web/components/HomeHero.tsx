@@ -86,8 +86,54 @@ function LangDropdown({
   );
 }
 
+const ALL_FEATURES = [
+  { label: "Multiple languages", image: "/data/images/features/bilingual.webp", caption: "Read it how it was written" },
+  { label: "Beautiful images", image: "/data/images/features/illustrations.webp", caption: "See your heroes come to life" },
+  { label: "Save offline", image: "/data/images/features/offline.webp", caption: "Don\u2019t take a book to the airport" },
+  { label: "Phone-friendly", image: "/data/images/features/mobile.webp", caption: "Works everywhere you are" },
+  { label: "Easy explainers", image: "/data/images/features/annotations.webp", caption: "\u2018Wait, who was that again?\u2019" },
+  { label: "Modern language", image: "/data/images/features/modern.webp", caption: "Read like it was written in 2026" },
+  { label: "Save progress", image: "/data/images/features/remember.webp", caption: "No more bookmarks again" },
+];
+
+function FeatureStrip() {
+  const [features, setFeatures] = useState<typeof ALL_FEATURES>([]);
+
+  useEffect(() => {
+    // Shuffle and pick 4
+    const shuffled = [...ALL_FEATURES].sort(() => Math.random() - 0.5);
+    setFeatures(shuffled.slice(0, 4));
+  }, []);
+
+  if (features.length === 0) return null;
+
+  return (
+    <div className="flex flex-wrap justify-center gap-2 mt-8 px-6">
+      {features.map((feature) => (
+        <div key={feature.label} className="relative group">
+          <span className="px-2.5 py-1 text-[11px] font-medium rounded-full bg-white/5 text-white/40 md:hover:bg-white/10 transition-colors md:cursor-pointer inline-block">
+            {feature.label}
+          </span>
+          {/* Desktop hover popover */}
+          <div className="hidden md:block absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5 opacity-0 scale-95 pointer-events-none group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto transition-all duration-200 z-50">
+            <div className="rounded-xl overflow-hidden shadow-2xl border border-white/10 bg-[#1a1a1b]">
+              <img
+                src={feature.image}
+                alt={feature.label}
+                loading="lazy"
+                className="block max-w-[280px]"
+              />
+              <p className="px-3 py-2 text-[11px] text-white/50 text-center italic">{feature.caption}</p>
+            </div>
+            <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-px w-3 h-3 rotate-45 bg-[#1a1a1b] border-r border-b border-white/10" />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export default function HomeHero({ books, authors }: HomeHeroProps) {
-  const [activeBookId, setActiveBookId] = useState<string | undefined>(books[0]?.id);
   const [paused, setPaused] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -125,17 +171,24 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
 
   const visibleBooks = browseModel.mode === "sectioned" ? browseModel.flatBooks : browseModel.books;
 
-  // Pick a visible featured book on first render and whenever the visible set changes.
+  // Initialize activeBookId from visibleBooks (computed above) so there's no flicker.
+  // Day-seeded so every visitor sees the same hero on a given day.
+  const [activeBookId, setActiveBookId] = useState<string | undefined>(() => {
+    if (visibleBooks.length === 0) return undefined;
+    const day = Math.floor(Date.now() / 86_400_000);
+    return visibleBooks[day % visibleBooks.length]?.id;
+  });
+
+  // When filters change and current selection is no longer visible, pick a new one.
   useEffect(() => {
     if (visibleBooks.length === 0) {
       setActiveBookId(undefined);
       return;
     }
-
     setActiveBookId((current) => {
       if (current && visibleBooks.some((book) => book.id === current)) return current;
-      const idx = Math.floor(Math.random() * visibleBooks.length);
-      return visibleBooks[idx]?.id ?? visibleBooks[0]?.id;
+      const day = Math.floor(Date.now() / 86_400_000);
+      return visibleBooks[day % visibleBooks.length]?.id;
     });
   }, [visibleBooks]);
 
@@ -414,33 +467,8 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
         </div>
       </div>
 
-      {/* Feature strip */}
-      <div className="flex flex-wrap justify-center gap-2 mt-8 px-6">
-        {[
-          { label: "Bilingual reading", image: "/data/images/features/bilingual.webp" },
-          { label: "AI illustrations", image: "/data/images/features/illustrations.webp" },
-          { label: "Phone-friendly", image: "/data/images/features/mobile.webp" },
-          { label: "Easy explainers", image: "/data/images/features/annotations.webp" },
-        ].map((feature) => (
-          <div key={feature.label} className="relative group">
-            <span className="px-2.5 py-1 text-[11px] font-medium rounded-full bg-white/5 text-white/40 md:hover:bg-white/10 transition-colors md:cursor-pointer inline-block">
-              {feature.label}
-            </span>
-            {/* Desktop hover popover */}
-            <div className="hidden md:block absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5 opacity-0 scale-95 pointer-events-none group-hover:opacity-100 group-hover:scale-100 group-hover:pointer-events-auto transition-all duration-200 z-50">
-              <div className="rounded-xl overflow-hidden shadow-2xl border border-white/10 bg-[#1a1a1b]">
-                <img
-                  src={feature.image}
-                  alt={feature.label}
-                  loading="lazy"
-                  className="block max-w-[280px]"
-                />
-              </div>
-              <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-px w-3 h-3 rotate-45 bg-[#1a1a1b] border-r border-b border-white/10" />
-            </div>
-          </div>
-        ))}
-      </div>
+      {/* Feature strip — randomly show 4 of 7 on each page load */}
+      <FeatureStrip />
 
       {/* Continue Reading */}
       <ContinueReading books={books} authors={authors} />

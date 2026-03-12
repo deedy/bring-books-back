@@ -91,10 +91,6 @@
       "type": "vocabulary",
       "description": "Existing, formed, or taking place underwater."
     },
-    "saw": {
-      "type": "vocabulary",
-      "description": "An old saying or maxim; a proverb."
-    },
     "rascally": {
       "type": "vocabulary",
       "description": "Mischievous or dishonest, often used in older English."
@@ -550,7 +546,6 @@
       "proverb",
       "carpet-slippery",
       "subaqueous",
-      "saw",
       "rascally",
       "hapless",
       "Red-Face",

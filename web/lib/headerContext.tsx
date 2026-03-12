@@ -21,7 +21,7 @@ function getSnapshot() {
   return _current;
 }
 
-function set(value: HeaderBackOverride | null) {
+export function setHeaderBack(value: HeaderBackOverride | null) {
   if (_current === value) return;
   _current = value;
   _listeners.forEach((cb) => cb());
@@ -41,8 +41,8 @@ export function HeaderBackProvider({
   children,
 }: HeaderBackOverride & { children: ReactNode }) {
   useEffect(() => {
-    set({ label, href });
-    return () => set(null);
+    setHeaderBack({ label, href });
+    return () => setHeaderBack(null);
   }, [label, href]);
 
   return <>{children}</>;

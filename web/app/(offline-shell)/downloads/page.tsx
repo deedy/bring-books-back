@@ -205,7 +205,7 @@ export default function DownloadsPage() {
   }, []);
 
   if (isLoaded && !isSignedIn) {
-    redirect("/sign-in");
+    redirect("/sign-in?redirect_url=%2Fdownloads");
   }
 
   const handleConfirmDelete = useCallback(async () => {

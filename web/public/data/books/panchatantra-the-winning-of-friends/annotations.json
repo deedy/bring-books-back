@@ -594,10 +594,6 @@
       "type": "vocabulary",
       "description": "A person making a humble plea to someone in power or authority."
     },
-    "vow": {
-      "type": "vocabulary",
-      "description": "A solemn promise or commitment, often religious."
-    },
     "desiderating": {
       "type": "vocabulary",
       "description": "Desiring or longing for something."
@@ -905,7 +901,6 @@
       "nectar-draught",
       "virtue",
       "suppliant",
-      "vow",
       "desiderating",
       "fructify",
       "particolored",

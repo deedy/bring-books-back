@@ -886,10 +886,6 @@
       "type": "vocabulary",
       "description": "A Hindi term meaning 'elder brother,' used as a respectful address for boys or young men."
     },
-    "dim": {
-      "type": "vocabulary",
-      "description": "Onomatopoeic representation of the sound produced by plucking a stringed instrument, like a sitar."
-    },
     "kabaddi": {
       "type": "vocabulary",
       "description": "A traditional Indian team sport involving tagging and wrestling."
@@ -2160,7 +2156,6 @@
       "Amma",
       "Maiya",
       "Bhaiya",
-      "dim",
       "veena",
       "mizrab",
       "kabaddi"

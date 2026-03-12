@@ -308,10 +308,6 @@
       "type": "vocabulary",
       "description": "A follower or student of a religious teacher."
     },
-    "vow": {
-      "type": "vocabulary",
-      "description": "A solemn promise, often of a religious nature."
-    },
     "ascetics": {
       "type": "vocabulary",
       "description": "Individuals who practice severe self-discipline and abstain from worldly pleasures for spiritual reasons."
@@ -395,10 +391,6 @@
     "pious": {
       "type": "vocabulary",
       "description": "Devoutly religious or showing reverence for the divine."
-    },
-    "cot": {
-      "type": "vocabulary",
-      "description": "A small, simple bed."
     },
     "swain": {
       "type": "vocabulary",
@@ -881,10 +873,6 @@
       "type": "vocabulary",
       "description": "A narrow opening or crack, especially in a surface."
     },
-    "nap": {
-      "type": "vocabulary",
-      "description": "The raised, fuzzy surface on certain kinds of fabric."
-    },
     "parish": {
       "type": "vocabulary",
       "description": "An archaic spelling of 'perish', meaning to die."
@@ -900,10 +888,6 @@
     "indigo": {
       "type": "vocabulary",
       "description": "A deep blue dye derived from plants, commonly used in India."
-    },
-    "vat": {
-      "type": "vocabulary",
-      "description": "A large container used for holding liquids, especially in dyeing."
     },
     "prime minister": {
       "type": "vocabulary",
@@ -1308,10 +1292,6 @@
     "radiance": {
       "type": "vocabulary",
       "description": "Bright light or glowing appearance, often used to describe divine or royal splendor."
-    },
-    "ram": {
-      "type": "vocabulary",
-      "description": "A male sheep, referenced in the moral verse within the story."
     },
     "celestial city": {
       "type": "proper_noun",
@@ -1845,7 +1825,6 @@
       "monastery",
       "sacrifices",
       "disciple",
-      "vow",
       "ascetics",
       "initiation",
       "sacred thread",
@@ -1883,7 +1862,6 @@
       "wrath-group",
       "eventide",
       "pious",
-      "cot",
       "swain",
       "wench",
       "twaddle",
@@ -2062,7 +2040,6 @@
       "au courant",
       "assent",
       "crevice",
-      "nap",
       "parish"
     ],
     "ch-14": [
@@ -2074,7 +2051,6 @@
       "Vyasa",
       "dyer",
       "indigo",
-      "vat",
       "prime minister",
       "betel",
       "parasol",
@@ -2172,7 +2148,6 @@
       "creature",
       "device",
       "bills",
-      "vow",
       "simpleton",
       "cart-like",
       "atmosphere",
@@ -2230,11 +2205,9 @@
       "snare",
       "lamentation",
       "radiance",
-      "ram",
       "Slim"
     ],
     "ch-23": [
-      "ram",
       "Vishnu",
       "Garuda",
       "plover",

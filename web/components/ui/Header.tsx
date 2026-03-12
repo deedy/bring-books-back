@@ -50,7 +50,7 @@ export default function Header() {
             <div className="w-7 h-7" />
           ) : !userId ? (
             <Link
-              href="/sign-in"
+              href={pathname === "/" ? "/sign-in" : `/sign-in?redirect_url=${encodeURIComponent(pathname)}`}
               className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium tracking-wide bg-white text-black hover:opacity-90 transition-opacity"
             >
               Sign in

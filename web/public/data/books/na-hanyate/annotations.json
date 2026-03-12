@@ -1198,10 +1198,6 @@
       "type": "vocabulary",
       "description": "Women dedicated to worship and service in Hindu temples, often as dancers."
     },
-    "jug": {
-      "type": "vocabulary",
-      "description": "An age or era; in poetry, often used to mean a very long time."
-    },
     "lakhs": {
       "type": "vocabulary",
       "description": "A unit in the Indian numbering system equal to one hundred thousand."
@@ -1561,10 +1557,6 @@
     "missionary school": {
       "type": "vocabulary",
       "description": "A school run by Christian missionaries, known for imparting Western-style education in colonial India."
-    },
-    "nun": {
-      "type": "vocabulary",
-      "description": "A woman who has taken religious vows, often living in a convent; here, used as a metaphor for renunciation."
     },
     "avidyā mṛtyuṃ tīrtvā, vidyayā’mṛtam aśnute": {
       "type": "vocabulary",
@@ -2993,7 +2985,6 @@
       "thandis",
       "zamindars",
       "Brahmikas",
-      "jug",
       "lakhs",
       "Champa Pishi",
       "Euclid",
@@ -3076,7 +3067,6 @@
       "panjabi",
       "Kakima",
       "Brahmika sari",
-      "jug",
       "Calcutta",
       "Father",
       "Khoka",
@@ -3165,7 +3155,6 @@
       "ghat",
       "oath",
       "missionary school",
-      "nun",
       "avidyā mṛtyuṃ tīrtvā, vidyayā’mṛtam aśnute",
       "maya",
       "Brahmarandhra",

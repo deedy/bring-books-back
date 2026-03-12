@@ -72,10 +72,6 @@
       "description": "The protagonist, a young boy known for his impulsive and rebellious nature, son of Narayan Mukherjee.",
       "image": "/data/images/characters/devdas/devdas.webp"
     },
-    "Sir": {
-      "type": "vocabulary",
-      "description": "A colonial-era term used by students to address their teacher respectfully."
-    },
     "Squire": {
       "type": "vocabulary",
       "description": "A British colonial term for a local landowner or authority figure, used here to denote a person of status."
@@ -354,10 +350,6 @@
       "type": "vocabulary",
       "description": "Holy basil, a sacred plant in Hindu tradition, often grown in courtyards."
     },
-    "pan": {
-      "type": "vocabulary",
-      "description": "A preparation of betel leaf chewed with areca nut and other ingredients, common in India."
-    },
     "shawl": {
       "type": "vocabulary",
       "description": "A piece of fabric worn over the shoulders, often for warmth or modesty."
@@ -449,10 +441,6 @@
     "Devi": {
       "type": "vocabulary",
       "description": "An honorific meaning 'goddess' or 'respected lady', used for women."
-    },
-    "sir": {
-      "type": "vocabulary",
-      "description": "A respectful form of address, often used in colonial and post-colonial India."
     }
   },
   "chapters": {
@@ -484,7 +472,6 @@
       "Narayan Mukherjee",
       "Govind Pandit",
       "Pandit",
-      "Sir",
       "Squire",
       "Parvati’s grandmother",
       "Parvati’s mother"
@@ -671,7 +658,6 @@
       "courtyard",
       "kool-tree",
       "tulsi",
-      "pan",
       "sari",
       "shawl",
       "ox-cart",
@@ -712,7 +698,6 @@
       "sacred thread",
       "Brahmin",
       "Devi",
-      "sir",
       "Choonilal",
       "Devdas’ mother",
       "Oshothjhuri",

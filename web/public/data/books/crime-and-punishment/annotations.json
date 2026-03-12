@@ -382,10 +382,6 @@
       "type": "vocabulary",
       "description": "A small unit of Russian currency, one hundredth of a rouble."
     },
-    "cab": {
-      "type": "vocabulary",
-      "description": "A horse-drawn carriage for hire, used for transportation in cities."
-    },
     "gentlefolk": {
       "type": "vocabulary",
       "description": "People of good birth or social standing; gentry."
@@ -464,10 +460,6 @@
     "verandahs": {
       "type": "vocabulary",
       "description": "Roofed, open-air porches or galleries attached to the outside of a building."
-    },
-    "nag": {
-      "type": "vocabulary",
-      "description": "A term for a small, old, or worn-out horse, often used disparagingly."
     },
     "tambourine": {
       "type": "vocabulary",
@@ -2015,10 +2007,6 @@
       "type": "vocabulary",
       "description": "Petty or trivial, especially in legal matters; used as an insult."
     },
-    "pan": {
-      "type": "vocabulary",
-      "description": "A Polish honorific, equivalent to 'Mr.'"
-    },
     "lajdak": {
       "type": "vocabulary",
       "description": "A Polish insult meaning 'scoundrel' or 'rascal'."
@@ -2278,10 +2266,6 @@
     "cancan": {
       "type": "vocabulary",
       "description": "A lively, high-kicking dance originating in France, considered risqué in the 19th century."
-    },
-    "den": {
-      "type": "vocabulary",
-      "description": "A slang term for a disreputable or low-class establishment."
     },
     "cher ami": {
       "type": "vocabulary",
@@ -2644,7 +2628,6 @@
       "casuists",
       "Jesuitical",
       "copecks",
-      "cab",
       "gentlefolk",
       "percentage",
       "comrades"
@@ -2679,7 +2662,6 @@
       "costermongers",
       "barrows",
       "verandahs",
-      "nag",
       "tambourine"
     ],
     "ch-1-6": [
@@ -3436,7 +3418,6 @@
       "pettifogging",
       "crinoline",
       "lodgers",
-      "pan",
       "lajdak",
       "bread and salt",
       "harangue",
@@ -3624,7 +3605,6 @@
       "muslin",
       "saloon",
       "cancan",
-      "den",
       "cher ami",
       "la nature et la vérité",
       "assez causé",

@@ -1937,7 +1937,7 @@
         "Spirituality",
         "Commentary"
       ],
-      "originalLanguage": "Hindi",
+      "originalLanguage": "Sanskrit",
       "originalTitle": "The Holy Geeta",
       "originalYear": 1969,
       "totalChapters": 18,
@@ -2065,7 +2065,7 @@
     },
     {
       "id": "panchatantra",
-      "title": "The Panchatantra",
+      "title": "Panchatantra",
       "transliteratedTitle": "Panchatantra",
       "subtitle": "Ancient Animal Tales of Wisdom and Wit",
       "authorId": "vishnu-sharma",
@@ -2252,6 +2252,27 @@
       "wordCount": 349489,
       "summary": "Enter the glittering salons and windswept country estates of 19th-century Russia, where love, ambition, and honor collide. Anna Karenina is a sweeping tale of two intertwining lives: Anna, whose forbidden romance with the dashing Count Vronsky threatens to upend her world, and Levin, a soulful landowner searching for purpose in family, faith, and the rhythms of rural life. Tolstoy masterfully weaves together scandal, heartbreak, and philosophical inquiry, painting a vivid portrait of high society and human longing. With unforgettable characters and sumptuous detail, this novel explores the price of desire and the search for happiness in an era of strict social codes.",
       "previewText": "Happy families are all alike; every unhappy family is unhappy in its own way. Everything was in confusion in the Oblonskys’ house. The wife had discovered that the husband was carrying on an intrigue with a French girl, who had been a governess in their family, and she had announced to her husband that she could not go on living in the same house with him. This position of affairs had now lasted three days, and not only the husband and wife themselves, but all the members of their family and household, were painfully conscious of it. Every person in the house felt that there was no sense in their living together, and that the stray people brought together by chance in any inn had more in common with one another than they, the members of the family and household of the Oblonskys. The wife did not leave her own room, the husband had not been at home for three days. The children ran wild all over the house; the English governess quarreled with the housekeeper, and wrote to a friend asking her to look out for a new situation for her; the man-cook had walked off the day before just at dinner time; the kitchen-maid, and the coachman had given warning. Three days after the quarrel, Prince",
+      "addedDate": "2026-03-11"
+    },
+    {
+      "id": "war-and-peace",
+      "title": "War and Peace",
+      "transliteratedTitle": "War and Peace",
+      "subtitle": "Epic Lives Entwined Amidst War and Destiny",
+      "authorId": "leo-tolstoy",
+      "coverImage": "/data/images/covers/war-and-peace.webp",
+      "accentColor": "#6B4423",
+      "genre": [
+        "Novel",
+        "Historical Fiction"
+      ],
+      "originalLanguage": "Russian",
+      "originalTitle": "Война и мир",
+      "originalYear": 1869,
+      "totalChapters": 365,
+      "wordCount": 561304,
+      "summary": "Step into the glittering salons and shadowed battlefields of imperial Russia as Napoleon’s armies thunder across Europe. War and Peace sweeps you into the intertwined fates of five noble families, their loves and losses unfolding against a backdrop of dazzling society, ruthless conflict, and the relentless march of history. Tolstoy’s masterpiece is a tapestry of unforgettable characters—from the restless Pierre Bezukhov to the spirited Natasha Rostov—each searching for meaning amid the chaos. With vivid scenes set in opulent ballrooms, vast country estates, and the heart of battle, this novel immerses you in the joys, tragedies, and philosophical awakenings that define a generation. Experience a world in upheaval, where personal destinies and the fate of nations collide.",
+      "previewText": "\"Well, Prince, so Genoa and Lucca are now just family estates of the Buonapartes. But I warn you, if you don't tell me that this means war, if you still try to defend the infamies and horrors perpetrated by that Antichrist—I really believe he is Antichrist—I will have nothing more to do with you and you are no longer my friend, no longer my 'faithful slave,' as you call yourself! But how do you do? I see I have frightened you—sit down and tell me all the news.\" It was in July, 1805, and the speaker was the well-known Anna Pavlovna Scherer, maid of honor and favorite of the Empress Marya Fedorovna. With these words she greeted Prince Vasili Kuragin, a man of high rank and importance, who was the first to arrive at her reception. Anna Pavlovna had had a cough for some days. She was, as she said, suffering from la grippe; grippe being then a new word in St. Petersburg, used only by the elite. All her invitations without exception, written in French, and delivered by a scarlet-liveried footman that morning, ran as follows:",
       "addedDate": "2026-03-11"
     }
   ],
@@ -2513,7 +2534,8 @@
       "years": "1828–1910",
       "bio": "Leo Tolstoy (1828–1910) was born into an aristocratic Russian family at Yasnaya Polyana, his family’s estate south of Moscow. Orphaned at a young age, Tolstoy was educated by tutors and briefly attended Kazan University before leaving to manage his estate and pursue a military career. His experiences as a soldier in the Caucasus and during the Crimean War profoundly influenced his early writings. Over time, Tolstoy became deeply interested in questions of morality, religion, and social reform, leading to a period of spiritual crisis and the development of his own philosophy. He spent much of his later life as a moral thinker, farmer, and advocate for pacifism and simple living, drawing both admirers and controversy in Russian society.\n\nTolstoy is regarded as one of the greatest novelists of all time, celebrated for his profound insight into human nature and society. His major works include the epic novels \"War and Peace\" (1869) and \"Anna Karenina\" (1878), the latter of which is featured on this site. \"Anna Karenina\" stands as a masterpiece of realist fiction, exploring themes of love, infidelity, and the constraints of Russian aristocratic life through the intertwined stories of Anna and Levin. Tolstoy’s nuanced characters and vivid depiction of 19th-century Russia have left a lasting legacy, influencing countless writers and solidifying his place in the canon of world literature.",
       "bookIds": [
-        "anna-karenina"
+        "anna-karenina",
+        "war-and-peace"
       ]
     }
   ]

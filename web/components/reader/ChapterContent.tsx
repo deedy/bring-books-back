@@ -196,8 +196,8 @@ function CtaTagline({
 
   return (
     <div className={`mt-4 max-w-sm mx-auto text-center`}>
-      <p className={`text-sm leading-relaxed ${colorClass}`}>
-        Logging in only takes {seconds} seconds. It lets you save progress and highlight.
+      <p className={`text-sm leading-relaxed ${colorClass}`} suppressHydrationWarning>
+        Logging in only takes {seconds} seconds. It lets you download books offline and save your reading progress.
         {character && bookTitle && (
           <>
             {" "}<span className={darkMode ? "text-white/60" : "text-black/50"}>{character.name}</span> from{" "}

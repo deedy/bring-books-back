@@ -1189,10 +1189,6 @@
       "type": "vocabulary",
       "description": "The imperishable seed; the unchanging source of all."
     },
-    "Sat": {
-      "type": "vocabulary",
-      "description": "Existence or being; the real."
-    },
     "Asat": {
       "type": "vocabulary",
       "description": "Non-existence or the unreal; also, the effect."
@@ -2723,7 +2719,6 @@
       "Sharanam",
       "Suhrit",
       "Beejam Avyayam",
-      "Sat",
       "Asat",
       "Jnana",
       "Vijnana",
@@ -2993,7 +2988,6 @@
       "Jnana",
       "Jnana-gamyam",
       "Jneyam",
-      "Sat",
       "Asat",
       "Bhoktri",
       "Antahkarana",
@@ -3171,7 +3165,6 @@
       "Nitya",
       "Naimittika",
       "Anuroopa",
-      "Sat",
       "Asat",
       "Om",
       "Tat",

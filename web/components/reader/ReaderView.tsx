@@ -511,10 +511,12 @@ export default function ReaderView({
           // overlay shows the correct chapter info (not stale index 0)
           setCurrentIndex(restoredChapter);
           // Show chapter reminder when restoring to a mid-chapter position
-          // but not if we're near the top of the page
-          if (pct && pct > 3 && window.scrollY > 300) {
+          // but not if we're near the top of the page.
+          // Use targetY instead of window.scrollY — Safari may not have
+          // committed the scroll position by the time rAF fires.
+          if (pct && pct > 3 && targetY > 300) {
             setShowChapterReminder(true);
-            reminderScrollStart.current = window.scrollY;
+            reminderScrollStart.current = targetY;
           }
         });
       } else {

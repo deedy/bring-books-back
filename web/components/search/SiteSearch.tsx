@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import { createPortal } from "react-dom";
 import {
   Fragment,
   type KeyboardEvent as ReactKeyboardEvent,
@@ -518,9 +519,9 @@ export default function SiteSearch() {
         <span className="hidden md:inline text-white/35">/</span>
       </button>
 
-      {open && (
+      {open && createPortal(
         <div
-          className="fixed inset-0 z-[70] bg-black/70 backdrop-blur-sm px-4 py-20"
+          className="fixed inset-0 z-[70] bg-black/60 backdrop-blur-md px-4 pt-20 pb-4"
           onMouseDown={(event) => {
             if (event.target === event.currentTarget) {
               close();
@@ -709,7 +710,8 @@ export default function SiteSearch() {
               )}
             </div>
           </div>
-        </div>
+        </div>,
+        document.body,
       )}
     </>
   );

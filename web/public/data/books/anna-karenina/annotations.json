@@ -2966,10 +2966,6 @@
       "type": "vocabulary",
       "description": "A traditional Russian outer garment made from sheepskin, commonly worn by peasants."
     },
-    "row": {
-      "type": "vocabulary",
-      "description": "A strip of mown grass or crops, referring to the path made by a mower."
-    },
     "whetting": {
       "type": "vocabulary",
       "description": "Sharpening the blade of a scythe by rubbing it with a whetstone."
@@ -2997,10 +2993,6 @@
     "hillock": {
       "type": "vocabulary",
       "description": "A small hill or mound."
-    },
-    "sop": {
-      "type": "vocabulary",
-      "description": "A simple peasant dish made by soaking bread in liquid, often water or broth."
     },
     "dipper": {
       "type": "vocabulary",
@@ -3192,10 +3184,6 @@
       "type": "vocabulary",
       "description": "The horses harnessed on either side of the shafts of a carriage or wagon."
     },
-    "box": {
-      "type": "vocabulary",
-      "description": "The raised seat at the front of a carriage where the driver sits."
-    },
     "ruts": {
       "type": "vocabulary",
       "description": "Grooves or tracks worn into a road by the passage of wheels."
@@ -3287,10 +3275,6 @@
     "repudiated": {
       "type": "vocabulary",
       "description": "Rejected, especially in the context of a spouse being formally rejected or disowned."
-    },
-    "rug": {
-      "type": "vocabulary",
-      "description": "A blanket or covering, often used for warmth in carriages."
     },
     "Commission of the 2nd of June": {
       "type": "proper_noun",
@@ -3439,10 +3423,6 @@
     "superstructure": {
       "type": "vocabulary",
       "description": "Here, refers to the elaborate arrangement of Sappho's hair, both real and false."
-    },
-    "set": {
-      "type": "vocabulary",
-      "description": "A social circle or clique, especially among the aristocracy."
     },
     "pose": {
       "type": "vocabulary",
@@ -4487,10 +4467,6 @@
     "four-in-hand": {
       "type": "proper_noun",
       "description": "A carriage drawn by four horses, considered a mark of wealth and status in Russian aristocratic society."
-    },
-    "cap": {
-      "type": "vocabulary",
-      "description": "A type of headwear commonly worn by women in 19th-century Russia, often tied with strings under the chin."
     },
     "Vasya Pryatchnikov": {
       "type": "character",
@@ -5812,10 +5788,6 @@
       "type": "vocabulary",
       "description": "A printed program for a theater performance."
     },
-    "act": {
-      "type": "vocabulary",
-      "description": "A division or section of a play or opera."
-    },
     "solo": {
       "type": "vocabulary",
       "description": "A musical performance by a single singer or musician."
@@ -6130,10 +6102,6 @@
     "manger": {
       "type": "vocabulary",
       "description": "A trough or open box in which feed for livestock is placed."
-    },
-    "hay": {
-      "type": "vocabulary",
-      "description": "Dried grass used as animal fodder, often stored in barns or haycocks."
     },
     "brook": {
       "type": "vocabulary",
@@ -8130,10 +8098,6 @@
       "type": "character",
       "description": "The infant son of Konstantin Levin and Kitty Shtcherbatskaya."
     },
-    "fly": {
-      "type": "vocabulary",
-      "description": "A light, horse-drawn carriage for hire."
-    },
     "backwater": {
       "type": "vocabulary",
       "description": "A place or condition in which no development or progress is taking place; here, refers to the peaceful, rural isolation of Levin's estate."
@@ -8492,10 +8456,6 @@
     "Slavonic race": {
       "type": "proper_noun",
       "description": "Refers to the Slavic peoples of Eastern Europe, including Russians, Poles, Czechs, and others."
-    },
-    "oak": {
-      "type": "vocabulary",
-      "description": "A type of tree; here, likely refers to a specific oak tree on the estate, often symbolizing strength or endurance."
     },
     "cook": {
       "type": "vocabulary",
@@ -10013,7 +9973,6 @@
       "smock",
       "preceptor",
       "sheepskin jacket",
-      "row",
       "whetting",
       "mowers"
     ],
@@ -10028,7 +9987,6 @@
       "birch mushrooms",
       "scythe",
       "hillock",
-      "sop",
       "dipper",
       "smock",
       "midges",
@@ -10157,7 +10115,6 @@
       "Ergushovo",
       "haycock",
       "shaft-horses",
-      "box",
       "ruts",
       "bells"
     ],
@@ -10188,8 +10145,7 @@
       "intrigue",
       "status quo",
       "pseudo-matrimonial",
-      "repudiated",
-      "rug"
+      "repudiated"
     ],
     "ch-3-14": [
       "Alexey Alexandrovitch",
@@ -10286,7 +10242,6 @@
       "Burgundy",
       "beefsteak",
       "superstructure",
-      "set",
       "pose",
       "lounged",
       "commonplaces",
@@ -10826,8 +10781,7 @@
       "Konstantin Dmitrievitch",
       "scarlet fever",
       "four-in-hand",
-      "highroad",
-      "cap"
+      "highroad"
     ],
     "ch-4-12": [
       "Pestsov",
@@ -11640,8 +11594,7 @@
       "drawing room",
       "benefit",
       "low-necked gown",
-      "n’est pas compromettant",
-      "box"
+      "n’est pas compromettant"
     ],
     "ch-5-33": [
       "Anna",
@@ -11676,7 +11629,6 @@
       "box-opener",
       "epaulets",
       "playbill",
-      "act",
       "solo",
       "stocks",
       "mantle",
@@ -11858,7 +11810,6 @@
       "sedge",
       "bitch",
       "coachman",
-      "box",
       "four-in-hand",
       "Bon appétit—bonne conscience! Ce poulet va tomber jusqu’au fond de mes bottes"
     ],
@@ -11919,7 +11870,6 @@
       "manger",
       "game bag",
       "sedge",
-      "hay",
       "brook"
     ],
     "ch-6-13": [
@@ -13048,7 +12998,6 @@
       "Znamenka",
       "Oblonskys’",
       "pier glass",
-      "box",
       "telegram"
     ],
     "ch-7-28": [
@@ -13245,7 +13194,6 @@
       "Moscow",
       "Pokrovskoe",
       "Servian war",
-      "fly",
       "backwater",
       "nursery"
     ],
@@ -13494,7 +13442,6 @@
       "nursery",
       "drawing room",
       "emancipation",
-      "oak",
       "cook"
     ],
     "ch-8-19": [

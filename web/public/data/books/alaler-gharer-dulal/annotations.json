@@ -2314,10 +2314,6 @@
       "type": "vocabulary",
       "description": "A lower-ranking attendant or servant, often in a colonial or military context."
     },
-    "mat": {
-      "type": "vocabulary",
-      "description": "A woven bedding or sleeping pad, commonly used in India."
-    },
     "criminal ward": {
       "type": "vocabulary",
       "description": "A section of the jail designated for prisoners accused or convicted of criminal offenses."
@@ -3760,7 +3756,6 @@
       "cheroot",
       "orderly",
       "sepoys",
-      "mat",
       "lock-up",
       "criminal ward",
       "harem",

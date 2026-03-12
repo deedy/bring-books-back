@@ -6,6 +6,7 @@ export type HomeSortDir = "asc" | "desc";
 export interface HomeSection {
   id:
     | "epics-worlds"
+    | "russian-classics"
     | "love-memory"
     | "society-family"
     | "mystery-conscience"
@@ -26,7 +27,7 @@ interface BuildHomeBrowseModelOptions {
   sortDir: HomeSortDir;
 }
 
-const MIN_SECTION_BOOKS = 4;
+const MIN_SECTION_BOOKS = 2;
 
 const SECTION_META: Array<Pick<HomeSection, "id" | "title" | "description"> & { bookIds: string[] }> = [
   {
@@ -40,6 +41,17 @@ const SECTION_META: Array<Pick<HomeSection, "id" | "title" | "description"> & { 
       "panchatantra",
       "ponniyin-selvan",
       "chandrakanta",
+    ],
+  },
+  {
+    id: "russian-classics",
+    title: "Russian Classics",
+    description: "Towering novels of love, war, guilt, and redemption from Russia's golden age.",
+    bookIds: [
+      "war-and-peace",
+      "anna-karenina",
+      "crime-and-punishment",
+      "brothers-karamazov",
     ],
   },
   {
@@ -75,8 +87,6 @@ const SECTION_META: Array<Pick<HomeSection, "id" | "title" | "description"> & { 
     bookIds: [
       "feluda",
       "byomkesh",
-      "crime-and-punishment",
-      "brothers-karamazov",
     ],
   },
   {
@@ -117,6 +127,10 @@ function hasGenre(book: Book, ...genres: string[]): boolean {
 }
 
 function inferThemeId(book: Book): HomeSection["id"] {
+  if (book.originalLanguage === "Russian") {
+    return "russian-classics";
+  }
+
   if (
     hasGenre(
       book,
@@ -247,6 +261,7 @@ export function buildHomeBrowseModel({
 
   const grouped: Record<HomeSection["id"], Book[]> = {
     "epics-worlds": [],
+    "russian-classics": [],
     "love-memory": [],
     "society-family": [],
     "mystery-conscience": [],

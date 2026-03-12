@@ -462,10 +462,6 @@
       "type": "vocabulary",
       "description": "An administrative division in India, often used to refer to regions with distinct languages."
     },
-    "urn": {
-      "type": "vocabulary",
-      "description": "A vessel used to hold the ashes after cremation, significant in Hindu funeral rites."
-    },
     "Professor Childe": {
       "type": "character",
       "description": "A historian and archaeologist referenced for his analysis of the Indus civilization and its continuity in Indian culture."
@@ -5321,7 +5317,6 @@
       "menfolk",
       "national army",
       "province",
-      "urn",
       "Abyssinia",
       "Congress",
       "Gandhi",

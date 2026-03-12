@@ -1684,17 +1684,9 @@
       "type": "vocabulary",
       "description": "Religious holidays in honor of the Virgin Mary in the Orthodox calendar."
     },
-    "sot": {
-      "type": "vocabulary",
-      "description": "An old-fashioned term for a habitual drunkard."
-    },
     "Hohlakovs": {
       "type": "proper_noun",
       "description": "The Hohlakovs are a prominent family in the town, consisting of Madame Hohlakov and her daughter Lise, whose household is a social center."
-    },
-    "tub": {
-      "type": "vocabulary",
-      "description": "A large basin used for bathing, especially in the 19th century before modern plumbing."
     },
     "bandage": {
       "type": "vocabulary",
@@ -1871,10 +1863,6 @@
     "ruffian": {
       "type": "vocabulary",
       "description": "A violent or lawless person; a thug."
-    },
-    "will": {
-      "type": "vocabulary",
-      "description": "A legal document stating a person's wishes regarding the disposal of their property after death."
     },
     "Smurov": {
       "type": "character",
@@ -2259,10 +2247,6 @@
       "type": "vocabulary",
       "description": "Pertaining to the geometry of Euclid, based on the idea of three-dimensional space."
     },
-    "ken": {
-      "type": "vocabulary",
-      "description": "Range of knowledge or understanding."
-    },
     "tirade": {
       "type": "vocabulary",
       "description": "A long, passionate, and often angry speech."
@@ -2562,10 +2546,6 @@
     "emasculate": {
       "type": "vocabulary",
       "description": "Describes someone as weak or effeminate, often used derogatorily."
-    },
-    "fit": {
-      "type": "vocabulary",
-      "description": "An episode of illness, such as a seizure or convulsion, here referring to Smerdyakov's epileptic attacks."
     },
     "lumbago": {
       "type": "vocabulary",
@@ -2871,10 +2851,6 @@
     "suicides": {
       "type": "vocabulary",
       "description": "People who have taken their own lives, discussed in the context of religious doctrine and prayer."
-    },
-    "sin": {
-      "type": "vocabulary",
-      "description": "An act considered to be a transgression against divine law."
     },
     "righteous": {
       "type": "vocabulary",
@@ -3359,10 +3335,6 @@
       "type": "vocabulary",
       "description": "Salted fish roe, especially from sturgeon, considered a Russian delicacy."
     },
-    "jug": {
-      "type": "vocabulary",
-      "description": "A large container for liquids, used here for washing."
-    },
     "ramrod": {
       "type": "vocabulary",
       "description": "A rod used for pushing the charge or bullet down the barrel of a firearm."
@@ -3482,10 +3454,6 @@
     "pani": {
       "type": "vocabulary",
       "description": "Polish word for 'lady' or 'madam,' used to address Grushenka."
-    },
-    "pan": {
-      "type": "vocabulary",
-      "description": "Polish word for 'gentleman' or 'Mr.', used as a respectful address."
     },
     "panovie": {
       "type": "vocabulary",
@@ -3896,10 +3864,6 @@
       "type": "vocabulary",
       "description": "A courtesan or mistress, often with connotations of sophistication or social standing."
     },
-    "Pan": {
-      "type": "vocabulary",
-      "description": "A Polish title of respect equivalent to 'Mr.'"
-    },
     "subterfuge": {
       "type": "vocabulary",
       "description": "A deceptive strategy or trick used to achieve one's goal."
@@ -4244,10 +4208,6 @@
     "Les femmes tricottent": {
       "type": "proper_noun",
       "description": "French for 'the women knit,' a phrase attributed to Napoleon, referencing women during the French Revolution."
-    },
-    "mug": {
-      "type": "vocabulary",
-      "description": "Slang for face, often used derogatorily."
     },
     "mystic": {
       "type": "vocabulary",
@@ -5135,10 +5095,6 @@
     "sentence": {
       "type": "vocabulary",
       "description": "A legal term referring to the punishment assigned to a convicted person."
-    },
-    "cap": {
-      "type": "vocabulary",
-      "description": "A type of head covering, here referring to a simple cotton cap worn by women."
     },
     "Caucasian": {
       "type": "proper_noun",
@@ -6137,8 +6093,7 @@
       "holy Fathers",
       "feasts of Our Lady",
       "miraculous",
-      "paroxysm",
-      "sot"
+      "paroxysm"
     ],
     "ch-3-22": [
       "Grigory",
@@ -6155,7 +6110,6 @@
       "Hohlakovs",
       "drawing-room",
       "farthing",
-      "tub",
       "brandy",
       "bandage",
       "compliments"
@@ -6278,8 +6232,7 @@
       "brandy",
       "betrothed",
       "cad",
-      "ruffian",
-      "will"
+      "ruffian"
     ],
     "ch-4-27": [
       "Alyosha",
@@ -6512,7 +6465,6 @@
       "axioms",
       "hypotheses",
       "Euclidian",
-      "ken",
       "tirade",
       "creed",
       "stronghold"
@@ -6640,7 +6592,6 @@
       "valet",
       "emasculate",
       "garret",
-      "fit",
       "lumbago",
       "paroxysm"
     ],
@@ -6672,7 +6623,6 @@
       "versts",
       "lumbago",
       "laundress",
-      "fit",
       "garret"
     ],
     "ch-6-39": [
@@ -6813,7 +6763,6 @@
       "farthings",
       "duel",
       "suicides",
-      "sin",
       "righteous",
       "ecstasy",
       "vouchsafed",
@@ -7043,7 +6992,6 @@
       "arbor",
       "brace",
       "pawned",
-      "fit",
       "bureau",
       "steward",
       "pestle",
@@ -7117,7 +7065,6 @@
       "Strasburg pies",
       "caviare",
       "tavern",
-      "jug",
       "ramrod",
       "waistcoat",
       "cart",
@@ -7178,7 +7125,6 @@
       "Fenardi",
       "panie",
       "pani",
-      "pan",
       "panovie",
       "lajdak",
       "pan-father",
@@ -7380,7 +7326,6 @@
       "trifling",
       "loggerheads",
       "c'est fini",
-      "fit",
       "blubbered",
       "as it appears",
       "soiling one's hands"
@@ -7460,7 +7405,6 @@
       "protocol",
       "carousal",
       "hetaira",
-      "Pan",
       "subterfuge",
       "farthing",
       "smock"
@@ -7653,7 +7597,6 @@
       "German",
       "Napoleon",
       "Les femmes tricottent",
-      "mug",
       "mystic",
       "grown up",
       "emancipation of women",
@@ -8093,8 +8036,7 @@
       "wisp of tow",
       "serfdom",
       "élite",
-      "carousal",
-      "Pan"
+      "carousal"
     ],
     "ch-12-82": [
       "Fetyukovitch",
@@ -8169,7 +8111,6 @@
       "Moscow",
       "Petersburg",
       "protocol",
-      "fit",
       "material evidence",
       "parricide",
       "hysterics",
@@ -8262,7 +8203,6 @@
       "confidant",
       "roubles",
       "valet",
-      "fit",
       "accomplice",
       "acquiescence",
       "pangs of remorse",
@@ -8310,7 +8250,6 @@
       "sentence",
       "scaffold",
       "landlady",
-      "cap",
       "screen",
       "prosecutor",
       "counsel for the defense"

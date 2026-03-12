@@ -353,10 +353,6 @@
       "type": "character",
       "description": "A Brahman who dreams of future riches and prosperity after acquiring some barley-meal, only to lose everything due to his daydreaming."
     },
-    "cot": {
-      "type": "vocabulary",
-      "description": "A simple, light bed, often used in India."
-    },
     "barley-meal": {
       "type": "vocabulary",
       "description": "Ground barley, used as a food staple."
@@ -506,10 +502,6 @@
       "type": "proper_noun",
       "description": "A city in the north country where King Honey-Host rules."
     },
-    "ken": {
-      "type": "vocabulary",
-      "description": "Range of knowledge or understanding."
-    },
     "divine": {
       "type": "vocabulary",
       "description": "Relating to the gods or the sacred, often used in the context of religious law."
@@ -529,10 +521,6 @@
     "lotus-heart": {
       "type": "vocabulary",
       "description": "The soft, tender center of a lotus flower, used metaphorically to describe softness."
-    },
-    "vow": {
-      "type": "vocabulary",
-      "description": "A solemn promise or oath, often of religious significance."
     },
     "proclamation": {
       "type": "vocabulary",
@@ -682,7 +670,6 @@
       "Moon-Lord",
       "gold-finder",
       "wheel-bearer",
-      "cot",
       "barley-meal",
       "dowry",
       "mares",
@@ -741,7 +728,6 @@
       "chamberlain",
       "Honey-Town",
       "Brahmans",
-      "ken",
       "fiend",
       "divine"
     ],
@@ -755,7 +741,6 @@
       "Book V",
       "fiend",
       "lotus-heart",
-      "vow",
       "proclamation",
       "hundred thousand gold-pieces",
       "belly-pot",

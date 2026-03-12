@@ -122,10 +122,6 @@
       "type": "vocabulary",
       "description": "Bearing a design composed of one or more letters, typically the initials of a name, used as an identifying mark."
     },
-    "will": {
-      "type": "vocabulary",
-      "description": "A legal document expressing a person's wishes regarding the distribution of their property after death."
-    },
     "intestate": {
       "type": "vocabulary",
       "description": "A term for dying without having made a legal will."
@@ -162,7 +158,6 @@
       "Baisakh",
       "rupees",
       "monogrammed",
-      "will",
       "intestate"
     ]
   }

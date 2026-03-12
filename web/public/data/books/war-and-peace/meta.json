@@ -1,0 +1,19 @@
+{
+  "id": "war-and-peace",
+  "title": "War and Peace",
+  "transliteratedTitle": "War and Peace",
+  "subtitle": "Epic Lives Entwined Amidst War and Destiny",
+  "authorId": "leo-tolstoy",
+  "coverImage": "/data/images/covers/war-and-peace.webp",
+  "accentColor": "#6B4423",
+  "genre": [
+    "Novel",
+    "Historical Fiction"
+  ],
+  "originalLanguage": "Russian",
+  "originalTitle": "Война и мир",
+  "originalYear": 1869,
+  "totalChapters": 365,
+  "wordCount": 561304,
+  "summary": "Step into the glittering salons and shadowed battlefields of imperial Russia as Napoleon’s armies thunder across Europe. War and Peace sweeps you into the intertwined fates of five noble families, their loves and losses unfolding against a backdrop of dazzling society, ruthless conflict, and the relentless march of history. Tolstoy’s masterpiece is a tapestry of unforgettable characters—from the restless Pierre Bezukhov to the spirited Natasha Rostov—each searching for meaning amid the chaos. With vivid scenes set in opulent ballrooms, vast country estates, and the heart of battle, this novel immerses you in the joys, tragedies, and philosophical awakenings that define a generation. Experience a world in upheaval, where personal destinies and the fate of nations collide."
+}

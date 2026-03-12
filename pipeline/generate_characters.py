@@ -87,8 +87,27 @@ def _build_alias_map(glossary):
     char_names = {name for name, entry in glossary.items() if entry.get("type") == "character"}
     alias_map = {}  # term -> canonical name
 
-    def _set_alias(term, canon):
-        """Set alias only if not already claimed by a more specific name."""
+    # Common words that should never be character aliases
+    _ALIAS_STOPWORDS = {
+        "the", "and", "von", "van", "der", "den", "das", "die",
+        "prince", "princess", "count", "countess", "king", "queen",
+        "general", "colonel", "captain", "major", "marshal", "emperor",
+        "military", "governor", "adjutant", "officer", "commander",
+        "doctor", "father", "mother", "brother", "sister", "uncle", "aunt",
+        "old", "young", "little", "great", "grand", "chief", "saint",
+        "moscow", "petersburg", "paris", "vienna", "berlin", "russia",
+        "french", "russian", "german", "austrian", "polish",
+        "sir", "lord", "lady", "duke", "duchess", "baron", "baroness",
+        "monsieur", "madame", "mademoiselle", "mlle", "mon",
+        "sire", "excellency", "highness", "majesty",
+    }
+
+    def _set_alias(term, canon, force=False):
+        """Set alias only if not already claimed by a more specific name.
+        force=True bypasses stopword check (used for exact names and explicit aliases).
+        """
+        if not force and term.lower() in _ALIAS_STOPWORDS:
+            return
         if term not in alias_map or len(canon) > len(alias_map[term]):
             alias_map[term] = canon
 
@@ -96,9 +115,9 @@ def _build_alias_map(glossary):
         alias_map[canon] = canon  # exact match always works
         parts = canon.split()
 
-        # Map individual name parts
+        # Map individual name parts (skip short words, stopwords, and titles)
         for part in parts:
-            if len(part) < 3 or part.lower() in ("the", "and", "von", "van", "de"):
+            if len(part) < 3 or part.lower() in _ALIAS_STOPWORDS:
                 continue
             _set_alias(part, canon)
 
@@ -110,10 +129,10 @@ def _build_alias_map(glossary):
                 if subset != canon:
                     _set_alias(subset, canon)
 
-        # Use explicit aliases field if present
+        # Use explicit aliases field if present (force=True to bypass stopwords)
         entry = glossary[canon]
         for alias in entry.get("aliases", []):
-            _set_alias(alias, canon)
+            _set_alias(alias, canon, force=True)
 
         # Extract aliases/diminutives from the description text.
         desc = entry.get("description", "")

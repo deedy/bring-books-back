@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Suspense } from "react";
 import { getCatalog, getAnnotations, getChapters } from "@/lib/data";
 import GlossaryContent from "@/components/GlossaryContent";
+import GlossaryHeaderBack from "@/components/GlossaryHeaderBack";
 import OfflineRouteRedirect from "@/components/OfflineRouteRedirect";
 import { buildGlossaryPreviewData } from "@/lib/bookDetails";
 
@@ -53,19 +53,7 @@ export default async function GlossaryPage({
   return (
     <div className="max-w-4xl mx-auto px-6 py-12">
       <OfflineRouteRedirect bookId={id} kind="glossary" />
-      {/* Breadcrumb — back to reader (restores saved position) */}
-      <div className="mb-8">
-        <Link
-          href={`/read/${id}`}
-          scroll={false}
-          className="inline-flex items-center gap-1.5 text-sm text-white/40 hover:text-white/70 transition-colors"
-        >
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <polyline points="15 18 9 12 15 6" />
-          </svg>
-          Back to reading
-        </Link>
-      </div>
+      <GlossaryHeaderBack bookId={id} bookTitle={book.title} />
 
       <h1 className="text-3xl font-bold text-white mb-2">Glossary</h1>
       <p className="text-white/50 text-sm mb-10">

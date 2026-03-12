@@ -3529,10 +3529,6 @@
       "type": "vocabulary",
       "description": "A woman trained to assist in childbirth."
     },
-    "spy": {
-      "type": "vocabulary",
-      "description": "A person who secretly gathers information, especially for political purposes."
-    },
     "Vallavaraiyan Vandiyathevan": {
       "type": "character",
       "description": "A brave and resourceful young nobleman, serving as a messenger and spy for the Chola prince, and a key protagonist."
@@ -4549,10 +4545,6 @@
     "sanctum sanctorum": {
       "type": "vocabulary",
       "description": "The innermost, most sacred chamber of a Hindu temple where the main deity is enshrined."
-    },
-    "mat": {
-      "type": "vocabulary",
-      "description": "A woven reed or grass sheet used for sitting or sleeping, here referring to a boat mat."
     },
     "garment": {
       "type": "vocabulary",
@@ -6225,10 +6217,6 @@
     "shipwrights": {
       "type": "vocabulary",
       "description": "Craftsmen skilled in building and repairing ships."
-    },
-    "yam": {
-      "type": "vocabulary",
-      "description": "A starchy tuber commonly eaten in South India, often roasted or boiled."
     },
     "divine nectar": {
       "type": "vocabulary",
@@ -8253,10 +8241,6 @@
     "Sita Devi": {
       "type": "proper_noun",
       "description": "Sita Devi is a revered figure from the Hindu epic Ramayana, known for her virtue and suffering, often referenced as an ideal of womanhood."
-    },
-    "cot": {
-      "type": "vocabulary",
-      "description": "A light, portable bed or couch, often used in South Asian households."
     },
     "censer": {
       "type": "vocabulary",
@@ -12746,8 +12730,7 @@
       "palanquin",
       "Amma",
       "palm-leaf letter",
-      "midwife",
-      "spy"
+      "midwife"
     ],
     "ch-1-45": [
       "Karikala Peruvazhuthan",
@@ -13465,7 +13448,6 @@
       "Dharma",
       "naazhigai",
       "sanctum sanctorum",
-      "mat",
       "raft",
       "garment",
       "water gourd",
@@ -14848,7 +14830,6 @@
       "shipwrights",
       "tiger flag",
       "Periyamma",
-      "yam",
       "Airavata",
       "divine nectar",
       "Akka",
@@ -17153,7 +17134,6 @@
       "Queen of Pazhuvoor",
       "Sita Devi",
       "Shiva",
-      "cot",
       "censer",
       "Devi",
       "Maharani",
@@ -17798,7 +17778,6 @@
       "Kaveri",
       "Mandakini Devi",
       "Malayaman",
-      "cot",
       "five sacred metals",
       "discus weapon",
       "Lord Thirumal",
@@ -19659,7 +19638,6 @@
       "Ranabathira Kali",
       "Kalamukha",
       "Swami",
-      "cot",
       "hunting pavilion",
       "Agni",
       "loft",
@@ -20656,7 +20634,6 @@
       "armlet",
       "upper cloth",
       "crown",
-      "cot",
       "leagues"
     ],
     "ch-5-68": [
@@ -20691,7 +20668,6 @@
       "Ponniyin Selvan",
       "Periya Piratti",
       "Periya Vellar",
-      "cot",
       "dagger",
       "herbs",
       "turmeric",

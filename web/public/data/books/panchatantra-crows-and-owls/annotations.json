@@ -459,10 +459,6 @@
       "type": "vocabulary",
       "description": "To attribute or ascribe, especially something undesirable."
     },
-    "pet": {
-      "type": "vocabulary",
-      "description": "A domesticated animal kept for companionship; here, used to refer to a calf."
-    },
     "lunar fast": {
       "type": "vocabulary",
       "description": "A religious fast observed according to the lunar calendar."
@@ -660,10 +656,6 @@
     "maiden": {
       "type": "vocabulary",
       "description": "An archaic term for a young, unmarried woman."
-    },
-    "sue": {
-      "type": "vocabulary",
-      "description": "An archaic term meaning to plead or beg."
     },
     "fain": {
       "type": "vocabulary",
@@ -1215,7 +1207,6 @@
       "unconventional",
       "defile",
       "impute",
-      "pet",
       "lunar fast",
       "purify",
       "ass",
@@ -1296,7 +1287,6 @@
       "Hook-Nose",
       "Hangman’s Well",
       "maiden",
-      "sue",
       "fain",
       "bleaching",
       "driveling",

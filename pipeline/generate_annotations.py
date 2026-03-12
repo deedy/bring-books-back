@@ -19,14 +19,25 @@ from pipeline.config import get_book, OPENROUTER_BASE_URL
 
 load_dotenv()
 
-client = AsyncOpenAI(
-    base_url=OPENROUTER_BASE_URL,
-    api_key=os.environ["OPENROUTER_API_KEY"],
-)
-sync_client = OpenAI(
-    base_url=OPENROUTER_BASE_URL,
-    api_key=os.environ["OPENROUTER_API_KEY"],
-)
+# Use direct OpenAI API when available (avoids OpenRouter credit limits)
+_use_direct_openai = bool(os.environ.get("OPENAI_API_KEY"))
+
+# Model names: strip provider prefix when using direct OpenAI API
+_GPT_MODEL = "gpt-4.1-mini" if _use_direct_openai else "openai/gpt-4.1-mini"
+_GEMINI_MODEL = "google/gemini-3-flash-preview"  # only available via OpenRouter
+
+if _use_direct_openai:
+    client = AsyncOpenAI()   # uses OPENAI_API_KEY + default base_url
+    sync_client = OpenAI()
+else:
+    client = AsyncOpenAI(
+        base_url=OPENROUTER_BASE_URL,
+        api_key=os.environ["OPENROUTER_API_KEY"],
+    )
+    sync_client = OpenAI(
+        base_url=OPENROUTER_BASE_URL,
+        api_key=os.environ["OPENROUTER_API_KEY"],
+    )
 MAX_CONCURRENT = 10
 
 USER_PROMPT_TEMPLATE = """Chapter {number}: "{title}"
@@ -60,7 +71,7 @@ async def extract_chapter_terms(sem, chapter, system_prompt, book_id):
         for attempt in range(3):
             try:
                 response = await client.chat.completions.create(
-                    model="openai/gpt-4.1",
+                    model=_GPT_MODEL,
                     messages=[
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": prompt},
@@ -82,6 +93,49 @@ async def extract_chapter_terms(sem, chapter, system_prompt, book_id):
                     return chapter["id"], {"characters": {}, "proper_nouns": {}, "vocabulary": {}}, chapter
 
 
+# Common English words that should never be vocabulary annotations
+_VOCAB_STOPWORDS = {
+    "a", "an", "the", "and", "or", "but", "in", "on", "at", "to", "for",
+    "of", "with", "by", "from", "is", "it", "its", "as", "be", "was",
+    "were", "been", "are", "am", "do", "did", "does", "has", "had", "have",
+    "he", "she", "we", "they", "me", "him", "her", "us", "them", "my",
+    "his", "our", "your", "you", "i", "no", "not", "so", "if", "then",
+    "that", "this", "what", "who", "how", "when", "where", "which", "all",
+    "some", "any", "each", "every", "up", "out", "will", "can", "may",
+    "would", "could", "should", "shall", "must", "very", "just", "only",
+    "also", "too", "more", "most", "much", "many", "well", "still", "even",
+    "now", "here", "there", "than", "about", "into", "over", "after",
+    "before", "between", "under", "through", "said", "says", "say", "go",
+    "come", "see", "take", "make", "know", "think", "way", "long", "great",
+    "old", "new", "good", "day", "time", "hand", "eye", "face", "head",
+    "back", "own", "other", "man", "men",
+    "act", "add", "age", "ago", "air", "ask", "ate", "ax", "bad", "bag",
+    "bar", "bat", "bed", "bee", "bet", "big", "bit", "bow", "box", "boy",
+    "bus", "buy", "cab", "cap", "car", "cat", "cot", "cry", "cup", "cut",
+    "dam", "den", "die", "dig", "dim", "dog", "dot", "dry", "due", "dug",
+    "ear", "eat", "egg", "end", "era", "fan", "far", "fat", "few", "fig",
+    "fit", "fix", "fly", "fog", "fun", "fur", "gap", "gas", "get", "gig",
+    "god", "got", "gun", "gut", "guy", "gym", "hat", "hay", "hen", "hid",
+    "hit", "hoe", "hot", "hug", "hut", "ice", "ill", "ink", "inn", "ion",
+    "jam", "jar", "jaw", "jet", "job", "jog", "joy", "jug", "key", "kid",
+    "kit", "lab", "lap", "law", "lay", "led", "leg", "let", "lid", "lie",
+    "lip", "lit", "log", "lot", "low", "mad", "map", "mat", "met", "mix",
+    "mob", "mod", "mop", "mud", "mug", "nag", "nap", "net", "nil", "nod",
+    "nor", "nun", "nut", "oak", "odd", "off", "oil", "one", "ore", "owe",
+    "pad", "pan", "pat", "paw", "pay", "peg", "pen", "pet", "pie", "pig",
+    "pin", "pit", "pop", "pot", "pub", "pun", "put", "rag", "ram", "ran",
+    "rat", "raw", "ray", "red", "rib", "rid", "rim", "rip", "rob", "rod",
+    "rot", "row", "rub", "rug", "run", "rut", "sad", "sat", "saw", "set",
+    "sin", "sir", "sit", "six", "ski", "sky", "sob", "sod", "son", "sop",
+    "sot", "sow", "spy", "sty", "sub", "sue", "sum", "sun", "tab", "tag",
+    "tan", "tap", "tar", "tax", "tea", "ten", "tie", "tin", "tip", "toe",
+    "ton", "top", "tow", "toy", "try", "tub", "tug", "two", "urn", "use",
+    "van", "vat", "vet", "via", "vow", "war", "wax", "web", "wed", "wet",
+    "why", "wig", "win", "wit", "woe", "wok", "won", "woo", "wow", "yam",
+    "yap", "yaw", "yet", "zap", "zip", "zoo", "ken",
+}
+
+
 def reduce_results(results, book_id):
     glossary = {}
     chapter_terms = {}
@@ -91,6 +145,9 @@ def reduce_results(results, book_id):
 
         for type_key, type_label in [("characters", "character"), ("proper_nouns", "proper_noun"), ("vocabulary", "vocabulary")]:
             for name, desc in result.get(type_key, {}).items():
+                # Filter common English words from vocabulary
+                if type_label == "vocabulary" and name.lower() in _VOCAB_STOPWORDS:
+                    continue
                 if name not in glossary:
                     glossary[name] = {"type": type_label, "description": desc}
                 terms_in_chapter.append(name)
@@ -131,17 +188,25 @@ async def deduplicate_glossary(data, book_id):
     )
 
     response = await client.chat.completions.create(
-        model="openai/gpt-4.1",
+        model=_GPT_MODEL,
         messages=[
             {"role": "system", "content": "You are a literary analyst deduplicating a glossary. Be thorough — catch all variant spellings, nicknames, titles, and honorifics that refer to the same entity."},
             {"role": "user", "content": prompt},
         ],
         temperature=0.2,
+        max_tokens=16384,
         response_format={"type": "json_object"},
     )
 
-    result = json.loads(response.choices[0].message.content)
-    groups = result.get("duplicates", [])
+    try:
+        result = json.loads(response.choices[0].message.content)
+    except json.JSONDecodeError as e:
+        print(f"  [{book_id}] Dedup JSON parse error: {e} — skipping dedup")
+        return data
+    if isinstance(result, list):
+        groups = result
+    else:
+        groups = result.get("duplicates", [])
 
     merged_count = 0
     for group in groups:
@@ -225,22 +290,31 @@ async def reconcile_characters(data, book_id):
     )
 
     response = await client.chat.completions.create(
-        model="google/gemini-3-flash-preview",
+        model=_GPT_MODEL,
         messages=[
             {"role": "system", "content": (
-                "You are a literary analyst specializing in Indian literature. "
-                "You understand that Indian novels use many different names, honorifics, "
+                "You are a literary analyst. "
+                "You understand that novels use many different names, honorifics, "
                 "and kinship terms for the same character. Be thorough and aggressive "
                 "in identifying duplicates."
             )},
             {"role": "user", "content": prompt},
         ],
         temperature=0.2,
+        max_tokens=16384,
         response_format={"type": "json_object"},
     )
 
-    result = json.loads(response.choices[0].message.content)
-    groups = result.get("groups", [])
+    try:
+        result = json.loads(response.choices[0].message.content)
+    except json.JSONDecodeError as e:
+        print(f"  [{book_id}] Reconcile JSON parse error: {e} — skipping reconciliation")
+        return data
+    # GPT sometimes returns a bare list instead of {"groups": [...]}
+    if isinstance(result, list):
+        groups = result
+    else:
+        groups = result.get("groups", [])
 
     merged_count = 0
     for group in groups:
@@ -346,7 +420,7 @@ def _generate_chapter_summary_sync(chapter, book_title, book_id):
     for attempt in range(3):
         try:
             response = sync_client.chat.completions.create(
-                model="google/gemini-3-flash-preview",
+                model=_GPT_MODEL,
                 messages=[
                     {"role": "system", "content": SUMMARY_SYSTEM_PROMPT},
                     {"role": "user", "content": user_prompt},

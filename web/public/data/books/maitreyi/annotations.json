@@ -113,10 +113,6 @@
       "type": "vocabulary",
       "description": "A social and religious practice of female seclusion prevalent among some Muslim and Hindu communities in India."
     },
-    "pan": {
-      "type": "vocabulary",
-      "description": "A preparation of betel leaf with areca nut and sometimes tobacco, chewed for its stimulant effects and often reddening the lips."
-    },
     "sari": {
       "type": "vocabulary",
       "description": "A traditional Indian garment for women, consisting of a long piece of cloth draped around the body."
@@ -299,10 +295,6 @@
       "type": "proper_noun",
       "description": "Another novel by Joseph Conrad, mentioned as Allan's favorite."
     },
-    "boy": {
-      "type": "vocabulary",
-      "description": "In colonial India, a term used by Europeans to refer to a male servant or house attendant."
-    },
     "bungalow": {
       "type": "vocabulary",
       "description": "A single-story house with a veranda, typical of colonial architecture in India."
@@ -367,10 +359,6 @@
     "matriculation": {
       "type": "vocabulary",
       "description": "The process of qualifying for entry to a university, often through a standardized exam."
-    },
-    "box": {
-      "type": "vocabulary",
-      "description": "A private seating area in a theater or opera house, often reserved for families or distinguished guests."
     },
     "French": {
       "type": "proper_noun",
@@ -468,10 +456,6 @@
     "mouches volantes": {
       "type": "vocabulary",
       "description": "French for 'flying flies', referring to floaters or spots in one's vision, often due to eye or blood pressure issues."
-    },
-    "mat": {
-      "type": "vocabulary",
-      "description": "A thin piece of woven material used for sleeping or sitting, often made from bamboo or straw in India."
     },
     "Lilu": {
       "type": "character",
@@ -697,10 +681,6 @@
     "Allan-dadà": {
       "type": "vocabulary",
       "description": "'Dadà' is a Bengali term meaning 'elder brother,' used affectionately for an older male; 'Allan-dadà' is a term of endearment or respect used for Allan by the Sen family."
-    },
-    "bar": {
-      "type": "vocabulary",
-      "description": "A wooden bar used to secure a door, mentioned as a way to lock the narrator's room."
     },
     "chauffeur": {
       "type": "vocabulary",
@@ -1017,7 +997,6 @@
       "sahib",
       "Eurasian",
       "purdah",
-      "pan",
       "sari",
       "shawl",
       "calico",
@@ -1087,7 +1066,6 @@
       "Out of the East",
       "Lord Jim",
       "Almayer’s Folly",
-      "boy",
       "bungalow",
       "veranda",
       "Eurasian",
@@ -1095,7 +1073,6 @@
       "pajamas",
       "monsoon",
       "annas",
-      "pan",
       "China Town",
       "Harold Carr",
       "Mr. Sen",
@@ -1121,10 +1098,8 @@
       "Bachelor of Arts",
       "Tagore",
       "sari",
-      "pan",
       "veranda",
       "matriculation",
-      "box",
       "Chabii",
       "Harold Carr"
     ],
@@ -1173,7 +1148,6 @@
       "sari",
       "shawl",
       "atar",
-      "pan",
       "balustrade",
       "pandit",
       "guru",
@@ -1181,7 +1155,6 @@
       "fiancée",
       "mouches volantes",
       "veranda",
-      "mat",
       "Chabii",
       "Tagore"
     ],
@@ -1330,7 +1303,6 @@
       "shawl",
       "chaise longue",
       "Allan-dadà",
-      "bar",
       "chauffeur",
       "beri-beri",
       "Christianity",
@@ -1361,7 +1333,6 @@
       "Lakes",
       "sari",
       "divan",
-      "pan",
       "shawl",
       "veranda",
       "balustrade",

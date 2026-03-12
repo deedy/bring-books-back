@@ -1988,10 +1988,6 @@
       "type": "vocabulary",
       "description": "Leaves of the betel plant, commonly chewed with areca nut and lime, and offered as a mark of respect or after meals."
     },
-    "row": {
-      "type": "vocabulary",
-      "description": "A traditional seating arrangement for meals, especially in South Indian Brahmin households."
-    },
     "mantras": {
       "type": "vocabulary",
       "description": "Sacred chants or incantations used in Hindu rituals."
@@ -2293,10 +2289,6 @@
       "type": "vocabulary",
       "description": "A spicy mango pickle, a staple condiment in Telugu cuisine."
     },
-    "mat": {
-      "type": "vocabulary",
-      "description": "A woven floor covering used for sitting, especially during gatherings or meals."
-    },
     "leaf plates": {
       "type": "vocabulary",
       "description": "Plates made from dried leaves, commonly used in South Indian traditional meals."
@@ -2304,10 +2296,6 @@
     "maid": {
       "type": "vocabulary",
       "description": "A female domestic servant, here referring to a woman helping with household chores during the wedding."
-    },
-    "well": {
-      "type": "vocabulary",
-      "description": "A deep hole or shaft dug to access groundwater, commonly used for bathing and washing in Indian villages."
     },
     "father-in-law": {
       "type": "character",
@@ -2640,10 +2628,6 @@
     "defendant": {
       "type": "vocabulary",
       "description": "A person accused or sued in a court of law."
-    },
-    "pie": {
-      "type": "vocabulary",
-      "description": "A small unit of currency formerly used in India, equal to one-twelfth of an anna."
     },
     "lathi": {
       "type": "vocabulary",
@@ -3463,7 +3447,6 @@
       "Brahminhood",
       "dakshina",
       "betel leaves",
-      "row",
       "dhoti",
       "lady sahib",
       "mantras",
@@ -3636,11 +3619,9 @@
       "cart",
       "aavakaya",
       "garu",
-      "mat",
       "leaf plates",
       "gotra",
       "maid",
-      "well",
       "Parvateesam"
     ],
     "ch-3-14": [
@@ -3853,7 +3834,6 @@
       "pleader",
       "plaintiff",
       "defendant",
-      "pie",
       "lathi",
       "khadi",
       "Satyagraha",

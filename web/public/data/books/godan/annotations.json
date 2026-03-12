@@ -428,10 +428,6 @@
       "type": "vocabulary",
       "description": "Paternal uncle, specifically father's younger brother."
     },
-    "pie": {
-      "type": "vocabulary",
-      "description": "A very small unit of currency, now obsolete, formerly 1/12 of an anna; anna is a former Indian currency unit, equal to 1/16 of a rupee."
-    },
     "threshing floor": {
       "type": "vocabulary",
       "description": "An area where harvested grain is separated from chaff."
@@ -2154,10 +2150,6 @@
       "type": "vocabulary",
       "description": "An alcoholic beverage made from the sap of palm trees, commonly consumed in rural India."
     },
-    "cot": {
-      "type": "vocabulary",
-      "description": "A simple, woven bed commonly used in Indian villages."
-    },
     "bullocks": {
       "type": "vocabulary",
       "description": "Male cattle used as draft animals for plowing and transport in rural India."
@@ -2317,10 +2309,6 @@
     "orchard": {
       "type": "vocabulary",
       "description": "A piece of land planted with fruit trees."
-    },
-    "hoe": {
-      "type": "vocabulary",
-      "description": "A tool used in agriculture for digging or weeding."
     },
     "smallpox": {
       "type": "vocabulary",
@@ -2565,7 +2553,6 @@
       "Jhuniya",
       "Raja Janak",
       "Sah",
-      "pie",
       "roti"
     ],
     "ch-1-4": [
@@ -2615,7 +2602,6 @@
       "Kaki",
       "Dada",
       "Kaka",
-      "pie",
       "threshing floor",
       "mandaps",
       "chilam",
@@ -2838,7 +2824,6 @@
       "Mirza",
       "Pandit",
       "Sobha",
-      "pie",
       "Dr. Mehta",
       "Shyamvihari Tankha"
     ],
@@ -2966,7 +2951,6 @@
       "Dhania",
       "Jhuniya",
       "bigha",
-      "pie",
       "Lala Pateshwari"
     ],
     "ch-1-13": [
@@ -3003,7 +2987,6 @@
       "bigha",
       "dhoti",
       "lakh",
-      "pie",
       "Dr. Mehta",
       "Govindi",
       "Shyamvihari Tankha"
@@ -3186,8 +3169,7 @@
       "Nokhe Ram",
       "Punia",
       "Silia",
-      "Sobha",
-      "pie"
+      "Sobha"
     ],
     "ch-1-18": [
       "Matadeen",
@@ -3266,7 +3248,6 @@
       "Khanna",
       "Mirza",
       "Sah",
-      "pie",
       "Dr. Mehta"
     ],
     "ch-1-20": [
@@ -3395,7 +3376,6 @@
       "Sah",
       "Sobha",
       "manjira",
-      "pie",
       "Lala Pateshwari"
     ],
     "ch-1-22": [
@@ -3618,8 +3598,7 @@
       "auction",
       "Dhania",
       "Mangru",
-      "Patwari",
-      "pie"
+      "Patwari"
     ],
     "ch-1-27": [
       "Chabili",
@@ -3681,8 +3660,7 @@
       "Khanna",
       "Mirza",
       "Rai Sahib",
-      "lakh",
-      "pie"
+      "lakh"
     ],
     "ch-1-29": [
       "Govindi",
@@ -3717,7 +3695,6 @@
       "Radha",
       "Silia",
       "paisa",
-      "pie",
       "Lala Pateshwari",
       "Dr. Mehta"
     ],
@@ -3741,7 +3718,6 @@
       "toddy",
       "Brahmin",
       "chilam",
-      "cot",
       "ghee",
       "bullocks",
       "buffalo",
@@ -3847,7 +3823,6 @@
       "decree",
       "bailiff",
       "orchard",
-      "hoe",
       "smallpox",
       "vaccinated",
       "charms",
@@ -3877,7 +3852,6 @@
       "havan",
       "mantras",
       "shlokas",
-      "cot",
       "bazaar",
       "verandah",
       "chala",
@@ -3967,7 +3941,6 @@
       "Jhuniya",
       "Sobha",
       "maund",
-      "pie",
       "Daroga Gandasingh",
       "Lallu"
     ]

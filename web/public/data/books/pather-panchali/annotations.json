@@ -1002,10 +1002,6 @@
       "type": "vocabulary",
       "description": "Morning glory, a flowering vine with white buds."
     },
-    "jam": {
-      "type": "vocabulary",
-      "description": "Black plum, a sweet and tangy fruit."
-    },
     "amra": {
       "type": "vocabulary",
       "description": "Hog plum, a sour fruit eaten raw or in pickles."
@@ -4076,7 +4072,6 @@
       "nôlk",
       "orkolmi",
       "kul",
-      "jam",
       "amra",
       "sindur",
       "dugdugi",

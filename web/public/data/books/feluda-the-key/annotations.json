@@ -77,10 +77,6 @@
       "type": "vocabulary",
       "description": "The official currency of India."
     },
-    "will": {
-      "type": "vocabulary",
-      "description": "A legal document stating a person's wishes regarding the disposal of their property after death."
-    },
     "Abani Sen": {
       "type": "character",
       "description": "Radharaman Samaddar's neighbor and father of Sadhan; he is a florist with a shop in New Market who informed Monimohan about the heart attack.",
@@ -295,7 +291,6 @@
       "Babu",
       "almirah",
       "rupees",
-      "will",
       "Dr Chintamoni Bose",
       "Abani Sen"
     ],
