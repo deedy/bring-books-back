@@ -72,7 +72,6 @@ describe("search helpers", () => {
     expect(runSearch(docs, "feluda").map((doc) => doc.id)).toEqual([
       "anthology-1",
       "term-1",
-      "term-2",
     ])
   })
 

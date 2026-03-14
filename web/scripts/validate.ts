@@ -8,9 +8,8 @@
  * 2. Every non-anthology book has chapters data
  * 3. Every book has a cover image
  * 4. Every non-anthology book has a hero image
- * 5. Sitemap exists and is not empty
- * 6. Every book/author in catalog has a sitemap entry
- * 7. manifest.json exists
+ * 5. manifest.json exists
+ * (Sitemap is now generated dynamically by Next.js via app/sitemap.ts)
  */
 
 import fs from "fs";
@@ -71,31 +70,7 @@ function main() {
     }
   }
 
-  // 5. Sitemap exists and has entries
-  const sitemapPath = path.join(PUBLIC, "sitemap.xml");
-  if (!fs.existsSync(sitemapPath)) {
-    errors.push("sitemap.xml not found — run: npx tsx scripts/generate-sitemap.ts");
-  } else {
-    const sitemap = fs.readFileSync(sitemapPath, "utf-8");
-    const urlCount = (sitemap.match(/<url>/g) || []).length;
-    if (urlCount === 0) {
-      errors.push("sitemap.xml is empty");
-    }
-
-    // 6. Spot-check: every top-level book and author has a sitemap entry
-    for (const book of books) {
-      if (!sitemap.includes(`/books/${book.id}</loc>`)) {
-        errors.push(`Book "${book.id}" missing from sitemap`);
-      }
-    }
-    for (const author of authors) {
-      if (!sitemap.includes(`/authors/${author.id}</loc>`)) {
-        errors.push(`Author "${author.id}" missing from sitemap`);
-      }
-    }
-  }
-
-  // 7. manifest.json exists
+  // 5. manifest.json exists
   if (!fs.existsSync(path.join(PUBLIC, "manifest.json"))) {
     warnings.push("manifest.json not found");
   }

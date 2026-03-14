@@ -6,7 +6,7 @@ import BackButton from "@/components/BackButton";
 
 export function generateStaticParams() {
   const catalog = getCatalog();
-  return catalog.authors.map((author) => ({ id: author.id }));
+  return catalog.authors.filter((a) => a.name !== "Various").map((author) => ({ id: author.id }));
 }
 
 export async function generateMetadata({
@@ -19,7 +19,7 @@ export async function generateMetadata({
   const author = catalog.authors.find((a) => a.id === id);
   if (!author) return {};
   const title = `${author.name} — Author`;
-  const description = author.bio.split("\n\n")[0].slice(0, 155);
+  const description = author.bio.split("\n\n")[0].slice(0, 300);
   const ogImage = `https://storage.googleapis.com/grandoldbooks-assets${author.image}`;
   return {
     title,
@@ -59,6 +59,22 @@ export default async function AuthorPage({
     ],
   };
 
+  const collectionLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `Books by ${author.name}`,
+    url: `https://grandoldbooks.com/authors/${author.id}`,
+    description: bioParagraphs[0],
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: books.map((b, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `https://grandoldbooks.com/books/${b.id}`,
+      })),
+    },
+  };
+
   return (
     <div className="max-w-4xl mx-auto px-6 pb-12">
       <script
@@ -68,6 +84,10 @@ export default async function AuthorPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionLd) }}
       />
       {/* Back bar */}
       <div className="sticky top-16 z-10 -mx-6 px-6 py-2 bg-[#0a0a0b]/80 backdrop-blur-md">

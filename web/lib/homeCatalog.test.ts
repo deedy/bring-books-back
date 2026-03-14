@@ -62,6 +62,7 @@ describe("buildHomeBrowseModel", () => {
 
     expect(model.sections.map((section) => section.id)).toEqual([
       "epics-worlds",
+      "russian-classics",
       "love-memory",
       "society-family",
       "mystery-conscience",
@@ -74,24 +75,26 @@ describe("buildHomeBrowseModel", () => {
       "panchatantra",
     ]);
     expect(model.sections[1].books.map((book) => book.id)).toEqual([
+      "crime-and-punishment",
+      "brothers-karamazov",
+    ]);
+    expect(model.sections[2].books.map((book) => book.id)).toEqual([
       "devdas",
       "mrinalini",
       "ghare-baire",
       "maitreyi",
     ]);
-    expect(model.sections[2].books.map((book) => book.id)).toEqual([
+    expect(model.sections[3].books.map((book) => book.id)).toEqual([
       "pather-panchali",
       "godan",
       "samskara",
       "matira-manisha",
     ]);
-    expect(model.sections[3].books.map((book) => book.id)).toEqual([
+    expect(model.sections[4].books.map((book) => book.id)).toEqual([
       "feluda",
       "byomkesh",
-      "crime-and-punishment",
-      "brothers-karamazov",
     ]);
-    expect(model.sections[4].books.map((book) => book.id)).toEqual([
+    expect(model.sections[5].books.map((book) => book.id)).toEqual([
       "discovery-of-india",
       "autobiography-of-a-yogi",
       "baeesween-sadi",
@@ -123,17 +126,19 @@ describe("buildHomeBrowseModel", () => {
       sortDir: "asc",
     });
 
-    expect(model.mode).toBe("sectioned");
-    if (model.mode !== "sectioned") return;
+    expect(model.mode).toBe("flat");
+    if (model.mode !== "flat") return;
 
-    expect(model.sections.map((section) => section.id)).toEqual([
-      "epics-worlds",
-      "mystery-conscience",
-    ]);
-    expect(model.sections[1].books.map((book) => book.id)).toEqual([
+    // Falls back to flat because russian-classics has only 1 book (crime-and-punishment),
+    // which is below MIN_SECTION_BOOKS threshold.
+    expect(model.books.map((book) => book.id)).toEqual([
+      "mahabharata",
+      "ramayana",
+      "bhagavad-gita",
+      "panchatantra",
+      "crime-and-punishment",
       "feluda",
       "byomkesh",
-      "crime-and-punishment",
       "custom-psychological",
     ]);
   });

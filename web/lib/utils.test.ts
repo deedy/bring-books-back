@@ -45,11 +45,11 @@ describe("readingTimeExact", () => {
   });
 
   it("returns exact hours and minutes", () => {
-    expect(readingTimeExact(230 * 155)).toBe("2h 35min");
+    expect(readingTimeExact(230 * 155)).toBe("2 hrs 35 min");
   });
 
   it("returns clean hours when no remainder", () => {
-    expect(readingTimeExact(230 * 120)).toBe("2h");
+    expect(readingTimeExact(230 * 120)).toBe("2 hrs");
   });
 });
 
@@ -63,9 +63,10 @@ describe("readingTimeClock", () => {
 
 describe("pageCount", () => {
   it("rounds to nearest page", () => {
-    expect(pageCount(250)).toBe(1);
-    expect(pageCount(500)).toBe(2);
-    expect(pageCount(375)).toBe(2);
+    expect(pageCount(250)).toBe("1");
+    expect(pageCount(500)).toBe("2");
+    expect(pageCount(375)).toBe("2");
+    expect(pageCount(500000)).toBe("2,000");
   });
 });
 

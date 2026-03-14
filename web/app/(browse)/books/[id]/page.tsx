@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getCatalog, getAnnotations, getChapters, getAnthologyData } from "@/lib/data";
 import BookCard from "@/components/BookCard";
@@ -30,12 +31,14 @@ export async function generateMetadata({
   const book = catalog.books.find((b) => b.id === id);
   if (!book) return {};
   const author = catalog.authors.find((a) => a.id === book.authorId);
-  const title = `${book.title} by ${author?.name ?? "Unknown"}`;
-  const description = book.summary.slice(0, 160);
+  const title = author?.name === "Various" ? book.title : `${book.title} by ${author?.name ?? "Unknown"}`;
+  const description = book.summary.slice(0, 300);
   const ogImage = `https://storage.googleapis.com/grandoldbooks-assets${book.coverImage}`;
   return {
     title,
     description,
+    keywords: [...book.genre, book.originalLanguage, author?.name].filter((k): k is string => Boolean(k)),
+    authors: author?.name !== "Various" ? [{ name: author!.name, url: `/authors/${author!.id}` }] : undefined,
     alternates: {
       canonical: `/books/${id}`,
     },
@@ -60,7 +63,8 @@ export default async function BookPage({
 }) {
   const { id } = await params;
   const catalog = getCatalog();
-  const book = catalog.books.find((b) => b.id === id)!;
+  const book = catalog.books.find((b) => b.id === id);
+  if (!book) notFound();
   const author = catalog.authors.find((a) => a.id === book.authorId)!;
 
   const isAnthology = book.type === "anthology";
@@ -119,7 +123,7 @@ export default async function BookPage({
     "@type": "Book",
     name: book.title,
     alternateName: book.originalTitle,
-    author: { "@type": "Person", name: author.name },
+    ...(author.name !== "Various" ? { author: { "@type": "Person", name: author.name } } : {}),
     inLanguage: "en",
     genre: book.genre,
     datePublished: String(book.originalYear),
@@ -128,6 +132,18 @@ export default async function BookPage({
     description: book.summary,
     numberOfPages: book.totalChapters,
     publisher: { "@type": "Organization", name: "Grand Old Books" },
+    bookFormat: "EBook",
+    isAccessibleForFree: true,
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+      availability: "https://schema.org/InStock",
+    },
+    potentialAction: {
+      "@type": "ReadAction",
+      target: `https://grandoldbooks.com/read/${book.id}`,
+    },
   };
 
   const breadcrumbLd = {
@@ -155,28 +171,30 @@ export default async function BookPage({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
-      {/* Hero Banner — fades into page background */}
-      <div className="relative w-full h-[200px] md:h-[350px] -mt-4">
-        <img
-          src={
-            !isAnthology && chaptersData?.chapters.length === 1 && chaptersData.chapters[0].image
-              ? chaptersData.chapters[0].image
-              : `/data/images/heroes/${id}.webp`
-          }
-          alt=""
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div
-          className="absolute inset-0"
-          style={{
-            background:
-              "linear-gradient(to bottom, rgba(10,10,11,0) 0%, rgba(10,10,11,0.15) 40%, rgba(10,10,11,0.7) 70%, rgba(10,10,11,1) 100%)",
-          }}
-        />
+      {/* Hero Banner — extends behind the fixed header */}
+      <div className="relative w-full h-[200px] md:h-[450px] overflow-visible">
+        <div className="absolute -top-12 left-0 right-0 bottom-0">
+          <img
+            src={
+              !isAnthology && chaptersData?.chapters.length === 1 && chaptersData.chapters[0].image
+                ? chaptersData.chapters[0].image
+                : `/data/images/heroes/${id}.webp`
+            }
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          <div
+            className="absolute inset-0"
+            style={{
+              background:
+                "linear-gradient(to bottom, rgba(10,10,11,0) 0%, rgba(10,10,11,0.15) 25%, rgba(10,10,11,0.4) 50%, rgba(10,10,11,0.7) 70%, rgba(10,10,11,1) 100%)",
+            }}
+          />
+        </div>
       </div>
 
       {/* Book Header — overlaps banner */}
-      <div className="max-w-4xl mx-auto px-6 flex flex-col md:flex-row gap-10 -mt-32 relative z-10">
+      <div className="max-w-4xl mx-auto px-6 flex flex-col md:flex-row gap-10 -mt-32 md:-mt-[232px] relative z-10">
         <div className="w-64 flex-shrink-0 mx-auto md:mx-0">
           <div
             className="relative aspect-[2/3] rounded-lg overflow-hidden"
@@ -225,12 +243,18 @@ export default async function BookPage({
             {book.title}
           </h1>
           <p className="text-lg text-white/60 mt-1">{book.subtitle}</p>
-          <Link
-            href={`/authors/${author.id}`}
-            className="text-sm text-white/50 hover:text-white/80 transition-colors mt-2 inline-block"
-          >
-            by {author.name}
-          </Link>
+          {author.name !== "Various" ? (
+            <Link
+              href={`/authors/${author.id}`}
+              className="text-sm text-white/50 hover:text-white/80 transition-colors mt-2 inline-block"
+            >
+              by {author.name}
+            </Link>
+          ) : (
+            <span className="text-sm text-white/50 mt-2 inline-block">
+              by {author.name}
+            </span>
+          )}
 
           <div className="flex flex-wrap gap-2 mt-4">
             {isAnthology && book.totalStories && (
@@ -296,7 +320,7 @@ export default async function BookPage({
           )}
 
           <div className="mt-4">
-            <ShareButtons url={`/books/${book.id}`} title={`${book.title} by ${author.name}`} />
+            <ShareButtons url={`/books/${book.id}`} title={author.name === "Various" ? book.title : `${book.title} by ${author.name}`} />
           </div>
         </div>
       </div>
@@ -325,8 +349,7 @@ export default async function BookPage({
       {/* Regular book: Chapters (hide for single-chapter books) */}
       {!isAnthology && chaptersForList.length > 1 && (
         <section className="max-w-4xl mx-auto px-6 mt-16">
-          <h2 className="text-xl font-bold text-white mb-6">Chapters</h2>
-          <ChapterList chapters={chaptersForList} bookId={book.id} accentColor={book.accentColor} />
+          <ChapterList chapters={chaptersForList} bookId={book.id} accentColor={book.accentColor} heading="Chapters" />
         </section>
       )}
 
@@ -350,35 +373,37 @@ export default async function BookPage({
       )}
 
       {/* About the Author */}
-      <section className="max-w-4xl mx-auto px-6 mt-16">
-        <h2 className="text-xl font-bold text-white mb-4">
-          About the Author
-        </h2>
-        <div className="flex gap-6 items-start">
-          <Link href={`/authors/${author.id}`} className="flex-shrink-0">
-            <div className="w-20 h-20 rounded-full overflow-hidden">
-              <img
-                src={author.image}
-                alt={author.name}
-                loading="lazy"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </Link>
-          <div>
-            <Link
-              href={`/authors/${author.id}`}
-              className="text-white font-semibold hover:text-white/80 transition-colors"
-            >
-              {author.name}
+      {author.name !== "Various" && (
+        <section className="max-w-4xl mx-auto px-6 mt-16">
+          <h2 className="text-xl font-bold text-white mb-4">
+            About the Author
+          </h2>
+          <div className="flex gap-6 items-start">
+            <Link href={`/authors/${author.id}`} className="flex-shrink-0">
+              <div className="w-20 h-20 rounded-full overflow-hidden">
+                <img
+                  src={author.image}
+                  alt={author.name}
+                  loading="lazy"
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </Link>
-            <p className="text-xs text-white/40 mt-0.5">{author.years}</p>
-            <p className="text-sm text-white/50 mt-2 leading-relaxed">
-              {author.bio.split("\n\n")[0]}
-            </p>
+            <div>
+              <Link
+                href={`/authors/${author.id}`}
+                className="text-white font-semibold hover:text-white/80 transition-colors"
+              >
+                {author.name}
+              </Link>
+              <p className="text-xs text-white/40 mt-0.5">{author.years}</p>
+              <p className="text-sm text-white/50 mt-2 leading-relaxed">
+                {author.bio.split("\n\n")[0]}
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* Places and terms in this book */}
       {properNouns.length > 0 && (
@@ -441,6 +466,33 @@ export default async function BookPage({
           </div>
         </section>
       )}
+
+      {/* Related Books */}
+      {(() => {
+        const relatedBooks = catalog.books
+          .filter(
+            (b) =>
+              b.id !== book.id &&
+              b.authorId !== book.authorId &&
+              !b.anthologyId &&
+              (b.genre.some((g) => book.genre.includes(g)) ||
+                b.originalLanguage === book.originalLanguage)
+          )
+          .sort((a, b) => (b.popularity ?? 0) - (a.popularity ?? 0))
+          .slice(0, 4);
+        if (relatedBooks.length === 0) return null;
+        return (
+          <section className="max-w-4xl mx-auto px-6 mt-16">
+            <h2 className="text-xl font-bold text-white mb-6">You May Also Enjoy</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+              {relatedBooks.map((b) => {
+                const relAuthor = catalog.authors.find((a) => a.id === b.authorId);
+                return relAuthor ? <BookCard key={b.id} book={b} author={relAuthor} /> : null;
+              })}
+            </div>
+          </section>
+        );
+      })()}
     </div>
   );
 

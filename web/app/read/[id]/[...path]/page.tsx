@@ -3,7 +3,7 @@ import { Suspense } from "react";
 import { getCatalog, getChapters } from "@/lib/data";
 import { getReaderPayload } from "@/lib/readerData";
 import { slugify, chapterPath } from "@/lib/utils";
-import { redirect } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import OfflineRouteRedirect from "@/components/OfflineRouteRedirect";
 import ReaderLoader from "@/components/reader/ReaderLoader";
 
@@ -19,7 +19,12 @@ export async function generateMetadata({
   const book = catalog.books.find((b) => b.id === id);
   if (!book) return {};
   const author = catalog.authors.find((a) => a.id === book.authorId);
-  const { chapters } = getChapters(id);
+  let chapters: Awaited<ReturnType<typeof getChapters>>["chapters"];
+  try {
+    chapters = getChapters(id).chapters;
+  } catch {
+    return {};
+  }
 
   // Resolve chapter from path segments
   let chapterTitle = "";
@@ -37,12 +42,16 @@ export async function generateMetadata({
   const title = chapterTitle
     ? `${chapterTitle} — ${book.title}`
     : `Read ${book.title}`;
-  const description = `Read ${book.title} by ${author?.name ?? "Unknown"} — free English translation with illustrations`;
+  const description = chapterTitle
+    ? `Read "${chapterTitle}" from ${book.title} by ${author?.name ?? "Unknown"} — free English translation with illustrations`
+    : `Read ${book.title} by ${author?.name ?? "Unknown"} — free English translation with illustrations`;
   const coverPng = `https://storage.googleapis.com/grandoldbooks-assets${book.coverImage.replace(".webp", ".png")}`;
 
   return {
     title,
     description,
+    robots: "index, follow",
+    authors: author ? [{ name: author.name, url: `/authors/${author.id}` }] : undefined,
     alternates: { canonical: `/read/${id}/${path.join("/")}` },
     openGraph: {
       title,
@@ -102,7 +111,23 @@ function BreadcrumbScript({ bookId, bookTitle, chapterTitle, path }: { bookId: s
       { "@type": "ListItem", position: 3, name: chapterTitle, item: `https://grandoldbooks.com/read/${bookId}/${path.join("/")}` },
     ],
   };
-  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />;
+  const chapterLd = {
+    "@context": "https://schema.org",
+    "@type": "Chapter",
+    name: chapterTitle,
+    isPartOf: {
+      "@type": "Book",
+      name: bookTitle,
+      url: `https://grandoldbooks.com/books/${bookId}`,
+    },
+    url: `https://grandoldbooks.com/read/${bookId}/${path.join("/")}`,
+  };
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(chapterLd) }} />
+    </>
+  );
 }
 
 export default async function ChapterRoutePage({
@@ -116,7 +141,8 @@ export default async function ChapterRoutePage({
   const resolvedSearchParams = await searchParams;
   const catalog = getCatalog();
   const book = catalog.books.find((b) => b.id === id);
-  const bookTitle = book?.title ?? id;
+  if (!book) notFound();
+  const bookTitle = book.title;
   const { chapters } = getChapters(id);
   const languageParam = typeof resolvedSearchParams.language === "string"
     ? resolvedSearchParams.language
@@ -135,7 +161,11 @@ export default async function ChapterRoutePage({
         ? 1
         : num;
     const ch = chapters[clamped - 1];
-    const qs = languageParam ? `?language=${encodeURIComponent(languageParam)}` : "";
+    const qsParts: string[] = [];
+    if (languageParam) qsParts.push(`language=${encodeURIComponent(languageParam)}`);
+    const verseParam = typeof resolvedSearchParams.verse === "string" ? resolvedSearchParams.verse : undefined;
+    if (verseParam) qsParts.push(`verse=${encodeURIComponent(verseParam)}`);
+    const qs = qsParts.length > 0 ? `?${qsParts.join("&")}` : "";
     redirect(`/read/${id}/${chapterPath(ch, clamped)}${qs}`);
   }
 
@@ -169,6 +199,7 @@ export default async function ChapterRoutePage({
             originalYear={payload.originalYear}
             resumeTarget={payload.resumeTarget}
             totalChapters={payload.totalChapters}
+            hasNumberedVerses={payload.hasNumberedVerses}
           />
         </Suspense>
       </>
@@ -209,6 +240,7 @@ export default async function ChapterRoutePage({
             originalYear={payload.originalYear}
             resumeTarget={payload.resumeTarget}
             totalChapters={payload.totalChapters}
+            hasNumberedVerses={payload.hasNumberedVerses}
           />
         </Suspense>
       </>
