@@ -350,6 +350,28 @@ def extract_chapters(pages, chapters_def, running_headers=None, verse_detection=
 
         paras = text_to_paragraphs(body, running_headers)
 
+        # Merge paragraphs split across page breaks:
+        # if a paragraph starts with a lowercase letter, it's a continuation
+        merged_paras = []
+        for p in paras:
+            if not merged_paras:
+                merged_paras.append(p)
+                continue
+            text = p["text"] if isinstance(p, dict) else p
+            if text and text[0].islower():
+                prev = merged_paras[-1]
+                if isinstance(prev, str) and isinstance(p, str):
+                    merged_paras[-1] = prev + " " + text
+                elif isinstance(prev, dict) and isinstance(p, dict):
+                    prev["text"] += " " + text
+                elif isinstance(prev, dict) and isinstance(p, str):
+                    prev["text"] += " " + text
+                else:
+                    merged_paras.append(p)
+            else:
+                merged_paras.append(p)
+        paras = merged_paras
+
         ch_num = ch["chapter"]
         ch_title = ch["title"]
         ch_subtitle = ch.get("subtitle", "")
@@ -378,7 +400,7 @@ def extract_chapters(pages, chapters_def, running_headers=None, verse_detection=
             paras = detect_verses(paras)
 
         part = ch.get("part") or 1
-        part_name = ch.get("part_name") or ""
+        part_name = ch.get("part_name") or ch.get("partName") or ""
 
         entry = {
             "id": f"ch-{part}-{ch_num}" if part else f"ch-{ch_num}",
@@ -677,6 +699,7 @@ def run_anthology(book_id, chapters_data, cfg, force=False):
             "wordCount": word_count,
             "summary": summary_data["summary"],
             "anthologyId": book_id,
+            "popularity": cfg.popularity,
         }
 
         meta_path = os.path.join(story_book_dir, "meta.json")
@@ -712,6 +735,7 @@ def run_anthology(book_id, chapters_data, cfg, force=False):
         "summary": anthology_summary["summary"],
         "type": "anthology",
         "totalStories": len(story_book_ids),
+        "popularity": cfg.popularity,
     }
     catalog["books"].append({**anthology_meta, "previewText": "", "addedDate": date.today().isoformat()})
 
@@ -845,6 +869,7 @@ def run(book_id, force=False):
         "totalChapters": len(chapters_data),
         "wordCount": total_words,
         "summary": summary_data["summary"],
+        "popularity": cfg.popularity,
     }
     if cfg.has_sections:
         book_meta["hasSections"] = True

@@ -67,6 +67,15 @@ class BookConfig:
     # ── Character portraits ──────────────────────────────────────────────
     num_character_portraits: int = 6  # Number of character portraits to generate
 
+    # ── Modern rewrite quality ──────────────────────────────────────────
+    poetry_chapter_ids: list[str] = field(default_factory=list)  # chapters that are primarily poetry
+    verse_pattern: str = ""  # regex for verse detection in original text
+    modern_min_ratio: float = 0.70  # minimum paragraph ratio for modern rewrite
+    modern_chunk_size: int = 50  # per-book chunk size override
+
+    # ── Popularity ─────────────────────────────────────────────────────
+    popularity: int = 50  # 0-100 global popularity/recognition score
+
     # ── Derived paths ─────────────────────────────────────────────────────
     @property
     def book_dir(self) -> Path:
@@ -184,6 +193,7 @@ _register(BookConfig(
     original_year=1955,
     genre=["Historical Fiction", "Epic"],
     accent_color="#8B6914",
+    popularity=63,
     style_context="Epic historical novel set in the 10th-century Chola dynasty",
     annotation_prompt=(
         'You are a literary analyst helping annotate an English translation of "Ponniyin Selvan" (1955), '
@@ -253,6 +263,7 @@ _register(BookConfig(
     original_year=1924,
     genre=["Science Fiction", "Utopian Fiction"],
     accent_color="#4B0082",
+    popularity=32,
     style_context="Hindi science fiction novel about a utopian 22nd century India",
     image_style_prefix=(
         "Scene in the style of a vintage Indian woodblock print with saffron, indigo, and gold palette. "
@@ -311,6 +322,7 @@ _register(BookConfig(
     original_year=1882,
     genre=["Historical Romance", "Adventure"],
     accent_color="#800020",
+    popularity=35,
     style_context="Bengali historical romance set in 13th-century Bengal during the Bakhtiyar Khilji invasion",
     annotation_prompt=(
         'You are a literary analyst helping annotate an English translation of "Mrinalini" (1882), '
@@ -367,6 +379,7 @@ _register(BookConfig(
     original_year=1858,
     genre=["Social Satire", "Realist Fiction"],
     accent_color="#2F4F4F",
+    popularity=28,
     style_context="First Bengali novel — social satire of 19th-century colonial Calcutta",
     annotation_prompt=(
         'You are a literary analyst helping annotate an English translation of "Alaler Gharer Dulal" '
@@ -420,6 +433,7 @@ _register(BookConfig(
     original_year=1924,
     genre=["Humor", "Picaresque"],
     accent_color="#8B4513",
+    popularity=38,
     style_context="Humorous Telugu novel about a naive Brahmin's misadventures traveling to England",
     annotation_prompt=(
         'You are a literary analyst helping annotate an English translation of "Barrister Parvateesam" (1924), '
@@ -474,6 +488,7 @@ _register(BookConfig(
     original_year=1888,
     genre=["Fantasy", "Romance", "Adventure"],
     accent_color="#8B0000",
+    popularity=55,
     style_context="Hindi fantasy novel with tilism (magical realms)",
     translation_prompt=(
         "You are translating a Hindi fantasy/romance novel titled 'Chandrakanta' "
@@ -560,6 +575,7 @@ _register(BookConfig(
     original_year=1929,
     genre=["Realist Fiction", "Rural Life"],
     accent_color="#B8860B",
+    popularity=25,
     style_context="Odia realist novel about farmers",
     translation_prompt=(
         "You are translating an Odia realist novel titled 'Matira Manisha' "
@@ -636,6 +652,7 @@ _register(BookConfig(
     original_year=1935,
     genre=["Autobiography", "Coming of Age"],
     accent_color="#D2691E",
+    popularity=35,
     style_context="Marathi autobiography about mother-son bond",
     translation_prompt=(
         "You are translating a Marathi autobiography titled 'Shyamchi Aai' "
@@ -716,6 +733,7 @@ _register(BookConfig(
     original_year=1978,
     genre=["Epic Fiction", "Social Realism"],
     accent_color="#2E8B57",
+    popularity=30,
     style_context="Epic novel about coir workers in Kerala",
     translation_prompt=(
         "You are translating a Tamil translation of the Malayalam novel 'Kayar' (Coir) "
@@ -794,6 +812,7 @@ _register(BookConfig(
     original_year=1916,
     genre=["Literary Fiction", "Political Novel"],
     accent_color="#8B4513",
+    popularity=58,
     style_context="Bengali novel about Swadeshi movement, nationalism vs. personal relationships",
     translation_prompt=(
         "You are translating a Bengali novel titled 'Ghare Baire' "
@@ -883,6 +902,7 @@ _register(BookConfig(
     original_year=1967,
     genre=["Literary Fiction", "Nature Writing"],
     accent_color="#556B2F",
+    popularity=22,
     style_context="Kannada novel set in the Western Ghats",
     translation_prompt=(
         "You are translating a Kannada novel titled 'Malegalalli Madumagalu' "
@@ -941,6 +961,7 @@ _register(BookConfig(
     original_year=1933,
     genre=["Autobiographical Fiction", "Romance"],
     accent_color="#8B4513",
+    popularity=40,
     style_context="Semi-autobiographical novel about a forbidden love affair in 1930s colonial Calcutta",
     translation_prompt=(
         "You are translating a Romanian novel titled 'Maitreyi' (Bengal Nights) by Mircea Eliade, "
@@ -1022,6 +1043,7 @@ _register(BookConfig(
     original_year=1974,
     genre=["Autobiographical Fiction", "Memoir"],
     accent_color="#722F37",
+    popularity=30,
     style_context=(
         "Bengali autobiographical memoir, a response to Mircea Eliade's 'Bengal Nights'. "
         "Written in 1974, it recounts Maitreyi Devi's memories of her forbidden love affair "
@@ -1124,6 +1146,7 @@ _register(BookConfig(
     original_year=1932,
     genre=["Detective Fiction", "Mystery"],
     accent_color="#4A3728",
+    popularity=55,
     style_context=(
         "Bengali detective fiction anthology — 32 stories featuring truth-seeker "
         "Byomkesh Bakshi and his friend/narrator Ajit Bandyopadhyay. Stories span "
@@ -1210,6 +1233,7 @@ _register(BookConfig(
     original_year=1965,
     genre=["Detective Fiction", "Mystery"],
     accent_color="#2E5A3C",
+    popularity=60,
     style_context=(
         "Bengali detective fiction anthology — 31 stories featuring private investigator "
         "Prodosh C. Mitter (Feluda), his cousin Tapesh (Topshe), and thriller writer "
@@ -1289,6 +1313,7 @@ _register(BookConfig(
     original_year=1965,
     genre=["Literary Fiction", "Social Criticism"],
     accent_color="#8B4513",
+    popularity=50,
     style_context=(
         "A groundbreaking Kannada novel about Praneshacharya, a devout Brahmin scholar "
         "in an agrahara (Brahmin settlement) in rural Karnataka. When Naranappa, a rebellious "
@@ -1374,6 +1399,7 @@ _register(BookConfig(
     original_year=1936,
     genre=["Literary Fiction", "Social Realism"],
     accent_color="#B8860B",
+    popularity=68,
     style_context=(
         "Premchand's magnum opus about Hori, a poor peasant farmer in colonial-era "
         "rural India, whose lifelong dream is to own a cow (godan means 'gift of a cow'). "
@@ -1459,6 +1485,7 @@ _register(BookConfig(
     original_year=1917,
     genre=["Literary Fiction", "Romance", "Tragedy"],
     accent_color="#8B0000",
+    popularity=72,
     style_context=(
         "Sarat Chandra Chattopadhyay's classic Bengali novella about Devdas, a young man from "
         "a wealthy rural Bengali family who is in love with his childhood friend Parvati (Paro). "
@@ -1541,6 +1568,7 @@ _register(BookConfig(
     original_year=1946,
     genre=["Spiritual", "Autobiography", "Philosophy"],
     accent_color="#C77D2A",
+    popularity=78,
     style_context=(
         "A spiritual classic by Paramahansa Yogananda, founder of Self-Realization Fellowship. "
         "Chronicles his life from childhood in India through his years with his guru Sri Yukteswar, "
@@ -1615,6 +1643,7 @@ _register(BookConfig(
     original_year=1946,
     genre=["History", "Philosophy", "Autobiography"],
     accent_color="#2E5A4C",
+    popularity=75,
     style_context=(
         "A sweeping historical and philosophical work written by Jawaharlal Nehru "
         "during his imprisonment at Ahmadnagar Fort (1942–1946). The book traces India's "
@@ -1696,6 +1725,7 @@ _register(BookConfig(
     original_year=1969,
     genre=["Philosophy", "Spirituality", "Commentary"],
     accent_color="#B8860B",
+    popularity=92,
     verse_detection=True,
     style_context=(
         "A comprehensive commentary on the Bhagavad Gita by Swami Chinmayananda, "
@@ -1772,6 +1802,7 @@ _register(BookConfig(
     original_year=-300,
     genre=["Fables", "Philosophy", "Folklore"],
     accent_color="#C4872F",
+    popularity=80,
     style_context=(
         "Ancient Indian fable anthology — 87 animal fables and moral tales across five books, "
         "attributed to the scholar Vishnu Sharma. The stories use nested narratives with talking "
@@ -1843,6 +1874,7 @@ _register(BookConfig(
     original_year=1929,
     genre=["Novel", "Coming-of-age", "Literary Fiction"],
     accent_color="#4A7C59",
+    popularity=65,
     style_context=(
         "A Bengali novel set in rural Bengal in the early 20th century. "
         "The story follows young Apu and his family — his sister Durga, his mother Sarbajaya, "
@@ -1931,6 +1963,7 @@ _register(BookConfig(
     original_year=1866,
     genre=["Psychological Fiction", "Novel"],
     accent_color="#4A3728",
+    popularity=87,
     style_context=(
         "A psychological novel set in 1860s St. Petersburg, Russia. Follows impoverished ex-student "
         "Raskolnikov who commits murder and grapples with guilt, morality, and redemption. "
@@ -2002,6 +2035,7 @@ _register(BookConfig(
     original_year=-500,
     genre=["Epic Poetry", "Mythology"],
     accent_color="#D4451A",
+    popularity=93,
     has_sections=True,
     section_pattern=r"^SECTION\s+([IVXLCDM]+)\.?$",
     style_context=(
@@ -2085,6 +2119,7 @@ _register(BookConfig(
     original_script="Cyrillic",
     genre=["Philosophical Fiction", "Novel"],
     accent_color="#3B2F2F",
+    popularity=82,
     style_context=(
         "A philosophical novel set in a provincial Russian town in the 1870s. "
         "Three brothers — the passionate Dmitri, the intellectual Ivan, and the spiritual Alyosha — "
@@ -2159,6 +2194,7 @@ _register(BookConfig(
     original_year=1878,
     genre=["Novel", "Realist Fiction"],
     accent_color="#8B4513",
+    popularity=88,
     style_context=(
         "A sweeping novel of Russian high society in the 1870s. Two intertwined stories: "
         "Anna Karenina's passionate, doomed affair with Count Vronsky, and Konstantin Levin's "
@@ -2234,6 +2270,7 @@ _register(BookConfig(
     original_year=1869,
     genre=["Novel", "Historical Fiction"],
     accent_color="#6B4423",
+    popularity=90,
     style_context=(
         "Tolstoy's monumental epic set during Napoleon's invasion of Russia (1805–1812). "
         "Follows five aristocratic families — the Rostovs, Bolkonskys, Bezukhovs, Kuragins, and Drubetskoys — "
@@ -2298,6 +2335,90 @@ _register(BookConfig(
 ))
 
 
+# ── NIV Bible ────────────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="bible",
+    title="The Bible",
+    transliterated_title="The Bible",
+    original_title="",
+    author_id="various",
+    author_name="Various",
+    author_years="",
+    original_language="Hebrew",
+    original_year=-1400,
+    genre=["Scripture", "History", "Poetry", "Prophecy"],
+    accent_color="#1B3A4B",
+    popularity=99,
+    has_sections=True,
+    section_pattern=r"^Chapter\s+(\d+)",
+    poetry_chapter_ids=["ch-1-18", "ch-1-19", "ch-1-20", "ch-1-21", "ch-1-22", "ch-1-25"],
+    modern_min_ratio=0.85,
+    style_context=(
+        "The Bible, New International Version — the foundational text of Christianity. "
+        "Old Testament (39 books): creation, patriarchs, Exodus, law, judges, kings, prophets, poetry, wisdom. "
+        "New Testament (27 books): Gospels, Acts, Epistles, Revelation. "
+        "66 books spanning ~770K words. Each book is a chapter; Old/New Testaments are the two parts. "
+        "Settings: ancient Near East, Egypt, Canaan, Israel, Babylon, Rome, Mediterranean."
+    ),
+    annotation_prompt=(
+        'You are a biblical scholar helping annotate the NIV (New International Version) Bible.\n\n'
+        "For the given chapter text (which is a full book of the Bible), extract three categories of terms:\n\n"
+        '1. **Characters** — Named people: patriarchs, prophets, kings, apostles, etc. '
+        'Include alternate names/titles (e.g. Simon/Peter/Cephas). Brief description.\n'
+        '2. **Proper nouns** — Place names (Jerusalem, Babylon, Galilee), peoples (Philistines, Canaanites), '
+        'institutions, religious terms, historical references. Brief explanation.\n'
+        '3. **Vocabulary** — Hebrew/Greek/Aramaic words, archaic terms, religious concepts '
+        '(covenant, atonement, righteousness), units of measurement. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text.\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on biblical names, places, concepts, and cultural context.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of classical biblical illustration — "
+        "rich Renaissance and Baroque oil painting tradition (Caravaggio, Rembrandt, Gustave Doré). "
+        "Dramatic chiaroscuro lighting, warm earth tones, ancient Near Eastern settings. "
+        "Settings: desert landscapes, ancient temples, olive groves, fishing boats on the Sea of Galilee, "
+        "Roman-era streets, wilderness, Egyptian palaces, Babylonian exile. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Edge-to-edge, no border, no frame, no margin.\n\nScene: "
+    ),
+    characters_description=(
+        "Key figures:\n"
+        "- Moses: elderly bearded man, simple robes, staff, weathered face, commanding presence\n"
+        "- David: young shepherd then king, handsome, reddish hair, sometimes crowned, sometimes with harp\n"
+        "- Abraham: aged patriarch, long white beard, nomadic robes, dignified\n"
+        "- Jesus: middle-aged man, simple robes, compassionate expression, Middle Eastern features\n"
+        "- Paul (Apostle): bald or balding, intense eyes, travel-worn, Roman-era clothing\n"
+        "- Mary (mother of Jesus): young woman in blue/white head covering, gentle expression\n"
+        "- Solomon: regal king, ornate robes, crown, wise contemplative expression\n"
+        "- Elijah: wild-haired prophet, rough garments, fiery intensity\n"
+        "- Peter: sturdy fisherman, rugged face, curly hair, simple clothing\n"
+        "- Isaiah: prophetic figure, flowing robes, scroll, visionary gaze\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of classical biblical art (Rembrandt, Caravaggio) — "
+        "dramatic chiaroscuro lighting, rich textures, ancient Near Eastern setting. "
+        "Realistic character portrait. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in classical biblical painting style — "
+        "a panoramic view of ancient Jerusalem at sunset, viewed from the Mount of Olives. "
+        "Golden light on the temple mount, olive trees in foreground, vast sky with dramatic clouds. "
+        "Ancient stone walls, distant hills of Judea. "
+        "Atmospheric, sacred, timeless. "
+        "NO people in focus, NO close-up figures. Pure atmospheric landscape. "
+        "Warm, golden, reverent. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+    num_character_portraits=10,
+))
+
+
 # ── The Mahabharata ──────────────────────────────────────────────────────
 
 _register(BookConfig(
@@ -2312,8 +2433,10 @@ _register(BookConfig(
     original_year=-400,
     genre=["Epic Poetry", "Mythology"],
     accent_color="#8B4513",
+    popularity=95,
     has_sections=True,
     section_pattern=r"^Section\s+(\d+)$",
+    verse_pattern=r"[।॥]\s*$",
     style_context=(
         "The Mahabharata is the longest epic poem ever written, attributed to the sage Vyasa. "
         "It narrates the great Kurukshetra war between the Pandavas and Kauravas, "
@@ -2374,4 +2497,178 @@ _register(BookConfig(
     ),
     type="book",
     num_character_portraits=12,
+))
+
+
+# ── The Quran ────────────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="quran",
+    title="The Quran",
+    transliterated_title="The Quran",
+    original_title="القرآن الكريم",
+    author_id="quran",
+    author_name="(tr. Saheeh International)",
+    author_years="",
+    original_language="Arabic",
+    original_year=632,
+    genre=["Scripture", "Theology", "Law"],
+    accent_color="#006233",
+    popularity=97,
+    verse_detection=True,
+    style_context=(
+        "The Quran (Saheeh International translation) — the central religious text of Islam. "
+        "114 Surahs (chapters) revealed to Prophet Muhammad over 23 years (610-632 CE). "
+        "Covers theology, law, morality, history of prophets, eschatology. "
+        "Settings: 7th-century Arabia, Makkah, Madinah, references to ancient civilizations. "
+        "Contains 1885 footnotes providing context, linguistic notes, and cross-references."
+    ),
+    annotation_prompt=(
+        'You are an Islamic studies scholar helping annotate the Quran (Saheeh International translation).\n\n'
+        "For the given Surah text, extract three categories of terms:\n\n"
+        '1. **Characters** — Named people: prophets (Mūsā/Moses, ʿĪsā/Jesus, Ibrāhīm/Abraham), '
+        'angels (Jibrīl), historical figures (Firʿawn/Pharaoh). Include Arabic and English names. Brief description.\n'
+        '2. **Proper nouns** — Place names (Makkah, Madīnah, Jahannam, Jannah), peoples (Banī Isrāʾīl, Quraysh), '
+        'religious concepts (Qiblah, Kaʿbah, Ṣalāh). Brief explanation.\n'
+        '3. **Vocabulary** — Arabic Islamic terms (taqwā, zakāh, ḥalāl, ḥarām), Quranic concepts '
+        '(āyah, sūrah, dhikr), theological terms. Brief definition preserving diacritics.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text.\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Preserve all diacritics (ā, ū, ī, ḥ, ṣ, ṭ) in term names.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Islamic terminology, Quranic names, and cultural context.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of classical Islamic geometric art and architecture — "
+        "intricate arabesque patterns, calligraphic elements rendered as pure design (NOT readable text), "
+        "rich lapis lazuli blues, gold leaf, emerald greens, deep burgundy. "
+        "Settings: mosques, desert landscapes, starlit Arabian skies, gardens of paradise, "
+        "ancient Makkah/Madinah architecture. "
+        "IMPORTANT: No depictions of prophets, angels, or divine figures — "
+        "use light, geometric patterns, or symbolic landscapes instead. "
+        "No text, no lettering, no readable words anywhere in the image. "
+        "Edge-to-edge, no border, no frame, no margin.\n\nScene: "
+    ),
+    characters_description=(
+        "Key figures (depicted symbolically, NOT as human portraits):\n"
+        "- Prophet Muhammad: represented by light, a green dome, or calligraphic swirl — NEVER depicted as a person\n"
+        "- Mūsā (Moses): staff parting the sea, burning bush, mountain scene\n"
+        "- Ibrāhīm (Abraham): the Kaʿbah, desert patriarch scene\n"
+        "- ʿĪsā (Jesus): represented by light, cradle miracle scene\n"
+        "- Maryam (Mary): palm tree scene, light and serenity\n"
+        "- Firʿawn (Pharaoh): Egyptian palace, drowning scene\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of classical Islamic art — "
+        "intricate geometric patterns, rich jewel tones, gold accents. "
+        "IMPORTANT: Do NOT depict any prophets or divine figures as human forms. "
+        "Use symbolic representation: light, landscapes, architecture, calligraphic design. "
+        "No text, no lettering, no readable words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration in classical Islamic art style — "
+        "a panoramic view of the Sacred Mosque (Masjid al-Ḥarām) at dawn, "
+        "the Kaʿbah at center surrounded by geometric marble courtyard patterns, "
+        "golden light breaking over distant desert mountains, "
+        "a vast starlit-to-dawn gradient sky with crescent moon. "
+        "Intricate arabesque borders dissolving into the landscape. "
+        "Atmospheric, sacred, timeless. "
+        "NO people in focus, NO close-up figures. Pure atmospheric landscape. "
+        "Rich emerald, gold, and lapis lazuli tones. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+    num_character_portraits=8,
+))
+
+
+# ── Sarasvatichandra ────────────────────────────────────────────────────
+
+_register(BookConfig(
+    id="sarasvatichandra",
+    title="Sarasvatichandra",
+    transliterated_title="Sarasvatichandra",
+    original_title="સરસ્વતીચંદ્ર",
+    author_id="govardhanram-tripathi",
+    author_name="Govardhanram Tripathi",
+    author_years="1855–1907",
+    original_language="Gujarati",
+    original_year=1887,
+    genre=["Literary Fiction", "Social Novel", "Philosophical Fiction"],
+    accent_color="#8B6914",
+    popularity=48,
+    type="anthology",
+    style_context=(
+        "Sarasvatichandra is the foundational novel of Gujarati literature by Govardhanram Tripathi, "
+        "published in four parts (1887–1901). Translated by Tridip Suhrud. "
+        "99 chapters across 4 parts: (1) Buddhidhan's Administration, (2) Gunasundari's Abode, "
+        "(3) Ratnanagari's Rajkaran, (4) Sarasvatichandra. "
+        "The novel follows the idealistic Sarasvatichandra through love, political intrigue, "
+        "philosophical awakening, and spiritual transformation across princely Gujarat. "
+        "Settings: fictional princely states Suvarnapur and Ratnanagari, Manoharpuri, Sundargiri ashram, "
+        "colonial-era Gujarat/Bombay. Themes: dharma, renunciation, statecraft, women's agency, "
+        "East-West tensions, the nature of love and duty."
+    ),
+    annotation_prompt=(
+        'You are a literary scholar helping annotate the English translation of Sarasvatichandra, '
+        "the foundational Gujarati novel by Govardhanram Tripathi (1887–1901).\n\n"
+        "For the given chapter text, extract three categories of terms:\n\n"
+        '1. **Characters** — Named people: Sarasvatichandra, Kumud, Buddhidhan, Gunasundari, '
+        'Chandrakant, Maniraj, Mallaraj, Vishnudas, etc. Include relationships. Brief description.\n'
+        '2. **Proper nouns** — Place names (Suvarnapur, Ratnanagari, Manoharpuri, Sundargiri, Bombay), '
+        'cultural/religious references (dharma, ashram, Karbhari), institutions. Brief explanation.\n'
+        '3. **Vocabulary** — Gujarati/Sanskrit terms used in the text (Karbhari=chief minister, '
+        'sadhu, vairagi, yajna), cultural concepts, archaic English. Brief definition.\n\n'
+        "Rules:\n"
+        "- Only extract terms that actually appear in the chapter text.\n"
+        "- Keep descriptions concise: 1-2 sentences max.\n"
+        "- Do NOT extract common English words.\n"
+        "- Focus on Indian names, places, cultural concepts, and Sanskrit/Gujarati terms.\n"
+        "- Return valid JSON only, no markdown fences."
+    ),
+    image_style_prefix=(
+        "Generate an image in the style of late 19th-century Indian miniature painting "
+        "blended with Victorian-era illustration — "
+        "ornate Rajput court scenes, lush Gujarati landscapes, intricate textile patterns. "
+        "Warm golden light, rich jewel tones, detailed architectural interiors of princely palaces. "
+        "Settings: ornate darbar halls, pleasure gardens, moonlit terraces, dense forests, "
+        "riverside ghats, mountain ashrams, colonial-era Bombay. "
+        "No text, no lettering, no words anywhere in the image. "
+        "Edge-to-edge, no border, no frame, no margin.\n\nScene: "
+    ),
+    characters_description=(
+        "Key figures:\n"
+        "- Sarasvatichandra: handsome young idealist, refined features, simple clothing, "
+        "later ascetic garb, contemplative eyes, scholarly bearing\n"
+        "- Kumud Sundari: beautiful young woman, traditional Gujarati attire, ornate jewelry, "
+        "devoted expression, graceful\n"
+        "- Buddhidhan: elderly statesman, dignified, white dhoti-kurta, shrewd intelligent eyes, "
+        "Karbhari (chief minister) bearing\n"
+        "- Gunasundari: noble woman, elegant sari, compassionate face, maternal warmth\n"
+        "- Chandrakant: young prince, ornate royal clothing, earnest expression\n"
+        "- Maniraj: young king, royal regalia, handsome, conflicted expression\n"
+        "- Mallaraj: elderly king, regal bearing, crown, wise weathered face\n"
+        "- Vishnudas: aged ascetic, saffron robes, long beard, serene wise expression\n"
+        "- Kusum: young woman, simple clothing, determined expression\n"
+        "- Pramaddhan: nobleman, traditional dress, proud bearing\n"
+    ),
+    character_style_prefix=(
+        "Generate an image in the style of late 19th-century Indian portraiture — "
+        "blending Ravi Varma's oil painting tradition with Rajput miniature art. "
+        "Rich colors, ornate backgrounds, realistic character portrait. "
+        "No text, no lettering, no words anywhere in the image.\n\n"
+    ),
+    hero_prompt=(
+        "Generate an edge-to-edge illustration of a grand princely palace in Gujarat at golden hour — "
+        "ornate sandstone architecture with carved jharokhas and balconies, "
+        "a lush pleasure garden with fountains and flowering trees in the foreground, "
+        "distant rolling hills under a vast warm sky. "
+        "Late 19th-century Indian setting. Title: 'Sarasvatichandra'. "
+        "Atmospheric, romantic, majestic. "
+        "NO people in focus, NO close-up figures. Pure atmospheric landscape. "
+        "Warm gold, ivory, and deep green tones. 16:9 cinematic landscape ratio. "
+        "NO text, NO border, NO frame."
+    ),
+    num_character_portraits=10,
 ))

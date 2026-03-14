@@ -1,0 +1,25 @@
+{
+  "id": "quran",
+  "title": "The Quran",
+  "transliteratedTitle": "The Quran",
+  "subtitle": "Divine Guidance and Wisdom for All Humanity",
+  "authorId": "quran",
+  "coverImage": "/data/images/covers/quran.webp",
+  "accentColor": "#006233",
+  "genre": [
+    "Scripture",
+    "Theology",
+    "Law"
+  ],
+  "originalLanguage": "Arabic",
+  "originalTitle": "القرآن الكريم",
+  "originalYear": 632,
+  "totalChapters": 114,
+  "wordCount": 167452,
+  "hasNumberedVerses": true,
+  "summary": "The Quran, Islam’s revered scripture, unfolds over 114 chapters as a profound tapestry of divine revelation, addressing humanity’s deepest moral, spiritual, and existential questions. Delivered to Prophet Muhammad across two historic cities, its verses illuminate the unity of God, the importance of mercy, and the pursuit of justice. Readers journey through captivating stories of prophets, timeless ethical guidance, and powerful reminders of the afterlife, all rooted in the vibrant context of 7th-century Arabia. With its eloquent language and thoughtful footnotes, this translation invites seekers and scholars alike to explore the Quran’s enduring message of faith, purpose, and hope.",
+  "hasModernText": true,
+  "hasOriginalText": true,
+  "originalScript": "Arabic",
+  "popularity": 97
+}

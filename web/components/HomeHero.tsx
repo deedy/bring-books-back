@@ -13,6 +13,7 @@ import { useReadingStore } from "@/lib/store";
 interface HomeHeroProps {
   books: Book[];
   authors: Author[];
+  randomSeed?: number;
 }
 
 function LangDropdown({
@@ -133,7 +134,7 @@ function FeatureStrip() {
   );
 }
 
-export default function HomeHero({ books, authors }: HomeHeroProps) {
+export default function HomeHero({ books, authors, randomSeed = 0 }: HomeHeroProps) {
   const [paused, setPaused] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
@@ -171,12 +172,10 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
 
   const visibleBooks = browseModel.mode === "sectioned" ? browseModel.flatBooks : browseModel.books;
 
-  // Initialize activeBookId from visibleBooks (computed above) so there's no flicker.
-  // Day-seeded so every visitor sees the same hero on a given day.
+  // Use server-provided seed for initial pick so SSR and client hydration agree.
   const [activeBookId, setActiveBookId] = useState<string | undefined>(() => {
     if (visibleBooks.length === 0) return undefined;
-    const day = Math.floor(Date.now() / 86_400_000);
-    return visibleBooks[day % visibleBooks.length]?.id;
+    return visibleBooks[Math.floor(randomSeed * visibleBooks.length)]?.id;
   });
 
   // When filters change and current selection is no longer visible, pick a new one.
@@ -187,8 +186,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
     }
     setActiveBookId((current) => {
       if (current && visibleBooks.some((book) => book.id === current)) return current;
-      const day = Math.floor(Date.now() / 86_400_000);
-      return visibleBooks[day % visibleBooks.length]?.id;
+      return visibleBooks[Math.floor(Math.random() * visibleBooks.length)]?.id;
     });
   }, [visibleBooks]);
 
@@ -233,7 +231,7 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
       }
     } else {
       setSortField(field);
-      setSortDir(field === "length" ? "desc" : "asc");
+      setSortDir(field === "length" || field === "popularity" ? "desc" : "asc");
     }
   };
 
@@ -488,19 +486,17 @@ export default function HomeHero({ books, authors }: HomeHeroProps) {
           />
 
           {/* Sort buttons */}
-          {(["recent", "year", "length"] as HomeSortField[]).map((field) => (
+          {(["recent", "popularity", "year", "length"] as HomeSortField[]).map((field) => (
             <button
               key={field}
               onClick={() => toggleSort(field)}
               className={`px-2.5 py-1 text-[11px] font-medium rounded-full transition-colors ${
                 sortField === field
                   ? "bg-white/15 text-white/80"
-                  : sortField === "default" && field === "recent"
-                    ? "bg-white/5 text-white/40 hover:bg-white/10"
-                    : "bg-white/5 text-white/40 hover:bg-white/10"
+                  : "bg-white/5 text-white/40 hover:bg-white/10"
               }`}
             >
-              {field === "recent" ? "Recent" : field === "year" ? "Year" : "Length"}
+              {field === "recent" ? "Recent" : field === "popularity" ? "Popular" : field === "year" ? "Year" : "Length"}
               {arrow(field)}
             </button>
           ))}

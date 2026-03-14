@@ -1,6 +1,6 @@
 import type { Book } from "@/lib/types";
 
-export type HomeSortField = "default" | "recent" | "year" | "length";
+export type HomeSortField = "default" | "recent" | "year" | "length" | "popularity";
 export type HomeSortDir = "asc" | "desc";
 
 export interface HomeSection {
@@ -38,6 +38,8 @@ const SECTION_META: Array<Pick<HomeSection, "id" | "title" | "description"> & { 
       "mahabharata",
       "ramayana",
       "bhagavad-gita",
+      "bible",
+      "quran",
       "panchatantra",
       "ponniyin-selvan",
       "chandrakanta",
@@ -78,6 +80,7 @@ const SECTION_META: Array<Pick<HomeSection, "id" | "title" | "description"> & { 
       "shyamchi-aai",
       "kayar",
       "alaler-gharer-dulal",
+      "sarasvatichandra",
     ],
   },
   {
@@ -118,6 +121,10 @@ function compareYear(left: Book, right: Book): number {
   return left.originalYear - right.originalYear;
 }
 
+function comparePopularityDesc(left: Book, right: Book): number {
+  return (right.popularity ?? 50) - (left.popularity ?? 50);
+}
+
 const CURATED_BOOK_TO_THEME = new Map(
   SECTION_META.flatMap((section) => section.bookIds.map((bookId) => [bookId, section.id] as const))
 );
@@ -136,6 +143,7 @@ function inferThemeId(book: Book): HomeSection["id"] {
       book,
       "Epic Poetry",
       "Mythology",
+      "Scripture",
       "Spirituality",
       "Commentary",
       "Fables",
@@ -169,6 +177,8 @@ function inferThemeId(book: Book): HomeSection["id"] {
       "Philosophical Fiction",
     )
   ) {
+    // Social Novels go to society-family, not mystery
+    if (hasGenre(book, "Social Novel")) return "society-family";
     return "mystery-conscience";
   }
 
@@ -247,6 +257,15 @@ export function buildHomeBrowseModel({
     const flatBooks = [...filteredBooks].sort((left, right) => {
       const byAdded = compareAddedDesc(left, right);
       if (byAdded !== 0) return sortDir === "asc" ? byAdded : -byAdded;
+      return compareTitle(left, right);
+    });
+    return { mode: "flat", books: flatBooks };
+  }
+
+  if (sortField === "popularity") {
+    const flatBooks = [...filteredBooks].sort((left, right) => {
+      const primary = comparePopularityDesc(left, right);
+      if (primary !== 0) return sortDir === "asc" ? -primary : primary;
       return compareTitle(left, right);
     });
     return { mode: "flat", books: flatBooks };

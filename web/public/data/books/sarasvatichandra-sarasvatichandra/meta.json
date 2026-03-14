@@ -1,0 +1,22 @@
+{
+  "id": "sarasvatichandra-sarasvatichandra",
+  "title": "Sarasvatichandra",
+  "transliteratedTitle": "Sarasvatichandra",
+  "subtitle": "Mysteries and Passions Along Sundargiri’s Shores",
+  "authorId": "govardhanram-tripathi",
+  "coverImage": "/data/images/covers/sarasvatichandra-sarasvatichandra.webp",
+  "accentColor": "#8B6914",
+  "genre": [
+    "Literary Fiction",
+    "Social Novel",
+    "Philosophical Fiction"
+  ],
+  "originalLanguage": "Gujarati",
+  "originalTitle": "સરસ્વતીચંદ્ર",
+  "originalYear": 1887,
+  "totalChapters": 52,
+  "wordCount": 258302,
+  "summary": "In the evocative landscapes where rivers meet the sea, Sarasvatichandra unfolds a tale of longing, ideals, and tangled destinies. As ancient forests and vibrant villages conceal secrets and silent desires, a solitary figure’s quest for meaning will upend the lives of many. Enter a world where every tranquil scene hides a deeper intrigue, and every heart yearns for truth.",
+  "anthologyId": "sarasvatichandra",
+  "popularity": 48
+}

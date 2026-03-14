@@ -19,5 +19,6 @@
   "summary": "The Panchatantra — from the Sanskrit ‘pancha’ (five) and ‘tantra’ (treatises) — is a timeless collection of animal fables organized into five books, each built around a central story of survival and statecraft. Cunning jackals, noble lions, and playful monkeys reveal practical lessons in friendship, leadership, and navigating life’s challenges. Each tale, layered with humor and keen observation, offers universal truths wrapped in unforgettable adventures — making this ancient Indian masterwork both a source of entertainment and ageless wisdom.",
   "type": "anthology",
   "totalStories": 5,
-  "heroImage": "/data/images/heroes/panchatantra.webp"
+  "heroImage": "/data/images/heroes/panchatantra.webp",
+  "popularity": 80
 }

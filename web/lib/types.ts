@@ -22,6 +22,8 @@ interface BookBase {
   hasOriginalText?: boolean;
   hasModernText?: boolean;
   hasKidText?: boolean;
+  hasNumberedVerses?: boolean;
+  popularity?: number;
   originalScript?: string;
   /** When the original text language differs from originalLanguage (e.g. Hindi text for a Sanskrit original) */
   originalTextLanguage?: string;
@@ -32,7 +34,7 @@ export interface Book extends BookBase {
   addedDate?: string;
 }
 
-export type ChapterParagraph = string | { text: string; type: "verse" };
+export type ChapterParagraph = string | { text: string; type: "verse" | "section_header" };
 
 export type ChapterAccessMode = "full" | "preview" | "locked";
 
@@ -102,7 +104,7 @@ export interface ReadingProgress {
 }
 
 export interface Annotation {
-  type: "character" | "proper_noun" | "vocabulary";
+  type: "character" | "proper_noun" | "vocabulary" | "footnote";
   description: string;
   image?: string;
   aliases?: string[];

@@ -1,0 +1,24 @@
+{
+  "id": "bible",
+  "title": "The Bible",
+  "transliteratedTitle": "The Bible",
+  "subtitle": "Journey Through Creation, Covenant, and Redemption",
+  "authorId": "various",
+  "coverImage": "/data/images/covers/bible.webp",
+  "accentColor": "#1B3A4B",
+  "genre": [
+    "Scripture",
+    "History",
+    "Poetry",
+    "Prophecy"
+  ],
+  "originalLanguage": "Hebrew",
+  "originalTitle": "",
+  "originalYear": -1400,
+  "totalChapters": 66,
+  "wordCount": 772669,
+  "summary": "What kind of book opens with the creation of the universe and closes with its unmaking? The Bible begins in darkness — \"Let there be light\" — and never lets go. Here is the great flood that drowned a world and the ark that saved it. Here is Moses parting the Red Sea, David slaying Goliath with a stone, Solomon building a temple of impossible splendor only to watch wisdom slip through his fingers. Here are lovers in a garden singing the most erotic poetry of the ancient world. Here is Job, stripped of everything, demanding answers from God — and getting them. The prophets rage against injustice. The psalms swing between ecstasy and despair, sometimes in the same verse. Then comes Jesus — born in a stable, executed on a cross, and what happened next split history in two. Paul's letters crackle with urgency, written from prison cells to communities tearing themselves apart. And at the end, Revelation: a fever dream of angels, beasts, and a new heaven descending like a bride. No other book has been so fought over, so banned, so beloved, so misquoted, or so world-shaping. Sixty-six books. Forty-plus authors. Over a thousand years of writing. One relentless question: what does God want from us?",
+  "hasSections": true,
+  "hasModernText": true,
+  "popularity": 99
+}
