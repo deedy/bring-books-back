@@ -1,7 +1,8 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState, useCallback, useMemo } from "react";
 import { Chapter, AnnotationsData, ResumeTarget } from "@/lib/types";
+import type { AudioManifest } from "@/lib/types";
 import { useReadingStore } from "@/lib/store";
 import ReaderHeader from "./ReaderHeader";
 import ProgressBar from "./ProgressBar";
@@ -9,11 +10,12 @@ import ChapterContent from "./ChapterContent";
 import ChapterImage from "./ChapterImage";
 import ChapterPicker from "./ChapterPicker";
 import { createResumeAnchorId, encodeResumeTarget } from "@/lib/readerAccess";
-import { chapterPath } from "@/lib/utils";
+import { chapterPath, extractAudioDurations } from "@/lib/utils";
 import { trackEvent } from "@/lib/analytics";
 import { decodeQuoteHash } from "@/lib/quote";
 import { buildOfflineGlossaryUrl, buildOfflineReadUrl } from "@/lib/offlineUtils";
 import type { QuoteHighlight } from "./ChapterContent";
+import AudioPlayer from "./AudioPlayer";
 import SelectionSharePopover from "./SelectionSharePopover";
 
 // Module-level scroll tracking — survives React strict mode double-mount
@@ -21,6 +23,7 @@ import SelectionSharePopover from "./SelectionSharePopover";
 // a stale ref (always 0) from the wrong instance.
 let _latestScrollPercent = 0;
 let _latestSection: number | null = null;
+let _latestParagraphIndex = 0;
 let _hasRestoredScroll = false;
 
 interface ReaderViewProps {
@@ -39,6 +42,9 @@ interface ReaderViewProps {
   isOriginalActive: boolean;
   offlineMode?: boolean;
   resumeTarget: ResumeTarget | null;
+  hasNumberedVerses?: boolean;
+  audioManifest?: AudioManifest;
+  autoplayAudio?: boolean;
 }
 
 export default function ReaderView({
@@ -57,8 +63,13 @@ export default function ReaderView({
   isOriginalActive,
   offlineMode,
   resumeTarget,
+  hasNumberedVerses,
+  audioManifest,
+  autoplayAudio,
 }: ReaderViewProps) {
   const updateProgress = useReadingStore((s) => s.updateProgress);
+  const setBookmark = useReadingStore((s) => s.setBookmark);
+  const bookmark = useReadingStore((s) => s.progress[bookId]?.bookmark);
   const scrollMode = useReadingStore((s) => s.scrollMode);
   const setScrollMode = useReadingStore((s) => s.setScrollMode);
   const [currentIndex, setCurrentIndex] = useState(() => {
@@ -77,7 +88,8 @@ export default function ReaderView({
     if (initialChapter !== undefined) { didRestoreChapter.current = true; return; }
     didRestoreChapter.current = true;
     const progress = useReadingStore.getState().progress[bookId];
-    const stored = progress?.currentChapter ?? 0;
+    const bmk = progress?.bookmark;
+    const stored = bmk ? bmk.chapter : (progress?.currentChapter ?? 0);
     const idx = Math.min(stored, chapters.length - 1);
     if (idx !== 0) setCurrentIndex(idx);
   // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -92,6 +104,8 @@ export default function ReaderView({
   const fontSize = useReadingStore((s) => s.readerPrefs.fontSize);
   const setReaderPrefs = useReadingStore((s) => s.setReaderPrefs);
   const [chapterProgress, setChapterProgress] = useState(0);
+  const [audioParagraphRange, setAudioParagraphRange] = useState<[number, number] | null>(null);
+  const [showAudioPlayer, setShowAudioPlayer] = useState(true);
   const [currentSection, setCurrentSection] = useState<number | null>(null);
   const lastScrollY = useRef(0);
   // Reset module-level state on fresh mount (new book or new navigation)
@@ -115,6 +129,25 @@ export default function ReaderView({
   const isQuoteLinkRef = useRef(
     !!decodeQuoteHash(initialHashRef.current)
   );
+
+  // Scroll to a specific verse when arriving via ?verse=N cross-reference link
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    const verse = params.get("verse");
+    if (!verse) return;
+    // Clean the verse param from the URL so it doesn't persist on navigation
+    params.delete("verse");
+    const qs = params.toString();
+    window.history.replaceState({}, "", window.location.pathname + (qs ? `?${qs}` : ""));
+    // Wait for content to render, then scroll to the verse element
+    const timer = setTimeout(() => {
+      const el = document.getElementById(`verse-${verse}`);
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+    }, 500);
+    return () => clearTimeout(timer);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Ref for the chapter text container (used by SelectionSharePopover)
   const contentContainerRef = useRef<HTMLDivElement>(null);
@@ -293,6 +326,7 @@ export default function ReaderView({
     updateProgress(bookId, { currentChapter: currentIndex, scrollPercent: 0, currentSection: null });
     _latestScrollPercent = 0;
     _latestSection = null;
+    _latestParagraphIndex = 0;
   }, [bookId, currentIndex, updateProgress, chapterUrl]);
 
   // Track chapter start for analytics
@@ -368,6 +402,16 @@ export default function ReaderView({
         // Eagerly persist section to store so it's available on the book page
         if (_hasRestoredScroll && !isQuoteLinkRef.current) {
           updateProgress(bookId, { currentSection: foundSection });
+        }
+      }
+
+      // Track first visible paragraph
+      const paraEls = document.querySelectorAll("[data-paragraph-index]");
+      for (let i = 0; i < paraEls.length; i++) {
+        const rect = paraEls[i].getBoundingClientRect();
+        if (rect.top >= -20) {
+          _latestParagraphIndex = Number(paraEls[i].getAttribute("data-paragraph-index"));
+          break;
         }
       }
 
@@ -454,8 +498,11 @@ export default function ReaderView({
 
       const state = useReadingStore.getState();
       const progress = state.progress[bookId];
+      const bmk = progress?.bookmark;
       // Only restore scroll position for signed-in users
-      const pct = isAuthenticated ? progress?.scrollPercent : undefined;
+      const pct = isAuthenticated
+        ? (bmk && initialChapter === undefined ? bmk.scrollPercent : progress?.scrollPercent)
+        : undefined;
       if (!pct || pct <= 0) {
         if (progress?.currentSection != null) {
           setCurrentSection(progress.currentSection);
@@ -468,7 +515,7 @@ export default function ReaderView({
       // stored chapter — otherwise the store overwrites the URL-requested chapter.
       const restoredChapter = initialChapter !== undefined
         ? currentIndex
-        : (progress.currentChapter ?? currentIndex);
+        : bmk ? bmk.chapter : (progress.currentChapter ?? currentIndex);
       let targetY = 0;
 
       if (state.scrollMode === "infinite") {
@@ -650,7 +697,7 @@ export default function ReaderView({
         }
         parent = parent.parentElement;
       }
-      el.scrollIntoView({ behavior: "smooth", block: "center" });
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 100);
   }, [quoteHighlight]);
 
@@ -696,6 +743,11 @@ export default function ReaderView({
     };
   }, [chapterUrl, chapters]);
 
+  const hasBookmark = !!bookmark;
+  const handleToggleBookmark = useCallback(() => {
+    setBookmark(bookId, currentIndex, _latestScrollPercent, _latestParagraphIndex, _latestSection);
+  }, [bookId, currentIndex, setBookmark]);
+
   const overallProgress = scrollMode === "infinite"
     ? (() => {
         if (typeof window === "undefined") return 0;
@@ -706,6 +758,121 @@ export default function ReaderView({
 
   const nextChapter = currentIndex < chapters.length - 1 ? chapters[currentIndex + 1] : null;
   const isSingleChapter = chapters.length === 1;
+  const hasAudioForChapter = !!(chapter && audioManifest?.chapters[chapter.id]);
+  const audioDurations = useMemo(() => extractAudioDurations(audioManifest), [audioManifest]);
+  const showAudioBar = hasAudioForChapter && showAudioPlayer;
+
+  // Compute initial seek time from bookmark paragraph (after Zustand hydration)
+  const [audioInitialSeekTime, setAudioInitialSeekTime] = useState(0);
+  const didComputeSeekRef = useRef(false);
+  useEffect(() => {
+    if (didComputeSeekRef.current) return;
+    if (!audioManifest || !chapter) return;
+    // Wait a tick for Zustand to hydrate from localStorage
+    const timer = setTimeout(() => {
+      didComputeSeekRef.current = true;
+      const chAudio = audioManifest.chapters[chapter.id];
+      if (!chAudio?.segments) return;
+      const bmk = useReadingStore.getState().progress[bookId]?.bookmark;
+      if (!bmk || bmk.chapter !== currentIndex) return;
+      const paraIdx = bmk.paragraphIndex;
+      for (const seg of chAudio.segments) {
+        if (paraIdx >= seg.paragraphStart && paraIdx <= seg.paragraphEnd) {
+          setAudioInitialSeekTime(seg.startSec);
+          return;
+        }
+      }
+    }, 400); // After Zustand hydration (300ms) + buffer
+    return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [bookId, chapter?.id, currentIndex]);
+
+  const [audioSynced, setAudioSynced] = useState(true);
+  const prevAudioParaRef = useRef<number | null>(null);
+  const programmaticScrollRef = useRef(false);
+
+  // Auto-scroll to active paragraph when it changes + update bookmark
+  useEffect(() => {
+    if (!audioParagraphRange) return;
+    const paraStart = audioParagraphRange[0];
+    if (paraStart === prevAudioParaRef.current) return;
+    prevAudioParaRef.current = paraStart;
+
+    // Update bookmark to track audio position
+    _latestParagraphIndex = paraStart;
+    setBookmark(bookId, currentIndex, _latestScrollPercent, paraStart, _latestSection);
+
+    if (!audioSynced) return;
+    const el = document.querySelector(`[data-paragraph-index="${paraStart}"]`);
+    if (el) {
+      programmaticScrollRef.current = true;
+      const y = el.getBoundingClientRect().top + window.scrollY - 300;
+      window.scrollTo({ top: y, behavior: "smooth" });
+      // Reset programmatic flag after scroll settles
+      setTimeout(() => { programmaticScrollRef.current = false; }, 800);
+    }
+  }, [audioSynced, audioParagraphRange, bookId, currentIndex, setBookmark]);
+
+  // Detect user scroll that moves away from audio paragraph → unsync
+  useEffect(() => {
+    if (!audioParagraphRange) return;
+    const paraIdx = audioParagraphRange[0];
+
+    function checkSync() {
+      if (programmaticScrollRef.current) return; // ignore our own scrolls
+      const el = document.querySelector(`[data-paragraph-index="${paraIdx}"]`);
+      if (!el) return;
+      const rect = el.getBoundingClientRect();
+      const inView = rect.top < window.innerHeight && rect.bottom > 0;
+      if (!inView && audioSynced) {
+        setAudioSynced(false);
+      }
+    }
+
+    window.addEventListener("scroll", checkSync, { passive: true });
+    return () => window.removeEventListener("scroll", checkSync);
+  }, [audioParagraphRange, audioSynced]);
+
+  // "Go to audio" — scroll to where audio is playing, re-sync
+  const handleGoToAudio = useCallback(() => {
+    if (!audioParagraphRange) return;
+    const el = document.querySelector(`[data-paragraph-index="${audioParagraphRange[0]}"]`);
+    if (el) {
+      programmaticScrollRef.current = true;
+      const y = el.getBoundingClientRect().top + window.scrollY - 300;
+      window.scrollTo({ top: y, behavior: "smooth" });
+      setTimeout(() => { programmaticScrollRef.current = false; }, 800);
+    }
+    setAudioSynced(true);
+  }, [audioParagraphRange]);
+
+  // "Play from here" — seek audio to whichever paragraph is currently visible
+  const handlePlayFromHere = useCallback(() => {
+    if (!audioManifest || !chapter) return;
+    const chAudio = audioManifest.chapters[chapter.id];
+    if (!chAudio?.segments) return;
+    // Find the first visible paragraph
+    const paraEls = document.querySelectorAll("[data-paragraph-index]");
+    let visibleParaIdx = 0;
+    for (const el of paraEls) {
+      const rect = el.getBoundingClientRect();
+      if (rect.top >= -20 && rect.top < window.innerHeight) {
+        visibleParaIdx = Number(el.getAttribute("data-paragraph-index"));
+        break;
+      }
+    }
+    // Find the segment containing this paragraph and seek there
+    for (const seg of chAudio.segments) {
+      if (visibleParaIdx >= seg.paragraphStart && visibleParaIdx <= seg.paragraphEnd) {
+        // Dispatch seek via a callback
+        audioSeekRef.current?.(seg.startSec);
+        break;
+      }
+    }
+    setAudioSynced(true);
+  }, [audioManifest, chapter]);
+
+  const audioSeekRef = useRef<((time: number) => void) | null>(null);
 
   const bgColor = darkMode ? "#1a1a1a" : "#fafafa";
   const textColor = darkMode ? "#e5e5e5" : "#1a1a1a";
@@ -730,6 +897,7 @@ export default function ReaderView({
   const selectionStyleId = "reader-selection";
 
   return (
+    <>
     <div
       ref={contentContainerRef}
       id={selectionStyleId}
@@ -747,6 +915,7 @@ export default function ReaderView({
         visible={headerVisible}
         onTogglePicker={() => setShowPicker(!showPicker)}
         bookId={bookId}
+        coverImage={coverImage}
         darkMode={darkMode}
         onToggleDarkMode={() => setReaderPrefs({ darkMode: !darkMode })}
         fontSize={fontSize}
@@ -756,6 +925,10 @@ export default function ReaderView({
         hideChaptersButton={isSingleChapter}
         offlineMode={offlineMode}
         signInUrl={currentAuthLinks?.signInUrl}
+        hasBookmark={hasBookmark}
+        onToggleBookmark={showAudioBar ? undefined : handleToggleBookmark}
+        hasAudio={hasAudioForChapter}
+        onToggleAudio={() => setShowAudioPlayer((v) => !v)}
       />
 
       <ChapterPicker
@@ -775,6 +948,7 @@ export default function ReaderView({
             : undefined
         }
         currentSection={currentSection}
+        audioDurations={audioDurations}
       />
 
       {/* Thin collapsed bar — visible when header is hidden */}
@@ -801,18 +975,20 @@ export default function ReaderView({
         </div>
       </button>
 
-      {/* Chapter progress bar — bottom */}
-      <div
-        className="fixed bottom-0 left-0 right-0 z-50 h-[6px] bg-transparent"
-      >
+      {/* Chapter progress bar — bottom (hidden when audio bar is active) */}
+      {!showAudioBar && (
         <div
-          className="h-full transition-[width] duration-200 ease-out"
-          style={{
-            width: `${Math.min(chapterProgress, 100)}%`,
-            backgroundColor: darkMode ? "rgba(255,255,255,0.25)" : "rgba(0,0,0,0.2)",
-          }}
-        />
-      </div>
+          className="fixed bottom-0 left-0 right-0 z-50 h-[6px] bg-transparent"
+        >
+          <div
+            className="h-full transition-[width] duration-200 ease-out"
+            style={{
+              width: `${Math.min(chapterProgress, 100)}%`,
+              backgroundColor: darkMode ? "rgba(255,255,255,0.25)" : "rgba(0,0,0,0.2)",
+            }}
+          />
+        </div>
+      )}
 
       <SelectionSharePopover
         accentColor={accentColor}
@@ -874,7 +1050,7 @@ export default function ReaderView({
 
       {scrollMode === "infinite" ? (
         /* Infinite scroll: render all chapters */
-        <div className="pb-32">
+        <div className={showAudioBar ? "pb-32 mb-14" : "pb-32"}>
           {chapters.map((ch, idx) => (
             <div
               key={ch.id}
@@ -901,6 +1077,9 @@ export default function ReaderView({
                 accentColor={accentColor}
                 bookTitle={bookTitle}
                 allGlossary={annotations?.glossary}
+                hasNumberedVerses={hasNumberedVerses}
+                bookmarkParagraphIndex={bookmark?.chapter === idx ? bookmark.paragraphIndex : undefined}
+                audioParagraphRange={idx === currentIndex ? audioParagraphRange ?? undefined : undefined}
               />
             </div>
           ))}
@@ -1033,12 +1212,15 @@ export default function ReaderView({
                 accentColor={accentColor}
                 bookTitle={bookTitle}
                 allGlossary={annotations?.glossary}
+                hasNumberedVerses={hasNumberedVerses}
+                bookmarkParagraphIndex={bookmark?.chapter === currentIndex ? bookmark.paragraphIndex : undefined}
+                audioParagraphRange={audioParagraphRange ?? undefined}
               />
             )}
           </div>
 
           {/* Bottom nav — hidden for single-chapter books */}
-          {!isSingleChapter && <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 sm:px-8 pb-16 max-w-[720px] mx-auto">
+          {!isSingleChapter && <div className={`grid grid-cols-[1fr_auto_1fr] items-center gap-3 px-5 sm:px-8 max-w-[720px] mx-auto ${showAudioBar ? "pb-28" : "pb-16"}`}>
             <div className="min-w-0">
               <button
                 onClick={() => goToChapter(currentIndex - 1)}
@@ -1104,5 +1286,28 @@ export default function ReaderView({
         </>
       )}
     </div>
+    {showAudioBar && audioManifest && chapter && (
+      <AudioPlayer
+        manifest={audioManifest}
+        chapterId={chapter.id}
+        bookId={bookId}
+        accentColor={accentColor}
+        darkMode={darkMode}
+        onParagraphRangeChange={setAudioParagraphRange}
+        onRequestNextChapter={nextChapter ? () => goToChapter(currentIndex + 1) : undefined}
+        synced={audioSynced}
+        onGoToAudio={handleGoToAudio}
+        onPlayFromHere={handlePlayFromHere}
+        initialSeekTime={audioInitialSeekTime}
+        onSeekRef={audioSeekRef}
+        chapterProgress={chapterProgress}
+        onToggleBookmark={handleToggleBookmark}
+        programmaticScrollRef={programmaticScrollRef}
+        autoplay={autoplayAudio}
+        gateParagraphIndex={chapter.gate?.paragraphIndex}
+        signInUrl={currentAuthLinks?.signInUrl}
+      />
+    )}
+    </>
   );
 }

@@ -4,6 +4,7 @@ const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
   output: "standalone",
+  devIndicators: false,
   experimental: {
     staleTimes: {
       dynamic: 0,
@@ -19,6 +20,11 @@ const nextConfig: NextConfig = {
       {
         source: "/data/images/:path*",
         destination: "https://storage.googleapis.com/grandoldbooks-assets/data/images/:path*",
+        permanent: true,
+      },
+      {
+        source: "/data/audio/:path*",
+        destination: "https://storage.googleapis.com/grandoldbooks-assets/data/audio/:path*",
         permanent: true,
       },
     ];

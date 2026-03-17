@@ -20,7 +20,7 @@ echo ""
 
 gcloud config set project "${PROJECT_ID}" --quiet
 
-echo "==> [Step 1/6] Converting new PNGs to WebP..."
+echo "==> [Step 1/7] Converting new PNGs to WebP..."
 TO_CONVERT=$(find "$IMG_DIR" -name "*.png" | while read -r png; do
   webp="${png%.png}.webp"
   [ ! -f "$webp" ] && echo "$png"
@@ -34,7 +34,7 @@ else
   echo "  No new images"
 fi
 
-echo "==> [Step 2/6] Ensuring JSON references use .webp..."
+echo "==> [Step 2/7] Ensuring JSON references use .webp..."
 if grep -rq '\.png"' "$DATA_DIR"/*.json "$DATA_DIR"/books/*/meta.json "$DATA_DIR"/books/*/annotations.json 2>/dev/null; then
   find "$DATA_DIR" -name "*.json" -exec sed -i '' 's/\.png"/.webp"/g' {} +
   echo "  Updated JSON references"
@@ -42,15 +42,15 @@ else
   echo "  Already up to date"
 fi
 
-echo "==> [Step 3/6] Rebuilding search index..."
+echo "==> [Step 3/7] Rebuilding search index..."
 npm --prefix web run search:index
 echo "  Search index rebuilt"
 
 SYNC_PID=""
 if [ -f "$MARKER" ] && [ -z "$(find "$IMG_DIR" -newer "$MARKER" -name '*.webp' -print -quit)" ]; then
-  echo "==> [Step 4/6] Skipping GCS sync (no image changes)"
+  echo "==> [Step 4/7] Skipping GCS sync (no image changes)"
 else
-  echo "==> [Step 4/6] Syncing images to GCS (background)..."
+  echo "==> [Step 4/7] Syncing images to GCS (background)..."
   (gcloud storage rsync -r "$IMG_DIR" "${BUCKET}/data/images" \
     --cache-control='public, max-age=2592000' \
     --project="${PROJECT_ID}" \
@@ -59,7 +59,33 @@ else
   SYNC_PID=$!
 fi
 
-echo "==> [Step 5/6] Packaging server image via Cloud Build..."
+AUDIO_SYNC_PID=""
+AUDIO_DIRS=$(find data -maxdepth 2 -type d -name "audio" 2>/dev/null || true)
+if [ -n "$AUDIO_DIRS" ]; then
+  echo "==> [Step 5/7] Syncing audio files to GCS & copying manifests (background)..."
+  (
+    for audio_dir in $AUDIO_DIRS; do
+      book_id=$(basename "$(dirname "$audio_dir")")
+      # Sync .mp3 files to GCS
+      gcloud storage rsync "$audio_dir" "${BUCKET}/data/audio/${book_id}" \
+        --exclude='(?!.*/ch-[0-9]+-[0-9]+\.mp3$).*' \
+        --cache-control='public, max-age=2592000' \
+        --project="${PROJECT_ID}" \
+        --quiet
+      # Copy manifest.json to web public directory
+      if [ -f "${audio_dir}/manifest.json" ]; then
+        mkdir -p "web/public/data/books/${book_id}"
+        cp "${audio_dir}/manifest.json" "web/public/data/books/${book_id}/audio_manifest.json"
+        echo "  Copied manifest for ${book_id}"
+      fi
+    done
+  ) &
+  AUDIO_SYNC_PID=$!
+else
+  echo "==> [Step 5/7] Skipping audio sync (no audio directories)"
+fi
+
+echo "==> [Step 6/7] Packaging server image via Cloud Build..."
 step_time
 gcloud builds submit web/ \
   --tag "${IMAGE}" \
@@ -67,24 +93,28 @@ gcloud builds submit web/ \
 BUILD_PID=$!
 
 if [ -n "$SYNC_PID" ]; then
-  wait "$SYNC_PID" || { echo "ERROR: GCS sync failed"; exit 1; }
-  echo "  GCS sync done"
+  wait "$SYNC_PID" || { echo "ERROR: GCS image sync failed"; exit 1; }
+  echo "  GCS image sync done"
+fi
+if [ -n "$AUDIO_SYNC_PID" ]; then
+  wait "$AUDIO_SYNC_PID" || { echo "ERROR: GCS audio sync failed"; exit 1; }
+  echo "  GCS audio sync done"
 fi
 wait "$BUILD_PID" || { echo "ERROR: Cloud Build failed"; exit 1; }
 echo "  Build done"
 step_time
 
-echo "==> [Step 6/6] Deploying to Cloud Run..."
+echo "==> [Step 7/7] Deploying to Cloud Run..."
 gcloud run deploy "${SERVICE_NAME}" \
   --image "${IMAGE}" \
   --region "${REGION}" \
   --platform managed \
   --allow-unauthenticated \
   --port 8080 \
-  --memory 512Mi \
+  --memory 1Gi \
   --cpu 1 \
-  --min-instances 0 \
-  --max-instances 3 \
+  --min-instances 1 \
+  --max-instances 20 \
   --quiet
 
 URL=$(gcloud run services describe "${SERVICE_NAME}" \
