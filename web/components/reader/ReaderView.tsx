@@ -1033,7 +1033,7 @@ export default function ReaderView({
                     : `Chapter ${chapter.number} of ${totalChapters}`}
                 {currentSection != null && chapter.sections && chapter.sections.length > 0 && (
                   <span className="ml-2 opacity-70">
-                    · Section {currentSection} of {chapter.sections.length}
+                    · Section {currentSection} of {chapter.sections[chapter.sections.length - 1].number}
                   </span>
                 )}
               </p>
