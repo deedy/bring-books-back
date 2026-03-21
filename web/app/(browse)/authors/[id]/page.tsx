@@ -20,13 +20,12 @@ export async function generateMetadata({
   if (!author) return {};
   const title = `${author.name} — Author`;
   const description = author.bio.split("\n\n")[0].slice(0, 300);
-  const ogImage = `https://storage.googleapis.com/grandoldbooks-assets${author.image}`;
   return {
     title,
     description,
     alternates: { canonical: `/authors/${id}` },
-    openGraph: { title: author.name, description, images: [{ url: ogImage }] },
-    twitter: { card: "summary", title: author.name, description, images: [ogImage] },
+    openGraph: { title: author.name, description },
+    twitter: { card: "summary", title: author.name, description },
   };
 }
 

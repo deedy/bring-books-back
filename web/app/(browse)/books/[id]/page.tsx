@@ -34,7 +34,6 @@ export async function generateMetadata({
   const author = catalog.authors.find((a) => a.id === book.authorId);
   const title = author?.name === "Various" ? book.title : `${book.title} by ${author?.name ?? "Unknown"}`;
   const description = book.summary.slice(0, 300);
-  const ogImage = `https://storage.googleapis.com/grandoldbooks-assets${book.coverImage}`;
   return {
     title,
     description,
@@ -46,13 +45,11 @@ export async function generateMetadata({
     openGraph: {
       title,
       description,
-      images: [{ url: ogImage }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
     },
   };
 }
