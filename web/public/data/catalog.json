@@ -2014,7 +2014,7 @@
       "title": "Bhagavad Gita",
       "transliteratedTitle": "Bhagavad Gita",
       "subtitle": "Timeless Wisdom from the Battlefield of Life",
-      "authorId": "swami-chinmayananda",
+      "authorId": "vyasa",
       "coverImage": "/data/images/covers/bhagavad-gita.webp",
       "accentColor": "#B8860B",
       "genre": [
@@ -2032,8 +2032,8 @@
       "addedDate": "2026-03-08",
       "hasOriginalText": true,
       "hasModernText": true,
-      "englishLabel": "English (Easwaran)",
-      "modernLabel": "English (Chinmayananda)",
+      "englishLabel": "Eknath Easwaran",
+      "modernLabel": "Swami Chinmayananda",
       "originalScript": "Devanagari",
       "popularity": 92
     },
@@ -2982,12 +2982,11 @@
     {
       "id": "swami-chinmayananda",
       "name": "Swami Chinmayananda",
+
       "image": "/data/images/authors/swami-chinmayananda.webp",
       "years": "1916–1993",
       "bio": "Swami Chinmayananda (1916–1993) was born Balakrishna Menon in Kerala, India. After completing his studies in English literature and law at Lucknow University, he began his career in journalism, writing for The National Herald. In the late 1940s, his spiritual quest led him to study under Swami Sivananda and Swami Tapovanam in the Himalayas, where he was initiated into the monastic order and given the name Chinmayananda. He went on to become one of the most prominent teachers of Advaita Vedanta, founding the Chinmaya Mission in 1953 to spread the teachings of the Upanishads and Bhagavad Gita worldwide.\n\nSwami Chinmayananda's literary and spiritual contributions have had a lasting impact on modern Hindu thought. He is best known for his accessible commentaries and interpretations of ancient scriptures, making Vedanta philosophy relevant to contemporary audiences. His major works include 'The Holy Geeta' (1969), which is featured on this site—a comprehensive English commentary on the Bhagavad Gita. Through this work and others, he demystified complex spiritual concepts, emphasizing practical wisdom for daily life. His legacy endures through the global network of Chinmaya Mission centers, educational initiatives, and a vast body of writings that continue to inspire seekers around the world.",
-      "bookIds": [
-        "bhagavad-gita"
-      ]
+      "bookIds": []
     },
     {
       "id": "vishnu-sharma",
@@ -3044,9 +3043,11 @@
       "name": "Vyasa",
       "image": "/data/images/authors/vyasa.webp",
       "years": "c. 4th century BCE",
+
       "bio": "Vyasa, also known as Krishna Dvaipayana or Veda Vyasa, is the legendary sage traditionally credited with composing the Mahabharata, one of the two great Sanskrit epics of ancient India. According to tradition, he was born on an island in the Yamuna river and was the son of the sage Parashara and the fisherwoman Satyavati. Vyasa is also attributed with compiling and arranging the four Vedas into their current form, earning the title 'Veda Vyasa' or 'splitter of the Vedas.' He plays a unique dual role as both the author and a character within the Mahabharata, appearing at critical moments in the narrative.\n\nThe Mahabharata, featured on this site in Kisari Mohan Ganguli's English prose translation (1883-1896), is the longest epic poem ever written, spanning over 200,000 verses (shlokas) organized into 18 books (Parvas). It tells the story of the great Kurukshetra war between the Pandavas and Kauravas, but encompasses a vast range of philosophical, religious, and moral teachings — including the Bhagavad Gita, one of the most influential spiritual texts in history. Vyasa's work has shaped the religious, cultural, and literary imagination of South Asia and beyond for over two millennia.",
       "bookIds": [
-        "mahabharata"
+        "mahabharata",
+        "bhagavad-gita"
       ]
     },
     {

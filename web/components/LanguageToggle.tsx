@@ -32,10 +32,10 @@ export default function LanguageToggle({
     ? (LANGUAGE_LABELS[originalLanguage] ?? originalLanguage)
     : null;
 
-  const options: { key: LanguageOption; label: string }[] = [
-    { key: "english", label: englishLabel ?? "English" },
+  const options: { key: LanguageOption; label: string; sub?: string }[] = [
+    { key: "english", label: englishLabel ? "English" : "English", sub: englishLabel ?? undefined },
   ];
-  if (hasModern) options.push({ key: "modern", label: modernLabel ?? "Modern" });
+  if (hasModern) options.push({ key: "modern", label: modernLabel ? "English" : "Modern", sub: modernLabel ?? undefined });
   if (hasKid) options.push({ key: "child", label: "Child" });
   if (hasOriginal && nativeLabel) options.push({ key: "original", label: nativeLabel });
 
@@ -54,14 +54,17 @@ export default function LanguageToggle({
           <button
             key={opt.key}
             onClick={() => onLanguageChange?.(opt.key)}
-            className="px-4 py-2 font-medium transition-colors"
+            className="px-4 py-2 font-medium transition-colors flex flex-col items-center"
             style={
               active === opt.key
                 ? { backgroundColor: accentColor, color: "white" }
                 : { color: "rgba(255,255,255,0.5)" }
             }
           >
-            {opt.label}
+            <span>{opt.label}</span>
+            {opt.sub && (
+              <span className="text-[10px] opacity-60 font-normal leading-tight">{opt.sub}</span>
+            )}
           </button>
         ))}
       </div>
