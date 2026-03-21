@@ -14,10 +14,13 @@
   "originalLanguage": "Sanskrit",
   "originalScript": "Devanagari",
   "originalTitle": "The Holy Geeta",
-  "originalYear": 1969,
+  "originalYear": -400,
   "totalChapters": 18,
-  "wordCount": 305692,
+  "wordCount": 461486,
   "hasOriginalText": true,
+  "hasModernText": true,
+  "englishLabel": "English (Easwaran)",
+  "modernLabel": "English (Chinmayananda)",
   "summary": "Step onto the sacred fields of Kurukshetra, where ancient warriors face not just each other but the very dilemmas of existence. Swami Chinmayananda’s masterful commentary breathes new life into the Bhagavad Gita, unraveling its profound dialogues on duty, righteousness, and the path to liberation. Each translated verse is illuminated with insightful explanations that connect age-old philosophy to modern struggles, making the spiritual teachings vibrantly accessible. Whether you seek clarity amid chaos or inspiration for purposeful action, this work offers a transformative journey into the heart of Indian wisdom.",
   "popularity": 92
 }

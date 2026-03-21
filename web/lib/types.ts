@@ -27,6 +27,11 @@ interface BookBase {
   originalScript?: string;
   /** When the original text language differs from originalLanguage (e.g. Hindi text for a Sanskrit original) */
   originalTextLanguage?: string;
+  hasAudio?: boolean;
+  /** Per-book label override for the English translation tab (e.g. "English (Easwaran)") */
+  englishLabel?: string;
+  /** Per-book label override for the Modern translation tab (e.g. "English (Chinmayananda)") */
+  modernLabel?: string;
 }
 
 export interface Book extends BookBase {
@@ -101,6 +106,13 @@ export interface ReadingProgress {
   lastReadAt: string;
   finished: boolean;
   currentSection?: number | null;
+  bookmark?: {
+    chapter: number;
+    scrollPercent: number;
+    paragraphIndex: number;
+    section?: number | null;
+    setAt: string;
+  } | null;
 }
 
 export interface Annotation {
@@ -176,6 +188,24 @@ export interface OfflineBookEntry {
   languageParam?: string;
   cachedAt: string;
   estimatedSizeMB?: number;
+}
+
+export interface AudioSegment {
+  paragraphStart: number;
+  paragraphEnd: number;
+  startSec: number;
+  endSec: number;
+}
+
+export interface ChapterAudio {
+  audioFile: string;
+  durationSec: number;
+  segments: AudioSegment[];
+}
+
+export interface AudioManifest {
+  voice: string;
+  chapters: Record<string, ChapterAudio>;
 }
 
 export interface OfflineBookPayload {

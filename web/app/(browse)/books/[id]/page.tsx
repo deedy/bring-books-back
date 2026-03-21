@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getCatalog, getAnnotations, getChapters, getAnthologyData } from "@/lib/data";
+import { getCatalog, getAnnotations, getChapters, getAnthologyData, getAudioManifest } from "@/lib/data";
 import BookCard from "@/components/BookCard";
 import ShareButtons from "@/components/ShareButtons";
 import BookOpenTracker from "@/components/BookOpenTracker";
@@ -14,7 +14,8 @@ import StoryGrid from "@/components/StoryGrid";
 import AnnotatedSummary from "@/components/AnnotatedSummary";
 import { buildGlossaryPreviewData } from "@/lib/bookDetails";
 import { HeaderBackProvider } from "@/lib/headerContext";
-import { readingTime, displayYear, getNewBookIds, pageCount } from "@/lib/utils";
+import { readingTime, displayYear, getNewBookIds, pageCount, extractAudioDurations } from "@/lib/utils";
+import HeadphoneIcon from "@/components/icons/HeadphoneIcon";
 
 export function generateStaticParams() {
   const catalog = getCatalog();
@@ -100,6 +101,9 @@ export default async function BookPage({
   const chaptersForList = chaptersData
     ? chaptersData.chapters.map(({ paragraphs, ...rest }) => rest)
     : [];
+
+  const audioManifest = !isAnthology ? getAudioManifest(id) : null;
+  const audioDurations = extractAudioDurations(audioManifest);
 
   // For anthology member books: find siblings
   const otherBooks = isAnthology
@@ -214,6 +218,12 @@ export default async function BookPage({
                 {book.totalStories} stories
               </span>
             )}
+            {book.hasAudio && (
+              <div className="absolute top-3 left-3 flex items-center gap-1 px-2 py-1 rounded-full bg-black/70 backdrop-blur-sm z-[1]">
+                <HeadphoneIcon className="text-white" />
+                <span className="text-[9px] font-bold text-white uppercase tracking-wider">Audio</span>
+              </div>
+            )}
             <CoverBadge bookId={book.id} isNew={isNew} isAnthology={isAnthology} />
           </div>
         </div>
@@ -314,6 +324,9 @@ export default async function BookPage({
                 originalLanguage={book.originalLanguage}
                 originalScript={book.originalScript}
                 originalTextLanguage={book.originalTextLanguage}
+                hasAudio={book.hasAudio}
+                englishLabel={book.englishLabel}
+                modernLabel={book.modernLabel}
               />
               <BookOpenTracker bookId={book.id} />
             </>
@@ -349,7 +362,7 @@ export default async function BookPage({
       {/* Regular book: Chapters (hide for single-chapter books) */}
       {!isAnthology && chaptersForList.length > 1 && (
         <section className="max-w-4xl mx-auto px-6 mt-16">
-          <ChapterList chapters={chaptersForList} bookId={book.id} accentColor={book.accentColor} heading="Chapters" />
+          <ChapterList chapters={chaptersForList} bookId={book.id} accentColor={book.accentColor} heading="Chapters" audioDurations={audioDurations} />
         </section>
       )}
 

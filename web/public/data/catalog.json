@@ -2024,13 +2024,16 @@
       ],
       "originalLanguage": "Sanskrit",
       "originalTitle": "The Holy Geeta",
-      "originalYear": 1969,
+      "originalYear": -400,
       "totalChapters": 18,
-      "wordCount": 305692,
+      "wordCount": 461486,
       "summary": "Step onto the sacred fields of Kurukshetra, where ancient warriors face not just each other but the very dilemmas of existence. Swami Chinmayananda’s masterful commentary breathes new life into the Bhagavad Gita, unraveling its profound dialogues on duty, righteousness, and the path to liberation. Each translated verse is illuminated with insightful explanations that connect age-old philosophy to modern struggles, making the spiritual teachings vibrantly accessible. Whether you seek clarity amid chaos or inspiration for purposeful action, this work offers a transformative journey into the heart of Indian wisdom.",
       "previewText": "Dhritarashtra said: 1. What did the sons of Pandu and also my people do when, desirous to fight, they assembled together on the holy plain of Kurukshetra, O Sanjaya? In the entire Geeta this is the only verse which the blind old king Dhritarashtra gives out. All the rest of the seven hundred stanzas are Sanjaya's report on what happened on the Kurukshetra battle-field, just before the war. The blind old king is certainly conscious of the palpable injustices that he had done to his nephews, the Pandavas. Dhritarashtra knew the relative strength of the two armies, and therefore, was fully confident of the larger strength of his son's army. And yet, the viciousness of his past and the consciousness of the crimes perpetrated seem to be weighing heavily upon the heart of the blind king, and so he has his own doubts on the outcome of this war. He asks Sanjaya to explain to him what is happening on the battle-field of Kurukshetra. Vyasa had given Sanjaya the powers to see and listen to the happenings in far-off Kurukshetra even while he was sitting beside Dhritarashtra in the palace at Hastinapura.",
       "addedDate": "2026-03-08",
       "hasOriginalText": true,
+      "hasModernText": true,
+      "englishLabel": "English (Easwaran)",
+      "modernLabel": "English (Chinmayananda)",
       "originalScript": "Devanagari",
       "popularity": 92
     },
@@ -2307,31 +2310,6 @@
       "popularity": 95
     },
     {
-      "id": "ramayana",
-      "title": "Ramayana",
-      "transliteratedTitle": "Ramayana",
-      "subtitle": "An Epic Tale of Duty, Adventure, and Love",
-      "authorId": "valmiki",
-      "coverImage": "/data/images/covers/ramayana.webp",
-      "accentColor": "#D4451A",
-      "genre": [
-        "Epic Poetry",
-        "Mythology"
-      ],
-      "originalLanguage": "Sanskrit",
-      "originalTitle": "रामायण",
-      "originalYear": -500,
-      "totalChapters": 7,
-      "wordCount": 561636,
-      "hasOriginalText": true,
-      "originalTextLanguage": "Hindi",
-      "summary": "Journey into the heart of ancient India with the Ramayana, Valmiki’s timeless epic that weaves together heroism, devotion, and the eternal struggle between good and evil. When Prince Rama is banished from his kingdom on the eve of his coronation, he retreats into the wilderness with his devoted wife Sita and loyal brother Lakshmana. But when Sita is abducted by the fearsome demon-king Ravana, Rama must forge an alliance with the monkey-king Sugriva and the mighty Hanuman to wage war across the seas and storm the fortress of Lanka. Spanning seven books from Rama’s miraculous birth to his final ascent to heaven, this sweeping saga explores themes of duty, sacrifice, forbidden love, and the triumph of virtue in a world where gods walk among mortals and every choice echoes through eternity.",
-      "previewText": "SECTION I The ascetic Vālmiki asked that best of sages and foremost of those conversant with words, ever engaged in austerities and Vaidika studies, Nārada saying,—\"Who at present in this world is alike crowned with qualities, and endued with prowess, knowing duty, and grateful, and truthful, and firm in vow,—who is qualified by virtue of his character, and who is ever studious of the welfare of all creatures? Who is learned, hath studied society, and knoweth the art of pleasing his subjects? And who alone is ever lovely to behold? Who hath subdued his heart, and controlled his anger, is endowed with personal grace, and devoid of malice; and whom, enraged in battle, do even the gods, fear? Great is my curiosity to hear of such a person. Thou canst, O Maharshi1 tell me of a man of this description.\" Hearing Valmiki’s words, Nārada, cognizant of the three worlds, said with alacrity,—\"Do thou listen! Rare as are the qualities mentioned by thee, I will, O sage, having duly considered, describe unto thee a person endued with them. There is one sprung from the line of Ikshwāku, known by the name of Rāma. He is of subdued soul and exceeding prowess; effulgent; endowed with patience; havin",
-      "addedDate": "2026-03-11",
-      "hasModernText": true,
-      "popularity": 93
-    },
-    {
       "id": "anna-karenina",
       "title": "Anna Karenina",
       "transliteratedTitle": "Anna Karenina",
@@ -2374,32 +2352,6 @@
       "previewText": "\"Well, Prince, so Genoa and Lucca are now just family estates of the Buonapartes. But I warn you, if you don't tell me that this means war, if you still try to defend the infamies and horrors perpetrated by that Antichrist—I really believe he is Antichrist—I will have nothing more to do with you and you are no longer my friend, no longer my 'faithful slave,' as you call yourself! But how do you do? I see I have frightened you—sit down and tell me all the news.\" It was in July, 1805, and the speaker was the well-known Anna Pavlovna Scherer, maid of honor and favorite of the Empress Marya Fedorovna. With these words she greeted Prince Vasili Kuragin, a man of high rank and importance, who was the first to arrive at her reception. Anna Pavlovna had had a cough for some days. She was, as she said, suffering from la grippe; grippe being then a new word in St. Petersburg, used only by the elite. All her invitations without exception, written in French, and delivered by a scarlet-liveried footman that morning, ran as follows:",
       "addedDate": "2026-03-11",
       "popularity": 90
-    },
-    {
-      "id": "bible",
-      "title": "The Bible",
-      "transliteratedTitle": "The Bible",
-      "subtitle": "Journey Through Creation, Covenant, and Redemption",
-      "authorId": "various",
-      "coverImage": "/data/images/covers/bible.webp",
-      "accentColor": "#1B3A4B",
-      "genre": [
-        "Scripture",
-        "History",
-        "Poetry",
-        "Prophecy"
-      ],
-      "originalLanguage": "Hebrew",
-      "originalTitle": "",
-      "originalYear": -1400,
-      "totalChapters": 66,
-      "wordCount": 772669,
-      "summary": "What kind of book opens with the creation of the universe and closes with its unmaking? The Bible begins in darkness — \"Let there be light\" — and never lets go. Here is the great flood that drowned a world and the ark that saved it. Here is Moses parting the Red Sea, David slaying Goliath with a stone, Solomon building a temple of impossible splendor only to watch wisdom slip through his fingers. Here are lovers in a garden singing the most erotic poetry of the ancient world. Here is Job, stripped of everything, demanding answers from God — and getting them. The prophets rage against injustice. The psalms swing between ecstasy and despair, sometimes in the same verse. Then comes Jesus — born in a stable, executed on a cross, and what happened next split history in two. Paul's letters crackle with urgency, written from prison cells to communities tearing themselves apart. And at the end, Revelation: a fever dream of angels, beasts, and a new heaven descending like a bride. No other book has been so fought over, so banned, so beloved, so misquoted, or so world-shaping. Sixty-six books. Forty-plus authors. Over a thousand years of writing. One relentless question: what does God want from us?",
-      "hasSections": true,
-      "previewText": "Chapter 1: The Beginning In the beginning God created the heavens and the earth. Now the earth was formless and empty, darkness was over the surface of the deep, and the Spirit of God was hovering over the waters. And God said, “Let there be light,” and there was light. God saw that the light was good, and he separated the light from the darkness. God called the light “day,” and the darkness he called “night.” And there was evening, and there was morning—the first day.",
-      "addedDate": "2026-03-11",
-      "hasModernText": true,
-      "popularity": 99
     },
     {
       "id": "quran",
@@ -2548,6 +2500,302 @@
       "previewText": "",
       "addedDate": "2026-03-13",
       "popularity": 48
+    },
+    {
+      "id": "vedas-rigveda",
+      "title": "Rigveda",
+      "transliteratedTitle": "Rigveda",
+      "subtitle": "Ancient Hymns Illuminating Divine Mysteries",
+      "authorId": "vedic-rishis",
+      "coverImage": "/data/images/covers/vedas-rigveda.webp",
+      "accentColor": "#C4872F",
+      "genre": [
+        "Sacred Text",
+        "Poetry",
+        "Philosophy",
+        "Hymns"
+      ],
+      "originalLanguage": "Sanskrit",
+      "originalTitle": "चतुर्वेद",
+      "originalYear": -1400,
+      "totalChapters": 10,
+      "wordCount": 304873,
+      "summary": "The oldest surviving collection of Vedic hymns, the Rigveda preserves 1,028 Sanskrit compositions from around 1500 BC addressing deities like Agni, Indra, and Varuna. This foundational Hindu text includes the famous Hymn of Creation and Gayatri Mantra, offering direct access to the religious and cosmological thinking of early Indo-Aryan civilization.",
+      "anthologyId": "vedas",
+      "hasOriginalText": true,
+      "originalLanguageLabel": "Sanskrit",
+      "popularity": 95,
+      "previewText": "Hymn I: Agni 1. I laud Agni, the chosen Priest, God, minister of sacrifice, The hotar, lavishest of wealth. 2. Worthy is Agni to be praised by living as by ancient seers. He shall bring hitherward the Gods.",
+      "addedDate": "2026-03-13"
+    },
+    {
+      "id": "vedas-yajurveda",
+      "title": "Yajurveda",
+      "transliteratedTitle": "Yajurveda",
+      "subtitle": "Ancient Rituals and Mystical Invocations Revealed",
+      "authorId": "vedic-rishis",
+      "coverImage": "/data/images/covers/vedas-yajurveda.webp",
+      "accentColor": "#C4872F",
+      "genre": [
+        "Sacred Text",
+        "Poetry",
+        "Philosophy",
+        "Hymns"
+      ],
+      "originalLanguage": "Sanskrit",
+      "originalTitle": "चतुर्वेद",
+      "originalYear": -1100,
+      "totalChapters": 48,
+      "wordCount": 262132,
+      "summary": "The Yajurveda presents the ritual formulas and mantras essential for performing Vedic sacrifices, from fire ceremonies to the elaborate horse sacrifice (Ashvamedha). This collection exists in two distinct versions: the Black Yajurveda combines mantras with explanatory commentary, while the White Yajurveda contains only the ritual verses themselves. The text concludes with the philosophical Isha Upanishad, bridging ritual practice and spiritual inquiry.",
+      "anthologyId": "vedas",
+      "popularity": 95,
+      "previewText": "Prapathaka I Prapathaka I The New and Full Moon Sacrifices",
+      "addedDate": "2026-03-13"
+    },
+    {
+      "id": "vedas-samaveda",
+      "title": "Samaveda",
+      "transliteratedTitle": "Samaveda",
+      "subtitle": "Mysteries of the Divine Fire and Thunder",
+      "authorId": "vedic-rishis",
+      "coverImage": "/data/images/covers/vedas-samaveda.webp",
+      "accentColor": "#C4872F",
+      "genre": [
+        "Sacred Text",
+        "Poetry",
+        "Philosophy",
+        "Hymns"
+      ],
+      "originalLanguage": "Sanskrit",
+      "originalTitle": "चतुर्वेद",
+      "originalYear": -1100,
+      "totalChapters": 15,
+      "wordCount": 46997,
+      "summary": "The Samaveda contains 1,549 verses primarily drawn from the Rigveda but arranged specifically for melodic chanting during Vedic soma rituals. This collection provides the musical liturgy used by Udgatri priests, with verses organized by deity in the first section and extended ceremonial sequences in the second. Griffith's 1895 translation preserves the ritual structure of these sacred melodies that formed the foundation of Vedic musical worship.",
+      "anthologyId": "vedas",
+      "popularity": 95,
+      "previewText": "Chapter I Chapter I OM. GLORY TO the Samaveda! To Lord Ganesa glory! Om.",
+      "addedDate": "2026-03-13"
+    },
+    {
+      "id": "vedas-atharvaveda",
+      "title": "Atharvaveda",
+      "transliteratedTitle": "Atharvaveda",
+      "subtitle": "Mystical Hymns and Ancient Wisdom Revealed",
+      "authorId": "vedic-rishis",
+      "coverImage": "/data/images/covers/vedas-atharvaveda.webp",
+      "accentColor": "#C4872F",
+      "genre": [
+        "Sacred Text",
+        "Poetry",
+        "Philosophy",
+        "Hymns"
+      ],
+      "originalLanguage": "Sanskrit",
+      "originalTitle": "चतुर्वेद",
+      "originalYear": -950,
+      "totalChapters": 20,
+      "wordCount": 157623,
+      "summary": "Unlike the other three Vedas focused on public ritual, the Atharvaveda contains ~730 hymns addressing everyday concerns—healing spells, love charms, curses, marriage rites, and protection from disease. This collection also includes profound philosophical texts like the Prithivi Sukta (hymn to Earth) and Skambha Sukta (cosmic pillar). Named after sage Atharvan, it reveals the practical spiritual life of early India.",
+      "anthologyId": "vedas",
+      "popularity": 95,
+      "previewText": "Hymn I Hymn I A prayer to Vāchaspati for divine illumination and help.",
+      "addedDate": "2026-03-13"
+    },
+    {
+      "id": "vedas",
+      "title": "The Four Vedas",
+      "transliteratedTitle": "Chaturveda",
+      "subtitle": "Ancient Hymns Illuminating the Cosmic Dawn",
+      "authorId": "vedic-rishis",
+      "coverImage": "/data/images/covers/vedas.webp",
+      "accentColor": "#C4872F",
+      "genre": [
+        "Sacred Text",
+        "Poetry",
+        "Philosophy",
+        "Hymns"
+      ],
+      "originalLanguage": "Sanskrit",
+      "originalTitle": "चतुर्वेद",
+      "originalYear": -1500,
+      "totalChapters": 93,
+      "wordCount": 771625,
+      "summary": "This complete anthology presents all four Vedas—Hinduism's foundational scriptures from 1500-500 BC—in their entirety across 93 chapters and over 770,000 words. You'll find the Rigveda's hymns to Indra and Agni, the Yajurveda's sacrificial formulas, the Samaveda's chanted melodies, and the Atharveda's healing spells and philosophical speculation. The translations by Griffith and Keith capture the original Vedic Sanskrit in scholarly English prose.",
+      "type": "anthology",
+      "totalStories": 4,
+      "popularity": 95,
+      "previewText": "",
+      "addedDate": "2026-03-13",
+      "yearEnd": -900
+    },
+    {
+      "id": "ramcharitmanas",
+      "title": "Ramcharitmanas",
+      "transliteratedTitle": "Ramcharitmanas",
+      "subtitle": "An Epic Journey of Devotion and Virtue",
+      "authorId": "tulsidas",
+      "coverImage": "/data/images/covers/ramcharitmanas.webp",
+      "accentColor": "#B8530A",
+      "genre": [
+        "Devotional Poetry",
+        "Epic"
+      ],
+      "originalLanguage": "Hindi",
+      "originalTitle": "श्रीरामचरितमानस",
+      "originalYear": 1574,
+      "totalChapters": 7,
+      "wordCount": 198977,
+      "hasOriginalText": true,
+      "originalScript": "Devanagari",
+      "summary": "Step into the luminous world of Ramcharitmanas, where the divine life of Lord Rama unfolds in mesmerizing poetry and heartfelt devotion. Goswami Tulsidas weaves together the enchanting tales of Rama’s childhood, exile, and battles with poetic beauty and philosophical depth. Through vivid invocations and stirring verses, the epic brings to life the values of courage, loyalty, and righteousness, inviting readers to reflect on the eternal struggle between good and evil. Whether you seek spiritual inspiration or literary splendor, this beloved masterpiece offers a timeless journey into the heart of dharma, devotion, and the enduring power of love.",
+      "popularity": 90,
+      "previewText": "**Balakanda – The First Step** **Invocation Verses** I bow to Sarasvati, the goddess of speech, and to Ganesa, the remover of obstacles—creators of all letters, meanings, flavors, meters, and auspiciousness.",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "id": "ramayana",
+      "title": "Ramayana",
+      "transliteratedTitle": "Ramayana",
+      "subtitle": "An Epic Tale of Duty, Valor, and Destiny",
+      "authorId": "valmiki",
+      "coverImage": "/data/images/covers/ramayana.webp",
+      "accentColor": "#D4451A",
+      "genre": [
+        "Epic Poetry",
+        "Mythology"
+      ],
+      "originalLanguage": "Sanskrit",
+      "originalTitle": "रामायण",
+      "originalYear": -500,
+      "totalChapters": 7,
+      "wordCount": 561037,
+      "summary": "Journey into the heart of ancient India with the Ramayana, a majestic poem that weaves together heroism, love, and the eternal struggle between good and evil. Follow Prince Rama—the embodiment of virtue and strength—as he faces exile, perilous forests, and supernatural foes in his quest to rescue his beloved Sita from the clutches of the formidable demon king Ravana. Alongside loyal allies and facing daunting challenges, Rama’s odyssey unfolds in verses rich with spiritual wisdom, adventure, and timeless moral lessons. Valmiki’s masterpiece, rendered in evocative Victorian verse, invites readers to explore a world where gods and mortals clash, and the true meaning of honor and devotion is revealed.",
+      "popularity": 93,
+      "hasSections": true,
+      "previewText": "SECTION I The ascetic Vālmiki asked that best of sages and foremost of those conversant with words, ever engaged in austerities and Vaidika studies, Nārada saying,—\"Who at present in this world is alike crowned with qualities, and endued with prowess, knowing duty, and grateful, and truthful, and firm in vow,—who is qualified by virtue of his character, and who is ever studious of the welfare of all creatures? Who is learned, hath studied society, and knoweth the art of pleasing his subjects? And who alone is ever lovely to behold? Who hath subdued his heart, and controlled his anger, is endowed with personal grace, and devoid of malice; and whom, enraged in battle, do even the gods, fear? Great is my curiosity to hear of such a person. Thou canst, O Maharshi⟨fn:1⟩ tell me of a man of this description.\" Hearing Valmiki's words, Nārada, cognizant of the three worlds, said with alacrity,—\"Do thou listen! Rare as are the qualities mentioned by thee, I will, O sage, having duly considered, describe unto thee a person endued with them. There is one sprung from the line of Ikshwāku, known by the name of Rāma. He is of subdued soul and exceeding prowess; effulgent; endowed with patience; ",
+      "addedDate": "2026-03-11"
+    },
+    {
+      "id": "great-gatsby",
+      "title": "The Great Gatsby",
+      "transliteratedTitle": "The Great Gatsby",
+      "subtitle": "Desire, Deceit, and the Illusion of Glamour",
+      "authorId": "f-scott-fitzgerald",
+      "coverImage": "/data/images/covers/great-gatsby.webp",
+      "accentColor": "#C5A54E",
+      "genre": [
+        "Novel",
+        "Tragedy",
+        "Modernist Fiction"
+      ],
+      "originalLanguage": "English",
+      "originalTitle": "The Great Gatsby",
+      "originalYear": 1925,
+      "totalChapters": 9,
+      "wordCount": 48385,
+      "summary": "Step into the dazzling world of 1920s Long Island, where jazz echoes through grand mansions and secrets shimmer beneath the surface. Narrated by the reflective Nick Carraway, The Great Gatsby introduces the enigmatic millionaire Jay Gatsby—whose legendary parties mask a singular, haunting obsession. As old money and new fortunes collide, Fitzgerald weaves a vivid tapestry of longing, betrayal, and the pursuit of an unattainable dream. With iconic imagery and lyrical prose, this timeless classic lays bare the seductive allure and the devastating emptiness at the heart of the American Dream.",
+      "popularity": 97,
+      "previewText": "In my younger and more vulnerable years my father gave me some advice that I’ve been turning over in my mind ever since. “Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.” He didn’t say any more, but we’ve always been unusually communicative in a reserved way, and I understood that he meant a great deal more than that. In consequence, I’m inclined to reserve all judgments, a habit that has opened up many curious natures to me and also made me the victim of not a few veteran bores. The abnormal mind is quick to detect and attach itself to this quality when it appears in a normal person, and so it came about that in college I was unjustly accused of being a politician, because I was privy to the secret griefs of wild, unknown men. Most of the confidences were unsought—frequently I have feigned sleep, preoccupation, or a hostile levity when I realized by some unmistakable sign that an intimate revelation was quivering on the horizon; for the intimate revelations of young men, or at least the terms in which they express them, are usually plagiaristic and marred by obvious suppressions. ",
+      "addedDate": "2026-03-15",
+      "hasAudio": true
+    },
+    {
+      "id": "fountainhead",
+      "title": "The Fountainhead",
+      "transliteratedTitle": "The Fountainhead",
+      "subtitle": "A Visionary Architect’s Battle for Integrity",
+      "authorId": "ayn-rand",
+      "coverImage": "/data/images/covers/fountainhead.webp",
+      "accentColor": "#8B4513",
+      "genre": [
+        "Novel",
+        "Philosophical Fiction",
+        "Modernist Fiction"
+      ],
+      "originalLanguage": "English",
+      "originalTitle": "The Fountainhead",
+      "originalYear": 1943,
+      "totalChapters": 59,
+      "wordCount": 312577,
+      "summary": "The Fountainhead plunges readers into the bold world of Howard Roark, an uncompromising architect whose radical designs defy convention and ignite controversy. Set amidst New York’s soaring skyscrapers and smoky newsrooms, Roark’s journey unfolds in stark opposition to a society demanding conformity. With vivid prose and dramatic moral clashes, Ayn Rand explores the fierce struggle between creative individualism and the pressures of collective approval. Through dazzling cityscapes and unforgettable characters, this philosophical epic invites you to witness one man’s fight to shape his destiny—no matter the cost.",
+      "popularity": 88,
+      "previewText": "HOWARD ROARK LAUGHED. He stood naked at the edge of a cliff. The lake lay far below him. A frozen explosion of granite burst in flight to the sky over motionless water. The water seemed immovable, the stone flowing. The stone had the stillness of one brief moment in battle when thrust meets thrust and the currents are held in a pause more dynamic than motion. The stone glowed, wet with sunrays. The lake below was only a thin steel ring that cut the rocks in half. The rocks went on into the depth, unchanged. They began and ended in the sky. So that the world seemed suspended in space, an island floating on nothing, anchored to the feet of the man on the cliff. His body leaned back against the sky. It was a body of long straight lines and angles, each curve broken into planes. He stood, rigid, his hands hanging at his sides, palms out. He felt his shoulder blades drawn tight together, the curve of his neck, and the weight of the blood in his hands. He felt the wind behind him, in the hollow of his spine. The wind waved his hair against the sky. His hair was neither blond nor red, but the exact color of ripe orange rind.",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "id": "1984",
+      "title": "1984",
+      "transliteratedTitle": "1984",
+      "subtitle": "A Chilling Vision of Totalitarian Control",
+      "authorId": "george-orwell",
+      "coverImage": "/data/images/covers/1984.webp",
+      "accentColor": "#4A4A4A",
+      "genre": [
+        "Novel",
+        "Dystopian Fiction",
+        "Political Novel",
+        "Science Fiction"
+      ],
+      "originalLanguage": "English",
+      "originalTitle": "1984",
+      "originalYear": 1949,
+      "totalChapters": 24,
+      "wordCount": 103412,
+      "summary": "Step into a world where every thought is monitored and every move watched by the ever-present face of Big Brother. In the bleak, oppressive society of Oceania, Winston Smith dares to question the regime that demands absolute loyalty and erases all traces of individuality. As Winston secretly rebels against the Party’s suffocating grip, he embarks on a perilous journey through forbidden love, dangerous truths, and relentless surveillance. George Orwell’s 1984 is a gripping masterpiece—a prophetic exploration of power, language, and resistance that will leave you questioning the very nature of freedom and reality.",
+      "popularity": 97,
+      "previewText": "It was a bright cold day in April, and the clocks were striking thirteen. Winston Smith, his chin nuzzled into his breast in an effort to escape the vile wind, slipped quickly through the glass doors of Victory Mansions, though not quickly enough to prevent a swirl of gritty dust from entering along with him. The hallway smelt of boiled cabbage and old rag mats. At one end of it a coloured poster, too large for indoor display, had been tacked to the wall. It depicted simply an enormous face, more than a metre wide: the face of a man of about forty-five, with a heavy black moustache and ruggedly handsome features. Winston made for the stairs. It was no use trying the lift. Even at the best of times it was seldom working, and at present the electric current was cut off during daylight hours. It was part of the economy drive in preparation for Hate Week. The flat was seven flights up, and Winston, who was thirty-nine and had a varicose ulcer above his right ankle, went slowly, resting several times on the way. On each landing, opposite the lift-shaft, the poster with the enormous face gazed from the wall. It was one of those pictures which are so contrived that the eyes follow you abo",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "id": "catcher-in-the-rye",
+      "title": "The Catcher in the Rye",
+      "transliteratedTitle": "The Catcher in the Rye",
+      "subtitle": "A Teenage Rebel’s Journey Through New York",
+      "authorId": "jd-salinger",
+      "coverImage": "/data/images/covers/catcher-in-the-rye.webp",
+      "accentColor": "#B22222",
+      "genre": [
+        "Novel",
+        "Coming-of-Age",
+        "Modernist Fiction"
+      ],
+      "originalLanguage": "English",
+      "originalTitle": "The Catcher in the Rye",
+      "originalYear": 1951,
+      "totalChapters": 26,
+      "wordCount": 74002,
+      "summary": "Step into the restless mind of Holden Caulfield, a seventeen-year-old navigating the gritty streets and glitzy facades of 1950s New York. Recently expelled from prep school, Holden sets out on a whirlwind adventure filled with hotels, bars, and city landmarks, all while wrestling with the loss of innocence and the phoniness he sees in the adult world. With his raw, confessional voice and sharp wit, Holden invites readers to experience his moments of vulnerability, rebellion, and fleeting hope. The Catcher in the Rye is a timeless coming-of-age story that captures the turbulence and longing of adolescence like no other.",
+      "popularity": 95,
+      "previewText": "IF YOU REALLY want to hear about it, the first thing you’ll probably want to know is where I was born, and what my lousy childhood was like, and how my parents were occupied and all before they had me, and all that David Copperfield kind of crap, but I don’t feel like going into it, if you want to know the truth. In the first place, that stuff bores me, and in the second place, my parents would have about two hemorrhages apiece if I told anything pretty personal about them. They’re quite touchy about anything like that, especially my father. They’re nice and all—I’m not saying that—but they’re also touchy as hell. Besides, I’m not going to tell you my whole goddam autobiography or anything. I’ll just tell you about this madman stuff that happened to me around last Christmas just before I got pretty run-down and had to come out here and take it easy. I mean that’s all I told D.B. about, and he’s my brother and all. He’s in Hollywood. That isn’t too far from this crumby place, and he comes over and visits me practically every week end. He’s going to drive me home when I go home next month maybe. He just got a Jaguar. One of those little English jobs that can do around two hundred mil",
+      "addedDate": "2026-03-15"
+    },
+    {
+      "id": "bible",
+      "title": "The Bible",
+      "transliteratedTitle": "The Bible",
+      "subtitle": "Epic Stories of Faith, Struggle, and Revelation",
+      "authorId": "various",
+      "coverImage": "/data/images/covers/bible.webp",
+      "accentColor": "#1B3A4B",
+      "genre": [
+        "Scripture",
+        "History",
+        "Poetry",
+        "Prophecy"
+      ],
+      "originalLanguage": "Hebrew",
+      "originalTitle": "",
+      "originalYear": -1400,
+      "totalChapters": 66,
+      "wordCount": 803791,
+      "summary": "Journey through the sweeping narrative of The Bible, where creation springs from darkness, nations rise and fall, and the destinies of individuals and peoples unfold against the backdrop of ancient deserts and bustling empires. This foundational masterpiece weaves together poetry, prophecy, and timeless wisdom, exploring humanity’s deepest questions and greatest hopes. From the dawn of the world to the birth of a new covenant, its pages brim with dramatic encounters, miraculous events, and stirring calls for justice and compassion. Whether you seek spiritual insight, historical intrigue, or literary grandeur, The Bible stands as an enduring beacon, inviting readers into the heart of the world’s most influential story.",
+      "popularity": 99,
+      "hasSections": true,
+      "hasNumberedVerses": true,
+      "previewText": "Chapter 1: The Beginning 1. In the beginning God created the heavens and the earth. 2. Now the earth was formless and empty, darkness was over the surface of the deep, and the Spirit of God was hovering over the waters.",
+      "addedDate": "2026-03-11"
     }
   ],
   "authors": [
@@ -2840,6 +3088,66 @@
       "bio": "Govardhanram Madhavram Tripathi (1855–1907) was a distinguished Gujarati writer, lawyer, and intellectual, widely regarded as a towering figure in Indian literary and cultural history. Born in Nadiad, Gujarat, Tripathi pursued his education at Elphinstone College in Bombay (now Mumbai), where he earned a law degree. He established a successful legal practice, yet his passion for literature and social reform led him to play a vital role in the cultural renaissance of Gujarat. Deeply influenced by contemporary debates on ethics, society, and identity during colonial India, Tripathi was active in educational and political circles, advocating for progressive causes until his death in 1907.\n\nTripathi’s enduring legacy rests on his magnum opus, 'Sarasvatichandra' (1887–1901), which is featured on our site in the acclaimed English translation by Tridip Suhrud. Spanning four volumes and 99 chapters, the novel is foundational to modern Gujarati literature, blending literary fiction, social critique, and philosophical inquiry. Through the journey of its eponymous protagonist, Tripathi explores themes of dharma, renunciation, women's agency, statecraft, and the cultural tensions of colonial-era Gujarat. 'Sarasvatichandra' is celebrated for its complex characters, vivid depiction of princely states, and profound engagement with the moral dilemmas of modernity, securing Tripathi’s place as a pioneer of the Indian social novel and a shaping influence on generations of writers.",
       "bookIds": [
         "sarasvatichandra"
+      ]
+    },
+    {
+      "id": "vedic-rishis",
+      "name": "Vedic Rishis",
+      "image": "/data/images/authors/vedic-rishis.webp",
+      "years": "c. 1500–1200 BC",
+      "bio": "The Vedic Rishis were ancient sages and seers who lived in the Indian subcontinent during the early Vedic period, approximately between 1500 and 1200 BC. While their individual identities are often shrouded in legend, these figures are revered as the inspired composers of the earliest Sanskrit hymns and mantras. The Rishis hailed from various tribes and regions, and their oral compositions formed the foundation of Hindu spiritual and ritual life. Their teachings were transmitted orally across generations, eventually being codified into the four Vedas. This process spanned centuries, with no single author but rather a collective spiritual authorship.\n\nThe literary significance of the Vedic Rishis lies in their creation of the Four Vedas—Rigveda, Yajurveda (Black and White), Samaveda, and Atharvaveda—the oldest and most authoritative scriptures of Hinduism. These texts, composed in Vedic Sanskrit, encompass sacred hymns, philosophical discourses, rituals, and poetic invocations to various deities. The book featured on our site, 'The Four Vedas,' presents an anthology of these foundational works, reflecting the spiritual, philosophical, and cultural worldview of ancient India. The enduring legacy of the Vedic Rishis is evident in the continued study, recitation, and reverence of the Vedas, which have shaped religious, philosophical, and literary traditions across South Asia for millennia.",
+      "bookIds": [
+        "vedas"
+      ]
+    },
+    {
+      "id": "tulsidas",
+      "name": "Goswami Tulsidas",
+      "image": "/data/images/authors/tulsidas.webp",
+      "years": "1532–1623",
+      "bio": "Goswami Tulsidas (1532–1623) was a revered Hindu poet-saint, philosopher, and theologian, widely considered one of the greatest figures in Indian devotional literature. Born in Rajapur, Uttar Pradesh, India, Tulsidas spent much of his early life in hardship, losing his parents at a young age. He was educated in Sanskrit and the sacred scriptures under the guidance of various learned scholars and sadhus. Renouncing worldly life, Tulsidas eventually settled in Varanasi and later in Ayodhya, where he dedicated himself to spiritual pursuits and literary composition, becoming a leading proponent of the bhakti (devotional) movement in North India.\n\nTulsidas is best known for composing the Ramcharitmanas (1574), a retelling of the Sanskrit Ramayana in the Awadhi dialect of Hindi. This epic devotional poem, the featured work on our site, is celebrated for its poetic elegance, philosophical depth, and profound devotion to Lord Rama. Structured in seven sections (Kandas), Ramcharitmanas has become the most popular and widely recited version of the Ramayana in North India, deeply influencing religious practices, performance traditions, and vernacular literature. Tulsidas's legacy endures through his other devotional works and his pivotal role in shaping the spiritual and literary landscape of India.",
+      "bookIds": [
+        "ramcharitmanas"
+      ]
+    },
+    {
+      "id": "f-scott-fitzgerald",
+      "name": "F. Scott Fitzgerald",
+      "image": "/data/images/authors/f-scott-fitzgerald.webp",
+      "years": "1896–1940",
+      "bio": "F. Scott Fitzgerald (1896–1940) was an American novelist born in St. Paul, Minnesota. He attended Princeton University, though he left without graduating to join the army during World War I. Fitzgerald's early literary success came with the publication of his debut novel, 'This Side of Paradise' (1920), which captured the spirit of the Jazz Age. He married Zelda Sayre in 1920, and their tumultuous relationship often mirrored the extravagance and struggles of the era. Throughout his life, Fitzgerald grappled with financial instability and personal challenges, including Zelda's mental illness and his own battle with alcoholism. He spent much of the 1920s in Europe among the expatriate community of writers and artists, before returning to the United States in the 1930s.\n\nFitzgerald is widely regarded as one of the defining voices of twentieth-century American literature. His most celebrated work, 'The Great Gatsby' (1925), is featured on this site and remains a cornerstone of modernist fiction. Through its first-person narrative, evocative imagery, and incisive critique of the American Dream, the novel captures the allure and disillusionment of the Roaring Twenties. Fitzgerald's lyrical prose and exploration of themes such as wealth, class, and longing have secured his place in the literary canon. Though his work was underappreciated during his lifetime, Fitzgerald's legacy endures, with 'The Great Gatsby' considered a quintessential reflection on the complexities of American society.",
+      "bookIds": [
+        "great-gatsby"
+      ]
+    },
+    {
+      "id": "ayn-rand",
+      "name": "Ayn Rand",
+      "image": "/data/images/authors/ayn-rand.webp",
+      "years": "1905–1982",
+      "bio": "Ayn Rand (1905–1982) was a Russian-American writer and philosopher born Alisa Zinovyevna Rosenbaum in St. Petersburg, Russia. She witnessed the Russian Revolution before emigrating to the United States in 1926. Rand studied history at Petrograd State University and briefly attended the State Institute for Cinematography. After arriving in America, she worked as a screenwriter in Hollywood before turning to fiction. Overcoming initial financial hardships, Rand established herself as a novelist and thinker, marrying actor Frank O'Connor in 1929 and becoming a U.S. citizen in 1931.\n\nAyn Rand is best known for her novels and for developing the philosophical system known as Objectivism. Her literary reputation was solidified with the publication of 'The Fountainhead' (1943), a novel exploring the conflict between individualism and collectivism through the story of architect Howard Roark. The book's bold philosophical themes and distinctive narrative style made it a lasting cultural touchstone. Rand further expanded her ideas in 'Atlas Shrugged' (1957), cementing her influence on American libertarian and conservative thought. 'The Fountainhead' remains a seminal work in modernist and philosophical fiction, celebrated for its passionate defense of personal integrity and creative freedom.",
+      "bookIds": [
+        "fountainhead"
+      ]
+    },
+    {
+      "id": "george-orwell",
+      "name": "George Orwell",
+      "image": "/data/images/authors/george-orwell.webp",
+      "years": "1903–1950",
+      "bio": "George Orwell, born Eric Arthur Blair in 1903 in Motihari, British India, was an English novelist, essayist, journalist, and critic. He was educated at Eton College in England and later served in the Indian Imperial Police in Burma, an experience that shaped his anti-authoritarian outlook. Orwell returned to Europe to pursue a writing career, living in poverty in London and Paris before gaining recognition with works like 'Down and Out in Paris and London.' Throughout his life, Orwell was deeply engaged in political issues, fighting in the Spanish Civil War and critiquing totalitarianism and social injustice in his journalism and literature. He died in 1950 at the age of 46 from tuberculosis, leaving behind a lasting literary legacy.\n\nOrwell is best known for his incisive critiques of oppressive political systems and his exploration of language and truth. His major works include 'Animal Farm' (1945) and '1984' (Nineteen Eighty-Four, 1949), the latter of which is featured on this site. '1984' is a seminal dystopian novel set in a society under constant surveillance by the Party and its leader, Big Brother. The novel's stark prose and chilling portrayal of totalitarian control have made it a touchstone for discussions on censorship, propaganda, and individual freedom. Orwell's vision has profoundly influenced political thought, popular culture, and the vocabulary of modern political discourse, ensuring his continued relevance.",
+      "bookIds": [
+        "1984"
+      ]
+    },
+    {
+      "id": "jd-salinger",
+      "name": "J.D. Salinger",
+      "image": "/data/images/authors/jd-salinger.webp",
+      "years": "1919–2010",
+      "bio": "J.D. Salinger was born Jerome David Salinger on January 1, 1919, in New York City. Raised in Manhattan, he attended several schools, including Valley Forge Military Academy, before briefly enrolling at Ursinus College and New York University. Salinger began writing short stories in the late 1930s, with his work appearing in magazines such as The New Yorker. His experiences serving in World War II deeply affected him and influenced his writing. Following the immense success of his debut novel, Salinger became increasingly reclusive, withdrawing from public life and publishing only sporadically after the 1960s. He spent much of his later life in Cornish, New Hampshire, and passed away in 2010.\n\nJ.D. Salinger's literary reputation rests primarily on his groundbreaking novel, 'The Catcher in the Rye' (1951), which is featured on this site. The book's candid first-person narration and its exploration of adolescent alienation and innocence struck a chord with readers and critics alike, securing its place as a landmark of modern American literature. Salinger also published acclaimed short story collections, such as 'Nine Stories' and works featuring the Glass family. His distinctive style, marked by colloquial language and deep psychological insight, has influenced generations of writers. Despite his limited output, Salinger's legacy endures, with 'The Catcher in the Rye' remaining a touchstone for coming-of-age fiction.",
+      "bookIds": [
+        "catcher-in-the-rye"
       ]
     }
   ]

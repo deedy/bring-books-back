@@ -12,6 +12,8 @@ interface LanguageToggleProps {
   hasOriginal?: boolean;
   hasModern?: boolean;
   hasKid?: boolean;
+  englishLabel?: string;
+  modernLabel?: string;
   onLanguageChange?: (lang: LanguageOption) => void;
 }
 
@@ -22,6 +24,8 @@ export default function LanguageToggle({
   hasOriginal,
   hasModern,
   hasKid,
+  englishLabel,
+  modernLabel,
   onLanguageChange,
 }: LanguageToggleProps) {
   const nativeLabel = originalLanguage
@@ -29,15 +33,15 @@ export default function LanguageToggle({
     : null;
 
   const options: { key: LanguageOption; label: string }[] = [
-    { key: "english", label: "English" },
+    { key: "english", label: englishLabel ?? "English" },
   ];
-  if (hasModern) options.push({ key: "modern", label: "Modern" });
+  if (hasModern) options.push({ key: "modern", label: modernLabel ?? "Modern" });
   if (hasKid) options.push({ key: "child", label: "Child" });
   if (hasOriginal && nativeLabel) options.push({ key: "original", label: nativeLabel });
 
   if (options.length <= 1) return null;
 
-  const subtitle = active === "modern"
+  const subtitle = active === "modern" && !modernLabel
     ? "Rewritten with AI in modern English"
     : active === "child"
       ? "Rewritten with AI for a 10-year-old audience"

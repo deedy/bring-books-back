@@ -18,6 +18,9 @@ interface ReadActionsProps {
   originalLanguage?: string;
   originalScript?: string;
   originalTextLanguage?: string;
+  hasAudio?: boolean;
+  englishLabel?: string;
+  modernLabel?: string;
 }
 
 export default function ReadActions({
@@ -31,6 +34,9 @@ export default function ReadActions({
   originalLanguage,
   originalScript,
   originalTextLanguage,
+  hasAudio,
+  englishLabel,
+  modernLabel,
 }: ReadActionsProps) {
   const setBookLanguage = useReadingStore((s) => s.setBookLanguage);
   const storedLang = useReadingStore((s) => s.bookLanguages[bookId]);
@@ -74,13 +80,14 @@ export default function ReadActions({
   // Reserve layout space but hide content until hydrated to avoid flicker
   return (
     <div style={{ visibility: hydrated ? "visible" : "hidden" }}>
-      <div className="mt-6 flex flex-wrap items-center gap-3">
+      <div className="mt-6 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3">
         <ReadButton
           bookId={bookId}
           accentColor={accentColor}
           totalChapters={totalChapters}
           languageParam={languageParam}
           progress={hydrated ? progress : null}
+          hasAudio={hasAudio}
         />
         <DownloadButton bookId={bookId} languageParam={languageParam} wordCount={wordCount} totalChapters={totalChapters} />
       </div>
@@ -95,6 +102,8 @@ export default function ReadActions({
             hasOriginal={hasOriginalText}
             hasModern={hasModernText}
             hasKid={hasKidText}
+            englishLabel={englishLabel}
+            modernLabel={modernLabel}
             onLanguageChange={handleLanguageChange}
           />
         </div>
